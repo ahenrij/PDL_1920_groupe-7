@@ -81,11 +81,3 @@ now it's our turn to improve their work
 * Oceane THELISMA
 * Noussi AMAL
 * Karima GRAMI
-
-
-
-now it's our turn to improve their work 
-
-
-* Awa Diaby
-
