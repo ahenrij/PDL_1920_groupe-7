@@ -88,4 +88,6 @@ now it's our turn to improve their work
 
 
 * Awa Diaby
+* Thibaud
+* Maurice Aka
 

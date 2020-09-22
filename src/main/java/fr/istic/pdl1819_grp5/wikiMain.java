@@ -80,7 +80,7 @@ public class wikiMain {
         stat.statbeforeExtraction(urlsFile, wikitablestat);
         logger.log(Level.INFO, "end of searching table by criteria");
 
-        // Html extraction
+        // Html extractionnow it's our turn to improve their work 
         wiki.setUrlsMatrix(getListofUrls(urlsFile));
         wiki.setExtractType(ExtractType.HTML);
         logger.log(Level.INFO, "Extracting via html...");
