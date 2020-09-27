@@ -33,11 +33,11 @@ public class ConverterToCsv implements Converter {
 		  * row & column: where the cell begin
 		  */
 
-		 static class PriorityCell{
-		private  int colspan;
-        private  int rowspan;
-        private final int row;
-        private final int column;
+		static class PriorityCell{
+			private  int colspan;
+	        private  int rowspan;
+	        private final int row;
+	        private final int column;
 
 		/**
 		 * @param rowspan length of the cell in row
@@ -73,13 +73,14 @@ public class ConverterToCsv implements Converter {
 		logger.entering(ConverterToCsv.class.getName(),"isNested", table);
 		boolean hasTableParent = false;
 		Elements parents = table.parents();
-		for (Element parent : parents)
+		for (Element parent : parents) {
 			if(parent.nodeName().equalsIgnoreCase("table")){
 				hasTableParent =true;
 				break;
 			}
+		}
 		boolean hasTablechild = table.getElementsByTag("table").size()>1;
-			logger.exiting(ConverterToCsv.class.getName(),"isNested",hasTablechild||hasTableParent);
+		logger.exiting(ConverterToCsv.class.getName(),"isNested",hasTablechild||hasTableParent);
 		return hasTableParent || hasTablechild;
 	}
 
@@ -166,7 +167,7 @@ public class ConverterToCsv implements Converter {
         logger.entering(ConverterToCsv.class.getName(),"hasPriorityCell",new Object[]{row,column});
         boolean found=false;
         for (PriorityCell p: listOfCells) {
-            if(p.row==row && ((column<=p.column+p.colspan-1) || p.colspan==0) ){
+            if(p.row==row && ((column<=p.column + p.colspan-1) || p.colspan==0) ){
                 found=true;
                 break;
             }else if( p.column==column && ((row<=p.row+p.rowspan-1) || p.rowspan==0) ){
@@ -197,21 +198,18 @@ public class ConverterToCsv implements Converter {
 
 		try {
 			Document doc = Jsoup.connect(url).get();
-			Elements tables = doc.getElementsByTag("table");
+			Elements tables = doc.getElementsByTag("table"); 
 
 			for(int i =0; i<tables.size();i++){
 				if(isRelevant(tables.get(i))  &&  !isNested(tables.get(i)) ){
+					logger.info("ConvertFromHtml - inside if = " + tables.size());
 					csvSet.add(convertHtmlTable(tables.get(i)));
 					nbRelev++;
 				}
-
 				else{
 					nbNotRelev++;
 				}
-
-				}
-
-
+			}
 		}catch (HttpStatusException e){
 		}
 		return csvSet;
@@ -240,7 +238,7 @@ public class ConverterToCsv implements Converter {
 
 		listOfCells.clear();
 
-        	Elements trs = htmlTable.select("tbody tr");
+        Elements trs = htmlTable.select("tbody tr");
 		writeInCsv(trs, csvBuilder, nbCol);
 
 		listOfCells.clear();

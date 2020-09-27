@@ -1,10 +1,10 @@
 package fr.istic.pdl1819_grp5;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
-
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
@@ -47,6 +47,7 @@ public class wikiMain {
 
 
         File urlsFile = new File("inputdata\\wikiurls.txt");
+        System.out.println(urlsFile.getAbsolutePath());
 
 
         if (!urlsFile.exists() && !urlsFile.isDirectory()) {
@@ -99,7 +100,7 @@ public class wikiMain {
             int i = 0;
             url = urlMatrix.getLink();
             urls.add(url);
-            //System.out.println(url);
+            System.out.println("Url :" +url);
 
             Set<FileMatrix> fileMatrices = urlMatrix.getFileMatrix();
             for (FileMatrix f : fileMatrices) {
@@ -114,6 +115,7 @@ public class wikiMain {
         System.out.println("Extractor HTML created " + numberFileHtml + " files.");//affichage du nombre de tableaux extraits
         System.out.println("Temps d'exécution = " + (System.currentTimeMillis() - execHtml) + " ms");
 
+        
         // Wikitext extraction
         ArrayList<String> urlsWikitext = new ArrayList<String>();
         ArrayList<Integer> extractedWikitext = new ArrayList<Integer>();
@@ -163,12 +165,13 @@ public class wikiMain {
 
             BufferedReader br = null;
             br = new BufferedReader(new FileReader(inputFile));
-            String BASE_WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/";
+            String BASE_WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/"; 
             String url;
             String wurl;
             URL uneURL = null;
             while ((url = br.readLine()) != null) {
                 wurl = BASE_WIKIPEDIA_URL + url;
+                System.out.println("WURL : "+wurl);
                 uneURL = new URL(wurl);
                 HttpURLConnection connexion = (HttpURLConnection) uneURL.openConnection();
                 if (connexion.getResponseCode() == HttpURLConnection.HTTP_OK) {
