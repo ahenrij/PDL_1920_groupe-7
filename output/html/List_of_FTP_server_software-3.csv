@@ -1,0 +1,26 @@
+,,Cerberus,Complete,CrushFTP Server,FileZilla,IIS,Multi Server
+,License type,proprietary,proprietary,proprietary,FLOSS/GPL2,proprietary,proprietary
+OS,Linux,No,No,Yes,No,No,No
+,Mac OS X,No,No,Yes,No,No,No
+,Unix,No,?,Yes,No,No,No
+,Windows,Yes,Yes,Yes,Yes,Yes,Yes
+User Interface,CLI,?,?,Yes,?,"Yes, via PowerShell[4]",?
+,GUI integrated,Yes,?,Yes,Yes,Yes,?
+,GUI(s) separately,Yes,?,?,?,?,?
+,Web-based GUI,Yes,Yes,Yes,No,No,?
+Services,FTP,Yes,Yes,Yes,Yes,Yes,Yes
+,SFTP,Yes,Yes,Yes,No,No,Yes
+,FTPS,Yes,Yes,Yes,Yes,Yes,Yes
+,SCP,Yes,Yes,Yes,No,No,Yes
+,WebDAV,No,No,Yes,No,Yes,No
+,HTTP/HTTPS,Yes,Yes,Yes,No,Yes,Yes
+,AS2,No,No,Yes,No,No,No
+Authentication,LDAP,Yes,Yes,Yes,No,No,No
+,Active Directory,Yes,Yes,Yes,No,Yes,Yes
+,Local,Yes,Yes,Yes,Yes,Yes,Yes
+,Database,No,Yes,Yes,No,No,Yes
+High Availability,Failover Cluster (active/passive),Yes,No,Yes,No,Yes,No
+,Load Balancing (active/active),Yes,?,Yes,No,Yes,?
+Automation,Event-handling,Yes,Yes,Yes,No,No,?
+,Scripting,No,Yes,Yes,No,No,?
+,,Cerberus,Complete,CrushFTP Server,FileZilla,IIS,Multi Server

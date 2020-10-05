@@ -157,6 +157,7 @@ public class wikiMain {
     }
 
     public static Set<UrlMatrix> getListofUrls(File inputFile) {
+    	
         logger.entering(wikiMain.class.getName(), "getListofUrls", inputFile);
         try {
             Set<UrlMatrix> urlsMatrix = new HashSet<UrlMatrix>();
@@ -167,14 +168,18 @@ public class wikiMain {
             String url;
             String wurl;
             URL uneURL = null;
+            
             while ((url = br.readLine()) != null) {
                 wurl = BASE_WIKIPEDIA_URL + url;
                 uneURL = new URL(wurl);
+                System.out.println(uneURL);
                 HttpURLConnection connexion = (HttpURLConnection) uneURL.openConnection();
                 if (connexion.getResponseCode() == HttpURLConnection.HTTP_OK) {
                     urlsMatrix.add(new UrlMatrix(wurl));
                 }
+                //System.out.println("ceci est un test" +inputFile);
             }
+            
             logger.exiting(wikiMain.class.getName(), "getListofUrls", urlsMatrix);
             return urlsMatrix;
 

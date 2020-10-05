@@ -1,0 +1,171 @@
+,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+Exception DOMException,,,,,,,
+DOM1,code,5.0[t 1],?,1.0,?,?,1.0
+Interface DOMStringList,,,,,,,
+DOM3,length,6.0[t 2],No,1.6,No,?,2.0
+,contains(),,,,,?,
+,item(),,,,,?,
+Interface NameList,,,,,,,
+DOM3,length,No,No,1.6,No,No,No
+,getName(),,,,,,
+,getNamespaceURI(),,,,,,
+,contains(),,,,,,
+,containsNS(),,,,,,
+Interface DOMImplementationList,,,,,,,
+DOM3,length,No,No,No,No,No,No
+,item(),,,,,,
+Interface DOMImplementationSource,,,,,,,
+DOM3,getDOMImplementation(),No,No,No,No,No,No
+,getDOMImplementationList(),,,,,,
+Interface DOMImplementation,,,,,,,
+DOM1,hasFeature(),6.0,?,1.0,Yes,?,1.0
+DOM2,createDocumentType(),9.0[t 3],No,,,?,1.0
+,createDocument(),,,,,?,
+DOM3,getFeature(),No,,No,No,?,1.0
+Interface DocumentFragment,,,,,,,
+DOM1,(no properties),6.0,No,1.0,?,?,1.0
+Interface Document,,,,,,,
+DOM1,doctype,9.0,Yes,Partial,Yes,?,1.0
+,createElement(),4.0,,1.0,,?,
+,createTextNode(),5.0,,,,?,
+,createAttribute(),6.0,,,,?,
+,documentElement,5.0,,,,?,
+,getElementsByTagName(),,,,,?,
+,implementation,6.0,,,,?,
+,createDocumentFragment(),,No,,,?,
+,createComment(),,,,,?,
+,createCDATASection(),9.0[t 3],,,,?,
+,createProcessingInstruction(),,?,1.7,,?,
+,createEntityReference(),No,?,No [1],,?,No
+DOM2,importNode(),9.0[t 3],No,1.0,Yes,?,1.0
+,createElementNS(),,,,,?,
+,createAttributeNS(),,,,,?,
+,getElementsByTagNameNS(),,,,,?,
+,getElementById(),8.0,Yes,,,?,2.1
+DOM3,adoptNode(),9.0[t 3],No,1.7,Yes,?,2.0
+,inputEncoding,,,,No,?,No
+,xmlEncoding,,,,,?,
+,xmlStandalone,,,,,?,
+,xmlVersion,,,,,?,
+,domConfig,No,,No,,?,
+,strictErrorChecking,,,1.7,,?,
+,documentURI,,,,,?,
+,normalizeDocument(),,,,,?,
+,renameNode(),,,,,?,
+Interface Node,,,,,,,
+DOM1,nodeName,5.0,Yes,1.0,Yes,?,1.0
+,nodeValue,,,,,?,
+,nodeType,,,,,?,
+,parentNode,,,,,?,
+,childNodes,,,,,?,
+,firstChild,,,,,?,
+,lastChild,,,,,?,
+,previousSibling,,,,,?,
+,nextSibling,,,,,?,
+,attributes,,,,,?,
+,cloneNode(),,,,,?,
+,insertBefore(),,,Partial,,?,
+,replaceChild(),,,,,?,
+,removeChild(),,,,,?,
+,appendChild(),,,,,?,
+,ownerDocument,6.0,,1.9,,?,
+,hasChildNodes(),,,1.0,,?,
+DOM2,namespaceURI,5.0,Yes,1.0,Yes,?,1.0
+,prefix,,,,,?,
+,localName,,,,,?,
+,isSupported(),9.0[t 3],,,,?,
+,hasAttributes(),,,,,?,
+DOM3,isSameNode(),9.0,No,1.8,Yes,?,2.1
+,compareDocumentPosition(),9.0[t 3],,1.7,,4.2.4,
+,baseURI,No,,,,?,Yes
+,textContent,9.0[t 3],,,,?,2.0
+,lookupPrefix(),,,,,?,
+,isDefaultNamespace(),,,,,?,
+,lookupNamespaceURI(),,,,,?,
+,getFeature(),No,,,,?,
+,setUserData(),,,,,?,No
+,getUserData(),,,,,?,
+,isEqualNode(),9.0[t 3],,1.9,,?,2.7
+Interface NodeList,,,,,,,
+DOM1,length,5.0,Yes,1.0,Yes,?,1.0
+,item(),,,,,?,
+Interface NamedNodeMap,,,,,,,
+DOM1,length,5.0,Yes,1.0,Yes,?,1.0
+,getNamedItem(),,,,,?,
+,setNamedItem(),,,,,?,
+,removeNamedItem(),,,,,?,
+,item(),,,,,?,
+DOM2,getNamedItemNS(),9.0[t 3],No,1.0,Yes,?,1.0
+,setNamedItemNS(),,,,,?,
+,removeNamedItemNS(),,,,,?,
+Interface CharacterData,,,,,,,
+DOM1,data,4.0,Yes,1.0,Yes,?,1.0
+,length,,,,,?,
+,substringData(),,,,,?,
+,appendData(),,,,,?,
+,insertData(),,,,,?,
+,deleteData(),,,,,?,
+,replaceData(),,,,,?,
+Interface Attr,,,,,,,
+DOM1,name,6.0,?,1.0,Yes,Yes,1.0
+,value,,?,,,,
+,specified,Incorrect,Incorrect,1.9.1,Yes,Yes,
+DOM2,ownerElement,9.0[t 3],?,1.0,Yes,Yes,1.0
+DOM3,schemaTypeInfo,No,No,No,No,?,No
+,isId,,,1.9,,No,
+Interface Element,,,,,,,
+DOM1,tagName,4.0,Yes,1.0,Yes,Yes,1.0
+,getElementsByTagName(),,,,,,
+,getAttribute(),8.0,,,,,
+,setAttribute(),,,,,,
+,removeAttribute(),,,,,,
+,getAttributeNode(),6.0,,,,,
+,setAttributeNode(),9.0[t 3],,,,,
+,removeAttributeNode(),,,,,,
+,normalize(),,,,No,?,
+DOM2,getAttributeNS(),9.0[t 3],Yes,1.0,Yes,?,1.0
+,setAttributeNS(),,,,,?,
+,removeAttributeNS(),,,,,?,
+,getAttributeNodeNS(),,,,,?,
+,setAttributeNodeNS(),,,,,?,
+,getElementsByTagNameNS(),,No,,,?,
+,hasAttribute(),,Yes,,,?,
+,hasAttributeNS(),,,,,?,
+DOM3,schemaTypeInfo,No,No,No,No,?,No
+,setIdAttribute(),,,,,?,
+,setIdAttributeNS(),,,,,?,
+,setIdAttributeNode(),,,,,?,
+Interface Text,,,,,,,
+DOM1,splitText(),9.0[t 3],Yes,1.0,Yes,?,1.0
+DOM3,isElementContentWhitespace,No,No,1.9.1,No,?,Yes
+,wholeText,9.0[t 3],,,,?,2.1
+,replaceWholeText(),,,,,?,
+Interface Comment,,,,,,,
+DOM1,(no properties),6.0,No,1.0,Yes,?,1.0
+Interface TypeInfo,,,,,,,
+DOM3,typeName,No,No,No,No,No,No
+,typeNamespace,,,,,,
+,isDerivedFrom(),,,,,,
+Interface UserDataHandler,,,,,,,
+DOM3,handle(),No,No,No,No,No,No
+Interface DOMError,,,,,,,
+DOM3,severity,No,No,No,No,No,2.0
+,message,,,,,,
+,type,,,,,,
+,location,,,,,,
+,relatedData,,,,,,
+,relatedException,,,,,,No
+Interface DOMErrorHandler,,,,,,,
+DOM3,handleError(),No,No,No,No,No,2.0
+Interface DOMLocator,,,,,,,
+DOM3,lineNumber,No,No,No,No,No,2.0
+,columnNumber,,,,,,
+,byteOffset,,,,,,
+,utf16Offset,,,,,,
+,relatedNode,,,,,,
+,uri,,,,,,
+Interface DOMConfiguration,,,,,,,
+DOM3,parameterNames,No,No,No,No,?,2.0
+,setParameter(),,,,,?,
+,getParameter(),,,,,?,
+,canSetParameter(),,,,,?,

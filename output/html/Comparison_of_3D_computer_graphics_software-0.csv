@@ -1,0 +1,16 @@
+Application,Alembic Importer,USD Importer,Rendering Engine,Volume Rendering for clouds,Interactive Rendering,Isolating light contribution,Light Lister,IES Light,Physical Sun & Sky,Sun Positioning by location and times,Light Portal,Shadow Catcher,IBL and Environment texture,,,Highlight Placement,Light Layers
+,,,,,,,,,,,,,Lat Long,sIBL,Light Extraction[17],,
+Maya,Yes,(USD for Maya),Maya Hardware 2.0,?,Yes,No[18],Light Editor,?,?,?,?,?,Yes,?,?,(Place Highlight Tool for Maya),No
+,,,Maya Software,?,?,Light Linking,,No,?,?,?,?,Env Sphere,?,?,,No
+,,,Arnold,Yes,Yes,Light Linking,,Ai Photometric Light,Yes,?,Yes,Yes,Yes,?,?,,No
+3ds Max,Yes,No,Quicksilver,?,Yes,No[19],Light Lister,?,?,?,?,?,?,?,?,Place Highlight,No
+,,,Scanline,?,?,Light Exclude/Include,,?,?,?,?,Yes,?,sIBL-GUI software,?,,No
+,,,ART,?,?,?,,Yes,?,?,?,?,?,?,?,,No
+,,,Arnold,Yes,Yes,Light Group[20],,Ai Photometric Light,Yes,Sun Positioner[21],Yes,Yes,Yes,?,?,,No
+Blender,2.78 and later,No,Workbench,Some,Yes,View Layers[22],Property Chart Addon / Gaffer addon,No,?,Sun Position addon,No,?,Yes,?,?,Look At Gizmo (with Ctrl key),No
+,,,EEVEE,Some,Yes,,,No,Yes,,No,Shader Node[23],Yes,?,?,,No
+,,,Cycles,Yes,Yes,,,2.80 and later[24],Yes,,from 2.75,from 2.79,Yes,sIBL_GUI for Blender addon/ Add Environment nodes addon,?,,No
+MODO,Yes,14.1 and later,MODO Renderer,Yes,Yes,Light Linking[25],?,Photometric Light,Directional Light[26],,Portal,Shadow Catcher,Yes,mm_sIBLToModoEnvironment script,?,?,No
+LightWave,11.6 and later,No,LightWave Renderer,Yes,Yes,?,?,Photometric Light,Yes,Yes,Yes,Yes,Yes,"original loader script, where most sIBL features were invented[27]",?,?,No
+Houdini,Yes,Solaris,Mantra (PT) / Karma,Yes,Yes,Light categories,Light bank,Yes,?,?,?,Shadow Matte,Yes,?,?,Solaris,?
+Cinema 4D,Yes,R23 and later,CineRender,?,Yes,Exclude/Include,?,Yes,?,?,?,from R18,Yes,?,?,?,?

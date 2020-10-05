@@ -1,0 +1,127 @@
+Language,,IBM Watson,Apertium,OpenLogos,Google Translate,Moses,Babel Fish,Bing Translator,GramTrans,SYSTRAN,IdiomaX
+To English,Arabic to English,Yes,No,No,Yes,No,No,Yes,No,Yes,No
+,Catalan to English,Yes,Yes,No,Yes,Yes,No,Yes,No,No,No
+,Chinese (Simplified) to English,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No
+,Chinese (Traditional) to English,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No
+,Czech to English,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No
+,Danish to English,Yes,No,No,Yes,Yes,No,Yes,Yes,Yes,No
+,Dutch to English,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No
+,Esperanto to English,No,Yes,No,Yes,Yes,No,No,No,No,No
+,Estonian to English,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No
+,Finnish to English,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No
+,French to English,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+,Galician to English,No,Yes,No,Yes,Yes,No,No,No,No,No
+,German to English,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No
+,Greek to English,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No
+,Haitian Creole to English,No,No,No,Yes,No,No,Yes,No,No,No
+,Hebrew to English,Yes,No,No,Yes,No,No,Yes,No,No,No
+,Hindi to English,Yes,No,No,Yes,No,No,Yes,No,Yes,No
+,Hungarian to English,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No
+,Indonesian to English,Yes,No,No,Yes,No,No,Yes,No,No,No
+,Irish to English,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+,Italian to English,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+,Japanese to English,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No
+,Korean to English,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No
+,Latvian to English,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No
+,Lithuanian to English,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,No
+,Macedonian to English,No,Yes,No,Yes,Yes,No,No,No,No,No
+,Malay to English,Yes,No,No,Yes,No,No,Yes,No,No,No
+,Maltese to English,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+,Norwegian to English,Yes,No,No,Yes,Yes,No,Yes,Yes,Yes,No
+,Persian to English,No,No,No,Yes,No,No,Yes,No,Yes,No
+,Polish to English,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No
+,Portuguese to English,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No
+,Portuguese (Brazilian) to English,Yes,No,No,No,No,No,Yes,No,No,No
+,Romanian to English,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No
+,Russian to English,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Serbo-Croatian to English,Yes,Yes,No,Yes,Yes,No,No,No,No,No
+,Slovak to English,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No
+,Slovenian to English,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No
+,Spanish to English,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+,Swedish to English,Yes,No,No,Yes,Yes,No,Yes,Yes,Yes,No
+,Tagalog to English,No,No,No,Yes,No,No,No,No,No,No
+,Thai to English,Yes,No,No,Yes,No,No,Yes,No,No,No
+,Turkish to English,Yes,No,No,Yes,No,No,Yes,No,Yes,No
+,Ukrainian to English,No,No,No,Yes,Yes,No,Yes,No,Yes,No
+,Welsh to English,No,Yes,No,Yes,Yes,No,Yes,No,No,No
+Language,,IBM Watson,Apertium,OpenLogos,Google Translate,Moses,Babel Fish,Bing Translator,GramTrans,SYSTRAN,IdiomaX
+Chinese (Simplified),English to Chinese (Simplified),Yes,No,No,Yes,No,Yes,Yes,Yes,Yes,No
+,German to Chinese (Simplified),Yes,No,No,Yes,No,No,Yes,No,No,No
+To Chinese (Traditional),English to Chinese (Traditional),Yes,No,No,Yes,No,Yes,Yes,No,Yes,No
+,German to Chinese (Traditional),Yes,No,No,Yes,No,No,Yes,No,No,No
+To Dutch,English to Dutch,Yes,No,?,Yes,Yes,Yes,Yes,Yes,Yes,No
+,French to Dutch,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No
+To French,English to French,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+,German to French,Yes,No,?,Yes,Yes,Yes,Yes,No,Yes,No
+,Spanish to French,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,Catalan to French,No,Yes,No,Yes,Yes,No,Yes,No,No,No
+,Russian to French,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes
+,Dutch to French,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No
+,Italian to French,Yes,?,?,Yes,Yes,?,Yes,?,Yes,Yes
+,Breton to French,No,Yes,No,No,Yes,No,No,No,No,No
+To Galician,English to Galician,No,Yes,?,Yes,Yes,No,No,No,No,No
+,Portuguese to Galician,No,Yes,No,Yes,Yes,No,No,No,No,No
+,Spanish to Galician,No,Yes,No,Yes,Yes,No,No,No,No,No
+To German,Chinese (Simplified) to German,Yes,No,No,No,No,No,Yes,No,No,No
+,Chinese (Traditional) to German,Yes,No,No,No,No,No,Yes,No,No,No
+,English to German,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No
+,French to German,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No
+,Spanish to German,Yes,No,No,Yes,Yes,No,Yes,No,Yes,No
+,Russian to German,Yes,No,No,Yes,No,Yes,Yes,No,No,No
+,Italian to German,Yes,?,?,Yes,Yes,?,Yes,?,Yes,Yes
+To Italian,English to Italian,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+,Spanish to Italian,Yes,No,?,Yes,Yes,?,Yes,?,Yes,Yes
+,French to Italian,Yes,No,?,Yes,Yes,?,Yes,?,Yes,Yes
+,German to Italian,Yes,No,?,Yes,Yes,?,Yes,?,Yes,Yes
+To Japanese,English to Japanese,Yes,No,No,Yes,No,Yes,Yes,No,Yes,No
+,German to Japanese,Yes,No,No,Yes,No,No,Yes,No,No,No
+To Korean,English to Korean,Yes,No,No,Yes,No,Yes,Yes,Yes,Yes,No
+To Portuguese,English to Portuguese,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No
+To Russian,English to Russian,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No
+,French to Russian,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+,Spanish to Russian,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+,German to Russian,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+,Italian to Russian,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+To Spanish,English to Spanish,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+,Russian to Spanish,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+,French to Spanish,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+,German to Spanish,Yes,No,?,Yes,Yes,No,Yes,No,Yes,No
+,Italian to Spanish,Yes,?,?,Yes,Yes,?,Yes,?,No,Yes
+To Welsh,English to Welsh,No,No,No,Yes,Yes,No,Yes,No,No,No
+Language,,IBM Watson,Apertium,OpenLogos,Google Translate,Moses,Babel Fish,Bing Translator,GramTrans,SYSTRAN,IdiomaX
+To Arabic,English to Arabic,Yes,No,No,Yes,No,No,Yes,No,Yes,No
+To Catalan,English to Catalan,No,Yes,?,Yes,Yes,No,Yes,No,No,No
+,French to Catalan,No,Yes,No,Yes,Yes,No,Yes,No,No,No
+,Italian to Catalan,No,Yes,No,Yes,Yes,No,Yes,No,No,No
+,Occitan to Catalan,No,Yes,No,Yes,Yes,No,No,No,No,No
+,Spanish to Catalan,Yes,Yes,No,Yes,Yes,No,Yes,No,No,No
+To Czech,English to Czech,Yes,No,?,Yes,Yes,No,Yes,No,Yes,No
+,German to Czech,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+To Danish,English to Danish,Yes,No,?,Yes,Yes,No,Yes,Yes,No,No
+To Esperanto,Catalan to Esperanto,No,Yes,No,Yes,Yes,No,No,No,No,No
+,Danish to Esperanto,No,No,No,Yes,Yes,No,No,Yes,No,No
+,English to Esperanto,No,Yes,No,Yes,Yes,No,No,Yes,No,No
+,French to Esperanto,No,Yes,No,Yes,Yes,No,No,No,No,No
+,Spanish to Esperanto,No,Yes,No,Yes,Yes,No,No,No,No,No
+To Finnish,English to Finnish,Yes,No,?,Yes,Yes,No,Yes,No,Yes,No
+To Greek,English to Greek,Yes,No,?,Yes,Yes,Yes,Yes,No,Yes,No
+To Haitian Creole,English to Haitian Creole,No,No,No,Yes,Yes,No,Yes,No,No,No
+To Hebrew,English to Hebrew,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+To Hindi,English to Hindi,Yes,No,No,Yes,No,No,Yes,No,No,No
+To Hungarian,English to Hungarian,Yes,No,?,Yes,Yes,No,Yes,No,Yes,No
+To Norwegian (Bokmål),English to Norwegian (Bokmål),Yes,No,?,Yes,Yes,No,Yes,Yes,No,No
+,Norwegian (Nynorsk) to Norwegian (Bokmål),No,Yes,No,No,Yes,No,No,No,No,No
+To Norwegian (Nynorsk),Norwegian (Bokmål) to Norwegian (Nynorsk),No,Yes,No,No,Yes,No,No,No,No,No
+To Occitan,Catalan to Occitan,No,Yes,No,No,Yes,No,No,No,No,No
+,Spanish to Occitan,No,Yes,No,No,Yes,No,No,No,No,No
+To Persian,English to Persian,No,No,No,Yes,No,No,Yes,No,No,No
+To Polish,English to Polish,Yes,No,?,Yes,Yes,No,Yes,No,Yes,No
+,German to Polish,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+To Romanian,English to Romanian,Yes,No,?,Yes,Yes,No,Yes,No,Yes,No
+To Serbo-Croatian,English to Serbo-Croatian,Yes,No,?,Yes,Yes,No,No,Yes,No,No
+To Slovenian,English to Slovenian,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+,German to Slovenian,Yes,No,No,Yes,Yes,No,Yes,No,No,No
+To Swedish,English to Swedish,Yes,No,?,Yes,Yes,No,Yes,No,Yes,No
+To Turkish,English to Turkish,Yes,No,No,Yes,No,No,Yes,No,Yes,No
+To Ukrainian,English to Ukrainian,No,No,?,Yes,Yes,No,Yes,No,Yes,No
+Total (confirmed),,92,28,9,110,31,89,103,15,65,59
