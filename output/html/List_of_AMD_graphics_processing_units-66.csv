@@ -1,25 +1,22 @@
-Model (codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TBP,Bus interface
-,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (MiB),Clock (MT/s),Band- width (GB/s),,
-Radeon R5 220[30] (Caicos Pro),"December 21, 2013 OEM",Terascale 2 40 nm,370×106 67 mm2,80:8:4,625 650,5,2.5,200,N/A,DDR3 64-bit,1024,1066,8.53,18 W,PCIe 2.1 ×16
-Radeon R5 230[31] (Caicos Pro),"April 3, 2014[32] ?",,,160:8:4,625,5,2.5,200,N/A,DDR3 64-bit,1024 2048,1066,8.53,19 W[33],
-Radeon R5 235[30] (Caicos XT),"December 21, 2013 OEM",,,160:8:4,775,6.2,3.1,248,N/A,DDR3 64-bit,1024,1800,14.4,35 W[34],
-Radeon R5 235X[30] (Caicos XT),"December 21, 2013 OEM",,,160:8:4,875,7.0,3.5,280,N/A,DDR3 64-bit,1024,1800,14.4,18 W,
-Radeon R5 240[30] (Oland),"November 1, 2013[35] OEM",GCN 1st gen 28 nm,1040×106 90 mm2,384:24:8,730 780,14.6,5.84,560.6 599,29.2,DDR3 GDDR3 64-bit,1024 2048,1800 2000,28.8 16.0,30 W,PCIe 3.0 ×8
-Radeon R7 240[36] (Oland Pro),"August 8, 2013 US $69",,,320:20:8,730 780,14.6,5.84,467.2 499.2,29.2,DDR3 GDDR5 128-bit,2048 4096,1800 4500,28.8 72,"30 W, <45 W (4 GB)[37]",
-Radeon R7 250[36] (Oland XT),"August 8, 2013 US $89",,,384:24:8,1000 (1050),24,8,768 806.4,48,DDR3 GDDR5 128-bit,1024 2048,1800 4600,73.6,75 W,
-Radeon R7 250E[38] (Cape Verde Pro),"December 21, 2013 US $109",,1500×106 123 mm2,512:32:16,800,25.6,12.8,819.2,51.2,GDDR5 128-bit,1024 2048,4500,72,55 W,PCIe 3.0 ×16
-Radeon R7 250X[36] (Cape Verde XT),"February 10, 2014 US $99",,,640:40:16,1000,40,16,1280,80,GDDR5 128-bit,1024 2048,4500,72,95 W,
-Radeon R7 260[36] (Bonaire),"December 17, 2013 US $109",GCN 2nd gen 28 nm,2080×106 160 mm2,768:48:16,1000,48,16,1536,96,GDDR5 128-bit,1024,6000,96,95 W,
-Radeon R7 260X[36] (Bonaire XTX),"August 8, 2013 US $139",,,896:56:16,1100,61.6,17.6,1971.2,123.2,GDDR5 128-bit,1024 2048,6500,104,115 W,
-Radeon R7 265[36] (Pitcairn Pro),"February 13, 2014 US $149",GCN 1st gen 28 nm,2800×106 212 mm2,1024:64:32,900 925,57.6,28.8,1843.2,115.2,GDDR5 256-bit,2048,5600,179.2,150 W,
-Radeon R9 270[39] (Pitcairn XT),"November 13, 2013 US $179",,,1280:80:32,900 925,72,28.8,2304 2368,144 148,GDDR5 256-bit,2048,5600,179.2,150 W,
-Radeon R9 270X[39] (Pitcairn XT),"August 8, 2013 US $199",,,1280:80:32,1000 1050,80,32,2560 2688,160 168,GDDR5 256-bit,2048 4096,5600,179.2,180 W,
-Radeon R9 280[39] (Tahiti Pro),"March 4, 2014 US $249",,4313×106 352 mm2,1792:112:32,827 933,92.6,26.5,2964 3343.9,741 836,GDDR5 384-bit,3072,5000,240,250 W,
-Radeon R9 280X[39] (Tahiti XTL)[40],"August 8, 2013 US $299",,,2048:128:32,850 1000,109–128,27.2–32,3481.6 4096,870.4 1024,GDDR5 384-bit,3072,6000,288,250 W,
-Radeon R9 285[39] (Tonga Pro),"September 2, 2014 US $249",GCN 3rd gen 28 nm,5000×106 359 mm2 [41],1792:112:32,918,102.8,29.4,3290,206.6[42],GDDR5 256-bit,2048,5500,176[f],190 W,
-Radeon R9 285X (Tonga XT),Unreleased [44],,,2048:128:32,1002,128.3,32.1,4104,256.5,GDDR5 384-bit,3072,5500,264,300 W,
-Radeon R9 290[39] (Hawaii Pro),"November 5, 2013 US $399",GCN 2nd gen 28 nm,6200×106 438 mm2 [45],2560:160:64,up to 947[g],151.52,60.608,4848.6,606.1,GDDR5 512-bit,4096,5000,320,250 W[47],
-Radeon R9 290X[39] (Hawaii XT),"October 24, 2013 November 6, 2014[48] US $549",,,2816:176:64,1000[g],176,64,5632,704,GDDR5 512-bit,4096 8192,5000,320,250 W[47],
-Radeon R9 295X2[39][49] (Vesuvius),"April 8, 2014 US $1499",,2× 6200×106 2× 438 mm2,2× 2816:176:64,1018,358.33,130.3,11466.75,1433.34,GDDR5 512-bit,2× 4096,5000,2× 320,500 W,
-Model (codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (MiB),Clock (MT/s),Band- width (GB/s),TBP,Bus interface
-,,,,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,,
+Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b],,Processing power[c] (GFLOPS),Memory,,,,Bus interface,Notes
+,,,Config[d] (CU),Clock (MHz),Texture (GT/s),Pixel (GP/s),,Size (MB),Bus type & width (bit),Clock (MHz),Band- width (GB/s),,
+FirePro M5725 [308] (M96 GL),2009-01-01,Terascale 2 (55 nm),320:32:8 (3),680,21.6,5.4,432,256,GDDR3 128-bit,800,25.6,PCIe 2.0 x16,
+FirePro M5800 [309] (Madison XT GL),2010-03-01,Terascale 2 (40 nm),400:20:8 (5),650,13,5.2,520,1024,GDDR5 128-bit,800,25.6,PCIe 2.0 x16,HP EliteBook 8540w
+FirePro M3900 [310] (Seymour XT),2011-04-13,,160:8:4 (2),700,6.0,3.0,224,1024,DDR3 64-bit,900,14.4,PCIe 2.1 x16,HP Elitebook 8460w
+FirePro M5950 [311] (Whistler XT),2011-01-04,,480:24:8 (6),725,17.4,5.8,696,1024,GDDR5 128-bit,900,57.6,PCIe 2.1 x16,"Dell Precision M4600, HP EliteBook 8560w"
+FirePro M7740 [312] (M97XT GL),2009-08-04,Terascale 1 (40 nm),640:32:16 (8),650,20.8,10.4,832,1024,GDDR5 128-bit,1000,64,PCIe 2.0 x16,Dell Precision M6400 and M6500
+FirePro M7820 [313] (Juniper XT),2010-05-01,Terascale 2 (40 nm),800:40:16 (10),700,28,11.2,1120,1024,GDDR5 128-bit,1000,64,PCIe 2.0 x16,"Dell Precision M6500, HP EliteBook 8740w"
+FirePro M8900 [314] (Blackcomb XT GL),2011-04-12,,960:48:32 (12),680,32.64,21.76,1310,2048,GDDR5 256-bit,900,115.2,PCIe 2.1 x16,Dell Precision M6600
+FirePro M2000 [315] (Turks GL),2012-07-01,,480:24:8 (6),500,12,4,480,1024,GDDR5 64-bit,800,25.6,PCIe 2.1 x16,HP EliteBook 8470w
+FirePro M4000 [316] (Chelsea XT GL),2012-06-27,GCN 1st gen (28 nm),512:32:16 (8),600,19.2,9.6,614,2048,GDDR5 128-bit,1000,51.2,PCIe 2.1 x16,"HP EliteBook 8570w, HP EliteBook 8770w, Dell Precision M4700 (e.g. Consumer HD7700M Serie DevID 682D)"
+FirePro M6000 [317] (Heathrow XT GL),2012-06-27,,640:40:16 (10),800,30,12,960,2048,GDDR5 128-bit,1000,64,PCIe 3.0 x16,Dell Precision M6700
+FirePro M4100 [318] (Mars),2013-10-16,,384:24:8 (6),670,16.1,5.4,514,2048,GDDR5 128-bit,1000,64,PCIe 3.0 x16,HP ZBook 14
+FirePro W4170M [319] (Mars XTX),2014-04-28,,384:24:8 (6),825,19.8,6.6,691.2,2048,GDDR5 128-bit,1125,72,PCIe 3.0 x16,"Dell Precision M2800, HP ZBook 15u G2"
+FirePro W4190M [320] (Opal),2015-11-12,,384:24:8 (6),825,19.8,6.6,634,2048,GDDR5 128-bit,900,72,PCIe 3.0 x16,"HP ZBook 15u G3, MXM-3-A, OpenGL 4.6, OpenCL 2.0, TDP 25W [321]"
+FirePro M5100 [322] (Venus XT),2013-10-16,,640:40:16 (10),775,31,12.4,992,2048,GDDR5 128-bit,1125,72,PCIe 3.0 x16,"Dell Precision M4800, Panasonic Toughbook 54, HP ZBook 15 G2 (e.g. R9 M200X Serie DevID 6821)"
+FirePro W5130M [323] (Tropo LE),2015-10-02,,512:32:16 (8),up to 925,28.8,14.4,up to 950,up to 2048,GDDR5 128-bit,1000,64,PCIe 3.0 x16,"Dell Precision 3510 (e.g. Consumer R7 M465X DevID 682B) MXM-3-A, DirectX 12.0 (feature level 11_1), OpenGL 4.6, OpenCL 2.0, Vulkan 1.0, TDP 35W [324]"
+FirePro W5170M [325] (Tropo XT),2014-08-25,,640:40:16 (10),up to 925,36.0,14.4,up to 1180,up to 2048,GDDR5 128-bit,1125,72,PCIe 3.0 x16,"Dell Precision 7510, Dell Precision 7710, HP ZBook 15 G3 (e.g. Consumer R9 M375X DevID 6820 REV 083) MXM-3-A, DirectX 12.0 (feature level 11_1), OpenGL 4.6, OpenCL 2.0, Vulkan 1.0, TDP 45W [326]"
+FirePro M6100 [327] (Saturn XT GL),2013-10-16,GCN 2nd gen (28 nm),768: 48:16 (12),up to 1100,51.6,17.2,1651.2,2048,GDDR5 128-bit,1375/1500,88/96,PCIe 3.0 x16,"Dell Precision M6600 / M6800, HP Zbook 17 G2"
+FirePro W6150M [328] (Saturn XT GL),2015-11-12,,768:48:16 (12),1075,51.6,17.2,1651,4096,GDDR5 128-bit,1375,88,PCIe 3.0 x16,"HP Zbook 17 G3, MXM-3-B, OpenGL 4.6, OpenCL 2.0, TDP 100W [329]"
+FirePro W6170M [330] (Saturn XT GL),2014-08-25,,768:48:16 (12),1075,51.6,17.2,1651,4096,GDDR5 128-bit,1375,88,PCIe 3.0 x16,HP ZBook 17 G2
+FirePro W7170M [331] (Amethyst XT),2015-10-02,GCN 3rd gen (28 nm),2048:128:32 (32),723,92.5,23.1,2960,4096,GDDR5 256-bit,1250,160,PCIe 3.0 x16,"Dell Precision 7710, MXM-3-B, DirectX 12.0 (feature level 11_1), OpenGL 4.6, OpenCL 2.0, Vulkan 1.0, TDP 100W [332]"

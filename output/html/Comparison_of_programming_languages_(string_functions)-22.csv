@@ -1,2 +1,2 @@
-Definition,lowercase(string) returns string
-Description,Returns the string in lower case.
+Format,Languages
+string.rpartition(separator),"Python, Ruby"

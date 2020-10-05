@@ -1,0 +1,44 @@
+Operating system,Limit on IA-32,Limit on x64
+4.0.aWindows NT 4.0,4 GB,
+5.0.bWindows 2000 Professional/Server,4 GB,
+5.0.cWindows 2000 Advanced Server,8 GB,
+5.0.dWindows 2000 Datacenter,32 GB,
+5.1.aWindows XP Starter,0.5 GB512 MB,
+5.1.bWindows XP Home,4 GB,
+5.1.cWindows XP Professional,4 GB,128 GB
+5.1.sp0.wWindows Server 2003 RTM Web,2 GB,
+5.1.sp0.xWindows Server 2003 RTM Standard/Small Business,4 GB,
+5.1.sp0.zWindows Server 2003 RTM Enterprise/Datacenter,64 GB,
+5.1.sp1.xWindows Server 2003 R2/SP1 Standard,4 GB,32 GB
+5.1.sp1.zWindows Server 2003 R2/SP1 Enterprise/Datacenter,64 GB,1024 GB1 TB
+6.0.aWindows Vista Starter,1 GB,
+6.0.bWindows Vista Home Basic,4 GB,8 GB
+6.0.cWindows Vista Home Premium,4 GB,16 GB
+6.0.fWindows Vista Business/Enterprise/Ultimate,4 GB,128 GB
+6.0.vWindows Home Server,4 GB,
+6.0.xWindows Server 2008 Web Server/Standard/Small Business,4 GB,32 GB
+6.0.yWindows HPC Server 2008,,128 GB
+6.0.zWindows Server 2008 Enterprise/Datacenter,64 GB,1024 GB1 TB
+6.1.aWindows 7 Starter,2 GB,
+6.1.bWindows 7 Home Basic,4 GB,8 GB
+6.1.cWindows 7 Home Premium,4 GB,16 GB
+6.1.fWindows 7 Professional/Enterprise/Ultimate,4 GB,192 GB
+6.1.wWindows Server 2008 R2 Foundation,,8 GB
+6.1.xWindows Server 2008 R2 Web Server/Standard,,32 GB
+6.1.yWindows HPC Server 2008 R2,,128 GB
+6.1.zWindows Server 2008 R2 Enterprise/Datacenter,,2048 GB2 TB
+6.2.aWindows 8,4 GB,128 GB
+6.2.cWindows 8 Pro/Enterprise,4 GB,512 GB
+6.2.wWindows Server 2012 Foundation,,32 GB
+6.2.xWindows Server 2012 Essentials,,64 GB
+6.2.zWindows Server 2012 Standard/Datacenter,,4096 GB4 TB
+6.2.zWindows Storage Server 2012 Standard,,4096 GB4 TB
+6.2.zWindows Storage Server 2012 Workgroup,,32 GB
+6.2.zHyper-V Server 2012,,4096 GB4 TB
+7.aWindows 10 Mobile,4 GB,
+7.bWindows 10 Home,4 GB,128 GB
+7.cWindows 10 Pro,4 GB,2048 GB2 TB
+7.dWindows 10 Education,4 GB,2048 GB2 TB
+7.eWindows 10 Enterprise,4 GB,2048 GB6 TB
+8.yWindows Server 2016 Standard,,24576 GB24 TB
+8.zWindows Server 2016 Datacenter,,24576 GB24 TB

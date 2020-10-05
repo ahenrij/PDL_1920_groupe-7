@@ -1,38 +1,38 @@
-,read from,write to,
-,stdin,stdout,stderr
-Ada[1],Get (x),Put (x),"Put (Standard_Error, x)"
-ALGOL 68,"readf(($format$, x)); or getf(stand in, ($format$, x));","printf(($format$, x)); or putf(stand out, ($format$, x));","putf(stand error, ($format$, x));[a]"
-APL,x??,??x,??x
-C (C99),"scanf(format, &x); or fscanf(stdin, format, &x); [b]","printf( format, x); or fprintf(stdout, format, x); [c]","fprintf(stderr, format, x );[d]"
-Objective-C,data = [[NSFileHandle fileHandleWithStandardInput] readDataToEndOfFile];,[[NSFileHandle fileHandleWithStandardOutput] writeData:data];,[[NSFileHandle fileHandleWithStandardError] writeData:data];
-C++,"«std::»cin >> x; or «std::»getline(«std::»cin, str);",«std::»cout << x;,«std::»cerr << x; or «std::»clog << x;
-C#,x = Console.Read(); orx = Console.ReadLine();,"Console.Write(«format, »x); or Console.WriteLine(«format, »x);","Console.Error.Write(«format, »x); or Console.Error.WriteLine(«format, »x);"
-D,x = std.stdio.readln(),"std.stdio.write(x) or std.stdio.writeln(x) or std.stdio.writef(format, x) or std.stdio.writefln(format, x)","stderr.write(x) or stderr.writeln(x) or std.stdio.writef(stderr, format, x) or std.stdio.writefln(stderr, format, x)"
-Java,x = System.in.read(); or x = new Scanner(System.in).nextInt(); or x = new Scanner(System.in).nextLine();,"System.out.print(x); or System.out.printf(format, x); or System.out.println(x);","System.err.print(x); or System.err.printf(format, x); or System.err.println(x);"
-Go,"fmt.Scan(&x) or fmt.Scanf(format, &x) or x = bufio.NewReader(os.Stdin).ReadString('\n')","fmt.Println(x) or fmt.Printf(format, x)","fmt.Fprintln(os.Stderr, x) or fmt.Fprintf(os.Stderr, format, x)"
-Swift,x = readLine() (2.x),print(x) (2.x) println(x) (1.x),
-JavaScript Web Browser implementation,,document.write(x),
-JavaScript Active Server Pages,,Response.Write(x),
-JavaScript Windows Script Host,x = WScript.StdIn.Read(chars) or x = WScript.StdIn.ReadLine(),WScript.Echo(x) or WScript.StdOut.Write(x) or WScript.StdOut.WriteLine(x),WScript.StdErr.Write(x) or WScript.StdErr.WriteLine(x)
-Common Lisp,(setf x (read-line)),(princ x) or (format t format x),(princ x *error-output*) or (format *error-output* format x)
-Scheme (R6RS),(define x (read-line)),(display x) or (format #t format x),(display x (current-error-port)) or (format (current-error-port) format x)
-ISLISP,(setf x (read-line)),(format (standard-output) format x),(format (error-output) format x)
-Pascal,read(x); or readln(x);,write(x); or writeln(x);,"write(stderr, x); or writeln(stderr, x);"
-Visual Basic,"Input« prompt,» x",Print x or ? x,N/A
-Visual Basic .NET,x = Console.Read() or x = Console.ReadLine(),"Console.Write(«format, »x) or Console.WriteLine(«format, »x)","Console.Error.Write(«format, »x) or Console.Error.WriteLine(«format, »x)"
-Xojo,x = StandardInputStream.Read() or x = StandardInputStreame.ReadLine(),StandardOutputStream.Write(x) or StandardOutputStream.WriteLine(x),StdErr.Write(x) or StdErr.WriteLine(x)
-Python 2.x,x = raw_input(«prompt»),print x or sys.stdout.write(x),"print >> sys.stderr, x or sys.stderr.write(x)"
-Python 3.x,x = input(«prompt»),"print(x«, end=""»)","print(x«, end=""», file=sys.stderr)"
-S-Lang,"fgets (&x, stdin)","fputs (x, stdout)","fputs (x, stderr)"
-Fortran,"READ(*,format) variable names or READ(INPUT_UNIT,format) variable names[e]","WRITE(*,format) expressions or WRITE(OUTPUT_UNIT,format) expressions[e]","WRITE(ERROR_UNIT,format) expressions[e]"
-Forth,buffer length ACCEPT ( # chars read ) KEY ( char ),buffer length TYPE char EMIT,N/A
-PHP,"$x = fgets(STDIN); or $x = fscanf(STDIN, format);","print x; or echo x; or printf(format, x);","fprintf(STDERR, format, x);"
-Perl,$x = <>; or $x = <STDIN>;,"print x; or printf format, x;","print STDERR x; or printf STDERR format, x;"
-Raku,$x = $*IN.get;,x.print or x.say,x.note or $*ERR.print(x) or $*ERR.say(x)
-Ruby,x = gets,"puts x or printf(format, x)","$stderr.puts(x) or $stderr.printf(format, x)"
-Windows PowerShell,$x = Read-Host«« -Prompt» text»; or $x = [Console]::Read(); or $x = [Console]::ReadLine(),x; or Write-Output x; or echo x,Write-Error x
-OCaml,let x = read_int () or let str = read_line () or Scanf.scanf format (fun x ... -> ...),print_int x or print_endline str or Printf.printf format x ...,prerr_int x or prerr_endline str or Printf.eprintf format x ...
-F#,let x = System.Console.ReadLine(),printf format x ... or printfn format x ...,eprintf format x ... or eprintfn format x ...
-Standard ML,val str = TextIO.inputLIne TextIO.stdIn,print str,"TextIO.output (TextIO.stdErr, str)"
-Haskell (GHC),x <- readLn or str <- getLine,print x or putStrLn str,hPrint stderr x or hPutStrLn stderr str
-COBOL,ACCEPT x,DISPLAY x,
+,string to integer,string to long integer,string to floating point,integer to string,floating point to string
+Ada[1],Integer'Value (string_expression),Long_Integer'Value (string_expression),Float'Value (string_expression),Integer'Image (integer_expression),Float'Image (float_expression)
+"ALGOL 68 with general, and then specific formats","With prior declarations and association of: string buf := "12345678.9012e34 "; file proxy; associate(proxy, buf);",,,,
+,"get(proxy, ivar);","get(proxy, livar);","get(proxy, rvar);","put(proxy, ival);","put(proxy, rval);"
+,"getf(proxy, ($g$, ivar)); or getf(proxy, ($dddd$, ivar));","getf(proxy, ($g$, livar)); or getf(proxy, ($8d$, livar));","getf(proxy, ($g$, rvar)); or getf(proxy, ($8d.4dE2d$, rvar));","putf(proxy, ($g$, ival)); or putf(proxy, ($4d$, ival));","putf(proxy, ($g(width, places, exp)$, rval)); or putf(proxy, ($8d.4dE2d$, rval));"
+APL,?string_expression,?string_expression,?string_expression,?integer_expression,?float_expression
+C (C99),integer = atoi(string);,long = atol(string);,float = atof(string);,"sprintf(string, "%i", integer);","sprintf(string, "%f", float);"
+Objective-C,integer = [string intValue];,long = [string longLongValue];,float = [string doubleValue];,"string = [NSString stringWithFormat:@"%i", integer];","string = [NSString stringWithFormat:@"%f", float];"
+C++ (STL),«std::»istringstream(string) >> number;,,,«std::»ostringstream o; o << number; string = o.str();,
+C++11,integer = «std::»stoi(string);,long = «std::»stol(string);,float = «std::»stof(string); double = «std::»stod(string);,string = «std::»to_string(number);,
+C#,integer = int.Parse(string);,long = long.Parse(string);,float = float.Parse(string); double = double.Parse(string);,string = number.ToString();,
+D,integer = std.conv.to!int(string),long = std.conv.to!long(string),float = std.conv.to!float(string) double = std.conv.to!double(string),string = std.conv.to!string(number),
+Java,integer = Integer.parseInt(string);,long = Long.parseLong(string);,float = Float.parseFloat(string); double = Double.parseDouble(string);,string = Integer.toString(integer); string = String.valueOf(integer);,string = Float.toString(float); string = Double.toString(double);
+JavaScript[a],integer = parseInt(string);,,float = parseFloat(string); float = new Number (string); float = Number (string); float = +string;,string = number.toString (); string = String (number); string = number+""; string = `${number}`,
+Go,"integer, error = strconv.Atoi(string) integer, error = strconv.ParseInt(string, 10, 0)","long, error = strconv.ParseInt(string, 10, 64)","float, error = strconv.ParseFloat(string, 64)","string = strconv.Itoa(integer) string = strconv.FormatInt(integer, 10) string = fmt.Sprint(integer)",string = strconv.FormatFloat(float) string = fmt.Sprint(float)
+Rust[d],string.parse::<i32>() i32::from_str(string),string.parse::<i64>() i64::from_str(string),string.parse::<f64>() f64::from_str(string),integer.to_string(),float.to_string()
+Common Lisp,(setf integer (parse-integer string)),,(setf float (read-from-string string)),(setf string (princ-to-string number)),
+Scheme,(define number (string->number string)),,,(define string (number->string number)),
+ISLISP,(setf integer (convert string <integer>)),,(setf float (convert string <float>)),(setf string (convert number <string>)),
+Pascal,integer := StrToInt(string);,,float := StrToFloat(string);,string := IntToStr(integer);,string := FloatToStr(float);
+Visual Basic,integer = CInt(string),long = CLng(string),float = CSng(string) double = CDbl(string),string = CStr(number),
+Visual Basic .NET (can use both VB syntax above and .NET methods shown right),integer = Integer.Parse(string),long = Long.Parse(string),float = Single.Parse(string) double = Double.Parse(string),string = number.ToString(),
+Xojo,integer = Val(string),long = Val(string),double = Val(string) double = CDbl(string),string = CStr(number) or string = Str(number),
+Python,integer = int(string),long = long(string),float = float(string),string = str(number),
+S-Lang,integer = atoi(string);,long = atol(string);,float = atof(string);,string = string(number);,
+Fortran,"READ(string,format) number",,,"WRITE(string,format) number",
+PHP,integer = intval(string); or integer = (int)string;,,float = floatval(string); float = (float)string;,string = "$number"; or string = strval(number); or string = (string)number;,
+Perl[b],number = 0 + string;,,,string = "number";,
+Raku,number = +string;,,,string = ~number;,
+Ruby,integer = string.to_i or integer = Integer(string),,float = string.to_f float = Float(string),string = number.to_s,
+Scala,integer = string.toInt,long = string.toLong,float = string.toFloat double = string.toDouble,string = number.toString,
+Smalltalk,integer := Integer readFrom: string,,float := Float readFrom: string,string := number asString,
+Windows PowerShell,integer = [int]string,long = [long]string,float = [float]string,string = [string]number; or string = "number"; or string = (number).ToString(),
+OCaml,let integer = int_of_string string,,let float = float_of_string string,let string = string_of_int integer,let string = string_of_float float
+F#,let integer = int string,let integer = int64 string,let float = float string,let string = string number,
+Standard ML,val integer = Int.fromString string,,val float = Real.fromString string,val string = Int.toString integer,val string = Real.toString float
+Haskell (GHC),number = read string,,,string = show number,
+COBOL,MOVE «FUNCTION» NUMVAL(string)[c] TO number,,,MOVE number TO numeric-edited,

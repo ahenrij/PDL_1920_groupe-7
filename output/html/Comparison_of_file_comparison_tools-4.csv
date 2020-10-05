@@ -1,27 +1,27 @@
-Name,Filename casing,CRC,Filedate,Daylight saving,Character casing
-Beyond Compare,Yes,Yes,Yes,Yes,Yes
-Compare++,Yes,Yes,Yes,,Yes
-diff,Yes,No,No,No,Optional
-diff3,,,,,
-Eclipse (compare),,,,,
-Ediff,,,,,
-ExamDiff Pro,No,Yes,Yes,Yes,Yes
-Far Manager (compare),Yes,No,Yes,No,Yes
-fc,No,,,,Optional
-FileMerge (aka opendiff),No,No,No,,Optional
-Guiffy SureMerge,filesystem dependent,,Yes,,Yes
-IntelliJ IDEA (compare),,,,,
-jEdit JDiff plugin,,,,,
-Kompare,Yes,,,,
-Lazarus Diff,,,,,
-Meld,,,,,
-Notepad++ (compare),No,No,No,,Yes
-Perforce P4Merge,N/A,No,No,No,Yes
-Pretty Diff,N/A,No,No,No,Optional
-Tkdiff,,,,,
-Total Commander (compare),,,Optional,Yes (in synchronize only),Optional
-vimdiff,No,No,No,No,Yes
-WinDiff,No,No,when different,Yes,Optional
-WinMerge,No,No,Optional,,Optional
-UCC,No,No,Yes,No,
-Name,Filename casing,CRC,Filedate,Daylight saving,Character casing
+Name,ZIP support,FTP support,SFTP support,Version control browsing,Patch creation,Patch application,Patch preview,Unicode support,XML-aware
+Beyond Compare,Yes,Yes,Yes,SVN,Yes,Yes,Yes,Yes,
+Compare++,,,,"SVN, CVS, Git, Microsoft TFS, Perforce, VSS using command line",,,,Yes,
+diff,No,No,,No,Yes,Yes with patch,Yes with patch,No,No
+diff3,No,No,,,,,,,No
+Eclipse (compare),,,,"Yes CVS, Subversion, Git, Mercurial, Baazar",,,,Yes,
+Ediff,Yes,Yes,,"RCS, CVS, SVN, Mercurial, git (anything supported by Emacs' VC-mode)[31]",Yes,Yes,Yes,,
+ExamDiff Pro,Yes[32],Yes[33],,,normal diff only,,,Yes,
+Far Manager (compare),No,No,,No,No,No,No,Yes,No
+fc,No,No,,,No,,,,
+FileMerge (aka opendiff),No,supported by OS,,,No,,,No,No
+Guiffy SureMerge,Yes,,,,Yes,Yes,Yes,Yes[34],
+IntelliJ IDEA (compare),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,
+jEdit JDiff plugin,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,
+Kompare,,,,,Yes,,,,
+Lazarus Diff,,,,,,,,,
+Meld,,,,"CVS, Subversion, Git, Mercurial, Baazar",Yes,,,Yes,
+Notepad++ (compare),No,Yes[35],,"Git, Subversion (compare against base)",No,No,No,Yes,No
+Perforce P4Merge,,,,No,,,,Yes,
+Pretty Diff,No,No,No,No,No,No,No,Yes,Yes
+Tkdiff,No,No,,"CVS, RCS, Subversion",No,No,No,No,No
+Total Commander (compare),Yes,Yes,Yes,No,No,No,No,Yes,No
+vimdiff,Yes,Yes,,,Yes,,,Yes,
+WinDiff,No,No,,,No,,,No,
+WinMerge,Yes,No,,"Mercurial,[36] Subversion,[37] Visual Source Safe, Rational ClearCase[38]",Yes,,,Yes,
+UCC,Yes,No,,,,,,Yes,
+Name,ZIP support,FTP support,SFTP support,Version control browsing,Patch creation,Patch application,Patch preview,Unicode support,XML-aware

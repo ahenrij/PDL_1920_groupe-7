@@ -1,0 +1,13 @@
+,,,,,Web-related,,,
+Name,Conditional compilation,Sockets,Multi-threading,Tabling,HTTP client,HTTP server,HTML Parser,RDF Triple store
+BProlog,,,,,,,,
+Ciao,,,,,,,,
+ECLiPSe,,,,,,,,
+GNU Prolog,,,,,,,,
+Jekejeke Prolog,,Yes,,,Yes,Yes,Yes,
+LPA-Prolog,,,,,,,,
+SICStus Prolog,,,,,,,,
+SWI-Prolog,,,,,,,,
+Visual Prolog,,,,,,,,
+XSB,,,,,,,,
+YAP-Prolog,,,,,,,,

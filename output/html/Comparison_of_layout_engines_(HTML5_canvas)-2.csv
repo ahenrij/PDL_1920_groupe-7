@@ -1,8 +1,8 @@
-Engine,Status,Embedded in
-WebKit,Active,"Safari browser, plus all browsers hosted on the iOS App Store."
-Blink,Active,"Google Chrome and other web browsers based on Chromium, such as Microsoft Edge, Opera, and Brave."
-EdgeHTML,Active,Universal Windows Platform apps; formerly in the Edge browser[1].
-Gecko,Active,"Firefox browser and Thunderbird email client, plus forks like SeaMonkey and Waterfox."
-KHTML,Discontinued,Konqueror browser
-Presto,Discontinued,"Formerly used as Opera's browser engine, prior to the migration to Chromium and Blink."
-Trident,Discontinued,Internet Explorer and versions of Microsoft Outlook prior to Outlook 2007.
+,Trident,EdgeHTML,Gecko,WebKit,Presto
+getElementsByClassName[28],5.0[t 31],12,1.9[g 62],525,2.1
+registerProtocolHandler,No,No,1.9[f][dead link],Yes[w 51],2.10[p 14]
+registerContentHandler,,,1.8[g],,
+Cross-document messaging,4.0,12,1.9[g 65],Yes,2.0
+Drag-and-drop,6.0,12,1.9.1[g 28],Yes,2.10.270[p 15]
+pushState() and replaceState(),6.0[t 32],12,2.0[g 66],528[w 52],2.9[p 16]
+,Trident,EdgeHTML,Gecko,WebKit,Presto

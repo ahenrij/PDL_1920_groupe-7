@@ -1,10 +1,9 @@
-Java,C#
-"// Is valid, as numbers is an object of type short[]
- short[] numbers = new short[100];
-
- // Is valid, but it isn't clear code
- double values[] = new double[100];","// Is valid, as numbers is an object of type short[]
- short[] numbers = new short[100];
-
- // Won't compile!
- double values[] = new double[100];"
+Statements,Java,C#
+Loops,Yes,Yes
+Conditionals,Yes,Yes
+Flow control,Yes,Yes
+Assignment,Yes,Yes
+Exception control,Yes,Yes
+Variable declaration,Yes,Yes
+Variable type inference,Yes[43],Yes
+Deterministic disposal (ARM-blocks),Yes,Yes

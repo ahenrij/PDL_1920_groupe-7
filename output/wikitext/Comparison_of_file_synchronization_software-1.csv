@@ -1,0 +1,11 @@
+Name,Operating system,Vendor,Online storage,Remote desktop,"Prior file versions, revision control",Comments,Portable,Detect rename,Detect move,Scheduling,Full duplex transfer
+Microsoft ActiveSync,Windows,Microsoft,,,?,Syncs mobile devices,,,,,
+Resilio Sync,"Windows, OS X, Linux, FreeBSD, Android, iOS","Resilio, Inc.",,,,Distributed peer-to-peer sync,,,,Pro only[25],
+Briefcase (part of Windows) (removed in Windows 10 build 14942[26]),Windows,Microsoft,,,?,,,,,,
+Cobian Backup,Windows,CobianSoft,,,",Backup software with folder synchronization feature; remote management; Shadow Copy,,,,,
+Windows Mobile Device Center,Windows,Microsoft,,,?,Syncs mobile devices; successor to Microsoft ActiveSync,,,,,
+Microsoft Sync Framework,Windows,Microsoft,?,,?,"Syncs files, data, services; a framework, not a tool",,,,-,
+Microsoft SyncToy,Windows,Microsoft,,,",Sync local folders,,,,via OS,
+Windows Live Mesh (discontinued 13 February 2013),"Windows (Vista and greater), Windows Mobile, OSX",Microsoft,,,","Sync folders, online storage",,,?,",
+OmniGroup OmniPresence,"OSX, OmniGroup software for iOS, open source framework available",OmniGroup,,,",Sync local folders via OmniSync or WebDAV server but not to the server itself,,?,?,",
+Windows Live Sync (discontinued 31 March 2011),"Windows, OSX",Microsoft,",,","Sync folders, browse devices from website, remote access; was Microsoft FolderShare, 20,000 file limit",,,,",?

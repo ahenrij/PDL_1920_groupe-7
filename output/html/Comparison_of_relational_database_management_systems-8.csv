@@ -1,44 +1,63 @@
-,R-/R+ tree,Hash,Expression,Partial,Reverse,Bitmap,GiST,GIN,Full-text,Spatial,FOT,Duplicate index prevention
-4th Dimension,?,Cluster,?,?,?,?,?,?,Yes,?,?,No
-ADABAS,?,?,?,?,?,?,?,?,?,?,?,No
-Adaptive Server Enterprise,No,No,Yes,No,Yes,No,No,No,Yes,?,?,No
-Advantage Database Server,No,No,Yes,No,Yes,Yes,No,No,Yes,?,?,No
-Apache Derby,No,No,No,No,No,No,No,No,No[80],?,?,No
-ClustrixDB,No,Yes,No,No,No,No,No,No,No,No,?,No
-CUBRID,No,No,Yes[81],Yes[81],Yes,No,No,No,No,No,No,No
-DB2,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes[82],?,?,No
-Empress Embedded Database,Yes,No,No,Yes,No,Yes,No,No,No,?,?,No
-EXASolution,No,Yes,No,No,No,No,No,No,No,?,?,No
-Firebird,No,No,Yes,No,Yes,No,No,No,No[83],?,?,No
-HSQLDB,No,No,No,No,No,No,No,No,No,?,?,No
-H2,No,Yes,No,No,No,No,No,No,Yes[84],Yes[85],?,No
-Informix Dynamic Server,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[86],Yes
-Ingres,Yes,Yes,Ingres v10,No,No,Ingres v10,No,No,No,?,?,No
-InterBase,No,No,No,No,No,No,No,No,No,?,?,No
-Linter SQL RDBMS10,No,Yes temporary indexes for equality joins,Yes for some scalar functions like LOWER and UPPER,No,No,No,No,No,Yes[87],No,No,Yes
-LucidDB,No,No,No,No,No,Yes,No,No,No,?,?,No
-MariaDB,"Aria and MyISAM tables and, since v10.2.2, InnoDB tables only[88]","MEMORY,[89] InnoDB,5 tables only",PERSISTENT virtual columns only[90],No,No,No,No,No,Yes[91],"Aria and MyISAM tables and, since v10.2.2, InnoDB tables only[88]",?,No
-MaxDB,No,No,No,No,No,No,No,No,No,?,?,No
-Microsoft Access (JET),No,No,No,No,No,No,No,No,No[92],?,?,No
-Microsoft Visual Foxpro,No,No,Yes,Yes,Yes2,Yes,No,No,No,?,?,No
-Microsoft SQL Server,Spatial Indexes,Yes4,Yes3,Yes,on Computed columns3,Bitmap filter index for Star Join Query,No,No,Yes[93],Yes[94],?,No
-Microsoft SQL Server Compact (Embedded Database),No,No,No,No,No,No,No,No,No[95],?,?,No
-Mimer SQL,No,No,No,No,Yes,No,No,No,Yes,Yes,No,No
-MonetDB,No,Yes,No,No,No,No,No,No,No,No,No,No
-MySQL,Spatial Indexes[96],"MEMORY, Cluster (NDB), InnoDB,5 tables only",No[97],No,No,No,No,No,"MyISAM tables[98] and, since v5.6.4, InnoDB tables[99]","MyISAM tables[100] and, since v5.7.5, InnoDB tables[101]",?,No
-OpenLink Virtuoso,Yes,Cluster,Yes,Yes,No,Yes,No,No,Yes,Yes (Commercial only),No,No
-Oracle,Yes 11,Cluster Tables,Yes,Yes 6,Yes,Yes,No,No,Yes[102],Yes[103],?,Yes[104]
-Oracle Rdb,No,Yes,?,No,No,?,No,No,?,?,?,No
-Pervasive PSQL,No,No,No,No,No,No,No,No,No,No,No,No
-Polyhedra DBMS,No,Yes,No,No,No,No,No,No,No,No,?,No
-PostgreSQL,Yes,Yes,Yes,Yes,Yes7,Yes,Yes,Yes,Yes[105],PostGIS[106],?,No
-Raima Database Manager,Yes,Yes,No,Yes,Yes,No,No,No,No,Yes,No,No
-RDM Server,No,No,No,Yes,Yes,No,No,No,No,No,No,No
-SAP HANA,?,?,?,?,?,?,?,?,?,?,?,No
-solidDB,No,No,No,No,Yes,No,No,No,No,No,No,No
-SQL Anywhere,No,No,Yes,No,No,No,No,No,Yes,Yes,?,Yes
-SQLite,Yes[107],No,Yes[108],Yes,No,No,No,No,Yes[109],SpatiaLite[110],?,No
-SQream DB,?,?,?,?,Yes,?,?,?,?,?,?,No
-Teradata,No,Yes,Yes,Yes,No,Yes,No,No,?[111],?,?,No
-UniVerse,Yes,Yes,Yes3,Yes3,Yes3,No,No,No,?,Yes[112],?,No
-,R-/R+ tree,Hash,Expression,Partial,Reverse,Bitmap,GiST,GIN,Full-text,Spatial,FOT,Duplicate index prevention
+,Maintainer,First public release date,Latest stable version,Latest release date,License,Public issues list
+4D (4th Dimension),4D S.A.S.,1984,v16.0,2017-01-10[1],Proprietary,No
+ADABAS,Software AG,1970,8.1,2013-06,Proprietary,No
+Adaptive Server Enterprise,SAP AG,1987,16.0 SP03 PL07,2019-06-10,Proprietary,No
+Advantage Database Server (ADS),SAP AG,1992,12.0,2015,Proprietary,No
+Altibase,Altibase Corp.,2000,7.1.0.1.2,2018-03-02,GNU-AGPLv3; GNU-LGPLv3(for client-libraries),No
+Apache Derby,Apache,2004,10.15.1.3[2],2019-03-11,Apache License,Yes[3]
+ClustrixDB,MariaDB Corporation,2010,v7.0,2015-08-19,Proprietary,No
+CUBRID,CUBRID,2008-11,10.2.1,2020-06-01,"GPL v2 or later, BSD license for APIs and GUI tools",Yes[4]
+Datacom,"CA, Inc.",Early 70s[5],14[6],2012[7],Proprietary,No
+Db2,IBM,1983,11.5[8],2019-06-27[±],Proprietary,No
+Empress Embedded Database,Empress Software Inc,1979,10.20,2010-03,Proprietary,No
+EXASolution,EXASOL AG,2004,6.0.0,2017-03-17,Proprietary,No
+FileMaker,"FileMaker, Inc., an Apple subsidiary",1985-04,18,2019-05-22,Proprietary,No
+Firebird,Firebird project,2000-07-25,3.0.5[9],2020-01-12[±],IPL[10] and IDPL[11],Yes[12]
+GPUdb,GIS Federal,2014,3.2.5,2015-01-14,Proprietary,No
+HSQLDB,HSQL Development Group,2001,2.4.1,2018-05-20,BSD,Yes[13]
+H2,H2 Software,2005,1.4.200,2019-10-14,EPL and modified MPL,Yes[14]
+Informix Dynamic Server,IBM,1981????1980,14.10.xC4W1,2020-06-22,Proprietary,No
+Ingres,Ingres Corp.,1974,11.0,2017-03-21,GPL and Proprietary,No
+InterBase,Embarcadero,1984,XE7 v12.0.4.357,2015-08-12,Proprietary,No
+Linter SQL RDBMS,RELEX Group,1990,6.0.17.53,2018-02-15,Proprietary,Yes[15]
+LucidDB,The Eigenbase Project,2007-01,0.9.4,2012-01-05,GPL v2,No
+MariaDB,MariaDB Community,2010-02-01,10.5.5[16],2020-08-10[±],"GPL v2, LGPL (for client-libraries)[17]",Yes[18]
+MaxDB,SAP AG,2003-05,7.9.0.8,2014,Proprietary,Yes[19]
+MemSQL,MemSQL,2012-06,7.1.9,2020-09-28,Proprietary,No
+Microsoft Access (JET),Microsoft,1992,16 (2016),2015-09-22,Proprietary,No
+Microsoft Visual Foxpro,Microsoft,1984,9 (2005),2007-10-11,Proprietary,No
+Microsoft SQL Server,Microsoft,1989,SQL Server 2019[20],2019-11-04[±],Proprietary,No
+Microsoft SQL Server Compact (Embedded Database),Microsoft,2000,2011 (v4.0),,Proprietary,No
+Mimer SQL,Mimer Information Technology,1978,10.1.6A,2020-07-31,Proprietary,No
+MonetDB,The MonetDB Team / CWI,2004,Jun2020-SP1,2020-07-27,"Mozilla Public License, version 2.0[21]",Yes[22]
+mSQL,Hughes Technologies,1994,4.1[23],2017-06-30,Proprietary,No
+MySQL,Oracle Corporation,1995-11,8.0.21[24],2020-07-13[±],GPL v2 or Proprietary,Yes[25]
+NexusDB,NexusDB Pty Ltd,2003,4.00.14,2015-06-25,Proprietary,No
+HP NonStop SQL,Hewlett-Packard,1987,SQL/MX 3.4,,Proprietary,No
+NuoDB,NuoDB,2013,4.1,August 2020,Proprietary,No
+Omnis Studio,TigerLogic Inc,1982-07,6.1.3 Release 1no,2015-12,Proprietary,No
+OpenEdge,Progress Software Corporation,1984,11.6.3,2016-08-19,Proprietary,No
+OpenLink Virtuoso,OpenLink Software,1998,7.2.5.1,2018-08-15,GPL v2 or Proprietary,Yes[26]
+Oracle DB,Oracle Corporation,1979-11,19c[27],2019-02-13[±],Proprietary,No
+Oracle Rdb,Oracle Corporation,1984,7.4.1.0[28],2020-08-10[±],Proprietary,No
+Paradox,Corel Corporation,1985,11,2009-09-07,Proprietary,No
+Percona Server for MySQL,Percona,2006,8.0.18-9[29],2019-12-11,GPL v2,Yes
+Pervasive PSQL,Pervasive Software,1982,v12,2015,Proprietary,No
+Polyhedra DBMS,ENEA AB,1993,9.0,2015-06-24,"Proprietary, with Polyhedra Lite available as Freeware[30]",No
+PostgreSQL,PostgreSQL Global Development Group,1989-06,13.0,2020-09-24[31],PostgreSQL License (a liberal Open Source license)[32],No[33]
+R:Base,R:BASE Technologies,1982,10.0,2016-05-26,Proprietary,No
+Raima Database Manager,Raima Inc.,1984,14.1,2018-03-23,Proprietary,No
+RDM Server,Raima Inc.,1993,8.4,2012-10-31,Proprietary,No
+SAP HANA,SAP AG,2010,2.0 SPS04,2019-08-08,Proprietary,No
+solidDB,UNICOM Global,1992,7.0.0.10,2014-04-29,Proprietary,No
+SQL Anywhere,SAP AG,1992,17.0.0.48,2019-07-26,Proprietary,No
+SQLBase,Unify Corp.,1982,11.5,2008-11,Proprietary,No
+SQLite,D. Richard Hipp,2000-09-12,3.30.1,2019-10-11[34],Public domain,Yes[35]
+SQream DB,SQream Technologies,2014,2.1[36],2018-01-15,Proprietary,No
+Superbase,Superbase,1984,Scientific (2004),,Proprietary,No
+Teradata,Teradata,1984,15,2014-04,Proprietary,No
+Tibero,TmaxSoft,1992,6,2015-04,Proprietary,No
+TiDB,Apache,2016,3.0.0,2019-06-28[37],Apache License,Yes[38]
+UniData,Rocket Software,1988,8.2.1,2017-07,Proprietary,No
+YugabyteDB,Apache,2018,1.3.1,2019-07-30[39],Apache License,Yes[40]
+,Maintainer,First public release date,Latest stable version,Latest release date,License,Public issues list

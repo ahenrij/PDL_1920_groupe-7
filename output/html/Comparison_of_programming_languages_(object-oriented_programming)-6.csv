@@ -1,20 +1,19 @@
-,read-write,read-only,write-only
-ABAP Objects,N/A,,
-C++ (STL),N/A,,
-C#,type Bar { get; set; },type Bar { get; private set; },type Bar { private get; set; }
-D,N/A,,
-Java,N/A,,
-Objective-C 2.0 (Cocoa),@property (readwrite) type bar; and then inside @implementation @synthesize bar;,@property (readonly) type bar; and then inside @implementation @synthesize bar;,N/A
-Swift,var bar : type,let bar : type,N/A
+,Import namespace,,Import item
+,qualified,unqualified,
+ABAP Objects,,,
+C++ (STL),,using namespace ns;,using ns::item ;
+C#,,using ns;,using item = ns.item;
+D,,import ns;,import ns : item;
+Java,,import ns.*;,import ns.item;
+Objective-C,,,
+Visual Basic .NET,,Imports ns,
 Eiffel,,,
-Python,"@property def bar(self): Tab ?instructions @bar.setter def bar(self, value): Tab ?instructions",@property def bar(self): Tab ?instructions,"bar = property() @bar.setter def bar(self, value): Tab ?instructions"
-Visual Basic .NET,Property Bar As type« = initial_value» (VB 10),,
-PHP,,,
-Perl[34],use base qw(Class::Accessor); __PACKAGE__->mk_accessors('Bar');,use base qw(Class::Accessor); __PACKAGE__->mk_ro_accessors('Bar');,use base qw(Class::Accessor); __PACKAGE__->mk_wo_accessors('Bar');
-Raku,N/A,,
-Ruby,attr_accessor :bar,attr_reader :bar,attr_writer :bar
+Python,import ns,from ns import *,from ns import item
+PHP,,use ns;,use ns\item;
+Perl,use ns;,,use ns qw(item);
+Raku,,,
+Ruby,,,
 Windows PowerShell,,,
-OCaml,N/A,,
-F#,"member val Bar = value with get, set",,
-COBOL,level-number bar clauses PROPERTY.,level-number bar clauses PROPERTY «WITH» NO SET.,level-number bar clauses PROPERTY «WITH» NO GET.
-Cobra,pro bar from var «as type»,get bar from var «as type»,set bar from var «as type»
+OCaml,,open ns,
+F#,,,
+COBOL,N/A,,

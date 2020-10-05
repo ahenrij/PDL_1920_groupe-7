@@ -1,0 +1,9 @@
+,Trident,Gecko,WebKit,KHTML,Presto
+Images,,,,,
+img,4.0,1.0,,,1.0
+Generic inclusion,,,,,
+object,"4.0For images, a frame will be added to the object. Other content types are not supported and the element is incorrectly implemented as an ActiveX wrapper. Nested objects fallback mechanism is not supported prior to version 7.[2]group=note",rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+param,6.0,,,,
+Image maps,,,,,
+map,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+area,5.0,,,,

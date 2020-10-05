@@ -1,22 +1,16 @@
-Implementation,RSA[34],RSA-EXPORT (insecure)[34],DHE-RSA (forward secrecy)[34],DHE-DSS (forward secrecy)[34],ECDH-ECDSA[81],ECDHE-ECDSA (forward secrecy)[81],ECDH-RSA[81],ECDHE-RSA (forward secrecy)[81],"GOST R 34.10-94, 34.10-2001[82]"
-Botan,Disabled by default,No,Yes,Disabled by default,No,Yes,No,Yes,No
-cryptlib,Yes,No,Yes,Yes,No,Yes,No,No,No
-GnuTLS,Yes,No,Yes,Disabled by default[37],No,Yes,No,Yes,No
-JSSE,Yes,Disabled by default,Yes,Yes,Yes,Yes,Yes,Yes,No[83]
-LibreSSL,Yes,No[41],Yes,Yes,Yes,Yes,Yes,Yes,Yes[84]
-MatrixSSL,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No
-Mbed TLS,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No
-NSS,Yes,Disabled by default,Yes[85],Yes,Yes,Yes,Yes,Yes,No[86][87]
-OpenSSL,Yes,No[50],Yes,Disabled by default[50],Yes,Yes,Yes,Yes,Yes[88]
-RSA BSAFE,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No
-SChannel XP/2003,Yes,Yes,No,XP: Max 1024 bits 2003: 1024 bits only,No,No,No,No,No[89]
-SChannel Vista/2008,Yes,Disabled by default,No,1024 bits by default[90],No,Yes,No,except AES_GCM,No[89]
-SChannel 8/2012,Yes,Disabled by default,AES_GCM only[91][92][93],1024 bits by default[90],No,Yes,No,except AES_GCM,No[89]
-"SChannel 7/2008R2, 8.1/2012R2",Yes,Disabled by default,Yes,2048 bits by default[90],No,Yes,No,except AES_GCM,No[89]
-SChannel 10,Yes,Disabled by default,Yes,2048 bits by default[90],No,Yes,No,Yes,No[89]
-Secure Transport OS X 10.6,Yes,Yes,except AES_GCM,Yes,Yes,except AES_GCM,yes,except AES_GCM,No
-Secure Transport OS X 10.8-10.10,Yes,No,except AES_GCM,No,Yes,except AES_GCM,Yes,except AES_GCM,No
-Secure Transport OS X 10.11,Yes,No,Yes,No,No,Yes,No,Yes,No
-wolfSSL,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No
-Erlang/OTP SSL application,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No
-Implementation,RSA[34],RSA-EXPORT (insecure)[34],DHE-RSA (forward secrecy)[34],DHE-DSS (forward secrecy)[34],ECDH-ECDSA[81],ECDHE-ECDSA (forward secrecy)[81],ECDH-RSA[81],ECDHE-RSA (forward secrecy)[81],"GOST R 34.10-94, 34.10-2001[82]"
+Implementation,secp160k1 (15)[81],secp160r1 (16)[81],secp160r2 (17)[81],secp192k1 (18)[81],secp192r1 prime192v1 NIST P-192 (19)[81],secp224k1 (20)[81],secp224r1 NIST P-244 (21)[81],secp256k1 (22)[81],secp256r1 prime256v1 NIST P-256 (23)[81],secp384r1 NIST P-384 (24)[81],secp521r1 NIST P-521 (25)[81],arbitrary prime curves (0xFF01)[81][151],arbitrary char2 curves (0xFF02)[81][151]
+Botan,No,No,No,No,No,No,No,No,Yes,Yes,Yes,No,No
+BoringSSL,No,No,No,No,No,No,Yes,No,Yes,Yes,Yes (disabled by default),No,No
+GnuTLS,No,No,No,No,Yes,No,Yes,No,Yes,Yes,Yes,No,No
+JSSE,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+LibreSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+MatrixSSL,No,No,No,No,Yes,No,Yes,No,Yes,Yes,Yes,No,No
+Mbed TLS,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+NSS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+OpenSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+RSA BSAFE,No,No,No,No,Yes,No,Yes,No,Yes,Yes,Yes,No,No
+"SChannel Vista/2008, 7/2008R2, 8/2012, 8.1/2012R2, 10",No,No,No,No,No,No,No,No,Yes,Yes,Yes,No,No
+Secure Transport,No,No,No,No,Yes,No,No,No,Yes,Yes,Yes,No,No
+wolfSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+Erlang/OTP SSL application,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+Implementation,secp160k1 (15),secp160r1 (16),secp160r2 (17),secp192k1 (18),secp192r1 prime192v1 NIST P-192 (19),secp224k1 (20),secp224r1 NIST P-244 (21),secp256k1 (22),secp256r1 prime256v1 NIST P-256 (23),secp384r1 NIST P-384 (24),secp521r1 NIST P-521 (25),arbitrary prime curves (0xFF01),arbitrary char2 curves (0xFF02)

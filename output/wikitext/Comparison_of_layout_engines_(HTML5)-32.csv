@@ -1,0 +1,11 @@
+,Trident,Gecko,WebKit,KHTML,Presto
+Element identifiers,,,,,
+id,rowspan="2" 3.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+class,,,,,
+Inline styles,,,,,
+style,3.0,1.0,,,1.0
+Advisory information,,,,,
+title,4.0,1.0,,,1.0
+Language information,,,,,
+lang,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+dir,5.0,,,,

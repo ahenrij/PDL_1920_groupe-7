@@ -1,17 +1,25 @@
-Product,Manufacturer,Web browser,Wireless synching,Ad hoc,On-demand,Web radio/TV
-"Archos 5, 7",Archos,Opera,,,,
-"Archos 604 WiFi, 704 WiFi",Archos,Opera 8.5,file browsing,No,No,
-"Archos 605 WiFi, 705 WiFi",Archos,Opera 9,file browsing,No,Content Portals,Yes
-Archos PMA400,Archos,Opera,via FTP,Yes,No,
-Cowon Q5W,Cowon,IE Mobile,,,,Yes (using Flash-based Internet Radio sites)
-Ibiza Rhapsody,Haier,Minimo,Yes,No,Rhapsody,radio only
-iPod Touch,Apple Inc.,Webkit,Yes,Yes,"iTunes, Spotify",Yes
-Samsung Galaxy Player,Samsung,Webkit,,,Android Marketplace,
-Sansa Connect,SanDisk,No,,,Yahoo! Music,
-Sony PSP,Sony,NetFront,Yes,Yes,PlayStation Store,Yes
-Sony Walkman X Series,Sony,NetFront,No,Yes,,Yes
-ZEN X-Fi,Creative,No,media server,No,Creative MediaBox,No
-"Zune 4, 8",Microsoft,No,Yes,Yes,Zune Marketplace,
-Zune 30,Microsoft,No,Yes,Yes,Zune Marketplace,
-"Zune 80, 120",Microsoft,No,Yes,Yes,Zune Marketplace,
-Zune HD,Microsoft,IE Mobile 6,Yes,Yes,Zune Marketplace,
+Name,H.264,ASF,WMV,DivX / Xvid,MPEG-4,AVI,QuickTime,Other formats
+Archos 105,No,No,Yes,No,No,No,No,No
+Archos 405,No[90],No,Yes,No,Yes,Yes,No[90],MPEG-2[90]
+Archos 5,No[90],No,Yes,Yes,Yes,Yes,No[90],"MPEG-2,[90] MKV"
+Archos 605 WiFi / GPS,No[90],No,Yes,Yes,Yes,Yes,No[90],MPEG-2[90]
+Archos 705 WiFi,No[90],No,Yes,Yes,Yes,Yes,No[90],MPEG-2[90]
+Cowon A3,Yes,Yes,Yes,Yes,Yes,Yes,No,"MKV, MTV, OGM, VOB, DAT, AMV, MJPEG, MPEG-1"
+Cowon D2,No,No,Yes,No[95],No,Yes,No,No
+Cowon Q5W,No,Yes,Yes,Yes,Yes,Yes,No,OGM
+Gigabeat T-Series,No,Yes,Yes,No[96],No[96],No[96],No[96],No
+GP2X F-200,No,No,No[91],Yes,Yes,Yes,No,No
+iPod (before Nano 6G; iPod 6G does),Yes,No,No,with plugin,Yes,with plugin,Yes,No
+iriver clix 2G,No,Yes,Yes,Yes,Yes,Yes,No,No
+PSP Slim & Lite,Yes,No,No,No,Yes,No,No,MJPEG
+Rio PMP300,No,No,No,No,Yes,No,No,No
+Samsung Galaxy Player,Yes,Yes,Yes,Yes,Yes,Yes,No,MKV
+Samsung T10,No,No,Yes,.svi only,Yes,No,No,No
+Samsung P2,No,No,Yes,.svi only,Yes,No,No,No
+Sansa Fuze,No,No,No,No,No,Yes,No,No
+Sansa Fuze+,Yes[97],No,Yes,No,No,No,No,MPEG-4 Part 14
+Walkman NWZ-A810 series,Yes,No,No,No,Yes,No,No,No
+ZEN,No[96],No,Yes,Yes,No[96],Yes,No,MJPEG
+ZEN Vision W,No[96],No,Yes,Yes,No[96],Yes,No,MJPEG
+Zune,Yes,No,Yes,Yes,Yes,Yes,No,DVR-MS[96]
+ZVUE 260,No,Yes,Yes,Xvid only,Yes,Yes,No,No

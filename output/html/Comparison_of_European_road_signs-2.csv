@@ -1,24 +1,8 @@
-Country,Motorways,Expressways,Primary roads,,Secondary roads,Regional destinations,Local destinations,Tourist signs,Temporary Detour
-,,,outside urban area,,,,,,
-Austria,Salzburg,Wien,Villach,,n/a,Salzkammergut[c 1],,,Umleitung
-Czechia,BRNO,PRAHA,VYŠKOV,,n/a,SLOVANY,Letišt?,Hrad Bouzov,PRAHA
-Denmark,Aarhus,Aarhus,Skanderborg,,,,Stadion,Himmelbjerget,Nakskov
-Finland,HELSINKI HELSINGFORS,LAPPEENRANTA,PORVOO BORGÅ,,n/a,KYMINLINNA,Kirjasto,Hiidenkivi,TURKU
-France,PARIS,MARSEILLE,BEAUVAIS[c 2],TOULON,LA CHAPPELLE,n/a,Gare S.N.C.F.,PARC NATUREL,Déviation
-Germany,Hamburg,Freiburg,Lübeck,,n/a,,Bahnhof,Burg Eltz,Umleitung
-Greece,??????????? Thessaloniki,????? Patra,????? ??????,,n/a,,??????,???????? Akropolis,
-Ireland,Áth Cliath DUBLIN,n/a,Tulach Mhór TULLAMORE[c 3],,n/a,Guaire GOREY[c 4],,HEYWOOD,
-Italy,VENEZIA,UDINE,BERGOSOLE,,n/a,,aeroporto,Colfosco,deviazione
-Liechtenstein,(CH) St. Gallen,(CH) Chur,Schaan,,Vaduz,n/a,Bahnhof,Burg,Umleitung
-Lithuania,KLAIP?DA,KAUNAS,VILNIUS,,n/a,,CENTRAS,,Apylanka
-Netherlands,Amsterdam,Den Haag,Woerden,,n/a,,Centrum,,OMLEIDING Volg A[c 5]
-Norway,Nannestad,Lillestrøm,Trondheim,,n/a,,Sykehus,Kvitsand,
-Poland,Wroc?aw,Pozna?,Opole,,n/a,,Stacja,Kraków,Objazd
-Portugal,Lisboa,n/a,Portalegre,,Póvoa de Varzim,ALGARVE[c 6],centro,castelo,Desvio
-Romania,Bucure?ti,n/a,Pite?ti,,n/a,n/a,Centru,Castelul Bran,Ocolire
-Slovakia,Košice,Nitra,Bratislava,,,,Centrum,Hrad,obchádzka
-Sweden,GÖTEBORG,STOCKHOLM,FALUN,,n/a,NORRMALM,Vårdcentral,Långe Erik,
-Switzerland,Basel,Chiasso,Moudon,,Ftan,n/a,Gare CFF,Castello,Umleitung Déviation Deviazione
-Spain,Villalba[c 7],Córdoba[c 8],Oviedo[c 9],PINTO[c 10],BADAJOZ,n/a,centro,Navacerrada,DESVÍO
-UK,Nottingham M1,n/a,Holyhead A55,,Aylesbury,The NORTH[c 11],Village Hall,Thorpe Park,Diversion
-Åland,n/a,n/a,LÅNGNÄS,,n/a,KLINTEN,Centralsjukhuset,Bomarsund,KATTBY
+,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
+No vehicles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+No entry,,,,,,,,,,,,no exceptions or with exceptions,,,,,,,,,,,,,,,,,
+No motor vehicles,,NOT USED,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,
+No motor vehicles except motorcycles,,,,NOT USED,,NOT USED,NOT USED,,,,,NOT USED,,,,NOT USED,,,,NOT USED,,,,,,,NOT USED,,
+No motorcycles,,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,
+No bicycles,,,,,,,,,,,,,,,,,,,,,,,,,[note 5],,,,
+No pedestrians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

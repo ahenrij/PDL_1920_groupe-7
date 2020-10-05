@@ -1,6 +1,3 @@
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Profiler,Static code analysis,MXML,Export to Mobile
-Adobe Animate Formerly Adobe Flash Professional,Proprietary,Yes,No,Yes,JVM,Yes,Yes,Yes,Yes,Yes,Yes
-Flash Builder,Proprietary,Yes,No,Yes,JVM,Yes,Yes,Yes,Yes,Yes,Yes
-FlashDevelop,MIT License,Yes,No,No,,Yes,No,Yes,No,Yes,Yes
-IntelliJ IDEA,Proprietary,Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris",Yes,No,Yes,Yes,Yes,Yes
-Powerflasher FDT,Proprietary,Yes,Yes,Yes,JVM,Yes,No,Yes,Yes,Yes,Yes
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,Profiler,Notes
+Visual Studio Code (using the Julia extension),MIT License,Yes,Yes,Yes,FreeBSD[33],?[34],?,License is for the extension; and Microsoft's source code (only).
+Emacs / spacemacs,"portions in GPL v2, LGPL, BSD and public domain",Yes,Yes,Yes,FreeBSD,Yes,Yes,"ESS extension support for emacs. vi support also available, e.g. in spacemacs (useful for pair programming )."

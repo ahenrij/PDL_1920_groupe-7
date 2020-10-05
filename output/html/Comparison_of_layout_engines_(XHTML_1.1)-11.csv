@@ -1,11 +1,2 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-caption,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-table,,,,,,,
-td,,,,,,,
-th,,,,,,,
-tr,,,,,,,
-col,,?,,,,,
-colgroup,,,,,,,
-tbody,,Yes,,,,,
-thead,,,,,,,
-tfoot,,,,,,,?
+base,<3.1[IE 1.0] [3],Yes,Yes,Yes,Yes,Yes,Yes

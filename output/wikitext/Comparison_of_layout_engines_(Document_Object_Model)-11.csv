@@ -1,0 +1,25 @@
+,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+Interface CDATASection,,,,,,,
+DOM1,(no properties),,,1.0,,?,2.0
+Interface DocumentType,,,,,,,
+DOM1,name,rowspan="3" ,rowspan="3" ,1.0,rowspan="3" ,?,rowspan="3" 1.0
+,entities,rowspan="2" ,?,,,,
+,notations,?,,,,,
+DOM2,publicId,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0,rowspan="3" ,?,rowspan="3" 1.0
+,systemId,?,,,,,
+,internalSubset,?,,,,,
+Interface Notation,,,,,,,
+DOM1,publicId,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0,rowspan="2" ,?,rowspan="2" 2.0
+,systemId,?,,,,,
+Interface Entity,,,,,,,
+DOM1,publicId,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0,rowspan="3" ,?,rowspan="3" 
+,systemId,?,,,,,
+,notationName,?,,,,,
+DOM3,inputEncoding,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,?,rowspan="3" 
+,xmlEncoding,?,,,,,
+,xmlVersion,?,,,,,
+Interface EntityReference,,,,,,,
+DOM1,(no properties),,,1.0,,?,
+Interface ProcessingInstruction,,,,,,,
+DOM1,target,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0,rowspan="2" ,?,rowspan="2" 2.0
+,data,?,,,,,

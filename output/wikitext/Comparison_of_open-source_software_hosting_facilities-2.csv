@@ -1,0 +1,21 @@
+Name,Code review,Bug tracking,Web hosting,Wiki,Translation system,Shell server,Mailing list,Forum,Personal repository,Private repository,Announce,Build system,Team,Release binaries,Self-hosting
+Assembla,,,,,,,,,,,,,,,
+Azure DevOps Services,,,,,,,,,,,,,,,Commercially (Azure DevOps Server)
+Bitbucket,,Anyone can submit Bug Reports without logging in.,,,,,,,,YesLimited to 5 users on free plan (see Pricing - bitbucket.org),,,,,Commercially (Bitbucket Server formerly Stash)name=BitBucSerSelf hosted version is known as BitBucket Server and only supports Git repositories
+Buddy,,,,,,,,,,,,Builds are run in Docker containers,,,
+CloudForge,,,,,,,,,,,,,,,
+GForge,,,,,,,,,,,,,,,
+Gitea,,,,,,,,,,,,"3rd-party (e.g. Travis CI, Appveyor and others)[26]",,,
+GitHub,,Yes[28]Requires one to log in to report a Bug.,,,,,,,,YesLimited to 3 users on free plan (see Pricing - github.com),,"3rd-party (e.g. Travis CI, Appveyor and others)[30]",,,Commercially (GitHub Enterprise)
+GitLab,,,,,,,,,,,,,,,YesHas an open source Community Edition and commercial Enterprise Edition
+GNU Savannah,,,,,,,,,,,,,,,
+Helix TeamHub,,,,,,,,,,,,"Yes, with hooks. Jenkins, TeamCity, etc.",,,
+java.net/Project Kenai,,,,,,,,,,,,,,,
+Kallithea,,,,,,,,,,,,,,,
+Launchpad,,,,,,,,,,YesCurrently only available for security vulnerability updates,,Ubuntu,,,
+OSDN,,,,,,,,,,,,,,,
+Ourproject.org,,,,,,,,,,,,,,,
+Phabricator,,,,,,,,,,,,,,,
+RhodeCode,,,,,,,,,,,,,,,
+SourceForge,,,,,,,,,,"YesPrivate repositories can be used to set up a project before going live. However, SourceForge requires that the project remains open source. See SourceForge Support.",,,,,
+Name,Code review,Bug tracking,Web hosting,Wiki,Translation system,Shell server,Mailing list,Forum,Personal repository,Private repository,Announce,Build system,Team,Release binaries,Self-hosting

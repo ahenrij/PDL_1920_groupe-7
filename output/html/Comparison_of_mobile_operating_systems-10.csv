@@ -1,5 +1,4 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-System wide base text size,Yes,Yes[76][77][78],?,2.1.0+: Set text size[79],?
-Monaural output,Yes,Yes,No,No,No
-Always visible scrollbar,No,No,No,No,No
-Reduced Animations,Yes,Yes,No,No,No
+Bluetooth keyboard,2.3+;[261] previous versions via 3rd party software[262],Yes[263],No,Yes[264][265],Yes
+USB keyboard,3.1+[261],With Camera Connection Kit[266],No,?,Yes
+Interchangeable external memory cards,Yes[267],Only for photo/video import with an optional accessory,Yes[268],Yes,Yes

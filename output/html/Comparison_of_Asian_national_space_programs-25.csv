@@ -1,6 +1,6 @@
-No.,Country,Spacecraft,Year
-1,China,Chang'e 3/Yutu,2013
-TBD,Israel,Beresheet,2019 (Failed)
-TBD,India,Chandrayaan-2/Pragyan,2019 (Failed)
-,,Chandrayaan-3,2021 (Planned)
-TBD,India Japan,Lunar Polar Exploration Mission,2024 (Planned)
+Country,Active,In orbit,Decayed,Total
+China,352,407,84,491
+Japan,90,183,65,248
+India,64,101,12,113
+Israel,17,20,6,26
+South Korea,15,22,5,27

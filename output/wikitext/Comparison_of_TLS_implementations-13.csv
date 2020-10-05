@@ -1,0 +1,19 @@
+Implementation,Developed by,Open source,Software license,Copyright holder,Written in,"Latest stable version, release date",Origin
+Botan,Jack Lloyd,,Simplified BSD License,Jack Lloyd,C++,,US (Vermont)
+BoringSSL,Google,,"OpenSSL-SSLeay dual-license, ISC license","Eric Young, Tim Hudson, Sun, OpenSSL project, Google, and others","C, C++, Go, assembly",??,Australia/EU
+Bouncy Castle,The Legion of the Bouncy Castle Inc.,,MIT License,Legion of the Bouncy Castle Inc.,"Java, C#",,Australia
+cryptlib,Peter Gutmann,,Sleepycat License and commercial license,Peter Gutmann,C,,NZ
+GnuTLS,GnuTLS project,,GNU LGPLv2.1+,Free Software Foundation,C,,EU (Greece and Sweden)
+Java Secure Socket Extension (JSSE),Oracle,,GNU GPLv2 and commercial license,Oracle,Java,,US
+LibreSSL,OpenBSD Project,,"Apache License 1.0, 4-clause BSD License, ISC License, and some are public domain","Eric Young, Tim Hudson, Sun, OpenSSL project, OpenBSD Project, and others","C, assembly",,Canada
+MatrixSSL[1],PeerSec Networks,,GNU GPLv2+ and commercial license,PeerSec Networks,C,,US
+Mbed TLS (previously PolarSSL),Arm,,"Apache License 2.0, GNU GPLv2+ and commercial license",Arm Holdings,C,,EU (Netherlands)
+Network Security Services (NSS),"Mozilla, AOL, Red Hat, Sun, Oracle, Google and others",,MPL 2.0,NSS contributors,"C, assembly",,US
+OpenSSL,OpenSSL project,,OpenSSL-SSLeay dual-license,"Eric Young, Tim Hudson, Sun, OpenSSL project, and others","C, assembly",,Australia/EU
+RSA BSAFE,"Dell, formerly RSA Security",,,Dell,"Java, C, assembly",SSL-J ,Australia
+S2n,Amazon,,"Apache License 2.0, GNU GPLv2+ and commercial license","Amazon, Inc.",C,Continuous,US
+SChannel,Microsoft,,,Microsoft Inc.,,"Windows 10, 2015-07-29",US
+Secure Transport,Apple Inc.,,APSL 2.0,Apple Inc.,,"57337.20.44 (OS X 10.11.2), 2015-12-08",US
+wolfSSL (previously CyaSSL),wolfSSL[2],,GNU GPLv2+ and commercial license,wolfSSL Inc.[3],C,,US
+Erlang/OTP SSL application,Ericsson,,Apache License 2.0,Ericsson,Erlang,"OTP-21, 2018-06-19",Sweden
+Implementation,Developed by,Open source,Software license,Copyright owner,Written in,"Latest stable version, release date",Origin

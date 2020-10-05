@@ -1,0 +1,158 @@
+ADC hub,FOSS,Software license,Active,Last Update,Notes
+ADCH++,,GPL,,2016-03-08 / 2.12.1,
+ADCH++ GUI,,GPL,,,
+DSHub,,GPL,,2008-10-09 / RC1,
+FlexHub,,AGPL,,2013-10-20 / 0.2 svn 1469,
+Luadch,,GPLv2,,2019-10-13 / v2.20,
+Nexthub,,MIT License,,,
+uhub,,GPL,,2014-10-17 / 0.5.0,In Debian[2] and OpenWrt[3]
+ErlHub,,GPL,,,
+Qhub,,GPL,,2006-07-09 / v0.10,
+Starlet ADC Hub,,,,,
+Starhub,,source code available,,,
+RusHub,,GPL,,2012-07-10 / 2.3.10,
+ADC hub,FOSS,Software license,Active,".[4] Operating system support ADC hub Windows Linux OS X Other ADCH++ Linux only GNU GPL GNU GPL, MIT GNU GPL GNU GPL BSD GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL MIT No installable package[8] GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL GNU GPLv2 GNU GPLv2 GNU GPL ,
+ADC hub,Windows,Linux,OS X,Other,
+ADCH++,,,,,
+ADCH++ GUI,,,,Any Python enabled platform,
+DSHub,,,,Any Java enabled platform,
+FlexHub,,,,,
+Luadch,,,,"Raspberry Pi, Synology NAS, any GCC enabled platform",
+Nexthub,,,,Any C# enabled platform,
+uhub,,,,"BSD, Haiku, OpenWrt, Solaris",
+Erlhub,,,,Any Erlang enabled platform,
+Qhub,,,,,
+Starlet ADC Hub,,,,OpenVMS,
+Starhub,,,,Any Java enabled platform,
+RusHub,,,,"FreeBSD, Solaris",
+ADC hub,Windows,Linux,OS X,Other,
+ADC hub,GUI,CLI,Other,Programming language,Based on
+ADCH++,,,,"C++, Lua, Python, Ruby",
+ADCH++ GUI,,,,"C++, Python",ADCH++
+DSHub,,,,"Java, Python",
+FlexHub,Planned,,,Lua,
+Luadch,,,,"C++, Lua",
+Luadch GUI,,,,wxLua,
+Nexthub,,,,C-Sharp,
+uhub,,,,C,
+Erlhub,,,,Erlang,
+Qhub,,,,,
+Starlet ADC Hub,,,,C,
+StarHub,,,,Java,
+RusHub,,,,C++,
+ADC hub,GUI,CLI,Other,Programming language,Based on
+ADC hub,Encryption,IPv6,Plugin,Hash algorithms,Bloom filter
+ADCH++,,,"Lua, Python, Ruby",Tiger tree hash,
+ADCH++ GUI,,,Python,Tiger tree hash,
+DSHub,,,"Java, Python",Tiger tree hash,
+FLexHub,Linux only,,,Tiger tree hash,
+Luadch,,,Lua,Tiger tree hash,
+Nexthub,,,C#,Tiger tree hash,
+uhub,,,C,Tiger tree hash,
+Qhub,,,,Tiger tree hash,
+Starlet ADC Hub,,,,Tiger tree hash,
+Starhub,,,,Tiger tree hash,
+RusHub,,,,Tiger tree hash,
+ADC hub,Encryption,IPv6,Plugin,Hash algorithms,Bloom filter
+ADC client,FOSS,Software license,Active,Last Update,
+AirDC++,,GNU GPL,,2019,
+AirDC++ Web Client,,"GNU GPL, MIT",,2019,
+ApexDC++,,GNU GPL,,2017,
+DC++,,GNU GPL,,2018,
+jucy,,BSD,,2014,
+LinuxDC++,,GNU GPL,,2011,
+EiskaltDC++,,GNU GPL,,2015,
+FlylinkDC++,,GNU GPL,,2017,
+RSX++,,GNU GPL,,2011,
+TkDC++,,GNU GPL,,2010,
+StrongDC++,,GNU GPL,,2010,
+RevConnect,,GNU GPL,,2007,
+ncdc,,MIT,,2019,
+ADC client,FOSS,Software license,Active," Operating system support ADC client Windows Linux OS X BSD Haiku AirDC++ No installable package[8] GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL GNU GPLv2 GNU GPLv2 GNU GPL ,
+ADC client,Windows,Linux,OS X,BSD,Haiku
+AirDC++,,,,,
+AirDC++ Web Client,,,No installable package[8],,
+ApexDC++,,,,,
+DC++,,,,,
+jucy,,,,,
+LinuxDC++,,,,,
+EiskaltDC++,,,,,
+FlylinkDC++,,,,,
+RSX++,,,,,
+TKDC++,,,,,
+StrongDC++,,,,,
+ncdc,,,,,
+ADC client,Windows,Linux,OS X,BSD,Haiku
+ADC client,GUI,CLI,WebUI,Programming language,Based on
+AirDC++,,,,C++,StrongDC++
+AirDC++ Web Client,,,,"C++, TypeScript",AirDC++
+ApexDC++,,,,"C++, Lua",StrongDC++
+DC++,,,,C++,
+Jucy,,,,Java,
+LinuxDC++,,,,C++,DC++
+EiskaltDC++,,,,"C++, Lua",DC++
+FlylinkDC++,,,,C++,"StrongDC++, DC++, ApexDC speed mode"
+RSX++,,,,"C++, Lua",StrongDC++
+TKDC++,,,,"C++, Lua","StrongDC++, DC++"
+StrongDC++,,,,C++,DC++
+ncdc,,,,C,
+ADC client,GUI,CLI,WebUI,Programming language,Based on
+ADC client,Magnet URI,UPnP,NAT traversal,DHT,Encryption
+AirDC++,,,,,
+AirDC++ Web Client,,,,,
+ApexDC++,,,,,
+DC++,,,,,
+jucy,,,,,
+LinuxDC++,,,,,
+EiskaltDC++,,,,,
+FlylinkDC++,,,,,
+RSX++,,,,,
+TKDC++,,,,,
+StrongDC++,,,,,
+ncdc,,,,,
+ADC client,Magnet URI,UPnP,NAT traversal,DHT,Encryption
+Other software,Software type,FOSS,Software license,Active,Last Update
+ADCCore,General library,,GNU GPL,,
+DCBouncer,Relay,,GNU GPL,,
+DC-Hublink,Hub linker,,GNU GPL,,
+DCWatch,Hub operator helper,,GNU GPL,,
+Embla,General library,,GNU GPL,,
+FlowLib,General library,,GNU GPL,,
+NetChatLink,Hub linker,,GNU GPL,,
+Announcer Bot,Announce new Releases,,GNU GPLv2,,
+Certmanager,Manage SSL Certificates,,GNU GPLv2,,
+SerieBot,SerieBot,,GNU GPL,,
+Other software,Software type,FOSS,Software license,Active,".[12] Operating system support Other software Windows Linux OS X Other ADCCore 
+Other software,Windows,Linux,OS X,Other,
+ADCCore,,,,Any .NET4 enabled platform,
+DCBouncer,,,,,
+DC-Hublink,,,,,
+DCWatch,,,,,
+Embla,,,,Any Java enabled platform,
+FlowLib,,,,Any C# enabled platform,
+NetChatLink,,,,Runs under Wine,
+Announcer Bot,,,,,
+Certmanager,,,,,
+SerieBot,,,,Any C# enabled platform,
+Other software,Windows,Linux,OS X,Other,
+Other software,GUI,CLI,Other,Programming language,Based on
+ADCCore,,,,C#,CoreDC
+DCBouncer,,,,C++,
+DC-Hublink,,,,Visual Basic,
+DCWatch,,,,"Java, Lua",Embla
+Embla,,,,Java,
+FlowLib,,,,C#,
+NetChatLink,,,,Object Pascal (Delphi),
+Announcer Bot,,,,Lua,
+Certmanager,,,,wxLua,
+ADC hub,GUI,CLI,Other,Programming language,Based on
+Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support
+ADCCore,,,,Tiger tree hash,"TIGR, ADCS"
+DCBouncer,,,,Tiger tree hash,"Any clients, hubs"
+DC-Hublink,,,,Tiger tree hash,TIGR
+DCWatch,,,"Java, Lua",Tiger tree hash,"TIGR, ADCS"
+Embla,,,,Tiger tree hash,TIGR
+FlowLib,,,,Tiger tree hash,TIGR
+NetChatLink,,,,Tiger tree hash,TIGR
+Announcer Bot,,,,,"ADCS, OSNR"
+Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support

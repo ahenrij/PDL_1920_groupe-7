@@ -1,16 +1,18 @@
-Name,Developer,Status,First release,Latest release,Current version,Based on,License,Source available
-AbsoluteTelnet,Celestial Software (Brian Pence),Active,1996,2016-10-12,10.16[1],,Proprietary,No
-Bitvise SSH Client,Bitvise Limited,Active,2001,2020-05-22,8.43[2],,Proprietary,No
-ConnectBot,Kenny Root / Jeffrey Sharkey,Active,2007-11,2019-11-12,1.9.6 [3],Trilead SSH-2 for Java,Apache,Yes
-CRAX Commander,Soft4U2 Marcin S?owik,Active,2013-09,2015-12-01,1.10.6,libSSH2,Proprietary,Yes
-Dropbear,Matt Johnston,Active,2003-04-06,2017-05-18,2017.75,,MIT,Yes
-eSSH Client,Ecode Software,Inactive,2002-07,,,,Proprietary,No
-lsh,Niels Möller,Active,1999-05-23,2013-06-26,2.1,,GPL,Yes
-OpenSSH (OpenBSD Secure Shell),The OpenBSD project,Active,1999-12-01,2020-05-27,8.3[4],ossh,BSD,Yes
-PuTTY,Simon Tatham,Active,1999-01-22,2020-06-27,0.74[5],,MIT,Yes
-SecureCRT,VanDyke Software,Active,1998-06,2020-02-11,8.7.0[6],,Proprietary,No
-Tera Term,TeraTerm Project,Active,2004,2018-08-31,4.100[7],Tera Term Pro 2.3 (1994–1998),BSD,Yes
-TN3270 Plus,"SDI USA, Inc.",Active,2006,,,,Proprietary,No
-TtyEmulator,FCS Software,Active,2002-05,,,,Proprietary,No
-wolfSSH,wolfSSL,Active,2016-07-20,2019-10-31,1.4.3,wolfCrypt,GPL or Commercial Distribution,Yes
-ZOC Terminal,"EmTec, Innovative Software",Active,1995-07-01,2020-01-09,7.26.1[8],,Proprietary,No
+Name,User interface,SSH1,SSH2,Additional protocols,,Port forwarding and Tunneling,,,Session multiplexing [Note 1],Kerberos,IPv6,Terminal,SFTP/SCP,Proxy client[Note 2]
+,,,,TELNET,rlogin,Port forwarding,SOCKS [Note 3],VPN [Note 4],,,,,,
+AbsoluteTelnet,"GUI (multi-session, single-window)",Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,"SOCKS 4, 5; HTTP"
+Bitvise SSH Client,GUI or command line,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"SOCKS 4, 5"
+Dropbear,command line,No,Yes,No,No,Yes,No,No,No,No,Yes,Yes,Yes,?
+lsh,command line,No,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,Yes,?
+OpenSSH (OpenBSD Secure Shell),command line,No[Note 5],Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,ProxyCommand
+PuTTY,GUI or command line,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes[Note 6],Yes,Yes,Yes[Note 7],"SOCKS 4, 5; HTTP; Telnet; Local"
+SecureCRT,GUI,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,"SOCKS 4, 5; HTTP; Telnet; Generic"
+SmartFTP,"GUI (multi-session, single-window)",No,Yes,Yes,No,No,No,No,No,Yes,Yes,Yes,Yes,"SOCKS 4, 5; HTTP"
+Tera Term,GUI,Yes,Yes,Yes,No,Yes,No,No,No,No,Yes,Yes,SCP,"SOCKS 4, 5; HTTP; Telnet"
+TN3270 Plus,GUI,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,Yes,No,SOCKS 4
+TtyEmulator,GUI or command line,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,No,"SOCKS 4,4a, 5; HTTP Local"
+WinSCP [Note 8],GUI or command line,Yes,Yes,No,No,limited[Note 9],No,No,No,Yes,Yes,simple,Yes,"SOCKS 4, 5; HTTP; Telnet; Local"
+wolfSSH,command line,No,Yes,No,No,Yes,No,No,No,No,Yes,simple,Yes,?
+ZOC,TDI or command line,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,SCP through terminal[Note 10],SOCKS 4; 5; HTTP; Jumpserver
+Name,User interface,SSH1,SSH2,Additional protocols,,Tunneling,,,Session multiplexing [Note 1],Kerberos,IPv6,Terminal,SFTP/SCP,Proxy client[Note 2]
+,,,,TELNET,rlogin,Port forwarding,SOCKS [Note 3],VPN [Note 4],,,,,,

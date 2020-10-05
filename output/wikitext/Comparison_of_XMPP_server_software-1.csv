@@ -1,0 +1,13 @@
+RFC,Description,Status,ejabberd,iChat Server,jabberd14,jabberd2,Metronome,MongooseIM,Openfire,Prosody,Sun Java System Instant Messaging Server,Tigase
+RFC 3920,XMPP Core,Obsolete,,,,,,,,,,
+RFC 3921,XMPP IM,Obsolete,,,,,,,,,,
+RFC 3922,XMPP CPIM,Final[7],,,,,,,,,,
+RFC 3923,XMPP E2E,Final[7],,,,,,,,,,
+RFC 4854,XMPP URN,Informational[7],,,,,,,,,,
+RFC 4979,XMPP ENUM,Final[7],,,,,,,,,,
+RFC 5122,XMPP URI,Final[7],,,,,,,,,,
+RFC 6120,XMPP Core,Final[7],,,,,,,,,,
+RFC 6121,XMPP IM,Final[7],,,,,,,,,,
+RFC 6122,XMPP AF,Obsolete,,,,,,,,,,
+RFC 7395,XMPP WebSockets,Proposed,,,,,,,,,,
+RFC 7622,XMPP AF,Final[7],,,,,,,,,,

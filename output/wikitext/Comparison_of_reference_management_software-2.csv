@@ -1,0 +1,30 @@
+Software,BibTeX,Endnote/Refer/BibIX,Medline,MODS XML,RIS,Other
+Bebop,,,,,,unAPI
+BibBase,,,,,,none
+BibDesk,,,,,,"Endnote XML, user customizable"
+Biblioscape,,,,,,
+BibSonomy,,,,,,various [1]
+Bibus,,,,,,SQLite
+Bookends,,,,,,various user-customizable
+Citavi,,,,,,various
+CiteULike,,,,,,"COinS, Delicious"
+colwiz,,,,,," EndNote XML, CSL formatted HTML"
+EndNote,,,,,,various[16]
+JabRef,,,,,,"BibTeXML, DocBook, HTML, OpenDocument for OO.o, RTF, SQL database, user-customizable"
+KBibTeX,,,,,,"PDF, PostScript, HTML, XML, RTF"
+Mendeley,,,,,,Endnote XML
+Paperpile,,,,,,none
+Pybliographer,,,,,,Ovid
+Qiqqa,,,,,,none
+ReadCube (now Papers),,,,,,none
+refbase,,,,,,"COinS, OpenDocument for OO.o, SRW XML via SRU, unAPI, Word XML"
+RefDB,,,,,,"SRW XML via SRU web service, DocBook, TEI"
+Reference Manager,,,,,,"MEDLARS, TSV, CSV, Reference Manager XML, user-customizable"
+Referencer,,,,,,none
+RefME,,,,,,
+RefWorks,,,,,,"RIS, BibTeX, Tab delimited or XML metadata"
+SciRef,,,,,,"Plain text, RTF"
+Sente,,,,,,user-customizable
+Wikindx,,,,,,"COinS, RTF, HTML, ADS, Word BIB"
+WizFolio,,,,,,
+Zotero,,,as of version 4.0[18],,,"COinS, CSV, Several RDF format standards, TEI, Wikipedia citation templates, Endnote XML, CSL JSON, Refer/BiblX, RefWorks tagged"

@@ -1,17 +1,8 @@
-Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
-,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MHz),Band- width (GB/s),
-Radeon 520[173] (Banks),18 April 2017,GCN 1st gen (28 nm),320:20:8,1030,20.6,8.2,659,DDR3 64-bit,2,1000,16.0,<50 W
-,,,,,,,,GDDR5 64-bit,2,1125,36,
-Radeon 530[174] (Weston),18 April 2017,GCN 3rd gen (28 nm),384:24:8,730 1024,24.6,8.2,786,DDR3 64-bit,2,900,14.4,<50 W
-Radeon 530X[175] Radeon 535[176] (Polaris 24 XT),18 April 2017,,384:24:8,730 1024,24.6,8.2,786,GDDR5 64-bit,2,1125,36,<50 W
-Radeon RX 540[177] (Lexa Pro),11 November 2017,GCN 4th gen (14 nm),512:32:16,1124 1219,39,19.5,1248,GDDR5 128-bit,2,1500,96,<50 W
-Radeon 540X[178] (Polaris 23 XL),11 April 2018,,,,,,,,,,,
-Radeon RX 550[179] (Lexa Pro),2 July 2017,,640:40:16,1100 1287,51.5,20.6,1647,GDDR5 128-bit,2,1500,96,<50 W
-Radeon 550X[180] (Polaris 23 XT),11 April 2018,,,,,,,,,,,
-Radeon RX 560[181][182][183] (Baffin XT),5 January 2017,,896:56:16,784 1032,57.8,16.5,1849,GDDR5 128-bit,4,1710,109.4,55 W
-,,,896:56:16,1000 1053,59,16.9,1887,GDDR5 128-bit,4,1500,96,55 W
-,,,1024:64:16,1090 1202,77,19.2,2462,GDDR5 128-bit,4,1500,96,65 W
-Radeon RX 560X[184] (Polaris 31 XL),9 January 2019,,896:56:16,1223,68.5,19.6,2192,GDDR5 128-bit,4,1750,112,65 W
-Radeon RX 570[185] (Ellesmere Pro),10 December 2017,,2048:128:32,926 1206,154.4,38.6,4940,GDDR5 256-bit,8,1650,211,85 W
-Radeon RX 580[186] (Polaris 20 XT),18 April 2017,,2304:144:32,1000 1077,155.1,34.5,4963,GDDR5 256-bit,8,2000,256,100 W
-Radeon RX 580X[187] (Polaris 20 XT),11 April 2018,,,,,,,,,,,
+Model (codename),Release Date,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TBP,Bus interface
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Bandwidth (GB/s),,
+Radeon Instinct MI6 (Polaris 10) [407][408][409][410][411],December 2016,GCN 4th gen 14 nm,5.7×109 232 mm2,2304:144:32 36 CU,1120 1233,177.6,39.46,5800,5800,358,GDDR5 256-bit,16,7000,224,150 W,PCIe 3.0 x16
+Radeon Instinct MI8 (Fiji XT) [407][408][409][412][413],,GCN 3rd gen 28 nm,8.9×109 596 mm2,4096:256:64 64 CU,1000,256.0,64.0,8200,8200,512,HBM 4096-bit,4,1000,512,175 W,
+Radeon Instinct MI25 (Vega 10 XT)[407][408][409][414][415][416],,GCN 5th gen 14 nm,12.5×109 510 mm2,4096:256:64 64 CU,1400 1500,384,96.0,24600,12300,768,HBM2 2048-bit,16,1704,436.2,300 W,
+"Radeon Instinct MI25 mxgpu (Prototype, June 2017)[417]",Unreleased,,2× 12.5×109 510 mm2,2× 4096:256:64 64 CU,1400 1500,2× 384,2× 96.0,2× 24600,2× 12300,2× 768,,2× 16,,2× 436.2,300 W,
+Radeon Instinct MI50 (Vega 20 GL)[418][419][420][421],November 2018,GCN 5th gen 7 nm,13.2×109 331 mm2,3840:240:- 60 CU,1450 1746,419.04,-,26800,13400,6700,HBM2 4096-bit,16,2000,1024,300 W,PCIe 4.0 x16
+Radeon Instinct MI60 (Vega 20 GL)[418][422][423],,,,4096:256:- 64 CU,1500 1800,460.8,-,29450,14725,7362.5,,32,,1024,300 W,

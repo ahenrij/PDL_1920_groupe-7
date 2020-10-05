@@ -1,0 +1,25 @@
+Trident,Gecko,WebKit,Presto
+<audio> attributes,,,
+src,rowspan="5" 5.0[21],1.9.1,rowspan="5" 525
+preload,2.0[281][282],,
+autoplay,1.9.1,rowspan="3" 2.5,
+loop,11.0[283],,
+controls,1.9.1,,
+<video> attributes,,,
+src,rowspan="8" 5.0[21],1.9.1,rowspan="8" 525
+preload,2.0[281][282],,
+autoplay,1.9.1,rowspan="6" 2.5,
+loop,11.0[283],,
+controls,1.9.1,,
+poster,1.9.2[284],,
+width,rowspan="2" 1.9.1,,
+height,,,
+<source> attributes,,,
+src,rowspan="3" 5.0[21],rowspan="2" 1.9.1,rowspan="3" 525[285]
+type,,,
+media,15.0[286],,
+<track> attributes,,,
+kind,rowspan="4" 6.0[287],rowspan="4" 24.0[288],rowspan="4" 
+label,,,
+src,,,
+srclang,,,

@@ -1,2 +1,5 @@
-Definition,length(string) returns an integer number
-Description,Returns the length of a string (not counting the null terminator or any other of the string's internal structural information). An empty string returns a length of 0.
+Format,Languages,Comments
+string.partition(separator),"Python, Ruby(1.9+)",
+"lists:partition(pred, string)",Erlang,
+"split /(separator)/, string, 2",Perl 5,
+"split separator, string, 2 string.split( separator, 2 )",Raku,Separator does not have to be a regular expression

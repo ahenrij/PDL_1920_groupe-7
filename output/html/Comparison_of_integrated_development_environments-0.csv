@@ -1,13 +1,8 @@
-IDE,License,Platform,Developer,Latest stable release
-Code::Blocks,GPL,"Windows, Linux, macOS, FreeBSD, OpenBSD, Solaris",Code::Blocks Team,17.12 / 2017-12-30
-Geany,GPL,"Windows, Linux, macOS, FreeBSD, AIX, OpenBSD, Solaris, other Unix",Team,"1.27 / March 13, 2016"
-GNAT Programming Studio,GPL,"Windows, Linux, macOS, DragonFly BSD, FreeBSD, NetBSD, OpenBSD, Solaris",AdaCore,4.3.1 / June 2009
-KDevelop,GPL,Linux,KDevelop Team,"5.5.1 (May 5, 2020; 4 months ago (2020-05-05)) [±]"
-NetBeans,CDDL,"Windows, Linux, macOS",NetBeans Community,"12.1 (September 1, 2020; 23 days ago (2020-09-01)) [±][25]"
-OpenWatcom,OSI Approved,"Windows, Linux, DOS, OS/2",OpenWatcom Community,"1.9 / June 2, 2010"
-Photran (Eclipse),EPL,"Windows, Linux, macOS, FreeBSD, JVM, Solaris","University of Illinois, Los Alamos National Laboratory","9.1 / June 24, 2015"
-Plato,Proprietary,Windows,Silverfrost,4.7.3.0
-Understand,Proprietary,"Windows, Linux, macOS, Solaris, other Unix",SciTools,"December 4, 2015"
-Simply Fortran,Proprietary,"Windows, Linux, macOS","Approximatrix, LLC","3.14 / August 12, 2020"
-SlickEdit,Proprietary,"Windows, Linux, MacOS, AIX, Solaris, Solaris SPARC, HP-UX",SlickEdit,October 2016
-IntelliJ IDEA,ASLv2,"Windows, Linux, MacOS, FreeBSD, OpenBSD, Solaris",JetBrains,September 2017
+IDE,Developer,Latest stable release,Platform,License
+Aptana Studio with integrated RadRails plugin (Eclipse),"Aptana, Inc.","3.5.0 / December 27, 2013","Windows, Linux, macOS, FreeBSD, JVM, Solaris","GPL, proprietary"
+Eclipse DLTK Ruby Plugin,Eclipse Foundation,"5.0.0 / June 6, 2013",x86,EPL
+eric,Detlev Offenbach,"6.1.4 / April 9, 2016",Cross-platform,GPLv3 "or later"
+Komodo IDE / Edit,ActiveState,"9.0.1 / April 19, 2015",Cross-platform,Proprietary
+NetBeans,Thomas Enebo (JRuby co-lead),"12.1 (September 1, 2020; 23 days ago (2020-09-01)) [±][43]",Cross-platform,CDDL and GPL
+RubyMine (IntelliJ IDEA),JetBrains,"2018.3.5 (build 183.5912.16) / Feb 27, 2019[44]","Windows, Linux, macOS, FreeBSD, OpenBSD, Solaris",Proprietary
+SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, AIX, Solaris, HP-UX",Proprietary

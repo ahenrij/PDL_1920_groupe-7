@@ -1,0 +1,43 @@
+,Standalone executables creation support,Symbolic computation support,OOP support,GUI creation support,Multi-dimensional arrays as primitive data type,Centralized extension library website,Can call code in other languages,Can be called from other languages
+Analytica,,,,,,,"COM, Excel","Excel, COM, .NET"
+Dyalog APL,,,,"Win32, .NET, WPF, HTML/JS",,,"COM, .NET, WebServices, Shared Libraries, DLLs, NAG, R, JavaScript[15]","COM, .NET, WebServices[15]"
+GNU Data Language,,,, GUI Widgets since v.0.9 but still incomplete,,,"C, Python",Python
+GNU MCSim,,,, XMCSim with TCL/TK and wish,,,C,R
+GNU Octave,," GiNaC extension, wrappers to SymPy",,,,,"C++, Fortran,[18] Perl,[19] Tcl[20]","Java,[21] Perl,[19] C++[22]"
+J,,,,,,,JavaScript,JavaScript
+Julia,," Wrappers to SymPy, SymEngine and others",,,,,"C, Fortran Python, C++, Java, MATLAB, R","C, C++, Python, R"
+"C, Fortran",,,,,,,,
+"Python, C++, Java, MATLAB, R",,,,,,,,
+LabVIEW,Professional System version With add-on[23],,GOOP[25] G#[26],,,,"C/C++,[28] DLLs, Python,[29] Perl, Tcl,[30] MATLAB, ActiveX, C#/.NET With add-ons. I.e.[31]",
+Professional System version,,,,,,,,
+With add-on[23],,,,,,,,
+,,,,,,,,
+GOOP[25],,,,,,,,
+G#[26],,,,,,,,
+"C/C++,[28] DLLs, Python,[29] Perl, Tcl,[30] MATLAB, ActiveX, C#/.NET",,,,,,,,
+With add-ons. I.e.[31],,,,,,,,
+Maple,,,,,,,"C, C#, Fortran"," MATLAB,[35] Excel,[36] VisualBasic, Java, and C[37]"
+Mathematica,,,,,,,"Java, .NET, C++, Fortran, CUDA, OpenCL, R, Python, SQL, SPARQL, NodeJS","Java, .NET, C++, Python Excel,[40] LabVIEW[41] Haskell,[42] AppleScript,[43] Racket,[44] Visual Basic,[45] Clojure[46] MATLAB[47]"
+"Java, .NET, C++, Python",,,,,,,,
+"Excel,[40] LabVIEW[41]",,,,,,,,
+"Haskell,[42] AppleScript,[43] Racket,[44] Visual Basic,[45] Clojure[46] MATLAB[47]",,,,,,,,
+MATLAB,with extension[48],with extension library[49],,,,," Through MEX[52] files: C, C++, Fortran. Also compiled Java and ActiveX components. Mathematica[47]",".NET,[53] Java,[54] Excel[55]"
+" Through MEX[52] files: C, C++, Fortran. Also compiled Java and ActiveX components.",,,,,,,,
+Mathematica[47],,,,,,,,
+MLAB,,,,,,,,
+PDL,,,,,,,"C via perlXS; C, Python, F77, etc. via Inline","Perl, C[60]"
+Python,"  Py2exe, Py2App, PyInstaller, cxFreeze, etc.",  SymPy & others,Yes Inherently Object Oriented," tkinter  wxPython, QT, Kivy, many others", Numpy, PyPI,"C, C++, Fortran, many others","C, C++, Fortran, many others"
+ tkinter,,,,,,,,
+" wxPython, QT, Kivy, many others",,,,,,,,
+R,, Yes and extended via Ryacas package,, Via the tcltk library,,," C, C++, Fortran[63] MATLAB[64] Python[65]",Excel[66] Python[67] SAS[68]
+" C, C++, Fortran[63]",,,,,,,,
+MATLAB[64],,,,,,,,
+Python[65],,,,,,,,
+Excel[66],,,,,,,,
+Python[67],,,,,,,,
+SAS[68],,,,,,,,
+SageMath,,,,,,, Many languages[70][71][72],
+SAS,,,DS2 and SCL,,,,"C, Java R (requires IML)",
+"C, Java",,,,,,,,
+R (requires IML),,,,,,,,
+TK Solver,with extension,,,with extension,,,.NET Excel,Unknown

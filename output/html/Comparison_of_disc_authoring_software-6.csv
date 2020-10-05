@@ -1,14 +1,14 @@
-Application,Command line interface,Graphical user interface,Text user interface
-Alcohol 120%,No,Yes,No
-CDBurnerXP,Yes,Yes,No
-cdrtools,Yes,No,No
-DeepBurner,No,Yes,No
-ExpressBurn,Yes,Yes,No
-ImgBurn,No,Yes,No
-InfraRecorder,No,Yes,No
-K3b,Yes,Yes,No
-Libburnia,Yes,No,No
-Nero Burning ROM,No,Yes,No
-UltraISO,Yes,Yes,No
-X-CD-Roast,No,Yes,No
-Application,Command line interface,Graphical user interface,Text user interface
+Application,Red (CD-DA),Yellow (CD-ROM),Orange (CD-R/CD-RW),White (VCD/SVCD),Blue (E-CD),Beige (PCD),Green (CD-I),Purple (DDCD),Scarlet (SACD)
+Alcohol 120%,No,Yes,Yes,No,No,No,No,No,No
+CDBurnerXP,Yes,Yes,Yes,No,No,No,No,No,No
+cdrtools,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?
+DeepBurner,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+ExpressBurn,Yes,Yes,Yes,No,No,No,No,No,No
+ImgBurn,Yes,Yes,Yes,No[2],?,?,Yes,No,?
+InfraRecorder,?,?,Yes,?,?,?,?,?,?
+K3b,Yes,?,Yes,Yes,Yes,No,Yes,No,?
+Libburnia,Yes,Yes,Yes,No,No,No,No,No,No
+Nero Burning ROM,Yes,Yes,Yes,Yes,No,No,No,No,No
+UltraISO,Yes,Yes,Yes,?,?,?,?,?,?
+X-CD-Roast,Yes,Yes,Yes,No,No,No,No,No,No
+Application,Red (CD-DA),Yellow (CD-ROM),Orange (CD-R/CD-RW),White (VCD/SVCD),Blue (E-CD),Beige (PCD),Green (CD-I),Purple (DDCD),Scarlet (SACD)

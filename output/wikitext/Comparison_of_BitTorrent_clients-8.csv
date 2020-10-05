@@ -1,0 +1,5 @@
+BitTorrent library,Super-seeding,Tracker,UPnP [35],NAT Port Mapping Protocol,NAT traversal [36],DHT [37],Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,?TP
+libtorrent (Rasterbar),,,,,,,,,,,,,
+MonoTorrent,,,,,,,,,,,,,
+rTorrent (libTorrent Rakshasa),,,,,,,,,,,,,
+BitTorrent library,Super-seeding,Tracker,UPnP,NAT Port Mapping Protocol,NAT traversal,DHT,Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,?TP

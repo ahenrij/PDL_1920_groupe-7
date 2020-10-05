@@ -1,5 +1,6 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-Safe driving mode,3rd party software,11+[230],?,?,?
-Turn-by-turn navigation,2+[231],6+[232],?,Yes,3rd party software
-Offline maps,"3rd party software Google Maps,[233] Here WeGo",6+[234],?,3rd party software,3rd party software
-Alternative routes in maps,Yes[235],5+[236][237],?,3rd party software,3rd party software
+Custom ringtones,Yes,Yes[324],Yes,Yes,Yes
+Custom SMS/MMS tones,Yes[325],5+[326],?,Yes,No
+Custom vibrate alert patterns,"No,[327] possible on some Samsung devices such as Galaxy S III, but limited[328]",5+[329][330],?,API available for 3rd party apps,No
+Dismiss repeating alarm clock before trigger,4.4+[331],No[332],No,?,Yes
+Tap to snooze[333],3rd party apps[334],Yes,No,?,Yes

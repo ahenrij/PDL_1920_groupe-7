@@ -1,64 +1,34 @@
-Name,floppy,ISO,folders on host,physical disk / device,raw / flat (whole disk),raw / flat (partition),hdd (Parallels),QCOW (QEMU),QCOW2 (QEMU),QED (QEMU),VDI (VirtualBox),VHD (Connectix Virtual PC),VHDX (Hyper-V),VMDK (VMware)
-Bochs[21],Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,"v3, v4"
-"Containers, or Zones",?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Cooperative Linux (coLinux),?,?,?,?,?,?,?,?,?,?,?,?,?,?
-CHARON,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Denali,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-DOSBox,Yes,Yes,Yes,?,Yes,?,No,No,DOSBox-X fork,No,No,No,No,No
-DOSEMU,?,?,Yes,?,?,?,?,?,?,?,?,?,?,?
-FreeBSD Jail,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No
-GXemul,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Hercules,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Hyper-V (2008 R2),Yes,Yes,No,Yes,No,No,No,No,No,No,No,Yes,No,No
-Hyper-V (2012),Yes,Yes,No,Yes,No,No,No,No,No,No,No,Yes,Yes,No
-Hyper-V (2012 R2),Yes,Yes,No,Yes,No,No,No,No,No,No,No,Yes,Yes,No
-iCore Virtual Accounts,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Integrity Virtual Machines,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-JPC (Virtual Machine),Yes,Yes,Yes,?,Yes,?,?,?,?,?,?,?,?,?
-Linux-VServer,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-LynxSecure,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-LXC,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-OpenVZ,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Oracle VM Server for x86,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Oracle VM Server for SPARC (LDoms),?,?,?,?,?,?,?,?,?,?,?,?,?,?
-OVPsim,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Parallels Desktop for Mac,?,?,?,?,?,?,Yes,?,?,?,?,?,?,?
-Parallels Workstation,?,?,?,?,?,?,Yes,?,?,?,?,?,?,?
-PearPC,No,Yes,No,Yes,Yes,No,No,No,No,No,No,No,No,No
-PikeOS,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-PowerVM,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-QEMU,Yes,Yes,Yes,Yes,Yes,Yes,read-only,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-QEMU w/ kqemu module,?,?,?,?,?,?,?,Yes,No,No,?,?,?,?
-QEMU w/ qvm86 module,?,?,?,Yes,Yes,?,?,Yes,Yes,?,?,?,?,Yes
-QuickTransit,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-ScaleMP vSMP Foundation,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-SIMH,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Simics,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Sun xVM Server,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-SVISTA 2004,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-TRANGO,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-User Mode Linux,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-VirtualBox,Yes,Yes,No,Yes[22],Yes[22],Yes[22],up to v2,Yes,read-only,Yes,Yes,Yes,"Can read existing disks, but not create new disks.",Yes
-Virtual Iron 3.1,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Virtual PC 2007,Yes,Yes,?,?,?,?,No,No,No,No,No,Yes,No,No
-Windows Virtual PC,Yes,Yes,?,?,?,?,No,No,No,No,No,Yes,Yes,No
-Virtual PC 7 for Mac,Yes,Yes,No,No,No,No,No,No,No,No,No,Yes,No,No
-VirtualLogix VLX,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Virtual Server 2005 R2,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Synopsys (CoWare) Virtual Platform,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Virtuozzo,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-VMware ESX Server,?,?,?,?,?,?,?,?,?,?,?,Yes,?,?
-VMware ESXi,Yes,Yes,No,Yes,No,No,No,No,No,No,No,No,No,Yes
-VMware Fusion,?,Yes,?,?,?,?,?,?,?,?,?,?,?,Yes
-VMware Server,?,?,?,?,?,?,?,?,?,?,?,?,?,Yes
-VMware Workstation,Yes,Yes,?,Yes,?,?,?,?,?,?,?,?,?,Yes
-VMware Player,?,?,?,?,?,?,?,?,?,?,?,?,?,Yes
-Wind River Hypervisor,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Wind River VxWorks MILS Platform,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Xen,Yes,Yes,?,Yes,Yes [23],?,?,Yes [23],Yes [23],?,?,Yes [23],?,?
-XCP-ng,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-XenServer,Yes,Yes,?,Yes,Yes [23],?,?,Yes [23],Yes [23],?,?,Yes [23],?,?
-XtratuM,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-z/VM,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-z LPARs,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Name,floppy,ISO,folders on host,physical disk / device,raw / flat (whole disk),raw / flat (partition),hdd (Parallels),QCOW (QEMU),QCOW2 (QEMU),QED (QEMU),VDI (VirtualBox),VHD (Connectix Virtual PC),VHDX (Hyper-V),VMDK (VMware)
+Name,Can boot an OS on another disk partition as guest,USB support,GUI,Live memory allocation,3D acceleration,Snapshots per VM,Snapshot of running system,Live migration,Shared folders,Shared clipboard,PCI passthrough
+KVM,Yes,Yes,Yes[24],Yes,Yes (via AIGLX),Yes,Yes[25],Yes[26],,,Yes
+User Mode Linux,Yes,No,No,No,No,,,No,Yes,N/A,
+"Containers, or Zones",Yes,Yes,Yes,Yes,Not needed,Yes[27],Yes,No,Yes,Not needed,Not needed
+DosBox,No,No,SVN builds only,No,Glide (SVN builds only),No,Yes,No,No,No,No
+"Oracle VirtualBox (formerly OSE, GPLv2), with Guest Additions (GPLv2)[28]",Yes,USB 1.1 only,Yes,Yes,No,Yes branched[29],Yes,Yes,with Guest Additions[30],with Guest Additions[30],No
+Oracle VirtualBox with Extension Pack (PUEL) and Guest Additions (GPLv2)[28],Yes,Yes,Yes,Yes,OpenGL 2.0 and Direct3D 8/9[31],Yes branched[29],Yes,Yes,Yes,Yes,Retired (Until 6.0[32]; Linux only[33])
+Oracle VM Server for SPARC (LDoms),Yes,USB 2.0,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes
+OKL4 Microvisor,Yes,Yes,VMs only,Yes,Yes,,,No,,,Static assignment
+Virtual Iron 4.2,,,,,,,,Yes,,,
+Virtual PC 2007,No,No,Yes,No,No,,,No,Yes,Yes,
+Windows Virtual PC,No,partially,Yes,No,No,,,No,Yes,Yes,
+VirtualPC 7 for Mac,No,Yes,Yes,Yes,No,,,No,Yes,Yes,
+Microsoft Virtual Server 2005 R2,,No,Yes,No,No,?,Yes,No,,,
+Microsoft Hyper-V Server 2008 R2,Yes,Partial support over remote desktop connections [11],Yes,Yes,DirectX 9.0c [12] (via RemoteFX),Yes branched,Yes,Yes,,,No
+Microsoft Hyper-V Server 2012 R2,Yes,Yes,Yes,Yes,DirectX 9.0c [13] (via RemoteFX),Yes branched,Yes,Yes,,,No
+Virtuozzo,Yes,Yes,Yes,Yes,No,,,Yes,,,
+VMware ESX Server 3.0 atp,,,Yes,,No,?,Yes,Yes,,,No
+VMware ESX Server 2.5.3,,,Yes,,No,,,,,,No
+VMware ESX Server 4.0 - 6.x (vSphere),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes[34]
+VMware Fusion 2.0,Yes,Yes,Yes,No,DirectX 9 Shader model 2,,,No,,,No
+VMware Server,Yes,Yes,Yes,Yes,No,1,Yes,No,Yes,Yes,
+VMware Workstation 5.5,Yes,Yes,Yes,Yes,Experimental support for DirectX 8; also supported with VMGL[35],Yes branched,Yes,No,Yes,Yes,No
+VMware Workstation 6.0,Yes,Yes,Yes,Yes,Experimental support for DirectX 8; Also supported with VMGL[35],Yes branched,Yes,No,Yes,Yes,No
+VMware Workstation 7.0 and 8.0,Yes,Yes,Yes,Yes,Support for DirectX 9.0c Shader Model 3 and OpenGL 2.13D.[36],Yes branched,Yes,No,Yes,Yes,No
+VMware Player,Yes,Yes,Yes,Yes,supported with VMGL[35],No,No,No,Yes,,No
+Wind River hypervisor,Yes,Yes,Yes,Yes,Yes,,,No,,,
+Wind River VxWorks MILS Platform,Yes,,,,,,,,,,
+Xen,Yes,Yes[37],Yes[24],Yes,Supported with VMGL[35],?,Yes,Yes,,,Yes
+XCP-ng,Yes,Yes,Yes,Yes,,,Yes,Yes,,,
+XenServer,Yes,,Yes[24],Yes,Supported with VMGL[35],Yes,Yes,Yes,,,Yes
+z/VM,Yes,Not applicable,Yes (zURM/HMC),Yes,Not applicable,,,Yes (2011),,Not applicable,Not applicable
+z LPARs,Yes,Not applicable,Yes (HMC),Yes,Not applicable,,,Yes (2007),,Not applicable,Not applicable
+Name,Can boot an OS on another disk partition as guest,USB,GUI,Live memory allocation,3D acceleration,Snapshots per VM,Snapshot of running system,Live migration,Shared folders,Shared clipboard,PCI passthrough

@@ -1,0 +1,102 @@
+ADC client,FOSS,Software license,Active,Last Update
+AirDC++,,GNU GPL,,2019
+AirDC++ Web Client,,"GNU GPL, MIT",,2019
+ApexDC++,,GNU GPL,,2017
+DC++,,GNU GPL,,2018
+jucy,,BSD,,2014
+LinuxDC++,,GNU GPL,,2011
+EiskaltDC++,,GNU GPL,,2015
+FlylinkDC++,,GNU GPL,,2017
+RSX++,,GNU GPL,,2011
+TkDC++,,GNU GPL,,2010
+StrongDC++,,GNU GPL,,2010
+RevConnect,,GNU GPL,,2007
+ncdc,,MIT,,2019
+ADC client,FOSS,Software license,Active," Operating system support ADC client Windows Linux OS X BSD Haiku AirDC++ No installable package[8] GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL GNU GPL GNU GPLv2 GNU GPLv2 GNU GPL 
+ADC client,Windows,Linux,OS X,BSD
+AirDC++,,,,
+AirDC++ Web Client,,,No installable package[8],
+ApexDC++,,,,
+DC++,,,,
+jucy,,,,
+LinuxDC++,,,,
+EiskaltDC++,,,,
+FlylinkDC++,,,,
+RSX++,,,,
+TKDC++,,,,
+StrongDC++,,,,
+ncdc,,,,
+ADC client,Windows,Linux,OS X,BSD
+ADC client,GUI,CLI,WebUI,Programming language
+AirDC++,,,,C++
+AirDC++ Web Client,,,,"C++, TypeScript"
+ApexDC++,,,,"C++, Lua"
+DC++,,,,C++
+Jucy,,,,Java
+LinuxDC++,,,,C++
+EiskaltDC++,,,,"C++, Lua"
+FlylinkDC++,,,,C++
+RSX++,,,,"C++, Lua"
+TKDC++,,,,"C++, Lua"
+StrongDC++,,,,C++
+ncdc,,,,C
+ADC client,GUI,CLI,WebUI,Programming language
+ADC client,Magnet URI,UPnP,NAT traversal,DHT
+AirDC++,,,,
+AirDC++ Web Client,,,,
+ApexDC++,,,,
+DC++,,,,
+jucy,,,,
+LinuxDC++,,,,
+EiskaltDC++,,,,
+FlylinkDC++,,,,
+RSX++,,,,
+TKDC++,,,,
+StrongDC++,,,,
+ncdc,,,,
+ADC client,Magnet URI,UPnP,NAT traversal,DHT
+Other software,Software type,FOSS,Software license,Active
+ADCCore,General library,,GNU GPL,
+DCBouncer,Relay,,GNU GPL,
+DC-Hublink,Hub linker,,GNU GPL,
+DCWatch,Hub operator helper,,GNU GPL,
+Embla,General library,,GNU GPL,
+FlowLib,General library,,GNU GPL,
+NetChatLink,Hub linker,,GNU GPL,
+Announcer Bot,Announce new Releases,,GNU GPLv2,
+Certmanager,Manage SSL Certificates,,GNU GPLv2,
+SerieBot,SerieBot,,GNU GPL,
+Other software,Software type,FOSS,Software license,Active
+Other software,Windows,Linux,OS X,Other
+ADCCore,,,,Any .NET4 enabled platform
+DCBouncer,,,,
+DC-Hublink,,,,
+DCWatch,,,,
+Embla,,,,Any Java enabled platform
+FlowLib,,,,Any C# enabled platform
+NetChatLink,,,,Runs under Wine
+Announcer Bot,,,,
+Certmanager,,,,
+SerieBot,,,,Any C# enabled platform
+Other software,Windows,Linux,OS X,Other
+Other software,GUI,CLI,Other,Programming language
+ADCCore,,,,C#
+DCBouncer,,,,C++
+DC-Hublink,,,,Visual Basic
+DCWatch,,,,"Java, Lua"
+Embla,,,,Java
+FlowLib,,,,C#
+NetChatLink,,,,Object Pascal (Delphi)
+Announcer Bot,,,,Lua
+Certmanager,,,,wxLua
+ADC hub,GUI,CLI,Other,Programming language
+Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms
+ADCCore,,,,Tiger tree hash
+DCBouncer,,,,Tiger tree hash
+DC-Hublink,,,,Tiger tree hash
+DCWatch,,,"Java, Lua",Tiger tree hash
+Embla,,,,Tiger tree hash
+FlowLib,,,,Tiger tree hash
+NetChatLink,,,,Tiger tree hash
+Announcer Bot,,,,
+Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms

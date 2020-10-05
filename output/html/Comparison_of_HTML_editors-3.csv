@@ -1,36 +1,31 @@
-Specification,HTML 3.2,HTML 4.01,,,HTML 5,XHTML 1.0,,,XHTML 1.1,Validating
-Variant,,strict,trans.,f.set,,strict,trans.,f.set,,
-Amaya,No,No,Yes,No,No,Yes,Yes,No,Yes,Yes
-Aptana,?,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,?
-Arachnophilia,?,?,?,?,No,Yes,?,?,?,Yes
-Bluefish,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[12]
-BlueGriffon,No,Yes,Yes,?,Yes,Yes,Yes,?,?,?
-Brackets,?,?,?,?,Yes,?,?,?,?,?
-Claris Homepage,?,?,?,?,No,?,?,?,?,?
-Codelobster,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-CoffeeCup HTML Editor,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Contribute,?,?,?,?,?,?,?,?,?,?
-Dreamweaver,Yes,Yes,Yes,Yes,Yes [13],Yes,Yes,Yes,Yes,Yes
-Freeway,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes
-GoLive,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,?
-HTML-Kit,?,?,Yes,?,No,?,Yes,?,?,Yes
-LibreOffice,?,Yes,Yes,?,Yes,Yes,Yes,?,Yes,?
-KompoZer,No,Yes,Yes,No,No,Yes,Yes,No,No,Yes
-Maqetta,?,?,?,?,Yes,?,?,?,?,?
-Microsoft Expression Web,No,Yes,Yes,Yes,Yes[14],Yes,Yes,Yes,Yes,Yes
-Microsoft FrontPage,?,?,?,?,No,?,?,?,?,?
-Microsoft SharePoint Designer,?,?,?,?,No,?,?,?,?,?
-Microsoft Visual Web Developer,?,?,?,?,No,?,?,?,?,?
-Mozilla Composer,?,?,?,?,No,?,?,?,?,?
-openElement,?,?,?,?,Yes,?,?,?,?,Yes
-OpenOffice.org,?,Yes,Yes,?,Yes,Yes,Yes,?,Yes,?
-oXygenXML Editor,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Quanta Gold,?,?,?,?,No,?,?,?,?,?
-Quanta Plus,?,?,?,?,No,?,?,?,?,?
-RocketCake,?,?,Yes,?,Yes,?,?,?,?,?
-SeaMonkey Composer,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-TOWeb,No,No,No,No,Yes,No,No,No,No,Yes
-Web Architect,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[15]
-WebStorm IDE,?,?,?,?,Yes,?,?,?,?,?
-Variant,,strict,trans.,f.set,,strict,trans.,f.set,,
-Specification,HTML 3.2,HTML 4.01,,,HTML 5,XHTML 1.0,,,XHTML 1.1,Validating
+Editor,JPEG,GIF,PNG,TIFF,SVG
+Amaya,Yes,Yes,Yes,Yes,Yes
+Aptana,Yes,Yes,Yes,Yes,Depends
+Arachnophilia,?,?,?,?,?
+Bluefish,Yes,Yes,Yes,Yes,Yes
+BlueGriffon,Yes,Yes,Yes,?,Yes
+Brackets,Yes,Yes,Yes,No,Yes (via extension)[16]
+Claris Homepage,Yes,Yes,No,No,No
+Codelobster,Yes,Yes,Yes,No,No
+CoffeeCup HTML Editor,Yes,Yes,Yes,Yes,No
+Dreamweaver,Yes,Yes,Yes,Yes,Yes
+Freeway,Yes,Yes,Yes,Yes,Yes
+GoLive,Yes,Yes,Yes,No,Yes
+KompoZer,Yes,Yes,Yes,No,No
+Maqetta,?,?,?,?,?
+Microsoft Expression Web,Yes,Yes,Yes,Yes,No
+Microsoft FrontPage[17],Yes,Yes,Yes,?,Depends
+Microsoft SharePoint Designer,Yes,Yes,Yes,Yes,No
+Microsoft Visual Web Developer,Yes,Yes,Yes,Yes,No
+Mobirise,Yes,Yes,Yes,Yes,Yes
+Nvu,Yes,Yes,Yes,No,No
+openElement,Yes,Yes,Yes,No,No
+OpenOffice.org,Yes,Yes,Yes,Yes,Yes
+oXygenXML Editor,Yes,Yes,Yes,Yes,Yes
+Quanta Plus,Yes,Yes,Yes,Yes,Yes
+RocketCake,Yes,Yes,Yes,No,No
+SeaMonkey Composer,Yes,Yes,Yes,No,Yes
+TOWeb,Yes,Yes,Yes,No,No
+Web Architect,Yes,Yes,Yes,Yes,Depends
+WebStorm IDE,Yes,Yes,Yes,No,No
+Editor,JPEG,GIF,PNG,TIFF,SVG

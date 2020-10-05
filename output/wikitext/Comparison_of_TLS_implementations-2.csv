@@ -1,0 +1,18 @@
+Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT[69],GOST R 34.11-94[69]
+Botan,No,Yes,Yes,,No,No
+cryptlib,Yes,Yes,Yes,,No,No
+GnuTLS,Yes,Yes,Yes,,No,No
+JSSE,Yes,Yes,Yes,,No[70],No[70]
+LibreSSL,Yes,Yes,Yes,,Yes[71],Yes[71]
+MatrixSSL,Yes,Yes,Yes,,No,No
+Mbed TLS,Yes,Yes,Yes,,No,No
+NSS,Yes,Yes,Yes,,No[73][74],No[73][74]
+OpenSSL,Yes,Yes,Yes,,Yes[75],Yes[75]
+RSA BSAFE,Yes,Yes,Yes,,No,No
+"SChannel XP/2003, Vista/2008",Yes,Yes,"XP SP3, 2003 SP2 via hotfix[165]",,No[76],No[76]
+"SChannel 7/2008R2, 8/2012, 8.1/2012R2",Yes,Yes,Yes,except ECDHE_RSA[78][79][80],No[76],No[76]
+SChannel 10,Yes,Yes,Yes,,No[76],No[76]
+Secure Transport,Yes,Yes,Yes,,No,No
+wolfSSL,Yes,Yes,Yes,,No,No
+Erlang/OTP SSL application,Yes,Yes,Yes,,No,No
+Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT,GOST R 34.11-94

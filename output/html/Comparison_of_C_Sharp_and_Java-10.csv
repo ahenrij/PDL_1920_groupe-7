@@ -1,16 +1,13 @@
-Arrays and Collections,Java,C#
-Abstract data types,Yes,Yes
-"One-dimensional, zero-based index arrays",Yes,Yes
-"Multidimensional arrays, rectangular (single array)",No,Yes
-"Multidimensional arrays, jagged (arrays of arrays)",Yes,Yes
-Non-zero based arrays,No,Some
-Unified arrays and collections,No,Yes
-Maps/dictionaries,Yes,Yes
-Sorted dictionaries,Yes,Yes[30]
-Sets,Yes,Yes
-Sorted sets,Yes,Yes[31]
-Lists/vectors,Yes,Yes
-Queues/stacks,Yes,Yes
-Priority queue,Yes,Yes[32][33]
-Bags/multisets,Third-party library,Yes
-Concurrency optimized collections,Yes,Yes[34]
+Expressions and operators,Java,C#
+Arithmetic operators,Yes,Yes
+Logical operators,Yes,Yes
+Bitwise logic operators,Yes,Yes
+Conditional,Yes,Yes
+String concatenation,Yes,Yes
+Casts,Yes,Yes
+Boxing,Yes; implicit,Yes; implicit
+Unboxing,Yes; implicit,Yes; explicit
+Lifted operators,"No, but see java.util.Optional",Yes
+Overflow control,No,Yes
+Strict floating point evaluation,Yes; opt-in/out,Yes; opt-in[39]
+Verbatim (here-)strings,Yes; coming in version 15[40],Yes[41]

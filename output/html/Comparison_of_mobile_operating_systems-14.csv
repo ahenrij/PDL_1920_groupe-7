@@ -1,11 +1,7 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-Non-English languages support,Partial[202],Yes[203][204][205],Limited (Search is not diacritical mark-insensitive),Yes,Yes
-Underlining spell checker,2.3+[206][207],Yes[208],No,?,No
-Built-in system-wide dictionary,Built into keyboard app. Available on every device.[209],5+[210],No,Yes,Yes
-Autoexpanding text replacements,Yes,5+[211],?,?,?
-Keyboard next word prediction,"No,[212] 3rd party software[213]",8+[214],No,Yes,Yes
-Keyboard cursor controller,Google Keyboard;[215];[216],12+;[217] 9-11: Only on devices with 3D Touch;[218],No,No,Yes
-Optical character recognition input method,No[219],11+: Notes app;[220] 8+: Only for inputting credit card details[221],No,No,No
-Third party input methods,Yes[222],8+,?,?,?
-Gesture text input,4+[223],13+;[224] 8+: 3rd party software like SwiftKey,?,No[225],No
-Emoji support,4.4+[226],Yes[227],?,2.2.0+[228] 3rd party software[229],Yes
+Official app store,Google Play,App Store,Tizen Store,Jolla Store,OpenStore
+Non-discriminatory stores,"No, Some apps like Ad blockers are censored on Google Play[80][81] but developers can distribute apps from their own sources","No, Apple discriminates based on country[82] and own Apple policies[83]",?,"Openrepos.[84] Developers can distribute apps from their own sources, supports multiple app stores",?
+"Common APIs for smartphones, tablets, and PCs",Yes[85],Smartphone and tablet only[86],No,Yes,Yes
+Official SDK platform(s),"Linux, macOS and Windows[87]",macOS using iOS SDK,"GNU/Linux, Windows, macOS[88]","Windows, macOS and Linux[89]",Yes
+Cost to develop for the mobile OS,Free,"No, Requires Apple hardware.[90]",Free,Free,Free
+Cost to publish app to official store,US$25 once to offer it on Google Play[91],US$99/year,Free,Free[92],Free

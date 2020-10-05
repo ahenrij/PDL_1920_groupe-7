@@ -1,0 +1,48 @@
+Name,IP SLA Reports,Logical Grouping,Trending,Trend Prediction,Auto Discovery,Agentless,SNMP,Syslog,Plugins,Triggers / Alerts,MIB Compiler,WebApp,Distributed Monitoring,Inventory,Platform,Data Storage Method,License,Maps,Access Control,IPv6,Latest release date,Latest release version
+Argus - The all seeing,,,,,,,,,,,,"Viewing, Acknowledging, Reporting",,,Perl,"Flat file, Berkeley DB",Artistic License,,,,2013-02,3.7
+Avaya VPFM,,,,,,,,,,,,Full Control,,,,MySQL,Commercial,,,,,
+Cacti,,,,,,,,,,,,Full Control,,,PHP,"RRDtool, MySQL",,Via plugin,,,2019-06-07,1.2.4
+Checkmk,,,,,,,,,,,,Full Control,,,"C, Python",RRDtool,,,,,2020-08-19,1.6.0p16
+collectd,,,,,Push model; multicast possible,,,,,,,Viewing,,,C,RRDtool,GPLv2,,Apache ACL,,2019-11-13,5.10
+Cruz,,,,,,,,,,,,Full Control,,,"Java, C++, .NET","MySQL, Oracle",Commercial,,,,2019-02,8.0.0
+FreeNATS,,,,,,,,Via plugin,,In PHP Code,,Full Control,,,PHP,MySQL,,,,,2011-07-09,1.13.3b
+Ganglia,,,,,,,Via plugin,,,,,Viewing,,,"C, PHP",RRDtool,,,,,2016-06-14,3.7.2
+Hinemos,,,,,,,,,,,,Full Control,,,Java,PostgreSQL,,,,,2017-06-09,6.0.1
+HPE Openview Network Node Manager (NNMi),,,,,,,,,,,,Full Control,,,"C++, Java, Perl","PostgreSQL, Oracle Database",Commercial,,,,2016-08,10.20
+Icinga,Via plugin,,,,Via plugin,,Via plugin,Via plugin,,,,Full Control,,Via plugin,C[1],"MySQL, PostgreSQL, Oracle Database",,,,,2019-03-19,2.10.4
+InterMapper,,,,,,,,,,,,Viewing,,,"Windows, Linux & Mac OS",PostgreSQL,"Limited free, Commercial",,,,2017-07,6.1.5
+isyVmon,,,,,Via plugin,,,,,,,Full Control,,Via plugin,PHP,"RRDtool, MySQL","Limited free, Commercial",Via plugin,,,,
+Kaseya Network Monitor,,,,,,,,,,,,Full Control,,,,FirebirdSQL,Commercial,,,,,
+Munin,,,,,,,,,,,,Viewing,Via nodes,,Perl,RRDtool,,,,,2020-03-24,2.0.59
+Nagios,Via plugin,,,,Via plugin,,Via plugin,Via plugin,,,,,,Via plugin,C,"Flat file, SQL (via ndoutils), MySql (Via Nconf)",,,,,2019-07-29,4.4.4[3]
+NeDi,,,,,,,,,,,,,,,"Perl, PHP","Pg, MySQL, RRDTool, MariaDB","GPL3, Commercial",,,,2016-04,1.6[4]
+Netdisco,,,,,,,,,,,,,,,Perl,PostgreSQL,,,,,2017-10,2.036011[5]
+NetXMS,,,,,,,,,,,,,,,"C, Java","Oracle, MySQL, MongoDB, PostgreSQL, IBM DB2, Tuxedo",,,,,2020-02-26,3.2.472
+NeuralStar,,,,,,,,,,,,Full Control,,,,MS SQL,Commercial,,,,,
+CA UIM fka Nimsoft Monitor,,,,,,,,,,,,"Viewing, Acknowledging, Reporting",,,,"SQLServer, Oracle, MySQL","Limited free, Commercial",,,,2013-06-30,1.8.6
+Octopussy,,,,,,,,,,,,Full control,,,"Perl, ASP",MySQL,,,,,2017-06-03,1.0.16
+op5 Monitor,,,,,,,,,,,,,,Via plugin,"C, PHP","Flat file, SQL","Limited free, Commercial",,,,Monthly,7.3.0
+OpenKBM,,,,,,,,,,,,,,,,Proprietary with JDBC support,Commercial,,,,,
+OpenNMS,,,,,,,,,,,,Full Control,,,Java,"JRobin / RRDTool / Apache Cassandra, PostgreSQL",AGPLv3,,,,2019-09-26,25.0.0
+Opmantek NMIS,,,,,,,,,,Full Control,,,,,Perl,"MongoDB, RRDtool","GPL, Commercial",,,,2020-06,8.7.0 9.1.0
+OPNET's AppResponse Xpert,,,,,,,,,,,,"Viewing, Acknowledging, Reporting",,,,,Commercial,,,,,
+Opsview,,,,,,,,,,,,Full Control,,,"Perl, C, ExtJS",SQL,Commercial,,,,2019-08-07,6.2
+OSI NetExpert,,,,,,,,,,,,,,,"Java, C++",Oracle,Commercial,,,,2013-04,10.0
+PA Server Monitor,,,,,,,,,,,,"Viewing, Reporting",,,C++,"SQLite, Microsoft SQL Server",Commercial,,,,2014-07,5.5
+PacketTrap,,,,,,,,,,,,"Viewing, Reporting",,,,SQL,Commercial,,,,,
+Pandora FMS,,,,,,,,,,,,Full Control,,,"Perl, PHP, C++, JavaScript","MySQL, Oracle","GPLv2, Commercial",,,,2017-07,7.0 NG 707
+PathSolutions TotalView,,,,,,,,,,,,,,,Windows,SQLite,Commercial,,,,2018-06-01,9.01
+Performance Co-Pilot,,,,,,"Optional, Limited",,,,,,Viewing,,,"C Perl, Python, POSIX, MinGW",Flat file,"GPL, LGPL",,,,2016-11-15,3.11.6
+PRTG,,,,,,,,,,,,,,,Windows,Flat file,"Limited free, Commercial",,,,2019-05-15,19.2.50
+ScienceLogic,,,,,,,,,,,,Full Control,,,Python,MySQL,Commercial,,,,,
+SevOne,,,,,,,,,,,,Full Control,,,"C, C++, PHP",MySQL,Commercial,,,,2018-09,5.7.2.4[6]
+Shinken,Via plugin,,,,,,Via plugin,Via plugin,,,,"Viewing, Acknowledging, Reporting",,Via plugin,Python,"Flat file, MySQL, Oracle, Graphite, Sqlite, MongoDB",AGPL,,,,2016-03-10,2.4.3
+Solarwinds,,,,,,,,,,,,Full Control,,,.NET,SQL,Commercial,,,,,
+Spiceworks,,,,,,,,,,,,,,,PHP,Sqlite,,,,,2018-03-21,7.5.00107
+CA Spectrum,,,Perf. AddOn,Perf. AddOn,,,,,,,,,,,"C++, Java, JavaScript","Sleepycat-QSL, MySQL"," Commercial, per Device",,,,2020-01-27,10.4.1
+Xymon/Hobbit,,,,,Via plugin,Via plugin,Via plugin,,,,,"Viewing, Acknowledging, Reporting",,Via plugin,"C, Shell","Flat file, RRDTool, MySQL via plugin",,Via plugin,Apache ACL,,2017-01-18,4.3.28
+Vigilo NMS,,,,,,,,,,,,"Viewing, Acknowledging, Reporting",,,"Python, Perl","PostgreSQL, RRDtool","Free (GPLv2) OSS edition, Commercial NOC/NMS editions",,,Via plugin,2017-09-14,4.1.0
+Zabbix,,,,,,,,,,,,Full Control,,,"C, PHP","Oracle, MySQL, PostgreSQL, IBM DB2, SQLite",,,,,2020-05-12,5.0.1[7]
+Zenoss Core,,,,,,,,,,,,Full Control,,,"Python, Java","ZODB, MariaDB, Apache HBase","Free Core GPL, Commercial Enterprise",,,,2018-01-09,6.1.0
+ZIS-System,,,,,,,,,,,,Full Control,,,Windows,MariaDB,Commercial,,,,2020-02-01,5.8
+Name,IP SLA Reports,Logical Grouping,Trending,Trend Prediction,Auto Discovery,Agentless,SNMP,Syslog,Plugins,Triggers / Alerts,MIB Compiler,WebApp,Distributed Monitoring,Inventory,Platform,Data Storage Method,License,Maps,Access Control,IPv6,Latest release date,Latest release version

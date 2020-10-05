@@ -1,7 +1,23 @@
-Model,Launch,Core,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate (GT/s),Memory,,,,API compliance (version),,TDP / idle (watts),Notes
-,,,,,,,,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
-FireMV 2200 PCI.[207],January 2006,RV280 GL,PCI,240,200,1:4:4:4,0.96,64,3.2,DDR,64,8.1,1.4,15,DMS-59 for dual DVI-D output
-FireMV 2200 PCIe.[208],,RV370,PCIe x16,324,196,2:4:4:4,1.296,128,,,,9.0,2.1,,
-FireMV 2260[209],January 2008,RV620,"PCIe 2.0 x1/x16, PCI",600,500,40(8×5):4:4,2.4,256,32,DDR2,256,10.1[210],3.3,15/8,Dual DisplayPort (with adapters: DVI-D)
-FireMV 2400 PCI.[211],,RV380,PCI,500,,2:4:4:4,2.0,128,16,DDR,128,9.0b,2.1,20,"2x VHDCI for quad DVI-D output, VGA"
-FireMV 2400 PCIe.[212],,,PCIe x1,500,,,,256,,DDR3,,,,,
+Model (Codename),Launch,Architecture (Fab),Core,,Fillrate,,Processing power (GFLOPS),Memory,,,,Bus interface,TDP (W)
+,,,Config[a],Clock (MHz),Texture (GT/s),Pixel (GP/s),,Size (GiB),Bus type & width (bit)[b],Memory (MHz),Bandwidth (GB/s),,
+Radeon HD 7430M (Seymour Pro),January 2012,TeraScale 2 (40 nm),160:8:4:2,600,4.8,2.4,192,1,DDR3 64-bit,900,14.4,PCIe 2.1 ×16,7
+Radeon HD 7450M (Seymour Pro),,,,700 700,5.6,2.8,224,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,7
+Radeon HD 7470M (Seymour XT),,,,750 800,6 6.4,3.0 3.2,240 256,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,7~9
+Radeon HD 7490M (Seymour XTX),,,,800,6.4,3.2,256,1,GDDR5 64-bit,950,30.4,,9
+Radeon HD 7510M (Thames LE),January 2012,TeraScale 2 (40 nm),400:20:8:5,450,9.0,3.6,360,1,DDR3 64-bit,800,12.8,,11
+Radeon HD 7530M (Thames LP),January 2012,TeraScale 2 (40 nm),400:24:8:5,450,9.0,3.6,360,1,DDR3 64-bit,900,14.4,,11
+Radeon HD 7550M (Thames Pro),January 2012,TeraScale 2 (40 nm),400:20:8:5,450 550,9.0 11.0,3.6 4.4,360 440,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,13
+Radeon HD 7570M (Thames Pro),January 2012,TeraScale 2 (40 nm),400:20:8:5,450 650,9.0 13.0,3.6 5.2,360 520,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,13~15
+Radeon HD 7590M (Thames XT),January 2012,TeraScale 2 (40 nm),480:24:8:6,600,14.4,4.8,576,1,GDDR5 64-bit,800,25.6,,18
+Radeon HD 7610M (Thames LE),January 2012,TeraScale 2 (40 nm),400:20:8:5,450,9.0,3.6,360,1,DDR3 128-bit,800,25.6,,20
+Radeon HD 7630M (Thames LP),January 2012,TeraScale 2 (40 nm),480:24:8:6,450,10.8,3.6,432,1,DDR3 128-bit,800,25.6,,20~25
+Radeon HD 7650M (Thames Pro),,,,450 550,10.8 13.2,3.6 4.4,432 528,1,DDR3 128-bit,800 800,25.6,,20~25
+Radeon HD 7670M (Thames Pro),,,,600,14.4,4.8,576,1,DDR3 GDDR5 128-bit,900,28.8 57.6,,20~25
+Radeon HD 7690M (Thames XT),,,,725 600,17.4 14.4,5.8 4.8,696 576,1 2,DDR3 GDDR5 128-bit,900 900,28.8 57.6,,20~25
+Radeon HD 7690M XT (Thames XTX),,,,725,17.4,5.8,696,1 2,GDDR5 128-bit,900,57.6,,25
+Radeon HD 7730M (Chelsea LP),April 2012,GCN 1st gen (28 nm),512:32:16:8,575 675,18.4 21.6,9.2 10.8,588.8 691.2,2,GDDR3 128-bit,900 900,28.8,PCIe 2.1 ×16,25~28
+Radeon HD 7750M (Chelsea Pro),,,,575,18.4,9.2,588.8,1 2,GDDR5 128-bit,1000,64,,28
+Radeon HD 7770M (Chelsea XT),,,,675,21.6,10.8,691.2,1 2,GDDR5 128-bit,1000,64,,32
+Radeon HD 7850M (Heathrow Pro),April 2012,GCN 1st gen (28 nm),640:40:16:10,675,27,10.8,864,2,GDDR5 128-bit,1000,64,PCIe 3.0 ×16,40
+Radeon HD 7870M (Heathrow XT),,,,800,32,12.8,1024,2,GDDR5 128-bit,1000,64,,40–45
+Radeon HD 7970M (Wimbledon XT),April 2012,GCN 1st gen (28 nm),1280:80:32:20,850,68,27.2,2176,2 4,GDDR5 256-bit,1200,153.6,PCIe 3.0 ×16,75

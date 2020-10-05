@@ -1,10 +1,7 @@
-Generics,Java,C#
-Implementation,Type erasure,Reification
-Runtime realization,No,Yes
-Type variance,Use-site,Declaration-site (only on interfaces)
-Reference type constraint,Yes; implicit,Yes
-Value/primitive type constraint,No,Yes
-Constructor constraint,No,Yes (only for parameterless constructor)
-Subtype constraint,Yes,Yes
-Supertype constraint,Yes,No
-Migration compatibility,Yes,No
+Threading and Synchronization,Java,C#
+Threads,Yes,Yes
+Thread pool,Yes,Yes
+Task-based parallelism,Yes[85],Yes[86]
+Semaphores,Yes,Yes
+Monitors,Yes,Yes
+Thread-local variables,Yes,Yes; ThreadStaticAttribute and ThreadLocal<T> class

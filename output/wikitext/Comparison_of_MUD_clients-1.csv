@@ -1,0 +1,11 @@
+Name,Gui,Logging,Mapper,Multiplaying,Scrollback,Spell checker,Tab completion,Telnet triggers,Timers,Triggers,Redirection,Regex
+Axmud,Custom,,,,,,,,,,,
+BeipMU,,,,,,,,,,,WSH,
+Blightmud,VT102,,,,,,,,,,,
+CMUD,Custom,,,,,,,,,,WSH,
+Mud Gangster,Custom,Plugin,,,,,,,,,,Lua patterns
+Mudlet,Custom,,,,,,,,,,,
+MUSHclient,Custom,,,,,,,,,,WSH,
+TinTin++,VT100,,,,,,,,,,,
+Wintin.net,,,,,,,,,,,,
+zMud,Custom,,,,,,,,,,WSH,

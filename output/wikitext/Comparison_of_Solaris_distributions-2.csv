@@ -1,0 +1,9 @@
+Distribution,Developer,First public release,Based on,Latest release date,Status,Purpose,Cost
+BeleniX,,,"OpenSolaris, GNU","0.7.1 / July 19, 2008",Discontinued,,Gratis
+Nexenta OS,Nexenta Systems,2005,"OpenSolaris, GNU, Ubuntu",,Discontinued,,Gratis
+NexentaStor,Nexenta Systems,,Nexenta OS,"5.0.3, April 2017[1]",,“Enterprise Grade Unified Block & File Storage”[2],Commercial
+OmniOS,OmniTI,2012[3],"illumos, GNU",,,"“Produce a self-hosting, minimalist Illumos-based release suitable for production deployment”[4]",Gratis
+OpenIndiana,illumos Foundation et al.,2010,"illumos, OpenSolaris, GNU",,,“To become the de facto OpenSolaris distribution installed on production servers where security and bug fixes are required free of charge”[5],Gratis
+SmartOS,Joyent,,"illumos, GNU",,,Cloud computing (“converged container and virtual machine hypervisor”[6]),Gratis
+v9os,Alexander Eremin,,illumos,2017-01-14[7],,"“Server-only, IPS-based minimal SPARC distribution of illumos”[8]",Gratis
+Distribution,Developer,First public release,Based on,Latest release date,Status,Purpose,Cost

@@ -1,0 +1,104 @@
+Profile,Element,Trident,Gecko,WebKit[10],Blink,Presto,KSVG,Prince,Amaya,Adobe SVG Viewer,Batik,Renesis,LeonLabs
+Structure Module,,,,,,,,,,,,,
+Tiny,svg,rowspan="8" 5.0[11],rowspan="8" 1.8,rowspan="6" 522,rowspan="8" ,1.0,rowspan="3" ,rowspan="2" ,rowspan="2" ,rowspan="4" 1.0,rowspan="8" ,,rowspan="8" 1.0
+,g,rowspan="7" 2.0,rowspan="5" 1.0,,,,,,,,,,
+,defs,6.0,,,,,,,,,,,
+,desc,rowspan="2" ,rowspan="3" ,,,,,,,,,,
+,title,,3.0,,,,,,,,,,
+,metadata,,,2.0,,,,,,,,,
+,use,,rowspan="2" ,rowspan="2" 6.0,,rowspan="2" 1.0,rowspan="2" 0.6,,,,,,
+Basic,symbol,522,,,,,,,,,,,
+Conditional Processing Module,,,,,,,,,,,,,
+Tiny,switch,,1.8,522,,2.0,,,,2.0,,,1.0
+Image Module,,,,,,,,,,,,,
+Tiny,image,5.0[11],2.0[13],522,,2.0,,5.1,4.0,1.0,,0.5,1.0
+Style Module,,,,,,,,,,,,,
+Tiny,style,5.0[1],1.8,522,,2.0,,,,1.0,,0.6,1.0
+Shape Module,,,,,,,,,,,,,
+Tiny,circle,rowspan="7" 5.0[11],rowspan="7" 1.8,rowspan="7" 522,rowspan="7" ,rowspan="7" 2.0,rowspan="7" ,rowspan="7" ,rowspan="7" 4.0,rowspan="7" 1.0,rowspan="7" ,rowspan="6" 1.0,rowspan="7" 1.0
+,ellipse,,,,,,,,,,,,
+,line,,,,,,,,,,,,
+,path,,,,,,,,,,,,
+,polygon,,,,,,,,,,,,
+,polyline,,,,,,,,,,,,
+,rect,0.6,,,,,,,,,,,
+Text Module,,,,,,,,,,,,,
+Tiny,text,rowspan="8" 5.0[1],rowspan="2" 1.8,rowspan="4" 522,rowspan="8" ,rowspan="4" 2.0,rowspan="4" ,5.1,rowspan="2" 4.0,rowspan="4" 1.0,rowspan="8" ,rowspan="2" 0.7,rowspan="8" 1.0
+Basic,tspan,,,,,,,,,,,,
+,tref,,rowspan="6" ,6.3,0.6,,,,,,,,
+,textPath,1.8.1,rowspan="5" 4.0,rowspan="5" ,,,,,,,,,
+Full,altGlyph,,,rowspan="2" 2.2,,rowspan="2" 2.0,,,,,,,
+,altGlyphDef,rowspan="3" ,rowspan="3" ,,,,,,,,,,
+,altGlyphItem,,,,,,,,,,,,
+,glyphRef,2.2,,2.0,,,,,,,,,
+Profile,Element,Trident,Gecko,WebKit,Blink,Presto,KSVG,Prince XML,Amaya,Adobe SVG Viewer,Batik,Renesis,LeonLabs
+Marker Module,,,,,,,,,,,,,
+Full,marker,5.0[1],1.8,522,,2.0,,6.0,,3.0,,1.0,1.0
+Color Profile Module,,,,,,,,,,,,,
+Full,color-profile,,,,,,,,,3.0,,,1.0
+Gradient Module,,,,,,,,,,,,,
+Basic,linearGradient,rowspan="3" 5.0[1],rowspan="3" 1.8,rowspan="3" 522,rowspan="3" ,1.0,rowspan="3" ,rowspan="2" 6.0,,rowspan="3" 1.0,rowspan="3" ,rowspan="3" 0.5,rowspan="3" 1.0
+,radialGradient,2.0,,,,,,,,,,,
+,stop,1.0,,,,,,,,,,,
+Pattern Module,,,,,,,,,,,,,
+Basic,pattern,5.0[1],1.9,522,,2.0,,,,2.0,,0.5,1.0ttt
+Clip Module,,,,,,,,,,,,,
+Basic,clipPath,5.0[1],1.8,Mostly[19],,2.0,,,,1.0,,0.6,1.0
+Mask Module,,,,,,,,,,,,,
+Basic,mask,5.0[1],1.9,522,,2.0,,,,1.0,,,1.0
+Filter Module,,,,,,,,,,,,,
+Basic,feBlend,rowspan="25" 6.0[20],rowspan="25" 1.9,rowspan="10" ,rowspan="25" ,rowspan="25" 2.0,,rowspan="25" ,,rowspan="25" 1.0,rowspan="25" ,rowspan="25" ,
+,feColorMatrix,,,1.0,,,,,,,,,
+,feComponentTransfer,,,,,,,,,,,,
+,feComposite,,,,,,,,,,,,
+,feFlood,,,,,,,,,,,,
+,feGaussianBlur,,,1.0,,,,,,,,,
+,feImage,,,1.0,,,,,,,,,
+,feMerge,,,,,,,,,,,,
+,feOffset,,,1.0,,,,,,,,,
+,feTile,,,,,,,,,,,,
+Full,filter,,,,,,,,,,,,
+,feConvolveMatrix,,,,,,,,,,,,
+,feDiffuseLighting,,,,,,,,,,,,
+,feDisplacementMap,rowspan="3" ,,,,,,,,,,,
+,feMergeNode,,,,,,,,,,,,
+,feMorphology,,,,,,,,,,,,
+,feSpecularLighting,,,,,,,,,,,,
+,feTurbulence,,,,,,,,,,,,
+,feDistantLight,rowspan="3" ,,,,,,,,,,,
+,fePointLight,,,,,,,,,,,,
+,feSpotLight,,,,,,,,,,,,
+,feFuncR,rowspan="4" ,,,,,,,,,,,
+,feFuncG,,,,,,,,,,,,
+,feFuncB,,,,,,,,,,,,
+,feFuncA,,,,,,,,,,,,
+Profile,Element,Trident,Gecko,WebKit,Blink,Presto,KSVG,Prince XML,Amaya,Adobe SVG Viewer,Batik,Renesis,LeonLabs
+Cursor Module,,,,,,,,,,,,,
+Full,cursor,,,,,,,,,,,0.6,
+Hyperlinking Module,,,,,,,,,,,,,
+Tiny,a,,1.8,522,,1.0,,5.1,8.2,1.0,,0.6,1.0
+View Module,,,,,,,,,,,,,
+Basic,view,,15.0[28],,,2.0,,,,3.0,,,1.0
+Scripting Module,,,,,,,,,,,,,
+Tiny,script,,1.8,522,,2.0,,,,1.0,,0.5,
+Animation Module,,,,,,,,,,,,,
+Tiny,animate,rowspan="6" ,rowspan="2" 2.0[29],,rowspan="6" ,rowspan="6" 2.0,rowspan="2" ,rowspan="6" ,rowspan="5" ,rowspan="5" 1.0,rowspan="6" ,rowspan="6" ,1.0
+,set,rowspan="4" ,,,,,,,,,,,
+,animateMotion,2.0[30],rowspan="2" ,1.0,,,,,,,,,
+,animateTransform,2.0[29],1.0,,,,,,,,,,
+,animateColor (deprecated),,,,,,,,,,,,
+,mpath,2.0[30],522,,,2.0,,,,,,,
+Font Module,,,,,,,,,,,,,
+Tiny,font,rowspan="10" ,rowspan="10" ,rowspan="4" ,rowspan="10" ,2.0,,,,rowspan="6" 2.0,rowspan="8" ,1.0,rowspan="10" 1.0
+,font-face,rowspan="3" 1.0,,,,"Renesis 0.7 supports that feature, but because of the rewrite of the plugin Renesis 1.0 doesn't support this any longer.[33]group=note",,,,,,,
+,glyph,,,,rowspan="2" 1.0,,,,,,,,
+,missing-glyph,,,,,,,,,,,,
+Full,hkern,,rowspan="2" 2.0,,,,rowspan="6" ,,,,,,
+,vkern,,,,,,,,,,,,
+,font-face-src,rowspan="4" ,,,,,rowspan="4" ,,,,,,
+,font-face-uri,2.0,,,,,,,,,,,
+,font-face-format,rowspan="2" ,,,,,,,,,,,
+,font-face-name,,,,,,,,,,,,
+Extensibility Module,,,,,,,,,,,,,
+Full,foreignObject,,1.9,522,,2.0,,,7.2,,,,
+Profile,Element,Trident,Gecko,WebKit,Blink,Presto,KSVG,Prince XML,Amaya,Adobe SVG Viewer,Batik,Renesis,LeonLabs

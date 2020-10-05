@@ -1,0 +1,34 @@
+,Simple composite types,,Algebraic data types,Unions
+,Records,Tuple expression,,
+Ada[1],type identifier is «abstract» «tagged» «limited» [record<dl><dd>fieldname1 : type;</dd><dd>fieldname2 : type;</dd></dl>... end record |null record],,"Any combination of records, unions and enumerations (as well as references to those, enabling recursive types).",type identifier (variation : discrete_type) is record<dl><dd>case variation is<dl><dd>when choice_list1 =><dl><dd>fieldname1 : type;</dd><dd>...</dd></dl></dd></dl><dl><dd>when choice_list2 =><dl><dd>fieldname2 : type;</dd><dd>...</dd></dl></dd></dl><dl><dd>...</dd></dl>end case;</dd></dl>end record
+ALGOL 68,"struct (modename «fieldname», ...);",Required types and operators can be user defined,,"union (modename, ...);"
+C (C99),struct «name» {type name;...};,rowspan=2 ,rowspan=3 ,union {type name;...};
+Objective-C,,,,
+C++,struct «name» {type name;...;C++'s struct[b],«std::»tuple<type1..typen>,,
+C#,struct name {type name;...},"(val1, val2, ... )",,rowspan=3 
+Java,just classes[a],,,
+JavaScript,,,,
+D,struct name {type name;...},,"std.variant.Algebraic!(type,...)",union {type name;...}
+Go,struct {<dl><dd>«name» type ...</dd></dl>},,,
+Rust,"struct name {name: type, ...}","(val1, val2, ... )","enum name { Foo(types), ...}","union name {name: type, ...}"
+Swift,struct name {<dl><dd>var name «: type» ...</dd></dl>},"(«name1:» val1, «name2:» val2, «name3:» val3, ... )",enum name { case Foo«(types)» case Bar «(types)» ... },
+Common Lisp,(defstruct name slot-name (slot-name initial-value) (slot-name initial-value :type type) ...),(cons val1 val2)pair only[c],,
+Scheme,,,,
+ISLISP,,,,
+Pascal,record<dl><dd>name: type; ...</dd></dl>end,,,record<dl><dd>case type of value: (types); ...</dd></dl>end
+Visual Basic,,,,
+Visual Basic .NET,Structure name <dl><dd> Dim name As type ... </dd></dl> End Structure,"(val1, val2, ... )",,
+Python,just classes[a],"«(»val1, val2, val3, ... «)»",,
+S-Lang,"struct {name [=value], ...}",,,
+Fortran,TYPE name <dl><dd> type :: name ... </dd></dl> END TYPE,,,
+PHP,just classes[a],,,
+Perl,Perl's records[d],,,rowspan=3 
+Raku,just classes[a],,,
+Ruby,lang=ruby1=OpenStruct.new({:name => value),,,
+Scala,"case class name(«var» name: type, ...)","(val1, val2, val3, ... )",abstract class name case class Foo(«parameters») extends name case class Bar(«parameters») extends name ... or abstract class name case object Foo extends name case object Bar extends name ... or combination of case classes and case objects,
+Windows PowerShell,,,,
+OCaml,type name = {«mutable» name : type;...},"«(»val1, val2, val3, ... «)»",type name = Foo «of type» | Bar «of type» | ...,rowspan=4 
+F#,,,,
+Standard ML,"type name = {name : type,...}","(val1, val2, val3, ... )",Bar «of type» | ...,
+Haskell,"data Name = Constr {name :: type,...}",,Bar «types» | ...,
+COBOL,level-number name type clauses. level-number+n name type clauses. ...,,,name REDEFINES variable type.

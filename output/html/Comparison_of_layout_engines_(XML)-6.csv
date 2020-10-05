@@ -1,4 +1,9 @@
-,Trident,Gecko,WebKit,KHTML,Presto,Prince XML,Antenna House
-XML Signature[spec 23],No,No[g 10],No,No,No,No,No
-XML Encryption[spec 24],,No,,,,,
-XML Key Management[spec 25],,,,,,,
+Value,Meaning
+Yes,Fully supported
+No,Has never been supported
+Partial,Only some values are supported
+Incorrect,Not implemented correctly in all cases
+Experimental,May be incomplete or buggy
+Nightly build,Currently in development; full support is expected
+Depends,Only supported for the specified conditions
+Dropped,No longer supported

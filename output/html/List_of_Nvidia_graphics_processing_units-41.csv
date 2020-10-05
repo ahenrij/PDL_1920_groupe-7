@@ -1,12 +1,12 @@
-Model,Code name[174],Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate[210],,Memory,,,,Processing power (GFLOPS)[198][199],,Supported API version,,,,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
-Quadro P400,GP107-825,14,PCIe 3.0 ×16,1228,1252,1752 (7008),256:16:16:2,17.1,17.1,2,32,GDDR5,64,641,20.0,12.1,4.6,1.1,1.2,6.1,30,Three Mini-DisplayPort 1.4
-Quadro P600,GP107-850,,,1329,1557,1003 (4012),384:24:16:3,21.7,32.5,,64,,128,1195,37.3,,,,,,40,Four Mini-DisplayPort 1.4
-Quadro P620,GP107-855,,,1266,1354,1003 (4012),512:32:16:4,23.3,46.6,,,,,1490,46.6,,,,,,,
-Quadro P1000,GP107-860,,,,1481,1752 (7008),640:40:32:5,43.3,54.2,4,82,,,1894,59.2,,,,,,47,
-Quadro P2000,GP106-875,16,,1076,1480,2002 (8008),1024:64:40:8,54.8,87.7,5,140,,160,3010,93.8,,,,,,75,Four DisplayPort 1.4
-Quadro P2200,GP106-880-K1-A1[211],,,1000,1493,1251 (1008),1280:80:40:9,59.7,119.4,5,200,GDDR5X,,3822,121.3,,,,,,,
-Quadro P4000,GP104-850-A1,,,1202,1480,1502 (6008),1792:112:64:14,78.5,137.4,8,243,GDDR5,256,5300,165.6,,,,,,105,
-Quadro P5000,GP104-875-A1,,,1607,1733,1126 (9008),2560:160:64:20,102.8,257.1,16,288,GDDR5X,,8873,277.3,,,,,,180,"Four DisplayPort 1.4, One DVI-D"
-Quadro P6000,GP102-875-A1,,,1506,1645,1126 (9008),3840:240:96:30,136.0,340.0,24,432,,384,10882 (11758),~340,,,,,,250,
-Quadro GP100,GP100,,,1304,1442,703 (1406),3584:224:96:28,138.4,323,16,720,HBM2,4096,10336,5168,,,,,6,235,NVLINK support
+Model,Features,,,,,,,,
+,Scalable Link Interface (SLI),"PureVideo 2 with VP2, BSP Engine, and AES128 Engine","PureVideo 3 with VP3, BSP Engine, and AES128 Engine",,,,,,
+GeForce 9300 GE (G98),Yes,No,Yes,,,,,,
+GeForce 9300 GS (G98),,,,,,,,,
+GeForce 9400 GT,,Yes,No,,,,,,
+GeForce 9500 GT,,,,,,,,,
+GeForce 9600 GSO,,,,,,,,,
+GeForce 9600 GT,,,,,,,,,
+GeForce 9800 GT,,,,,,,,,
+GeForce 9800 GTX,Yes 3-way,,,,,,,,
+GeForce 9800 GTX+,,,,,,,,,
+GeForce 9800 GX2,Yes,,,,,,,,

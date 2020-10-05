@@ -1,30 +1,8 @@
-keyword,"feature, example usage"
-"checked, unchecked","In C#, checked statement blocks or expressions can enable run-time checking for arithmetic overflow.[44]"
-"get, set","C# implements properties as part of the language syntax with their optional corresponding get and set accessors, as an alternative for the accessor methods used in Java, which is not a language feature but a coding-pattern based on method name conventions."
-goto,"C# supports the goto keyword. This can occasionally be useful, for example for implementing finite state machines or for generated code, but the use of a more structured method of control flow is usually recommended (see criticism of the goto statement). Java does not support the goto statement (but goto is a reserved word). However, Java does support labeled break and continue statements, which in certain situations can be used when a goto statement might otherwise be used. switch(color)
-{
-    case Color.Blue:
-        Console.WriteLine("Color is blue");
-        break;
-    case Color.DarkBlue:
-        Console.WriteLine("Color is dark");
-        goto case Color.Blue;
-    // ...
-}"
-lock,"In C#, the lock keyword is a shorthand for synchronizing access to a block of code across threads (using a Monitor), wrapped in a try ... finally block."
-"out, ref","C# has support for output and reference parameters. These allow returning multiple output values from a method, or passing values by reference."
-strictfp,Java uses strictfp to guarantee the results of floating point operations remain the same across platforms.
-switch,"In C#, the switch statement also operates on strings and longs. Fallthrough is allowed for empty statements and possible via 'goto case' for statements containing code. Java's switch statement operates on strings (since Java 7) but not the long primitive type, and falls through for all statements (excluding those with 'break').[45]"
-synchronized,"In Java, the synchronized keyword is a shorthand for synchronizing access to a block of code across threads (using a Monitor), wrapped in a try ... finally block."
-throws,Java requires every method to declare the checked exceptions or superclasses of the checked exceptions that it can throw. Any method can also optionally declare the unchecked exception that it throws. C# has no such syntax. public int readItem() throws java.io.IOException {
-    // ...
-}
-using,"In C#, using causes the Dispose method (implemented via the IDisposable interface) of the object declared to be executed after the code block has run or when an exception is thrown within the code block. // Create a small file "test.txt", write a string,
-// ... and close it (even if an exception occurs)
-using (StreamWriter file = new StreamWriter("test.txt"))
-{
-    file.Write("test");
-}
- In Java SE 7 a similar construct has been added[46] called try-with-resources: try (BufferedReader br = new BufferedReader(new FileReader(path))) {
-    return br.readLine();
-}"
+Java,C#
+Arrays are implicitly direct specializations of Object. They are not unified with collection types.,Arrays in C# are implicit specializations of the System.Array class that implements several collection interfaces.
+Arrays and collections are completely separate with no unification. Arrays cannot be passed where sequences or collections are expected (though they can be wrapped using Arrays.asList).,"Arrays can be passed where sequences (IEnumerables) or collections/list interfaces are expected. However, the collection operations that alter the number of elements (insert/add/remove) will throw exceptions as these operations are unsupported by arrays."
+The for statement accepts either arrays or Iterables. All collections implement Iterable. This means that the same short syntax can be used in for-loops.,"The foreach statement iterates through a sequence using a specific implementation of the GetEnumerator method, usually implemented through the IEnumerable or IEnumerable<T> interface.[35] Because arrays always implicitly implement these interfaces, the loop will iterate through arrays also."
+"In both languages arrays of reference types are covariant. This means that a String[] array is assignable to variables of Object[], as String is a specialization of (assignable to) Object. In both languages, the arrays will perform a type check when inserting new values, because type safety would otherwise be compromised. This is in contrast to how generic collections have been implemented in both languages.",
+"No multidimensional arrays (rectangular arrays), but arrays of references to arrays (jagged arrays).","Multidimensional arrays (rectangular arrays), and arrays of references to arrays (jagged arrays)."
+Arrays cannot be resized (though use of the System.arraycopy() method can allow for multi-step array resizing),Arrays can be resized while preserving existing values using the Array.Resize() static array method (but this may return a new array).
+"Implemented as a retrofit for the java.util library having extra features, like data structures like sets and linked sets, and has several algorithms to manipulate elements of a collection, like finding the largest element based on some Comparator<T> object, finding the smallest element, finding sublists within a list, reverse the contents of a list, shuffle the contents of a list, create immutable versions of a collection, performs sorts, and make binary searches.[36]","The C# collections framework consists of classes from the System.Collections and the System.Collections.Generic namespaces with several useful interfaces, abstract classes, and data structures.[37] NET 3.5 added System.Linq namespace that contains various extension methods for querying collections, such as Aggregate, All, Average, Distinct, Join, Union and many others. Queries using these methods are called Language Integrated Query (LINQ)."

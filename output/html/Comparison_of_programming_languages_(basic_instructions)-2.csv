@@ -1,37 +1,37 @@
-,exit block(break),continue,label,branch (goto),return value from generator
-Ada[1],exit «loop_name» «when condition»,N/A,label:,goto label,N/A
-ALGOL 68,value exit; ...,do statements; skip exit; label: statements od,label: ...,go to label; ... goto label; ... label; ...,yield(value) (Callback)[13]
-APL,:Leave,:Continue,label:,?label or :GoTo label,N/A
-C (C99),break;,continue;,label:,goto label;,N/A
-Objective-C,,,,,
-C++ (STL),,,,,
-D,,,,,
-C#,,,,,yield return value;
-Java,break «label»;,continue «label»;,,N/A,
-JavaScript,,,,,yield value«;»
-PHP,break «levels»;,continue «levels»;,,goto label;,yield «key =>» value;
-Perl,last «label»;,next «label»;,,,
-Raku,,,,,
-Go,break «label»,continue «label»,,goto label,
-Swift,break «label»,continue «label»,,N/A,
-Bash shell,break «levels»,continue «levels»,N/A,N/A,N/A
-Common Lisp,(return) or (return-from block) or (loop-finish),,(tagbody tag ... tag ...),(go tag),
-Scheme,,,,,
-ISLISP,(return-from block),,(tagbody tag ... tag ...),(go tag),
-Pascal(ISO),N/A,,label:[a],goto label;,N/A
-Pascal(FPC),break;,continue;,,,
-Visual Basic,"Exit blockAlternatively, for methods, Return",N/A,label:,GoTo label,
-Xojo,,Continue block,,,
-Visual Basic .NET,,,,,Yield value
-Python,break,continue,N/A,,yield value
-RPG IV,LEAVE;,ITER;,,,
-S-Lang,break;,continue;,,,
-Fortran,EXIT,CYCLE,label[b],GOTO label,N/A
-Ruby,break,next,,,
-Windows PowerShell,break «label»,continue,,,
-OCaml,N/A,,,,
-F#,,,,,
-Standard ML,,,,,
-Haskell (GHC),,,,,
-COBOL,EXIT PERFORM or EXIT PARAGRAPH or EXIT SECTION or EXIT.,EXIT PERFORM CYCLE,label «SECTION».,GO TO label,N/A
-Ya,break «from where»; f.e. break for switch;,continue «to where»; f.e. continue for switch;,:label,goto :label;,N/A
+,fixed size array,,dynamic size array,
+,one-dimensional array,multi-dimensional array,one-dimensional array,multi-dimensional array
+Ada[1],array (<first> .. <last>) of <type> or array (<discrete_type>) of <type>,"array (<first1> .. <last1>, <first2> .. <last2>, ...) of <type> or array (<discrete_type1>, <discrete_type2>, ...) of <type>",array (<discrete_type> range <>) of <type>,"array (<discrete_type1> range <>, <discrete_type2> range <>, ...) of <type>"
+ALGOL 68,[first:last]«modename» or simply: [size]«modename»,"[first1:last1, first2:last2]«modename» or [first1:last1][first2:last2]«modename» etc.",flex[first:last]«modename» or simply: flex[size]«modename»,"flex[first1:last1, first2:last2]«modename» or flex[first1:last1]flex[first2:last2]«modename» etc."
+C (C99),type name[size][a],type name[size1][size2][a],type *name or within a block: int n = ...; type name[n],
+C++ (STL),"«std::»array<type, size>(C++11)",,«std::»vector<type>,
+C#,type[],"type[,,...]",System.Collections.ArrayList or System.Collections.Generic.List<type>,
+Java,type[][b],type[][]...[b],ArrayList or ArrayList<type>,
+D,type[size],type[size1][size2],type[],
+Go,[size]type,[size1][size2]...type,[]type,[][]type
+Rust,[type; size],[[type; size1]; size2],Vec<type>,Vec<Vec<type>>
+Swift,,,[type] or Array<type>,[[type]] or Array<Array<type>>
+Objective-C,NSArray,,NSMutableArray,
+JavaScript,N/A,N/A,Array[d],
+Common Lisp,(simple-array type (dimension)),(simple-array type (dimension1 dimension2)),(array type (dimension)),(array type (dimension1 dimension2))
+Scheme,,,,
+ISLISP,,,,
+Pascal,array[first..last] of type[c],"array[first1..last1] of array[first2..last2] ... of type [c] or array[first1..last1, first2..last2, ...] of type [c]",N/A,N/A
+Object Pascal (Delphi),,,array of type,array of array ... of type
+Visual Basic,,,,
+Visual Basic .NET,type(),"type(,,...)",System.Collections.ArrayList or System.Collections.Generic.List(Of type),
+Python,,,list,
+S-Lang,,,,
+Fortran,type :: name(size),"type :: name(size1, size2,...)","type, ALLOCATABLE :: name(:)","type, ALLOCATABLE :: name(:,:,...)"
+PHP,,,array,
+Perl,,,,
+Raku,,,Array[type] or Array of type,
+Ruby,,,Array,
+Scala,Array[type],Array[...[Array[type]]...],ArrayBuffer[type],
+Seed7,array type or array [idxType] type,array array type or array [idxType] array [idxType] type,array type or array [idxType] type,array array type or array [idxType] array [idxType] type
+Smalltalk,Array,,OrderedCollection,
+Windows PowerShell,type[],"type[,,...]",,
+OCaml,type array,type array ... array,,
+F#,type [] or type array,"type [,,...]",System.Collections.ArrayList or System.Collections.Generic.List<type>,
+Standard ML,type vector or type array,,,
+Haskell (GHC),,,,
+COBOL,level-number type OCCURS size «TIMES».,one-dimensional array definition...,level-number type OCCURS min-size TO max-size «TIMES» DEPENDING «ON» size.[e],N/A

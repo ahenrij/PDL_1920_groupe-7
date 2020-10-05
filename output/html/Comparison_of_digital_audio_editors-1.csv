@@ -1,36 +1,22 @@
-Digital audio editor,Creator / developer,Software license,Microsoft Windows,MacOS,Linux,iOS,Android,Network storage,External hardware
-ACID Pro,Magix,Proprietary,Yes,No,No,No,,,
-Ardour,The Ardour Community,GNU GPL,Yes,Yes,Yes,No,,NFS,
-AudioDesk,Mark of the Unicorn,Proprietary,No,Yes,No,No,,,
-Audition,Adobe Systems,Proprietary,Yes,Yes,No,No,,,
-Bitwig Studio,Bitwig,Proprietary,Yes,Yes,Yes,No,,,
-Cakewalk by BandLab[1],BandLab Technologies,Proprietary (Freeware),Yes,No,No,No,,,
-Cubase,Steinberg,Proprietary,Yes,Yes,No,Yes,Yes,,Requires hardware dongle
-Digital Performer,Mark of the Unicorn,Proprietary,Yes,Yes,No,No,,,
-FL Studio,Image-Line,Proprietary,Yes,Yes,No,Yes,Yes,,
-GarageBand,Apple,Proprietary,No,Yes,No,Yes,,,
-Harrison Mixbus,Harrison Consoles,Proprietary,Yes,Yes,Yes,No,,NFS,
-Kristal,Kreatives,Proprietary (Freeware),Yes,No,No,No,,,
-Live,Ableton,Proprietary,Yes,Yes,No,No,,,
-LMMS,Tobias Doerffel,GNU GPL,Yes,Yes,Yes,No,,NFS,
-Logic Pro,Apple,Proprietary,Discontinued (last version: 5.5.1),Yes,No,No,,,
-Mixcraft,Acoustica,Proprietary,Yes,No,No,No,,,
-mp3DirectCut,Martin Pesch,Proprietary Freeware,Yes,No,No,No,,,
-MuLab,MuTools,Proprietary,Yes,Yes,No,No,,,
-MultitrackStudio,Bremmers Audio Design,Proprietary,Yes,Yes,No,Yes,,,
-MusE,MuseE,GNU GPL,No,No,Yes,No,,NFS,
-n-Track,Fasoft,Proprietary,Yes,Yes,No,Yes,Yes,,
-Nuendo,Steinberg,Proprietary,Yes,Yes,No,No,,,
-Podium,Zynewave,Proprietary / Freemium,Yes,No,No,No,,,
-Pro Tools,Avid,Proprietary,Yes,Yes,No,No,,MediaNet (proprietary),Yes
-Qtractor,Qtractor,GNU GPL,No,No,Yes,No,,NFS,
-REAPER,Cockos,Proprietary,Yes,Yes,Yes (pre-beta),No,,,
-Reason,Propellerhead Software,Proprietary,Yes,Yes,No,No,,,
-Record,Propellerhead Software,Proprietary,Yes,Yes,No,No,,,
-Renoise,Renoise Team,Proprietary,Yes,Yes,Yes,No,,,
-Rosegarden,Rosegarden,GNU GPL,No,No,Yes,No,,NFS,
-Samplitude/Sequoia,Magix,Proprietary,Yes,No,No,No,,,
-Soundscape 32,Mackie,Proprietary,Yes,No,No,No,,,External 2U rack unit
-Studio One,PreSonus,Proprietary,Yes,Yes,No,No,,SoundCloud,
-Tracktion,Tracktion Software Inc,Proprietary,Yes,Yes,Yes,No,,,
-Digital audio editor,Creator / developer,Software license,Microsoft Windows,MacOS,Linux,iOS,Android,Network storage,External hardware
+Digital audio editor,Creator / developer,Software license,Microsoft Windows,MacOS,iOS,Linux,BSD,Online,Network storage,External hardware
+Acoustica,Acon Digital,Proprietary,Yes,Yes,No,No,No,No,Unknown,Unknown
+Audacity,Audacity Team,GNU GPL,Yes,Yes,Yes,Yes,Yes,No,NFS,
+Audiotool,Hobnox,Proprietary,Yes,Yes,Not officially supported,Yes,No,Yes,NFS,Optional MIDI support
+BIAS Peak,BIAS,Proprietary,No,Yes,No,No,No,No,,
+Diamond Cut ART,Diamond Cut Productions,Proprietary,Yes,No,No,No,No,No,Unknown,Unknown
+Ecasound,Kai Vehmanen,GNU GPL,No,Yes,No,Yes,Yes,No,Unknown,Unknown
+Goldwave,Goldwave Inc.,Proprietary Shareware,Yes,No,No,No,No,No,,
+Jokosher,Jokosher,GNU GPL,Yes,No,No,Yes,No,No,NFS,
+NU-Tech,Leaff Engineering,Proprietary,Yes,No,No,No,No,No,,
+RiffWorks,Sonoma Wire Works,Proprietary,Yes,Yes,No,No,No,No,,
+Sound Forge,Magix,Proprietary,Yes,Yes,No,No,No,No,,
+Soundbooth,Adobe Systems,Proprietary,Yes,Yes,No,No,No,No,,
+SoX,"Chris Bagwell, et al.",GNU GPL,Yes,Yes,No,Yes,Yes,No,,
+SpectraLayers,Sony,Proprietary,Yes,Yes,No,No,No,No,,
+Sweep,Conrad Parker,GNU GPL,No,No,No,Yes,Yes,No,,
+Total Recorder,HighCriteria,Proprietary Shareware,Yes,No,No,No,No,No,,
+Traverso DAW,Traverso,GNU GPL,Yes,Yes,No,Yes,No,No,NFS,
+WaveLab,Steinberg,Proprietary,Yes,Yes,No,No,No,No,,"External gear, MIDI"
+WavePad,NCH Software,Proprietary / Freemium,Yes,Yes,Yes,No,No,No,,
+WaveSurfer,Centre for Speech Technology at KTH,BSD-like,Yes,Yes,No,Yes,Yes,No,,
+Digital audio editor,Creator / developer,Software license,Microsoft Windows,MacOS,iOS,Linux,BSD,Online,Network storage,External hardware

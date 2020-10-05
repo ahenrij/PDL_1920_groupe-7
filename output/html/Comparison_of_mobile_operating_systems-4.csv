@@ -1,16 +1,11 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-Multitasking,Yes,7+;[292] 4–6: Limited[293],2+[110],Yes,Yes
-Quick app switching,7+[294],9+: via 3D Touch;[295] 5+: only on iPad[296],No,No,Yes
-Document-centric multitasking,5+[297],13+: can open different views of same app side by side[298],No,No,No
-Split-screen app usage,"7+, some manufacturers earlier[299]",9+: only on iPad with 2 GB RAM or more[300],Yes[301],No [302],Tablet-only
-Desktop interactive widgets,Yes,10+: App icons via 3D Touch and/or dedicated widget screen[303],No,Yes,No
-Lock screen widgets,Yes (Notifications and settings). Full Widgets on Android 4.2–4.4 only.[304][305],"Media player, voicemail, camera;[306] 5+: Notifications; 7+: Control Center 8+: Interactive Notifications[307] 10+: Full widgets[303]","Media player; Notifications (SMS, call)",Yes,No
-Notification view widgets,4.1+: Google Now and possible with 3rd party apps,8+,No,Yes,No
-Quick settings toggles,2+[308],7+[309],No,Via the Patchmanager app[310],Yes
-Search multiple internal apps at once,Yes,Yes,Yes,No[311],Yes
-Settings search,5+ or 3rd party software like LineageOS[312],9+[313],No,No,Yes
-Search all fields of internal objects,Only search Contacts name field but not any other field[314],6+[315],Only searches contacts by name,"First name, last name, nickname, also the multiple field called "Details"[316]|?",
-Core apps missing search,Calendar[317] (available since 3+ and HTC Sense),Bookmarks[318],?,?,?
-Phone number links to dialer,"Available in stock Android, but not all devices enable it.[319]",Yes,"Yes, but not in browser",Yes,Yes
-Addresses links to maps,"In Contacts, but not in Calendar[320] nor in Gmail[321]",Yes[322],?,Yes,?
-Dates links to calendar,No,Yes[323],Yes,Yes,?
+Audio playback,"AAC LC/LTP 3GPP, HE-AACv1 (AAC+), HE-AACv2 (enhanced AAC+) AMR-NB, AMR-WB, MP3, MIDI (Type 0 and 1, DLS versions 1 and 2), Ogg Vorbis, PCM/WAVE, FLAC, WAVE, Opus[238]","AAC, protected AAC (from iTunes Store), HE-AAC, MP3, MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, WAV[239]","AAC, AAC+, eAAC+, AMR-NB, AMR-WB, MP3, Vorbis, WAV[240]","MP3, FLAC, AAC, eAAC, eAAC+, ALAC, AC3, DTS, Opus, Vorbis",?
+Video playback,"H.263, H.264 (up to Baseline Profile), H.265 HEVC, MPEG-4 SP, DivX, XviD, VP8, VP9[238] (WMV on 3rd party software like VLC media player)","H.264 (up to High Profile), MPEG-4, M-JPEG[239]","H.263, H.264, MPEG-4 Part 2[240]","MPEG-4, H264, H263,[241] although audio in recorded videos is out of sync[242]",?
+Wired video out,4K on 6+[243],"Up to 1080p via HDMI[244] or VGA,[245] 576p/480p via component[246] or composite;[247]",No,No[248],Yes
+Wired digital audio output,5+ USB Audio[249],7+: USB Audio[250],No,No,Yes
+Wireless video/audio streaming to set top boxes/TVs/speakers,"4.2+ Miracast,[251] but DLNA[252] only available on selected devices",AirPlay[253],DLNA[254],?,Yes
+Media player on-device playlist creation,Yes[255],Yes[60],?,Yes,Yes
+Media player video scrubbing,Yes,Yes,?,?,?
+Media player audio scrubbing,Yes,Yes,?,?,?
+Media player fine scrubbing,"No,[256] 3rd party software like VLC media player, basic fine scrubbing removed on 4+[257]",Yes[258],?,?,?
+Media player double speed playing,6+[259],Only Podcasts[260],?,?,?

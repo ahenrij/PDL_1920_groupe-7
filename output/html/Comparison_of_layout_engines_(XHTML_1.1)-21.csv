@@ -1,7 +1,5 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-ruby,Yes,No,Yes,Yes,No,No,No
-rbc,No,,,No,,,
-rtc,,,,,,,
-rb,Yes,,,Yes,,,
-rt,Yes,,,Yes,,,
-rp,No,,,No,,,
+body,<3.1[IE 1.0] [1],Yes,Yes,Yes,Yes,Yes,Yes
+head,,,,,,,
+html,<3.1[IE 1.0] [2],,,,,,
+title,<3.1[IE 1.0] [3],,,,,,

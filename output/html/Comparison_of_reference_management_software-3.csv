@@ -1,30 +1,30 @@
-Software,HTML,LaTeX[25],RTF,Plain text,RSS,Other
-Bebop,Yes,No,No,No,Yes,unAPI
-BibBase,Yes,No,No,No,Yes,No
-BibDesk,Yes,Yes,Yes,Yes,Yes,"Atom, DOC, PDF, XML,"
-Biblioscape,Yes,No,Yes,Yes,No,No
-BibSonomy,Yes,No,Yes,Yes,Yes,OpenOffice-CSV
-Bibus,Yes,No,No,No,No,No
-Bookends,Yes,No,Yes,Yes,No,clipboard
-Citavi,Yes,Yes[26],Yes,Yes,No,"clipboard, DOC, ODT, PDF, HTML"
-CiteULike,Yes,No,Yes,Yes,Yes,PDF
-colwiz,Yes,Yes,Yes,No,No,PDF
-EndNote,Yes,No,Yes,Yes,No,"clipboard, XML"
-JabRef,Yes,Yes,Yes,Yes,No,clipboard
-KBibTeX,Yes,No,Yes,No,No,"PDF, PS"
-Mendeley,Yes,Yes[27],Yes,Yes,Yes,"clipboard, embeddable HTML widget, RSS"
-Paperpile,?,?,?,?,?,?
-Pybliographer,Yes,?,No,Yes,No,No
-Qiqqa,?,?,?,?,?,?
-ReadCube (now Papers),Yes,No,No,No,No,PDF
-refbase,Yes,Yes,Yes,Yes,Yes,"Markdown, PDF, unAPI"
-RefDB,Yes,?,Yes,Yes,No,"DocBook, TEI"
-Reference Manager,Yes,No,Yes,Yes,No,clipboard
-Referencer,?,?,?,?,?,?
+Software,BibTeX,Endnote/Refer/BibIX,Medline,MODS XML,RIS,Other
+Bebop,Yes,No,No,No,No,unAPI
+BibBase,Yes,No,No,No,No,none
+BibDesk,Yes,No,Yes,Yes,Yes,"Endnote XML, user customizable"
+Biblioscape,?,?,?,?,?,?
+BibSonomy,Yes,Yes,No,No,Yes,various [2]
+Bibus,Yes,Yes,Yes,No,Yes,SQLite
+Bookends,Yes,Yes,Yes,No,Yes,various user-customizable
+Citavi,Yes,Yes,Yes,Yes,Yes,various
+CiteULike,Yes,No,No,No,Yes,"COinS, Delicious"
+colwiz,Yes,Yes,No,Yes,Yes,"EndNote XML, CSL formatted HTML"
+EndNote,Yes,Yes,Yes,No,Yes,various[16]
+JabRef,Yes,Yes,No,Yes,Yes,"BibTeXML, DocBook, HTML, OpenDocument for OO.o, RTF, SQL database, user-customizable"
+KBibTeX,Yes,Yes,No,Depends[17],Yes,"PDF, PostScript, HTML, XML, RTF"
+Mendeley,Yes,Yes,No,No,Yes,Endnote XML
+Paperpile,Yes,No,No,No,Yes,none
+Pybliographer,Yes,Yes,Yes,No,No,Ovid
+Qiqqa,Yes,No,No,No,No,none
+ReadCube (now Papers),Yes,Yes,No,No,Yes,none
+refbase,Yes,Yes,No,Yes,Yes,"COinS, OpenDocument for OO.o, SRW XML via SRU, unAPI, Word XML"
+RefDB,Yes,Yes,No,Yes,Yes,"SRW XML via SRU web service, DocBook, TEI"
+Reference Manager,No,No,No,No,Yes,"MEDLARS, TSV, CSV, Reference Manager XML, user-customizable"
+Referencer,Yes,No,No,No,No,none
 RefME,?,?,?,?,?,?
-RefWorks,Yes,No,Yes,Yes,No,"DOC, ODT"
-SciRef,No,No,Yes,Yes,No,"Doc, others"
-Sente,Yes,No,Yes,Yes,No,clipboard
-Wikindx,Yes,No,Yes,Yes,Yes,Multiple via BibUtils plug-in
-WizFolio,Yes,No,Yes,Yes,No,"clipboard, DOC"
-Zotero,Yes,Possible via plugin[28],Yes,Possible via plugins[29],Yes,clipboard
+RefWorks,Yes,Yes,No,Yes,Yes,"RIS, BibTeX, Tab delimited or XML metadata"
+SciRef,No,No,No,No,Yes,"Plain text, RTF"
+Sente,Yes,Yes,No,No,Yes,user-customizable
+Wikindx,Yes,Yes,No,Yes,Yes,"COinS, RTF, HTML, ADS, Word BIB"
+WizFolio,No,No,No,No,Yes,No
+Zotero,Yes,Yes,as of version 4.0[18],Yes,Yes,"COinS, CSV, Several RDF format standards, TEI, Wikipedia citation templates, Endnote XML, CSL JSON, Refer/BiblX, RefWorks tagged"

@@ -1,3 +1,13 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-dir,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-xml:lang,?,?,?,?,?,?,?
+Mouse,,,,,,,
+onclick,?,?,?,?,?,?,?
+ondblclick,,,,,,,
+onmousedown,,,,,,,
+onmouseup,,,,,,,
+onmouseover,,,,,,,
+onmousemove,,,,,,,
+onmouseout,,,,,,,
+Keyboard,,,,,,,
+onkeypress,?,?,?,?,?,?,?
+onkeydown,,,,,,,
+onkeyup,,,,,,,

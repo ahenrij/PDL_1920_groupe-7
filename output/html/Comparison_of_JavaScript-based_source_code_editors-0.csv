@@ -1,20 +1,25 @@
-Editor,Site,Latest version,"Style, clone of",Cost (US$),Software license,Open source,Browser support,Activity
-Ace,"Home, demo","v1.4.12, 2020-7",Sublime Text / Microsoft Visual Studio,Free,New BSD License,Yes,"Firefox 3.5+, Safari 4+, Chrome, IE 8+, Opera 11.5+",Yes
-Atom,Home,"v1.50.0-beta0, 2020-07-14","Emacs, Vim and others",Free,Dual,Yes,Chrome,Yes
-CodeMirror,"Home, demo","5.56.0, 2020-07-20",plain textarea,Free,MIT-like,Yes,"Firefox 3+, Chrome, Safari 3+, Internet Explorer 8+, Opera 9+[1]",Yes
-CodeJar,"Home, demo","1.0.2, 2020-04-05",plain textarea,Free,MIT,Yes,"Firefox 3+, Chrome, Safari 3+, Internet Explorer 8+, Opera 9+",Yes
-Codeanywhere,Home,6.0,SublimeText,-,Public Cloud,No,"Firefox 3+, Chrome, Safari 3+, Internet Explorer 8+, Opera 9+",Yes
-Codenvy Editor,Home,"2.10.17, 2014-01-17",Eclipse,-,Public Cloud,Yes,"Firefox 3+, Chrome, Safari 3+, Internet Explorer 8+, Opera 9+",Yes
-Orion,Home,"22.0, 2020-04-03.","Eclipse SWT StyledText, regular textarea",Free,dual-licensed: BSD 3-clause and EPL,Yes,"Firefox 37+, Chrome 40+, Safari7+, Internet Explorer 11+[2]",Yes
-Monaco Editor,"Home, demo","0.20.0, 2020-02-11",Visual Studio Code,Free,MIT,Yes,"IE8+, Firefox 4+, Chrome",Yes
-Markitup,"Home, demo","1.1.14, 2013-02-04","Markup editor, no syntax highlight",Free,"MIT, GPL",Yes,"IE 6 & 7, Firefox 2 & 3, Safari 3.1, Opera 9+[3]",Some
-LDT,Home,2012-02-19,regular textarea,Free,"MIT, GPL",Yes,"Firefox 3.6+, IE8, Chromium 16, Midori 4.1, Opera 11, Epiphany",Some
-Ymacs,"Home, demo","0.5, 2012-03-28",Emacs,Free,BSD,Yes,"Firefox, Chrome, Safari",Some
-CodePress,Home,"0.9.6, 2007-09-26",Microsoft Visual Studio,Free,LGPL,Yes,?,No
-CodeTextArea,"Home, demo",2009-06,Microsoft Visual Studio,Free,BSD,Yes,Dojo widget,No
-EditArea,"Home, demo","0.8.2, 2010-01-14",Microsoft Visual Studio,Free,LGPL,Yes,"IE 6+, Firefox 1.5+, Safari 3+, Opera 9+, Chrome[4]",No
-Helene,"Home, demo","0.9, unknown release date",Microsoft Visual Studio,Free,GPL,Yes,,No
-9ne,Home,?,Emacs,Free,GPL,Yes,,No
-jsvi,Home,?,vi,Free,GPL,Yes,,No
-MDK-Editor,Home,"2.10, 2008",Microsoft Visual Studio,Depends on use,Dual,Code is readable,"tested to work on: IE 6, 7 - Firefox 2, 3 - Chrome",Yes
-Micro,Home,2013,nano,Free,GPL,Yes,,Some
+Feature,Ace,CodeMirror,CodeJar,Orion,CodePress,CodeTextArea,EditArea,Helene,markItUp!,MDK-Editor
+Implementation,,nestable full parsers,,pattern-based parser,pattern-based parser,,,,,parsers
+Syntax highlight,Over 110 languages,129 languages,Yes,"mixed mode: HTML + JavaScript and CSS, PHP, EJS; single mode: JavaScript, Java, JSON, CSS, Python, Ruby, XML, YAML (pluggable)","limited mixed mode: HTML + JavaScript (no CSS), PHP + HTML (no JavaScript or CSS), Java, Perl, SQL",only keywords,"only one language at a time: Perl, PHP, CSS, Javascript, Python, HTML, XML, VB, C, CPP, SQL, Pascal, Basic, Brainf*ck",PHP,No,"mixed mode: PHP + HTML + JavaScript + CSS, single-mode: PHP, Javascript, CSS, XML; extensible"
+Syntax checking,"HTML, CSS, JavaScript (using JSHint)",Some,No,JavaScript (using JSLint),No,,,No,,"HTML, JavaScript (using JSLint)"
+Tab support,Yes,Yes,Yes,Yes,Some,,Yes,,,Yes
+"Indent, new line keeps level",optional setting that is on by default,Yes,Yes,Yes,very limited,No,Yes,N/A (can't press Enter),No,Yes
+"Indent, syntax",Yes,Yes,Yes,Yes,,,No,,,No
+"Indent, selected block","yes, including Shift+Tab","either automatically, or block-level indent/unindent",Yes,"yes, including Shift+Tab",No,,"yes, including Shift+Tab",,,"yes, including Shift+Tab and using context menu"
+Bracket matching,Yes,Yes,No,Yes,an implementation exists with mouse-hover bracket matching[citation needed],Ctrl+B; no angle bracket matching,,,No,matching bracket ([{<>}]) always highlighted
+XML matching tag highlight,Yes,Yes,No,No,No,,,,,Yes
+Code folding,Yes,Yes[5],No,Some[6],No,No,No,No,No,No
+Code snippets,Yes,through API/add-on,,Some,type 'for' or 'if' then Tab,No,Yes,No,Yes,JavaScript
+Code suggestion,Yes,example,,Yes through esprima content assist plugin,No,,yes[citation needed],,No,"CSS, HTML, JavaScript)"
+Toggle syntax highlight on/off,Yes,Yes,,No,,,last example in demo,,N/A,textmode
+Keyboard shortcuts,All Common Shortcuts & Custom Keybindings,fully configurable,,Yes,,,"some common used: Ctrl+f, Ctrl+g,Ctrl+z,Ctrl+y",,Yes,All key combos (except F1 in IE7) can be bound to shortcuts
+Line numbers,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,supports mouse selection
+Search & replace,regex supported,via API,No,Yes,,No,toolbar button,,,has API for the studio
+Spell checking,addon for context menu,No,No,No,browser-based,none,browser-based,none,browser-based,No
+Toolbar,But command line console,No,No,No,,No,Yes,No,Yes,No
+Visual styling,Fully theme-able,CSS-based themes,Yes,Yes,,font-type and font-size,,,,"5 styles to choose from, having 2 font-sizes"
+Undo/Redo,Yes,Yes,Yes,Yes,Yes,,Yes,,,Differential Undo
+Multiple cursors / Block selection,Multiple cursors,Yes,No,Yes,No,No,No,No,No,No
+IndentGuides,Yes,No,No,No,No,No,No,No,No,No
+Inline widgets,Yes,Yes,No,No,No,No,No,No,No,No
+Non US charset support,Yes,Yes,Yes,Yes,,,,,,No

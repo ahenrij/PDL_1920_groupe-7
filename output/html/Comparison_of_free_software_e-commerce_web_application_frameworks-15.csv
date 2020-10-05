@@ -1,17 +1,12 @@
-,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
-Apache OFBiz,Yes,Yes,Yes,No
-Batavi,Yes,No,Yes,No
-Bigcommerce,Yes,Yes,Yes,No
-Drupal Commerce,Yes,add-on,Yes,No
-KonaKart,Yes,No,Yes,No
-Magento,Yes,Yes,enterprise,No
-Miva Merchant,No,Yes,No,Yes
-nopCommerce,Yes,Yes,Yes,No
-osCommerce,Yes,No,No,No
-pimcore,Yes,No,No,No
-PrestaShop,Yes,Yes,No,No
-Shopify,Yes,Yes,Yes,No
-SupaDupa,Yes,No,No,No
-WooCommerce,No,add-on,No,No
-Zen Cart,Yes,add-on,Yes,No
-,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
+,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS,Purolator
+Apache OFBiz,No,No,Yes,Yes,No,Yes,Yes,No
+Bigcommerce,Yes,Yes,No,Yes,No,Yes,Yes,No
+KonaKart,No,No,No,Yes,No,Yes,Yes,No
+Magento,No,Yes,Yes,Yes,No,Yes,Yes,Yes
+nopCommerce,Yes,Yes,No,Yes,No,Yes,Yes,No
+osCommerce,No,No,No,No,No,No,No,No
+PrestaShop,Yes,Yes,No,Yes,No,Yes,Yes,Yes
+Shopify,No,add-on,No,No,No,Yes,Yes,No
+WooCommerce,No,Yes,No,No,No,Yes,No,No
+Zen Cart,add-on,add-on,add-on,add-on,Yes,add-on,Yes,Yes
+,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS,Purolator

@@ -1,24 +1,21 @@
-Implementation,Block cipher with mode of operation,,,,,,,,,,Stream cipher,None
-,AES GCM [117],AES CCM [118],AES CBC,Camellia GCM [119],Camellia CBC [120],ARIA GCM [121],ARIA CBC [121],SEED CBC [122],3DES EDE CBC (insecure)[123],GOST 28147-89 CNT (proposed) [82][n 1],ChaCha20-Poly1305 [124],Null (insecure) [n 2]
-Botan,Yes,Yes,Yes,Yes,Yes,No,No,Disabled by default,Disabled by default,No,Yes[125],Not implemented
-BoringSSL,Yes,No,Yes,No,No,No,No,No,Yes,No,Yes,
-cryptlib,Yes,No,Yes,No,No,No,No,No,Yes,No,No,Not implemented
-GnuTLS,Yes,Yes[37],Yes,Yes,Yes,No,No,No,Disabled by default[126],No,Yes[127],Disabled by default
-JSSE,Yes,No,Yes,No,No,No,No,No,Disabled by default[128],No[83],Yes (JDK 12+)[129],Disabled by default
-LibreSSL,Yes[41],No,Yes,No,Yes[84],No,No,No[41],Yes,Yes[84],Yes[41],Disabled by default
-MatrixSSL,Yes,No,Yes,No,No,No,No,Yes,Disabled by default,No,Yes[130],Disabled by default
-Mbed TLS,Yes,Yes [131],Yes,Yes,Yes,Yes[132],Yes[132],No,Yes,No,Yes[133],Disabled by default at compile time
-NSS,Yes[134],No,Yes,No[135][n 3],Yes[136],No,No,Yes[137],Yes,No[86][87],Yes[138],Disabled by default
-OpenSSL,Yes[139],Disabled by default[50],Yes,No,Disabled by default[50],Disabled by default[140],No,Disabled by default[50],Disabled by default[50],Yes[88],Yes[50],Disabled by default
-RSA BSAFE Micro-Edition Suite,Yes,Yes,Yes,No,No,No,Yes,Yes,Lowest priority,No,No,Disabled by default
-RSA BSAFE SSL-J,Yes,Yes,Yes,No,No,No,No,No,Disabled by default,No,No,Disabled by default
-SChannel XP/2003,No,No,2003 only[141],No,No,No,No,No,Yes,No[89],No,Disabled by default
-"SChannel Vista/2008, 2008R2, 2012",No,No,Yes,No,No,No,No,No,Yes,No[89],No,Disabled by default
-"SChannel 7, 8, 8.1/2012R2",Yes except ECDHE_RSA [91][92],No,Yes,No,No,No,No,No,Yes,No[89],No,Disabled by default
-Schannel 10[142],Yes,No,Yes,No,No,No,No,No,Yes,No[89],No,Disabled by default
-Secure Transport OS X 10.6 - 10.10,No,No,Yes,No,No,No,No,No,Yes,No,No,Disabled by default
-Secure Transport OS X 10.11,Yes,No,Yes,No,No,No,No,No,Yes,No,No,Disabled by default
-wolfSSL,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,Yes,Disabled by default
-Erlang/OTP SSL application,Yes,No,Yes,No,No,No,No,No,Disabled by default,No,Experimental,Disable by default
-Implementation,Block cipher with mode of operation,,,,,,,,,,Stream cipher,None
-,AES GCM [117],AES CCM [118],AES CBC,Camellia GCM [119],Camellia CBC [120],ARIA GCM [121],ARIA CBC [121],SEED CBC [122],3DES EDE CBC (insecure)[123],GOST 28147-89 CNT (proposed) [82][n 1],ChaCha20-Poly1305 [124],Null (insecure) [n 2]
+Implementation,Secure Renegotiation [173],Server Name Indication [174],ALPN [175],Certificate Status Request [174],OpenPGP [176],Supplemental Data [177],Session Ticket [178],Keying Material Exporter [179],Maximum Fragment Length [174],Truncated HMAC [174],Encrypt-then-MAC [180],TLS Fallback SCSV [181],Extended Master Secret [182],ClientHello Padding [183],Raw Public Keys [184]
+Botan,Yes,Yes,Yes[185],No,No,No,Yes,Yes,Yes,No,Yes,Yes[186],Yes[187],No,Unknown
+cryptlib,Yes,Yes,No,No,No,Yes,No,No,No[188],No,Yes,Yes,Yes,No,Unknown
+GnuTLS,Yes,Yes,Yes[189],Yes,No[190],Yes,Yes,Yes,Yes,No,Yes[37],Yes[191],Yes[37],Yes[192],Yes[193]
+JSSE,Yes,Yes[65],Yes[65],Yes,No,No,Yes,No,Yes,No,No,No,Yes,No,No
+LibreSSL,Yes,Yes,Yes[194],Yes,No,No?,Yes,Yes?,No,No,No,Server side only[195],No,Yes,No
+MatrixSSL,Yes,Yes,Yes[196],Yes[130],No,No,Yes,No,Yes,Yes,No,Yes[130],Yes[130],No,Unknown
+Mbed TLS,Yes,Yes,Yes[197],No,No,No,Yes,No,Yes,Disabled by default[44],Yes[198],Yes[198],Yes[198],No,No
+NSS,Yes,Yes,Yes[199],Yes,No[200],No,Yes,Yes,No,No,No[201],Yes[202],Yes[203],Yes[199],Unknown
+OpenSSL,Yes,Yes,Yes[52],Yes,No,No?,Yes,Yes,Yes,No,Yes,Yes[204],Yes[205],Yes[206],No
+RSA BSAFE Micro-Edition Suite,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No,No,No,No,No
+RSA BSAFE SSL-J,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No
+SChannel XP/2003,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Unknown
+SChannel Vista/2008,Yes,Yes,No,No,No,Yes,No,No,No,No,No,No,Yes[207],No,Unknown
+SChannel 7/2008R2,Yes,Yes,No,Yes,No,Yes,No,No,No,No,No,No,Yes[207],No,Unknown
+SChannel 8/2012,Yes,Yes,No,Yes,No,Yes,Client side only[208],No,No,No,No,No,Yes[207],No,Unknown
+"SChannel 8.1/2012R2, 10",Yes,Yes,Yes,Yes,No,Yes,Yes[208],No,No,No,No,No,Yes[207],No,Unknown
+Secure Transport,Yes,Yes,Unknown,No,No,Yes,No,No,No,No,No,No,No,No,Unknown
+wolfSSL,Yes,Yes,Yes[150],Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,No,Unknown
+Erlang/OTP SSL application,Yes,Yes,Yes,No,No,No,No,No,No,No,No,Yes,No,No,Unknown
+Implementation,Secure Renegotiation,Server Name Indication,ALPN,Certificate Status Request,OpenPGP,Supplemental Data,Session Ticket,Keying Material Exporter,Maximum Fragment Length,Truncated HMAC,Encrypt-then-MAC,TLS Fallback SCSV,Extended Master Secret,ClientHello Padding,Raw Public Keys

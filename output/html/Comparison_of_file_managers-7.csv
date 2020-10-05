@@ -1,38 +1,39 @@
-File manager,SMB/CIFS,WebDAV,NFS,AFP,FTP,FISH/SSH
-Altap Salamander,Yes,No,Yes,No,Yes,Yes
-Commander One,Yes[n 1],Yes,Yes[n 1],Yes[n 1],Yes,Yes
-CRAX Commander,Yes[n 1],Yes,Yes[n 1],Yes[n 1],Yes,Yes
-Directory Opus,Yes,Yes,Yes,No,Yes,Yes (SFTP & SSL[45])
-Dired,Yes[n 1],Yes[n 1],Yes[n 1],No,Yes,Yes[n 1]
-Documents by Readdle,,,,,,
-Dolphin,Yes,Yes,Yes,?,Yes,Yes
-Double Commander,Yes,?,?,?,Yes,?
-emelFM2,?,?,?,?,No,?
-Far Manager,Yes,Partial[n 2],Partial[n 3],No,Yes,Yes[n 4]
-File Commander,Yes,Partial[n 2],Partial[n 3],No,Partial[n 5],Partial[n 6]
-File Manager,?,?,?,?,?,?
-Files (Apple),,,,,,
-Files by Google,,,,,,
-Finder,Yes[n 1],Yes[n 1],Yes[n 1],Yes[n 1],Partial[n 1],No
-ForkLift,Yes,Yes,Yes,Yes,Yes,Yes
-GNOME Commander,Yes,Yes,Yes,No,Yes,Yes
-Konqueror,Yes,Yes,Yes,Yes,Yes,Yes
-Krusader,Yes,Yes,Yes,No,Yes,Yes
-muCommander,Yes,?,Yes,?,Yes,Yes
-Midnight Commander,Yes,No,Yes,No,Yes,Yes
-GNOME Files (Nautilus),Yes,Yes,Yes,Yes,Yes,Yes
-Nemo,Yes,?,?,?,Yes,Yes
-Nomad.NET,Yes,No,No,No,Yes,No
-Path Finder,Yes,Yes,Yes,Yes,Yes (Read Access),No
-PCManFM,Yes[n 7],?,?,?,?,?
-ROX-Filer,Yes[n 1],Yes[n 1],Yes[n 1],Yes[n 1],Yes[n 1],Yes[n 1]
-Total Commander,Yes,Yes[n 4],Partial[n 3],No,Yes,Yes
-Thunar,Yes[n 7],Yes[n 7],Yes[n 7],No,Yes[n 7],Yes[n 7]
-Windows Explorer,Yes,Yes,Yes[n 8],No,Yes,No
-Xandros File Manager,?,?,?,?,?,?
-Xfe,?,?,?,?,?,?
-Xfm,?,?,?,?,?,?
-xplorer²,Yes,Yes[n 9],Partial[n 3],No,Yes,No
-XYplorer,Yes,Yes,Yes[n 8],No,Yes,No
-ZTreeWin,Yes,Partial[n 5],Partial[n 3],No,Partial[n 5],Partial[n 6]
-File manager,SMB/CIFS,WebDAV,NFS,AFP,FTP,FISH/SSH
+File manager,Symbolic links,Browse compressed folders,Slideshows,Shows combined Size of Selected Directories,Branch Sizes,Directory Compare,Synchronizer,Find as you type (Type-ahead find),Embedded/Integrated Terminal,"For Directories, size column shows:"
+Altap Salamander,?,Yes,No,Yes,?,Yes,Partial (for remote folders),Yes,Yes,DIR
+Commander One,Yes,Yes,No,Yes,?,No,No,Yes,"Yes, in the PRO Pack[62]",DIR and Total size including subdirectories
+CRAX Commander,Yes,Yes,?,Yes,Yes,Yes,No,Yes,No,DIR and Total size including subdirectories
+Directory Opus,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,DIR and Total size including subdirectories
+Dired,?,Yes,No,No,?,?,?,Yes,Yes[63],Literal [browse 1]
+Documents by Readdle,,,,,,,,,,
+DOS Navigator,No,Yes,No,Yes,?,Yes,?,Yes[64],Yes,Total size including subdirectories
+Dolphin,?,Yes,No,Yes,No,No,No,Yes,Yes,Number of entries
+Double Commander,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,DIR
+emelFM2,?,?,No,Yes,?,Yes,?,Yes,Yes,Literal [browse 1]
+FAR Manager,Yes,Yes,Partial [n 1],Yes,Yes,Yes,Partial [65],Yes,Yes,?
+File Commander,?,Yes,No,Yes,Yes,Yes,Yes,Yes,?,?
+Files (Apple),,,,,,,,,,
+Files by Google,,,,,,,,,,
+Finder,?,No,Yes,Yes,?,No,No,Yes,No,Yes
+ForkLift,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,DIR and Total size including subdirectories
+GNOME Commander,?,No,No,Yes,Yes,Yes,Yes,Yes,Yes,?
+Konqueror,Yes,Yes,Yes,Yes (with konq-plugin),Yes,Yes (with kdiff3 plugin),Yes (with kdiff3 plugin),Yes,Yes,Folder only size (default) selectable to file count/total size
+Krusader,?,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,?
+Midnight Commander,Yes,Yes[66],?,Yes,?,Yes,Yes[67],Yes,Yes,?
+muCommander,No[68],?,?,?,?,?,Yes,?,"Partial, command execution only",?
+GNOME Files (Nautilus),?,No,No,Yes,No,No,No,Yes,"Yes, With Plugin[69][70]",Number of entries
+Nemo,?,?,?,?,?,?,?,?,"Yes, with nemo-terminal extension",
+Nomad.NET,Yes,Yes,No,Yes,Yes,Yes,No,Yes,"Yes, via Plugin",DIR and Total size including subdirectories
+Path Finder,?,No,Yes,Partial,?,No,No,Yes,Yes[71],Yes
+PCManFM,?,Yes,No,Yes,Yes,No,?,Yes,"No, but there is a fork attempt[72]",Nothing
+ROX-Filer,?,No,No,Yes,?,No,?,"Yes, and browsing with tab completion",No,Nothing
+Thunar,?,No,?,Yes,?,No,No,Yes,No,Literal*
+Total Commander,Yes[73],Yes,Yes In plugin,Yes,Yes,Yes,Yes,Yes,Yes,DIR and Total size including subdirectories
+Windows Explorer,Partial[74],Yes,Yes,Yes (in folder tooltips),Partial,No,Yes,Yes,No,?
+Xandros File Manager,?,?,?,?,?,?,?,?,No,?
+Xfe,Yes,No,No,Yes,?,Yes,?,No,No,?
+Xfile,?,?,?,?,?,?,?,?,No[75],?
+Xfm,?,?,?,?,?,?,?,?,No,?
+xplorer²,?,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes[76],?
+XYplorer,Yes,Yes,Yes[77],Yes,Yes,Yes,Partial,Yes,Yes[78],Contents including subs
+ZTreeWin,?,Yes,No,Yes,Yes,Yes,No,Yes,?,Selectable: Number of entries or Size (Optional: Including subs)
+File manager,Symbolic links,Browse compressed folders,Slideshows,Shows combined Size of Selected Directories,Branch Sizes,Directory Compare,Synchronizer,Find as you type (Type-ahead find),Embedded/Integrated Terminal,"For Directories, size column shows:"

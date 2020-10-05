@@ -1,0 +1,23 @@
+BitTorrent client,Magnet URI,Preload Magnet metadata [34],Super-seeding,Embedded tracker,UPnP [35],NAT Port Mapping Protocol,NAT traversal [36],DHT [37],Peer exchange,Encryption,UDP tracker,LPD,Proxy server
+BitComet,,,,,,,,,,,,,"HTTP 1.1, SOCKS4-4a-5"
+BitLord,,,,,,,,,,,,,"HTTP 1.1, SOCKS4-4a-5"
+"BitTorrent 5, Mainline",,,,,,,,,,,,,
+BitTorrent 6,,,,,,,,,,,,,"HTTP(S), SOCKS4-5"
+Deluge,,,,,,,,,,,,,"HTTP(S), SOCKS4-5"
+FlashGet,,,,,,,,,,,,,
+Free Download Manager,,,,,,,,,,,,,
+KTorrent,,,,,,,,,,,,,"HTTP, SOCKS4-5"
+LimeWire,,,,,,,,,,,,,
+MLDonkey,,,,,,,,,,,,,
+?Torrent,,,,,,,,,,,,,"HTTP(S), SOCKS4-5"
+Opera 12,,,,,,,,,,,,,
+qBittorrent,,,,,,,,,,,,,"HTTP(S), SOCKS4-5"
+rTorrent,,,,,,,,,,,,,
+Shareaza,,,,,,,,,,,,,
+Tixati,,,,,,,,,,,,,only with out going without DHT if anonymity required
+Tonido,,,,,,,,,,,,,
+Transmission,,,,,,,,,,,,,
+Tribler,,,,,,,,,,,,,Uses P2P onion routing to provide anonymity.
+Vuze (formerly Azureus),,,,,,,,,,,,Plugin,"HTTP(S)?, SOCKS4-4a-5"
+Xunlei,,,,,,,,,,,,,"HTTP, SOCKS5, FTP"
+BitTorrent client,Magnet URI,Preload Magnet metadata,Super-seeding,Embedded tracker,UPnP,NAT Port Mapping Protocol,NAT traversal,DHT,Peer exchange,Encryption,UDP tracker,LPD,Proxy server

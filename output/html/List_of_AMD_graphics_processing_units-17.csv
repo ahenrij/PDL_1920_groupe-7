@@ -1,30 +1,17 @@
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Clock rate,,Core config,Fillrate,,,,Memory,,,,TDP (Watts),API support (version),,Release Price (USD)
-,,,,,,,Core (MHz),Memory (MHz),,MOperations/s,MPixels/s,MVertices/s,MTexels/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Max.,Direct3D,OpenGL,
-Radeon X1300,"Oct. 5, 2005 (PCI-E) Dec. 1, 2005 (AGP)",RV515,90,107,100,AGP 8x PCI PCI-E x16,450,250,4:2:4:4,1800,1800,225,1800,128 256,8.0,DDR2,128,,9.0c,2.1,$
-Radeon X1300 HyperMemory,"Oct. 5, 2005",,,,,PCI-E x16,,,,,,,,128 256 512,,,64,,,,
-Radeon X1300 PRO,"Oct. 5, 2005 (PCI-E) Nov. 1, 2006 (AGP)",,,,,AGP 8x PCI-E x16,600,400,,2400,2400,300,2400,128 256,12.8,,128,31,,,
-Radeon X1300 XT,"Aug. 12, 2006",RV530,,157,150,,500,,12:5:4:4,6000,2000,625,2000,,,,,22,,,
-Radeon X1550,"Jan. 8, 2007",RV516,,107,100,AGP 8x PCI PCI-E x16,,,4:2:4:4,2200,2200,275,2200,128 256 512,,,,27,,,
-Radeon X1600 PRO,"Oct. 10, 2005",RV530,,157,150,AGP 8x PCI-E x16,,390,12:5:4:4,6000,2000,625,2000,,12.48,,,41,,,
-Radeon X1600 XT,"Oct. 10, 2005 (PCI-E)",,,,,,590,780,,7080,2360,737.5,2360,256 512,22.08,GDDR3,,42,,,
-Radeon X1650,"Feb. 1, 2007",,,,,,500,400,,6000,2000,625,2000,,12.8,DDR2,,,,,
-Radeon X1650 SE,,RV516,,105,,PCI-E x16,635,,4:2:4:4,,,,,256,,DDR2,,,,,
-Radeon X1650 GT,"May 1, 2007 (PCI-E) Oct. 1, 2007 (AGP)",RV560,80,330,230,AGP 8x PCI-E x16,400,,24:8:8:8,9600,3200,800,3200,256 512,,GDDR3,,,,,
-Radeon X1650 PRO,"Aug. 23, 2006 (PCI-E) Oct. 15, 2006 (AGP)",RV535,,,131,,600,700,12:5:4:4,7200,2400,750,2400,,22.4,,,44,,,
-Radeon X1650 XT,"Oct. 30, 2006",RV560,,,230,,525,,24:8:8:8,12600,4200,1050,4200,,,,,55,,,
-Radeon X1800 CrossFire Edition,"Dec. 20, 2005",R520,90,321,288,PCI-E x16,600,,16:8:16:16,9600,9600,900,9600,512,46.08,,256,113,,,
-Radeon X1800 GTO,"Mar. 9, 2006",,,,,,500,495,12:8:12:8,6000,6000,1000,6000,256 512,32.0,,,48,,,$249
-Radeon X1800 XL,"Oct. 5, 2005",,,,,,,500,16:8:16:16,8000,8000,1000,8000,256,,,,70,,,$
-Radeon X1800 XT,,,,,,,625,750,,10000,10000,1250,10000,256 512,48.0,,,113,,,$549
-Radeon X1900 CrossFire Edition,"Jan. 24, 2006",R580,,384,352,,625,725,48:8:16:16,30000,,,,512,46.4,,,100,,,$599
-Radeon X1900 GT,"May 5, 2006",,,,,,575,600,36:8:12:12,20700,6900,1150,6900,256,38.4,,,75,,,$
-Radeon X1900 GT Rev. 2,"Sept. 7, 2006",,,,,,512,,,18432,6144,1024,6144,,42.64,,,,,,
-Radeon X1900 XT,"Jan. 24, 2006",,,,,,625,725,48:8:16:16,30000,10000,1250,10000,256 512,46.4,,,100,,,$549
-Radeon X1900 XTX,,R580,,,,,650,775,,31200,10400,1300,10400,512,49.6,,,135,,,$649
-Radeon X1950 CrossFire Edition,"Aug. 23, 2006",R580+,80,,,,,1000,,31200,10400,1300,10400,,64,GDDR4,,,,,$449
-Radeon X1950 GT,"Jan. 29, 2007 (PCI-E) Feb. 10, 2007 (AGP)",RV570,,330,230,AGP 8x PCI-E x16,500,600,36:8:12:12,18000,6000,1000,6000,256 512,38.4,GDDR3,,57,,,$140
-Radeon X1950 PRO,"Oct. 17, 2006 (PCI-E) Oct. 25, 2006 (AGP)",,,,,,575,690,,20700,6900,1150,6900,,44.16,,,66,,,$
-Radeon X1950 XT,"Oct. 17, 2006 (PCI-E) Feb. 18, 2007 (AGP)",R580+,,384,352,AGP 8x PCI-E 1.0 x16,625,700 (AGP) 900 (PCI-E),48:8:16:16,30000,10000,1250,10000,,44.8 (AGP) 57.6 (PCI-E),,,96,,,
-Radeon X1950 XTX,"Oct. 17, 2006",,,,,PCI-E 1.0 x16,650,1000,,31200,10400,1300,10400,512,64,GDDR4,,125,,,$449
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core (MHz),Memory (MHz),Core config,MOperations/s,MPixels/s,MVertices/s,MTexels/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Max.,Direct3D,OpenGL,Release Price (USD)
-,,,,,,,Clock rate,,,Fillrate,,,,Memory,,,,TDP (Watts),API support (version),,
+Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Processing power (GFLOPS),Notes
+,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
+Mobility Radeon HD 4200,"September 10, 2009",Unknown,RV620,55,Internal PCIe x16 1.1,500,800 (system memory),40:4:4,2,2,up to 512 from system memory,6.4/12.8,DDR2 DDR3,64/128,10.1,3.3,40,"UVD2, PowerPlay 7.0"
+Mobility Radeon HD 4225,"May 1, 2010",Unknown,,,,380,,,1.52,1.52,,,,,,,30.4,
+Mobility Radeon HD 4250,,Unknown,,,,500,,,2,2,,,,,,,40,
+Mobility Radeon HD 4270,,Unknown,,,,590,,,2.36,2.36,,,,,,,47.2,
+Mobility Radeon HD 4330,"January 9, 2009",M92,RV710,,PCIe x16 2.0,450,600,80:8:4,1.8,3.6,512,9.6,DDR2 DDR3 GDDR3,64,,,72,
+Mobility Radeon HD 4530,,,,,,500,700,,2,4,,11.2,,,,,80,
+Mobility Radeon HD 4550,"January 1, 2010",,,,,550,,,2.2,4.4,,,,,,,80,
+Mobility Radeon HD 4570,"January 9, 2009",,,,,680,800,,2.72,5.44,,12.8,,,,,108.8,
+Mobility Radeon HD 4650,,M96,RV730,,,500 550,600 800,320:32:8,4 4.4,16 17.6,512 1024,19.2 25.6,DDR2 DDR3 GDDR3,128,,,320 352,
+Mobility Radeon HD 4670,,M96-XT,,,,675,800,,5.4,21.6,,12.8 25.6,,,,,432,
+Mobility Radeon HD 4830,"March 3, 2009[137]",M97,RV740,40,,400/600 400/600,800/900 800/900,640:32:16,6.4/9.6 6.4/9.6,12.8/19.2 12.8/19.2,,25.6/28.8 25.6/28.8,GDDR3 DDR3,,,,512/768 512/768,
+Mobility Radeon HD 4850[138],"January 9, 2009",M98,RV770,55,,500,850 700,800:40:16,8,20,1024,54.4 89.6,GDDR3 GDDR52,256,,,800,
+Mobility Radeon HD 4860,"March 3, 2009[137]",M97,RV740,40,,650,1000,640:32:16,10.4,20.8,,64.0,GDDR52,128,,,832,
+Mobility Radeon HD 4870,"January 9, 2009",M98-XT,RV770,55,,550,888 700,800:40:16,8.8,22,512 1024,56.832 89.6,GDDR3 GDDR52,256,,,880,
+Mobility Radeon HD 4870 X2,,,,,,550,700,2x [800:40:16],2x 8.8,2x 22,2048,2x 89.6,GDDR52,2x 256,,,2x 880,"UVD2, PowerPlay 7.0 Dual GPU solution"

@@ -1,0 +1,25 @@
+Shell,Functions,Exception handling,Search & replace on variable substitutions,Arithmetic,Floating point,Math function library,Linear arrays or lists,Associative arrays,Lambda functions,eval function,Pseudorandom number generation,Bytecode
+Bourne shell 1977 version,, Yes (via trap),,,,,,,,,,
+Bourne shell current version, Yes since SVR2, Yes (via trap),,,,,,,,,,
+POSIX shell,, Yes (via trap),,,,,,,,,,
+bash (v4.0),, Yes (via trap),Yes (via ${// syntax),,,,,,,,Yes ($RANDOM) ,
+csh,,,Yes (via $var:s/// syntax),,,,,,,,,
+tcsh,,,Yes (via $var:s/// syntax),,,,,,,,,
+Hamilton C shell,,,Yes (via $var:s/// syntax),,,,,,,, Yes (random utility),
+Scsh,,?,Yes (via string functions and regular expressions),?,?,?,,?,,,"Yes (random-integer, random-real)","Yes (compiler is Scheme48 virtual machine, via scshvm)"
+ksh (ksh93t+),, Yes (via trap),Yes (via ${// syntax and builtin commands),,,,,,,,Yes ($RANDOM),Yes (compiler is called shcomp)
+pdksh,, Yes (via trap),,,,,,,,,Yes ($RANDOM),
+zsh,,,Yes (via ${:s// and ${// syntax),,,Yes (zsh/mathfunc module),,,,,Yes ($RANDOM),Yes (built-in zcompile command)
+ash,,trap),,Yes (since 1992)[60],,,,,,,,
+CCP,,?,,,?,?,,,,,,
+COMMAND.COM,,COMMAND /F (or /N in some versions of DR-DOS)),,,,,,,,,,
+OS/2 CMD.EXE,,,,?,,,?,,,,,
+Windows CMD.EXE,Yes (via CALL :label),,Yes (via SET %varname:expression syntax),Yes (via SET /A)[61],,,Yes (via SET[62]),,,,Yes (%random%),
+4DOS,,"Yes (via ON command, optional Auto-fail via 4DOS /F)",Yes (via %@Replace[...] function),Yes (via SET /A),?,?,"Yes (via ranges, include lists, @file lists and FOR command)",,,,Yes (%@Random[...] function),Yes (via BATCOMP command)
+4OS2,?,?,?,?,?,?,?,?,,,%@Random[...] function),?
+TCC (formerly 4NT),,Yes (via ON and various ...MONITOR commands),Yes (via %@Replace[...] function),Yes (via SET /A),?,?,"Yes (via ranges, include lists, @file lists and FOR command)",?,,,%@Random[...] function),BATCOMP command)
+PowerShell,,,Yes (-replace operator),,,[Math] class[63],,,,,,"Yes, automatic"
+rc,,,,?,?,?,,?,,,,
+BeanShell,,,?,,?,?,,,,,,
+VMS DCL,,,,,,"yes, for compiled programs",,,,,,
+fish,, Yes (via trap),,,,,,,,,Yes (random),

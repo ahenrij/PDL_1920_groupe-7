@@ -1,0 +1,25 @@
+Name,Editing style[1],Native operating systems,Latest stable version,Costs,License,Configurable,Integrated viewer
+AUCTeX,Source,"Linux, macOS, Windows",(2019-10-30) 12.2,,GPL,,
+Authorea,Source / partial-WYSIWYG,Online,,,,,
+Auto-Latex Equations for Google Docs,Source[2],Online,(2020-04-06) 48,,Free,,
+CoCalc,Source,Online,,,AGPL,,
+GNOME LaTeX,Source,Linux,(2019-03-10) 3.32,,GPL,,
+Gummi,Source,Linux,(2020-01-26) 0.8.1,,MIT,,
+Kile,Source,"Linux (macOS, Windows)[3]",(2012-09-23) 2.1.3,,GPL,,
+LEd,Source,Windows,(2009-10-09) 0.53,,,?,
+LyX,WYSIWYM,"Linux, macOS, Windows",(2019-06-25) 2.3.3,,GPL,,
+MeWa,Source,Windows,(2007-06-06) 1.4.0,,GPL,,
+Notepad++,Source,Windows,(2019-10-29) 7.8.1,,GPL,,"
+Overleaf,Source,Online,,,Unclear,,
+Scientific WorkPlace,WYSIWYM,Windows,(2016-02-23) 6.0.12,,,,
+TexLab,Source-WYSIWYG,Windows,(2019-04-30) 7.8,,,,
+TeXmacs,WYSIWYG,"Linux, macOS, Windows",(2017-12-21) 1.99.6,,GPL,,
+Texmaker,Source,"Linux, macOS, Windows",(2018-11-01) 5.0.3,,GPL2,,
+TeXnicCenter,Source,Windows,,,GPL,,
+TeXShop,Source,macOS,(2019-10-23) 4.44,,GPL,,
+TeXstudio,Source,"Linux, Windows, macOS",(2020-08-25) 3.0.0,,GPL2,,"
+TeXworks,Source,"Linux, macOS, Windows",(2019-03) 0.6.3,,GPL,,
+Verbosus,Source,"Online, Android, iOS",(2016-05-06) 4.1.3,,,,
+WinEdt,Source,Windows,(2018-05-07) 10.3,,,,
+WinShell,Source,Windows,(2013-02-10) 3.3.2.6,,,,
+Name,Editing Style,Native Operating Systems,Latest stable version,Costs,License,Configurable,Integrated viewer

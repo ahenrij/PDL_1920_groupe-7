@@ -1,0 +1,17 @@
+Methods and properties,Java,C#
+Static imports,,
+Virtual methods,Virtual by default,Non-Virtual by default
+Abstract,,
+Sealing,,
+Explicit interface implementation,Default methods,
+Value (input) parameters,,
+Reference (input/output) parameters,,
+Output (output) parameters,,
+Constant (immutable) parameters,,
+Variadic methods,,
+Optional arguments,,
+Named arguments,,
+Generator methods,,
+Extension/default methods,,
+Conditional methods,,
+Partial methods,,

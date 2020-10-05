@@ -1,49 +1,70 @@
-Distribution,x86,x86-64,arm,ia64,ppc[112],ppc64,sparc32,sparc64,hppa[113],loongson,mips[114],sh,s390,s390x,alpha[115],m68k[116],riscv
-Alpine Linux,Yes,Yes,Yes,No,No,Yes,No,No,No,No,No,No,No,Yes,No,No,No
-Arch Linux,Unofficial[117] Official discontinued 2017-11-08[118],Yes,Unofficial[119],No,Discontinued unofficial port,No,No,No,No,Discontinued. Unofficial port[120],No,No,No,No,No,No,No
-BackTrack,Discontinued from BackTrack 5 and superseded by Kali Linux[121],Discontinued from BackTrack 5 and superseded by Kali Linux,Discontinued from BackTrack 5 and superseded by Kali Linux,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-BLAG,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Bodhi Linux,Yes,Yes,Discontinued 2013-10-23[122],No,No,No,No,No,No,No,No,No,No,No,No,No,No
-BOSS Linux,Yes,Yes,?,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No
-CentOS,AltArch,Yes,AltArch,Discontinued 3.5-3.8 4.1-4.7[123],"Beta, Discontinued 4.0",AltArch,Beta 4.2[123][124],No,No,No,No,No,Discontinued 3.5-3.8 4.1-4.7[123][125],Discontinued 3.5-3.8 4.1-4.7[123][125],Discontinued 4.2-4.3[123][126][127],No,No
-Chakra,No,Yes,?,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-CRUX,Yes,Yes,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No
-Debian[128],Yes,Yes 4.0+,Yes 2.2+,Discontinued 3.0-7.0[129],Discontinued 2.2-8,Yes,Discontinued 2.1-4.0[130],Discontinued -7[131],Discontinued 3.0-5.0,Yes,Yes 3.0+,In progress,Discontinued 3.0-7,Yes 7+,Discontinued 2.1-5.0,Discontinued 2.0-3.1,In progress[132]
-Devuan,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Dragora GNU/Linux-Libre,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-dyne:bolic,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Fedora[133],Discontinued from Fedora 30,Yes,Yes[134],Discontinued from Fedora 9 [135],Discontinued from Fedora 17,Yes,No,Inactive from Fedora 12[136],No,In progress,Inactive from Fedora 13 [137],No,No,Yes,No,No,In progress[138]
-Finnix,Yes,Yes,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No
-Gentoo[139],Yes,Yes,Yes[140],Yes,Yes,Yes,Yes,Yes,Yes,Yes[141],Yes[142][143],Yes,Yes,Yes,Yes,Yes,Test release[144]
-gNewSense,Yes,Yes,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No
-Guix System[145],Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,In progress[146]
-Hyperbola GNU/Linux-libre,Yes,Yes,No,No,No,In progress[147],No,No,No,No,No,No,No,No,No,No,In progress[148]
-Kali Linux,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-LibreCMC,No,No,No,No,No,No,No,No,No,No,Yes XBurst,No,No,No,No,No,No
-Manjaro Linux,Yes Unofficial[149],Yes,Yes[150],No,No,No,No,No,No,No,No,No,No,No,No,No,No
-MEPIS,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Musix GNU+Linux,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-OpenELEC,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-openSUSE Leap,No,Yes,v7 64,No,No,ppc64le,No,No,No,No,No,No,No,No,No,No,No
-openSUSE Tumbleweed,Yes,Yes,v6 v7 64,No,No,Yes,No,No,No,No,No,No,No,Yes,No,No,RV64G
-OpenWrt[151],Yes,Yes,Yes,No,Yes,No,No,No,No,No,Yes,Yes,No,No,No,No,No
-Oracle Linux[152],Yes,Yes,No,Discontinued 5[153],No,No,No,No,No,No,No,No,No,No,No,No,No
-Parabola GNU/Linux-libre,Yes,Yes,"Yes, ARMv7[154][155]",No,No,Test release[156],No,No,No,Discontinued[157],Discontinued[157],No,No,No,No,No,Test release[158]
-Red Flag Linux,Discontinued 8.0[159],Discontinued 8.0[159],No,Discontinued 3[160],No,Discontinued 3[160],No,No,No,No,No,No,No,No,No,No,No
-Red Hat Linux[161],Discontinued 9.0,No,No,Discontinued 7.1-7.2,Test release 5.1[162],No,Discontinued 4.0-4.2 5.1-6.2,Test release 5.1[162],No,No,Test release 5.1[162],No,Discontinued 7.2,Yes,Discontinued 2.1-7.1,Test release 5.1[162],No
-Red Hat Enterprise Linux[163],Discontinued 2.1-6[164],Yes 3+,Yes[165],Discontinued 2.1-5[166],Yes 3+,Yes 3+,No,No,No,No,No,No,Discontinued 3-4[167],Yes 3+,No,No,No
-Sabayon Linux,Discontinued,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Scientific Linux,Yes,Yes,No,Discontinued 3-4,No,No,No,No,No,No,No,No,No,No,No,No,No
-SHR,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Slackware,Yes,Yes,Yes,No,No,No,Discontinued ?[168],No,No,No,No,No,Discontinued ?[169],Discontinued ?[169],Discontinued 8.1[170],No,No
-Solus,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Source Mage GNU/Linux,Yes,Yes,No,No,Yes,No,No,No,No,?,No,No,No,No,No,No,No
-SUSE Linux Enterprise Server[171],Yes,Yes,AArch64 only[172],Yes,Yes,Yes,No,No,No,No,No,No,No,Yes,No,No,No
-Trisquel GNU/Linux,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-TurnKey GNU/Linux,Selected ISOs available,Yes,No - but under development by community,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Ubuntu/Kubuntu/Xubuntu/Lubuntu,Discontinued from Ubuntu 20.04,Yes,"Yes, including 64-bit ARMv8-A",No,Yes,Yes,No,No,No,No,No,No,No,"Ubuntu only, 16.04+[173]",No,No,No
-Ututo,Yes,Yes,No,No,No,No,No,No,No,In progress,No,No,No,No,No,No,No
-Void Linux,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-XBMCbuntu,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Yellow Dog Linux,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No
-Distribution,x86,x86-64,arm,ia64,ppc,ppc64,sparc32,sparc64,hppa,loongson,mips,sh,s390,s390x,alpha,m68k,riscv
+Distribution,Default Linux kernel,Default file system,Default init system,Install-time desktop environment or window manager selection,Reproducible builds
+Alpine Linux,Binary blobs,ext4,openrc,none,In progress[81]
+ALT Linux,Binary blobs,ext3,systemd,"KDE Plasma Workspaces, Xfce",No
+Arch Linux,Binary blobs[82],none[83],systemd,none,In progress[84][85]
+BLAG,Linux-libre,ext3,sysvinit,GNOME,No
+Bodhi Linux,Binary blobs,ext4,systemd,Moksha (Enlightenment fork),No
+Canaima,Binary blobs[82],?,systemd,Cinnamon and MATE,No
+CentOS,Binary blobs[82],xfs,systemd,GNOME,No
+Chakra,Binary blobs,ext4,systemd,KDE Plasma Workspaces,No
+ClearOS,Binary blobs,ext3,systemd,none (Web based),No
+CoreOS,Binary blobs,ext4,systemd,None,No
+CrunchBang Linux,Binary blobs,ext4,sysvinit,Openbox,No
+Damn Small Linux,Binary blobs,ext3,sysvinit,JWM,No
+Debian,"By default Linux-libre, but the Debian Project also hosts a non-free repository allowing blobs to be installed optionally.[82] Built with Linux-libre tools.[86]",ext4,systemd,"GNOME, KDE, Xfce, LXDE[87]",In progress[88][89]
+Devuan,Binary blobs,ext4,sysvinit,Xfce,No
+Dragora GNU/Linux-Libre,Linux-libre,ext4,runit,Xfce,No
+dyne:bolic,Linux-libre,?,systemd,GNOME,No
+Fedora,Binary blobs,ext4,systemd,"GNOME (default Workstation Edition), Spins for: KDE Plasma Workspaces, Xfce, LXDE, MATE (with Compiz), Cinnamon, Sugar on a Stick",In progress[90]
+Funtoo,Binary blobs,none,openrc,None,No
+Gentoo,Binary blobs,none,openrc,"Awesome, Enlightenment, Fluxbox, GNOME, KDE, LXDE-Meta, Openbox, XBMC and Xfce (live DVD)[91]",No
+gNewSense,"Debian Linux kernel, and (unlike Debian) blobs cannot be installed[86]",ext3,sysvinit,GNOME,No
+Guix System,"Linux-libre, Hurd (in progress)[92]","btrfs, ext4",GNU Shepherd,"GNOME, Xfce, Mate, Enlightenment, i3, ratpoison, xmonad",In progress[93][94]
+Hyperbola GNU/Linux-libre,Linux-libre,none,openrc[95],none,No
+Kali Linux,Binary blobs,ext3,systemd,GNOME,No
+Knoppix,Binary blobs,xfs,microknoppix,LXDE,No
+LibreCMC[96],Binary blobs,ext4,busybox-init,none,No
+Linux Mint[97],Binary blobs[82],ext4,systemd,"MATE, Cinnamon, KDE 4, XFCE",No
+Mageia,Binary blobs,ext4,systemd,"KDE Plasma Workspaces, GNOME",No
+Mandriva Linux,Binary blobs,ext4,systemd,KDE Plasma Workspaces,No
+Manjaro Linux,Binary blobs,none[98],systemd,"Xfce, KDE, GNOME [99]",No
+MEPIS,Binary blobs,"ext3, ext4",sysvinit,KDE Plasma Workspaces,No
+Musix GNU+Linux[100],Linux-libre,ext4,initscripts,LXDE,No
+OpenELEC,Binary blobs,SquashFS,shell script,XBMC Media Center,No
+openSUSE,Binary blobs,btrfs,systemd,"KDE Plasma Workspaces, GNOME, Xfce",In progress[101]
+OpenWrt,Binary blobs,overlayfs+SquashFS/JFFS2[102],procd[103],none,In progress[104]
+Parabola GNU/Linux-libre,Linux-libre,none,openrc or systemd,none,No
+Pardus,Binary blobs,ext4,systemd,KDE Plasma Workspaces,No
+Parsix,Binary blobs,ext4,systemd,GNOME,No
+PCLinuxOS,Binary blobs,none,sysvinit,"KDE Plasma Workspaces, GNOME, LXDE, Xfce, Enlightenment, Openbox",No
+Pentoo,Binary blobs,SquashFS,openrc,Enlightenment,No
+Porteus,Binary blobs,"Squashfs, ext2, ext3, ext4, FAT32, reiser, xfs",sysvinit,"KDE, LXDE, Xfce, Openbox, Razor-qt",No
+Puppy Linux,Binary blobs,SquashFS containing ext2,busybox-init,JWM,No
+Red Hat Enterprise Linux,Binary blobs,xfs,systemd,GNOME,No
+Rxart Desktop,Binary blobs,ext3,?,KDE Plasma Workspaces,No
+Sabayon Linux,Binary blobs,ext4[105],systemd,"KDE Plasma Workspaces, GNOME",No
+Scientific Linux,Binary blobs,ext4,"sysvinit, systemd[106]",GNOME,No
+Slackware,Binary blobs[82],"ext4, ext3, ext2, reiserfs, brtfs, xfs",RC.d and sysvinit compatibile,"KDE, XFCE Fluxbox, Blackbox, fvwm2 twm",No
+Slax,Binary blobs,SquashFS,sysvinit,KDE Plasma Workspaces,No
+SliTaz GNU/Linux,Binary blobs,ext3,busybox-init,Openbox,No
+Solus,Binary blobs,ext4,systemd,"Budgie, Gnome, MATE",No
+Source Mage GNU/Linux,Binary blobs,ext2,simpleinit-msb,none,No
+SteamOS,Binary blobs,?,systemd,Steam,No
+SUSE Linux Enterprise Desktop,Binary blobs[82],btrfs[107],systemd,GNOME,No
+Tails,Vanilla Linux[82],?,systemd,GNOME,Reproducible ISO and USB images[108][109]
+Trisquel,Linux-libre,"ext4, xfs",systemd,"GNOME, LXDE",No
+TurnKey GNU/Linux,Binary blobs,ext4,systemd,none - headless server by design; provides Webmin for administration,No
+Ubuntu/Edubuntu,Binary blobs[82],ext4[110],systemd,Unity,No
+Ubuntu GNOME,Binary blobs,ext4,systemd,GNOME 3,No
+Ubuntu MATE,Binary blobs,ext4,systemd,MATE,No
+Kubuntu,Binary blobs,ext4[110],systemd,KDE Plasma Workspaces,No
+Xubuntu,Binary blobs,ext4[110],systemd,Xfce,No
+Lubuntu,Binary blobs,ext4,systemd,LXQt,No
+Ututo,Ututo XS (stable) is de-blobbed with Linux-libre tools.[111] Ututo UL (development) uses Linux-libre. Ututo UL means "Ubuntu-Libre",ext3,systemd,GNOME,No
+VectorLinux,Binary blobs,ReiserFS,sysvinit,"KDE, Openbox, Fluxbox, IceWM, Xfce",No
+Void Linux,Binary blobs,none,runit,none,No
+Webconverger,Binary blobs,gitfs,sysvinit,dwm enforcing a Browser-only interface,No
+XBMC Live,Binary blobs,ext3,systemd,XBMC Media Center,No
+Zentyal,Binary blobs,ext4,systemd,LXDE,No
+Zenwalk,Binary blobs,ext4,sysvinit,Xfce,No
+Distribution,Default Linux kernel,Default file system,Default init system,Install-time desktop environment or window manager selection,Reproducible builds

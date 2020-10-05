@@ -1,15 +1,16 @@
-OLAP server,Issue Tracking System,Roadmap,Source code
-Apache Kylin,Jira,Apache Kylin Roadmap,Open
-ClickHouse,ClickHouse – Github Issues,ClickHouse Roadmap,Open
-Druid,Druid – Github Issues,,Open
-Essbase,myOracle Support,[6],Closed
-IBM Cognos TM1,IBM Service Request,,Closed
-icCube,YouTrack,,Closed
-Jedox OLAP Server,Mantis,Available upon request,Open
-Kyvos,Zendesk,Available upon request,Open
-Microsoft Analysis Services,Connect,-,Closed
-MicroStrategy Intelligence Server,MicroStrategy Resource Center,-,Closed
-Mondrian OLAP server,Jira,[7],Open
-Oracle Database OLAP Option,myOracle Support,,Closed
-SAP NetWeaver BW,OSS,[8],Closed
-SAS OLAP Server,Support,,Closed
+OLAP server,Real Time,Write-back,Partitioning,Usage Based Optimizations,Load Balancing and Clustering
+Apache Kylin,Yes [27],No,Yes,Yes,Yes
+ClickHouse,Yes,Yes,Yes,Yes,Yes
+Druid,Yes,?,Yes,Yes,Yes
+Essbase,Yes,Yes,Yes,Yes,Yes
+IBM Cognos BI,Yes,No,Yes,Yes,?
+IBM Cognos TM1,Yes,Yes,Yes,?,?
+icCube,Yes[28],Yes[29],Yes[30],?,?
+Jedox OLAP Server,Yes,Yes,Yes,?,?
+Kyvos,Yes,Yes,Yes,Yes,Yes
+Microsoft Analysis Services,Yes,Yes,Yes,Yes,Yes
+MicroStrategy Intelligence Server,?,Yes[31],Yes,Yes,Yes
+Mondrian OLAP server,Yes,Planned,Yes,?,?
+Oracle Database OLAP Option,?,Yes,Yes,No,?
+SAP NetWeaver BW,?,Yes,Yes,?,?
+SAS OLAP Server,?,Yes,Yes,?,?

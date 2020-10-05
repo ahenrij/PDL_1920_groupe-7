@@ -1,7 +1,10 @@
-,Trident,edgeHTML,Gecko,WebKit,Presto
-Ogg Vorbis,Manual install[note 12],,1.9.1[g 101],Depends[note 13],2.5
-WAV PCM,,,,525[note 13],2.0
-MP3,5.0[t 47],,No[g 105],,Depends[note 14]
-AAC,,,No,,
-Speex,Manual install[note 12],,No[g 106],Depends[note 13],No
-Opus,No,Yes[51],15.0[g 107],Depends[note 13],No
+,Trident,Gecko,WebKit,Presto
+Microdata,No,16.0[g 67],No[w 53],Yes[p 17]
+HTML5 Tokenizer,6.0[t 33],2.0[g 68],Yes[w 54],2.10[p 18]
+HTML5 Tree Builder,,,Yes[w 14],
+HTML5 Fragment Parser,,,Yes,
+<a rel="noreferrer">,No,33.0[g 69],Yes[w 55],No
+window.onhashchange,4.0[t 34],1.9.2[g 70],528[w 56],2.6[p 19]
+element.classList,No,1.9.2[g 71],Yes[w 57],2.8[p 11]
+dir="auto",No,20.0[g 72],528+[w 58],No
+,Trident,Gecko,WebKit,Presto

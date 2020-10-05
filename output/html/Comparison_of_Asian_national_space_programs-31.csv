@@ -1,4 +1,3 @@
-Country,Number of satellites,Year,Launch Vehicle,Flight
-India,104,2017,PSLV-XL,C37
-China,20,2015,Long March 6,1
-Japan,8,2009,H-IIA,F15
+Country,Spacecraft,Launch payload,Year launched
+Japan,HTV,"6,000 kg (13,000 lb)",2009
+China,Tianzhou,"6,500 kg (14,300 lb)",2017

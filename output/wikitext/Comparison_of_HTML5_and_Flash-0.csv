@@ -1,0 +1,34 @@
+! HTML5 standard,HTML web browser features,Adobe Flash/AIR features
+Date started,Work began in 2003 Working Draft as of 2011[3],
+Desktop operating systems,,"AmigaOS, MorphOS, Apple macOS, Linux, Microsoft Windows"
+Mobile operating systems,, Android 2.3 and newer[5] Apple iOS 6 and newer[5] Symbian Belle[5] BlackBerry OS 7 and 10[5] Windows Phone 7 and newer[5] 
+Video game consoles,," PlayStation (PS4, PS3 and PS Vita)[11][12][13] Nintendo Switch and Wii U[14][15][11][16] Nintendo 3DS family (partial)[11] Xbox One and Xbox 360[11][17] "
+Device support,,"colspan="2" Full, permission-based access to web camera, microphone, accelerometer and GPS"
+Market penetration,,"82.3% of websites (as of March 28, 2020)[18]"
+Browser support,,97.5% of browser installations (as of February 2020)[20]
+Vector graphics formats,,Scalable Vector Graphics (SVG) supported on ~97% of browsers[22]
+Bitmap effects,,"90+%[23] support of Filters in CSS3 (e.g. Glow, Blur, Drop Shadow, Sepia)[24]"
+Vector text display,,
+Font support,,
+Text anti-aliasing,,"
+Text tab stops,,Only supported inside "pre" tags
+Liquid text layout,,"
+Tabular data,,"
+Linked text framesa1,"2016, two specifications compete: CSS Regions[27] and CSS Overflow[28]","With CSS Regions, supported by Safari, IE11 and Edge[29]"
+Programming languages,,JavaScript
+C++ support,Cross-compiling C++ code to JavaScript via Emscripten,"Native code execution with Google Native Client in Google Chrome, also supported with WebAssembly (experimental)"
+Code delivery format,Plaintext,"Plaintext JavaScript with limited obfuscation, WebAssembly bytecode (experimental), GLSL for GPUs, in Canvas elements"
+Data formats,,"CSS 3, HTML, XML, JSON[32]"
+Data compression,,"GZIP compression for HTML, JS and CSS files[34]"
+Image formats,,"PNG, JPEG, SVG, Animated GIF[35][36]"
+Video formats,,90+% support of H.264;[39] varying support of WebM and Ogg Theora (see HTML5 video)
+Streaming video,,"Supported by IE, Edge, Firefox, Chrome, Safari and Opera.[42]"
+Audio formats,,"~94% support of MP3,[43] AAC[44] and WAV PCM; varying support of Ogg Vorbis, and WebM Vorbis (see HTML5 audio)"
+Fullscreen support,,"Supported on all major desktop browsers, with warning displayed.[46] Not yet widely supported on mobile"
+Encryption DRM,,"~65% support of audio/video files.[47] All other files being plaintext, except for obfuscation"
+File system access,,"~87% support of single file upload, and drag and drop of files onto browser[48]"
+Bitmap manipulation,,~95% support for canvas element[51]
+Binary manipulation,,"
+Large binary data,,Via Web Sockets to stream binary or XML data
+Offline storage,,"
+Metadata,Meta tags,Can be included in meta tags

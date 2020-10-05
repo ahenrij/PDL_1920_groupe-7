@@ -1,10 +1,27 @@
-Language/ Library,Create,Determinant,Transpose,Element,Column,Row,Eigenvalues
-APL,m?dims?x11 x12 ...,-.×m,?m,m[i;j] or i j?m,m[;j] or j?[2]m or j??m,m[i;] or i?m,??1?m
-Fortran,"m = RESHAPE([x11, x12, ...], SHAPE(m))",,TRANSPOSE(m),"m(i,j)","m(:,j)","m(i,:)",
-Ch [47],m = {...},determinant(m),transpose(m),m[i-1][j-1],"shape(m,0)","shape(m,1)","eigen(output, m, NULL)"
-Mathematica,"m = ,Det[m],Transpose[m],"m[[i,j]]","m[[;;,j]]",m[[i]],Eigenvalues[m]
-MATLAB / GNU Octave,m = [...],det(m),m.',"m(i,j)","m(:,j)","m(i,:)",eig(m)
-NumPy,m = mat(...),linalg.det(m),m.T,"m[i-1,j-1]","m[:,j-1]","m[i-1,:]",linalg.eigvals(m)
-S-Lang,"m = reshape([x11, x12, ...], [new-dims])",,m = transpose(m),"m[i,j]","m[*,j]","m[j,*]",
-SymPy,m = Matrix(...),,m.T,"m[i-1,j-1]",,,
-Wolfram Language,"m = ,Det[m],Transpose[m],"m[[i,j]]","m[[;;,j]]",m[[i]],Eigenvalues[m]
+Format,Languages
+name[first:last],"ALGOL 68,[7] Julia"
+name[first+(?len)-?IO],APL
+name[first:end:step],"Python,[8][9] Go"
+name[first..last],"Pascal, Object Pascal, Delphi, Nim"
+$name[first..last],Windows PowerShell
+@name[first..last],Perl[10]
+"name[first..last] name[first...end] name[first, len]",Ruby[9]
+copy/part skip name first len,Red
+name(first..last),Ada[7]
+name(first:last),"Fortran,[7][8] GNU Octave, MATLAB[7][10]"
+name[[first;;last;;step]],"Mathematica,[7][8][9] Wolfram Language"
+name[[first:last]],S-Lang[7][8][10]
+name.[first..last],F#
+"name.slice(first, end)","Haxe, JavaScript, Scala"
+"name.slice(first, len)",CFML
+"array_slice(name, first, len)",PHP[9]
+(subseq name first end),Common Lisp
+(subseq name first end),ISLISP
+Array.sub name first len,OCaml
+"[name subarrayWithRange:NSMakeRange(first, len)]",Objective-C (NSArray * only)
+(first([+i.@(-~)end){name,J
+name[first..<end] name[first...last],Swift
+name copyFrom: first to:last name copyFrom: first count:len,Smalltalk
+name[first..end],"D, C#[11][12]"
+name[first..end] name[first..=last],Rust
+name[first:end],Cobra

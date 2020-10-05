@@ -1,15 +1,10 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-Proxy server,"3.1+[335] but only global, not per connection[336] and only works for the browser[337] 3rd party apps available[338]",Yes,Yes,Yes[339],No
-On-device encryption,3+[340] but insecure on Qualcomm devices[341],Yes[342] (3rd party software may attempt brute-force attacks on password[343]),No,3.3.0+[344],No
-External storage encryption,6+,External storage not available,No,Yes,No
-Zero knowledge encryption[345],"No, data is accessible by Google[346] and shared with the American PRISM surveillance program.[347]","No, data stored on iCloud is accessible by Apple[348] and shared with the American PRISM surveillance program.[347]",?,?,No
-Privacy of synchronization[349],3rd party software like ownCloud[350],When synchronizing locally and not using iCloud,?,?,?
-Sync to cloud communication encryption,2.3.4+[351],Yes[352],?,?,?
-Wireless anti-tracking[353],Developer Options (9+)[354],8+[355],No,?,No
-Remote device location tracking,Yes[356],Yes[357],?,?,No
-Remote device locking and/or data wipe,2.2+[358],Yes[357],?,?,No
-End-to-end encrypted push notifications,"Possible, notifications are handled by the app that can decrypt it[109]","Possible since iOS 7, where the app can handle the notification and decrypt it[359]",?,?,Yes
-SSH Client,Yes,Yes[360][361],?,Yes,Yes
-VPN,Yes[362],Yes[363],?,Yes,Yes
-OpenVPN,"No, but possible with 3rd party firmware[364]",Yes[365],?,Yes,Yes
-WPA PEAP,Yes[366],Yes[367],?,In developer mode[368],Yes
+Separate volume for ringtone and media,Yes,Yes,?,Yes,Yes
+Voice commands,Yes[369],5+ (Siri),?,"3rd party software, such as Saera[370]",No
+Offline voice commands,6+[371],Yes[372],?,No,No
+Voice recognition,Yes,5+ (Siri),?,No,No
+Offline voice recognition,4.1+[373],"Limited, only calling and music playback[374]",No,No,No
+Non-English voice recognition,Yes,Yes[205],?,No,No
+Sound recorder,Very limited (Doesn't work in background[375] and not voice controlled),3+: Limited (Not voice controlled)[376][377],Partial,3rd party software[378],3rd party software
+Call recorder,"Prevented by OS restrictions,[379] but possible with 3rd party firmware[380]",3rd party software[381],No,"Disabled by default, must be interactively switched on during a call when enabled / 3rd party software[382]",?
+Sound trim,"No,[383] but 3rd party software available[384]",Yes[385],?,?,?

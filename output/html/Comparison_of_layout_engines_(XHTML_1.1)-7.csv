@@ -1,2 +1,11 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-bdo,<3.1[IE 5.0] [6],?,Yes,Yes,Partial,Yes,?
+form,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+input,,,,,,,
+select,,,,,,,
+option,,,,,,,
+textarea,,,,,,,
+button,,,,,,,
+fieldset,,,,,,,
+label,,,,,,,
+legend,,,,,,,
+optgroup,,,,,,,

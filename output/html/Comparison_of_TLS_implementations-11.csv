@@ -1,21 +1,22 @@
-Implementation,Secure Renegotiation [173],Server Name Indication [174],ALPN [175],Certificate Status Request [174],OpenPGP [176],Supplemental Data [177],Session Ticket [178],Keying Material Exporter [179],Maximum Fragment Length [174],Truncated HMAC [174],Encrypt-then-MAC [180],TLS Fallback SCSV [181],Extended Master Secret [182],ClientHello Padding [183],Raw Public Keys [184]
-Botan,Yes,Yes,Yes[185],No,No,No,Yes,Yes,Yes,No,Yes,Yes[186],Yes[187],No,Unknown
-cryptlib,Yes,Yes,No,No,No,Yes,No,No,No[188],No,Yes,Yes,Yes,No,Unknown
-GnuTLS,Yes,Yes,Yes[189],Yes,No[190],Yes,Yes,Yes,Yes,No,Yes[37],Yes[191],Yes[37],Yes[192],Yes[193]
-JSSE,Yes,Yes[65],Yes[65],Yes,No,No,Yes,No,Yes,No,No,No,Yes,No,No
-LibreSSL,Yes,Yes,Yes[194],Yes,No,No?,Yes,Yes?,No,No,No,Server side only[195],No,Yes,No
-MatrixSSL,Yes,Yes,Yes[196],Yes[130],No,No,Yes,No,Yes,Yes,No,Yes[130],Yes[130],No,Unknown
-Mbed TLS,Yes,Yes,Yes[197],No,No,No,Yes,No,Yes,Disabled by default[44],Yes[198],Yes[198],Yes[198],No,No
-NSS,Yes,Yes,Yes[199],Yes,No[200],No,Yes,Yes,No,No,No[201],Yes[202],Yes[203],Yes[199],Unknown
-OpenSSL,Yes,Yes,Yes[52],Yes,No,No?,Yes,Yes,Yes,No,Yes,Yes[204],Yes[205],Yes[206],No
-RSA BSAFE Micro-Edition Suite,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No,No,No,No,No
-RSA BSAFE SSL-J,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No
-SChannel XP/2003,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Unknown
-SChannel Vista/2008,Yes,Yes,No,No,No,Yes,No,No,No,No,No,No,Yes[207],No,Unknown
-SChannel 7/2008R2,Yes,Yes,No,Yes,No,Yes,No,No,No,No,No,No,Yes[207],No,Unknown
-SChannel 8/2012,Yes,Yes,No,Yes,No,Yes,Client side only[208],No,No,No,No,No,Yes[207],No,Unknown
-"SChannel 8.1/2012R2, 10",Yes,Yes,Yes,Yes,No,Yes,Yes[208],No,No,No,No,No,Yes[207],No,Unknown
-Secure Transport,Yes,Yes,Unknown,No,No,Yes,No,No,No,No,No,No,No,No,Unknown
-wolfSSL,Yes,Yes,Yes[150],Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,No,Unknown
-Erlang/OTP SSL application,Yes,Yes,Yes,No,No,No,No,No,No,No,No,Yes,No,No,Unknown
-Implementation,Secure Renegotiation,Server Name Indication,ALPN,Certificate Status Request,OpenPGP,Supplemental Data,Session Ticket,Keying Material Exporter,Maximum Fragment Length,Truncated HMAC,Encrypt-then-MAC,TLS Fallback SCSV,Extended Master Secret,ClientHello Padding,Raw Public Keys
+Implementation,RSA[34],RSA-EXPORT (insecure)[34],DHE-RSA (forward secrecy)[34],DHE-DSS (forward secrecy)[34],ECDH-ECDSA[81],ECDHE-ECDSA (forward secrecy)[81],ECDH-RSA[81],ECDHE-RSA (forward secrecy)[81],"GOST R 34.10-94, 34.10-2001[82]"
+Botan,Disabled by default,No,Yes,Disabled by default,No,Yes,No,Yes,No
+cryptlib,Yes,No,Yes,Yes,No,Yes,No,No,No
+GnuTLS,Yes,No,Yes,Disabled by default[37],No,Yes,No,Yes,No
+JSSE,Yes,Disabled by default,Yes,Yes,Yes,Yes,Yes,Yes,No[83]
+LibreSSL,Yes,No[41],Yes,Yes,Yes,Yes,Yes,Yes,Yes[84]
+MatrixSSL,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No
+Mbed TLS,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No
+NSS,Yes,Disabled by default,Yes[85],Yes,Yes,Yes,Yes,Yes,No[86][87]
+OpenSSL,Yes,No[50],Yes,Disabled by default[50],Yes,Yes,Yes,Yes,Yes[88]
+RSA BSAFE,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No
+SChannel XP/2003,Yes,Yes,No,XP: Max 1024 bits 2003: 1024 bits only,No,No,No,No,No[89]
+SChannel Vista/2008,Yes,Disabled by default,No,1024 bits by default[90],No,Yes,No,except AES_GCM,No[89]
+SChannel 8/2012,Yes,Disabled by default,AES_GCM only[91][92][93],1024 bits by default[90],No,Yes,No,except AES_GCM,No[89]
+"SChannel 7/2008R2, 8.1/2012R2",Yes,Disabled by default,Yes,2048 bits by default[90],No,Yes,No,except AES_GCM,No[89]
+SChannel 10,Yes,Disabled by default,Yes,2048 bits by default[90],No,Yes,No,Yes,No[89]
+Secure Transport OS X 10.6,Yes,Yes,except AES_GCM,Yes,Yes,except AES_GCM,yes,except AES_GCM,No
+Secure Transport OS X 10.8-10.10,Yes,No,except AES_GCM,No,Yes,except AES_GCM,Yes,except AES_GCM,No
+Secure Transport OS X 10.11,Yes,No,Yes,No,No,Yes,No,Yes,No
+wolfSSL,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No
+Erlang/OTP SSL application,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No
+Implementation,RSA[34],RSA-EXPORT (insecure)[34],DHE-RSA (forward secrecy)[34],DHE-DSS (forward secrecy)[34],ECDH-ECDSA[81],ECDHE-ECDSA (forward secrecy)[81],ECDH-RSA[81],ECDHE-RSA (forward secrecy)[81],"GOST R 34.10-94, 34.10-2001[82]"

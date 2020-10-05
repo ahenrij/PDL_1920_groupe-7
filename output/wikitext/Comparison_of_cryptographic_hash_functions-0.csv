@@ -1,0 +1,37 @@
+Function,Size (bits)The omitted multiplicands are word sizes.,,,,,,Words × Passes = RoundsSome authors interchange passes and rounds.,"OperationsA: addition, subtraction; B: bitwise operation; L: lookup table; S: shift, rotation.","EndianIt refers to byte endianness only. If the operations consist of bitwise operations and lookup tables only, the endianness is irrelevant."
+,Word,Digest,"Chaining valuesThe size of message digest equals to the size of chaining values usually. In truncated versions of certain cryptographic hash functions such as SHA-384, the former is less than the latter.","Computation valuesThe size of chaining values equals to the size of computation values usually. In certain cryptographic hash functions such as RIPEMD-160, the former is less than the latter because RIPEMD-160 use two sets of parallel computation values and then combine into a single set of chaining values.",Block,"Length The maximum input size ,,,
+GOST R 34.11-94,32,×8 ,,,×8 ,32,4,A B L S,Little
+HAVAL-3-128,32,×4 ,×8 ,,"×32 ,64,32 × 3 ,A B S,Little
+HAVAL-3-160,,×5 ,,,,,,,
+HAVAL-3-192,,×6 ,,,,,,,
+HAVAL-3-224,,×7 ,,,,,,,
+HAVAL-3-256,,×8 ,,,,,,,
+HAVAL-4-128,,×4 ,,32 × 4 ,,,,,
+HAVAL-4-160,,×5 ,,,,,,,
+HAVAL-4-192,,×6 ,,,,,,,
+HAVAL-4-224,,×7 ,,,,,,,
+HAVAL-4-256,,×8 ,,,,,,,
+HAVAL-5-128,,×4 ,,32 × 5 ,,,,,
+HAVAL-5-160,,×5 ,,,,,,,
+HAVAL-5-192,,×6 ,,,,,,,
+HAVAL-5-224,,×7 ,,,,,,,
+HAVAL-5-256,,×8 ,,,,,,,
+MD2,8,×16 ,×32 ,×48 ,×16 ,None,48 × 18 ,B,N/A
+MD4,32,×4 ,,,×16 ,64,16 × 3 ,A B S,Little
+MD5,,,16 × 4 ,,,,,,
+RIPEMD,32,×4 ,,×8 ,×16 ,64,16 × 3 ,A B S,Little
+RIPEMD-128,,,16 × 4 ,,,,,,
+RIPEMD-256,,×8 ,,,,,,,
+RIPEMD-160,,×5 ,,×10 ,,,16 × 5 ,,
+RIPEMD-320,,×10 ,,,,,,,
+SHA-0,32,×5 ,,,×16 ,64,16 × 5 ,A B S,Big
+SHA-1,,,,,,,,,
+SHA-256,,×8 ,×8 ,,,,16 × 4 ,,
+SHA-224,,×7 ,,,,,,,
+SHA-512,64,×8 ,×8 ,,×16 ,128,16 × 5 ,,
+SHA-384,,×6 ,,,,,,,
+Tiger-192,64,×3 ,×3 ,,×8 ,64,8 × 3 ,A B L S,Not Specified
+Tiger-160,,×2.5=160,,,,,,,
+Tiger-128,,×2 ,,,,,,,
+Function,Word,Digest,Chaining values,Computation values,Block,Length,Words × Passes = Rounds,Operations,Endian
+,Size (bits),,,,,,,,

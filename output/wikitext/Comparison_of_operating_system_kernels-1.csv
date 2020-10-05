@@ -1,0 +1,9 @@
+Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
+FreeBSD kernel,,,,,,,,,,,,,,,
+Linux kernel,,,(Longene),,,,,,,,,,,,
+NetBSD kernel,,,,,,,,,,,,,,,
+OpenBSD kernel,,,,,,,,,,,,,,,
+Windows NT kernel,,,,,,,,,,,,,,,
+ReactOS kernel,,,,,,,,,,,,,,,
+XNU,,,,,,,,,,,,,,,
+Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4

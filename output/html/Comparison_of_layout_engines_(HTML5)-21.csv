@@ -1,7 +1,25 @@
-,Trident,edgeHTML,Gecko,WebKit,Presto
-Ogg Vorbis,Manual install[note 12],,1.9.1[g 101],Depends[note 13],2.5
-WAV PCM,,,,525[note 13],2.0
-MP3,5.0[t 47],,No[g 105],,Depends[note 14]
-AAC,,,No,,
-Speex,Manual install[note 12],,No[g 106],Depends[note 13],No
-Opus,No,Yes[51],15.0[g 107],Depends[note 13],No
+,Trident,Gecko,WebKit,KHTML,Presto
+Phrase,,,,,
+em,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+strong,,,,,
+dfn,,,,,
+code,,,,,
+samp,,,,,
+kbd,,,,,
+var,,,,,
+cite,,,,,
+acronym,,,,,
+abbr,3.1,,,,
+Quotations,,,,,
+blockquote,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+q,4.0,1.8[note 1],,,
+Subscripts and superscripts,,,,,
+sub,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+sup,,,,,
+Lines and paragraphs,,,,,
+p,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+pre,,,,,
+br,<3.1[IE 5.0],,,,
+Marking document changes,,,,,
+ins,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+del,,,,,

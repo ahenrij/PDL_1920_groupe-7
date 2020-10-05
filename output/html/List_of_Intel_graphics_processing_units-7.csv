@@ -1,18 +1,9 @@
-Graphics,Launch,PowerVR core,Market,Chipset,Code name,Device id.,Core render clock (MHz),Pixel pipelines,Shader model (vertex/pixel),API support,,,Memory bandwidth (GB/s),DVMT (MB),Hardware acceleration,,
-,,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2,VC-1,AVC
-GMA 500,2008,SGX535,CE,CE3100,Canmore,2E5B,?,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
-,2009,,,Atom CE4100,Sodaville,,,,,,,,,,,,
-,,,,Atom CE4110,,,200,,,,,,,,,,
-,,,,Atom CE4130,,,,,,,,,,,,,
-,,,,Atom CE4150,,,400,,,,,,,,,,
-,,,,Atom CE4170,,,,,,,,,,,,,
-,2010,,,Atom CE4200,Groveland,,?,,,,,,,,,,
-,2008,,MID,UL11L,Poulsbo (Menlow),8108 8109,100,,,,,,,,,,
-,,,,US15L,,,200,,,,,,,,,,
-,,,,US15W,,,,,,,,,,,,,
-GMA 600,2010,,MID,Atom Z6xx,Lincroft (Moorestown),4102,400[91],2,3.0,9.0c,2.0,—,6.4,759,Full,Full,Full
-GMA,2012,SGX540,Smartphone,Atom Z24xx,Penwell (Medfield),?,400[92],4,—,—,ES 2.0,—,6.4,1024,Full,Full,Full
-GMA 3600,2011,SGX545,Nettop Netbook,Atom D2500 Atom N2600,Cedarview (Cedar Trail),0BE0 0BE1 0BE2 0BE3,400[93],4,3.0,9.0c,3.0,—,8.5 6.4,1024[94],Full,Full,Full
-GMA 3650,,,,Atom D2700 Atom N2800,,,640[93],,,,,,8.5,,,,
-GMA,2012,,Tablet,Atom Z2760,Cloverview (Clover Trail),08C7 08C8 08C9 08CA 08CB 08CC 08CD 08CE 08CF,533,4,3.0,9.0c,2.0,—,6.4,2048,Full,Full,Full
-GMA,2012,SGX544 MP2,Tablet,Atom Z2520 Atom Z2560 Atom Z2580,Cloverview (Clover Trail+),?,300Mhz 400 MHz 533 MHz,?,?,9.0 L3,"2.0ES, 2.0?",1.1,?,?,Full,Full,Full
+Graphics,Launch,Market,Processor,Code name,Device id.[3],Core clock (MHz),Execution units,API support[13],,,Memory bandwidth (GB/s),DVMT (MB),QSV
+,,,,,,,,Direct3D,OpenGL,OpenCL,,,
+HD Graphics,2011,Mobile,Celeron B7x0 Celeron 7x7 Celeron 8x7 Celeron B8xx Pentium B9x0 Pentium 9x7,Sandy Bridge,010A,350–1150,6 (GT1),10.1 FL10_1,3.1Windows 3.3macOS[24] 3.3Linux ES 3.0Linux,No,21.3,1720,No
+,,Desktop,Celeron G4x0 Celeron G5x0 Celeron G530T Pentium G6xx Pentium G6x0T Pentium G8x0,,,650–1100,,,,,,,
+HD Graphics 2000,,Desktop,Core i3-2102 Core i3-21x0 Core i3-21x0T Core i5-2xx0 Core i5-2x00S Core i5-2xx0T Core i7-2600 Core i7-2600S,,0102,650–1350,,,,,,,Yes
+,,Workstation,Xeon E3-1260L,,,,,,,,,,
+HD Graphics 3000,,Mobile,Core i3-23x0E Core i3-23xxM Core i5-251xE Core i5-2xxxM Core i7-2xxxQM Core i7-271xQE Core i7-29x0XM,,0116 0126,650–1300,12 (GT2),,,,,,
+,,Desktop,Core i3-21x5 Core i5-2405S Core i5-2500K Core i7-2x00K,,0112 0122,850–1350,,,,,,,
+HD Graphics P3000,,Workstation,Xeon E3-12x5,,,850–1350,,,,,,,

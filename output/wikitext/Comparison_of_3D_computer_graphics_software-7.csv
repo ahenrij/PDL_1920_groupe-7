@@ -1,0 +1,8 @@
+Application,PBR viewport,Viewport effects,Interactive GI Rendering,Integrated Compositing,Text editor for shader writing,Material Nodes,Turntable Rendering
+Maya,,,Arnold,,,"Hypershade, Node Editor, ShaderFX",Yes[16]
+3ds Max,,,Arnold,(State Set),OSL Map[17],"Slate Material Editor, ShaderFX",Easy Turntable script
+MODO,,,,,,Nodal Shading,Render Turntable[18]
+Blender,colspan=2 Eevee (2.80 and later),Cycles,,Text Editor,,Turnaround Camera addon,
+Gaffer,,,external renderers,,OSLCode Node,,
+Marmoset Toolbag,,,,,,Uber PBR shaders only,
+Substance Designer,,YEBIS,NVIDIA Iray,,,MDL graph,

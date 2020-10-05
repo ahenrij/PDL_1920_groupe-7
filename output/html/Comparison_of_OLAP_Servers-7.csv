@@ -1,12 +1,15 @@
-OLAP server,# cubes,# measures,# dimensions,# dimensions in cube,# hierarchies in dimension,# levels in hierarchy,# dimension members
-Apache Kylin,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
-ClickHouse,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
-Druid,Unrestricted[a],Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
-Essbase[35],Unrestricted,Unrestricted,Unrestricted,255,255,?,"20,000,000 (ASO), 1,000,000 (BSO)"
-IBM Cognos TM1,Unrestricted[a],Unrestricted,Unrestricted[a],256,Unrestricted[a],Unrestricted,Unrestricted
-icCube,"2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647"
-Jedox OLAP Server,2 32 {\displaystyle 2^{32}} (32 bits),2 32 {\displaystyle 2^{32}},2 32 {\displaystyle 2^{32}} (32 bits),250,2 32 {\displaystyle 2^{32}},2 32 {\displaystyle 2^{32}},2 32 {\displaystyle 2^{32}}
-Kyvos,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
-Microsoft Analysis Services[36],"2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647 (max. number of dimensions in a database)","2,147,483,647","2,147,483,647","2,147,483,647 (xOLAP) Unrestricted (In-memory)"
-MicroStrategy Intelligence Server,Unrestricted[a],Unrestricted[a],Unrestricted[a],?,Unrestricted[a],Unrestricted[a],Unrestricted[a]
-SAS OLAP Server[37],Unrestricted[a],1024,128,?,128,19,"4,294,967,296"
+OLAP server,Windows,Linux,UNIX,z/OS,AIX
+Apache Kylin,No,Yes,Yes,No,No
+ClickHouse,No,Yes,Yes,No,No
+Druid,No,Yes,Yes,,
+Essbase,Yes,Yes,Yes,No,Yes
+IBM Cognos TM1,Yes,Yes,Yes,No,Yes
+icCube,Yes,Yes,Yes,Yes,Yes
+Jedox OLAP Server,Yes,Yes,Yes,No,
+Kyvos,No,Yes,Yes,No,No
+Microsoft Analysis Services,Yes,No,No,No,
+MicroStrategy Intelligence Server,Yes,Yes,Yes,No,Yes
+Mondrian OLAP server,Yes,Yes,Yes,Yes,
+Oracle Database OLAP Option,Yes,Yes,Yes,Yes,
+SAP NetWeaver BW,Yes,Yes,Yes,Yes,
+SAS OLAP Server,Yes,Yes,Yes,Yes,

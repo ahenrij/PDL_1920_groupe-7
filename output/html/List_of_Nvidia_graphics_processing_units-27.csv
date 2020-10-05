@@ -1,5 +1,15 @@
-Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config[a],Bus interface,L2 Cache(MB),Clock speeds,,,Memory,,,,Fillrate,,Processing power (TFLOPS),,,,Ray-tracing Performance,,,TDP (Watts),NVLink support,Release price (USD),
-,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,Tensor compute (FP16) (2:1 sparse),Rays/s (Billions),RTX OPS/s (Trillions),Ray Perf TFLOPS,,,MSRP,Founders Edition
-GeForce RTX 3070[119],"October 29, 2020[120]",GA104-300-A1,Samsung 8N (10LP++++),17.4,392.5,5888:184:96:184:46 (46) (6),PCIe 4.0 x16,4,1500,1730,14000,8,448.0,GDDR6,256,96.0 110.72,276.0 318.32,17.66 20.37,0.276 0.318,17.66 20.37,141.31 162.98,,,40[121],220,No,,$499
-GeForce RTX 3080[122],"September 17, 2020",GA102-300-K1-A1,,28.3,628.4,8704:272:96:272:68 (68) (6),,5,1440,1710,19000,10,760.0,GDDR6X,320,126.72 150.48,391.68 465.12,25.06 29.76,0.392 0.465,25.06 29.76,200.54 238.14,,,58[121],320,,,$699
-GeForce RTX 3090[123],"September 24, 2020",GA102-300-A1,,28.3,,10496:328:112:328:82 (82) (7),,6,1400,1700,19500,24,935.8,,384,134.4 162.72,459.20 555.96,29.38 35.68,0.459 0.558,29.38 35.68,235.08 285.48,,,69[121],350,2-way NVLink,,$1499
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
+,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
+GeForce 920M,"March 12, 2015",GK208,28,PCIe 3.0 ×16,384:32:8 (2 SMX),954,Unknown,1800,7.6,30.5,2,14.4,DDR3,64,12 (11_0),4.5,1.2,733,33,
+GeForce 930M,,GM108,,,384:24:8 (3 SMM),928,941,,7.4,22.3,,,,,,,,713,29[155],
+GeForce 940M,,,,,,1072,1176,2000,8.6,25.7,,16,,,,,,823,36[156],
+GeForce 940MX[157],"June 28, 2016",GM107,,,512:32:8 (4 SMM),795,861,5000,6.9,27.6,,40,GDDR5,,,,,882,23,
+GeForce GTX 950M,"March 12, 2015",,,,640:40:16 (5 SMM),914,Unknown,,14.6,36.6,"2, 4",80,,128,,,,1170,Unknown,Similar core config to GTX 750 Ti (GM107-400-A2)
+,,,,,,,,2000,,,,32,DDR3,,,,,,55[158],
+GeForce GTX 960M,,,,,,1097,1176,5000,17.5,43.8,,80,GDDR5,,,,,1403,65[159],
+GeForce GTX 965M[160],"January 5, 2015",GM204,,,1024:64:32 (8 SMM),944,Unknown,,30.2,60.4,,,,,12 (12_1),,,1933,60[161],Similar core config to GTX 960 (GM206-300)
+GeForce GTX 970M[162],"October 7, 2014",,,,1280:80:48 (10 SMM),,993,,44.4,73.9,"3, 6",120,,192,,,,2365,75,Similar core config to GTX 960 OEM (GM204)
+GeForce GTX 980M[163],,,,,1536:96:64 (12 SMM),1038,1127,,66.4,99.6,"4, 8",160,,256,,,,3189,100,Similar core config to GTX 970 (GM204-200) with one SMM disabled
+GeForce GTX 980[164],"September 22, 2015",,,,2048:128:64 (16 SMM),1064,Unknown,7010,68.1,136.2,8,224,,,,,,4358,"165, oc to 200",Similar to Desktop GTX 980
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
+,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,

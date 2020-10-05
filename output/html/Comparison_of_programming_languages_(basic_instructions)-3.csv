@@ -1,38 +1,33 @@
-,Single precision,Double precision,Other precision,Processor dependent
-Ada[1],Float,Long_Float,N/A,
-ALGOL 68,real[a],long real[a],"short real, long long real, etc.[d]",
-C,float[b],double,long double[f],
-C++ (STL),,,,
-Objective-C (Cocoa),,,,CGFloat
-C#,float,,N/A,
-Java,,,,
-Go,float32,float64,,
-Rust,f32,f64,,
-Swift,Float Float32,Double Float64,Float80[g],CGFloat
-D,float,double,,real
-Common Lisp,single-float,double-float,"float, short-float, long-float",
-Scheme,,,,
-ISLISP,,,,
-Pascal (Free Pascal),single,double,,real
-Visual Basic,Single,Double,N/A,
-Visual Basic .NET,,,,
-Xojo,,,,
-Python,N/A,float,,
-JavaScript,,Number[7],N/A,
-S-Lang,,,,
-Fortran,REAL(KIND = n)[c],,,
-PHP,,float,,
-Perl,,,,
-Raku,num32,num64,,Num
-Ruby,N/A,Float,N/A,
-Scala,Float,Double,,
-Seed7,N/A,float,,
-Smalltalk,Float,Double,,
-Windows PowerShell,,,,
-OCaml,N/A,float,N/A,
-F#,float32,,,
-Standard ML,N/A,,,real
-Haskell (GHC),Float,Double,,
-Eiffel,REAL_32,REAL_64,,
-COBOL,FLOAT-BINARY-7[e],FLOAT-BINARY-34[e],"FLOAT-SHORT, FLOAT-LONG, FLOAT-EXTENDED",
-Mathematica,N/A,N/A,,Real
+,Integer,Single precision,Double precision,Half and Quadruple precision etc.
+Ada[1],N/A,Complex[b],Complex[b],Complex[b]
+ALGOL 68,N/A,compl,long compl etc.,short compl etc. & long long compl etc.
+C (C99) [9],N/A,float complex,double complex,N/A
+C++ (STL),N/A,std::complex<float>,std::complex<double>,
+C#,N/A,N/A,System.Numerics.Complex (.NET 4.0),
+Java,N/A,N/A,N/A,
+Go,N/A,complex64,complex128,
+D,N/A,cfloat,cdouble,
+Objective-C,N/A,N/A,N/A,
+Common Lisp,(complex integer),(complex single-float),(complex double-float),complex
+Scheme,,,,N/A
+Pascal,N/A,N/A,,
+Visual Basic,N/A,N/A,,
+Visual Basic .NET,N/A,N/A,System.Numerics.Complex (.NET 4.0),
+Perl,,,Math::Complex,
+Raku,,complex64,complex128,Complex
+Python,,,complex,N/A
+JavaScript,N/A,N/A,,
+S-Lang,N/A,N/A,,
+Fortran,,COMPLEX(KIND = n)[a],,
+Ruby,Complex,N/A,Complex,
+Scala,N/A,N/A,N/A,
+Seed7,N/A,N/A,complex,
+Smalltalk,Complex,Complex,Complex,
+Windows PowerShell,N/A,N/A,,
+OCaml,N/A,N/A,Complex.t,
+F#,,,System.Numerics.Complex (.NET 4.0),
+Standard ML,N/A,N/A,N/A,
+Haskell (GHC),N/A,Complex.Complex Float,Complex.Complex Double,
+Eiffel,N/A,N/A,N/A,
+COBOL,N/A,N/A,N/A,
+Mathematica,Complex,N/A,N/A,Complex

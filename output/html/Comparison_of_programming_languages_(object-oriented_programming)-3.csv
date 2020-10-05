@@ -1,21 +1,36 @@
-,read-write,read-only,write-only
-ABAP Objects,N/A,,
-APL (Dyalog),:Property Numbered Default name ? result ? Get instructions ? ? Set arguments instructions ? :EndProperty Bar,:Property Numbered Default Bar ? result ? Get instructions ? :EndProperty Bar,:Property Numbered Default Bar ? Set arguments instructions ? :EndProperty Bar
-C++ (STL),type& operator[](type index) { instructions },type operator[](type index) { instructions },
-C#,type this[type index] { get{ instructions } set{ instructions } },type this[type index] { get{ instructions } },type this[type index] { set{ instructions } }
-D,"type opIndex(type index) { instructions } type opIndexAssign(type value, type index) { instructions }",type opIndex(type index) { instructions },"type opIndexAssign(type value, type index) { instructions }"
-Java,N/A,,
-Objective-C (recent Clang compiler),N/A,- (id)objectAtIndexedSubscript:(NSUInteger)index { instructions return value; } or - (id)objectForKeyedSubscript:(id)index { instructions return value; },- (void)setObject:(id)value atIndexedSubscript:(NSUInteger)index { instructions } or - (void)setObject:(id)value forKeyedSubscript:(id)index { instructions }
-Swift,subscript (index : type) -> returntype { get { instructions } set«(newIndex)» { instructions } },subscript (index : type) -> returntype { instructions },
-Eiffel[35],bracket_name alias "[]" (index: TYPE): TYPE assign set_item do instructions end set_item (value: TYPE; index: TYPE): do instructions end,bracket_name alias "[]" (index: TYPE): TYPE do instructions end,
-Python,"def __getitem__(self, index): Tab ? instructions Tab ? return value def __setitem__(self, index, value): Tab ? instructions","def __getitem__(self, index): Tab ? instructions Tab ? return value","def __setitem__(self, index, value): Tab ? instructions"
-Visual Basic .NET,Default Property Item(Index As type) As type Get instructions End Get Set(ByVal Value As type) instructions End Set End Property,Default ReadOnly Property Item(Index As type) As type Get instructions End Get End Property,Default WriteOnly Property Item(Index As type) As type Set(ByVal Value As type) instructions End Set End Property
-PHP,[37],,
-Perl,[38],,
-Raku,«our «type »»«multi »method postcircumfix:<[ ]> is rw («$self: » type $index) { instructions ... return value; } or «our «type »»«multi »method postcircumfix:<{ }> is rw («$self: » type $key) { instructions ... return value; },«our «type »»«multi »method postcircumfix:<[ ]>(«$self: » type $index) { instructions ... return value; } or «our «type »»«multi »method postcircumfix:<{ }> («$self: » type $key) { instructions ... return value; },N/A
-Ruby,"def [](index) instructions expression resulting in return value end def []=(index, value) instructions end",def [](index) instructions expression resulting in return value end,"def []=(index, value) instructions end"
+,class,protocol,namespace
+ABAP Objects,class name definition «inheriting from parentclass». «interfaces: interfaces.» method_and_field_declarations endclass. class name implementation. method_implementations endclass.,interface name. members endinterface.,N/A
+APL (Dyalog),":Class name «:parentclass» «,interfaces» members :EndClass",:Interface name members :EndInterface,:Namespace name members :EndNamespace
+C++ (STL),class name« : public parentclasses[5]» { members };,,namespace name { members }
+C#,"class name« : «parentclass»«, interfaces»» { members }",interface name« : parentinterfaces» { members },
+D,,,module name; members
+eC,class name« : base class» { «default member values assignments» «members» },,namespace name;
+Java,class name« extends parentclass»« implements interfaces» { members },interface name« extends parentinterfaces» { members },package name; members
+PHP,,,namespace name; members
+Objective-C,@interface name« : parentclass»[6]«< protocols >» { instance_fields } method_and_property_declarations @end @implementation name method_implementations @end[7],@protocol name«< parentprotocols >» members @end,[8]
+Swift,"class name« : «parentclass»«, protocols»» { members }",protocol name« : parentprotocols» { members },
+Python,class name«(parentclasses[5])»: Tab ? members,[9],"__all__ = [ member1,member2,... ]"
+Visual Basic .NET,Class name« Inherits parentclass»« Implements interfaces» members End Class,Interface name« Inherits parentinterfaces» members End Interface,Namespace name members End Namespace
+Xojo,Class name« Inherits parentclass»« Implements interfaces» members End Class,Interface name« Inherits parentinterfaces» members End Interface,Module name members End Module
+Eiffel,class name« inherit parentclasses[5]» members end,N/A,
+Perl,package name; «@ISA = qw(parentclasses[5]);» members 1;,,package name; members
+Raku,class name «is parentclass «is parentclass ...[5]»» «does role «does role ...»» { members },role name «does role «does role ...»» { members },module name { members }
+Ruby,class name« < parentclass» members end,,module name members end
 Windows PowerShell,N/A,,
-OCaml,,,
-F#,member this.Item with get(index) = expression and set index value = expression,member this.Item with get(index) = expression,member this.Item with set index value = expression
-COBOL,N/A,,
-Cobra,pro[index «as type»] as type Tab ? get Tab ?Tab ? instructions Tab ?Tab ? return value Tab ? set Tab ?Tab ? instructions,get[index «as type»] as type Tab ? instructions Tab ? return value,set[index «as type»] as type Tab ? instructions
+OCaml,class name «parameters» = object «(self)» «inherit parentclass «parameters» «inherit parentclass «parameters» ...[5]»» members end,,module name members
+F#,type name«(parameters)» «as this» = class «inherit parentclass«(parameters)» «as base»» members «interface interface with implementation «interface interface with implementation ...»» end,type name = interface members end,namespace name members
+Smalltalk,[10],,[11]
+JavaScript (ES6),class name «extends parentclass» { members },,
+Object Pascal (Delphi),"ClassName = Class «(ClassParent, Interfaces)» private // Private members(include Methods and Fields) public // Public members protected // Protected members published // Published members end;",,package name; members
+Scala,class ConcreteClass(constructor params)
+extends ParentClass
+with Trait1 with Trait2 with Trait2 {
+// members
+},trait TraitName
+extends OtherTrait1
+with OtherTrait2 with OtherTrait3 {
+// members
+},package name
+COBOL,CLASS-ID. name« INHERITS« FROM» parentclasses». FACTORY« IMPLEMENTS interfaces». class-members END FACTORY. OBJECT« IMPLEMENTS interfaces». instance-members END OBJECT. END CLASS name.,INTERFACE-ID. name« INHERITS« FROM» interfaces». members END INTERFACE name.,N/A
+Cobra,class name «inherits parentclass» «implements interfaces» Tab ? members,interface name «inherits parentinterfaces» Tab ? members,namespace name Tab ? members
+ISLISP,(defclass name (base-class) ((x :initform 0 :accessor get-x :initarg x)) (:abstractp nil)),,

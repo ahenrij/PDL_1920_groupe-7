@@ -1,14 +1,13 @@
-,Amazon FPS,Checkout by Amazon,Google Checkout,PayPal Express
-Apache OFBiz,No,Yes,Yes,Yes
-Batavi,No,No,No,No
-Bigcommerce,No,No,No,Yes
-Drupal Commerce,Yes,add-on,Yes,Yes
-Magento,Yes,add-on,Yes,Yes
-nopCommerce,Yes,Yes,Yes,Yes
-osCommerce,No,add-on,No,Yes
-pimcore,No,No,No,No
-PrestaShop,Yes,Yes,Yes,Yes
-Shopify,No,No,Yes,Yes
-WooCommerce,No,Yes,Yes,Yes
-Zen Cart,No,add-on,add-on,Yes
-,Amazon FPS,Checkout by Amazon,Google Checkout,PayPal Express
+,Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS
+Apache OFBiz,No,No,Yes,Yes,Yes,Yes
+Batavi,No,No,No,No,No,No
+Bigcommerce,Yes,Yes,No,Yes,Yes,Yes
+KonaKart,No,No,No,Yes,Yes,Yes
+Magento,No,No,Yes,Yes,Yes,Yes
+nopCommerce,No,No,No,Yes,Yes,Yes
+osCommerce,No,No,No,No,No,No
+PrestaShop,webservice,No,No,Yes,Yes,Yes
+Shopify,No,No,No,No,No,No
+WooCommerce,Yes,Yes,No,No,Yes,No
+Zen Cart,No,No,add-on,add-on,add-on,add-on
+,Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS

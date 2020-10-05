@@ -1,0 +1,37 @@
+Client,Multi-server,UTF-8,Proxy server,irc:// URI scheme,Automatic updates,Scripting language
+Bersirc,,,,,,
+BitchX,,,,,,Enhanced IrcII script
+ChatZilla,,,,,,JavaScript
+Colloquy,,,,,group=NoteFeatures_Colloquy_(IRC_client)_A,"AppleScript, Cocoa, F-Script, JavaScript, Python"
+degesch,,,,,,Lua
+DMDirc,,,,,,"Custom Actions system, Java plugins"
+ERC,,,group=NoteERC_Proxy_Support,,group=NoteERC_Auto_Updates,Emacs Lisp
+HexChat,,,,,,"Perl, Python, Tcl, Luagroup=NoteFeatures_HexChat_A[Note 4][Note 4][./Comparison_of_Internet_Relay_Chat_clients#cite_note-Features_HexChat_A-88 [Note 4]], JavaScript, C, C++, and via D-Bus."
+HydraIRC,,,,,,
+IceChat,,,,,,VBScript
+ircII,,group=NoteFeatures_ircII_A,,,,IrcII script
+IRCjr,,,,,,
+IRCCloud,,,,,,JavaScript
+Ircle,,,,,,AppleScript
+Irssi,,,,,,Perl
+jIRCii,,,,,,Sleep
+KiwiIRC,,,,,,"JavaScript, Node.js"
+Konversation,,,,,,"Shell script, Ruby, Python, Perl, Java, C++, C#, JavaScriptgroup=NoteFeatures_Konversation_A[Note 6][Note 6][./Comparison_of_Internet_Relay_Chat_clients#cite_note-Features_Konversation_A-90 [Note 6]]"
+KVIrc,,,,,,"KVS (custom), Perl, Python, C++"
+LeafChat,,,,,,Java
+LimeChat,,,,,,
+Linkinus,,,,,,"AppleScript, Cocoa"
+Mibbit,,,,,,
+mIRC,,,,,group=NotemIRC_Updates,mIRC script
+Nettalk,,,SOCKS,,,"VBScript, custom"
+Opera,,,,,,
+PIRCH,,,,,,
+PJIRC,,,,,,"Partial, JavaScript"
+Quassel,,,,,,
+qwebirc,,,,,,
+rcirc,,,,,,Emacs Lisp
+Smuxi,,,,,,
+Snak,,,,,,"AppleScript, IrcII script"
+Visual IRC,,,,,,Versus
+WeeChat,,,,,,"C, Perl, Python, Ruby, Lua, Tcl, Scheme (Guile)"
+Client,Multi-server,UTF-8,Proxy server,irc:// URI scheme,Automatic updates,Scripting language

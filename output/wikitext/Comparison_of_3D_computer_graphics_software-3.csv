@@ -1,0 +1,6 @@
+Application,MIPMAP generation,Adaptive Tessellation,Instansing,Camera Culling,Deep Pixel Rendering,Fisheye Stereo for Fulldome,Omnidirectional stereo for HMD,Deforming Motion Blur,GPU Rendering,Texture Streaming (GPU)
+V-Ray,img2tiledexr,,,,,Domemaster Stereo Shader,3.2 and later,,V-Ray GPU (formerly V-Ray RT),
+RenderMan (RIS),txmake,,,,,,,,In development[33],
+Arnold,maketx,,,,,Domemaster Stereo Shader,5 and later,,,
+Houdini Mantra (Path-Tracing mode),icp,,,,,,15.5 and later,,,
+Blender Cycles,,2.78 and later,,Camera Cull,,2.78 and later,2.78 and later,,,2.80 and later[35]

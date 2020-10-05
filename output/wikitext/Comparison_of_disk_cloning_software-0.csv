@@ -1,0 +1,24 @@
+Name,Operating system,User interface,Sector by sectorname="Raw",File by filename="File",Hot transfername="LiveCopy","Mount or extractExtracting is the process of browsing a disk image and retrieving some of the files that it contains, at the user's discretion. Mounting a disk image is the process of making the disk image content available to the user as if he or she is accessing a physical read-only disk.",Operation model,,,License
+,,,,,,,Standalone,Client–server,From a Live OS,
+Acronis True Image[1],Windows,Graphical,name="ATIht","FAT32, NTFSname="ATIH-Linux"",,,,,,Trialwarename="ATItryv"
+Apple Software Restore,macOS,Command-line,,HFS+,,via hdiutil,,,,Part of macOS
+CloneDisk[2],Windows 7,Graphical,,"FAT, FAT32, NTFS, exFAT, UDF",,,,,,Freeware
+Clonezilla[3],Linux,Text-based,,"FAT12, FAT16, FAT32, NTFS, ext2, ext3, ext4, reiserfs, reiser4, xfs, jfs, btrfs, f2fs, NILFS2, HFS+, UFS, minix, VMFS3",,Through a hack[4],,,,GPL
+dcfldd,Linux,Command-line,,,,,,,,GPL
+dd (Unix),Unix,Command-line,,,,name="Loop device",,,name="dd",GPLv3
+Disks (gnome-disk-utility),Linux,Graphical,,,,,,,,Part of Linux
+Disk Utility,macOS,Graphical,,HFS+,,,,,,Part of macOS
+Drive SnapShot[5],Windows,"Graphical, Command-line",,,,,,,,Trialware
+Foxclone[7][8],Linux,Graphical,," ntfs, fat32, ext4, GPT & MSDOS partition tables",,,,,,GPL
+FSArchiver,Linux,Text-based,,"FAT32, btrfs, ext2, ext3, ext4, ReiserFS-4, HPFS, JFS, XFS",,,,,,GPL
+Ghost[9],Windows,"Graphical, Command-line",,"FAT32, NTFS, HPFS, ext2, ext3 [10]",,,,,,Trialware
+GParted Live CD[11],Linux,Graphical,,"ext2, ext3",,,,,,GPL
+HDClone[12],"Windows, (Linux[13])","Graphical, Command-line",," FAT16, FAT32, ExFAT, NTFS, ReFS, ext2, ext3, ext4, XFS, HFS+",,,,,,Freemium
+Image for Windows[14],Windows,Graphical,,"FAT32, NTFS, ext2, ext3",,,,,,Trialware
+IsoBuster[15],Windows,Graphical,,"FAT12, FAT16, FAT32, ExFAT, NTFS, ext2, ext3, ext4, MFS, HFS, HFS+, UDF, XFS[16]",,,,,,Trialware
+Kleo Bare Metal Backup,Independent (Live OS),Graphical,,"FAT32, NTFS, ext2, ext3, HFS+",,,,,,Freeware
+Mondo Rescue[17],Linux,Text-based,,"FAT32, NTFS, ext2, ext3",,,,,name="Mindi-Linux",GPL
+ntfsclone[18][19],Linux,Command-line,,NTFS,,,,,name=compilation,GPL
+partimage[20][21],Linux,Text-based,,"FAT32, ext2, ext3, ReiserFS-3, HPFS, JFS, XFS; UFS (beta), HFS (beta), NTFS (experimental)[22]",,,,,name=compilation,GPL
+Partition-Saving[23],"Windows, Linux, DOS",Text-based Command-line,,"FAT32, NTFS, ext2, ext3",,,,,,Freeware
+Redo Backup and Recovery,Independent (Live OS),Graphical,,"FAT32, NTFS, ext2, ext3, ext4",,,,Can access networked drives,,GPL

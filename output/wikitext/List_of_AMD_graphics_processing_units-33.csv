@@ -1,0 +1,21 @@
+Model: Mobility Radeon,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Processing power (GFLOPS),TDP (Watts)
+,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
+Mobility Radeon HD 530v[17],"May 5, 2010",M92,RV710,55,PCIe x16 2.0,500,600,80:8:4,2,4,1024,9.6,DDR2 DDR3 GDDR3,64,10.1,3.3,80,10
+Mobility Radeon HD 545v[18],,,,,,720,400 800,,2.88,5.76,512 1024,6.4 12.8,,,,,115.2,15
+Mobility Radeon HD 550v[19],,M96,RV730,,,450,600,320:32:8,3.6,14.4,1024,19.2,,128,,,288,10
+Mobility Radeon HD 560v[20],,,,,,550,800,,4.4,17.6,,25.6,,,,,352,15
+Mobility Radeon HD 565v[21],,M96-XT,,,,675,,,5.4,21.6,,25.6,,,,,432,20
+Mobility Radeon HD 5145,"January 7, 2010",M92,RV710,,,720,900,80:8:4,2.88,5.76,,14.4,DDR3 GDDR3,64,,,115.2,15
+Mobility Radeon HD 5165,,M96,RV730,,,600,,320:32:8,4.8,19.2,,28.8,,128,,,384,35
+Mobility Radeon HD 5430,,Park LP,Cedar (RV 810),40,PCIe x16 2.1,500 550,800,80:8:4,2.0 2.2,4.0 4.4,,12.8,,64,11,4.4,80 88,7
+Mobility Radeon HD 5450,,Park PRO,,,,675,,,2.7,5.4,,,,,,,108,11
+Mobility Radeon HD 5470,,Park XT,,,,750,,,3,6,1024 512,12.8 25.6,DDR3 GDDR3 GDDR5,,,,120,13 15
+Mobility Radeon HD 5650,,Madison PRO,Redwood (RV 830),,,450 650,,400:20:8,3.6 5.2,9.0 13.0,1024,25.6,DDR3 GDDR3,128,,,360 520,15 19
+Mobility Radeon HD 5730,,Madison LP,,,,650,,,5.2,13,,,,,,,520,26
+Mobility Radeon HD 5750,,Madison PRO,,,,550,,,4.4,11,,51.2,GDDR5,,,,440,25
+Mobility Radeon HD 5770,,Madison XT,,,PCIe x16 2.0/2.1,650,,,5.2,13,,,,,,,520,30
+Mobility Radeon HD 5830,,Broadway LP,Juniper (RV 840),,PCIe x16 2.1,500,,800:40:16,8,20,,25.6,DDR3 GDDR3,,,,800,24
+Mobility Radeon HD 5850,,Broadway PRO,,,,625 500 625,900 1000,800:40:16,10 8 10,25 20 25,2048 1024,28.8 64 64,,,,,1000 800 1000,31 30 39
+Mobility Radeon HD 5870,,Broadway XT,,,,700,1000,,11.2,28,1024,64,GDDR5,,,,1120,50
+Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS),TDP (Watts)
+,,,,,,,,,Fillrate,,Memory,,,,API compliance (version),,,

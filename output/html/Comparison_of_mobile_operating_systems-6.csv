@@ -1,15 +1,22 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-"Cut, copy, and paste",Yes[93],3+[94],Yes[95],Yes,Yes
-Multi-Device clipboard,No,10+[96],No,No,No
-Undo,No[97],3+[98],No,No[99],Yes
-Custom home and lock screen wallpaper,Yes,4+[60],Yes,Yes (incl. Ambience),Yes
-Desktop sync,"No,[100] but available using the vendor's companion/PC suite application such as Samsung Smart Switch & HTC Sense[101]",Yes,Yes,?,Yes
-Local full backup,"Yes, via external computer[102]","Yes, using external computer or iCloud[103]",No[104],Yes,Yes
-Core data missing sync,"Bookmarks[105] (before 4), SMSs and Settings[106]",,?,?,?
-Notification center,Yes,5+[107],2+[108],Yes,Yes
-Push notifications,Yes[109],Yes (Apple Push Notification Service),2+[110],Yes,Yes
-Screenshot,"4+ also available on earlier versions with customized firmware, such as Cyanogen Mod and on older Samsung Galaxy smartphones[111]",Yes[60][112],Yes,2.0.2+[113],Yes
-iCalendar import,"No,[114] but 3rd party app available[115]",Yes[116],?,1.1.6+[117],No
-Text/document support (read only; creating using third party apps),"Microsoft Office, PDF, TXT/RTF","Microsoft Office,[118][119][120] iWork, PDF, Images, TXT/RTF, VCF","Read only: text files, PDF, HTML, Multiple office formats","Microsoft Office, OpenDocument, PDF, Text",Yes
-Printer support,4.4+ using Google Cloud Print[121] but not over USB unless proprietary vendor solutions such as HP Print Service are used[122],Yes (AirPrint)[123],No,"yes, cups package is available",Beta
-Show remembered Wi-Fi connections,Yes,"No, 3rd party software on jailbroken devices[124]",?,Yes,Yes
+While-in-use permissions,10+,11+: Location only[32],No,No,Yes
+Per-app Internet access,"No,[33] 3rd party software[34]",7+: Cellular only;[35] 3rd party software on jailbroken devices[36],No,No,No
+Per-app identity access,8+[37],6+[38][39],No,No,Yes
+Per-app user data access,6+[40],6+[41],No,No,Yes
+Per-app background execution,"No,[42] 3rd party apps available[43]",7+[44],No,No,Background execution not allowed
+Per-app notifications,4.1+[45],5+[46][47],No,No,Yes
+Per-app location access,6+[40],4+[48],No,No,Yes
+Per-app camera access,6+[40],8+[49],No,No,Yes
+Per-app microphone access,6+[40],7+[50],No,No,Yes
+Per-app shared files access,6+[40],8+[51],No,No,Yes
+Per-app network data usage auditing,4+[52],Yes[53],?,No[54],No
+Fine grained storage usage,Yes[55],5+[56],?,No,Yes
+Parental controls,4.3+ or 3rd party software[57],Yes[58],?,No,No
+Screen orientation lock,Yes[59],Yes[60],?,1.0.4+[61],Yes
+File manager,6.0+[62],11+[63],3rd party software[64],Yes[65],Yes
+File manager write access to external storage,6+ Or 3rd party software like LineageOS,13+,Yes,Yes,Yes
+Multi-user,"4.2+, including phones 5+[66][67]",9.3+: Education use only on iPad[68],No,No,No
+Guest mode,5+[69],6+[70],No,No,No
+Guided Access,No,Yes[71],No,No,No
+Do not disturb mode,5+[72],6+[73],No,No,No
+App groups,Yes,4+[74],?,1.0.7+[75],Yes

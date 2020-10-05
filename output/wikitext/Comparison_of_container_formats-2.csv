@@ -1,0 +1,20 @@
+Format,Type,"3GP, 3G2",ASF<wbr/>[27],"AVI<wbr/>name="Subtitles in AVI"AVI is not designed to embed subtitles, requiring changes to the format and third party tools such as DirectVobSub[69] and VLC.",DMF,EVO,FLV,F4V,MKV<wbr/>[70],"PS, TS<wbr/>[33]",M2TS,MP4,"MXF<wbr/>name="Subtitles in MXF"SMPTE standardized the format for text subtitles in MXF[71][72][73] without a reference software implementation, leaving it to independent developers.[74]",Ogg<wbr/>name="Supported codecs in Ogg",QTFF<wbr/>[37],RMVB,VOB,WebM<wbr/>[24]
+VobSub,Picture,,,Needs alterations,,,,,"Mature<wbr/>name="Matroska supported draft"DVB-SUB, PGS and VobSub are well supported by common tools such as MKVToolNix and VLC. The storage format is specified,[46] but the specification is not officially approved yet.",,As PGS<wbr/>name="Supported by third party tool BDSup2Sub"Requires tools that are not officially related to the container format.[75],,,,Not standard,,,
+DVB-SUB<wbr/>[76],Picture,,,,,,,,Mature<wbr/>name="Matroska supported draft",,,,,,,,,
+PGSPresentation Graphic Stream<wbr/>name="HDMV subtitles"HDMV PGS and TextST subtitles are used on HD DVD and Blu-ray.,Picture,,,,,HD DVD,,,Mature<wbr/>name="Matroska supported draft",,Blu-ray,As VobSub<wbr/>name="Supported by third party tool BDSup2Sub",,,,,As VobSub<wbr/>name="Supported by third party tool BDSup2Sub",
+XSUB,Picture,,,Needs alterations<wbr/>[78][79],,,,,,,,,,,,,,
+Ogg Kate[80],Picture or formatted text,,,,,,,,,,,,,,,,,
+SMIL,XML,,,,,,,,,,,,,,QuickTime SMIL,RealText,,
+USF,XML,,,Needs alterations,,,,,,,,,,,,,,
+"TTXT<wbr/>TTXT is often called MPEG-4 Timed Text (MP4TT, MP4-TT) or 3GPP Timed Text (3GPP-TT, tx3g).",XML,,,,,,,,MPEG-4 Timed Text subtitles aren't supported in Matroska according to developer of MKVToolNix.[81],,,,,,,,,
+SAMI,HTML,,,Needs alterations,,,,,,,,,As SMPTE-TT,,,,,
+"SubRip<wbr/>SubRip can be converted losslessly to and from native subtitle formats of several containers, and this conversion is supported by many common tools.",Formatted text,As TTXT<wbr/>[82],As SAMI<wbr/>name="Supported by third party tool ccConvert"Requires tools that are not officially related to the container format.[74],Needs alterations<wbr/>[64],,,,As TTXT<wbr/>[82],,,,As TTXT<wbr/>[82],As SMPTE-TT,As Ogg Kate<wbr/>[84],As TTXT<wbr/>[82],,,As WebVTT
+WebVTT,Formatted text,As TTXT<wbr/>[82],,,,,Using ActionScript<wbr/>Loading subtitles with ActionScript[85] may be restricted to the official Adobe Flash Player.,As TTXT<wbr/>[82],,,,,As SMPTE-TT,,As TTXT<wbr/>[82],,,
+"ASS, SSA",Formatted text,,,Needs alterations<wbr/>[64],,,,,,,,,As SMPTE-TT,,,,,
+TextST<wbr/>name="HDMV subtitles",Text stream,,,,,,,,,,,,,,,,,
+SMPTE-TT<wbr/>[72],Text stream,,,,,,,,,,,,,,,,,
+Ogg Writ[89],Text stream,,,,,,,,,,,,,"name="Ogg Writ"Ogg Writ is well supported in common tools such as OGMtools[62] and VLC, but there's no intention to turn its draft into a fully supported specification. Xiph recommends using Kate for subtitles.[90]",,,,
+MicroDVD,Plain text,,,Needs alterations,,,,,,,,,,As Ogg Writ<wbr/>name="Ogg Writ",,,,
+Others,Other,,,,,,,,"Generic bitmap images, generic plain text<wbr/>[46]",CEA-708,,BIFS,EBU-TT<wbr/>[91],,EIA-608,,,
+Obsolete,Other,,,,,,,,,,,,,CMML,,,,
+Format,Type,"3GP, 3G2",ASF<wbr/>[27],AVI<wbr/>name="Subtitles in AVI",DMF,EVO,FLV,F4V,MKV<wbr/>[70],"PS, TS<wbr/>[33]",M2TS,MP4,MXF<wbr/>name="Subtitles in MXF",Ogg<wbr/>name="Supported codecs in Ogg",QTFF<wbr/>[37],RMVB,VOB,WebM<wbr/>[24]

@@ -1,24 +1,25 @@
-Audio player,Audio,,
-,CD,DVD-Audio,HDCD
-AIMP,Yes,No,No
-Amarok,Partial,No,No
-aTunes,No,No,No
-Audacious,Yes,No,No
-Audion,Yes,No,No
-cmus,No,No,No
-Cog,No,No,No
-foobar2000,Yes,Yes (plugin)[opticalmedianotes 1],Yes (plugin)[opticalmedianotes 2]
-JuK,Yes[opticalmedianotes 3],No,No
-JRiver Media Center,Yes,Yes[opticalmedianotes 4],Yes
-MediaMonkey,Yes,No,No
-MusicBee,Yes,Yes,Yes
-Musicmatch Jukebox,Yes,No,No
-musikCube,Yes,No,No
-Rhapsody,Yes,No,No
-Rhythmbox,Yes,No,No
-Sonique,Yes,No,No
-Winamp,Yes,No,No
-XMMS,Yes,No,No
-Zinf,Yes,No,No
-Audio player,CD,DVD-Audio,HDCD
-,Audio,,
+Audio player,ID3v1,ID3v2,APEv2 tag,Vorbis comment,Cue sheet,CD-Text,WAVE chunks
+AIMP,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Amarok,Yes[metadatanotes 1],Yes[metadatanotes 1][metadatanotes 2],Yes[metadatanotes 1],Yes,Yes[metadatanotes 3],?,Yes
+Audacious,Yes,Yes,Yes,Yes,Yes,Yes,?
+Audion,Yes,Yes,No,No,?,?,?
+cmus,Yes,Yes,Yes,Yes,Yes,No,?
+Cog,Yes,Yes,Yes,Yes,Yes,?,?
+foobar2000,Yes,Yes,Yes,Yes,Yes,Yes[metadatanotes 4],Yes
+iTunes,Yes,Yes,Yes,?,?,?,?
+JRiver Media Center,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+JuK,Yes[metadatanotes 1],Yes[metadatanotes 1],Yes[metadatanotes 1],Yes[metadatanotes 1],?,?,?
+MediaMonkey,Yes,Yes,Yes,Yes,?,Yes,?
+Mixxx,Yes,Yes,Yes,Yes,No,No,Yes
+MPXPLAY,Yes,Yes,Yes,Yes,?,?,?
+MusicBee,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Musicmatch Jukebox,Yes,Yes,No,?,?,Yes,?
+musikCube,Yes,Yes,Yes,?,?,?,?
+Quod Libet,Yes,Yes,Yes,Yes,No,No,Yes
+Rhapsody,Yes,Yes,No,No,?,?,?
+Rhythmbox,Yes,Yes,Yes,Yes,?,?,?
+Sayonara Player,Yes,Yes,?,Yes,?,?,?
+Sonique,Yes,No,?,?,?,?,?
+XMMS,Yes,Yes,No,Yes,?,?,?
+Zinf,Yes,Yes,No,Yes,?,?,?
+Audio player,ID3v1,ID3v2,APEv2 tag,Vorbis comment,Cue sheet,CD-Text,WAVE chunks
