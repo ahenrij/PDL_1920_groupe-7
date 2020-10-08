@@ -1,0 +1,14 @@
+Assembler,Developer,FOSS,License,Instruction set,Host platform
+IBM 1410/7010 OS Autocoder,IBM,,IBM 1410 IBM 7010,IBM 1410/7010 Operating System,
+7070/7074 Autocoder,IBM,,IBM 7070/7072/7074,-,7080 Autocoder III
+Symbolic Coding and Assembly Technique (SCAT),Share,,IBM 709 7090/7094/7094 II,SHARE Operating System (SOS),
+FORTRAN II Assembly Program (FAP),IBM,,IBM 709 7090/7094/7094 II,IBM 7090/94 IBSYS,
+Macro Assembly Program (MAP),IBM,,IBM 709 IBM 7040/7044 7090/7094/7094 II,IBM IBSYS/IBJOB,
+BAL,,,,IBM System/360,IBM BPS/360
+HLASM,,,,z/Architecture,numerous
+IBM Assembler D,,,,IBM System/360,IBM DOS/360
+IBM Assembler E,,,,IBM System/360,IBM OS/360
+IBM Assembler F,,,,IBM System/360,IBM OS/360 and CP-67/CMS
+IBM Assembler H,,,,IBM System/360 and System/370,IBM OS/360 and successors
+IBM Assembler XF,,,,IBM System/370,numerous
+PL360,,,,IBM System/360,IBM OS/360

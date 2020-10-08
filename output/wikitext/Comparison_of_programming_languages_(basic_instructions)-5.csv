@@ -1,0 +1,42 @@
+! calling a function,basic/void function,value-returning function,required main function
+Ada[1],foo «(parameters)»,procedure foo «(parameters)» is begin statements end foo,function foo «(parameters)» return type is begin statements end foo
+ALGOL 68,foo«(parameters)»;,proc foo = «(parameters)» void: ( instructions );,proc foo = «(parameters)» rettype: ( instructions ...; retvalue );
+APL,«parameters» foo parameters,foo?{ statements },foo?{ statements }
+C (C99),foo(«parameters»),void foo(«parameters») { instructions },type foo(«parameters») { instructions ... return value; }
+Objective-C,,,
+C++ (STL),,,
+Java,,,
+D,,,
+C#,,"Same as above; alternatively, if only one statement: void foo(«parameters») => statement;","Same as above; alternatively, if simple enough to be an expression: void foo(«parameters») => expression;"
+JavaScript,,"function foo(«parameters») { instructions } or var foo = function («parameters») {instructions } or var foo = new Function («"parameter", ... ,"last parameter"» "instructions");",function foo(«parameters») { instructions ... return value; }
+Go,,func foo(«parameters») { instructions },func foo(«parameters») type { instructions ... return value }
+Swift,,func foo(«parameters») { instructions },func foo(«parameters») -> type { instructions ... return value }
+Common Lisp,(foo «parameters»),(defun foo («parameters»)<dl><dd>instructions)</dd></dl> or (setf (symbol-function 'symbol)<dl><dd>function)</dd></dl>,(defun foo («parameters»)<dl><dd>...</dd><dd>value)</dd></dl>
+Scheme,,(define (foo parameters) instructions) or (define foo (lambda (parameters) instructions)),(define (foo parameters) instructions... return_value) or (define foo (lambda (parameters) instructions... return_value))
+ISLISP,,(defun foo («parameters»)<dl><dd>instructions)</dd></dl>,(defun foo («parameters»)<dl><dd>...</dd><dd>value)</dd></dl>
+Pascal,foo«(parameters)»,procedure foo«(parameters)»; «forward;»forward declaration[a] «label<dl><dd>label declarations»</dd></dl> «const<dl><dd>constant declarations»</dd></dl> «type<dl><dd>type declarations»</dd></dl> «var<dl><dd>variable declarations»</dd></dl> «local function declarations» begin<dl><dd>instructions</dd></dl>end;,function foo«(parameters)»: type; «forward;»forward declaration[a] «label<dl><dd>label declarations»</dd></dl> «const<dl><dd>constant declarations»</dd></dl> «type<dl><dd>type declarations»</dd></dl> «var<dl><dd>variable declarations»</dd></dl> «local function declarations» begin<dl><dd> instructions; foo := value</dd></dl>end;
+Visual Basic,Foo(«parameters»),Sub Foo«(parameters)»<dl><dd> instructions </dd></dl> End Sub,Function Foo«(parameters)»« As type»<dl><dd>instructions Foo = value</dd></dl>End Function
+Visual Basic .NET,,,"Same as above; alternatively: Function Foo«(parameters)»« As type»<dl><dd>instructions Return value</dd></dl>End Function The As clause is not required if Option Strict is off. A type character may be used instead of the As clause. If control exits the function without a return value having been explicitly specified, the function returns the default value for the return type."
+Xojo,,,
+Python,foo(«parameters»),def foo(«parameters»): Tab instructions,def foo(«parameters»): Tab instructions Tab return value
+S-Lang,foo(«parameters» «;qualifiers»),define foo («parameters») { instructions },define foo («parameters») { instructions ... return value; }
+Fortran,foo («arguments») CALL sub_foo («arguments»)Fortran arguments[c],SUBROUTINE sub_foo («arguments») <dl><dd> instructions </dd></dl> END SUBROUTINEFortran arguments[c],type FUNCTION foo («arguments») <dl><dd> instructions ... foo = value </dd></dl> END FUNCTIONFortran arguments[c]
+Forth,«parameters» FOO,: FOO « stack effect comment: ( before -- ) » <dl><dd> instructions </dd></dl> ;,: FOO « stack effect comment: ( before -- after ) » <dl><dd> instructions </dd></dl> ;
+PHP,foo(«parameters»),function foo(«parameters») { instructions },function foo(«parameters») { instructions ... return value; }
+Perl,foo(«parameters») or &foo«(parameters)»,sub foo { «my (parameters) = @_;» instructions },sub foo { «my (parameters) = @_;» instructions... «return» value; }
+Raku,foo(«parameters») or &foo«(parameters)»,«multi »sub foo(parameters) { instructions },«our «type» »«multi »sub foo(parameters) { instructions... «return» value; }
+Ruby,foo«(parameters)»,def foo«(parameters)» <dl><dd>instructions </dd></dl> end,def foo«(parameters)» <dl><dd>instructions «return» value </dd></dl> end
+Rust,foo(«parameters»),fn foo(«parameters») { instructions },fn foo(«parameters») -> type { instructions }
+Scala,foo«(parameters)»,def foo«(parameters)»«: Unit =» { instructions },def foo«(parameters)»«: type» = { instructions ... «return» value }
+Windows PowerShell,foo «parameters»,function foo { instructions }; or function foo { «param(parameters)» instructions },function foo «(parameters)» { instructions … return value }; or function foo { «param(parameters)» instructions … return value }
+Bash shell,foo «parameters»,<poem>function foo { 4instructions  or foo () { 4instructions </poem>,<poem>function foo { 4instructions 4return «exit_code»  or foo () { 4instructions 4return «exit_code» </poem>
+,,"parameters $n ($1, $2, $3, ...) $@ (all parameters) $# (the number of parameters) $0 (this function name)",
+OCaml,foo parameters,let «rec» foo parameters = instructions,let «rec» foo parameters = instructions... return_value
+F#,,,
+Standard ML,,fun foo parameters = ( instructions ),fun foo parameters = ( instructions... return_value )
+Haskell,,foo parameters = do Tab instructions,foo parameters = return_value or foo parameters = do Tab instructions Tab return value
+Eiffel,foo («parameters»),foo («parameters») <dl><dd>require <dl><dd>preconditions</dd></dl> do <dl><dd>instructions</dd></dl> ensure <dl><dd>postconditions</dd></dl> end</dd></dl>,foo («parameters»): type <dl><dd>require <dl><dd>preconditions</dd></dl> do <dl><dd>instructions</dd><dd>Result := value</dd></dl> ensure <dl><dd>postconditions</dd></dl> end</dd></dl>
+CoffeeScript,foo(),foo = ->,foo = -> value
+,foo parameters,foo = () ->,foo = ( parameters ) -> value
+COBOL,CALL "foo" «USING parameters» <dl><dd> «exception-handling» </dd></dl> «END-CALL»COBOL calling programs[d],«IDENTIFICATION DIVISION.» PROGRAM-ID. foo. «other divisions...» PROCEDURE DIVISION «USING parameters». <dl><dd> instructions.</dd></dl>,«IDENTIFICATION DIVISION.» PROGRAM-ID/FUNCTION-ID. foo. «other divisions...» DATA DIVISION. «other sections...» LINKAGE SECTION. «parameter definitions...» variable-to-return definition «other sections...» PROCEDURE DIVISION «USING parameters» RETURNING variable-to-return. <dl><dd> instructions.</dd></dl>
+,«FUNCTION» foo«(«parameters»)»,,

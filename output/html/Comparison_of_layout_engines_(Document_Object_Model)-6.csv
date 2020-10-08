@@ -1,0 +1,27 @@
+,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+Interface NodeIterator,,,,,,,
+DOM2,root,No,?,1.9.1,?,?,1.0
+,whatToShow,,?,,?,?,
+,filter,,?,,?,?,
+,expandEntityReferences,,?,,?,?,
+,nextNode(),Yes,?,,?,?,2.0
+,previousNode(),,?,,?,?,
+,detach(),No,?,,?,?,1.0
+Interface NodeFilter,,,,,,,
+DOM2,acceptNode(),No,?,1.0,?,?,1.0
+Interface TreeWalker,,,,,,,
+DOM2,root,No,?,1.0,?,?,1.0
+,whatToShow,,?,,?,?,
+,filter,,?,,?,?,
+,expandEntityReferences,,?,,?,?,
+,currentNode,,?,,?,?,
+,parentNode(),,?,,?,?,
+,firstChild(),,?,,?,?,
+,lastChild(),,?,,?,?,
+,previousSibling(),,?,,?,?,
+,nextSibling(),,?,,?,?,
+,previousNode(),,?,,?,?,
+,nextNode(),,?,,?,?,
+Interface DocumentTraversal,,,,,,,
+DOM2,createNodeIterator(),No,?,1.9.1,?,?,1.0
+,createTreeWalker(),,?,1.0,?,?,

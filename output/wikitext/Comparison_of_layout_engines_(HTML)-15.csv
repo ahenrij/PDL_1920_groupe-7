@@ -1,0 +1,18 @@
+,Trident,EdgeHTML,Gecko,WebKit,Presto
+main element[219],,12,21.0[220],,
+template element[222],,13,,,
+Selectors API[224],4.0[225],12,1.9.1[226],525[227],2.2[228]
+Web Storage[229],4.0,12,1.9.1[230],525,2.5[231]
+Indexed Database API[232],5.0[233],12,16.0[234],Partial,
+Web SQL Database (obsolete)[235],,,,,2.5[231]
+File API[238],5.0,12,,,2.8[242]
+File API: Writer[243],5.0,,,Partial[245],rowspan="2" 
+File API: Directories and System[246],rowspan="3" ,rowspan="3" ,,,
+Media Capture API[249],2.01=Currently partially supported in nightly builds for the Linux platform.[250],,2.10[251],,
+Server-sent events[252],6.0[253],,2.7[255][256],,
+WebSocket[257],6.0[258],12,11.0[259],533,2.111=WebSocket support was added in Presto 2.7[260] but was disabled due to security reasons.[261] In Presto 2.11 protocol implementation was updated to version RFC 6455[262] which resolved security issue.
+Web Workers[263][264],6.0[265],12,1.9.1[266],,2.6[68][69]
+Geolocation API[267],5.0[268],12,1.9.1[269],533[270],"2.61=Geolocation support was added in Presto 2.5, but was not enabled by default until 2.6.[271][272][68][69]"
+Offline Web applications[273],6.0[274],12,1.9.1[275],,2.6[68][69]
+Web Notifications[276],,,22.0[277][278], only in Chrome[279],25[280]
+! Trident,EdgeHTML,Gecko,WebKit,Presto,

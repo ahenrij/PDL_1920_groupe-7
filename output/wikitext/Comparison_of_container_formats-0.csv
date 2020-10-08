@@ -1,0 +1,22 @@
+Format,File extension,Owner or creator,License,Variable bit rate audio,Variable frame rate,Chapters,Metadata / tags,Interactive menus,Streaming,"Attachments<wbr/>Attachments are additional files, such as fonts for subtitles.",3D<wbr/>[1],Hardware players
+3GPP (3GP),.3gp,3GPP,Patent encumbered,,,,,,,,,
+3GPP2 (3G2),.3g2,3GPP2,Patent encumbered,,,,,,,,,
+Advanced Systems Format (ASF),".asf, .wmv",Microsoft,"Proprietary, patent encumbered",,,,,,,,,
+Audio Video Interleave (AVI),.avi,Microsoft,,"ACM cannot handle VBR audio streams in AVI files. Thus, software using ACM to read audio from AVI files will not be able to handle VBR audio streams correctly, even though such files are compliant to the AVI file specification. This is a limitation of the ACM, not of the AVI file format.","Although AVI is not designed for variable framerates, it is possible to use them without creating a non-standard file by using 0-byte chunks for skipped frames. However it requires framerate to be set to Least common multiple of all framerates used, and produces slight overhead compared to true VFR.",Needs alterations,,,,,,
+DivX Media Format (DMF),.divx,"DivX, Inc.",,,,,,,,,,
+Enhanced VOB (EVO),.evo,DVD Forum,Patent encumbered,,,,,,,,,
+Flash Video F4V,.f4v,Adobe Inc.,Patent encumbered,,,,,,,,,
+Flash Video FLV,.flv,Adobe Inc.,Patent encumbered,,,,,,,,,
+Matroska Multimedia Container,".mkv, .mk3d","CoreCodec, Inc.Although CoreCodec holds the copyrights and trademarks for the Matroska specification, the specifications are open to everybody. The source code of the libraries developed by the Matroska team is licensed under the LGPL and BSD licenses.",Freely licensedAnyone can use it or modify it for their own needs without paying any license or patents.[4][5],name="Matroska VBR/VFR"Matroska is designed to store VBR and VFR content.[6],name="Matroska VBR/VFR",,,,"Matroska can be streamed over HTTP and RTP/RTSP, through it is not meant to be streamed over RTP, as the two have duplicate features. Matroska live streams are different from the files and some features of the file format are not supported in live streams.[10]",,,"Companies producing Matroska-supporting hardware include Asus,[13] OPPO Digital,[14] Panasonic,[15] and LG[16]"
+MPEG-4 Part 14 (MP4),.mp4,MPEG,Patent encumbered,,,"In specially formatted text track (QuickTime); 2) In userdata atom (started by Nero Digital) can't interact with the sceneDescription, or via segmentDescriptor",,,,,Only at video format level,
+MPEG-1 Video File,".mpg, .mpeg",MPEG,Patent encumbered,,,,,,,,,
+MPEG program stream (PS),".m2p, .ps",MPEG,Patent encumbered,,,Only in private streams — used in VOB files on DVDs,,Only in private streams — used in VOB files on DVDs,,,,
+MPEG transport stream (TS),.ts,MPEG,Patent encumbered,,,,,,,,,
+BDAV MPEG-2 transport stream (M2TS),.m2ts,BDA,,,,,,,,,"Needs multiple filesBlu-ray 3D adopts a specific file structure to encode stereoscopic video, the MVC stereoscopic data is not in the .m2ts file.",
+Material Exchange Format (MXF),.mxf,SMPTE,"Open standard, patent-free[17]",,,,,,,,,
+Ogg,".ogg, .ogv, .ogx",Xiph.Org Foundation,"BSD-style license, patent-free",,,,"CMML, Ogg Skeleton, Vorbis comment[19]",,,,,
+QuickTime File Format (QTFF),".mov, .qt",Apple Inc.,,,,,,,,,Not standard,
+RealMedia Variable Bitrate (RMVB),.rmvb,RealNetworks,,,,,,,,,,
+Video Object (VOB),.vob,DVD Forum,,,,Needs multiple filesname="VOB and IFO"VOB adopts a specific file structure to encode DVD content. Chapters and menus require a companion .ifo file.,,Needs multiple filesname="VOB and IFO",,,,
+WebM,.webm,Google,"CC BY 3.0 for specs,[21] BSD-like[22] royalty-free[23] for tools",,,,,,With MPEG-DASH[25],,Some stereo modes[24] of VP8[26],
+Format,File extension,Owner or creator,License,Variable bit rate audio,Variable frame rate,Chapters,Metadata / tags,Interactive menus,Streaming,Attachments<wbr/>name="Attachments",3D<wbr/>[1],Hardware players

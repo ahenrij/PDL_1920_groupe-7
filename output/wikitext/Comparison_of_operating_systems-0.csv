@@ -1,0 +1,32 @@
+Name,Resource access control,Subsystem isolation mechanisms,Integrated firewall,Encrypted file systems,No execute (NX) page flag,,Manufacturer acknowledged unpatched vulnerabilities (by severity)[33],,,,,
+,,,,,,Secunia,,,,,Security- Focus,
+,,,,,Hard- ware,Emula- tion,Extremely critical (number / oldest),Highly critical (number / oldest),Moderately critical (number / oldest),Less critical (number / oldest),Not critical (number / oldest),Total (number / oldest)
+AIX 7.1,"POSIX, ACLs, MAC, Trusted AIX - MLS, RBAC",chroot,"IPFilter, IPsec VPNs, basic IDS",,,,colspan="5" ,0,,,,
+FreeBSD 10.1,"POSIX, ACLs, MAC","chroot, Jails, MAC partitions, multilevel security, Biba Model, BSD file flags set using chflags, Capsicum Capability-based security","IPFW2, IPFilter, PF, IPsec",,,,0,0,0,0,0, >0
+GhostBSD 3.1,"POSIX, ACLs, MAC","chroot, jail, MAC partitions, BSD file flags set using chflags","IPFW2, IPFilter, PF",,,,0,0,0,0,0, >0
+Genode,"Hierarchal,[36] least privilege",capability-based security,Virtual switch and NAPT controls in user-space,,kernel dependent,,colspan="6" ,,,,,
+HP-UX 11.31,"POSIX, ACLs",chroot,IPFilter,,,,0,0, 3 2004630br=yes, 2 20021212br=yes,0, >0
+Inferno,POSIX,"Namespaces,[37] capability-based security, no superuser or setuid bit",,,,,colspan="5" , >0,,,,
+Linux-based 2.6.39,"POSIX, ACLs,[38] MAC","chroot,[39] seccomp, Namespaces, SELinux, AppArmor","Netfilter, varied by distribution",,,,0,0,0, 6 2004624br=yes, 11 2005404br=yes, >0
+Mac OS 9.2.2,,,,,,,0,0,0,0,0, >0
+OS X 10.10.5,"POSIX, ACLs[40]","chroot, BSD file flags set using chflags",ipfw,,",,0,0, 1 20090414br=yes, 2 20070108br=yes, 5 20061122br=yes, >0
+NetBSD 6.1.2,"POSIX, Veriexec, PaX, kauth","chroot, kauth, BSD file flags set using chflags","IPFilter, NPF, PF",,,,colspan="5" , >0,,,,
+NetWare 6.5 SP8,Directory-enabled ACLs,Protected address spaces,IPFLT.NLM,,,,0,0, 1 20100831br=yes, 2 20031030br=yes,0,0
+OES-Linux,Directory-enabled ACLs,chroot,IPFilter,,,,colspan="5" , >0,,,,
+OpenBSD 4.8,POSIX,"chroot, systrace, BSD file flags set using chflags",PF,,,,colspan="5" ,>0,,,,
+OpenVMS 8.4,"ACLs, privileges",logical name tables,,,,,0,0,0,0,0, Unknown
+"OS/2, eComStation, ArcaOS",ACLs[41],,IPFilter,,,,0,0,0,0,0,0
+TrueOS 8.1,"POSIX, ACLs, MAC","chroot, jail, MAC partitions","IPFW2, IPFilter, PF",,,,0,0,0,0,0, >0
+Plan 9,POSIX ?,"Namespaces,[37] capability-based security, no superuser or setuid bit",ipmux,,,,colspan="5" , >0,,,,
+QNX 6.5.0,POSIX,,"PF, from NetBSD",,,,0,0,0, 5 20021120br=yes, 1 20021107br=yes, Unknown
+RISC OS,,,IPFilter,,,,colspan="6" ,,,,,
+Solaris 10,"POSIX, RBAC, ACLs, least privilege, Trusted Extensions","chroot, Containers,[43] Logical Domains",IPFilter,,,,0, 2 20071031br=yes, 5 20071023br=yes, 3 20090910br=yes, 2 20061106br=yes, >0
+OpenSolaris 2009.06,"POSIX, RBAC, ACLs, least privilege, Trusted Extensions","chroot, Containers,[43] Logical Domains",IPFilter,,,,0,0,0,0,0, >0
+Windows Server 2012,"ACLs, privileges, RBAC","Win32 WindowStation, desktop, job objects",Windows Firewall,,,,0,0,0,0,0,[Unknown]
+Windows 8.1,"ACLs, privileges, RBAC","Win32 WindowStation, desktop, job objects",Windows Firewall,,,,0,0,0,0,1 20140530br=yes,[Unknown]
+ZETA,POSIX[45],,,,,,colspan="6" ,,,,,
+"STOP 6, XTS-400[46]","POSIX, multilevel security, Biba Model mandatory integrity, ACLs, privileges, subtype mechanism","Multilevel security, Biba Model, subtype mechanism",,,,,colspan="6" ,,,,,
+z/OS 1.11,RACF,"RACF, low storage protection, page protection, storage protect key, execution key, subspace group facility, APF, ACR (alternate CPU recovery), more",z/OS IPSecurity,Optional,"Yes (storage protect key, execution key, APF, more)",Yes,0,0,0,0,0, Unknown
+Name,Resource access control,Subsystem isolation mechanisms,Integrated firewall,Encrypted file systems,Hard- ware,Emula- tion,Extremely critical (number / oldest),Highly critical (number / oldest),Moderately critical (number / oldest),Less critical (number / oldest),Not critical (number / oldest),Total (number / oldest)
+,,,,,No execute (NX) page flag,,Secunia,,,,,Security- Focus
+,,,,,,Known unpatched vulnerabilities (severity is accounted for)[33],,,,,,

@@ -1,0 +1,21 @@
+Name,Lexer algorithm,Output languages,"Grammar, code",Development platform,License
+Alex,DFA,Haskell,Mixed,All,"
+AnnoFlex,DFA,Java,Mixed,Java virtual machine,"
+Astir,"DFA table driven, with branching",C++,Only grammar (actioned),All,"
+AustenX,DFA,Java,Separate,All,"
+C# Flex,DFA,C#,Mixed,.NET CLR,"
+C# Lex,DFA,C#,Mixed,.NET CLR,?
+CookCC,DFA,Java,Mixed,Java virtual machine,"
+Dolphin,DFA,C++,Separate,All,
+Flex,DFA table driven,"C, C++",Mixed,All,"
+gelex,DFA,Eiffel,Mixed,Eiffel,"
+golex,DFA,Go,Mixed,Go,"
+gplex,DFA,C#,Mixed,.NET CLR,"
+JFlex,DFA,Java,Mixed,Java virtual machine,"
+JLex,DFA,Java,Mixed,Java virtual machine,"
+lex,DFA,C,Mixed,POSIX,"
+lexertl,DFA,C++,?,All,"
+Quex,DFA direct code,"C, C++",Mixed,All,"
+Ragel,DFA,"C, C++, assembly",Mixed,All,"
+RE/flex,"DFA direct code, DFA table driven, and NFA regex libraries",C++,Mixed,All,"
+re2c,DFA direct code,C,Mixed,All,"

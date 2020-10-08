@@ -1,0 +1,10 @@
+Kernel,Acorn ADFS,Amiga FFS,BeFS,BFS,cramfs,EFS,ext2,ext3,ext4,F2FS,FAT,FreeVxFS,HFS,HFS+,HPFS,ISO 9660,JFFS,JFFS2,JFS,MINIX fs,NSS,NTFS,OCFS,QNX4 FS,System V FS,UDF,UFS,XFS,ZFS,ReiserFS,Reiser4,Btrfs,HAMMER,Tux3,exFAT,ReFS
+DragonFly BSD kernel,,,,,,,,,,,,,,,,,,,,,,limited write,,,,read only,,,,,,,,,,
+FreeBSD kernel,,,,,,,,,,,,,,,,,,,,,,limited write,,,,,,read only,,read only,,,,,,
+Linux kernel,Yes [24],,read only,,,read only,,,,,,read only,,limited write (only with empty journal),,,,,,,,Yes (Full R/W with additional userspace driver)[25],,Yes [24] [26],write support?,,Yes [24],, both FUSE and native,,,,,,,
+MINIX 3 kernel,,,,,,,,,,,"Tools available, cannot mount",,,,,,,,,,,,,,,,,,,,,,,,,
+NetWare kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ReactOS kernel,,,,,,,,,,,,,,,,,,,,,,Read only,,,,,,,,,,Yes [28],,,,
+Solaris kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Windows NT kernel,,,,,,,Yes [29],Yes [30],Yes [30],,,,Yes [31],Yes [31],,,,,,,,,,,,,,,,,,Yes [28],,,,
+XNU,,,,,,,Yes [32],Yes [32],,,,,,,,,,,,,,Read-Only,,,,,,,read only,,,,,,,

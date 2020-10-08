@@ -1,0 +1,22 @@
+Platform,,,Features,,,,,,,,Toolkit,,,| Prolog Mechanics
+Name,OS,Licence,Native Graphics,Compiled Code,Unicode,Object Oriented,Native OS Control,Stand Alone Executable,C Interface[3],Java Interface[3],Interactive Interpreter,Debugger,Code Profiler,Syntax
+BProlog,"Unix, Windows, Mac OS X",Free for non-commercial uses,,,,,,,,,,,,"ISO-Prolog, plus event-handling, CLP(FD), and tabling"
+JIProlog,"JVM, Android",Shareware/Commercial and AGPL,,,,,,,,,,,,ISO-Prolog
+Ciao,"Unix, Windows, Mac OS X","GPL, LGPL",,,,,,,,,,,,"ISO-Prolog, plus extensions"
+DOS-PROLOG,MS-DOS,Shareware,,,,,,,,,,,,Edinburgh Prolog
+ECLiPSe,"Linux, Windows, Solaris, macOS",MPL,,,,,,,,,,,,"Extended Prolog, Multi-dialect, including ISO"
+GNU Prolog,"Unix, Windows, Mac OS X","GPL, LGPL",,,,,,,,,,,,ISO-Prolog
+Jekejeke Prolog,"JVM, Android",Distribution Evaluation,,,,,,,,,,,,"ISO-Prolog, Java API"
+JLog,JVM,GPL,,,,,,,,,,,,ISO-Prolog
+JScriptLog,Web Browser,GPL,,,,,,,,,,,,ISO-Prolog
+jTrolog,JVM,LGPL,,,,,,,,,,,,ISO-Prolog testsdate=July 2018 bot=InternetArchiveBot fix-attempted=yes 
+LPA-PROLOG,Windows,Commercial,,,,,,,,,,,,Edinburgh Prolog with extensions
+Open Prolog,Mac OS,Freeware,,,,,,,,,,,,
+Poplog Prolog,"Linux (32- and 64-bit), Unix, Windows",Free Open Source,"Only through POP-11, on Linux",,,,,,,,,,,"Edinburgh Prolog, with interfaces to Poplog Common Lisp and Pop-11"
+SICStus Prolog,"Unix, Linux, Windows, macOS",Commercial,,,,,,,,,,,,ISO-Prolog
+Strawberry Prolog,"Windows, Unix","Freeware, Commercial",,,,,,,,,,,,Not ISO-Prolog + extensions
+SWI-Prolog,"Unix, Linux, Windows, macOS",BSD License,,,,,,,,,,,,"ISO-Prolog, Edinburgh Prolog"
+tuProlog,"JVM, Android",LGPL,,,,,,,,,,,,ISO-Prolog
+Visual Prolog,Windows,"Freeware, Commercial",,,,,,,,,,,,
+XSB Prolog,"Linux, Windows, Solaris, macOS",LGPL,,,,,,,,,,,,"ISO-Prolog, tabled WFS"
+YAP-Prolog,"Linux, Windows, Solaris, Mac OS X, HP-UX",GPL or Artistic (user choice),,,,,,,,,,,,"Edinburgh, ISO-Prolog, Quintus and SICStus Prolog compatible"

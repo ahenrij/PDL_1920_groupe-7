@@ -1,0 +1,7 @@
+Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+Official app store,Google Play,App Store,Tizen Store,Jolla Store,OpenStore
+Non-discriminatory stores,",",?,"Openrepos.[84] Developers can distribute apps from their own sources, supports multiple app stores",?
+"Common APIs for smartphones, tablets, and PCs",,Smartphone and tablet only[86],,,
+Official SDK platform(s),"Linux, macOS and Windows[87]",macOS using iOS SDK,"GNU/Linux, Windows, macOS[88]","Windows, macOS and Linux[89]",
+Cost to develop for the mobile OS,Free,",Free,Free,Free
+Cost to publish app to official store,US$25 once to offer it on Google Play[91],US$99/year,Free,Free[92],Free

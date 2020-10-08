@@ -1,0 +1,11 @@
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro FX 350,G72GL,90,PCIe ×16,550,550,810,3:4:4:2,1.1,1.1,128,6.48,DDR2,64,,,9.0c,2.1,21,
+Quadro FX 550,NV43GL,,,360,360,800,4:8:8:8,2.88,2.88,,12.8,GDDR3,128,,25,,,,
+Quadro FX 1500,G71,,,375,375,,7:20:20:16,6,7.5,256,40.0,,256,,65,,,,
+Quadro FX 3500,G71GL,,,470,470,1320,7:20:20:16,7.52,9.4,,42.2,,,,80,,,"Stereo display, SLI",
+Quadro FX 4500,G70,110,,,,1050,8:24:24:16,,11.28,512,33.6,,,,109,,,,
+Quadro FX 4500X2,,,,,,,2× 8:24:24:16,15.04,22.56,1024,,,,,145,,,"Stereo display, Genlock",
+Quadro FX 4500 SDI,,,,,,,8:24:24:16,7.52,11.28,512,,,,,116,,,,
+Quadro FX 5500,G71,90,,700,700,,,11.2,16.8,1024,,,,,96,,,"Stereo display, SLI, Genlock",
+Quadro FX 5500 SDI,,,,,,,,,,,,,,,104,,,,

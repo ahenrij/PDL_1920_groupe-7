@@ -1,0 +1,17 @@
+Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+Unified Inbox,",,,,?
+Email sync protocols supported,"POP3, IMAP, MAPI","POP3, IMAP, MAPI, ActiveSync[178]","POP3, IMAP","POP3, IMAP, ActiveSync",?
+Non-carrier-based integrated messaging,Google Hangouts,5+ (iMessage)[179],?,,
+Visual voicemail,2.1+[180],,?,?,?
+Call log duration,,,?,,
+Multiple mobile phones per contact,,,?,,
+Contact groups,4+[183] or 3rd party software[184],Via iCloud or 3rd party software[185],,,?
+Voice over IP,Yes (SIP)[187] or 3rd party software[188],FaceTime; 3rd party software[189],,,
+NFC payment software,Available on any device that supports the hardware. Android Pay for NFC payments available in Play Store.[191],"8+: iPhone 6/6 Plus and later (iPhone 5 and later if used with Apple Watch), via Apple Pay", Samsung Pay,,
+Tethering,"Mobile Wi-Fi Hotspot, USB, Bluetooth","4.3+: Personal Hotspot (Wi-Fi, Bluetooth, USB; carrier dependent)","microUSB, Bluetooth 3.0, Mobile Wi-Fi Hotspot","Mobile Wi-Fi Hotspot, USB, Bluetooth",Mobile Wi-Fi Hotspot
+USB On-The-Go,3.1+[192][193],13+;[194] 9+: Only for connecting cameras,,,
+Direct file transfer over Wi-Fi Direct,4+[52] and selected devices[195][196],",",,
+DHCP v4,Yes,Yes,?,?,?
+DHCP v6,No,Yes,?,?,?
+Direct file transfer over Bluetooth,2+[199],AirDrop: 7+: Between iOS only; 8+: Between Mac/iOS only. (Note: AirDrop utilizes Wi-Fi as well),",",
+Direct file transfer over NFC,"No, removed on Android 10",,2+[197],,

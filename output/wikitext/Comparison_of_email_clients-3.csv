@@ -1,0 +1,45 @@
+Client,Message templates,,,,,,Message templates individual for,"Support in message templates scripts, programming languages",,,,,,
+,new,reply,forward,read confirmation,save,print,,JavaScript,VBScript,PHP Scripts,Python,Regular expressions,Java,Other (specify)
+Alpine,,,,,,,any,,,,,,,
+Becky! Internet Mail,,,,,,,any account folder,,,,,,,
+Citadel,,,,,,,,,,,,,,
+Claws Mail,,,,,,,account folder,,,,,,,Perl
+Cone,,,,,,,,,,,,,,
+Courier,,,,,,,,,,,,,,
+Elm,,,,,,,,,,,,,,
+eM Client,,,,,,,account,,,,,,,
+Eudora,,,,,,,any,,,,,,,
+Evolution,,,,,,,,,,,,,,
+Gnus,,,,,,,,,,,,,,elisp
+GroupWise,,,,,,,,,,,,,,
+Hiri,,,,,,,any,,,,,,,
+i.Scribe / InScribe,,,,,,,any,,,,,,,Internal macros (similar to JavaScript)
+IBM Notes,,,,,,,,,,,,,,"LotusScript, Formula language"
+KMail,,,,,,,none,,,,,,,
+Mailpile,,,,,,,,,,,,,,
+Microsoft Entourage,,,,,,,,,,,,,,"AppleScript, Automator"
+Microsoft Office Outlook,,,,,,,,,,,,,,
+Mozilla Mail & Newsgroups,,,,,,,,,,,,,,
+Mozilla Thunderbird,,group=NoteTB_STATIONERY_EXT,group=NoteTB_STATIONERY_EXT,,,,profile,,,,,,,
+Mulberry,,,,,,,,,,,,,,
+Mutt,,,,,,,any,,,,,,,Internal macros
+Netscape Messenger,,,,,,,,,,,,,,
+Netscape Messenger 9,,,,,,,,,,,,,,
+nmh / MH,,,,,,,,,,,,,,
+Opera Mail,,,,,,,,,,,,,,
+Outlook Express,,,,,,,,,,,,,,
+Pegasus Mail,,,,,,,,,,,,,,
+Pine,,,,,,,any,,,,,,,
+Pocomail,,,,,,,,,,,,,,PocoScript
+RoundCube,,,,,,,,,,,,,,
+SeaMonkey Mail & Newsgroups,,,,,,,,,,,,,,
+SquirrelMail,,,,,,,,,,,,,,
+Sylpheed,,,,,,,,,,,,,,
+The Bat!,,,,,,,account folder address book group contact,group=NoteBAT_js,group=NoteBAT_XMP,group=NoteBAT_XMP2,group=NoteBAT_TBPyxie,,PCRE 6.2,Internal and plugins macros
+Turnpike,,,,,,,,,,,,,,
+Windows Live Mail,group=NoteSTATIONERY,group=NoteSTATIONERY,,group=NoteSTATIONERY,,,,,,,,,,
+Windows Mail,,,,,,,,,,,,,,
+YAM,,,,,,,,,,,,,,ARexx
+Zimbra,,,,,,,any,,,,,,,
+Client,Message templates,,,,,,Message templates individual for,"Support in message templates scripts, programming languages",,,,,,
+,new,reply,forward,read confirmation,save,print,,JavaScript,VBScript,PHP Scripts,Python,Regular expressions,Java,Other (specify)

@@ -1,0 +1,5 @@
+Can:,"NATstatic, dynamic w/o ports, PAT","NAT64, NPTv6",Intrusion Detection System (IDS)monitors for malicious activity or policy violations,"Virtual Private Network (VPN)types include: PPTP, L2TP, MPLS, IPsec, SSL",Antivirus (AV),Packet capture,Profile selectionstore sets of firewall settings to switch between
+Vyatta,,,,,",,
+WinGate,,,,,,,
+pfSense,,,,",,,
+IPFire,,,,",,,

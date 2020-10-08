@@ -1,0 +1,17 @@
+Implementation,Application-defined,PKIX path validation[94],CRL[95],OCSP[96],DANE (DNSSEC)[97],Trust on First Use (TOFU),CAA[98],CT[99]
+Botan,,,,,,,,
+Bouncy Castle,,,,,,,,
+cryptlib,,,,,,,,
+GnuTLS,,,,,,,,
+JSSE,,,,,,,,
+LibreSSL,,,,,,,,
+MatrixSSL,,,,,,,,
+Mbed TLS,,,,,,,,
+NSS,,,,,,,,
+OpenSSL,,,,,,,,
+RSA BSAFE,,,,,,,,
+SChannel,,,,,,,,
+Secure Transport,,,,,,,,
+wolfSSL,,,,,,,,
+Erlang/OTP SSL application,,,,,,,,
+Implementation,Application-defined,PKIX path validation,CRL,OCSP,DANE (DNSSEC),Trust on First Use (TOFU),CAA,CT

@@ -34,11 +34,15 @@ public class WikipediaMatrix
 	* set of urlMatrix fill to csv.
 	*/
 	public Set<UrlMatrix> getConvertResult() throws IOException {
-
-		for (UrlMatrix urlMatrix : urlMatrixSet){
-			if(extractType==ExtractType.HTML) urlMatrix.setFilesMatrix(converter.convertFromHtml(urlMatrix.getLink()));
-			else urlMatrix.setFilesMatrix(converter.convertFromWikitext(urlMatrix.getLink()));
+		
+ 		for (UrlMatrix urlMatrix : urlMatrixSet){
+			if(extractType==ExtractType.HTML) {
+				urlMatrix.setFilesMatrix(converter.convertFromHtml(urlMatrix.getLink()));
+			}
+			else {
+				urlMatrix.setFilesMatrix(converter.convertFromWikitext(urlMatrix.getLink()));
 		}
+ 		}
 		return urlMatrixSet;
 	}
 

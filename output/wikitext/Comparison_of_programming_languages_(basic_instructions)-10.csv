@@ -1,0 +1,46 @@
+! while,do while,for i = first to last,foreach
+Ada[1],while condition loop <dl><dd>statements</dd></dl> end loop,loop <dl><dd>statements</dd><dd>exit when not condition</dd></dl> end loop,for index in «reverse» [first .. last | discrete_type] loop <dl><dd>statements</dd></dl> end loop
+ALGOL 68,«for index» «from first» «by increment» «to last» «while condition» do statements od,,
+,«while condition» do statements od,«while statements; condition» do statements od,«for index» «from first» «by increment» «to last» do statements od
+APL,:While condition<dl><dd>statements</dd></dl> :EndWhile,:Repeat <dl><dd>statements</dd></dl>:Until condition,:For var«s» :In list<dl><dd>statements</dd></dl> :EndFor
+C (C99),instructions can be a single statement or a block in the form of: { statements } while (condition) instructions,do instructions while (condition);,for («type» i = first; i <= last; i++) instructions
+Objective-C,,,
+C++ (STL),,,
+C#,,,
+Java,,,
+JavaScript,,,for (var i = first; i <= last; i++) instructions
+PHP,,,"foreach (range(first, last) as $i) instructions or for ($i = first; $i <= last; $i++) instructions"
+Windows PowerShell,,,for ($i = first; $i -le last; $i++) instructions
+D,,,foreach (i; first ... last) instructions
+Go,for condition { instructions },,for i := first; i <= last; i++ { instructions }
+Swift,while condition { instructions },repeat { instructions } while condition (2.x) do { instructions } while condition (1.x),for i = first ... last { instructions } or for i = first ..< last+1 { instructions } or for var i = first; i <= last; i++ { instructions }
+Perl,while (condition) { instructions } or until (notcondition) { instructions },do { instructions } while (condition) or do { instructions } until (notcondition),for«each» «$i» (first .. last) { instructions } or for ($i = first; $i <= last; $i++) { instructions }
+Raku,while condition { instructions } or until notcondition { instructions },repeat { instructions } while condition or repeat { instructions } until notcondition,for first..last -> $i { instructions } or loop ($i = first; $i <=last; $i++) { instructions }
+Ruby,while condition <dl><dd>instructions</dd></dl>end or until notcondition <dl><dd>instructions</dd></dl> end,begin <dl><dd>instructions</dd></dl> end while condition or begin <dl><dd>instructions</dd></dl> end until notcondition,for i in first..last <dl><dd>instructions</dd></dl> end or for i in first...last+1 <dl><dd>instructions</dd></dl> end or first.upto(last) { i instructions 
+Bash shell,while condition ;do<dl><dd>instructions</dd></dl>done or until notcondition ;do<dl><dd>instructions</dd></dl> done,,for ((i = first; i <= last; ++i)) ; do<dl><dd>instructions</dd></dl>done
+Scala,while (condition) { instructions },do { instructions } while (condition),for (i <- first to last «by 1») { instructions } or first to last «by 1» foreach (i => { instructions })
+Smalltalk,conditionBlock whileTrue: <dl><dd>loopBlock</dd></dl>,loopBlock doWhile: <dl><dd>conditionBlock</dd></dl>,first to: last do: <dl><dd>loopBlock</dd></dl>
+Common Lisp,(loop<dl><dd>while condition</dd><dd>do</dd><dd>instructions)</dd></dl> or (do () (notcondition)<dl><dd>instructions)</dd></dl>,(loop<dl><dd>do</dd><dd>instructions</dd><dd>while condition)</dd></dl>,(loop<dl><dd>for i from first to last «by 1»</dd><dd>do</dd><dd>instructions)</dd></dl> or (dotimes (i N)<dl><dd>instructions)</dd></dl> or (do ((i first (1+ i))) ((>= i last))<dl><dd>instructions)</dd></dl>
+Scheme,(do () (notcondition) instructions) or (let loop () (if condition (begin instructions (loop)))),(let loop () (instructions (if condition (loop)))),(do ((i first (+ i 1))) ((>= i last)) instructions) or (let loop ((i first)) (if (< i last) (begin instructions (loop (+ i 1)))))
+ISLISP,(while condition instructions),(tagbody loop instructions (if condition (go loop)),(for ((i first (+ i 1))) ((>= i last)) instructions)
+Pascal,while condition do begin <dl><dd>instructions</dd></dl> end,repeat <dl><dd>instructions</dd></dl> until notcondition;,for i := first «step 1» to last do begin <dl><dd>instructions</dd></dl> end;step[a]
+Visual Basic,Do While condition <dl><dd>instructions</dd></dl>Loop or Do Until notcondition <dl><dd>instructions</dd></dl>Loopor While condition instructions Wend (Visual Basic) End While (Visual Basic .NET),Do <dl><dd>instructions</dd></dl> Loop While condition or Do <dl><dd>instructions</dd></dl> Loop Until notcondition,i must be declared beforehand. For i = first To last« Step 1» <dl><dd>instructions</dd></dl> Next i
+Visual Basic .NET,,,For i« As type» = first To last« Step 1» <dl><dd>instructions</dd></dl>Next« i»step[a]
+Xojo,While condition <dl><dd>instructions</dd></dl>Wend,Do Until notcondition <dl><dd>instructions</dd></dl>Loop or Do <dl><dd>instructions</dd></dl> Loop Until notcondition,
+Python,while condition : Tab instructions «else: Tab instructions»,,"for i in range(first, last+1): Tab instructions «else: Tab instructions»(Python 3.x) for i in xrange(first, last+1): Tab instructions «else: Tabinstructions»(Python 2.x)"
+S-Lang,while (condition) { instructions } «then optional-block»,do { instructions } while (condition) «then optional-block»,for (i = first; i <= last; i++) { instructions } «then optional-block»
+Fortran,DO WHILE (condition) <dl><dd> instructions</dd></dl> ENDDO,DO <dl><dd> instructions IF (condition) EXIT </dd></dl> ENDDO,"DO I = first,last <dl><dd> instructions </dd></dl> ENDDO"
+Forth,BEGIN « instructions » condition WHILE instructions REPEAT,BEGIN instructions condition UNTIL,limit start DO instructions LOOP
+OCaml,while condition do instructions done,,for i = first to last do instructions done
+F#,while condition do Tab instructions,,for i = first to last do Tab instructions
+Standard ML,while condition do ( instructions ),colspan=2 ,Array.app (fn item => instructions) array app (fn item => instructions) list
+Haskell (GHC),colspan=2 ,Control.Monad.forM_ [first..last] (\i -> do instructions),Control.Monad.forM_ list (\item -> do instructions)
+Eiffel,from <dl><dd>setup</dd></dl> until <dl><dd>condition</dd></dl> loop <dl><dd>instructions</dd></dl> end,,
+CoffeeScript,while condition <dl><dd>expression</dd></dl>,rowspan=6 ,for i in [first..last] <dl><dd>expression</dd></dl>
+,expression while condition,,
+,while condition then expression,,
+,until condition <dl><dd>expression</dd></dl>,,
+,expression until condition,for i in [first..last] then expression,for item in set then expression
+,until condition then expression,expression for i in [first..last],expression for item in set
+COBOL,PERFORM procedure-1 «THROUGH procedure-2» ««WITH» TEST BEFORE» UNTIL conditionCOBOL THRU[c],PERFORM procedure-1 «THROUGH procedure-2» «WITH» TEST AFTER UNTIL conditionCOBOL THRU[c],PERFORM procedure-1 «THROUGH procedure-2» VARYING i FROM first BY increment UNTIL i > lastCOBOL GREATER THAN[d]
+,PERFORM ««WITH» TEST BEFORE» UNTIL condition <dl><dd> expression </dd></dl> END-PERFORM,PERFORM «WITH» TEST AFTER UNTIL condition <dl><dd> expression </dd></dl> END-PERFORM,PERFORM VARYING i FROM first BY increment UNTIL i > last <dl><dd> expression </dd></dl> END-PERFORMCOBOL GREATER THAN[d]

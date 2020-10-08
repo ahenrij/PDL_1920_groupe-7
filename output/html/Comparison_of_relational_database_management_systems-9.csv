@@ -1,0 +1,46 @@
+,Union,Intersect,Except,Inner joins,Outer joins,Inner selects,Merge joins,Blobs and Clobs,Common Table Expressions,Windowing Functions,Parallel Query,System-versioned Tables
+4th Dimension,Yes,Yes,Yes,Yes,Yes,No,No,Yes,?,?,?,?
+ADABAS,Yes,?,?,?,?,?,?,?,?,?,?,?
+Adaptive Server Enterprise,Yes,?,?,Yes,Yes,Yes,Yes,Yes,?,?,Yes,?
+Advantage Database Server,Yes,No,No,Yes,Yes,Yes,Yes,Yes,?,No,?,?
+Altibase,Yes,Yes,"Yes, via MINUS",Yes,Yes,Yes,Yes,Yes,No,No,No,?
+Apache Derby,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,No,No,?,?
+ClustrixDB,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,?
+CUBRID,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes[81],?,?
+DB2,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[118],Yes[119]
+Empress Embedded Database,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+EXASolution,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,?
+Firebird,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?
+HSQLDB,Yes,Yes,Yes,Yes,Yes,Yes,Yes[120],Yes,Yes,No,Yes[120],?
+H2,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,experimental[121],Yes[122],?,?
+Informix Dynamic Server,Yes,Yes,"Yes, via MINUS",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[123],?
+Ingres,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,?,?
+InterBase,Yes,?,?,Yes,Yes,?,?,Yes,?,?,?,?
+Linter SQL RDBMS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+LucidDB,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,?,?,?,?
+MariaDB,Yes,10.3+[124],10.3+[125],Yes,Yes,Yes,No,Yes,Yes[126],Yes[127],No[128],Yes[119]
+MaxDB,Yes,?,?,Yes,Yes,Yes,No,Yes,?,?,?,?
+Microsoft Access (JET),Yes,No,No,Yes,Yes,Yes,No,Yes,No,No,?,?
+Microsoft Visual Foxpro,Yes,?,?,Yes,Yes,Yes,?,Yes,?,?,?,?
+Microsoft SQL Server,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[129],Yes[130],Yes[119]
+Microsoft SQL Server Compact (Embedded Database),Yes,No,No,Yes,Yes,?,No,Yes,No,No,?,?
+Mimer SQL,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,No,No,?
+MonetDB,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+MySQL,Yes,No,No,Yes,Yes,Yes,No,Yes,8+[131],No,No[128],No[119]
+OpenBase SQL,No,No,No,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+OpenLink Virtuoso,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,?,?,Yes,?
+Oracle,Yes,Yes,"Yes, via MINUS",Yes,Yes,Yes,Yes,Yes,Yes 1,Yes,Yes[132],No[119]
+Oracle Rdb,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+Pervasive PSQL,Yes,No,No,Yes,Yes,?,?,Yes,No,No,No,?
+Polyhedra DBMS,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,?
+PostgreSQL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[133],No[119]
+Raima Database Manager,No,No,No,Yes,Yes,No,No,Yes,No,No,No,?
+RDM Server,Yes,No,No,Yes,Yes,Yes,No,Yes,No,No,No,?
+SAP HANA,?,?,?,?,?,?,?,?,?,?,?,?
+solidDB,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,?
+SQL Anywhere,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+SQLite,Yes,Yes,Yes,Yes,LEFT only,Yes,No,Yes,3.8.3+[134],3.25+[135],No,No[119]
+SQream DB,ALL only,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,No,?
+Teradata,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+UniVerse,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,?,?
+,Union,Intersect,Except,Inner joins,Outer joins,Inner selects,Merge joins,Blobs and Clobs,Common Table Expressions,Windowing Functions,Parallel Query,System-versioned Tables

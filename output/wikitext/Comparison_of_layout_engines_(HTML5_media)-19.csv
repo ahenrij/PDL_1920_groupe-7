@@ -1,0 +1,18 @@
+,Trident,Gecko,WebKit,KHTML,Presto
+Basic structure,,,,,
+html,5.0,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+head,rowspan="2" 4.0,,,,
+body,,,,,
+Metadata,,,,,
+title,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+meta,,,,,
+Headings,,,,,
+h1,rowspan="6" 4.0,rowspan="6" 1.0,rowspan="6" ,rowspan="6" ,rowspan="6" 1.0
+h2,,,,,
+h3,,,,,
+h4,,,,,
+h5,,,,,
+h6,,,,,
+Grouping elements,,,,,
+div,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+span,,,,,

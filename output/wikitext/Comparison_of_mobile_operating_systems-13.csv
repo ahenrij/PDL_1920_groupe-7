@@ -1,0 +1,4 @@
+Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+Bluetooth keyboard,2.3+;[261] previous versions via 3rd party software[262],,,,
+USB keyboard,3.1+[261],With Camera Connection Kit[266],,?,
+Interchangeable external memory cards,,Only for photo/video import with an optional accessory,,,

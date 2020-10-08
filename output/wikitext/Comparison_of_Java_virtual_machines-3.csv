@@ -1,0 +1,15 @@
+JVM,Windows,Linux,FreeBSD,NetBSD,OpenBSD,Solaris,OpenSolaris,Darwin,macOS,iOS,BeOS,Haiku,AIX,IRIX,OS/2,Windows Mobile,AmigaOS,Other
+GCJ,,,,,,,,,,,,,,,,,,"DEC OSF 4.0f and 5.1, Hitachi SH-3/4 micro-controller[32]"
+"HotSpot, OpenJDK edition",,,Port[44],Port[44],Port[44],,,,,,,Port[47],Port[36],,Port[48],,,
+"HotSpot, Oracle JDK edition",,,,,,,,,,,,,,,,,,
+"HotSpot, Java SE embedded edition",,,,,,,,,,,,,,,,,,
+"HotSpot, Zero port",,,,,,,,,,,,,,,,,,
+IKVM.NET,Any operating system with a .NET framework,,,,,,,,,,,,,,,,,
+JAmiga,,,,,,,,,,,,,,,,,,
+JamVM,,,,,,,,,,On Jailbroken iPhone[19],,,,,,,,kFreeBSD
+Jato VM,,,,,,,,Under development[39],,,,,,,,,,
+JC virtual machine,,,,,,,,,,,,,,,,,,
+Jikes RVM,,,,,,,,,,,,,,,,,,
+Kaffe,Using Cygwin[11],,,,,,,,,,,,,,,,,Many others[11]
+Mysaifu JVM,,,,,,,,,,,,,,,,,,
+SableVM,Using Cygwin[42],,,,,,,,,,,,,,,,,

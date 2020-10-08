@@ -1,0 +1,32 @@
+Trident,Gecko,WebKit,Presto[290]
+Error state,,,
+MediaError,5.0 [291],1.9.1,?
+Network state,,,
+src,rowspan="7" 5.0[21],rowspan="3" 1.9.1,?
+currentSrc,,,
+networkState,,,
+preload,2.0[281][282],rowspan="2" ,
+buffered,2.0[292],,
+load(),rowspan="2" 1.9.1,rowspan="2" 2.5,
+canPlayType(),533[293],,
+Ready state,,,
+readyState,rowspan="2" 5.0[21],rowspan="2" 1.9.1,?
+seeking,,,
+Playback state,,,
+currentTime,rowspan="13" 5.0[21],1.9.1,?
+startTime,,,
+duration,rowspan="2" 1.9.1,,
+paused,,,
+defaultPlaybackRate,rowspan="2" 20.0[294],rowspan="4" ,
+playbackRate,,,
+played,15.0[295],,
+seekable,8.0[296],,
+ended,rowspan="2" 1.9.1,rowspan="5" 2.5,
+autoplay,,,
+loop,11.0[283],,
+play(),rowspan="2" 1.9.1,,
+pause(),,,
+Controls,,,
+controls,rowspan="3" 5.0[21],rowspan="3" 1.9.1,?
+volume,,,
+muted,,,

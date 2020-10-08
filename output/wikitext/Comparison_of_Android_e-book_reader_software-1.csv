@@ -1,0 +1,17 @@
+Software,License,Other platforms,DRM formats supported
+Aldiko,,iOS,Adobe DRM
+AlReader[1],,None,
+Bookari,,iOS,Adobe DRM
+Cool Reader[2],GPLv2,"Android, Windows, Mac OS X, Linux, PocketBook",
+Ebook Reader[3],,"iOS, BlackBerry 10+, Kindle Fire (side loaded)",Adobe DRM
+eReader Prestigio,,None,Adobe DRM
+FBReader,,"Windows, Linux, PDAs, Mac OS X",None
+Google Play Books,,"Web application, iOS",Adobe DRM
+Kindle,,"Web application, iOS, BlackBerry, Mac OS X, Windows",Amazon DRM
+Kobo,,"Windows, Mac OS X, iOS",Adobe DRM
+KOReader[4],AGPLv3,"Android, Kindle eInk, Kindle Fire, BQ Cervantes, PocketBook, Kobo",None
+Lektz,,"Web application, Mac OS X, iOS, Windows",Lektz DRM
+Librera[5],GPL,None,None
+MReader,,None,None
+OverDrive Media Console[6],,"Chromebook, iOS, Mac OS X, Windows","Adobe DRM, OverDrive"
+Snapplify,,"Web application, iOS","Adobe DRM, Snapplify SnappSafe DRM"

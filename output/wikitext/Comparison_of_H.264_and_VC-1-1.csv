@@ -1,0 +1,10 @@
+!!VC-1,H.264
+Bitstream formats,single bit stream
+Bitstream format,"In advanced profile, each Bitstream Data Unit has its own header. Simple and Main profile provide neither sequence nor entry point headers."
+Deblocking filter,In-loop filter and overlap transform
+CABAC,No
+Variable transform size,Yes
+Slice,Contiguous (integer number of macroblock rows only)
+Sub-pixel interpolation methods,"bicubic, bilinear"
+Variable Length Coding,Yes
+B frame used for predicting other pictures,Yes

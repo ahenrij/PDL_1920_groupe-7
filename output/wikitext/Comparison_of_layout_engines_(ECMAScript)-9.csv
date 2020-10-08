@@ -1,0 +1,13 @@
+Browser layout engine,Trident,Gecko,WebKit,Presto,Blink
+Corresponding JavaScript engine,JScript / Chakra,SpiderMonkey,JavaScriptCore,Linear B / Futhark / Carakan,V8
+ECMAScript Edition 3,,0.6,,1.0,
+ECMAScript Edition 5,5.0,2.0,,,
+ECMAScript Edition 6,,,,,
+JavaScript 1.5 extensions,,0.6,,1.0,
+JavaScript 1.6 extensions (excluding E4X),,1.8,,,
+JavaScript 1.7 extensions,,1.8.1,,,
+JavaScript 1.8 extensions,,1.9,,,
+JavaScript 1.8.1 extensions,,1.9.1,,,
+JScript .NET extensions,,,,,
+ActionScript extensions,,,,,
+E4X,,Dropped[1],,,

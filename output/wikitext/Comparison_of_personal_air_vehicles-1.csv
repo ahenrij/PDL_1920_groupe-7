@@ -1,0 +1,31 @@
+Model,Type,Capacity,Speed (km/h),Speed (mph),Range (km),Range (mi),Door-to-door capable,Price
+A³ Vahana [2][3][4],?,?,? km/h,?,? km,?,?,? €
+Aeris Naviter AeroQuad [5],?,?,unflown,?,? km,?,?,? €
+Milner Motors Aircar,Roadable aircraft,4,unflown,?,? km,?,?,"$450,000 US"
+Attila Melkuti AMV 211 [6],?,?,unflown,?,? km,?,?,? €
+Carter PAV[7],Autogyro,4,200mphabbr=onorder=flipdisp=tablecen,? km,?,?,? €,
+Cartivator Skydrive [8],?,?,? km/h,?,? km,?,?,? €
+DARPA TX,Roadable aircraft,4,unflown,?,? km,?,?,? €
+DM AeroSafe Eagle Aero-Cart,VTOL aircraft,1,unflown,?,? km,?,?,? €
+Peebles Fanwing [9],?,?,unflown,?,? km,?,?,? €
+GEN H-4 [10][11][12],Ultralight helicopter,1,124mphabbr=onorder=flipdisp=tablecen,37miabbr=onorder=flipdisp=tablecen,Yes,"¥7,500,000",,
+Gress Aerospace PAV [13],?,?,? km/h,?,? km,?,?,? €
+BLI Helodyne,VTOL aircraft,4,140mphabbr=onorder=flipdisp=tablecen,1210miabbr=onorder=flipdisp=tablecen,Yes,"$67,500 US",,
+Entecho Hoverpod[14],?,?,? km/h,?,? km,?,?,? €
+AVCEN Jetpod,STOL aircraft,?,unflown,?,? km,?,?,n/a
+Kitty Hawk Flyer,VTOL aircraft,?,? km/h,?,? km,?,?,? €
+TAM Libelula,Backpack helicopter,?,? km/h,?,? km,?,?,? €
+PAV-X[15],Ultralight Semi-Autonomous Drone,1,70mphabbr=onorder=flipdisp=tablecen,40miabbr=onorder=flipdisp=tablecen,?,"€50,000",,
+Lilium Jet,VTOL,1,300km/habbr=ondisp=tablecen,300kmabbr=ondisp=tablecen,?,? €,,
+Mosquito XE/XEL[16],ultralight helicopter,1,80mphabbr=onorder=flipdisp=tablecen,150miabbr=onorder=flipdisp=tablecen,?,"€43,000",,
+PAL-V gyrocopter,autogyro,2,110mphabbr=onorder=flipdisp=tablecen,220-310miabbr=onorder=flipdisp=tablecen,Yes,"€200,000",,
+Kestel PAV,?,?,unflown,?,? km,?,?,? €
+Samson Skybike,Paramotor,1,? km/h,?,50miabbr=onorder=flipdisp=tablecen,?,"$6,000 US",
+Moller Skycar,VTOL aircraft,?,unflown,?,? km,?,?,? €
+Parajet Skycar,Paramotor,2,100mphabbr=onorder=flipdisp=tablecen,200miabbr=onorder=flipdisp=tablecen,Yes,"£50,000",,
+Macro SkyRider X2R,?,?,unflown,?,? km,?,?,? €
+Butterfly Super Sky Cycle,Autogyro,1,80mphabbr=onorder=flipdisp=tablecen,? km,?,?,? €,
+Samson Switchblade,Roadable aircraft,2,unflown,?,345miabbr=onorder=flipdisp=tablecen,Yes,"$60,000 US (kit)",
+Terrafugia Transition,Roadable aircraft,2,115mphabbr=onorder=flipdisp=tablecen,489miabbr=onorder=flipdisp=tablecen,?,"$194,000 US",,
+VerdeGo Aero PAT200[17][18][19],hybrid electric VTOL,2 pax/500lbkground=5abbr=onorder=flip,>6 150mphkm/habbr=onorder=flipdisp=tablecen,20-40mikmabbr=onorder=flipdisp=tablecen,urban vertiports,for operators,,
+Xplorair PX200,VTOL aircraft,1,unflown,?,310miabbr=onorder=flipdisp=tablecen,Yes,"$80,000 US",

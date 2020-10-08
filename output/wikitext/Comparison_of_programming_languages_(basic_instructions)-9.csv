@@ -1,0 +1,39 @@
+,Text,,Boolean,Enumeration,Object/Universal
+,Character,Stringstring[a],,,
+Ada[1],Character,String & Bounded_String & Unbounded_String,Boolean,"(item1, item2, ... )",tagged null record
+ALGOL 68,char,string & bytes,bool & bits,,
+C (C99),char wchar_t,,boolint bool[b],"enum «name» {item1, item2, ... };",void *
+C++ (STL),,«std::»string,,,
+Objective-C,unichar,NSString *,BOOL,,id
+C#,char,string,bool,"enum name { item1« = value», item2« = value», ... }",object
+Java,,String,boolean,"enum name {item1, item2, ... }",Object
+Go,byte rune,string,bool,const (<dl><dd>item1 = iota item2 ... </dd></dl>),interface{}
+Rust,char,String,bool,"enum name {<dl><dd>item1, item2, ...</dd></dl>}",
+Swift,Character,String,Bool,"enum name { case item1, item2, ... }",Any
+D,char,string,bool,"enum name {item1, item2, ... }",std.variant.Variant
+Common Lisp,character,string,boolean,(member item1 item2 ...),t
+Scheme,,,,,
+ISLISP,,,,,
+Pascal (ISO),char,,boolean,"(item1, item2, ...)",
+Object Pascal (Delphi),,string,,,variant
+Visual Basic,,String,Boolean,Enum name<dl><dd>item1«= value»</dd><dd>item2« = value»</dd><dd>...</dd><dd>End Enum</dd></dl>,Variant
+Visual Basic .NET,Char,,,,Object
+Xojo,,,,,Object or Variant
+Python,string as char[d],str,bool,from enum import Enum class Name(Enum):<dl><dd>item1 = value</dd><dd>item2 = value</dd><dd>...</dd></dl># Python 3.4+,object
+JavaScript,string as char[d],String,Boolean,,Object
+S-Lang,,,,,
+Fortran,CHARACTER(LEN = *),"CHARACTER(LEN = :), allocatable",LOGICAL(KIND = n)logical kinds[f],,CLASS(*)
+PHP,string as char[d],string,bool,,(type declaration omitted)
+Perl,string as char[d],,,,UNIVERSAL
+Raku,Char,Str,Bool,enum name<item1 item2 ...> enum name <<:item1(value) :item2(value) ..>>,Mu
+Ruby,string as char[d],String,ObjectRuby's bool[c],,Object
+Scala,Char,String,Boolean,"object name extends Enumeration {<dl><dd>val item1, item2, ... = Value</dd></dl>}",Any
+Seed7,char,string,boolean,"const type: name is new enum<dl><dd> item1, item2, ... </dd></dl>end enum;",
+Windows PowerShell,,,,,
+OCaml,char,string,bool,enum[e],
+F#,,,,item2 = value | ...,obj
+Standard ML,,,,enum[e],
+Haskell (GHC),Char,String,Bool,enum[e],
+Eiffel,CHARACTER,STRING,BOOLEAN,,ANY
+COBOL,PIC X,PIC X(string length) or PIC X«X...»,PIC 1«(number of digits)» or PIC 1«1...»,,OBJECT REFERENCE
+Mathematica,string as char[d],String,,,
