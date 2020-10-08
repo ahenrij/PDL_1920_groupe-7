@@ -350,9 +350,10 @@ public class ConverterToCsv implements Converter {
 						result += s.charAt(i);
 					}
 				}
-				if(result.equals("")){
+				if (result.equals("") && !warning) {
 					Map<String, Locale> localeMap;
-					String codeCountry = s.substring(2);
+					//Affect empty string to codeCountry if s.length under 5
+					String codeCountry = (s.length() > 5) ? s.substring(2, 5) : "";
 
 					String[] countries = Locale.getISOCountries();
 					localeMap = new HashMap<String, Locale>(countries.length);
