@@ -122,8 +122,8 @@ class ConverterToCsvTest {
         }
 
         nbUrlTotal = nbUrlConnectionOk + nbUrlConnectionFailure;
-        assertEquals(nbUrlConnectionFailure, 25, "connection failure");
-        assertEquals(nbUrlConnectionOk, 311, "connection ok");
+        assertEquals(nbUrlConnectionFailure, 31, "connection failure");
+        assertEquals(nbUrlConnectionOk, 305, "connection ok");
         assertEquals(nbUrlTotal, 336, "connection total");
 
         wikipediaMatrix.setUrlsMatrix(urlMatrixSet);
