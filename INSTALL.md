@@ -3,23 +3,30 @@
 ## Prerequisites
 
 - Java version 1.8
-
+- jUnit 5
+- Maven
 - IDE Java like Eclipse or IntelliJ
 
 ## Installation procedure
 
-- Clone the project, URL=*https://github.com/manuc352/PDL_1920_groupe-7.git*;
+- Clone the project, URL=*https://github.com/awadiaby/PDL_1920_groupe-7/.git*;
 - Install __maven__;
 - In the class wikiMain, change the path at line 49 by your personal path to access your repertory inputdata;
 - Same thing for the path at line 76 with the repertory output
 
-### Maven Installation 
+### Maven Installation with Intellij
 
-You have to install it with IntelliJ to give easier its using. Here is the approach with IntelliJ
+You can be to install it with IntelliJ to give easier its using. Here is the approach with IntelliJ
 - In the Project tool window, right-click the project folder and select New | Module. Alternatively, from the main menu, select File| New | Module to open the New Module wizard.
 - If you used main menu to add a module then the process of adding a module is the same as Creating a new Maven project. 
 
 You will find more information on the website of IntelliJ : https://www.jetbrains.com/help/idea/maven-support.html
+
+### Maven Installation with Eclipse
+
+You can be also to install it with Eclipse to give easier its using.
+Here is the approach whith Eclispe
+-
 
 ## Before running
 
