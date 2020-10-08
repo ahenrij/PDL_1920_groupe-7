@@ -1,0 +1,30 @@
+Software,APA,Chicago/Turabian,Harvard,MLA,Other,Extension method
+Bebop,,,,,none,none
+BibBase,,,,,none,none
+BibDesk,,yes,,,various,BibDesk export templates
+Biblioscape,,,,,2000+ styles date=March 2009,Biblioscape format (through GUI)
+BibSonomy,,,,,none,none
+Bibus,,,,,"56 styles, user-contributed",bibus format (through GUI)
+Bookends,,,,,variousdate=November 2008,
+Citavi,,,,, 10600+ styles. Styles can be requested and are centrally corrected; any BibTeX style when used with LaTeX.,"Citavi format (through GUI), includes conditions and programmable components; BibTeX"
+CiteULike,,,,,variousdate=March 2009,none
+colwiz,,,,,9464 styles,CSL
+EndNote,,,,,6926 styles,EndNote format (through GUI)
+JabRef,,,,,any BibTeX style,BibTeX
+KBibTeX,,,,,any BibTeX style,BibTeX
+Mendeley,,,,,9464 styles,CSL
+Paperpile,,,,,9464 styles,CSL
+Pybliographer,,,,,none,Pybliographer XML
+Qiqqa,,,,,9464 styles,BibTeX and CSL
+ReadCube (now Papers),,,,,9464 styles,BibTeX and CSL
+refbase,,,,,various polar & marine journals,PHP
+RefDB,,,,,21 biomedical & law journals,"XML (citestylex.dtd), interactive script"
+Reference Manager,,,,,various,Reference Manager format (through GUI)
+Referencer,,,,,,
+RefME,,,,,,
+RefWorks,,,,,"4256, plus CSL styles",RefWorks format (through GUI); CSL
+SciRef,,,,,various,SciRef format (through GUI)
+Sente,,,,,various,Sente format (through GUI)
+Wikindx,,,,,"ABNT, APA, BMJ, Chicago, Harvard, IEEE, MLA, Turabian",Wikindx format (through GUI)
+WizFolio,,,,,1000+ styles,WizFolio format (through GUI)
+Zotero,,,,,9464 styles,CSL

@@ -1,0 +1,53 @@
+,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+Exception LSException,,,,,,,
+DOM3,code,,,,,,1.0
+Interface DOMImplementationLS,,,,,,,
+DOM3,createLSParser(),rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" 1.0
+,createLSSerializer(),,,,,,
+,createLSInput(),,,,,,
+,createLSOutput(),,,,,,
+Interface LSParser,,,,,,,
+DOM3,domConfig,rowspan="8" ,rowspan="8" ,rowspan="8" ,rowspan="8" ,rowspan="8" ,rowspan="8" 1.0
+,filter,,,,,,
+,async,,,,,,
+,busy,,,,,,
+,parse(),,,,,,
+,parseURI(),,,,,,
+,parseWithContext(),,,,,,
+,abort(),,,,,,
+Interface LSInput,,,,,,,
+DOM3,characterStream,rowspan="8" ,rowspan="8" ,rowspan="8" ,rowspan="8" ,rowspan="8" ,rowspan="8" 1.0
+,byteStream,,,,,,
+,stringData,,,,,,
+,systemId,,,,,,
+,publicId,,,,,,
+,baseURI,,,,,,
+,encoding,,,,,,
+,certifiedText,,,,,,
+Interface LSResourceResolver,,,,,,,
+DOM3,resolveResource(),,,,,,
+Interface LSParserFilter,,,,,,,
+DOM3,whatToShow,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,
+,startElement(),rowspan="2" 2.0,,,,,
+,acceptNode(),,,,,,
+Interface LSProgressEvent,,,,,,,
+DOM3,input,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" 
+,position,,,,,,
+,totalSize,,,,,,
+Interface LSLoadEvent,,,,,,,
+DOM3,newDocument,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,2.0
+,input,,,,,,
+Interface LSSerializer,,,,,,,
+DOM3,domConfig,rowspan="6" ,rowspan="6" ,rowspan="6" ,rowspan="6" ,rowspan="6" ,rowspan="6" 1.0
+,newLine,,,,,,
+,filter,,,,,,
+,write(),,,,,,
+,writeToURI(),,,,,,
+,writeToString(),,,,,,
+Interface LSOutput,,,,,,,
+DOM3,characterStream,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" 1.0
+,byteStream,,,,,,
+,systemId,,,,,,
+,encoding,,,,,,
+Interface LSSerializerFilter,,,,,,,
+DOM3,whatToShow,,,,,,

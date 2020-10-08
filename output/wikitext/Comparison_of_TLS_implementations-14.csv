@@ -1,0 +1,17 @@
+Implementation,SRP[81],SRP-DSS[81],SRP-RSA[81],PSK-RSA[82],PSK[82],DHE-PSK (forward secrecy)[82],ECDHE-PSK (forward secrecy)[83],KRB5[84],DH-ANON[16] (insecure),ECDH-ANON[68] (insecure)
+Botan,,,,,,,,,Disabled by default,Disabled by default
+cryptlib,,,,,,,,,No,No
+GnuTLS,,,,,,,,,Disabled by default,Disabled by default
+JSSE,,,,,,,,,Disabled by default in Java 8,Disabled by default in Java 8
+LibreSSL,,,,,,,,,Yes,Yes
+MatrixSSL,,,,,,,,,Disabled by default,No
+Mbed TLS,,,,,,,,,No,No
+NSS,,,,,,,,,"Client side only, disabled by default[88]",Disabled by default[89]
+OpenSSL,,,,,,,,,Disabled by default[91],Disabled by default[91]
+RSA BSAFE Micro Edition Suite,,,,,,,,,Disabled by default,Disabled by default
+RSA BSAFE SSL-J,,,,,,,,,Disabled by default,Disabled by default
+SChannel,,,,,,,,,No,No
+Secure Transport,,,,,,,,,Yes,Yes
+wolfSSL,,,,,,,,,No,No
+Erlang/OTP SSL application,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default,,,Disabled by default,Disabled by default
+Implementation,SRP[81],SRP-DSS[81],SRP-RSA[81],PSK-RSA[82],PSK[82],DHE-PSK (forward secrecy)[82],ECDHE-PSK (forward secrecy)[83],KRB5[84],DH-ANON[16] (insecure),ECDH-ANON[68] (insecure)

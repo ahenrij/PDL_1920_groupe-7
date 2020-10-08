@@ -1,0 +1,57 @@
+Distribution,Free software repositories,Approximate number of pre-compiled packages,Approximate number of source packages,Default package management tool(s),Package format,Default installer,Graphical installation process,Netinstall,Netboot
+Alpine Linux,"Free, and nonfree",8135[177],,apk,.apk,setup-alpine,,,
+ALT Linux,"Free, and nonfree",8300[178],,"APT (APT-RPM), RPM",RPM,,,,
+Arch Linux,"Free, and nonfree",10999[179],66265 from AUR[180],Pacman,.pkg.tar.zst[181],None (third-party install scripts only),,,iPXE
+BLAG,Free only,10000[182],,"RPM, yum, APT",RPM,,,,
+Bodhi Linux,"Free, and nonfree",Based on Debian[183],,APT,.dpkg,Ubiquity,,,
+CentOS,"Free, and nonfree",Based on Fedora,,"RPM, yum/up2date",RPM,Anaconda,,,
+Chakra,"Free, and nonfree",3074[184],5342prefix=CCR: [185],Pacman (will be replaced by Akabei in future),.pkg.tar.xz,,Package manager in development,,
+ClearOS,"Free, and nonfree",Based on Fedora,,"RPM, yum",RPM,,,,
+CrunchBang Linux,"Free, and nonfree",Based on Debian[183],,APT,.deb,,,,
+Debian,"Free, and nonfree",89403[183],"28923From the Sources.gz files in the main, contrib and non-free sections of Debian Buster. On the 2020-06-12, Debian Sid, the development release, have 31717 source packages.",APT,.deb,Debian-Installer,,,PXE
+Devuan,"Free, and nonfree",Based on Debian[183],,APT,.deb,Debian-Installer,,,PXE
+Dragora GNU/Linux-Libre,Free only,484,,pkgsystem,.tlz,,,,
+dyne:bolic,Free only,,,APT,.deb,Debian-Installer,,,
+Fedora,"Free, and nonfree",58991 with RPM fusion[186],30681[187],"DNF, yum, PackageKit",RPM,Anaconda,,,
+Gentoo,"Free, and nonfree",10000[188],19092[189]Note this number is just of packages in the Official Gentoo Overlay (or Portage Tree). Several hundred other packages are available from other overlays,Portage,".ebuild, .tbz2",None (third-party install scripts only),"Can be installed graphically (GTK+ and ncurses), but traditionally done by command line (install cd, live cd, netboot, and from distributions).",,PXE
+gNewSense,Free only,,,APT,.deb,Debian-Installer,,,
+Guix System,Free only,13168[190],13168,Guix,".scm, .go",guix system init[191],,,
+Hyperbola GNU/Linux-libre,Free only,14494[194],,Pacman,.pkg.tar.xz,None (third-party install scripts only),,,
+Knoppix,"Free, and nonfree",Based on Debian[183],,APT,.deb,,,,
+LibreCMC,Free only,826,,,,,,,
+Linux Mint,"Free, and nonfree",Based on Debian[183],,APT,.deb,Ubiquity,,,
+Mageia,"Free, and nonfree","17283 (i586), 11409 (x86-64)[195]",8834[196],"urpmi, rpmdrake",RPM,DrakX,,,
+Mandriva Linux,"Free, and nonfree",22600,,"urpmi, rpmdrake",RPM,DrakX,,,
+Manjaro Linux,"Free, and nonfree",,Based on AUR[180],Pacman,.pkg.tar.xz,Calamares[197],,,iPXE
+MEPIS,"Free, and nonfree",Based on Debian[183],,APT,.deb,MEPIS Install,,,
+Musix GNU+Linux,Free only,1819,,APT,.deb,Debian-Installer,,,
+OpenELEC,"Free, and nonfree",140[199],,"XBMCbuntu addon manager, own and 3rd party addons",.zip,,,,
+openSUSE,"Free, and nonfree","wc -l on June 22, 2020, with default repositories plus packman.",34000,"YaST, Zypper",RPM,YaST,,,
+OpenWrt,"Free, and nonfree",2000,,opkg,.ipk,-,,,
+Parabola GNU/Linux-libre,Free only,23000[200],,Pacman,.pkg.tar.xz,None (third-party install scripts only) or Calamares,,,
+Pardus,"Free, and nonfree",4000,,PiSi,.pisi,YALI,,,
+Parsix,"Free, and nonfree",Based on Debian[183],14900,APT,.deb,,,,
+PCLinuxOS,"Free, and nonfree",12000,,"APT, RPM",RPM,,,,
+Puppy,"Free, and nonfree",700,,"PupGet, DotPup",".pup, .pet",,,,
+Red Hat Enterprise Linux,"Free, and nonfree",3000 (plus 9155 from EPEL[201]),,"RPM, yum",RPM,Anaconda,,,
+Rxart,"Free, and nonfree",Based on Debian[183],,APT,.deb,,,,
+Sabayon Linux,"Free, and nonfree",Based on Gentoo,,"Portage, Entropy","ebuild, .tbz2",Calamares,,,
+Scientific,"Free, and nonfree",Based on Fedora,,APT/yum,RPM,,,,
+Slackware,"Free, and nonfree",2292,7705 from SlackBuilds[202],slackpkg,"tgz, .txz, .tlz, .tbz",bash script[203],,,
+Slax,"Free, and nonfree",2050,,none,.lzm,,,,
+SliTaz GNU/Linux,"Free, and nonfree",3381[204],,Tazpkg,.tazpkg,tazinst,,iPXE,iPXE
+Solus,"Free, and nonfree",9500,,eopkg,.eopkg,os-installer,,,
+Source Mage GNU/Linux,"Free, and nonfree",118,8876,Sorcery Package Manager,src,,,,
+SUSE Linux,"Free, and nonfree",24094,11385,"YaST, Zypper",RPM,YaST,,,
+Tiny Core Linux,"Free, and nonfree",25160,,"ab, tce-load",tcz,"tc-install, core2usb",,,
+Tiny SliTaz,"Free, and nonfree",50,,Web site[205],tazpkg,,,,iPXE
+Trisquel,Free only,52748[206],,APT,.deb,Ubiquity,,,
+TurnKey GNU/Linux,"Free, and nonfree",Based on Debian[183] (plus ?30 custom packages),"21041From the Sources.gz files in the main, contrib and non-free sections of Debian Jessie. On the 2015-11-21, Debian Sid, the development release, have 24757 source packages. (currently TurnKey only supplies source code for custom packages)",APT,.deb,DI-Live (custom fork of Debian Installer),,,
+"Ubuntu, Kubuntu, Xubuntu","Free, and nonfree",Based on Debian[183],"24474From the Sources.gz files in the main,universe, multiverse and restricted sections of Ubuntu Wily.",APT,.deb,Ubiquity,,,PXE
+Ututo,Free only,5000,,UTUTO Package Manager,ebuild,,,,
+Vector Linux,"Free, and nonfree",,,"slapt-get, gslapt, installpkg",tgz,,,,
+Void Linux,"Free, nonfree and multilib",6000,6719,xbps,.xbps,ncurses script,,,
+XBMC Live,"Free, and nonfree",,,APT,.deb,,,,
+Zentyal,"Free, and nonfree",Based on Debian[183],,APT,.deb,dpkg,,,
+Zenwalk,"Free, and nonfree",2000,,"netpkg, installpkg, upgradepkg","tgz, txz",,,,
+Distribution,Free software repositories,Approximate number of pre-compiled packages,Approximate number of source packages,Default package management tools,Package format,Default installer,Graphical installation process,Netinstall,Netboot

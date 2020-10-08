@@ -1,0 +1,19 @@
+Object orientation,Java,C#
+Classes,mandatory,mandatory
+Interfaces,,
+Abstract classes,,
+Member accessibility levels,"Yes; public, package, protected, private","Yes; public, internal, protected, private, protected internal"
+Class-level inner classes,,
+Instance-level inner classes,,
+Statement-level (local) anonymous classes,,Yes; but without methods style=background: #8CF;
+Partial classes, style=background: #8CF;; Third-party library[47],
+Implicit (inferred) anonymous classes,,
+Deprecation/obsolescence,,
+Overload versioning,,
+Enums can implement interfaces,,
+Properties,",
+Events,Provided by standard libraries,Built-in language feature
+Operator overloading,,
+Indexers,,
+Implicit conversions, style=background: #8CF;; but see autoboxing,
+Explicit conversions,,

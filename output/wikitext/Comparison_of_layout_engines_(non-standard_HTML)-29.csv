@@ -1,0 +1,11 @@
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+manifest,html,6.0[67],12,1.9,,2.6[68][69]
+sizes,link,,13,8.0 (only mobile)[70][71],,
+charset,meta,4.0[73],12,1.9.2,,2.5.24
+scoped,style,,,21.0[74],,rowspan="6" 
+async,script,6.0,12,1.9.2[76],,
+reversed,ol,,,18.0[78],,
+downloaddate=December 2014,"a,area",,13,20.0[80],,
+sandbox,iframe,6.0[81],12,17.0[82],533[83],
+seamless,iframe,,,,,
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto

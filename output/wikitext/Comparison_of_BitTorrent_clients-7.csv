@@ -1,0 +1,5 @@
+BitTorrent library,Cache[64],Web seeding [95],WebTorrent,Broadcatching (RSS),Prioritization,Selective downloads,SOCKS,Remote control via web,Engine,Notes
+libtorrent (Rasterbar),,,,,,,,,,
+MonoTorrent,,,,,,,,,,
+rTorrent (libTorrent Rakshasa),,,,,,,,,,No built-in cache-disk cache but a delayed sync
+BitTorrent library,Cache,Web seeding,WebTorrent,Broadcatching (RSS),Prioritization,Selective downloads,SOCKS,Remote control via web,Engine,Notes

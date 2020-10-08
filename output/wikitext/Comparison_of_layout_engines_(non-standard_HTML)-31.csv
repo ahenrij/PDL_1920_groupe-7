@@ -1,0 +1,14 @@
+,Trident,Gecko,WebKit,KHTML,Presto
+Basic table elements,,,,,
+table,rowspan="5" 4.0,rowspan="5" 1.0,rowspan="5" ,rowspan="5" ,rowspan="5" 1.0
+caption,,,,,
+tr,,,,,
+th,,,,,
+td,,,,,
+Row groups,,,,,
+thead,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+tbody,,,,,
+tfoot,,,,,
+Column groups,,,,,
+colgroup,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+col,,,,,

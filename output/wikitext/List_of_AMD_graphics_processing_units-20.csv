@@ -1,0 +1,15 @@
+Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus inter- face,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct X,OpenGL,OpenCL,Vulkan,,
+FirePro S4000x[97][98],"August 7, 2014",GCN 1st Gen,Venus XT,28,PCIe 3.0 x16,950,1200,640:40:16:10,11.6,29,2,72,GDDR5,256,992,62,11.1 12.0,4.5,1.2,1.0,<45,"Type A MXM form factor, No physical display outputs,"
+FirePro S7000[99],"August 27, 2012",,Pitcairn XT,,,950,,1280:80:32:20,30.4,76,4,153.6,,,2432,152,,,,,<150,One DP
+FirePro S7100X[100][101][102][103],"May 25, 2016",GCN 3rd gen,Amethyst XT,,,723,1050,2048:128:32:32,23.14,92.5,8,160,,,2961,TBA,11.2 12.0,,2.0,1.1,100,"For Blade Servers, MXM Module 3.1"
+FirePro S7150[104][105][106][107],"February 1, 2016",,Tonga PRO GL,,,1050,1250,1792:112:32:28,33.6,117.6,,,,,3763,250,,,,,150,"ECC RAM, two Slots"
+FirePro S7150 X2[104][106][108][109],,,2× Tonga PRO GL,,,,,2× 1792:112:32:28,,,16,2× 160,,,7540,500,,,,,265,"ECC RAM, no physical display outputs"
+FirePro S9000[110],"August 27, 2012",GCN 1st gen,Tahiti PRO GL,,,900,1375,1792:112:32:28,28.8,100.8,6,264,,384,3225.6,806.4,11.1 12.0,,1.2,1.0,<225,"ECC RAM, One DP"
+FirePro S9050[111][112],"August 6, 2014",,,,,,,,,,12,,,,,,,,,,,
+FirePro S9100[113],"October 2, 2014",GCN 2nd gen,Hawaii Pro GL,,,824,1250,2560:160:64:40,52.74,131.8,,320,,512,4219,2109,,,2.0,,,"ECC RAM, No physical display outputs"
+FirePro S9150[114][115][116],"August 6, 2014",,Hawaii XT GL,,,900,,2816:176:64:44,57.6,158.4,16,,,,5070,2530,11.2 12.0,,,,<235,
+FirePro S9170[117][118],"July 8, 2015",,Grenada XT GL,,,930,1375,,59.52,163.68,32,,,,5240,2620,,,,,<275,"ECC RAM, Full Throughput double precision, no physical display outputs"
+FirePro S9300 x2[119][120][121][122][123],"March 31, 2016",GCN 3rd gen,2× Capsaicin XT,,,850,2x 500,2× 4096:256:64:64,54.4,217.6,2× 4,2× 512,HBM,2x 4096,13900,868,,,,1.1,300,"Non-ECC RAM, half-precision (FP16) support, no physical display outputs"
+FirePro S10000[124],"November 12, 2012",GCN 1st gen,2× Zaphod (Tahiti Pro GL),,,825,1250,2× 1792:112:32:28,52.8,184.8,2× 3,2× 240,GDDR5,384,5913.6,1478.4,11.1 12.0,,1.2,1.0,<375,"ECC RAM, 4x DP, 1x DVI-I"
+FirePro S10000 passive[125],,,2× Tahiti PRO GL,,,,,,,,,,,,,,,,,,,"ECC RAM, 1x Mini DP, 1x DVI-I"

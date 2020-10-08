@@ -1,0 +1,26 @@
+,public,private,protected,friend
+ABAP Objects,public section.[21] data field type type.,private section.[21] data field type type.,protected section.[21] data field type type.,[22]
+APL (Dyalog),:Field Public field «? value»,:Field «Private» field «? value»,,
+C++ (STL),public: type field;,private: type field;,protected: type field;,[23]
+C#,public type field «= value»;,private type field «= value»;,protected type field «= value»;,internal type field «= value»;
+D,,,,package type field «= value»;
+Java,,,protected type field «= value»;,type field «= value»;
+eC,public type field;,private type field;,,
+Eiffel,feature field: TYPE,feature {NONE} field: TYPE,feature {current_class} field: TYPE,feature {FRIEND} field: TYPE
+Objective-C,@public type field;,@private type field;,@protected type field;,@package type field;
+Swift,colspan=4 ,,,
+Smalltalk,colspan=2 ,[24],,
+Python,self.field = value[25],,colspan=2 ,
+Visual Basic .NET,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,Friend field As type «= value»
+Xojo,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,
+PHP,public $field «= value»;,private $field «= value»;,protected $field «= value»;,
+Perl,$self->{field} = value;[25],colspan=3 ,,
+Raku,has« type »$.field« is rw»,has« type »$!field,colspan=2 ,
+Ruby,colspan=2 ,@field = value[25],,
+Windows PowerShell,Add-Member «-MemberType »NoteProperty «-Name »Bar «-Value »value -InputObject variable,colspan=3 ,,
+OCaml,colspan=2 ,val «mutable» field = value,rowspan=2 ,
+F#,,let «mutable» field = value,,
+JavaScript,this.field = value this["field"] = value[25],,,
+COBOL,,level-number field clauses.[27],,
+Cobra,var field «as type» «= value»,var __field «as type» «= value»,var _field «as type» «= value»,
+ISLISP,(field :initform value :accessor accessor-name :initarg keyword),,,

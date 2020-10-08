@@ -1,0 +1,23 @@
+Name,Creator,First release date,Latest stable version,Latest release date,License,Language,Web application framework,CMS extension
+| AbanteCart Software,"Belavier Commerce, LLC",2011,,releasedate,OSL 3.0,PHP,Model-View-Controller,"integrated, and 3rd party extensions"
+| Apache OFBiz,Apache Software Foundation,2007,17.12.04[1],2020-07-13,Apache 2.0,Java,Apache OFBiz,"integrated, and 3rd party extensions"
+Batavi,Batavi,,Continuous/SaaS,Continuous/SaaS,Proprietary,PHP,,
+Bigcommerce,Bigcommerce Inc,,Continuous/SaaS,Continuous/SaaS,Proprietary,PHP,,
+CE Phoenix,osCommerce and Gary Burton,2019-07-04,1.0.2.0,2019-08-14,GNU GPL,PHP,Bootstrap 4,
+| Drupal Commerce,Drupal Commerce,2011-08-23,,releasedate,GPL,PHP,,Drupal
+| KonaKart,DS Data Systems UK Ltd,,9.0.0.0[2],2019-08-26,GNU LGPL,Java,,
+| Magento,Varien,2007-08-13,,releasedate,OSL 3.0,PHP,Zend Framework,
+Miva Merchant,"Miva, Inc.",,9.14,2019-08-07,Proprietary,MIVA Script,,
+| nopCommerce,Nop Solutions Ltd,2008-10-23,,releasedate,GPL,C#,ASP.NET MVC,
+| OpenCart,OpenCart Ltd.,1999-05-11,,releasedate,GPL,PHP,,
+| osCommerce,osCommerce,2000-03,2.3.4.1[3],2017-08-18,GNU GPL,PHP,,
+| pimcore,pimcore GmbH,2010,,releasedate,BSD,PHP,Symfony[4],pimcore
+| PrestaShop,PrestaShop SA,2007-08-15,,releasedate,OSL 3.0,PHP,Model-View-Controller,
+Shopify,Shopify,2006[5],Continuous/SAAS[6],Continuous/SAAS,Proprietary,Ruby,Ruby on Rails,
+| Spree Commerce,Sean Schofield,2007,,releasedate,BSD,Ruby,Ruby on Rails,
+SupaDupa,SupaDupa,,Continuous/SAAS,Continuous/SAAS,Proprietary,Ruby,Ruby on Rails,
+uCoz,uCoz Media,,Continuous/SAAS,Continuous/SAAS,Proprietary,Perl,,
+| VirtueMart,Max Milbers and Team,,,releasedate,GPL,PHP,,Mambo or Joomla!
+| WooCommerce,WooThemes,2011[7],3.8.1[8],2019-11-27,GPL,PHP,,WordPress
+| Zen Cart,Zen Ventures,2003-06[9],,releasedate,GPL,PHP,,
+!Creator,First release date,Latest stable version,Latest release date,License,Language,Web application framework,CMS extension,

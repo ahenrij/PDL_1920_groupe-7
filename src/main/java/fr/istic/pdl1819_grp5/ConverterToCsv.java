@@ -202,7 +202,6 @@ public class ConverterToCsv implements Converter {
 
 			for(int i =0; i<tables.size();i++){
 				if(isRelevant(tables.get(i))  &&  !isNested(tables.get(i)) ){
-					logger.info("ConvertFromHtml - inside if = " + tables.size());
 					csvSet.add(convertHtmlTable(tables.get(i)));
 					nbRelev++;
 				}
@@ -348,10 +347,9 @@ public class ConverterToCsv implements Converter {
 						result += s.charAt(i);
 					}
 				}
-				if(result == ""){
+				if(result.equals("")){
 					Map<String, Locale> localeMap;
 					String codeCountry = s.substring(2,5);
-
 					String[] countries = Locale.getISOCountries();
 					localeMap = new HashMap<String, Locale>(countries.length);
 

@@ -1,0 +1,5 @@
+Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+System wide base text size,,,?,2.1.0+: Set text size[79],?
+Monaural output,,,,,
+Always visible scrollbar,,,,,
+Reduced Animations,,,,,

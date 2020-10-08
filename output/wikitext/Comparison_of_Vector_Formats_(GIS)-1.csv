@@ -1,0 +1,4 @@
+,Point,Multipoint,Line,Polyline,MultiPolyline,Polygon,Multipolygon
+GeoJSON[1],,,Yes,,,,
+Personal Geodatabase,,,,,,,
+Shapefile[2],,,Yes,,,,Yes (as Polygon with multiple outer rings or as MultiPatch)

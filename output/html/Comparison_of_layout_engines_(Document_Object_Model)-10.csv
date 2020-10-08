@@ -1,0 +1,84 @@
+,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+Interface CSSStyleSheet,,,,,,,
+DOM2,ownerRule,No,?,1.0,?,?,2.0
+,cssRules,,Yes,,1.3,?,
+,insertRule(),,No,,No,?,
+,deleteRule(),,,,,?,
+Interface StyleSheetList,,,,,,,
+DOM2,length,6.0,?,1.0,?,?,2.0
+,item(),,?,,?,?,
+Interface CSSRuleList,,,,,,,
+DOM2,length,No,?,1.0,?,?,2.0
+,item(),,?,,?,?,
+Interface CSSRule,,,,,,,
+DOM2,type,No,?,1.0,?,?,2.0
+,cssText,,Yes,,?,?,
+,parentStyleSheet,,,,1.3,?,
+,parentRule,,?,,?,?,
+Interface CSSStyleRule,,,,,,,
+DOM2,selectorText,6.0,Yes,1.0,1.3,?,2.0
+,style,No,?,,?,?,
+Interface CSSMediaRule,,,,,,,
+DOM2,media,No,?,1.0,?,?,2.0
+,cssRules,,?,,?,?,
+,insertRule(),,?,,?,?,
+,deleteRule(),,?,,?,?,
+Interface CSSFontFaceRule,,,,,,,
+DOM2,style,No,?,1.9.1[g 3],?,?,2.0
+Interface CSSPageRule,,,,,,,
+DOM2,selectorText,No,?,No[g 4],?,?,2.0
+,style,,?,,?,?,
+Interface CSSImportRule,,,,,,,
+DOM2,href,No,Yes,1.0,1.3,?,2.0
+,media,,?,,?,?,
+,styleSheet,,?,,?,?,
+Interface CSSCharsetRule,,,,,,,
+DOM2,encoding,No,?,1.0,?,?,2.0
+Interface CSSUnknownRule,,,,,,,
+DOM2,(no properties),No,?,No[g 5],?,?,2.0
+Interface CSSStyleDeclaration,,,,,,,
+DOM2,cssText,No,?,1.0,?,?,2.0
+,length,,?,,?,?,
+,parentRule,,?,,?,?,
+,getPropertyValue(),,Yes,,1.3,?,1.0
+,getPropertyCSSValue(),,?,No[g 6],?,?,2.0
+,removeProperty(),,No,1.0,1.3,?,1.0
+,getPropertyPriority(),,Incorrect,,?,?,2.0
+,setProperty(),,Yes,,1.3,?,1.0
+,item(),,?,,?,?,2.0
+Interface CSSValue,,,,,,,
+DOM2,cssText,No,?,No[g 6],?,?,No
+,cssValueType,,?,,?,?,
+Interface CSSPrimitiveValue,,,,,,,
+DOM2,primitiveType,No,?,No[g 7],?,?,No
+,setFloatValue(),,?,No,?,?,
+,getFloatValue(),,?,,?,?,
+,setStringValue(),,?,,?,?,
+,getStringValue(),,?,,?,?,
+,getCounterValue(),,?,,?,?,
+,getRectValue(),,?,,?,?,
+,getRGBColorValue(),,?,,?,?,
+Interface CSSValueList,,,,,,,
+DOM2,length,No,?,No,?,?,No
+,item(),,?,,?,?,
+Interface RGBColor,,,,,,,
+DOM2,red,No,?,No,?,?,No
+,green,,?,,?,?,
+,blue,,?,,?,?,
+Interface Rect,,,,,,,
+DOM2,top,No,?,No,?,?,No
+,right,,?,,?,?,
+,bottom,,?,,?,?,
+,left,,?,,?,?,
+Interface Counter,,,,,,,
+DOM2,identifier,No,?,No,?,?,No
+,listStyle,,?,,?,?,
+,separator,,?,,?,?,
+Interface ViewCSS,,,,,,,
+DOM2,getComputedStyle(),No,No,1.0,No,?,1.0
+Interface DocumentCSS,,,,,,,
+DOM2,getOverrideStyle(),No,?,No[g 8],?,?,No
+Interface DOMImplementationCSS,,,,,,,
+DOM2,createCSSStyleSheet(),No,?,No[g 9],?,?,No
+Interface ElementCSSInlineStyle,,,,,,,
+DOM2,style,6.0,Yes,1.0,1.3,Yes,1.0

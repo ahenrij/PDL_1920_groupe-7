@@ -1,0 +1,22 @@
+Data types,Java,C#
+Arbitrary-size decimals,Reference type; no operators[1],Third party librarystyle=background: #8CF;[2]
+Arbitrary-size integers,Reference type; no operators,
+Arrays,,
+Boolean type,,
+Character,,
+Complex numbers,Third-party librarystyle=background: #8CF;[6],
+Date/time,,
+Enumerated types,,
+High-precision decimal number,style=background: #8CF;; but see 'Arbitrary-size decimals' above,128-bit (28 digits) Decimal type[8]
+IEEE 754 binary32 floating point number,,
+IEEE 754 binary64 floating point number,,
+Lifted (nullable) types,style=background: #8CF;; but wrapper types,
+Pointers,style=background: #8CF;;[9] only method references[10],
+Reference types,,
+Signed integers,","
+Strings,"Immutable reference type, Unicode","Immutable reference type, Unicode"
+Type annotations,,
+Single-root (unified) type system,style=background: #8CF;; but wrapper types,
+Tuples,style=background: #8CF;; limited 3rd party available.[13],
+Unsigned integers,style=background: #8CF;; but some method support.[15],"
+Value types,style=background: #8CF;; only primitive types,

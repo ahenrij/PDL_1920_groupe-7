@@ -1,0 +1,9 @@
+Name,SSH1,SSH2,Port forwarding,SFTP,SCP,Supports IPv6,Supports OpenSSH authorized keys,Privilege separation,FIPS 140-2 support
+Apache MINA SSHD,,,,,,,,,?
+Bitvise SSH Server,,,,,,,,,
+CopSSH,,,,,,,,,?
+CrushFTP Server,,,,,,,,,?
+Dropbear,,,,,,,,,?
+Lsh,,,,,,?,?,?,?
+OpenSSH (OpenBSD Secure Shell),,,,,,,,,group=Notefips
+wolfSSH,,,,,,,,,

@@ -1,0 +1,43 @@
+,Trident,Gecko[101],WebKit[102],Presto[103]
+Attributes,,,,
+autocomplete,3.1,,,rowspan="3" 2.0
+list,6.0[104],2.0[105],,
+required,6.0[107],2.0[108],"528name=validation-disabled-n1=Form validation disabled in Safari Can I use... Support tables for HTML5, CSS3, etc.[109]",
+multiple,6.0[110],1.9.2name="multiple-file"1=For file inputs only.[111],526name="multiple-file"[112],2.7[113]
+pattern,6.0[114],2.0[115],528name=validation-disabled-n[116][109],rowspan="3" 2.0
+"min, max",6.0[117][118],16.0[119][120],,
+step,6.0[122],16.0[123],528[124],
+placeholder,6.0[125],2.0[126],,2.7[113]
+form,,2.0[127],,rowspan="3" 2.0
+autofocus,6.0[129],2.0[130],528[131],
+maxlength,6.0[132],2.0[133],528[134],
+novalidate,6.0[135],2.0[136],528[137],2.8[97]
+control,,2.0[138],,
+accept,,2.0[139],,
+formtarget,6.0[141],2.0[142],,2.8[97]
+formaction,6.0[144],2.0[145],,2.8[97]
+formmethod,6.0[146],2.0[147],,2.8[97]
+formenctype,6.0[148],2.0[147],,2.8[97]
+formnovalidate,6.0[149],2.0[150],528[137],2.8[97]
+disabled (fieldset element),<3.1,2.0,,2.7
+Elements,,,,
+datalist,6.0[151],2.0[152],,2.0
+keygen[154],,1.0[156],125,1.0
+output,,2.0[157],,2.0
+progress,6.0[159],6.0[160],,rowspan="2" 2.7[113]
+meter,,16.0[162],,
+Input types,,,,
+search,6.0[164],2.0[165],312[166],rowspan="2" 2.7[113]
+tel,6.0[167],2.0[168],528[169],
+url,6.0[170],2.0[171],528[169],rowspan="10" 2.0
+email,6.0[172],2.0[173],528[169],
+datetime,,rowspan="6" ,,
+date,,rowspan="5" ,,
+month,,,,
+week,,,,
+time,,,,
+datetime-local,,,,
+number,6.0[177],29.0[178],528[169],
+range,6.0[179],23.0[180],,
+color,,29.0[181],,2.7[113]
+! Trident,Gecko,WebKit,Presto,

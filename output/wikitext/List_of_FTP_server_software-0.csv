@@ -1,0 +1,26 @@
+,,Cerberus,Complete,CrushFTP Server,FileZilla,IIS,Multi Server
+,License type,proprietary,proprietary,proprietary,FLOSS/GPL2,proprietary,proprietary
+OS,Linux,,,,,,
+,Mac OS X,,,,,,
+,Unix,,?,,,,
+,Windows,,,,,,
+User Interface,CLI,?,?,,?,",?
+,GUI integrated,,?,,,,?
+,GUI(s) separately,,?,?,?,?,?
+,Web-based GUI,,,,,,?
+Services,FTP,,,,,,
+,SFTP,,,,,,
+,FTPS,,,,,,
+,SCP,,,,,,
+,WebDAV,,,,,,
+,HTTP/HTTPS,,,,,,
+,AS2,,,,,,
+Authentication,LDAP,,,,,,
+,Active Directory,,,,,,
+,Local,,,,,,
+,Database,,,,,,
+High Availability,Failover Cluster (active/passive),,,,,,
+,Load Balancing (active/active),,?,,,,?
+Automation,Event-handling,,,,,,?
+,Scripting,,,,,,?
+,,Cerberus,Complete,CrushFTP Server,FileZilla,IIS,Multi Server

@@ -1,0 +1,20 @@
+Server,Authoritative,Recursive,Recursion ACL,Secondary mode,Caching,DNSSEC,TSIG,IPv6,Wildcard,Free Software,Interface,split horizon
+BIG-IP DNS,,,,,,,,,,,"API, command line",
+BIND,,,,,,,,,,,"Webgroup=Notebind_web, command line",
+PowerDNS,,,,group=Notepowerdns_sec6,,group=Notepowerdns_dnssec,,group=Notepowerdns_sec6,,,"REST, Webgroup=Notepowerdns_web, command line",group=Notepowerdns_views
+djbdns,,,,group=Notedjbsec,,group=Notedjbdns_dnssec,,,group=Notedjbdns_wild,,command line and web (VegaDNS & NicTool),group=Notelocations
+dbndns,,,,,,,,,,,command line and web,
+pdnsd,,,,,,,,,,,"command line, pdnsd-ctl program",
+MaraDNS,,,,group=Notemarasec,,,,,,,command line,
+Posadis,,,,,,,,,,,"command line, API",
+Unbound,,,,,,,,,,,"command line, API",
+Dnsmasq,group=Notemasqauth,,,,,group=Notemasqdnssec,,,,,command line,group=Notemasqsplit
+NSD,,,,,,,,,,,command line,
+Knot DNS,,,,,,,,,,,command line,group=Noteknotdns_modules
+Knot Resolver,,,,,,,,,,,command line and web,
+YADIFA,,,,,,,,,,,command line,
+Microsoft DNS,,,group=Notemsdns_policies,,,group=Notemsdns_dnssec,group=Notemsdns_tsig,group=Notemsdns_ipv6,,,"GUI, command line, APIgroup=Notemsdns_api, WMIgroup=Notemsdns_wmi, RPCgroup=Notemsdns_rpc",group=Notemsdns_policies
+Simple DNS Plus,,,,,,,,,,,"GUI, Web, command line",group=Notesdns_views
+Secure64 DNS Authority,,,,,,,,,,,Command Line or Web GUI,
+Secure64 DNS Cache,,,,,,,,,,,Command Line or Web GUI,
+Server,Authoritative,Recursive,Recursion ACL,Secondary mode,Caching,DNSSEC,TSIG,IPv6,Wildcard,Free Software,Interface,split horizon

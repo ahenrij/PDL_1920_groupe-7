@@ -1,0 +1,19 @@
+,downcast,upcast
+ABAP Objects,colspan=2 ,
+C++ (STL),,operator returntype() { instructions }
+C#,static explicit operator returntype(type operand) { instructions },static implicit operator returntype(type operand) { instructions }
+D,,T opCast(T)() if (is(T == type)) { instructions }
+eC,,property T { get { return «conversion code»; } }
+Java,rowspan=4 colspan=2 ,
+Objective-C,,
+Eiffel[35],,
+Python,,
+Visual Basic .NET,Shared Narrowing Operator CType(operand As type) As returntype instructions End Operator,Shared Widening Operator CType(operand As type) As returntype instructions End Operator
+PHP,rowspan=2 colspan=2 ,
+Perl,,
+Raku,,multi method type«($self:)» is export { instructions }
+Ruby,rowspan=3 colspan=2 ,
+Windows PowerShell,,
+OCaml,,
+F#,,
+COBOL,colspan=2 ,

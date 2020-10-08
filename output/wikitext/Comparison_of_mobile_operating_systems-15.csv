@@ -1,0 +1,10 @@
+Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+Separate volume for ringtone and media,,,?,,
+Voice commands,,5+ (Siri),?,"3rd party software, such as Saera[369]",
+Offline voice commands,6+[370],,?,,
+Voice recognition,,5+ (Siri),?,,
+Offline voice recognition,4.1+[372],"Limited, only calling and music playback[373]",,,
+Non-English voice recognition,,,?,,
+Sound recorder,Very limited (Doesn't work in background[374] and not voice controlled),3+: Limited (Not voice controlled)[375][376],Partial,,3rd party software
+Call recorder,",3rd party software[380],,"Disabled by default, must be interactively switched on during a call when enabled / 3rd party software[381]",?
+Sound trim,",,?,?,?

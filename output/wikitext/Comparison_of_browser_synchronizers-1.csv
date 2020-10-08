@@ -1,0 +1,8 @@
+Client,Encrypted transfer,Encrypted storage,Server changing,Web-based UI,Exporting,Link verification,Duplicate link checker,Notes
+BookmarkSync,,,,,,,,"Feb 12, 2012: Sync doesn't work properly."
+Opera Link,,,,,,,,
+Firefox Sync,,,,,,,,Data is encrypted on the client and not accessible even to Mozilla server operators.[7]
+,,,,,,,,
+Eversync,,,,,,,,
+floccus,,,self-hosted bookmarks,NextCloud,,,try recommended options on github,Adapters are available
+Client,Encrypted transfer,Encrypted storage,Server changing,Web-based UI,Exporting,Link verification,Duplicate link checker,Notes

@@ -1,0 +1,7 @@
+Application,Hard surface Modeling,,Sculpt Modeling,,,,Non-destructive Modeling,,,Patch Modeling -->,
+,Polygon Modeling,Subdivision Modeling,Base-mesh Creation,Sculpting,Hand Retopology,Automatic Retopology,Boolean,Bevel,Procedural,Single Patch,Multi-Patch -->
+Maya,,,(SOuP BMesh),,,2020 and later,,,,,
+3ds Max,,,(Form),Paint Deform,,,,,,,
+Blender,,,Skin Modifier,,,2.81 and later,,,stack only,,
+ZBrush,ZModeler,ZModeler,ZSphere and ZSketch,,,ZRemesher,4R8 and later,?,,,
+Curvy 3D,,,sketch-based,,?,?,?,?,,,

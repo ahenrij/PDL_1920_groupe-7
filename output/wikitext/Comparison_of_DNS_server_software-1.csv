@@ -1,0 +1,18 @@
+Server,BSD,Solaris,Linux,Mac OS X,Windows
+BIND,,,,,group=Notentbind
+Microsoft DNS,,,,,group=Notemsdns_included_functionality
+djbdns,,,,,
+Dnsmasq,,,,,
+Simple DNS Plus,,,,,
+NSD,,,,,
+Knot DNS,,,,,
+Knot Resolver,,,,,
+PowerDNS,,,,,
+MaraDNS,,,,,
+pdnsd,,,,,
+Posadis,,,,,
+Unbound,,,,,
+Cisco Network Registrar,,,,,
+YADIFA,,,,,
+Secure64 DNS Authority,,,,,
+Secure64 DNS Cache,,,,,

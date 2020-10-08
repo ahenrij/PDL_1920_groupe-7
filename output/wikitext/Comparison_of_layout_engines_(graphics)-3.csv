@@ -1,0 +1,14 @@
+,,Trident,EdgeHTML,Gecko,WebKit,Blink,"KHTMLKHTML did not have any native image support. This was by design: in Konqueror, multimedia files were handled by KParts.group=nname=Kparts",Presto
+JPEG,,3.0,,1.0,85,,,1.0
+JPEG 2000,,,,,"JPEG 2000 support was only available on the macOS platform prior to the release of 10.15 Catalina, and required QuickTime 7, since Safari 12 dropped official support for NPAPI plugins (including QuickTime).[2] (Note that the referenced link leads to the Mozilla Bugzilla, where this was brought up and confirmed.)group=n",,,
+JPEG XR,,5.0[3],,,,,,
+GIF,GIF 89a,rowspan="2" 3.0,rowspan="2" ,rowspan="2" 1.0,rowspan="2" 85,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+,GIF 87a,,,,,,,
+PNG,1.2,rowspan="3" 3.1,rowspan="3" ,rowspan="3" 1.0,rowspan="3" 85,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+,1.1,,,,,,,
+,1.0,,,,,,,
+APNG,,,,3.0,528,59.0,,9.5
+BMP,,,,,,,,1.0
+ICO,,,,,,,,1.0
+TIFF,,5.0[3],,,,,,
+WebP,,,17 [7],65[8],534.10[9],,,2.8.131[11]

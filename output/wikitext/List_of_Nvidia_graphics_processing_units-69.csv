@@ -1,0 +1,9 @@
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Bus interface,L2 Cache(MB),Core config,Clock speeds,,Memory (MT/s),Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS),,,,TBP (Watts)
+,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),DirectX,OpenGL,OpenCL,Vulkan,Single precision,Double precision,Half precision,
+GeForce GTX 1650 (Laptop),"April 23, 2019",TU117,TSMC 12FFN,4.7,200,PCIe 3.0 x16,1.0,1024:64:32,1395,1560,8000,49.92,99.84,2-4,128,GDDR5,128,12 (12_1),4.6,1.2,1.1 (1.2 via driver),3195,99.84[176],6390,50
+GeForce GTX 1650 Max-Q,,TU117(N18P-G0-MP-A1),,,,,,,1020,1245,,39.84,79.68,,112,,,,,,,2550,79.68[177],5100,30
+GeForce GTX 1650 Ti Max-Q,"April 2, 2020",TU117,,,,,,,?,1200,12000,38.4,76.8,4,192,GDDR6,,,,,,2458,76.8,4915,35
+GeForce GTX 1650 Ti,,TU117(N18P-G62-A1),,,,,,,1350,1485,,47.52,95.04,,,,,,,,,3041,95.04,6083,55
+GeForce GTX 1660 (Laptop),?,TU116,,6.6,284,,1.5,1408:88:48,1455,1599,16000,76.32,127.2,6,384,,192,,,,,4070,127.2[178],8141,?
+GeForce GTX 1660 Ti Max-Q,"April 23, 2019",,,,,,,1536:96:46,1140,1335,12000,64.08,128.2,,288,,,,,,,4101,128.2[179],8202,60
+GeForce GTX 1660 Ti (Laptop)[180],,,,,,,,1536:96:46,1455,1590,,76.32,152.6,,288,,,,,,,4884,152.6[181],9769,80

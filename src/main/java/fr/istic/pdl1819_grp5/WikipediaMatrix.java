@@ -35,12 +35,14 @@ public class WikipediaMatrix
 	*/
 	public Set<UrlMatrix> getConvertResult() throws IOException {
 		
-		System.out.println("Inside ConvertResult");
-		for (UrlMatrix urlMatrix : urlMatrixSet){
-			System.out.println("Inside ConvertResult");
-			if(extractType==ExtractType.HTML) urlMatrix.setFilesMatrix(converter.convertFromHtml(urlMatrix.getLink()));
-			else urlMatrix.setFilesMatrix(converter.convertFromWikitext(urlMatrix.getLink()));
+ 		for (UrlMatrix urlMatrix : urlMatrixSet){
+			if(extractType==ExtractType.HTML) {
+				urlMatrix.setFilesMatrix(converter.convertFromHtml(urlMatrix.getLink()));
+			}
+			else {
+				urlMatrix.setFilesMatrix(converter.convertFromWikitext(urlMatrix.getLink()));
 		}
+ 		}
 		return urlMatrixSet;
 	}
 

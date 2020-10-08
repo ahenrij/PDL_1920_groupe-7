@@ -1,0 +1,45 @@
+Other software,Software type,FOSS,Software license,Active,Last Update
+ADCCore,General library,,GNU GPL,,
+DCBouncer,Relay,,GNU GPL,,
+DC-Hublink,Hub linker,,GNU GPL,,
+DCWatch,Hub operator helper,,GNU GPL,,
+Embla,General library,,GNU GPL,,
+FlowLib,General library,,GNU GPL,,
+NetChatLink,Hub linker,,GNU GPL,,
+Announcer Bot,Announce new Releases,,GNU GPLv2,,
+Certmanager,Manage SSL Certificates,,GNU GPLv2,,
+SerieBot,SerieBot,,GNU GPL,,
+Other software,Software type,FOSS,Software license,Active,".[12] Operating system support Other software Windows Linux OS X Other ADCCore 
+Other software,Windows,Linux,OS X,Other,
+ADCCore,,,,Any .NET4 enabled platform,
+DCBouncer,,,,,
+DC-Hublink,,,,,
+DCWatch,,,,,
+Embla,,,,Any Java enabled platform,
+FlowLib,,,,Any C# enabled platform,
+NetChatLink,,,,Runs under Wine,
+Announcer Bot,,,,,
+Certmanager,,,,,
+SerieBot,,,,Any C# enabled platform,
+Other software,Windows,Linux,OS X,Other,
+Other software,GUI,CLI,Other,Programming language,Based on
+ADCCore,,,,C#,CoreDC
+DCBouncer,,,,C++,
+DC-Hublink,,,,Visual Basic,
+DCWatch,,,,"Java, Lua",Embla
+Embla,,,,Java,
+FlowLib,,,,C#,
+NetChatLink,,,,Object Pascal (Delphi),
+Announcer Bot,,,,Lua,
+Certmanager,,,,wxLua,
+ADC hub,GUI,CLI,Other,Programming language,Based on
+Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support
+ADCCore,,,,Tiger tree hash,"TIGR, ADCS"
+DCBouncer,,,,Tiger tree hash,"Any clients, hubs"
+DC-Hublink,,,,Tiger tree hash,TIGR
+DCWatch,,,"Java, Lua",Tiger tree hash,"TIGR, ADCS"
+Embla,,,,Tiger tree hash,TIGR
+FlowLib,,,,Tiger tree hash,TIGR
+NetChatLink,,,,Tiger tree hash,TIGR
+Announcer Bot,,,,,"ADCS, OSNR"
+Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support

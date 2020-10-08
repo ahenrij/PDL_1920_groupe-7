@@ -1,0 +1,12 @@
+Name,Keyboard mapping,Session tabs,ZMODEM transfers,Find text in buffer,Mouse input supportgroup=Notemouse_input,Unicode support,URL hyperlinking,Public key authentication,Smart card support,Hardware encryption,FIPS 140-2 validation,Scripting,Shared Database,Auto-reconnect,CA Certificates
+AbsoluteTelnet,full,,,,,,,,,,,,,,
+Bitvise SSH Client,,,,,,,,,,,,,,,
+OpenSSH (OpenBSD Secure Shell),,,,,group=Noteopenssh_mouse_input,,not nativegroup=Noteopenssh_url_highlight,,group=Noteopenssh_smartcard,,group=Noteopenssh_fips,,,,group=NoteopensshCA
+PuTTY,,group=NoteputtyTabs,,,,,group=NoteputtyHyperlink,,group=NoteputtySmartcard,,,,,,group=NoteputtyCA
+SecureCRT,,,,,,,,,,,,,,,
+SmartFTP,,,,,,,,,,AES-NI,,,,,
+Tera Term,,,,,,,,,,,,,,,
+TN3270 Plus,,,,,,,,,,,,,,,
+TtyEmulator,,,,,,,,,,,,,,,
+wolfSSH,,,,,,,,,,,,,,,
+ZOC,full,,,Alt+F,,UTF-8,,,pkcs#11,,,,,,

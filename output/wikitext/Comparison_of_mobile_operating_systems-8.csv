@@ -1,0 +1,13 @@
+Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+Camera focus at specified point,2.3+[269],,?,1.0.4+[270],
+Camera exposure metering from specified point,",,,?,
+On device picture info (including Exif data),Only date and location; more with 3rd party software[275],Only date and location; more with 3rd party software[276],,?,
+On device picture categorization,,5+[279],,?,
+On device picture description and search,,10+: Items/objects in picture;[281] 7+: Only date and location[282],,?,
+Turn off shutter sound,In silent mode[283],In silent mode[284],In silent mode,In silent mode[285],
+Picture crop,,5+[286],,,
+Photo rotation,,5+[286],,,
+Photo red-eye reduction,2.3+[287],5+[286],,,
+HDR photos option,"4.2+, some manufacturers earlier[289]",,,,
+Photo/video import from memory cards,,With Camera Connection Kit[266],,,
+Video trim,2.3+,,,?,

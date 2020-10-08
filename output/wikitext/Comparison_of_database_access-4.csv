@@ -1,0 +1,2 @@
+Database,Add new column,Delete column,Change column,Add element,Delete element
+MySQL,lang=mysqlalter table "tbname" add column "column_name";,lang=mysqlalter table "tbname" drop column "column_name";,lang=mysqlalter table "tbname" change "old" "new" "newtype";,lang=mysqlinsert into "tbname" ("fields") values ("values");,lang=mysqldelete from "tbname" where "expr";

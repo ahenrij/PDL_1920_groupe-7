@@ -1,0 +1,42 @@
+Name,Author,First public release,Latest stable version,Cost,Software license,Based framework,Written in
+AIMP,AIMP DevTeam,2006-08-08,,,,BASS audio library (decoder),Delphi
+Amarok,Mark Kretschmann,2003-06-01,,,GPLv2,"via Phonon: GStreamer, xine, MPlayer, VLC, DirectShow, QuickTime",C++
+Aqualung,Tom Szilagyi et al.,2006-01-01,0.9beta11 20130130,,GPLv2 or later,,C
+aTunes,Alex Aranda et al.,2006-01-01,,,GPLv2,,Java
+Audacious,Audacious Development Team,2005-10-30,,,BSD,XMMS based,"C, C++ (GTK+)"
+Banshee,Aaron Bockover,2005-02-17,,,MIT,GStreamer,C#
+Clementine,Clementine Team,2010-02-22,,,GPL,GStreamer,C++ (Qt)
+cmus,Timo Hirvonen,2005-01-18,,,GPL,,C
+Cog,Vincent Spader,2006-05-01,,,GPL,,Objective-C
+Exaile,Adam Olsen,2006-05-24,,,GPLv2 or later,GStreamer,Python (GTK+)
+Ecoute,Louka Desroziers & Julien Sagot,2008-09,3.0.8,,,AV Foundation & QuickTime,Objective-C
+Flash MP3 Player,Reality Software,2008-03-11,1.00,,,,
+foobar2000,Peter Pawlowski,2002-11-29,,,",,C++
+Guayadeque Music Player,Juan Rios,2009-03-12,0.4.5,,GPL,GStreamer,"C++ (wxWidgets, wxSqlite)"
+iTunes,Apple Inc.,2001-01-09,,,,QuickTime,
+JRiver Media Center,"JRiver, Inc.",1999-02-01,,,,JRiver code,C++
+JuK,Scott Wheeler,2003-02-01,,,GPL,,C++
+MediaMonkey Standard,Ventis Media Inc.,2003-08-25,,,,,"Delphi, C"
+MediaMonkey Gold,Ventis Media Inc.,2003-08-25,,,,,"Delphi, C"
+MediaMonkey Lifetime,Ventis Media Inc.,2003-08-25,,,,,
+Groove Music,Microsoft,2012,,,,,
+MPXPLAY,MPXPLAY,1998-01-01,,,GPL,,C
+Music on Console,Damian Pietras,2002-01-01,,,GPL,,C
+Music Player Daemon,Warren Dukes,2003-05-01,,,GPL,,C
+MusicBee,Steven Mayall,2008-12-04,,,,BASS audio library,Visual Basic .NET
+musikCube,Casey Langen,2005-01-01,,,BSD,,
+Napster,William Christopher Gorog,2003-10-01,,,,,
+Quod Libet,Quod Libet Team,2004-11-08,,,GPL,GStreamer,Python (GTK) PyGTK
+Rdio,Rdio Inc,2010-08-03,Microsoft Windows: 1.12.0.0 (2013) WP 8+ : 4.0.5.0 (df=yes20131028) iOS: 3.0.3 (df=yes20140927),,,,
+Rhapsody,RealNetworks,2003-01-01,,,,,
+Rhythmbox,Colin Walters,2004-04-01,,,GPL,GStreamer,C
+Sayonara Player,Michael Lugmair (until 2020 under the pseudonym Lucio Carreras),2011,1.5.1-stable5 / 29 August 2019,,GPLv3,GStreamer,C++
+Songbird,POTI Inc.,2006-02-08,,,GPL,GStreamer,
+Sonic Visualiser,"Centre for Digital Music at Queen Mary, University of London",2007-05-10,"3.1.1 (August 14, 2018)",,GPLv2 or later,,
+Sonique,Media Science,1998-11-01,1.96 (March 2002),,,,
+Spotify,Spotify LTD,2008-10-07,,,,,
+Style Jukebox,Digital Geek LTD,2009-07-01,,,,,C#
+Winamp,Nullsoft,"April 21, 1997",,,,Wasabi,C/C++
+XMMS,XMMS Team,1997-11-01,,,GPL,original,C
+XMPlay,Un4seen Developments,1998,3.8 (20131223),,,BASS audio library,
+Name,Author,First public release,Stable version,Cost,Software license,Based framework,Written in

@@ -1,0 +1,16 @@
+OLAP server,MOLAP,ROLAP,HOLAP,Offline
+Apache Kylin,,,,
+ClickHouse,,,,
+Druid,,,,
+Essbase,,,,
+IBM Cognos BI,,,,
+IBM Cognos TM1,,,, Cognos Insight Distributed mode
+icCube,,,, Offline Cubes
+Jedox OLAP Server,,,,
+Kyvos,,,,
+Microsoft Analysis Services,,,,"Local cubes, PowerPivot for Excel, Power BI Desktop"
+MicroStrategy Intelligence Server,,,,"MicroStrategy Office, Dynamic Dashboards"
+Mondrian OLAP server,,,,
+Oracle Database OLAP Option,,,,
+SAP NetWeaver BW,,,,
+SAS OLAP Server,,,,

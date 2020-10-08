@@ -93,7 +93,7 @@ public class wikiMain {
         //save files
         long execHtml = System.currentTimeMillis();//to measure time of execution
         ArrayList<Integer> extractedHTML = new ArrayList<Integer>();
-        ArrayList<String> urls = new ArrayList<String>();
+        ArrayList<String> urls = new ArrayList<String>(); 
 
         int numberFileHtml = 0; //Creation of the variable which contains the number of files
         for (UrlMatrix urlMatrix : urlMatrixSet) {
@@ -171,7 +171,7 @@ public class wikiMain {
             URL uneURL = null;
             while ((url = br.readLine()) != null) {
                 wurl = BASE_WIKIPEDIA_URL + url;
-                System.out.println("WURL : "+wurl);
+                //System.out.println("WURL : "+wurl);
                 uneURL = new URL(wurl);
                 HttpURLConnection connexion = (HttpURLConnection) uneURL.openConnection();
                 if (connexion.getResponseCode() == HttpURLConnection.HTTP_OK) {

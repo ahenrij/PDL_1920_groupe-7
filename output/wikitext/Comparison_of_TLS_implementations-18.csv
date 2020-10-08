@@ -1,0 +1,17 @@
+Implementation,PKCS #11 device,Intel AES-NI,VIA PadLock,ARMv8-A,Intel SGX,Intel QAT,Intel SHA
+Botan,,,,,,,
+cryptlib,,,,,,,
+Crypto++,,,,,,,
+GnuTLS,,,,,,,
+JSSE,,,,,,,
+LibreSSL,,,,,,,
+MatrixSSL,,,,,,,
+Mbed TLS,,,,,,,
+NSS,,,,,,,
+OpenSSL,,,,,,,
+RSA BSAFE Micro Edition Suite,,,,,,,
+"RSA BSAFE SSL-J group=lower-alphaPure Java implementations relies on JVM processor optimization capabilities, such as OpenJDK support for AES-NI[212]group=lower-alphaRSA BSAFE SSL-J can be configured to run in native mode, using BSAFE Crypto-C Micro Edition to benefit from processor optimization.[213]",Yes,Yes,,Yes,,,Yes
+SChannel,,,,,,,
+Secure Transport,,,,,,,
+wolfSSL,,,,,,,
+Implementation,PKCS #11 device,Intel AES-NI,VIA PadLock,ARMv8-A,Intel SGX,Intel QAT,Intel SHA

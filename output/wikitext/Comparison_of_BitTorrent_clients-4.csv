@@ -1,0 +1,23 @@
+BitTorrent client,Cache [64],Hash Web seeding,HTTP Web seeding,Broad-catching (RSS),Prioritization,Selective downloads,Sequential downloading,SOCKS,Tracker exchange [65],Remote control via web,Search engine,Auto updates,Reviews and Comments,Notes
+BitComet,,,,,,,,,,,Built-in Web browser,,,Portable version available
+BitLord,,,Partial [68][69],,,,,,,,Built-in Web browser,,,
+"BitTorrent 5, Mainline",,,Partial [69],,,,,,,,,,,
+BitTorrent 6,,,,,,,,,,,,,,
+Deluge,,,Partial [68],,,,,,,,,,,
+FlashGet,,,,,,,,,,,,,,FlashGet (standalone application) is not FlashGot (Firefox Addon)
+Free Download Manager,,,,,,,,,,,,,,
+KTorrent,,,,,,,,,,,Built-in Web browser,,,
+LimeWire,,,,,,,,,,,,,,
+MLDonkey,,,,3rd party bash script,,,,,,,Built-in Web browser,,,
+?Torrent,,,Partial [69],,,,,,,,,,,
+Opera 12,,,,group=NoteOperaRSS,,,,,,,built-into Web browser,Windows and Mac OS X only; via PMS on Linux,,Web browser
+qBittorrent,,,Partial [68],,,,,,hard-coded as disabled in newer versions,,,,,
+rTorrent,,,,3rd party utility [76],,,,,,,,,,No built-in disk cache but a delayed sync
+Shareaza,,,,,,,in mod client,,,,,,,[81]
+Tixati,,,Partial [68][82][69],,,,,,,,,,,"lightweight client, Portable version available, option to keep all peers unchoked available Integral encrypted chatrooms that allow streaming audio and video, link sharing and searching"
+Tonido,,,,,,,,,,,,,,
+Transmission,,,Partial [69][83],,,,,,,,,,,
+Tribler,,,,,,,,,,,,,,Fully distributed keyword search; integrated anti-spam measures[85]
+Vuze (formerly Azureus),,,,,,,,,,,,,,The only client to bridge between i2p and the clearnet.
+Xunlei,,,,,,,,,,,,,,
+BitTorrent client,Cache,Hash Web seeding,HTTP Web seeding,Broad-catching (RSS),Prioritization,Selective downloads,Sequential downloading,SOCKS,Tracker exchange,Remote control via web,Search engine,Auto updates,Reviews and Comments,Notes

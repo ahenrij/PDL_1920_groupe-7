@@ -1,0 +1,21 @@
+Name,Programming language,Platform,License,Stable version,Portable,Detect conflict,Renames or moves,Propagate deletes,Revision control,Scheduling or service,Other information
+Conduit,Python,"Linux, FreeBSD",GPL,0.3.17 (2010-01-21)[2],,,,,,,"Synchronizes files, website, network apps"
+DirSync Pro,Java,Java SE,GPLv3,1.53 (2018-03-07)[3],,,,,,,"sym-links, filter, metadata, contents, auto-sync"
+FreeFileSync,C++,"Windows, OS X, Linux",GPL,11.0 (2020-07-21)[4],,,,,,,"Older version had OpenCandy Adware/malware, but now funded by donations.[7][8]"
+iFolder,"C#, Mono","Windows, OS X, Linux, Solaris",GPL,3.8.0.3 (2010-07-19),,,",,,,
+InterPlanetaryFileSystem,Go,"Windows, OS X, Linux",GPL,0.6.0 (2020-06-19)[9],,,,,,,
+luckyBackup,C++,"Windows, OS X, Linux, FreeBSD",GPLv3,0.5.0 (2018-11-18)[11],,,,,,,Uses rsync backend
+Nextcloud,"PHP, C++, JavaScript[12]","Server: Linux, FreeBSD Clients: Windows, OS X, Linux, FreeBSD, Android, iOS",AGPLv3,19.0.3 (2020-09-10),,,,,,,Fork of ownCloud and actively maintained Windows Phone App
+OneSync,C#,Windows,GPL,4.0 (2012-02-19)[14],,,,,,,
+ownCloud community edition,"PHP, C++, JavaScript[15]","Server: Linux, FreeBSD Clients: Windows, OS X, Linux, FreeBSD, Android, iOS",AGPLv3 (Server Edition) / proprietary (Enterprise Edition),,,,,,,,"iOS, Android, Blackberry, Win, Mac, Linux Client; external storage support; encryption app; app framework"
+Pydio Open source home,"Server: PHP, Python, C++ Clients: JS, C#, Swift, Java","Windows, OS X, Linux, Android, iOS",AGPLv3,8.0.2 (2017-12-13),,,,,,,
+rclone,Go,"Linux, Windows, Linux, Windows, macOS, FreeBSD, NetBSD, OpenBSD, Plan9, Solaris - Intel/AMD-64, Intel/AMD-32, ARM-32, ARM-64, MIPS-Big-Endian, MIPS-Little-Endian",MIT,1.53.1 (13 September 2020),,,,,,,"Supports over fifty cloud, protocol and virtual backends including S3 buckets, Google Drive, Microsoft OneDrive, and other high latency file storage. Capabilities include sync, cache, encrypt and mount."
+rsync,C in a Unix-Linux shell,"Windows, OS X,[18] Linux,[19][20] BSD",GPL v3,,,,,,,,"client & server operation. Multiple comparison criteria (date, check-sum)."
+Seafile community edition,"C99, Python[21]","Server: Linux, Raspbian, Windows Clients: Linux, OS X, Windows, Android, iOS.[22]",AGPLv3 (Server) + Apache License 2.0 (Client),,,,,,,,Android and iOS mobile clients
+SparkleShare,C#,"Windows, OS X, Linux, Android, iOS",GPL v3 and LGPL,2.0.1 (2017-12-22),,,,,,,
+SymmetricDS,Java,Java SE,GPL,3.9.4 (2018-02-16),,,,,,,plug-in APIs for customization
+Synchronizer (krusader),,"Windows, OS X, Linux",GPL v2,2.6.0 (2017-04-12),,,,,,,Synchronizer no longer in active development
+Syncthing,Go,"Windows, OS X, Linux, Android, BSD, Solaris",MPL v2,,,,,,,,Distributed peer-to-peer sync
+Synkron,C++,"Windows, OS X, Linux",GPL v2,1.6.2 (2011-01-25){[24]},,,,,,,no longer in active development
+Unison,Objective CAML,"Windows, OS X, Linux, Unix flavors",GPL v3,2.51.2 (2018-01-27),,,,,,,
+Name,Programming language,Platform,License,Stable version,Portable,Detect conflict,Renames or moves,Propagate deletes,Revision control,Scheduling or service,Other information
