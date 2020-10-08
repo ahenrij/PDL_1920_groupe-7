@@ -15,11 +15,13 @@ from version to version over time to make it more powerful and better than the o
 the current objective is to have a better extractor than the other versions.
 
 ## Getting Started
-clone https://github.com/manuc352/PDL_1920_groupe-7 for development and testing purposes
+clone https://github.com/awadiaby/PDL_1920_groupe-7/ for development and testing purposes
 
 ## Prerequisites
 #### For Users
 * JRE >= 1.8
+* use the java version 8
+* use the jUnit version 5
 * java IDE  (Eclispe,Intelliji Idea etc..)
 * [Maven](https://maven.apache.org/) - Dependency Management to get all dependencies of this project.
 * for installing and testing we are inviting you to click on, this below link
@@ -44,8 +46,8 @@ In order to attain this goal, there are several areas of concern that Maven atte
 * Allowing transparent migration to new features
 
 you will find more informations to increase your comprehension of the project when you will read the below files
-[Install.md](https://github.com/manuc352/PDL_1920_groupe-7/blob/master/INSTALL.md) and
-[Design.md](https://github.com/manuc352/PDL_1920_groupe-7/blob/master/DESIGN.md)
+[Install.md](https://github.com/awadiaby/PDL_1920_groupe-7/blob/master/INSTALL.md) and
+[Design.md](https://github.com/awadiaby/PDL_1920_groupe-7/blob/master/DESIGN.md)
 
 ## Functionalities of  the application
 #### the functionalities which were implemented by the first group to work on the project
@@ -90,4 +92,5 @@ now it's our turn to improve their work
 * Awa Diaby
 * Thibaud
 * Maurice Aka
+* Safietou Diallo
 
