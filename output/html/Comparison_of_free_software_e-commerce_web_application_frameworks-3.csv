@@ -1,16 +1,15 @@
-,Multiple store fronts,Affiliates,API (remote management functions),Minimum orders,Multiple vendor support,Out-of-the-box shopping cart
-Apache OFBiz,Yes,Yes,Yes,Yes,No,Yes
-Batavi,No,No,No,Yes,Yes,Yes
-Bigcommerce,No,3rd party,Yes,Yes,Yes,Yes
-Drupal Commerce,Yes,Yes,Yes,Yes,Yes,Yes
-KonaKart,No,No,Yes,Yes,Yes,Yes
-Magento,Yes,3rd party,Yes,Yes,Yes,Yes
-nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes
-osCommerce,No,No,No,Yes,No,Yes
-pimcore,Yes,Yes,Yes,Yes,Yes,No
-PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes
-Shopify,No,Yes,Yes,Yes,Yes,Yes
-SupaDupa,No,No,No,No,No,Yes
-WooCommerce,No,Yes,Yes,No,Yes,No
-Zen Cart,add-on,3rd party,No,add-on,No,Yes
-,Multiple store fronts,Affiliates,API (remote management functions),Minimum orders,Multiple vendor support,Out-of-the-box shopping cart
+,Source code provided,Ajax use,Digital downloads,eBay listing integration,eBay order import,Multiple skins,Point of sale order management,Subscriptions,Taxation,Template engine
+Apache OFBiz,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Bigcommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+Drupal Commerce,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes
+nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Magento,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+pimcore,Yes,Yes,Yes,No,No,3rd party,Yes,Yes,Yes,Yes
+OpenCart,Yes,Yes,Yes,Add-on,Add-on,Yes,No,Yes,Yes,Yes
+osCommerce,Yes,Yes,Yes,3rd party,3rd party,Yes,Yes,Yes,Yes,Yes
+PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Shopify,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+SupaDupa,No,Yes,No,No,No,Yes,Yes,No,Yes,Yes
+WooCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Zen Cart,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes
+,Source code provided,Ajax use,Digital downloads,eBay listing integration,eBay order import,Multiple skins,Point of sale order management,Subscriptions,Taxation,Template engine

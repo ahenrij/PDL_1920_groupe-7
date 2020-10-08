@@ -1,8 +1,14 @@
 ,,Trident,EdgeHTML,Gecko,WebKit,Blink,KHTML[n 1],Presto
-Color mode[n 4],True color,3.1,Yes,1.0,85,Yes,Yes,1.0
-,Grayscale,,,,,,,
-,Palette-based,,,,,,,
-Alpha channel,,3.1,Yes,1.0,85,Yes,Yes,1.0
-Gamma correction,,5.0[13],Yes,3.5[14],Incorrect[n 5],?,No[16],Partial[n 6]
-Color correction,,,Yes,1.9,?,?,?,No
-Interlacing,,Incorrect[n 7],?,1.0,?,?,4.0,1.0
+JPEG,,3.0,Yes,1.0,85,Yes,Yes,1.0
+JPEG 2000,,No,No,No[2],Dropped[n 2],No,No,No
+JPEG XR,,5.0[4],Yes,No[5],No,No,No,No
+GIF,GIF 89a,3.0,Yes,1.0,85,Yes,Yes,1.0
+,GIF 87a,,,,,,,
+PNG,1.2,3.1,Yes,1.0,85,Yes,Yes,1.0
+,1.1,,,,,,,
+,1.0,,,,,,,
+APNG,,No,No,3.0,528,59.0,No,9.5
+BMP,,Yes,Yes,Yes,Yes,Yes,Yes,1.0
+ICO,,Yes,Yes,Yes,Yes,Yes,Yes,1.0
+TIFF,,5.0[4],Yes,No[6],No,No,Yes[7],No
+WebP,,No,17 [8],65[9],534.10[10],Yes[11],No,2.8.131[12]

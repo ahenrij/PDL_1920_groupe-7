@@ -1,30 +1,21 @@
-Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
-GeForce 7025 + nForce 630a,July 2007,MCP68S,TSMC 110 nm,HyperTransport,425,266 400[citation needed],2:1:2:2,850,850,850,106.25,Up to 256 system RAM,8.528 12.8[citation needed],DDR2,128
-GeForce 7050PV + nForce 630a,,MCP67QV,,,,266 400[citation needed],,,,,,,8.528 12.8[citation needed],,
-GeForce 7050 + nForce 610i/630i,,MCP73,TSMC 90 nm,HyperTransport/FSB,500,333,,1000,1000,1000,125,,5.336,,64
-GeForce 7100 + nForce 630i,,MCP76,,FSB,600,400,,1200,1200,1200,150,,6.4,,
-GeForce 7150 + nForce 630i,,,,,630,,,1260,1260,1260,157.5,,,,
-GeForce 7100 GS,"August 8, 2006",NV44,TSMC 110 nm,PCIe ×16,350,300,4:3:4:2,1400,700,1400,262.5,128 256,4.8,,
-GeForce 7200 GS,"January 18, 2006",G72,TSMC 90 nm,AGP 8× PCIe ×16,450,400,2:2:4:2,1800,900,1800,337.5,,6.4,,
-GeForce 7300 SE,"March 22, 2006",,,PCIe ×16,350,333,4:3:4:2,,,,,128,5.328,,
-GeForce 7300 LE,,,,,,,,,,,,,,,
-GeForce 7300 GS,"January 18, 2006",,,AGP 8× PCIe ×16,550,400,,2200,1100,2200,412.5,128 256,6.4,,
-GeForce 7300 GT,"May 15, 2006",G73,,,350,325,8:5:8:4,2800,1400,2800,437.5,,10.4,,128
-GeForce 7500 LE,2006,G72,,,263 324,275,4:3:4:2,900 1100,900 1100,2200,412.5,64 128 256,2.6 6.8,,32 64
-GeForce 7600 GS,"March 22, 2006 (PCIe) July 1, 2006 (AGP)",G73,,,400,400,12:5:12:8,4800,3200,4800,500,256,12.8,,128
-GeForce 7600 GT,"March 9, 2006 (PCIe) July 15, 2006 (AGP)",,,,560,700,,6720,4480,6720,700,,22.4,GDDR3,
-GeForce 7600 GT 80 nm,"January 8, 2007",G73-B1,TSMC 80 nm,,,,,,,,,,22.4,,
-GeForce 7650 GS,"March 22, 2006",G73,,PCIe ×16,450,400,,5400,3600,5400,562.5,,12.7,DDR2,
-GeForce 7800 GS,"February 2, 2006",G70,TSMC 110 nm,AGP 8×,375,600,16:8:16:8,6000,3000,6000,750,,38.4,GDDR3,256
-GeForce 7800 GT,"August 11, 2005",,,PCIe ×16,400,500,20:7:20:16,8000,6400,8000,700,,32,,
-GeForce 7800 GTX,"June 22, 2005 (256 MB) November 14, 2005 (512 MB)",,,,430 (256 MB) 550 (512 MB),600 (256 MB) 850 (512 MB),24:8:24:16,10320 (256 MB) 13200 (512 MB),6880 (256 MB) 8800 (512 MB),10320 (256 MB) 13200 (512 MB),860 (256 MB) 1100 (512 MB),256 512,38.4 (256 MB) 54.4 (512 MB),,
-GeForce 7900 GS,"May 2006 (PCIe) April 2, 2007 (AGP)",G71,TSMC 90 nm,AGP 8× PCIe ×16,450,660,20:7:20:16,9000,7200,9000,787.5,256,42.24,,
-GeForce 7900 GT,"March 9, 2006",,,PCIe ×16,,,24:8:24:16,10800,,10800,900,,,,
-GeForce 7900 GTO,"October 1, 2006",,,,650,,,15600,10400,15600,1300,512,,,
-GeForce 7900 GTX,"March 9, 2006",,,,,800,,,,,,,51.2,,
-GeForce 7900 GX2,,2× G71,,,500,600,2× 24:8:24:16,24000,16000,24000,2000,2× 512,2x 38.4,,
-GeForce 7950 GT,"September 6, 2006 (PCIe) April 2, 2007 (AGP)",G71,,AGP 8× PCIe ×16,550,700,24:8:24:16,13200,8800,13200,1100,512,44.8,,
-GeForce 7950 GX2,"June 5, 2006",2× G71,,PCIe ×16,500,600,2× 24:8:24:16,24000,16000,24000,2000,2× 512,2x 38.4,,
-Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
+,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
+GeForce 4057,"September 16, 2011",GT216 GT218,40 nm,486 260,100 57,1,48:16:8 16:8:4,475 589,1100 1402,800 790,3.8 2.36,7.6 4.71,512 1024,12.6,DDR3,64,n/a[29],10.1,3.3,1.1,105.6 44.86,Unknown,30.5,OEM
+GeForce GT 420,"September 3, 2010",GF108,TSMC 40 nm,585,116,,48:4:4,700,1400,1800,2.8,2.8,512,28.8,GDDR3,128,,12 FL 11_1,4.6,,134.4,Unknown,50,
+GeForce GT 430,"October 11, 2010",GF108 GF108-300-A1,,,,2,96:16:4,,,1600 1800,,11.2,512,25.6 28.8,,,,,,1.2,268.8,Unknown,60,
+,,,,,,,,,,1800,,,512 1024 2048,28.8,,128,,,,1.1,268.8,Unknown,49,$79
+,,,,,,,,,,1300,,,,10.4,,64,,,,,,,,
+GeForce GT 440,"February 1, 2011",GF108,,,,,,810,1620,1800 3200,3.24,12.96,1024,28.8 51.2,GDDR3 GDDR5,128,,,,,311.04,Unknown,65,$100
+,"October 11, 2010",GF106,,1170,238,3,144:24:24,594,1189,1800,14.26,14.26,1536 3072,43.2,GDDR3,192,,,,,342.43,Unknown,56,OEM
+GeForce GTS 450,,,,,,,,790,1580,4000,18.96,18.96,1536,96,GDDR5,,,,,,455.04,Unknown,106,
+,"September 13, 2010 March 15, 2011",GF106-250 GF116-200,,,,4,192:32:16,783,1566,3608,12.53,25.06,512 1024,57.73,,128,,,,,601.34,Unknown,106,$129
+GeForce GTX 460 SE,"November 15, 2010",GF104-225-A1,,1950,332,6,288:48:32,650,1300,3400,20.8,31.2,1024,108.8,,256,,,,,748.8,Unknown,150,$160
+GeForce GTX 460,"October 11, 2010",GF104,,,,7,336:56:32,,,,,36.4,1024,108.8,,,,,,,873.6,Unknown,,OEM
+,"July 12, 2010",GF104-300-KB-A1,,,,,336:56:24,675,1350,3600,16.2,37.8,768,86.4,,192,,,,,907.2,Unknown,,$199
+,,,,,,,336:56:32,,,,21.6,,1024 2048,115.2,,256,,,,,,,160,$229
+,"September 24, 2011",GF114,,,,,336:56:24,778,1556,4008,18.67,43.57,1024,96.2,,192,,,,,1045.6,Unknown,,$199
+GeForce GTX 465,"May 31, 2010",GF100-030-A3,,3000[30],529,11,352:44:32,607,1215,3206,19.42,26.71,1024,102.6,,256,,,,1.2,855.36,106.92,2004,$279
+GeForce GTX 470,"March 26, 2010",GF100-275-A3,,,,14,448:56:40,,,3348,24.28,34,1280,133.9,,320,,,,,1088.64,136.08,2154,$349
+GeForce GTX 480,"March 26, 2010",GF100-375-A3,,,,15,480:60:48,700,1401,3696,33.60,42,1536,177.4,,384,,,,,1344.96,168.12,2504,$499
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
+,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,

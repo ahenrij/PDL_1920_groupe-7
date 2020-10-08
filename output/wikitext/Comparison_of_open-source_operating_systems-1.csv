@@ -1,8 +1,28 @@
-Operating system,Mandatory access control,Software executable space protection,Operating system-level virtualization,Virtualisation,Userspace protection,Others
-Linux,"SELinux, AppArmorgroup=Notez1 ","Exec Shield,group=Notez1 PaXgroup=Notez1 ","Chroot, namespace and cgroups,group=Notez4 Linux-VServer,group=Notez1 OpenVZgroup=Notez1 ",KVM,"IPFilter, Iptables","grsecurity,group=Notez1 RSBACgroup=Notez1"
-FreeBSD,"SeBSD,group=Notez2group=Notez3 TrustedBSD",ProPolice/SSPgroup=Notez5,jail,bhyve[48],"IPFW, PF, IPFilter",
-Darwin,"SEDarwin, TrustedBSD",,jail,,IPFW,
-OpenBSD,,"W^X, ProPolice/SSPgroup=Notez6",,vmm[49],PF,
-"OpenSolaris, illumos",TrustedBSD,,Solaris Containers,KVM[50],IPFilter,RBAC[51]
-Plan 9,,,per-process namespaces,,,
-Inferno,,,per-process namespaces,,,
+Name,RAID,quota,Resource access control,encryption,other special file system features
+Linux,,,"Unix, ACL, MAC",,"LVM, EVMS"
+FreeBSD,,,"Unix, ACL, MAC",,"GEOM, snapshots, background fsck, user-mountable file systems"
+OpenBSD,,,Unix,,
+NetBSD,,,"Unix, Veriexec",,"Snapshots, Journaling"
+DragonFly BSD,,,Unix,,"HAMMER, Snapshots, Checksumming, Deduplication"
+"OpenSolaris, illumos",,,"Unix, ACL, MAC",,"Solaris Volume Manager, ZFS, snapshots, transparent data repair"
+"Darwin, OpenDarwin",,,"Unix, ACL",,
+MINIX,,,Unix,,
+FreeDOS,,,,,
+Genode,,,,,Per-process virtual file-system layer
+KolibriOS,,,,,
+MenuetOS,,,,,
+GNU,,,Unix,,
+ReactOS,,,,,
+"L4, Fiasco, Pistachio",,,,,
+Plan 9,,,"Unix-like, no root",,"snapshots, venti archival storage, per-process namespace, user-mountable file systems"
+AROS,,,,,
+Syllable,,,Unix,,"64-bit, journaling, extended file attributes"
+Inferno,,,"Unix-like, no root",,"per-process namespace, user-mountable file systems"
+FreeRTOS,,,,,
+eCos,,,,,
+RTEMS,,,,,
+HelenOS,,,,,
+E/OS,,,Unix,,-
+K42,,,,,
+UnixLite -->,,,,,
+Name,RAID,quota,Resource access control,encryption,other special file system features

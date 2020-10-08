@@ -1,36 +1,37 @@
-Client,386BSD,"BSD/OS (BSD/386, BSDI)","FreeBSD, NetBSD, OpenBSD",SunOS,ULTRIX,AIX,A/UX,HP-UX,IRIX,SCO OpenServer,Solaris,UnixWare,Linux,NeXTSTEP,OpenVMS,OSF/1,QNX,Tru64 UNIX
-Bersirc,,,,,,,,,,,,,,,,,,
-BitchX,,"BitchX is known to work on BSDI 2.0, 2.1, 3.1, 4.0; FreeBSD 2.x, 3.x, 4.0; NetBSD 3.x, 4.x; SunOS 4.1.4; Ultrix; AIX; HP-UX 9.x, 10.x; IRIX 5.x, 6.x; Solaris 5.x and later; Linux; OSF/1 (DEC Alpha); QNX name=Unix_operating_system_support_BitchX_Agroup=Note",,,,,,,,,,,,,,,,
-ChatZilla,,,,,,,,,,,,,,,,,,
-Colloquy,,,,,,,,,,,,,,,,,,
-degesch,,,,,,,,,,,,,,,,,,
-DMDIrc,,,,,,,,,,,,,,,,,,
-ERC,,,,,,,,,,,,,,,,,,
-HexChat,,,,,,,,,,,,,,,,,,
-HydraIRC,,,,,,,,,,,,,,,,,,
-IceChat,,,,,,,,,,,,,,,,,,
-IRCCloud,,,,,,,,,,,,,,,,,,
-ircII,,,,,,,,,,,,,,,,,,
-IRCjr,,,,,,,,,,,,,,,,,,
-Ircle,,,,,,,,,,,,,,,,,,
-Irssi,,,,,,,,,,,,,,,,,,
-KiwiIRC,,,,,,,,,,,,,,,,,,
-Konversation,,,,,,,,,,,,,,,,,,
-KVIrc,,,,,,,,,,,,,,,,,,
-LeafChat,,,,,,,,,,,,,,,,,,
-LimeChat,,,,,,,,,,,,,,,,,,
-Linkinus,,,,,,,,,,,,,,,,,,
-Mibbit,,,,,,,,,,,,,,,,,,
-mIRC,,,,,,,,,,,,,,,,,,
-Nettalk,,,,,,,,,,,,,,,,,,
-Opera,,,,,,,,,,,,,,,,,,
-PIRCH,,,,,,,,,,,,,,,,,,
-PJIRC,,,,,,,,,,,,,,,,,,
-Quassel,,,,,,,,,,,,,,,,,,
-qwebirc,,,,,,,,,,,,,,,,,,
-rcirc,,,,,,,,,,,,,,,,,,
-Smuxi,,,,,,,,,,,,,,,,,,
-Snak,,,,,,,,,,,,,,,,,,
-Visual IRC,,,,,,,,,,,,,,,,,,
-WeeChat,,,"WeeChat tested on FreeBSD 4.11, 5.4, 6.0; NetBSD 2.0, 2.1; OpenBSD 3.6, 3.7, 3.8; Solaris 5.10; QNX 6.3[38]name=Unix_operating_system_support_WeeChat_Agroup=Note",,,,,,In development[38]name=Unix_operating_system_support_WeeChat_Bgroup=Note,,,,,,,,,
-Client,386BSD,"BSD/OS (BSD/386, BSDI)","FreeBSD, NetBSD, OpenBSD",SunOS,ULTRIX,AIX,A/UX,HP-UX,IRIX,SCO OpenServer,Solaris,UnixWare,Linux,NeXTSTEP,OpenVMS,OSF/1,QNX,Tru64 UNIX
+Client,Multi-server,UTF-8,Proxy server,irc:// URI scheme,Automatic updates,Scripting language
+Bersirc,,,,,,
+BitchX,,,,,,Enhanced IrcII script
+ChatZilla,,,,,,JavaScript
+Colloquy,,,,,group=NoteFeatures_Colloquy_(IRC_client)_A,"AppleScript, Cocoa, F-Script, JavaScript, Python"
+degesch,,,,,,Lua
+DMDirc,,,,,,"Custom Actions system, Java plugins"
+ERC,,,group=NoteERC_Proxy_Support,,group=NoteERC_Auto_Updates,Emacs Lisp
+HexChat,,,,,,"Perl, Python, Tcl, Luagroup=NoteFeatures_HexChat_A[Note 4][Note 4][./Comparison_of_Internet_Relay_Chat_clients#cite_note-Features_HexChat_A-88 [Note 4]], JavaScript, C, C++, and via D-Bus."
+HydraIRC,,,,,,
+IceChat,,,,,,VBScript
+ircII,,group=NoteFeatures_ircII_A,,,,IrcII script
+IRCjr,,,,,,
+IRCCloud,,,,,,JavaScript
+Ircle,,,,,,AppleScript
+Irssi,,,,,,Perl
+jIRCii,,,,,,Sleep
+KiwiIRC,,,,,,"JavaScript, Node.js"
+Konversation,,,,,,"Shell script, Ruby, Python, Perl, Java, C++, C#, JavaScriptgroup=NoteFeatures_Konversation_A[Note 6][Note 6][./Comparison_of_Internet_Relay_Chat_clients#cite_note-Features_Konversation_A-90 [Note 6]]"
+KVIrc,,,,,,"KVS (custom), Perl, Python, C++"
+LeafChat,,,,,,Java
+LimeChat,,,,,,
+Linkinus,,,,,,"AppleScript, Cocoa"
+Mibbit,,,,,,
+mIRC,,,,,group=NotemIRC_Updates,mIRC script
+Nettalk,,,SOCKS,,,"VBScript, custom"
+Opera,,,,,,
+PIRCH,,,,,,
+PJIRC,,,,,,"Partial, JavaScript"
+Quassel,,,,,,
+qwebirc,,,,,,
+rcirc,,,,,,Emacs Lisp
+Smuxi,,,,,,
+Snak,,,,,,"AppleScript, IrcII script"
+Visual IRC,,,,,,Versus
+WeeChat,,,,,,"C, Perl, Python, Ruby, Lua, Tcl, Scheme (Guile)"
+Client,Multi-server,UTF-8,Proxy server,irc:// URI scheme,Automatic updates,Scripting language

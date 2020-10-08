@@ -1,8 +1,9 @@
-Kernel Name,"Container (no resource management, no security)",Container (no resource management),Container (resource management),Paravirtualization,Full virtualization,User-space execution,Kernel as Library,Kernel as Kernel Driver,Hypervisor-Enforced Kernel Partitioning
-Linux,chroot,colspan="2" LXC,"Virtio, Hyper-V (guest only), Xen (guest only), VMI (guest only), kvm-lite, lguest",KVM,UML,(LKL),(coLinux),,
-DragonFly BSD kernel,chroot,colspan="2" jail,,,vkernel,,,,
-FreeBSD kernel,chroot,colspan="2" jail,"Virtio, Xen (guest only)",BHyVe (KVM),,,,,
-NetBSD kernel,chroot,(sysjail (discontinued)),,Virtio and Xen,,,Rump kernel,,
-Solaris kernel,chroot,colspan="2" Solaris Containers / Zones,,,,,,,
-Windows NT kernel,"colspan="3" AppContainers, Job Objects, Windows Server Containers",colspan="2" Hyper-V,colspan="2" Project Drawbridge,,"Virtual Secure Mode, Device Guard, Credential Guard[14]",,,,
-XNU,chroot,,,,,,,,
+Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
+FreeBSD kernel,,,,,,,,,,,,,,,
+Linux kernel,,,(Longene),,,,,,,,,,,,
+NetBSD kernel,,,,,,,,,,,,,,,
+OpenBSD kernel,,,,,,,,,,,,,,,
+Windows NT kernel,,,,,,,,,,,,,,,
+ReactOS kernel,,,,,,,,,,,,,,,
+XNU,,,,,,,,,,,,,,,
+Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4

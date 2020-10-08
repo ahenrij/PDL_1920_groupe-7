@@ -1,11 +1,2 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
-Element identifiers,,,,,
-id,rowspan="2" 3.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-class,,,,,
-Inline styles,,,,,
-style,3.0,1.0,,,1.0
-Advisory information,,,,,
-title,4.0,1.0,,,1.0
-Language information,,,,,
-lang,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-dir,5.0,,,,
+bdo,5.0,1.0,,"While alphabetic and alphanumeric words are affected, numeric (numbers only) words are not.date=August 2010group=note",1.0

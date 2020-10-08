@@ -1,30 +1,32 @@
-rowspan="2" SlotCard,CF,,CFast,SM,MMC,,Memory Stick,,,,SDSC,,,SDHC,,,SDXC,,xD,,,XQD
-I,II,,,MMC,"RS-MMC, MMCmobile",Std,PRO,PRO Duo,Micro,SDSC,miniSD,microSD,SDHC,miniSDHC,microSDHC,SDXC,microSDXC,Std,M,H,,
-ExpressCard,E[35],E[35],,,E[36],,E[37],E[37],E[36],,E[36],E[36],E[38],,,,,,E[36],E[36],E[36],EM
-PCI Express Mini Card,,,,,,,,,,,,,,,,,,,,,,EM
-mSATA,,,XM,,,,,,,,,,,,,,,,,,,
-PC Card,EM[39],EM[39],,E[40],E[41],,E[41],E[41],,,E[41],,,,,,,,,,,
-PCMCIA,EM[39],EM[39],,E[40],E[41],,E[41],E[41],,,E[41],,,,,,,,,,,
-CF I,+,+,,E,E[42],,E[43],E[43],E[44],,E[42],,,,,,,,E[45],E[45],E[45],
-CF II,,+,,E,E[42],,E[43],E[43],,,E[42],,,,,,,,E[45],E[45],E[45],
-CFast,,,+,,,,,,,,,,,,,,,,,,,
-SM,,,,+,,,,,,,,,,,,,,,X[46],X[46],X[46],
-xD,,,,,,,,,,,,,E[47],,,,,,+,+,+,
-XQD,,,,,,,,,,,,,,,,,,,,,,+
-MMC,,,,,+,M,,,,,D[48],,,,,,,,,,,
-MS,,,,,X[49],,+,+,M,M,X[49],X[49],E[50],,,,,,,,,
-SDSC,,,,,D,M,,,,,+,EM,EM,,,,,,,,,
-miniSD,,,,,,,,,,,,+,EM,,,,,,,,,
-microSD,,,,,,,,,,,,,+,,,,,,,,,
-SDHC,,,,,,,,,,,D[51],EM,EM,+,EM,EM,,,,,,
-miniSDHC,,,,,,,,,,,,D[51],EM,,+,EM,,,,,,
-microSDHC,,,,,,,,,,,,,D[51],,,+,,,,,,
-SDXC,,uscb,,,,,,,,,D[52],EM,EM,D[52],EM,EM,+,EM,,,,
-microSDXC,,,,,,,,,,,,,D[52],,,D[52],,+,,,,
-IDE PATA,EM[53],EM[53],,,,,,,,,E[54][55],,,,,,,,,,,
-Serial ATA,E[56],E[56],EM,,,,,,,,,,,,,,,,,,,
-PCI Express,,,,,,,,,,,,,,,,,,,,,,EM
-USB,X[57],X[57],,X[57],X[57],,X[57],X[57],E[58],E[58],E[59],,E[60],,,,,,X[57],X[57],X[57],X
-Floppy,,,,E[61],E,E + M,E,E,,,,,,,,,,,,,,
-Nintendo DS Slot-1,,,,,,,,,,,,,E[62],,,,,,,,,
-Nintendo DS Slot-2,,,,,,,,,,,E[63],E[63],E[63],,,,,,,,,
+Card,Varieties,Max storage capacity (nom. in GiB),Theoretical max. capacity (nom. in GiB),Max read speed (MB/s),Max write speed (MB/s),Read-write cycles,Low-level access,Operating voltage (V)[9],Controller chip[10],of pins
+CompactFlash,I,512,"128 PiB[2] (134,217,728 GiB)",167[11],167[11],,NOR/NAND,3.3 and 5,rowspan="2" ,50
+,II,12,"128 PiB[2] (134,217,728 GiB)",167[11],167[11],,,,,
+SmartMedia,,128 MiB (0.125 GiB),,2,,"1,000,000",NAND,3.3 or 5,,22
+MMC,MMC,8,128,2,2,"1,000,000[12]",,3.3,rowspan="5" ,7
+,RS-MMC,2,,2[13],2[13],,,3.3,7,
+,MMCmobile,2,,15[14],8[14],,,1.8 and 3.3,13,
+,MMCplus,4[15],,52[16],52[16],,,3.3,13,
+,MMCmicro,2,,,,,,1.8 and 3.3,10[17],
+,eMMC,,2 TiB (2048 GiB),104,104,,,1.8 and 3.3,rowspan="1" ,Varies
+Secure Digital[18],SD (SDSC),512,4,25[19],25,,,3.3,rowspan="3" ,9
+,miniSD,8,,25,25,,,,11,
+,microSD,4,,25,25,,,,8,
+,SDHC,32[20],32,104 (UHS-I),104 (UHS-I),,,1.8 and 3.3,rowspan="3" ,9
+,miniSDHC,4[21],,104 (UHS-I),104 (UHS-I),,,,11,
+,microSDHC,32[3],,104 (UHS-I),104 (UHS-I),,,,8,
+,SDXC,512[22],2 TiB (2048 GiB),104 (UHS-I),104,,,2.7–3.6[23],rowspan="2" ,9
+,microSDXC,1 TiB [24],,104 (UHS-I),104 (UHS-I),,,,8,
+Memory Stick,Standard,128 MiB (0.125 GiB),128 MiB (0.125 GiB),2.5,1.8,,,3.3,rowspan="6" ,10
+,PRO,4,2 TiB (2048 GiB),20,20,,,3.3,,
+,PRO Duo,32[25],,20,20,,,3.3,,
+,PRO-HG Duo,32[26],,30 (actual;[27] theoretical: 60[28]),30 (actual;[27] theoretical: 60[28]),,,3.3,,
+,Micro (M2),16[29],32,20,20,,,1.8 and 3.3,,
+,xC,,2 TiB (2048 GiB),60,60,,,3.3,,
+xD,,512 MiB (0.5 GiB),512 MiB (0.5 GiB),5,3,,,3.3,rowspan="4" ,18
+,Type M,2,8,4,2.5,,,,,
+,Type H,2,8,5,4,,,,,
+,Type M+,2,8,6,3.75,,,,,
+XQD,,64,2+ TiB (2+ GiB),168,168,,,5,,
+USB,Full speed (USB 1),2048[30] (2 TiB),No hardware limit,1,1,,,5,rowspan="3" ,4
+,High speed (USB 2.0),,,40,40,,,,,
+,Super speed (USB 3.0),,,240,160,,,,,

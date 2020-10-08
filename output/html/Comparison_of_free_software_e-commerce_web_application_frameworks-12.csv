@@ -1,16 +1,13 @@
-,Coupons,Gift certificates,Membership discounts,Membership-only categories,Membership-only products,Reward points,Special offers
-Apache OFBiz,Yes,Yes,Yes,No,Yes,No,Yes
-Batavi,No,No,Yes,No,No,No,Yes
-Bigcommerce,Yes,Yes,Yes,Yes,Yes,3rd party,Yes
-Drupal Commerce,Yes,Yes,Yes,Yes,Yes,No,Yes
-KonaKart,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Magento,Yes,Yes,Yes,Yes,Yes,Yes (Enterprise Edition),Yes
-nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-osCommerce,Add-on,Add-on,No,No,No,No,Yes
-pimcore,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Shopify,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-SupaDupa,Yes,Yes,No,No,No,No,Yes
-WooCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Zen Cart,Yes,Yes,Yes,Add-on[31],Add-on[31],Yes[32],Yes
-,Coupons,Gift certificates,Membership discounts,Membership-only categories,Membership-only products,Reward points,Special offers
+,Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS
+Apache OFBiz,No,No,Yes,Yes,Yes,Yes
+Batavi,No,No,No,No,No,No
+Bigcommerce,Yes,Yes,No,Yes,Yes,Yes
+KonaKart,No,No,No,Yes,Yes,Yes
+Magento,No,No,Yes,Yes,Yes,Yes
+nopCommerce,No,No,No,Yes,Yes,Yes
+osCommerce,No,No,No,No,No,No
+PrestaShop,webservice,No,No,Yes,Yes,Yes
+Shopify,No,No,No,No,No,No
+WooCommerce,Yes,Yes,No,No,Yes,No
+Zen Cart,No,No,add-on,add-on,add-on,add-on
+,Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS

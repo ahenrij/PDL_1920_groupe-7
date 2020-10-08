@@ -1,15 +1,29 @@
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
-GeForce 920M,"March 12, 2015",GK208,28,PCIe 3.0 ×16,384:32:8 (2 SMX),954,Unknown,1800,7.6,30.5,2,14.4,DDR3,64,12 (11_0),4.5,1.2,733,33,
-GeForce 930M,,GM108,,,384:24:8 (3 SMM),928,941,,7.4,22.3,,,,,,,,713,29[156],
-GeForce 940M,,,,,,1072,1176,2000,8.6,25.7,,16,,,,,,823,36[157],
-GeForce 940MX[158],"June 28, 2016",GM107,,,512:32:8 (4 SMM),795,861,5000,6.9,27.6,,40,GDDR5,,,,,882,23,
-GeForce GTX 950M,"March 12, 2015",,,,640:40:16 (5 SMM),914,Unknown,,14.6,36.6,"2, 4",80,,128,,,,1170,Unknown,Similar core config to GTX 750 Ti (GM107-400-A2)
-,,,,,,,,2000,,,,32,DDR3,,,,,,55[159],
-GeForce GTX 960M,,,,,,1097,1176,5000,17.5,43.8,,80,GDDR5,,,,,1403,65[160],
-GeForce GTX 965M[161],"January 5, 2015",GM204,,,1024:64:32 (8 SMM),944,Unknown,,30.2,60.4,,,,,12 (12_1),,,1933,60[162],Similar core config to GTX 960 (GM206-300)
-GeForce GTX 970M[163],"October 7, 2014",,,,1280:80:48 (10 SMM),,993,,44.4,73.9,"3, 6",120,,192,,,,2365,75,Similar core config to GTX 960 OEM (GM204)
-GeForce GTX 980M[164],,,,,1536:96:64 (12 SMM),1038,1127,,66.4,99.6,"4, 8",160,,256,,,,3189,100,Similar core config to GTX 970 (GM204-200) with one SMM disabled
-GeForce GTX 980[165],"September 22, 2015",,,,2048:128:64 (16 SMM),1064,Unknown,7010,68.1,136.2,8,224,,,,,,4358,"165, oc to 200",Similar to Desktop GTX 980
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
+Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce FX 5100,March 2003,NV34,TSMC 150 nm,AGP 8×,200,166,4:1:4:4,800,800,800,50,64 128,2.7,DDR,64
+GeForce FX 5200 LE,,,,,250,,,1000,1000,1000,62.5,64 128 256,2.7 5.3,,64 128
+GeForce FX 5200,,,,AGP 8× PCI,,200,,,,,,,3.2 6.4[citation needed],,
+GeForce FX 5200 Ultra,"March 6, 2003",,,AGP 8×,325,325,,1300,1300,1300,81.25,,10.4,,128
+GeForce PCX 5300,"March 17, 2004",,,PCIe ×16,250,200,,1000,1000,1000,62.5,128,3.2 6.4[citation needed],,64 128
+GeForce FX 5500,March 2004,NV34B,TSMC 140 nm,AGP 8× AGP 4× PCI,270,,,1080,1080,1080,67.5,64 128 256,,,
+GeForce FX 5600 XT,October 2003,NV31,TSMC 130 nm,AGP 8×,235,,,940,940,940,58.75,64 128,6.4,,128
+GeForce FX 5600,March 2003,,,AGP 8× PCI,325,275,,1300,1300,1300,81.25,64 128 256[5],8.8,,
+GeForce FX 5600 Ultra,"March 6, 2003",,,AGP 8×,350,350,,1400,1400,1400,87.5,64 128,11.2,,
+GeForce FX 5600 Ultra Rev.2,,,,,400,400,,1600,1600,1600,100,,12.8,,
+GeForce FX 5700 VE,September 2004,NV36,IBM 130 nm,,235,200,4:3:4:4,940,940,940,106.5,128 256,6.4,,
+GeForce FX 5700 LE,March 2004,,,AGP 8× PCI,250,,,1000,1000,1000,187.5,,6.4,,
+GeForce FX 5700,2003,,,AGP 8×,425,250,,1700,1700,1700,318.75,,8,,
+GeForce PCX 5750,"March 17, 2004",,,PCIe ×16,,,,,,,,128,,,
+GeForce FX 5700 Ultra,"October 23, 2003",,,AGP 8×,475,450,,1900,1900,1900,356.25,128 256,14.4,GDDR2,
+GeForce FX 5700 Ultra GDDR3,"March 15, 2004",,,,,475,,,,,,,15.2,GDDR3,
+GeForce FX 5800,"January 27, 2003",NV30,TSMC 130 nm,,400,400,4:2:8:4,1600,1600,3200,200,128,12.8,GDDR2,
+GeForce FX 5800 Ultra,,,,,500,500,,2000,2000,4000,,,16,,
+GeForce FX 5900 ZT,"December 15, 2003",NV35,,,325,350,4:3:8:4,1300,1300,2600,343.75,,22.4,DDR,256
+GeForce FX 5900 XT,"December 15, 2003[6]",,,,390,,,1600,1600,3200,300,,,,
+GeForce FX 5900,May 2003,,,,400,425,,,,,,,27.2,,
+GeForce FX 5900 Ultra,"May 12, 2003",,,,450,,,1800,1800,3600,337.5,128 256,,,
+GeForce PCX 5900,"March 17, 2004",,,PCIe ×16,,,,,,,,,,,
+GeForce FX 5950 Ultra,"October 23, 2003",NV38,,AGP 8×,475,475,,1900,1900,3800,356.25,256,30.4,,
+GeForce PCX 5950,"February 17, 2004",,,PCIe ×16,,,,,,,,,,GDDR3,
+Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)

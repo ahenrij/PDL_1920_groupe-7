@@ -1,30 +1,30 @@
-Software,BibTeX,Endnote/Refer/BibIX,Medline,MODS XML,RIS,Other
-Bebop,Yes,No,No,No,No,unAPI
-BibBase,Yes,No,No,No,No,none
-BibDesk,Yes,No,Yes,Yes,Yes,"Endnote XML, user customizable"
-Biblioscape,?,?,?,?,?,?
-BibSonomy,Yes,Yes,No,No,Yes,various [2]
-Bibus,Yes,Yes,Yes,No,Yes,SQLite
-Bookends,Yes,Yes,Yes,No,Yes,various user-customizable
-Citavi,Yes,Yes,Yes,Yes,Yes,various
-CiteULike,Yes,No,No,No,Yes,"COinS, Delicious"
-colwiz,Yes,Yes,No,Yes,Yes,"EndNote XML, CSL formatted HTML"
-EndNote,Yes,Yes,Yes,No,Yes,various[16]
-JabRef,Yes,Yes,No,Yes,Yes,"BibTeXML, DocBook, HTML, OpenDocument for OO.o, RTF, SQL database, user-customizable"
-KBibTeX,Yes,Yes,No,Depends[17],Yes,"PDF, PostScript, HTML, XML, RTF"
-Mendeley,Yes,Yes,No,No,Yes,Endnote XML
-Paperpile,Yes,No,No,No,Yes,none
-Pybliographer,Yes,Yes,Yes,No,No,Ovid
-Qiqqa,Yes,No,No,No,No,none
-ReadCube (now Papers),Yes,Yes,No,No,Yes,none
-refbase,Yes,Yes,No,Yes,Yes,"COinS, OpenDocument for OO.o, SRW XML via SRU, unAPI, Word XML"
-RefDB,Yes,Yes,No,Yes,Yes,"SRW XML via SRU web service, DocBook, TEI"
-Reference Manager,No,No,No,No,Yes,"MEDLARS, TSV, CSV, Reference Manager XML, user-customizable"
-Referencer,Yes,No,No,No,No,none
-RefME,?,?,?,?,?,?
-RefWorks,Yes,Yes,No,Yes,Yes,"RIS, BibTeX, Tab delimited or XML metadata"
-SciRef,No,No,No,No,Yes,"Plain text, RTF"
-Sente,Yes,Yes,No,No,Yes,user-customizable
-Wikindx,Yes,Yes,No,Yes,Yes,"COinS, RTF, HTML, ADS, Word BIB"
-WizFolio,No,No,No,No,Yes,No
-Zotero,Yes,Yes,as of version 4.0[18],Yes,Yes,"COinS, CSV, Several RDF format standards, TEI, Wikipedia citation templates, Endnote XML, CSL JSON, Refer/BiblX, RefWorks tagged"
+Software,Windows,macOS,Linux,ChromeOS,BSD,Unix,iOS App,Android App,Windows App
+Bebop,Yes,Yes,Yes,?,Yes,Yes,No,No,No
+BibBase,N/A,N/A,N/A,N/A,N/A,N/A,?,?,?
+BibDesk,No,Yes,No,?,No,No,Third-party - PocketBib,?,?
+Biblioscape,?,?,?,?,?,?,?,?,?
+BibSonomy,N/A,N/A,N/A,N/A,N/A,N/A,?,?,?
+Bibus,Yes,Experimental,Yes,?,Yes,Yes,No,No,No
+Bookends,No,Yes,No,?,No,No,Yes,?,?
+Citavi,Yes,No,No,No,No,No,No,No,No
+CiteULike,N/A,N/A,N/A,N/A,N/A,N/A,?,?,?
+colwiz,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,No
+EndNote,Yes,Yes,No,No,No,No,Yes,No,No
+JabRef,Yes,Yes,Yes,No,Yes,Yes,No,No,No
+KBibTeX,Experimental,Experimental,Yes,?,Yes,Yes,No,No,No
+Mendeley,Yes,Yes,Yes,No,No,No,Yes,Yes,No
+Paperpile,Yes,Yes,Yes,Yes,No (requires Chromium),No (requires Chromium),in beta,in beta,No
+Pybliographer,Partial[11],Partial[11],Yes,?,Yes,Yes,No,No,No
+Qiqqa,Yes,No,No,?,No,No,No,Yes,No
+ReadCube (now Papers),Yes,Yes,No,Yes,No,No,Yes,Yes,Yes
+refbase,Yes,Yes,Yes,?,Yes,Yes,No,No,No
+RefDB,Yes,Yes,Yes,?,Yes,Yes,No,No,No
+Reference Manager,Yes[12],No,No,?,No,No,No,No,No
+Referencer,No,No,Yes,?,No,No,?,?,?
+RefME,?,?,?,?,?,?,?,?,?
+RefWorks[13],Yes,Yes,No,Yes,Yes,?,No - but is responsive,?,No
+SciRef,Yes,No,No,?,No,No,?,?,?
+Sente,No,Yes,No,?,No,No,Yes[14],?,?
+Wikindx,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+WizFolio,Yes,Yes,Yes,?,Yes,Yes,?,?,?
+Zotero,Yes,Yes,Yes,?,Yes,Yes,third party,"third party - Aziz, Lite![15]",No

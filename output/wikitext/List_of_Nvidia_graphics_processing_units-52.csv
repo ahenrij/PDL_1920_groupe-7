@@ -1,5 +1,9 @@
-Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus interface,L2 Cache(MB),Clock speeds,,,Memory,,,,Fillrate,,Processing power (TFLOPS),,,,Ray-tracing Performance,,,TDP (Watts),NVLink support,Release price (USD),
-,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,Tensor compute (FP16) (2:1 sparse),Rays/s (Billions),RTX OPS/s (Trillions),Ray Perf TFLOPS,,,MSRP,Founders Edition
-GeForce RTX 3070[120],"October 29, 2020[121]",GA104-300-A1,Samsung 8N (10LP++++),17.4,392.5,5888:184:96:184:46 (46) (6),PCIe 4.0 x16,4,1500,1730,14000,8,448.0,GDDR6,256,96.0 110.72,276.0 318.32,17.66 20.37,0.276 0.318,17.66 20.37,141.31 162.98,,,40[122],220,rowspan="2" ,,$499
-GeForce RTX 3080[123],"September 17, 2020",GA102-300-K1-A1,,28.3,628.4,8704:272:96:272:68 (68) (6),,5,1440,1710,19000,10,760.0,GDDR6X,320,126.72 150.48,391.68 465.12,25.06 29.76,0.392 0.465,25.06 29.76,200.54 238.14,,,58[122],320,,$699,
-GeForce RTX 3090[124],"September 24, 2020",GA102-300-A1,,28.3,,10496:328:112:328:82 (82) (7),,6,1400,1700,19500,24,935.8,,384,134.4 162.72,459.20 555.96,29.38 35.68,0.459 0.558,29.38 35.68,235.08 285.48,,,69[122],350,2-way NVLink,,$1499
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory configuration,,,,Processing power (GFLOPS)2,TDP (Watts),Comments
+,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Single precision,,
+GeForce 310,"November 27, 2009",GT218,TSMC 40 nm,260,57,PCIe 2.0 ×16,16:8:4,589,1402,1000,2.356,4.712,512,8,DDR2,64,44.8,30.5,"OEM Card, similar to Geforce 210"
+GeForce 315,February 2010,GT216,,486,100,,48:16:4,475,1100,1580,3.8,7.6,512,12.6,DDR3,,105.6,33,"OEM Card, similar to Geforce GT220"
+GeForce GT 320,,GT215,,727,144,,72:24:8,540,1302,,4.32,12.96,1024,25.3,GDDR3,128,187.5,43,OEM Card
+GeForce GT 330[24],,GT215-301-A3[25],,,,,96:32:8,550,1350,,4.40,17.60,512,32.00,,128,257.3,75,"Specifications vary depending on OEM, similar to GT230 v2."
+,,GT92[26],,,,,,500,1250,,4.000,24.00,256,51.20,,256,240.0,,
+,,GT92B[27],,,,,96:32:16,,,,8.000,,1024,16.32,DDR2,128,,,
+GeForce GT 340,,GT215,,,,,96:32:8,550,1340,3400,,,512 1024,54.4,GDDR5[28],128,257.3,69,"OEM Card, similar to GT240"

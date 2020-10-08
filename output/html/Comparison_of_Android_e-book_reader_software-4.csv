@@ -1,20 +1,17 @@
-Product,Local books,Book file search,Epub downloading,Browser downloading,OPDS catalog,Books tag,Books sort,Books manage metadata
-Aldiko Book Reader,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
-AlReader,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes
-Bookari,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
-Cool Reader,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes
-EBookDroid,Yes,?,?,?,Yes,?,?,?
-Ebook Reader,Yes,Yes,Yes,Yes,No,Yes,Yes,No
-eReader Prestigio,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
-FBReader,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
-iReader,?,?,?,?,?,?,?,?
-Kindle,?,?,?,?,?,?,?,?
-Kobo Books,?,?,?,?,?,?,?,?
-KOReader,Yes,?,No,No,Yes,?,?,?
-Lektz eBook Reader,Yes,Yes,Yes,?,?,?,?,?
-Librera,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
-Moon+ reader,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
-MReader,Yes,Yes,Yes,Yes,No,No,No,No
-PocketBook,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
-Socio eReader,Yes,Yes,Yes,No,No,No,Yes,No
-Product,Local books,Book file search,Epub downloading,Browser downloading,OPDS catalog,Books tag,Books sort,Books manage metadata
+Software,License,Other platforms,DRM formats supported
+Aldiko,Proprietary,iOS,Adobe DRM
+AlReader[1],Proprietary,None,?
+Bookari,Proprietary,iOS,Adobe DRM
+Cool Reader[2],GPLv2,"Android, Windows, Mac OS X, Linux, PocketBook",?
+Ebook Reader[3],Proprietary,"iOS, BlackBerry 10+, Kindle Fire (side loaded)",Adobe DRM
+eReader Prestigio,Proprietary,None,Adobe DRM
+FBReader,Proprietary,"Windows, Linux, PDAs, Mac OS X",None
+Google Play Books,Proprietary,"Web application, iOS",Adobe DRM
+Kindle,Proprietary,"Web application, iOS, BlackBerry, Mac OS X, Windows",Amazon DRM
+Kobo,Proprietary,"Windows, Mac OS X, iOS",Adobe DRM
+KOReader[4],AGPLv3,"Android, Kindle eInk, Kindle Fire, BQ Cervantes, PocketBook, Kobo",None
+Lektz,Proprietary,"Web application, Mac OS X, iOS, Windows",Lektz DRM
+Librera[5],GPL,None,None
+MReader,Proprietary,None,None
+OverDrive Media Console[6],Proprietary,"Chromebook, iOS, Mac OS X, Windows","Adobe DRM, OverDrive"
+Snapplify,Proprietary,"Web application, iOS","Adobe DRM, Snapplify SnappSafe DRM"

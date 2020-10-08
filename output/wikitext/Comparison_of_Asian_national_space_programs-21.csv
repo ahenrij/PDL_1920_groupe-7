@@ -1,6 +1,9 @@
-Country,Rocket,Burn time,Specific impulse (Vac.),Thrust (Vac.)
-India,S200 booster rocket stage[82],130s,274.5s,5150kN
-Japan,SRB-A series solid fueled rocket boosters,100s,280s,2260kN
-Israel,Shavit's first stage,82s,280s,1650kN
-China,Kuaizhou series of launch vehicles,,,
-China,Long March 11 launch system,,,
+,2001[153],2002[154],2003[155],2004[156],2005[157],2006[158],2007[159],2008[160],2009[161],2010[162],Total
+China,1,5,7,8,5,6,9,11,6,15,73
+Japan,1,3,3,-,2,6,2,1,3,2,23
+India,2,1,2,1,1,1,3,3,2,3,19
+Israel,-,1,-,1,-,-,1,-,-,1,4
+Iran,-,-,-,-,-,-,-,1,1,-,2
+South Korea,-,-,-,-,-,-,-,-,1,1,2
+North Korea,-,-,-,-,-,-,-,-,1,-,1
+Total,4,10,12,10,8,13,15,16,14,22,124

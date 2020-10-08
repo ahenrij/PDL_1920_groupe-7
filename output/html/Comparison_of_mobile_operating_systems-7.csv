@@ -1,11 +1,17 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-Non-English languages support,Partial[202],Yes[203][204][205],Limited (Search is not diacritical mark-insensitive),Yes,Yes
-Underlining spell checker,2.3+[206][207],Yes[208],No,?,No
-Built-in system-wide dictionary,Built into keyboard app. Available on every device.[209],5+[210],No,Yes,Yes
-Autoexpanding text replacements,Yes,5+[211],?,?,?
-Keyboard next word prediction,"No,[212] 3rd party software[213]",8+[214],No,Yes,Yes
-Keyboard cursor controller,Google Keyboard;[215];[216],12+;[217] 9-11: Only on devices with 3D Touch;[218],No,No,Yes
-Optical character recognition input method,No[219],11+: Notes app;[220] 8+: Only for inputting credit card details[221],No,No,No
-Third party input methods,Yes[222],8+,?,?,?
-Gesture text input,4+[223],13+;[224] 8+: 3rd party software like SwiftKey,?,No[225],No
-Emoji support,4.4+[226],Yes[227],?,2.2.0+[228] 3rd party software[229],Yes
+Unified Inbox,"No,[176] but 3rd party apps available[177]",Yes,Yes,Yes,?
+Email sync protocols supported,"POP3, IMAP, MAPI","POP3, IMAP, MAPI, ActiveSync[178]","POP3, IMAP","POP3, IMAP, ActiveSync",?
+Non-carrier-based integrated messaging,Google Hangouts,5+ (iMessage)[179],?,3rd party software,3rd party software
+Visual voicemail,2.1+[180],Yes,?,?,?
+Call log duration,Yes[181],Yes[182],?,Yes,Yes
+Multiple mobile phones per contact,Yes,Yes,?,Yes,Yes
+Contact groups,4+[183] or 3rd party software[184],Via iCloud or 3rd party software[185],Yes,No[186],?
+Voice over IP,Yes (SIP)[187] or 3rd party software[188],FaceTime; 3rd party software[189],No[190],3rd party software,3rd party software
+NFC payment software,Available on any device that supports the hardware. Android Pay for NFC payments available in Play Store.[191],"8+: iPhone 6/6 Plus and later (iPhone 5 and later if used with Apple Watch), via Apple Pay",Samsung Pay,No,No
+Tethering,"Mobile Wi-Fi Hotspot, USB, Bluetooth","4.3+: Personal Hotspot (Wi-Fi, Bluetooth, USB; carrier dependent)","microUSB, Bluetooth 3.0, Mobile Wi-Fi Hotspot","Mobile Wi-Fi Hotspot, USB, Bluetooth",Mobile Wi-Fi Hotspot
+USB On-The-Go,3.1+[192][193],13+;[194] 9+: Only for connecting cameras,No,Yes,Yes
+Direct file transfer over Wi-Fi Direct,4+[52] and selected devices[195][196],"No, 3rd party software on jailbroken devices","No, was available on bada 2+,[197] but removed on Tizen",No[198],No
+DHCP v4,Yes,Yes,?,?,?
+DHCP v6,No,Yes,?,?,?
+Direct file transfer over Bluetooth,2+[199],AirDrop: 7+: Between iOS only; 8+: Between Mac/iOS only. (Note: AirDrop utilizes Wi-Fi as well),"No, was available on bada,[200] but removed on Tizen","Yes[201] but limited to images, videos and contacts",No
+Direct file transfer over NFC,"No, removed on Android 10",No,2+[197],No,No

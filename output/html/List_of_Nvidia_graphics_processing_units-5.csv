@@ -1,8 +1,8 @@
-Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config[a],Bus interface,L2 Cache (MB),Clock speeds,,,Memory,,,,Fillrate[b],,Processing power (GFLOPS)[b],,,TDP (Watts),NVLink support,Release price (USD)
-,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)[c],Texture (GT/s)[d],Single precision,Double precision,Half precision,,,
-GeForce GTX 1650[100],"April 23, 2019",TU117-300-A1,TSMC 12FFN,4.7,200,896:56:32:1792:0 (14) (2),PCIe 3.0 x16,1,1485,1665,8000,4,128.0,GDDR5,128,47.52,83.16,2?661.00 2?984.00,83.16 93.24,5?322.00 5?967.00,75,No,$149
-,"April 3, 2020[101]",TU117,,,,,,,1410,1590,12000,,192.0,GDDR6,,45.12,78.96,2?526.72 2?849.28,78.96 89.04,5?053.44 5?698.56,,,
-GeForce GTX 1650 Super[102],"November 22, 2019[103]",TU116-250-KA-A1[104],,6.6,284,1280:80:32:2560:0 (20) (3),,1.5,1530,1725,,,,,,48.96,122.40,3?916.80 4?416.00,122.40 138.00,7?833.60 8?832.00,100,,$159
-GeForce GTX 1660[105],"March 14, 2019",TU116-300-A1,,,,1408:88:48:2816:0 (22) (3),,,,1785,8000,6,,GDDR5,192,73.44,134.64,4?308.00 5?027.00,134.64 157.08,8?616.00 10?053.00,120,,$219
-GeForce GTX 1660 Super[106],"October 29, 2019",TU116-300-A1,,,,,,,,,14000,,336.0,GDDR6,,,,,,,125,,$229
-GeForce GTX 1660 Ti[107],"February 21, 2019",TU116-400-A1,,,,1536:96:48:3072:0 (24) (3),,,1500,1770,12000,,288.0,,,72.00,144.00,4?608.00 5?437.44,144.00 169.92,9?216.00 10?874.88,120,,$279
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
+Quadro2 Go[215],NV11GLM?,,AGP 4×,143,,130 360,2:0:4:2,0.286,0.592,32 64,2.9 5.8,SDR DDR,128,,7.0,1.2,,"First mobile Quadro based on the GeForce2 Go, Dynamic core clock 100–143 MHz, dynamic voltage 1.575V, graphics core listed as 64-bit and 128-bit for DDR and SDR SDRAM types respectively according to Nvidia[216][217]"
+Quadro4 500 Go GL[218][219],NV17 GLM,150,"AGP 4×,8×",?,,?,2:0:4:2,0.44,0.88,64,7.0,DDR,,,7.0,1.3,,"Based on the GeForce4 Go, dynamic core clock 66–220 MHz, core voltage 1.35 V, uses DDR SDRAM according to Nvidia brochures[217]"
+Quadro4 700 Go GL[218][220][221],NV28 GLM,150,,176,,200,4:2:4:4,0.704,0.704,,7.4?,,128?,,8.1,,,"Based on GeForce4 Go 4200, uses DDR according to Nvidia brochures"
+Quadro FX Go 700[222],NV31 GLM,130,AGP 8×,295?,,590?,4:3:4:4,1.18,1.18,128,9.44?,,128,,9.0,2.1?,,Based on the Geforce FX Go (FX 56XX)
+Quadro FX Go 1000[223],NV36 GLM,120,,,,570?,,,,,9.12?,,,,,,,Seems to be an overclocked Quadro FX 700 Go.
+Quadro FX Go 1400[223],NV41 GLM,130,PCIe,275,,590,12:5:12:12?,2.20,2.2,256,18.9?,,256,,,,,"Last chip designated as a Quadro FX Go, uses PCIe instead of AGP 8×. Core config has been mentioned as either 8:5:8:8 or 12:5:12:12 - the latter is likely since chip is derived from GeForce Go 6800."

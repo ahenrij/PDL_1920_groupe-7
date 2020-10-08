@@ -1,18 +1,22 @@
-Graphics,Launch,PowerVR core,Market,Chipset,Code name,Device id.,Core render clock (MHz),Pixel pipelines,Shader model (vertex/pixel),API support,,,Memory bandwidth (GB/s),DVMT (MB),Hardware acceleration,,
-,,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2,VC-1,AVC
-GMA 500,2008,SGX535,CE,CE3100,Canmore,2E5B,?,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
-,2009,,,Atom CE4100,Sodaville,,,,,,,,,,,,
-,,,,Atom CE4110,,,200,,,,,,,,,,
-,,,,Atom CE4130,,,,,,,,,,,,,
-,,,,Atom CE4150,,,400,,,,,,,,,,
-,,,,Atom CE4170,,,,,,,,,,,,,
-,2010,,,Atom CE4200,Groveland,,?,,,,,,,,,,
-,2008,,MID,UL11L,Poulsbo (Menlow),8108 8109,100,,,,,,,,,,
-,,,,US15L,,,200,,,,,,,,,,
-,,,,US15W,,,,,,,,,,,,,
-GMA 600,2010,,MID,Atom Z6xx,Lincroft (Moorestown),4102,400[91],2,3.0,9.0c,2.0,—,6.4,759,Full,Full,Full
-GMA,2012,SGX540,Smartphone,Atom Z24xx,Penwell (Medfield),?,400[92],4,—,—,ES 2.0,—,6.4,1024,Full,Full,Full
-GMA 3600,2011,SGX545,Nettop Netbook,Atom D2500 Atom N2600,Cedarview (Cedar Trail),0BE0 0BE1 0BE2 0BE3,400[93],4,3.0,9.0c,3.0,—,8.5 6.4,1024[94],Full,Full,Full
-GMA 3650,,,,Atom D2700 Atom N2800,,,640[93],,,,,,8.5,,,,
-GMA,2012,,Tablet,Atom Z2760,Cloverview (Clover Trail),08C7 08C8 08C9 08CA 08CB 08CC 08CD 08CE 08CF,533,4,3.0,9.0c,2.0,—,6.4,2048,Full,Full,Full
-GMA,2012,SGX544 MP2,Tablet,Atom Z2520 Atom Z2560 Atom Z2580,Cloverview (Clover Trail+),?,300Mhz 400 MHz 533 MHz,?,?,9.0 L3,"2.0ES, 2.0?",1.1,?,?,Full,Full,Full
+Graphics,Launch,Market,Code name,Chipset,Device ID[3],Core render clock (MHz),Execution units,Shader model (vertex/pixel),API support[13],,,Memory bandwidth (GB/s),DVMT (MB),Hardware acceleration,,
+,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2,VC-1,AVC
+GMA 3000,2006,Desktop,Lakeport,946GZ,2972,667[14][15],8[14][16],3.0 (SW) / 2.0,9.0c FL9_1,1.5Windows 2.1macOS 2.1Linux ES 2.0Linux,No,10.6,256,MC[8],No,No
+,,,Broadwater,Q963,2992,,,,,,,,,,,
+,,,,Q965,,,,,,,,12.8,,,,
+GMA X3000,,,,G965,29A2,,,3.0,,,,,384,Full[8],MC + (LF ? WMV9 only),
+GMA X3500,2007,,Bearlake,G35,2982,,,4.0,10.0 FL10_0,,,,,,MC + LF,
+GMA X3100,,Mobile,Crestline,GL960,2A02 2A12,400[17],,,,,,8.5,,,MC + (LF ? WMV9 only),
+,,,,GLE960,,,,,,,,,,,,
+,,,,GM965,,500[17],,,,,,10.7,,,,
+,,,,GME965,,,,,,,,,,,,
+GMA 4500,2008,Desktop,Eaglelake,B43,2E42 2E92,533,10,,,2.1 ES 2.0Linux,,12.8 (DDR2) 17 (DDR3)[18],1720,,MC + LF,MC + LF
+,,,,Q43,2E12,,,,,,,,,,,
+,,,,Q45,,,,,,,,,,,,
+GMA X4500,,,,G41,2E32,800,,,,,,,,,,
+,,,,G43,2E22,,,,,,,,,,,
+GMA X4500HD,,,,G45,,,,,,,,,,,Full,Full
+GMA 4500MHD,,Mobile,Cantiga,GL40,2A42,400[19],,,,,,,,,,
+,,,,GS40,,,,,,,,,,,,
+,,,,GM45,,533[19],,,,,,,,,,
+,,,,GS45,,,,,,,,,,,,
+,,,,GM47,,640,,,,,,,,,,

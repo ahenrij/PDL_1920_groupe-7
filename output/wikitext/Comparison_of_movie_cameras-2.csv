@@ -1,29 +1,16 @@
-Camera model,Lens mount,Super 35?,Aperture size,Aperture plate,Lens interface,Ground glass,Frameline glow?
-Eyemo 71K,"Eyemo mount, many conversions","No, but conversions exist",Full frame,fixed,none,interchangeable,No
-Arriflex 35-2C,Arri standard and Arri bayonet,"No, but conversions exist",Academy ratio,fixed,none,interchangeable,No
-Arriflex 35BL-1,Arri bayonet,No,"Academy ratio, custom sizes exist",removable,none,interchangeable,No
-Panaflex-X,PV mount;,Yes,Full frame,removable; interchangeable format masks,none,interchangeable,Yes
-Arriflex 35BL-2,Arri bayonet,No,"Academy ratio, custom sizes exist",removable,none,interchangeable,No
-Panaflex Gold II,PV mount,Yes,Full frame,removable; interchangeable format masks,none,interchangeable,Yes
-Arriflex 35BL-3,Arri PL or BNCR mount,No,"Academy ratio, custom sizes exist",removable,"none, but Lens Data Archive (LDA) can be used",interchangeable,No
-Arriflex 35-3C,Arri PL,No,Academy ratio,removable,"none, but Lens Data Archive (LDA) can be used",interchangeable,No
-Moviecam SuperAmerica,Arri PL and BNCR mount,Yes,full range available,removable,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Arriflex 35BL-4,Arri PL,Yes,"Academy ratio, custom sizes exist",removable,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Panaflex Platinum,PV mount,Yes,Full frame,removable; interchangeable format masks,none,interchangeable,Yes
-Panaflex Panastar II,PV mount,Yes,Full frame,removable; interchangeable format masks,none,interchangeable,Yes
-Arriflex 35BL-4s,Arri PL,Yes,"Academy ratio, custom sizes exist",removable,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Arriflex 535,Arri PL,Yes,full range available,removable; interchangeable format masks and filter holders,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Moviecam Compact,Arri PL and BNCR mount,Yes,full range available,removable,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Arriflex 535B,Arri PL,Yes,full range available,removable; interchangeable format masks and filter holders,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Arriflex 435,"Arri PL, PV mount",Yes,full range available,removable; interchangeable format masks and filter holders,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Arriflex 435ES,"Arri PL, PV mount",Yes,full range available,removable; interchangeable format masks and filter holders,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Moviecam SL,Arri PL,Yes,full range available,removable,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Aaton 35-III,"Arri PL, PV mount, or Nikon",Yes,full frame,fixed,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Panaflex Millennium,PV mount,Yes,full frame,removable; interchangeable format masks,none,interchangeable,Yes
-Panaflex Millennium XL,PV mount,Yes,full frame,removable; interchangeable format masks,none,interchangeable,Yes
-Arricam LT,Arri PL,Yes,full frame,removable; interchangeable format masks and filter holders,Lens Data System (LDS) contacts; integrated Lens Data Box (LDB),interchangeable,Yes
-Arricam ST,Arri PL,Yes,full frame,removable; interchangeable format masks and filter holders,Lens Data System (LDS) contacts; integrated Lens Data Box (LDB),interchangeable,Yes
-Arriflex 435 Advanced,"Arri PL, PV mount",Yes,full frame,removable; interchangeable format masks and filter holders,Lens Data System (LDS) contacts; usable with FEM-2 unit,interchangeable,Yes
-Aaton 35-3P,"Arri PL, PV mount, or Nikon",Yes,full frame,fixed,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Arriflex 235,Arri PL,Yes,full frame,removable,"none, but Lens Data Archive (LDA) can be used",interchangeable,Yes
-Arriflex 435 Xtreme,"Arri PL, PV mount",Yes,full range available,removable; interchangeable format masks and filter holders,Lens Data System (LDS) contacts and integrated electronics,interchangeable,Yes
+Camera model,Camera line,Manufacturer,Introduced,Weight,MOS/sync,Lens mount
+7LTR (Super 16),Aaton LTR,Aaton,1974,,Sync,Aaton universal
+54LTR,Aaton LTR,Aaton,1982,,Sync,Aaton universal
+Arriflex 16HSR2 (Super 16),Arriflex 16SR,Arri,1982,"11.02lbabbr=on, with empty magazine",Sync,Arri bayonet (Arri PL for some later models)
+Arriflex 16SR2 (Super 16),Arriflex 16SR,Arri,1982,"11.02lbabbr=on, with empty magazine",Sync,Arri bayonet (Arri PL for some later models)
+Panaflex 16 ("The Elaine"),Panaflex 16,Panavision,"June 27, 1984[1]","16.6lbabbr=on, with eyepiece",Sync,PV mount
+XTR,Aaton XTR,Aaton,1984,,Sync,Aaton universal
+Arriflex 16HSR3,Arriflex 16SR,Arri,1992,14.5lbabbr=on,Sync,Arri PL
+Arriflex 16SR3,Arriflex 16SR,Arri,1992,14.5lbabbr=on,Sync,Arri PL
+X0plus,Aaton XTR,Aaton,1992,,Sync,Aaton universal
+XTRplus,Aaton XTR,Aaton,1992,,Sync,Aaton universal
+XTRprod,Aaton XTR,Aaton,1994,"13lbabbr=on, with onboard battery and full magazine",Sync,"Arri PL, Aaton universal, or PV mount"
+A-Minima,A-Minima,Aaton,2000,"5lbabbr=on, with onboard battery and full magazine",Sync,Arri PL and Nikon
+Arriflex 416,Arriflex 416,Arri,2006,"12.1lbabbr=on, with full magazine",Sync,Arri PL
+Arriflex 416 Plus,Arriflex 416,Arri,2006,"12.6lbabbr=on, with full magazine",Sync,Arri PL
+Xtera,Aaton XTR,Aaton,2006,,Sync,"Arri PL, Aaton universal, or PV mount"

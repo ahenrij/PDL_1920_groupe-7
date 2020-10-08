@@ -1,16 +1,14 @@
-OLAP server,MOLAP,ROLAP,HOLAP,Offline
-Apache Kylin,Yes,No,No,Yes
-ClickHouse,Yes,Yes,Yes,Yes
-Druid,Yes,Yes,Yes,Yes
-Essbase,Yes,No,No,
-IBM Cognos BI,Yes,Yes,Yes,
-IBM Cognos TM1,Yes,No,No,Cognos Insight Distributed mode
-icCube,Yes,No,No,Offline Cubes
-Jedox OLAP Server,Yes,No,No,No
-Kyvos,Yes,Yes,Yes,Yes
-Microsoft Analysis Services,Yes,Yes,Yes,"Local cubes, PowerPivot for Excel, Power BI Desktop"
-MicroStrategy Intelligence Server,Yes,Yes,Yes,"MicroStrategy Office, Dynamic Dashboards"
-Mondrian OLAP server,No,Yes,No,
-Oracle Database OLAP Option,No,Yes,No,
-SAP NetWeaver BW,Yes,Yes,No,
-SAS OLAP Server,Yes,Yes,Yes,
+OLAP server,Company,Website,Latest stable version,Software license,License pricing
+Apache Kylin,Apache Software Foundation,[1],3.1.0,Apache 2.0,free
+ClickHouse,Yandex,[2],20.5.2.7,Apache 2.0,free
+Druid,Open source community,[3],0.19.0,Apache 2.0,free
+Essbase,Oracle,[4],19.3,Proprietary,[1]
+IBM Cognos TM1,IBM,[5],10.2.2 FP7,Proprietary,-
+icCube,icCube,[6],6.8.9,Proprietary,community/[2]
+Jedox OLAP Server,Jedox,[7],2019.3,Proprietary,[3]
+Kyvos,Kyvos Insights,[8],2020.1,Proprietary,-
+Microsoft Analysis Services,Microsoft,[9],2016,Proprietary,[4]
+Mondrian OLAP server,Pentaho,[10],3.7,EPL,free
+Oracle Database OLAP Option,Oracle,[11],11g R2,Proprietary,[5]
+SAP NetWeaver BW,SAP,[12],7.30,Proprietary,-
+SAS OLAP Server,SAS Institute,[13],9.4,Proprietary,-

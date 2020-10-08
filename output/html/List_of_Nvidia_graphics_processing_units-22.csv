@@ -1,12 +1,15 @@
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
-GeForce 410M,"January 5, 2011",GF119,40,PCIe 2.0 ×16,48:83:4,575,1150,1600,2.3,4.6,512,12.8,DDR3,64,12,4.5,110.4,12,Similar to Desktop GT420 OEM
-GeForce GT 415M,"September 3, 2010",GF108,,,,500,1000,,2,4,,25.6,,128,,,96,<12(GPU only)[128],
-GeForce GT 420M,,,,,96:163:4,,,,,8,,,,,,,192,10–23(GPU only)[128],Similar to Desktop GT430
-GeForce GT 425M,,,,,,560,1120,,2.24,8.96,1024,,,,,,215.04,20–23(GPU only)[128],
-GeForce GT 435M,,,,,,650,1300,,2.6,10.4,2048,,,,,,249.6,32–35(GPU only)[128],Similar to Desktop GT430/440
-GeForce GT 445M,,GF106,,,144:243:16 144:243:24,590,1180,1600 2500,9.44 14.16,14.16,1024 1536,25.6 60,DDR3 GDDR5,128 192,,,339.84,30–35(GPU only)[128],Similar to Desktop GTS450 OEM)
-GeForce GTX 460M,,,,,192:323:24,675,1350,2500,16.2,21.6,1536,60,GDDR5,192,,,518.4,45–50(GPU only)[128],Similar to Desktop GTX550 Ti
-GeForce GTX 470M,,GF104,,,288:483:24,550,1100,,13.2,26.4,,,,,,,633.6,,Similar to Desktop GTX 460/560SE
-GeForce GTX 480M,"May 25, 2010",GF100,,,352:443:32,425,850,2400,13.6,18.7,2048,76.8,,256,,,598.4,100(MXM module),Similar to Desktop GTX465
-GeForce GTX 485M,"January 5, 2011",GF104,,,384:643:32,575,1150,3000,18.4,36.8,,96.0,,,,,883.2,,Similar to Desktop GTX560 Ti
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
+,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
+GeForce 920M,"March 12, 2015",GK208,28,PCIe 3.0 ×16,384:32:8 (2 SMX),954,Unknown,1800,7.6,30.5,2,14.4,DDR3,64,12 (11_0),4.5,1.2,733,33,
+GeForce 930M,,GM108,,,384:24:8 (3 SMM),928,941,,7.4,22.3,,,,,,,,713,29[156],
+GeForce 940M,,,,,,1072,1176,2000,8.6,25.7,,16,,,,,,823,36[157],
+GeForce 940MX[158],"June 28, 2016",GM107,,,512:32:8 (4 SMM),795,861,5000,6.9,27.6,,40,GDDR5,,,,,882,23,
+GeForce GTX 950M,"March 12, 2015",,,,640:40:16 (5 SMM),914,Unknown,,14.6,36.6,"2, 4",80,,128,,,,1170,Unknown,Similar core config to GTX 750 Ti (GM107-400-A2)
+,,,,,,,,2000,,,,32,DDR3,,,,,,55[159],
+GeForce GTX 960M,,,,,,1097,1176,5000,17.5,43.8,,80,GDDR5,,,,,1403,65[160],
+GeForce GTX 965M[161],"January 5, 2015",GM204,,,1024:64:32 (8 SMM),944,Unknown,,30.2,60.4,,,,,12 (12_1),,,1933,60[162],Similar core config to GTX 960 (GM206-300)
+GeForce GTX 970M[163],"October 7, 2014",,,,1280:80:48 (10 SMM),,993,,44.4,73.9,"3, 6",120,,192,,,,2365,75,Similar core config to GTX 960 OEM (GM204)
+GeForce GTX 980M[164],,,,,1536:96:64 (12 SMM),1038,1127,,66.4,99.6,"4, 8",160,,256,,,,3189,100,Similar core config to GTX 970 (GM204-200) with one SMM disabled
+GeForce GTX 980[165],"September 22, 2015",,,,2048:128:64 (16 SMM),1064,Unknown,7010,68.1,136.2,8,224,,,,,,4358,"165, oc to 200",Similar to Desktop GTX 980
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
+,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,

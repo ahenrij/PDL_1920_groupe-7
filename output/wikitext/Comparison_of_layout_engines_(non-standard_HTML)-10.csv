@@ -1,14 +1,4 @@
-Tag,Function,Introduced by,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
-bgsound,Used to add sound to the background of a website,Internet Explorer,audio,3.0,,,,
-blink,Used to display a blinking text,Netscape,"Javascript, CSS",,,,,1.0
-bq,Used to display a blockquote,"WebTV, HTML 3.0",blockquote,,,,,
-comment,Used to allow the addition of comments to HTML documents,"Internet Explorer, WebTV",<!-- ... -->,3.1,,,,
-ilayer,Inline layers,Netscape (4 only),iframe,,,,,
-image,Synonym of img,?,img,3.1,,,,
-layer,Used to create multiple layers of text and images which lay on top of each other in a given order,Netscape (4 only),"CSS, AJAX",,,,,
-marquee,"Used to display a scrolling, marquee-like text.","Internet Explorer, WebTV","JavaScript, CSS3",3.1,1.7,125,3.3,1.0
-nobr,Prevents any line breaks from occurring within the flow of a text,Netscape[15][16],CSS,rowspan="2" 3.1,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" 
-noembed,Displays an alternative text for browsers which do not recognize the embed tag,Netscape,Child elements of object used as fallback,,,,,
-spacer,Adds whitespace in a layout,Netscape,CSS,,,,,
-wbr,Placed inside a nobr element to add a line break,Netscape[15][16],Unicode character zero-width space (200B),Trident dropped support for wbr in version 5.0.[18]group=note,1.7,,3.1,
-xml[19],"Includes XML data, either inline or from an URL, in an HTML page",Internet Explorer,"AJAX, possibly XML namespaces",3.1,,,,
+Trident,edgeHTML,Gecko,WebKit,Presto
+Ogg Theora,"Manual installGoogle released a WebM component for Media Foundation to allow the playback of WebM files in IE9 through the standard HTML5 <video> tag.[300] Xiph.org distributes OpenCodecs package, which amends Google's VP8 decoder with DirectShow-based codecs for Ogg Theora and Ogg Vorbis. VLC media player comes with "Web plugin" that uses VLC for playing multimedia from <video> and <audio> tags, enabling support for all formats VLC supports.group=notename=ie-codecs",,1.9.1[301],"WebKit on macOS previously used QuickTime, and supported whatever formats that does.[302] By default, this includes H.264, MP3, AAC and WAV PCM, but not Ogg Theora or Vorbis. These are supported only if installed as third-party codecs, such as XiphQT. However, this relied on QuickTime 7 (not QuickTime X) to play these formats, and since Safari 12 and later versions of WebKit2, Apple officially dropped support for their QuickTime plugin (since it was developed for NPAPI, not HTML5). Google Chrome supports Theora, Vorbis, WebM, and MP3.[303] Chromium can be compiled to support anything that FFmpeg supports, and may or may not support patented formats such as H.264 and MP3.[304] Origyn Web Browser for MorphOS uses also FFmpeg for playing HTML5 media content.[305][306]group=notename=webkit-codecs"
+H.264,5.0[307],,33.0via OpenH264[308],Depends (525)[309][310]
+WebM VP8,Manual install[312],,2.0[314][315],Depends (534)[316]

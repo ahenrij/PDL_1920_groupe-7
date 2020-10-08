@@ -1,10 +1,8 @@
-Native interoperability,Java,C#
-Cross-language interoperability,"Yes (with GraalVM, Nashorn, CORBA, JNI or JNA)[92]",Yes; C# was designed for it[92]
-External/native methods,Yes,Yes
-Marshalling,External glue code needed,Yes; metadata controlled
-Pointers and arithmetics,Yes[93],Yes
-Native types,Yes[94],Yes
-Fixed-size buffers,No,Yes
-Explicit stack allocation,No,Yes
-Address-of,No,Yes
-Object pinning (fix variable to address),No,Yes
+Metadata,Java,C#
+Metadata annotations/attributes,Interface based; user-defined annotations can be created[81],Class based
+Positional arguments,No; unless a single argument,Yes
+Named arguments,Yes,Yes
+Default values,At definition,Through initialization
+Nested types,Yes,Yes
+Specialization,No,Yes
+Conditional metadata,No,Yes

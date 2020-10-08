@@ -1,14 +1,11 @@
-Element,Function,Supported first by,Deprecated in HTML version,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
-applet,Insert an applet,HotJava,4[7],"embed, object",<3.1[IE 4.0],1.7,Yes,Yes,1.0
-basefont,Sets font styles,Internet Explorer,4,CSS,<3.1[IE 3.0],No[8],85,,Yes
-center,Centers contents,Netscape[9],4,CSS,3.1,Yes,Yes,,
-dir,Directory list,?,4,"ul, ol",,,,,
-font,Applies font styles,Netscape,4,CSS,,,,,
-isindex[10],Adds a search field,?,4,input type="search",<3.1[IE 5.5],1.7,312,,Partial
-listing,Displays preformatted text,IETF,2,"pre, samp, code, CSS",3.1,,125,3.3,Yes
-menu,Menu list,?,4,"ul, ol",,Yes,Yes,Yes,
-plaintext,"Designates that all HTML be ignored, and to display the page as is",?,3.2,The text/plain MIME type,,,,,
-s,Strike-through,?,4,"del, CSS",<3.1[IE 4.0],1.7,,,1.0
-strike,Strike-through,?,4,"del, CSS",,,,,
-u,Underline,?,4,CSS,,,,,
-xmp,"Similar to pre and plaintext, but ignores all HTML within and displays as is",?,2,"pre, samp, code",<3.1[IE 3.0],,125,3.3,
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+manifest,html,6.0[22],12,1.9,Yes,2.6[p 8][p 9]
+sizes,link,No,13,8.0 (only mobile)[g 16][g 17],Yes[w 19],No
+charset,meta,4.0[23],12,1.9.2,Yes,2.5.24
+scoped,style,No,No,21.0[g 18],No[w 20],No
+async,script,6.0,12,1.9.2[g 19],Yes[w 21],
+reversed,ol,No,No,18.0[g 20],Yes[w 22],
+download[citation needed],"a,area",No,13,20.0[g 21],Yes,
+sandbox,iframe,6.0[t 5],12,17.0[g 22],533[w 23],
+seamless,iframe,No,No,No[g 23],No[w 24],
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto

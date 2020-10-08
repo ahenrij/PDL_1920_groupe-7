@@ -1,9 +1,11 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,Supported API version,,,Nvidia Optimus technology,TBP (Watts)
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,,
-Quadro M500M,GM108,28,PCIe 3.0 ×16,1029,1124,900 (1800),384:24:8 (3 SMM),8.992,17.98,2048,14.40,DDR3,64,863.2,26.98,12.1,4.5,1.0,Yes,25
-Quadro M600M,GM107,,,837,876,1253 (5012),384:24:16 (3 SMM),7.008,14.02,,80.2,GDDR5,128,672.8,21.02,,,,,30
-Quadro M1000M,,,,993,,,512:32:16 (4 SMM),15.89,31.78,,,,,1017,31.78,,,,,40
-Quadro M2000M,,,,1029,1098,,640:40:16 (5 SMM),17.57,43.92,4096,,,,1405,43.92,,,,,55
-Quadro M3000M,GM204,,,1050,,,1024:64:32 (8 SMM),33.60,67.20,,160.4,,256,2150,67.20,,,,,75
-Quadro M4000M,,,,975,,,1280:80:48 (10 SMM),62.40,78.00,,,,,2496,78.00,,,,,100
-Quadro M5000M,,,,962,,,1536:96:64 (12 SMM),62.40,93.60,8192,,,,2955.3,93.60,,,,,
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS),TDP (Watts),Notes
+,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
+GeForce 8200M G[125],June 2008,"MCP77MV, MCP79MVL",80,Integrated (PCIe 2.0 ×16),8:8:4,400,800,800 1066 (system memory),1.6,3.2,Up to 256 from system memory,12.8 17.056,DDR2 DDR3,128,10.0,3.3,19.2,Unknown,"PureVideo HD with VP3, Full H.264 / VC-1 / MPEG-2 HW Decode"
+GeForce 8400M G,May 2007,NB8M(G86),,PCIe ×16,,,,800,,,128 / 256,6.4,DDR2 / GDDR3,64,,,,10,"PureVideo HD with VP2, BSP Engine, and AES128 Engine"
+GeForce 8400M GS,,,,,16:8:4,,,,,,,,,,,,38.4,11,
+GeForce 8400M GT,,,,,,450,900,1200,1.8,3.6,256 / 512,19.2,,128,,,43.2,14,
+GeForce 8600M GS,,NB8P(G84),,,,600,1200,1400,2.4,4.8,,22.4,,,,,57.6,20,
+GeForce 8600M GT,,,,,32:16:8,475,950,800 / 1400,3.8,7.6,,12.8 / 22.4,,,,,91.2,,
+GeForce 8700M GT,June 2007,,,,,625,1250,1600,5,10,,25.6,GDDR3,,,,120,29,"Scalable Link Interface, PureVideo HD with VP2, BSP Engine, and AES128 Engine"
+GeForce 8800M GTS,November 2007,NB8P(G92),65,PCIe 2.0 ×16,64:32:16,500,,,8,16,512,51.2,,256,,,240,50,
+GeForce 8800M GTX,,,,,96:48:16,,,,,24,,,,,,,360,65,

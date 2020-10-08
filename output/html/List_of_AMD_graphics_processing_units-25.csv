@@ -1,31 +1,8 @@
-Model,Launch,Micro-archi-tecture,Core,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config,Fillrate,,Memory,,,,Processing power (GFLOPS),API compliance (version),,,Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,Vulkan,
-FireGL 8700,2001,R200,Radeon 8500,150,AGP,250,270,2:4:8:41,1,2,64,8.64,DDR,64 × 2,Unknown,8.1,1.4,N/A,
-FireGL 8800,,,,,,300,290,,1.2,2.4,128,9.28,,,Unknown,,,,
-FireGL T2-64,2003,R300,Radeon 9600 Pro,130,,325,200,2:4:4:41,1.3,1.3,64,6.4,,128,Unknown,9.0,2.0,,
-FireGL T2-128,,,,,,400,320,,1.6,1.6,128,10.2,,,Unknown,,,,
-FireGL Z1-128,2002,,Radeon 9500 Pro,150,,325,310,4:4:4:41,1.3,1.3,,19.8,,256,Unknown,,,,
-FireGL X1-128,,,Radeon 9700,,,,,4:8:8:81,2.6,2.6,,,,,Unknown,,,,
-FireGL X1-256,,,Radeon 9700 Pro,,AGP Pro,325,,,,,256,,,,Unknown,,,,
-FireGL X2-256,2003,,Radeon 9800 Pro,,AGP,380,350,,3.04,3.04,,22.4,DDR2,,Unknown,,,,
-FireGL X2-256T,,,Radeon 9800 XT,,,412,344,,3.3,3.3,,22.0,,,Unknown,,,,
-FireGL X3-256,2004,,Radeon X800 XT,130,,450,450,6:12:12:121,5.4,5.4,,28.8,GDDR3,,Unknown,9.0b,,,
-FireGL V3100,2005,,Radeon X300 XT,110,PCIe x16,400,200,2:4:4:41,1.6,1.6,128,6.4,DDR,128,Unknown,9.0,,,
-FireGL V3200,,,Radeon X600 XT,130,,500,400,,2,2,,12.8,DDR2,,Unknown,9.0b,,,
-FireGL V3300,2006,R500,Radeon 1300 Pro,90,,600,,,2.4,2.4,128,6.4,GDDR2,64,Unknown,9.0c,,,
-FireGL V3350,,,,,,,,,,,256,,,,Unknown,,,,
-FireGL V3400,,,Radeon 1600 Pro/XT,,,500,500,5:12:4:41,2,2,128,16.0,GDDR3,128,Unknown,,,,
-FireGL V3600[198],2007,Tera-Scale 1,"RV630 GL, HD 2600 Pro",65,,600,500,1202(24×5):8:4:3,2.4,4.8,256,,,,144,10,3.3,,"Shader Model 4.0, APP Stream"
-FireGL V5000,2005,R400,Radeon X700 Pro/XT,130,,425,430,6:8:8:81,3.4,3.4,128,13.6,,,Unknown,9.0b,2.0,,
-FireGL V5100,,,Radeon X800 Pro,,,450,350,6:12:12:121,5.4,5.4,,22.4,DDR,256,Unknown,,,,
-FireGL V5200,,R500,Radeon X1600 XT,90,,600,700,5:12:4:41,2.4,2.4,256,22.4,GDDR3,128,Unknown,9.0c,,,
-FireGL V5600[199],2007,Tera-Scale 1,"R630 GL, HD 2600 XT",65,PCIe,800,1100,1202(24×5):8:4:3,3.2,6.4,512,35.2,GDDR4,,192,10,3.3,,"Shader Model 4.0, APP Stream"
-FireGL V7100,2005,R400,Radeon X800 XT,130,,500,450,6:16:16:161,8,8,256,28.8,GDDR3,256,Unknown,9.0c,2.0,,
-FireGL V7200,2006,R500,Radeon X1800 XT,90,PCIe x16,600,650,,9.6,9.6,,41.6,,,Unknown,,,,
-FireGL V7300[200],,,"R520 GL, X1800 XT",,PCIe,,,,,,512,,,,Unknown,,,,
-FireGL V7350[201],,,,,,,,,,,1024,,,,Unknown,,,,
-FireGL V7400,2006 (Canceled),,Radeon X1950 Pro,80,,550?,650?,8:36:16:161,19.8?,19.8?,512?,41.6?,,,Unknown,,,,"never released, superseded by 2007 series"
-FireGL V7600[202],2007,Tera-Scale 1,"R600 GL, HD 2900 GT",,,600,800,2402(48×5):12:12:3,9.6,9.6,512,51.2,,,288,10,3.3,,"Shader Model 4.0, APP Stream"
-FireGL V7700[203],2007 (2008),,"R670 GL, HD 3870",55,PCIe 2.0,775,1125,3202(64×5):16:16:4,12.4,12.4,,72,GDDR4,,496,10.1 (SM4.1),,,DisplayPort. Can do double precision computation via the AMD Stream SDK.
-FireGL V8600[204],2007,,"R600 GL, HD 2900 XT",80,PCIe,688,868,3202(64×5):16:16:4,11.01,11.01,1024,111.1[205],,512,440.32,10,,,"Shader Model 4.0, APP Stream"
-FireGL V8650[206],,,,,,,,,,,2048,111.1,,,,,,,
+Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
+FirePro W2100[254],"August 13, 2014",GCN 1st gen,Oland XT,28,PCIe 3.0 x8,630,900,320:20:8:5,5.04,12.6,2,28.8,DDR3,128,403.2,25.5,11.2a/12.0,4.5,2.0 (new),1.0,<26,Two Standard DisplayPort DP 1.2a outputs
+FirePro W4100[255],,,Cape Verde,,PCIe 3.0 x16,630,1125,512:32:16:8,10.08,20.16,,72,GDDR5,,645.1,40.3,,,,,<50,Four Standard Mini-DP 1.2a outputs
+FirePro W5100[256],,GCN 2nd gen,Bonaire Pro,,,930,1500,768:48:16:12,14.88,44.64,4,96,,,1430,89.2,11.2b/12.0,,2.0,,<75,"DirectGMA, GeometryBoost, 4 DP 1.2a, including Adaptive-Sync and HBR2"
+FirePro W7100[257],,GCN 3rd gen,Tonga Pro GL,,,920,1400,1792:112:32:28,29.4,103,8,160,,256,3297,206,,,,1.1,<150,
+FirePro W8100[258],"June 26, 2014",GCN 2nd gen,Hawaii Pro GL,,,824,1250,2560:160:64:40,52.7,145,,320,,512,4218.9,2109.45,,,,1.0,220,"ECC RAM, 4 DP + SDI-Link"
+FirePro W9100[259],"March 26, 2014",,Hawaii XT,,,930,1250,2816:176:64:44,59.5,163.7,16 32,320,,,5237.8,2618.9,,,2.0[260],,275,"ECC RAM, Six Mini DP + SDI-Link"

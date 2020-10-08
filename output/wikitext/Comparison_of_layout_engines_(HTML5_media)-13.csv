@@ -1,25 +1,11 @@
-,Trident,Gecko,WebKit,KHTML,Presto
-Phrase,,,,,
-em,rowspan="9" 4.0,rowspan="10" 1.0,rowspan="10" ,rowspan="10" ,rowspan="10" 1.0
-strong,,,,,
-dfn,,,,,
-code,,,,,
-samp,,,,,
-kbd,,,,,
-var,,,,,
-cite,,,,,
-acronym,,,,,
-abbr,3.1,,,,
-Quotations,,,,,
-blockquote,4.0,1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-q,4.0,1.8<q> does not support nested quotes prior to Gecko 1.8.[1]group=note,,,
-Subscripts and superscripts,,,,,
-sub,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-sup,,,,,
-Lines and paragraphs,,,,,
-p,rowspan="2" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
-pre,,,,,
-br,5.0,,,,
-Marking document changes,,,,,
-ins,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-del,,,,,
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+manifest,html,6.0[67],12,1.9,,2.6[68][69]
+sizes,link,,13,8.0 (only mobile)[70][71],,
+charset,meta,4.0[73],12,1.9.2,,2.5.24
+scoped,style,,,21.0[74],,rowspan="6" 
+async,script,6.0,12,1.9.2[76],,
+reversed,ol,,,18.0[78],,
+downloaddate=December 2014,"a,area",,13,20.0[80],,
+sandbox,iframe,6.0[81],12,17.0[82],533[83],
+seamless,iframe,,,,,
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto

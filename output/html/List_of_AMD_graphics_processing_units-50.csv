@@ -1,7 +1,5 @@
-Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
-Mobility Radeon X300,Nov 2005,M22,RV370,110,PCI-E x16,350,250,2:4:4:4,1.4,1.4,128,4,DDR,64,9.0b,2.0,Powerplay 5.0
-Mobility Radeon X600,Jun 2004,M24,RV380,130,,400,,,1.6,1.6,"64, 128",8,,128,,,
-Mobility Radeon X700,Mar 2005,M26,RV410,110,,400-100 (PowerPlay),350-200,6:8:8:4,1.4,2.8,"Shared-128? 64, 128",11.2,"DDR, GDDR3",,,,"3DC, Dynamic Lane Count Switching,"
-Mobility Radeon X800,Nov 2004,M28,R423,130,,400,400,6:12:12:12,4.8,4.8,256,25.6,GDDR3,256,,,"3DC, DLCS, Clock Gating"
-Mobility Radeon X800 XT,Jun 2005,M28 PRO,R423,130,,480,550,6:16:16:16,7.68,7.68,,35.2,,,,,
+Model (Codename),Release Date,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TDP,Bus interface
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,
+Radeon Pro 450 [341][342][343][344][345],October 2016,GCN 4th gen 14 nm,3.0×109 123 mm2,640:40:16 10 CU,725 775,29 31,11.6 12.4,928 992,1/16 SP,GDDR5 128-bit,2,5000,80,35 W,PCIe 3.0 ×16
+Radeon Pro 455 [341][342][343][346],October 2016,,,768:48:16 12 CU,850,40.8,13.6,1305.6,1/16 SP,GDDR5 128-bit,2,5000,80,35 W,
+Radeon Pro 460 [341][342][343][347],October 2016,,,1024:64:16 16 CU,850 910,54.4 58.2,13.6 14.56,1740.8 1863.7,1/16 SP,GDDR5 128-bit,4,5000,80,35 W,

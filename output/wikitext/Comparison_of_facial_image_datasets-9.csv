@@ -1,3 +1,7 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Numenta Anomaly Benchmark (NAB),"Data are ordered, timestamped, single-valued metrics. All data files contain anomalies, unless otherwise noted.",None,50+ files,Comma separated values,Anomaly detection,2016 (continually updated),[410],Numenta
-"On the Evaluation of Unsupervised Outlier Detection: Measures, Datasets, and an Empirical Study","Most data files are adapted from UCI Machine Learning Repository data, some are collected from the literature.","treated for missing values, numerical attributes only, different percentages of anomalies, labels",1000+ files,ARFF,Anomaly detection,2016 (possibly updated with new datasets and/or results),[411],Campos et al.
+NPS Chat Corpus,Posts from age-specific online chat rooms.,"Hand privacy masked, tagged for part of speech and dialogue-act.","~ 500,000",XML,"NLP, programming, linguistics",2007,[209],"Forsyth, E., Lin, J., & Martell, C."
+Twitter Triple Corpus,A-B-A triples extracted from Twitter.,,"4,232",Text,NLP,2016,[210],"Sordini, A. et al."
+UseNet Corpus,UseNet forum postings.,"Anonymized e-mails and URLs. Omitted documents with lengths <500 words or >500,000 words, or that were <90% English.",7 billion,Text,,2011,[211],"Shaoul, C., & Westbury C."
+NUS SMS Corpus,"SMS messages collected between two users, with timing analysis.",,"~ 10,000",XML,NLP,2011,[212],"KAN, M"
+Reddit All Comments Corpus,All Reddit comments (as of 2015).,,~ 1.7 billion,JSON,"NLP, research",2015,[213],Stuck_In_the_Matrix
+Ubuntu Dialogue Corpus,Dialogues extracted from Ubuntu chat stream on IRC.,,,CSV,Dialogue Systems Research,2015,[214],"Lowe, R. et al."

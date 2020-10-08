@@ -1,24 +1,21 @@
-Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
-GeForce 6100 + nForce 410,"October 20, 2005",MCP51,TSMC 90 nm,HyperTransport,425,100–200 (DDR) 200–533 (DDR2),2:1:2:1,850,425,850,106.25,Up to 256 system RAM,1.6–6.4 (DDR) 3.2–17.056 (DDR2),DDR DDR2,64 128
-GeForce 6150 SE + nForce 430,June 2006,MCP61,,,,200 400date=September 2012,,,,,,,3.2 16.0date=September 2012,DDR2,
-GeForce 6150 LE + nForce 430,,MCP61,,,,100–200 (DDR) 200–533 (DDR2),,,,,,,1.6–6.4 (DDR) 3.2–17.056 (DDR2),DDR DDR2,
-GeForce 6150 + nForce 430,"October 20, 2005",MCP51,,,475,,,950,475,950,118.75,,1.6–6.4 (DDR) 3.2–17.056 (DDR2),,
-GeForce 6200 LE,2005,NV44,TSMC 110 nm,AGP 8× PCIe ×16,350,266,,700,700,700,87.5,128 256,4.256,DDR,64
-GeForce 6200A,"April 4, 2005",NV44A,,AGP 8×,350[7],250 533 (DDR2)[7],4:3:4:2,1400[7],700[7],1400[7],175 225 (DDR2)[8],128 256 (DDR2)[7] 512 (DDR2)[7],4 13.3 (DDR2)[9],DDR DDR2[8],64[8]
-GeForce 6200,"October 12, 2004 (PCIe) January 17, 2005 (AGP)",NV43,,AGP 8× PCI PCIe ×16,300,275,4:3:4:4,1200,1200,1200,225,128 256,8.8,DDR2,128
-GeForce 6200 TurboCache,"December 15, 2004",NV44,,PCIe ×16,350,350,4:3:4:2,1400,700,1400,262.5,128–256 System RAM incl.16/32–64/128 onboard,5.6,DDR,64
-GeForce 6500,"October 1, 2005",,,,400,333,,1600,800,1600,300,128 256,5.328,,
-GeForce 6600 LE,2005,NV43,,AGP 8× PCIe ×16,300,200,4:3:4:4,1200,1200,1200,225,,6.4,,128
-GeForce 6600,"August 12, 2004",,,,,275 400,8:3:8:4,2400,,2400,,,8.8 12.8,DDR DDR2,
-GeForce 6600 GT,"August 12, 2004 (PCIe) November 14, 2004 (AGP)",,,,500,475 (AGP) 500 (PCIe),,4000,2000,4000,375,,15.2[10] (AGP) 16 (PCIe),GDDR3,
-GeForce 6800 LE,"July 22, 2004 (AGP) January 16, 2005 (PCIe)","NV40 (AGP) NV41, NV42 (PCIe)",IBM 130 nm,,320 (AGP) 325 (PCIe),350,8:4:8:8,2560 (AGP) 2600 (PCIe),2560 (AGP) 2600 (PCIe),2560 (AGP) 2600 (PCIe),320 (AGP) 325 (PCIe),128,22.4,DDR,256
-GeForce 6800 XT,"September 30, 2005",,,,300 (64 Bit) 325,266 (64 Bit) 350 500 (GDDR3),,2400 2600,2400 2600,2400 2600,300 325,256,4.256 11.2 22.4 32 (GDDR3),DDR DDR2 GDDR3,64[11] 128[12] 256
-GeForce 6800,"April 14, 2004 (AGP) November 8, 2004 (PCIe)",,,,325,350,12:5:12:12,3900,3900,3900,406.25,128 256,22.4,DDR,256
-GeForce 6800 GTO,"April 14, 2004",NV45,,PCIe ×16,,450,,4200,4200,4200,437.5,256,28.8,GDDR3,
-GeForce 6800 GS,"November 7, 2005 (PCIe) December 8, 2005 (AGP)",NV42 (PCIe) NV40 (AGP),TSMC 110 nm,AGP 8× PCIe ×16,425 (PCIe) 350 (AGP),500,,5100,5100,5100,531.25,128 256,32,,
-GeForce 6800 GT,"May 4, 2004 (AGP) June 28, 2004 (PCIe)",NV40 (AGP) NV45 (PCIe),IBM 130 nm,AGP 8× PCIe ×16,350,,16:6:16:16,5600,5600,5600,525,,,,
-GeForce 6800 Ultra,"May 4, 2004 (AGP) June 28, 2004 (PCIe) March 14, 2005 (512 MB)",,,,400,525 (512 MB) 550 (256 MB),,6400,6400,6400,600,256 512,33.6 (512 MB) 35.2 (256 MB),,
-GeForce 6800 Ultra Extreme Edition,"May 4, 2004",NV40,,AGP 8×,450,600,,7200,7200,7200,675,256,35.2,,
-Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus interface,L2 Cache (MB),Clock speeds,,,Memory,,,,Fillratename=PerfValues,,Processing power (GFLOPS)name=PerfValuesname=ProcessingPower,,,TDP (Watts),SLI support,Release price (USD),
+,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),"Pixel (GP/s)name=PixelFillrateAs the GTX 1070 has one of the four GP104 GPCs disabled in the die, its frontend is only able to rasterize 48 pixels per clock.[77] Analogically, the GTX 1060 features only two GPCs on its GP106 die, meaning that its frontend can only rasterize 32 pixels per clock. The remaining backend ROPs can still be used for tasks such as MSAA.[78]",Texture (GT/s)name=TextureFillrate,Single precision,Double precision,Half precision,,,MSRP,Founders Edition
+GeForce GT 1030[79][80],"March 12, 2018",GP108-310-A1,Samsung 14LPP,1.8,74,384:24:16 (3) (1),PCIe 3.0 x4[81][82],?,1152,1379,2100,2,16.8,DDR4,64,18.4 22.0,27.6 33.0,884.7 1?059.0,27.6 33.0,13.8 16.5,20,rowspan=12 ,$79,rowspan=10 
+,"May 17, 2017",GP108-300-A1,,,,,,.5,1227,1468,6000,,48.0,GDDR5,,19.6 23.4,29.4 35.2,942.3 1?127.4,29.4 35.2,14.7 17.6,30,$70,,
+GeForce GTX 1050[83],"October 25, 2016",GP107-300-A1,,3.3,132,640:40:32 (5) (2),PCIe 3.0 x16,1,1354,1455,7000,,112.0,,128,43.3 46.6,54.1 58.8,1?733.1 1?862.4,54.1 58.2,27.0 29.1,75 (Retail up to 120),$109,,
+,"May 21, 2018",GP107-301-A1,,,,768:48:24 (6) (2),,.75,1392,1518,,3,84.0,,96,33.4 36.4,66.8 72.9,2?138.1 2?331.6,66.8 72.9,33.4 36.4,,,,
+GeForce GTX 1050 Ti[83],"October 25, 2016",GP107-400-A1,,,,768:48:32 (6) (2),,1,1290,1392,,4,112.0,,128,41.2 44.5,61.9 66.8,1?981.4 2?138.1,61.9 66.8,30.9 33.4,,$139,,
+GeForce GTX 1060 [84][85][86][87],"December 25, 2016",GP104-140-A1,TSMC 16FF,7.2,314,1152:72:48 (9) (2),,1.5?,1506,1708,8000,3,192.0,,192,72.2 81.9,108.4 122.9,3?469.8 3?935.2,108.4 122.9,54.2 61.4,120 (Retail up to 200),$199,,
+,"August 18, 2016",GP106-300-A1,,4.4,200,,,1.5,,,,,,,,,,,,,,,,
+,"December 26, 2017",GP106-350-K3-A1,,,,1280:80:40 (10) (2),,1.25,,,,5,160.0,,160,60.2 68.3,120.4 136.7,3?855.3 4?375.0,120.4 136.7,60.2 68.3,,OEM,,
+,"March 8, 2018",GP104-150-A1,,7.2,314,1280:80:48 (10) (2),,1.5,,,,6,192.0,,192,72.2 82.0,,,,,,rowspan=2 ,,
+,"December, 2018",GP104-150-KA-A1,,,,,,,,,,,,GDDR5X,,,,,,,,,,
+,"July 19, 2016",GP106-400-A1,,4.4,200,,,1.5?,,,,,,GDDR5,,,,,,,,$249,$299,
+,"April 20, 2017",GP106-410-A1,,,,,,,,,9000,,216.0,,,,,,,,,$299,,
+GeForce GTX 1070[88][89],"June 10, 2016 / Dec. 2018",GP104-200-A1,,7.2,314,1920:120:64 (15) (3),,2,,1683,8000,8,256.0,GDDR5 / GDDR5X,256,96.3 107.7,180.7 201.9,5?783.0 6?462.7,180.7 201.9,90.3 100.9,150 (Retail up to 250),4-way SLI or 2-way SLI HB[90][91],$379,$449 ($399)[92]
+GeForce GTX 1070 Ti[88],"November 2, 2017",GP104-300-A1,,,,2432:152:64 (19) (4),,,1607,,,,,GDDR5,,102.8 107.7,244 256,7?816.4 8?186.1,244.2 255.8,122.1 127.9,180 (Retail up to 300),,$449,
+GeForce GTX 1080[93],"May 27, 2016",GP104-400-A1,,,,2560:160:64 (20) (4),,,,1733,10000,,320.0,GDDR5X,,102.8 110.9,257.1 277.2,8?227.8 8?872.9,257.1 277.2,128.5 138.6,,,$599 ($499)[92],$699 ($549)[92]
+,"April 20, 2017",GP104-410-A1,,,,,,,,,11000,,352.0,,,,,,,,,,,
+GeForce GTX 1080 Ti[94],"March 5, 2017",GP102-350-K1-A1,,12,471,3584:224:88 (28) (6),,2.75,1480,1582,,11,484.0,,352,130.2 139.2,331.5 354.3,10?608.6 11?339.7,331.5 354.3,165.7 177.1,250,,$699,
+Nvidia TITAN X[95],"August 2, 2016",GP102-400-A1,,,,3584:224:96 (28) (6),,3,1417,1531,10000,12,480.0,,384,136.0 146.9,317.4 342.9,10?157.0 10?974.2,317.4 342.9,158.7 171.4,,,$1200,rowspan="2" 
+Nvidia TITAN Xp[96],"April 6, 2017",GP102-450-A1,,,,3840:240:96 (30) (6),,,1405,1480,11400,,547.7,,,134.8 142.0,337.2 355.2,10?790.4 11?366.4,337.2 355.2,168.6 177.6,,,,

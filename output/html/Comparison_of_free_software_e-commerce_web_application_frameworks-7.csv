@@ -1,15 +1,13 @@
-,Authorize.Net AIM,Authorize.Net SIM,Barclaycard CPI,Barclaycard MPI,HSBC API,HSBC CPI,PayPal Standard
-Apache OFBiz,Yes,No,No,No,No,No,Yes
+,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS
+Apache OFBiz,No,No,No,No,No,No,No
 Batavi,No,No,No,No,No,No,No
-Bigcommerce,Yes,Yes,No,No,No,No,Yes
-Drupal Commerce,Yes,No,No,No,No,No,Yes
-KonaKart,Yes,Yes,No,No,No,No,Yes
-Magento,Yes,3rd party,Yes,Yes,Yes,Yes,Yes
-nopCommerce,Yes,Yes,No,No,No,No,Yes
-osCommerce,Yes,Yes,No,No,No,No,Yes
-pimcore,No,No,No,No,No,No,No
-PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Shopify,Yes,Yes,No,Yes,No,No,Yes
-WooCommerce,Yes,Yes,No,No,No,No,Yes
-Zen Cart,Yes,Yes,No,No,No,No,Yes
-,Authorize.Net AIM,Authorize.Net SIM,Barclaycard CPI,Barclaycard MPI,HSBC API,HSBC CPI,PayPal Standard
+Bigcommerce,Yes,Yes,No,Yes,No,Yes,Yes
+KonaKart,No,No,No,Yes,No,Yes,Yes
+Magento,No,No,No,No,No,No,No
+nopCommerce,No,No,No,No,No,No,No
+osCommerce,No,No,No,No,No,No,No
+PrestaShop,webservice,No,No,No,No,No,No
+Shopify,No,No,No,No,No,No,No
+WooCommerce,Yes,Yes,No,No,No,Yes,No
+Zen Cart,No,No,No,Yes,Yes,Yes,Yes
+,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS

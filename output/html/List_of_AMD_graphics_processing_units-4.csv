@@ -1,7 +1,12 @@
-Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
-,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
-FirePro W600[242],"June 13, 2012",GCN 1st Gen.,Cape Verde Pro GL,28,PCIe 3.0 x16,750,1000,512:32:16:8,12.0,24.0,2,64,GDDR5,128,768,Up to 55,11.1/12,4.5,1.2,1.0,75,Six Mini DisplayPort
-FirePro W5000[243],,,Pitcairn LE GL,,,825,800,768:48:32:12,26.4,39.6,,102.4,,256,1267.2,79.2,,,,,<75,"Two DisplayPort, One DVI-I"
-FirePro W7000[244],,,Pitcairn XT GL,,,950,1200,1280:80:32:20,30.4,76.0,4,153.6,,,2432,152,,,,,<150,Four DisplayPort
-FirePro W8000[245],"June 14, 2012",,Tahiti PRO GL,,,900,1375,1792:112:32:28,28.8,100.8,,176,,,3225.6,806.4,,,,,<225,"ECC RAM, Four DisplayPort + SDI-Link"
-FirePro W9000[246][247],,,Tahiti XT GL,,,975,1375,2048:128:32:32,31.20,124.8,6,264,,384,3993.6,998.4,,,,,274,"ECC RAM, Six mini-DisplayPorts + SDI-Link"
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Radeon VE/7000,"Feb 19, 2001",RV100 (piglet),180,"AGP 4x, PCI",183,183,1:0:3:1,183,336,549,0,"32, 64",2.688,DDR,64
+Radeon LE/7100 (OEM),"May 1, 2001",Rage 6 / R100,,AGP 4x,150,150,2:1:6:2,296,296,888,37.5,32,4.736,,128
+Radeon SDR/7200,June 2000,,,"AGP 4x, PCI",166,166,,333,333,996,41.5,,2.656,SDR,
+Radeon DDR/7200,April 2000,,,AGP 4x,166/183A,166/183A,,333/366A,333/366A,966/1098A,41.5/45.75A,"32, 64",5.312/5.856A,DDR,
+Radeon DDR/7500 VIVO,2001,,,"AGP 4x, PCI",166/183B,166/183B,,333/366B,333/366B,966/1098B,41.5/45.75B,64,5.312/5.856B,,
+Radeon DDR/7500 VIVO "SE",,,,,200,200,,400,400,1200,50.0,,6.400,,
+Radeon 7500 LE,N/A,RV200 (morpheus),150,,250,175,,500,500,1500,62.5,"32, 64",5.600,,
+Radeon 7500,"Aug 14, 2001",RV200 (morpheus),,,290,230,,580,580,1740,72.5,"32, 64, 128[18]",7.360,,
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
+,,,,,,,,Fillrate,,,,Memory,,,

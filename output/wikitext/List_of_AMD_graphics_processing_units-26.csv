@@ -1,17 +1,24 @@
-Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Processing power (GFLOPS),Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
-Mobility Radeon HD 4200,"September 10, 2009",,RV620,55,Internal PCIe x16 1.1,500,800 (system memory),40:4:4,2,2,up to 512 from system memory,6.4/12.8,DDR2 DDR3,64/128,10.1,3.3,40,"UVD2, PowerPlay 7.0"
-Mobility Radeon HD 4225,"May 1, 2010",,,,,380,,,1.52,1.52,,,,,,,30.4,
-Mobility Radeon HD 4250,,,,,,500,,,2,2,,,,,,,40,
-Mobility Radeon HD 4270,,,,,,590,,,2.36,2.36,,,,,,,47.2,
-Mobility Radeon HD 4330,"January 9, 2009",M92,RV710,,PCIe x16 2.0,450,600,80:8:4,1.8,3.6,512,9.6,DDR2 DDR3 GDDR3,64,,,72,
-Mobility Radeon HD 4530,,,,,,500,700,,2,4,,11.2,,,,,80,
-Mobility Radeon HD 4550,"January 1, 2010",,,,,550,,,2.2,4.4,,,,,,,80,
-Mobility Radeon HD 4570,"January 9, 2009",,,,,680,800,,2.72,5.44,,12.8,,,,,108.8,
-Mobility Radeon HD 4650,,M96,RV730,,,500 550,600 800,320:32:8,4 4.4,16 17.6,512 1024,19.2 25.6,DDR2 DDR3 GDDR3,128,,,320 352,
-Mobility Radeon HD 4670,,M96-XT,,,,675,800,,5.4,21.6,,12.8 25.6,,,,,432,
-Mobility Radeon HD 4830,"March 3, 2009[15]",M97,RV740,40,,400/600 400/600,800/900 800/900,640:32:16,6.4/9.6 6.4/9.6,12.8/19.2 12.8/19.2,,25.6/28.8 25.6/28.8,GDDR3 DDR3,,,,512/768 512/768,
-Mobility Radeon HD 4850[16],"January 9, 2009",M98,RV770,55,,500,850 700,800:40:16,8,20,1024,54.4 89.6,GDDR3 GDDR52,256,,,800,
-Mobility Radeon HD 4860,"March 3, 2009[15]",M97,RV740,40,,650,1000,640:32:16,10.4,20.8,,64.0,GDDR52,128,,,832,
-Mobility Radeon HD 4870,"January 9, 2009",M98-XT,RV770,55,,550,888 700,800:40:16,8.8,22,512 1024,56.832 89.6,GDDR3 GDDR52,256,,,880,
-Mobility Radeon HD 4870 X2,,,,,,550,700,2x [800:40:16],2x 8.8,2x 22,2048,2x 89.6,GDDR52,2x 256,,,2x 880,"UVD2, PowerPlay 7.0 Dual GPU solution"
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,Memory,,,,API (version),
+,,,,,,,,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+All-in-Wonder Radeon,"Jul 31, 2000",R100,180,AGP 4x,166,332,2:1:6:2,332,996,41.5,32,5.312,DDR,128,7.0,1.4
+All-in-Wonder 7500,"Jan 22, 2002",RV200,150,,260,360,2:0:6:2,520,1560,0,64,11.52,,,,
+All-in-Wonder VE,"Dec 2, 2002",,,,250,500,,500,1500,,,8,,,,
+All-in-Wonder 8500,"Apr 4, 2002",R200,,,260,550,4:2:8:4,1100,2200,137.5,128,8.8,,,8.1,
+All-in-Wonder 8500 DV,"Aug 30, 2001",,,,230,380,,920,1840,115,64,6.08,,,,
+All-in-Wonder 9000 Pro,"Mar 31, 2003",RV250,,AGP 8x,275,550,4:1:4:4,1110,1110,68.75,"64, 128",8.8,,,,
+All-in-Wonder 9200,"Jan 26, 2004",,,,250,400,,1000,1000,62.5,128,6.4,,,,
+All-in-Wonder 9200 SE,N/A,,,,,332,,,,,,2.656,,64,,
+All-in-Wonder 9600,"Jan 26, 2004",RV350,130,,325,400,4:2:4:4,1300,1300,162.5,,6.4,,128,9.0,2.0
+All-in-Wonder 9600 Pro,"Aug 05, 2003",,,,400,650,,1600,1600,200,,10.4,,,,
+All-in-Wonder 9600 XT,"Jan 26, 2004",,,,525,,,2100,2100,262.5,,,,,,
+All-in-Wonder 9700 Pro,"Dec 30, 2002",R300,150,,325,620,8:4:8:8,2600,2600,325,,19.84,,256,,
+All-in-Wonder 9800 Pro,"Apr 7, 2003",R350,,,380,680,,3040,3040,380,,21.76,,,,
+All-in-Wonder 9800 SE,"Nov 1, 2003",,,,,,4:4:4:8,,1520,,,10.88,,128,,
+All-in-Wonder X600 Pro,"Sept 21, 2004",RV370,110,,400,600,4:2:4:4,1600,1600,200,256,9.6,,,,
+All-in-Wonder X800 GT,"Aug 8, 2005",R430,,PCI-E x16,490,980,8:6:8:16,6400,3200,600,128,31.36,GDDR3,256,9.0b,
+All-in-Wonder X800 XL,"Jul 5, 2005",,,PCI-E x16 AGP 8X,400,,16:6:16:16,,6400,,256,,,,,
+All-in-Wonder X800 XT,"Sept 9, 2004",R420,130,AGP 8x,500,1000,,8000,8000,750,,32,,,,
+All-in-Wonder 2006,"Dec 22, 2005",RV515,90,PCI-E x16,450,800,4:2:4:4,1800,1800,225,,12.8,DDR2,128,9.0c,
+All-in-Wonder X1800 XL,"Nov 21, 2005",R520,,,500,1000,16:8:16:16,8000,8000,1000,,32,GDDR3,256,,
+All-in-Wonder X1900,"Jan 24, 2006",R580,,,,960,48:8:16:16,,,,,30.72,,,,
+All-in-Wonder HD 3650,"Jun 28, 2008",RV635,55,,725,1200,120:8:4,2900,5800,N/A,512,19.2,DDR2,128,10.1,3.3

@@ -1,5 +1,5 @@
-BitTorrent library,Cache[64],Web seeding [95],WebTorrent,Broadcatching (RSS),Prioritization,Selective downloads,SOCKS,Remote control via web,Engine,Notes
-libtorrent (Rasterbar),,,,,,,,,,
-MonoTorrent,,,,,,,,,,
-rTorrent (libTorrent Rakshasa),,,,,,,,,,No built-in cache-disk cache but a delayed sync
-BitTorrent library,Cache,Web seeding,WebTorrent,Broadcatching (RSS),Prioritization,Selective downloads,SOCKS,Remote control via web,Engine,Notes
+BitTorrent library,First public release date,Latest stable,Software license
+libtorrent (Rasterbar),df=yes20050908[91],,BSD licenses
+MonoTorrent,df=yes200609,,MIT/X11
+rTorrent (libTorrent Rakshasa),df=yes20040715[92],,GNU GPLv2
+BitTorrent library,First public release date,Latest stable,Software license

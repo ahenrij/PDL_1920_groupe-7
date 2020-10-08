@@ -1,59 +1,96 @@
-English,Malaysian,Indonesian
-salty,masin,"asin, masin (rare)"
-Sanskrit,Sanskrit,Sanskerta
-sauce,sos,saus
-sausage,sosej,sosis (from Dutch saucijs)
-scenario,senario,skenario
-school (Islamic),sekolah pondok,"madrasah, pesantren, pondok pesantren"
-science,sains,"ilmu (from Arabic 'ilm) (alam), sains (especially for "natural science")"
-Scotland,Scotland,Skotlandia
-secret,rahsia,rahasia
-secretary,setiausaha Indonesian lit. "loyal to work",sekretaris (from Dutch secretaris)
-section,"seksyen, bahagian","seksi (from Dutch sectie), bagian"
-sensor,"penderia, pengesan, sensor",sensor
-server (computing),pelayan,"server, peladen"
-session,"sesyen, sesi",sesi (from Dutch sessie)
-sewer,"saluran najis "najis" means dirty in both languages, saluran kumbahan","selokan, parit (means 'ditch' in Malay), got, saluran air/pembuangan"
-sexagesimal,perenampuluhan,seksagesimal
-shampoo,"syampu (from Anglo-Indian / Hindustani ch?mpo, the imperative form of (Hindi) ??????? ch?mpn? 'to smear, knead the muscles, massage')",sampo
-share (verb),"berkongsi (In Indonesian, it means "creating trading company" or "plotting something bad")",berbagi
-shirt,baju (also in Indonesian but more generally refers to clothes),"kaos, kemeja (from Portuguese camisa, implies collared shirt)"
-shoe,"kasut generalized term for any footwear in Indonesian, but usually related to sandals or ancient shoes, sepatu","sepatu (understood but less frequently used in Malaysia, from Portuguese sapato)"
-shop,kedai (Means eateries stall in Indonesia),"toko, warung, kedai"
-shopping mall,pusat beli-belah,"mal, pusat perbelanjaan"
-site (internet),tapak (means foundation (building) or footprint in Indonesia),situs
-Slovakia,Slovakia,Slowakia
-snow,salji (from Arabic thalj),salju (also from thalj)
-sodomy,liwat (from Arabic),"sodomi, liwat (only used in Islamic text books)"
-solar,"solar, suria (from Sanskrit 'surya')",surya
-solution,"penyelesaian, solusi (rare)","solusi, pemecahan, penyelesaian"
-sour,masam,"asam, masam (poetic, usually used in connotative expressions: bermuka masam: sour faced (dissatisfied/unhappy expression))"
-soya beans,kacang soya,(kacang) kedelai
-Spain,Sepanyol,Spanyol
-speak/talk,"berbicara, bercakap (means 'to chat' in Indonesian), bersembang, berborak","berbicara, ngomong (Javanese ngoko, colloquial)"
-specialist,"perubatan, pakar","spesialis (in case of specialist doctor), pakar in general, it means expert"
-spoon,sudu,sendok
-sport,sukan,"olahraga (means "athletics" Malay, from Sanskrit, lit. "to train the body")"
-spouse,"pasangan suami-isteri, kelamin colloquial, in Indonesian means "sex" or "gender"","pasangan (suami-istri), suami-istri (husband-wife)"
-stability,kestabilan,"stabilitas, kestabilan"
-stadium,stadium,"stadion, stadiun from Dutch"
-staff,kakitangan (phrase "kaki tangan" means subordinate with negative image in Indonesian),"staf, personil from Dutch personeel, pegawai"
-stamp,setem,perangko
-standard,"piawai, standard",standar patokan
-starfish,tapak Sulaiman,bintang laut
-state (within a federation),negeri,negara bagian
-station,stesen,stasiun (formerly spelled "setasiun")
-steering wheel,roda stereng,roda setir (from Dutch stuur)
-stop (verb),berhenti,"berhenti, henti, setop"
-strawberry,strawberi,"stroberi, arbei from Dutch aardbei"
-stupid,"bodoh, bengap, tolol, bangang, bongok (slang)","bodoh, dungu, tolol, goblok (slang), very demeaning in Malay, geblek (slang), bego (slang)"
-sublimation (phase transition),pemejalwapan,"sublimasi, penyubliman"
-Sunday,Ahad,"Minggu (from Portuguese Domingo which means Lord's Day), Ahad (only used in Islamic calendar)"
-sunglasses,"cermin mata gelap (In Indonesia, cermin means "mirror")","kacamata hitam (lit. black glasses), kacamata riben (from 'Ray-Ban' brand of sunglasses )"
-supermarket,pasar raya,"supermarket, pasar swalayan (lit. self-service market)"
-supervision,penyeliaan,"pengawasan, penyeliaan, supervisi"
-survey,"tinjauan (means process or result of observation in Indonesian), kaji selidik",survei
-suspend (hang),menggantung (means 'hang' in Indonesian),menangguhkan (also 'adjourn' in Malay)
-Sweden,Sweden,Swedia
-Switzerland,Switzerland,Swiss
-Syria,Syria,Suriah (from Arabic)
+Word,Malaysian meaning,Indonesian meaning
+acara,event,"event program, agenda court examination"
+ahli,"a member (of a group) (when the word is used by itself) (from Arabo-Persian "ahli" ???? 'belonging to a group, people, indigenous or sim.'), expert in a field (from Arabo-Persian "'aqli" ???? 'belonging to the intellect or mind, intellectual')",expert in a specific field
+akta (from Latino-Dutch acta),act (= law),act (= written legal document)
+awak,you (casual),"me / I (Used by speakers from Sumatra mainly Malays, people in Medan, etc.), crew (of transportation)"
+baja,fertilizer,steel Malay: besi waja
+banci,census (Indonesian: sensus),"effeminate, transvestite homosexual (negative connotation)"
+bandar,city,port
+bangun,to develop/ wake up (from sleep),to build / wake up (from sleep)
+bapa,Father (male parent),specific to 'Father' (God) in religious context (Christianity) our Father which art in Heaven = Bapa kami yang di surga Father in Indonesian is bapak (with an additional 'k' letter')
+belanja,"to treat, giving something for free","to shop (note: also carries this meaning in Malay, though in a context more akin to "spend")."
+berbagi,to give,to share (something)
+berbual,to chat,to tell a lie
+bercinta,in (the essence of) love,"to make love, have sexual intercourse"
+beredar,"From the root word "edar" which can means; to oscillate (planets only), to leave, or to distribute","to oscillate, to distribute"
+berlaku,"happen, occur",apply
+biji,seed,"seed, testicles ("balls", offensive)"
+bila,when,"if, when (older version, almost obsolete)"
+bina,to build,to develop
+bisa,venom,"can/be able to (also understood but less frequently used in Malay) (same as "boleh" in Malay), venom"
+bontot/buntut,buttock,"tail ('ekor' as commonly used in Malay, sometimes in Indonesia)"
+budak,kid Indonesian:anak or bocah,slave
+butoh/butuh,"male genitals, an offensive reference",need
+cadangan,"suggestion, opinion, proposal (example: peti cadangan = suggestion box) Indonesian:saran","reserve, spare (example: ban cadangan = spare tire)"
+comel,"cute, pretty",(to call) someone who can not keep a secret (example: mulutnya comel = her mouth can't keep a secret)
+daripada,"A preposition that carries 5 meanings; from (to explain the origin of something) than (to do comparison) from (to protect from, to avoid from ) from (to state the sender of something) from (to state the differences)",than (comparison) (example: Kamus ini lebih baik daripada yang itu = This dictionary is better than that one)
+detik,jiffy,second
+doktor,doctor (medical); doctorate (educational title),"doctorate (educational title) In Indonesian, the equivalent for medical doctor is dokter"
+duduk,"to sit, a place to live on (only used informally)","to sit, to occupy"
+email,electronic mail (recently changed to "emel"),enamel
+gampang,bastard from 'anak gampang' lit. easy child.,easy (non-negative meaning)
+getah,"rubber, plant sap",plant sap
+hemat,moral excellence,"frugal, pennywise, save money or something e.g. electricity, gas or water usage"
+ibu negara,capital city,First Lady
+ibu pejabat,head office,wife of an official
+jabatan,department,position
+jawatan,position,department
+jemput,"to invite, to pick up",to pick up
+jeruk,pickles/preserved fruits or vegetables,orange (fruit)
+jimat,"frugal, pennywise, save money or something e.g. electricity",amulet (the Malay equivalent is azimat)
+kacak,handsome,"ber-kacak pinggang (stands with hands on your hips) The Malay equivalent is bercekak-pinggang, a phrase to mean that a person is being bossy"
+kadar,rate,"content, level"
+kakak,elder sister,elder sibling (either elder brother or sister)
+kakitangan,employee,subordinate (with negative meaning)
+kapan,or kafan: Muslim burial shroud (kain kafan/kapan),when (kapan mau pulang? = when do you want to go home?)
+karya,work of art (karyawan = artists),to work (karyawan = workers) result of work Karya seni = work of art to create a piece of art.
+kerajaan,"government (historical association, most Malay states were governed by monarchs, from Raja = King, now refers to any kind of government)",kingdom
+keranjang,'bola keranjang' = basketball (no other use than for basketball),basket
+kereta,car,"vehicle, carriage, cart (kereta api = train, kereta kuda = horse carriage/cart, kereta gantung = cable car)"
+kesal,regret Indonesian:sesal,annoyed
+khidmat,service Indonesian: layanan,fully concentrate
+koneksi,'konek' = dick (slang/vulgar),connection Malay: Sambungan
+konfeksi,"A soft solid made by incorporating a medicinal substance or substances with sugar, sirup, or honey","clothing industry, any fancy or luxurious women's clothes (Dutch: confectie. A non-standard spelling sometimes used is: "konveksi")"
+kurun,century,a long (time)
+lucu,funny,"funny, cute (slang)"
+mangsa,victim,prey (for animal)
+mengacau,"to disturb, to stir Indonesian: mengaduk",to disturb
+olahraga,athletics (sport),sport
+operasi,"mathematic operational symbol, tactical operation","mathematic operational symbol, police operation, operation/surgery (as in Dutch)"
+pajak,"to mortgage, pawn",tax
+paket,packet,"packet, package (normally used for promotion purposes, as in Dutch)"
+pantas,speedily,"appropriate, 'no wonder'"
+pantat,"buttock (Sabahan Malay meaning), vagina/pussy (slang/vulgar)",buttock
+pegawai,high-rank officer/officials,officials
+pelan,"plan (associated with architectural work, site map etc. only)",slow (perlahan in Malay)
+penyelenggaraan,maintenance,organizing
+pejabat,office,"high-rank officer/officials (those who hold office, Malay (pegawai))"
+pembangkang,opposition,"rebel (noun), insurgent"
+pemerintah,ruler,government
+pengacara,"master of ceremonies, host Indonesian: pembawa acara",lawyer
+pengajian,studies Indonesian: pelajaran,"mass recitation of Qur'an, (Islamic) teaching"
+penganjur,organizer,promoter
+percuma,"free of charge percuma can also mean free of charge in Indonesian, but its usage has become obsolete, replaced by cuma-cuma/gratis (taken from Dutch: gratis = free)","useless, not needed"
+perhubungan,1. connection 2. communication,1. connection 2. transportation
+petang,afternoon,evening
+piawai,standard; correct bahasa piawai = standard language,expert; skillful (on something)
+pijat,bugs (software bugs i.e. Year 2000 bug and also commonly referring to the bed bugs),massage Javanese pijet
+pohon,"tree, to plea or to beg (from basic word: "mohon")",tree
+pokok,tree,"essential, basic, main kebutuhan pokok = essential necessities"
+polis,police,(insurance) policy (as in Dutch)
+polisi,policy,police (as in Dutch)
+punggung,buttock,back Malay: belakang
+pupuk,to nurture,fertilizer (also means 'to nurture' in the metaphorical sense of the word)
+pusing,"to go around a place, circular in motion, to spin/rotate Indonesian: putar","dizzy, confused, headache"
+putera,prince (Indonesian: Pangeran,son
+rambut,hair (for head only),hair
+rayuan,appeal (neutral),"flattery, seduction (emotional or sexual connotation)"
+saat,second,jiffy
+sarjana,master's degree,bachelor's degree
+sederhana,"medium, normal","simple, easy"
+senang,easy,"happy, relax"
+seronok,"good, enjoyable","in nonstandard usage: "impolite", "pornography-related"[42][43] gambar seronok = porn picture"
+sulit,"confidential, difficult",difficult
+tambang,fare Indonesian: tarif,"mine, rope (as tali tambang)"
+tandas,toilet,"to explain, to finish"
+wakil,representative,"vice (for example, 'vice chancellor' and 'vice president'), representative"

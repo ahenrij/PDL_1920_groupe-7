@@ -1,39 +1,29 @@
-,Text,,Boolean,Enumeration,Object/Universal
-,Character,String[a],,,
-Ada[1],Character,String & Bounded_String & Unbounded_String,Boolean,"(item1, item2, ... )",tagged null record
-ALGOL 68,char,string & bytes,bool & bits,N/A - User defined,N/A
-C (C99),char wchar_t,N/A,bool[b],"enum «name» {item1, item2, ... };",void *
-C++ (STL),,«std::»string,,,
-Objective-C,unichar,NSString *,BOOL,,id
-C#,char,string,bool,"enum name { item1« = value», item2« = value», ... }",object
-Java,,String,boolean,"enum name {item1, item2, ... }",Object
-Go,byte rune,string,bool,const ( item1 = iota item2 ... ),interface{}
-Rust,char,String,bool,"enum name { item1, item2, ...}",N/A
-Swift,Character,String,Bool,"enum name { case item1, item2, ... }",Any
-D,char,string,bool,"enum name {item1, item2, ... }",std.variant.Variant
-Common Lisp,character,string,boolean,(member item1 item2 ...),t
-Scheme,,,,,
-ISLISP,,,,,
-Pascal (ISO),char,N/A,boolean,"(item1, item2, ...)",N/A
-Object Pascal (Delphi),,string,,,variant
-Visual Basic,N/A,String,Boolean,Enum name item1«= value» item2« = value» ... End Enum,Variant
-Visual Basic .NET,Char,,,,Object
-Xojo,N/A,,,,Object or Variant
-Python,N/A[d],str,bool,from enum import Enum class Name(Enum): item1 = value item2 = value ... # Python 3.4+,object
-JavaScript,N/A[d],String,Boolean,,Object
-S-Lang,,,,,
-Fortran,CHARACTER(LEN = *),"CHARACTER(LEN = :), allocatable",LOGICAL(KIND = n)[f],,CLASS(*)
-PHP,N/A[d],string,bool,,(type declaration omitted)
-Perl,N/A[d],,,,UNIVERSAL
-Raku,Char,Str,Bool,enum name<item1 item2 ...> enum name <<:item1(value) :item2(value) ..>>,Mu
-Ruby,N/A[d],String,Object[c],,Object
-Scala,Char,String,Boolean,"object name extends Enumeration { val item1, item2, ... = Value}",Any
-Seed7,char,string,boolean,"const type: name is new enum item1, item2, ... end enum;",
-Windows PowerShell,,,,,
-OCaml,char,string,bool,N/A[e],N/A
-F#,,,,type name = item1 = value |item2 = value | ...,obj
-Standard ML,,,,N/A[e],N/A
-Haskell (GHC),Char,String,Bool,N/A[e],N/A
-Eiffel,CHARACTER,STRING,BOOLEAN,N/A,ANY
-COBOL,PIC X,PIC X(string length) or PIC X«X...»,PIC 1«(number of digits)» or PIC 1«1...»,N/A,OBJECT REFERENCE
-Mathematica,N/A[d],String,,,N/A
+,Shell command,Execute program,Replace current program with new executed program
+Ada[1],Not part of the language standard. Commonly done by compiler provided packages or by interfacing to C or POSIX.[15],,
+C,system("command");,,"execl(path, args); or execv(path, arglist);"
+C++,,,
+Objective-C,,[NSTask launchedTaskWithLaunchPath:(NSString *)path arguments:(NSArray *)arguments];,
+C#,,"System.Diagnostics.Process.Start(path, argstring);",
+F#,,,
+Go,,"exec.Run(path, argv, envv, dir, exec.DevNull, exec.DevNull, exec.DevNull)","os.Exec(path, argv, envv)"
+Visual Basic,"Interaction.Shell(command «, WindowStyle» «, isWaitOnReturn»)",,
+Visual Basic .NET,"Microsoft.VisualBasic.Interaction.Shell(command «, WindowStyle» «, isWaitOnReturn»)","System.Diagnostics.Process.Start(path, argstring)",
+Xojo,"Shell.Execute(command «, Parameters»)","FolderItem.Launch(parameters, activate)",N/A
+D,std.process.system("command");,,"std.process.execv(path, arglist);"
+Java,,Runtime.exec(command); or new ProcessBuilder(command).start();,
+JavaScript Windows Script Host implementation,"WScript.CreateObject ("WScript.Shell").Run(command «, WindowStyle» «, isWaitOnReturn»);",WshShell.Exec(command),
+Common Lisp,(uiop:run-program command),,
+Scheme,(system command),,
+ISLISP,N/A,N/A,N/A
+Pascal,system(command);,,
+OCaml,"Sys.command command, Unix.open_process_full command env (stdout, stdin, stderr),...","Unix.create_process prog args new_stdin new_stdout new_stderr, ...",Unix.execv prog args or Unix.execve prog args env
+Standard ML,OS.Process.system command,"Unix.execute (path, args)","Posix.Process.exec (path, args)"
+Haskell (GHC),System.system command,System.Process.runProcess path args ...,Posix.Process.executeFile path True args ...
+Perl,system(command) or $output = `command` or $output = qx(command),,"exec(path, args)"
+Ruby,system(command) or output = `command`,,"exec(path, args)"
+PHP,system(command) or $output = `command` or exec(command) or passthru(command),,
+Python,os.system(command) or subprocess.Popen(command),"subprocess.call(["program", "arg1", "arg2", …])","os.execv(path, args)"
+S-Lang,system(command),,
+Fortran,"CALL EXECUTE_COMMAND_LINE (COMMAND «, WAIT» «, EXITSTAT» «, CMDSTAT» «, CMDMSG») [a]",,
+Windows PowerShell,[Diagnostics.Process]::Start(command),«Invoke-Item »program arg1 arg2 …,
+Bash shell,output=`command` or output=$(command),program arg1 arg2 …,

@@ -1,16 +1,18 @@
-Implementation,sect163k1 NIST K-163 (1)[81],sect163r1 (2)[81],sect163r2 NIST B-163 (3)[81],sect193r1 (4)[81],sect193r2 (5)[81],sect233k1 NIST K-233 (6)[81],sect233r1 NIST B-233 (7)[81],sect239k1 (8)[81],sect283k1 NIST K-283 (9)[81],sect283r1 NIST B-283 (10)[81],sect409k1 NIST K-409 (11)[81],sect409r1 NIST B-409 (12)[81],sect571k1 NIST K-571 (13)[81],sect571r1 NIST B-571 (14)[81]
-Botan,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-BoringSSL,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-GnuTLS,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-JSSE,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-LibreSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-MatrixSSL,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Mbed TLS,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-NSS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-OpenSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-RSA BSAFE,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
-"SChannel Vista/2008, 7/2008R2, 8/2012, 8.1/2012R2, 10",No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Secure Transport,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-wolfSSL,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Erlang/OTP SSL application,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Implementation,sect163k1 NIST K-163 (1),sect163r1 (2),sect163r2 NIST B-163 (3),sect193r1 (4),sect193r2 (5),sect233k1 NIST K-233 (6),sect233r1 NIST B-233 (7),sect239k1 (8),sect283k1 NIST K-283 (9),sect283r1 NIST B-283 (10),sect409k1 NIST K-409 (11),sect409r1 NIST B-409 (12),sect571k1 NIST K-571 (13),sect571r1 NIST B-571 (14)
+Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT[82],GOST R 34.11-94[82]
+Botan,No,Yes,Yes,Yes,No,No
+cryptlib,Yes,Yes,Yes,Yes,No,No
+GnuTLS,Yes,Yes,Yes,Yes,No,No
+JSSE,Yes,Yes,Yes,Yes,No[83],No[83]
+LibreSSL,Yes,Yes,Yes,Yes,Yes[84],Yes[84]
+MatrixSSL,Yes,Yes,Yes,Yes,No,No
+Mbed TLS,Yes,Yes,Yes,Yes,No,No
+NSS,Yes,Yes,Yes,Yes,No[86][87],No[86][87]
+OpenSSL,Yes,Yes,Yes,Yes,Yes[88],Yes[88]
+RSA BSAFE,Yes,Yes,Yes,Yes,No,No
+"SChannel XP/2003, Vista/2008",Yes,Yes,"XP SP3, 2003 SP2 via hotfix[171]",No,No[89],No[89]
+"SChannel 7/2008R2, 8/2012, 8.1/2012R2",Yes,Yes,Yes,except ECDHE_RSA[91][92][93],No[89],No[89]
+SChannel 10,Yes,Yes,Yes,Yes[142],No[89],No[89]
+Secure Transport,Yes,Yes,Yes,Yes,No,No
+wolfSSL,Yes,Yes,Yes,Yes,No,No
+Erlang/OTP SSL application,Yes,Yes,Yes,Yes,No,No
+Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT,GOST R 34.11-94

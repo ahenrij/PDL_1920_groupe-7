@@ -1,4 +1,4 @@
-IDE,License,Windows,Linux,macOS,Developer,Latest stable release
-Microsoft Visual Studio,Proprietary Community Edition: Freeware,Yes,No,No,Microsoft,"15.7 / August 1, 2018"
-Visual Studio Code[26],source code(MIT License) - binary(Proprietary),Yes,Yes,Yes,Microsoft,"1.25 / June, 2018"
-Rider[27],Proprietary,Yes,Yes,Yes,JetBrains,"2018.1 / April 19, 2018"
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,Assemblers,Auto-complete,Macros/templates,Latest stable release
+Fresh,EUPL and 2-clause BSD,Yes,No,No,Unknown,No,FASM,Unknown,Unknown,"1.73.04 / April 30, 2018"
+SASM,GPL,Yes,Yes,No,Unknown,Yes,"NASM, MASM, GAS and FASM",Yes,Yes,3.10.1 / 8 October 2018
+SlickEdit,Proprietary,Yes,Yes,Yes,"Solaris, Solaris SPARC, AIX, HP-UX",No,"MASM, High Level Assembly, Linux Assembly, OS/390 Assembly",Yes,Yes,2018

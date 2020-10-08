@@ -1,17 +1,11 @@
-Attribute,Deprecated for,Function,Supported first by,Trident,Gecko,WebKit,KHTML,Presto
-bgproperties,body,Determines whether background image scrolls with the background,Internet Explorer,3.1,No,Yes,Yes,No
-bordercolor,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,No,Yes,Yes,No
-bordercolordark,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,No,No,No,No
-bordercolorlight,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,,,,
-controls,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
-dynsrc,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
-event,script,Defines function to call for an object.,Internet Explorer,,Partial,?,?,?
-for,script,Defines the object to bind a scripting event.,Internet Explorer,,Partial,?,?,?
-frame,table,Controls the display of the outer borders of a table in the table tag,Internet Explorer,,Yes,?,Yes,No
-framespacing,frameset,Sets the amount of space between frames,Internet Explorer,,?,?,No,No
-leftmargin,body,Sets the margin between the browser window and the contents of the page,Internet Explorer,3.1,?,?,Yes,No
-loop,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
-rightmargin,body,Sets the margin between the browser window and the contents of the page,Internet Explorer,3.1,?,?,No,No
-start,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
-target,form,Specifies a target window or frame for the output of a form,Internet Explorer,,No[19],?,Yes,No
-valign,caption,Sets vertical alignment of table caption,Internet Explorer,3.1,?,?,No,No
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+manifest,html,6.0[22],12,1.9,Yes,2.6[p 8][p 9]
+sizes,link,No,13,8.0 (only mobile)[g 16][g 17],Yes[w 19],No
+charset,meta,4.0[23],12,1.9.2,Yes,2.5.24
+scoped,style,No,No,21.0[g 18],No[w 20],No
+async,script,6.0,12,1.9.2[g 19],Yes[w 21],
+reversed,ol,No,No,18.0[g 20],Yes[w 22],
+download[citation needed],"a,area",No,13,20.0[g 21],Yes,
+sandbox,iframe,6.0[t 5],12,17.0[g 22],533[w 23],
+seamless,iframe,No,No,No[g 23],No[w 24],
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto

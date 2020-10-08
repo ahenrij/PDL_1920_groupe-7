@@ -1,11 +1,5 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-caption,rowspan="10" ,rowspan="5" ,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="9" 
-table,,,,,,,
-td,,,,,,,
-th,,,,,,,
-tr,,,,,,,
-col,rowspan="2" ,,,,,,
-colgroup,,,,,,,
-tbody,rowspan="3" ,,,,,,
-thead,,,,,,,
-tfoot,,,,,,,
+body,rowspan="2" 1.0[1],rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" 
+head,,,,,,,
+html,1.0[2],,,,,,
+title,1.0[3],,,,,,

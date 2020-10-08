@@ -1,2 +1,26 @@
-Name,Licence,Language,Platform,Details
-pyftpdlib,MIT License,Python,Platform independent,A high-level portable library to easily write asynchronous FTP servers with Python. It is currently the most complete RFC-959 FTP server implementation available for Python.
+,,CrushFTP,ProFTPD,Pure-FTPd,vsftpd,Wu-ftp
+,License type,proprietary,FLOSS/GPL,BSD,FLOSS/GPL2,proprietary
+OS,Linux,,,,,
+,Mac OS X,,,,,
+,Unix,,,,,
+,Windows,,,?,,?
+User Interface,CLI,,,?,?,?
+,GUI integrated,,,?,?,?
+,GUI(s) separately,,,?,?,?
+,Web-based GUI,,?,?,?,?
+Services,FTP,,,,,
+,SFTP,,,,,
+,FTPS,,,,,?
+,SCP,,?,?,,?
+,WebDAV,,?,?,,?
+,HTTP/HTTPS,,?,?,,?
+,AS2,,?,?,?,?
+Authentication,LDAP,,,,?,?
+,Active Directory,,?,?,?,?
+,Local,,,,,
+,Database,,,,,?
+High Availability,Failover Cluster (active/passive),,?,?,?,?
+,Load Balancing (active/active),,?,?,?,?
+Automation,Event-handling,,,?,?,?
+,Scripting,,,?,?,?
+,,CrushFTP,ProFTPD,Pure-FTPd,vsftpd,Wu-ftp

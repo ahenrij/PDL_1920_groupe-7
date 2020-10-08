@@ -1,25 +1,25 @@
-Shell,Functions,Exception handling,Search & replace on variable substitutions,Arithmetic,Floating point,Math function library,Linear arrays or lists,Associative arrays,Lambda functions,eval function,Pseudorandom number generation,Bytecode
-Bourne shell 1977 version,, Yes (via trap),,,,,,,,,,
-Bourne shell current version, Yes since SVR2, Yes (via trap),,,,,,,,,,
-POSIX shell,, Yes (via trap),,,,,,,,,,
-bash (v4.0),, Yes (via trap),Yes (via ${// syntax),,,,,,,,Yes ($RANDOM) ,
-csh,,,Yes (via $var:s/// syntax),,,,,,,,,
-tcsh,,,Yes (via $var:s/// syntax),,,,,,,,,
-Hamilton C shell,,,Yes (via $var:s/// syntax),,,,,,,, Yes (random utility),
-Scsh,,?,Yes (via string functions and regular expressions),?,?,?,,?,,,"Yes (random-integer, random-real)","Yes (compiler is Scheme48 virtual machine, via scshvm)"
-ksh (ksh93t+),, Yes (via trap),Yes (via ${// syntax and builtin commands),,,,,,,,Yes ($RANDOM),Yes (compiler is called shcomp)
-pdksh,, Yes (via trap),,,,,,,,,Yes ($RANDOM),
-zsh,,,Yes (via ${:s// and ${// syntax),,,Yes (zsh/mathfunc module),,,,,Yes ($RANDOM),Yes (built-in zcompile command)
-ash,,trap),,Yes (since 1992)[60],,,,,,,,
-CCP,,?,,,?,?,,,,,,
-COMMAND.COM,,COMMAND /F (or /N in some versions of DR-DOS)),,,,,,,,,,
-OS/2 CMD.EXE,,,,?,,,?,,,,,
-Windows CMD.EXE,Yes (via CALL :label),,Yes (via SET %varname:expression syntax),Yes (via SET /A)[61],,,Yes (via SET[62]),,,,Yes (%random%),
-4DOS,,"Yes (via ON command, optional Auto-fail via 4DOS /F)",Yes (via %@Replace[...] function),Yes (via SET /A),?,?,"Yes (via ranges, include lists, @file lists and FOR command)",,,,Yes (%@Random[...] function),Yes (via BATCOMP command)
-4OS2,?,?,?,?,?,?,?,?,,,%@Random[...] function),?
-TCC (formerly 4NT),,Yes (via ON and various ...MONITOR commands),Yes (via %@Replace[...] function),Yes (via SET /A),?,?,"Yes (via ranges, include lists, @file lists and FOR command)",?,,,%@Random[...] function),BATCOMP command)
-PowerShell,,,Yes (-replace operator),,,[Math] class[63],,,,,,"Yes, automatic"
-rc,,,,?,?,?,,?,,,,
-BeanShell,,,?,,?,?,,,,,,
-VMS DCL,,,,,,"yes, for compiled programs",,,,,,
-fish,, Yes (via trap),,,,,,,,,Yes (random),
+Shell,String processing,Alternation (Brace expansion),Pattern matching (regular expressions built-in),Pattern matching (filename globbing),Globbing qualifiers (filename generation based on file attributes),Recursive globbing (generating files from any level of subdirectories)
+Bourne shell 1977 version,?,,,"Yes (*, ?, [...])",,
+Bourne shell recent version,,,,"Yes (*, ?, [...])",,
+POSIX shell,,,,"Yes (*, ?, [...])",,
+bash (v4.0),,,,"Yes (*, ?, [...], {...)",,**/...)
+csh,Yes (:s and other editing operators),,,,,
+tcsh,Yes (:s and other editing operators),,,,,
+Hamilton C shell,"Yes (:s and other editing operators + substr, strlen, strindex, printf, reverse, upper, lower, concat and other builtin functions)",,,,,Yes (via indefinite directory "..." wildcard[64])
+Scsh,?,?,,,,
+ksh (ksh93t+),",,,"Yes (*, ?, [...])",,"set -G, no following of symlinks)"
+pdksh,?,,,,,
+zsh,",,,"Yes (*, ?, [...], extended globbing[66])",,**/... or ***/... to follow symlinks)
+ash,?,?,,,,
+CCP,,,,,,
+COMMAND.COM,,,,"Yes (*, ?)",,
+OS/2 CMD.EXE,,,,"Yes (*, ?)",DIR /A:... command),
+Windows CMD.EXE,FOR /F and SET /A),,No[67],"Yes (*, ?)",DIR /A:... command),"FOR /R command, or, where available, indirectly via /S subdir option)"
+4DOS,"%@...[], extended environment variable processing, various string commands and FOR /F and SET /A)",,,"Yes (*, ?, [...], extended wildcards, SELECT popup command)","/A:... attribute and /I"..." description options and /[S...] size, /[T...] time, /[D...] date, and /[!...] file exclusion ranges)","FOR /R command, or indirectly via GLOBAL command or, where available, /S subdir option)"
+4OS2,?,,,?,?,?
+TCC (formerly 4NT),"%@...[], extended environment variable processing, various string commands and FOR /F and SET /A)",,,"Yes (*, ?, [...], extended wildcards, SELECT popup command)","/A:... attribute and /I"..." description options and /[S...] size, /[T...] time, /[D...] date, /[O...] owner, and /[!...] file exclusion ranges)","FOR /R command, or indirectly via GLOBAL command or, where available, /S subdir option)"
+PowerShell,"Yes (Concat/Substring/Insert/Remove/Replace, ToLower/ToUpper, Trim/TrimStart/TrimEnd, Compare, Contains/StartsWith/EndWith, Format, IndexOf/LastIndexOf, Pad/PadLeft/PadRight, Split/Join, regular expression functions and other .NET string functions)",,Yes (full regex support)[68],"Yes (*, ?, [...])",?,?
+rc,?,?,,,,
+BeanShell,?,?,,?,?,?
+VMS DCL,,,,,,[SUBDIR...])
+fish,Yes (builtin string function),Yes,yes (via builtin string match and string replace functions),"Yes (*, ?, {...)",,**/...)

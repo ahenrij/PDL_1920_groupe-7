@@ -1,32 +1,57 @@
-String object,Trident,Gecko,WebKit,Presto,Blink
-Called as function,,,,,
-String([value]),,,,,
-Called as constructor,,,,,
-new String([value]),3.0,1.0,,1.0,
-Properties,,,,,
-prototype,4.0,1.0,,1.0,
-"fromCharCode([char0 [, char1 [, ...]]])",4.0,1.0,,1.0,
-Properties of prototype,,,,,
-constructor,4.0,1.0,,1.0,
-toString(),3.0,1.0,,1.0,
-valueOf(),3.0,1.0,,1.0,
-charAt(pos),3.0,1.0,,1.0,
-charCodeAt(pos),5.5,1.0,,1.0,
-"concat([string1 [, string2 [, ...]]])",4.0,1.0,,1.0,
-"indexOf(searchString, position)",3.0,1.0,,1.0,
-"lastIndexOf(searchString, position)",3.0,1.0,,1.0,
-localeCompare(that),5.5,1.0,,1.0,
-match(regexp),4.0,1.0,,1.0,
-"replace(searchValue, replaceValue)",3.0,1.0,,1.0,
-search(regexp),4.0,1.0,,1.0,
-"slice(start, end)",4.0,1.0,,1.0,
-"split(separator, limit)",4.0,1.0,,1.0,
-"substring(start, end)",3.0,1.0,,1.0,
-toLowerCase(),3.0,1.0,,1.0,
-toLocaleLowerCase(comparefn),3.0,1.0,,1.0,
-toUpperCase(),3.0,1.0,,1.0,
-toLocaleUpperCase(),3.0,1.0,,1.0,
-Additional properties of prototype,,,,,
-"substr(start, length)",4.0,1.0,,1.0,
-Properties of instances,,,,,
-length,3.0,1.0,,1.0,
+Date object,Trident,Gecko,WebKit,Presto
+Called as function,,,,
+"Date ([year [, month [, date [, hours [, minutes [, seconds [, ms ]]]]]]])",?,?,?,?
+Called as constructor,,,,
+"new Date (year, month [, date [, hours [, minutes [, seconds [, ms ]]]]])",4.0,1.0,,1.0
+new Date (value),4.0,1.0,,1.0
+new Date (),4.0,1.0,,1.0
+Properties,,,,
+prototype,4.0,1.0,,1.0
+parse(string),3.0,1.0,,1.0
+"UTC (year, month [, date [, hours [, minutes [, seconds [, ms ]]]]])",3.0,1.0,,1.0
+Properties of prototype,,,,
+constructor,4.0,1.0,,1.0
+toString(),4.0,1.0,,1.0
+toDateString(),4.0,1.0,,1.0
+toTimeString(),4.0,1.0,,1.0
+toLocaleString(),4.0,1.0,,1.0
+toLocaleDateString(),4.0,1.0,,1.0
+toLocaleTimeString(),4.0,1.0,,1.0
+valueOf(),4.0,1.0,,1.0
+getTime(),3.0,1.0,,1.0
+getFullYear(),4.0,1.0,,1.0
+getMonth(),3.0,1.0,,1.0
+getUTCMonth(),4.0,1.0,,1.0
+getDate(),3.0,1.0,,1.0
+getUTCDate(),4.0,1.0,,1.0
+getDay(),3.0,1.0,,1.0
+getUTCDay(),4.0,1.0,,1.0
+getHours(),3.0,1.0,,1.0
+getUTCHours(),4.0,1.0,,1.0
+getMinutes(),3.0,1.0,,1.0
+getUTCMinutes(),4.0,1.0,,1.0
+getSeconds(),3.0,1.0,,1.0
+getUTCSeconds(),4.0,1.0,,1.0
+getMilliseconds(),4.0,1.0,,1.0
+getUTCMilliseconds(),4.0,1.0,,1.0
+getTimezoneOffset(),4.0,1.0,,1.0
+setTime(time),3.0,1.0,,1.0
+setMilliseconds(ms),4.0,1.0,,1.0
+setUTCMilliseconds(ms),4.0,1.0,,1.0
+"setSeconds(sec [, ms])",3.0,1.0,,1.0
+"setUTCSeconds(sec [, ms])",4.0,1.0,,1.0
+"setMinutes(min [, sec [, ms]])",3.0,1.0,,1.0
+"setUTCMinutes(min [, sec [, ms]])",4.0,1.0,,1.0
+"setHours(hour [, min [, sec [, ms]]])",4.0,1.0,,1.0
+"setUTCHours(hour [, min [, sec [, ms]]])",4.0,1.0,,1.0
+setDate(date),4.0,1.0,,1.0
+setUTCDate(date),4.0,1.0,,1.0
+"setMonth(month [, date])",3.0,1.0,,1.0
+"setUTCMonth(month [, date])",4.0,1.0,,1.0
+"setFullYear(year [, month [, date]])",4.0,1.0,,1.0
+"setUTCFullYear(year [, month [, date]])",4.0,1.0,,1.0
+toUTCString(),4.0,1.0,,1.0
+Additional properties of prototype,,,,
+getYear(),3.0,1.0,,1.0
+setYear(year),3.0,1.0,,1.0
+toGMTString(),4.0,1.0,,1.0

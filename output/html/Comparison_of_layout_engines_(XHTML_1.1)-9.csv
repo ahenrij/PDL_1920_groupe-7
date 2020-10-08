@@ -1,2 +1,13 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-meta,<3.1[IE 2.0] [3],Yes,Yes,Yes,Yes,Yes,Yes
+Mouse,,,,,,,
+onclick,?,?,?,?,?,?,?
+ondblclick,,,,,,,
+onmousedown,,,,,,,
+onmouseup,,,,,,,
+onmouseover,,,,,,,
+onmousemove,,,,,,,
+onmouseout,,,,,,,
+Keyboard,,,,,,,
+onkeypress,?,?,?,?,?,?,?
+onkeydown,,,,,,,
+onkeyup,,,,,,,

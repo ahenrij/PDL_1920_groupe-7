@@ -1,14 +1,3 @@
-,Trident,Gecko,WebKit,KHTML,Presto
-Basic table elements,,,,,
-table,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-caption,,,,,
-tr,,,,,
-th,,,,,
-td,,,,,
-Row groups,,,,,
-thead,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-tbody,,,,,
-tfoot,,,,,
-Column groups,,,,,
-colgroup,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-col,,,,,
+,Trident,EdgeHTML,Gecko,WebKit,Presto
+<track>,6.0[t 35],12,,,
+<a ping>,No,No,Depends[g 73][h],Depends[w 59][i],

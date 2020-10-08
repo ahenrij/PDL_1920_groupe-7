@@ -1,12 +1,20 @@
-Model,Code name[175],Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate[211],,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,,,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
-Quadro P400,GP107-825,14,PCIe 3.0 ×16,1228,1252,1752 (7008),256:16:16:2,17.1,17.1,2,32,GDDR5,64,641,20.0,12.1,4.6,1.1,1.2,6.1,30,Three Mini-DisplayPort 1.4
-Quadro P600,GP107-850,,,1329,1557,1003 (4012),384:24:16:3,21.7,32.5,,64,,128,1195,37.3,,,,,,40,Four Mini-DisplayPort 1.4
-Quadro P620,GP107-855,,,1266,1354,1003 (4012),512:32:16:4,23.3,46.6,,,,,1490,46.6,,,,,,,
-Quadro P1000,GP107-860,,,,1481,1752 (7008),640:40:32:5,43.3,54.2,4,82,,,1894,59.2,,,,,,47,
-Quadro P2000,GP106-875,16,,1076,1480,2002 (8008),1024:64:40:8,54.8,87.7,5,140,,160,3010,93.8,,,,,,75,Four DisplayPort 1.4
-Quadro P2200,GP106-880-K1-A1[212],,,1000,1493,1251 (1008),1280:80:40:9,59.7,119.4,5,200,GDDR5X,,3822,121.3,,,,,,,
-Quadro P4000,GP104-850-A1,,,1202,1480,1502 (6008),1792:112:64:14,78.5,137.4,8,243,GDDR5,256,5300,165.6,,,,,,105,
-Quadro P5000,GP104-875-A1,,,1607,1733,1126 (9008),2560:160:64:20,102.8,257.1,16,288,GDDR5X,,8873,277.3,,,,,,180,"Four DisplayPort 1.4, One DVI-D"
-Quadro P6000,GP102-875-A1,,,1506,1645,1126 (9008),3840:240:96:30,136.0,340.0,24,432,,384,10882 (11758),~340,,,,,,250,
-Quadro GP100,GP100,,,1304,1442,703 (1406),3584:224:96:28,138.4,323,16,720,HBM2,4096,10336,5168,,,,,6,235,NVLINK support
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
+,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
+GeForce 610M[130],December 2011,GF119 (N13M-GE),40,PCIe 2.0 ×16,48:8:4,900,1800,1800,3.6,7.2,1024 2048,14.4,DDR3,64,12,4.5,142.08,12,OEM. Rebadged GT 520MX
+GeForce GT 620M[131],April 2012,GF117 (N13M-GS),28,,96:16:4,625,1250,1800,2.5,10,,14.4 28.8,,64 128,,,240,15,OEM. Die-Shrink GF108
+GeForce GT 625M,October 2012,,,,,,,,,,,14.4,,64,,,,,
+GeForce GT 630M[131][132][133],April 2012,GF108 (N13P-GL) GF117,40 28,,,660 800,1320 1600,1800 4000,2.6 3.2,10.7 12.8,,28.8 32.0,DDR3 GDDR5,128 64,,,258.0 307.2,33,GF108: OEM. Rebadged GT 540M GF117: OEM Die-Shrink GF108
+GeForce GT 635M[131][134][135],,GF106 (N12E-GE2) GF116,40,,144:24:24,675,1350,1800,16.2,16.2,2048 1536,28.8 43.2,DDR3,128 192,,,289.2 388.8,35,GF106: OEM. Rebadged GT 555M GF116: 94% of desktop GT640date=June 2015
+GeForce GT 640M LE[131],"March 22, 2012",GF108 GK107 (N13P-LP),40 28,PCIe 2.0 ×16 PCIe 3.0 ×16,96:16:4 384:32:16 (2 SMX),762 500,1524 500,3130 1800,3 8,12.2 16,1024 2048,50.2 28.8,DDR3 GDDR5,128,,,292.6 384,32 20,GF108: 94% of desktop GT630date=June 2015 GK107: 47% of desktop GTX650date=June 2015
+GeForce GT 640M[131][136],,GK107 (N13P-GS),28,PCIe 3.0 ×16,384:32:16 (2 SMX),625,625,1800 4000,10,20,,28.8 64.0,,,,,480,32,59% of desktop GTX650date=June 2015
+GeForce GT 645M,October 2012,,,,,710,710,1800 4000,11.36,22.72,,,,,,,545,,67% of desktop GTX650date=June 2015
+GeForce GT 650M[131][137][138],"March 22, 2012",GK107 (N13P-GT),,,,835 745 900*,835 745 900*,1800 4000 5000*,13.4 11.9 14.4*,26.7 23.8 28.8*,1024 2048 4096,28.8 64.0 80.0*,,,11.2,,641.3 572.2 691.2*,45,79% of desktop GTX650date=June 2015
+GeForce GTX 660M[131][138][139][140],,GK107 (N13E-GE),,,,950,950,5000,13.4,26.7,2048,80.0,GDDR5,,,,730,50,79% of desktop GTX650date=June 2015
+GeForce GTX 670M[131],April 2012,GF114 (N13E-GS1-LP),40,PCIe 2.0 ×16,336:56:24,620,1240,3000,14.35,33.5,1536 3072,72.0,,192,12,,833,75,73% of desktop GTX 560date=June 2015
+GeForce GTX 670MX,October 2012,GK104 (N13E-GR),28,PCIe 3.0 ×16,960:80:24 (5 SMX),615,615,2800,14.4,48.0,,67.2,,,,,1181,,61% of desktop GTX 660date=June 2015
+GeForce GTX 675M[131],April 2012,GF114 (N13E-GS1),40,PCIe 2.0 ×16,384:64:32,632,1265,3000,19.8,39.7,2048,96.0,,256,,,972,100,75% of desktop GTX 560Tidate=June 2015
+GeForce GTX 675MX,October 2012,GK104 (N13E-GSR),28,PCIe 3.0 ×16,960:80:32 (5 SMX),667,667,3600,19.2,48.0,4096,115.2,,,,,1281,,61% of desktop GTX 660date=June 2015
+GeForce GTX 680M,"June 4, 2012",GK104 (N13E-GTX),,,1344:112:32 (7 SMX),719,719,,23,80.6,,,,,,,1933,,78% of desktop GTX 670date=June 2015
+GeForce GTX 680MX,"October 23, 2012",GK104,,,1536:128:32 (8 SMX),,,5000,,92.2,,160,,,,,2209,122,72% of desktop GTX 680date=June 2015
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
+,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,

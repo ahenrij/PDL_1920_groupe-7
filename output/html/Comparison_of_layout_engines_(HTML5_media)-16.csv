@@ -1,9 +1,18 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
-Images,,,,,
-img,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-Generic inclusion,,,,,
-object,4.0[note 2],1.0,Yes,Yes,1.0
-param,<3.1[IE 6.0],,,,
-Image maps,,,,,
-map,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-area,5.0,,,,
+Basic structure,,,,,
+html,<3.1[IE 5.0],Yes,Yes,Yes,1.0
+head,<3.1[IE 4.0],,,,
+body,,,,,
+Metadata,,,,,
+title,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+meta,,,,,
+Headings,,,,,
+h1,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+h2,,,,,
+h3,,,,,
+h4,,,,,
+h5,,,,,
+h6,,,,,
+Grouping elements,,,,,
+div,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+span,,,,,

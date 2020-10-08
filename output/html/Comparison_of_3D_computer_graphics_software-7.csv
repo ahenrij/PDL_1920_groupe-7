@@ -1,23 +1,6 @@
-,Modeling,3D Painting,Animation,Rendering,3D Tracking,Compositing
-3ds Max,Yes,Yes,Yes,Yes,No,Some
-AC3D,Yes,?,?,No,No,No
-Blender,Yes,Yes,Yes,Yes,Yes,Yes
-Electric Image Animation System,dropped[6],?,Yes,Yes,No,?
-Cinema 4D,Yes,Yes,Yes,Yes,R16 or later,No
-Clara.io,Yes,?,Yes,Yes,No,?
-Cobalt,Yes,?,Yes,Yes,No,?
-HiCAD,Yes,Yes,Yes,Yes,No,No
-Houdini,Yes,No,Yes,Yes,No,Yes
-IClone,Yes,?,Yes,Yes,?,?
-Lightwave 3D,Yes,No,Yes,Yes,No,Yes
-MakeHuman,parameter-based,No,No,No,No,No
-Maya,Yes,Yes,Yes,Yes,dropped (Maya Live),"dropped (Maya Composer, Maya Fusion, and Maya Composite)"
-Metasequoia,Yes,No,No,Yes,No,No
-Modo,Yes,Yes,Yes,Yes,No,No
-Remo 3D,Yes,No,Yes,Yes,No,No
-Shade,Yes,No,Yes,Yes,No,No
-Softimage,Yes,3.7 or later,Yes,Yes,No,Yes
-Solid Edge,Yes,?,Yes,Yes,No,?
-SketchUp Make,Yes[7][8],?,Yes[7],Yes[7],No,No
-SketchUp Pro,Yes[7][8],?,Yes[7],Yes[7],No,No
-Wings3D,Yes,?,No,Yes,No,?
+Application,MIPMAP generation,Adaptive Tessellation,Instansing,Camera Culling,Deep Pixel Rendering,Fisheye Stereo for Fulldome,Omnidirectional stereo for HMD,Deforming Motion Blur,GPU Rendering,Texture Streaming (GPU)
+V-Ray,img2tiledexr,?,Yes,?,Yes,Domemaster Stereo Shader,3.2 and later,Yes,V-Ray GPU (formerly V-Ray RT),Yes[29]
+RenderMan (RIS),txmake,?,Yes,?,Yes,?,Yes[30],Yes,In development[31],No
+Arnold,maketx,Yes[32],Yes,?,Yes,Domemaster Stereo Shader,5 and later,Yes,Yes,?
+Houdini Mantra (Path-Tracing mode),icp,?,Yes,?,Yes,?,15.5 and later,Yes,No,No
+Blender Cycles,No,2.78 and later,Some,Camera Cull,No,2.78 and later,2.78 and later,Yes,Yes,2.80 and later[33]

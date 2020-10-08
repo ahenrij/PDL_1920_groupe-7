@@ -1,4 +1,8 @@
-,CPU,RAM,Free disk space
-Windows 95,386,4 MB,120 MB
-Windows 98,486 DX2 66 MHz,16 MB,300 MB
-Windows Me (Millennium Edition),Pentium 150 MHz,32 MB,400 MB
+Name,Release date,RTM build,Current version,Status support,Codename,Based on (kernel),Supported architectures
+Windows Pocket PC 2000,2000-04-19,,,Unsupported (2007-09-10),Raiper,CE 3.0,
+Windows Pocket PC 2002,2001-10-01,,,Unsupported (2008-10-14),Merlin,CE 3.0,
+Windows Mobile 2003,2003-06-23,,,,Ozone,CE 4.20,
+Windows Mobile 5.0,2005-05-9/12,,,,Magneto,CE 5.0,
+Windows Mobile 6.0,2007-02-12,,,,Crossbow,CE 5.2,
+Windows Mobile 6.1,2008-04-01,,,,,,
+Windows Mobile 6.5,2009-05-18,,,,,,

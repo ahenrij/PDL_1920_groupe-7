@@ -1,7 +1,10 @@
-Trident,edgeHTML,Gecko,WebKit,Presto
-Ogg Vorbis,rowspan="2" Manual install[312],,rowspan="2" 1.9.1[301],
-WAV PCM,,rowspan="3" 525[309],2.0,
-MP3,rowspan="2" 5.0[320],,,rowspan="2" 
-AAC,,,,
-Speex,rowspan="1" Manual install[312],,,
-Opus,,,15.0[324],
+,Trident,Gecko,WebKit,Presto
+translate[86],colspan="4" ,,,
+Datasets (data-*),rowspan="3" ,6.0[87],,2.8[89]
+contextmenu,8.0[90],,,
+hidden,2.0[91],,2.7.70,
+contenteditable[93],5.5,1.9,,2.0
+spellcheck[94],rowspan="2" 6.0,1.8[95],,2.8[97]
+draggable,1.9.1[98],533[99],2.10.270,
+dropzone,,,,2.10.270
+! Trident,Gecko,WebKit,Presto,

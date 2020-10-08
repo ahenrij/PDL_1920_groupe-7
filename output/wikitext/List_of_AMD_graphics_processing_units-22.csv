@@ -1,23 +1,11 @@
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
-Radeon 9500,"Oct. 24, 2002",R300 (Khan),150,AGP 8x,275,270,4:4:4:4,1100,1100,1100,275,"64, 128","8.64, 17.28",DDR,"128, 256"
-Radeon 9500 Pro,,,,,,,8:4:8:8,2200,2200,2200,,128,8.64,,128
-Radeon 9550,2004,RV350 (Shivah),130,,250,200,4:2:4:4,1000,1000,1000,125,"64, 128, 256",6.4,,
-Radeon 9550 SE,,,,,,,,,,,,,3.2,,64
-Radeon 9600,2003,,,,325,,,1300,1300,1300,162.5,"128, 256",6.4,,128
-Radeon 9600 Pro,"Mar. 6, 2003",,,,400,300,,1600,1600,1600,200,,9.6,,
-Radeon 9600 SE,2003,,,,325,200,,1300,1300,1300,162.5,"64, 128, 256",3.2,,64
-Radeon 9600 XT,"Sept. 30, 2003",RV360,,,500,300,,2000,2000,2000,250,"128, 256",9.6,,128
-Radeon 9600 TX,2003 (Medion OEM),R300 (Khan),150,,297,270,8:4:8:8,2376,2376,2376,287,128,8.6,,
-Radeon 9700 TX,2002 (Dell OEM),,,,263,263,,2104,2104,2104,275,,16.83,,256
-Radeon 9700,"Oct. 24, 2002",,,,275,270,,2200,2200,2200,,,17.28,,
-Radeon 9700 Pro,"July 18, 2002",,,,325,310,,2600,2600,2600,325,,19.84,,
-Radeon 9800,2003,R350,,,,,,,,,,,,,
-Radeon 9800 XL,,,,,350,,,2800,2800,2800,350,,,,
-Radeon 9800 XXL[7],"Oct. 1, 2003",R360,,,390,338,,3120,3120,3120,390,,21.60,,256[7]
-Radeon 9800 Pro,"Mar. 1, 2003[8]","R350, R360",,,380,"340, 350",,3040,3040,3040,380,"128, 256","21.76, 22.40","DDR, GDDR2",256
-Radeon 9800 SE[9],"Mar. 1, 2003[10]",R350,,,"325, 380[9]","270, 340[9]",4:4:4:4[10],"1300, 1520[9]","1300, 1520[9]","1300, 1520[9]","325, 380[9]",,"8.64, 21.76[9]",DDR,"128, 2562[9]"
-Radeon 9800 XT,"Sept. 9, 2003",R360,,,412,365,8:4:8:8,3296,3296,3296,412,256,23.36,,256
-Radeon X1050 AGP,"Dec. 7, 2006",RV350 (Shivah),130,,250,200,4:2:4:4,1000,1000,1000,125,"128, 256",6.4,,128
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
-,,,,,,,,Fillrate,,,,Memory,,,
+Model,Launch,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,,API compliance,
+,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+3D Rage,April 1996[1],500,PCI,40,40,1:0:1:1,40,40,40,0,2,0.32,EDO,64,5.0,None2
+3D Rage II,September 1996,,"AGP 1x (Rage IIc only), PCI",60,83 (66 MHz with EDO),,60,60,60,,"2, 4, 8",0.664,"EDO, SGRAM, SDR",,,
+Rage Pro,March 1997,350,"AGP 1x, AGP 2x, PCI",75,75,,75,75,75,,"4, 8, 16",0.6,,,6.0,1.1
+Rage XL[2][3][4][5],August 1998,250,"AGP 2x, PCI",83,125,,83,83,83,,8,1.0,SDR,,,
+Rage 128 VR,,,,80,120,2:0:2:2,160,160,160,,"8, 32",0.96,,,,1.2
+Rage 128 GL,,,,103,103,,206,206,206,,"16, 32",1.648,"SGRAM, SDR",128,,
+Rage 128 Pro,August 1999,,"AGP 4x, PCI",125,143,,250,250,250,,,2.288,,,,
+Rage 128 Ultra,,,,130,130,,260,260,260,,"16, 32, 64",2.088,SDR,,,
+Rage Fury MAXX,October 1999,,AGP 4x,125,143,2:0:2:2 x2,500,500,500,,32 x2,4.576,,128 x2,,

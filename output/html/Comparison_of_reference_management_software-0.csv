@@ -1,30 +1,30 @@
-Software,Word for Windows,Word for Mac,Word Online,Pages,Apache OpenOffice / LibreOffice,Kile/LyX,Google Docs,RTF scan[30],Other
-Bebop,No,No,No,No,No,No,No,No,none
-BibBase,No,No,No,No,No,No,No,No,none
-BibDesk,No,No,No,No,No,Yes,?,?,?
-Biblioscape,Yes,No,?,No,No,No,No,?,WordPerfect
-BibSonomy,No,No,No,No,No,No,No,No,none
-Bibus,Yes,?,?,?,Yes,No,No,?,none
-Bookends,Yes,Yes,No,Yes,Yes,No,No,Yes,"Mellel, Nisus"
-Citavi,Yes,No,No,No,Only versions prior to 6.0,Yes[31],No,Only versions prior to 6.0,"LaTeX editors LEd, Texmaker, TeXnicCenter, TeXstudio, TeXworks, WinEdt, WinShell"
-CiteULike,No,No,No,No,No,No,No,No,none
-colwiz,Yes,?,?,?,Yes,No,No,?,"NeoOffice, Star Office"
-EndNote,Yes,Yes,No,Yes,No[32],No,No,Yes,No
-JabRef,Yes[33],?,?,?,Yes[34],Yes,No,?,"Emacs, Texmaker, TeXstudio, Vim, WinEdt"
-KBibTeX,No,?,?,?,No,Yes,No,?,none
-Mendeley,Yes,Partial[35],Yes[36],No,Yes,No,No,?,NeoOffice
-Paperpile,in beta,No,No,No,No,No,Yes,No,No
-Pybliographer,No,?,?,?,Yes,Yes,No,?,none
-Qiqqa,Yes,?,?,?,No,Yes,No,No,none
-ReadCube (now Papers),Yes,Yes,Yes[37],Yes[38],Yes,No,Yes,"No| style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes"|Manuscripts App, Ulysses, Scrivener",
-refbase,No,?,?,?,Yes[39],No,No,Yes,"PIRA, MediaWiki, SPIP"
-RefDB,No,?,?,?,No,No,No,No,none
-Reference Manager,Yes,No,?,No,No,No,No,Yes,none
-Referencer,?,?,?,?,?,?,?,?,?
-RefME,?,?,?,?,?,?,?,?,?
-RefWorks,Yes,Yes,No,No,No,No,Yes,Yes,none
-SciRef,Yes,?,?,?,No,No,No,No,none
-Sente,Yes,?,?,Only versions prior to 5.0,No,No,No,Yes,"Mellel, Nisus, TextEdit; HTML and plain text scan"
-Wikindx,No,?,?,?,No,No,No,Yes,Integrated WYSIWYG word processor (RTF output for Word/OpenOffice)
-WizFolio,Yes,?,?,?,Yes,No,Yes,?,Zoho Writer
-Zotero,Yes,Yes,No,No,Yes,(with LyZ)[40],Yes,Yes,NeoOffice
+Software,HTML,LaTeX[25],RTF,Plain text,RSS,Other
+Bebop,Yes,No,No,No,Yes,unAPI
+BibBase,Yes,No,No,No,Yes,No
+BibDesk,Yes,Yes,Yes,Yes,Yes,"Atom, DOC, PDF, XML,"
+Biblioscape,Yes,No,Yes,Yes,No,No
+BibSonomy,Yes,No,Yes,Yes,Yes,OpenOffice-CSV
+Bibus,Yes,No,No,No,No,No
+Bookends,Yes,No,Yes,Yes,No,clipboard
+Citavi,Yes,Yes[26],Yes,Yes,No,"clipboard, DOC, ODT, PDF, HTML"
+CiteULike,Yes,No,Yes,Yes,Yes,PDF
+colwiz,Yes,Yes,Yes,No,No,PDF
+EndNote,Yes,No,Yes,Yes,No,"clipboard, XML"
+JabRef,Yes,Yes,Yes,Yes,No,clipboard
+KBibTeX,Yes,No,Yes,No,No,"PDF, PS"
+Mendeley,Yes,Yes[27],Yes,Yes,Yes,"clipboard, embeddable HTML widget, RSS"
+Paperpile,?,?,?,?,?,?
+Pybliographer,Yes,?,No,Yes,No,No
+Qiqqa,?,?,?,?,?,?
+ReadCube (now Papers),Yes,No,No,No,No,PDF
+refbase,Yes,Yes,Yes,Yes,Yes,"Markdown, PDF, unAPI"
+RefDB,Yes,?,Yes,Yes,No,"DocBook, TEI"
+Reference Manager,Yes,No,Yes,Yes,No,clipboard
+Referencer,?,?,?,?,?,?
+RefME,?,?,?,?,?,?
+RefWorks,Yes,No,Yes,Yes,No,"DOC, ODT"
+SciRef,No,No,Yes,Yes,No,"Doc, others"
+Sente,Yes,No,Yes,Yes,No,clipboard
+Wikindx,Yes,No,Yes,Yes,Yes,Multiple via BibUtils plug-in
+WizFolio,Yes,No,Yes,Yes,No,"clipboard, DOC"
+Zotero,Yes,Possible via plugin[28],Yes,Possible via plugins[29],Yes,clipboard

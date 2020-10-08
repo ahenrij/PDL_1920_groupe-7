@@ -1,11 +1,23 @@
-Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
-manifest,html,6.0[22],12,1.9,Yes,2.6[p 8][p 9]
-sizes,link,No,13,8.0 (only mobile)[g 16][g 17],Yes[w 19],No
-charset,meta,4.0[23],12,1.9.2,Yes,2.5.24
-scoped,style,No,No,21.0[g 18],No[w 20],No
-async,script,6.0,12,1.9.2[g 19],Yes[w 21],
-reversed,ol,No,No,18.0[g 20],Yes[w 22],
-download[citation needed],"a,area",No,13,20.0[g 21],Yes,
-sandbox,iframe,6.0[t 5],12,17.0[g 22],533[w 23],
-seamless,iframe,No,No,No[g 23],No[w 24],
-Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+Attribute,Element,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
+align,"caption, div, fieldset, h1, h2, h3, h4, h5, h6, hr, img, input, legend, p, object, table",CSS,3.1,Yes,Yes,Yes,Yes
+alink,body,CSS,,,No,,
+background,body,CSS,,,Yes,,
+bgcolor,"body, table, tr, td, th",CSS,,,,,
+border,"img, object",CSS,,,Partial[note 8],,
+clear,br,CSS,,,No,,
+compact,"dl, ul, ol",CSS,No,No,,,
+color,"basefont, font",CSS,3.1,Partial[note 9][8],Partial[note 9],,
+height,"td, th",CSS,,Yes,Yes,,
+hspace,"img, object",CSS,,,,,
+language,script,The type attribute,,No[citation needed],,,
+link,body,CSS,,Yes,,,
+noshade,hr,CSS,,,,,
+nowrap,"td, th",CSS,,,,,
+size,"basefont, font, hr",CSS,,,,,
+start,ol,None,,,,,
+text,body,CSS,,,,,
+type,"li, ul, ol",CSS,,,,,
+version,html,DTD,No,No,No,No,No
+vlink,body,CSS,Yes,Yes,Yes,Yes,Yes
+width,"hr, pre, td, th",CSS,,,,,
+vspace,"img, object",CSS,,,,,

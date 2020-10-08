@@ -1,11 +1,7 @@
-Model,Material,Color,Width,Height,Depth,Mass,Photo
-Mac Mini[1],Aluminum,Silver,19.7 cm / 7.7 in,3.6 cm / 1.4 in,19.7 cm / 7.7 in,1.18 kg / 2.6 lb,
-iMac 21.5 in[2],Aluminum,"Silver, black border around screen",52.8 cm / 20.8 in,44.9 cm / 17.7 in,17.5 cm / 6.9 in,5.7 kg / 12.5 lb,
-iMac 21.5 in Retina Display[2],,,,,,,
-iMac 27 in[2],,,65.0 cm / 25.6 in,51.6 cm / 20.3 in,20.3 cm / 8.0 in,9.54 kg / 21.0 lb,
-Mac Pro[3],Aluminum,Black,16.8 cm / 6.6 in,25.2 cm / 9.9 in,16.8 cm / 6.6 in,5.0 kg / 11.0 lb,
-MacBook Air[4],Aluminum,Silver,32.5 cm / 12.8 in,0.3-1.7 cm / 0.11-0.68 in,22.7 cm / 8.94 in,1.35 kg / 2.9 lb,
-MacBook Pro 13 in (2016)[6],Aluminum,Silver or Space Gray with black border around screen,30.41 cm / 11.97 in,1.49 cm / 0.59 in,21.24 cm / 8.36 in,1.37 kg / 3.02 lb,
-MacBook Pro 15 in (2016)[6],Aluminum,Silver or Space Gray with black border around screen,34.93 cm / 13.75 in,1.55 cm / 0.61 in,24.07 cm / 9.48 in,1.83 kg / 4.02 lb,
-MacBook Pro 13 in (2015)[6],Aluminum,Silver with black border around screen,31.4 cm / 12.35 in,1.8 cm / 0.71 in,21.9 cm / 8.62 in,1.58 kg / 3.48 lb,
-MacBook Pro 15 in (2015)[6],Aluminum,Silver with black border around screen,35.89 cm / 14.13 in,1.8 cm / 0.71 in,24.71 cm / 9.73 in,2.04 kg / 4.49 lb,
+Model[edit],Processor,Memory,FSB,Storage,RPM,Graphics,VRAM,Display resolution,MSRP
+Mac Mini[1],1.4 GHz dual-core Intel Core i5,4 GB,5 GT/s,500 GB HDD,5400,Intel HD Graphics 5000,1.5 GB shared,N/A,$499 (USD) / $599 (CAD) / £479 (GBP) / €549 (EUR) / $779 (AUD)
+iMac 21.5 inch[2],1.6 GHz dual-core Intel Core i5,8 GB,5 GT/s,1 TB HDD,5400,Intel HD Graphics 6000,1.5 GB shared,1920 × 1080,$1099 (USD) / $1399 (CAD) / £1049 (GBP) / €1249 (EUR) / $1699 (AUD)
+iMac 21.5 inch with 4K Retina Display[2],3.1 GHz dual-core Intel Core i5,8 GB,5 GT/s,1 TB HDD,5400,Intel Iris Pro Graphics 6200,1.5 GB shared,4096 × 2304,$1499 (USD) / $1899 (CAD) / £1449 (GBP) / €1699 (EUR) / $2299 (AUD)
+iMac 27 inch with 5K Retina Display[2],3.2 GHz quad-core Intel Core i5,8 GB,5 GT/s,1 TB HDD,5400,AMD Radeon R9 M380,2 GB,5120 × 2880,$1799 (USD) / $2299 (CAD) / £1749 (GBP) / €2099 (EUR) / $2799 (AUD)
+Mac Pro Quad-Core[3],3.7 GHz Quad-core Xeon E5,16 GB,5 GT/s,256 GB PCIe-based flash storage,N/A,Dual AMD FirePro D300,2 GB each,N/A,$2999 (USD) / $3499 (CAD) / £2999 (GBP) / €3399 (EUR) / $4899 (AUD)
+Mac Pro 6-Core[3],3.5 GHz 6-core Xeon E5,16 GB,5 GT/s,256 GB PCIe-based flash storage,N/A,Dual AMD FirePro D500,3 GB each,N/A,$3999 (USD) / $4699 (CAD) / £3899 (GBP) / €4599 (EUR) / $6499 (AUD)

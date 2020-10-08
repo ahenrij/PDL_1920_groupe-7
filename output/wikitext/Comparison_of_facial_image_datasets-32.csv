@@ -1,6 +1,7 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Geographical Original of Music Data Set,Audio features of music samples from different locations.,Audio features extracted using MARSYAS software.,"1,059",Text,"Geographical classification, clustering",2014,[256][257],F. Zhou et al.
-Million Song Dataset,Audio features from one million different songs.,Audio features extracted.,1M,Text,"Classification, clustering",2011,[258][259],T. Bertin-Mahieux et al.
-MUSDB18,Multi-track popular music recordings,Raw audio,150,"MP4, WAV",Source Separation,2017,[260],Z. Rafii et. al.
-Free Music Archive,"Audio under Creative Commons from 100k songs (343 days, 1TiB) with a hierarchy of 161 genres, metadata, user data, free-form text.",Raw audio and audio features.,"106,574","Text, MP3","Classification, recommendation",2017,[261],M. Defferrard et al.
-Bach Choral Harmony Dataset,Bach chorale chords.,Audio features extracted.,5665,Text,Classification,2014,[262][263],D. Radicioni et al.
+Cloud DataSet,Data about 1024 different clouds.,Image features extracted.,1024,Text,"Classification, clustering",1989,[431],P. Collard
+El Nino Dataset,Oceanographic and surface meteorological readings taken from a series of buoys positioned throughout the equatorial Pacific.,12 weather attributes are measured at each buoy.,178080,Text,Regression,1999,[432],Pacific Marine Environmental Laboratory
+Greenhouse Gas Observing Network Dataset,Time-series of greenhouse gas concentrations at 2921 grid cells in California created using simulations of the weather.,None.,2921,Text,Regression,2015,[433],D. Lucas
+Atmospheric CO2 from Continuous Air Samples at Mauna Loa Observatory,"Continuous air samples in Hawaii, USA. 44 years of records.",None.,44 years,Text,Regression,2001,[434],Mauna Loa Observatory
+Ionosphere Dataset,Radar data from the ionosphere. Task is to classify into good and bad radar returns.,Many radar features given.,351,Text,Classification,1989,[374][435],Johns Hopkins University
+Ozone Level Detection Dataset,Two ground ozone level datasets.,"Many features given, including weather conditions at time of measurement.",2536,Text,Classification,2008,[436][437],K. Zhang et al.

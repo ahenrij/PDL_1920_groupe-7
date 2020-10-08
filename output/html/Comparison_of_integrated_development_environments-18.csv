@@ -1,6 +1,2 @@
-IDE,Developer,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder
-Dolphin Smalltalk,Object Arts,MIT License,Yes,No,No,No,Yes,Yes
-Pharo,INRIA,MIT License,Yes,Yes,Yes,various,Yes,Yes
-Squeak,squeak.org,MIT License,Yes,Yes,Yes,various,Yes,Yes
-VisualAge,Instantiations,Proprietary,Yes,Yes,Yes,various,Yes,Yes
-VisualWorks,Cincom,Proprietary,Yes,Yes,Yes,various,Yes,Yes
+IDE,License,Developer,Platform
+BlackBox Component Builder,Proprietary similar to Sleepycat,Oberon microsystems,Windows

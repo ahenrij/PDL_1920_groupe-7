@@ -1,4 +1,5 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-Bluetooth keyboard,2.3+;[261] previous versions via 3rd party software[262],,,,
-USB keyboard,3.1+[261],With Camera Connection Kit[266],,?,
-Interchangeable external memory cards,,Only for photo/video import with an optional accessory,,,
+Safe driving mode,,11+[230],?,?,?
+Turn-by-turn navigation,2+[231],6+[232],?,,
+Offline maps,",6+[234],?,,
+Alternative routes in maps,,5+[236][237],?,,

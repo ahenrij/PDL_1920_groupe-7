@@ -1,4 +1,4 @@
 ,Trident,Gecko,WebKit,KHTML,Presto,Prince XML,Antenna House
-XLink[spec 10],5.0,Partial[note 2],No[w 2],No,Partial,Partial[note 3],Partial[a 2]
-XML Base[spec 11],No,1.0,No[w 3],Yes,Yes,6.0,Yes[a 3]
-XPointer[spec 12],?,Partial,No[w 4],No,No,?,No
+XSLT[spec 6][spec 7],<3.1[IE 6.0] [note 1],1.0,314,No,Incorrect,?,Yes
+XSL-FO[spec 8],No,No[g 3],No,,No,No,Yes
+EXSLT[spec 9],?,1.9,No[w 1],,Partial,?,Depends[a 1]

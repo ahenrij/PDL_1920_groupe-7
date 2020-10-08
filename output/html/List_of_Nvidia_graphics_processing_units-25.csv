@@ -1,15 +1,12 @@
-Model,Features,
-,nFiniteFX II Engine,Video Processing Engine (VPE)
-GeForce4 MX420,No,Yes
-GeForce4 MX440 SE,No,Yes
-GeForce4 MX4000,No,Yes
-GeForce4 PCX4300,No,Yes
-GeForce4 MX440,No,Yes
-GeForce4 MX440 8X,No,Yes
-GeForce4 MX460,No,Yes
-GeForce4 Ti4200,Yes,No
-GeForce4 Ti4200 8x,Yes,No
-GeForce4 Ti4400,Yes,No
-GeForce4 Ti4400 8x,Yes,No
-GeForce4 Ti4600,Yes,No
-GeForce4 Ti4600 8x,Yes,No
+Model,Features,,,,,,,,
+,Scalable Link Interface (SLI),"PureVideo 2 with VP2, BSP Engine, and AES128 Engine","PureVideo 3 with VP3, BSP Engine, and AES128 Engine",,,,,,
+GeForce 9300 GE (G98),Yes,No,Yes,,,,,,
+GeForce 9300 GS (G98),,,,,,,,,
+GeForce 9400 GT,,Yes,No,,,,,,
+GeForce 9500 GT,,,,,,,,,
+GeForce 9600 GSO,,,,,,,,,
+GeForce 9600 GT,,,,,,,,,
+GeForce 9800 GT,,,,,,,,,
+GeForce 9800 GTX,Yes 3-way,,,,,,,,
+GeForce 9800 GTX+,,,,,,,,,
+GeForce 9800 GX2,Yes,,,,,,,,

@@ -1,5 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-TV Human Interaction Dataset,"Videos from 20 different TV shows for prediction social actions: handshake, high five, hug, kiss and none.",None.,"6,766 video clips",video clips,Action prediction,2013,[41],"Patron-Perez, A. et al."
-Berkeley Multimodal Human Action Database (MHAD),Recordings of a single person performing 12 actions,MoCap pre-processing,660 action samples,"8 PhaseSpace Motion Capture, 2 Stereo Cameras, 4 Quad Cameras, 6 accelerometers, 4 microphones",Action classification,2013,[42],"Ofli, F. et al."
-THUMOS Dataset,Large video dataset for action classification.,Actions classified and labeled.,45M frames of video,"Video, images, text","Classification, action detection",2013,[43][44],Y. Jiang et al.
-MEXAction2,Video dataset for action localization and spotting,Actions classified and labeled.,1000,Video,Action detection,2014,[45],Stoian et al.
+Adult Dataset,Census data from 1994 containing demographic features of adults and their income.,Cleaned and anonymized.,"48,842",Comma separated values,Classification,1996,[438],United States Census Bureau
+Census-Income (KDD),Weighted census data from the 1994 and 1995 Current Population Surveys.,Split into training and test sets.,"299,285",Comma separated values,Classification,2000,[439][440],United States Census Bureau
+IPUMS Census Database,Census data from the Los Angeles and Long Beach areas.,None,"256,932",Text,"Classification, regression",1999,[441],IPUMS
+US Census Data 1990,Partial data from 1990 US census.,Results randomized and useful attributes selected.,"2,458,285",Text,"Classification, regression",1990,[442],United States Census Bureau

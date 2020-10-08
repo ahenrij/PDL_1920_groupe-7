@@ -1,40 +1,38 @@
-,if,else if,select case,conditional expression
-Ada[1],if condition then statements «else statements» end if,if condition1 then statements elsif condition2 then statements ... «else statements» end if,case expression is when value_list1 => statements when value_list2 => statements ... «when others => statements» end case,(if condition1 then expression1 «elsif condition2 then expression2» ... else expressionn) (case expression is when value_list1 => expression1 when value_list2 => expression2 ... «when others => expressionn» )
-Seed7,if condition then statements «else statements» end if,if condition1 then statements elsif condition2 then statements ... «else statements» end if,case expression of when set1 : statements ... «otherwise: statements» end case,
-Modula-2,if condition then statements «else statements» end,if condition1 then statements elsif condition2 then statements ... «else statements» end,case expression of caseLabelList : statements | ... «else statements» end,
-ALGOL 68,if condition then statements «else statements» fi,if condition then statements elif condition then statements fi,"case switch in statements, statements«,... out statements» esac",( condition | valueIfTrue | valueIfFalse )
-ALGOL 68 (brief form),( condition | statements «| statements» ),( condition | statements |: condition |  statements ),"( variable | statements,... «| statements» )",
-APL,:If condition instructions «:Else instructions»:EndIf,:If condition instructions :ElseIf condition instructions ... «:Else instructions» :EndIf,:Select expression :Case case1 instructions ... «:Else instructions»:EndSelect,{condition:valueIfTrue ? valueIfFalse}
-C (C99) and: Objective-C C++ (STL) D Java JavaScript PHP,if (condition) instructions «else instructions» instructions can be a single statement or a block in the form of: { statements },if (condition) instructions else if (condition) instructions ... «else instructions» if (condition) instructions else { if (condition) instructions },switch (variable) { case case1: instructions «break;» ... «default: instructions»},condition ? valueIfTrue : valueIfFalse
-C#,if (condition) instructions «else instructions» instructions can be a single statement or a block in the form of: { statements },if (condition) instructions «else instructions» if (condition) instructions else if (condition) instructions ... «else instructions»,"All non-empty cases must end with a break or goto case statement (that is, they are not allowed to fall-through to the next case). The default case is not required to come last.",condition ? valueIfTrue : valueIfFalse switch (variable) { case case1: instructions «break_or_jump_statement» ... «default: instructions break_or_jump_statement» }
-Windows PowerShell,if (condition) instructions «else instructions»,if (condition) { instructions } elseif (condition) { instructions } ... «else { instructions }»,switch (variable) { case1 { instructions «break;» } ... «default { instructions }»},
-Go,if condition {instructions} «else {instructions}»,if condition {instructions} else if condition {instructions} ... «else {instructions}» or switch { case condition: instructions ... «default: instructions»},switch variable { case case1: instructions ... «default: instructions»},
-Swift,if condition {instructions} «else {instructions}»,if condition {instructions} else if condition {instructions} ... «else {instructions}»,switch variable { case case1: instructions ... «default: instructions»},
-Perl,if (condition) {instructions} «else {instructions}» or unless (notcondition) {instructions} «else {instructions}»,if (condition) {instructions} elsif (condition) {instructions} ... «else {instructions}» or unless (notcondition) {instructions} elsif (condition) {instructions} ... «else {instructions}»,use feature "switch"; ... given (variable) { when (case1) { instructions } ... «default { instructions }»},condition ? valueIfTrue : valueIfFalse
-Raku,if condition {instructions} «else {instructions}» or unless notcondition {instructions},if condition {instructions} elsif condition {instructions} ... «else {instructions},given variable { when case1 { instructions } ... «default { instructions }»},condition ?? valueIfTrue !! valueIfFalse
-Ruby,if condition instructions «else instructions»,if condition instructions elsif condition instructions ... «else instructions» end,case variable when case1 instructions ... «else instructions»end,condition ? valueIfTrue : valueIfFalse
-Scala,if (condition) {instructions} «else {instructions}»,if (condition) {instructions} else if (condition) {instructions} ... «else {instructions}»,expression match { case pattern1 => expression case pattern2 => expression ... «case _ => expression»}[b],if (condition) valueIfTrue else valueIfFalse
-Smalltalk,condition ifTrue: trueBlock «ifFalse: falseBlock» end,,,condition ifTrue: trueBlock ifFalse: falseBlock
-Common Lisp,(when condition instructions) or (unless condition instructions) or (if condition (progn instructions) «(progn instructions)»),(cond (condition1 instructions) (condition2 instructions) ... «(t instructions)»),(case expression (case1 instructions) (case2 instructions) ... «(otherwise instructions)»),(if test then else) (cond (test1 value1) (test2 value2) ...))
-Scheme,(when conditioninstructions) or (if condition (begin instructions) «(begin instructions)»),(cond (condition1 instructions) (condition2 instructions) ... «(else instructions)»),(case (variable) ((case1) instructions) ((case2) instructions) ... «(else instructions)»),(if condition valueIfTrue valueIfFalse)
-ISLISP,(if condition (progn instructions) «(progn instructions)»),(cond (condition1 instructions) (condition2 instructions) ... «(t instructions)»),(case expression (case1 instructions) (case2 instructions) ... «(t instructions)»),(if condition valueIfTrue valueIfFalse)
-Pascal,if condition then begin instructions end «else begin instructionsend»[c],if condition then begin instructions end else if condition then begin instructions end ... «else begin instructions end»[c],case variable of case1: instructions ... «else: instructions»end[c],
-Visual Basic,If condition Then instructions «Else instructions»End If Single-line: If we let instructions be: statement : statement : ... If condition Then instructions« Else instructions»,If condition Then instructions ElseIf condition Then instructions ... «Else instructions»End If Single-line: See note about C-like languages; the Else clause of a single-line If statement can contain another single-line If statement.,Select« Case» variable Case case_pattern1 instructions ... «Case Else instructions»End Select,"IIf(condition, valueIfTrue, valueIfFalse)"
-Visual Basic .NET,,,,"If(condition, valueIfTrue, valueIfFalse)"
-Xojo,,,,
-Python [a],if condition : Tab ? instructions «else: Tab ? instructions»,if condition : Tab ? instructions elif condition : Tab ? instructions ... «else: Tab ? instructions»,,valueIfTrue if condition else valueIfFalse (Python 2.5+)
-S-Lang,if (condition) { instructions } «else { instructions }»,if (condition) { instructions } else if (condition) { instructions } ... «else { instructions }»,switch (variable) { case case1: instructions } { case case2: instructions } ...,
-Fortran,IF (condition) THEN instructions ELSE instructions ENDIF,IF (condition) THEN instructions ELSEIF (condition) THEN instructions ... ELSE instructions ENDIF,SELECT CASE(variable) CASE (case1) instructions ... CASE DEFAULT instructions END SELECT,
-Forth,condition IF instructions « ELSE instructions» THEN,condition IF instructions ELSE condition IF instructions THEN THEN,value CASE case OF instructions ENDOF case OF instructions ENDOF default instructions ENDCASE,condition IF valueIfTrue ELSE valueIfFalse THEN
-OCaml,if condition then begin instructions end «else begin instructions end»,if condition then begin instructions end else if condition then begin instructions end ... «else begin instructions end»,match value with pattern1 -> expression | pattern2 -> expression ... «| _ -> expression»[b],if condition then valueIfTrue else valueIfFalse
-F#,Lightweight syntax mode: Either on a single line or with indentation as shown below: if condition then Tab ? instructions «else Tab ? instructions» Verbose syntax mode: Same as Standard ML (below).,Lightweight syntax mode: Either on a single line or with indentation as shown below: if condition then Tab ? instructions elif condition then Tab ? instructions ... «else Tab ? instructions» Verbose syntax mode: Same as Standard ML (below).,,
-Standard ML,if condition then «(»instructions «)» else «(» instructions «)»,if condition then «(»instructions «)» else if condition then «(» instructions «)» ... else «(» instructions «)»,case value of pattern1 => expression | pattern2 => expression ... «| _ => expression»[b],
-Haskell (GHC),if condition then expression else expression or when condition (do instructions) or unless notcondition (do instructions),result | condition = expression | condition = expression | otherwise = expression,case value of { pattern1 -> expression; pattern2 ->expression; ... «_ -> expression»}[b],
-Bash shell,if condition-command; then expression «else expression» fi,if condition-command; then expression elif condition-command; then expression «else expression» fi,case "$variable" in "$condition1" ) command... "$condition2" ) command... esac,
-CoffeeScript,if condition then expression «else expression»,if condition then expression else if condition then expression «else expression»,switch expression when condition then expression else expression,All conditions are expressions
-,if condition expression «else expression»,if condition expression else if condition expression «else expression»,,
-,expression if condition,unless condition expression else unless condition expression «else expression»,switch expression when condition expression «else expression»,
-,unless condition expression «else expression»,,,
-,expression unless condition,,,
-COBOL,IF condition «THEN» expression «ELSE expression». [d],,EVALUATE expression «ALSO expression...» WHEN case-or-condition «ALSO case-or-condition...» expression ... «WHEN OTHER expression» END-EVALUATE,
-,if,else if,select case,conditional expression
+,read from,write to,
+,stdin,stdout,stderr
+Ada[1],Get (x),Put (x),"Put (Standard_Error, x)"
+ALGOL 68,"readf(($format$, x)); or getf(stand in, ($format$, x));","printf(($format$, x)); or putf(stand out, ($format$, x));","putf(stand error, ($format$, x));[a]"
+APL,x??,??x,??x
+C (C99),"scanf(format, &x); or fscanf(stdin, format, &x); [b]","printf( format, x); or fprintf(stdout, format, x); [c]","fprintf(stderr, format, x );[d]"
+Objective-C,data = [[NSFileHandle fileHandleWithStandardInput] readDataToEndOfFile];,[[NSFileHandle fileHandleWithStandardOutput] writeData:data];,[[NSFileHandle fileHandleWithStandardError] writeData:data];
+C++,"«std::»cin >> x; or «std::»getline(«std::»cin, str);",«std::»cout << x;,«std::»cerr << x; or «std::»clog << x;
+C#,x = Console.Read(); orx = Console.ReadLine();,"Console.Write(«format, »x); or Console.WriteLine(«format, »x);","Console.Error.Write(«format, »x); or Console.Error.WriteLine(«format, »x);"
+D,x = std.stdio.readln(),"std.stdio.write(x) or std.stdio.writeln(x) or std.stdio.writef(format, x) or std.stdio.writefln(format, x)","stderr.write(x) or stderr.writeln(x) or std.stdio.writef(stderr, format, x) or std.stdio.writefln(stderr, format, x)"
+Java,x = System.in.read(); or x = new Scanner(System.in).nextInt(); or x = new Scanner(System.in).nextLine();,"System.out.print(x); or System.out.printf(format, x); or System.out.println(x);","System.err.print(x); or System.err.printf(format, x); or System.err.println(x);"
+Go,"fmt.Scan(&x) or fmt.Scanf(format, &x) or x = bufio.NewReader(os.Stdin).ReadString('\n')","fmt.Println(x) or fmt.Printf(format, x)","fmt.Fprintln(os.Stderr, x) or fmt.Fprintf(os.Stderr, format, x)"
+Swift,x = readLine() (2.x),print(x) (2.x) println(x) (1.x),
+JavaScript Web Browser implementation,,document.write(x),
+JavaScript Active Server Pages,,Response.Write(x),
+JavaScript Windows Script Host,x = WScript.StdIn.Read(chars) or x = WScript.StdIn.ReadLine(),WScript.Echo(x) or WScript.StdOut.Write(x) or WScript.StdOut.WriteLine(x),WScript.StdErr.Write(x) or WScript.StdErr.WriteLine(x)
+Common Lisp,(setf x (read-line)),(princ x) or (format t format x),(princ x *error-output*) or (format *error-output* format x)
+Scheme (R6RS),(define x (read-line)),(display x) or (format #t format x),(display x (current-error-port)) or (format (current-error-port) format x)
+ISLISP,(setf x (read-line)),(format (standard-output) format x),(format (error-output) format x)
+Pascal,read(x); or readln(x);,write(x); or writeln(x);,"write(stderr, x); or writeln(stderr, x);"
+Visual Basic,"Input« prompt,» x",Print x or ? x,N/A
+Visual Basic .NET,x = Console.Read() or x = Console.ReadLine(),"Console.Write(«format, »x) or Console.WriteLine(«format, »x)","Console.Error.Write(«format, »x) or Console.Error.WriteLine(«format, »x)"
+Xojo,x = StandardInputStream.Read() or x = StandardInputStreame.ReadLine(),StandardOutputStream.Write(x) or StandardOutputStream.WriteLine(x),StdErr.Write(x) or StdErr.WriteLine(x)
+Python 2.x,x = raw_input(«prompt»),print x or sys.stdout.write(x),"print >> sys.stderr, x or sys.stderr.write(x)"
+Python 3.x,x = input(«prompt»),"print(x«, end=""»)","print(x«, end=""», file=sys.stderr)"
+S-Lang,"fgets (&x, stdin)","fputs (x, stdout)","fputs (x, stderr)"
+Fortran,"READ(*,format) variable names or READ(INPUT_UNIT,format) variable names[e]","WRITE(*,format) expressions or WRITE(OUTPUT_UNIT,format) expressions[e]","WRITE(ERROR_UNIT,format) expressions[e]"
+Forth,buffer length ACCEPT ( # chars read ) KEY ( char ),buffer length TYPE char EMIT,N/A
+PHP,"$x = fgets(STDIN); or $x = fscanf(STDIN, format);","print x; or echo x; or printf(format, x);","fprintf(STDERR, format, x);"
+Perl,$x = <>; or $x = <STDIN>;,"print x; or printf format, x;","print STDERR x; or printf STDERR format, x;"
+Raku,$x = $*IN.get;,x.print or x.say,x.note or $*ERR.print(x) or $*ERR.say(x)
+Ruby,x = gets,"puts x or printf(format, x)","$stderr.puts(x) or $stderr.printf(format, x)"
+Windows PowerShell,$x = Read-Host«« -Prompt» text»; or $x = [Console]::Read(); or $x = [Console]::ReadLine(),x; or Write-Output x; or echo x,Write-Error x
+OCaml,let x = read_int () or let str = read_line () or Scanf.scanf format (fun x ... -> ...),print_int x or print_endline str or Printf.printf format x ...,prerr_int x or prerr_endline str or Printf.eprintf format x ...
+F#,let x = System.Console.ReadLine(),printf format x ... or printfn format x ...,eprintf format x ... or eprintfn format x ...
+Standard ML,val str = TextIO.inputLIne TextIO.stdIn,print str,"TextIO.output (TextIO.stdErr, str)"
+Haskell (GHC),x <- readLn or str <- getLine,print x or putStrLn str,hPrint stderr x or hPutStrLn stderr str
+COBOL,ACCEPT x,DISPLAY x,

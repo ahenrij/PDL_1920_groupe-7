@@ -1,30 +1,22 @@
-Audio player,Video playback,Outbound streaming,Skinnable,Media database,Gapless audio decoding,Visualizer,Remote controllable,Intelligent playlists from database (based on criteria)
-AIMP,No,via Plugins,Yes,Yes,Yes,Yes,via Plugins,No
-Amarok,Partial[featurenotes 1],Yes,Partial[featurenotes 2],Yes,Yes,Yes,Yes,Yes
-Audacious,No,No,Yes,No,Yes,Yes,Yes,No
-Audion,No,No,Yes,No,?,Yes,?,No
-cmus,No,No,Yes,Yes,Yes,No,Yes,No
-Cog,No,No,No,No,Yes,No,Yes,No
-Clementine,No,No,No,Yes,Yes,Yes,Yes,Yes
-Exaile,No,?,No,Yes,Yes,No,Yes[17],Yes
-foobar2000,No,Partial[a],Yes[featurenotes 3],Yes,Yes,Yes,Partial[a],Yes
-iTunes,Yes,Yes,Partial[a],Yes,Yes,Yes,Yes,Yes
-JRiver Media Center,Yes,via Plugins,Yes,Yes,Yes,Yes,via Plugins,Yes
-JuK,No,No,No,Yes,No,No,Yes[featurenotes 4],?
-MediaMonkey,Yes,Partial[a],Yes,Yes,Yes,Yes,Partial[a],Yes
-MPXPLAY,Yes (with MMC v2.00a),?,text-interface,Yes,Yes,Yes,Yes (also LCD ability),?
-Music Player Daemon,No,Yes,Client dependent,Yes,Yes,Client dependent,Yes,Client dependent
-MusicBee,No,No,Yes,Yes,Yes,Yes,Yes,Yes
-Musicmatch Jukebox,No,No,Yes,Yes,?,Yes,Yes,?
-musikCube,No,No,No,Yes,No,Partial[a],?,Yes
-Quod Libet,No,No,No,Yes,Yes,No,Yes,Yes
-Rhapsody,No,No,No,Yes,?,No,?,?
-Rhythmbox,No,No,No,Yes,Yes,Yes,Yes,Yes
-Sayonara Player,No,?,No (Dark Mode available),Yes,Yes,Yes,No,Yes
-Sonique,Partial[a],No,Yes,No,No,Yes,?,No
-Spotify,Yes,?,No,No,Yes,No,Yes (via app),No
-Winamp,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-XMMS,Partial[a],Partial[a],Yes,No,Partial[a],Yes,Yes,No
-XMPlay,Partial[a],Partial[a],Yes,No,Yes,Yes,No,No
-Zinf,No,No,Yes,Yes,?,No,?,?
-Audio player,Video playback,Outbound streaming,Skinnable,Media database,Gapless audio decoding,Visualizer,Remote controllable,Intelligent playlists from database (based on criteria)
+Audio player,HTTP,"RTSP (RTSPU, RTSPT)","MMS (MMSU, MMST)",Podcasting,Other
+AIMP,Yes,No,Yes,No,No
+Amarok,Yes,Yes,Yes,Yes,UPNP
+Audacious,Yes,No,Yes,No,?
+Audion,Yes,No,No,No,?
+cmus,Yes,No,No,No,?
+Cog,No,No,No,No,?
+foobar2000,Yes,Partial[protocolnotes 1],Yes,Partial[protocolnotes 2],?
+JuK,?,?,?,?,?
+JRiver Media Center,Yes,Yes,Yes,Yes,?
+MediaMonkey,Yes,No,No,Yes[protocolnotes 3],?
+MusicBee,Yes,?,?,Yes,?
+Musicmatch Jukebox,Yes,?,?,?,?
+musikCube,Yes,No,No,?,?
+Music Player Daemon,Yes[22],Yes[23],Yes[24],Yes,Music Player Daemon
+Rhapsody,Yes,Yes,Yes,Yes,?
+Rhythmbox,Yes,Yes,No,Partial[protocolnotes 4],UPNP
+Sayonara Player,Yes,?,?,?,?
+Sonique,Yes,?,?,?,?
+XMMS,Yes,?,?,?,?
+Zinf,Yes,Yes,No,No,?
+Audio player,HTTP,"RTSP (RTSPU, RTSPT)","MMS (MMSU, MMST)",Podcasting,Other

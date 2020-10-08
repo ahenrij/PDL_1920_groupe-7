@@ -1,11 +1,6 @@
-Can Target:,Changing default policy to accept/reject (by issuing a single rule),IP destination address(es),IP source address(es),TCP/UDP destination port(s),TCP/UDP source port(s),Ethernet MAC destination address,Ethernet MAC source address,Inbound firewall (ingress),Outbound firewall (egress)
-Trend Micro Internet Security,,,,,,,,,
-Vyatta,,,,,,,,,
-Windows XP Firewall,,,,"can target only single destination TCP/UDP port per rule, not port ranges.",,,,,
-Windows Vista Firewall,,,,,,,,,
-Windows 7 / Windows 2008 R2 Firewall,,,,,,,,,
-WinGate,,,,,,,,,
-Zeroshell,,,,,,,,,
-Zorp,,,,,,,,,
-pfSense,,,,,,,,,
-IPFire,,,,,,,,,
+Can:,work at OSI Layer 4 (stateful firewall),work at OSI Layer 7 (application inspection),Change TTL? (Transparent to traceroute),Configure REJECT-with answer,DMZ (de-militarized zone),Filter according to time of day (quota),Redirect TCP/UDP ports (port forwarding),Redirect IP addresses (forwarding),Filter according to User Authorization,Traffic rate-limit / QoS,Tarpit,Log
+Sidewinder,,,,,,,,,,,,
+WinGate,,,,,,,,,,,,
+Zeroshell,,,,,,,,,,,,
+pfSense,,,,,,,,,,,,
+IPFire,,,,,,,,,,,,

@@ -1,5 +1,8 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-TV Human Interaction Dataset,"Videos from 20 different TV shows for prediction social actions: handshake, high five, hug, kiss and none.",None.,"6,766 video clips",video clips,Action prediction,2013,[41],"Patron-Perez, A. et al."
-Berkeley Multimodal Human Action Database (MHAD),Recordings of a single person performing 12 actions,MoCap pre-processing,660 action samples,"8 PhaseSpace Motion Capture, 2 Stereo Cameras, 4 Quad Cameras, 6 accelerometers, 4 microphones",Action classification,2013,[42],"Ofli, F. et al."
-THUMOS Dataset,Large video dataset for action classification.,Actions classified and labeled.,45M frames of video,"Video, images, text","Classification, action detection",2013,[43][44],Y. Jiang et al.
-MEXAction2,Video dataset for action localization and spotting,Actions classified and labeled.,1000,Video,Action detection,2014,[45],Stoian et al.
+Dow Jones Index,Weekly data of stocks from the first and second quarters of 2011.,Calculated values included such as percentage change and a lags.,750,Comma separated values,"Classification, regression, Time series",2014,[418][419],M. Brown et al.
+Statlog (Australian Credit Approval),Credit card applications either accepted or rejected and attributes about the application.,Attribute names are removed as well as identifying information. Factors have been relabeled.,690,Comma separated values,Classification,1987,[420][421],R. Quinlan
+eBay auction data,Auction data from various eBay.com objects over various length auctions,"Contains all bids, bidderID, bid times, and opening prices.",~ 550,Text,"Regression, classification",2012,[422][423],G. Shmueli et al.
+Statlog (German Credit Data),Binary credit classification into "good" or "bad" with many features,Various financial features of each person are given.,690,Text,Classification,1994,[424],H. Hofmann
+Bank Marketing Dataset,Data from a large marketing campaign carried out by a large bank .,Many attributes of the clients contacted are given. If the client subscribed to the bank is also given.,"45,211",Text,Classification,2012,[425][426],S. Moro et al.
+Istanbul Stock Exchange Dataset,Several stock indexes tracked for almost two years.,None.,536,Text,"Classification, regression",2013,[427][428],O. Akbilgic
+Default of Credit Card Clients,Credit default data for Taiwanese creditors.,Various features about each account are given.,"30,000",Text,Classification,2016,[429][430],I. Yeh

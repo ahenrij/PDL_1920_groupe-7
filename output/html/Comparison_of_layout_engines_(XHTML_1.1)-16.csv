@@ -1,11 +1,2 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-form,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-input,,,,,,,
-select,,,,,,,
-option,,,,,,,
-textarea,,,,,,,
-button,,,,,,,
-fieldset,,,,,,,
-label,,,,,,,
-legend,,,,,,,
-optgroup,,,,,,,
+meta,<3.1[IE 2.0] [3],Yes,Yes,Yes,Yes,Yes,Yes

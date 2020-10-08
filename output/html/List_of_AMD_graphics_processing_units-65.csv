@@ -1,14 +1,23 @@
-Model[136],Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Processing power (GFLOPS),TDP (Watts),Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
-Mobility Radeon HD 3100,"August 1, 2008",RS780MC,RV620,55,PCIe x16 1.1,300,800 (system memory),40:4:4,1.2,1.2,up to 512 from system memory,6.4/12.8,DDR2,64/128,10.1,2.0 (3.3),24,,"UVD, PowerPlay 7.0"
-Mobility Radeon HD 3200,"June 4, 2008",RS780MC,,,,500,800 (system memory),,2,2,,6.4/12.8,,,,,40,,
-Mobility Radeon HD 3410,"July 25, 2008",M82-MPE,,,,400,400,,1.6,1.6,"256, 512",6.4,,64,,,32,,
-Mobility Radeon HD 3430,,M82-SE,,,PCIe x16 2.0,450,400,,1.8,1.8,256,6.4,,,,,36,,
-Mobility Radeon HD 3450,"January 7, 2008",M82,,,,500,400 700,,2,2,,6.4 11.2,DDR2 GDDR3,,,,40,,
-Mobility Radeon HD 3470,,M82-XT,,,,680,400 800,,2.72,2.72,,6.4 12.8,,,,,54.4,,
-Mobility Radeon HD 3650,,M86,RV635,,,500,500 700,120:8:4,2,4,512 1024,16.0 22.4,DDR2 GDDR3 GDDR4,128,,3.3,120,,
-Mobility Radeon HD 3670,,M86-XT,,,,680,800,,2.72,5.44,,25.6,,,,2.0 (3.3),163.2,30,"UVD, PowerPlay 7.0"
-Mobility Radeon HD 3850,"June 4, 2008",M88-L/M88-LP,RV670,,,580,750,320:16:16,9.28,9.28,512,48.0,GDDR3,256,,,371.2,,
-Mobility Radeon HD 3870,,M88-LXT,,,,660,850,,10.56,10.56,,54.4,,,,,422.4,55,
-Mobility Radeon HD 3850 X2,"June 5, 2008",2x M88-L/M88-LP,R680,,,580,750,2x [320:16:16],2x 9.28,2x 9.28,2x 512,2x 48.0,,2x 256,,,2x 371.2,,
-Mobility Radeon HD 3870 X2,"September 1, 2008",2x M88-LXT,,,,660,850,,2x 10.56,2x 10.56,,2x 54.4,,,,,2x 422.4,110,
+Model (Codename),Launch,Architecture (Fab),Core,,Fillrate,,Processing power (GFLOPS),Memory,,,,Bus interface,TDP (W)
+,,,Config[a],Clock (MHz),Texture (GT/s),Pixel (GP/s),,Size (GiB),Bus type & width (bit)[b],Memory (MHz),Bandwidth (GB/s),,
+Radeon HD 7430M (Seymour Pro),January 2012,TeraScale 2 (40 nm),160:8:4:2,600,4.8,2.4,192,1,DDR3 64-bit,900,14.4,PCIe 2.1 ×16,7
+Radeon HD 7450M (Seymour Pro),,,,700 700,5.6,2.8,224,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,7
+Radeon HD 7470M (Seymour XT),,,,750 800,6 6.4,3.0 3.2,240 256,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,7~9
+Radeon HD 7490M (Seymour XTX),,,,800,6.4,3.2,256,1,GDDR5 64-bit,950,30.4,,9
+Radeon HD 7510M (Thames LE),January 2012,TeraScale 2 (40 nm),400:20:8:5,450,9.0,3.6,360,1,DDR3 64-bit,800,12.8,,11
+Radeon HD 7530M (Thames LP),January 2012,TeraScale 2 (40 nm),400:24:8:5,450,9.0,3.6,360,1,DDR3 64-bit,900,14.4,,11
+Radeon HD 7550M (Thames Pro),January 2012,TeraScale 2 (40 nm),400:20:8:5,450 550,9.0 11.0,3.6 4.4,360 440,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,13
+Radeon HD 7570M (Thames Pro),January 2012,TeraScale 2 (40 nm),400:20:8:5,450 650,9.0 13.0,3.6 5.2,360 520,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,13~15
+Radeon HD 7590M (Thames XT),January 2012,TeraScale 2 (40 nm),480:24:8:6,600,14.4,4.8,576,1,GDDR5 64-bit,800,25.6,,18
+Radeon HD 7610M (Thames LE),January 2012,TeraScale 2 (40 nm),400:20:8:5,450,9.0,3.6,360,1,DDR3 128-bit,800,25.6,,20
+Radeon HD 7630M (Thames LP),January 2012,TeraScale 2 (40 nm),480:24:8:6,450,10.8,3.6,432,1,DDR3 128-bit,800,25.6,,20~25
+Radeon HD 7650M (Thames Pro),,,,450 550,10.8 13.2,3.6 4.4,432 528,1,DDR3 128-bit,800 800,25.6,,20~25
+Radeon HD 7670M (Thames Pro),,,,600,14.4,4.8,576,1,DDR3 GDDR5 128-bit,900,28.8 57.6,,20~25
+Radeon HD 7690M (Thames XT),,,,725 600,17.4 14.4,5.8 4.8,696 576,1 2,DDR3 GDDR5 128-bit,900 900,28.8 57.6,,20~25
+Radeon HD 7690M XT (Thames XTX),,,,725,17.4,5.8,696,1 2,GDDR5 128-bit,900,57.6,,25
+Radeon HD 7730M (Chelsea LP),April 2012,GCN 1st gen (28 nm),512:32:16:8,575 675,18.4 21.6,9.2 10.8,588.8 691.2,2,GDDR3 128-bit,900 900,28.8,PCIe 2.1 ×16,25~28
+Radeon HD 7750M (Chelsea Pro),,,,575,18.4,9.2,588.8,1 2,GDDR5 128-bit,1000,64,,28
+Radeon HD 7770M (Chelsea XT),,,,675,21.6,10.8,691.2,1 2,GDDR5 128-bit,1000,64,,32
+Radeon HD 7850M (Heathrow Pro),April 2012,GCN 1st gen (28 nm),640:40:16:10,675,27,10.8,864,2,GDDR5 128-bit,1000,64,PCIe 3.0 ×16,40
+Radeon HD 7870M (Heathrow XT),,,,800,32,12.8,1024,2,GDDR5 128-bit,1000,64,,40–45
+Radeon HD 7970M (Wimbledon XT),April 2012,GCN 1st gen (28 nm),1280:80:32:20,850,68,27.2,2176,2 4,GDDR5 256-bit,1200,153.6,PCIe 3.0 ×16,75

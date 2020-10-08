@@ -1,2 +1,6 @@
-IDE,Developer,Latest stable release,Platform,License
-DrRacket,"PLT Design, Inc.","26 October 2018, v7.1",Cross-platform,LGPL
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Profiler,Static code analysis,MXML,Export to Mobile
+Adobe Animate Formerly Adobe Flash Professional,Proprietary,Yes,No,Yes,JVM,Yes,Yes,Yes,Yes,Yes,Yes
+Flash Builder,Proprietary,Yes,No,Yes,JVM,Yes,Yes,Yes,Yes,Yes,Yes
+FlashDevelop,MIT License,Yes,No,No,,Yes,No,Yes,No,Yes,Yes
+IntelliJ IDEA,Proprietary,Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris",Yes,No,Yes,Yes,Yes,Yes
+Powerflasher FDT,Proprietary,Yes,Yes,Yes,JVM,Yes,No,Yes,Yes,Yes,Yes

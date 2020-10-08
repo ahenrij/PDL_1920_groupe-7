@@ -1,7 +1,8 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-Official app store,Google Play,App Store,Tizen Store,Jolla Store,OpenStore
-Non-discriminatory stores,"No, Some apps like Ad blockers are censored on Google Play[80][81] but developers can distribute apps from their own sources","No, Apple discriminates based on country[82] and own Apple policies[83]",?,"Openrepos.[84] Developers can distribute apps from their own sources, supports multiple app stores",?
-"Common APIs for smartphones, tablets, and PCs",Yes[85],Smartphone and tablet only[86],No,Yes,Yes
-Official SDK platform(s),"Linux, macOS and Windows[87]",macOS using iOS SDK,"GNU/Linux, Windows, macOS[88]","Windows, macOS and Linux[89]",Yes
-Cost to develop for the mobile OS,Free,"No, Requires Apple hardware.[90]",Free,Free,Free
-Cost to publish app to official store,US$25 once to offer it on Google Play[91],US$99/year,Free,Free[92],Free
+Non-intrusive incoming calls,5+[386] or 3rd party software[387],14+[388],No,No[389],?
+Non-intrusive notifications,Yes[390],5+[107],?,?,?
+Move apps to external storage,2.2+[391],External storage not allowed for apps,No,No,No
+Remote Frame Buffer (RFB) protocol,Yes[392],3rd party software[393],?,?,?
+Screencast on device,"No,[394] 3rd party software like LineageOS ScreenCast,[395] AOKP or OmniROM[396]",9+[397],No,No,Yes
+Screencast over USB,"4.4+ over USB,[121] for prior versions root required for 3rd party app[398]",8+: on OS X[399],No,?,No
+Screen share,On select devices using vendor's implementation[400][401][402],3rd party software[403],No,No,No

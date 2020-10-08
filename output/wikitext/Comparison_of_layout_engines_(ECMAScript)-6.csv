@@ -1,18 +1,13 @@
-RegExp object,Trident,Gecko,WebKit,Presto
-Called as function,,,,
-"RegExp (pattern, flags)",?,?,?,?
-Called as constructor,,,,
-"new RegExp (pattern, flags)",4.0,1.0,,1.0
-Properties,,,,
-prototype,4.0,1.0,,1.0
-Properties of prototype,,,,
-constructor,4.0,1.0,,1.0
-exec(string),4.0,1.0,,1.0
-test(string),4.0,1.0,,1.0
-toString(),4.0,1.0,,1.0
-Properties of instances,,,,
-source,4.0,1.0,,1.0
-global,4.0,1.0,,1.0
-ignoreCase,5.5,1.0,,1.0
-multiline,5.5,1.0,,1.0
-lastIndex,4.0,1.0,,1.0
+Browser layout engine,Trident,Gecko,WebKit,Presto,Blink
+Corresponding JavaScript engine,JScript / Chakra,SpiderMonkey,JavaScriptCore,Linear B / Futhark / Carakan,V8
+ECMAScript Edition 3,,0.6,,1.0,
+ECMAScript Edition 5,5.0,2.0,,,
+ECMAScript Edition 6,,,,,
+JavaScript 1.5 extensions,,0.6,,1.0,
+JavaScript 1.6 extensions (excluding E4X),,1.8,,,
+JavaScript 1.7 extensions,,1.8.1,,,
+JavaScript 1.8 extensions,,1.9,,,
+JavaScript 1.8.1 extensions,,1.9.1,,,
+JScript .NET extensions,,,,,
+ActionScript extensions,,,,,
+E4X,,Dropped[1],,,

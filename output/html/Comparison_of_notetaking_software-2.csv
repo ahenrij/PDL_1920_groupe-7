@@ -1,34 +1,29 @@
-Name,Developer(s),License,Platforms
-AllMyNotes Organizer,Vladonai Software,"Proprietary, Freemium",Microsoft Windows
-BasKet Note Pads,KDE,Open source (GPL),Unix-like (KDE)
-CintaNotes,Cinta Software,"Proprietary, Freemium",Microsoft Windows
-ConnectedText,Eduardo Mauro,"Proprietary, Commercial",Microsoft Windows
-Day One,Bloom Built,"Proprietary, Commercial","macOS, iOS, Android"
-Dropbox Paper,Dropbox,"Proprietary, Freemium","Android, IOS, web-based"
-Evernote,Evernote Corporation,"Proprietary, Freemium for personal use, per-seat licensing for business","Android, iOS, macOS, Microsoft Windows 7/8/10, Microsoft Windows Phone, and web-based"
-Gnote,Aurimas ?ernius,Open source (GPL v3),Linux
-Google Keep,Google,"Proprietary, no-cost","Android, iOS, Chrome OS, browser based"
-KeyNote NF,"Marek Jedli?ski, Tranglos Software",Open source (MPL),Microsoft Windows
-Memonic,Nektoon AG,"Proprietary, Freemium[Notes 1]","Android (not released yet), iOS, macOS, Microsoft Windows XP/Vista/7/Mobile web-based"
-Microsoft OneNote,Microsoft,"Proprietary, Shareware/Freeware/Freemium[Notes 2]","Android, macOS, iOS (iPad, iPhone), Microsoft Windows 7/8/10, Microsoft Windows Server 2008R2/2012R2/2016, Microsoft Windows Phone 8/8.1/10, web-based, mobile web"
-MyInfo,Milenix Software,"Proprietary, Shareware",Microsoft Windows XP/Vista/7/10
-MyNotex,Massimo Nardello,Open source (GPL),Linux
-Notational Velocity,Zachary Schneirov,Open source (GPL v3),macOS
-Notes,Apple,Proprietary,"macOS, iOS, web-based"
-Okular,Okular Team (KDE),Open source (GPL),"KDE-enabled Linux, Unix, Microsoft Windows, macOS, *BSD[1]"
-Open-Sankoré,Sankoré,Open source (GPL),"Linux, macOS, Unix, Microsoft Windows"
-Org-mode (Emacs),"Carsten Dominik, et al.",Open source (GPL),"Linux, macOS, Unix, Microsoft Windows (Emacs mode)"
-Outline,Gorillized Corporation,"Proprietary, Commercial","macOS, iOS"
-PDF Studio,Qoppa Software,"Proprietary, Shareware","Linux, macOS, Microsoft Windows, web-based"
-Personal Knowbase,Bitsmith Software,"Proprietary, Commercial",Microsoft Windows
-QOwnNotes,Patrizio Bekerle,Open source (GPL),"GNU/Linux, macOS, Microsoft Windows"
-Qiqqa,Quantisle Ltd.,"Proprietary, Freemium","Microsoft Windows XP/Vista/7/8, Web-based, Android"
-Simplenote,Automattic inc.,Open source,Cross-platform
-TagSpaces,TagSpaces UG,Open source (AGPL),"Cross-platform (browser, web-based)"
-TiddlyWiki,Jeremy Ruston,Open source (BSD),"Cross-platform (single HTML file, runs in browser, on a nodeJS server, on Android and IOS)"
-Tomboy,Alex Graveley,Open source (LGPL),Cross-platform (Mono/GTK+)
-Ulysses,The Soulmen,SaaS,"macOS, iOS"
-Whizfolders,AvniTech Solutions,"Proprietary, Commercial",Microsoft Windows
-Microsoft Windows Journal,Microsoft,"Proprietary, Commercial","Microsoft Windows XP Tablet PC edition, Microsoft Windows Vista, Microsoft Windows 7/8/10 (included with OS)"
-Zim,Jaap Karssenberg,Open source (GPL),"Cross-platform (Python, GTK+)"
-ZOHO Notebook,ZOHO Corporation,"Proprietary, Commercial, Freemium",Self-hosted. SaaS.
+Name,Organizing principle(s),Outline bulleting with indent,Tabbed sections,Sync,PDF annotate and save [unclear],Whiteboard,Ink-pen input,Handwriting recognition,Spell check,Search,Replace,Printing,File save/export/import formats
+AllMyNotes Organizer,Tree,Yes,No,Yes,No,No,No,No,Yes,Yes,?,Yes,"Proprietary, encrypted; import: plain text, RTF, CSV, images, HTML; exports: plain text, HTML, RTF, images"
+BasKet Note Pads,"Tree, tags",?,No,No,No,Yes,No,No,Yes,Yes,?,No,Rich text; export as HTML; import text files
+CintaNotes,"Notebooks, sections, tags",Yes,Yes,Yes,No,No,No,No,No,Yes,?,Yes,"Proprietary; export to Unicode text, XML and HTML"
+ConnectedText,"Wiki, Tree and Categories",Yes,Yes,No,No,No,No,No,Yes,Yes,?,Yes,"Proprietary (SQL); Export to text, XML, CHM and HTML. Import from text, HTML, XML and RTF"
+Day One,"Chronological, tags",Yes,No,Yes[Notes 3],No,No,No,No,Yes,Yes,?,Yes[Notes 4],"Markdown (in GUI), XML (data file); Export as: pdf, txt, md"
+Evernote,"tags, Notebooks, Stacks",Yes,No,Yes,Yes,No,Partial[Notes 5],Yes,Yes,Yes,?,Yes,Notes stored as XML; both free and paid versions allow notes of any file type
+Gnote,Notebooks,?,No,Yes,Yes,No,?,?,Yes,Yes,?,Yes,"NoteXmlFormat, HTML, PDF"
+Google Keep,"tags, colors",No,No,Yes,No,Yes,No,?,Partial[Notes 6],Yes,?,No,"Proprietary; export to Google Doc and thence to PDF, Word, ODT etc."
+KeyNote NF,"Notebooks, notes and tree",Yes,Yes,No,No,No,No,No,Yes,Yes,?,Yes,"Internal: combination of TXT and RTF; import/export: TXT, RTF, HTML, Treepad"
+Memonic,?,?,No,Yes,Yes,No,No,?,?,?,?,Yes,Notes stored as XML; can attach any filetype
+Microsoft OneNote,"Notebooks, sections, pages",Yes,Yes,Yes[Notes 7],Yes[Notes 8],Yes,Yes,Yes,Yes,Yes,No,Yes,"Open, XML,[2] import from web pages and other applications[clarification needed]"
+MyInfo,"Tree, tags, custom attributes",Yes,Yes,No,Yes,No,No,No,Yes,Yes,Yes,Yes,"Proprietary, encrypted; import: plain text, RTF, CSV, MS Word, images, web pages; exports: plain text, HTML, RTF, CSV, MS Word"
+MyNotex,?,?,?,Yes,No,No,No,No,?,Yes,?,Yes,"Sqlite based, zipped attachments; export to HTML; copying as LaTeX; import text files, OpenOffice.org documents"
+Okular,?,?,?,No,Yes[Notes 9],No,No,No,?,?,?,Yes,"PDF, PS, TIFF, CHM, DjVu, DVI, XPS, ODF, others; export PDF+notes for sending to other Okular users"
+Open-Sankoré,"tree, notebooks",No,No,No,Yes,Yes,Yes,No,No,No,?,Yes,"Save/export: PDF, IWB, UBZ; Import: PDF, IWB, UBZ, images, image directories"
+Org-mode (Emacs),"tree, tags",Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,?,Yes,"LaTeX, HTML, DocBook, Taskjuggler, PDF, Freemind, XOXO, iCalendar"
+Outline,"Tree-structured notebooks, sections, pages",Yes,Yes,Yes[Notes 10],Yes,No,Yes,No,Yes,Yes,?,Yes,"MS OneNote format, export/import as PDF"
+PDF Studio,?,?,?,?,Yes,No,?,?,?,?,?,Yes,PDF
+Personal Knowbase,tags,?,?,?,No,No,?,?,?,?,?,Yes,"Export to RTF, HTML, TXT, CSV"
+Qiqqa,"tags, brainstorm",No,No,Yes,Yes,No,Yes,No,No,Yes,?,Yes,"Proprietary, PDF, Brainstorm; export to RTF and Word"
+Simplenote,tags,Yes,No,Yes,No,No,No,No,Yes,Yes,?,Yes,Export to XML
+TagSpaces,"tags, files, directories",Yes,No,No,No,No,No,No,No,Yes,?,Yes,"PNG, JPG, GIF, BMP, ICO, WEBP, SVG, PDF, HTML, MHT, MHTML, MARKDOWN, TXT, XML, JSON, OGG, OGV, WEBM, ODT, ODS, ODP, ODG, EPUB, ZIP"
+TiddlyWiki,tags (wikiwords),Yes,Yes,Yes,Via plugin,No,?,No,Yes(via browser),Yes,?,Yes,"HTML, json, txt,csv"
+Tomboy,?,Yes,?,Yes,No,No,No,No,Yes,Yes,?,Yes,"NoteXmlFormat, HTML, PDF, wiki-formats"
+Ulysses,"Notebooks, sections, tags",Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Rich text; export as HTML; import text files; markdown editing.
+Microsoft Windows Journal,?,?,No,?,No,?,Yes,Yes[Notes 11],?,?,?,Yes,Proprietary
+Zim,tags (wikiwords),Yes,No,No,No,No,No,No,Yes,Yes,Yes,"Yes, using installed web browser","Stored in modified DokuWiki Markdown; export: HTML, LaTeX, Pandoc Markdown, Sphinx RST (reStructuredText)"
+Name,Organizing principle(s),Outline bulleting with indent,Tabbed sections,Sync,PDF annotate and save,Whiteboard,Ink-pen input,Handwriting recognition,Spell check,Search,Replace,Printing,File save/export/import formats

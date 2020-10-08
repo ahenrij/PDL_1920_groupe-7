@@ -1,6 +1,14 @@
-Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
-,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
-FirePro V3900[58],"February 7, 2012",TeraScale 2,Turks GL,40,PCIe 2.1 x16,650,900,480(96×5):24:8:6,5.2,15.6,1,28.8,GDDR3,128,624,-,11.0,4.3,1.2,rowspan=4 ,50,"HD3D, UVD3, DP 1.2, PowerPlay, Eyefinity"
-FirePro V4900[59],"November 1, 2011",,Turks XT GL,,,800,1000,,6.4,19.2,,64,GDDR52,,768,,,,,<75 Max,,
-FirePro V5900[60],"May 24, 2011",TeraScale 3,Cayman LE GL,,,600,5002,512(128×4):32:32:8,19.2,,2,,,256,610,154,,,,,,
-FirePro V7900[61],,,Cayman Pro GL,,,725,12502,1280(320×4):80:32:20,23.2,58,,160,,,1860,464,,,,<150 Max,,
+Model,Launch,Code name,Fab (nm),Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Radeon X300,"Sept. 1, 2004",RV370 (hari),110,325,200,4:2:4:4,1300,1300,1300,162.5,"64, 128",6.4,DDR,128
+Radeon X300 LE,,,,,,,,,,,,,,
+Radeon X300 SE,,,,,,,,,,,,3.2,,64
+Radeon X300 SE HyperMemory,"April 4, 2005",,,,300,,,,,,"32, 64, 128 onboard + up to 128 system",,,
+Radeon X550,"June 21, 2005",,,400,250,,1600,1600,1600,200,"128, 256",8 4,,128 64
+Radeon X550 HyperMemory,,,,,,,,,,,"128, 256 onboard + up to 512 system",,,
+Radeon X600 SE,"Sept. 1, 2004",,,325,,,1300,1300,1300,162.5,"128, 256",4,,64
+Radeon X600,,,,400,,,1600,1600,1600,200,,8,,128
+Radeon X600 Pro (RV370),,,,,300,,,,,,,9.6,,
+Radeon X600 Pro (RV380),,RV380 (vishnu),130,,,,,,,,,,,
+Radeon X600 XT,,,,500,370,,2000,2000,2000,250,,11.84,,
+Radeon X1050 (RV370),"Dec. 7, 2006",RV370 (hari),110,400,333,,1600,1600,1600,200,,5.328,DDR2,64

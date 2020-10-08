@@ -1,16 +1,8 @@
-Arrays and Collections,Java,C#
-Abstract data types,,
-"One-dimensional, zero-based index arrays",,
-"Multidimensional arrays, rectangular (single array)",,
-"Multidimensional arrays, jagged (arrays of arrays)",,
-Non-zero based arrays,,
-Unified arrays and collections,,
-Maps/dictionaries,,
-Sorted dictionaries,,
-Sets,,
-Sorted sets,,
-Lists/vectors,,
-Queues/stacks,,
-Priority queue,,
-Bags/multisets,Third-party librarystyle=background: #8CF;,
-Concurrency optimized collections,,
+"Preprocessing, Compilation and Packaging",Java,C#
+Namespaces,Packages,Namespaces
+File contents,Restricted,Free
+Packaging,Package,"public/internal visibility on namespace members, which the build system translates to modules and assemblies at the CLR-level"
+Classes/assembly search path,ClassPath,Both compile-time and runtime[82][83]
+Conditional compilation,,
+Custom errors/warnings,,
+Explicit regions,,

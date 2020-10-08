@@ -1,16 +1,7 @@
-Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
-,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MHz),Band- width (GB/s),
-Radeon R5 M420[158] (Jet Pro),15 May 2016,GCN 1st gen (28 nm),320:20:8,780 855,15.6 17.1,6.24 6.84,499 547,DDR3 64-bit,2,1000,16.0,~20 W
-Radeon R5 M430[159] (Exo Pro),15 May 2016,,320:20:8,1030 ?,20.6,8.2,659.2 659.2,DDR3 64-bit,2,1000,14.4,18 W
-Radeon R7 M435[160] (Jet Pro),15 May 2016,,320:20:8,780 855,15.6 17.1,6.24 6.84,499 547,GDDR5 64-bit,4,1000,32,~20 W
-Radeon R7 M440[161] (Meso Pro),15 May 2016,,320:20:8,1021 ?,20.4,8.17,653 653,DDR3 64-bit,4,1000,16,~20 W
-Radeon R7 M445[162] (Meso Pro),14 May 2016,,320:20:8,780 920,15.6 18.4,6.24 7.36,499 589,GDDR5 64-bit,4,1000,32,~20 W
-Radeon R7 M460[163][164] (Meso XT),April 2016,,384:24:8,1100 1125,26.4 27.0,8.8 9.00,844 864,DDR3 64-bit,2,900,14.4,Unknown
-Radeon RX 460[165] (Baffin),August 2016,GCN 4th gen (14 nm),896:56:16,Unknown,Unknown,Unknown,Unknown,GDDR5 128-bit,2,1750,112,35 W?
-Radeon R7 M465[166][167] (Litho XT),May 2016,GCN 1st gen (28 nm),384:24:8,825 960,19.8 23.0,6.6 7.68,634 737,GDDR5 128-bit,4,1150,32,Unknown
-Radeon R7 M465X[168] (Tropo XT),May 2016,,512:32:16,900 925,28.8 29.6,14.4 14.80,921 947,GDDR5 128-bit,4,1125,72,Unknown
-Radeon R9 M470[169] (Strato Pro),May 2016,GCN 2nd gen (28 nm),768:48:16,900 1000,43.2 48.0,14.4 16.00,1382 1536,GDDR5 128-bit,4,1500,96,~75 W
-Radeon R9 M470X[170] (Strato XT),May 2016,,896:56:16,1000 1100,56.0 61.6,16.00 17.60,1792 1971,GDDR5 128-bit,4,1500,96,~75 W
-Radeon RX 470[171] (Ellesmere Pro),August 2016,GCN 4th gen (14 nm),2048:128:32,Unknown,Unknown,Unknown,Unknown,GDDR5 256-bit,4,1650,211,85 W?
-Radeon RX 480M (Baffin),TBA,,1024:xx:xx,Unknown,Unknown,Unknown,Unknown,GDDR5 128-bit,Unknown,Unknown,Unknown,35 W
-Radeon R9 M485X[172] (Antigua XT),May 2016,GCN 3rd gen (28 nm),2048:128:32,723,92.5,23.14,2961,GDDR5 256-bit,8,1250,160,~100 W
+Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
+FirePro W600[242],"June 13, 2012",GCN 1st Gen.,Cape Verde Pro GL,28,PCIe 3.0 x16,750,1000,512:32:16:8,12.0,24.0,2,64,GDDR5,128,768,Up to 55,11.1/12,4.5,1.2,1.0,75,Six Mini DisplayPort
+FirePro W5000[243],,,Pitcairn LE GL,,,825,800,768:48:32:12,26.4,39.6,,102.4,,256,1267.2,79.2,,,,,<75,"Two DisplayPort, One DVI-I"
+FirePro W7000[244],,,Pitcairn XT GL,,,950,1200,1280:80:32:20,30.4,76.0,4,153.6,,,2432,152,,,,,<150,Four DisplayPort
+FirePro W8000[245],"June 14, 2012",,Tahiti PRO GL,,,900,1375,1792:112:32:28,28.8,100.8,,176,,,3225.6,806.4,,,,,<225,"ECC RAM, Four DisplayPort + SDI-Link"
+FirePro W9000[246][247],,,Tahiti XT GL,,,975,1375,2048:128:32:32,31.20,124.8,6,264,,384,3993.6,998.4,,,,,274,"ECC RAM, Six mini-DisplayPorts + SDI-Link"

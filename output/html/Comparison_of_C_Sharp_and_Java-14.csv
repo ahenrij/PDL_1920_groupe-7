@@ -1,8 +1,11 @@
-"Preprocessing, Compilation and Packaging",Java,C#
-Namespaces,Packages,Namespaces
-File contents,Restricted,Free
-Packaging,Package,"public/internal visibility on namespace members, which the build system translates to modules and assemblies at the CLR-level"
-Classes/assembly search path,ClassPath,Both compile-time and runtime[82][83]
-Conditional compilation,No; but see Apache Ant[84],Yes
-Custom errors/warnings,Yes; AnnotationProcessor,Yes
-Explicit regions,No,Yes
+Fields and initialization,Java,C#
+Fields,Yes,Yes
+Constants,Yes,Yes; but no support for constant passed parameters[52]
+Static (class) constructors,Yes,Yes
+Instance constructors,Yes,Yes
+Finalizers/destructors,Yes,Yes
+Instance initializers,Yes,No; can be simulated with instance constructor
+Object initialization,Bottom-up (fields and constructors),Top-down (fields); bottom-up (constructors)
+Object initializers,Yes,Yes
+Collection initializers,No; static varargs methods,Yes
+Array initializers,Yes,Yes

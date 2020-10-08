@@ -1,16 +1,20 @@
-Name,Windows,FreeBSD,Linux,Mac OS,NetBSD,OpenBSD
-SafeStick,Yes,No,Yes,Yes,No,No
-SafeStick SuperSonic,Yes,No,Yes,Yes,No,No
-IronKey S100,Yes,No,Yes,Yes,No,No
-IronKey S200,Yes,No,Yes,Yes,No,No
-IronKey D200,Yes,No,Yes,Yes,No,No
-CryptX2,Yes,Yes,Yes,Yes,Yes,Yes
-DataTraveler 5000,Yes,No,No,No,No,No
-DataTraveler Locker+,Yes,No,No,Yes,No,No
-DataTraveler Vault,Yes,No,Public partition only,Public partition only,No,No
-DataTraveler Vault – Privacy Edition,Yes,No,No,Yes,No,No
-JumpDrive SecureII Plus,Yes,Unknown,Unknown,Unknown,Unknown,Unknown
-IronClad,Yes,No,Yes,Yes,No,No
-Cruzer Enterprise,Yes,Unknown,Unknown,Yes,Unknown,Unknown
-Store n' Go Corporate,Yes,Unknown,Unknown,Unknown,Unknown,Unknown
-Name,Windows,FreeBSD,Linux,Mac OS,NetBSD,OpenBSD
+Name,Developer/Manufacturer,Release Year,Current Model?
+datAshur PRO,iStorage Limited,2015,Yes
+datAshur PRO²,iStorage Limited,-,Yes
+diskAshur PRO²,iStorage Limited,2017,Yes
+SafeStick,BlockMaster,2004,Yes
+SafeStick SuperSonic,BlockMaster,2009,Yes
+IronKey S100,IronKey,2005,No
+IronKey S200,IronKey,2009,Yes
+IronKey D200,IronKey,2009,Yes
+CryptX2,CryptX2 / Open Source,2012,Yes
+DataTraveler 5000,Kingston Technology,2010,Yes
+DataTraveler Locker+,Kingston Technology,,Yes
+DataTraveler Vault,Kingston Technology,,Yes
+DataTraveler Vault – Privacy Edition,Kingston Technology,,Yes
+JumpDrive SecureII Plus,Lexar,,Yes
+IronClad,Lockheed Martin,2010,Yes
+Cruzer Enterprise,SanDisk,,Yes
+Store 'n' Go Corporate,Verbatim,,Yes
+Kanguru Defender 2000,Kanguru Solutions,2012,Yes
+Name,Developer/Manufacturer,Release Year,Current Model?

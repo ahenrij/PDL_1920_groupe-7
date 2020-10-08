@@ -1,12 +1,14 @@
-Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
-Mobility Radeon 7000,Feb 2001,M6,RV100,180,AGP 4x,144 167,144 183,0:1:3:1,0.167,0.5,8 16 32,1.464 2.928,SDR DDR,32 64,6,1.3,
-Mobility Radeon 7500,Dec 2001,M7,RV200,150,,280,200,1:2:6:2,0.56,1.68,32 64,3.2 6.4,DDR,64 128,7,,"PowerPlay II, DX7 T&L"
-Mobility Radeon 9000,Aug 2002,M9,RV250,,,250,,1:4:4:4,1.0,1.0,,,,,8.1,1.4,"PowerPlay 3.0, Fullstream"
-Mobility Radeon 9200,Mar 2003,M9+,RV280,,AGP 8x,250/250,200/220,,,,,3.2/3.52 6.4/7.04,,,,,
-Mobility Radeon 9500,2004?,M11,RV360,130,,,,2:4:4:4,,,64,,,,9.0,2.0,
-Mobility Radeon 9550,2005,M12,,,,210,183,,0.84,0.84,,2.928 5.856,,,,,
-Mobility Radeon 9600,Mar 2003,"M10, M11",RV350,,,300,300,,1.2,1.2,64 128,4.8 9.6,,,,,
-Mobility Radeon 9600 Pro,2004,M10,,,,350,350,,1.4,1.4,128,11.2,,128,,,
-Mobility Radeon 9700,Feb 2004,M11,RV360,,,450,275,,1.8,1.8,,8.8,,,,,
-Mobility Radeon 9800,Sep 2004,M18,R420,,,350,300,4:8:8:8,2.8,2.8,256,19.2,,256,,,
+Model[14],Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Processing power (GFLOPS),TDP (Watts),Notes
+,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
+Mobility Radeon HD 3100,"August 1, 2008",RS780MC,RV620,55,PCIe x16 1.1,300,800 (system memory),40:4:4,1.2,1.2,up to 512 from system memory,6.4/12.8,DDR2,64/128,10.1,2.0 (3.3),24,,"UVD, PowerPlay 7.0"
+Mobility Radeon HD 3200,"June 4, 2008",RS780MC,,,,500,800 (system memory),,2,2,,6.4/12.8,,,,,40,,
+Mobility Radeon HD 3410,"July 25, 2008",M82-MPE,,,,400,400,,1.6,1.6,"256, 512",6.4,,64,,,32,,
+Mobility Radeon HD 3430,,M82-SE,,,PCIe x16 2.0,450,400,,1.8,1.8,256,6.4,,,,,36,,
+Mobility Radeon HD 3450,"January 7, 2008",M82,,,,500,400 700,,2,2,,6.4 11.2,DDR2 GDDR3,,,,40,,
+Mobility Radeon HD 3470,,M82-XT,,,,680,400 800,,2.72,2.72,,6.4 12.8,,,,,54.4,,
+Mobility Radeon HD 3650,,M86,RV635,,,500,500 700,120:8:4,2,4,512 1024,16.0 22.4,DDR2 GDDR3 GDDR4,128,,3.3,120,,
+Mobility Radeon HD 3670,,M86-XT,,,,680,800,,2.72,5.44,,25.6,,,,2.0 (3.3),163.2,30,"UVD, PowerPlay 7.0"
+Mobility Radeon HD 3850,"June 4, 2008",M88-L/M88-LP,RV670,,,580,750,320:16:16,9.28,9.28,512,48.0,GDDR3,256,,,371.2,,
+Mobility Radeon HD 3870,,M88-LXT,,,,660,850,,10.56,10.56,,54.4,,,,,422.4,55,
+Mobility Radeon HD 3850 X2,"June 5, 2008",2x M88-L/M88-LP,R680,,,580,750,2x [320:16:16],2x 9.28,2x 9.28,2x 512,2x 48.0,,2x 256,,,2x 371.2,,
+Mobility Radeon HD 3870 X2,"September 1, 2008",2x M88-LXT,,,,660,850,,2x 10.56,2x 10.56,,2x 54.4,,,,,2x 422.4,110,

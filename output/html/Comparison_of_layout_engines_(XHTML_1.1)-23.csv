@@ -1,4 +1,2 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-class,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-id,,,,,,,
-title,,,,,,,
+link,<3.1[IE 3.0] [3],Yes,Yes,Yes,Yes,Yes,Yes

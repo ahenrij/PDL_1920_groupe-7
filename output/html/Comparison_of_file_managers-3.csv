@@ -1,29 +1,34 @@
-File manager,DOS,OS/2 & eCS,Windows,Mac OS X,Linux,BSD,Unix,AmigaOS,OpenVMS
-Directory Opus,No,No,Yes,No,No,No,No,Yes[23],No
-Dired,Yes[24],Yes[25],Yes[26],Yes[27],Yes,Yes,Yes,Yes[28],Yes[29]
-Dolphin,No,No,Needs KDE[30],Yes[31],Yes,Yes,Yes,No,No
-Double Commander,No,No,Yes,Yes,Yes,Yes,Yes,No,No
-DOS Navigator,Yes,Yes,Yes,No,No,No,No,No,No
-emelFM2,No,No,No,No,Yes,Yes,Yes,No,No
-File Commander,No,Yes,Yes,No,Yes,Yes,Yes,No,No
-fman,No,No,Yes,Yes,Yes,No,No,No,No
-GNOME Commander,No,No,No,Yes,Yes,Yes,Yes,No,No
-Konqueror,No,No,Needs KDE[30],Yes[31],Yes,Yes,Yes,No,No
-Krusader,No,No,No,Needs X,Yes,Yes,Yes,No,No
-Midnight Commander,Yes,No,Yes[32],Yes[33],Yes,Yes,Yes,Yes,No
-muCommander,No,No,Yes,Yes,Yes,Yes,Yes,?,Yes
-nnn,No,No,No,Yes,Yes,Yes,Yes,No,No
-GNOME Files (Nautilus),No,No,No,No,Yes,Yes,Yes,No,No
-Nemo,No,No,No,No,Yes,Yes,Yes,No,No
-PathMinder,Yes,No,Yes,No,No,No,No,No,No
-PCManFM,No,Needs POSIX-compliant platform,Needs POSIX-compliant platform,Needs POSIX-compliant platform,Yes,Yes,Yes,No,Yes
-Ranger,No,No,No,Yes,Yes,Yes,Yes,No,No
-ROX-Filer,No,No,,,Yes,Yes,Yes,No,No
-Thunar,No,No,No,No,Yes,Yes,Yes,No,No
-Total Commander,No,No,Yes,No,Yes,No,No,No,No
-Volkov Commander,Yes,Yes,Yes,No,No,No,No,No,No
-Xandros File Manager,No,No,No,No,Yes,?,?,No,No
-Xfe,No,Needs X,Needs X,Needs X,Yes,Yes,Yes,Needs X[34],Yes
-Xfm,No,Needs X,Needs X,Needs X,Yes,Yes,Yes,No,Yes
-ZTreeWin,No,Yes,Yes,No,No,No,No,No,No
-File manager,DOS,OS/2 & eCS,Windows,Mac OS X,Linux,BSD,Unix,AmigaOS,OpenVMS
+File manager,File Name [D 1],File Contents [D 2],Basic metadata search [D 3],All metadata search [D 4],RegExp for Contents,Boolean (nesting levels),Fuzzy logic [D 5],Save searches [D 6],Refined searches [D 7]
+Altap Salamander,Yes,?,Yes,?,Yes[s 1],Yes,?,Yes,Yes
+Commander One,Yes,Yes,Yes[s 2],Yes[s 2],Yes,Yes,?,No,No
+CRAX Commander,Yes,Yes,Yes[s 2],?,Yes,Yes,?,No,No
+Directory Opus,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Dired,Yes,?,No,No,Yes,Yes,Yes,No,No
+Documents by Readdle,,,,,,,,,
+Dolphin,Yes,?,Yes,Yes,Yes,Yes,?,?,Yes
+Double Commander,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?
+emelFM2,Yes,?,Yes,Yes,?,?,?,Partial,?
+FAR Manager,Yes,?,Yes,Yes,Yes[s 3],Yes[s 3],Yes[s 3],Yes,Yes
+File Commander,Yes,No,Yes,No,No,Yes,No,Yes,No
+Files (Apple),,,,,,,,,
+Files by Google,,,,,,,,,
+Finder,Yes,?,Yes,Yes,No,?,?,Yes,?
+ForkLift,Yes,Partial,Yes,Yes,Yes,Yes,?,No,No
+Konqueror,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+Krusader,Yes,?,Yes,Yes,Yes[79],No,No,Yes,Yes
+GNOME Files (Nautilus),Yes,?,Partial [s 4],Partial [s 4],?,?,?,Yes,?
+Nemo,?,?,?,?,?,?,?,?,?
+Nomad.NET,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+Path Finder,Yes,?,Yes,Yes,No,No,?,No,No
+PCManFM,Yes,?,Yes,No,Yes,No,No,No,No
+ROX-Filer,Yes,?,Yes,Yes,Yes,Yes,?,No,?
+Total Commander,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Partial [s 5]
+Windows Explorer,Yes,No,Yes,No,No,?,?,Yes,Yes
+Xandros File Manager,?,?,?,?,?,?,?,?,?
+Xfe,Yes,Yes[s 6],Yes,No,No,No,No,No,No
+Xfile,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes
+Xfm,?,?,?,?,?,?,?,?,?
+xplorer²,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+XYplorer,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[s 7]
+ZTreeWin,Yes,Yes,Yes,Partial,Partial [s 8],Yes,Yes,Yes,Yes
+File manager,File Name [D 1],File Contents [D 2],Basic metadata search [D 3],All metadata search [D 4],RegExp for Contents,Boolean (nesting levels),Fuzzy logic [D 5],Save searches [D 6],Refined searches [D 7]

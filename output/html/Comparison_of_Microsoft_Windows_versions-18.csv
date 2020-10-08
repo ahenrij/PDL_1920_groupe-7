@@ -1,6 +1,7 @@
-Version,CPU,RAM,,Free disk space,Video adapter and monitor
-,,Minimum,Recommended,,
-Windows Phone 7,0.8 GHz,256 MB,N/A,4 GB,WVGA (800 × 480)
-Windows Phone 8,1 GHz,512 MB,N/A,8 GB,WVGA (800 × 480)
-Windows Phone 8.1,1 GHz,512 MB,N/A,4 GB,WVGA (800 × 480)
-Windows 10 Mobile,1 GHz,1 GB,2 GB,8 GB,WVGA (800 × 480)
+Name,Release date,RTM build,Current version,Status support,Codename,Based on (kernel),Supported architectures
+Windows Phone 7,2010-11-08,7004,7.10.8862,End of life,Photon,CE 6.0,ARM
+Windows Phone 7.5,2011-09-27,7720,,End of life,Mango,CE 6.1,ARM
+Windows Phone 7.8,2013-02-01,8858,,End of life,,CE 6.1,ARM
+Windows Phone 8,2012-10-29,10211,10.0.10586,End of life,"Apollo, Portico",NT 6.2,ARM[citation needed]
+Windows Phone 8.1,2014-04-14,12359,,End of life,Blue,NT 6.3,ARM
+Windows 10 Mobile,2015-11-08,10586,,End of life,Threshold,NT 10.0,ARM

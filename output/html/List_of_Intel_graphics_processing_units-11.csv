@@ -1,26 +1,18 @@
-Name,Year released,Market,Processor,,Device ID,Execution units,Core clock (MHz),Memory,,API support,,Intel Clear Video HD
-,,,Code name,Model,,,,DVMT (MB),Bandwidth (GB/s),Direct3D,OpenGL,
-HD Graphics,2010,Desktop,Ironlake (Clarkdale),Celeron G1101,0042,12,533,1720,17,10.1 FL10_0,2.1 ES 2.0Linux,No
-,,,,,,,,,,,,
-,,,,Core i3-5x0,,,733,,21.3,,,Yes
-,,,,Core i5-6x0,,,,,,,,
-,,,,Core i5-655K,,,,,,,,
-,,,,Core i5-661,,,900,,,,,
-,,Laptop,Ironlake (Arrandale),Celeron U3xxx,0046,,166–500,,12.8,,,No
-,,,,Pentium U5xxx,,,,,,,,
-,,,,Core i3-3x0UM,,,,,,,,Yes
-,,,,Core i5-5x0UM,,,,,,,,
-,,,,Core i5-2520M,,,,,,,,
-,,,,Core i7-6x0UE,,,,,,,,
-,,,,Core i7-6x0UM,,,,,,,,
-,,,,Core i7-620LE,,,266–566,,17.1,,,
-,,,,Core i7-6x0LM,,,,,,,,
-,,,,Celeron P4xxx,,,500–667,,,,,No
-,,,,Pentium P6xxx,,,,,,,,
-,,,,Core i3-330E,,,,,,,,Yes
-,,,,Core i3-3x0M,,,,,,,,
-,,,,Core i5-4x0M,,,500–766,,,,,
-,,,,Core i5-520E,,,,,,,,
-,,,,Core i5-5x0M,,,,,,,,
-,,,,Core i7-610E,,,,,,,,
-,,,,Core i7-6x0M,,,,,,,,
+Graphics,Launch,PowerVR core,Market,Chipset,Code name,Device id.,Core render clock (MHz),Pixel pipelines,Shader model (vertex/pixel),API support,,,Memory bandwidth (GB/s),DVMT (MB),Hardware acceleration,,
+,,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2,VC-1,AVC
+GMA 500,2008,SGX535,CE,CE3100,Canmore,2E5B,?,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+,2009,,,Atom CE4100,Sodaville,,,,,,,,,,,,
+,,,,Atom CE4110,,,200,,,,,,,,,,
+,,,,Atom CE4130,,,,,,,,,,,,,
+,,,,Atom CE4150,,,400,,,,,,,,,,
+,,,,Atom CE4170,,,,,,,,,,,,,
+,2010,,,Atom CE4200,Groveland,,?,,,,,,,,,,
+,2008,,MID,UL11L,Poulsbo (Menlow),8108 8109,100,,,,,,,,,,
+,,,,US15L,,,200,,,,,,,,,,
+,,,,US15W,,,,,,,,,,,,,
+GMA 600,2010,,MID,Atom Z6xx,Lincroft (Moorestown),4102,400[91],2,3.0,9.0c,2.0,—,6.4,759,Full,Full,Full
+GMA,2012,SGX540,Smartphone,Atom Z24xx,Penwell (Medfield),?,400[92],4,—,—,ES 2.0,—,6.4,1024,Full,Full,Full
+GMA 3600,2011,SGX545,Nettop Netbook,Atom D2500 Atom N2600,Cedarview (Cedar Trail),0BE0 0BE1 0BE2 0BE3,400[93],4,3.0,9.0c,3.0,—,8.5 6.4,1024[94],Full,Full,Full
+GMA 3650,,,,Atom D2700 Atom N2800,,,640[93],,,,,,8.5,,,,
+GMA,2012,,Tablet,Atom Z2760,Cloverview (Clover Trail),08C7 08C8 08C9 08CA 08CB 08CC 08CD 08CE 08CF,533,4,3.0,9.0c,2.0,—,6.4,2048,Full,Full,Full
+GMA,2012,SGX544 MP2,Tablet,Atom Z2520 Atom Z2560 Atom Z2580,Cloverview (Clover Trail+),?,300Mhz 400 MHz 533 MHz,?,?,9.0 L3,"2.0ES, 2.0?",1.1,?,?,Full,Full,Full

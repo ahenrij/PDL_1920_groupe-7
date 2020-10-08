@@ -1,10 +1,8 @@
-Java,C#
-"// Is valid, as numbers is an object of type short[]
- short[] numbers = new short[100];
-
- // Is valid, but it isn't clear code
- double values[] = new double[100];","// Is valid, as numbers is an object of type short[]
- short[] numbers = new short[100];
-
- // Won't compile!
- double values[] = new double[100];"
+Metadata,Java,C#
+Metadata annotations/attributes,Interface based; user-defined annotations can be created[81],Class based
+Positional arguments,,
+Named arguments,,
+Default values,At definition,Through initialization
+Nested types,,
+Specialization,,
+Conditional metadata,,

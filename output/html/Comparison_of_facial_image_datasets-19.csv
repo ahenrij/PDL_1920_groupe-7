@@ -1,9 +1,10 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Amazon reviews,US product reviews from Amazon.com.,None.,~ 82M,Text,"Classification, sentiment analysis",2015,[155],McAuley et al.
-OpinRank Review Dataset,Reviews of cars and hotels from Edmunds.com and TripAdvisor respectively.,None.,"42,230 / ~259,000 respectively",Text,"Sentiment analysis, clustering",2011,[156][157],K. Ganesan et al.
-MovieLens,"22,000,000 ratings and 580,000 tags applied to 33,000 movies by 240,000 users.",None.,~ 22M,Text,"Regression, clustering, classification",2016,[158],GroupLens Research
-Yahoo! Music User Ratings of Musical Artists,Over 10M ratings of artists by Yahoo users.,None described.,~ 10M,Text,"Clustering, regression",2004,[159][160],Yahoo!
-Car Evaluation Data Set,Car properties and their overall acceptability.,Six categorical features given.,1728,Text,Classification,1997,[161][162],M. Bohanec
-YouTube Comedy Slam Preference Dataset,User vote data for pairs of videos shown on YouTube. Users voted on funnier videos.,Video metadata given.,"1,138,562",Text,Classification,2012,[163][164],Google
-Skytrax User Reviews Dataset,"User reviews of airlines, airports, seats, and lounges from Skytrax.",Ratings are fine-grain and include many aspects of airport experience.,41396,Text,"Classification, regression",2015,[165],Q. Nguyen
-Teaching Assistant Evaluation Dataset,Teaching assistant reviews.,"Features of each instance such as class, class size, and instructor are given.",151,Text,Classification,1997,[166][167],W. Loh et al.
+Zero Resource Speech Challenge 2015,"Spontaneous speech (English), Read speech (Xitsonga).",raw wav,"English: 5h, 12 speakers; Xitsonga: 2h30; 24 speakers",sound,Unsupervised discovery of speech features/subword units/word units,2015,[244][245],Versteegh et al.
+Parkinson Speech Dataset,Multiple recordings of people with and without Parkinson's Disease.,"Voice features extracted, disease scored by physician using unified Parkinson's disease rating scale","1,040",Text,"Classification, regression",2013,[246][247],B. E. Sakar et al.
+Spoken Arabic Digits,Spoken Arabic digits from 44 male and 44 female.,Time-series of mel-frequency cepstrum coefficients.,"8,800",Text,Classification,2010,[248][249],M. Bedda et al.
+ISOLET Dataset,Spoken letter names.,Features extracted from sounds.,7797,Text,Classification,1994,[250][251],R. Cole et al.
+Japanese Vowels Dataset,Nine male speakers uttered two Japanese vowels successively.,Applied 12-degree linear prediction analysis to it to obtain a discrete-time series with 12 cepstrum coefficients.,640,Text,Classification,1999,[252][253],M. Kudo et al.
+Parkinson's Telemonitoring Dataset,Multiple recordings of people with and without Parkinson's Disease.,Sound features extracted.,5875,Text,Classification,2009,[254][255],A. Tsanas et al.
+TIMIT,"Recordings of 630 speakers of eight major dialects of American English, each reading ten phonetically rich sentences.",Speech is lexically and phonemically transcribed.,6300,Text,"Speech recognition, classification.",1986,[256][257],J. Garofolo et al.
+Arabic Speech Corpus,"A single-speaker, Modern Standard Arabic (MSA) speech corpus with phonetic and orthographic transcripts aligned to phoneme level",Speech is orthographically and phonetically transcribed with stress marks.,~1900,"Text, WAV","Speech Synthesis, Speech Recognition, Corpus Alignment, Speech Therapy, Education.",2016,[258],N. Halabi
+Common Voice,A public domain database of crowdsourced data across a wide range of dialects.,Validation by other users,"English: 1,118 hours",MP3 with corresponding text files,Speech recognition,June 2017 (December 2019),[259],Mozilla

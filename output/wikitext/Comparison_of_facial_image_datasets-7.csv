@@ -1,7 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Cloud DataSet,Data about 1024 different clouds.,Image features extracted.,1024,Text,"Classification, clustering",1989,[427],P. Collard
-El Nino Dataset,Oceanographic and surface meteorological readings taken from a series of buoys positioned throughout the equatorial Pacific.,12 weather attributes are measured at each buoy.,178080,Text,Regression,1999,[428],Pacific Marine Environmental Laboratory
-Greenhouse Gas Observing Network Dataset,Time-series of greenhouse gas concentrations at 2921 grid cells in California created using simulations of the weather.,None.,2921,Text,Regression,2015,[429],D. Lucas
-Atmospheric CO2 from Continuous Air Samples at Mauna Loa Observatory,"Continuous air samples in Hawaii, USA. 44 years of records.",None.,44 years,Text,Regression,2001,[430],Mauna Loa Observatory
-Ionosphere Dataset,Radar data from the ionosphere. Task is to classify into good and bad radar returns.,Many radar features given.,351,Text,Classification,1989,[370][431],Johns Hopkins University
-Ozone Level Detection Dataset,Two ground ozone level datasets.,"Many features given, including weather conditions at time of measurement.",2536,Text,Classification,2008,[432][433],K. Zhang et al.
+Adult Dataset,Census data from 1994 containing demographic features of adults and their income.,Cleaned and anonymized.,"48,842",Comma separated values,Classification,1996,[438],United States Census Bureau
+Census-Income (KDD),Weighted census data from the 1994 and 1995 Current Population Surveys.,Split into training and test sets.,"299,285",Comma separated values,Classification,2000,[439][440],United States Census Bureau
+IPUMS Census Database,Census data from the Los Angeles and Long Beach areas.,None,"256,932",Text,"Classification, regression",1999,[441],IPUMS
+US Census Data 1990,Partial data from 1990 US census.,Results randomized and useful attributes selected.,"2,458,285",Text,"Classification, regression",1990,[442],United States Census Bureau

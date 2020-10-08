@@ -1,11 +1,8 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
-Quadro FX 350,G72GL,90,PCIe ×16,550,550,810,3:4:4:2,1.1,1.1,128,6.48,DDR2,64,,,9.0c,2.1,21,
-Quadro FX 550,NV43GL,,,360,360,800,4:8:8:8,2.88,2.88,,12.8,GDDR3,128,,25,,,,
-Quadro FX 1500,G71,,,375,375,,7:20:20:16,6,7.5,256,40.0,,256,,65,,,,
-Quadro FX 3500,G71GL,,,470,470,1320,7:20:20:16,7.52,9.4,,42.2,,,,80,,,"Stereo display, SLI",
-Quadro FX 4500,G70,110,,,,1050,8:24:24:16,,11.28,512,33.6,,,,109,,,,
-Quadro FX 4500X2,,,,,,,2× 8:24:24:16,15.04,22.56,1024,,,,,145,,,"Stereo display, Genlock",
-Quadro FX 4500 SDI,,,,,,,8:24:24:16,7.52,11.28,512,,,,,116,,,,
-Quadro FX 5500,G71,90,,700,700,,,11.2,16.8,1024,,,,,96,,,"Stereo display, SLI, Genlock",
-Quadro FX 5500 SDI,,,,,,,,,,,,,,,104,,,,
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
+Quadro2 Go[215],NV11GLM?,,AGP 4×,143,,130 360,2:0:4:2,0.286,0.592,32 64,2.9 5.8,SDR DDR,128,,7.0,1.2,,"First mobile Quadro based on the GeForce2 Go, Dynamic core clock 100–143 MHz, dynamic voltage 1.575V, graphics core listed as 64-bit and 128-bit for DDR and SDR SDRAM types respectively according to Nvidia[216][217]"
+Quadro4 500 Go GL[218][219],NV17 GLM,150,"AGP 4×,8×",?,,?,2:0:4:2,0.44,0.88,64,7.0,DDR,,,7.0,1.3,,"Based on the GeForce4 Go, dynamic core clock 66–220 MHz, core voltage 1.35 V, uses DDR SDRAM according to Nvidia brochures[217]"
+Quadro4 700 Go GL[218][220][221],NV28 GLM,150,,176,,200,4:2:4:4,0.704,0.704,,7.4?,,128?,,8.1,,,"Based on GeForce4 Go 4200, uses DDR according to Nvidia brochures"
+Quadro FX Go 700[222],NV31 GLM,130,AGP 8×,295?,,590?,4:3:4:4,1.18,1.18,128,9.44?,,128,,9.0,2.1?,,Based on the Geforce FX Go (FX 56XX)
+Quadro FX Go 1000[223],NV36 GLM,120,,,,570?,,,,,9.12?,,,,,,,Seems to be an overclocked Quadro FX 700 Go.
+Quadro FX Go 1400[223],NV41 GLM,130,PCIe,275,,590,12:5:12:12?,2.20,2.2,256,18.9?,,256,,,,,"Last chip designated as a Quadro FX Go, uses PCIe instead of AGP 8×. Core config has been mentioned as either 8:5:8:8 or 12:5:12:12 - the latter is likely since chip is derived from GeForce Go 6800."

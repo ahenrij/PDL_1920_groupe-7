@@ -1,30 +1,30 @@
-Software,ArXiv,CiteSeer,IEEE Xplore,PubMed,Unpaywall[41],Other
-Bebop,No,No,No,No,No,No
-BibBase,No,No,No,No,No,"DBLP, Zotero, BibSonomy, Mendeley"
-BibDesk,Yes,Yes,No,Yes,No,"ACM portal, Jstor, DBLP, Google Scholar, Web of Science, any Z39.50 or Entrez, and others"
-Biblioscape,No,No,No,Yes,No,Import from integrated web browser
-BibSonomy,Yes,Yes,Yes,Yes,No,various[42]
-Bibus,No,No,No,Yes,No,none
-Bookends,Yes,No,No,Yes,No,"Web of Science, Amazon, Google Scholar, Z39.50"
-Citavi,Yes,Yes,Yes,Yes,No,"WorldCat/OCLC, Ovid, EBSCO, ProQuest, Web of Science, Z39.50 (4500+ online resources), SRU. Further catalogs are added upon request. Browser plugins (Firefox, Chrome, Internet Explorer) support DOI lookup, ISBN lookup, PubMed ID lookup, PMCID lookup, arXiv ID lookup, COinS and import from Wikipedia."
-CiteULike,Yes,Yes,Yes,Yes,No,various [4]
-colwiz,Yes,Yes,Yes,Yes,No,"Over 30 repositories, Import from integrated web browser"
-EndNote,Yes,No,Yes,Yes,No,various[43] any Z39.50
-JabRef,Yes,Yes,Yes,Yes,Yes[44],"ACM Portal, CrossRef, DBLP, DOAJ, DOI, GVK, Google Scholar, INSPIRE-HEP, Medline, MathSciNet, SAO/NASA Astrophysics Data System, Springer, and zbMATH"
-KBibTeX,Yes,Yes,Yes,Yes,No,"BibSonomy, CiteBase, CSB, DBLP, Google Scholar, ScienceDirect, INSPIRE-HEP, Z MATH, Z39.50"
-Mendeley,Yes,Yes,Yes,Yes,No,various [5]
-Paperpile,Yes,No,No,Yes,No,Google Scholar
-Pybliographer,No,No,No,Yes,No,none
-Qiqqa,Yes,No,Yes,Yes,No,"GoogleScholar, JSTOR"
-ReadCube (now Papers),Yes,No,Yes,Yes,No,"Microsoft Academic, Google Scholar"
-refbase,Yes,No,No,Yes,No,DOI lookup
-RefDB,Yes,No,No,Yes,No,any Z39.50
-Reference Manager,No,No,No,Yes,No,various[45]
-Referencer,?,?,?,?,No,?
-RefME,?,?,?,?,?,?
-RefWorks,No,No,No,Yes,No,various
-SciRef,No,No,No,No,No,No
-Sente,Yes,Yes,Yes,Yes,No,"Z39.50, SRU, Web of Knowledge"
-Wikindx,No,No,No,Yes,No,via plug-ins
-WizFolio,Yes,No,Yes,Yes,No,various[46]
-Zotero,Yes,Yes,Yes,Yes,Yes[47],various[48]
+Software,BibTeX,Copac,CSA,Endnote/Refer/BibIX,ISI,Medline,MODS XML,Ovid,PubMed,RIS,SciFinder,Other
+Bebop,Yes,No,No,No,No,No,No,No,No,No,No,none
+BibBase,Yes,No,No,No,No,No,No,No,No,No,No,none
+BibDesk,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,"MARC, JSTOR, Reference Miner"
+Biblioscape,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,?
+BibSonomy,Yes,No,No,Yes,No,No,No,No,No,No,No,Firefox bookmarks
+Bibus,Yes,No,No,Yes,Yes,Yes,No,No,No,Yes,No,none
+Bookends,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,various [3]; user-customizable
+Citavi,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,various
+CiteULike,Yes,No,No,No,No,No,No,No,No,Yes,No,none
+colwiz,Yes,No,No,Yes,Yes,Yes,No,No,Yes,Yes,No,"with built-in browser, bookmarklet"
+EndNote,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,various[19]
+JabRef,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"BibTexML, Biblioscape, Biomail, Inspec, JSTOR, MSBib, PDF widh XMP annotations, REPEC (NEP), SilverPlatter, SixPack"
+KBibTeX,Yes,No,No,Yes,No,No,Depends[17],No,Yes,Yes,No,none
+Mendeley,Yes,No,No,Yes,No,No,No,No,No,Yes,No,Browser bookmarks
+Paperpile,Yes,No,No,No,No,No,No,No,No,Yes,No,PDF
+Pybliographer,Yes,No,No,Yes,Yes,Yes,No,Yes,No,No,No,none
+Qiqqa,Yes,No,No,Yes,No,No,No,No,Yes,No,No,none
+ReadCube (now Papers),Yes,No,No,Yes,No,No,No,No,Yes,Yes,No,PDF
+refbase,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,RefWorks
+RefDB,Yes,Yes[17],No,Yes[17],Yes[17],Yes,Yes,No,Yes,Yes,Yes[17],"MARC, risx"
+Reference Manager,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,various;[20] user-customizable
+Referencer,Yes,No,No,Yes,No,No,Yes,No,No,Yes,No,none
+RefME,?,?,?,?,?,?,?,?,?,?,?,?
+RefWorks,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,various[21]
+SciRef,No,No,No,Yes,No,No,No,No,No,Yes,No,?
+Sente,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,"Dublin Core, Marc21 SUTRS, JSTOR, SilverPlatter"
+Wikindx,Yes,Depends[17],No,Yes[citation needed],Depends[17],No,Depends[17],No,Yes[citation needed],Yes[citation needed],No,"ISI, BibReX LaTeX"
+WizFolio,No,No,No,No,No,No,No,No,No,Yes,No,Internet Browser bookmarks[22]
+Zotero[23],Yes,No[24],No[24],Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,"COinS, MARC, RDF, unAPI, Browser bookmarks, Endnote XML"

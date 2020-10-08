@@ -1,5 +1,3 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Concrete Compressive Strength Dataset,Dataset of concrete properties and compressive strength.,Nine features are given for each sample.,1030,Text,Regression,2007,[343][344],I. Yeh
-Concrete Slump Test Dataset,Concrete slump flow given in terms of properties.,"Features of concrete given such as fly ash, water, etc.",103,Text,Regression,2009,[345][346],I. Yeh
-Musk Dataset,"Predict if a molecule, given the features, will be a musk or a non-musk.",168 features given for each molecule.,6598,Text,Classification,1994,[347],Arris Pharmaceutical Corp.
-Steel Plates Faults Dataset,Steel plates of 7 different types.,27 features given for each sample.,1941,Text,Classification,2010,[348],Semeion Research Center
+Numenta Anomaly Benchmark (NAB),"Data are ordered, timestamped, single-valued metrics. All data files contain anomalies, unless otherwise noted.",None,50+ files,Comma separated values,Anomaly detection,2016 (continually updated),[414],Numenta
+"On the Evaluation of Unsupervised Outlier Detection: Measures, Datasets, and an Empirical Study","Most data files are adapted from UCI Machine Learning Repository data, some are collected from the literature.","treated for missing values, numerical attributes only, different percentages of anomalies, labels",1000+ files,ARFF,Anomaly detection,2016 (possibly updated with new datasets and/or results),[415],Campos et al.

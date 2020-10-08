@@ -1,25 +1,27 @@
-Name,H.264,ASF,WMV,DivX / Xvid,MPEG-4,AVI,QuickTime,Other formats
-Archos 105,,,,,,,,
-Archos 405,,,,,,,,
-Archos 5,,,,,,,,"
-Archos 605 WiFi / GPS,,,,,,,,
-Archos 705 WiFi,,,,,,,,
-Cowon A3,,,,,,,,"MKV, MTV, OGM, VOB, DAT, AMV, MJPEG, MPEG-1"
-Cowon D2,,,,,,,,
-Cowon Q5W,,,,,,,,OGM
-Gigabeat T-Series,,,,,,,,
-GP2X F-200,,,,,,,,
-iPod (before Nano 6G; iPod 6G does),,,,,,,,
-iriver clix 2G,,,,,,,,
-PSP Slim & Lite,,,,,,,,MJPEG
-Rio PMP300,,,,,,,,
-Samsung Galaxy Player,,,,,,,,MKV
-Samsung T10,,,,.svi only,,,,
-Samsung P2,,,,.svi only,,,,
-Sansa Fuze,,,,,,,,
-Sansa Fuze+,,,,,,,,MPEG-4 Part 14
-Walkman NWZ-A810 series,,,,,,,,
-ZEN,,,,,,,,MJPEG
-ZEN Vision W,,,,,,,,MJPEG
-Zune,,,,,,,,
-ZVUE 260,,,,Xvid only,,,,
+Name,FM radio,Microphone,Line-in recording,DVR recording,Playback while charging,USB host,HDMI out
+Archos 105,,,,,,,
+Archos 405,,,,,,,
+Archos 5,,,,,,,
+Archos 605 WiFi / GPS,,,,,,,
+Archos 705 WiFi,,,,,,,
+Cowon A3,,,,,,,
+Cowon D2,,,,,,,
+Cowon Q5W,,,,,,,
+Gigabeat T-Series,,,,,,,
+GP2X F-200,,,,,,,
+iPod,,,,,,,
+iriver clix 2G,,,,,,,
+PSP 1000 Series,,,,,,,
+PSP Slim & Lite 2000 Series,,,,,,,
+PSP Slim & Lite 3000 Series,,,,,,,
+Samsung Galaxy Player,,,,,,,
+Samsung T10,,,,,,,
+Samsung P2,,,,,,,
+Sansa Fuze,,,,,,,
+Sansa Fuze+,with pause and record,,,,,,
+Sansa View,,,,,,,
+Walkman NWZ-A810 series,,,,,,,
+ZEN,,,,,,,
+ZEN Vision W,,,,,,,
+Zune,,,,,,,"
+Zvue 260,,,,,,,

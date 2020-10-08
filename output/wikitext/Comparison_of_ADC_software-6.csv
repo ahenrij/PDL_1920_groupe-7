@@ -1,15 +1,11 @@
-ADC hub,GUI,CLI,Other,Programming language,Based on
-ADCH++,,,,"C++, Lua, Python, Ruby",
-ADCH++ GUI,,,,"C++, Python",ADCH++
-DSHub,,,,"Java, Python",
-FlexHub,Planned,,,Lua,
-Luadch,,,,"C++, Lua",
-Luadch GUI,,,,wxLua,
-Nexthub,,,,C-Sharp,
-uhub,,,,C,
-Erlhub,,,,Erlang,
-Qhub,,,,,
-Starlet ADC Hub,,,,C,
-StarHub,,,,Java,
-RusHub,,,,C++,
+Other software,GUI,CLI,Other,Programming language,Based on
+ADCCore,,,,C#,CoreDC
+DCBouncer,,,,C++,
+DC-Hublink,,,,Visual Basic,
+DCWatch,,,,"Java, Lua",Embla
+Embla,,,,Java,
+FlowLib,,,,C#,
+NetChatLink,,,,Object Pascal (Delphi),
+Announcer Bot,,,,Lua,
+Certmanager,,,,wxLua,
 ADC hub,GUI,CLI,Other,Programming language,Based on

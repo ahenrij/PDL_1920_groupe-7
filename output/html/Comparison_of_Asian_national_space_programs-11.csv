@@ -1,4 +1,6 @@
-Country,Spacecraft,Power,Thrust,Specific impulse,Year launched
-South Korea,DubaiSat-2,0.3 kW,7 mN,1000s,2013
-China,"Shijian 17 (HEP-100MF, magnetic focusing hall thruster)",1.4 kW,,1850s,2016
-,Shijian 17 (LHT-100),1.35 kW,80 mN,1600s,
+Country,Program,,First successful human spaceflight,,Status
+,Name,Period,Year,Spacecraft,
+China,Project 714,1968-72,N/A,Shuguang-1,Cancelled
+,Project 873,1978-80,N/A,Piloted FSW satellite,Cancelled
+,Project 921/Shenzhou,1992-present,2003,Shenzhou 5,Ongoing
+India,Indian Human Spaceflight Programme,2007-present,2021 (Planned) Before August 2022 (Scheduled),Gaganyaan,Ongoing

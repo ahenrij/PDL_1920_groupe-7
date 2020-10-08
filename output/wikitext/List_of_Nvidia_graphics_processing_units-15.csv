@@ -1,10 +1,9 @@
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS),TBP (Watts),Notes
-,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
-GeForce G 102M,"January 8, 2009",MCP79XT,65,Integrated (PCIe 1.0 ×16),16:8:4,450?,1000,800 (system memory),1.8,3.6,Up to 512 from system memory,6.4,DDR2,64,10.0,3.3,48,14,"PureVideo HD, CUDA, Hybrid SLI, based on GeForce 9400M G"
-GeForce G 103M,"January 1, 2009",N10M-GE2(G98),,PCIe 2.0 ×16,8:8:4,640,1600,1000,2.56,5.12,512,8,,,,,38,,"PureVideo HD, CUDA, Hybrid SLI, comparable to the GeForce 9300M GS"
-GeForce G 105M,"January 8, 2009",N10M-GE1(G98),,,,,,1000 1400,,,,8 11,GDDR2 GDDR3,,,,38,,
-GeForce G 110M,,N10M-GE1(G96b),55,,16:8:4,400,1000,1000 1400,1.6,3.2,1024,8 11,DDR2 GDDR3,,,,48,,"PureVideo HD, CUDA, Hybrid SLI"
-GeForce GT 120M,"February 11, 2009",N10P-GV1(G96b),,,32:16:8,500,1250,1000,4,8,,16,DDR2,128,,,110,23,"PureVideo HD, CUDA, Hybrid SLI, Comparable to the 9500M GT and 9600M GT DDR2 (500/1250/400)"
-GeForce GT 130M,"January 8, 2009",N10P-GE1(G96b),,,,600,1500,1000 1600,4.8,9.6,,16 25.6,DDR2 GDDR3,,,,144,,"PureVideo HD, CUDA, Hybrid SLI, comparable to the 9650M GT"
-GeForce GTS 150M,"March 3, 2009",N10E-GE1(G94b),,,64:32:16,400,1000,1600,6.4,12.8,,51.2,GDDR3,256,,,192,,"PureVideo HD, CUDA, Hybrid SLI"
-GeForce GTS 160M,,N10E-GS1(G94b),,,,600,1500,,9.6,19.2,,,,,,,288,60,
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,Supported API version,,,Nvidia Optimus technology,TBP (Watts)
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,,
+Quadro M500M,GM108,28,PCIe 3.0 ×16,1029,1124,900 (1800),384:24:8 (3 SMM),8.992,17.98,2048,14.40,DDR3,64,863.2,26.98,12.1,4.5,1.0,Yes,25
+Quadro M600M,GM107,,,837,876,1253 (5012),384:24:16 (3 SMM),7.008,14.02,,80.2,GDDR5,128,672.8,21.02,,,,,30
+Quadro M1000M,,,,993,,,512:32:16 (4 SMM),15.89,31.78,,,,,1017,31.78,,,,,40
+Quadro M2000M,,,,1029,1098,,640:40:16 (5 SMM),17.57,43.92,4096,,,,1405,43.92,,,,,55
+Quadro M3000M,GM204,,,1050,,,1024:64:32 (8 SMM),33.60,67.20,,160.4,,256,2150,67.20,,,,,75
+Quadro M4000M,,,,975,,,1280:80:48 (10 SMM),62.40,78.00,,,,,2496,78.00,,,,,100
+Quadro M5000M,,,,962,,,1536:96:64 (12 SMM),62.40,93.60,8192,,,,2955.3,93.60,,,,,

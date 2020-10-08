@@ -1,22 +1,24 @@
-Model (Codename),Launch,Architecture Fab,Transistors Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory[e],,,,TDP (Watts),,Bus interface,Release Price (USD)
-,,,,Config[f],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Size (MB),Clock (MHz),Bus type & width (bit),Bandwidth (GB/s),Idle,Max.,,
-Radeon HD 7350 (Cedar),January 2012,TeraScale 2 40 nm,292×106 59 mm2,80:8:4,400 650,3.2 5.2,1.6 2.6,104,N/A,256 512,400 800 900,DDR2 DDR3 64-bit,6.4 12.8,6.4,19.1,PCIe 2.1 ×16,OEM
-Radeon HD 7450 (Caicos),January 2012,,370×106 67 mm2,160:8:4,625 750,5.0 6.0,2.5 3.0,200 240,N/A,512 1024,533 800,DDR3 64-bit,8.5 12.8,9,18,PCIe 2.1 ×16,OEM
-Radeon HD 7470 (Caicos),January 2012,,,160:8:4,625 775,5.0 6.2,2.5 3.1,200 248,N/A,512 1024,800 900,DDR3 GDDR5 64-bit,12.8 14.4,9,27,PCIe 2.1 ×16,OEM
-Radeon HD 7510 (Turks LE),February 2013,,716×106 118 mm2,320:16:4,650,10.4,2.6,416,N/A,1024,667,DDR3 128-bit,21.3,Unknown,Unknown,PCIe 2.1 ×16,OEM
-Radeon HD 7570 (Turks Pro-L),January 2012,,,480:24:8,650,15.6,5.2,624,N/A,512 1024,900 1000,DDR3 GDDR5 128-bit,28.8 64,10 11,44 60,PCIe 2.1 ×16,OEM
-Radeon HD 7670 (Turks XT),January 2012,,,480:24:8,800,19.2,6.4,768,N/A,512 1024,1000,GDDR5 128-bit,64,12,66,PCIe 2.1 ×16,OEM
-Radeon HD 7730 (Cape Verde LE),April 2013,GCN 1st gen 28 nm,1500×106 123 mm2,384:24:8,800,19.2,6.4,614.4,38.4,1024,1125,DDR3 GDDR5 128-bit,25.6 72,10,47,PCIe 3.0 ×16,$60
-Radeon HD 7750 (Cape Verde Pro),February 2012,,,512:32:16,800 900,25.6 28.8,12.8 14.4,819.2 921.6,51.2 57.6,1024 2048 4096,800 1125,DDR3 GDDR5 128-bit,25.6 72,10,55,PCIe 3.0 ×16,$110
-Radeon HD 7770 GHz Edition (Cape Verde XT),February 2012,,,640:40:16,1000,40,16,1280,80,1024 2048,1125,GDDR5 128-bit,72,10,80,PCIe 3.0 ×16,$160
-Radeon HD 7790 (Bonaire XT),March 2013,GCN 2nd gen 28 nm,2080×106 1602,896:56:16,1000,56.0,16.0,1792,128,1024 2048,1500,GDDR5 128-bit,96,10,85,PCIe 3.0 ×16,$150
-Radeon HD 7850 (Pitcairn Pro),March 2012,GCN 1st gen 28 nm,2800×106 212mm2,1024:64:32,860,55.04,27.52,1761.28,110.08,1024 2048,1200,GDDR5 256-bit,153.6,10,130,PCIe 3.0 ×16,$250
-Radeon HD 7870 GHz Edition (Pitcairn XT),March 2012,,,1280:80:32,1000,80,32,2560,160,2048,1200,,153.6,10,175,PCIe 3.0 ×16,$350
-Radeon HD 7870 XT (Tahiti LE),November 2012,,4313×106 352mm2,1536:96:32,925 975,88.8,29.6,2841.6 2995.2,710.4 748.8,2048,1500,GDDR5 256-bit,192.0,15,185,PCIe 3.0 ×16,$270
-Radeon HD 7950 (Tahiti Pro),January 2012,,,1792:112:32,800,89.6,25.6,2867.2,717,3072,1250,GDDR5 384-bit,240,15,200,PCIe 3.0 ×16,$450
-Radeon HD 7950 Boost (Tahiti Pro2),August 2012,,,1792:112:32,850 925,103.6,29.6,3046.4 3315.2,761.6 828.8,3072,1250,GDDR5 384-bit,240,15,225,PCIe 3.0 ×16,$330
-Radeon HD 7970 (Tahiti XT),January 2012,,,2048:128:32,925,118.4,29.6,3788.8,947.2,3072 6144,1375,GDDR5 384-bit,264,15,250,PCIe 3.0 ×16,$550
-Radeon HD 7970 GHz Edition (Tahiti XT2),June 2012,,,2048:128:32,1000 1050,128.0,32,4096 4300.8,1024 1075,3072 6144,1500,GDDR5 384-bit,288,15,250,PCIe 3.0 ×16,$500
-Radeon HD 7990 (New Zealand),April 2013,,2× 4313×106 352 mm2,2× 2048:128:32,950 1000,2× 128,2× 32,7782.4 8192,1945.6 2048,2× 3072,1500,GDDR5 384-bit,2× 288,15,375,PCIe 3.0 ×16,$1000
-Model (Codename),Launch,Architecture Fab,Transistors Die Size,Config[f],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Size (MiB),Clock (MHz),Bus type & width (bit),Bandwidth (GB/s),Idle,Max.,Bus interface,Release Price (USD)
-,,,,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory[e],,,,TDP (Watts),,,
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,Memory,,,,API (version),
+,,,,,,,,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+All-in-Wonder Radeon,"Jul 31, 2000",R100,180,AGP 4x,166,332,2:1:6:2,332,996,41.5,32,5.312,DDR,128,7.0,1.4
+All-in-Wonder 7500,"Jan 22, 2002",RV200,150,,260,360,2:0:6:2,520,1560,0,64,11.52,,,,
+All-in-Wonder VE,"Dec 2, 2002",,,,250,500,,500,1500,,,8,,,,
+All-in-Wonder 8500,"Apr 4, 2002",R200,,,260,550,4:2:8:4,1100,2200,137.5,128,8.8,,,8.1,
+All-in-Wonder 8500 DV,"Aug 30, 2001",,,,230,380,,920,1840,115,64,6.08,,,,
+All-in-Wonder 9000 Pro,"Mar 31, 2003",RV250,,AGP 8x,275,550,4:1:4:4,1110,1110,68.75,"64, 128",8.8,,,,
+All-in-Wonder 9200,"Jan 26, 2004",,,,250,400,,1000,1000,62.5,128,6.4,,,,
+All-in-Wonder 9200 SE,N/A,,,,,332,,,,,,2.656,,64,,
+All-in-Wonder 9600,"Jan 26, 2004",RV350,130,,325,400,4:2:4:4,1300,1300,162.5,,6.4,,128,9.0,2.0
+All-in-Wonder 9600 Pro,"Aug 05, 2003",,,,400,650,,1600,1600,200,,10.4,,,,
+All-in-Wonder 9600 XT,"Jan 26, 2004",,,,525,,,2100,2100,262.5,,,,,,
+All-in-Wonder 9700 Pro,"Dec 30, 2002",R300,150,,325,620,8:4:8:8,2600,2600,325,,19.84,,256,,
+All-in-Wonder 9800 Pro,"Apr 7, 2003",R350,,,380,680,,3040,3040,380,,21.76,,,,
+All-in-Wonder 9800 SE,"Nov 1, 2003",,,,,,4:4:4:8,,1520,,,10.88,,128,,
+All-in-Wonder X600 Pro,"Sept 21, 2004",RV370,110,,400,600,4:2:4:4,1600,1600,200,256,9.6,,,,
+All-in-Wonder X800 GT,"Aug 8, 2005",R430,,PCI-E x16,490,980,8:6:8:16,6400,3200,600,128,31.36,GDDR3,256,9.0b,
+All-in-Wonder X800 XL,"Jul 5, 2005",,,PCI-E x16 AGP 8X,400,,16:6:16:16,,6400,,256,,,,,
+All-in-Wonder X800 XT,"Sept 9, 2004",R420,130,AGP 8x,500,1000,,8000,8000,750,,32,,,,
+All-in-Wonder 2006,"Dec 22, 2005",RV515,90,PCI-E x16,450,800,4:2:4:4,1800,1800,225,,12.8,DDR2,128,9.0c,
+All-in-Wonder X1800 XL,"Nov 21, 2005",R520,,,500,1000,16:8:16:16,8000,8000,1000,,32,GDDR3,256,,
+All-in-Wonder X1900,"Jan 24, 2006",R580,,,,960,48:8:16:16,,,,,30.72,,,,
+All-in-Wonder HD 3650,"Jun 28, 2008",RV635,55,,725,1200,120:8:4,2900,5800,N/A,512,19.2,DDR2,128,10.1,3.3

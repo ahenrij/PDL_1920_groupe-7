@@ -1,30 +1,61 @@
-,Trident,EdgeHTML,Gecko,WebKit,Presto
-section,5.0[t 1],12,2.0[g 1][g 2],533[w 1][w 2][w 3][w 4][w 5][w 6],2.7.70
-nav,,,,,
-article,,,,,
-aside,,,,,
-hgroup,,,,,
-header,,,,,
-footer,,,,,
-ping,No,No,Disabled,Yes,No
-time,No,No,22.0[g 3],No,2.8.146
-mark,5.0[t 1],12,2.0[g 4],Yes[w 7],2.7.70
-"ruby,[20] rt, rp",3.1[t 2],12,38.0[g 5],533[w 8][w 9],No
-dialog[21],No,No,No[g 6],Only in Chrome[w 10],No
-figure,5.0[t 1],12,2.0[g 7],Yes[w 11],2.7.70
-figcaption,,,,,
-embed,<3.1[IE 3.0],12,1.7,85,1.0
-video,5.0 (Partial)[t 3][t 4],12,15.0[g 8],525,2.5[a][b]
-audio,,,,,
-source,,,,,
-canvas,,Partial,1.9.2[g 9],Partial,2.0[p 4]
-Inline MathML,No,No,2.0,No[w 12][w 13],2.1[c]
-Inline SVG,5.0[t 3],12,,Yes[w 14],2.9.220[p 6]
-details,No,No,47[g 10],Yes[w 15],No
-summary,,,,Yes[w 15],
-command,,,No[g 11],No,
-menu,,,8.0[g 12],No[w 16],2.8[p 7]
-bdi,,,10.0[g 13],528[w 17],No
-data,No,No,22.0[g 14],No,No
-picture,No,13,38.0[g 15],No[w 18],No
-,Trident,EdgeHTML,Gecko,WebKit,Presto
+,Trident[t 49],Gecko[g 110],WebKit[w 82],Presto[p 38][p 39]
+The canvas state,,,,
+save,5.0,1.8,Yes,2.0
+restore,,,,
+Transformations,,,,
+scale,5.0,1.8,Yes,2.0
+rotate,,,,
+translate,,,,
+transform,,,,2.6[note 16][p 40][p 41][p 42]
+setTransform,,,,2.6[note 16]
+Compositing,,,,
+globalAlpha,5.0,1.8,Yes,2.0
+globalCompositeOperation,,,,
+Colors and styles,,,,
+strokeStyle,5.0,1.8,Yes,2.0
+fillStyle,,,,
+createLinearGradient,,,,
+createRadialGradient,,,,
+createPattern,,,,
+Line styles,,,,
+lineWidth,5.0,1.8,Yes,2.0
+lineCap,,,,
+lineJoin,,,,
+miterLimit,,,,
+Shadows,,,,
+shadowOffsetX,5.0,1.9.1[g 111],Yes,2.4[note 17]
+shadowOffsetY,,,,
+shadowBlur,,,,
+shadowColor,,,,
+Simple shapes,,,,
+clearRect,5.0,1.8,Yes,2.0
+fillRect,,,,
+strokeRect,,,,
+Complex shapes,,,,
+beginPath,5.0,1.8,Yes,2.0
+closePath,,,,
+moveTo,,,,
+lineTo,,,,
+quadraticCurveTo,,1.8.1[note 18],,
+bezierCurveTo,,1.8,,
+arcTo,,1.8.1[g 112],,
+rect,,1.8,,
+arc,,,,
+fill,,,,
+stroke,,,,
+clip,,,,
+isPointInPath,,,,
+Focus management,,,,
+drawFocusRing,No,28.0[g 113],No,No
+Text,,,,
+font,5.0,1.9.1[note 19],Yes,No
+textAlign,,,,2.6
+textBaseline,,,,
+fillText,,,,
+strokeText,,,,
+measureText,,,,
+Images,,,,
+drawImage,5.0,1.8,Yes,2.0
+createImageData,,1.9.1[g 115][g 116],,2.7[p 43]
+getImageData,,1.9[g 116],,2.6[note 16]
+putImageData,,2.0[g 117][g 116],,

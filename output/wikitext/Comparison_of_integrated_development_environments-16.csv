@@ -1,6 +1,4 @@
-IDE,Developer,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder
-Dolphin Smalltalk,Object Arts,MIT License,,,,,,
-Pharo,INRIA,MIT License,,,,various,,
-Squeak,squeak.org,MIT License,,,,various,,
-VisualAge,Instantiations,,,,,various,,
-VisualWorks,Cincom,,,,,various,,
+IDE,License,Windows,Linux,macOS,Other platforms
+Eclipse JDT,EPL,,,,"FreeBSD, JVM, Solaris"
+IntelliJ IDEA,"ASLv2, proprietary",,,,"FreeBSD, OpenBSD, Solaris"
+NetBeans,"CDDL, GPL2",,,,Solaris

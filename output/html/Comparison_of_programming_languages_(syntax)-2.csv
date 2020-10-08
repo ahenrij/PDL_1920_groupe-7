@@ -1,59 +1,26 @@
-Language,Statement separator-terminator,Secondary separator[1]
-ABAP,period separated,
-Ada,semicolon terminated,
-ALGOL,semicolon separated,
-ALGOL 68,semicolon and comma separated[2],
-APL,newline terminated,? separated
-AppleScript,newline terminated,
-AutoHotkey,newline terminated,
-BASIC,newline terminated,colon separated
-Boo,newline terminated,
-C,semicolon terminates statements,comma separates expressions
-C++,semicolon terminates statements,comma separates expressions
-C#,semicolon terminated,
-COBOL,"whitespace separated, sometimes period separated, optionally separated with commas and semi-colons.",
-Cobra,newline terminated,
-CoffeeScript,newline terminated,
-CSS,semicolon separated,
-D,semicolon terminated,
-Eiffel,newline terminated,semicolon
-Erlang,"colon separated, period terminated",
-F#,newline terminated,semicolon
-Fortran,newline terminated,semicolon
-Forth,semicolons terminate word definitions,
-GFA BASIC,newline terminated,
-Go,semicolon separated (inserted by compiler),
-Haskell (in do-notation),newline separated,
-"Haskell (in do-notation, when braces are used)",semicolon separated,
-Java,semicolon terminated,
-JavaScript,semicolon separated (but sometimes implicitly inserted on newlines),
-Kotlin,semicolon separated (but sometimes implicitly inserted on newlines),
-Lua,whitespace separated (semicolon optional),
-Mathematica,semicolon separated,
-MATLAB,newline terminated,semicolon or comma[3]
-Object Pascal (Delphi),semicolon separated,
-Objective-C,semicolon terminated,
-OCaml,semicolon separated,
-Pascal,semicolon separated,
-Perl,semicolon separated,
-PHP,semicolon terminated,
-Pick Basic,newline terminated,semicolon separated
-PowerShell,newline terminated,semicolon separated
-Prolog,"comma separated (conjunction), semicolon separated (disjunction), period terminated (clause)",
-Python,newline terminated,semicolon
-Raku,semicolon separated,
-Red,whitespace separated,
-Ruby,newline terminated,semicolon
-Rust,semicolon terminates statements,comma separates expressions
-Scala,newline terminated (semicolon optional),semicolon
-Seed7,semicolon separated (semicolon termination is allowed),
-Simula,semicolon separated,
-S-Lang,semicolon separated,
-Smalltalk,period separated,
-Standard ML,semicolon separated,
-Swift,semicolon separated (inserted by compiler),
-Visual Basic,newline terminated,colon separated
-Visual Basic .NET,newline terminated,colon separated
-Wolfram Language,semicolon separated,
-Xojo,newline terminated,
-Language,Statement separator-terminator,Secondary separator[1]
+Symbol,Languages
+comment ~ ;,"ALGOL 60, SIMULA"
+"¢ ~ ¢, # ~ #, co ~ co, comment ~ comment",ALGOL 68[12][13]
+/* ~ */,"ActionScript, AutoHotkey, C, C++, C#, D,[14] Go, Java, JavaScript, kotlin, Objective-C, PHP, PL/I, Prolog, Rexx, Rust (can be nested), Scala (can be nested), SAS, SASS, SQL, Swift (can be nested), Visual Prolog, CSS"
+#cs ~ #ce,AutoIt[15]
+/+ ~ +/,D (can be nested)[14]
+/# ~ #/,Cobra (can be nested)
+<# ~ #>,Powershell
+<!-- ~ -->,"HTML, XML"
+=begin ~ =cut,Perl
+#`( ~ ),"Raku (bracketing characters can be (), <>, {}, [], any Unicode characters with BiDi mirrorings, or Unicode characters with Ps/Pe/Pi/Pf properties)"
+=begin ~ =end,Ruby
+"#<TAG> ~ #</TAG>, #stop ~ EOF, #iffalse ~ #endif, #ifntrue ~ #endif, #if false ~ #endif, #if !true ~ #endif",S-Lang[16]
+{- ~ -},Haskell (can be nested)
+(* ~ *),"Delphi, ML, Mathematica, Object Pascal, Pascal, Seed7, Applescript, OCaml (can be nested), Standard ML (can be nested), Maple, Newspeak, F#"
+{ ~ },"Delphi, Object Pascal, Pascal, Red"
+{# ~ #},"Nunjucks, Twig"
+,"Mustache, Handlebars"
+,"Handlebars (cannot be nested, but may contain 
+|# ~ #|,Curl
+%{ ~ %},MATLAB[11] (the symbols must be in a separate line)
+#| ~ |#,"Lisp, Scheme, Racket (can be nested in all three)."
+#[ ~ ]#,Nim[17]
+"--[[ ~ ]], --[=[ ~ ]=], --[=...=[ ~ ]=...=]",Lua (brackets can have any number of matching = characters; can be nested within non-matching delimiters)
+" ~ ",Smalltalk
+(comment ~ ),Clojure

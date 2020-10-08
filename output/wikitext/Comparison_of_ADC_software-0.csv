@@ -1,14 +1,13 @@
-ADC hub,Windows,Linux,OS X,Other
-ADCH++,,,,
-ADCH++ GUI,,,,Any Python enabled platform
-DSHub,,,,Any Java enabled platform
-FlexHub,,,,
-Luadch,,,,"Raspberry Pi, Synology NAS, any GCC enabled platform"
-Nexthub,,,,Any C# enabled platform
-uhub,,,,"BSD, Haiku, OpenWrt, Solaris"
-Erlhub,,,,Any Erlang enabled platform
-Qhub,,,,
-Starlet ADC Hub,,,,OpenVMS
-Starhub,,,,Any Java enabled platform
-RusHub,,,,"FreeBSD, Solaris"
-ADC hub,Windows,Linux,OS X,Other
+ADC hub,Encryption,IPv6,Plugin,Hash algorithms,Bloom filter,ADC support,Other
+ADCH++,,,"Lua, Python, Ruby",Tiger tree hash,,"TIGR, PING, ADCS",
+ADCH++ GUI,,,Python,Tiger tree hash,,"TIGR, PING, ADCS",
+DSHub,,,"Java, Python",Tiger tree hash,,"TIGR, PING, ADCS",
+FLexHub,Linux only,,,Tiger tree hash,,"TIGR, PING, ADCS",
+Luadch,,,Lua,Tiger tree hash,,"TIGR, PING, ADCS, KEYP, ASCH, SUDP, OSNR",
+Nexthub,,,C#,Tiger tree hash,,"TIGR, ADCS",
+uhub,,,C,Tiger tree hash,,"TIGR, PING, ADCS",
+Qhub,,,,Tiger tree hash,,TIGR,
+Starlet ADC Hub,,,,Tiger tree hash,,TIGR,
+Starhub,,,,Tiger tree hash,,TIGR,
+RusHub,,,,Tiger tree hash,,TIGR,
+ADC hub,Encryption,IPv6,Plugin,Hash algorithms,Bloom filter,ADC support,Other

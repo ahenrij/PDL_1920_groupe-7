@@ -1,5 +1,4 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Adult Dataset,Census data from 1994 containing demographic features of adults and their income.,Cleaned and anonymized.,"48,842",Comma separated values,Classification,1996,[434],United States Census Bureau
-Census-Income (KDD),Weighted census data from the 1994 and 1995 Current Population Surveys.,Split into training and test sets.,"299,285",Comma separated values,Classification,2000,[435][436],United States Census Bureau
-IPUMS Census Database,Census data from the Los Angeles and Long Beach areas.,None,"256,932",Text,"Classification, regression",1999,[437],IPUMS
-US Census Data 1990,Partial data from 1990 US census.,Results randomized and useful attributes selected.,"2,458,285",Text,"Classification, regression",1990,[438],United States Census Bureau
+Volcanoes on Venus – JARtool experiment Dataset,Venus images returned by the Magellan spacecraft.,Images are labeled by humans.,not given,Images,Classification,1991,[340][341],M. Burl
+MAGIC Gamma Telescope Dataset,Monte Carlo generated high-energy gamma particle events.,Numerous features extracted from the simulations.,"19,020",Text,Classification,2007,[341][342],R. Bock
+Solar Flare Dataset,Measurements of the number of certain types of solar flare events occurring in a 24-hour period.,Many solar flare-specific features are given.,1389,Text,"Regression, classification",1989,[343],G. Bradshaw

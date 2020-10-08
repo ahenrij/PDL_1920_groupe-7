@@ -1,14 +1,14 @@
-ADC hub,Windows,Linux,OS X,Other
-ADCH++,Yes,Yes,No,No
-ADCH++ GUI,Yes,Yes,No,Any Python enabled platform
-DSHub,Yes,Yes,Yes,Any Java enabled platform
-FlexHub,Yes,Yes,No,No
-Luadch,Yes,Yes,Yes,"Raspberry Pi, Synology NAS, any GCC enabled platform"
-Nexthub,Yes,?,No,Any C# enabled platform
-uhub,Yes,Yes,Yes,"BSD, Haiku, OpenWrt, Solaris"
-Erlhub,Yes,Yes,Yes,Any Erlang enabled platform
-Qhub,?,?,?,?
-Starlet ADC Hub,No,No,No,OpenVMS
-Starhub,Yes,Yes,Yes,Any Java enabled platform
-RusHub,Yes,Yes,Yes,"FreeBSD, Solaris"
-ADC hub,Windows,Linux,OS X,Other
+ADC client,Windows,Linux,OS X,BSD,Haiku
+AirDC++,Yes,No,No,No,No
+AirDC++ Web Client,No,Yes,No installable package[8],Yes,?
+ApexDC++,Yes,No,No,No,No
+DC++,Yes,No,No,No,No
+jucy,Yes,Yes,Yes,No,No
+LinuxDC++,No,Yes,No,Yes,No
+EiskaltDC++,Yes,Yes,Yes,Yes,Yes
+FlylinkDC++,Yes,No,No,No,No
+RSX++,Yes,No,No,No,No
+TKDC++,Yes,No,No,No,No
+StrongDC++,Yes,No,No,No,No
+ncdc,No,Yes,Yes,Yes,?
+ADC client,Windows,Linux,OS X,BSD,Haiku

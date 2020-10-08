@@ -1,2 +1,4 @@
-IDE,Developer,Latest stable release,Platform,License
-DrRacket,"PLT Design, Inc.","26 October 2018, v7.1",Cross-platform,LGPL
+IDE,License,Windows,Linux,macOS,Other platforms,Editor,Debugger,GUI builder,Profiler,Browsers
+Allegro Common Lisp,,,,,"FreeBSD, HP-UX, AIX, Solaris, Tru64 UNIX",,,,,"Class browser, Systems, Definitions"
+LispWorks,,,,,"FreeBSD, HP-UX, Solaris",,,,,"Class browser, Functions, Errors, Processes, Symbols, Systems"
+SLIME (Emacs),"portions in GPL v2, LGPL, BSD and public domain",,,,"DragonFly BSD, FreeBSD, HP-UX, AIX, IRIX, DOS, NetBSD, OpenBSD, OpenVMS, OS/2, Solaris, other Unix",,,,,"Class browser, Errors, Symbols"

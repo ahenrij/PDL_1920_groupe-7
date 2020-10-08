@@ -1,14 +1,24 @@
-Program,ARW Sony,CR2 Canon,DNG Adobe,NEF Nikon,ORF Olympus,PEF Pentax,RAF Fujifilm,SRW Samsung,X3F Sigma,Others,Notes
-ACDSee,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"cRAW, CRW, DCR, ERF, HDR, MRW, RAW, RWL, sRAW",[1]
-Aperture,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"CRW, MOS, RAW, FFF, 3FR",[2]
-digiKam,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,Several,[3][4]
-F-Spot,ARW?,CR2,DNG,NEF,ORF,PEF,RAF,SRW?,X3F?,"CRW, MRW, RAW, SRF",
-FastPictureViewer (registered edition),ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"NRW, RW2, SR2, SRF, RWZ etc.",[5]
-FastStone Image Viewer,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"CR3, CRW, NRW, RWL, MRW, SR2, SRF, RW2",[6]
-Geeqie,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW?,X3F,"3FR, CRW, DCR, ERF, K25, KDC, MEF, MOS, MRW, PTX, R3D, RAW, SR2, SRF",
-IrfanView,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"CRW, EEF, DCR, MRW, NRW, RW2, SRF",[7]
-Phase One Media Pro,ARW?,CR2?,DNG,NEF,ORF?,PEF?,RAF,SRW,X3F?,"CRW, MOS, RAW",
-Picasa,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"3FR, CRW, DCR, KDC, MRW, NRW, RAW, RW2, SRF, SR2",[8]
-Shotwell,ARW?,CR2?,DNG?,NEF?,ORF?,PEF?,RAF?,SRW?,X3F?,,"Support "limited", export 8-bit only [9]"
-XnView and XnViewMP,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"CRW, RWZ and more",[10]
-Zoner Photo Studio,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"3FR, CRW, ERF, KDC, MEF, MRW, RAW, RW2, RWZ, SR2, SRF",[11]
+Program,search (criteria),selection (styles),metadata,adjust image (functions),hotkeys,color management (ICC),JPEG Lossless operations,Unicode support,other / special
+ACDSee,,",",,,,,,"GPS Location, Scripts for batch/pre processing, automatic slideshow"
+CDisplay,,,,",,,,,"Slider, automatic slideshow, mouse control"
+Comix,,,,",,,,,"Slider, automatic slideshow, mouse control"
+digiKam,",",,,,,,,"Geotagging, batch processing, detect duplicate/similar images, export to Internet/social media/HTML"
+Eye of gnome,,,,,,,,,
+F-Spot,,,,,,,,,"Export to HTML, Flickr, or O.r.i.g.i.n.a.l."
+FastPictureViewer,",",",,,",n/a,","Native 32 and 64-bit, Tethered shooting (MTP/PTP over USB), Multicore-aware, DirectX accelerated, HD Photo / JPEG XR support."
+Gonvisor,,",,,,,n/a,","Made to easily read comics or manga can display two pages at time and view images in compressed ZIP, RAR, 7z, cbr, cba, cbz etc."
+FastStone Image Viewer,,",",,,,,,full screen mode with all commands available via pop-up menu bars when approaching the mouse from the borders of the screen
+Geeqie,",",,",,,,,"find duplicates, sort manager, recent collections"
+gThumb,",",,",,,,,"bookmarks, comments, rename series, create index image, create HTML album"
+Gwenview,,,",",,,",,"batch processing, export to Internet/social media/HTML"
+KPhotoAlbum,",",,,,,,,Quick-tagging using keyboard tokens
+Phase One Media Pro,",",",",,,,,"Find duplicates, hierarchical keywords, distributable catalog with free Media Pro reader, offline browsing of images"
+Picasa,",",,,,,,,"collages, Geotagging, Search for Faces, find duplicates"
+Shotwell,,",",",,,,,"Non-destructive editor, Auto Enhance Images, Duplicate, Upload, Favorite"
+Simple Comic,,,,,,,,,"capture page, remove page, set icon"
+STDU Viewer,,,,,,,,,
+Windows Photo Viewer,,,Yes: Exif,",,,,,
+XnView and XnViewMP,",",",,,,,,Supports Adobe Photoshop Filter 8BF plugins
+xv,,",,,,,,,
+Zoner Photo Studio,",",",,,,,,"sign images, 16 bits per channel, GPS support, merge pictures to HDR, WIC codecs support"
+Program,search (criteria),selection (styles),metadata,adjust image (functions),hotkeys,color management (ICC),JPEG Lossless operations,Unicode support,other / special

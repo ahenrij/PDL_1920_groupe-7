@@ -1,8 +1,7 @@
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Supported API version,,,TBP (Watts)
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
-,,,,,,,,,,,,,,,Hardware,Drivers (Software),
-GeForce FX Go 5100*,March 2003,NV34M,150,AGP 8×,200,400,1:2:2:2 *:4:4:4,0.8,0.8,64,3.2,DDR,64,9.0,1.5,2.1**,
-GeForce FX Go 5500*,,,,,300,600,,1.2,1.2,32 64,9.6,,128,,,,
-GeForce FX Go 5600*,,NV31M,130,,350,,,1.4,1.4,32,,,,,,,
-GeForce FX Go 5650*,,,,,350,,,,,,,,,,,,
-GeForce FX Go 5700*,"February 1, 2005",NV36M,,,450,550,3:2:2:2 *:4:4:4,1.8,1.8,,8.8,,,,,,
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro FX 540,NV43GL,90,PCIe ×16,300,300,550,4:8:8:8,2.4,2.4,128,8.8,GDDR3,128,,,9.0c,2.1,35,
+Quadro FX 1400,NV41,130,,350,350,600,5:12:12:8,2.8,4.2,,19.2,DDR,256,,75,,,"Stereo display, SLI",
+Quadro FX 3400,NV45GL/ NV40,,,,,900,6:16:16:16,5.6,5.6,256,28.8,GDDR3,,,101,,,,
+Quadro FX 3450,NV41,110,,425,425,1000,5:12:12:12,5.1,5.1,,32.0,,,,83,,,,
+Quadro FX 4400,NV45GL A3/ NV40,130,,400,400,1050,6:16:16:16,6.4,6.4,512,33.7,,,,110,,,,

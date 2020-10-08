@@ -1,8 +1,7 @@
-Application,Polygon,,,,Curves,,,,,,,,,,Spline/Bézier Surface,,,Metaball,Point Clouds,Particles,Voxel / Volume,Bone,Text,Camera,Light,Speaker
-,tris,quads,N-gon,donut,Linear,Quadratic Bézier,Cubic Bézier,B-spline,Cardinal spline,Hermite spline,TCB spline,Smooth-step,Akima spline,NURBS,NURBS regular patch,NURBS trimmed surface,Bicubic Bézier patch,,,,,,,,,
-Blender,,,,,Bézier curve without subdivision,,,,,,,,,,,,,,,,2.83 and later,,,,,
-Maya,,,,,,,,,,,,,,,,,,,,,3D Texture,,,,,
-3ds Max,,,,,,,,,,,,,,,,,,,,,,,,,,
-Cinema 4D,,,,,,,,,,,,,,,,,,,,,R20 and later,,,,,dropped in R23[15]
-LightWave,,,,,,,,,,only in Graph Editor,only in Graph Editor,,,,(LWCAD plugin),,,,,,OpenVDB primitives[16],,,,,
-Shade 3D,,,,,,,,,,,,,,,,,,,,,,,,,,Sound Object
+Application,Hard surface Modeling,,Sculpt Modeling,,,,Non-destructive Modeling,,,Patch Modeling -->,
+,Polygon Modeling,Subdivision Modeling,Base-mesh Creation,Sculpting,Hand Retopology,Automatic Retopology,Boolean,Bevel,Procedural,Single Patch,Multi-Patch -->
+Maya,,,(SOuP BMesh),,,2020 and later,,,,,
+3ds Max,,,(Form),Paint Deform,,,,,,,
+Blender,,,Skin Modifier,,,2.81 and later,,,stack only,,
+ZBrush,ZModeler,ZModeler,ZSphere and ZSketch,,,ZRemesher,4R8 and later,?,,,
+Curvy 3D,,,sketch-based,,?,?,?,?,,,

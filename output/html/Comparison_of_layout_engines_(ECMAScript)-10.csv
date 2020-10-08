@@ -1,21 +1,20 @@
-NativeError object,Trident,Gecko,WebKit,Presto
+Number object,Trident,Gecko,WebKit,Presto
 Called as function,,,,
-EvalError (message),?,1.0,Yes,?
-RangeError (message),?,1.0,Yes,?
-ReferenceError (message),?,1.0,Yes,?
-SyntaxError (message),?,1.0,Yes,?
-TypeError (message),?,1.0,Yes,?
-URIError (message),?,1.0,Yes,?
+Number([value]),?,Yes,Yes,?
 Called as constructor,,,,
-new EvalError (message),?,1.0,Yes,?
-new RangeError (message),?,1.0,Yes,?
-new ReferenceError (message),?,1.0,Yes,?
-new SyntaxError (message),?,1.0,Yes,?
-new TypeError (message),?,1.0,Yes,?
-new URIError (message),?,1.0,Yes,?
+new Number([value]),3.0,1.0,Yes,1.0
 Properties,,,,
-prototype,?,1.0,?,?
+prototype,4.0,1.0,Yes,1.0
+MAX_VALUE,4.0,1.0,Yes,1.0
+MIN_VALUE,4.0,1.0,Yes,1.0
+NaN,4.0,1.0,Yes,1.0
+NEGATIVE_INFINITY,4.0,1.0,Yes,1.0
+POSITIVE_INFINITY,4.0,1.0,Yes,1.0
 Properties of prototype,,,,
-constructor,?,1.0,?,?
-name,?,1.0,Yes,?
-message,?,1.0,Yes,?
+constructor,4.0,1.0,Yes,1.0
+toString([radix]),4.0,1.0,Yes,1.0
+toLocaleString(),5.5,1.0,Yes,1.0
+valueOf(),4.0,1.0,Yes,1.0
+toFixed(fractionDigits),5.5,1.0,Yes,1.0
+toExponential(fractionDigits),5.5,1.0,Yes,1.0
+toPrecision(precision),5.5,1.0,Yes,1.0

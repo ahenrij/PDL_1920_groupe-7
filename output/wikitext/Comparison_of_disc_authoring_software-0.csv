@@ -1,14 +1,14 @@
-Application,bin/cue,Apple disk image,img,ISO image,Nero CD image,Audio file/cue
-Alcohol 120%,,,,,,
-CDBurnerXP,,,,,,
-cdrtools,,,,,,
-DeepBurner,,,,,,
-ExpressBurn,,,,,,
-ImgBurn,,,,,,
-InfraRecorder,,,,,,
-K3b,,,,,,
-Libburnia,,,,,,
-Nero Burning ROM,,,,,,
-UltraISO,,,,,,
-X-CD-Roast,,,,,,
-Application,bin/cue,Apple disk image,img,ISO image,Nero CD image,Audio file/cue
+Application,Microsoft Windows,Mac OS X,Linux,BSD,Unix
+Alcohol 120%,,,,,
+CDBurnerXP,,,,,
+cdrtools,,,,,
+DeepBurner,,,,,
+ExpressBurn,,,,,
+ImgBurn,,,,,
+InfraRecorder,,,,,
+K3b,,,,,
+Libburnia,,,,,Solaris
+Nero Burning ROM,,,,,
+UltraISO,,,,,
+X-CD-Roast,,,,,
+Application,Microsoft Windows,Mac OS X,Linux,BSD,Unix

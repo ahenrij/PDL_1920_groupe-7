@@ -1,10 +1,10 @@
 ,Trident,Gecko,WebKit,Presto
-Microdata,No,16.0[g 67],No[w 53],Yes[p 17]
-HTML5 Tokenizer,6.0[t 33],2.0[g 68],Yes[w 54],2.10[p 18]
-HTML5 Tree Builder,,,Yes[w 14],
-HTML5 Fragment Parser,,,Yes,
-<a rel="noreferrer">,No,33.0[g 69],Yes[w 55],No
-window.onhashchange,4.0[t 34],1.9.2[g 70],528[w 56],2.6[p 19]
-element.classList,No,1.9.2[g 71],Yes[w 57],2.8[p 11]
-dir="auto",No,20.0[g 72],528+[w 58],No
+translate[24],No,,,
+Datasets (data-*),No,6.0[g 24],Yes[w 25],2.8[p 10]
+contextmenu,,8.0[g 25],No[w 16],No
+hidden,,2.0[g 26],Yes[w 26],2.7.70
+contenteditable[25],<3.1[IE 5.5],1.9,Yes,2.0
+spellcheck[26],6.0,1.8[g 27],Incorrect[w 27],2.8[p 11]
+draggable,,1.9.1[g 28],533[w 28],2.10.270
+dropzone,No,No[g 29],Yes,2.10.270
 ,Trident,Gecko,WebKit,Presto

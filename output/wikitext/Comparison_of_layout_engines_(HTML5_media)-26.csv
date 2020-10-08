@@ -1,17 +1,4 @@
-Attribute,Deprecated for,Function,Supported first by,Trident,Gecko,WebKit,KHTML,Presto
-bgproperties,body,Determines whether background image scrolls with the background,Internet Explorer,rowspan="10" 3.1,,,,
-bordercolor,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,,,,
-bordercolordark,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,
-bordercolorlight,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,,,,
-controls,img,Uses the img element to place video or audio clips,Internet Explorer,,,,,
-dynsrc,img,Uses the img element to place video or audio clips,Internet Explorer,,,,,
-event,script,Defines function to call for an object.,Internet Explorer,,?,?,?,
-for,script,Defines the object to bind a scripting event.,Internet Explorer,,?,?,?,
-frame,table,Controls the display of the outer borders of a table in the table tag,Internet Explorer,,?,,,
-framespacing,frameset,Sets the amount of space between frames,Internet Explorer,?,?,,,
-leftmargin,body,Sets the margin between the browser window and the contents of the page,Internet Explorer,rowspan="2" 3.1,?,?,,
-loop,img,Uses the img element to place video or audio clips,Internet Explorer,,,,,
-rightmargin,body,Sets the margin between the browser window and the contents of the page,Internet Explorer,rowspan="3" 3.1,?,?,,
-start,img,Uses the img element to place video or audio clips,Internet Explorer,,,,,
-target,form,Specifies a target window or frame for the output of a form,Internet Explorer,,?,,,
-valign,caption,Sets vertical alignment of table caption,Internet Explorer,3.1,?,?,,
+Trident,edgeHTML,Gecko,WebKit,Presto
+Ogg Theora,"Manual installGoogle released a WebM component for Media Foundation to allow the playback of WebM files in IE9 through the standard HTML5 <video> tag.[300] Xiph.org distributes OpenCodecs package, which amends Google's VP8 decoder with DirectShow-based codecs for Ogg Theora and Ogg Vorbis. VLC media player comes with "Web plugin" that uses VLC for playing multimedia from <video> and <audio> tags, enabling support for all formats VLC supports.group=notename=ie-codecs",,1.9.1[301],"WebKit on macOS previously used QuickTime, and supported whatever formats that does.[302] By default, this includes H.264, MP3, AAC and WAV PCM, but not Ogg Theora or Vorbis. These are supported only if installed as third-party codecs, such as XiphQT. However, this relied on QuickTime 7 (not QuickTime X) to play these formats, and since Safari 12 and later versions of WebKit2, Apple officially dropped support for their QuickTime plugin (since it was developed for NPAPI, not HTML5). Google Chrome supports Theora, Vorbis, WebM, and MP3.[303] Chromium can be compiled to support anything that FFmpeg supports, and may or may not support patented formats such as H.264 and MP3.[304] Origyn Web Browser for MorphOS uses also FFmpeg for playing HTML5 media content.[305][306]group=notename=webkit-codecs"
+H.264,5.0[307],,33.0via OpenH264[308],Depends (525)[309][310]
+WebM VP8,Manual install[312],,2.0[314][315],Depends (534)[316]

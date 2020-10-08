@@ -1,16 +1,15 @@
-,Product import-export,Statistics,Stock control,WYSIWYG editor
-Apache OFBiz,Yes,Yes,Yes,Yes
-Batavi,Yes,Yes,Yes,Yes
-Bigcommerce,Yes,Yes,Yes,Yes
-Drupal Commerce,Yes,Yes,Yes,Yes
-KonaKart,Yes,Yes,Yes,Yes
-Magento,Yes,Yes,Yes,Yes
-nopCommerce,Yes,Yes,Yes,Yes
-osCommerce,add-on,Yes,Yes,add-on
-pimcore,Yes,Yes,Yes,Yes
-PrestaShop,Yes,Yes,Yes,Yes
-Shopify,Yes,Yes,Yes,No
-SupaDupa,Yes,Yes,Yes,No
-WooCommerce,Yes,Yes,Yes,Yes
-Zen Cart,add-on,Yes,Yes,add-on
-,Product import-export,Statistics,Stock control,WYSIWYG editor
+,Skrill,Stripe,PayPal Pro,PayPal Payflow Link,PayPal Payflow Pro,Sage Pay Form,Sage Pay Direct,USAePay,WorldPay,Offline processing,Offline methods
+Apache OFBiz,No,No,No,No,No,No,No,No,Yes,Yes,Yes
+Batavi,No,No,No,No,No,No,No,No,No,Yes,Yes
+Bigcommerce,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Drupal Commerce,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No
+KonaKart,Yes,No,No,No,Yes,No,No,Yes,Yes,Yes,Yes
+Magento,Yes,Yes,Yes,Yes,Yes,Yes,Yes,3rd party,Yes,Yes,Yes
+nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,3rd party,Yes,Yes,Yes
+osCommerce,Yes,Yes,Yes,No,No,Yes,Yes,No,No,Yes,Yes
+pimcore,No,No,No,No,No,No,No,No,No,No,No
+PrestaShop,Yes,Yes,Yes,No,No,No,No,No,Yes,Yes,Yes
+Shopify,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+WooCommerce,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+Zen Cart,Yes,Yes,Yes,No,add-on,No,Yes,Yes,Yes,add-on,Yes
+,Skrill,Stripe,PayPal Pro,PayPal Payflow Link,PayPal Payflow Pro,Sage Pay Form,Sage Pay Direct,USAePay,WorldPay,Offline processing,Offline methods

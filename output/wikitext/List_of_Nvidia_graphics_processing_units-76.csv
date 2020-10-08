@@ -1,9 +1,6 @@
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
-GeForce Go 6100 + nForce Go 430,,C51M,110,HyperTransport,425,System memory,2:1:2:1,850,425,850,106.25,Up to 128 MB system,System memory,DDR2,64/128
-GeForce Go 6150 + nForce Go 430,,,,,,,,,,,,,,,
-GeForce Go 6200,,NV44M,,PCIe ×16,300,600,4:3:4:2,1200,600,1200,225,16,2.4,DDR,32
-GeForce Go 6400,,,,,400,700,,1600,800,1600,250,,5.6,,64
-GeForce Go 6600,,NV43M,,,300,,8:3:8:4,3000,1500,3000,281.25,128,11.2,,128
-GeForce Go 6800,"November 8, 2004",NV41M,130,,,700 1100,12:5:12:12,,,,375,,22.4 35.2,"DDR, DDR2 DDR3",256
-GeForce Go 6800 Ultra,"February 24, 2005",,,,450,,,5400,3600,5400,562.5,256,,,
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro FX 560,G73GL,90,PCIe ×16,350,350,1200,5:12:12:8,2.8,4.2,128,19.2,GDDR3,128,,,9.0c,2.1,30,
+Quadro FX 46002,G80,,,500,1200,1400,96:24:24,12,24,768,67.2,,384,345,-,10.0,3.3,134,"Stereo display, SLI, Genlock"
+Quadro FX 4600 SDI2,,,,,,,96:24:24,,,,,,,345,,,,154,
+Quadro FX 56002,,,PCIe 2.0 ×16,600,1350,1600,128:32:24,14.4,38.4,1536,76.8,,,518.4,,,,171,

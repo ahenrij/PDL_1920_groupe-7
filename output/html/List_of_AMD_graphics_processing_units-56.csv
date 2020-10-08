@@ -1,8 +1,7 @@
-Model (Codename),Launch,Architecture (Fab),Bus interface,Stream processors,Clock rate,,Memory,,,,Processing power[a] (GFLOPS),,TDP (Watts)
-,,,,,Core (MHz),Memory (MHz),Size (MB),Type,Bus width (bit),Bandwidth (GB/s),Single,Double,
-Stream Processor (R580),2006,R500 80 nm,,240,600,,1024,GDDR3,256,83.2,375[364],N/A,165
-FireStream 9170 (RV670)[365][366],"November 8, 2007",TeraScale 1 55 nm,PCIe 2.0 x16,320,800,800,2048,GDDR3,256,51.2,512,102.4,105
-FireStream 9250 (RV770)[367][368],"June 16, 2008",TeraScale 1 55 nm,PCIe 2.0 x16,800,625,993,1024,GDDR3,256,63.6,1000,200,150
-FireStream 9270 (RV770)[369][370],"November 13, 2008",TeraScale 1 55 nm,PCIe 2.0 x16,800,750,850,2048,GDDR5,256,108.8,1200,240,160
-FireStream 9350 (Cypress XT)[371],"June 23, 2010",TeraScale 2 40 nm,PCIe 2.1 x16,1440,700,1000,2048,GDDR5,256,128,2016,403.2,150
-FireStream 9370 (Cypress XT)[372],"June 23, 2010",TeraScale 2 40 nm,PCIe 2.1 x16,1600,825,1150,4096,GDDR5,256,147.2,2640,528,225
+Model,Launch,Core,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate (GT/s),Memory,,,,API compliance (version),,TDP / idle (watts),Notes
+,,,,,,,,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
+FireMV 2200 PCI.[207],January 2006,RV280 GL,PCI,240,200,1:4:4:4,0.96,64,3.2,DDR,64,8.1,1.4,15,DMS-59 for dual DVI-D output
+FireMV 2200 PCIe.[208],,RV370,PCIe x16,324,196,2:4:4:4,1.296,128,,,,9.0,2.1,,
+FireMV 2260[209],January 2008,RV620,"PCIe 2.0 x1/x16, PCI",600,500,40(8×5):4:4,2.4,256,32,DDR2,256,10.1[210],3.3,15/8,Dual DisplayPort (with adapters: DVI-D)
+FireMV 2400 PCI.[211],,RV380,PCI,500,,2:4:4:4,2.0,128,16,DDR,128,9.0b,2.1,20,"2x VHDCI for quad DVI-D output, VGA"
+FireMV 2400 PCIe.[212],,,PCIe x1,500,,,,256,,DDR3,,,,,

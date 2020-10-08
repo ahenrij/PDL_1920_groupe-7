@@ -1,19 +1,17 @@
-,Flat file,MySQL,MySQLi,PostgreSQL,MSSQL,Oracle,SQLite,Firebird,Apache Derby,MongoDB
-Apache OFBiz,No,Yes,No,Yes,Yes,Yes,No[20],Yes,Yes,No
-Batavi,No,Yes,No,No,No,No,No,No,No,No
-Bigcommerce,No,Yes,No,Yes,No,No,No,No,No,No
-Drupal Commerce,No,Yes,Yes,Yes,No,No,Yes,No,No,discontinued[21]
-KonaKart,No,Yes,No,Yes,Yes,Yes,No,No,No,No
-Magento,No,Yes,Yes,No,No,No,No,No,No,No
-nopCommerce,No,No,No,No,Yes,No,No,No,No,No
-OpenCart,No,Yes,Yes,No,No,No,No,No,No,No
-osCommerce,No,Yes,No,No,No,No,No,No,No,No
-pimcore,No,Yes,No,No,No,No,No,No,No,No
-PrestaShop,No,Yes,Yes,No,No,No,No,No,No,No
-Shopify,No,Yes,Yes,No,No,No,No,No,No,No
-Spree Commerce,No,Yes,Yes,Yes,No,No,Yes,No,No,No
-SupaDupa,No,Yes,Yes,No,No,No,No,No,No,No
-WooCommerce,No,Yes,Yes,No[22],No,No,No,No,No,No
-X-Cart,No,Yes,Yes,Yes,No,No,No,No,No,No
-Zen Cart,No,Yes,Yes,No,No,No,No,No,No,No
-,Flat file,MySQL,MySQLi,PostgreSQL,MSSQL,Oracle,SQLite,Firebird,Apache Derby,MongoDB
+,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
+Apache OFBiz,Yes,Yes,Yes,No
+Batavi,Yes,No,Yes,No
+Bigcommerce,Yes,Yes,Yes,No
+Drupal Commerce,Yes,add-on,Yes,No
+KonaKart,Yes,No,Yes,No
+Magento,Yes,Yes,enterprise,No
+Miva Merchant,No,Yes,No,Yes
+nopCommerce,Yes,Yes,Yes,No
+osCommerce,Yes,No,No,No
+pimcore,Yes,No,No,No
+PrestaShop,Yes,Yes,No,No
+Shopify,Yes,Yes,Yes,No
+SupaDupa,Yes,No,No,No
+WooCommerce,No,add-on,No,No
+Zen Cart,Yes,add-on,Yes,No
+,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified

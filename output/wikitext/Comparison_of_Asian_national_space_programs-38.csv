@@ -1,9 +1,4 @@
-Country,Highest payload capacity,,,,,
-,LEO,,,GTO,,
-,Launch Vehicle,Payload capacity,Active since,Launch Vehicle,Payload capacity,Active since
-China,CZ-5,25000kg,2016,CZ-5,14000kg,2016
-Japan,H-IIB,16500kg,2009,H-IIB,8000kg,2009
-India,GSLV MkIII,10000kg,2017,GSLV MkIII,4000kg,2017
-Israel,Shavit,800kg,1988,Not any yet,,
-North Korea,Unha-3,200kg,2009,Not any yet,,
-,Safir-1B,50kg,2008,Not any yet,,
+Country,Spacecraft,Power,Thrust,Specific impulse,Year launched
+Japan,"Hayabusa (?-10, microwave ion thrusters)",350 W,8 mN,3200s,2003
+China,"Shijian 9A (LIPS-200, ring-cusp magnetic field ion thruster)",1 kW,40 mN,3000s,2012
+India,GSAT-20 (Full),,,,2020 (Planned)

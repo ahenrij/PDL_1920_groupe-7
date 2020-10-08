@@ -1,10 +1,17 @@
-Generics,Java,C#
-Implementation,Type erasure,Reification
-Runtime realization,,
-Type variance,Use-site,Declaration-site (only on interfaces)
-Reference type constraint,,
-Value/primitive type constraint,,
-Constructor constraint,,
-Subtype constraint,,
-Supertype constraint,,
-Migration compatibility,,
+Methods and properties,Java,C#
+Static imports,,
+Virtual methods,Virtual by default,Non-Virtual by default
+Abstract,,
+Sealing,,
+Explicit interface implementation,Default methods,
+Value (input) parameters,,
+Reference (input/output) parameters,,
+Output (output) parameters,,
+Constant (immutable) parameters,,
+Variadic methods,,
+Optional arguments,,
+Named arguments,,
+Generator methods,,
+Extension/default methods,,
+Conditional methods,,
+Partial methods,,

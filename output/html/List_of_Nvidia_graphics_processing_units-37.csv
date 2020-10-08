@@ -1,10 +1,9 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
-Quadro 400,GT216GL,40,PCIe 2.0 ×16,450,1125,1540,48:16:4,1.8,7.2,512,12.3,DDR3,64,108,-,10.1,4.5,32,"DisplayPort, Dual Link DVI"
-Quadro 600,GF108GL,,,640,1280,1600,96:164:4,2.56,10.24,1024,25.6,,128,245.76,15,11.0,4.6,40,
-Quadro 2000,GF106GL (GF106-875),,,625,1250,2600,192:324:16,10,20,,41.6,GDDR5,,480,30,,,62,"Stereo DP Dual Link DVI, Dual DisplayPort"
-Quadro 4000,GF100,,,475,950,2800,256:324:32,15.2,15.2,2048,89.6,,256,486.4,243,,,142,
-Quadro 5000,,,,513,1026,3000,352:444:40,20.53,22.572,2560,120,,320,722.304,359,,,152,
-Quadro 6000,,,,574,1148,,448:564:48,27.552,32.144,6144,144,,384,1028.608,515,,,204,
-Quadro 7000,GF110,,,651,1301,3696,512:644:48,31.248,41.7,6144,177,,,1332,667,,,,
-Quadro Plex 7000[202],2x GF100,,,574,1148,3000,2x 512:644:48,2x 18.37,2x 36.74,2x 6144,2x 144,,2x 384,2x 1176,2x 588,,,600,
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce Go 6100 + nForce Go 430,Unknown,C51M,110,HyperTransport,425,System memory,2:1:2:1,850,425,850,106.25,Up to 128 MB system,System memory,DDR2,64/128
+GeForce Go 6150 + nForce Go 430,Unknown,,,,,,,,,,,,,,
+GeForce Go 6200,Unknown,NV44M,,PCIe ×16,300,600,4:3:4:2,1200,600,1200,225,16,2.4,DDR,32
+GeForce Go 6400,Unknown,,,,400,700,,1600,800,1600,250,,5.6,,64
+GeForce Go 6600,Unknown,NV43M,,,300,,8:3:8:4,3000,1500,3000,281.25,128,11.2,,128
+GeForce Go 6800,"November 8, 2004",NV41M,130,,,700 1100,12:5:12:12,,,,375,,22.4 35.2,"DDR, DDR2 DDR3",256
+GeForce Go 6800 Ultra,"February 24, 2005",,,,450,,,5400,3600,5400,562.5,256,,,

@@ -1,21 +1,19 @@
-Desktop publishing software,Windows,Mac OS (X),Linux,BSD,UNIX,Other
-CorelDRAW,,supported versions<11,,,,
-Fatpaint,,,,,,
-Flare,,,,,,
-FrameMaker,,supported versions<7,,,supported versions<8,
-InDesign,,,,,,
-InPage,,,,,,
-iStudio Publisher,,,,,,
-LyX,,,,,,OS/2
-Microsoft Publisher,,,,,,
-OpenOffice.org,,,,,,
-PageMaker*,,,,,,
+Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,HTML,Other
+CorelDRAW,,,,,,"PSD, AI, SWF, WPD"
+Fatpaint,,,,,,"JPG, PNG"
+Flare,,,,,,"DOC, EPUB, HTML5"
+FrameMaker,,,,,,"DOC, WPD"
+InDesign,,,,,,"EPUB, SWF, XML, RTF"
+InPage,,,,,,GIF
+iStudio Publisher,,,,,,"EPUB, RTF"
+LyX,,,,,,"PS, ODF"
+Microsoft Publisher,,,,,,"JPG, PNG, TIFF"
+OpenOffice.org,,,,,,RTF
+PageMaker*,with Distiller,,,,,
 PagePlus,,,,,,
-Pages,,,,,,
-PageStream,,,,,,"AmigaOS, MorphOS"
-QuarkXPress,,,,,,
-"Ready,Set,Go!",,,,,,
-Scribus,,,,,,"OS/2 Warp 4, ArcaOS, eComStation, OpenIndiana, Solaris, Haiku"
+Pages,,,,,,"EPUB, RTF"
+QuarkXPress,,,,,,"EPUB, Kindle, iOS, HTML5"
+Scribus,,,,,,List
 The Print Shop,,,,,,
-Ventura*,,,,,,
-Desktop publishing software,Windows,Mac OS (X),Linux,BSD,UNIX,Other
+Ventura*,,,,,,"RTF, PSD, AI, WPD"
+Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,HTML,Other

@@ -1,38 +1,40 @@
-System,"Documentation integration/generation, reporting",Test planning integration,Customizable workflow,Unicode support,Custom fields,SLA[4],Plugin API[5],Multiple projects,Full-text search,Indexed full-text search,Indexed file search,Edit conflict warning
-Apache Bloodhound,"Yes, integrated wiki",Yes,Yes,Yes,Yes,No,Yes,Yes (as of 0.6),Yes,Yes[6] uses Whoosh,No,No
-Assembla Tickets,"Yes, Wiki syntax, email notification, linking to Subversion commits, document manager, charts, reports, notifications",Yes,Yes,Yes,Yes,No,Yes,Yes,No,Unknown,No,No
-Axosoft,"Yes, Team Wiki, Burndown, GitHub and TortoiseSVN integration, dashboards, custom reports for OnPremises, e-mail notifications and alerts, customer portal, RSS",No,Yes,Yes,Yes,Yes,Yes,Yes,,,,No
-Bugzilla,"Yes, reporting: integrated reports and charts, scheduled reports by mail",Yes[7],Yes,Yes,Yes,No,Yes,Yes,Yes[8],Yes When using MySQL MyISAM[9] or Oracle Database[10] but not PostgreSQL[11],,Yes[12]
-Debbugs,No,No,No,Yes,No,No,No,Unknown,,,No,No
-Faveo Helpdesk,"Yes, Integrated Social Media, In-built Knowledge Base and Reporting",No,Yes,Yes,Yes,Yes,Yes,N/A,Yes,No,No,No
-FogBugz,"Yes, Integrated wiki",No,Yes,Yes,Yes,No,Yes[13],Yes,Yes[14],Yes[15],No[16],Yes
-Fossil,"Yes, Integrated Wiki in addition to integrated versioned project documentation via web ui.",No,No,No,Yes,No,No,Yes[17],No[18],No,,No
-FusionForge,"Yes, integrated Mediawiki, discussion forums, news blogs, email integration, export to CSV, reporting graphs",No,Yes,Yes,Yes,No,Yes,Yes,Yes,,,No
-GLPI,"Yes, Contains a proprietary knowledge base of sorts",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
-GNATS,No,No,No,No,No,No,No,Unknown,,,,No
-HP Quality Center,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,No,No,No
-IBM Rational ClearQuest,"Yes, reporting: integrated charts and interface to Crystal Reports",Yes,Yes,Yes,Yes,No,Yes,Yes,Optional[19],Optional uses Solr and Lucene,,No
-IBM Rational Team Concert,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,,,,No
-Jira,"Yes, Dashboard with reporting widgets (Open Social) Excel, Word, customizable charts, Confluence (Enterprise wiki)",Yes[20],Yes,Yes,Yes,Yes,Yes[21],Yes,Yes[22],Yes Uses Lucene[22],Optional[23],No[24]
-Launchpad,Yes,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,No
-MantisBT,"Yes, Integration of MediaWiki, DokuWiki, XWiki",No,Yes,Yes,Yes,No,Yes,Yes,Yes[25],Yes,No[26],Yes
-Microsoft Dynamics CRM,"Yes, reporting: integrated charts and reports, export to Excel, Mail Merge",No,Yes,Yes,Yes,No,Yes,Unknown,,,,No
-org-mode,"Yes, org-mode has built-in export to HTML, Latex, .md and literate programming capabilities for multiple languages in a single document",No,Yes,Yes,Yes,No,No,Yes,Yes,,,No
-OTRS,"Yes, Advanced reporting, configurable dashboards",No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
-Phabricator,"Yes, integrated wiki and limited burn down charts",Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No
-Pivotal Tracker,"Yes, real time collaborative story backlog, integrated reports, email notification",Yes,No,Yes,No,No,Yes,Yes,,,,No
-Redmine,"Yes, integrated wiki, discussion forums, news blogs, email integration, calendars, Gantt Charts, RSS, export to PDF, export to Excel/CSV",Yes[27],Yes,Yes,Yes,Optional[28],Yes,Yes,Yes[29],"Optional, when using PostgreSQL[30]",Optional[31],Yes[32]
-Request Tracker,"Yes, MediaWiki[33]",No,Yes,Yes,Yes,Yes[34],Yes[35],Yes,Yes[36],Yes[36],,No
-Roundup,"Yes, wiki can be integrated or linked",No,Yes,Yes,Yes,No,Yes[37],Yes,Yes[38],Yes with issues[39],Yes,No
-StarTeam,No,Yes[40],Yes,No,Yes,No,No,Unknown,,,,No
-Supportworks,"Yes - Integrated reporting wizard, customizable PHP reporting tool, dashboard, optional interface with Crystal Reports, export to Microsoft Excel/CSV, knowledge base, optional asset management tool",No,Yes,No,Yes,Yes,Yes[41],Unknown,,,,No
-SysAid,"Yes - LDAP/Email/Calendar integration, integrated Asset Management, integrated reporting, SSO, custom fields, export to CSV/PDF, KB",No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No,No
-Team Foundation Server,"Yes - workflow definitions, process documentation",Yes,Yes,Yes,Yes,No,Yes,Yes,,,,No
-Teamwork,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes[42],Yes Uses Lucene,,No
-TestTrack,"Yes - Advanced reporting, integrated charts, export to Excel, workflow with triggers",Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,,No
-Trac,"Yes, integrated wiki",Yes[43],Yes,Yes,Yes,No,Yes[44],Yes[45],Yes,No[46],,Yes[47]
-TrackerSuite.Net,Yes. Dashboards. Graphical reports. Integration with Crystal Reports. Reports can be exported to Microsoft Excel.,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No
-Tuleap,"Yes, Kanban boards, Scrum planning and burndown charts, pies, Gantt, barrs, cardwall, Document Manager with approval workflow and fine grained permissions, wikis",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes with plugin fulltext,Yes with plugin fulltext,No,No
-Wrike,"Yes, real-time customized reports, export to Excel, scheduled reports by mail, alerts, discussions, Gantt charts,",No,Yes,Yes,Yes,No,Yes,Yes,Unknown,,,Yes
-YouTrack,"Yes: Wiki syntax, custom workflow, custom issue attributes, notifications (email, jabber, RSS, etc.), email integration, reports, export to HTML and CSV, integration with VCSs.",Yes[48],Yes,Yes,Yes,Yes[49],Yes[50],Yes,Yes[51],Yes (Uses Lucene),,No
-System,Dynamic documentation integration/generation,Test planning integration,Customizable workflow,Unicode support,Custom fields,SLA[4],Plugin API[5],Multiple projects,Full-text search,Indexed full-text search,Indexed file search,Edit conflict warning
+System,Creator,License,Implementation language(s),Back end,Launch date,Refs
+Apache Bloodhound,Apache Software Foundation,Apache License,Python,"MySQL, PostgreSQL, SQLite",2012,[1]
+Assembla Tickets,Assembla,"Proprietary, hosted. Available for free for open source projects",Ruby,MySQL,2008,
+Axosoft,Axosoft LLC,"Proprietary, Saas","C#, .NET",SQL Server,2002,
+Bugzilla,Mozilla Foundation,MPL,Perl,"MySQL, Oracle, PostgreSQL, SQLite",1998-09-19,
+Debbugs,Debian,GPL,Perl,"Flat file, Berkeley DB indexes[citation needed]",Between 1994 and 1999[notes 1],
+Faveo Helpdesk,Ladybird Web Solution,Open Software License,PHP,MySQL,2015,
+FogBugz,Glitch,Saas,"ASP on Windows, PHP on macOS, FreeBSD, and Linux","SQL Server, MySQL",2000,[2]
+Fossil,D. Richard Hipp,BSD,C,SQLite,2006,
+FusionForge,Various (open source contributors),GPLv2,PHP,PostgreSQL,2009-02,
+GLPI,INDEPNET,GPLv2,PHP,MySQL,2003-11-17,
+GNATS,Free Software Foundation,GPL,"C, Web Front-end In Perl",Text files with custom daemon/search engine,1992,
+HP Quality Center,"Hewlett-Packard, formerly Mercury Interactive",Proprietary,".NET (client), Java (server)","Oracle, SQL Server",1995,
+IBM Rational ClearQuest,Rational Software,Proprietary,kernel: executables for several platforms; hooks: Perl and Visual Basic,"IBM DB2, Oracle, SQL Server, Access, Sybase ASA",1998,
+IBM Rational Team Concert,Rational Software,Proprietary,kernel: Java; API: Java,"IBM DB2, Oracle, SQL Server, Apache Derby",2008,
+Jira,Atlassian,Proprietary. Free community licenses for open source and academic projects,Java,"MySQL, PostgreSQL, Oracle, SQL Server",2002,
+Launchpad,Canonical Ltd.,AGPL,"JavaScript, Python",PostgreSQL,2004-01,
+MantisBT,Various (open source contributors),GPL,PHP,"ADOdb (MySQL, PostgreSQL, SQL Server, etc.)",2000,
+Microsoft Dynamics CRM,Microsoft,"Proprietary, Commercial",.NET,Microsoft SQL Server,2003,
+OpenProject,OpenProject Foundation e.V.,GPL,"Ruby, JavaScript","MySQL, PostgreSQL, MariaDB",2010,
+org-mode,Carsten Dominik,GPL,Emacs,Flat file,2003,
+OTRS,OTRS,AGPL,"Perl, JavaScript","MySQL, PostgreSQL, Oracle, SQL Server",2002,
+Phabricator,Facebook,Apache License,PHP,,2010,
+Pivotal Tracker,Pivotal Labs,"Proprietary, free version for public projects, non-profits and academic institutions",Ruby,"Ruby on Rails, MySQL, Memcached",2008,
+Redmine,Jean-Philippe Lang,GPLv2,Ruby,"MySQL, PostgreSQL, SQLite",2006,
+Request Tracker,"Best Practical Solutions, LLC",GPLv2,Perl,"MySQL, PostgreSQL, Oracle, SQLite",1999-10-13,
+Roundup,"Ka-Ping Yee, Richard Jones",MIT license (ZPL v 2.0 for the template system),Python,"SQLite, MySQL, PostgreSQL, Berkeley DB",2001,
+StarTeam,"originally Starbase Corporation, currently Borland",Proprietary,"C++, Java, etc.","SQL Server recommended, Oracle, DB2 supported",Unknown,
+Supportworks,Hornbill Systems,Proprietary,C++ and PHP,"SQL Server, MySQL, Oracle, Sybase",1994[3],
+SysAid,SysAid Technologies,Proprietary,"C#, Java","Derby, Microsoft SQL Server, MySQL, Oracle",2002,
+Team Foundation Server,Microsoft,"Proprietary, Commercial",.NET,MS SQL Server 2005 & 2008,2005,
+TestTrack,Seapine Software,Proprietary,"C++, Qt4, JavaScript","Oracle, PostgreSQL, SQL Server, SQLite",1996,
+Trac,Edgewall Software,New BSD,Python,"SQLite, PostgreSQL, MySQL",2006-10-01,
+TrackerSuite.Net,Automation Centre,Proprietary,C#,"SQL Server, SQL Server Express",2006,
+Trello,Atlassian,Saas,Node.js,MongoDB,2011,
+Tuleap,enalean,GPLv2,php,"LAMP, MySQL",2011,
+Twproject,Open Lab,"Proprietary, some parts LGPL",Java,all relational (uses Hibernate),2003,
+Wrike,"Wrike, Inc.","Proprietary, hosted",Java,PostgreSQL,2006,
+YouTrack,JetBrains s.r.o.,"Proprietary, stand-alone and hosted, free version, free for open source projects",Java,JavaScript and Kotlin,2009,
+System,Creator,License,Implementation language(s),Back end,Launch date,Refs

@@ -1,22 +1,27 @@
 ,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
-Interface StyleSheet,,,,,,,
-DOM2,type,6.0,?,1.0,Yes,?,2.0
-,disabled,,?,,,?,
-,ownerNode,No,?,,,?,
-,parentStyleSheet,6.0,?,,,?,
-,href,8.0,?,,,?,
-,title,6.0,?,,,?,
-,media,Incorrect,?,,,?,
-Interface StyleSheetList,,,,,,,
-DOM2,length,6.0,?,1.0,Yes,?,2.0
-,item(),,?,,,?,
-Interface MediaList,,,,,,,
-DOM2,mediaText,No,?,1.0,Yes,?,2.0
-,length,,?,,,?,
-,item(),,?,,,?,
-,deleteMedium(),,?,,,?,
-,appendMedium(),,?,,,?,
-Interface LinkStyle,,,,,,,
-DOM2,sheet,No,?,1.0,No,?,2.0
-Interface DocumentStyle,,,,,,,
-DOM2,styleSheets,No,?,1.0,No,?,2.0
+Interface NodeIterator,,,,,,,
+DOM2,root,No,?,1.9.1,?,?,1.0
+,whatToShow,,?,,?,?,
+,filter,,?,,?,?,
+,expandEntityReferences,,?,,?,?,
+,nextNode(),Yes,?,,?,?,2.0
+,previousNode(),,?,,?,?,
+,detach(),No,?,,?,?,1.0
+Interface NodeFilter,,,,,,,
+DOM2,acceptNode(),No,?,1.0,?,?,1.0
+Interface TreeWalker,,,,,,,
+DOM2,root,No,?,1.0,?,?,1.0
+,whatToShow,,?,,?,?,
+,filter,,?,,?,?,
+,expandEntityReferences,,?,,?,?,
+,currentNode,,?,,?,?,
+,parentNode(),,?,,?,?,
+,firstChild(),,?,,?,?,
+,lastChild(),,?,,?,?,
+,previousSibling(),,?,,?,?,
+,nextSibling(),,?,,?,?,
+,previousNode(),,?,,?,?,
+,nextNode(),,?,,?,?,
+Interface DocumentTraversal,,,,,,,
+DOM2,createNodeIterator(),No,?,1.9.1,?,?,1.0
+,createTreeWalker(),,?,1.0,?,?,

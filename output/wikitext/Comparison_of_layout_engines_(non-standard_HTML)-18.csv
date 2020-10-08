@@ -1,11 +1,14 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
-Element identifiers,,,,,
-id,rowspan="2" 3.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-class,,,,,
-Inline styles,,,,,
-style,3.0,1.0,,,1.0
-Advisory information,,,,,
-title,4.0,1.0,,,1.0
-Language information,,,,,
-lang,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-dir,5.0,,,,
+Basic table elements,,,,,
+table,rowspan="5" 4.0,rowspan="5" 1.0,rowspan="5" ,rowspan="5" ,rowspan="5" 1.0
+caption,,,,,
+tr,,,,,
+th,,,,,
+td,,,,,
+Row groups,,,,,
+thead,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+tbody,,,,,
+tfoot,,,,,
+Column groups,,,,,
+colgroup,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+col,,,,,

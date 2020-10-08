@@ -1,24 +1,24 @@
-Shell,Secure (password) prompt,Encrypted variables/ parameters,File/directory passwords,Execute permission,Untrusted script blocking,Restricted shell subset,Safe data subset
-Bourne shell,via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
-POSIX shell,via stty[nb 20],No,?,N/A[nb 21],No,No,No
-bash (v4.0),read -s,No,?,N/A[nb 21],No,Yes,No
-csh,via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
-tcsh,via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
-Hamilton C shell,No,No,No,No,No,No,No
-Scsh,via stty[nb 20],No,?,N/A[nb 21],No,No,No
-ksh (ksh93t+),via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
-pdksh,via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
-zsh,read -s,No,?,N/A[nb 21],No,Yes,No
-ash,via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
-CCP,No,No,No,No,No,No,No
-COMMAND.COM,"Partial (only under DR-DOS, prompts for password if file/directory is protected)",No,Partial (only under DR-DOS via \dirname;dirpwd\filename;filepwd syntax)[nb 22],"Partial (only under DR-DOS, if files are password-protected for read and/or execute permission)[nb 23]",No,No,No
-OS/2 CMD.EXE,No,No,No,No,No,No,No
-Windows CMD.EXE,No,No,No,No,No,No,No
-4DOS,Yes (via INPUT /P or INKEY /P)[nb 24],No,Partial (only under DR-DOS via \dirname;;dirpwd\filename;;filepwd syntax)[nb 22],"Partial (only under DR-DOS, if files are password-protected for read and/or execute permission)[nb 23]",No,No,No
-4OS2,?,No,No,No,No,No,No
-TCC (formerly 4NT),"Yes (via INPUT /P, INKEY /P or QUERYBOX /P)[nb 24]",No,No,No,No,No,No
-PowerShell,Yes[nb 25],Yes,No,No[nb 26],Yes[53],Yes[nb 27],Yes[54]
-rc,via stty[nb 20],No,?,N/A[nb 21],No,Yes[55],No
-BeanShell,?,?,?,?,?,?,?
-VMS DCL,Yes,No,No,Yes,No,Yes,No
-fish,read -s,No,?,N/A[nb 21],No,Yes (via fish -l),?
+Shell,Pipes,Command substitution,Process substitution,Subshells,TCP/UDP connections as streams,Keystroke stacking
+Bourne shell,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+POSIX shell,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+bash (v4.0),bytes concurrent,Yes,Yes (if system supports /dev/fd/?n? or named pipes),Yes,Yes (client only),N/A[nb 19]
+csh,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+tcsh,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+Hamilton C shell,bytes concurrent,Yes,No,Yes,No,?
+Scsh,text,?,?,?,Yes,N/A[nb 19]
+ksh (ksh93t+),bytes (may contain serialized objects if print -C is used) concurrent,Yes ( $(...) and ${<space>...;}),Yes (if system supports /dev/fd/?n?),Yes,"Yes (and SCTP support, client only)",N/A[nb 19]
+pdksh,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+zsh,bytes concurrent,Yes,Yes,Yes,"Yes (client and server, but only TCP)",N/A[nb 19]
+ash,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+CCP,No,No,No,No,No,No
+COMMAND.COM,text sequential temporary files,No,No,Partial (only under DR-DOS multitasker via COMMAND.COM /T),No,No
+OS/2 CMD.EXE,text concurrent,No,No,?,No,No
+Windows CMD.EXE,text concurrent,Yes (via FOR /F command),No,Yes (Backtick: ` in FOR /F usebackq),No,No
+4DOS,text sequential temporary files,Yes (via FOR /F command),?,"Partial (via %@EXECSTR[] and %@EXEC[], or via SET /M, ESET /M and UNSET /M and %@MASTER[...])",No,Yes (via KEYSTACK and KSTACK)[51]
+4OS2,text concurrent,?,?,?,No,Yes (via KEYSTACK)
+TCC (formerly 4NT),text concurrent,Yes (via FOR /F command),?,Partial (via %@EXECSTR[] and %@EXEC[]),"Yes (via FTP, TFTP, FTPS, SFTP, HTTP, HTTPS and IFTP, client only)",Yes (via KEYSTACK)
+PowerShell,objects concurrent,Yes,No,Yes,Yes,?
+rc,text concurrent,Yes,Yes (via: <{cmd} if system supports /dev/fd/?n?),Yes,No,?
+BeanShell,not supported,?,?,?,Yes,?
+VMS DCL,text (via PIPE command),Yes,No,Yes (spawn),Yes (server TCP only),No
+fish,bytes concurrent,Yes ( ...),No (broken)[52],No,No,N/A[nb 19]

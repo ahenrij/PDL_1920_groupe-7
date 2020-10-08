@@ -1,16 +1,12 @@
-,Product image attaching,Product rating,Product reviews,Quotes,Reordering,Returns,Searching,Search as user types,Search cloud,"Site map, viewable",Social bookmarking,Tell friends,Wish list
-Apache OFBiz,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
-Batavi,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes
-Bigcommerce,Yes,3rd party,3rd party,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
-Drupal Commerce,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-KonaKart,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes
-nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Magento,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-osCommerce,No,Yes,Yes,No,No,No,Yes,Add-on,No,No,Yes,Yes,No
-pimcore,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-PrestaShop,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Shopify,Yes,Yes,Yes,Yes,Yes,Yes,Yes,3rd party,3rd party,Yes,Yes,Yes,Yes
-SupaDupa,Yes,No,No,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,No
-WooCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Zen Cart,Yes,Yes,Yes,Yes,No,Add-on[27],Yes,3rd party[28],No,Yes,Add-on[29],Yes,Add-on[30]
-,Product image attaching,Product rating,Product reviews,Quotes,Reordering,Returns,Searching,Search as user types,Search cloud,"Site map, viewable",Social bookmarking,Tell friends,Wish list
+,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS,Purolator
+Apache OFBiz,No,No,Yes,Yes,No,Yes,Yes,No
+Bigcommerce,Yes,Yes,No,Yes,No,Yes,Yes,No
+KonaKart,No,No,No,Yes,No,Yes,Yes,No
+Magento,No,Yes,Yes,Yes,No,Yes,Yes,Yes
+nopCommerce,Yes,Yes,No,Yes,No,Yes,Yes,No
+osCommerce,No,No,No,No,No,No,No,No
+PrestaShop,Yes,Yes,No,Yes,No,Yes,Yes,Yes
+Shopify,No,add-on,No,No,No,Yes,Yes,No
+WooCommerce,No,Yes,No,No,No,Yes,No,No
+Zen Cart,add-on,add-on,add-on,add-on,Yes,add-on,Yes,Yes
+,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS,Purolator

@@ -1,24 +1,19 @@
-Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
-GeForce 6100 + nForce 410,"October 20, 2005",MCP51,TSMC 90 nm,HyperTransport,425,100–200 (DDR) 200–533 (DDR2),2:1:2:1,850,425,850,106.25,Up to 256 system RAM,1.6–6.4 (DDR) 3.2–17.056 (DDR2),DDR DDR2,64 128
-GeForce 6150 SE + nForce 430,June 2006,MCP61,,,,200 400[citation needed],,,,,,,3.2 16.0[citation needed],DDR2,
-GeForce 6150 LE + nForce 430,,MCP61,,,,100–200 (DDR) 200–533 (DDR2),,,,,,,1.6–6.4 (DDR) 3.2–17.056 (DDR2),DDR DDR2,
-GeForce 6150 + nForce 430,"October 20, 2005",MCP51,,,475,,,950,475,950,118.75,,1.6–6.4 (DDR) 3.2–17.056 (DDR2),,
-GeForce 6200 LE,2005,NV44,TSMC 110 nm,AGP 8× PCIe ×16,350,266,,700,700,700,87.5,128 256,4.256,DDR,64
-GeForce 6200A,"April 4, 2005",NV44A,,AGP 8×,350[7],250 533 (DDR2)[7],4:3:4:2,1400[7],700[7],1400[7],175 225 (DDR2)[8],128 256 (DDR2)[7] 512 (DDR2)[7],4 13.3 (DDR2)[9],DDR DDR2[8],64[8]
-GeForce 6200,"October 12, 2004 (PCIe) January 17, 2005 (AGP)",NV43,,AGP 8× PCI PCIe ×16,300,275,4:3:4:4,1200,1200,1200,225,128 256,8.8,DDR2,128
-GeForce 6200 TurboCache,"December 15, 2004",NV44,,PCIe ×16,350,350,4:3:4:2,1400,700,1400,262.5,128–256 System RAM incl.16/32–64/128 onboard,5.6,DDR,64
-GeForce 6500,"October 1, 2005",,,,400,333,,1600,800,1600,300,128 256,5.328,,
-GeForce 6600 LE,2005,NV43,,AGP 8× PCIe ×16,300,200,4:3:4:4,1200,1200,1200,225,,6.4,,128
-GeForce 6600,"August 12, 2004",,,,,275 400,8:3:8:4,2400,,2400,,,8.8 12.8,DDR DDR2,
-GeForce 6600 GT,"August 12, 2004 (PCIe) November 14, 2004 (AGP)",,,,500,475 (AGP) 500 (PCIe),,4000,2000,4000,375,,15.2[10] (AGP) 16 (PCIe),GDDR3,
-GeForce 6800 LE,"July 22, 2004 (AGP) January 16, 2005 (PCIe)","NV40 (AGP) NV41, NV42 (PCIe)",IBM 130 nm,,320 (AGP) 325 (PCIe),350,8:4:8:8,2560 (AGP) 2600 (PCIe),2560 (AGP) 2600 (PCIe),2560 (AGP) 2600 (PCIe),320 (AGP) 325 (PCIe),128,22.4,DDR,256
-GeForce 6800 XT,"September 30, 2005",,,,300 (64 Bit) 325,266 (64 Bit) 350 500 (GDDR3),,2400 2600,2400 2600,2400 2600,300 325,256,4.256 11.2 22.4 32 (GDDR3),DDR DDR2 GDDR3,64[11] 128[12] 256
-GeForce 6800,"April 14, 2004 (AGP) November 8, 2004 (PCIe)",,,,325,350,12:5:12:12,3900,3900,3900,406.25,128 256,22.4,DDR,256
-GeForce 6800 GTO,"April 14, 2004",NV45,,PCIe ×16,,450,,4200,4200,4200,437.5,256,28.8,GDDR3,
-GeForce 6800 GS,"November 7, 2005 (PCIe) December 8, 2005 (AGP)",NV42 (PCIe) NV40 (AGP),TSMC 110 nm,AGP 8× PCIe ×16,425 (PCIe) 350 (AGP),500,,5100,5100,5100,531.25,128 256,32,,
-GeForce 6800 GT,"May 4, 2004 (AGP) June 28, 2004 (PCIe)",NV40 (AGP) NV45 (PCIe),IBM 130 nm,AGP 8× PCIe ×16,350,,16:6:16:16,5600,5600,5600,525,,,,
-GeForce 6800 Ultra,"May 4, 2004 (AGP) June 28, 2004 (PCIe) March 14, 2005 (512 MB)",,,,400,525 (512 MB) 550 (256 MB),,6400,6400,6400,600,256 512,33.6 (512 MB) 35.2 (256 MB),,
-GeForce 6800 Ultra Extreme Edition,"May 4, 2004",NV40,,AGP 8×,450,600,,7200,7200,7200,675,256,35.2,,
-Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Model,Launch,Code name,Fab (nm)[2],Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TDP (Watts),Comments
+,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,,
+GeForce 9300 mGPU,October 2008,MCP7A-S,65 nm,282,162,PCIe 2.0 ×16,16:8:4,450,1200,400 666,1.8,3.6,Up to 512 from system memory,6.4/12.8 10.664/21.328,DDR2 DDR3,64 128,10.0,3.3,57.6,Unknown,based on 8400 GS
+GeForce 9400 mGPU,,MCP7A-U,,,,,,580,1400,,2.32,4.64,,,,,,,67.2,12,
+GeForce 9300 GE[18],June 2008,G98,TSMC 65 nm,210,86,,8:8:4,540,1300,500,2.16,4.32,256,8.0,DDR2,64,,,20.8,25,
+GeForce 9300 GS[18],,,,,,,,567,1400,,2.268,4.536,,,,,,,22.4,,
+GeForce 9400 GT,"August 27, 2008",G96-200-c1 G96a G96b,TSMC 55 nm,314,144,PCIe 2.0 ×16 PCI,16:8:4,550,,400 800,2.2,4.4,256 512 1024,12.8 25.6,DDR2 GDDR3,128,,,44.8,50,
+GeForce 9500 GT,"July 29, 2008",G96-300-C1,UMC 65 nm,,,,32:16:8,,,500 800,4.4,8.8,,16.0 25.6,DDR2 GDDR3,,,,89.6,,
+GeForce 9600 GS,,G94a,TSMC 65 nm,505,240,,48:24:12,500,1250,500,6,12,768,24.0,DDR2,192,,,120,Unknown,OEM
+GeForce 9600 GSO,May 2008,G92-150-A2,,754,324,PCIe 2.0 ×16,96:48:12,550,1375,800,6.6,26.4,384 768 1536,38.4,GDDR3,,,,264,84,
+GeForce 9600 GSO 512,October 2008,G94a G94b,TSMC 65 nm TSMC 55 nm,505,240 196?[citation needed],,48:24:16,650,1625,900,10.4,15.6,512,57.6,,256,,,156,90,
+GeForce 9600 GT Green Edition,2009,G94b,TSMC 55 nm,,196?[citation needed],,64:32:16,600 625,1500 1625,700/900 900[citation needed],9.6 10.0,19.2 20.0,512 1024,44.8/57.6 57.6[citation needed],,,,,192 208,59,Core Voltage = 1.00v
+GeForce 9600 GT,"February 21, 2008",G94-300-A1,TSMC 65 nm,,240 196?[citation needed],,,650,1625,900,10.4,20.8,,57.6,,,,,208,95,
+GeForce 9800 GT Green Edition,2009,G92a2 G92b,TSMC/UMC 65 nm TSMC/UMC 55 nm,754,324 260,,112:56:16,550,1375,700 800 900,8.8,30.8,,44.8 51.2 57.6,,,,,308,75,Core Voltage = 1.00v
+GeForce 9800 GT,July 2008,G92a G92b,UMC 55 nm,,,,,600,1500,900,9.6,33.6,,57.6,,,,,336,125 105,
+GeForce 9800 GTX,"April 1, 2008",G92-420-A2,TSMC 65 nm,,324,,128:64:16,675,1688,1100,10.8,43.2,512,70.4,,,,,432,140,
+GeForce 9800 GTX+,"July 16, 2008",G92b,TSMC 55 nm,,260,,,738,1836,1100,11.808,47.232,512 1024,,,,,,470,141,
+GeForce 9800 GX2,"March 18, 2008",2× G92,TSMC/UMC 65 nm,2× 754,2× 324,,2× 128:64:16,600,1500,1000,2× 9.6,2× 38.4,2× 512,2× 64.0,,2× 256,,,2× 384,197,
+Model,Launch,Codename,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Comments

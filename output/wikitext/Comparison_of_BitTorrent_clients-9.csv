@@ -1,5 +1,27 @@
-BitTorrent library,Super-seeding,Tracker,UPnP [35],NAT Port Mapping Protocol,NAT traversal [36],DHT [37],Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,?TP
-libtorrent (Rasterbar),,,,,,,,,,,,,
-MonoTorrent,,,,,,,,,,,,,
-rTorrent (libTorrent Rakshasa),,,,,,,,,,,,,
-BitTorrent library,Super-seeding,Tracker,UPnP,NAT Port Mapping Protocol,NAT traversal,DHT,Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,?TP
+BitTorrent client,Windows,macOS,Linux,BSD,iOS,Android,Other
+BitComet,,,,,,,
+BitLord,,,,,,,
+BitTorrent,,,,,,,
+Deluge,,,,,,,Solaris
+FlashGet,,,,,,,
+Free Download Manager,,,,,,,
+Frostwire,,,,,,,"Unix-like,[8] z/OS,[9] Solaris, OS/2, eComStation, ArcaOS[10]"
+KGet,,,,,,,
+KTorrent,,,,,,,
+Lftp,,,,,,,
+LimeWire,,,,,,,date=June 2017
+Miro,,,,,,,
+MLDonkey,,,,,,,"Solaris, MorphOS"
+?Torrent,,,Web,,,,
+Opera 12,,,,,,date=March 2017,Solaris
+qBittorrent,,,,,,,"OS/2 (including eComStation and ArcaOS), FreeBSD, Haiku[13]"
+Robert,,,,,,,
+rTorrent,"Yes, through Cygwin[15]",,,,,,Solaris
+Shareaza,,,,,,,
+Tixati,,,,,,,
+Tonido,,,,,,,
+Transmission,,,,,",,"Solaris, OpenWrt"
+Tribler,,,,,,,
+Vuze,,,,,,,
+Xunlei,,,,,,date=March 2017,
+Name,Windows,Mac OS X,Linux,BSD,iOS,Android,Other

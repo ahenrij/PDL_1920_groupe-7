@@ -1,17 +1,16 @@
-,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
-Apache OFBiz,Yes,Yes,Yes,No
-Batavi,Yes,No,Yes,No
-Bigcommerce,Yes,Yes,Yes,No
-Drupal Commerce,Yes,add-on,Yes,No
-KonaKart,Yes,No,Yes,No
-Magento,Yes,Yes,enterprise,No
-Miva Merchant,No,Yes,No,Yes
-nopCommerce,Yes,Yes,Yes,No
-osCommerce,Yes,No,No,No
-pimcore,Yes,No,No,No
-PrestaShop,Yes,Yes,No,No
-Shopify,Yes,Yes,Yes,No
-SupaDupa,Yes,No,No,No
-WooCommerce,No,add-on,No,No
-Zen Cart,Yes,add-on,Yes,No
-,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
+,Coupons,Gift certificates,Membership discounts,Membership-only categories,Membership-only products,Reward points,Special offers
+Apache OFBiz,Yes,Yes,Yes,No,Yes,No,Yes
+Batavi,No,No,Yes,No,No,No,Yes
+Bigcommerce,Yes,Yes,Yes,Yes,Yes,3rd party,Yes
+Drupal Commerce,Yes,Yes,Yes,Yes,Yes,No,Yes
+KonaKart,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Magento,Yes,Yes,Yes,Yes,Yes,Yes (Enterprise Edition),Yes
+nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+osCommerce,Add-on,Add-on,No,No,No,No,Yes
+pimcore,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Shopify,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+SupaDupa,Yes,Yes,No,No,No,No,Yes
+WooCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Zen Cart,Yes,Yes,Yes,Add-on[31],Add-on[31],Yes[32],Yes
+,Coupons,Gift certificates,Membership discounts,Membership-only categories,Membership-only products,Reward points,Special offers

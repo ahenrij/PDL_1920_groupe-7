@@ -1,7 +1,10 @@
-Threading and Synchronization,Java,C#
-Threads,Yes,Yes
-Thread pool,Yes,Yes
-Task-based parallelism,Yes[85],Yes[86]
-Semaphores,Yes,Yes
-Monitors,Yes,Yes
-Thread-local variables,Yes,Yes; ThreadStaticAttribute and ThreadLocal<T> class
+Java,C#
+"// Is valid, as numbers is an object of type short[]
+ short[] numbers = new short[100];
+
+ // Is valid, but it isn't clear code
+ double values[] = new double[100];","// Is valid, as numbers is an object of type short[]
+ short[] numbers = new short[100];
+
+ // Won't compile!
+ double values[] = new double[100];"

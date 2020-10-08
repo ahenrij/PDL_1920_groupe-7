@@ -1,21 +1,18 @@
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
-GeForce 4057,"September 16, 2011",GT216 GT218,40 nm,486 260,100 57,1,48:16:8 16:8:4,475 589,1100 1402,800 790,3.8 2.36,7.6 4.71,512 1024,12.6,DDR3,64,n/a[29],10.1,3.3,1.1,105.6 44.86,Unknown,30.5,OEM
-GeForce GT 420,"September 3, 2010",GF108,TSMC 40 nm,585,116,,48:4:4,700,1400,1800,2.8,2.8,512,28.8,GDDR3,128,,12 FL 11_1,4.6,,134.4,Unknown,50,
-GeForce GT 430,"October 11, 2010",GF108 GF108-300-A1,,,,2,96:16:4,,,1600 1800,,11.2,512,25.6 28.8,,,,,,1.2,268.8,Unknown,60,
-,,,,,,,,,,1800,,,512 1024 2048,28.8,,128,,,,1.1,268.8,Unknown,49,$79
-,,,,,,,,,,1300,,,,10.4,,64,,,,,,,,
-GeForce GT 440,"February 1, 2011",GF108,,,,,,810,1620,1800 3200,3.24,12.96,1024,28.8 51.2,GDDR3 GDDR5,128,,,,,311.04,Unknown,65,$100
-,"October 11, 2010",GF106,,1170,238,3,144:24:24,594,1189,1800,14.26,14.26,1536 3072,43.2,GDDR3,192,,,,,342.43,Unknown,56,OEM
-GeForce GTS 450,,,,,,,,790,1580,4000,18.96,18.96,1536,96,GDDR5,,,,,,455.04,Unknown,106,
-,"September 13, 2010 March 15, 2011",GF106-250 GF116-200,,,,4,192:32:16,783,1566,3608,12.53,25.06,512 1024,57.73,,128,,,,,601.34,Unknown,106,$129
-GeForce GTX 460 SE,"November 15, 2010",GF104-225-A1,,1950,332,6,288:48:32,650,1300,3400,20.8,31.2,1024,108.8,,256,,,,,748.8,Unknown,150,$160
-GeForce GTX 460,"October 11, 2010",GF104,,,,7,336:56:32,,,,,36.4,1024,108.8,,,,,,,873.6,Unknown,,OEM
-,"July 12, 2010",GF104-300-KB-A1,,,,,336:56:24,675,1350,3600,16.2,37.8,768,86.4,,192,,,,,907.2,Unknown,,$199
-,,,,,,,336:56:32,,,,21.6,,1024 2048,115.2,,256,,,,,,,160,$229
-,"September 24, 2011",GF114,,,,,336:56:24,778,1556,4008,18.67,43.57,1024,96.2,,192,,,,,1045.6,Unknown,,$199
-GeForce GTX 465,"May 31, 2010",GF100-030-A3,,3000[30],529,11,352:44:32,607,1215,3206,19.42,26.71,1024,102.6,,256,,,,1.2,855.36,106.92,2004,$279
-GeForce GTX 470,"March 26, 2010",GF100-275-A3,,,,14,448:56:40,,,3348,24.28,34,1280,133.9,,320,,,,,1088.64,136.08,2154,$349
-GeForce GTX 480,"March 26, 2010",GF100-375-A3,,,,15,480:60:48,700,1401,3696,33.60,42,1536,177.4,,384,,,,,1344.96,168.12,2504,$499
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config[a],Bus interface,L2 Cache(MB),Clock speeds,,,Memory,,,,Fillrate[b],,Processing power (GFLOPS)[b],,,,Ray-tracing Performance,,TDP (Watts)
+,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)[c],Texture (GT/s)[d],Single precision,Double precision,Half precision,Tensor compute (FP16),Rays/s (Billions),RTX OPS/s (Trillions),
+GeForce MX230[183],"February 20, 2019",GP108 (N17S-G0),14,1.8,70,256:16:16,PCIe 3.0 x4,0.5,1519,1531,7000,2 4,56,GDDR5,64,25.31,25.31,810.0,25.31,12.66,N/A,N/A,N/A,10
+GeForce MX250[184][185],,GP108 (N17S-G2),,,,384:24:16,,,1518,1582,,,,,,24.3,36.4,1166,37.97,18.98,,,,25
+,,GP108B,,,,,,,937,1038,,,48.06,,,16.61,24.91,797.2,24.91,12.46,,,,10
+GeForce MX330[186],"February 12, 2020",GP108 (N17S-G3),,,,,,,1531,1594,,,56,,,25.50,38.26,1224,38.26,19.13,,,,25
+GeForce MX350[187],,GP107 (N17S-G5),,3.3,135,640:32:16,,,1354,1468,,,,,,23.49,46.98,1879,58.72,29.36,,,,20
+GeForce MX450[188],"August 1, 2020",TU117 (N18S-G5),?,?,?,896:?:?,?,?,1395,1575,?,?,?,?,?,?,,,,,,,,
+GeForce RTX 2060[189],"January 29, 2019",TU106,TSMC 12FFN,10.8,445,1920:120:48:240:30 (30) (3),PCIe 3.0 x16,3,960,1200,14000,6,336.0,GDDR6,192,57.6,144,4608,144.0,9216,,,,80
+GeForce RTX 2060 Max-Q[190],,,,,,,,,975,1175,11000,,264.0,,,56.88,142.2,4550,142.2,9101,,,,65
+GeForce RTX 2070[191],,,,,,2304:144:64:288:36 (36) (3),,4,1215,1440,14000,8,448.0,,256,92.16,207.4,6636,207.4,13270,,,,115
+GeForce RTX 2070 Max-Q[192],,,,,,,,,885,1185,12000,,,,,75.84,170.6,5460,170.6,10920,,,,80
+GeForce RTX 2070 Super[193],"April 2, 2020",TU104,,13.6,545,2560:160:64:320:40 (40) (5),,,1140,1380,14000,,,,,88.3,220.8,7066,220.8,14130,,,,115
+GeForce RTX 2070 Super Max-Q[194],,,,,,,,,930,1155,12000,,,,,69.1,172.8,5530,172.8,11060,,,,80
+GeForce RTX 2080[195],"January 29, 2019",,,,,2944:184:64:368:46 (46) (6),,,1380,1590,14000,,384.0,,,101.8,292.6,9362,292.6,18720,,,,150
+GeForce RTX 2080 Max-Q[196],,,,,,,,,735,1095,12000,,,,,70.08,201.5,6447,201.5,12890,,,,80
+GeForce RTX 2080 Super[197],"April 2, 2020",,,,,3072:192:64:384:48 (48) (6),,,1365,1560,14000,,448.0,,,99.8,299.5,9585,299.5,19170,,,,150
+GeForce RTX 2080 Super Max-Q[198],,,,,,,,,735,1080,11000,,352.0,,,69.1,207.4,6636,207.4,13270,,,,80

@@ -1,3 +1,4 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Wine Dataset,Chemical analysis of wines grown in the same region in Italy but derived from three different cultivars.,13 properties of each wine are given,178,Text,"Classification, regression",1991,[314][315],M. Forina et al.
-Combined Cycle Power Plant Data Set,Data from various sensors within a power plant running for 6 years.,None,9568,Text,Regression,2014,[316][317],P. Tufekci et al.
+Bike Sharing Dataset,Hourly and daily count of rental bikes in a large city.,"Many features, including weather, length of trip, etc., are given.","17,389",Text,Regression,2013,[443][444],H. Fanaee-T
+New York City Taxi Trip Data,Trip data for yellow and green taxis in New York City.,"Gives pick up and drop off locations, fares, and other details of trips.",6 years,Text,"Classification, clustering",2015,[445],New York City Taxi and Limousine Commission
+Taxi Service Trajectory ECML PKDD,Trajectories of all taxis in a large city.,"Many features given, including start and stop points.","1,710,671",Text,"Clustering, causal-discovery",2015,[446][447],M. Ferreira et al.

@@ -1,7 +1,4 @@
-Model,Launch,Core,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate (GT/s),Memory,,,,API compliance (version),,TDP / idle (watts),Notes
-,,,,,,,,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
-FireMV 2200 PCI.[207],January 2006,RV280 GL,PCI,240,200,1:4:4:4,0.96,64,3.2,DDR,64,8.1,1.4,15,DMS-59 for dual DVI-D output
-FireMV 2200 PCIe.[208],,RV370,PCIe x16,324,196,2:4:4:4,1.296,128,,,,9.0,2.1,,
-FireMV 2260[209],January 2008,RV620,"PCIe 2.0 x1/x16, PCI",600,500,40(8×5):4:4,2.4,256,32,DDR2,256,10.1[210],3.3,15/8,Dual DisplayPort (with adapters: DVI-D)
-FireMV 2400 PCI.[211],,RV380,PCI,500,,2:4:4:4,2.0,128,16,DDR,128,9.0b,2.1,20,"2x VHDCI for quad DVI-D output, VGA"
-FireMV 2400 PCIe.[212],,,PCIe x1,500,,,,256,,DDR3,,,,,
+Model (Codename),Launch,Architecture (Fab),Transistors Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TBP,Bus interface,Release Price (USD)
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,,
+Radeon Vega Frontier Edition (Air Cooled)[291][292],27 June 2017,GCN 5th gen (14 nm),12.5×109 484 mm2,4096:256:64,1382,409.6,102.4,22643,11321,707.6,HBM2 2048-bit,16,1890,483.8,300 W,PCIe 3.0 ×16,$999
+Radeon Vega Frontier Edition (Liquid Cooled)[291][292],,,,,1600,,,26214,13107,819.2,,,,,350 W,,$1499

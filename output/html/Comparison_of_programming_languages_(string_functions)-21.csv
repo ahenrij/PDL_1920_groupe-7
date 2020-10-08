@@ -1,2 +1,2 @@
-Definition,"concatenate(string1,string2) returns string."
-Description,"Concatenates (joins) two strings to each other, returning the combined string. Note that some languages like C have mutable strings, so really the second string is being appended to the first string and the mutated string is returned."
+Definition,"left(string,n) returns string"
+Description,"Returns the left n part of a string. If n is greater than the length of the string then most implementations return the whole string (exceptions exist – see code examples). Note that for variable-length encodings such as UTF-8, UTF-16 or Shift-JIS, it can be necessary to remove string positions at the end, in order to avoid invalid strings."

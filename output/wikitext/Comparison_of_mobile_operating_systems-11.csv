@@ -1,25 +1,7 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-Default web browser/engine,Blink,WebKit,WebKit,Gecko[125],Qt WebEngine (based on Blink)
-Major web browser available,"Chrome for Android, Opera, Firefox, Microsoft Edge","Safari, Chrome for iOS, Opera Touch, Firefox, Microsoft Edge",Tizen Browser (Based on UC Browser),"Sailfish Browser (Firefox), Webcat (WebKit), Web Pirate (WebKit), others via Android (Firefox, Chrome, Opera)",Morph Browser
-Browser extensions,,8+[128],,,
-Browser direct Internet connection (increased resilience to outages),,,,?,?
-Browser undo close tab,Google Chrome for Android[129],8+[130],,,
-Browser keeps windows open on shutdown or crash,2.3+ Google Chrome[131] but not on the deprecated AOSP browser[132],,,,
-Browser keeps windows open when cleaning cookies,,3rd party software[133],?,,
-Browser search engine options,Many[134],"Bing, Google, Yahoo! Search, DuckDuckGo","Bing, Google, Yahoo! Search","Bing, Google, Yahoo, Yandex. Baidu, DuckDuckGo, StartPage, Searx, ixquick, Swisscows, Qwant, Seznam, Hulbee via openrepos[135]","Baidu, Bing, DuckDuckGo, Ecosia, Google, lilo, Peekier, Qwant, Wikipedia, Yahoo[136]"
-Browser find on page,1.5+[137],,,1.1.2+[139],
-Browser–email save images,,,?,,
-Browser–email save PDFs,,,,,
-Browser save audio/video,"Yes, but only links, not embedded media",13+;[141] 5+: 3rd party software[142],,,
-Browser save page,",6+: Offline Reading List;[144] 3rd party software[145],,?,
-Browser save any file,",13+;[141] 5+: When an app that can handle/open the filetype is installed (excluding audio/video – requires 3rd party software[146]);[147],?,,
-Browser force enable zoom,",,?,?,?
-Browser text reflow[150],",5+: Only on pages with reader mode available[153][154] 3rd party browsers on prior versions[155],,,
-Browser Reader Mode,",5+[153][154],,,
-Browser open PDFs without storing,,,,,
-Browser file upload,2.2+[160],9+; 6–8: Limited,,1.0.7+[161],
-Browser form navigation,Next button[162],"Previous, Next, AutoFill, and Done buttons[163]",?,?,?
-Browser private browsing mode,3.0+ with AOSP browser[164] or with Chrome for Android,5+[165],,1.1.6+[166],
-Offline web apps,,,,?,
-HTTP Live Streaming,3+[171],3+[172],,,
-WebRTC,,11+[175],,,
+Official app store,Google Play,App Store,Tizen Store,Jolla Store,OpenStore
+Non-discriminatory stores,",",?,"Openrepos.[84] Developers can distribute apps from their own sources, supports multiple app stores",?
+"Common APIs for smartphones, tablets, and PCs",,Smartphone and tablet only[86],,,
+Official SDK platform(s),"Linux, macOS and Windows[87]",macOS using iOS SDK,"GNU/Linux, Windows, macOS[88]","Windows, macOS and Linux[89]",
+Cost to develop for the mobile OS,Free,",Free,Free,Free
+Cost to publish app to official store,US$25 once to offer it on Google Play[91],US$99/year,Free,Free[92],Free

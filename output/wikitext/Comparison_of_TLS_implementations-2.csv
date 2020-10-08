@@ -1,16 +1,16 @@
-Implementation,brainpoolP256r1 (26)[146],brainpoolP384r1 (27)[146],brainpoolP512r1 (28)[146],X25519 [147],Curve448 Ed448-Goldilocks [148],M221 Curve2213 [149],E222 [149],Curve1174 [149],E382 [149],M383 [149],Curve383187 [149],Curve41417 Curve3617 [149],M511 Curve511187 [149],E521 [149]
-Botan,,,,,,No,No,No,No,No,No,No,No,No
-BoringSSL,No,No,No,,,No,No,No,No,No,No,No,No,No
-GnuTLS,No,No,No,,,No,No,No,No,No,No,No,No,No
-JSSE,No,No,No,Yes (JDK 13+)[152],,No,No,No,No,No,No,No,No,No
-LibreSSL,,,,,,No,No,No,No,No,No,No,No,No
-MatrixSSL,,,,TLS 1.3 only[154],,No,No,No,No,No,No,No,No,No
-Mbed TLS,,,,Primitive only[156],Primitive only[157],No,No,No,No,No,No,No,No,No
-NSS,No[158],No[158],No[158],,,No,No,No,No,No,No,No,No,No
-OpenSSL,,,,,,No,No,No,No,No,No,No,No,No
-RSA BSAFE,No,No,No,,,No,No,No,No,No,No,No,No,No
-"SChannel Vista/2008, 7/2008R2, 8/2012, 8.1/2012R2, 10",No,No,No,,,No,No,No,No,No,No,No,No,No
-Secure Transport,No,No,No,,,No,No,No,No,No,No,No,No,No
-wolfSSL,,,,,,No,No,No,No,No,No,No,No,No
-Erlang/OTP SSL application,,,,,,No,No,No,No,No,No,No,No,No
-Implementation,brainpoolP256r1 (26),brainpoolP384r1 (27),brainpoolP512r1 (28),Curve25519,Curve448 Ed448-Goldilocks,M221 Curve2213,E222,Curve1174,E382,M383,Curve383187,Curve41417 Curve3617,M511 Curve511187,E521
+Implementation,sect163k1 NIST K-163 (1)[68],sect163r1 (2)[68],sect163r2 NIST B-163 (3)[68],sect193r1 (4)[68],sect193r2 (5)[68],sect233k1 NIST K-233 (6)[68],sect233r1 NIST B-233 (7)[68],sect239k1 (8)[68],sect283k1 NIST K-283 (9)[68],sect283r1 NIST B-283 (10)[68],sect409k1 NIST K-409 (11)[68],sect409r1 NIST B-409 (12)[68],sect571k1 NIST K-571 (13)[68],sect571r1 NIST B-571 (14)[68]
+Botan,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+BoringSSL,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+GnuTLS,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+JSSE,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,,
+LibreSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,,
+MatrixSSL,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Mbed TLS,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+NSS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,,
+OpenSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,,
+RSA BSAFE,Yes,No,Yes,No,No,Yes,Yes,No,,,,,,
+"SChannel Vista/2008, 7/2008R2, 8/2012, 8.1/2012R2, 10",No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Secure Transport,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+wolfSSL,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Erlang/OTP SSL application,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,,
+Implementation,sect163k1 NIST K-163 (1),sect163r1 (2),sect163r2 NIST B-163 (3),sect193r1 (4),sect193r2 (5),sect233k1 NIST K-233 (6),sect233r1 NIST B-233 (7),sect239k1 (8),sect283k1 NIST K-283 (9),sect283r1 NIST B-283 (10),sect409k1 NIST K-409 (11),sect409r1 NIST B-409 (12),sect571k1 NIST K-571 (13),sect571r1 NIST B-571 (14)

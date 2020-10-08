@@ -1,18 +1,5 @@
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
-GeForce 710M,January 2013,GF117,28,PCIe 2.0 ×16,96:16:4,800,1600,1800,3.2,12.8,1024 2048,14.4,DDR3,64,12,4.5,307.2,12,OEM. About 115% of Mobile 620 & Desktop 530date=June 2015
-GeForce GT 720M,"April 1, 2013",,,,,938,1876,2000,3.8,15.0,2048,16.0,,,,,360.19,?,OEM. About 130% of Mobile 625/630 & Desktop 620date=June 2015
-GeForce GT 720M,"December 25, 2013",GK208,,PCIe 2.0 x8,192:16:8,719,,,3.032,12.13,,12.8,,,,,291,22,"Kepler, similar to 730M with half of the cores disabled"
-GeForce GT 730M,January 2013,GK208,,PCIe 3.0 ×8,384:32:8 (2 SMX),719,,,5.8,23.0,,16.0,,128,,,552.2,33,"Kepler, similar to Desktop GT640"
-GeForce GT 735M,"April 1, 2013",,,,,889,,,7.11,28.4,,,,64,,,682.8,?,"Kepler, similar to Desktop GT640"
-GeForce GT 740M,,,,,,980,,1800,7.84,31.4,,14.4,,,,,752.6,,"Kepler, similar to Desktop GT640."
-GeForce GT 740M,,GK107,,PCIe 3.0 ×16,384:32:16 (2 SMX),810[141],,1800 5000,12.96,25.92,2048[141],28.8 80,DDR3 GDDR5[141],128,,,622.1,45,about 76% of Desktop GTX650date=June 2015
-GeForce GT 745M,,,,,,837,,2000 5000,13.4,26.8,2048,32 80,DDR3 GDDR5,,,,642.8,,about 79% of Desktop GTX650date=June 2015
-GeForce GT 750M,,,,,,967,,,15.5,30.9,,,,,,,742.7,50,about 91% of Desktop GTX650date=June 2015
-GeForce GT 755M[142],?,,,,,1020,,5400,15.7,31.4,,86.4,GDDR5,,,,783,,about 93% of Desktop GTX650date=June 2015
-GeForce GTX 760M,May 2013,GK106,,,768:64:16 (4 SMX),719,,4000,10.5,42.1,,64,,,,,1104,55,about 71% of Desktop GTX 650Tidate=June 2015
-GeForce GTX 765M,,,,,,863,,,13.6,54.4,,,,,,,1326,65,about 92% of Desktop GTX 650Tidate=June 2015
-GeForce GTX 770M,,,,,960:80:24 (5 SMX),797,,,19.5,64.9,3072,96,,192,,,1530,75,about 83% of Desktop GTX660date=June 2015
-GeForce GTX 780M,,GK104,,,1536:128:32 (8 SMX),,5000,26.3,105.3,4096,160,256,,2448,,,122,about 78% of Desktop GTX770date=June 2015,
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus interface,L2 Cache(MB),Clock speeds,,,Memory,,,,Fillrate,,Processing power (TFLOPS),,,,Ray-tracing Performance,,,TDP (Watts),NVLink support,Release price (USD),
+,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,Tensor compute (FP16) (2:1 sparse),Rays/s (Billions),RTX OPS/s (Trillions),Ray Perf TFLOPS,,,MSRP,Founders Edition
+GeForce RTX 3070[120],"October 29, 2020[121]",GA104-300-A1,Samsung 8N (10LP++++),17.4,392.5,5888:184:96:184:46 (46) (6),PCIe 4.0 x16,4,1500,1730,14000,8,448.0,GDDR6,256,96.0 110.72,276.0 318.32,17.66 20.37,0.276 0.318,17.66 20.37,141.31 162.98,,,40[122],220,rowspan="2" ,,$499
+GeForce RTX 3080[123],"September 17, 2020",GA102-300-K1-A1,,28.3,628.4,8704:272:96:272:68 (68) (6),,5,1440,1710,19000,10,760.0,GDDR6X,320,126.72 150.48,391.68 465.12,25.06 29.76,0.392 0.465,25.06 29.76,200.54 238.14,,,58[122],320,,$699,
+GeForce RTX 3090[124],"September 24, 2020",GA102-300-A1,,28.3,,10496:328:112:328:82 (82) (7),,6,1400,1700,19500,24,935.8,,384,134.4 162.72,459.20 555.96,29.38 35.68,0.459 0.558,29.38 35.68,235.08 285.48,,,69[122],350,2-way NVLink,,$1499

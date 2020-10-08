@@ -1,28 +1,22 @@
-Format,Type,"3GP, 3G2",ASF[27],AVI[a],DMF,EVO,FLV[I],F4V,MKV,"PS, TS[II]",M2TS,MP4[34],MXF,Ogg[b],QTFF[37],RMVB,VOB,WebM[24]
-DV,Intra-frame,No,Yes,Yes,No,No,No,No,VCM[c],No,No,DVCPRO HD,Yes[39][III],No,DV 25,No,No,No
-M-JPEG,Intra-frame,No,Yes,Yes,No,No,No,No,VCM[c],No,No,Yes,No,No,Yes,No,No,No
-MJ2,Intra-frame,No,No,Not standard,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No
-MPEG-1 Video,Lossy,No,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No
-MPEG-2 Video,Lossy,No,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Needs VLC[IV],Yes,No,Yes,No
-MPEG-4 Visual,Lossy,Yes,Yes,Yes,MPEG-4 ASP with DivX profiles,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Needs VLC[IV],Yes,No,No,No
-Microsoft MPEG4 V2,Lossy,No,Yes,Yes,No,No,No,No,Yes,No,No,Yes[42],No,No,No,No,No,No
-VC-1,Lossy,No,Yes,Yes,No,Yes,No,No,VCM[c],No,Yes,Yes,Yes,Needs VLC[IV],Yes,No,No,No
-Sorenson,Lossy,No,No,Version 1,No,No,Spark,No,Yes,No,No,Yes,No,No,Versions 1 and 3,No,No,No
-H.263,Lossy,Yes,Yes,Yes,No,No,No,Yes,No,No,No,Yes,No,No,Yes,No,No,No
-VP6,Lossy,No,No,Needs VP6[43][44],No,No,Yes,No,No,No,No,No,No,No,No,No,No,No
-RealVideo,Lossy,No,No,Not standard,No,No,No,No,"RV10, RV20, RV30, RV40",No,No,RV60,No,No,No,"RV30, RV40, RV60",No,No
-Cinepak,Lossy,No,No,Yes,No,No,No,No,Yes,No,No,Yes,No,No,Yes,No,No,No
-Indeo,Lossy,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Theora,Lossy,No,No,Needs ffdshow,No,No,No,No,Yes,No,No,Yes,No,Yes,No,No,No,No
-MPEG-4 AVC,Lossy or lossless,Yes,Yes,Yes[V],No,Yes,Not standard,Yes,Yes,Yes[45],Yes,Yes,Yes,No,Yes,No,No,No
-MPEG-H HEVC,Lossy or lossless,Yes,Yes,Yes,No,No,No,No,Beta[VI],Yes,No,Yes,Pending[48],No,Yes[49],No,No,No
-Dirac,Lossy or lossless,No,No,Needs Dirac[50],No,No,No,No,VCM[c],Private,No,Yes,No,Yes[51][52],Not standard,No,No,No
-VP8,Lossy or lossless,No,Yes,Yes,No,No,No,No,Yes,No,No,Yes,No,Needs Firefox[53],No,No,No,Yes
-VP9,Lossy or lossless,No,Yes,Yes,No,No,No,No,Yes,No,No,Yes,No,Needs Firefox[53],No,No,No,Yes
-AV1,Lossy or lossless,No,No,No,No,No,No,No,Beta,Planned,No,Yes,No,No,No,No,No,Beta
-MVC,Stereoscopic,Yes,No,No,No,No,No,No,Yes[12],No,No,Yes,No[VII][VIII],No,No,No,No,No
-HuffYUV,Lossless,No,No,Needs HuffYUV[55],No,No,No,No,VCM[c],No,No,No,No,No,No,No,No,No
-YCbCr[IX],Not compressed,No,Yes,Yes,No,No,No,No,Yes,No,No,SheerVideo,Yes[56],Beta[57],Yes,No,No,No
-Other,Other,—,—,—,—,—,Screen Video,—,—,"JPEG 2000, TICO",—,—,—,"MNG, JNG, PNG[58]","DVC Pro 50, Photo JPEG, Graphics, QuickTime Animation, Apple ProRes",—,—,—
-Obsolete,Other,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—,—
-Format,Type,"3GP, 3G2",ASF[27],AVI[a],DMF,EVO,FLV[I],F4V,MKV,"PS, TS[II]",M2TS,MP4[34],MXF,Ogg[b],QTFF[37],RMVB,VOB,WebM[24]
+Format,File extension,Owner or creator,License,Variable bit rate audio,Variable frame rate,Chapters,Metadata / tags,Interactive menus,Streaming,Attachments[i],3D[1],Hardware players
+3GPP (3GP),.3gp,3GPP,Patent encumbered,Yes,Yes,No,Yes,No,Yes[2],No,No,Yes
+3GPP2 (3G2),.3g2,3GPP2,Patent encumbered,Yes,Yes,No,Yes,No,Yes,No,No,Yes
+Advanced Systems Format (ASF),".asf, .wmv",Microsoft,"Proprietary, patent encumbered",Yes,Yes,Yes,Yes,No,Yes,?,Yes,Yes
+Audio Video Interleave (AVI),.avi,Microsoft,Proprietary[3],Yes[ii],Yes[iii],Needs alterations,Yes through RIFF chunks,No,No,No,No,Yes
+DivX Media Format (DMF),.divx,"DivX, Inc.",Proprietary,Yes,Yes,Yes,?,Yes,Yes,?,No,Yes
+Enhanced VOB (EVO),.evo,DVD Forum,Patent encumbered,Yes,Yes,Yes,?,Yes,?,?,No,?
+Flash Video F4V,.f4v,Adobe Inc.,Patent encumbered,?,Yes,?,Yes,No,Yes,?,No,?
+Flash Video FLV,.flv,Adobe Inc.,Patent encumbered,?,Yes,No,Yes,No,Yes,?,No,?
+Matroska Multimedia Container,".mkv, .mk3d","CoreCodec, Inc.[iv]",Freely licensed[v],Yes[vi],Yes[vi],Yes[7],Yes[8],Pending[9],Yes[vii],Yes[11],Yes[12][11],Yes[viii]
+MPEG-4 Part 14 (MP4),.mp4,MPEG,Patent encumbered,Yes,Yes,"In specially formatted text track (QuickTime); 2) In userdata atom (started by Nero Digital) can't interact with the sceneDescription, or via segmentDescriptor",Yes,Yes,Yes,Yes,Only at video format level,Yes
+MPEG-1 Video File,".mpg, .mpeg",MPEG,Patent encumbered,Yes,Yes,No,No,No,Yes,?,No,Yes
+MPEG program stream (PS),".m2p, .ps",MPEG,Patent encumbered,Yes,?,Only in private streams — used in VOB files on DVDs,No,Only in private streams — used in VOB files on DVDs,?,?,No,Yes
+MPEG transport stream (TS),.ts,MPEG,Patent encumbered,Yes,Yes,No,No,No,Yes,?,No,Yes
+BDAV MPEG-2 transport stream (M2TS),.m2ts,BDA,Proprietary,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Needs multiple files[ix],Yes
+Material Exchange Format (MXF),.mxf,SMPTE,"Open standard, patent-free[17]",Yes,Yes,?,Yes,No,?,?,Yes[18],No
+Ogg,".ogg, .ogv, .ogx",Xiph.Org Foundation,"BSD-style license, patent-free",Yes,Yes,Yes,"CMML, Ogg Skeleton, Vorbis comment[19]",No,Yes,?,No,Yes
+QuickTime File Format (QTFF),".mov, .qt",Apple Inc.,Proprietary[20],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Not standard,Yes
+RealMedia Variable Bitrate (RMVB),.rmvb,RealNetworks,Proprietary,?,Yes,?,?,No,Yes,?,No,?
+Video Object (VOB),.vob,DVD Forum,Proprietary,Yes,Yes,Needs multiple files[x],No,Needs multiple files[x],No,No,No,Yes
+WebM,.webm,Google,"CC BY 3.0 for specs,[21] BSD-like[22] royalty-free[23] for tools",Yes,Yes,Yes[24],Yes[24],No[24],With MPEG-DASH[25],No[24],Some stereo modes[24] of VP8[26],Yes
+Format,File extension,Owner or creator,License,Variable bit rate audio,Variable frame rate,Chapters,Metadata / tags,Interactive menus,Streaming,Attachments[i],3D[1],Hardware players

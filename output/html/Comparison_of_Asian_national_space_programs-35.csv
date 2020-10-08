@@ -1,16 +1,11 @@
-Country,Program,Agency engaged,First orbital crewed launch,,,,
-,,,Spacecraft,Term(s) for space traveler,First human(s) launched,Date,Launch system
-People's Republic of China,Project 714 (1968–72),Chinese space program,Shuguang spacecraft (Intended),??? (in Chinese) y?hángyuán ??? (in Chinese) hángti?nyuán,N/A,N/A,Long March 2A (Intended)
-,Project 863 (1976–80),Chinese space program,Piloted FSW spacecraft (Intended),,N/A,N/A,Long March 2 (Intended)
-Japan,HOPE-X (late 1980s-2003),National Space Development Agency of Japan,HOPE-X spaceplane (Intended),????? (in Japanese) uch?hik?shi or ??????? astoronoto,N/A,N/A,H-IIA (Intended)
-Ba'athist Iraq,... (1989-2001),"Space Research Center, Baghdad",N/A,??? ???? (in Arabic) rajul fa??? ???? ???? (in Arabic) r??id fa??? ???? ????? (in Arabic) mall?? fa???iy,N/A,N/A,Tammouz 2 or 3 (Intended)
-People's Republic of China,Project 921 (1992–present),China National Space Administration,Shenzhou spacecraft and Tiangong space laboratory,??? (in Chinese) y?hángyuán ??? (in Chinese) hángti?nyuán taikonaut("???" tàik?ng rén),??? (Yang Liwei),2003-10-15,"Long March 2F, Long March 3"
-People's Republic of China,Project 869 (1990s),China National Space Administration,Tianjiao-1 or Chang Cheng-1 (Great Wall-1) winged spaceplanes (Intended),??? (in Chinese) y?hángyuán ??? (in Chinese) hángti?nyuán taikonaut("???" tàik?ng rén),N/A,N/A,869 reusable shuttle system (Intended)
-Japan,"Kankoh-maru (1993-1997,2005)","Japanese Rocket Society [ja], Kawasaki Heavy Industries and Mitsubishi Heavy Industries",Kankoh-maru reusable shuttle system (Intended),????? (in Japanese) uch?hik?shi or ??????? astoronoto,N/A,N/A,Kankoh-maru reusable shuttle system (Intended)
-Japan,... (2001-2003),National Space Development Agency of Japan,Fuji spacecraft (Intended),????? (in Japanese) uch?hik?shi or ??????? astoronoto,N/A,N/A,H-IIA (Intended)
-People's Republic of China,Project 921-2 (2020–present),China National Space Administration,"X-11 reused spacecraft, Tianzhou non-reentry and Shenzhou Cargo reentry cargo spacecrafts and permanent modular Chinese Space Station",??? (in Chinese) y?hángyuán ??? (in Chinese) hángti?nyuán taikonaut("???" tàik?ng rén),TBD,TBD,"Long March 3, Long March 5"
-India,Indian Human Spaceflight Programme (2007–present),Human Space Flight Centre (ISRO),Gaganyaan spacecraft and small space laboratory,Vyomanaut/Gaganaut,TBA,December 2021 (Planned) Before 2022-08-15 (Scheduled),GSLV Mk III
-People's Republic of China,Project 921-3 (2000s–present),China National Space Administration,Shenlong spaceplane,??? (in Chinese) y?hángyuán ??? (in Chinese) hángti?nyuán taikonaut("???" tàik?ng rén),TBD,TBD,921-3 RLV (or Tengyun either HTS maglev launch assist) reusable shuttle system
-Japan,... (2008–present),Japan Aerospace Exploration Agency,HTV-based spacecraft and small space laboratory,????? (in Japanese) uch?hik?shi or ??????? astoronoto,TBD,TBD,H-IIB
-Iran,"Iranian human spaceflight program (2005-2017, on hold)",Iranian Space Agency,Class E Kavoshgar spacecraft and small space laboratory,,TBD,TBD,TBD
-North Korea,DPRK space program (2010s-present),National Aerospace Development Administration,Spacecraft and small space laboratory,,TBD,TBD,"Unha 9, 20"
+Agency,Country,Budget (in millions of US $),Year,Ref(s)
+China National Space Administration,China,11000,2018,[216]
+Indian Space Research Organisation,India,1760,2020,[217]
+Japanese Aerospace Exploration Agency,Japan,1710,2017,[218]
+Korean Aerospace Research Institute,South Korea,583,2016,[219]
+Iranian Space Agency and Iranian Space Research Center,Iran,393,2018,[220]
+National Institute of Aeronautics and Space,Indonesia,55,2019,[221][222]
+Space and Upper Atmosphere Research Commission,Pakistan,43,2019,[223]
+Philippine Space Agency,Philippines,38,2019,[224]
+Israel Space Agency,Israel,14.5,2019,[225]
+Turkish Space Agency,Turkey,4.3,2019,[226]

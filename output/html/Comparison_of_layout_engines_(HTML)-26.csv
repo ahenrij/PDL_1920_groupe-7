@@ -1,23 +1,8 @@
-,Trident,Gecko[g 99],WebKit,Presto
-loadstart,5.0[t 44],1.9.1,?,?
-progress,,,,
-suspend,,1.9.2,,
-abort,,1.9.1,,
-error,,,,
-emptied,,,,
-stalled,,8.0[g 100],,
-play,,1.9.1,,
-pause,,,,
-loadedmetadata,,,,
-loadeddata,,,,
-waiting,,,,
-playing,,No,,
-canplay,,1.9.1,,
-canplaythrough,,,,
-seeking,,,,
-seeked,,,,
-timeupdate,,,,
-ended,,,,
-ratechange,,,,
-durationchange,,,,
-volumechange,,,,
+Engine,Status,Embedded in
+WebKit,Active,"Safari browser, plus all browsers hosted on the iOS App Store."
+Blink,Active,"Google Chrome and other web browsers based on Chromium, such as Microsoft Edge, Opera, and Brave."
+EdgeHTML,Active,Universal Windows Platform apps; formerly in the Edge browser[1].
+Gecko,Active,"Firefox browser and Thunderbird email client, plus forks like SeaMonkey and Waterfox."
+KHTML,Discontinued,Konqueror browser
+Presto,Discontinued,"Formerly used as Opera's browser engine, prior to the migration to Chromium and Blink."
+Trident,Discontinued,Internet Explorer and versions of Microsoft Outlook prior to Outlook 2007.

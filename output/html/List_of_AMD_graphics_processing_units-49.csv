@@ -1,5 +1,7 @@
-Model (codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TBP,Bus interface
-,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Bandwidth (GB/s),,
-Radeon RX Vega 56 (Vega10 XL)[103][104][105],"August 28, 2017 $399 USD",GCN 5th gen Samsung/GloFo 14LPP[106][f],12.5×109 486 mm2,3584:224:64 56 CU,1156 1471,258.9 329.5,74.0 94.1,16572 21088,8286 10544,518 659,HBM2 2048-bit,8,1600,410,210 W,PCIe 3.0 ×16
-Radeon RX Vega 64 (Vega10 XT)[103][105][107],"August 14, 2017 $499 USD",,,4096:256:64 64 CU,1247 1546,319.2 395.8,79.8 98.9,20431 25330,10215 12665,638 792,,,1890,483.8,295 W,
-Radeon RX Vega 64 Liquid (Vega10 XT)[103][105][107],"August 14, 2017 $699 USD",,,,1406 1677,359.9 429.3,90.0 107.3,23036 27476,11518 13738,720 859,,,,,345 W,
+Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
+,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
+Mobility Radeon X300,Nov 2005,M22,RV370,110,PCI-E x16,350,250,2:4:4:4,1.4,1.4,128,4,DDR,64,9.0b,2.0,Powerplay 5.0
+Mobility Radeon X600,Jun 2004,M24,RV380,130,,400,,,1.6,1.6,"64, 128",8,,128,,,
+Mobility Radeon X700,Mar 2005,M26,RV410,110,,400-100 (PowerPlay),350-200,6:8:8:4,1.4,2.8,"Shared-128? 64, 128",11.2,"DDR, GDDR3",,,,"3DC, Dynamic Lane Count Switching,"
+Mobility Radeon X800,Nov 2004,M28,R423,130,,400,400,6:12:12:12,4.8,4.8,256,25.6,GDDR3,256,,,"3DC, DLCS, Clock Gating"
+Mobility Radeon X800 XT,Jun 2005,M28 PRO,R423,130,,480,550,6:16:16:16,7.68,7.68,,35.2,,,,,

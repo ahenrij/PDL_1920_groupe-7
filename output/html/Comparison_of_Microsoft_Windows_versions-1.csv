@@ -1,5 +1,16 @@
-Name,Kernel,Kernel type,Architecture,Integrated firewall,SMP support,USB support,UDMA support,LFN support,Update management,APIs,DDIs,Safe Mode,DirectX
-Windows 95,"MS-DOS 7.0 (Win95, Win95A), MS-DOS 7.1 (Win95B, Win95C)",Monolithic kernel,"x86, hybrid 16/32-bit",No,No,Partial (OSR 2.1/2.5 only) [2],No,Yes,Windows Update,"Win16, Win32","DOS,DLL,VxD, WDM(USB-only), direct-access",Yes,n/a(RTM/OSR1) 2.0a(OSR2/2.1) 5.0(OSR2.5) 8.0a(optional)
-Windows 98,MS-DOS 7.1,Monolithic kernel,"x86, hybrid 16/32-bit",No,No,Yes,Yes,Yes,Windows Update,"Win16, Win32","DOS,DLL,VxD, WDM(partial), direct-access",Yes,5.2 9.0c(oct2006)(optional)
-Windows 98 Second Edition,MS-DOS 7.1,Monolithic kernel,"x86, hybrid 16/32-bit",No,No,Yes,Yes,Yes,Windows Update,"Win16, Win32","DOS,DLL,VxD, WDM(partial), direct-access",Yes,6.1a 9.0c(oct2006)(optional)
-Windows Me,MS-DOS 8.0,Monolithic kernel,"x86, hybrid 16/32-bit",No,No,Yes,Yes,Yes,Windows Update,"Win16, Win32","DLL,VxD, WDM(partial), direct-access",Yes,7.1 9.0c(oct2006)(optional)
+,FAT12,FAT16,FAT32,HPFS,ISO 9660,NTFS,exFAT,UDF,ReFS
+"Windows NT 3.1, 3.5, 3.51",Yes,Yes,No,Yes,Yes,Yes v1.0/v1.1,No,?,No
+Windows NT 4.0,Yes,Yes,No,Partial,Yes,Yes v1.2,No,?,No
+Windows 2000,Yes,Yes,Yes,No,Yes,Yes v3.0,No,Yes,No
+Windows XP,Yes,Yes,Yes,No,Yes,Yes v3.1,Optional,Yes (2.01),No
+Windows Server 2003,Yes,Yes,Yes,No,Yes,Yes v3.1,Optional,Yes,No
+Windows Vista,Yes,Yes,Yes,No,Yes,Yes v5,Yes,Yes (2.6),No
+Windows Server 2008,Yes,Yes,Yes,No,Yes,Yes v5,Yes,Yes,No
+Windows 7,Yes,Yes,Yes,No,Yes,Yes v5,Yes,Yes (2.6),Yes
+Windows Server 2008 R2,Yes,Yes,Yes,No,Yes,Yes v5,Yes,Yes (2.6),Yes
+Windows Server 2012,Yes,Yes,Yes,No,Yes,Yes v5,Yes,Yes (2.6),Yes
+Windows 8,Yes,Yes,Yes,No,Yes,Yes v5,Yes,Yes (2.6),No
+Windows 8.1,Yes,Yes,Yes,No,Yes,Yes v5,Yes,Yes (2.6),Yes
+Windows Server 2012 R2,Yes,Yes,Yes,No,Yes,Yes v5,Yes,Yes (2.6),Yes
+Windows 10,Yes,Yes,Yes,No,Yes,Yes v5,Yes,Yes (2.6),Yes
+Windows Server 2016,Yes,Yes,Yes,No,Yes,Yes v5,Yes,Yes (2.6),Yes

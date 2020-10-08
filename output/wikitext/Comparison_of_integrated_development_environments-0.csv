@@ -1,8 +1,18 @@
-IDE,Developer,Latest stable release,Platform,License
-Aptana Studio with integrated RadRails plugin (Eclipse),"Aptana, Inc.","3.5.0 / December 27, 2013","Windows, Linux, macOS, FreeBSD, JVM, Solaris","GPL, proprietary"
-Eclipse DLTK Ruby Plugin,Eclipse Foundation,"5.0.0 / June 6, 2013",x86,EPL
-eric,Detlev Offenbach,"6.1.4 / April 9, 2016",Cross-platform,GPLv3 "or later"
-Komodo IDE / Edit,ActiveState,"9.0.1 / April 19, 2015",Cross-platform,
-NetBeans,Thomas Enebo (JRuby co-lead),,Cross-platform,CDDL and GPL
-RubyMine (IntelliJ IDEA),JetBrains,"2018.3.5 (build 183.5912.16) / Feb 27, 2019[38]","Windows, Linux, macOS, FreeBSD, OpenBSD, Solaris",
-SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, AIX, Solaris, HP-UX",
+IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
+BlueJ,GPL2+GNU linking exception,,,,,Solaris,
+DrJava,Permissive,,,,,Solaris,
+Eclipse JDT,EPL,,,,,"FreeBSD, JVM, Solaris",
+Geany,GPL,,,,,"FreeBSD, AIX, OpenBSD, Solaris, other Unix",
+Greenfoot,GPL,,,,,Solaris,
+IntelliJ IDEA,"Community Edition: Apache License v2.0, Ultimate Edition: proprietary",,,,,"FreeBSD, OpenBSD, Solaris",
+JBuilder,,,,,,Solaris,
+JCreator,,,,,,,
+JDeveloper,,,,,,generic JVM,
+jGRASP,,,,,,,
+MyEclipse,,,,,,"FreeBSD, JVM, Solaris",
+NetBeans,"CDDL, GPL2",,,,,"OpenBSD, Solaris",
+Rational Application Developer,,,,,,"AIX, Solaris",
+Servoy,,,,,,Solaris,
+SlickEdit,,,,,,"Solaris, Solaris SPARC, AIX, HP-UX",
+Understand,,,,,,Solaris,
+Xcode (Apple),,,,,,,

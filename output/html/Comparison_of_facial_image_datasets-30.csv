@@ -1,3 +1,6 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Numenta Anomaly Benchmark (NAB),"Data are ordered, timestamped, single-valued metrics. All data files contain anomalies, unless otherwise noted.",None,50+ files,Comma separated values,Anomaly detection,2016 (continually updated),[410],Numenta
-"On the Evaluation of Unsupervised Outlier Detection: Measures, Datasets, and an Empirical Study","Most data files are adapted from UCI Machine Learning Repository data, some are collected from the literature.","treated for missing values, numerical attributes only, different percentages of anomalies, labels",1000+ files,ARFF,Anomaly detection,2016 (possibly updated with new datasets and/or results),[411],Campos et al.
+Poker Hand Dataset,5 card hands from a standard 52 card deck.,"Attributes of each hand are given, including the Poker hands formed by the cards it contains.","1,025,010",Text,"Regression, classification",2007,[460],R. Cattral
+Connect-4 Dataset,"Contains all legal 8-ply positions in the game of connect-4 in which neither player has won yet, and in which the next move is not forced.",None.,"67,557",Text,Classification,1995,[461],J. Tromp
+Chess (King-Rook vs. King) Dataset,Endgame Database for White King and Rook against Black King.,None.,"28,056",Text,Classification,1994,[462][463],M. Bain et al.
+Chess (King-Rook vs. King-Pawn) Dataset,King+Rook versus King+Pawn on a7.,None.,3196,Text,Classification,1989,[464],R. Holte
+Tic-Tac-Toe Endgame Dataset,Binary classification for win conditions in tic-tac-toe.,None.,958,Text,Classification,1991,[465],D. Aha

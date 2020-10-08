@@ -1,38 +1,38 @@
-Name,Rectilinear lenses (i.e. normal camera lenses),Fish eye lenses,Partial or full (spherical) panoramas or images from panoramic cameras,Different focal lengths in single panorama,Different lens types in single panorama,Perspective correction lenses,Other/Notes
-Panoweaver Standard / Professional [29],,,,,,,
-i2Align Quickage Express / Pro,,,,,,,
-Pixtra PanoStitcher[30],,,,,,,
-Pixtra OmniStitcher[31],,,,,,,
-QuickPHOTO,,,,,,,PROMICAM[32] microscope camera needed
-PhotoFit Harmony / Premium,,,,,,,
-PanoramaPlus X4,,,,,,,
-PanoramaBuilder 7.0 / PanoramaBuilder 7.0 Pro,,,,,,,
-360 Panorama Professional,,,,,,,
-VRstitcher Fisheye Pro,,,,,,,
-COOL 360,,,,,,,
-PanaVue ImageAssembler Std. / Pro. / Ent.,,,,,,,") Circular fish eyes not supported,[33] diagonal fish eyes up to 180 degree field of view."
-The Panorama Factory v5,,,,,,,
-PixMaker Lite / Home / Business,,,,,,,
-PTAssembler[34],,,,,,,
-PTgui / PTgui Pro,,,,,,,
-Autopano Pro / Giga / Server,,,,,,,"Also supports motorized panoramic heads, in Giga & Pro versions."
-Autostitch,,,,,,,
-Calico Panorama,,,,,,,
-Hugin,,,,,,,"As of v2010.2 onwards, all known fish eye projections are supported (equisolid, orthographic, stereographic)"
-3DVista Stitcher 3.0,,,,,,,"One shot" i.e. panoramic mirror lenses also supported.
-D Joiner,,,,,,,
-Panorama Maker 6,,,,,,,
-Photovista Panorama,,,,,,,
-PanoramaStudio / Pro,,,,,,,
-Stitcher Unlimited 2009,,,,,,,
-ADG Panorama Tools / Pro[35],,,,,,,) Cylindrical only
-Panorama Composer 3,,,,,,,
-Image Composite Editor,,,,,,,
-Panorama Perfect,,,,,,,
-Photoshop,,,,,,,
-AIPR Lite 1,,,,,,,(*) homographic model compensates for these type of lenses
-Gigapan Stitch 1.0,,,,,,,
-PanoramaMaker,,,,,,,
-PanoEdit,,,,,,,
-SharpStitch,,,,,,,
-Name,Rectilinear lenses (i.e. normal camera lenses),Fish eye lenses,Partial or full (spherical) panoramas or images from panoramic cameras,Different focal lengths in single panorama,Different lens types in single panorama,Perspective correction lenses,Other/Notes
+Name,"HDR input (EXR, HDR, Logluv, etc.)",Merging to HDR from LDR images,"HDR output (EXR, HDR, Logluv, etc.)",Tonemapping,Exposure fusion,Notes
+Panoweaver Standard / Professional[4],,,,,,
+i2Align Quickage Express / Pro[5],,,,,,) Pro version only.
+Pixtra PanoStitcher,,,,,,
+Pixtra OmniStitcher,,,,,,
+QuickPHOTO[6],,,,,,
+PhotoFit Harmony / Premium,,,,,,
+PanoramaPlus X4,,,,,,
+PanoramaBuilder 7.0 / PanoramaBuilder 7.0 Pro,,,,,,
+360 Panorama Professional,,,,,,
+VRstitcher Fisheye Pro,,,,,,
+COOL 360,,,,,,
+The Panorama Factory v5,,,,,,
+PixMaker Lite / Home / Business,,,,,,
+PTAssembler,,,,,,Exposure fusion with TuFuse or enfuse. Automatic detection of image stacks.
+PTgui / PTgui Pro,,,,,,Exposure fusion with enfuse or TuFuse. *) Pro version only.
+Autopano Pro / Giga / Server,,,,,,Ceased trading September 2018
+Autostitch,,,,,,
+Calico Panorama,,,,,,
+Hugin,,,,,,"Exposure fusion with enfuse, automatic detection of image stacks."
+3DVista Stitcher 3.0,,,,,,
+D Joiner,,,,,,
+Panorama Maker 6,,,,,,
+Photovista Panorama,,,,,,
+PanoramaStudio,,,,,,
+Stitcher Unlimited 2009[7],,,,,,
+ADG Panorama Tools / Pro,,,,,,
+Panorama Composer 3,,,,,,
+Image Composite Editor,,,,,,Supports 16-bit camera raw input via WIC plugins
+Panorama Perfect,,,,,,
+Photoshop,,,,,,
+AIPR Lite 1,,,,,,(*) color mapping around the seams allows to preserve the original photometric properties of the images
+Gigapan Stitch 1.0,,,,,,
+PanoramaMaker,,,,,,
+Panorama Stitcher,,,,,,
+SharpStitch,,,,,,
+Pano2VR / Pano2VR pro,,,,,,
+Name,"HDR input (EXR, HDR, Logluv, etc.)",Merging to HDR from LDR images,"HDR output (EXR, HDR, Logluv, etc.)",Tonemapping,Exposure fusion,Notes

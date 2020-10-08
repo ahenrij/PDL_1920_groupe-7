@@ -1,46 +1,45 @@
-,Data Domain,Cursor,Trigger,Function 1,Procedure 1,External routine 1
-4th Dimension,Yes,No,Yes,Yes,Yes,Yes
-ADABAS,?,Yes,?,Yes?,Yes?,Yes
-Adaptive Server Enterprise,Yes,Yes,Yes,Yes,Yes,Yes
-Advantage Database Server,Yes,Yes,Yes,Yes,Yes,Yes
-Altibase,Yes,Yes,Yes,Yes,Yes,Yes
-Apache Derby,No,Yes,Yes,Yes 2,Yes 2,Yes 2
-ClustrixDB,No,Yes,No,Yes,Yes,Yes
-CUBRID,Yes,Yes,Yes,Yes,Yes 2,Yes
-Empress Embedded Database,Yes via RANGE CHECK,Yes,Yes,Yes,Yes,Yes
-EXASolution,Yes,No,No,Yes,Yes,Yes
-DB2,Yes via CHECK CONSTRAINT,Yes,Yes,Yes,Yes,Yes
-Firebird,Yes,Yes,Yes,Yes,Yes,Yes
-HSQLDB,Yes,No,Yes,Yes,Yes,Yes
-H2,Yes,No,Yes 2,Yes 2,Yes 2,Yes
-Informix Dynamic Server,Yes via CHECK,Yes,Yes,Yes,Yes,Yes 5
-Ingres,Yes,Yes,Yes,Yes,Yes,Yes
-InterBase,Yes,Yes,Yes,Yes,Yes,Yes
-Linter SQL RDBMS,No,Yes,Yes,Yes,Yes,No
-LucidDB,No,Yes,No,Yes 2,Yes 2,Yes 2
-MariaDB,Yes[156],Yes,Yes,Yes,Yes,Yes
-MaxDB,Yes,Yes,Yes,Yes,Yes,?
-Microsoft Access (JET),Yes,No,No,No,"Yes, But single DML/DDL Operation",Yes
-Microsoft Visual Foxpro,No,Yes,Yes,Yes,Yes,Yes
-Microsoft SQL Server,Yes,Yes,Yes,Yes,Yes,Yes
-Microsoft SQL Server Compact (Embedded Database),No,Yes,No,No,No,No
-Mimer SQL,Yes,Yes,Yes,Yes,Yes,No
-MonetDB,No,No,Yes,Yes,Yes,Yes
-MySQL,No 3,Yes,Yes,Yes,Yes,Yes
-OpenBase SQL,Yes,Yes,Yes,Yes,Yes,Yes
-Oracle,Yes,Yes,Yes,Yes,Yes,Yes
-Oracle Rdb,Yes,Yes,Yes,Yes,Yes,Yes
-OpenLink Virtuoso,Yes,Yes,Yes,Yes,Yes,Yes
-Pervasive PSQL,Yes,Yes,Yes,Yes,Yes,No
-Polyhedra DBMS,No,No,Yes,Yes,Yes,Yes
-PostgreSQL,Yes,Yes,Yes,Yes,Yes,Yes
-Raima Database Manager,No,Yes,No,No,Yes,Yes
-RDM Server,No,Yes,Yes,No,Yes,Yes
-SAP HANA,?,?,?,?,?,?
-solidDB,Yes,Yes,Yes,Yes,Yes,Yes
-SQL Anywhere,Yes,Yes,Yes,Yes,Yes,Yes
-SQLite,No,No,Yes,No,No,Yes
-Teradata,No,Yes,Yes,Yes,Yes,Yes
-UniData,No,No,Yes,Yes,Yes,Yes
-UniVerse,No,No,Yes,Yes,Yes,Yes
-,Data Domain,Cursor,Trigger,Function 1,Procedure 1,External routine 1
+,Temporary table,Materialized view
+4th Dimension,Yes,No
+ADABAS,?,?
+Adaptive Server Enterprise,Yes1,Yes - see precomputed result sets
+Advantage Database Server,Yes,No (only common views)
+Altibase,Yes,No (only common views)
+Apache Derby,Yes,No
+ClustrixDB,Yes,No
+CUBRID,No,No
+DB2,Yes,Yes
+Empress Embedded Database,Yes,Yes
+EXASolution,Yes,No
+Firebird,Yes,No (only common views)
+HSQLDB,Yes,No
+H2,Yes,No (only common views)
+Informix Dynamic Server,Yes,No2
+Ingres,Yes,No
+InterBase,Yes,No
+Linter SQL RDBMS,Yes,Yes
+LucidDB,No,No
+MariaDB,Yes,No4
+MaxDB,Yes,No
+Microsoft Access (JET),No,No
+Microsoft Visual Foxpro,Yes,Yes
+Microsoft SQL Server,Yes,Yes
+Microsoft SQL Server Compact (Embedded Database),Yes,No
+Mimer SQL,No,No
+MonetDB,Yes,No (only common views)
+MySQL,Yes,No4
+Oracle,Yes,Yes
+Oracle Rdb,Yes,Yes
+OpenLink Virtuoso,Yes,Yes
+Pervasive PSQL,Yes,No
+Polyhedra DBMS,No,No (only common views)
+PostgreSQL,Yes,Yes5
+Raima Database Manager,Yes,No
+RDM Server,Yes,No
+SAP HANA,Yes,?
+solidDB,Yes,No (only common views)
+SQL Anywhere,Yes,Yes
+SQLite,Yes,No
+Teradata,Yes,Yes
+UniData,Yes,No
+UniVerse,Yes,No
+,Temporary table,Materialized view

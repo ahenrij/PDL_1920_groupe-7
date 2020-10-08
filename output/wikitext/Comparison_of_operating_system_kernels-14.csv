@@ -1,5 +1,6 @@
-Kernel name,ACLAsynchronous connection-oriented,SCOSynchronous connection-oriented,LMPLink management protocol,HCIHost/controller interface,L2CAPLogical link control and adaptation protocol,BNEPBluetooth network encapsulation protocol,RFComm.Radio frequency communication,SDPService discovery protocol,TCPTelephony control protocol,AVTCPAudio/visual control transport protocol,AVDTPAudio/visual data transport protocol,OBEXObject exchange,CMTP,HIDP,HCRP,CAPI,PPP
-FreeBSD kernel,,,,,,,,,,,,,,,,,
-Linux,,,,,,,,,,,,,,,,,
-macOS XNU Kernel,,,,,,,,,,,,,,,,,
-Kernel name,ACL,SCO,LMP,HCI,L2CAP,BNEP,RFComm.,SDP,TCP,AVTCP,AVDTP,OBEX,CMTP,HIDP,HCRP,CAPI,PPP
+Kernel Name,File access control,Disable memory execution support,Kernel ASLR,Mandatory access control,Capability-based security,In-kernel key management,Audit API,Sandbox,SYN flood protection,UDP flood protection,Ping flood protection,Smurf attack protection,Network Behavior Analysis
+Linux,"Traditional Unix permissions, POSIX ACL",,,"LSM (SELinux, SMACK, TOMOYO Linux, AppArmor)",seccomp,keyctl,fanotify,"SELinux Sandbox, seccomp",SYN cookies,,,,
+FreeBSD Kernel,"Traditional Unix permissions, POSIX and NFSv4 ACL",,,TrustedBSD MAC,Capsicum,,OpenBSM,"Capsicum, MAC framework",SYN cookies,,,,
+Solaris Kernel,"Traditional Unix permissions, POSIX ACL, NFSv4 ACL",Default,,Solaris Trusted Extensions,,,,,,,,,
+Windows NT kernel,Access control list,DEP,,Mandatory Integrity Control,AppContainers,,,Windows Event Log,,,,,
+XNU,"Traditional Unix permissions, NT/NFSv4 ACL[13]",,,TrustedBSD MAC,,,OpenBSM,Apple XNU Sandbox,,,,,

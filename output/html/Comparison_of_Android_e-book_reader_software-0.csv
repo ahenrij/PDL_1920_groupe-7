@@ -1,17 +1,21 @@
-Software,License,Other platforms,DRM formats supported
-Aldiko,Proprietary,iOS,Adobe DRM
-AlReader[1],Proprietary,None,?
-Bookari,Proprietary,iOS,Adobe DRM
-Cool Reader[2],GPLv2,"Android, Windows, Mac OS X, Linux, PocketBook",?
-Ebook Reader[3],Proprietary,"iOS, BlackBerry 10+, Kindle Fire (side loaded)",Adobe DRM
-eReader Prestigio,Proprietary,None,Adobe DRM
-FBReader,Proprietary,"Windows, Linux, PDAs, Mac OS X",None
-Google Play Books,Proprietary,"Web application, iOS",Adobe DRM
-Kindle,Proprietary,"Web application, iOS, BlackBerry, Mac OS X, Windows",Amazon DRM
-Kobo,Proprietary,"Windows, Mac OS X, iOS",Adobe DRM
-KOReader[4],AGPLv3,"Android, Kindle eInk, Kindle Fire, BQ Cervantes, PocketBook, Kobo",None
-Lektz,Proprietary,"Web application, Mac OS X, iOS, Windows",Lektz DRM
-Librera[5],GPL,None,None
-MReader,Proprietary,None,None
-OverDrive Media Console[6],Proprietary,"Chromebook, iOS, Mac OS X, Windows","Adobe DRM, OverDrive"
-Snapplify,Proprietary,"Web application, iOS","Adobe DRM, Snapplify SnappSafe DRM"
+Product,Highlight,Annotate,Metadata edit,Dictionary online,Dictionary offline,Wikipedia lookup,Translate,Share,Gesture command,TTS Support (read aloud),Support DRM
+Aldiko Book Reader,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes
+AlReader,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,No
+Bookari,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
+Cool Reader,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,No
+EBookDroid,?,?,?,?,?,?,?,?,?,?,?
+Ebook Reader,Yes,Yes,No,No,No,No,No,Yes,Yes,No,Yes
+eReader Prestigio,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+FBReader,No,No,Yes,No,Yes,No,No,Yes,No,Plugin[23],No
+iReader,?,?,?,?,?,?,?,?,?,?,?
+Kindle,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes
+Kobo Books,Yes,Yes,?,Yes,Yes,Yes,No,Yes,?,?,?
+KOReader,Yes,No[24],?,No,Yes,Yes,Yes,?,Yes,No,No
+Lektz eBook Reader,No,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Yes
+Librera,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No
+Moon+ reader,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+MReader,Yes,No,No,No,No,No,No,No,No,No,No
+PocketBook,Yes,Yes,Yes,?,Yes,?,Yes,Yes,Yes,Yes,Yes
+Snapplify,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes
+Socio eReader,Yes,Yes,No,No,No,Yes,No,Yes,No,No,No
+Product,Highlight,Annotate,Metadata edit,Dictionary online,Dictionary offline,Wikipedia lookup,Translate,Share,Gesture command,TTS Support (read aloud),Support DRM

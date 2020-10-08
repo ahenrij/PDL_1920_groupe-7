@@ -1,8 +1,7 @@
-Metadata,Java,C#
-Metadata annotations/attributes,Interface based; user-defined annotations can be created[81],Class based
-Positional arguments,No; unless a single argument,Yes
-Named arguments,Yes,Yes
-Default values,At definition,Through initialization
-Nested types,Yes,Yes
-Specialization,No,Yes
-Conditional metadata,No,Yes
+Functional programming,Java,C#
+Method references,Yes[10],Yes
+Closures,All lambdas do not introduce a new level of scope. All referenced variables must be effectively final,Yes
+Lambda expressions,Yes[76],Yes
+Expression trees,No,Yes
+Generic query language,No; but see 'Java Stream equivalent' (Monad)[77],Yes
+Tail recursion compiler optimizations,No[citation needed],Only on x64[78]

@@ -1,3 +1,3 @@
-Syntax,Variant name,Language(s)
-"13HHello, world!",Hollerith notation,Fortran 66
-(indented with whitespace),Indented with whitespace and newlines,YAML
+Syntax,Language(s)
+""I said ""Hello, world!"""","Ada, ALGOL 68, Excel, Fortran, Visual Basic (.NET), FreeBASIC, COBOL"
+"'I said ''Hello, world!'''","Fortran, rc, COBOL, SQL, Pascal, Object Pascal, APL, Smalltalk"

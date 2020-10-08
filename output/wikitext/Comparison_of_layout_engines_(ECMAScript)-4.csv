@@ -1,37 +1,20 @@
-Global object,Trident,Gecko,WebKit,Presto,Blink
-Value properties,,,,,
-NaN,4.0,0.6,,,
-Infinity,4.0,0.6,,,
-undefined,5.5,0.6,,,
-Function properties,,,,,
-eval(x),3.0,0.6,,,
-"parseInt(string [, radix])",3.0,0.6,,,
-parseFloat(string),3.0,0.6,,,
-isNaN(number),4.0,0.6,,,
-isFinite(number),4.0,0.6,,,
-URI handling functions,,,,,
-decodeURI(encodedURI),5.5,0.6,,,
-decodeURIComponent(encodedURIComponent),5.5,0.6,,,
-encodeURI(uri),5.5,0.6,,,
-encodeURIComponent(uriComponent),5.5,0.6,,,
-Constructor properties,,,,,
-Object,4.0,,,,
-Function,4.0,,,,
-Array,4.0,,,,
-String,3.0,,,,
-Boolean,3.0,,,,
-Number,3.0,,,,
-Date,3.0,,,,
-RegExp,4.0,,,,
-Error,5.0,,,,
-EvalError,5.0,,,,
-RangeError,5.0,,,,
-ReferenceError,5.0,,,,
-SyntaxError,5.0,,,,
-TypeError,5.0,,,,
-URIError,5.0,,,,
-Other properties,,,,,
-Math,3.0,,,,
-Additional properties,,,,,
-escape(string),3.0,,,,
-unescape(string),3.0,,,,
+Number object,Trident,Gecko,WebKit,Presto
+Called as function,,,,
+Number([value]),?,,,?
+Called as constructor,,,,
+new Number([value]),3.0,1.0,,1.0
+Properties,,,,
+prototype,4.0,1.0,,1.0
+MAX_VALUE,4.0,1.0,,1.0
+MIN_VALUE,4.0,1.0,,1.0
+NaN,4.0,1.0,,1.0
+NEGATIVE_INFINITY,4.0,1.0,,1.0
+POSITIVE_INFINITY,4.0,1.0,,1.0
+Properties of prototype,,,,
+constructor,4.0,1.0,,1.0
+toString([radix]),4.0,1.0,,1.0
+toLocaleString(),5.5,1.0,,1.0
+valueOf(),4.0,1.0,,1.0
+toFixed(fractionDigits),5.5,1.0,,1.0
+toExponential(fractionDigits),5.5,1.0,,1.0
+toPrecision(precision),5.5,1.0,,1.0

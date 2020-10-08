@@ -1,52 +1,44 @@
-,throw,handler,assertion
-Ada[1],raise exception_name «with string_expression»,begin statementsexception when exception_list1 => statements; when exception_list2 => statements; ... «when others => statements;»end[b],pragma Assert («Check =>» boolean_expression ««Message =>» string_expression») [function | procedure | entry] with Pre => boolean_expression Post => boolean_expression any_type with Type_Invariant => boolean_expression
-APL,«string_expression» ?SIGNAL number_expression,:Trap number«s»_expression statements «:Case number«s»_expression statements» ... «:Else number«s»_expression statements»:EndTrap,«string_expression» ?SIGNAL 98/?~condition
-C (C99),"longjmp(state, exception);",switch (setjmp(state)) { case 0: instructions break; case exception: instructions ... },assert(condition);
-C++,throw exception;,try { instructions } catch «(exception)» { instructions } ...,
-C#,,try { instructions } catch «(exception« name»)» { instructions } ... «finally { instructions }»,System.Diagnostics.Debug.Assert(condition);or System.Diagnostics.Trace.Assert(condition);
-Java,,try { instructions } catch (exception) { instructions } ... «finally { instructions }»,assert condition «: description»;
-JavaScript,,try { instructions } catch (exception) { instructions } «finally { instructions }»,?
-D,,try { instructions } catch (exception) { instructions } ... «finally { instructions }»,assert(condition);
-PHP,,try { instructions } catch (exception) { instructions } ... «finally { instructions }»,assert(condition);
-S-Lang,,try { instructions } catch «exception» { instructions } ... «finally { instructions }»,?
-Windows PowerShell,,trap «[exception]» { instructions } ... instructions or try { instructions } catch «[exception]» { instructions } ... «finally { instructions }»,[Debug]::Assert(condition)
-Objective-C,@throw exception;,@try { instructions } @catch (exception) { instructions } ... «@finally { instructions }»,"NSAssert(condition, description);"
-Swift,throw exception (2.x),do { try expression ... instructions } catch exception { instructions } ... (2.x),"assert(condition«, description»)"
-Perl,die exception;,eval { instructions }; if ($@) { instructions },?
-Raku,,try { instructions CATCH { when exception { instructions } ...}},?
-Ruby,raise exception,begin instructions rescue exception instructions ... «else instructions» «ensure instructions» end,
-Smalltalk,exception raise,instructionBlock on: exception do: handlerBlock,assert: conditionBlock
-Common Lisp,(error "exception") or (error type arguments) or (error (make-condition type arguments)),(handler-case (progn instructions) (exception instructions) ...) or (handler-bind (condition (lambda instructions «invoke-restart restart args»)) ...)[a],(assert condition) or (assert condition «(place) «error»») or (check-type var type)
-Scheme (R6RS),(raise exception),(guard (con (condition instructions) ...) instructions),?
-ISLISP,(error "error-string" objects) or (signal-condition condition continuable),(with-handler handler form*),?
-Pascal,raise Exception.Create(),try Except on E: exception do begin instructions end; end;,?
-Visual Basic,Err.Raise ERRORNUMBER,With New Try: On Error Resume Next OneInstruction .Catch: On Error GoTo 0: Select Case .Number Case ERRORNUMBER instructions End Select: End With '*** Try class ***
-Private mstrDescription As String
-Private mlngNumber As Long
-Public Sub Catch()
-
-mstrDescription = Err.Description
-
-mlngNumber = Err.Number
-
-End Sub
-Public Property Get Number() As Long
-
-Number = mlngNumber
-
-End Property
-Public Property Get Description() As String
-
-Description = mstrDescription
-End Property
-[12],Debug.Assert condition
-Visual Basic .NET,Throw exceptionor Error errorcode,Try instructions Catch« name As exception»« When condition» instructions ... «Finally instructions» End Try,System.Diagnostics.Debug.Assert(condition)or System.Diagnostics.Trace.Assert(condition)
-Xojo,Raise exception,Try instructions Catch «exception» instructions ... «Finally instructions» End Try,N/A
-Python,raise exception,try: Tab ? instructions except «exception»: Tab ? instructions ... «else: Tab ? instructions» «finally: Tab ? instructions»,assert condition
-Fortran,N/A,,
-Forth,code THROW,xt CATCH ( code or 0 ),N/A
-OCaml,raise exception,try expression with pattern -> expression ...,assert condition
-F#,,try expression with pattern -> expression ... or try expression finally expression,
-Standard ML,raise exception «arg»,expression handle pattern => expression ...,
-Haskell (GHC),throw exception or throwError expression,catch tryExpression catchExpression or catchError tryExpression catchExpression,assert condition expression
-COBOL,RAISE «EXCEPTION» exception,USE «AFTER» EXCEPTION OBJECT class-name. or USE «AFTER» EO class-name. or USE «AFTER» EXCEPTION CONDITION exception-name «FILE file-name». or USE «AFTER» EC exception-name «FILE file-name».,N/A
+,8 bit (byte),,16 bit (short integer),,32 bit,,64 bit (long integer),,Word size,,Arbitrarily precise (bignum)
+,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,
+Ada[1],range -2**7 .. 2**7 - 1[j],range 0 .. 2**8 - 1[j] or mod 2**8[k],range -2**15 .. 2**15 - 1[j],range 0 .. 2**16 - 1[j] or mod 2**16[k],range -2**31 .. 2**31 - 1[j],range 0 .. 2**32 - 1[j] or mod 2**32[k],range -2**63 .. 2**63 - 1[j],mod 2**64[k],Integer[j],range 0 .. 2**Integer'Size - 1[j] or mod Integer'Size[k],N/A
+ALGOL 68 (variable-width),short short int[c],N/A,short int[c],N/A,int[c],N/A,long int[c],N/A,int[c],N/A,long long int [a][g]
+,,,,,,,,,bytes & bits,,
+C (C99 fixed-width),int8_t,uint8_t,int16_t,uint16_t,int32_t,uint32_t,int64_t,uint64_t,intptr_t[c],size_t[c],N/A
+C++ (C++11 fixed-width),,,,,,,,,,,
+C (C99 variable-width),signed char,unsigned char,short[c],unsigned short[c],long[c],unsigned long[c],long long[c],unsigned long long[c],int[c],unsigned int[c],
+C++ (C++11 variable-width),,,,,,,,,,,
+Objective-C (Cocoa),signed char or int8_t,unsigned char or uint8_t,short or int16_t,unsigned short or uint16_t,int or int32_t,unsigned int or uint32_t,long long or int64_t,unsigned long long or uint64_t,NSInteger or long,NSUInteger or unsigned long,
+C#,sbyte,byte,short,ushort,int,uint,long,ulong,IntPtr,UIntPtr,System.Numerics.BigInteger (.NET 4.0)
+Java,byte,N/A,,char[b],,N/A,,N/A,N/A,N/A,java.math.BigInteger
+Go,int8,uint8 or byte,int16,uint16,int32,uint32,int64,uint64,int,uint,big.Int
+Rust,i8,u8,i16,u16,i32,u32,i64,u64,isize,usize,N/A
+Swift,Int8,UInt8,Int16,UInt16,Int32,UInt32,Int64,UInt64,Int,UInt,
+D,byte,ubyte,short,ushort,int,uint,long,ulong,N/A,N/A,BigInt
+Common Lisp[2],(signed-byte 8),(unsigned-byte 8),(signed-byte 16),(unsigned-byte 16),(signed-byte 32),(unsigned-byte 32),(signed-byte 64),(unsigned-byte 64),,,bignum
+Scheme,,,,,,,,,,,
+ISLISP[3],,,,,,,,,,,bignum
+Pascal (FPC),shortint,byte,smallint,word,longint,longword,int64,qword,integer,cardinal,N/A
+Visual Basic,N/A,Byte,Integer,N/A,Long,N/A,N/A,,N/A,,N/A
+Visual Basic .NET,SByte,,Short,UShort,Integer,UInteger,Long,ULong,,System.Numerics.BigInteger (.NET 4.0),
+FreeBasic,Byte or Integer<8>,UByte or UInteger<8>,Short or Integer<16>,UShort or UInteger<16>,Long or Integer<32>,ULong or UInteger<32>,LongInt or Integer<64>,ULongInt or UInteger<64>,Integer,UInteger,N/A
+Python 2.x,N/A,,N/A,,N/A,,N/A,,int,N/A,long
+Python 3.x,N/A,,N/A,,N/A,,N/A,,N/A,,int
+S-Lang,N/A,,N/A,,N/A,,N/A,,N/A,,N/A
+Fortran,INTEGER(KIND = n)[f],N/A,INTEGER(KIND = n)[f],N/A,INTEGER(KIND = n)[f],N/A,INTEGER(KIND = n)[f],N/A,,,
+PHP,N/A,,N/A,,int [m],N/A,int [m],N/A,N/A,,[e]
+Perl 5,N/A[d],,N/A[d],,N/A[d],,N/A[d],,N/A[d],,Math::BigInt
+Raku,int8,uint8,int16,uint16,int32,uint32,int64,uint64,Int,N/A,
+Ruby,N/A,,N/A,,N/A,,N/A,,Fixnum,N/A,Bignum
+Erlang[n],N/A,,N/A,,N/A,,N/A,,integer(),N/A,integer()[o]
+Scala,Byte,N/A,Short,Char[l],Int,N/A,Long,N/A,N/A,N/A,scala.math.BigInt
+Seed7,N/A,N/A,N/A,N/A,N/A,N/A,integer,N/A,N/A,N/A,bigInteger
+Smalltalk,N/A,,N/A,,N/A,,N/A,,SmallInteger[i],N/A,LargeInteger[i]
+Windows PowerShell,N/A,,N/A,,N/A,,N/A,,N/A,,N/A
+OCaml,N/A,,N/A,,int32,N/A,int64,N/A,int or nativeint,,open Big_int;; big_int
+F#,sbyte,byte,int16,uint16,int32 or int,uint32,,uint64,nativeint,unativeint,bigint
+Standard ML,N/A,Word8.word,N/A,,Int32.int,Word32.word,Int64.int,Word64.word,int,word,LargeInt.int or IntInf.int
+Haskell (GHC),«import Int» Int8,«import Word» Word8,«import Int» Int16,«import Word» Word16,«import Int» Int32,«import Word» Word32,«import Int» Int64,«import Word» Word64,Int,«import Word» Word,Integer
+Eiffel,INTEGER_8,NATURAL_8,INTEGER_16,NATURAL_16,INTEGER_32,NATURAL_32,INTEGER_64,NATURAL_64,INTEGER,NATURAL,N/A
+COBOL[h],BINARY-CHAR «SIGNED»,BINARY-CHAR UNSIGNED,BINARY-SHORT «SIGNED»,BINARY-SHORT UNSIGNED,BINARY-LONG «SIGNED»,BINARY-LONG UNSIGNED,BINARY-DOUBLE «SIGNED»,BINARY-DOUBLE UNSIGNED,N/A,N/A,N/A
+Mathematica,N/A,,N/A,,N/A,,N/A,,N/A,,Integer
+Wolfram Language,N/A,,N/A,,N/A,,N/A,,N/A,,Integer

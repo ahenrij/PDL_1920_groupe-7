@@ -1,10 +1,11 @@
-,Trident,Gecko,WebKit,Presto
-translate[86],colspan="4" ,,,
-Datasets (data-*),rowspan="3" ,6.0[87],,2.8[89]
-contextmenu,8.0[90],,,
-hidden,2.0[91],,2.7.70,
-contenteditable[93],5.5,1.9,,2.0
-spellcheck[94],rowspan="2" 6.0,1.8[95],,2.8[97]
-draggable,1.9.1[98],533[99],2.10.270,
-dropzone,,,,2.10.270
-! Trident,Gecko,WebKit,Presto,
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+manifest,html,6.0[67],12,1.9,,2.6[68][69]
+sizes,link,,13,8.0 (only mobile)[70][71],,
+charset,meta,4.0[73],12,1.9.2,,2.5.24
+scoped,style,,,21.0[74],,rowspan="6" 
+async,script,6.0,12,1.9.2[76],,
+reversed,ol,,,18.0[78],,
+downloaddate=December 2014,"a,area",,13,20.0[80],,
+sandbox,iframe,6.0[81],12,17.0[82],533[83],
+seamless,iframe,,,,,
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto

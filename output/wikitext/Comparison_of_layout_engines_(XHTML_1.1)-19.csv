@@ -1,7 +1,3 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-ruby,,rowspan="6" ,rowspan="6" ,,rowspan="6" ,rowspan="6" ,rowspan="6" 
-rbc,rowspan="2" ,rowspan="2" ,,,,,
-rtc,,,,,,,
-rb,,,,,,,
-rt,,,,,,,
-rp,,,,,,,
+object,rowspan="2" 3.0[8],rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" 
+param,,,,,,,

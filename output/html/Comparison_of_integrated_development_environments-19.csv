@@ -1,5 +1,2 @@
-IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
-Eclipse JDT,EPL,No,Yes,Yes,Yes,"FreeBSD, JVM, Solaris",No
-IntelliJ IDEA,"ASLv2, proprietary",Yes,Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris",No
-NetBeans,"CDDL, GPL2",Yes,Yes,Yes,Yes,"OpenBSD, Solaris",Yes
-SlickEdit,Proprietary,No,Yes,Yes,Yes,"Solaris, Solaris SPARC, AIX, HP-UX",No
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release
+EiffelStudio,GPL and commercial,Yes,Yes,Yes,"FreeBSD, OpenVMS, Solaris, VxWorks, other Unix",Yes,Yes,Yes,Yes,Automatic testing framework,Yes,Metrics tool,BON / UML class diagramming,Multi-view,V7.1 June 2012

@@ -1,11 +1,22 @@
-Fields and initialization,Java,C#
-Fields,Yes,Yes
-Constants,Yes,Yes; but no support for constant passed parameters[52]
-Static (class) constructors,Yes,Yes
-Instance constructors,Yes,Yes
-Finalizers/destructors,Yes,Yes
-Instance initializers,Yes,No; can be simulated with instance constructor
-Object initialization,Bottom-up (fields and constructors),Top-down (fields); bottom-up (constructors)
-Object initializers,Yes,Yes
-Collection initializers,No; static varargs methods,Yes
-Array initializers,Yes,Yes
+Java,C#
+public int addOne(final int x) {
+    x++; // ERROR: a final variable cannot be reassigned
+    return x;
+}
+
+public List addOne(final List<Integer> list) {
+    list.add(1); // OK: it is still possible to modify a
+                 // final (reference type) variable
+    return list;
+},public int AddOne(in int x) 
+{
+    x++; // ERROR: a readonly parameter cannot be reassigned
+    return x;
+}
+
+public List<int> AddOne(in List<int> list) 
+{
+    list.Add(1); // OK: it is still possible to modify a
+                 // readonly (reference type) parameter
+    return list;
+}

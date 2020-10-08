@@ -1,7 +1,9 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts)
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,
-Quadro FX 380M,GT218M,40,PCIe 2.0 ×16,625,1530,1600,16:8:4,2.5,5,512,12.8,GDDR3,64,73.44,10.1,3.3,25
-Quadro FX 880M,GT216M,,,550,1210,,48:16:8,4.4,8.8,1024,25.6,,128,174.24,,,35
-Quadro FX 1800M,GT215M,,,450,1080,1600 2200,72:24:8,3.6,10.8,,25.6 35.2,GDDR3 GDDR5,,233.28,,,45
-Quadro FX 2800M,G92M,55,,500,1250,2000,96:48:16,8,16,,64,GDDR3,256,360,10.0,,75
-Quadro FX 3800M,,,,675,1688,,128:64:16,10.8,43.2,,,,,648.192,,,100
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,Supported API version,,,Nvidia Optimus technology,TBP (Watts)
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,,
+Quadro M500M,GM108,28,PCIe 3.0 ×16,1029,1124,900 (1800),384:24:8 (3 SMM),8.992,17.98,2048,14.40,DDR3,64,863.2,26.98,12.1,4.5,1.0,Yes,25
+Quadro M600M,GM107,,,837,876,1253 (5012),384:24:16 (3 SMM),7.008,14.02,,80.2,GDDR5,128,672.8,21.02,,,,,30
+Quadro M1000M,,,,993,,,512:32:16 (4 SMM),15.89,31.78,,,,,1017,31.78,,,,,40
+Quadro M2000M,,,,1029,1098,,640:40:16 (5 SMM),17.57,43.92,4096,,,,1405,43.92,,,,,55
+Quadro M3000M,GM204,,,1050,,,1024:64:32 (8 SMM),33.60,67.20,,160.4,,256,2150,67.20,,,,,75
+Quadro M4000M,,,,975,,,1280:80:48 (10 SMM),62.40,78.00,,,,,2496,78.00,,,,,100
+Quadro M5000M,,,,962,,,1536:96:64 (12 SMM),62.40,93.60,8192,,,,2955.3,93.60,,,,,

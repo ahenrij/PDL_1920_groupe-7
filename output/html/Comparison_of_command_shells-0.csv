@@ -1,25 +1,24 @@
-Shell,Functions,Exception handling,Search & replace on variable substitutions,Arithmetic,Floating point,Math function library,Linear arrays or lists,Associative arrays,Lambda functions,eval function,Pseudorandom number generation,Bytecode
-Bourne shell 1977 version,No,Yes (via trap),No,No,No,No,No,No,No,Yes,No,No
-Bourne shell current version,Yes since SVR2,Yes (via trap),No,Yes[nb 8],No,No,No,No,No,Yes,No,No
-POSIX shell,Yes,Yes (via trap),No,Yes,No,No,No,No,No,Yes,No,No
-bash (v4.0),Yes,Yes (via trap),Yes (via ${//} syntax),Yes,No,No,Yes,Yes,No,Yes,Yes ( $RANDOM),No
-csh,No,No,Yes (via $var:s/// syntax),Yes,No,No,Yes,No,No,Yes,No,No
-tcsh,No,No,Yes (via $var:s/// syntax),Yes,No,No,Yes,No,No,Yes,No,No
-Hamilton C shell,Yes,No,Yes (via $var:s/// syntax),Yes,Yes,Yes,Yes,No,No,Yes,Yes (random utility),No
-Scsh,Yes,?,Yes (via string functions and regular expressions),?,?,?,Yes,?,Yes,Yes,"Yes (random-integer, random-real)","Yes (compiler is Scheme48 virtual machine, via scshvm)"
-ksh (ksh93t+),Yes,Yes (via trap),Yes (via ${//} syntax and builtin commands),Yes,Yes,Yes,Yes,Yes,No,Yes,Yes ( $RANDOM),Yes (compiler is called shcomp)
-pdksh,Yes,Yes (via trap),No,Yes,No,No,Yes,No,No,Yes,Yes ( $RANDOM),No
-zsh,Yes,Yes,Yes (via ${:s//} and ${//} syntax),Yes,Yes,Yes ( zsh/mathfunc module),Yes,Yes,No,Yes,Yes ( $RANDOM),Yes (built-in zcompile command)
-ash,Yes,Yes (via trap),No,Yes (since 1992)[44],No,No,No,No,No,Yes,No,No
-CCP,No,?,No,No,?,?,No,No,No,No,No,No
-COMMAND.COM,No,Partial (only Auto-fail (via COMMAND /F (or /N in some versions of DR-DOS)),No,No,No,No,No,No,No,No,No,No
-OS/2 CMD.EXE,No,No,No,?,No,No,?,No,No,No,No,No
-Windows CMD.EXE,Yes (via CALL :label),No,Yes (via SET %varname:expression syntax),Yes (via SET /A)[45],No,No,Yes (via SET[46]),No,No,No,Yes ( %random%),No
-4DOS,Yes,"Yes (via ON command, optional Auto-fail via 4DOS /F)",Yes (via %@Replace[...] function),Yes (via SET /A),?,?,"Yes (via ranges, include lists, @file lists and FOR command)",No,No,Yes,Yes ( %@Random[...] function),Yes (via BATCOMP command)
-4OS2,?,?,?,?,?,?,?,?,No,Yes,Yes ( %@Random[...] function),?
-TCC (formerly 4NT),Yes,Yes (via ON and various ...MONITOR commands),Yes (via %@Replace[...] function),Yes (via SET /A),?,?,"Yes (via ranges, include lists, @file lists and FOR command)",?,No,Yes,Yes ( %@Random[...] function),Yes (via BATCOMP command)
-PowerShell,Yes,Yes (Try-Catch-Finally),Yes ( -replace operator),Yes,Yes,[Math] class[47],Yes,Yes,Yes,Yes,Yes,"Yes, automatic"
-rc,Yes,Yes,No,?,?,?,Yes,?,No,Yes,No,No
-BeanShell,Yes,Yes,?,Yes,?,?,Yes,Yes,No,Yes,Yes,Yes
-VMS DCL,Yes,Yes,No,Yes,No,"yes, for compiled programs",Yes,No,No,No,No,No
-fish,Yes,Yes (via trap),No,Yes,Yes,Yes,Yes,No,No,Yes,Yes ( random),No
+Shell,Secure (password) prompt,Encrypted variables/ parameters,File/directory passwords,Execute permission,Untrusted script blocking,Restricted shell subset,Safe data subset
+Bourne shell,via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
+POSIX shell,via stty[nb 20],No,?,N/A[nb 21],No,No,No
+bash (v4.0),read -s,No,?,N/A[nb 21],No,Yes,No
+csh,via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
+tcsh,via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
+Hamilton C shell,No,No,No,No,No,No,No
+Scsh,via stty[nb 20],No,?,N/A[nb 21],No,No,No
+ksh (ksh93t+),via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
+pdksh,via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
+zsh,read -s,No,?,N/A[nb 21],No,Yes,No
+ash,via stty[nb 20],No,?,N/A[nb 21],No,Yes,No
+CCP,No,No,No,No,No,No,No
+COMMAND.COM,"Partial (only under DR-DOS, prompts for password if file/directory is protected)",No,Partial (only under DR-DOS via \dirname;dirpwd\filename;filepwd syntax)[nb 22],"Partial (only under DR-DOS, if files are password-protected for read and/or execute permission)[nb 23]",No,No,No
+OS/2 CMD.EXE,No,No,No,No,No,No,No
+Windows CMD.EXE,No,No,No,No,No,No,No
+4DOS,Yes (via INPUT /P or INKEY /P)[nb 24],No,Partial (only under DR-DOS via \dirname;;dirpwd\filename;;filepwd syntax)[nb 22],"Partial (only under DR-DOS, if files are password-protected for read and/or execute permission)[nb 23]",No,No,No
+4OS2,?,No,No,No,No,No,No
+TCC (formerly 4NT),"Yes (via INPUT /P, INKEY /P or QUERYBOX /P)[nb 24]",No,No,No,No,No,No
+PowerShell,Yes[nb 25],Yes,No,No[nb 26],Yes[53],Yes[nb 27],Yes[54]
+rc,via stty[nb 20],No,?,N/A[nb 21],No,Yes[55],No
+BeanShell,?,?,?,?,?,?,?
+VMS DCL,Yes,No,No,Yes,No,Yes,No
+fish,read -s,No,?,N/A[nb 21],No,Yes (via fish -l),?

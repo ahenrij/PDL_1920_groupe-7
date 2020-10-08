@@ -1,10 +1,13 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-Separate volume for ringtone and media,,,?,,
-Voice commands,,5+ (Siri),?,"3rd party software, such as Saera[369]",
-Offline voice commands,6+[370],,?,,
-Voice recognition,,5+ (Siri),?,,
-Offline voice recognition,4.1+[372],"Limited, only calling and music playback[373]",,,
-Non-English voice recognition,,,?,,
-Sound recorder,Very limited (Doesn't work in background[374] and not voice controlled),3+: Limited (Not voice controlled)[375][376],Partial,,3rd party software
-Call recorder,",3rd party software[380],,"Disabled by default, must be interactively switched on during a call when enabled / 3rd party software[381]",?
-Sound trim,",,?,?,?
+Camera focus at specified point,2.3+[269],,?,1.0.4+[270],
+Camera exposure metering from specified point,",,,?,
+On device picture info (including Exif data),Only date and location; more with 3rd party software[275],Only date and location; more with 3rd party software[276],,?,
+On device picture categorization,,5+[279],,?,
+On device picture description and search,,10+: Items/objects in picture;[281] 7+: Only date and location[282],,?,
+Turn off shutter sound,In silent mode[283],In silent mode[284],In silent mode,In silent mode[285],
+Picture crop,,5+[286],,,
+Photo rotation,,5+[286],,,
+Photo red-eye reduction,2.3+[287],5+[286],,,
+HDR photos option,"4.2+, some manufacturers earlier[289]",,,,
+Photo/video import from memory cards,,With Camera Connection Kit[266],,,
+Video trim,2.3+,,,?,

@@ -1,9 +1,17 @@
-,Trident,Gecko,WebKit,KHTML,Presto
-Images,,,,,
-img,4.0,1.0,,,1.0
-Generic inclusion,,,,,
-object,"4.0For images, a frame will be added to the object. Other content types are not supported and the element is incorrectly implemented as an ActiveX wrapper. Nested objects fallback mechanism is not supported prior to version 7.[2]group=note",rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-param,6.0,,,,
-Image maps,,,,,
-map,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-area,5.0,,,,
+Attribute,Deprecated for,Function,Supported first by,Trident,Gecko,WebKit,KHTML,Presto
+bgproperties,body,Determines whether background image scrolls with the background,Internet Explorer,rowspan="10" 3.1,,,,
+bordercolor,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,,,,
+bordercolordark,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,
+bordercolorlight,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,,,,
+controls,img,Uses the img element to place video or audio clips,Internet Explorer,,,,,
+dynsrc,img,Uses the img element to place video or audio clips,Internet Explorer,,,,,
+event,script,Defines function to call for an object.,Internet Explorer,,?,?,?,
+for,script,Defines the object to bind a scripting event.,Internet Explorer,,?,?,?,
+frame,table,Controls the display of the outer borders of a table in the table tag,Internet Explorer,,?,,,
+framespacing,frameset,Sets the amount of space between frames,Internet Explorer,?,?,,,
+leftmargin,body,Sets the margin between the browser window and the contents of the page,Internet Explorer,rowspan="2" 3.1,?,?,,
+loop,img,Uses the img element to place video or audio clips,Internet Explorer,,,,,
+rightmargin,body,Sets the margin between the browser window and the contents of the page,Internet Explorer,rowspan="3" 3.1,?,?,,
+start,img,Uses the img element to place video or audio clips,Internet Explorer,,,,,
+target,form,Specifies a target window or frame for the output of a form,Internet Explorer,,?,,,
+valign,caption,Sets vertical alignment of table caption,Internet Explorer,3.1,?,?,,

@@ -1,4 +1,6 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Volcanoes on Venus – JARtool experiment Dataset,Venus images returned by the Magellan spacecraft.,Images are labeled by humans.,not given,Images,Classification,1991,[336][337],M. Burl
-MAGIC Gamma Telescope Dataset,Monte Carlo generated high-energy gamma particle events.,Numerous features extracted from the simulations.,"19,020",Text,Classification,2007,[337][338],R. Bock
-Solar Flare Dataset,Measurements of the number of certain types of solar flare events occurring in a 24-hour period.,Many solar flare-specific features are given.,1389,Text,"Regression, classification",1989,[339],G. Bradshaw
+Poker Hand Dataset,5 card hands from a standard 52 card deck.,"Attributes of each hand are given, including the Poker hands formed by the cards it contains.","1,025,010",Text,"Regression, classification",2007,[460],R. Cattral
+Connect-4 Dataset,"Contains all legal 8-ply positions in the game of connect-4 in which neither player has won yet, and in which the next move is not forced.",None.,"67,557",Text,Classification,1995,[461],J. Tromp
+Chess (King-Rook vs. King) Dataset,Endgame Database for White King and Rook against Black King.,None.,"28,056",Text,Classification,1994,[462][463],M. Bain et al.
+Chess (King-Rook vs. King-Pawn) Dataset,King+Rook versus King+Pawn on a7.,None.,3196,Text,Classification,1989,[464],R. Holte
+Tic-Tac-Toe Endgame Dataset,Binary classification for win conditions in tic-tac-toe.,None.,958,Text,Classification,1991,[465],D. Aha

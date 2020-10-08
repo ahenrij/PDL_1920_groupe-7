@@ -1,8 +1,10 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,Nvidia Optimus technology,TBP (Watts)
 ,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
-NVS 2100M,GT218M,40,PCIe 2.0 ×16,535,1230,1600,16:8:4,2.14,4.28,Up to 512,12.8,GDDR3,64,59.04,10.1,3.3,14,
-NVS 3100M,,,,600,1470,,,2.4,4.8,,,,,70.56,,,,based on G210M/310M
-NVS 4200M,GF119,,,810,1620,,48:8:4,3.24,6.48,Up to 1024,,,,155.52,11,4.5,,based on GT 520M
-NVS 5100M,GT216M,,,550,1210,,48:16:8,4.4,8.8,,25.6,,128,174.24,10.1,3.3,35,
-NVS 5200M,GF108,40/28,,625,1250,1800,96:16:4,2.5,10,,14.4,,64,240,11,4.5,,
-NVS 5400M,,,,660,1320,,,2.64,10.56,,28.8,,128,253.44,,,,
+Quadro P500,GP108,14,PCIe 3.0 ×16,,,,256:16:16:2,,,2048,40,GDDR5,64,750,12.1,4.5,Yes,18
+Quadro P600,GP107,,,,384:24:16:3,2048,80,,128,1200,25,,,,,,,
+Quadro P1000,GP107(N18P-Q1-A1),,,,512:32:16:4,4096,96,,,1600,40,,,,,,,
+Quadro P2000,GP107(N18P-Q3-A1),,,,768:64:32:6,5120,,,,2400,50,,,,,,,
+Quadro P3000,GP106,16,,,1280:80:48:10,6144,168,,192,3098,75,,,,,,,
+Quadro P4000,GP104,,,,1792:112:64:14,8192,192,,256,4398,100,,,,,,,
+Quadro P4000 Max-Q,,,,,1792:112:64:14,,,,,,80,,,,,,,
+Quadro P5000,,,,,2048:128:64:16,16384,,,,6197,100,,,,,,,

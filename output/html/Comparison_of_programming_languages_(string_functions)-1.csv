@@ -1,35 +1,34 @@
-Format,Returns,Languages
-string'Length,,Ada
-UPB string,,ALGOL 68
-length(string),,"Ingres, Perl 5, Pascal, Object Pascal (Delphi), Rexx, Seed7, SQL, PL/I"
-len(string),,"BASIC, FreeBASIC, Python, Go, Pick Basic"
-"length(string), string:len(string)",,Erlang
-Len(string),,"VB, Pick Basic"
-string.Length,Number of UTF-16 code units,"VB .NET, C#, Windows PowerShell, F#"
-chars(string) string.chars,Number of graphemes (NFG),Raku
-codes(string) string.codes,Number of Unicode code points,Raku
-string.size OR string.length,Number of bytes[27],Ruby
-strlen(string),Number of bytes,"C, PHP"
-string.length(),,C++ (STL)
-string.length,,"Cobra, D, JavaScript"
-string.length(),Number of UTF-16 code units,Java
-(string-length string),,Scheme
-(length string),,"Common Lisp, ISLISP"
-(count string),,Clojure
-String.length string,,OCaml
-size string,,Standard ML
-length string,Number of Unicode code points,Haskell
-string.length,Number of UTF-16 code units,Objective-C (NSString * only)
-string.characters.count,Number of characters,Swift (2.x)
-count(string),Number of characters,Swift (1.2)
-countElements(string),Number of characters,Swift (1.0–1.1)
-string.len(string) (string):len() #string,,Lua
-string size,,Smalltalk
-"LEN(string), or LEN_TRIM(string)",,Fortran
-StringLength[string],,Mathematica
-Length(string) or Size(string),number of bytes as $int+,Ya
-«FUNCTION» LENGTH(string) or «FUNCTION» BYTE-LENGTH(string),"number of characters and number of bytes, respectively",COBOL
-string length string,a decimal string giving the number of characters,Tcl
-? string,,APL
-string.len(),Number of bytes,Rust[28]
-string.chars().count(),Number of Unicode code points,Rust[29]
+Format,Languages
+LCase(string),VB
+lcase(string),FreeBASIC
+lc(string),"Perl, Raku"
+string.lc,Raku
+tolower(char),C[30]
+std.string.toLower(string),D
+"transform(string.begin(), string.end(), result.begin(), ::tolower)[31]",C++[32]
+lowercase(string),Object Pascal (Delphi)
+strtolower(string),PHP
+lower(string),Seed7
+echo "string" | tr 'A-Z' 'a-z',Unix
+string.lower(),Python
+downcase(string),Pick Basic
+string.downcase,Ruby[33]
+strings.ToLower(string),Go
+(string-downcase string),"Scheme (R6RS), Common Lisp"
+(lower-case string),Clojure
+String.lowercase string,OCaml
+String.map Char.toLower string,Standard ML
+map Char.toLower string,Haskell
+string.toLowerCase(),"Java, JavaScript"
+to_lower(string),Erlang
+string.ToLower(),"VB .NET, C#, Windows PowerShell, F#"
+string.lowercaseString,"Objective-C (NSString * only), Swift (Foundation)"
+string.lower(string) (string):lower(),Lua
+string asLowercase,Smalltalk
+LOWER(string),SQL
+lowercase(string),PL/I[7]
+ToLowerCase[string],Mathematica
+«FUNCTION» LOWER-CASE(string),COBOL
+string.toLower,Cobra
+string tolower string,Tcl
+string.to_lowercase(),Rust[34]

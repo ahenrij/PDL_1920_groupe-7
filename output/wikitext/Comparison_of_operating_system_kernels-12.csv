@@ -1,7 +1,5 @@
-Kernel name,DES,AES,Blowfish,Triple DES,Serpent,Twofish,CAST-128,DES-X,IDEA,RC2,RC5,SEED,Skipjack,TEA,XTEA,CAST-256,RC4,Camellia,Anubis,KHAZAD,Salsa20,FCrypt
-DragonFly BSD kernel,,,,,,,,,,,,,,,,,,,,,,
-FreeBSD kernel,,,,,,,,,,,,,,,,,,,,,,
-Linux,,,,,,,,,,,,,,,,,,,,,,
-Windows NT kernel,,,,,,,,,,,,,,,,,,,,,,
-macOS XNU Kernel,,,,,,,,,,,,,,,,,,,,,,
-Kernel name,DES,AES,Blowfish,Triple DES,Serpent,Twofish,CAST-128,DES-X,IDEA,RC2,RC5,SEED,Skipjack,TEA,XTEA,CAST-256,RC4,Camellia,Anubis,KHAZAD,Salsa20,FCrypt
+Kernel name,Intel,NVIDIA,AMD,ARM,Qualcomm,Imagination Technologies,Broadcom,VeriSilicon
+,Intel HD/Iris Graphics,GeForce/Quadro/Tesla,Radeon,Mali,Adreno,PowerVR,VideoCore4,Vivante
+Linux kernel,,,,,,2D only[36][37],,Etnaviv
+Windows NT kernel,,,,,"Windows RT, Windows Phone 8.x, Windows 10 Mobile",,,
+XNU,colspan=3 via I/O Kit (macOS only),,,via I/O Kit (iOS only),,,,

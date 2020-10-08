@@ -1,6 +1,9 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,,,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
-Quadro M2000,GM206-875-A1[206],28,PCIe 3.0 ×16,796,1163,1653 (6612),768:48:32:6,37.8,56.6,4,105.8,GDDR5,128,1812.5,56.6,12.1,4.6,1.1,1.2,5.2,75,Four DisplayPort 1.2a
-Quadro M4000,GM204-850-A1[207],,,773,773,1503 (6012),1664:104:64:13,51.2,83.2,8,192.4,,256,2662.4,83.2,,,,,,120,
-Quadro M5000,GM204-875-A1[208],,,861,1038,1653 (6612),2048:128:64:16,67.2,134.4,,211.6,,,4300.8,134.4,,,,,,150,"Four DisplayPort 1.2a, One DVI-I"
-Quadro M6000,GM200GL GM200-880-A1[209],,,988,1114,1653 (6612),3072:192:96:24,94.8,189.7,12 24,317,,384,6070,190,,,,,,250[210],
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce Go 6100 + nForce Go 430,,C51M,110,HyperTransport,425,System memory,2:1:2:1,850,425,850,106.25,Up to 128 MB system,System memory,DDR2,64/128
+GeForce Go 6150 + nForce Go 430,,,,,,,,,,,,,,,
+GeForce Go 6200,,NV44M,,PCIe ×16,300,600,4:3:4:2,1200,600,1200,225,16,2.4,DDR,32
+GeForce Go 6400,,,,,400,700,,1600,800,1600,250,,5.6,,64
+GeForce Go 6600,,NV43M,,,300,,8:3:8:4,3000,1500,3000,281.25,128,11.2,,128
+GeForce Go 6800,"November 8, 2004",NV41M,130,,,700 1100,12:5:12:12,,,,375,,22.4 35.2,"DDR, DDR2 DDR3",256
+GeForce Go 6800 Ultra,"February 24, 2005",,,,450,,,5400,3600,5400,562.5,256,,,

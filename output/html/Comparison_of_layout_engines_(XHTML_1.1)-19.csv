@@ -1,11 +1,11 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-Structure Module,,,,,,,
-onload,?,?,?,?,?,?,?
-onunload,,,,,,,
-Forms Module,,,,,,,
-onchange,?,?,?,?,?,?,?
-onblur,,,,,,,
-onfocus,,,,,,,
-onreset,,,,,,,
-onselect,,,,,,,
-onsubmit,,,,,,,
+form,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+input,,,,,,,
+select,,,,,,,
+option,,,,,,,
+textarea,,,,,,,
+button,,,,,,,
+fieldset,,,,,,,
+label,,,,,,,
+legend,,,,,,,
+optgroup,,,,,,,

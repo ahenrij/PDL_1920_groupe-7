@@ -1,43 +1,10 @@
-Languages,Size,First,Last
-Ada,name'Length,name'First,name'Last
-ALGOL 68,UPB name - LWB name+1 2 UPB name - 2 LWB name+1 etc.,LWB name 2 LWB name etc.,UPB name 2 UPB name etc.
-APL,? name (? name)[index],?IO,(? name)-~?IO (? name)[index]-~?IO
-AWK,length,1,asorti
-"C#, Visual Basic .NET, Windows PowerShell, F#",name.Length,name.GetLowerBound(dimension),name.GetUpperBound(dimension)
-CFML,arrayLen(name) name.len(),1,name.len()
-Ch,max(shape(name)),0,max(shape(name))-1
-Common Lisp,(length name),0,(1- (length name))
-D,name.length,0,name.length-1 $-1
-Fortran,SIZE(name),LBOUND(name),UBOUND(name)
-Go,len(name),0,len(name) - 1
-Haskell,rangeSize (bounds name),fst (bounds name),snd (bounds name)
-ISLISP,(length name),0,(1- (length name))
-"Cobra, D, Haxe, Java, JavaScript, Scala",name.length,0,name.length - 1
-J,#name,0,<:@#name
-Julia,length(name) size(name),1 first.(axes(name)),end last.(axes(name))
-Lingo,count(name),1,getLast(name)
-LiveCode,length(name),1 first,-1 last
-Lua,#name,1 by convention; any integer[2],#name
-Mathematica,Length[name],1 First[name],-1 Last[name]
-"MATLAB, GNU Octave",length(name),1,end
-Nim,name.len,name.low[3],name.high
-Oberon,LEN(name),0,LEN(name) - 1
-Object Pascal,Length(name),0 low(name),Length(name)-1 high(name)
-Objective-C (NSArray * only),[name count],0,[name count] - 1
-OCaml,Array.length name,0,Array.length name - 1
-Perl,scalar(@name),$[,$#name
-PHP,count($name),0,count($name) - 1
-Python,len(name),0,-1 len(name) - 1
-R,length(name),1,length(name)
-Raku,@name.elems,0,@name.end
-Red,length? name,name/1 first name,last name
-Ruby,name.size,0 name.first,-1 name.size - 1 name.last
-Rust,name.len(),0,name.len() - 1
-S-Lang,length(name),0,-1 length(name)-1
-Scheme,(vector-length vector),0,(- (vector-length vector) 1)
-Smalltalk,name size,1 name first,name size name last
-Swift,name.count,0,name.count - 1
-Visual Basic,UBound(name)-LBound(name)+1,LBound(name),UBound(name)
-Wolfram Language,Length[name],1 First[name],-1 Last[name]
-Xojo,UBound(name),0,UBound(name)
-XPath/XQuery,count($name),1,count($name) last() array:size(name)[4]
+Language/ Library,Create,Determinant,Transpose,Element,Column,Row,Eigenvalues
+APL,m?dims?x11 x12 ...,-.×m,?m,m[i;j] or i j?m,m[;j] or j?[2]m or j??m,m[i;] or i?m,??1?m
+Fortran,"1=m = RESHAPE([x11, x12, ...], SHAPE(m))",,TRANSPOSE<wbr/>(m),"m(i,j)","m(:,j)","m(i,:)",
+Ch [47],1=m = {...,determinant<wbr/>(m),transpose<wbr/>(m),m[i-1][j-1],"shape<wbr/>(m,0)","shape<wbr/>(m,1)","eigen<wbr/>(output, m, NULL)"
+Mathematica,"1=m = ,Det[m],Transpose<wbr/>[m],"m[[i,j]]","m[[;;,j]]",m[[i]],Eigenvalues<wbr/>[m]
+MATLAB / GNU Octave,1=m = [...],det(m),m.',"m(i,j)","m(:,j)","m(i,:)",eig(m)
+NumPy,1=m = mat(...),linalg.det(m),m.T,"m[i-1,j-1]","m[:,j-1]","m[i-1,:]",linalg.eigvals(m)
+S-Lang,"1=m = reshape<wbr/>([x11, x12, ...], [new-dims])",,1=m = transpose<wbr/>(m),"m[i,j]<wbr/>","m[*,j]","m[j,*]",
+SymPy,1=m = Matrix(...),,m.T,"m[i-1,j-1]",,,
+Wolfram Language,"1=m = ,Det[m],Transpose<wbr/>[m],"m[[i,j]]","m[[;;,j]]",m[[i]],Eigenvalues<wbr/>[m]
