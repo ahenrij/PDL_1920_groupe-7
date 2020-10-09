@@ -7,6 +7,7 @@ import org.jsoup.select.Elements;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URI;
 import java.util.ArrayList;
 import java.util.Set;
 import java.util.logging.Level;
@@ -29,8 +30,16 @@ public class StatExtractor {
        //System.out.println(inputdata);
         for (UrlMatrix url : liturls) {
             try {
-                Document doc = Jsoup.connect(url.getLink()).get();
-                Elements tables = doc.getElementsByTag("table");
+            	
+            	// conversion of special characters and ignoring of invalid urls
+            	
+            	Document doc = Jsoup.connect(URI.create(url.getLink()).toASCIIString())
+                		.userAgent("PostmanRuntime/7.26.5")
+                		.referrer("http://www.google.com")
+                		.ignoreHttpErrors(true)
+                		.get();
+            	
+            	Elements tables = doc.getElementsByTag("table");
                 for (int i = 0; i < tables.size(); i++) {
                     if (tables.get(i).className().contains("box")) {
                         comptbox++;

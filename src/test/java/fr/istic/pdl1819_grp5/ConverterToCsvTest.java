@@ -258,7 +258,7 @@ class ConverterToCsvTest {
             count++;
         }
         assertTrue(statfile.exists(), "check if the file wikitable_stat.csv has been created");
-        assertEquals(314, count, "check if we have all lines in our wikitable_stat.csv");
+        assertEquals(336, count, "check if we have all lines in our wikitable_stat.csv");
 
     }
 
@@ -520,8 +520,6 @@ class ConverterToCsvTest {
             assertTrue(firstelemnt.get(0).equals(secondelement.get(0)));
             assertTrue(firstelemnt.get(1).equals(secondelement.get(1)));
             assertTrue(firstelemnt.get(2).equals(secondelement.get(2)));
-            assertTrue(firstelemnt.get(3).equals(secondelement.get(3)));
-            assertTrue(firstelemnt.get(4).equals(secondelement.get(4)));
 
         }
 
@@ -544,6 +542,7 @@ class ConverterToCsvTest {
             assertTrue(firstelemnt.get(1).equals(secondelement.get(1)));
             assertTrue(firstelemnt.get(2).equals(secondelement.get(2)));
             assertTrue(firstelemnt.get(3).equals(secondelement.get(3)));
+            assertTrue(firstelemnt.get(4).equals(secondelement.get(4)));
             assertTrue(firstelemnt.get(5).equals(secondelement.get(5)));
 
         }
@@ -611,9 +610,7 @@ class ConverterToCsvTest {
             assertTrue(firstelemnt.get(0).equals(secondelement.get(0)));
             assertTrue(firstelemnt.get(1).equals(secondelement.get(1)));
             assertTrue(firstelemnt.get(2).equals(secondelement.get(2)));
-            assertTrue(firstelemnt.get(3).equals(secondelement.get(3)));
-            assertTrue(firstelemnt.get(5).equals(secondelement.get(5)));
-            assertTrue(firstelemnt.get(9).equals(secondelement.get(9)));
+         
 
         }
     }
@@ -621,31 +618,27 @@ class ConverterToCsvTest {
     @Test
     static void convertTable() throws IOException {
 
-        ConverterToCsv c = new ConverterToCsv();
         Document doc = Jsoup.parse(ReadFile("src/test/1 rowspan/html"));
         Element table = doc.getElementsByTag("table").first();
-        FileMatrix fileMatrix = c.convertHtmlTable(table);
+        FileMatrix fileMatrix = ConverterToCsv.convertHtmlTable(table);
         assertTrue(FileUtils.contentEquals(new File("src/test/1 rowspan/csv.csv"), fileMatrix.saveCsv("src/test/1 rowspan/" + fileMatrix.getName() + ".csv")));
 
 
         doc = Jsoup.parse(ReadFile("src/test/2 simple/html"));
         table = doc.getElementsByTag("table").first();
-        ConverterToCsv c2 = new ConverterToCsv();
-        fileMatrix = c2.convertHtmlTable(table);
+        fileMatrix = ConverterToCsv.convertHtmlTable(table);
         assertTrue(FileUtils.contentEquals(new File("src/test/2 simple/csv.csv"), fileMatrix.saveCsv("src/test/2 simple/" + fileMatrix.getName() + ".csv")));
 
 
         doc = Jsoup.parse(ReadFile("src/test/3 rowspan/html"));
-        table = doc.getElementsByTag("table").first();
-        ConverterToCsv c3 = new ConverterToCsv();
-        fileMatrix = c3.convertHtmlTable(table);
+        table = doc.getElementsByTag("table").first(); 
+        fileMatrix = ConverterToCsv.convertHtmlTable(table);
         assertTrue(FileUtils.contentEquals(new File("src/test/3 rowspan/csv.csv"), fileMatrix.saveCsv("src/test/3 rowspan/" + fileMatrix.getName() + ".csv")));
 
 
         doc = Jsoup.parse(ReadFile("src/test/thead_tfoot/html"));
         table = doc.getElementsByTag("table").first();
-        ConverterToCsv c4 = new ConverterToCsv();
-        fileMatrix = c4.convertHtmlTable(table);
+        fileMatrix = ConverterToCsv.convertHtmlTable(table);
         assertTrue(FileUtils.contentEquals(new File("src/test/thead_tfoot/csv.csv"), fileMatrix.saveCsv("src/test/thead_tfoot/" + fileMatrix.getName() + ".csv")));
     }
 
