@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Program,ARW Sony,CR2 Canon,DNG Adobe,NEF Nikon,ORF Olympus,PEF Pentax,RAF Fujifilm,SRW Samsung,X3F Sigma,Others,Notes
 ACDSee,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"cRAW, CRW, DCR, ERF, HDR, MRW, RAW, RWL, sRAW",[1]
 Aperture,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"CRW, MOS, RAW, FFF, 3FR",[2]
@@ -12,3 +13,42 @@ Picasa,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"3FR, CRW, DCR, KDC, MRW, NRW, RAW, R
 Shotwell,ARW?,CR2?,DNG?,NEF?,ORF?,PEF?,RAF?,SRW?,X3F?,,"Support "limited", export 8-bit only [9]"
 XnView and XnViewMP,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"CRW, RWZ and more",[10]
 Zoner Photo Studio,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"3FR, CRW, ERF, KDC, MEF, MRW, RAW, RW2, RWZ, SR2, SRF",[11]
+=======
+Name,Windows,macOS,Linux,BSD
+ACDSee,,,,
+Adobe Bridge,,,,
+Adobe Photoshop Lightroom,,,,
+Aperture,,,,
+CDisplay,,,,
+Comix,,,,
+digiKam,,,,
+Eye of GNOME (aka Image Viewer),,,,
+FastPictureViewer,,,,
+FastStone Image Viewer,,,,
+F-Spot,,,,
+Geeqie,,,,
+Gonvisor,,,,
+GraphicConverter,,,,
+gThumb,,,,
+Gwenview,,,,
+iPhoto,,,,
+IrfanView,,,,
+KSquirrel,,,,
+KPhotoAlbum,,,,
+Lphoto,,,,
+Microsoft Photos,,,,
+Phase One Media Pro,,,,
+Paint.NET,,,,
+Apple Photos,,,,
+Picasa,,,,
+Preview,,,,
+Shotwell,,,,
+Simple Comic,,,,
+STDU Viewer,,,,
+Windows Photo Gallery,,,,
+Windows Photo Viewer,,,,
+XnView,,,,
+XnViewMP,,,,
+Xv,,,,
+Zoner Photo Studio,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

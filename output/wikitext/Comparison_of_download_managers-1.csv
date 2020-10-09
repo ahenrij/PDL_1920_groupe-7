@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manager,Web browser integration,Resuming,Download acceleration,URLs per file,Mirror search,Auto dial/hangup,Categorized downloads,Cookies import,Speed limit,File browser,ZIP preview,Add-on support,Scheduler,Checksum verification,Remote Access/Control,Modified Time-stamp preserved
 4K Video Downloader,,,,,,,,,,,,,,,,
 BitComet,,,,,,,,,,,,,,,,
@@ -20,3 +21,27 @@ MiniDM,,,,unlimited,,,,,,,,,,,,
 MLDonkey,,,,unlimited,,,,,,,,,,,,
 Shareaza,IE; Fx and similar: ext. plugin[12],,,unlimited,,via Scheduler,,,,,,,,,,
 Manager,Web browser integration,Resuming,Download acceleration,URLs per file,Mirror search,Auto dial/hangup,Categorized downloads,Cookies import,Speed limit,File browser,ZIP preview,Add-on support,Scheduler,Checksum verification,Remote Access/Control,Modified Time-stamp preserved
+=======
+Manager,HTTP,HTTPS,FTP,SFTP,MMS,RTSP,Metalink,Magnet link,Podcast,RTMP,BitTorrent,eDonkey
+4K Video Downloader,,,,,,,,,,,,
+BitComet,,,,,,,,,,,,
+Download Accelerator Plus,,,,,,,,,,,,
+DownloadStudio,,,,,,,,,,,,
+DownThemAll!,,,,,,,,,,,,
+FlashGet,,,,,,,,,,,,
+Free Download Manager,,,,,,,,,,,,
+Freemake Video Downloader,,,,,,,,,,,,
+Free Studio,,,,,,,,,,,,
+GetRight,,,,,,,,,,,,
+Go!Zilla,,,,,,,,,,,,
+Internet Download Accelerator,,,,,,,,,,,,
+Internet Download Manager,,,,,,,,,,,,
+JDownloader,,,,,,,,,,,,
+Jigdo,,,,,,,,,,,,
+KGet,,,,,,,,,,,,
+Microsoft Download Manager,,,,,,,,,,,,
+MiniDM,,,,,,,,,,,,
+MLDonkey,,,,,,,,,,,,
+Shareaza,,,,,,,,,,,,
+Manager,HTTP,HTTPS,FTP,SFTP,MMS,RTSP,Metalink,Magnet link,Podcast,RTMP,BitTorrent,eDonkey
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

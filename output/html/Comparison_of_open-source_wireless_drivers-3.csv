@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Driver,Chipset,Integration,Free firmware[note 2],License,Original/Primary developer,Development methodologies,Free software[note 3]
 an,"Aironet 4500/4800, Cisco Aironet 340/350",Integrated,N/A,BSD,Bill Paul (FreeBSD),Ported from FreeBSD,Yes
 ath,Atheros AR521*/ AR2413/ AR2417/ AR5413/ AR5416/ AR5424/ AR9160,Integrated,N/A,BSD,Sam Leffler (FreeBSD),Binary blobs ported from FreeBSD,Yes
@@ -24,3 +25,9 @@ urtwn,"Realtek RTL8188CUS, RTL8188CE-VAU, RTL8188EUS, RTL8188RU, and RTL8192CU",
 wi,Lucent Technologies WaveLAN/IEEE and PRISM-II 802.11,Integrated,No,BSD,Bill Paul,,Yes
 wpi,Intel PRO/Wireless 3945ABG,Integrated,No,BSD,Damien Bergamini (OpenBSD),Ported from OpenBSD,Yes
 zyd,ZyDAS ZD1211/ ZD1211B,Integrated,No,BSD,Damien Bergamini (OpenBSD),Ported from OpenBSD,Yes
+=======
+Driver,Chipset,Free firmware[note 2],License,Development
+IWIDarwin,Intel PRO/Wireless 2100/2200BG/2225BG/2915ABG/3945ABG/4965AGN,No,GPL,Port from Linux
+WirelessDriver[70],"Lucent/Agere Systems Hermes (WaveLAN/ORiNOCO), Intersil PRISM-2 802.11b",N/A,BSD,
+GTdriver,PRISM-GT 802.11b/g,N/A,GPL,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

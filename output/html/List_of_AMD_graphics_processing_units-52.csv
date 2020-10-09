@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 Model (Codename),Release Date,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TDP,Bus interface
 ,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,
 Radeon Vega Pro 16 (Vega 12 XLA) [358][359],November 2018,GCN 5th gen 14 nm,Unknown,1024:64:32 16 CU,300 1190,76.16,38.08,?,2437,152.3,HBM2 1024-bit,4,2400,307.2,50 W,PCIe 3.0 ×16
 Radeon Vega Pro 20 (Vega 12 XTA) [358][360],November 2018,,Unknown,1280:80:32 20 CU,308 1190,95.20,38.08,?,3047,190.4,,,,,50 W,
+=======
+Model,Launch,Codename,Architecture,Fab (nm),Core Clock rate (MHz),Config core[a],Fillrate,,Shared Memory,,,Processing power (GFLOPS),API compliance (version),,,,Combined TDP[b],,APU Series
+,,,,,,,Pixel (GP/s),Texture (GT/s),Bus width (bit),Bus type,Bandwidth (GB/s),,Direct3D,OpenGL,OpenCL,Vulkan,Idle (W),Max. (W),
+Radeon HD 6370D,"November 1, 2011",WinterPark,TeraScale 2,32,443,160:8:4,1.77,3.54,128,DDR3-1600,25.6,142,11.3 (11_0),4.5,1.2,N/A,Unknown,65,E2
+Radeon HD 6410D,"June 20, 2011",,,,443[c]–600,,1.77–2.4,3.54–4.8,,,,142–192,,,,,,,A4
+Radeon HD 6530D,,BeaverCreek,,,443,320:16:8,3.54,7.08,,DDR3-1866,29.9,284,,,,,,65–100,A6
+Radeon HD 6550D,,,,,600,400:20:8,4.8,12,,,,480,,,,,,,A8
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

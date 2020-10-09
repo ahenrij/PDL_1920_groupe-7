@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Transistors (billion),Die size (mm2),Bus interface,Core config,Clock speeds,,,Fillrate,,Memory,,,,Supported API version,,,,Processing power (GFLOPS),,,TBP (Watts),SLI support
 ,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),DirectX,OpenGL,OpenCL,Vulkan,Single precision (Boost),Double precision,Half precision,,
 GeForce MX110[166][167],November 2017,GM108,28,Unknown,Unknown,64,256:16:8,965,993,Unknown,7.944,23.83,?2,(variable),GDDR5/DDR3,64,12,4.5,1.0,1.2,762.6,23.83,Unknown,30,No
@@ -13,3 +14,14 @@ GeForce GTX 1070 (Notebook)[173],"August 16, 2016",GP104/GP104B[175],,7.2,314,,2
 GeForce GTX 1070 Max-Q,May 2017,,,,,,,1101,1379,,88.26,176.5,,,,,,,,,5648,176.5,88.26,?,No
 GeForce GTX 1080 (Notebook)[173],"August 16, 2016",,,,,,2560:160:64,1556,1733,10000,99.6,249,,320,GDDR5X,,,,,,7967 (8873),249,124,150,Yes
 GeForce GTX 1080 Max-Q,May 2017,,,,,,,1101,1468,,93.95,234.9,,,,,,,,,7516,234.9,117.4,?,No
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
+Quadro 500M,GF108,40,PCIe 2.0 ×16,700,1400,1800,96:16:4,2.8,11.2,1024,28.8,DDR3,128,268.8,11.0,4.5,35,
+Quadro 1000M,,,,,,,,,,2048,,,,,,,45,Dell Precision M4600
+Quadro 2000M,GF106,,,550,1100,,192:32:16,8.8,17.6,,,,,422.4,,,55,Dell Precision M4600
+Quadro 3000M,GF104,,,450,900,2500,240:40:32,14.4,18,,80,GDDR5,256,432,,,75,Dell Precision M6600
+Quadro 4000M,,,,475,950,,336:56:32,15.2,26.6,,,,,638.4,,,100,Dell Precision M6600
+Quadro 5000M,GF100,,,405,810,2400,320:40:32,12.96,16.2,,76.8,,,518.4,,,,Dell Precision M6500
+Quadro 5010M,GF110,,,450,900,2600,384:48:32,14.4,21.6,4096,83.2,,,691.2,,,,Dell Precision M6600
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

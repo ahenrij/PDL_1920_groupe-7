@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Operating system,Mandatory access control,Software executable space protection,Operating system-level virtualization,Virtualisation,Userspace protection,Others
 Linux,"SELinux, AppArmor[Note 1]","Exec Shield,[Note 1] PaX[Note 1]","Chroot, namespace and cgroups,[Note 2] Linux-VServer,[Note 1] OpenVZ[Note 1]",KVM,"IPFilter, Iptables","grsecurity,[Note 1] RSBAC[Note 1]"
 FreeBSD,"SeBSD,[Note 3][Note 4] TrustedBSD",ProPolice/SSP[Note 5],jail,bhyve[20],"IPFW, PF, IPFilter",
@@ -6,3 +7,32 @@ OpenBSD,,"W^X, ProPolice/SSP[Note 6]",,vmm[21],PF,
 "OpenSolaris, illumos",TrustedBSD,,Solaris Containers,KVM[22],IPFilter,RBAC[23]
 Plan 9,No,No,per-process namespaces,,,
 Inferno,No,No,per-process namespaces,,,
+=======
+Name,Networking support,NE2000/RTL8029,RTL8139,Gigabit Ethernet,10 Gigabit Ethernet,Wireless LAN,Bluetooth,IrDA
+Linux,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+FreeBSD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+OpenBSD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+NetBSD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+DragonFly BSD,Yes,,Yes,Yes,Yes,Yes,Yes,
+"OpenSolaris, illumos",Yes,,Yes,Yes,Yes,Yes,No,No
+"Darwin, OpenDarwin",Yes,,,,,,,
+MINIX,Yes,,Yes,,,,,
+FreeDOS,Yes,Yes,Yes,,,,,
+Genode,Yes,No,No,Yes,No,Yes,No,No
+Haiku,Yes,Yes,Yes,Yes,,Yes,,
+KolibriOS,Yes,Yes,Yes,,,,No,Yes
+MenuetOS,Yes,Yes,,,,,No,No
+GNU,Yes,,,,,,,
+ReactOS,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+"L4, Fiasco, Pistachio",,,,,,,,
+Plan 9,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+AROS,Yes,Yes,,,,,,
+Syllable,Yes,Yes,Yes,Yes,,,,
+Inferno,Yes,Yes,Yes,Yes,,Yes,No,No
+FreeRTOS,,,,,,,,
+eCos,Yes,,,Yes,,,Yes,
+RTEMS,Yes,Yes,Yes,Yes,No,No,No,No
+HelenOS,Yes,Yes,Yes,Yes,No,No,No,No
+E/OS,Yes,Yes,Yes,Yes,Yes,No[6],No,No
+Name,Networking support,NE2000/RTL8029,RTL8139,Gigabit Ethernet,10 Gigabit Ethernet,Wireless LAN,Bluetooth,IrDA
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

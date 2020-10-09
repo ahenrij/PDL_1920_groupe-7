@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config[a],Bus interface,L2 Cache(MB),Clock speeds,,,Memory,,,,Fillrate[b],,Processing power (GFLOPS)[b],,,,Ray-tracing Performance,,TDP (Watts),NVLink support,Release price (USD),
 ,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)[c],Texture (GT/s)[d],Single precision,Double precision,Half precision,Tensor compute (FP16),Rays/s (Billions),RTX OPS/s (Trillions),,,MSRP,Founders Edition
 GeForce RTX 2060[108],"January 15, 2019",TU106-200-KA-A1,TSMC 12FFN,10.8,445,1920:120:48:240:30 (30) (3),PCIe 3.0 x16,3,1365,1680,14000,6,336.0,GDDR6,192,65.52 80.64,163.80 201.60,5?241.60 6?451.20,163.80 201.60,10?483.20 12?902.40,41?932.80 51?609.60,5,37,160,No,$349,
@@ -9,3 +10,22 @@ GeForce RTX 2080[115][116],"September 20, 2018",TU104-400-A1,,,,2944:184:64:368:
 GeForce RTX 2080 Super[110][117],"July 23, 2019",TU104-450-A1,,,,3072:192:64:384:48 (48) (6),,,1650,1815,15500,,496.0,,,105.60 116.16,316.80 348.48,10?140.00 11?150.00,316.80 348.50,20?280.00 22?300.00,81?120.00 89?200.00,,63,250,,,$699
 GeForce RTX 2080 Ti[118],"September 27, 2018",TU102-300-K1-A1,,18.6,754,4352:272:88:544:68 (68) (6),,5.5,1350,1545,14000,11,616.0,,352,118.80 135.96,367.20 420.24,11?750.40 13?447.68,367.20 420.24,23?500.80 26?895.36,94?003.20 107?581.44,10,76,,,$999,$1199
 Nvidia TITAN RTX[119],"December 18, 2018",TU102-400-A1,,,,4608:288:96:576:72 (72) (6),,6,,1770[e],,24,672.0,,384,129.60 169.92,388.80 509.76,12?441.60 16?312.32,388.80 509.76,24?883.20 32?624.64,99?532.80 130?498.56,11,84,,,N/A,"$2,499"
+=======
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes (original research)
+,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
+GeForce 810M,February 2014,GF117,28,PCIe 2.0 ×16,48:8:4,738–888,1476–1776,1800,2.95–3.55,5.9–7.1,1,14.4,DDR3,64,12,4.5,141.7–170.5,15,
+GeForce 820M[142],,,,,96:16:4,719–954,1438–1908,2000,2.9–3.8,11.5–15.3,2,16,,,,,276.1–366.3,15[143],115% of 620 (Fermi)
+GeForce 825M[144],"January 27, 2014",GK208,,PCIe 3.0 ×8,384:16:8 (2 SMX),850,,1800,6.8,13.6,,14.4,,,,,652.8,33,94% of 630 (Kepler)
+GeForce 830M[145],"March 12, 2014",GM108,,PCIe 3.0 ×16,256:16:8 (2 SMM),1029,,,8.2,16.5,,14.4,,,,,526.8,~25,50% of 750 (Maxwell)
+GeForce 840M[146],,,,,384:24:8 (3 SMM),,2000,8.2,24.7,2–4,16,790.3,,,,,30,50–80% of 745 (Maxwell),
+GeForce 845M[147][148],"February 7, 2015[149]",,,,384:32:16 (3 SMM),1071-1150,,5000,18.8,37.6,2,40,GDDR5,,,,903.2,33,
+,"August 16, 2015[150]",GM107,,,512:32:16 (4 SMM),863,,2000,13.8,27.6,,16,DDR3,,,,883.7,45,
+GeForce GTX 850M[151],"March 12, 2014",,,,640:40:16 (5 SMM),876+Boost,,5000,14.0,35.0,2-4,80.2,GDDR5,128,,,1121.3,40,80% of 750Ti
+,,,,,,936+Boost,,2000,15.0,37.4,,32,DDR3,,,,1198.1,,85% of 750Ti
+GeForce GTX 860M[152],,,,,640:40:16 (5 SMM),1020–1085,,5000,16.5,41.2,2,80,GDDR5,,,,1389,40–45,equal to 750Ti
+,,GK104,,,1152:96:16 (6 SMX),797–915,,,12.8,76.5,4,,,,,,2108,75,similar to 660 OEM.
+GeForce GTX 870M[153],,,,,1344:112:24 (7 SMX),941–967,,,22.6,105.4,3.6,120,,192,,,2599,110,105% of 660Ti
+GeForce GTX 880M[154],,,,,1536:128:32 (8 SMX),954–993,,,30.5,122.1,4.8,160,,256,,,3104,130,90% of 770
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
+,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

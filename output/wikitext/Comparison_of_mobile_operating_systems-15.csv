@@ -1,5 +1,13 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+<<<<<<< HEAD
 Safe driving mode,,11+[230],?,?,?
 Turn-by-turn navigation,2+[231],6+[232],?,,
 Offline maps,",6+[234],?,,
 Alternative routes in maps,,5+[236][237],?,,
+=======
+Custom ringtones,,,,,
+Custom SMS/MMS tones,,5+[325],?,,
+Custom vibrate alert patterns,",5+[328][329],?,API available for 3rd party apps,
+Dismiss repeating alarm clock before trigger,4.4+[330],,,?,
+Tap to snooze[332],3rd party apps[333],,,?,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

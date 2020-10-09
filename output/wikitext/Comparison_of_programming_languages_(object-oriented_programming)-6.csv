@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Has member?,,Handler for missing member,
 ! Method,Field,Method,Field,
 APL (Dyalog),3=x.?NC'method',2=x.?NC'method',colspan=2 ,
@@ -22,3 +23,24 @@ Raku,x.can("method"),x.field.defined,AUTOLOAD,
 OCaml,colspan=4 ,,,
 JavaScript,typeof x.method === "function",field in x,,
 COBOL,colspan=4 ,,,
+=======
+,downcast,upcast
+ABAP Objects,colspan=2 ,
+C++ (STL),,operator returntype() { instructions }
+C#,static explicit operator returntype(type operand) { instructions },static implicit operator returntype(type operand) { instructions }
+D,,T opCast(T)() if (is(T == type)) { instructions }
+eC,,property T { get { return «conversion code»; } }
+Java,rowspan=4 colspan=2 ,
+Objective-C,,
+Eiffel[35],,
+Python,,
+Visual Basic .NET,Shared Narrowing Operator CType(operand As type) As returntype instructions End Operator,Shared Widening Operator CType(operand As type) As returntype instructions End Operator
+PHP,rowspan=2 colspan=2 ,
+Perl,,
+Raku,,multi method type«($self:)» is export { instructions }
+Ruby,rowspan=3 colspan=2 ,
+Windows PowerShell,,
+OCaml,,
+F#,,
+COBOL,colspan=2 ,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

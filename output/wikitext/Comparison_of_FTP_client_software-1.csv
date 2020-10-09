@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Client,Creator,First public release date,Latest stable version,Software license,Copy files over 2 GB limit[1],Interface
 cURL,Daniel Stenberg,1998,,MIT,,CLI
 Cyberduck,David V. Kocher,2001,7.2.5 20200101,GPL,,GUI and CLI
@@ -13,3 +14,10 @@ net2ftp,David C. Gartner,2003 (January),0.98 20130301,GPL,,Web application
 Rclone,Nick Craig-Wood,2014 (July),1.53.1 20200913,MIT,,CLI
 tnftp,Luke Mewburn,1999,20151004 20151004,BSD,,CLI
 WinSCP,Martin P?ikryl,2000,,GPL,,GUI and CLI
+=======
+Client,Creator,First public release date,Latest stable version,Software license,Copy files over 2 GB[1]
+CoreFTP,CoreFTP.com,2003,2.2 (build 1751) 20120627,Freeware,
+Fetch,Fetch Softworks,1989,5.7.7 2017122,Proprietary,
+Secure FTP,Glub Tech,1999,2.6.2 2013727,Apache,
+Sysax FTP Automation,"Codeorigin, LLC",2005,5.31 20120412,Proprietary,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

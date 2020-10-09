@@ -1,2 +1,15 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 meta,2.0[3],,,,,,
+=======
+form,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="10" 
+input,,,,,,,
+select,,,,,,,
+option,,,,,,,
+textarea,,,,,,,
+button,,,,,,,
+fieldset,,,,,,,
+label,,,,,,,
+legend,,,,,,,
+optgroup,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

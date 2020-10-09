@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Code name[175],Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),L2 Cache (MB),Core config1,Fillrate,,Memory,,,,,Processing power (GFLOPS),,,Supported API version,,,,,TBP (Watts),Notes
 ,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Memory clock (MHz),Bus type,Bus width (bit),Single precision,Half Precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
 Quadro T1000[224],TU117(N19P-Q1-A1),12,PCIe 3.0,1395,1455,1,768:48:32:12:1536,46.56,69.84,4,128,2000,GDDR5,128,2235,,69.84,12.1,4.6,1.2,1.2,7.5,40-50,
@@ -9,3 +10,9 @@ Quadro RTX 4000[224],TU104(N19E-Q3-A1),,,1110,1560,,2560:160:64:40:320,99.84,249
 RTX 4000 Max-Q[226],TU104,,,780,1380,,,88.32,220.8,,416,1625,,,7066,14130,220.8,,,,,,80,
 Quadro RTX 5000[224],TU104(N19E-Q5-A1),,,,,,3072:192:64:48:384,98.88,296.6,16,448,1750,,,9492,18980,296.6,,,,,,110,
 Quadro RTX 5000 Max-Q[227],TU04,,,600,1350,,,86.40,259.2,,,,,,8294,15970,259.2,,,,,,80,
+=======
+Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce 256 SDR,"October 11, 1999",NV10,TSMC 220 nm,AGP 4× PCI,120,166,4:4:4,480,480,480,0,32,2.656,SDR,128
+GeForce 256 DDR,"December 13, 1999",,,,,150,,,,,,32 64,4.8,DDR,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

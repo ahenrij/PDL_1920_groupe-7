@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Kernel name,Programming language,Used in,Creator,Executable format (also see section below),Type,Integrated firewall,SMP support,Multiple architecture support (also see section below).,Multitasking,Virtualization,Security,Profiling/Debugging,Soft real-time support,Hard real-time support,Can keep RTC in UT[2]
 Amiga Exec,,AmigaOS,Commodore International,HUNK,Exokernel (atypical)[3],No,No,No,Yes,No,No,Yes,No,No,No
 Amiga Exec SG (2nd Generation),,AmigaOS 4,Hyperion Entertainment,ELF/HUNK,Exokernel (atypical),No,No,No,Yes,No,No,Yes,No,No,?
@@ -26,3 +27,13 @@ Windows NT kernel,"C, C++","Windows NT, 2000, XP, 2003, Vista, Windows 7, Window
 XNU (Darwin kernel),"C, C++","Mac OS X, iOS, iPadOS, tvOS, watchOS, OpenDarwin, PureDarwin GNU/Darwin",Apple Inc.,Mach-O,hybrid,"Ipfirewall, PF (starting in Lion)",Yes,Yes,Yes,chroot,"Unix permissions, NT/NFSv4 ACLs, TrustedBSD MAC, OpenBSM","KDB, DDB, DTrace",Yes,No,Yes
 SPARTAN kernel,,HelenOS,Jakub Jermar,ELF,microkernel,?,Yes,Yes,Yes,?,?,?,?,?,?
 Kernel name,,Used in,Creator,Executable format (also see section below),Type,Integrated firewall,SMP support,Multiple architecture support (also see section below).,Multitasking,Virtualization,Security,Profiling/Debugging,Soft real-time support,Hard real-time support,Can keep RTC in UT
+=======
+Kernel Name,"Container (no resource management, no security)",Container (no resource management),Container (resource management),Paravirtualization,Full virtualization,User-space execution,Kernel as Library,Kernel as Kernel Driver,Hypervisor-Enforced Kernel Partitioning
+Linux,chroot,LXC,,"Virtio, Hyper-V (guest only), Xen (guest only), VMI (guest only), kvm-lite, lguest",KVM,UML,(LKL),(coLinux),No
+DragonFly BSD kernel,chroot,jail,,No,No,vkernel,?,?,No
+FreeBSD kernel,chroot,jail,,"Virtio, Xen (guest only)",BHyVe (KVM),?,?,?,No
+NetBSD kernel,chroot,(sysjail (discontinued)),No,Virtio and Xen,No,?,Rump kernel,?,No
+Solaris kernel,chroot,Solaris Containers / Zones,,No,No,No,?,?,No
+Windows NT kernel,"AppContainers, Job Objects, Windows Server Containers",,,Hyper-V,,Project Drawbridge,,No,"Virtual Secure Mode, Device Guard, Credential Guard[14]"
+XNU,chroot,?,?,?,?,?,?,?,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

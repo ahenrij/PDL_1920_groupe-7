@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,,,Trident,EdgeHTML,Gecko,WebKit,KHTML,Presto
 CSS2,!important,Weight increasing,7.0,12,1.0,85,Yes,1.0
 ,/*Comment*/,Comments,3.0,12,1.0,85,Yes,1.0
@@ -39,3 +40,38 @@ css-fonts-3,@font-face,Define font,9.0[t 4],12,1.9.1,525,4.3,2.2
 ,@stylistic,,No,No,,No,No,No
 ,@character-variant,,No,No,,No,No,No
 ,,,Trident,EdgeHTML,Gecko,WebKit,KHTML,Presto
+=======
+,,Trident,EdgeHTML,Gecko,WebKit,KHTML,Presto
+@counter-style,,,,,,,
+css- counter- styles- 3,additive-symbols,No,No,No[g 59],No,No,No
+,fallback,,,,,,
+,negative,,,,,,
+,pad,,,,,,
+,prefix,,,,,,
+,range,,,,,,
+,speak-as,,,,,,
+,suffix,,,,,,
+,symbols,,,,,,
+,system,,,,,,
+@font-face,,,,,,,
+css- fonts- 3,font-family,Yes,12,Yes,Yes,Yes,Yes
+,font-feature-settings,,,,,,
+,font-stretch,,,,No,No,No
+,font-style,,,,Yes,Yes,Yes
+,font-variant,,,,,,
+,font-weight,,,Partial,Partial,,Incorrect
+,src,,,Yes,Yes,,Yes
+,unicode-range,,,36.0[g 60],No,No,No
+@viewport,,,,,,,
+css- device- adapt-1,height,10.0[t 50],12,No,No,No,2.7
+,max-height,No,No,,,,No
+,min-height,,,,,,
+,width,10.0[t 51],12,,,,2.7
+,max-width,No,No,,,,No
+,min-width,,,,,,
+,zoom,,,,,,2.7
+,max-zoom,,,,,,
+,min-zoom,,,,,,
+,user-zoom,,,,,,
+,orientation,,,,,,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

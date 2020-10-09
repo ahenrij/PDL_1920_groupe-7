@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 |,Product import-export,Statistics,Stock control,WYSIWYG editor
 | Apache OFBiz,,,,
 | Batavi,,,,
@@ -14,3 +15,21 @@
 | WooCommerce,,,,
 | Zen Cart,add-on,,,add-on
 !Product import-export,Statistics,Stock control,WYSIWYG editor,
+=======
+|,Coupons,Gift certificates,Membership discounts,Membership-only categories,Membership-only products,Reward points,Special offers
+| Apache OFBiz,,,,,,,
+| Batavi,,,,,,,
+| Bigcommerce,,,,,,3rd party,
+| Drupal Commerce,,,,,,,
+| KonaKart,,,,,,,
+| Magento,,,,,,,
+| nopCommerce,,,,,,,
+| osCommerce,Add-on,Add-on,,,,,
+| pimcore,,,,,,,
+| PrestaShop,,,,,,,
+| Shopify,,,,,,,
+| SupaDupa,,,,,,,
+| WooCommerce,,,,,,,
+| Zen Cart,,,,Add-on[21],Add-on[21],,
+!Coupons,Gift certificates,Membership discounts,Membership-only categories,Membership-only products,Reward points,Special offers,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

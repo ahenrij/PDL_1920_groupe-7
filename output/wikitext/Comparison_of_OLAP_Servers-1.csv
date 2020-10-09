@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 OLAP server,Authentication,Network encryption,On-the-Flyname=fn1,Data access,,
 ,,,,Cell security,Dimension security,Visual totals
 Apache Kylin,"LDAP, SAML, Kerboros, Microsoft Active Directory",SSL,,,,
@@ -12,3 +13,21 @@ Microsoft Analysis Services,"NTLM, Kerberos",SSL and SSPI,,,,
 MicroStrategy Intelligence Server,"Host authentication, database authentication, LDAP, Microsoft Active Directory, NTLM, SiteMinder, Tivoli, SAP, Kerberos","SSL, AES[38]",,,,
 Oracle Database OLAP Option,Oracle Database authentication,SSL,,,,
 SAS OLAP Server[39],"Host authentication,SAS token authentication, LDAP, Microsoft Active Directory",,,,,
+=======
+OLAP server,Real Time,Write-back,Partitioning,Usage Based Optimizations,Load Balancing and Clustering
+Apache Kylin,,,,,
+ClickHouse,,,,,
+Druid,,,,,
+Essbase,,,,,
+IBM Cognos BI,,,,,
+IBM Cognos TM1,,,,,
+icCube,,,,,
+Jedox OLAP Server,,,,,
+Kyvos,,,,,
+Microsoft Analysis Services,,,,,
+MicroStrategy Intelligence Server,,,,,
+Mondrian OLAP server,, Planned,,,
+Oracle Database OLAP Option,,,,,
+SAP NetWeaver BW,,,,,
+SAS OLAP Server,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

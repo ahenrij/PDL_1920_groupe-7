@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Kernel name,CRC-32 (IEEE),CRC32c,MD2,MD4,MD5,SHA-1,SHA-2,SHA-3,Michael MIC,Poly1305,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,HMAC,MDC2,GOST,LASH,VMAC
 Linux,,,,,, ,,,,,,,,,,,,,,,
 ,,,,,  ,,,,,,, ,,,,,,,,,
@@ -5,3 +6,8 @@ Linux,,,,,, ,,,,,,,,,,,,,,,
 FreeBSD kernel,,,,,,,  ,,,,,,, ,,,,,,,
 XNU kernel,,,,,,,  ,,,,,,, ,,,,,,,
 Kernel name,CRC-32 (IEEE),CRC32c,MD2,MD4,MD5,SHA-1,SHA-2,SHA-3,Michael MIC,Poly1305,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,HMAC,MDC2,GOST,LASH,VMAC
+=======
+Kernel name,Deflate,zlib,LZO,LZJB,gzip
+Linux,,,,,
+Solaris kernel,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

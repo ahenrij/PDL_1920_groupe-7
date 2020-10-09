@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Country,Name,Initialisms/Acronym,Founded,Terminated,Capabilities of the space agency,,,,Remarks
 ,,,,,Astronauts,Operates Satellites,Sounding Rockets capable,Recoverable Biological Sounding Rockets capable,
 Bangladesh,Space Research and Remote Sensing Organization,SPARRSO,1980,—,No,Yes,No,No,[4]
@@ -14,3 +15,8 @@ Philippines,Philippine Space Agency,PhilSA,8 August 2019,—,No,Yes,No,No,[18]
 South Korea,Korea Aerospace Research Institute (Korean: ?????????),KARI,10 October 1989,—,Yes,Yes,Yes,No,[citation needed]
 Republic of China,National Space Organization (Chinese: ??????),NSPO,3 October 1991,—,No,Yes,Yes,No,[19]
 Thailand,Geo-Informatics and Space Technology Development Agency (Thai: ??????????????????????????????????????????),GISTDA ????,3 November 2002,—,No,Yes,No,No,[20]
+=======
+No.,Country,Spacecraft,Year,Landing type
+TBD,China,Mars Global Remote Sensing Orbiter and Small Rover,2021 (en route),Soft landing
+TBD,India,Mars Orbiter Mission 2,2024 (Planned)[91],TBD
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

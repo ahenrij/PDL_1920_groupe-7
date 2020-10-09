@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Developer,Status,First release,Latest release,Current version,Based on,License,Source available
 AbsoluteTelnet,Celestial Software (Brian Pence),Active,1996,2016-10-12,10.16[1],,Proprietary,No
 Bitvise SSH Client,Bitvise Limited,Active,2001,2020-05-22,8.43[2],,Proprietary,No
@@ -14,3 +15,17 @@ TN3270 Plus,"SDI USA, Inc.",Active,2006,,,,Proprietary,No
 TtyEmulator,FCS Software,Active,2002-05,,,,Proprietary,No
 wolfSSH,wolfSSL,Active,2016-07-20,2019-10-31,1.4.3,wolfCrypt,GPL or Commercial Distribution,Yes
 ZOC Terminal,"EmTec, Innovative Software",Active,1995-07-01,2020-01-09,7.26.1[8],,Proprietary,No
+=======
+Name,Keyboard mapping,Session tabs,ZMODEM transfers,Find text in buffer,Mouse input support[Note 1],Unicode support,URL hyperlinking,Public key authentication,Smart card support,Hardware encryption,FIPS 140-2 validation,Scripting,Shared Database,Auto-reconnect,CA Certificates
+AbsoluteTelnet,full,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,?,?,?
+Bitvise SSH Client,?,No,No,No,Yes,Yes,No,Yes,No,?,Partial,Yes,No,Yes,No
+OpenSSH (OpenBSD Secure Shell),?,No,No,?,Yes[Note 2],Yes,not native[Note 3],Yes,Yes[Note 4],Yes,Partial[Note 5],No,No,?,Yes[Note 6]
+PuTTY,No,No[Note 7],No,No,Yes,Yes,No[Note 8],Yes,No[Note 9],Yes,No,No,No,No,No[Note 10]
+SecureCRT,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,?,?
+SmartFTP,Partial,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,AES-NI,Yes,No,?,?,?
+Tera Term,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,No,Yes,No,?,?
+TN3270 Plus,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No,Yes,?,?,?
+TtyEmulator,No,No,No,Yes,Yes,No,Yes,Yes,No,No,No,Yes,?,?,?
+wolfSSH,No,No,No,No,No,Yes,No,Yes,No,Yes,Yes,No,No,?,Yes
+ZOC,full,Yes,Yes,Alt+F,Yes,UTF-8,Yes,Yes,pkcs#11,No,No,Yes,?,?,?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Graphics,Launch,Market,Code name,Chipset,Device ID[3],Core render clock (MHz),Execution units,Shader model (vertex/pixel),API support[13],,,Memory bandwidth (GB/s),DVMT (MB),Hardware acceleration,,
 ,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2,VC-1,AVC
 GMA 3000,2006,Desktop,Lakeport,946GZ,2972,667[14][15],8[14][16],3.0 (SW) / 2.0,9.0c FL9_1,1.5Windows 2.1macOS 2.1Linux ES 2.0Linux,No,10.6,256,MC[8],No,No
@@ -20,3 +21,14 @@ GMA 4500MHD,,Mobile,Cantiga,GL40,2A42,400[19],,,,,,,,,,
 ,,,,GM45,,533[19],,,,,,,,,,
 ,,,,GS45,,,,,,,,,,,,
 ,,,,GM47,,640,,,,,,,,,,
+=======
+GPU,FLOPS,,
+,FP16,FP32,FP64
+"Gen4 (GMA 3, 4)",-,(clock speed) * (# of FP32 ALUs),-
+Gen5 (HD Graphics),,,
+"Gen6 (HD Graphics 2000, 3000)",,(clock speed) * 2 * (# of FP32 ALUs),
+"Gen7 (HD Graphics 2500, 4000 ~ 5200)",,,(clock speed) * (# of FP32 ALUs) / 2
+Gen8 (HD Graphics 5300 ~ 6300),(clock speed) * 2 * (# of FP32 ALUs) * 2,,
+"Gen9 (HD Graphics 5xx, 6xx)",,,
+Gen11,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

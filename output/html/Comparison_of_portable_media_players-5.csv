@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,MP3,FairPlay,ALAC,AAC,WMA-DRM,WMA Lossless,WMA,WAV,Audible,Ogg Vorbis,FLAC,Others
 Archos 105,Yes,No,No,No,Yes,No,Yes,Yes,No,No,No,No
 Archos 405,Yes,No,No,No[90],Yes,No,Yes,Yes,No,No,No,AC3[90]
@@ -23,3 +24,32 @@ ZEN Vision W,Yes,No,No,No,Yes,No[94],Yes,Yes,Yes,No,No,No
 Zune,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No,No,WMA Pro Stereo
 ZVUE 260,Yes,No,No,No,Yes,No,Yes,Yes,No,Yes,No,MP2
 ,MP3,AAC-DRM,ALAC,AAC,WMA-DRM,WMA Lossless,WMA,WAV,Audible,Ogg Vorbis,FLAC,Others
+=======
+Name,FM radio,Microphone,Line-in recording,DVR recording,Playback while charging,USB host,HDMI out
+Archos 105,No,No,No,No,Unknown,,
+Archos 405,No,No,No,Yes,Unknown,,
+Archos 5,With FM remote,With FM remote,With dock,With DVR dock,With dock,,
+Archos 605 WiFi / GPS,No,No,No,Yes,Yes,,
+Archos 705 WiFi,No,No,No,Yes,Unknown,,
+Cowon A3,Yes,Yes,Yes,No,Unknown,Yes,
+Cowon D2,Yes,Yes,Yes,No,Yes,,
+Cowon Q5W,Yes,Yes,No,No,Unknown,,
+Gigabeat T-Series,No,No,Yes,No,Unknown,,
+GP2X F-200,No,No,No,No,Unknown,,
+iPod,Nano generations 5 & 6 only,Yes,No,No,Yes,,iPod Touch only
+iriver clix 2G,Yes,Yes,No[98],No,Unknown,,
+PSP 1000 Series,No,No,No,No,Yes,,
+PSP Slim & Lite 2000 Series,No,Accessory only,No,No,Yes,,
+PSP Slim & Lite 3000 Series,No,Yes,No,No,Yes,,
+Samsung Galaxy Player,Yes,Yes,No,No,Yes,No,Korean version only
+Samsung T10,Yes,Yes,No,No,Power only; no data[99],,
+Samsung P2,Yes,Yes,No,No,Power only; no data[99],,
+Sansa Fuze,Yes,Yes,No,No,Power only; no data[99],,
+Sansa Fuze+,with pause and record,Yes,No,No,Power only; no data[99],,
+Sansa View,Yes,Yes,No,No,Power only; no data[99],,
+Walkman NWZ-A810 series,No,No,No,No,Yes,,
+ZEN,Yes,Yes,No,No,Yes,,
+ZEN Vision W,Yes,Yes,No,No,Power only; no data[99],,
+Zune,Yes (HD Radio),No,No,No,Yes,,"Yes, Zune HD"
+Zvue 260,No,No,No,No,No,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

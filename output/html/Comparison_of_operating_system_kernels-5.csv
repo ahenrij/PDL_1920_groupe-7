@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 kernel,HP,,,Softbank/ARM Holdings,,Intel,,,,Tallwood MIPS,,IBM,,,,Renesas Electronics,,,,,,,Oracle,,,NXP,,Analog Devices,Xilinx,Cadence,,Canon/Axis Comm.,Socionext,,Microchip/ Atmel,CML/ Hyperstone,Intel/Altera,,,WDC,Sunplus Technology,Mellanox,TI
 ,VAX,Alpha,PA-RISC,ARM,,x86,,i960,IA-64,MIPS,,PowerPC,,S/390,z/Arch,H8300,M16C,M32R,78K,V850,SuperH,,SPARC,,,m68k,,Blackfin (no-mmu),MicroBlaze,Xtensa,,ETRAX CRIS,FR-V,MN10300,AVR32,E1 (no-mmu),Nios (no-mmu),Nios II,,WDC 65C816,S+core,Tilera,C6X
 ,,,,mmu,no-mmu,x86,x86-64,,,mmu,no-mmu,32-bit,64-bit,,,,,,,,mmu,no-mmu,32-bit,64-bit,no-mmu,mmu,no-mmu,,,mmu,no-mmu,,,,,,,mmu,no-mmu,,,,
@@ -15,3 +16,12 @@ Windows CE kernel,No,No,No,Yes,?,Yes,?,No,No,Yes,?,No,No,No,No,No,?,No,?,No,Yes,
 XNU,No,No,No,Yes,?,Yes,Yes,?,No,No,No,Yes,Yes,No,No,?,?,?,?,?,No,No,No,No,No,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
 SPARTAN kernel,?,No,No,Yes,?,Yes,Yes,?,Yes,Yes,?,Yes,No,No,No,?,?,?,?,?,No,No,Yes,Yes,?,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
 FreeRTOS kernel,?,?,?,?,Yes[35],?,?,?,?,?,?,Yes[35],?,?,No,Yes[35],?,?,Yes[35],Yes[35],?,Yes[35],?,?,?,?,?,Yes[35],Yes[35],?,?,?,?,?,Yes[35],?,?,?,Yes[35],?,?,?,?
+=======
+Kernel Name,NFS,AFS,CIFS,Coda,9P,Ceph
+DragonFly BSD kernel,Yes,No,Yes,No,No,No
+FreeBSD kernel,Yes,Yes,Yes,Yes,No,Yes
+Linux kernel,Yes,Yes,Yes,Yes,Yes,Yes
+Solaris kernel,Yes,Yes,Yes,No,No,No
+Windows NT kernel,Yes,Yes,Yes,No,No,No
+XNU,Yes,Yes,Yes,No,No,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

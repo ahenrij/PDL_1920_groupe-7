@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 |,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS,Purolator
 | Apache OFBiz,,,,,,,,
 | Bigcommerce,,,,,,,,
@@ -10,3 +11,18 @@
 | WooCommerce,,,,,,,,
 | Zen Cart,add-on,add-on,add-on,add-on,,add-on,,
 !Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS,Purolator,
+=======
+|,Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS
+| Apache OFBiz,,,,,,
+| Batavi,,,,,,
+| Bigcommerce,,,,,,
+| KonaKart,,,,,,
+| Magento,,,,,,
+| nopCommerce,,,,,,
+| osCommerce,,,,,,
+| PrestaShop,webservice,,,,,
+| Shopify,,,,,,
+| WooCommerce,,,,,,
+| Zen Cart,,,add-on,add-on,add-on,add-on
+!Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

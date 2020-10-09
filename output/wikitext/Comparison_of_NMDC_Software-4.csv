@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Other software,GUI,CLI,Other,Programming language,Based on
 jDCbot,,,,Java,
 Net::DirectConnect,,,,Perl,
@@ -8,3 +9,15 @@ MyIrcDcLinks,,,,Delphi,
 NetChatLink,,,,Delphi,
 Kitty,,,,C#,
 Other software,GUI,CLI,Other,Programming language,Based on
+=======
+Other software,Windows,Linux,Mac OS X,Other
+jDCBot,,,,Any Java compatible platform
+Net::DirectConnect,,,,Any Perl compatible platform
+FlowLib,,,,Any C# compatible platform
+DC-hublink,,,,
+Hub-Link,,,,
+MyIrcDcLinks,,,,
+NetChatLink,,,,Runs under WINE
+Kitty,,,,
+Other software,Windows,Linux,Mac OS X,Other
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

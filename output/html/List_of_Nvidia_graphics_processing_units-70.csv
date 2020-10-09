@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS),TBP (Watts),Notes
 ,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
 GeForce 9100M G mGPU,2008,"MCP77MH, MCP79MH",65,Integrated (PCIe 2.0 ×16),8:8:4,450,1100,1066 (system memory),1.8,3.6,Up to 256 from system memory,17.056,DDR3,128,10.0,3.3,26.4,12,Similar to 8400M G
@@ -19,3 +20,24 @@ GeForce 9800M GT,,NB9E-GT2(G92),,,96:48:16,500,1250,,8,24,512,,,,,,360,65,Rebran
 GeForce 9800M GTX,,NB9E-GTX(G92),65,,112:56:16,,,,,28,1024,,,,,,420,75,
 Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS),TBP (Watts),Notes
 ,,,,,,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,,
+=======
+Model,Features,,,,,
+,OpenEXR HDR,Scalable Link Interface (SLI),TurboCache,PureVideo WMV9 Decoding,,
+GeForce 6100,No,No,No,Limited,,
+GeForce 6150 SE,No,No,Driver-Side Only,Limited,,
+GeForce 6150,No,No,No,Yes,,
+GeForce 6150 LE,No,No,Driver-Side Only,Yes,,
+GeForce 6200,No,No,Yes (PCIe only),Yes,,
+GeForce 6500,No,Yes,Yes,Yes,,
+GeForce 6600 LE,Yes,Yes (No SLI Connector),No,Yes,,
+GeForce 6600,Yes,Yes (SLI Connector or PCIe Interface),No,Yes,,
+GeForce 6600 DDR2,Yes,Yes (SLI Connector or PCIe Interface),No,Yes,,
+GeForce 6600 GT,Yes,Yes,No,Yes,,
+GeForce 6800 LE,Yes,No,No,No,,
+GeForce 6800 XT,Yes,Yes (PCIe only),No,Yes (NV42 only),,
+GeForce 6800,Yes,Yes (PCIe only),No,"Yes (NV41, NV42 only)",,
+GeForce 6800 GTO,Yes,Yes,No,No,,
+GeForce 6800 GS,Yes,Yes (PCIe only),No,Yes (NV42 only),,
+GeForce 6800 GT,Yes,Yes (PCIe only),No,No,,
+GeForce 6800 Ultra,Yes,Yes (PCIe only),No,No,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

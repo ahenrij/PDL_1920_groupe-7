@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,HTML catalog,Meta tagging,RSS feeds,SEO URLs,"Site map, XML",GoodRelations RDFa
 Apache OFBiz,Yes,Yes,No,Yes,Yes,No
 Batavi,Yes,Yes,No,Yes,No,No
@@ -14,3 +15,18 @@ SupaDupa,Yes,Yes,No,Yes,Yes,No
 WooCommerce,Yes,Yes,Yes,Yes,Yes,Yes
 Zen Cart,add-on,Yes,add-on[34],add-on,add-on,No
 ,HTML catalog,Meta tagging,RSS feeds,SEO URLs,"Site map, XML",GoodRelations RDFa
+=======
+,Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS
+Apache OFBiz,No,No,Yes,Yes,Yes,Yes
+Batavi,No,No,No,No,No,No
+Bigcommerce,Yes,Yes,No,Yes,Yes,Yes
+KonaKart,No,No,No,Yes,Yes,Yes
+Magento,No,No,Yes,Yes,Yes,Yes
+nopCommerce,No,No,No,Yes,Yes,Yes
+osCommerce,No,No,No,No,No,No
+PrestaShop,webservice,No,No,Yes,Yes,Yes
+Shopify,No,No,No,No,No,No
+WooCommerce,Yes,Yes,No,No,Yes,No
+Zen Cart,No,No,add-on,add-on,add-on,add-on
+,Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

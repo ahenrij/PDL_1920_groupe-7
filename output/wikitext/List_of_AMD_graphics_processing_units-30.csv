@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Micro-archi-tecture,Core,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config,Fillrate,,Memory,,,,Processing power (GFLOPS),API compliance (version),,,Notes
 ,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,Vulkan,
 FireGL 8700,2001,R200,Radeon 8500,150,AGP,250,270,2:4:8:41,1,2,64,8.64,DDR,64 × 2,,8.1,1.4,rowspan=29 ,
@@ -29,3 +30,20 @@ FireGL V7600[26],2007,Tera-Scale 1,"R600 GL, HD 2900 GT",,,600,800,2402(48×5):12
 FireGL V7700[27],2007 (2008),,"R670 GL, HD 3870",55,PCIe 2.0,775,1125,3202(64×5):16:16:4,12.4,12.4,,72,GDDR4,,496,10.1 (SM4.1),,DisplayPort. Can do double precision computation via the AMD Stream SDK.,
 FireGL V8600[28],2007,,"R600 GL, HD 2900 XT",80,PCIe,688,868,3202(64×5):16:16:4,11.01,11.01,1024,111.1[29],,512,440.32,10,,"Shader Model 4.0, APP Stream",
 FireGL V8650[30],,,,,,,,,,,2048,111.1,,,,,,,
+=======
+Model,Launch,Code name,Fab (nm),Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Radeon X700,March 2005,RV410 (alto),110,400,350,8:6:8:8,3200,3200,3200,600,"128, 256",11.2,DDR,128
+Radeon X700 Pro,"March 1, 2005",,,425,432,,3400,3400,3400,637.5,,13.824,GDDR3,
+Radeon X800 SE,Oct. 2004,R420 (loki),130,,400,,,6800,,,256,25.6,,256
+Radeon X800 GT,"Dec. 6, 2005",,,475,490,8:6:8:16,3800,7600,3800,712.5,,31.36,,
+Radeon X800,Dec. 2004,R430,110,400,350,12:6:12:16,4800,6400,4800,600,,22.4,,
+Radeon X800 GTO,"Dec. 6, 2005",R420 (loki),130,,490,,,,,,,31.36,,
+Radeon X800 Pro,"May 5, 2004",,,475,450,,5700,7600,5700,712.5,,28.8,,
+Radeon X800 XL,"Feb. 2, 2005",R430,110,400,490,16:6:16:16,6400,6400,6400,600,,31.36,,
+Radeon X800 XT,"May 4, 2004",R420 (loki),130,500,500,,8000,8000,8000,750,,32,,
+Radeon X800 XT PE,,,,520,560,,8320,8320,8320,780,,35.84,,
+Radeon X850 Pro,"Feb. 28, 2005",R481,,507,520,,6084,8112,6084,760.5,,33.28,,
+Radeon X850 XT,,,,520,540,,8320,8320,8320,780,,34.56,,
+Radeon X850 XT PE,,,,540,590,,8640,8640,8640,810,,37.76,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

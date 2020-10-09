@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Modeling,3D Painting,Animation,Rendering,3D Tracking,Compositing
 3ds Max,,,,,,
 AC3D,,?,?,,,
@@ -21,3 +22,13 @@ Solid Edge,,?,,,,?
 SketchUp Make,,?,,,,
 SketchUp Pro,,?,,,,
 Wings3D,,?,,,,?
+=======
+Application,Polygon,,,,Curves,,,,,,,,,,Spline/Bézier Surface,,,Metaball,Point Clouds,Particles,Voxel,Bone,Text,Camera,Light,Speaker
+,tris,quads,N-gon,donut,Linear,Quadratic Bézier,Cubic Bézier,B-spline,Cardinal spline,Hermite spline,TCB spline,Smooth-step,Akima spline,NURBS,NURBS regular patch,NURBS trimmed surface,Bicubic Bézier patch,,,,,,,,,
+Blender,,,,,Bézier curve without subdivision,,,,,,,,,,,,,,,,3D Texture,,,,,
+Maya,,,,,,,,,,,,,,,,,,,,,3D Texture,,,,,
+3ds Max,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cinema 4D,,,,,,,,,,,,,,,,,,,,,,,,,,dropped in R23[15]
+LightWave,,,,,,,,,,only in Graph Editor,only in Graph Editor,,,,(LWCAD plugin),,,,,,,,,,,
+Shade 3D,,,,,,,,,,,,,,,,,,,,,,,,,,Sound Object
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

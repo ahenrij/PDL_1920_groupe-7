@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Web of Science Dataset,Hierarchical Datasets for Text Classification,None.,"46,985",Text,"Classification, Categorization",2017,[215][216],K. Kowsari et al.
 Legal Case Reports,Federal Court of Australia cases from 2006 to 2009.,None.,"4,000",Text,"Summarization, citation analysis",2012,[217][218],F. Galgani et al.
 Blogger Authorship Corpus,"Blog entries of 19,320 people from blogger.com.","Blogger self-provided gender, age, industry, and astrological sign.","681,288",Text,"Sentiment analysis, summarization, classification",2006,[219][220],J. Schler et al.
@@ -16,3 +17,7 @@ DSL Corpus Collection (DSLCC),A multilingual collection of short excerpts of jou
 Urban Dictionary Dataset,"Corpus of words, votes and definitions",User names anonymised,"2,580,925",CSV,"NLP, Machine comprehension",2016 May,[240],Anonymous
 T-REx,Wikipedia abstracts aligned with Wikidata entities,Alignment of Wikidata triples with Wikipedia abstracts,11M aligned triples,JSON and NIF [1],"NLP, Relation Extraction",2018,[241],H. Elsahar et al.
 General Language Understanding Evaluation (GLUE),Benchmark of nine tasks,Various,~1M sentences and sentence pairs,,NLU,2018,[242][243],Wang et al.
+=======
+Wine Dataset,Chemical analysis of wines grown in the same region in Italy but derived from three different cultivars.,13 properties of each wine are given,178,Text,"Classification, regression",1991,[314][315],M. Forina et al.
+Combined Cycle Power Plant Data Set,Data from various sensors within a power plant running for 6 years.,None,9568,Text,Regression,2014,[316][317],P. Tufekci et al.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

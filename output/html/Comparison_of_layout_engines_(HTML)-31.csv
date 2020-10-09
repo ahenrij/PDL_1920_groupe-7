@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
 main element[30],No,12,21.0[g 76],Yes[w 60],No
 template element[31],No,13,No,Yes[w 61],No
@@ -16,3 +17,12 @@ Geolocation API[44],5.0[t 40],12,1.9.1[g 88],533[w 69],2.6[l]
 Offline Web applications[45],6.0[t 41],12,1.9.1[g 89],Yes,2.6[p 8][p 9]
 Web Notifications[46],No,No,22.0[47][48],only in Chrome[49],25[p 31]
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Frame layout,,,,,
+frameset,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+frame,,,,,
+noframes,,,,,
+Inline frames,,,,,
+iframe,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,7 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 dir,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 xml:lang,?,?,?,?,?,?,?
+=======
+link,<3.1[IE 3.0] [3],Yes,Yes,Yes,Yes,Yes,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Digital audio editor,Creator / developer,Software license,Microsoft Windows,MacOS,Linux,iOS,Android,Network storage,External hardware
 ACID Pro,Magix,,,,,,,,
 Ardour,The Ardour Community,GNU GPL,,,,,,NFS,
@@ -34,3 +35,27 @@ Soundscape 32,Mackie,,,,,,,,External 2U rack unit
 Studio One,PreSonus,,,,,,,SoundCloud,
 Tracktion,Tracktion Software Inc,,,,,,,,
 Digital audio editor,Creator / developer,Software license,Microsoft Windows,MacOS,Linux,iOS,Android,Network storage,External hardware
+=======
+Digital audio editor,Creator / developer,Software license,Microsoft Windows,MacOS,iOS,Linux,BSD,Online,Network storage,External hardware
+Acoustica,Acon Digital,,,,,,,,,
+Audacity,Audacity Team,GNU GPL,,,,,,,NFS,
+Audiotool,Hobnox,,,,Not officially supported,,,,NFS,Optional MIDI support
+BIAS Peak,BIAS,,,,,,,,,
+Diamond Cut ART,Diamond Cut Productions,,,,,,,,,
+Ecasound,Kai Vehmanen,GNU GPL,,,,,,,,
+Goldwave,Goldwave Inc.,,,,,,,,,
+Jokosher,Jokosher,GNU GPL,,,,,,,NFS,
+NU-Tech,Leaff Engineering,,,,,,,,,
+RiffWorks,Sonoma Wire Works,,,,,,,,,
+Sound Forge,Magix,,,,,,,,,
+Soundbooth,Adobe Systems,,,,,,,,,
+SoX,"Chris Bagwell, et al.",GNU GPL,,,,,,,,
+SpectraLayers,Sony,,,,,,,,,
+Sweep,Conrad Parker,GNU GPL,,,,,,,,
+Total Recorder,HighCriteria,,,,,,,,,
+Traverso DAW,Traverso,GNU GPL,,,,,,,NFS,
+WaveLab,Steinberg,,,,,,,,,"External gear, MIDI"
+WavePad,NCH Software,,,,,,,,,
+WaveSurfer,Centre for Speech Technology at KTH,BSD-like,,,,,,,,
+Digital audio editor,Creator / developer,Software license,Microsoft Windows,MacOS,iOS,Linux,BSD,Online,Network storage,External hardware
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

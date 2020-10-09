@@ -1,4 +1,5 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+<<<<<<< HEAD
 Default web browser/engine,Blink,WebKit,WebKit,Gecko[125],Qt WebEngine (based on Blink)
 Major web browser available,"Chrome for Android, Opera, Firefox, Microsoft Edge","Safari, Chrome for iOS, Opera Touch, Firefox, Microsoft Edge",Tizen Browser (Based on UC Browser),"Sailfish Browser (Firefox), Webcat (WebKit), Web Pirate (WebKit), others via Android (Firefox, Chrome, Opera)",Morph Browser
 Browser extensions,,8+[128],,,
@@ -23,3 +24,8 @@ Browser private browsing mode,3.0+ with AOSP browser[164] or with Chrome for And
 Offline web apps,,,,?,
 HTTP Live Streaming,3+[171],3+[172],,,
 WebRTC,,11+[175],,,
+=======
+Bluetooth keyboard,2.3+;[261] previous versions via 3rd party software[262],,,,
+USB keyboard,3.1+[261],With Camera Connection Kit[266],,?,
+Interchangeable external memory cards,,Only for photo/video import with an optional accessory,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

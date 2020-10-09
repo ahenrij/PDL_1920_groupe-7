@@ -1,4 +1,17 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 class,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 id,,,,,,,
 title,,,,,,,
+=======
+form,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+input,,,,,,,
+select,,,,,,,
+option,,,,,,,
+textarea,,,,,,,
+button,,,,,,,
+fieldset,,,,,,,
+label,,,,,,,
+legend,,,,,,,
+optgroup,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

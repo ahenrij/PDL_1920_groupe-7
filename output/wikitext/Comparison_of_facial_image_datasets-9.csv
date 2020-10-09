@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 EEG Database,Study to examine EEG correlates of genetic predisposition to alcoholism.,Measurements from 64 electrodes placed on the scalp sampled at 256 Hz (3.9 ms epoch) for 1 second.,122,Text,Classification,1999,[353],H. Begleiter
 P300 Interface Dataset,Data from nine subjects collected using P300-based brain-computer interface for disabled subjects.,Split into four sessions for each subject. MATLAB code given.,"1,224",Text,Classification,2008,[354][355],U. Hoffman et al.
 Heart Disease Data Set,Attributed of patients with and without heart disease.,75 attributes given for each patient with some missing values.,303,Text,Classification,1988,[356][357],A. Janosi et al.
@@ -15,3 +16,11 @@ Mesothelioma Dataset,Mesothelioma patient data.,"Large number of features, inclu
 Parkinson's Vision-Based Pose Estimation Dataset,2D human pose estimates of Parkinson's patients performing a variety of tasks.,Camera shake has been removed from trajectories.,134,Text,"Classification, regression",2017,[377][378][379],M. Li et al.
 KEGG Metabolic Reaction Network (Undirected) Dataset,Network of metabolic pathways. A reaction network and a relation network are given.,Detailed features for each network node and pathway are given.,"65,554",Text,"Classification, clustering, regression",2011,[380],M. Naeem et al.
 Modified Human Sperm Morphology Analysis Dataset (MHSMA),"Human sperm images from 235 patients with male factor infertility, labeled for normal or abnormal sperm acrosome, head, vacuole, and tail.","Cropped around single sperm head. Magnification normalized. Training, validation, and test set splits created.","1,540",.npy files,Classification,2019,[381][382],S. Javadi and S.A. Mirroshandel
+=======
+Cloud DataSet,Data about 1024 different clouds.,Image features extracted.,1024,Text,"Classification, clustering",1989,[427],P. Collard
+El Nino Dataset,Oceanographic and surface meteorological readings taken from a series of buoys positioned throughout the equatorial Pacific.,12 weather attributes are measured at each buoy.,178080,Text,Regression,1999,[428],Pacific Marine Environmental Laboratory
+Greenhouse Gas Observing Network Dataset,Time-series of greenhouse gas concentrations at 2921 grid cells in California created using simulations of the weather.,None.,2921,Text,Regression,2015,[429],D. Lucas
+Atmospheric CO2 from Continuous Air Samples at Mauna Loa Observatory,"Continuous air samples in Hawaii, USA. 44 years of records.",None.,44 years,Text,Regression,2001,[430],Mauna Loa Observatory
+Ionosphere Dataset,Radar data from the ionosphere. Task is to classify into good and bad radar returns.,Many radar features given.,351,Text,Classification,1989,[370][431],Johns Hopkins University
+Ozone Level Detection Dataset,Two ground ozone level datasets.,"Many features given, including weather conditions at time of measurement.",2536,Text,Classification,2008,[432][433],K. Zhang et al.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

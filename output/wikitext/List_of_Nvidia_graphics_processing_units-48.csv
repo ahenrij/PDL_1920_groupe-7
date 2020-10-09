@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
 ,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
 GeForce 6100 + nForce 410,"October 20, 2005",MCP51,TSMC 90 nm,HyperTransport,425,100–200 (DDR) 200–533 (DDR2),2:1:2:1,850,425,850,106.25,Up to 256 system RAM,1.6–6.4 (DDR) 3.2–17.056 (DDR2),DDR DDR2,64 128
@@ -22,3 +23,15 @@ GeForce 6800 Ultra,"May 4, 2004 (AGP) June 28, 2004 (PCIe) March 14, 2005 (512 M
 GeForce 6800 Ultra Extreme Edition,"May 4, 2004",NV40,,AGP 8×,450,600,,7200,7200,7200,675,256,35.2,,
 Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
 ,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,Nvidia Optimus technology,TBP (Watts)
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
+Quadro P500,GP108,14,PCIe 3.0 ×16,,,,256:16:16:2,,,2048,40,GDDR5,64,750,12.1,4.5,Yes,18
+Quadro P600,GP107,,,,384:24:16:3,2048,80,,128,1200,25,,,,,,,
+Quadro P1000,GP107(N18P-Q1-A1),,,,512:32:16:4,4096,96,,,1600,40,,,,,,,
+Quadro P2000,GP107(N18P-Q3-A1),,,,768:64:32:6,5120,,,,2400,50,,,,,,,
+Quadro P3000,GP106,16,,,1280:80:48:10,6144,168,,192,3098,75,,,,,,,
+Quadro P4000,GP104,,,,1792:112:64:14,8192,192,,256,4398,100,,,,,,,
+Quadro P4000 Max-Q,,,,,1792:112:64:14,,,,,,80,,,,,,,
+Quadro P5000,,,,,2048:128:64:16,16384,,,,6197,100,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

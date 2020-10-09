@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko,WebKit,Presto
 translate[24],No,,,
 Datasets (data-*),No,6.0[g 24],Yes[w 25],2.8[p 10]
@@ -8,3 +9,30 @@ spellcheck[26],6.0,1.8[g 27],Incorrect[w 27],2.8[p 11]
 draggable,,1.9.1[g 28],533[w 28],2.10.270
 dropzone,No,No[g 29],Yes,2.10.270
 ,Trident,Gecko,WebKit,Presto
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Phrase,,,,,
+em,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+strong,,,,,
+dfn,,,,,
+code,,,,,
+samp,,,,,
+kbd,,,,,
+var,,,,,
+cite,,,,,
+acronym,,,,,
+abbr,3.1,,,,
+Quotations,,,,,
+blockquote,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+q,4.0,1.8[note 1],,,
+Subscripts and superscripts,,,,,
+sub,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+sup,,,,,
+Lines and paragraphs,,,,,
+p,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+pre,,,,,
+br,<3.1[IE 5.0],,,,
+Marking document changes,,,,,
+ins,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+del,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

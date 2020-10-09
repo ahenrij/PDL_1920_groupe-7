@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 Country,Total persons,Total flights
 China[84],11,11
+=======
+Country,Spacecraft,Launch payload,Year launched
+Japan,HTV,"6,000 kg (13,000 lb)",2009
+China,Tianzhou,"6,500 kg (14,300 lb)",2017
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

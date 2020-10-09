@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Clock rate,,Core config,Fillrate,,Memory,,,,Processing power (GFLOPS),,TDP (Watts),,Crossfire Support,API support (version),,,Release Price (USD)
 ,,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Idle,Max.,,Direct3D,OpenGL,"OpenCL, ATI Stream",
 Radeon HD 3410,"May 7, 2009",RV610,65,180,85,PCIe 1.0 x16,519,396,40:4:4,2.08,2.08,256,6.34,DDR2,64,41.52,,,20,rowspan="6" ,10.0,3.3,"No, Yes",?
@@ -14,3 +15,11 @@ Radeon HD 3850,"Nov 19, 2007",,,,,PCIe 2.0 x16 AGP 8x,,830 900,,,,256 512 1024,5
 Radeon HD 3870,,RV670 XT,,,,,777,900 1126,,12.4,12.4,512 1024,57.6 72.1,,,497.3,99.2,,106,,,,,$219
 Radeon HD 3850 X2,"Apr 4, 2008",RV670 PRO,,666×2,192×2,PCIe 2.0 x16,668,828,320:16:16×2,10.7×2,10.7×2,512×2,53.0×2,GDDR3,256×2,855.0,171,,140,,2-way Crossfire,,,$349
 Radeon HD 3870 X2,"Jan 28, 2008",R680,,,,,825,900 1125,,13.2×2,13.2×2,,57.6×2 72.0×2,GDDR3 GDDR4,,1056,211.2,,165,,,,,$449
+=======
+Model,Released,Code name,Fab (nm),Core Clock (MHz),Core config1,Fillrate,,Shared Memory,,,Processing power (GFLOPS),Max. Combined TDP2 (Watts),Fusion_APU
+,,,,,,Pixel (GP/s),Texture (GT/s),Bandwidth (GB/s),Bus type,Bus width (bit),,,
+Radeon HD 6380G,"June 14, 2011",WinterPark,32,400,160:8:4:2,1.6,3.2,17.06,DDR3-1333,128,128,35,E2-3000M
+Radeon HD 6480G,,BeaverCreek,,444,240:12:4:3,1.77,3.55,,,,213.1,35 - 45,A4-3300M A4-3310MX
+Radeon HD 6520G,,,,400,320:16:8:4,3.2,6.4,,,,256,,A6-3400M A6-3410MX A6-3420M
+Radeon HD 6620G,,,,444,400:20:8:5,3.55,8.88,25.6,DDR3-1600,,355.2,,A8-3500M A8-3510MX A8-3530MX
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

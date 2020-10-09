@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Application,Latest release date and version,Developed by,Platforms,Mainly Used For,License
 3ds Max,2019-03-27 v 2020,Autodesk,Microsoft Windows,"Modeling, Animation (Video Games and Movies), FX Simulations, Lighting, Rendering",
 AC3D,2016-12-? v 8,Inivis,"Linux, Mac OS X, Microsoft Windows",Modeling,
@@ -39,3 +40,11 @@ E-on Vue,2017 v 2016 R5,E-on Software,"Mac OS X, Microsoft Windows","Animation, 
 Verto Studio 3D,2018-05-06 v2.3.8,Michael L. Farrell,"Mac OS X, iOS","Mobile Modeling, Texture Mapping, Lighting",
 Wings 3D,2019-04-12 v 2.2.4,Dan Gudmundsson (maintainer),"Mac OS X, Microsoft Windows, BSD, Linux","Modeling, Sculpting (the deformation of the model), UV mapping",BSD
 ZBrush,2019-03-06 v 2019,Pixologic,"Mac OS X, Microsoft Windows","Modeling, Texturing, Lighting, Sculpting (the deformation of the model), Rendering",
+=======
+Application,LoD Generation,Texture Baking,,,
+,Automatic,Normal Map,AO Map,Light Map,
+,,Tangent Space Normal Map,,Non-directional (Traditional),Directional
+Maya (Turtle renderer),"Generate LOD Meshes",,,,"RNM (Radiosity Normal Map), and SH (Spherical harmonics) coefficients"
+Enlighten,,,,,
+Blender,AssetGen addon,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

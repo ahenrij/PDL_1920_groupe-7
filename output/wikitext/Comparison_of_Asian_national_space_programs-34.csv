@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 Country,Rocket,Burn time,Specific impulse (Vac.),Thrust (Vac.)
 India,S200 booster rocket stage[82],130s,274.5s,5150kN
 Japan,SRB-A series solid fueled rocket boosters,100s,280s,2260kN
 Israel,Shavit's first stage,82s,280s,1650kN
 China,Kuaizhou series of launch vehicles,,,
 China,Long March 11 launch system,,,
+=======
+Country,Resolution,Satellite,Year launched
+,0.35 meter,RISAT-2BR1,2019
+,0.5 meter x 0.3 meter,RISAT-2B,2019
+,0.5 meter,IGS R-5,2017
+,0.5,TecSAR,2008
+,0.5 meter,Yaogan 29,2015
+,1 meter,KOMPSat-5,2013
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

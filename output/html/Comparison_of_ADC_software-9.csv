@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ADC client,FOSS,Software license,Active,Last Update
 AirDC++,Yes,GNU GPL,Yes,2019
 AirDC++ Web Client,Yes,"GNU GPL, MIT",Yes,2019
@@ -13,3 +14,16 @@ StrongDC++,Yes,GNU GPL,No,2010
 RevConnect,Yes,GNU GPL,No,2007
 ncdc,Yes,MIT,Yes,2019
 ADC client,FOSS,Software license,Active,
+=======
+Other software,GUI,CLI,Other,Programming language,Based on
+ADCCore,No,No,No,C#,CoreDC
+DCBouncer,No,Yes,No,C++,
+DC-Hublink,Yes,No,No,Visual Basic,
+DCWatch,No,Yes,No,"Java, Lua",Embla
+Embla,No,No,No,Java,
+FlowLib,No,No,No,C#,
+NetChatLink,Yes,No,No,Object Pascal (Delphi),
+Announcer Bot,No,No,No,Lua,
+Certmanager,Yes,No,No,wxLua,
+ADC hub,GUI,CLI,Other,Programming language,Based on
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

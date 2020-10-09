@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages,If not found
 "string in string(substring, pos, string[startpos:])",ALGOL 68,"returns BOOL: TRUE or FALSE, and position in REF INT pos."
 "InStr(«startpos,»string,substring)",VB (positions start at 1),returns 0
@@ -38,3 +39,7 @@ POSITION(substring IN string),SQL,returns 0 (positions start at 1)
 string first substring string startpos,Tcl,returns ?1
 (substring?string)?1,APL,returns 1 + the last position in string
 string.find(substring),Rust[15],returns None
+=======
+Definition,"compare(string1,string2) returns integer."
+Description,"Compares two strings to each other. If they are equivalent, a zero is returned. Otherwise, most of these routines will return a positive or negative result corresponding to whether string1 is lexicographically greater than, or less than, respectively, than string2. The exceptions are the Scheme and Rexx routines which return the index of the first mismatch, and Smalltalk which answer a comparison code telling how the receiver sorts relative to string parameter."
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Housing Data Set,Median home values of Boston with associated home and neighborhood attributes.,None.,506,Text,Regression,1993,[466],D. Harrison et al.
 The Getty Vocabularies,"structured terminology for art and other material culture, archival materials, visual surrogates, and bibliographic materials.",None.,large,Text,Classification,2015,[467],Getty Center
 Yahoo! Front Page Today Module User Click Log,User click log for news articles displayed in the Featured Tab of the Today Module on Yahoo! Front Page.,Conjoint analysis with a bilinear model.,"45,811,883 user visits",Text,"Regression, clustering",2009,[468][469],Chu et al.
@@ -14,3 +15,10 @@ Nomao Dataset,Nomao collects data about places from many different sources. Task
 Movie Dataset,"Data for 10,000 movies.",Several features for each movie are given.,"10,000",Text,"Clustering, classification",1999,[484],G. Wiederhold
 Open University Learning Analytics Dataset,Information about students and their interactions with a virtual learning environment.,None.,"~ 30,000",Text,"Classification, clustering, regression",2015,[485][486],J. Kuzilek et al.
 Mobile phone records,Telecommunications activity and interactions,Aggregation per geographical grid cells and every 15 minutes.,large,Text,"Classification, Clustering, Regression",2015,[487],G. Barlacchi et al.
+=======
+Poker Hand Dataset,5 card hands from a standard 52 card deck.,"Attributes of each hand are given, including the Poker hands formed by the cards it contains.","1,025,010",Text,"Regression, classification",2007,[456],R. Cattral
+Connect-4 Dataset,"Contains all legal 8-ply positions in the game of connect-4 in which neither player has won yet, and in which the next move is not forced.",None.,"67,557",Text,Classification,1995,[457],J. Tromp
+Chess (King-Rook vs. King) Dataset,Endgame Database for White King and Rook against Black King.,None.,"28,056",Text,Classification,1994,[458][459],M. Bain et al.
+Chess (King-Rook vs. King-Pawn) Dataset,King+Rook versus King+Pawn on a7.,None.,3196,Text,Classification,1989,[460],R. Holte
+Tic-Tac-Toe Endgame Dataset,Binary classification for win conditions in tic-tac-toe.,None.,958,Text,Classification,1991,[461],D. Aha
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

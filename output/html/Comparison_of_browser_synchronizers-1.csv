@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Client,Bookmarks,Favicons,Browsing history,Form history,Web feed subscriptions,Search engine plugins,Passwords,Dictionary,Other
 BookmarkSync,Yes,No,No,No,No,No,No,No,No
 Opera Link,Yes,Yes,Yes,No,No,Yes,Yes,No,"Personal bar, speed dial, notes, typed browser history, content blocker list"
@@ -7,3 +8,13 @@ Google Chrome,Yes,Yes,Yes,Yes,?,?,Yes,Yes,"open tabs, add-ons, preferences"
 Eversync,Yes,?,?,?,?,?,?,?,open tabs
 floccus,Yes,No,No,No,No,No,No,No,No
 Client,Bookmarks,Favicons,Browsing history,Form history,Web feed subscriptions,Search engine plugins,Passwords,Dictionary,Other
+=======
+Client,Internet Explorer,Microsoft Edge,Mozilla Firefox,Opera,Safari,Google Chrome,other
+BookmarkSync,Yes,No,Yes,Yes,Yes (Mac Only),No,SeaMonkey
+Opera Link,No,No,No,Yes,No,No,"Opera Mini, Opera Mobile"
+Firefox Sync,No,No,Yes,No,No,No,"Firefox for Mobile[15], SeaMonkey, Gnome Web"
+,,,,,,,
+Eversync,Yes,No,Yes,Yes,No,Yes,No
+floccus,No,No,Yes,No,No,Yes,No
+Client,Internet Explorer,Microsoft Edge,Mozilla Firefox,Opera,Safari,Google Chrome,other
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -12,8 +12,13 @@ Jitsi,Emil Ivov,2003; 17 years ago (2003),,,LGPL,Yes,Yes,Yes,Yes,Yes,Yes,Optiona
 Kadu,Kadu Team,August 2001; 19 years ago (2001-08),,,GPLv2,Yes,Yes,Yes,No,No,No,No,No,Yes,No,Kadu,Yes,No,,,,Yes,,,,?,?,?,?,Yes,Yes,No,,,No,Kadu
 KakaoTalk,Kakao Corp.,"March 18, 2010; 10 years ago (2010-03-18)",49 million (2018)[4],,Proprietary Freeware,Yes,Yes,No,No,Yes,Yes,Optional,Optional,Yes,,KakaoTalk,,,,,,No,,,,?,?,?,?,,,No,No,No,No,KakaoTalk
 Keybase,Keybase,"February 8, 2017; 3 years ago",,Nothing required,New BSD License,Yes,Yes,Yes,"No, partial",Yes,Yes,Yes,Yes,Yes,No,Keybase,No,No,Yes,Yes,Yes,Yes,No,Yes,,"Yes, on by default but optional",No,No,?,"Yes, only 2 official skins",No,No,No,No,Yes,Keybase
+<<<<<<< HEAD
 Kik Messenger,Medialab,October 2010; 10 years ago (2010-10),15 million (2017)[5],Email,Proprietary Freemium adware,No,No,No,No,Yes,Yes,No,No,Yes,,Kik Messenger,,,,,,Yes,,,,?,?,?,?,Yes,,No,No,No,,Kik Messenger
 Line,LINE Corporation,March 2012; 8 years ago (March 2012),700 million (2017),Phone number,Proprietary Freemium,Yes,Yes,No,No,Yes,Yes,Partial,Yes[6],Yes,Yes,Line,Yes,Yes,Yes,No,Partial,No,Yes,No,No,?,?,?,?,Yes,Yes,No,No,No,No,Line
+=======
+Kik Messenger,Medialab,October 2010; 9 years ago (2010-10),15 million (2017)[5],Email,Proprietary Freemium adware,No,No,No,No,Yes,Yes,No,No,Yes,,Kik Messenger,,,,,,Yes,,,,?,?,?,?,Yes,,No,No,No,,Kik Messenger
+Line,LINE Corporation,March 2012; 8 years ago (March 2012),203 million (2018)[4],Phone number,Proprietary Freemium,Yes,Yes,No,No,Yes,Yes,Partial,Yes[6],Yes,Yes,Line,Yes,Yes,Yes,No,Partial,No,Yes,No,No,?,?,?,?,Yes,Yes,No,No,No,No,Line
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 Mattermost,Mattermost Inc,2015,,,AGPLv3,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Plug-in,Mattermost,Plug-in,Plug-in,No,Yes,Yes,Yes,No,No,No,?,?,?,?,Yes,Yes,No,Yes,No,Yes,Mattermost
 MCabber,Mikael Berthe,"June 7, 2005; 15 years ago (2005-06-07)",,,GPL,No,Yes,Yes,No,No,No,No,No,No,No,MCabber,No,No,,,,No,,,,?,?,?,?,,,No,,,No,MCabber
 Messages,Apple Inc.,"July 25, 2012; 8 years ago (2012-07-25)",,,Part of macOS and iOS,No,Yes,No,No,No,Yes,Optional,Optional,Yes,,Messages,Yes,Yes,,,,No,,No,No,?,?,?,?,No,No,No,N/A,N/A,,Messages

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages
 string[startpos:endpos],ALGOL 68 (changes base index)
 string (startpos .. endpos),Ada (changes base index)
@@ -37,3 +38,7 @@ string[startpos .. endpos],Ya
 string (startpos:numChars),COBOL
 string range string startpos endpos,Tcl
 string[startpos..endpos] string.get(startpos..endpos),Rust[26]
+=======
+Definition,"format(formatstring, items) returns string"
+Description,Returns the formatted string representation of one or more items.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

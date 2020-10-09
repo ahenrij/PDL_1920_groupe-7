@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Desktop publishing software,Developer(s),Latest stable version,Initial release,License
 CorelDRAW,Corel,"X8 (18.0) (March 15, 2016; 4 years ago (2016-03-15))",1989 (1989),"Commercial, proprietary"
 Fatpaint (Cloud-based),Mersica Inc.,"1.98 (August 19, 2011; 9 years ago (2011-08-19))",2010 (2010),Freeware
@@ -20,3 +21,24 @@ Scribus,The Scribus Team,1.4.8 (3 March 2019; 19 months ago (2019-03-03)),2003 (
 The Print Shop,Brøderbund,23.0 (2009; 11 years ago (2009)),1984 (1984),"Commercial, proprietary"
 Ventura*,Corel,10.0 (2002; 18 years ago (2002)),1986 (1986),"Commercial, proprietary"
 Desktop publishing software,Developer(s),Latest stable version,Initial release,License
+=======
+Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,RTF,HTML,Word .doc,OOXML .docx,Other
+CorelDRAW,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,"PSD, AI, SWF, WPD"
+Fatpaint,No,No,No,No,No,No,No,No,"JPG, PNG"
+Flare,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"XLS, Adobe Framemaker, Adobe RoboHelp, Microsoft Compiled HTML Help, DITA"
+FrameMaker,Yes,Yes,Yes,No,Yes,No,Yes,No,WPD
+InDesign,Yes,Yes,No,No,Yes,No,Yes,Yes,"PSD, AI, SWF, WPD, XLS"
+InPage,No,Yes,No,No,No,No,No,No,No
+iStudio Publisher,Yes,No,No,No,No,No,No,No,"PSD, AI"
+LyX,No,No,No,Yes,No,Yes,No,No,No
+Microsoft Publisher,No,No,No,No,Yes,Yes,Yes,Yes,No
+OpenOffice.org,Yes,Yes,No,No,Yes,Yes,Yes,Yes,"PSD, WPD, XLS"
+PageMaker*,Yes,Yes,No,No,Yes,No,Yes,No,No
+PagePlus,Yes,Yes,No,No,Yes,No,Yes,Yes,No
+Pages,No,No,No,No,Yes,No,Yes,Yes,No
+QuarkXPress,Yes,Yes,No,No,Yes,Yes,Yes,No,"PSD, AI, SWF, XLS, JPG, PNG PDF"
+Scribus,Yes,Yes,Yes,Yes,No,Yes,Yes,No,List
+The Print Shop,No,No,No,No,No,No,No,No,No
+Ventura*,Yes,Yes,No,No,Yes,No,Yes,No,"PSD, AI, WPD"
+Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,RTF,HTML,Word .doc,OOXML .docx,Other
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

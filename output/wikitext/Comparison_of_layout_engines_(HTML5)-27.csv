@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Attribute,Element,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
 align,"caption, div, fieldset, h1, h2, h3, h4, h5, h6, hr, img, input, legend, p, object, table",CSS,rowspan="6" 3.1,rowspan="6" ,,rowspan="18" ,rowspan="18" 
 alink,body,CSS,,,,,
@@ -21,3 +22,9 @@ version,html,DTD,,,,,
 vlink,body,CSS,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" 
 width,"hr, pre, td, th",CSS,,,,,
 vspace,"img, object",CSS,,,,,
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+a,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+link,,,,,
+base,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

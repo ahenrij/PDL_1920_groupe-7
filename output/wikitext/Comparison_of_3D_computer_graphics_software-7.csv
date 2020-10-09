@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Imports,Exports
 3ds Max,"BMP, Cineon, TGA, JPG, PNG, OpenEXR, Cineon, Radiance HDR, SGI, RLA, RPF, AVI, MPEG and QuickTime, GIF, TIFF, PSD, MOV, YUV, DDS",?
 Art of Illusion,"GIF, JPG, PNG, BMP, HDR, SVG","JPG, PNG, BMP, TIFF, HDR, QuickTime"
@@ -21,3 +22,13 @@ Solid Edge,?,?
 SketchUp Make,"JPG, PNG, TIF, TGA, BMP","JPG, PNG, TIF, BMP"
 SketchUp Pro,"JPG, PNG, TIF, TGA, BMP","JPG, PNG, TIF, BMP, MOV(on Mac), AVI (on Windows)[9]"
 Wings3D,?,?
+=======
+Application,PBR viewport,Viewport effects,Interactive GI Rendering,Integrated Compositing,Text editor for shader writing,Material Nodes,Turntable Rendering
+Maya,,,Arnold,,,"Hypershade, Node Editor, ShaderFX",Yes[16]
+3ds Max,,,Arnold,(State Set),OSL Map[17],"Slate Material Editor, ShaderFX",Easy Turntable script
+MODO,,,,,,Nodal Shading,Render Turntable[18]
+Blender,colspan=2 Eevee (2.80 and later),Cycles,,Text Editor,,Turnaround Camera addon,
+Gaffer,,,external renderers,,OSLCode Node,,
+Marmoset Toolbag,,,,,,Uber PBR shaders only,
+Substance Designer,,YEBIS,NVIDIA Iray,,,MDL graph,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ADC client,GUI,CLI,WebUI,Programming language,Based on
 AirDC++,Yes,No,Yes,C++,StrongDC++
 AirDC++ Web Client,No,No,Yes,"C++, TypeScript",AirDC++
@@ -12,3 +13,19 @@ TKDC++,Yes,No,No,"C++, Lua","StrongDC++, DC++"
 StrongDC++,Yes,No,No,C++,DC++
 ncdc,No,Yes,No,C,
 ADC client,GUI,CLI,WebUI,Programming language,Based on
+=======
+ADC client,Windows,Linux,OS X,BSD,Haiku
+AirDC++,Yes,No,No,No,No
+AirDC++ Web Client,No,Yes,No installable package[8],Yes,?
+ApexDC++,Yes,No,No,No,No
+DC++,Yes,No,No,No,No
+jucy,Yes,Yes,Yes,No,No
+LinuxDC++,No,Yes,No,Yes,No
+EiskaltDC++,Yes,Yes,Yes,Yes,Yes
+FlylinkDC++,Yes,No,No,No,No
+RSX++,Yes,No,No,No,No
+TKDC++,Yes,No,No,No,No
+StrongDC++,Yes,No,No,No,No
+ncdc,No,Yes,Yes,Yes,?
+ADC client,Windows,Linux,OS X,BSD,Haiku
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

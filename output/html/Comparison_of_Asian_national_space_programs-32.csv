@@ -1,4 +1,31 @@
+<<<<<<< HEAD
 Nation,Multi-satellite simultaneous launches,Launch of foreign satellite,Geostationary launches,Atmos- pheric reentry,Rendezvous dockings in orbit,Satellite navigation system,Data relay satellites,Martian missions,Solar Space Missions,Space observatories
 China,1981 (FB-1)[92] 3 Sats,1990 CZ-2E science satellite,1984 Dong Fang Hong 02 (by CZ-3),1975 FSW-0,2011 Tiangong 1,2000 Beidou,2008 Tianlian I,2011 Yinghuo-1 (Failure),(planned) Solar Space Telescope,2017 Space Hard X-Ray Modulation Telescope
 India,1999 (PSLV-CA C2) 3 Sats,1999 PSLV-C2 Kitsat-3 DLR-Tubsat,2001 Kalpana-1 (by PSLV),2007 SRE-1,SPADEX (planned),2013 IRNSS[93],IDRSS (Planned),2013 Mangalyaan[89] (orbiter),2021 (planned) Aditya-L1,2015 Astrosat
 Japan,1986 (H-I H15F)[94] 3 Sats,2002 H-IIA FedSat,1977 ETS-II[95] (by N-I),1994 OREX,1997 ETS-VII[96],2010 QZSS[97],2002 Kodama,1998 Nozomi (orbiter) (Failure),1975 Taiyo[98],1979 Hakucho
+=======
+Asian lunar exploration probes,,,,,
+Mission name,Type,Year,Vehicle,Outcome,
+Hiten (MUSES-A),Flyby/Orbiter,1990,Mu-3S-II,Success,
+Hagoromo,Orbiter,,,Failure,
+Lunar-A,Orbiter,2004 (intended) Never launched,M5,Cancelled and integrated into Russia's Luna-Glob.,
+SELENE (VRAD),Orbiter,2007,H-IIA 202,Success,
+Chang'e 1,Orbiter,2007,Long March 3A,Success,
+Chandrayaan-1,Orbiter,2008,PSLV-XL,Success,
+Chang'e 2,Orbiter,2010,Long March 3C,Success,
+Chang'e 3,Orbiter Lander Rover,2013,Long March 3B,Success,
+Chang'e 5-T1,Flyby,2014,Long March 3C,Success,
+Chang'e 4,Orbiters Lander Rover,2018-19,Long March 4C and Long March 3B,Success,
+Chandrayaan-2,Orbiter Lander Rover,2019,GSLV MkIII,Partial success,
+Chandrayaan-3,Lander Rover,Q2 2021,GSLV MkIII,Planned,
+Chang'e 5,Sample return,Q4 2020,Long March 5,Planned,
+Korea Pathfinder Lunar Orbiter,Orbiter,December 2020,Falcon 9,Planned,
+SELENE-2,Orbiter Lander Rover,2020s (intended),H-IIA (intended),Cancelled,
+SLIM,Lander,January 2022,H-IIA 202,Planned,
+DESTINY+,Flyby,2022,Epsilon,Planned,
+Chang'e 6,Sample return,2023-24,Long March 5,Planned,
+Chang'e 7,Lander,2023,TBD,Planned,
+Lunar Polar Exploration Mission,Orbiter Lander Rover,2024,H3,Proposed,
+Chang'e 8,Lander,2026,TBD,Proposed,
+North Korean mission to Moon,TBD,2026,Unha-20,Proposed,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

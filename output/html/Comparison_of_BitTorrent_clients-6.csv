@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 BitTorrent client,Windows,macOS,Linux,BSD,iOS,Android,Other
 BitComet,Yes,Yes,No,No,No,No,No
 BitLord,Yes,Yes,No,No,No,No,No
@@ -25,3 +26,10 @@ Tribler,Yes,Yes,Yes,Yes,No,No,No
 Vuze,Yes,Yes,Yes,Yes,No,Yes[33],No
 Xunlei,Yes,Yes,No,No,Yes,Yes[citation needed],No
 Name,Windows,Mac OS X,Linux,BSD,iOS,Android,Other
+=======
+BitTorrent library,Super-seeding,Tracker,UPnP [Note 1],NAT Port Mapping Protocol,NAT traversal [Note 2],DHT [Note 3],Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,?TP
+libtorrent (Rasterbar),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[84],Yes,Yes,Yes[85]
+MonoTorrent,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+rTorrent (libTorrent Rakshasa),Yes,Yes,No,?,?,Yes,Yes,Yes,Yes,?,No,Yes,No
+BitTorrent library,Super-seeding,Tracker,UPnP,NAT Port Mapping Protocol,NAT traversal,DHT,Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,?TP
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

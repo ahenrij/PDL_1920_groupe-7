@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Application,ISO 9660,Joliet,Rock Ridge,Amiga rock ridge,El Torito,Apple ISO9660,UDF,MRW
 Alcohol 120%,Yes,Yes,No,No,No,No,No,No
 CDBurnerXP,Yes,Yes,No,No,No,No,Yes,No
@@ -11,3 +12,19 @@ Nero Burning ROM,Yes,Yes,No,No,Yes,Yes,Yes,Yes
 UltraISO,Yes,Yes,?,?,?,?,Yes,?
 X-CD-Roast,Yes,Yes,Yes,No,Yes,No,Yes,No
 Application,ISO 9660,Joliet,Rock Ridge,Amiga rockridge,El Torito,Apple ISO9660,UDF,MRW
+=======
+Application,CD-R/W,DVD-R/RW/RAM,DVD+R/RW,DVD+R/RW DL,DVD-R/RW DL,BD-R/RE,BD-R/RE DL
+Alcohol 120%,Yes,Yes,Yes,Yes,Yes,No,No
+CDBurnerXP,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+cdrtools,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+DeepBurner,Yes,Yes,Yes,?,?,No,No
+ExpressBurn,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+ImgBurn,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+InfraRecorder,Yes,Yes,Yes,Yes,Yes,No,No
+K3b,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Libburnia,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Nero Burning ROM,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+UltraISO,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+X-CD-Roast,Yes,Yes,Yes,?,?,No,No
+Application,CD-R/W 737MB=702MiB,DVD-R/RW/RAM 4.707GB=4.384GiB,DVD+R/RW 4.700GB=4.378GiB,DVD+R/RW DL 8.548GB=7.961GiB,DVD-R/RW DL 8.544GB=7.957GiB,BD-R/RE 25GB=23.31GiB,BD-R/RE DL 50GB=46.61GiB
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

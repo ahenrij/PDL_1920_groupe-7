@@ -13,7 +13,11 @@ Kadu,Kadu Team,200108,,,GPLv2,,,,,,,,,,,Kadu,,,,,,,,,,?,?,?,?,,,,,,,Kadu
 KakaoTalk,Kakao Corp.,20100318,49 million (2018)[4],,Proprietary Freeware,,,,,,,,,,,KakaoTalk,,,,,,,,,,?,?,?,?,,,,,,,KakaoTalk
 Keybase,Keybase,"February 8, 2017; 201728 years ago",,Nothing required,New BSD License,,,,",,,,,,,Keybase,,,,,,,,,,",,,?,",,,,,,Keybase
 Kik Messenger,Medialab,201010,15 million (2017)[5],Email,Proprietary Freemium adware,,,,,,,,,,,Kik Messenger,,,,,,,,,,?,?,?,?,,,,,,,Kik Messenger
+<<<<<<< HEAD
 Line,LINE Corporation,March 2012,700 million (2017),Phone number,Proprietary Freemium,,,,,,,,,,,Line,,,,,,,,,,?,?,?,?,,,,,,,Line
+=======
+Line,LINE Corporation,March 2012,203 million (2018)[4],Phone number,Proprietary Freemium,,,,,,,,,,,Line,,,,,,,,,,?,?,?,?,,,,,,,Line
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 Mattermost,Mattermost Inc,2015,,,AGPLv3,,,,,,,,,,,Mattermost,,,,,,,,,,?,?,?,?,,,,,,,Mattermost
 MCabber,Mikael Berthe,20050607,,,GPL,,,,,,,,,,,MCabber,,,,,,,,,,?,?,?,?,,,,,,,MCabber
 Messages,Apple Inc.,20120725,,,Part of macOS and iOS,,,,,,,,,,,Messages,,,,,,,,,,?,?,?,?,,,,,,,Messages

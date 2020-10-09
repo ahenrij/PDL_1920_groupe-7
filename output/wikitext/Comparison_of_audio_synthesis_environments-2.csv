@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Operating system(s),Source code language(s),Programming (plugin) API language(s),Other technical features
 Bidule,"Mac OS X, Windows",C++,C++,ASIO/ CoreAudio (Mac)/ ReWire support. Possible to write custom modules via API if NDA accepted.
 ChucK,"Mac OS X, Linux, Windows",C++,,"Unified timing mechanism (no separation between audio-rate and control-rate), command-line access"
@@ -11,3 +12,18 @@ SuperCollider,"Mac OS X, Linux, Windows, FreeBSD","C, C++, Objective-C",C++,"Cli
 Sporth,"Linux, Mac OS X",C,"C, Scheme","Many frontends built using the API exist, including Chuck, PD, and LADSPA"
 SynthEdit,"Windows, MacOS",C++,C++,
 VCV Rack,"Mac OS X, Linux, Windows",C++,C++,
+=======
+Name,Shell scripting,,MIDI,,OSC,,HID,VST,Audio Units,,Other
+,In,Out,In,Out,In,Out,,,As host,As unit,
+Bidule,,,,,,,,,,,
+ChucK,,,,,,,,,,,
+Csound,,,,,,,,,,,"binding from Haskell (hCsound), C, C++, Python, Java, Lua, Lisp, JavaScript"
+Impromptu,,,,,,,,,,,Bidirectional Scheme to Objective-C bridge
+Kyma,,,,,,,,,,,
+Max/MSP,,,,,,,,,,,
+Pure Data,,,,,,,,,,,"bindings for Python, Lua, Java, GStreamer. the Camomile plugin may host PD as plugin within DAW. PD-extended presently has multiple options to host LADSPA plugins within PD environment."
+Reaktor,,,,,,,,,,,
+SuperCollider,,,,,,,,,,,"LADSPA Host, scsynth can be controlled by OSC messages (Haskell, Scala, Python, Ruby, Scheme etc.)"
+SynthEdit,,,,,,,,,,,
+VCV Rack,,,,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

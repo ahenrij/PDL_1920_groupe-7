@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manager,Creator(s),First public release date,Latest stable version,Downloadable without paying?,Software license,Windows,Mac OS X,Linux
 Amarok,Mark Kretschmann,2003-06-23,,,GPL,,,
 Banshee,Aaron Bockover,2005-08,,,MIT,,,
@@ -13,3 +14,20 @@ Senuti,FadingRed,2006-04-26,"1.1.7 (Oct 6, 2009)[1]",,Proprietary,,,
 Winamp native,Nullsoft,1997-06,,,Proprietary,,,
 XPlay,Mediafour,2002-06-24,"3.5.0 (Dec 30, 2009)[2]",,Proprietary,,,
 Manager,Creator(s),First public release date,Latest stable version,Downloadable without paying?,Software license,Windows,Mac OS X,Linux
+=======
+Manager,iPod touch/iPhone Firmware up to 1.1.4,iPod touch/ iPhone FW 2.x,iPod touch/ iPhone FW 3.0,iPod touch/ iPhone FW 3.1,iPod touch/iPhone FW 4.0.2,iPod touch/iPhone FW 5.0.x
+Amarok,,,,,","
+Banshee,,,,,","
+Clementine,",",",",,
+EphPod,,,,,,
+gtkpod,,,,,,
+iRip,,,,,,"
+iTunes,,,,,,
+JRiver Media Center,,,,,,
+MediaMonkey,,,,,,
+Rhythmbox,,,,,,
+Senuti,,,,,,
+Winamp native,,,,,,
+XPlay,,",",",","
+Manager,iPod touch/iPhone Firmware up to 1.1.4,iPod touch/iPhone FW 2.x,iPod touch/iPhone FW 3.0,iPod touch/iPhone FW 3.1,iPod touch/iPhone FW 4.0.2,iPod touch/iPhone FW 5.0.x
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

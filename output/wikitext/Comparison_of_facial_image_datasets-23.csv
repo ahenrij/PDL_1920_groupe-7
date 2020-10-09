@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Dataset name,Brief description,Preprocessing,Instances,Format,Default task,Created (updated),Reference,Creator
 Aff-Wild,"298 videos of 200 individuals, ~1,250,000 manually annotated images: annotated in terms of dimensional affect (valence-arousal); in-the-wild setting; color database; various resolutions (average = 640x360)","the detected faces, facial landmarks and valence-arousal annotations","~1,250,000 manually annotated images",video (visual + audio modalities),affect recognition (valence-arousal estimation),2017,CVPR [6] IJCV [7],D.Kollias et al.
 Aff-Wild2,"558 videos of 458 individuals, ~2,800,000 manually annotated images: annotated in terms of i) categorical affect (7 basic expressions: neutral, happiness, sadness, surprise, fear, disgust, anger); ii) dimensional affect (valence-arousal); iii) action units (AUs 1,2,4,6,12,15,20,25); in-the-wild setting; color database; various resolutions (average = 1030x630)","the detected faces, detected and aligned faces and annotations","~2,800,000 manually annotated images",video (visual + audio modalities),"affect recognition (valence-arousal estimation, basic expression classification, action unit detection)",2019,BMVC [8] FG [9],D.Kollias et al.
@@ -20,3 +21,9 @@ Gavabdb,"Up to 61 samples for each subject. Expressions neutral face, smile, fro
 3D-RMA,"Up to 100 subjects, expressions mostly neutral. Several poses as well.",None.,9971,"Images, text","Face recognition, classification",2004,[40][41],Royal Military Academy (Belgium)
 SoF,112 persons (66 males and 46 females) wear glasses under different illumination conditions.,"A set of synthetic filters (blur, occlusions, noise, and posterization ) with different level of difficulty.","42,592 (2,662 original image × 16 synthetic image)","Images, Mat file","Gender classification, face detection, face recognition, age estimation, and glasses detection",2017,[42][43],"Afifi, M. et al."
 IMDB-WIKI,IMDB and Wikipedia face images with gender and age labels.,None,"523,051",Images,"Gender classification, face detection, face recognition, age estimation",2015,[44],"R. Rothe, R. Timofte, L. V. Gool"
+=======
+Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+Ecoli Dataset,Protein localization sites.,Various features of the protein localizations sites are given.,336,Text,Classification,1996,[403][404],K. Nakai et al.
+MicroMass Dataset,Identification of microorganisms from mass-spectrometry data.,Various mass spectrometer features.,931,Text,Classification,2013,[405][406],P. Mahe et al.
+Yeast Dataset,Predictions of Cellular localization sites of proteins.,Eight features given per instance.,1484,Text,Classification,1996,[407][408],K. Nakai et al.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Code Name,Release Date,CPU Socket,Processors Supported,Fab (nm),HT Frequency (MHz),PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound,Features,Notes
 nForce 710a,MCP78,2008,Socket AM2+,Athlon 64 Athlon 64 X2 Athlon 64 FX Opteron Sempron Phenom Phenom II,,HT 3.0 2.6 GHz,2.0 20 lanes,No,5 Ports,12 Ports Rev 2.0,1 Ports UDMA 133,6 Ports 3.0Gbit/s,1000 Mbit/s,HDA,,
 nForce 720a,,2008,,,,,,No,,,,,,,Onboard GeForce 8100,
@@ -6,3 +7,10 @@ nForce 730a,MCP72,May 2008,,,,,,No,,,,,,,Onboard GeForce 8200,Hybrid with IGP
 nForce 740a SLI,,May 2008,,,,,,x8+x8,,,,,,,,
 nForce 750a SLI,,May 2008,,,,,2.0 18 lanes,x8+x8,,,,,,,Onboard GeForce 8200,Hybrid with IGP
 nForce 780a SLI,MCP72 + nForce200,May 2008,,,,,2.0 51 lanes,x16+x16 x16+x16+x8 x8+x8+x8,,,,,,,Onboard GeForce 8200,Hybrid with IGP
+=======
+Model,Code Name,Release Date,CPU Socket,Processors Supported,Fab (nm),FSB/HT Frequency (MHz),Memory,PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound
+nForce4 Ultra,Crush19 + MCP51,"January 17, 2006",LGA 775,"Pentium 4, Pentium EE, Pentium D, Celeron D",,1066 MHz,DDR2-666 dual channel,1.0a 20 lanes,No,6 Ports,8 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0 Gbit/s,1000 Mbit/s,HDA
+nForce4 SLI XE,Crush19 + MCP51,"January 17, 2006",,,,1066 MHz,DDR2-666 dual channel,1.0a 20 lanes,×8+×8,6 Ports,8 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0 Gbit/s,1000 Mbit/s,HDA
+nForce4 SLI,Crush19 + MCP04,"April 5, 2005",,,,1066 MHz,DDR2-666 dual channel,1.0a 20 lanes,x8+x8,6 Ports,10 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0 Gbit/s,1000 Mbit/s,AC'97 2.3
+nForce4 SLI X16,Crush19 + MCP04,"April 5, 2005",,"Pentium 4, Pentium EE, Pentium D, Celeron D Core 2 (unofficial, some MB)",,1066 MHz,DDR2-666 dual channel,1.0a 40 lanes,x16+x16,6 Ports,10 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0 Gbit/s,1000 Mbit/s,AC'97 2.3
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

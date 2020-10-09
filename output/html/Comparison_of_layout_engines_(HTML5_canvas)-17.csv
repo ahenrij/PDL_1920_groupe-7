@@ -1,4 +1,5 @@
 ,Trident,Gecko,WebKit,Presto
+<<<<<<< HEAD
 <audio> attributes,,,,
 src,5.0[t 1],1.9.1,525,2.5
 preload,,2.0[note 11][g 90],,Experimental[note 11]
@@ -23,3 +24,14 @@ kind,6.0[t 42],24.0[g 94],Yes[w 71],No
 label,,,,
 src,,,,
 srclang,,,,
+=======
+translate[24],No,,,
+Datasets (data-*),No,6.0[g 24],Yes[w 25],2.8[p 10]
+contextmenu,,8.0[g 25],No[w 16],No
+hidden,,2.0[g 26],Yes[w 26],2.7.70
+contenteditable[25],<3.1[IE 5.5],1.9,Yes,2.0
+spellcheck[26],6.0,1.8[g 27],Incorrect[w 27],2.8[p 11]
+draggable,,1.9.1[g 28],533[w 28],2.10.270
+dropzone,No,No[g 29],Yes,2.10.270
+,Trident,Gecko,WebKit,Presto
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

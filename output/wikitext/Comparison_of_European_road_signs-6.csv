@@ -1,4 +1,5 @@
 ,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
+<<<<<<< HEAD
 One-way street,,,,,,,,(until 2022),,,,,,,,,,,,,,,,,,,,,NOT USED
 ,,NOT USED,,,,,NOT USED,,,,,NOT USED,,,,,NOT USED,NOT USED,,,,,,,NOT USED,,,,
 End of one-way street,,,,,,NOT USED,,NOT USED,,,,,,,,,,,,,NOT USED,,,,,,,NOT USED,NOT USED
@@ -12,4 +13,10 @@ Expressway,,,,,NOT USED,,,,,,NOT USED,NOT USED,,,,,,,,,,,,,,,,NOT USED,NOT USED
 Expressway ends,,,,,NOT USED,,,,,,NOT USED,NOT USED,,,,,,,,,,,,,,,,NOT USED,NOT USED
 Motorway,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,,NOT USED
 Motorway ends,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,,NOT USED
+=======
+Entrance to built up area,,or or or,,,or,,,,or,or or,,,or,or,,,,or,,Russia: or Belarus: or,,,,,[36] Switzerland: (main roads) (minor roads) Liechtenstein: (main roads) (minor roads),,,NOT USED,
+Leaving built up area,,or or or,,,or,,,,or,or or,,,,or,,,,or,,Russia: or Belarus: or,,,,,Switzerland:[37] (main roads) (minor roads) Liechtenstein: (main roads) (minor roads),,,NOT USED,
+Entrance to locality,NOT USED,NOT USED,,NOT USED,NOT USED,,NOT USED,,NOT USED,NOT USED,NOT USED,NOT USED,,NOT USED,NOT USED,,,,,Russia: Belarus:,NOT USED,,or,,NOT USED,,,varying design,
+Leaving locality,NOT USED,NOT USED,,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,,NOT USED,NOT USED,,,,,Russia: Belarus:,NOT USED,,,NOT USED,NOT USED,,,varying design,NOT USED
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 ,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland

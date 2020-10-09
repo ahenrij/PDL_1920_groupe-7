@@ -1,2 +1,7 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 bdo,5.0,1.0,,"While alphabetic and alphanumeric words are affected, numeric (numbers only) words are not.date=August 2010group=note",1.0
+=======
+script,5.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+noscript,Trident doesn't hide CSS backgrounds and borders on a <noscript> element when scripting is enableddate=August 2010.group=note,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

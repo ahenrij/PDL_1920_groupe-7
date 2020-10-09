@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 BitTorrent client,Known unpatched vulnerabilities,,,,,
 ,Secunia,,,,,SecurityFocus
 ,Extremely critical (number / oldest),Highly critical (number / oldest),Moderately critical (number / oldest),Less critical (number / oldest),Not critical (number / oldest),Total (number / oldest)
@@ -25,3 +26,10 @@ Xunlei,0, 2 df=yes2007928br=yes,0,0,0, 1 df=yes20071117br=yes
 BitTorrent client,Extremely critical (number / oldest),Highly critical (number / oldest),Moderately critical (number / oldest),Less critical (number / oldest),Not critical (number / oldest),Total (number / oldest)
 ,Secunia,,,,,SecurityFocus
 ,Known unpatched vulnerabilities,,,,,
+=======
+BitTorrent library,Linux/Unix,Windows,OS X,API,Programming language
+libtorrent (Rasterbar),,,,,C++
+MonoTorrent,,,,,C#
+rTorrent (libTorrent Rakshasa),,,,,C++
+BitTorrent library,Linux/Unix,Windows,OS X,API,Programming language
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

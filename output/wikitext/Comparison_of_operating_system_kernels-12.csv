@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Kernel name,Programming language,Used in,Creator,Executable format (also see section below),Type,Integrated firewall,SMP support,Multiple architecture support (also see section below).,Multitasking,Virtualization,Security,Profiling/Debugging,Soft real-time support,Hard real-time support,Can keep RTC in UT[2]
 Amiga Exec,,AmigaOS,Commodore International,HUNK,Exokernel (atypical)[3],,,,,,,,,,
 Amiga Exec SG (2nd Generation),,AmigaOS 4,Hyperion Entertainment,ELF/HUNK,Exokernel (atypical),,,,,,,,,,
@@ -26,3 +27,12 @@ Windows NT kernel,"C, C++","Windows NT, 2000, XP, 2003, Vista, Windows 7, Window
 XNU (Darwin kernel),"C, C++","Mac OS X, iOS, iPadOS, tvOS, watchOS, OpenDarwin, PureDarwin GNU/Darwin",Apple Inc.,Mach-O,hybrid,"Ipfirewall, PF (starting in Lion)",,,,chroot,"Unix permissions, NT/NFSv4 ACLs, TrustedBSD MAC, OpenBSM","KDB, DDB, DTrace",,,
 SPARTAN kernel,,HelenOS,Jakub Jermar,ELF,microkernel,,,,,,,,,,
 Kernel name,! Used in,Creator,Executable format (also see section below),Type,Integrated firewall,SMP support,Multiple architecture support (also see section below).,Multitasking,Virtualization,Security,Profiling/Debugging,Soft real-time support,Hard real-time support,Can keep RTC in UT,
+=======
+Kernel Name,TCP,UDP,SCTP,DCCP
+DragonFly BSD kernel,,,,
+FreeBSD kernel,,,,
+Linux kernel,,,,
+Solaris kernel,,,,
+Windows NT kernel,,,,
+XNU,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

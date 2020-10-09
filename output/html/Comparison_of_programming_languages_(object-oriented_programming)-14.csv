@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,construction,destruction
 ABAP Objects,data variable type ref to class . create object variable «exporting parameter = argument».[1],[2][3]
 APL (Dyalog),variable??NEW class «parameters»,?EX 'variable'
@@ -30,3 +31,31 @@ val obj = new Object(arg0, arg1, param1 = value1, ...) // named parameters",[3]
 COBOL,INVOKE class "NEW" RETURNING variable or MOVE class::"NEW" TO variable,
 Cobra,variable «as class» = class(parameters),variable.dispose
 ISLISP,(setq variable (create (class <some-class> [:field-1 value-1 [:field-2 value-2] ..]))),[3]
+=======
+,public,private,protected,friend
+ABAP Objects,public section.[21] data field type type.,private section.[21] data field type type.,protected section.[21] data field type type.,[22]
+APL (Dyalog),:Field Public field «? value»,:Field «Private» field «? value»,,
+C++ (STL),public: type field;,private: type field;,protected: type field;,[23]
+C#,public type field «= value»;,private type field «= value»;,protected type field «= value»;,internal type field «= value»;
+D,,,,package type field «= value»;
+Java,,,protected type field «= value»;,type field «= value»;
+eC,public type field;,private type field;,,
+Eiffel,feature field: TYPE,feature {NONE} field: TYPE,feature {current_class} field: TYPE,feature {FRIEND} field: TYPE
+Objective-C,@public type field;,@private type field;,@protected type field;,@package type field;
+Swift,N/A,,,
+Smalltalk,N/A,,[24],N/A
+Python,self.field = value[25],N/A[26],N/A,
+Visual Basic .NET,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,Friend field As type «= value»
+Xojo,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,N/A
+PHP,public $field «= value»;,private $field «= value»;,protected $field «= value»;,
+Perl,$self->{field} = value;[25],N/A,,
+Raku,has« type »$.field« is rw»,has« type »$!field,N/A,
+Ruby,N/A,,@field = value[25],
+Windows PowerShell,Add-Member «-MemberType »NoteProperty «-Name »Bar «-Value »value -InputObject variable,N/A,,
+OCaml,N/A,,val «mutable» field = value,N/A
+F#,N/A,let «mutable» field = value,N/A,
+JavaScript,this.field = value this["field"] = value[25],,,
+COBOL,N/A,level-number field clauses.[27],N/A,N/A
+Cobra,var field «as type» «= value»,var __field «as type» «= value»,var _field «as type» «= value»,
+ISLISP,(field :initform value :accessor accessor-name :initarg keyword),,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

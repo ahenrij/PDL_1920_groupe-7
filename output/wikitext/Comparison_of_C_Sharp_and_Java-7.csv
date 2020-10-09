@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Object orientation,Java,C#
 Classes,mandatory,mandatory
 Interfaces,,
@@ -17,3 +18,15 @@ Operator overloading,,
 Indexers,,
 Implicit conversions, style=background: #8CF;; but see autoboxing,
 Explicit conversions,,
+=======
+Java,C#
+"// Is valid, as numbers is an object of type short[]
+ short[] numbers = new short[100];
+
+ // Is valid, but it isn't clear code
+ double values[] = new double[100];","// Is valid, as numbers is an object of type short[]
+ short[] numbers = new short[100];
+
+ // Won't compile!
+ double values[] = new double[100];"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release
 EiffelStudio,GPL and commercial,Yes,Yes,Yes,"FreeBSD, OpenVMS, Solaris, VxWorks, other Unix",Yes,Yes,Yes,Yes,Automatic testing framework,Yes,Metrics tool,BON / UML class diagramming,Multi-view,V7.1 June 2012
+=======
+IDE,Developer,Latest stable release,Platform,License
+R Tools for Visual Studio,Microsoft,"March 10, 2017 (2017-03-10), v1.0 RC3",Microsoft Windows,Apache License 2.0
+RStudio,"RStudio, Inc.","October 29, 2018 (2018-10-29), v1.1.463",Cross-platform,AGPL
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

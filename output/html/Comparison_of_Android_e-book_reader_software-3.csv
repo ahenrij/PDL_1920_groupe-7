@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Product,Paging touch screen,Paging volume key,Backward-forward,Contents table,Bookmarks,Resume,Go to,Search full text,Sync to cloud,Autoscroll by pixel,Autoscroll by line,Autoscroll by page,Scroll speed control,Rolling blind mode,Continuous scrolling
 Aldiko Book Reader[14],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,No,No,No,No,No,?
 AlReader[1],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes
@@ -20,3 +21,22 @@ PocketBook,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes
 Snapplify[21],Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,?
 Socio eReader[22],Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,?,No,No,No,No,No,?
 Product,Paging touch screen,Paging volume key,Backward-forward,Contents table,Bookmarks,Resume,Go to,Search full text,Sync to cloud,Autoscroll by pixel,Autoscroll by line,Autoscroll by page,Scroll speed control,Rolling blind mode,Continuous scrolling
+=======
+Software,License,Other platforms,DRM formats supported
+Aldiko,Proprietary,iOS,Adobe DRM
+AlReader[1],Proprietary,None,?
+Bookari,Proprietary,iOS,Adobe DRM
+Cool Reader[2],GPLv2,"Android, Windows, Mac OS X, Linux, PocketBook",?
+Ebook Reader[3],Proprietary,"iOS, BlackBerry 10+, Kindle Fire (side loaded)",Adobe DRM
+eReader Prestigio,Proprietary,None,Adobe DRM
+FBReader,Proprietary,"Windows, Linux, PDAs, Mac OS X",None
+Google Play Books,Proprietary,"Web application, iOS",Adobe DRM
+Kindle,Proprietary,"Web application, iOS, BlackBerry, Mac OS X, Windows",Amazon DRM
+Kobo,Proprietary,"Windows, Mac OS X, iOS",Adobe DRM
+KOReader[4],AGPLv3,"Android, Kindle eInk, Kindle Fire, BQ Cervantes, PocketBook, Kobo",None
+Lektz,Proprietary,"Web application, Mac OS X, iOS, Windows",Lektz DRM
+Librera[5],GPL,None,None
+MReader,Proprietary,None,None
+OverDrive Media Console[6],Proprietary,"Chromebook, iOS, Mac OS X, Windows","Adobe DRM, OverDrive"
+Snapplify,Proprietary,"Web application, iOS","Adobe DRM, Snapplify SnappSafe DRM"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

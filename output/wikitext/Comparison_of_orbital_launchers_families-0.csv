@@ -58,9 +58,16 @@ Naro,ROK,Khrunichev KARI,100,--,--,--,3,2,1,1,Retired,2009,2013,First stage uses
 New Glenn,USA,Blue Origin,"45,000","13,000",--,,0,,,,"Devel.Development, in",2021/2022,1E308,,[100]
 New Line,CHN,LinkSpace,200 (SSO),--,--,,0,,,,"Devel.Development, in",2020,1E308,,[101]
 Nuri,ROK,KARI,"1,500",--,--,,0,,,,"Devel.Development, in",2021,1E308,,[102]
+<<<<<<< HEAD
 OS-M,CHN,OneSpace,205 (M1),--,--,--,1,0,0,0,Active,2019,,"Var.Variants: M1, M2, M4. Single M1 failed launch; M2 & M4 in development.",[103]
 Pegasus,USA,Orbital ATK,450,--,--,--,"44Number of Pegasus launches current as of 11 October, 2019.",43,41,39,Active,1990,1E308,,[104]
 Prime,UK,Orbex,150 (SSO),--,--,--,0,,,,"Devel.Development, in",2022,1E308,,[105][106]
+=======
+OmegA,USA,Northrop Grumman,,"4,900-,--,,0,,,,"Devel.Development, in",2021,1E308,"Var.Variants: intermediate, heavy",[103]
+OS-M,CHN,OneSpace,205 (M1),--,--,--,1,0,0,0,Active,2019,,"Var.Variants: M1, M2, M4. Single M1 failed launch; M2 & M4 in development.",[104]
+Pegasus,USA,Orbital ATK,450,--,--,--,"44Number of Pegasus launches current as of 11 October, 2019.",43,41,39,Active,1990,1E308,,[105]
+Prime,UK,Orbex,150 (SSO),--,--,--,0,,,,"Devel.Development, in",2021,1E308,,[106]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 UR-500 Proton,USSR USSR RUS,Khrunichev,23000,6920,5680,65 (Proton-M),"424Number of Proton launches current as of 30 July, 2020.",,,376,Active,1965,1E308,"Var.Variants: K, M, Medium in development.",[107][108][109]
 PSLV,IND,ISRO,3800,1200,--,--,"50Number of PSLV launches current as of 11 December, 2019.",49,48,47,Active,1993,1E308,"Var.Variants: CA, XL, QL, DL Launched moon probe Chandrayaan I, Mars probe Mangalyaan I",[110][111]
 Qased,IRN,IRGC,unknown,--,--,--,"1Number of Qased launches current as of 22 April, 2020.",1,1,1,Active,2020,1E308,,[112]
@@ -92,6 +99,7 @@ Vanguard,USA,Martin,23,--,--,--,12,,3,,Retired,1957,1959,,[150]
 Vega,EU,Avio,2300,--,--,23,"16Number of Vega (all versions) launches current as of 03 September, 2020.",15,15,15,Active,2012,1E308,Vega-C and Vega-E in development.,[151]
 Yenisei,RUS,TsSKB-Progress RSC Energia,88000-,,"20000-27,000",,0,,,,"Devel.Development, in",2028,1E308,,[152][153][154][155]
 Vikram,IND,Skyroot Aerospace,\leq 720,--,--,,0,,,,"Devel.Development, in",2021,1E308,"Var.Variants: Vikram 1, Vikram II, Vikram III",[156]
+<<<<<<< HEAD
 VLM,BRA,CTA,150,--,--,--,0,0,0,0,"Devel.Development, in",2022,1E308,,[157][158][159]
 Vulcan,USA,ULA,"2635017,800–,"118507,400–,--,99,0,0,0,0,"Devel.Development, in",2021,1E308,,[160][161][162][163]
 Yun Feng,Taiwan TWN,National Chung-Shan Institute of Science and Technology,50-,--,--,,0,,,,"Devel.Development, in",unknown,1E308,,[164]
@@ -99,3 +107,12 @@ Zenit,USSR USSR UKR RUS,Yuzhnoye,13740,6160,4098,--,"84Number of Zenit launches 
 Zero,JPN,Interstellar Technologies,100 (SSO),--,--,,0,,,,"Devel.Development, in",2022-2023,1E308,,[166]
 Zhuque-1,CHN,LandSpace,300,--,--,,1,1,0,0,Active,2018,1E308,,[167][168]
 Zhuque-2,CHN,LandSpace,4000,--,--,,0,,,,"Devel.Development, in",2020,1E308,,[167]
+=======
+VLM,BRA,CTA,150,--,--,--,0,0,0,0,"Devel.Development, in",202x,1E308,,[157][158]
+Vulcan,USA,ULA,"2635017,800–,"118507,400–,--,99,0,0,0,0,"Devel.Development, in",2021,1E308,,[159][160][161][162]
+Yun Feng,Taiwan TWN,National Chung-Shan Institute of Science and Technology,50-,--,--,,0,,,,"Devel.Development, in",unknown,1E308,,[163]
+Zenit,USSR USSR UKR RUS,Yuzhnoye,13740,6160,4098,--,"84Number of Zenit launches current as of 26 December, 2017.",,74,72,Active,1985,1E308,"Var.Variants: 2, 2M (2SB, 2SLB), 3SL, 3SLB, 3SLBF",[164]
+Zero,JPN,Interstellar Technologies,100 (SSO),--,--,,0,,,,"Devel.Development, in",2022-2023,1E308,,[165]
+Zhuque-1,CHN,LandSpace,300,--,--,,1,1,0,0,Active,2018,1E308,,[166][167]
+Zhuque-2,CHN,LandSpace,4000,--,--,,0,,,,"Devel.Development, in",2020,1E308,,[166]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko,WebKit,KHTML,Presto
 Font styles,,,,,
 b,rowspan="5" 4.0,rowspan="5" 1.0,rowspan="5" ,rowspan="5" ,rowspan="5" 1.0
@@ -7,3 +8,8 @@ small,,,,,
 tt,,,,,
 Horizontal rules,,,,,
 hr,4.0,1.0,,,1.0
+=======
+,Trident,Gecko,WebKit,Presto
+getContext,rowspan="2" 5.0,1.8,,2.0
+toDataURL,1.8[325],,2.1[327],
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

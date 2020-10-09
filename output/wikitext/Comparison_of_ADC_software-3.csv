@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ADC client,FOSS,Software license,Active,Last Update
 AirDC++,,GNU GPL,,2019
 AirDC++ Web Client,,"GNU GPL, MIT",,2019
@@ -100,3 +101,20 @@ FlowLib,,,,Tiger tree hash
 NetChatLink,,,,Tiger tree hash
 Announcer Bot,,,,
 Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms
+=======
+ADC hub,GUI,CLI,Other,Programming language,Based on
+ADCH++,,,,"C++, Lua, Python, Ruby",
+ADCH++ GUI,,,,"C++, Python",ADCH++
+DSHub,,,,"Java, Python",
+FlexHub,Planned,,,Lua,
+Luadch,,,,"C++, Lua",
+Luadch GUI,,,,wxLua,
+Nexthub,,,,C-Sharp,
+uhub,,,,C,
+Erlhub,,,,Erlang,
+Qhub,,,,,
+Starlet ADC Hub,,,,C,
+StarHub,,,,Java,
+RusHub,,,,C++,
+ADC hub,GUI,CLI,Other,Programming language,Based on
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

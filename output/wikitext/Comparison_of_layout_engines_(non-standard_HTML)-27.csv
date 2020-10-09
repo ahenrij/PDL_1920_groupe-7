@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Tag,Function,Introduced by,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
 bgsound,Used to add sound to the background of a website,Internet Explorer,audio,3.0,,,,
 blink,Used to display a blinking text,Netscape,"Javascript, CSS",,,,,1.0
@@ -12,3 +13,19 @@ noembed,Displays an alternative text for browsers which do not recognize the emb
 spacer,Adds whitespace in a layout,Netscape,CSS,,,,,
 wbr,Placed inside a nobr element to add a line break,Netscape[15][16],Unicode character zero-width space (200B),Trident dropped support for wbr in version 5.0.[18]group=note,1.7,,3.1,
 xml[19],"Includes XML data, either inline or from an URL, in an HTML page",Internet Explorer,"AJAX, possibly XML namespaces",3.1,,,,
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Basic table elements,,,,,
+table,rowspan="5" 4.0,rowspan="5" 1.0,rowspan="5" ,rowspan="5" ,rowspan="5" 1.0
+caption,,,,,
+tr,,,,,
+th,,,,,
+td,,,,,
+Row groups,,,,,
+thead,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+tbody,,,,,
+tfoot,,,,,
+Column groups,,,,,
+colgroup,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+col,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

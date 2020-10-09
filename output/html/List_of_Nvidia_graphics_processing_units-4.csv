@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm)[2],Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)3,TDP (Watts),Comments
 ,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,,
 GeForce 8100 mGPU[15],2008,MCP78,TSMC 80 nm,Unknown,Unknown,PCIe 2.0 ×16,8:8:4,500,1200,400 (system memory),2,4,Up to 512 from system memory,6.4 12.8,DDR2,64 128,10.0,3.3,28.8,Unknown,The block of decoding of HD-video PureVideo HD is disconnected
@@ -20,3 +21,13 @@ GeForce 8800 GTX,"November 8, 2006",G80,TSMC 90 nm,681,484,PCIe 1.0 ×16,128:322:
 GeForce 8800 Ultra,"May 2, 2007",,,,,,,612,1500,1080,14.7,19.6,,103.7,,,,,384,175,
 Model,Launch,Code name,Fab (nm)[2],Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,TDP (Watts),Comments
 ,,,,,,,,Clock rate,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)3,,
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,Nvidia Optimus technology,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,,
+Quadro K500M,GK107,28,PCIe 3.0 ×16,850,850,1600,192:16:8,6.8,13.6,1024,12.8,DDR3,64,326.4,11.0,4.5,Yes,35,
+Quadro K1000M,,,,,,1800,192:16:16,13.6,,2048,28.8,,128,326.4,,,,45,Dell Precision M4700
+Quadro K2000M,,,,745,745,,384:32:16,11.92,23.84,,,,,572.16,,,,55,Dell Precision M4700
+Quadro K3000M,GK104,,,654,654,2800,576:48:32,20.93,31.39,,89.6,GDDR5,256,753.41,,,,75,Dell Precision M6700
+Quadro K4000M,,,,600,600,,960:80:32,19.2,48,4096,,,,1152,,,,100,Dell Precision M6700
+Quadro K5000M,,,,706,706,3000,1344:112:32,22.59,79.07,,96,,,1897.73,,,,,Dell Precision M6700
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Creator,Development started,First public release,Latest stable version,Stable release date,Cost (USD),License,Notes
 ADMB,"David Fournier, ADMB Project",1989,1990,12.0,21 December 2017,,BSD 3-clause (aka new) License,Automatic differentiation makes it well suited to complex minimization problems
 Analytica,Lumina Decision Systems,1982 (Demos),,4.6,May 2015,"Free (Analytica Free 101), $995 (Professional), $2795 (Enterprise)",Proprietary,A numerical modeling environment with a declarative and visual programming language based on influence diagrams.
@@ -37,3 +38,14 @@ Sysquake,Calerga,,1998,5.0,2013,"free / $2500 (Pro, commercial) / $1000 (Pro, ac
 TK Solver,"Universal Technical Systems, Inc.",late 1970s,1982,6.0.152,2020,$599 commercial / $49 (student),Proprietary,Numerical computation and rule-based application development
 VisSim,Visual Solutions,,1989,10.1,January 2011,$495-$2800 (commercial) free view-only version $50-$250/free v3.0 (academic),Proprietary,"Visual Language for simulation and Model Based Design. Used in business, science and engineering. Performs complex scalar or matrix based ODE solving with parametric optimization. Has 2D and 3D plotting, 3D animation, and state transition built in."
 Yorick,n/a,n/a,n/a,9,January 2015,,GPL,"Programmable, callable 2D+3D plotting. Language syntax similar to C. Interfacing to other software packages via C calls."
+=======
+,Windows,macOS,Linux,BSD,Unix,DOS,Android
+ALGLIB,,,,,,,
+GNU Scientific Library,,,,,,,
+ILNumerics,,,,,,,
+IMSL Numerical Libraries,,,,,,,
+Math.NET Numerics,,,,,,,
+NAG Numerical Library,,,,,,,
+NMath,,,,,,,
+SciPy (Python packages),,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

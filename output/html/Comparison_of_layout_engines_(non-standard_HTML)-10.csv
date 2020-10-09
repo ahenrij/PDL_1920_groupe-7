@@ -1,4 +1,17 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 a,<3.1[IE 4.0],1.0,Yes,Yes,1.0
 link,,,,,
 base,,,,,
+=======
+Element identifiers,,,,,
+id,<3.1[IE 3.0],1.0,Yes,Yes,1.0
+class,,,,,
+Inline styles,,,,,
+style,<3.1[IE 3.0],1.0,Yes,Yes,1.0
+Advisory information,,,,,
+title,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+Language information,,,,,
+lang,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+dir,<3.1[IE 5.0],,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

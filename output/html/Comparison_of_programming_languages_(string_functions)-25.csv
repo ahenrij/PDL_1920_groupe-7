@@ -1,4 +1,5 @@
 Format,Languages
+<<<<<<< HEAD
 IF string1<string2 THEN -1 ELSE ABS (string1>string2) FI,ALGOL 68
 "cmp(string1, string2)",Python 2
 (string1 > string2) - (string1 < string2),Python
@@ -28,3 +29,30 @@ string1.localeCompare(string2),JavaScript
 string compare ?-nocase? ?-length int? string1 string2,Tcl
 "compare(string1,string2,count)",PL/I[7]
 string1.cmp(string2),Rust[8]
+=======
+reverse string,"Perl 5, Haskell"
+flip string string.flip,Raku
+lists:reverse(string),Erlang
+strrev(string),PHP
+string[::-1],Python
+(string-reverse string),Scheme (SRFI 13)
+(reverse string),Common Lisp
+string.reverse,"Ruby, D (modifies string)"
+new StringBuilder(string).reverse().toString(),Java
+"std::reverse(string.begin(), string.end());","C++ (std::string only, modifies string)"
+StrReverse(string),VB
+string.Reverse().ToString(),"VB .NET, C#"
+implode (rev (explode string)),Standard ML
+string.split("").reverse().join(""),JavaScript
+string.reverse(string) (string):reverse(),Lua
+string reverse,Smalltalk
+StringReverse[string],Mathematica
+reverse(string),PL/I
+«FUNCTION» REVERSE(string),COBOL
+string.toCharArray.toList.reversed.join(),Cobra
+String(string.characters.reverse()),Swift (2.x)
+String(reverse(string)),Swift (1.2)
+string reverse string,Tcl
+?string,APL
+string.chars().rev().collect::<String>(),Rust[38]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

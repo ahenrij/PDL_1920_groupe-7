@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IDE,Developer,Latest stable release,Windows,Linux,macOS,Other platforms,Mobiles,Debugger,GUI builder,License,Autocomplete
 CodeTyphon,PilotLogic,2020-01-08 Ver 7.00,Yes,Yes,Yes,"AmigaOS, Android, FreeBSD, Game Boy Advance, Haiku, AIX, iOS, MorphOS, DOS, NetBSD, Nintendo DS, Nintendo Wii, OpenBSD, DragonFly, OpenIndiana, OS/2, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental), JavaScript transpiler, Embedded systems.",Yes,Yes,Yes,GPL; LGPL with static linking exception,Yes
 Delphi,Embarcadero Technologies,Delphi 10.3 (Rio) / November 21 2018,Yes,No,No,"cross-compile to macOS, Android, iOS Linux[36]",Yes,Yes,Yes,Proprietary,Yes
@@ -12,3 +13,7 @@ Visual Studio via Oxygene,RemObjects Software,10.0 / August 2018,Yes and additio
 PocketStudio,winsoft,3.0,No,No,No,Palm OS,Yes,Yes,Yes,Proprietary,
 Dev-Pascal,Bloodshed Software,1.9.2 (using FPC 1.9.2 from 2005),Yes,No,No,,No,Yes,No,GPL,
 PascalABC.NET,Volunteers,"3.4 / Jule 27, 2018",Yes,Yes,Yes,compiles to CLR,No,Yes,Yes,LGPL,Yes
+=======
+IDE,License,Developer,Platform
+BlackBox Component Builder,Proprietary similar to Sleepycat,Oberon microsystems,Windows
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

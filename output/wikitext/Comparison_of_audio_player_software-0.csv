@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Audio player,Flash,RealPix,QuickTime Video Effects in mov,HTML+TIME(+VML),smil/smi,SVG,MIDI(smf),MIDI(kar),MIDI(xmf),MIDI(rmi),MIDI(xmi),NSF,SPC,PSF
 AIMP,,,,,,,,,,,,,,
 Amarok,,,,,,,,,,,,,,
@@ -20,3 +21,29 @@ Sonique,,,,,,,,,,,,,,
 XMMS,,,,,,,,,,,,,,
 Zinf,,,,,,,,,,,,,,
 Audio player,Flash,RealPix,QuickTime Video Effects in mov,HTML+TIME(+VML),smil/smi,SVG,MIDI(smf),MIDI(kar),MIDI(xmf),MIDI(rmi),MIDI(xmi),NSF,SPC,PSF
+=======
+Audio player,AVI,ASF,QuickTime,Ogg,OGM,Matroska,MP4,MPEG-21,NUT,FLV
+AIMP,,,,,,,Partial,,,
+Amarok,,,,,Basic,Basic,,,,
+Audacious,,,,,,,,,,Audio only
+Audion,,,,,,,,,,
+cmus,,,,Vorbis only,,Basic,,,,
+Cog,,,,,,,,,,
+foobar2000,name=plugin,,,,,,,,,Audio only
+JuK,,,,Vorbis only,,,,,,
+JRiver Media Center,,,,,,,,,,
+MediaMonkey,,,,Vorbis only,,,,,,
+MOC,,,,,,,,,,
+MPXPLAY,,,,,,,,,,
+MusicBee,,,,Vorbis only,,,AAC only,,,
+Musicmatch Jukebox,,,,,,,,,,
+musikCube,,,,Vorbis only,,,,,,
+Rhapsody,,,,,,,,,,
+Rhythmbox,,,,Vorbis only,,,name=through_gstreamer,,,
+Sayonara Player,,,,Vorbis only,,,,,,
+Sonique,name=autodl,,,,,,,,,
+Winamp,,,name=plugin,,,,,,,
+XMMS,,,,Vorbis only,,,,,,
+Zinf,,,,Vorbis only,,,,,,
+Audio player,AVI,ASF,QuickTime,Ogg,OGM,Matroska,MP4,MPEG-21,NUT,FLV
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

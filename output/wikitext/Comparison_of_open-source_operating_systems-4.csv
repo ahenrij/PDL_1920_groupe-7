@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,License,Kernel type,Kernel programming language,Kernel thread support,OS family,Oldest non-EOL versiongroup=Notea1,Forks
 Linux,GPL/LGPL,Monolithic with modules,C,1:1,Unix-like,3.16,elks
 FreeBSD,"BSD; GPL, LGPL software usually included",Monolithic with modules,C,1:1,"BSD, Unix-like",11,DragonFly BSD
@@ -32,3 +33,34 @@ TempleOS,public domain,Monolithic,"HolyC, C, C++",,Commodore 64-like,,-
 K42,,,,,,,
 UnixLite,,,,,,,-->
 Name,License,Kernel type,Kernel programming language,Kernel thread support,OS family,Oldest non-EOL version,Forks
+=======
+Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN
+Linux,netfilter iptables/nftables,,,,,,,,,,
+FreeBSD,"IPFW2, IPFilter, PF",,,,,,,,,,
+OpenBSD,PF,,,,,,,,,,
+NetBSD,"IPFilter, NPF, PF",,,,,group=Notee1,,,,,
+DragonFly BSD,"IPFW2, PF",,,,,,,,,,
+"OpenSolaris, illumos",IPFilter,,,,,,,,group=Notee2,,
+"Darwin, OpenDarwin",IPFW,,,,,,,,,,
+MINIX,,,,,,,,,,,
+FreeDOS,,,,,,,,,,,
+Genode,software IP routing,,,,,,,,,,
+Haiku,None,,,,,,,,,,
+KolibriOS,None,,,,,,,,,,
+MenuetOS,None,,,,,,,,,,
+GNU,netfilter iptables/nftables (with Linux-libre and Linux kernel)group=Notee3,,group=Notee4,,,,group=Notee5,,,,
+ReactOS,,,,,,,,,,,
+"L4, Fiasco, Pistachio",,,,,,,,,,,
+Plan 9,ipmux,,,,,,,,,,
+AROS,,,,,,,,,,,
+Syllable,,,,,,,,,,,
+Inferno,ipmux,,,,,,,,,,
+FreeRTOS,,,,,,,,,,,
+eCos,,,,,,,,,,,
+RTEMS,,,,,,,,,,,
+HelenOS,,,,,,,,,,,
+E/OS,,,,,,,,,,,-
+K42,,,,,,,,,,,
+UnixLite -->,,,,,,,,,,,
+Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

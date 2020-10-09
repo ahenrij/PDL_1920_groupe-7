@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,String representation,,Object copy,Value equality,Object comparison,Hash code,Object ID
 ,Human-readable,Source-compatible,,,,,
 ABAP Objects,N/A,,,,,,
@@ -22,3 +23,30 @@ Windows PowerShell,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashC
 OCaml,,,Oo.copy x,x = y,,Hashtbl.hash x,Oo.id x
 F#,string x or x.ToString() or sprintf "%O" x,sprintf "%A" x,x.Clone(),x = y or x.Equals(y),compare x y or x.CompareTo(y),hash x or x.GetHashCode(),
 COBOL,N/A,,,,,,
+=======
+,current object,current object's parent object,null reference,Current Context of Execution
+Smalltalk,self,super,nil,thisContext
+ABAP Objects,me,super,initial,
+APL (Dyalog),?THIS,?BASE,?NULL,
+C++ (STL),*this,[40],"NULL, nullptr",
+C#,this,base[41],null,
+Java,,super[41],,
+D,,,,
+JavaScript,,super[41] (ECMAScript 6),"null, undefined[42]",
+eC,this,,null,
+Objective-C,self,super[41],nil,
+Swift,self,super[41],nil[43],
+Python,self[44],"super(current_class_name, self)[5] super() (3.x only)",None,
+Visual Basic .NET,Me,MyBase,Nothing,
+Xojo,Me / Self,Parent,Nil,
+Eiffel,Current,Precursor «{superclass}» «(args)»[41][45],Void,
+PHP,$this,parent[41],null,
+Perl,$self[44],$self->SUPER[41],undef,
+Raku,self,SUPER,Nil,
+Ruby,self,super«(args)»[46],nil,binding
+Windows PowerShell,$this,,$NULL,
+OCaml,self[47],super[48],N/A[49],
+F#,this,base[41],null,
+COBOL,SELF,SUPER,NULL,
+Cobra,this,base,nil,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

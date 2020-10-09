@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,USB,Gigabit Ethernet,AirPort Extreme,Bluetooth,Video interface,SD card slot,Keyboard and mouse,iSight/Facetime Camera,Remote IR receiver
 Mac mini[1],4,,,,HDMI and Thunderbolt 2,,,,
 iMac 21.5 in[2],4,,,,Thunderbolt 3,,,,
@@ -12,3 +13,13 @@ MacBook Pro 15 in 2.6 GHz[5],4 USB-C,,,,Thunderbolt 3,,Integrated,,
 MacBook Pro 15 in 2.7 GHz[5],4 USB-C,,,,Thunderbolt 3,,Integrated,,
 MacBook Pro 13 in 2.7 GHz[5],2,,,,HDMI and Thunderbolt 2,,Integrated,,
 MacBook Pro 15 in 2.2 GHz[5],2,,,,HDMI and Thunderbolt 2,,Integrated,,
+=======
+|Model,|Announced,|Released,|Last revision
+Mac Mini,20050111[6],20050129,20181107
+iMac Pro,20170605,20171214,
+iMac,19980506,19980815,20190319
+Mac Pro,20060807,20060807,20191210
+MacBook Air,20080115,20080129,20200318
+MacBook Pro 13 in with Touch Bar (4th gen),20161027,201611,20190709
+MacBook Pro 15 in with Touch Bar (4th gen),20161027,201611,20190521
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

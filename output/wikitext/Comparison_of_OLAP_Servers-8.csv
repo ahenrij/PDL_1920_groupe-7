@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 OLAP server,XML for Analysis,OLE DB for OLAP,MDX,Stored procedures,Custom functions,SQL,LINQ[14],Visualization,JSON,REST API
 Apache Kylin,,,,,,,,"Superset, Zeppelin, Tableau, Qlik, Redash, Microsoft Excel",,
 ClickHouse,,,,,,,,"Superset, Zeppelin, Tableau, Qlik, Redash, DataLens[16]",,
@@ -13,3 +14,19 @@ Mondrian OLAP server,,,,,,,,,,
 Oracle Database OLAP Option,,,,"Java, PL/SQL, OLAP DML",,,,,,
 SAP NetWeaver BW,,,,,,,,,,
 SAS OLAP Server,,,,,,,,Web Report Studio,,
+=======
+OLAP server,Authentication,Network encryption,On-the-Flyname=fn1,Data access,,
+,,,,Cell security,Dimension security,Visual totals
+Apache Kylin,"LDAP, SAML, Kerboros, Microsoft Active Directory",SSL,,,,
+ClickHouse,"Built-in, LDAP, Microsoft Active Directory; Kerberos in development",SSL,,,,
+Druid,Druid Database authentication,SSL,,,,
+Essbase,"Essbase authentication, LDAP authentication, Microsoft Active Directory",SSL,,,,
+IBM Cognos TM1,"Builtin, LDAP, Microsoft Active Directory, NTLM, IBM Cognos BI authentication",SSL,,,,
+icCube,"HTTP Basic/Form Authentication, Windows SSO (NTLM,Kerberos), Plugin Based for Embedded Usage",SSL,,,,
+Jedox OLAP Server,"Jedox authentication, LDAP, Microsoft Active Directory",SSL,,,,
+Kyvos,"Built-in, LDAP, Microsoft Active Directory, SAML, Windows SSO (NTLM, Kerberos)",SSL,,,,
+Microsoft Analysis Services,"NTLM, Kerberos",SSL and SSPI,,,,
+MicroStrategy Intelligence Server,"Host authentication, database authentication, LDAP, Microsoft Active Directory, NTLM, SiteMinder, Tivoli, SAP, Kerberos","SSL, AES[38]",,,,
+Oracle Database OLAP Option,Oracle Database authentication,SSL,,,,
+SAS OLAP Server[39],"Host authentication,SAS token authentication, LDAP, Microsoft Active Directory",,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

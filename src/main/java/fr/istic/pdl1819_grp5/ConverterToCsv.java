@@ -349,7 +349,12 @@ public class ConverterToCsv implements Converter {
 				}
 				if(result.equals("")){
 					Map<String, Locale> localeMap;
+<<<<<<< HEAD
 					String codeCountry = s.substring(2,5);
+=======
+					String codeCountry = s.substring(2);
+
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 					String[] countries = Locale.getISOCountries();
 					localeMap = new HashMap<String, Locale>(countries.length);
 

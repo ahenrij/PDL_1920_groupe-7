@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Creator,First release date,Latest stable version,Latest release date,License,Language,Web application framework,CMS extension
 AbanteCart Software,"Belavier Commerce, LLC",2011,1.2.15[1],2019-05-13[±],OSL 3.0,PHP,Model-View-Controller,"integrated, and 3rd party extensions"
 Apache OFBiz,Apache Software Foundation,2007,17.12.04[2],2020-07-13,Apache 2.0,Java,Apache OFBiz,"integrated, and 3rd party extensions"
@@ -21,3 +22,22 @@ VirtueMart,Max Milbers and Team,?,3.8.4[15],2020-06-18[±],GPL,PHP,,Mambo or Joom
 WooCommerce,WooThemes,2011[16],3.8.1[17],2019-11-27,GPL,PHP,,WordPress
 Zen Cart,Zen Ventures,2003-06[18],1.5.6b[19],2019-05-27[±],GPL,PHP,,
 ,Creator,First release date,Latest stable version,Latest release date,License,Language,Web application framework,CMS extension
+=======
+,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
+Apache OFBiz,Yes,Yes,Yes,No
+Batavi,Yes,No,Yes,No
+Bigcommerce,Yes,Yes,Yes,No
+Drupal Commerce,Yes,add-on,Yes,No
+KonaKart,Yes,No,Yes,No
+Magento,Yes,Yes,enterprise,No
+Miva Merchant,No,Yes,No,Yes
+nopCommerce,Yes,Yes,Yes,No
+osCommerce,Yes,No,No,No
+pimcore,Yes,No,No,No
+PrestaShop,Yes,Yes,No,No
+Shopify,Yes,Yes,Yes,No
+SupaDupa,Yes,No,No,No
+WooCommerce,No,add-on,No,No
+Zen Cart,Yes,add-on,Yes,No
+,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

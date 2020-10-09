@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Graphics,Launch,Market,Chipset,,Device ID[3],Pixel pipelines,Clock rate (MHz),Memory,,API support[4],,,,Hardware acceleration,,
 ,,,Code name,Name,,,,DVMT (MiB),Bandwidth (GB/s),Shader model (vertex/pixel),Direct3D,OpenGL,OpenCL,MPEG-2,VC-1,AVC
 GMA 900,2004,Desktop,Grantsdale,910GL,2582 258A,4,333,128,3.2,3.0 (SW) / 2.0,9.0 (No WDDM nor Aero support),1.4Windows 1.4macOS 2.1Linux[6] ES 2.0Linux,No,MC[7][8],No,No
@@ -15,3 +16,27 @@ GMA 3100,2007,Desktop,Bearlake,Q33,29D2,,400[11][12],,12.8,,,,,,,
 ,,,,G33,,,,,12.8 (DDR2) 17 (DDR3),,,,,Variable-Length Decoding (VLD) + iDCT + MC (Full)[8],,
 GMA 3150,2010,Nettop,Pineview,Atom D4xx Atom D5xx,A001,2,,384,6.4,,,1.5Windows 2.1Linux[6] ES 2.0Linux,,,,
 ,,Netbook,,Atom N4xx Atom N5xx,A011,,200,,5.3,,,,,,,
+=======
+Graphics,Launch,Market,Code name,Chipset,Device ID[3],Core render clock (MHz),Execution units,Shader model (vertex/pixel),API support[13],,,Memory bandwidth (GB/s),DVMT (MB),Hardware acceleration,,
+,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2,VC-1,AVC
+GMA 3000,2006,Desktop,Lakeport,946GZ,2972,667[14][15],8[14][16],3.0 (SW) / 2.0,9.0c FL9_1,1.5Windows 2.1macOS 2.1Linux ES 2.0Linux,No,10.6,256,MC[8],No,No
+,,,Broadwater,Q963,2992,,,,,,,,,,,
+,,,,Q965,,,,,,,,12.8,,,,
+GMA X3000,,,,G965,29A2,,,3.0,,,,,384,Full[8],MC + (LF ? WMV9 only),
+GMA X3500,2007,,Bearlake,G35,2982,,,4.0,10.0 FL10_0,,,,,,MC + LF,
+GMA X3100,,Mobile,Crestline,GL960,2A02 2A12,400[17],,,,,,8.5,,,MC + (LF ? WMV9 only),
+,,,,GLE960,,,,,,,,,,,,
+,,,,GM965,,500[17],,,,,,10.7,,,,
+,,,,GME965,,,,,,,,,,,,
+GMA 4500,2008,Desktop,Eaglelake,B43,2E42 2E92,533,10,,,2.1 ES 2.0Linux,,12.8 (DDR2) 17 (DDR3)[18],1720,,MC + LF,MC + LF
+,,,,Q43,2E12,,,,,,,,,,,
+,,,,Q45,,,,,,,,,,,,
+GMA X4500,,,,G41,2E32,800,,,,,,,,,,
+,,,,G43,2E22,,,,,,,,,,,
+GMA X4500HD,,,,G45,,,,,,,,,,,Full,Full
+GMA 4500MHD,,Mobile,Cantiga,GL40,2A42,400[19],,,,,,,,,,
+,,,,GS40,,,,,,,,,,,,
+,,,,GM45,,533[19],,,,,,,,,,
+,,,,GS45,,,,,,,,,,,,
+,,,,GM47,,640,,,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

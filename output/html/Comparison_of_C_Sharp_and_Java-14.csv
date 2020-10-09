@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Data types,Java,C#
 Arbitrary-size decimals,Reference type; no operators[1],Third party library[2]
 Arbitrary-size integers,Reference type; no operators,Yes[3]
@@ -20,3 +21,13 @@ Single-root (unified) type system,No; but wrapper types,Yes[12]
 Tuples,No; limited 3rd party available.[13],Yes[14]
 Unsigned integers,No; but some method support.[15],"Yes; 8, 16, 32, 64 bits"
 Value types,No; only primitive types,Yes
+=======
+Metadata,Java,C#
+Metadata annotations/attributes,Interface based; user-defined annotations can be created[81],Class based
+Positional arguments,No; unless a single argument,Yes
+Named arguments,Yes,Yes
+Default values,At definition,Through initialization
+Nested types,Yes,Yes
+Specialization,No,Yes
+Conditional metadata,No,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

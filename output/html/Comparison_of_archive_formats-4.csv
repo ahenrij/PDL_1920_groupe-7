@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Archive format,Built-in compression,Self-extracting,Directory structure,POSIX attributes,ACLs,Alternate data streams
 cpio,No1,No,Yes,Yes,No,?
 tar,No1,No,Yes,Yes,Some,(in Solaris implementation)
@@ -18,3 +19,10 @@ rpm,Yes,No,Yes,Yes,?,?
 deb,Yes,No,Yes,Yes,?,?
 7z,Yes,Yes,Yes,Yes,?,?
 Archive format,Built-in compression,Self-extracting,Directory Structure,POSIX attributes,ACLs,Alternate data streams
+=======
+File extension(s)[1],MIME type[2],Official name[3],Platform[4],Description
+.ecc,,dvdisaster error-correction file,Multiple,File format used by dvdisaster to be used for data recovery when discs become damaged or partially unreadable.
+.ecsbx,,Error-correcting SeqBox,Multiple,Archive with forward error correction and sector level recoverability. Error-correcting version of SeqBox.
+.par .par2,application/x-par2,Parchive file,Multiple,"File format used in conjunction with any archive format to provide redundancy and data recovery, most often in newsgroup distribution of binary files."
+.rev,,WinRAR recovery volume,Multiple,"File format used with WinRAR rar volumes. The data recovery is an optional data redundancy which is provided in the form of open recovery records and/or recovery volumes, allowing reconstruction of good archives (including reconstruction of entirely volumes)"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

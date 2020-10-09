@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,edgeHTML,Gecko,WebKit,Presto
 Ogg Vorbis,Manual install[note 12],,1.9.1[g 101],Depends[note 13],2.5
 WAV PCM,,,,525[note 13],2.0
@@ -5,3 +6,23 @@ MP3,5.0[t 47],,No[g 105],,Depends[note 14]
 AAC,,,No,,
 Speex,Manual install[note 12],,No[g 106],Depends[note 13],No
 Opus,No,Yes[51],15.0[g 107],Depends[note 13],No
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Basic structure,,,,,
+html,<3.1[IE 5.0],Yes,Yes,Yes,1.0
+head,<3.1[IE 4.0],,,,
+body,,,,,
+Metadata,,,,,
+title,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+meta,,,,,
+Headings,,,,,
+h1,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+h2,,,,,
+h3,,,,,
+h4,,,,,
+h5,,,,,
+h6,,,,,
+Grouping elements,,,,,
+div,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+span,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

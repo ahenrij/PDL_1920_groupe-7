@@ -1,4 +1,5 @@
 ,Version,Operating systems,Office suite,Developer,License,ISO/IEC 26300:2006,Notes
+<<<<<<< HEAD
 Calligra Sheets,2.4+,"Windows, Mac OS X, Linux, Unix-based systems",Calligra Suite,KDE Project,GPL / LGPL,Yes,
 EditGrid,,Any (Web-based),,Team and Concepts,Proprietary,Yes,
 Gnumeric,1.12.5+,"Linux, Unix-based systems, Windows",,GNOME,GPL,Yes,Saves in ODF 1.2
@@ -13,4 +14,9 @@ NeoOffice Calc,2.2.5,Mac OS X,NeoOffice,Patrick Luby and Edward Peterlin,GPL,Yes
 OpenOffice.org Calc,2.0+,"Windows, Linux, Unix-based systems, Mac OS X, Solaris",OpenOffice.org,OpenOffice.org,LGPL,Yes,
 StarOffice Calc,8,"Windows, Linux, Solaris",StarOffice,Sun Microsystems,Proprietary,Yes,
 Zoho Sheet,2006,Any (Web-based),Standalone,AdventNet,Proprietary,Yes,
+=======
+Docvert,4.0b1,Client: any browser (open source or proprietary HTTP clients are compatible with GPLv3 web service interface). Server: Many.,Many,Matthew Holloway,GPLv3,Yes,
+3BOpenDoc,2.1,"Desktop: Any (Web-based) Server: Linux, Windows",Many,3BView,Proprietary,Yes,Server based
+JODConverter,4.0.0,"Windows, Linux, Unix-based systems, Mac OS X",N/A,http://www.jodconverter.org,Apache 2.0,Yes,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 ,Version,Operating systems,Office suite,Developer,License,ISO/IEC 26300:2006,Notes

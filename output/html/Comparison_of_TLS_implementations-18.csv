@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine
 Botan,No,No,No,No,Partial
 cryptlib,No,No,No,No,No
@@ -14,3 +15,22 @@ Secure Transport,No,No,No,Yes,No
 wolfSSL,Yes,Yes,Partial,No,No
 Erlang/OTP SSL application,No,No,No,No,Yes
 Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine
+=======
+Implementation,Application-defined,PKIX path validation[107],CRL[108],OCSP[109],DANE (DNSSEC)[110],Trust on First Use (TOFU),CAA[111],CT[112]
+Botan,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
+Bouncy Castle,Yes,Yes,Yes,Yes,Yes,No,Unknown,Unknown
+cryptlib,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
+GnuTLS,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,Unknown
+JSSE,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
+LibreSSL,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
+MatrixSSL,Yes,Yes,Yes,Yes[113],No,No,Unknown,Unknown
+Mbed TLS,Yes,Yes,Yes,No[114],No,No,Unknown,Unknown
+NSS,Yes,Yes,Yes,Yes,No[115],No,Unknown,Unknown
+OpenSSL,Yes,Yes,Yes,Yes,Yes,No,Unknown,Yes
+RSA BSAFE,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
+SChannel,Unknown,Yes,Yes[116],Yes[116],No,No,Unknown,Unknown
+Secure Transport,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
+wolfSSL,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
+Erlang/OTP SSL application,Yes,Yes,Yes,No,No,No,Unknown,Unknown
+Implementation,Application-defined,PKIX path validation,CRL,OCSP,DANE (DNSSEC),Trust on First Use (TOFU),CAA,CT
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

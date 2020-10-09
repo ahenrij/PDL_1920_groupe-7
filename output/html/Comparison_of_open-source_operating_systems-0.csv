@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,ATA,SATA,SCSI,USB 3.0,USB 2.0,USB 1.1,FireWire,PCMCIA/PC card,AGP,Nvidia official driver IA-32,Nvidia official driver IA-64,Nvidia official driver AMD64,ATI official driver x86,ATI official driver x86-64,ATI r200 free software driver,ATI r300 free software driver,Nvidia free software driver,Audio,"TV tuner, video editing, or webcam"
 Linux,Yes,Yes,Yes,Yes 2.6.31+[11],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"Yes,nv(2d only), nouveau(3d with mesa)","OSS, ALSA","V4L,V4L2"
 FreeBSD,Yes,Yes,Yes,Yes 8.2+,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes
@@ -26,3 +27,32 @@ RTEMS,Yes,,,,,,,Yes,,No,No,No,No,No,,,,,
 HelenOS,Yes,Yes,No,,No,Yes,No,No,No,No,No,No,No,No,No,No,No,Yes,No
 E/OS,Yes,Yes,Yes,,No[5],Yes,Yes,Yes,No,No,No,No,No,No,,,,Yes,Yes
 Name,ATA,SATA,SCSI,USB 3.0,USB 2.0,USB 1.1,FireWire,PCMCIA/PC card,AGP,Nvidia official driver IA-32,Nvidia official driver IA-64,Nvidia official driver AMD64,ATI official driver x86,ATI official driver x86-64,ATI r200 free software driver,ATI r300 free software driver,Nvidia free software driver,Audio,"TV tuner, video editing, or webcam"
+=======
+Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN
+Linux,netfilter iptables/nftables,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+FreeBSD,"IPFW2, IPFilter, PF",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+OpenBSD,PF,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+NetBSD,"IPFilter, NPF, PF",Yes,Yes,,Yes,Yes[Note 1],Yes,Yes,Yes,Yes,Yes
+DragonFly BSD,"IPFW2, PF",Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,
+"OpenSolaris, illumos",IPFilter,Yes,Yes,,Yes,Yes,Yes,Yes,Yes[Note 2],Yes,Yes
+"Darwin, OpenDarwin",IPFW,Yes,Yes,,,,Yes,,,Yes,
+MINIX,,Yes,,,,,,,,Yes,
+FreeDOS,,Yes,,Yes,Yes,Yes,Yes,,,Yes,
+Genode,software IP routing,Yes,,No,No,No,Yes,Yes,,,
+Haiku,None,Yes,Yes,,,,Yes,,,Yes,Yes
+KolibriOS,None,Yes,,No,Yes,No,Yes,,,,
+MenuetOS,None,Yes,,No,No,No,,,,,
+GNU,netfilter iptables/nftables (with Linux-libre and Linux kernel)[Note 3],Yes,Yes[Note 4],,,,Yes[Note 5],,,Yes,
+ReactOS,,Yes,Yes,,,,,,,,
+"L4, Fiasco, Pistachio",,,,,,,,,,,
+Plan 9,ipmux,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No
+AROS,,Yes,,,,,,,,,
+Syllable,,Yes,,,Yes,Yes,Yes,,,Yes,
+Inferno,ipmux,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+FreeRTOS,,,,,,,,,,,
+eCos,,Yes,Yes,,Yes,,Yes,,,Yes,
+RTEMS,,Yes,No,,Yes,Yes,Yes,Yes,Yes,,
+HelenOS,,Yes,Yes,No,No,No,Yes,No,No,No,No
+E/OS,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

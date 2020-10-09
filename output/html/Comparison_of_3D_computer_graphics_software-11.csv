@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Modeling,3D Painting,Animation,Rendering,3D Tracking,Compositing
 3ds Max,Yes,Yes,Yes,Yes,No,Some
 AC3D,Yes,?,?,No,No,No
@@ -21,3 +22,11 @@ Solid Edge,Yes,?,Yes,Yes,No,?
 SketchUp Make,Yes[7][8],?,Yes[7],Yes[7],No,No
 SketchUp Pro,Yes[7][8],?,Yes[7],Yes[7],No,No
 Wings3D,Yes,?,No,Yes,No,?
+=======
+Application,LoD Generation,Texture Baking,,,
+,Automatic,Normal Map,AO Map,Light Map,
+,,Tangent Space Normal Map,,Non-directional (Traditional),Directional
+Maya (Turtle renderer),"Generate LOD Meshes",Yes,Yes,Yes,"RNM (Radiosity Normal Map), and SH (Spherical harmonics) coefficients"
+Enlighten,No,No,?,Yes,Yes
+Blender,AssetGen addon,Yes,Yes,Yes,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

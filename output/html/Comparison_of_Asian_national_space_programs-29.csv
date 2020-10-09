@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Agency,Country,Budget (in millions of US $),Year,Ref(s)
 China National Space Administration,China,11000,2018,[216]
 Indian Space Research Organisation,India,1760,2020,[217]
@@ -9,3 +10,11 @@ Space and Upper Atmosphere Research Commission,Pakistan,43,2019,[223]
 Philippine Space Agency,Philippines,38,2019,[224]
 Israel Space Agency,Israel,14.5,2019,[225]
 Turkish Space Agency,Turkey,4.3,2019,[226]
+=======
+No.,Country,Spacecraft,Year
+1,China,Chang'e 3/Yutu,2013
+TBD,Israel,Beresheet,2019 (Failed)
+TBD,India,Chandrayaan-2/Pragyan,2019 (Failed)
+,,Chandrayaan-3,2021 (Planned)
+TBD,India Japan,Lunar Polar Exploration Mission,2024 (Planned)
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

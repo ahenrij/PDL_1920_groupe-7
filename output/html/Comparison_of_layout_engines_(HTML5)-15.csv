@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Tag,Function,Introduced by,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
 bgsound,Used to add sound to the background of a website,Internet Explorer,audio,<3.1[IE 3.0],No,No,No,Dropped[11]
 blink,Used to display a blinking text,Netscape,"Javascript, CSS",No,Dropped[12],Yes,No,1.0
@@ -12,3 +13,14 @@ noembed,Displays an alternative text for browsers which do not recognize the emb
 spacer,Adds whitespace in a layout,Netscape,CSS,No,Dropped[16],No,No,No
 wbr,Placed inside a nobr element to add a line break,Netscape[14][15],Unicode character zero-width space (U+200B),Dropped[note 10],1.7,Yes,3.1,No
 xml[18],"Includes XML data, either inline or from an URL, in an HTML page",Internet Explorer,"AJAX, possibly XML namespaces",3.1,No,No,No,No
+=======
+Value,Meaning
+Yes,Fully supported
+No,Has never been supported
+Partial,Only some values are supported
+Incorrect,Not implemented correctly in all cases
+Experimental,May be incomplete or buggy
+Nightly build,Currently in development; full support is expected
+Depends,Only supported for the specified conditions
+Dropped,No longer supported
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

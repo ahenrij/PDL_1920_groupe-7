@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Yacht Hydrodynamics Dataset,Yacht performance based on dimensions.,Six features are given for each yacht.,308,Text,Regression,2013,[326][327],R. Lopez
 Robot Execution Failures Dataset,5 data sets that center around robotic failure to execute common tasks.,Integer valued features such as torque and other sensor measurements.,463,Text,Classification,1999,[328],L. Seabra et al.
 Pittsburgh Bridges Dataset,Design description is given in terms of several properties of various bridges.,Various bridge features are given.,108,Text,Classification,1990,[329][330],Y. Reich et al.
@@ -8,3 +9,8 @@ Energy Efficiency Dataset,Heating and cooling requirements given as a function o
 Airfoil Self-Noise Dataset,A series of aerodynamic and acoustic tests of two and three-dimensional airfoil blade sections.,"Data about frequency, angle of attack, etc., are given.",1503,Text,Regression,2014,[336],R. Lopez
 Challenger USA Space Shuttle O-Ring Dataset,Attempt to predict O-ring problems given past Challenger data.,"Several features of each flight, such as launch temperature, are given.",23,Text,Regression,1993,[337][338],D. Draper et al.
 Statlog (Shuttle) Dataset,NASA space shuttle datasets.,Nine features given.,"58,000",Text,Classification,2002,[339],NASA
+=======
+Ecoli Dataset,Protein localization sites.,Various features of the protein localizations sites are given.,336,Text,Classification,1996,[403][404],K. Nakai et al.
+MicroMass Dataset,Identification of microorganisms from mass-spectrometry data.,Various mass spectrometer features.,931,Text,Classification,2013,[405][406],P. Mahe et al.
+Yeast Dataset,Predictions of Cellular localization sites of proteins.,Eight features given per instance.,1484,Text,Classification,1996,[407][408],K. Nakai et al.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

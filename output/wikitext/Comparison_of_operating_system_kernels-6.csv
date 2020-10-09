@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
 FreeBSD kernel,,,,,,,,,,,,,,,
 Linux kernel,,,(Longene),,,,,,,,,,,,
@@ -7,3 +8,12 @@ Windows NT kernel,,,,,,,,,,,,,,,
 ReactOS kernel,,,,,,,,,,,,,,,
 XNU,,,,,,,,,,,,,,,
 Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
+=======
+Kernel name,DES,AES,Blowfish,Triple DES,Serpent,Twofish,CAST-128,DES-X,IDEA,RC2,RC5,SEED,Skipjack,TEA,XTEA,CAST-256,RC4,Camellia,Anubis,KHAZAD,Salsa20,FCrypt
+DragonFly BSD kernel,,,,,,,,,,,,,,,,,,,,,,
+FreeBSD kernel,,,,,,,,,,,,,,,,,,,,,,
+Linux,,,,,,,,,,,,,,,,,,,,,,
+Windows NT kernel,,,,,,,,,,,,,,,,,,,,,,
+macOS XNU Kernel,,,,,,,,,,,,,,,,,,,,,,
+Kernel name,DES,AES,Blowfish,Triple DES,Serpent,Twofish,CAST-128,DES-X,IDEA,RC2,RC5,SEED,Skipjack,TEA,XTEA,CAST-256,RC4,Camellia,Anubis,KHAZAD,Salsa20,FCrypt
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

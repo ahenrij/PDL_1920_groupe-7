@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Resource access control,Subsystem isolation mechanisms,Integrated firewall,Encrypted file systems,Defender,Windows Hello
 Windows 2000,ACLs,,"TCP/IP Filtering, IPSec",,,
 Windows XP,ACLs,"Win32 WindowStation, Desktop, Job objects","Windows Firewall (from SP2), TCP/IP Filtering, IPSec",,,
@@ -11,3 +12,9 @@ Windows Server 2012 R2,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, J
 Windows 8.1,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
 Windows 10,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
 Windows Server 2016,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
+=======
+Name,Architecture,Integrated firewall,SMP support,USB support,UDMA support,Package management,APIs
+Windows Phone 8,ARMv7,,,,,Windows Phone Store,Silverlight
+Windows Phone 8.1,ARMv7,,,,,Windows Phone Store,Silverlight WinRT
+Windows 10 Mobile,ARMv7,,,,,Microsoft Store,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

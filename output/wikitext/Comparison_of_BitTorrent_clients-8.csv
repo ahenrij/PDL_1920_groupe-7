@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 BitTorrent client,Cache [64],Hash Web seeding,HTTP Web seeding,Broad-catching (RSS),Prioritization,Selective downloads,Sequential downloading,SOCKS,Tracker exchange [65],Remote control via web,Search engine,Auto updates,Reviews and Comments,Notes
 BitComet,,,,,,,,,,,Built-in Web browser,,,Portable version available
 BitLord,,,Partial [68][69],,,,,,,,Built-in Web browser,,,
@@ -21,3 +22,10 @@ Tribler,,,,,,,,,,,,,,Fully distributed keyword search; integrated anti-spam meas
 Vuze (formerly Azureus),,,,,,,,,,,,,,The only client to bridge between i2p and the clearnet.
 Xunlei,,,,,,,,,,,,,,
 BitTorrent client,Cache,Hash Web seeding,HTTP Web seeding,Broad-catching (RSS),Prioritization,Selective downloads,Sequential downloading,SOCKS,Tracker exchange,Remote control via web,Search engine,Auto updates,Reviews and Comments,Notes
+=======
+BitTorrent library,Super-seeding,Tracker,UPnP [35],NAT Port Mapping Protocol,NAT traversal [36],DHT [37],Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,?TP
+libtorrent (Rasterbar),,,,,,,,,,,,,
+MonoTorrent,,,,,,,,,,,,,
+rTorrent (libTorrent Rakshasa),,,,,,,,,,,,,
+BitTorrent library,Super-seeding,Tracker,UPnP,NAT Port Mapping Protocol,NAT traversal,DHT,Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,?TP
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

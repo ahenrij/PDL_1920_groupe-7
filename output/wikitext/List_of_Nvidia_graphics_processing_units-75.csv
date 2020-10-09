@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus interface,L2 Cache (MB),Clock Speeds,,,Memory,,,,Fillratename=PerfValues,,Processing power (GFLOPS)name=PerfValuesname=ProcessingPower,,TDP (Watts),SLI support,Release price (USD)
 ,,,,,,,,,Base (MHz),Boost (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)name=PixelFillrate,Texture (GT/s)name=TextureFillrate,Single precision,Double precision,,,MSRP
 GeForce GT 945A[61][62][63],"February, 2016",GM108,TSMC 28HP,,,512:24:8 (4),PCIe 3.0 ×8,?,1072,1176,1800,1 / 2,14.4,DDR3 / GDDR5,64,8.5 9.4,25.7 28.2,1?097.7 1?204.2,34.3 37.6,33,rowspan=1 ,OEM
@@ -9,3 +10,16 @@ GeForce GTX 970[70],"September 18, 2014",GM204-200,,,,1664:104:56 (13),,1.75,105
 GeForce GTX 980[72],"September 18, 2014",GM204-400,,,,2048:128:64 (16),,2,1126,1216,,4,224.3,,256,72.0 77.8,144.1 155.6,4?612.0 4?980.7,144.1 155.6,165,,$549
 GeForce GTX 980 Ti[73],"June 1, 2015",GM200-310,,8,601,2816:176:96 (22),,3,1000,1075,,6,336.5,,384,96.0 103.2,176.0 189.2,5?632.0 6?054.4,176.0 189.2,250,,$649
 GeForce GTX TITAN X[74],"March 17, 2015",GM200-400,,,,3072:192:96 (24),,,,,,12,,,,,192.0 206.4,6?144.0 6?604.8,192.0 206.4,,,$999
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[198][199],,Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro FX 350,G72GL,90,PCIe ×16,550,550,810,3:4:4:2,1.1,1.1,128,6.48,DDR2,64,,,9.0c,2.1,21,
+Quadro FX 550,NV43GL,,,360,360,800,4:8:8:8,2.88,2.88,,12.8,GDDR3,128,,25,,,,
+Quadro FX 1500,G71,,,375,375,,7:20:20:16,6,7.5,256,40.0,,256,,65,,,,
+Quadro FX 3500,G71GL,,,470,470,1320,7:20:20:16,7.52,9.4,,42.2,,,,80,,,"Stereo display, SLI",
+Quadro FX 4500,G70,110,,,,1050,8:24:24:16,,11.28,512,33.6,,,,109,,,,
+Quadro FX 4500X2,,,,,,,2× 8:24:24:16,15.04,22.56,1024,,,,,145,,,"Stereo display, Genlock",
+Quadro FX 4500 SDI,,,,,,,8:24:24:16,7.52,11.28,512,,,,,116,,,,
+Quadro FX 5500,G71,90,,700,700,,,11.2,16.8,1024,,,,,96,,,"Stereo display, SLI, Genlock",
+Quadro FX 5500 SDI,,,,,,,,,,,,,,,104,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages
 "string_in_string(string, loc int, substring)",ALGOL 68
 "ContainsStr(string, substring)",Object Pascal (Delphi)
@@ -24,3 +25,8 @@ string.find(substring) != string::npos,C++
 [string containsString:substring],"Objective-C (NSString * only, iOS 8+/OS X 10.10+)"
 string.rangeOfString(substring) != nil,Swift (Foundation)
 ?/substring?string,APL
+=======
+Definition,"contains(string,substring) returns boolean"
+Description,"Returns whether string contains substring as a substring. This is equivalent to using Find and then detecting that it does not result in the failure condition listed in the third column of the Find section. However, some languages have a simpler way of expressing this test."
+Related,Find
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

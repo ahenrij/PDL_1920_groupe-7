@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
 Eclipse JDT,EPL,,,,,"FreeBSD, JVM, Solaris",
 IntelliJ IDEA,"ASLv2, proprietary",,,,,"FreeBSD, OpenBSD, Solaris",
 NetBeans,"CDDL, GPL2",,,,,"OpenBSD, Solaris",
 SlickEdit,,,,,,"Solaris, Solaris SPARC, AIX, HP-UX",
+=======
+IDE,License,Windows,Linux,macOS,Developer,Latest stable release
+Microsoft Visual Studio,Proprietary Community Edition: Freeware,,,,Microsoft,"15.7 / August 1, 2018"
+Visual Studio Code[24],source code(MIT License) - binary(Proprietary),,,,Microsoft,"1.25 / June, 2018"
+Rider[25],Proprietary,,,,JetBrains,"2018.1 / April 19, 2018"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

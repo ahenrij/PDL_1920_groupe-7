@@ -1,4 +1,5 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+<<<<<<< HEAD
 "Cut, copy, and paste",Yes[93],3+[94],Yes[95],Yes,Yes
 Multi-Device clipboard,No,10+[96],No,No,No
 Undo,No[97],3+[98],No,No[99],Yes
@@ -13,3 +14,12 @@ iCalendar import,"No,[114] but 3rd party app available[115]",Yes[116],?,1.1.6+[1
 Text/document support (read only; creating using third party apps),"Microsoft Office, PDF, TXT/RTF","Microsoft Office,[118][119][120] iWork, PDF, Images, TXT/RTF, VCF","Read only: text files, PDF, HTML, Multiple office formats","Microsoft Office, OpenDocument, PDF, Text",Yes
 Printer support,4.4+ using Google Cloud Print[121] but not over USB unless proprietary vendor solutions such as HP Print Service are used[122],Yes (AirPrint)[123],No,"yes, cups package is available",Beta
 Show remembered Wi-Fi connections,Yes,"No, 3rd party software on jailbroken devices[124]",?,Yes,Yes
+=======
+Non-intrusive incoming calls,5+[386] or 3rd party software[387],14+[388],No,No[389],?
+Non-intrusive notifications,Yes[390],5+[107],?,?,?
+Move apps to external storage,2.2+[391],External storage not allowed for apps,No,No,No
+Remote Frame Buffer (RFB) protocol,Yes[392],3rd party software[393],?,?,?
+Screencast on device,"No,[394] 3rd party software like LineageOS ScreenCast,[395] AOKP or OmniROM[396]",9+[397],No,No,Yes
+Screencast over USB,"4.4+ over USB,[121] for prior versions root required for 3rd party app[398]",8+: on OS X[399],No,?,No
+Screen share,On select devices using vendor's implementation[400][401][402],3rd party software[403],No,No,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Country,Program,Agency engaged,First orbital crewed launch,,,,
 ,,,Spacecraft,Term(s) for space traveler,First human(s) launched,Date,Launch system
 People's Republic of China,Project 714 (1968–72),Chinese space program,Shuguang spacecraft (Intended),??? (in Chinese) y?hángyuán ??? (in Chinese) hángti?nyuán,N/A,N/A,Long March 2A (Intended)
@@ -14,3 +15,9 @@ People's Republic of China,Project 921-3 (2000s–present),China National Space Ad
 Japan,... (2008–present),Japan Aerospace Exploration Agency,HTV-based spacecraft and small space laboratory,????? (in Japanese) uch?hik?shi or ??????? astoronoto,TBD,TBD,H-IIB
 Iran,"Iranian human spaceflight program (2005-2017, on hold)",Iranian Space Agency,Class E Kavoshgar spacecraft and small space laboratory,,TBD,TBD,TBD
 North Korea,DPRK space program (2010s-present),National Aerospace Development Administration,Spacecraft and small space laboratory,,TBD,TBD,"Unha 9, 20"
+=======
+Country,Spacecraft,Power,Thrust,Specific impulse,Year launched
+Japan,"Hayabusa (?-10, microwave ion thrusters)",350 W,8 mN,3200s,2003
+China,"Shijian 9A (LIPS-200, ring-cusp magnetic field ion thruster)",1 kW,40 mN,3000s,2012
+India,GSAT-20 (Full),,,,2020 (Planned)
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

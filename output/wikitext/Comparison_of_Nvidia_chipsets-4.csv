@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 Model,Release Date,Fabrication process (nm),PCI,USB,FireWire (IEEE1394),PATA,SATA,LAN,Sound,Features,Notes
 MCP,2001,,5 Ports,6 Ports Rev 1.1,No,2 Ports UDMA 100,No,100 Mbit/s,AC'97 2.1,,
 MCP-D,2001,,5 Ports,6 Ports Rev 1.1,No,2 Ports UDMA 100,No,100 Mbit/s,AC'97 2.1 NVAPU SoundStorm,,
+=======
+Model,Code Name,Release Date,CPU Socket,Processors Supported,Fabrication process (nm),FSB/HT Frequency (MHz),PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound,Features
+GeForce 8100,MCP78,2008,Socket AM2+,Athlon 64 Athlon 64 X2 Athlon 64 FX Opteron Sempron Phenom Phenom II,,HT 3.0 2.6 GHz,2.0 19 lanes,No,5 Ports,12 Ports Rev 2.0,1 Ports UDMA 133,6 Ports 3.0Gbit/s,1000 Mbit/s,HDA,GeForce 8100
+GeForce 8200,,2008,,,,,,,,,,,,,GeForce 8200
+GeForce 8300,,2008,,,,,,,,,,,,,GeForce 8300
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

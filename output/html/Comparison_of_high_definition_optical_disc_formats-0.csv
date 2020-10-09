@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,,,Ultra HD Blu-ray,Blu-ray Disc,HD DVD,CBHD (CH-DVD),AVCHD,AVCREC,DVD
 Laser wavelength,,,,405 nm (blue-violet laser),,,405 or 650 nm,650 nm (red laser),
 Numerical aperture,,,,0.85,0.65,,0.85 or 0.6,0.6,
@@ -24,3 +25,7 @@ Color space,,,Rec. 2020,,,,,,
 Digital Rights Management,,,,AACS-128bit / BD+ / ROM-Mark,AACS-128bit,AACS-128bit / DKAA,None (Not intended for prerecorded content),,CSS 40-bit
 Region codes,,,,Three region codes[f],None,Unknown,None,,8 regions (6 commercial)
 Hardcoating of disc,,,TBD,Mandatory,Optional,,,,
+=======
+Blu-ray Disc,HD DVD
+HDCP encrypted digital output ROM-Mark watermarking technology (physical layer) BD dynamic crypto (BD+) Cinavia Digital Mark,HDCP encrypted digital output
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

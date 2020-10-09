@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Date,Nation,Name,Asian First,World achievements
 4 October 1957,,Baikonur Cosmodrome,Satellite launch pad,"The first satellite, Sputnik 1, was launched."
 11 February 1970,Japan,Ohsumi,Satellite,"The smallest satellite launch vehicle (L-4S; 9.4t weight, 1.4m diameter)"
@@ -40,3 +41,11 @@ Date,Nation,Name,Asian First,World achievements
 24 September 2014,India,Mars Orbiter Mission,First successful Mars mission by an Asian country,First Martian mission by a country to succeed on the first attempt. Third country to do so after the USSR and the USA.
 15 February 2017,India,PSLV-C37,First to successfully launch and deploy 104 satellites simultaneously from a single rocket (PSLV -C37).[79][80],First country in the world to launch more than 100 satellites at one go.
 3 January 2019,China,Chang'e 4,First soft landing on the far side of the Moon,First soft landing on the far side of the Moon by any country. Landed with Yutu-2 rover.
+=======
+Country,Program,,First successful human spaceflight,,Status
+,Name,Period,Year,Spacecraft,
+,Project 714,1968-72,,Shuguang-1,Cancelled
+,Project 873,1978-80,,Piloted FSW satellite,Cancelled
+,Project 921/Shenzhou,1992-present,2003,Shenzhou 5,Ongoing
+,Indian Human Spaceflight Programme,2007-present,2021 (Planned) Before August 2022 (Scheduled),Gaganyaan,Ongoing
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Creator,Input format,Languages,OS support,First public release date,Latest stable version,Software license
 COBOLDoc,Bruno Pacheco Lopes da Silva,Text,COBOL,Any,2020/08/01,1.0.11,GPL
 Ddoc,Walter Bright,Text,D,"Windows, OS X, Linux and BSD",2005/09/19,DMD 2.078.3,Boost
@@ -28,3 +29,30 @@ Visual Expert,Novalys,"Text, Binary","C#, PL/SQL, Transact-SQL, PowerBuilder",Wi
 VSdocman,Helixoft,Text,"C#, VB, VBScript",Windows only,2003 Oct 2,9.0,Proprietary
 YARD,Loren Segal,Text,Ruby,Any,2007/02/24,0.7.3,MIT
 Name,Creator,Input format,Languages,OS support,First public release date,Latest stable version,Software license
+=======
+,HTML,CHM,RTF,PDF,LaTeX,PostScript,man pages,DocBook,XML,ePub
+COBOLDoc,,,,,,,,,,
+Ddoc,,name=fn4,,name=fn4,name=fn4,name=fn4,name=fn4,,name=fn4,
+Document! X,,,,,,,,,,
+Doxygen,,,,Indirectlyname=fn13Generated from the LaTeX output only.[3],,Indirectlyname=fn13,,,,
+Epydoc,,,,,Indirectlyname=fn5,Indirectlyname=fn5,,,,
+Haddock,,,,,,,,Partial,,
+HeaderDoc,,,,,,,,,,
+Imagix 4D,,,,,,,,,,
+Javadoc,,Indirectlyname=fn6,Indirectlyname=fn6,Indirectlyname=fn6,Indirectlyname=fn6,Indirectlyname=fn6,Indirectlyname=fn6,Indirectlyname=fn6,Indirectlyname=fn6,
+JSDoc,,,,,,,,,,
+JsDoc Toolkit,,,,,,,,,,
+Natural Docs,,,,,,,,,,
+NDoc,,,,,,,,,,
+pdoc3,,,,Indirectlyname=pdoc3Generated from Markdown or HTML output only.,,,,,,
+phpDocumentor,,,,,,,,,,
+pydoc,,,,,,,,,,
+RDoc,,name=fn9,,,,,Indirectlyname=fn10,,name=fn9,
+ROBODoc,,Indirectly,,Indirectlyname=fn5,,Indirectlyname=fn5,,,,
+Sandcastle,,,,,,,,,,
+Sphinx,,,bgcolor="#ffffdd"  Indirectlyname=aGenerated from the LaTeX output only,,,!,,,,
+Visual Expert,,,,,,,,,,
+VSdocman,,,,,,,,,,
+YARD,,,,,,,,,,
+! HTML,CHM,RTF,PDF,LaTeX,PostScript,man pages,DocBook,XML,ePub,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

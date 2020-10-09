@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Aerial Image Segmentation Dataset,80 high-resolution aerial images with spatial resolution ranging from 0.3 to 1.0.,Images manually segmented.,80,Images,"Aerial Classification, object detection",2013,[111][112],J. Yuan et al.
 KIT AIS Data Set,Multiple labeled training and evaluation datasets of aerial images of crowds.,Images manually labeled to show paths of individuals through crowds.,~ 150,Images with paths,"People tracking, aerial tracking",2012,[113][114],M. Butenuth et al.
 Wilt Dataset,Remote sensing data of diseased trees and other land cover.,Various features extracted.,4899,Images,"Classification, aerial object detection",2014,[115][116],B. Johnson
@@ -9,3 +10,11 @@ SpaceNet,SpaceNet is a corpus of commercial satellite imagery and labeled traini
 UC Merced Land Use Dataset,These images were manually extracted from large images from the USGS National Map Urban Area Imagery collection for various urban areas around the US.,This is a 21 class land use image dataset meant for research purposes. There are 100 images for each class.,"2,100","Image chips of 256x256, 30 cm (1 foot) GSD",Land cover classification,2010,[126],Yi Yang and Shawn Newsam
 SAT-4 Airborne Dataset,Images were extracted from the National Agriculture Imagery Program (NAIP) dataset.,"SAT-4 has four broad land cover classes, includes barren land, trees, grassland and a class that consists of all land cover classes other than the above three.","500,000",Images,Classification,2015,[127][128],S. Basu et al.
 SAT-6 Airborne Dataset,Images were extracted from the National Agriculture Imagery Program (NAIP) dataset.,"SAT-6 has six broad land cover classes, includes barren land, trees, grassland, roads, buildings and water bodies.","405,000",Images,Classification,2015,[127][128],S. Basu et al.
+=======
+NPS Chat Corpus,Posts from age-specific online chat rooms.,"Hand privacy masked, tagged for part of speech and dialogue-act.","~ 500,000",XML,"NLP, programming, linguistics",2007,[205],"Forsyth, E., Lin, J., & Martell, C."
+Twitter Triple Corpus,A-B-A triples extracted from Twitter.,,"4,232",Text,NLP,2016,[206],"Sordini, A. et al."
+UseNet Corpus,UseNet forum postings.,"Anonymized e-mails and URLs. Omitted documents with lengths <500 words or >500,000 words, or that were <90% English.",7 billion,Text,,2011,[207],"Shaoul, C., & Westbury C."
+NUS SMS Corpus,"SMS messages collected between two users, with timing analysis.",,"~ 10,000",XML,NLP,2011,[208],"KAN, M"
+Reddit All Comments Corpus,All Reddit comments (as of 2015).,,~ 1.7 billion,JSON,"NLP, research",2015,[209],Stuck_In_the_Matrix
+Ubuntu Dialogue Corpus,Dialogues extracted from Ubuntu chat stream on IRC.,,,CSV,Dialogue Systems Research,2015,[210],"Lowe, R. et al."
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

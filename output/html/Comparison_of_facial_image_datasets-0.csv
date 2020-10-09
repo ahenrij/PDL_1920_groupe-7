@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Amazon reviews,US product reviews from Amazon.com.,None.,~ 82M,Text,"Classification, sentiment analysis",2015,[159],McAuley et al.
 OpinRank Review Dataset,Reviews of cars and hotels from Edmunds.com and TripAdvisor respectively.,None.,"42,230 / ~259,000 respectively",Text,"Sentiment analysis, clustering",2011,[160][161],K. Ganesan et al.
 MovieLens,"22,000,000 ratings and 580,000 tags applied to 33,000 movies by 240,000 users.",None.,~ 22M,Text,"Regression, clustering, classification",2016,[162],GroupLens Research
@@ -7,3 +8,8 @@ Car Evaluation Data Set,Car properties and their overall acceptability.,Six cate
 YouTube Comedy Slam Preference Dataset,User vote data for pairs of videos shown on YouTube. Users voted on funnier videos.,Video metadata given.,"1,138,562",Text,Classification,2012,[167][168],Google
 Skytrax User Reviews Dataset,"User reviews of airlines, airports, seats, and lounges from Skytrax.",Ratings are fine-grain and include many aspects of airport experience.,41396,Text,"Classification, regression",2015,[169],Q. Nguyen
 Teaching Assistant Evaluation Dataset,Teaching assistant reviews.,"Features of each instance such as class, class size, and instructor are given.",151,Text,Classification,1997,[170][171],W. Loh et al.
+=======
+Volcanoes on Venus – JARtool experiment Dataset,Venus images returned by the Magellan spacecraft.,Images are labeled by humans.,not given,Images,Classification,1991,[336][337],M. Burl
+MAGIC Gamma Telescope Dataset,Monte Carlo generated high-energy gamma particle events.,Numerous features extracted from the simulations.,"19,020",Text,Classification,2007,[337][338],R. Bock
+Solar Flare Dataset,Measurements of the number of certain types of solar flare events occurring in a 24-hour period.,Many solar flare-specific features are given.,1389,Text,"Regression, classification",1989,[339],G. Bradshaw
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

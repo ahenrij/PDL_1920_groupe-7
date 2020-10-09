@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Aspect,Esperanto,Ido,Example
 Alphabet,"uses diacritics (?, ?, ?, ?, ?, ?) and a digraph (dz)","uses digraphs (ch, sh, qu)","Translation of "chamber", "shoe", and "square": ?ambro / ?uo / kvadrato (Esp.) chambro / shuo / quadrato (Ido)"
 Gender,masculine by default; feminine optional,gender-neutral by default; masculine and feminine optional,Gender of "elephant": elefanto (default) / elefantino (fem.) (Esp.) elefanto (default) / elefantulo (masc.) / elefantino (fem.) (Ido)
@@ -9,3 +10,8 @@ Adjectives,Agree with nouns,Not declined,Translation of "big dogs": grandaj hund
 Accusative form,Mandatory,Only when object precedes subject,Translation of "I drink milk" / "I milk drink": "mi trinkas lakton" / "mi lakton trinkas" (Esp.) "me drinkas lakto" / "me lakton drinkas" (Ido)
 Proper nouns,Sometimes rendered,Never rendered,Translation of "Europe": E?ropo (Esp.) Europa (Ido)
 No. of speakers,"c. 100,000–2,000,000","c. 100–1,000",
+=======
+Esperanto,La malbela maljunulino malla?te malfermis la pordon al sia kelo kaj malrapide malsupreniris la ?tuparon.
+Ido,La leda oldino silence apertis la pordo a sua kelero e lente decensis l'eskalero.
+English,The ugly old woman quietly opened the door to her basement and slowly descended the stairs.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

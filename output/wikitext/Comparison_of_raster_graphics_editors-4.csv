@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Description,Creator,First public release date,Latest stable version,Latest Stable Release Date,List Price (USD),Software license
 Ability Photopaint,Graphics editor with some advanced features,Ability Software,200103,4,,,
 ACDSee,,,,19,,$59,
@@ -95,3 +96,7 @@ Xara Photo & Graphic Designer,Graphic design program including photo editing and
 XnView,"Cross-platform image viewer used for converting, organising and editing graphical & video files.",Pierre-emmanuel Gougelet,1998 (1.06),"2.20 (Windows)/0.64 (Linux, macOS)",,,
 XPaint,Simple Drawing program for Unix/X11 with Xaw3d widgets,"David Koblas, Torsten Martinsen, Jean-Pierre Demailly",1993,2.10.2,20171113,,Custom free license
 Zoner Photo Studio,All-in-one editor package,Zoner Inc.,,11.0 build 8,,,
+=======
+Discontinued
+
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

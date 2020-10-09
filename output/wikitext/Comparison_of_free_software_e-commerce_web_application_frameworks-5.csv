@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 |,HTML catalog,Meta tagging,RSS feeds,SEO URLs,"Site map, XML",GoodRelations RDFa
 | Apache OFBiz,,,,,,
 | Batavi,,,,,,
@@ -14,3 +15,17 @@
 | WooCommerce,,,,,,
 | Zen Cart,add-on,,add-on[24] ,add-on,add-on,
 !HTML catalog,Meta tagging,RSS feeds,SEO URLs,"Site map, XML",GoodRelations RDFa,
+=======
+|,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS,Purolator
+| Apache OFBiz,,,,,,,,
+| Bigcommerce,,,,,,,,
+| KonaKart,,,,,,,,
+| Magento,,,,,,,,
+| nopCommerce,,,,,,,,
+| osCommerce,,,,,,,,
+| PrestaShop,,,,,,,,
+| Shopify,,add-on,,,,,,
+| WooCommerce,,,,,,,,
+| Zen Cart,add-on,add-on,add-on,add-on,,add-on,,
+!Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS,Purolator,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

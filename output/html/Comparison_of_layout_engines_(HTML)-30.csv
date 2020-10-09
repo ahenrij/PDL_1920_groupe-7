@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident[t 49],Gecko[g 110],WebKit[w 82],Presto[p 38][p 39]
 The canvas state,,,,
 save,5.0,1.8,Yes,2.0
@@ -59,3 +60,15 @@ drawImage,5.0,1.8,Yes,2.0
 createImageData,,1.9.1[g 115][g 116],,2.7[p 43]
 getImageData,,1.9[g 116],,2.6[note 16]
 putImageData,,2.0[g 117][g 116],,
+=======
+,Trident,Gecko,WebKit,Presto
+Microdata,No,16.0[g 67],No[w 53],Yes[p 17]
+HTML5 Tokenizer,6.0[t 33],2.0[g 68],Yes[w 54],2.10[p 18]
+HTML5 Tree Builder,,,Yes[w 14],
+HTML5 Fragment Parser,,,Yes,
+<a rel="noreferrer">,No,33.0[g 69],Yes[w 55],No
+window.onhashchange,4.0[t 34],1.9.2[g 70],528[w 56],2.6[p 19]
+element.classList,No,1.9.2[g 71],Yes[w 57],2.8[p 11]
+dir="auto",No,20.0[g 72],528+[w 58],No
+,Trident,Gecko,WebKit,Presto
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

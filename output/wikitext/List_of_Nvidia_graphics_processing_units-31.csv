@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
 ,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
 GeForce 610M[130],December 2011,GF119 (N13M-GE),40,PCIe 2.0 ×16,48:8:4,900,1800,1800,3.6,7.2,1024 2048,14.4,DDR3,64,12,4.5,142.08,12,OEM. Rebadged GT 520MX
@@ -18,3 +19,11 @@ GeForce GTX 680M,"June 4, 2012",GK104 (N13E-GTX),,,1344:112:32 (7 SMX),719,719,,
 GeForce GTX 680MX,"October 23, 2012",GK104,,,1536:128:32 (8 SMX),,,5000,,92.2,,160,,,,,2209,122,72% of desktop GTX 680date=June 2015
 Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
 ,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS)[198][199],,Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro FX 560,G73GL,90,PCIe ×16,350,350,1200,5:12:12:8,2.8,4.2,128,19.2,GDDR3,128,,,9.0c,2.1,30,
+Quadro FX 46002,G80,,,500,1200,1400,96:24:24,12,24,768,67.2,,384,345,-,10.0,3.3,134,"Stereo display, SLI, Genlock"
+Quadro FX 4600 SDI2,,,,,,,96:24:24,,,,,,,345,,,,154,
+Quadro FX 56002,,,PCIe 2.0 ×16,600,1350,1600,128:32:24,14.4,38.4,1536,76.8,,,518.4,,,,171,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

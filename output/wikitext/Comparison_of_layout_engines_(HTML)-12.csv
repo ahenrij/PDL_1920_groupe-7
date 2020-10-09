@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
 getElementsByClassName[183],5.0[184],12,1.9[185],525,2.1
 registerProtocolHandler,rowspan="2" ,rowspan="2" ,1.91=Limited to the feed protocol in 1.8; fully supported in 1.9.[186]date=May 2014,rowspan="2" ,rowspan="2" 2.10[188]
@@ -6,3 +7,16 @@ Cross-document messaging,4.0,12,1.9[190],,2.0
 Drag-and-drop,6.0,12,1.9.1[98],,2.10.270[191]
 pushState() and replaceState(),6.0[192],12,2.0[193],528[194],2.9[195]
 ! Trident,EdgeHTML,Gecko,WebKit,Presto,
+=======
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+manifest,html,6.0[67],12,1.9,,2.6[68][69]
+sizes,link,,13,8.0 (only mobile)[70][71],,
+charset,meta,4.0[73],12,1.9.2,,2.5.24
+scoped,style,,,21.0[74],,rowspan="6" 
+async,script,6.0,12,1.9.2[76],,
+reversed,ol,,,18.0[78],,
+downloaddate=December 2014,"a,area",,13,20.0[80],,
+sandbox,iframe,6.0[81],12,17.0[82],533[83],
+seamless,iframe,,,,,
+Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

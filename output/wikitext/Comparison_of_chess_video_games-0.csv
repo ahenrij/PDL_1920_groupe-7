@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Developer,First release,Latest release,License,Platform
 | Battle Chess,Interplay Silicon & Synapse (C64)[1],1988,1994,Commercial,"Microsoft Windows, Apple Inc., Amiga, 3DO, Acorn Archimedes, Atari, Commodore 64, MS-DOS, FM Towns, NES, PC-98, Sharp X68000"
 | Battle Chess: Game of Kings,Interplay,2014-04,n/a,Commercial,Steam (software)
@@ -24,3 +25,32 @@
 | Shredder,Stefan Meyer-Kahlen,1993,2010,Commercial (Chessbase Shredderchess.com),"Microsoft Windows, Mac OS X, Linux, iPhone, iPad, Android"
 | Wii Chess,Fritz Reul,2008,n/a,Commercial,Nintendo Wii
 | Winboard/xBoard,"Tim Mann, Harm Geert Muller",,2013,Free GPL,"Unix-like, X11, Microsoft Windows"
+=======
+,included chess engine(s),Can open/save PGN,Can import UCI[4] engines,Levels,3D or Animated pieces,Variants,Multiplayer
+| Aquarium,"Crafty, Delfi, Rybka, Spike",,,"multivariation[5], uci_elo[6]",,Chess960,
+| Battle Chess,n/a,,,,,,
+| Battle Chess: Game of Kings,n/a,,,,,,
+| Battle vs. Chess,Fritz,,,levels 1-9,,,
+| Chessaria: The Tactical Adventure,Chessaria AICE,,,,,,
+| Chess Assistant,"Dragon, Rybka",,,"multivariation, uci_elo[7]",,Chess960,
+| Chessbase,Fritz,,,uci_elo[8] for analysis but no timed games,,Chess960,
+| Chessmaster,The King,,,Personalities with Elo ratings,,,no longer supported
+| Chess Titans,n/a,,,,,,
+| ChessV,,,,,,,
+| Fritz,"Rybka, earlier Pandix or Fritz",,,"Friend Mode[9], Handicap and Fun[10], uci_elo[11]",,Chess960,
+| Fritz and Chesster,Koenig Schwarz,,,,,,
+| GNOME Chess,,,,,,,
+| GNU Chess,GNU chess,,,,,"Knightmate, Capablanca, Gothic, Shatranj, Courier, Cylinder, Berolina",
+| Hiarcs Chess Explorer,Hiarcs,,,uci_elo[12],,,
+| Chessbase Houdini,Houdini,,,"Friend Mode[13], Handicap and Fun[14], uci_elo[15]",,Chess960,
+| Chessbase Junior,Junior,,,"Friend Mode, Handicap and Fun, uci_elo[16]",,Chess960,
+| Chessbase Komodo,Komodo,,,"Friend Mode[17], Handicap and Fun[18], uci_elo[19]",,Chess960,
+| Playchess,none,,,Other players have Elo rating,,Chess960,
+|Play Magnus,Glaurung,,,can choose Magnus' age,,,
+| Pure Chess,n/a,,,,,,
+| pyChess,"Pychess engine, Stockfish",,,,,,
+| Chessbase Rybka,Rybka,,,"Friend Mode, Handicap and Fun, uci_elo[20]",,Chess960,
+| Shredder UCI GUI,Shredder,,,uci_elo[21],,Chess960,
+| Wii Chess,Loop Express,,,,,,
+| Winboard/xBoard,Crafty,,via UCI2WB,,,"Knightmate, Capablanca, Gothic, Shatranj, Courier, Cylinder, Berolina",
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

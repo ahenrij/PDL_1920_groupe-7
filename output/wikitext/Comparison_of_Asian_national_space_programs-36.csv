@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Country,Highest payload capacity,,,,,
 ,LEO,,,GTO,,
 ,Launch Vehicle,Payload capacity,Active since,Launch Vehicle,Payload capacity,Active since
@@ -7,3 +8,11 @@ India,GSLV MkIII,10000kg,2017,GSLV MkIII,4000kg,2017
 Israel,Shavit,800kg,1988,Not any yet,,
 North Korea,Unha-3,200kg,2009,Not any yet,,
 ,Safir-1B,50kg,2008,Not any yet,,
+=======
+Country,Rocket,Burn time,Specific impulse (Vac.),Thrust (Vac.)
+,S200 booster rocket stage[82],130s,274.5s,5150kN
+,SRB-A series solid fueled rocket boosters,100s,280s,2260kN
+,Shavit's first stage,82s,280s,1650kN
+,Kuaizhou series of launch vehicles,,,
+,Long March 11 launch system,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

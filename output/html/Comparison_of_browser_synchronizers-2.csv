@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,PC operating system,,,,Mobile operating system,,,,,
 Client,Windows,OS X,Linux,FreeBSD,iOS,Android,BlackBerry OS,Symbian,Windows Phone,other
 BookmarkSync,Yes,Yes,No,No,No,No,No,No,No,No
@@ -7,3 +8,13 @@ Firefox Sync,Yes,Yes,Yes,Yes[13],Yes,Yes,No,No,Yes,OpenSolaris[14]
 Eversync,Yes,Yes,Yes,?,Yes,Yes,No,No,Yes,No
 floccus,Yes,Yes,Yes,?,Yes,Yes,No,No,No,No
 Client,Windows,OS X,Linux,FreeBSD,iOS,Android,BlackBerry OS,Symbian,Windows Phone,other
+=======
+Client,Encrypted transfer,Encrypted storage,Server changing,Web-based UI,Exporting,Link verification,Duplicate link checker,Notes
+BookmarkSync,Yes,No,Yes,Yes,Yes,Yes,Yes,"Feb 12, 2012: Sync doesn't work properly."
+Opera Link,Yes[18],No,No,Yes,Yes,No,Yes (only webbased),
+Firefox Sync,Yes,Yes,Yes,No,No,No,No,Data is encrypted on the client and not accessible even to Mozilla server operators.[19]
+,,,,,,,,
+Eversync,Yes,?,?,?,?,?,?,?
+floccus,Yes,Yes,self-hosted bookmarks,NextCloud,Yes,Yes,try recommended options on github,Adapters are available
+Client,Encrypted transfer,Encrypted storage,Server changing,Web-based UI,Exporting,Link verification,Duplicate link checker,Notes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

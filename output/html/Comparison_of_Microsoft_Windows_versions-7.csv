@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Release date,Version,RTM build,Latest build,Status support,"Codename, working name",Supported architectures,Editions,OS type
 Windows NT 3.1,1993-07-27,3.1,528,528 SP3 (1994-11-10),Unsupported (2000-12-31),New Technology OS/2,"IA-32, DEC Alpha, MIPS","Workstation, Advanced Server","Workstation, Server"
 Windows NT 3.5,1994-09-21,3.5,807,807 SP3 (1995-06-21),Unsupported (2001-12-31),Daytona,"IA-32, DEC Alpha, MIPS, PowerPC[1]","Workstation, Server","Workstation, Server"
@@ -31,3 +32,9 @@ Windows 10,2015-07-29,10.0,10240,N/A,Unsupported (2017-05-09),"Threshold","IA-32
 Windows Server 2016,2016-09-26,,14393,N/A,Supported,"Redstone" Server,x86-64,Essentials Standard Datacenter,Server
 Windows Server 2019,2018-10-02,,17763,N/A,Supported,"Redstone" Server 5,x86-64,Essentials Standard Datacenter,Server
 Name,Release date,Version,RTM build,Latest build,Status support,"Codename, working name",Supported architectures,Editions,OS type
+=======
+,FAT12,FAT16,FAT32,HPFS,ISO 9660,NTFS,UDF (More Info),ReFS
+Windows Phone 8,?,Yes,Yes,No,?,Yes v5,?,No
+Windows Phone 8.1,?,Yes,Yes,No,?,Yes v5,?,No
+Windows 10 Mobile,?,Yes,Yes,No,?,Yes v5,?,?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

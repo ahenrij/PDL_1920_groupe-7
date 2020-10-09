@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 System,Creator,License,Implementation language(s),Back end,Launch date,Refs
 Apache Bloodhound,Apache Software Foundation,Apache License,Python,"MySQL, PostgreSQL, SQLite",2012,[1]
 Assembla Tickets,Assembla,"Proprietary, hosted. Available for free for open source projects",Ruby,MySQL,2008,
@@ -38,3 +39,40 @@ Twproject,Open Lab,"Proprietary, some parts LGPL",Java,all relational (uses Hibe
 Wrike,"Wrike, Inc.","Proprietary, hosted",Java,PostgreSQL,2006,
 YouTrack,JetBrains s.r.o.,"Proprietary, stand-alone and hosted, free version, free for open source projects",Java,JavaScript and Kotlin,2009,
 System,Creator,License,Implementation language(s),Back end,Launch date,Refs
+=======
+System,Git,Mercurial,Bazaar,Monotone,Darcs,CVS,Subversion,Perforce,AccuRev,ClearCase,Others
+Apache Bloodhound,,,,,,,,,,,
+Assembla Tickets,,,,,,,,,,,
+Axosoft,,,,,,,,,,,"
+Bugzilla,,,,,,,,,,,
+Debbugs,,,,,,,,,,,
+Faveo Helpdesk,,,,,,,,,,,
+FogBugz,,,,,,,,,,,2[77]
+Fossil,,,,,,,,,,,1[78]
+FusionForge,,,,,,,,,,,
+GNATS,,,,,,,,,,,
+HP Application Lifecycle Management,,,,,,,,,,,
+IBM Rational ClearQuest,,,,,,,,,,,
+Jira,,,,,,,,,,,
+MantisBT,,,,,,,,,,,
+Microsoft Dynamics CRM,,,,,,,,,,,
+org-mode,,,,,,,,,,,
+OTRS,,,,,,,,,,,
+Phabricator,,,,,,,,,,,
+Pivotal Tracker,,,,,,,,,,,
+Redmine,,,,,,,,,,,
+Request Tracker,,,,,,,,,,,
+Roundup,,,,,,,,,,,
+StarTeam,,,,,,,,,,,
+Supportworks,,,,,,,,,,,
+SysAid,,,,,,,,,,,
+Team Foundation Server,,,,,,,,,,,
+TestTrack,,,,,,,,,,,"
+Trac,,,,,,,,,,,
+TrackerSuite.Net,,,,,,,,,,,
+Tuleap,,,,,,,,,,,
+Twproject,,,,,,,,,,,
+Wrike,,,,,,,,,,,
+YouTrack,,,,,,,,,,,3[88][89]
+System,Git,Mercurial,Bazaar,Monotone,Darcs,CVS,Subversion,Perforce,AccuRev,ClearCase,Others
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

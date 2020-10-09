@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Native interoperability,Java,C#
 Cross-language interoperability,"Yes (with GraalVM, Nashorn, CORBA, JNI or JNA)[92]",Yes; C# was designed for it[92]
 External/native methods,Yes,Yes
@@ -8,3 +9,8 @@ Fixed-size buffers,No,Yes
 Explicit stack allocation,No,Yes
 Address-of,No,Yes
 Object pinning (fix variable to address),No,Yes
+=======
+Exceptions,Java,C#
+Checked exceptions,Yes,No
+Try-catch-finally,Yes,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

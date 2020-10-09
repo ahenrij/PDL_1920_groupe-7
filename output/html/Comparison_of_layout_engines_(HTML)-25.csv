@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko,WebKit,Presto[p 32]
 Error state,,,,
 MediaError,5.0 [t 43],1.9.1,?,2.5
@@ -30,3 +31,14 @@ Controls,,,,
 controls,5.0[t 1],1.9.1,?,2.5
 volume,,,,
 muted,,,,
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Unordered and ordered lists,,,,,
+ul,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+ol,,,,,
+li,,,,,
+Definition lists,,,,,
+dl,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+dt,,,,,
+dd,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

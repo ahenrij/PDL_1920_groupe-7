@@ -1,7 +1,24 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+<<<<<<< HEAD
 Official app store,Google Play,App Store,Tizen Store,Jolla Store,OpenStore
 Non-discriminatory stores,"No, Some apps like Ad blockers are censored on Google Play[80][81] but developers can distribute apps from their own sources","No, Apple discriminates based on country[82] and own Apple policies[83]",?,"Openrepos.[84] Developers can distribute apps from their own sources, supports multiple app stores",?
 "Common APIs for smartphones, tablets, and PCs",Yes[85],Smartphone and tablet only[86],No,Yes,Yes
 Official SDK platform(s),"Linux, macOS and Windows[87]",macOS using iOS SDK,"GNU/Linux, Windows, macOS[88]","Windows, macOS and Linux[89]",Yes
 Cost to develop for the mobile OS,Free,"No, Requires Apple hardware.[90]",Free,Free,Free
 Cost to publish app to official store,US$25 once to offer it on Google Play[91],US$99/year,Free,Free[92],Free
+=======
+"Cut, copy, and paste",Yes[93],3+[94],Yes[95],Yes,Yes
+Multi-Device clipboard,No,10+[96],No,No,No
+Undo,No[97],3+[98],No,No[99],Yes
+Custom home and lock screen wallpaper,Yes,4+[60],Yes,Yes (incl. Ambience),Yes
+Desktop sync,"No,[100] but available using the vendor's companion/PC suite application such as Samsung Smart Switch & HTC Sense[101]",Yes,Yes,?,Yes
+Local full backup,"Yes, via external computer[102]","Yes, using external computer or iCloud[103]",No[104],Yes,Yes
+Core data missing sync,"Bookmarks[105] (before 4), SMSs and Settings[106]",,?,?,?
+Notification center,Yes,5+[107],2+[108],Yes,Yes
+Push notifications,Yes[109],Yes (Apple Push Notification Service),2+[110],Yes,Yes
+Screenshot,"4+ also available on earlier versions with customized firmware, such as Cyanogen Mod and on older Samsung Galaxy smartphones[111]",Yes[60][112],Yes,2.0.2+[113],Yes
+iCalendar import,"No,[114] but 3rd party app available[115]",Yes[116],?,1.1.6+[117],No
+Text/document support (read only; creating using third party apps),"Microsoft Office, PDF, TXT/RTF","Microsoft Office,[118][119][120] iWork, PDF, Images, TXT/RTF, VCF","Read only: text files, PDF, HTML, Multiple office formats","Microsoft Office, OpenDocument, PDF, Text",Yes
+Printer support,4.4+ using Google Cloud Print[121] but not over USB unless proprietary vendor solutions such as HP Print Service are used[122],Yes (AirPrint)[123],No,"yes, cups package is available",Beta
+Show remembered Wi-Fi connections,Yes,"No, 3rd party software on jailbroken devices[124]",?,Yes,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

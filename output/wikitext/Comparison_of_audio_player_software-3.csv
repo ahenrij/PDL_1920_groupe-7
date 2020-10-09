@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Audio player,Audio,,
 ,CD,DVD-Audio,HDCD
 AIMP,,,
@@ -22,3 +23,33 @@ XMMS,,,
 Zinf,,,
 Audio player,CD,DVD-Audio,HDCD
 ,Audio,,
+=======
+Audio player,"asx, wax, wvx",M3U,pls,XSPF,CUE
+AIMP,,,,,
+Amarok,,,,,
+Audacious,,,,,
+Audion,,,,,
+Clementine,,,,,
+cmus,,,,,
+Cog,,,,,
+Exaile,,,,,
+foobar2000,,,,,
+iTunes,,,,,
+JRiver Media Center,,,,,
+JuK,,,,,
+MediaMonkey,,,,,
+MPXPLAY,,,,,
+MusicBee,,,,,
+Musicmatch Jukebox,,,,,
+musikCube,,,,,
+Quod Libet,,,,,
+Rhapsody,,,,,
+Rhythmbox,,,,,
+Sayonara Player,,,,,
+Sonique,,,,,
+Spotify[29],,,,,
+Winamp,,,,,
+XMMS,,,,,
+Zinf,,,,,
+Audio player,asx/wax/wvx,M3U,pls,XSPF,CUE
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

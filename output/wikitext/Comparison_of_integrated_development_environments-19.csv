@@ -1,6 +1,17 @@
+<<<<<<< HEAD
 IDE,Developer,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder
 Dolphin Smalltalk,Object Arts,MIT License,,,,,,
 Pharo,INRIA,MIT License,,,,various,,
 Squeak,squeak.org,MIT License,,,,various,,
 VisualAge,Instantiations,,,,,various,,
 VisualWorks,Cincom,,,,,various,,
+=======
+IDE,Developer,Latest stable release,Platform,License
+Aptana Studio with integrated RadRails plugin (Eclipse),"Aptana, Inc.","3.5.0 / December 27, 2013","Windows, Linux, macOS, FreeBSD, JVM, Solaris","GPL, proprietary"
+Eclipse DLTK Ruby Plugin,Eclipse Foundation,"5.0.0 / June 6, 2013",x86,EPL
+eric,Detlev Offenbach,"6.1.4 / April 9, 2016",Cross-platform,GPLv3 "or later"
+Komodo IDE / Edit,ActiveState,"9.0.1 / April 19, 2015",Cross-platform,
+NetBeans,Thomas Enebo (JRuby co-lead),,Cross-platform,CDDL and GPL
+RubyMine (IntelliJ IDEA),JetBrains,"2018.3.5 (build 183.5912.16) / Feb 27, 2019[38]","Windows, Linux, macOS, FreeBSD, OpenBSD, Solaris",
+SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, AIX, Solaris, HP-UX",
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

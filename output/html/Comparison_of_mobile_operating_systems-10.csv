@@ -1,4 +1,5 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+<<<<<<< HEAD
 Non-English languages support,Partial[202],Yes[203][204][205],Limited (Search is not diacritical mark-insensitive),Yes,Yes
 Underlining spell checker,2.3+[206][207],Yes[208],No,?,No
 Built-in system-wide dictionary,Built into keyboard app. Available on every device.[209],5+[210],No,Yes,Yes
@@ -9,3 +10,8 @@ Optical character recognition input method,No[219],11+: Notes app;[220] 8+: Only
 Third party input methods,Yes[222],8+,?,?,?
 Gesture text input,4+[223],13+;[224] 8+: 3rd party software like SwiftKey,?,No[225],No
 Emoji support,4.4+[226],Yes[227],?,2.2.0+[228] 3rd party software[229],Yes
+=======
+Bluetooth keyboard,2.3+;[261] previous versions via 3rd party software[262],Yes[263],No,Yes[264][265],Yes
+USB keyboard,3.1+[261],With Camera Connection Kit[266],No,?,Yes
+Interchangeable external memory cards,Yes[267],Only for photo/video import with an optional accessory,Yes[268],Yes,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

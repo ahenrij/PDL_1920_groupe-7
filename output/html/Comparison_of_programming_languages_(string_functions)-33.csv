@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages
 UCase(string),VB
 ucase(string),FreeBASIC
@@ -34,3 +35,8 @@ ToUpperCase[string],Mathematica
 string.toUpper,Cobra
 string toupper string,Tcl
 string.to_uppercase(),Rust[49]
+=======
+Definition,"find(string,substring) returns integer"
+Description,"Returns the position of the start of the first occurrence of substring in string. If the substring is not found most of these routines return an invalid index value – -1 where indexes are 0-based, 0 where they are 1-based – or some value to be interpreted as Boolean FALSE."
+Related,instrrev
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

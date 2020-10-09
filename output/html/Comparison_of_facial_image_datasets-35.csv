@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Artificial Characters Dataset,Artificially generated data describing the structure of 10 capital English letters.,Coordinates of lines drawn given as integers. Various other features.,6000,Text,"Handwriting recognition, classification",1992,[89],H. Guvenir et al.
 Letter Dataset,Upper case printed letters.,17 features are extracted from all images.,"20,000",Text,"OCR, classification",1991,[90][91],D. Slate et al.
 CASIA-HWDB,Offline handwritten Chinese character database. 3755 classes in the GB 2312 character set.,Gray-scaled images with background pixels labeled as 255.,"1,172,907","Images, Text","Handwriting recognition, classification",2009,[92],CASIA
@@ -14,3 +15,10 @@ Pen-Based Recognition of Handwritten Digits Dataset,Handwritten digits on electr
 Semeion Handwritten Digit Dataset,Handwritten digits from 80 people.,All handwritten digits have been normalized for size and mapped to the same grid.,1593,"Images, text","Handwriting recognition, classification",2008,[107],T. Srl
 HASYv2,Handwritten mathematical symbols,All symbols are centered and of size 32px x 32px.,168233,"Images, text",Classification,2017,[108],Martin Thoma
 Noisy Handwritten Bangla Dataset,"Includes Handwritten Numeral Dataset (10 classes) and Basic Character Dataset (50 classes), each dataset has three types of noise: white gaussian, motion blur, and reduced contrast.",All images are centered and of size 32x32.,"Numeral Dataset: 23330, Character Dataset: 76000","Images, text","Handwriting recognition, classification",2017,[109][110],M. Karki et al.
+=======
+UrbanSound,"Labeled sound recordings of sounds like air conditioners, car horns and children playing.",Sorted into folders by class of events as well as metadata in a JSON file and annotations in a CSV file.,"1,059",Sound (WAV),Classification,2014,[264][265],J. Salamon et al.
+AudioSet,"10-second sound snippets from YouTube videos, and an ontology of over 500 labels.",128-d PCA'd VGG-ish features every 1 second.,"2,084,320",Text (CSV) and TensorFlow Record files,Classification,2017,[266],"J. Gemmeke et al., Google"
+Bird Audio Detection challenge,"Audio from environmental monitoring stations, plus crowdsourced recordings",,"17,000+",,Classification,2016 (2018),[267][268],Queen Mary University and IEEE Signal Processing Society
+WSJ0 Hipster Ambient Mixtures,Audio from WSJ0 mixed with noise recorded in the San Francisco Bay Area,Noise clips matched to WSJ0 clips,"28,000",Sound (WAV),Audio source separation,2019,[269],"Wichern, G., et al., Whisper and MERL"
+Clotho,"4,981 audio samples of 15 to 30 seconds long, each audio sample having five different captions of eight to 20 words long.",,"24,905",Sound (WAV) and text (CSV),Automated audio captioning,2020,[270][271],"K. Drossos, S. Lipping, and T. Virtanen"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

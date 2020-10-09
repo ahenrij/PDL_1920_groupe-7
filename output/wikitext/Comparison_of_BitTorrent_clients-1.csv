@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Developer,Software license,Latest stable software release,Operating system,"Year (not dynamic, but easier for sorting)"
 BitComet,BitComet Development Group,",,"Windows, macOS",2020
 BitLord,House of Life,",,"Windows, macOS",2017
@@ -25,3 +26,32 @@ Tribler,The Tribler Team,LGPL,,"Windows, macOS, Linux, Android",2019
 Vuze (formerly Azureus),Vuze,",,"Windows, macOS, Linux, Android",2017
 Xunlei,Thunder Networking Technologies,,,"Windows, macOS, Android, iOS",2017
 Name,Developer,Software license,Latest stable software release,! Year,
+=======
+BitTorrent client,Windows,macOS,Linux,BSD,iOS,Android,Other
+BitComet,,,,,,,
+BitLord,,,,,,,
+BitTorrent,,,,,,,
+Deluge,,,,,,,Solaris
+FlashGet,,,,,,,
+Free Download Manager,,,,,,,
+Frostwire,,,,,,,"Unix-like,[8] z/OS,[9] Solaris, OS/2, eComStation, ArcaOS[10]"
+KGet,,,,,,,
+KTorrent,,,,,,,
+Lftp,,,,,,,
+LimeWire,,,,,,,date=June 2017
+Miro,,,,,,,
+MLDonkey,,,,,,,"Solaris, MorphOS"
+?Torrent,,,Web,,,,
+Opera 12,,,,,,date=March 2017,Solaris
+qBittorrent,,,,,,,"OS/2 (including eComStation and ArcaOS), FreeBSD, Haiku[13]"
+Robert,,,,,,,
+rTorrent,"Yes, through Cygwin[15]",,,,,,Solaris
+Shareaza,,,,,,,
+Tixati,,,,,,,
+Tonido,,,,,,,
+Transmission,,,,,",,"Solaris, OpenWrt"
+Tribler,,,,,,,
+Vuze,,,,,,,
+Xunlei,,,,,,date=March 2017,
+Name,Windows,Mac OS X,Linux,BSD,iOS,Android,Other
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Browser layout engine,Trident,Gecko,WebKit,Presto,Blink
 Corresponding JavaScript engine,JScript / Chakra,SpiderMonkey,JavaScriptCore,Linear B / Futhark / Carakan,V8
 ECMAScript Edition 3,,0.6,,1.0,
@@ -11,3 +12,20 @@ JavaScript 1.8.1 extensions,,1.9.1,,,
 JScript .NET extensions,,,,,
 ActionScript extensions,,,,,
 E4X,,Dropped[1],,,
+=======
+Object object,Trident,Gecko,WebKit,Presto,Blink
+Called as function,,,,,
+Object([value]),,,,,
+Called as constructor,,,,,
+new Object([value]),4.0,,,,
+Properties,,,,,
+prototype,4.0,,,,
+Properties of prototype,,,,,
+constructor,4.0,,,,
+toString(),4.0,,,,
+toLocaleString(),4.0,,,,
+valueOf(),4.0,,,,
+hasOwnProperty(V),5.5,,3,,
+isPrototypeOf(V),5.5,,3,,
+propertyIsEnumerable(V),5.5,,3,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Other software,GUI,CLI,Other,Programming language,Based on
 ADCCore,,,,C#,CoreDC
 DCBouncer,,,,C++,
@@ -9,3 +10,19 @@ NetChatLink,,,,Object Pascal (Delphi),
 Announcer Bot,,,,Lua,
 Certmanager,,,,wxLua,
 ADC hub,GUI,CLI,Other,Programming language,Based on
+=======
+ADC client,Windows,Linux,OS X,BSD,Haiku
+AirDC++,,,,,
+AirDC++ Web Client,,,No installable package[8],,
+ApexDC++,,,,,
+DC++,,,,,
+jucy,,,,,
+LinuxDC++,,,,,
+EiskaltDC++,,,,,
+FlylinkDC++,,,,,
+RSX++,,,,,
+TKDC++,,,,,
+StrongDC++,,,,,
+ncdc,,,,,
+ADC client,Windows,Linux,OS X,BSD,Haiku
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

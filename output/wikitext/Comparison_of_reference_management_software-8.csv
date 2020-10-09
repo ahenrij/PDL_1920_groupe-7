@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Software,HTML,LaTeX[25],RTF,Plain text,RSS,Other
 Bebop,,,,,,unAPI
 BibBase,,,,,,
@@ -28,3 +29,36 @@ Sente,,,,,,clipboard
 Wikindx,,,,,,Multiple via BibUtils plug-in
 WizFolio,,,,,,"clipboard, DOC"
 Zotero,,Possible via plugin[28],,Possible via plugins[29],,clipboard
+=======
+Software,Passworded,Networking,
+,,User-specific permissions[49],Simultaneous write access
+Bebop,,,
+BibBase,,,
+BibDesk,,,
+Biblioscape,,,
+BibSonomy,,,
+Bibus,,,
+Bookends,,,
+Citavi,,,
+CiteULike,,,
+colwiz,,,
+EndNote,,,
+JabRef,,,
+KBibTeX,,,
+Mendeley,,,
+Paperpile,,,
+Pybliographer,,,
+Qiqqa,,,
+ReadCube (now Papers),,,
+refbase,,,
+RefDB,,,
+Reference Manager,,,
+Referencer,,,
+RefME,,,
+RefWorks,,,
+SciRef,,,
+Sente,,,
+Wikindx,,,
+WizFolio,,,
+Zotero,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

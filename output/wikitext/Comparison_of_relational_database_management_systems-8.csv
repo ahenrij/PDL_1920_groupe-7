@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Type system,Integer,Floating point,Decimal,String,Binary,Date/Time,Boolean,Other
 4th Dimension,Static,"UUID (16-bit), SMALLINT (16-bit), INT (32-bit), BIGINT (64-bit), NUMERIC (64-bit)","REAL, FLOAT","REAL, FLOAT","CLOB, TEXT, VARCHAR","BIT, BIT VARYING, BLOB","DURATION, INTERVAL, TIMESTAMP",BOOLEAN,PICTURE
 Altibase[127],Static,"SMALLINT (16-bit), INTEGER (32-bit), BIGINT (64-bit)","REAL (32-bit), DOUBLE (64-bit)","DECIMAL, NUMERIC, NUMBER, FLOAT","CHAR, VARCHAR, NCHAR, NVARCHAR, CLOB","BLOB, BYTE, NIBBLE, BIT, VARBIT",DATE,,GEOMETRY
@@ -36,3 +37,36 @@ Teradata,Static,"BYTEINT (8-bit), SMALLINT (16-bit), INTEGER (32-bit), BIGINT (6
 UniData,Dynamic,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
 UniVerse,Dynamic,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
 ,Type system,Integer,Floating point,Decimal,String,Binary,Date/Time,Boolean,Other
+=======
+,Native network encryption1,Brute-force protection,Enterprise directory compatibility,Password complexity rules2,Patch access3,Run unprivileged4,Audit,Resource limit,Separation of duties (RBAC)5,Security Certification,Attribute-Based Access Control (ABAC)
+4D,,,,,,,,,,,
+Adaptive Server Enterprise,,,,,,,,,,,
+Advantage Database Server,,,,,,,,,,,
+DB2,,,",,,,,,,,
+Empress Embedded Database,,,,,,,,,,,
+EXASolution,,,,,,,,,,,
+Firebird,,,,,,,,,,,
+HSQLDB,,,,,,,,,,,
+H2,,,,,,,,,,,
+Informix Dynamic Server,,,,,,,,,,,
+Linter SQL RDBMS,,,,,,,,,,,
+MariaDB,,,",,,,,,,,
+Microsoft SQL Server,,,,,,,,,,,
+Microsoft SQL Server Compact (Embedded Database),",,,,,,,,,,
+Mimer SQL,,,,,,,,,,,
+MySQL,,,",,,,,,,,
+OpenBase SQL,,,",,,,,,,,
+OpenLink Virtuoso,,,,,,,,,,,
+Oracle,,,,,,,,,,,
+Pervasive PSQL,,,,,,,,,,,
+Polyhedra DBMS,,,,,,,,,,,
+PostgreSQL,,,",,,,"Limited, with triggers[158]",,,,
+Raima Database Manager,,,,,,,,,,,
+RDM Server,,,,,,,,,,,
+SAP HANA,,,,,,,,,,,
+solidDB,,,,,,,,,,,
+SQL Anywhere,,,,,,,,,,,
+SQLite,",,,,,,,,,,
+Teradata,,,",,,,,,,,
+! Native network encryption1,Brute-force protection,Enterprise directory compatibility,Password complexity rules2,Patch access3,Run unprivileged4,Audit,Resource limit,Separation of duties (RBAC)5,Security Certification,Attribute-Based Access Control (ABAC),
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

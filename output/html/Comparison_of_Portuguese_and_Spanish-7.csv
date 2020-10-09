@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Spanish,Portuguese,English
 lunes (< Lat. di?s l?nae 'Moon's day'),Segunda-feira ( f?ria secuda 'Second weekday'),Monday
 martes (< Lat. di?s martis 'Mars' day'),Terça-feira ( f?ria tertia 'Third weekday'),Tuesday
@@ -6,3 +7,10 @@ jueves (< Lat. di?s iovis 'Jupiter's day'),Quinta-feira ( f?ria quinta 'Fifth we
 "viernes (< Lat. di?s veneris, 'Venus' day')",Sexta-feira ( f?ria sexta 'Sixth weekday'),Friday
 sábado (< Lat. sabbatum 'Sabbath'),,Saturday
 domingo (< Lat. di?s dominica 'Lord's day'),,Sunday
+=======
+Description,Spanish,,Portuguese,
+,Spelling,Pronunciation,Spelling,Pronunciation
+palatal "l",ll,? (~ ?)[134],lh,?
+palatal "n",ñ,?,nh,"? (EP), j? (BP)"
+palatal "y",y,?,i,j
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Graphics,Launch,Market,Processor,Code name,Device ID[3],Core clock (MHz),Core config1,API support[13][32][33][34],,,,Memory bandwidth (GB/s),DVMT (MB),QSV
 ,,,,,,,,Direct3D,OpenGL[24],OpenCL,Vulkan,,,
 HD Graphics,2012,Desktop,Celeron G16x0 Celeron G1610T Pentium G2xx0 Pentium G2xx0T,Ivy Bridge,015A,650–1050,48:6:1[35] (GT1),11.1 FL11_0,4.0Windows 4.1macOS 4.2Linux ES 3.0Linux,1.2,(1.0)Linux,25.6,1720,rowspan=2 
@@ -81,3 +82,31 @@ Iris Pro Graphics 5200,,Desktop,Core i5-4570R,,0D22 0D26 0D2A 0D2B 0D2E,200–1150
 ,,,Core i5-4670R Core i7-4770R,,,200–1300,,,,,,,,
 ,,Mobile,Core i7-4750HQ Core i7-4850HQ,,,200–1200,,,,,,,,
 ,,,Core i7-49xxHQ,,,200–1300,,,,,,,,
+=======
+Name,Year released,Market,Processor,,Device ID,Execution units,Core clock (MHz),Memory,,API support,,Intel Clear Video HD
+,,,Code name,Model,,,,DVMT (MB),Bandwidth (GB/s),Direct3D,OpenGL,
+HD Graphics,2010,Desktop,Ironlake (Clarkdale),Celeron G1101,0042,12,533,1720,17,10.1 FL10_0,2.1 ES 2.0Linux,rowspan="2" 
+,,,,Pentium G69xx,,,,,,,,
+,,,,Core i3-5x0,,,733,,21.3,,,Yes
+,,,,Core i5-6x0,,,,,,,,
+,,,,Core i5-655K,,,,,,,,
+,,,,Core i5-661,,,900,,,,,
+,,Laptop,Ironlake (Arrandale),Celeron U3xxx,0046,,166–500,,12.8,,,rowspan="2" 
+,,,,Pentium U5xxx,,,,,,,,
+,,,,Core i3-3x0UM,,,,,,,,Yes
+,,,,Core i5-5x0UM,,,,,,,,
+,,,,Core i5-2520M,,,,,,,,
+,,,,Core i7-6x0UE,,,,,,,,
+,,,,Core i7-6x0UM,,,,,,,,
+,,,,Core i7-620LE,,,266–566,,17.1,,,
+,,,,Core i7-6x0LM,,,,,,,,
+,,,,Celeron P4xxx,,,500–667,,,,,rowspan="2" 
+,,,,Pentium P6xxx,,,,,,,,
+,,,,Core i3-330E,,,,,,,,Yes
+,,,,Core i3-3x0M,,,,,,,,
+,,,,Core i5-4x0M,,,500–766,,,,,
+,,,,Core i5-520E,,,,,,,,
+,,,,Core i5-5x0M,,,,,,,,
+,,,,Core i7-610E,,,,,,,,
+,,,,Core i7-6x0M,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

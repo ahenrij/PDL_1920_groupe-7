@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Inverse search[5],DDE support[6],Organises Projects,Menu for inserting symbols,Document comparison,Spell-checking,Multiple undo-redo
 AUCTeX,,,,,,,
 Authorea,,,,,,,
@@ -23,3 +24,30 @@ Verbosus,,,,,,,
 WinEdt,,,,,,,
 WinShell,,,,,,,
 ,Inverse search,DDE Support,Organises Projects,Menu for inserting symbols,Document comparison,Spell-checking,Multiple undo-redo
+=======
+Name,Collapsible sections,Find and replace using RegEx,Intelligent error handling,Autocompletion of LaTeX commands,Parenthesis matching,Starts up to previous state[11],Unicode support,RTL Support[12]
+AUCTeX,,,,,,,,
+Authorea,,,,,,,,?
+Auto-Latex Equations for Google Docs,,,,,,,,?
+CoCalc,,,,,,,,?
+GNOME LaTeX,Planned,,,,,(just same files),,
+Gummi,,,,,,,,?
+Kile,Yes[14],,,,,,,
+LEd,,,?,,,,,?
+LyX,,,,,,,,
+MeWa,,,,,,,,?
+Notepad++,,,,,,,,
+Overleaf,,,,,,,,?
+Scientific WorkPlace,,?,?,,,,,?
+TexLab,,,,,,,,
+TeXmacs,,,,,,,,?
+Texmaker,,,,,,,,
+TeXnicCenter,since v2.0,since v2.0,,,,,since v2.0,?
+TeXShop,,,,,,,,?
+TeXstudio,,,,,,,,
+TeXworks,,,,,,,,
+Verbosus,,,,,,,,?
+WinEdt,,,,,,,,
+WinShell,,,,,,,,?
+Name,Collapsible sections,Find and replace using RegEx,Intelligent error handling,Autocompletion of LaTeX commands,Parenthesis matching,Starts up to previous state[18],Unicode support,RTL Support[19]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

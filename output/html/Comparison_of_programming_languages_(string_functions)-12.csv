@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages,Format string syntax
 "associate(file, string); putf(file, $formatstring$, items)",ALGOL 68,ALGOL
 "Format(item, formatstring)",VB,
@@ -29,3 +30,8 @@ put string(string) edit(items)(format),PL/I,PL/I (similar to Fortran)
 format formatstring items,Tcl,C
 formatnumbers ? items or formatstring ?FMT items,APL,APL
 "format!(formatstring, items)",Rust[20],Python
+=======
+Definition,"contains(string,substring) returns boolean"
+Description,"Returns whether string contains substring as a substring. This is equivalent to using Find and then detecting that it does not result in the failure condition listed in the third column of the Find section. However, some languages have a simpler way of expressing this test."
+Related,Find
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

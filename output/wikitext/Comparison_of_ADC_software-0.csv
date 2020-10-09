@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ADC hub,Windows,Linux,OS X,Other
 ADCH++,,,,
 ADCH++ GUI,,,,Any Python enabled platform
@@ -12,3 +13,17 @@ Starlet ADC Hub,,,,OpenVMS
 Starhub,,,,Any Java enabled platform
 RusHub,,,,"FreeBSD, Solaris"
 ADC hub,Windows,Linux,OS X,Other
+=======
+Other software,Windows,Linux,OS X,Other
+ADCCore,,,,Any .NET4 enabled platform
+DCBouncer,,,,
+DC-Hublink,,,,
+DCWatch,,,,
+Embla,,,,Any Java enabled platform
+FlowLib,,,,Any C# enabled platform
+NetChatLink,,,,Runs under Wine
+Announcer Bot,,,,
+Certmanager,,,,
+SerieBot,,,,Any C# enabled platform
+Other software,Windows,Linux,OS X,Other
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

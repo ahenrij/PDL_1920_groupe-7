@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model (Codename),Launch,Architecture (Fab),Transistors Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory[e],,,,TDP (W),Bus interface
 ,,,,Config[f],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width (bit),Size (MiB),Clock (MHz),Band- width (GB/s),Idle Max,
 Radeon HD 8350 (Cedar),"January 8, 2013",TeraScale 2 (40 nm),292×106 59 mm2,80:8:4,400–650,3.2 5.2,1.6 2.6,104,N/A,DDR2 DDR3 64-bit,256 512,400 800,6.4 12.8,6.4 19.1,PCIe 2.1 ×16
@@ -15,3 +16,10 @@ Radeon HD 8970 (Tahiti XT2),"January 8, 2013",,,2048:128:32,1000 1050,128.0 134.
 Radeon HD 8990 (Malta),"April 24, 2013",,2× 4313×106 2× 352 mm2,2× 2048:128:32,950 1000,2× 128,2× 32,7782 8192,1946 2048,GDDR5 384-bit,2× 3072,1500,2× 288,15 375,PCIe 3.0 ×16
 Model (Codename),Launch,Architecture (Fab),Transistors Die Size,Config[f],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width (bit),Size (MiB),Clock (MHz),Band- width (GB/s),Idle Max,Bus interface
 ,,,,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory[e],,,,TDP (W),
+=======
+Model,Launch,Code name,Graphics core,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core clock2 (MHz),Core config1,Fillrate,,,Memory3,,,,,Processing power (GFLOPS),Features / Notes
+,,,,,,,,,,Pixel (GP/s),Texture (GT/s),FP32 (GP/s),Size (MB),Bandwidth (GB/s),Bus type,Effective clock (MHz),Bus width (bit),,
+Radeon HD 4200 Graphics (785G Chipset),Aug 2009,RS880,RV620,55,>205,~73 (~9 × 8.05),HT 3.0,500,40:4:4,2,2,1,Up to 512 system + optional 128 sideport,20.8 (system) + 2.6 (sideport),HT (system) + DDR2-1066 DDR3-1333 (sideport),1333 (sideport),16 (sideport),40,UVD2
+Radeon HD 4250 Graphics (880G Chipset),Mar 2010,RS880,,,,,,560,,2.24,2.24,1.12,,,HT (system) + DDR3-1333 (sideport),,,44.8,
+Radeon HD 4290 Graphics (890GX Chipset),,RS880D,,,,,,700,,2.8,2.8,1.4,Up to 512 system + 128 sideport,,,,,56,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

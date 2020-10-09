@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Max DB size,Max table size,Max row size,Max columns per row,Max Blob/Clob size,Max CHAR size,Max NUMBER size,Min DATE value,Max DATE value,Max column name size
 4th Dimension,Limited,,,"65,135",200 GB (2 GiB Unicode),200 GB (2 GiB Unicode),64 bits,,,
 Advantage Database Server,Unlimited,16 EiB,"65,530 B","65,135 / (10+ AvgFieldNameLength)",4 GiB,,64 bits,,,128
@@ -39,3 +40,51 @@ SQLite,128 TB (231 pages * 64 KB max page size),Limited by file size,Limited by 
 Teradata,Unlimited,Unlimited,64000 wo/lobs (64 GB w/lobs),"2,048",2 GB,"64,000",38 digits,0001-01-01,9999-12-31,128
 UniVerse,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited,Unlimited
 ! Max DB size,Max table size,Max row size,Max columns per row,Max Blob/Clob size,Max CHAR size,Max NUMBER size,Min DATE value,Max DATE value,Max column name size,
+=======
+,Data Domain,Cursor,Trigger,Function 1,Procedure 1,External routine 1
+4th Dimension,,,,,,
+ADABAS,,,,,,
+Adaptive Server Enterprise,,,,,,
+Advantage Database Server,,,,,,
+Altibase,,,,,,
+Apache Derby,,,,,,
+ClustrixDB,,,,,,
+CUBRID,,,,,,
+Empress Embedded Database,,,,,,
+EXASolution,,,,,,
+DB2,,,,,,
+Firebird,,,,,,
+HSQLDB,,,,,,
+H2,,,,,,
+Informix Dynamic Server,,,,,,
+Ingres,,,,,,
+InterBase,,,,,,
+Linter SQL RDBMS,,,,,,
+LucidDB,,,,,,
+MariaDB,,,,,,
+MaxDB,,,,,,
+Microsoft Access (JET),,,,,"Yes, But single DML/DDL Operation",
+Microsoft Visual Foxpro,,,,,,
+Microsoft SQL Server,,,,,,
+Microsoft SQL Server Compact (Embedded Database),,,,,,
+Mimer SQL,,,,,,
+MonetDB,,,,,,
+MySQL,,,,,,
+OpenBase SQL,,,,,,
+Oracle,,,,,,
+Oracle Rdb,,,,,,
+OpenLink Virtuoso,,,,,,
+Pervasive PSQL,,,,,,
+Polyhedra DBMS,,,,,,
+PostgreSQL,,,,,,
+Raima Database Manager,,,,,,
+RDM Server,,,,,,
+SAP HANA,,,,,,
+solidDB,,,,,,
+SQL Anywhere,,,,,,
+SQLite,,,,,,
+Teradata,,,,,,
+UniData,,,,,,
+UniVerse,,,,,,
+,Data Domain,Cursor,Trigger,Function 1,Procedure 1,External routine 1
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

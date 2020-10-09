@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,License,Platform,Details
 Cerberus FTP Server,,Windows only,"FTP, FTPS, SFTP, SCP, HTTPS web client, IPv6, SOAP-based web services API, Windows Active Directory / LDAP authentication, HTTP / HTTPS remote administration, public key and client certificate authentication"
 CompleteFTP,trialware,Windows only,"FTP, FTPS, SFTP, SCP, HTTP, HTTPS, Windows Active Directory authentication, SQL authentication, SAML Single Sign-On authentication, groups, virtual file-system, process/e-mail events, data at rest encryption, protocol conversion for back-end servers, SSH tunnelling, file-sharing (via client app), web-app hosting via server-side Javascript, remote administration, public key and client certificate authentication, Plugin API (.NET/Javascript), fail-over, load-balancing, dockable dashboard"
@@ -6,3 +7,31 @@ FileZilla Server,"open source, free software",Windows only,"FTP, FTPS, supports 
 Microsoft Internet Information Services,,Windows only,"FTP, FTPS, WebDAV and WebDAV over SSL (FTPS is supported in IIS 7 and later)"
 Sysax Multi Server,"proprietary, Free Personal Edition",Windows (All Editions),"Secure FTP Server that also supports Secure Shell Access and Web browser based secure file transfer. Protocols supported include FTP, FTPS, SFTP, HTTP, HTTPS, Telnet, and Secure Shell. Features include web UI administration, server event triggers and scripting, and authentication using Windows, ODBC, or Active Directory. Certified for Windows Vista."
 War FTP Daemon,"open source, free software",Windows 9X/2000/XP/2003,One of the original FTP servers made for the windows platform and still available.
+=======
+,,CrushFTP,ProFTPD,Pure-FTPd,vsftpd,Wu-ftp
+,License type,proprietary,FLOSS/GPL,BSD,FLOSS/GPL2,proprietary
+OS,Linux,,,,,
+,Mac OS X,,,,,
+,Unix,,,,,
+,Windows,,,?,,?
+User Interface,CLI,,,?,?,?
+,GUI integrated,,,?,?,?
+,GUI(s) separately,,,?,?,?
+,Web-based GUI,,?,?,?,?
+Services,FTP,,,,,
+,SFTP,,,,,
+,FTPS,,,,,?
+,SCP,,?,?,,?
+,WebDAV,,?,?,,?
+,HTTP/HTTPS,,?,?,,?
+,AS2,,?,?,?,?
+Authentication,LDAP,,,,?,?
+,Active Directory,,?,?,?,?
+,Local,,,,,
+,Database,,,,,?
+High Availability,Failover Cluster (active/passive),,?,?,?,?
+,Load Balancing (active/active),,?,?,?,?
+Automation,Event-handling,,,?,?,?
+,Scripting,,,?,?,?
+,,CrushFTP,ProFTPD,Pure-FTPd,vsftpd,Wu-ftp
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

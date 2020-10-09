@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,RTF,HTML,Word .doc,OOXML .docx,Other
 CorelDRAW,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,"PSD, AI, SWF, WPD"
 Fatpaint,No,No,No,No,No,No,No,No,"JPG, PNG"
@@ -17,3 +18,24 @@ Scribus,Yes,Yes,Yes,Yes,No,Yes,Yes,No,List
 The Print Shop,No,No,No,No,No,No,No,No,No
 Ventura*,Yes,Yes,No,No,Yes,No,Yes,No,"PSD, AI, WPD"
 Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,RTF,HTML,Word .doc,OOXML .docx,Other
+=======
+Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,HTML,Other
+CorelDRAW,Yes,Yes,Yes,No,Yes,"PSD, AI, SWF, WPD"
+Fatpaint,No,No,No,No,No,"JPG, PNG"
+Flare,Yes,No,No,No,Yes,"DOC, EPUB, HTML5"
+FrameMaker,Yes,Yes,No,No,Yes,"DOC, WPD"
+InDesign,Yes,Yes,No,No,Yes,"EPUB, SWF, XML, RTF"
+InPage,No,Yes,No,No,No,GIF
+iStudio Publisher,Yes,No,No,No,No,"EPUB, RTF"
+LyX,Yes,No,No,Yes,Yes,"PS, ODF"
+Microsoft Publisher,Yes,No,No,No,Yes,"JPG, PNG, TIFF"
+OpenOffice.org,Yes,Yes,Yes,No,Yes,RTF
+PageMaker*,with Distiller,Yes,No,No,No,No
+PagePlus,Yes,Yes,No,No,Yes,No
+Pages,Yes,No,No,No,Yes,"EPUB, RTF"
+QuarkXPress,Yes,Yes,No,No,Yes,"EPUB, Kindle, iOS, HTML5"
+Scribus,Yes,Yes,Yes,Yes,Yes,List
+The Print Shop,Yes,No,No,No,No,No
+Ventura*,Yes,Yes,No,No,No,"RTF, PSD, AI, WPD"
+Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,HTML,Other
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Object orientation,Java,C#
 Classes,mandatory,mandatory
 Interfaces,Yes,Yes
@@ -17,3 +18,15 @@ Operator overloading,No,Yes
 Indexers,No,Yes
 Implicit conversions,No; but see autoboxing,Yes
 Explicit conversions,Yes,Yes
+=======
+Generics,Java,C#
+Implementation,Type erasure,Reification
+Runtime realization,No,Yes
+Type variance,Use-site,Declaration-site (only on interfaces)
+Reference type constraint,Yes; implicit,Yes
+Value/primitive type constraint,No,Yes
+Constructor constraint,No,Yes (only for parameterless constructor)
+Subtype constraint,Yes,Yes
+Supertype constraint,Yes,No
+Migration compatibility,Yes,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

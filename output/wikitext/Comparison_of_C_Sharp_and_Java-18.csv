@@ -1,3 +1,13 @@
+<<<<<<< HEAD
 Exceptions,Java,C#
 Checked exceptions,,
 Try-catch-finally,,
+=======
+Threading and Synchronization,Java,C#
+Threads,,
+Thread pool,,
+Task-based parallelism,,
+Semaphores,,
+Monitors,,
+Thread-local variables,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

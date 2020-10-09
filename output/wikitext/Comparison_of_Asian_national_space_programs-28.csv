@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 No.,Country,Spacecraft,Year,Type
 TBD,Japan,Mercury Magnetospheric Orbiter,2018 (en route),Orbiter
+=======
+Country,Uncrewed rendezvous,,crewed rendezvous,
+,Spacecraft involved,Year,Spacecraft involved,Year
+,ETS-VII,1997,,
+,Shenzhou 8 & Tiangong 1,2011,Shenzhou 9 & Tiangong 1,2012
+,SPADEX,2020 (Planned),,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

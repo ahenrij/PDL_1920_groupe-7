@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Users,Projects,Alexa rank (lower = more popular)
 Assembla,,526581+[46],35454 20200728lc=y[47]
 Bitbucket,5000000[48],,1341 20200728lc=y[49]
@@ -15,3 +16,29 @@ Rosetta code,,,66029 20200728lc=y[68]
 SEUL,,,1602812 20200728lc=y[69]
 SourceForge,3700000[70],500000[70],470 20200728lc=y[71]
 Name,Users,Projects,Alexa rank (lower = more popular)
+=======
+Name,CVS,Git,Hg,SVN,BZR,TFVC,Arch,Perforce,Fossil
+Assembla,,,,,,,,,
+Azure DevOps Services,,,,,,,,,
+Bitbucket,,,Until Feb 2020name=BitBucSer,,,,,,
+Buddy,,,,,,,,,
+CloudForge,,,,,,,,,
+GForge,,,,,,,,,
+Gitea,,,,,,,,,
+GitHub,,,,,,,,,
+GitLab,,,,,,,,,
+GNU Savannah,,,,,,,,,
+java.net,,,,,,,,,
+Kallithea,,,,,,,,,
+Launchpad,Import only,,Import only[42],Import only,,,,,
+OSDN,,,,,,,,,
+Ourproject.org,,,,,,,,,
+OW2 Consortium,,,,,,,,,
+Helix TeamHub,,,,,,,,,
+Phabricator,,,,,,,,,
+RhodeCode,,,,,,,,,
+SEUL.org,,,,,,,,,
+SourceForge,,,,,,,,,
+Sourcehut,,,,,,,,,
+Name,CVS,Git,Hg,SVN,BZR,TFVC,Arch,Perforce,Fossil
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Implementation,Secure Renegotiation [173],Server Name Indication [174],ALPN [175],Certificate Status Request [174],OpenPGP [176],Supplemental Data [177],Session Ticket [178],Keying Material Exporter [179],Maximum Fragment Length [174],Truncated HMAC [174],Encrypt-then-MAC [180],TLS Fallback SCSV [181],Extended Master Secret [182],ClientHello Padding [183],Raw Public Keys [184]
 Botan,Yes,Yes,Yes[185],No,No,No,Yes,Yes,Yes,No,Yes,Yes[186],Yes[187],No,Unknown
 cryptlib,Yes,Yes,No,No,No,Yes,No,No,No[188],No,Yes,Yes,Yes,No,Unknown
@@ -19,3 +20,23 @@ Secure Transport,Yes,Yes,Unknown,No,No,Yes,No,No,No,No,No,No,No,No,Unknown
 wolfSSL,Yes,Yes,Yes[150],Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,No,Unknown
 Erlang/OTP SSL application,Yes,Yes,Yes,No,No,No,No,No,No,No,No,Yes,No,No,Unknown
 Implementation,Secure Renegotiation,Server Name Indication,ALPN,Certificate Status Request,OpenPGP,Supplemental Data,Session Ticket,Keying Material Exporter,Maximum Fragment Length,Truncated HMAC,Encrypt-then-MAC,TLS Fallback SCSV,Extended Master Secret,ClientHello Padding,Raw Public Keys
+=======
+Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT[82],GOST R 34.11-94[82]
+Botan,No,Yes,Yes,Yes,No,No
+cryptlib,Yes,Yes,Yes,Yes,No,No
+GnuTLS,Yes,Yes,Yes,Yes,No,No
+JSSE,Yes,Yes,Yes,Yes,No[83],No[83]
+LibreSSL,Yes,Yes,Yes,Yes,Yes[84],Yes[84]
+MatrixSSL,Yes,Yes,Yes,Yes,No,No
+Mbed TLS,Yes,Yes,Yes,Yes,No,No
+NSS,Yes,Yes,Yes,Yes,No[86][87],No[86][87]
+OpenSSL,Yes,Yes,Yes,Yes,Yes[88],Yes[88]
+RSA BSAFE,Yes,Yes,Yes,Yes,No,No
+"SChannel XP/2003, Vista/2008",Yes,Yes,"XP SP3, 2003 SP2 via hotfix[171]",No,No[89],No[89]
+"SChannel 7/2008R2, 8/2012, 8.1/2012R2",Yes,Yes,Yes,except ECDHE_RSA[91][92][93],No[89],No[89]
+SChannel 10,Yes,Yes,Yes,Yes[142],No[89],No[89]
+Secure Transport,Yes,Yes,Yes,Yes,No,No
+wolfSSL,Yes,Yes,Yes,Yes,No,No
+Erlang/OTP SSL application,Yes,Yes,Yes,Yes,No,No
+Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT,GOST R 34.11-94
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

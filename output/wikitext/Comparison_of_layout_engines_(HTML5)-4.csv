@@ -1,4 +1,5 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Basic table elements,,,,,
 table,rowspan="5" 4.0,rowspan="5" 1.0,rowspan="5" ,rowspan="5" ,rowspan="5" 1.0
 caption,,,,,
@@ -12,3 +13,7 @@ tfoot,,,,,
 Column groups,,,,,
 colgroup,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
 col,,,,,
+=======
+<link rel="style" … />,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+style,6.0Internet Explorer 9 (trident 5.0) and earlier is limited to 31 <style> elements.[4][5]group=note,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

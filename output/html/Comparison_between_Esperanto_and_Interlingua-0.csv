@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Esperanto,Interlingua,Interlingua (Latin-like word order),Latin,English (traditional)
 "Patro Nia, kiu estas en la ?ielo,","Patre nostre, qui es in le celos,","Patre nostre, qui es in celos,","Pater noster, qui es in cælis,","Our Father, who art in heaven,"
 via nomo estu sanktigita.,que tu nomine sia sanctificate;,sanctifica nomine tue.,sanctificetur nomen tuum.,hallowed be thy name;
@@ -10,3 +11,18 @@ kiel anka? ni pardonas al niaj ?uldantoj.,como etiam nos los pardona a nostre de
 "Kaj ne konduku nin en tenton,","E non induce nos in tentation,","E non induce nos in tentation,","Et ne nos inducas in tentationem,","And lead us not into temptation,"
 sed liberigu nin de la malbono.,sed libera nos del mal.,sed libera nos a mal.,sed libera nos a malo.,but deliver us from evil.
 Amen.,Amen.,Amen.,Amen.,Amen.
+=======
+Aspect,Esperanto,Interlingua
+Type,schematic; designed to be easy to learn,naturalistic; designed to be easy to understand to as many people as possible
+Alphabet,"uses diacritics (?, ?, ?, ?, ?, ?)",does not use diacritics
+Orthography,invariable letter-to-phoneme correspondence,"letters c, h, g, q, t, and w are variable"
+Vocabulary sources,mostly Romance and Germanic languages,"primary control languages: English, French, Italian, Spanish and Portuguese"
+Gender,masculine by default; feminine optional,only for third-person pronouns
+Antonyms,formed by mal- prefix,"dis- for verbs and words derived from verbs, in- for adjectives and words derived from adjectives in addition, certain roots can be prefixed, e.g. mal"
+Infinitive suffix,-i (invariable),"-ar, -er, or -ir"
+Imperative,-u suffix,same as indicative
+Plural noun,-oj (agglutinative),-s (after vowels) -es (after consonants)
+Adjectives,agree with nouns,no declension
+Accusative form,"mandatory, -n",only for personal pronouns
+No of speakers,"c. 100,000–2,000,000","c. 1,500"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

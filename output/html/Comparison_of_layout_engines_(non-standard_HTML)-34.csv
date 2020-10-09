@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko,WebKit,Presto[p 32]
 Error state,,,,
 MediaError,5.0 [t 43],1.9.1,?,2.5
@@ -30,3 +31,14 @@ Controls,,,,
 controls,5.0[t 1],1.9.1,?,2.5
 volume,,,,
 muted,,,,
+=======
+Value,Meaning
+Yes,Fully supported
+No,Has never been supported
+Partial,Only some values are supported
+Incorrect,Not implemented correctly in all cases
+Experimental,May be incomplete or buggy
+Nightly build,Currently in development; full support is expected
+Depends,Only supported for the specified conditions
+Dropped,No longer supported
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

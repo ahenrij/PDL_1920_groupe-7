@@ -1,4 +1,5 @@
 IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
+<<<<<<< HEAD
 BlueJ,GPL2+GNU linking exception,,,,,Solaris,
 DrJava,Permissive,,,,,Solaris,
 Eclipse JDT,EPL,,,,,"FreeBSD, JVM, Solaris",
@@ -16,3 +17,9 @@ Servoy,,,,,,Solaris,
 SlickEdit,,,,,,"Solaris, Solaris SPARC, AIX, HP-UX",
 Understand,,,,,,Solaris,
 Xcode (Apple),,,,,,,
+=======
+Eclipse JDT,EPL,,,,,"FreeBSD, JVM, Solaris",
+IntelliJ IDEA,"ASLv2, proprietary",,,,,"FreeBSD, OpenBSD, Solaris",
+NetBeans,"CDDL, GPL2",,,,,"OpenBSD, Solaris",
+SlickEdit,,,,,,"Solaris, Solaris SPARC, AIX, HP-UX",
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

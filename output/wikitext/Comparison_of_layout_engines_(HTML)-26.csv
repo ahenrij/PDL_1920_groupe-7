@@ -1,4 +1,5 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Unordered and ordered lists,,,,,
 ul,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
 ol,,,,,
@@ -7,3 +8,11 @@ Definition lists,,,,,
 dl,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
 dt,,,,,
 dd,,,,,
+=======
+Frame layout,,,,,
+frameset,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+frame,,,,,
+noframes,,,,,
+Inline frames,,,,,
+iframe,4.0,1.0,,,1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

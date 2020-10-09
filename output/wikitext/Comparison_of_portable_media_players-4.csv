@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Manufacturer,Release,Size,Type,Capacity (GB)[1],Storage,External,Dimensions (mm × mm),Depth (mm),Weight (g),Firmware
 Archos 105,Archos,2007-08-31[2],,DAP,0002 2,Flash,SDHC[3],85 × 45,7,50[4],1.6.07[5]
 Archos 405,Archos,2007-09-01[6],Mini,PMP,0002 2,Flash,SDHC[3],99.6 × 78,13.2,119.07,1.8.03[7][8]
@@ -38,3 +39,30 @@ Zune 120,Microsoft,2008-09-16,Mid,PMP,0120 120,HDD,,4.26×2.41inmmabbr=ondisp=out
 Zune HD,Microsoft,2009-09-15,Mini,PMP,0064 16/32/64,Flash,,4.08×2.07inmmabbr=ondisp=output number only,0.35inmmdisp=output number only,2.6ozgdisp=output number only,4.5
 Zvue 260,Zvue,2007-07-17[52],,DAP,0000 None,HDD,SDHC[3],4.16×2.56inmmabbr=ondisp=output number only,0.5inmmdisp=output number only,4.2ozgdisp=output number only,2.80 I_071012[53]
 Name,Manufacturer,Release,Size,Type,Capacity (GB)[1],Storage,External,Dimensions (mm × mm),Depth (mm),Weight (g),Firmware
+=======
+Name,MP3,FairPlay,ALAC,AAC,WMA-DRM,WMA Lossless,WMA,WAV,Audible,Ogg Vorbis,FLAC,Others
+Archos 105,,,,,,,,,,,,
+Archos 405,,,,,,,,,,,,
+Archos 5,,,,,,,,,,,,
+Archos 605 WiFi / GPS,,,,,,,,,,,,
+Archos 705 WiFi,,,,,,,,,,,,
+Cowon A3,,,,,,,,,,,,"APE, MPC, PCM, TTA, WV"
+Cowon D2,,,,,,,,,,,,APE
+Cowon Q5W,,,,,,,,,,,,"APE, MPC"
+Gigabeat T-Series,,,,,,,,,,,,
+GP2X F-200,,,,,,,,,,,,"
+iPod,,,,,,,,,,,,AIFF
+iriver clix 2G,,,,,,,,,,,,
+PSP Slim & Lite,,,,,,,,,,,,ATRAC
+Samsung Galaxy Player,,,,,,,,,,,,
+Samsung T10,,,,,,,,,,,,
+Samsung P2,,,,,,,,,,,,
+Sansa Fuze,,,,,,,,,,,,
+Sansa Fuze+,,,,,,,,,,,,
+Walkman NWZ-A810 series,,,,,,,,,,,,
+ZEN,,,,,,,,,,,,
+ZEN Vision W,,,,,,,,,,,,
+Zune,,,,,,,,,,,,WMA Pro Stereo
+ZVUE 260,,,,,,,,,,,,MP2
+! MP3,AAC-DRM,ALAC,AAC,WMA-DRM,WMA Lossless,WMA,WAV,Audible,Ogg Vorbis,FLAC,Others,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

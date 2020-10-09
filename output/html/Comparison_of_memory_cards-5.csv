@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Card,Width (mm),Length (mm),Thickness (mm),Volume (mm³),Mass (g)[6]
 "CompactFlash, Type I",43.0,36.0,3.3,"5,108",3.3
 "CompactFlash, Type II",43.0,36.0,5.0,"7,740",
@@ -15,3 +16,35 @@ PS Vita Memory Card,15,12.5,1.6,300,0.6[4]
 XQD card,38.5,29.8,3.8,"4,360",
 xD,25.0,20.0,1.78,890,2.8
 USB,varies,varies,varies,varies,varies
+=======
+Card Slot,CF,,CFast,SM,MMC,,Memory Stick,,,,SDSC,,,SDHC,,,SDXC,,xD,,,XQD
+,I,II,,,MMC,"RS-MMC, MMCmobile",Std,PRO,PRO Duo,Micro,SDSC,miniSD,microSD,SDHC,miniSDHC,microSDHC,SDXC,microSDXC,Std,M,H,
+ExpressCard,E[35],E[35],,,E[36],,E[37],E[37],E[36],,E[36],E[36],E[38],,,,,,E[36],E[36],E[36],EM
+PCI Express Mini Card,,,,,,,,,,,,,,,,,,,,,,EM
+mSATA,,,XM,,,,,,,,,,,,,,,,,,,
+PC Card,EM[39],EM[39],,E[40],E[41],,E[41],E[41],,,E[41],,,,,,,,,,,
+PCMCIA,EM[39],EM[39],,E[40],E[41],,E[41],E[41],,,E[41],,,,,,,,,,,
+CF I,+,+,,E,E[42],,E[43],E[43],E[44],,E[42],,,,,,,,E[45],E[45],E[45],
+CF II,,+,,E,E[42],,E[43],E[43],,,E[42],,,,,,,,E[45],E[45],E[45],
+CFast,,,+,,,,,,,,,,,,,,,,,,,
+SM,,,,+,,,,,,,,,,,,,,,X[46],X[46],X[46],
+xD,,,,,,,,,,,,,E[47],,,,,,+,+,+,
+XQD,,,,,,,,,,,,,,,,,,,,,,+
+MMC,,,,,+,M,,,,,D[48],,,,,,,,,,,
+MS,,,,,X[49],,+,+,M,M,X[49],X[49],E[50],,,,,,,,,
+SDSC,,,,,D,M,,,,,+,EM,EM,,,,,,,,,
+miniSD,,,,,,,,,,,,+,EM,,,,,,,,,
+microSD,,,,,,,,,,,,,+,,,,,,,,,
+SDHC,,,,,,,,,,,D[51],EM,EM,+,EM,EM,,,,,,
+miniSDHC,,,,,,,,,,,,D[51],EM,,+,EM,,,,,,
+microSDHC,,,,,,,,,,,,,D[51],,,+,,,,,,
+SDXC,,uscb,,,,,,,,,D[52],EM,EM,D[52],EM,EM,+,EM,,,,
+microSDXC,,,,,,,,,,,,,D[52],,,D[52],,+,,,,
+IDE PATA,EM[53],EM[53],,,,,,,,,E[54][55],,,,,,,,,,,
+Serial ATA,E[56],E[56],EM,,,,,,,,,,,,,,,,,,,
+PCI Express,,,,,,,,,,,,,,,,,,,,,,EM
+USB,X[57],X[57],,X[57],X[57],,X[57],X[57],E[58],E[58],E[59],,E[60],,,,,,X[57],X[57],X[57],X
+Floppy,,,,E[61],E,E + M,E,E,,,,,,,,,,,,,,
+Nintendo DS Slot-1,,,,,,,,,,,,,E[62],,,,,,,,,
+Nintendo DS Slot-2,,,,,,,,,,,E[63],E[63],E[63],,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

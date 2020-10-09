@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko[101],WebKit[102],Presto[103]
 Attributes,,,,
 autocomplete,3.1,,,rowspan="3" 2.0
@@ -41,3 +42,12 @@ number,6.0[177],29.0[178],528[169],
 range,6.0[179],23.0[180],,
 color,,29.0[181],,2.7[113]
 ! Trident,Gecko,WebKit,Presto,
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Frame layout,,,,,
+frameset,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+frame,,,,,
+noframes,,,,,
+Inline frames,,,,,
+iframe,4.0,1.0,,,1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 GIS software,Free software,Open source,Windows,Mac OS X,Linux,BSD,Unix,Web,Other
 ArcGIS,Viewer(s),No,Yes,Yes,No,No,Yes,Yes,"Google Earth Plugin, KML, WMS"
 Autodesk,Viewer(s),No,Yes,No,Yes,No,No,Yes,No
@@ -39,3 +40,13 @@ TNTmips,Viewer(s),No,Yes,Yes,Yes,No,Yes,No,No
 TransModeler Caliper Software,No,No,Yes,No,No,No,No,No,No
 uDIG,Yes,Yes,Java,Java,Java,Java,Java,No,No
 GIS software,Free software,Open source,Windows,Mac OS X,Linux,BSD,Unix,Web,Other
+=======
+Name,Language,WMS,WFS,WFS-T,WCS,WMC,SLD,FES,Other
+ArcGIS Server,.NET/Java,Yes,Yes,Yes,Yes,No,Yes,No,"SOAP, REST, KML"
+MapServer,C,Yes,Yes,No,Yes,Yes,Yes,Yes,
+Deegree,Java,Yes,Yes,Yes,Yes,No,Yes,Yes,
+GeoServer,Java,Yes,Yes,Yes,Yes,Yes,Yes,Yes,
+MapDotNet,C#/.NET,Yes,No,No,No,No,No,No,SOAP and REST feature and map services
+Manifold System,ASP C#,Yes,Yes,No,No,No,No,No,client and server
+GeoMedia WebMap,ASP C#,Yes,Yes,Yes,Yes,No,?,No,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

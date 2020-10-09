@@ -1,4 +1,5 @@
 English,Malaysian,Indonesian
+<<<<<<< HEAD
 queue (line),zsmbarisan (means line "formation" in Indonesian),"idantre, idantri"
 rabbit,zsmarnab (from Arabic),idkelinci (from Dutch nlkonijn)
 Random-Access Memory (RAM),zsmIngatan Capaian Rawak,idMemori Akses Acak
@@ -31,3 +32,10 @@ routing,zsmpenghalaan,idpenghalaan
 royal,zsmdiraja,idkerajaan (in Malaysia and Brunei means "kingdom" or "government")
 rubber,"zsmgetah may also mean gum or sap or resin in both languages, also figure of speech for "cause of bad deed"",idkaret
 rumour,"zsmkhabar angin, zsmdesas-desus","idrumor, iddesas-desus, idkabar angin, idkabar burung"
+=======
+you,"zsmanda (very formal), zsmawak, zsmkamu, zsmengkau, zsmkau","idanda (everyday formal), idkamu (familiar only), idengkau ('kau) (prose)"
+zero,zsmsifar,idnol from Dutch nlnul
+zipper (fastener),zsmzip,idresleting from Dutch nlritssluiting
+zone,zsmzon,"iddaerah, idzona"
+zoo,"zsmzoo, zsmtaman haiwan (zsmkebun binatang was also frequently used in Malaysia before the mid-1960s)","idkebun binatang (derived from Dutch nldierentuin, idtaman margasatwa (more formal form for zoological park)"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

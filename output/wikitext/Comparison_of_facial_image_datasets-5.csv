@@ -1,6 +1,14 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Poker Hand Dataset,5 card hands from a standard 52 card deck.,"Attributes of each hand are given, including the Poker hands formed by the cards it contains.","1,025,010",Text,"Regression, classification",2007,[460],R. Cattral
 Connect-4 Dataset,"Contains all legal 8-ply positions in the game of connect-4 in which neither player has won yet, and in which the next move is not forced.",None.,"67,557",Text,Classification,1995,[461],J. Tromp
 Chess (King-Rook vs. King) Dataset,Endgame Database for White King and Rook against Black King.,None.,"28,056",Text,Classification,1994,[462][463],M. Bain et al.
 Chess (King-Rook vs. King-Pawn) Dataset,King+Rook versus King+Pawn on a7.,None.,3196,Text,Classification,1989,[464],R. Holte
 Tic-Tac-Toe Endgame Dataset,Binary classification for win conditions in tic-tac-toe.,None.,958,Text,Classification,1991,[465],D. Aha
+=======
+Enron Email Dataset,Emails from employees at Enron organized into folders.,"Attachments removed, invalid email addresses converted to user@enron.com or no_address@enron.com.","~ 500,000",Text,"Network analysis, sentiment analysis",2004 (2015),[180][181],"Klimt, B. and Y. Yang"
+Ling-Spam Dataset,Corpus containing both legitimate and spam emails.,Four version of the corpus involving whether or not a lemmatiser or stop-list was enabled.,"2,412 Ham 481 Spam",Text,Classification,2000,[182][183],"Androutsopoulos, J. et al."
+SMS Spam Collection Dataset,Collected SMS spam messages.,None.,"5,574",Text,Classification,2011,[184][185],T. Almeida et al.
+Twenty Newsgroups Dataset,Messages from 20 different newsgroups.,None.,"20,000",Text,Natural language processing,1999,[186],T. Mitchell et al.
+Spambase Dataset,Spam emails.,Many text features extracted.,"4,601",Text,"Spam detection, classification",1999,[187],M. Hopkins et al.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

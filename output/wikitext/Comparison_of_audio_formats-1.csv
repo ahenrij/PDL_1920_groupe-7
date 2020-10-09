@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Audio compression format,Creator,First public release date,Latest stable version,Cost,,Proprietary implementations (codecs),Open-source implementations (codecs),Uses (other than consumer audio),Music reproduction (consumer audio),Telephony app,Lossless audio compression,Patented,DRM
 ,,,,Encoder,Player,,,,,,,,
 AAC,ISO/IEC MPEG Audio Committee,1997,ISO/IEC 14496-3,colspan="2" ,"FAAC (encoding only), Nero Digital Audio, Apple CoreAudio (via QuickTime, iTunes or afconvert[2])"," FAAD2 (decoding only), FFmpeg, Audiocogs[3] (decoding only), Fraunhofer FDK AAC","Digital TV service, Digital Radio, Internet streaming",,AAC-LD/AAC-ELD,MPEG-4 SLS,Yes,"FairPlay (.m4p only, discontinued)",
@@ -48,3 +49,45 @@ WavPack,Conifer Software,1998,5.3.0 (2020-04-14),,,,"WavPack,[40] FFmpeg",Music 
 Windows Media Audio,Microsoft,1999,11.0,Free for consumer licensees of the Windows operating system date=February 2019,Free for licensees of the Windows operating system[41],"Windows Media Player, Windows Media Encoder","FFmpeg (decoding only for Pro, Lossless and Voice)",internet streaming,,,,Yes,Optional[42]
 Audio compression format,Creator,First public release date,Latest stable version,Encoder,Player,Proprietary implementations (codecs),Open-source implementations (codecs),Uses (other than consumer audio),Music reproduction (consumer audio),Telephony app,Lossless audio compression,Patented,DRM
 ,,,,cost,,,,,,,,,
+=======
+Audio compression format,ACM,DirectShow,QuickTime,GStreamer,FFmpeg,Media Foundation
+8SVX,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+AAC,Yes,"Yes (ffdshow, Monogram[47])",,Yes (GStreamer FFmpeg plug-in),,
+AC3,Yes,Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,
+ALS,,,,,,
+AMR,,,,Yes (GStreamer Ugly Plug-ins),,
+ALAC,Yes,Yes (ffdshow),,Yes (GStreamer FFmpeg plug-in),,
+aptX,,,,,,
+ATRAC3,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+ATRAC3plus,,,,,,Yes (ffdshow)
+CELT,,,,,,
+Cook Codec,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+DCA aka DTS,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+DTS-HD,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+E-AC-3,Yes,Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,
+FLAC,yes,Yes (ffdshow),Yes (Perian),"Yes (GStreamer Base Plug-ins, GStreamer FFmpeg plug-in)",,
+HE-AAC,,,,,,
+Monkey's Audio,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+WavPack,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+Shorten,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+Sonic Audio,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+MP3,,,,"Yes (GStreamer Ugly, GStreamer FFmpeg plug-in)",,
+RealAudio,Yes (ffdshow),Yes (ffdshow),Yes (Perian),"Yes (GStreamer FFmpeg plug-in, GStreamer DLL loader plugin + Binary Codec Packages)",,Yes (ffdshow)
+Speex,Yes (ffdshow),Yes (ffdshow),Yes (Perian),"Yes (GStramer Good Plug-ins, GStreamer FFmpeg plug-in)",,Yes (ffdshow)
+Vorbis,Yes (ffdshow),Yes (ffdshow),Yes (Perian),"Yes (GStreamer Base Plug-ins, GStreamer FFmpeg plug-in)",,Yes (ffdshow)
+La ???,,,,,,Yes (ffdshow)
+LPAC,,,,,,Yes (ffdshow)
+Windows Media Audio v1,,,Yes (Perian),Yes (GStreamer FFmpeg plug-in),,
+Windows Media Audio v2,,,Yes (Perian),Yes (GStreamer FFmpeg plug-in),,
+Windows Media Audio Pro,,,Yes (Perian),Yes (GStreamer FFmpeg plug-in),,
+Windows Media Audio Lossless,,,Yes (flip4mac),Yes (GStreamer FFmpeg plug-in),,
+Windows Media Audio Voice,,,,,,
+Musepack,Yes (ffdshow),"Yes (ffdshow, Monogram[47])",Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+Meridian Lossless Packing,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+Nellymoser Asao Codec in Flash,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+OptimFROG,,,,,,Yes (ffdshow)
+Truespeech,,,Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+True Audio (TTA),Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+QCELP,Yes (ffdshow),Yes (ffdshow),,Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
+Audio compression format,ACM,DirectShow,QuickTime,GStreamer,FFmpeg,Media Foundation
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

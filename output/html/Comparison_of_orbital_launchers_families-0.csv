@@ -32,7 +32,11 @@ Energia,USSR,NPO Energia,"100,000","20,000","32,000",240 (Energia?Buran),2,2,1,1
 Epsilon,JPN,IHI Corporation,"1,200",--,--,--,4[g],4,4,4,Active,2013,,,[50][51]
 Eris,AUS,Gilmour Space Technologies,305,--,--,--,0,,,,Devel.,2022,,,[52]
 Falcon 1,USA,SpaceX,420[53],--,--,7.9[53],5[54],4[53],2[53],2[54],Retired[53],2006,2009,,
+<<<<<<< HEAD
 "Falcon 9 v1.0, v1.1, FT, Block 5",USA,SpaceX,"22,800","8,300",--,61.2,94[h],93,93,92,Active,2010,,"Upgrade to version 1.1 in 2013; upgrade to version FT in 2015 Launcher of Dragon capsule. One flight put primary but not secondary payload into correct orbit,[55] one rocket and payload were destroyed before launch in preparation for static fire[56] and thus is not counted.",[57][58]
+=======
+"Falcon 9 v1.0, v1.1, FT, Block 5",USA,SpaceX,"22,800","8,300",--,61.2,93[h],92,92,91,Active,2010,,"Upgrade to version 1.1 in 2013; upgrade to version FT in 2015 Launcher of Dragon capsule. One flight put primary but not secondary payload into correct orbit,[55] one rocket and payload were destroyed before launch in preparation for static fire[56] and thus is not counted.",[57][58]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 Falcon Heavy,USA,SpaceX,"63,800","26,700",--,90–150,3[i],3,3,3,Active,2018,,First test launch 2018-02-06,[59][60][61]
 GSLV Mark I,IND,ISRO,"5,000","2,500",--,--,6,4,2,2,Retired,2001,2010,,[62][63][64]
 GSLV Mark II,IND,ISRO,"5,000","2,700",--,--,7[j],6,6,6,Active,2010,,,[62][63][64]
@@ -69,9 +73,16 @@ Naro,ROK,Khrunichev KARI,100,--,--,--,3,2,1,1,Retired,2009,2013,First stage uses
 New Glenn,USA,Blue Origin,"45,000","13,000",--,,0,,,,Devel.,2021/2022,,,[100]
 New Line,CHN,LinkSpace,200 (SSO),--,--,,0,,,,Devel.,2020,,,[101]
 Nuri,ROK,KARI,"1,500",--,--,,0,,,,Devel.,2021,,,[102]
+<<<<<<< HEAD
 OS-M,CHN,OneSpace,205 (M1),--,--,--,1,0,0,0,Active,2019,,"Var.: M1, M2, M4. Single M1 failed launch; M2 & M4 in development.",[103]
 Pegasus,USA,Orbital ATK,450,--,--,--,44[ad],43,41,39,Active,1990,,,[104]
 Prime,UK,Orbex,150 (SSO),--,--,--,0,,,,Devel.,2022,,,[105][106]
+=======
+OmegA,USA,Northrop Grumman,,"4,900-10,100 (intermediate)",--,,0,,,,Devel.,2021,,"Var.: intermediate, heavy",[103]
+OS-M,CHN,OneSpace,205 (M1),--,--,--,1,0,0,0,Active,2019,,"Var.: M1, M2, M4. Single M1 failed launch; M2 & M4 in development.",[104]
+Pegasus,USA,Orbital ATK,450,--,--,--,44[ad],43,41,39,Active,1990,,,[105]
+Prime,UK,Orbex,150 (SSO),--,--,--,0,,,,Devel.,2021,,,[106]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 UR-500 Proton,USSR RUS,Khrunichev,"23,000","6,920","5,680",65 (Proton-M),424[ae],,,376,Active,1965,,"Var.: K, M, Medium in development.",[107][108][109]
 PSLV,IND,ISRO,"3,800","1,200",--,--,50[af],49,48,47,Active,1993,,"Var.: CA, XL, QL, DL Launched moon probe Chandrayaan I, Mars probe Mangalyaan I",[110][111]
 Qased,IRN,IRGC,unknown,--,--,--,1[ag],1,1,1,Active,2020,,,[112]
@@ -103,6 +114,7 @@ Vanguard,USA,Martin,23,--,--,--,12,,3,,Retired,1957,1959,,[151]
 Vega,EU,Avio,"2,300",--,--,23,16[av],15,15,15,Active,2012,,Vega-C and Vega-E in development.,[152]
 Yenisei,RUS,TsSKB-Progress RSC Energia,"88,000-115000",,"20,000-27,000",,0,,,,Devel.,2028,,,[153][154][155][156]
 Vikram,IND,Skyroot Aerospace,? {\displaystyle \leq } 720,--,--,,0,,,,Devel.,2021,,"Var.: Vikram 1, Vikram II, Vikram III",[157]
+<<<<<<< HEAD
 VLM,BRA,CTA,150,--,--,--,0,,,,Devel.,2022,,,[158][159][160]
 Vulcan,USA,ULA,"17,800–34,900","7,400–16,300",--,99,0,,,,Devel.,2021,,,[161][162][163][164]
 Yun Feng,TWN,National Chung-Shan Institute of Science and Technology,50-200,--,--,,0,,,,Devel.,unknown,,,[165]
@@ -110,3 +122,12 @@ Zenit,USSR UKR RUS,Yuzhnoye,"13,740","6,160","4,098",--,84[aw],,74,72,Active,198
 Zero,JPN,Interstellar Technologies,100 (SSO),--,--,,0,,,,Devel.,2022-2023,,,[167]
 Zhuque-1,CHN,LandSpace,300,--,--,,1,1,0,0,Active,2018,,,[168][169]
 Zhuque-2,CHN,LandSpace,"4,000",--,--,,0,,,,Devel.,2020,,,[168]
+=======
+VLM,BRA,CTA,150,--,--,--,0,,,,Devel.,202x,,,[158][159]
+Vulcan,USA,ULA,"17,800–34,900","7,400–16,300",--,99,0,,,,Devel.,2021,,,[160][161][162][163]
+Yun Feng,TWN,National Chung-Shan Institute of Science and Technology,50-200,--,--,,0,,,,Devel.,unknown,,,[164]
+Zenit,USSR UKR RUS,Yuzhnoye,"13,740","6,160","4,098",--,84[aw],,74,72,Active,1985,,"Var.: 2, 2M (2SB, 2SLB), 3SL, 3SLB, 3SLBF",[165]
+Zero,JPN,Interstellar Technologies,100 (SSO),--,--,,0,,,,Devel.,2022-2023,,,[166]
+Zhuque-1,CHN,LandSpace,300,--,--,,1,1,0,0,Active,2018,,,[167][168]
+Zhuque-2,CHN,LandSpace,"4,000",--,--,,0,,,,Devel.,2020,,,[167]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

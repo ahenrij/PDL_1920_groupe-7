@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Element,Function,Supported first by,Deprecated in HTML version,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
 applet,Insert an applet,HotJava,4[6],"embed, object",4.0,1.7,,rowspan="6" ,1.0
 basefont,Sets font styles,Internet Explorer,4,CSS,3.0,,85,rowspan="4" ,
@@ -12,3 +13,15 @@ s,Strike-through,?,4,"del, CSS",rowspan="3" 4.0,rowspan="4" 1.7,rowspan="4" 1.0,
 strike,Strike-through,?,4,"del, CSS",,,,,
 u,Underline,?,4,CSS,,,,,
 xmp,"Similar to pre and plaintext, but ignores all HTML within and displays as is",?,2,"pre, samp, code",3.0,125,3.3,,
+=======
+,Trident,Gecko,WebKit,Presto
+Microdata,,16.0[196],,
+HTML5 Tokenizer,rowspan="3" 6.0[199],rowspan="3" 2.0[200],,rowspan="3" 2.10[202]
+HTML5 Tree Builder,,,,
+HTML5 Fragment Parser,,,,
+<a rel="noreferrer">,,33.0[203],,
+window.onhashchange,4.0[205],1.9.2[206],528[207],2.6[208]
+element.classList,,1.9.2[209],,2.8[97]
+dir="auto",,20.0[211],528+[212],
+! Trident,Gecko,WebKit,Presto,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

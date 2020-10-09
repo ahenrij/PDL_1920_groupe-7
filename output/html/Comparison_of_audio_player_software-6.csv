@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Audio player,Lossy compression,,,,,,,,,Lossless compression,,,,,
 ,MP3,WMA,RealAudio,Vorbis,Musepack,AAC,Dolby AC-3,VQF,Opus,APE,FLAC,ALAC,SHN,WV,WMA L
 AIMP,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes[b],Yes,Yes,Yes,Yes,No,Yes,Yes
@@ -31,3 +32,30 @@ XMMS,Yes,Partial[g],Partial[g],Partial[g],Yes,Yes,No,Yes[a],?,Partial[g],Yes,No,
 XMPlay,Yes,Yes[a],Yes[a],Yes,Yes[a],Yes[a],Yes[a],?,Yes[a],Yes[a],Yes[a],Yes[a],Yes[a],Yes[a],?
 Zinf,Yes,No,No,Yes,No,No,No,?,?,No,No,No,No,No,?
 Audio player,MP3,WMA,RealAudio,Vorbis,Musepack,AAC,Dolby AC-3,VQF,Opus,APE,FLAC,ALAC,SHN,WV,WMA L
+=======
+Audio player,ID3v1,ID3v2,APEv2 tag,Vorbis comment,Cue sheet,CD-Text,WAVE chunks
+AIMP,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Amarok,Yes[metadatanotes 1],Yes[metadatanotes 1][metadatanotes 2],Yes[metadatanotes 1],Yes,Yes[metadatanotes 3],?,Yes
+Audacious,Yes,Yes,Yes,Yes,Yes,Yes,?
+Audion,Yes,Yes,No,No,?,?,?
+cmus,Yes,Yes,Yes,Yes,Yes,No,?
+Cog,Yes,Yes,Yes,Yes,Yes,?,?
+foobar2000,Yes,Yes,Yes,Yes,Yes,Yes[metadatanotes 4],Yes
+iTunes,Yes,Yes,Yes,?,?,?,?
+JRiver Media Center,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+JuK,Yes[metadatanotes 1],Yes[metadatanotes 1],Yes[metadatanotes 1],Yes[metadatanotes 1],?,?,?
+MediaMonkey,Yes,Yes,Yes,Yes,?,Yes,?
+Mixxx,Yes,Yes,Yes,Yes,No,No,Yes
+MPXPLAY,Yes,Yes,Yes,Yes,?,?,?
+MusicBee,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Musicmatch Jukebox,Yes,Yes,No,?,?,Yes,?
+musikCube,Yes,Yes,Yes,?,?,?,?
+Quod Libet,Yes,Yes,Yes,Yes,No,No,Yes
+Rhapsody,Yes,Yes,No,No,?,?,?
+Rhythmbox,Yes,Yes,Yes,Yes,?,?,?
+Sayonara Player,Yes,Yes,?,Yes,?,?,?
+Sonique,Yes,No,?,?,?,?,?
+XMMS,Yes,Yes,No,Yes,?,?,?
+Zinf,Yes,Yes,No,Yes,?,?,?
+Audio player,ID3v1,ID3v2,APEv2 tag,Vorbis comment,Cue sheet,CD-Text,WAVE chunks
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

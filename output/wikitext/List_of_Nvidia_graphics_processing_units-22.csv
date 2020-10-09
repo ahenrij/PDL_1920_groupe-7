@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
 ,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
 GeForce 920M,"March 12, 2015",GK208,28,PCIe 3.0 ×16,384:32:8 (2 SMX),954,,1800,7.6,30.5,2,14.4,DDR3,64,12 (11_0),4.5,1.2,733,33,
@@ -13,3 +14,9 @@ GeForce GTX 980M[164],,,,,1536:96:64 (12 SMM),1038,1127,,66.4,99.6,"4, 8",160,,2
 GeForce GTX 980[165],"September 22, 2015",,,,2048:128:64 (16 SMM),1064,,7010,68.1,136.2,8,224,,,,,,4358,"165, oc to 200",Similar to Desktop GTX 980
 Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
 ,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
+=======
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus Interface,L2 Cache (MB),Clock speeds,,,Memory,,,,Fillratename=PerfValues,,Processing power (GFLOPS)name=PerfValues,,,,TDP (Watts),NVLink Support,Release price (USD),
+,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)name=PixelFillrate,Texture (GT/s)name=TextureFillrate,Single precision,Double precision,Half precision,Tensor compute + Single precision,,,MSRP,Founders Edition
+Nvidia TITAN V[96],"December 7, 2017",GV100-400-A1,TSMC 12FFN,21.1,815,5120:320:96:640 (80) (6),PCIe 3.0 x16,4.5,1200,1455,1700,12,652.8,HBM2,3072,153.6 186.2,384.0 465.6,12?288.0 14?899.2,6?144.0 7?449.6,24?576.0 29?798.4,110?592.0 134?092.8,250,,$2999,
+Nvidia TITAN V CEO Edition[97][98],"June 21, 2018",GV-100-???-A1,,,,5120:320:128:640 (80) (6),,6,,,,32,870.4,,4096,,,,,,,,,colspan="2" ,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

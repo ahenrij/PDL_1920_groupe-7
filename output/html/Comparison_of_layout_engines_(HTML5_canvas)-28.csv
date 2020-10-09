@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
 manifest,html,6.0[22],12,1.9,Yes,2.6[p 8][p 9]
 sizes,link,No,13,8.0 (only mobile)[g 16][g 17],Yes[w 19],No
@@ -9,3 +10,14 @@ download[citation needed],"a,area",No,13,20.0[g 21],Yes,
 sandbox,iframe,6.0[t 5],12,17.0[g 22],533[w 23],
 seamless,iframe,No,No,No[g 23],No[w 24],
 Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Font styles,,,,,
+b,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+i,,,,,
+big,,,,,
+small,,,,,
+tt,,,,,
+Horizontal rules,,,,,
+hr,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

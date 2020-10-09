@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 keyword,"feature, example usage"
 "checked, unchecked","In C#, checked statement blocks or expressions can enable run-time checking for arithmetic overflow.[44]"
 "get, set","C# implements properties as part of the language syntax with their optional corresponding get and set accessors, as an alternative for the accessor methods used in Java, which is not a language feature but a coding-pattern based on method name conventions."
@@ -28,3 +29,15 @@ using (StreamWriter file = new StreamWriter("test.txt"))
  In Java SE 7 a similar construct has been added[46] called try-with-resources: try (BufferedReader br = new BufferedReader(new FileReader(path))) {
     return br.readLine();
 }"
+=======
+Native interoperability,Java,C#
+Cross-language interoperability,"Yes (with GraalVM, Nashorn, CORBA, JNI or JNA)[92]",Yes; C# was designed for it[92]
+External/native methods,Yes,Yes
+Marshalling,External glue code needed,Yes; metadata controlled
+Pointers and arithmetics,Yes[93],Yes
+Native types,Yes[94],Yes
+Fixed-size buffers,No,Yes
+Explicit stack allocation,No,Yes
+Address-of,No,Yes
+Object pinning (fix variable to address),No,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

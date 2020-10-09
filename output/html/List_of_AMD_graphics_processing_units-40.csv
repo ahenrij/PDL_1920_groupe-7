@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Clock rate,,Core config[a],Fillrate,,Memory,,,,Processing power (GFLOPS),,TDP (Watts)[b],,Crossfire Support,API support (version),,,Release Price (USD)
 ,,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Idle,Max.,,Direct3D,OpenGL,OpenCL,
 Radeon HD 5450,"Feb 4, 2010",Cedar PRO,40,292,59,PCIe 2.1 x16 PCI PCIe 2.1 x1,650 650 650,400 800 800,80:8:4,2.6,5.2,512 1024 2048,6.4 12.8,DDR2 DDR3,64,104,N/A,6.4,19.1,No,11.3 (11_0),4.5,1.2,~50
@@ -14,3 +15,17 @@ Radeon HD 5870 Eyefinity Edition[c][26],"Mar 11, 2010",,,,,,850,1200,,,,2048,,,,
 Radeon HD 5970,"Nov 18, 2009",Hemlock XT,,2154×2,334×2,,725 725,1000 1000,1600:80:32×2,46.4,116.0,1024×2 2048×2,128×2,,256×2,4640,928,51,294,2-way Crossfire,,,,599
 Model,Launch,Code name,Fab (nm),Transistors (Million),Die Size (mm²),Bus interface,Core (MHz),Memory (MHz),Core config[a],Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single Precision,Double Precision,Idle,Max.,Crossfire Support,Direct3D,OpenGL,OpenCL,Release Price (USD)
 ,,,,,,,Clock rate,,,Fillrate,,Memory>,,,,Processing power (GFLOPS),,TDP (W)[b],,,API support (version),,,
+=======
+Model (Codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TBP,Bus interface
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,
+Radeon R5 430 (Oland Pro) [63][64],June 2016 OEM,GCN 1st gen 28 nm,1040×106 90 mm2,384:24:8 6 CU,730 780,17.52 18.72,5.84 6.24,560 599,37.4 40,DDR3 GDDR5 128-bit,1 2,1800 4500,28.8 72,50 W,PCIe 3.0 ×8
+Radeon R5 435 (Oland) [63][65],June 2016 OEM,,,320:20:8 5 CU,1030,20.6,8.24,659,41.2,DDR3 64-bit,2,2000,16,50 W,
+Radeon R7 430 (Oland Pro) [66][67],June 2016 OEM,,,384:24:8 6 CU,730 780,17.52 18.72,5.84 6.24,560 599,37.4 40,DDR3 GDDR5 128-bit,1 2 4,1800 4500,28.8 72,50 W,
+Radeon R7 435 (Oland) [66][68],June 2016 OEM,,,320:20:8 5 CU,920,18.4,7.36,589,36.8,DDR3 64-bit,2,2000,16,50 W,
+Radeon R7 450 (Cape Verde Pro) [66][69],June 2016 OEM,,1500×106 123 mm2,512:32:16 8 CU,1050,33.6,16.8,1075,65.2,GDDR5 128-bit,2,4500,72,65 W,PCIe 3.0 ×16
+Radeon RX 455 (Bonaire Pro) [66][70],June 2016 OEM,GCN 2nd gen 28 nm,2080×106 160 mm2,768:48:16 12 CU,1050,50.4,16.8,1613,100.8,GDDR5 128-bit,2,6500,104,100 W,
+Radeon RX 460 (Baffin) [71][72][73][74][75],August 2016 $109 USD(2 GB) $139 USD(4 GB),GCN 4th gen Samsung/GloFo 14LPP[76][f],3000×106 123 mm2,896:56:16 14 CU,1090 1200,61 67.2,17.4 19.2,1953 2150,122 132,GDDR5 128-bit,2 4,7000,112,<75 W,PCIe 3.0 x8
+Radeon RX 470D (Ellesmere) [78],October 2016 CNY ¥1299 (China Only),,5700×106 232 mm2,1792:112:32 28 CU,926 1206,103.7 135.1,29.6 38.6,3319 4322,207 270,GDDR5 256-bit,4,7000,224,120 W,PCIe 3.0 ×16
+Radeon RX 470 (Ellesmere Pro) [71][73][74],August 2016 $179 USD,,,2048:128:32 32 CU,926 1206,118.5 154.4,29.6 38.6,3793 4940,237 309,GDDR5 256-bit,4 8,6600,211,120 W,
+Radeon RX 480 (Ellesmere XT) [79][80][81][82],June 2016 $199 USD (4 GB) $239 USD (8 GB),,,2304:144:32 36 CU,1120 1266,161.3 182.3,35.8 40.5,5161 5834,323 365,GDDR5 256-bit,4 8,7000 8000,224 256,150 W,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

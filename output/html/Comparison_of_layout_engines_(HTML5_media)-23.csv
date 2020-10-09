@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Attribute,Deprecated for,Function,Supported first by,Trident,Gecko,WebKit,KHTML,Presto
 bgproperties,body,Determines whether background image scrolls with the background,Internet Explorer,3.1,No,Yes,Yes,No
 bordercolor,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,No,Yes,Yes,No
@@ -15,3 +16,19 @@ rightmargin,body,Sets the margin between the browser window and the contents of 
 start,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
 target,form,Specifies a target window or frame for the output of a form,Internet Explorer,,No[19],?,Yes,No
 valign,caption,Sets vertical alignment of table caption,Internet Explorer,3.1,?,?,No,No
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Basic table elements,,,,,
+table,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+caption,,,,,
+tr,,,,,
+th,,,,,
+td,,,,,
+Row groups,,,,,
+thead,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+tbody,,,,,
+tfoot,,,,,
+Column groups,,,,,
+colgroup,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+col,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

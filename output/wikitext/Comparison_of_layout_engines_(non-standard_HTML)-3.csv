@@ -1,4 +1,5 @@
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
+<<<<<<< HEAD
 main element[219],,12,21.0[220],,
 template element[222],,13,,,
 Selectors API[224],4.0[225],12,1.9.1[226],525[227],2.2[228]
@@ -15,4 +16,12 @@ Web Workers[263][264],6.0[265],12,1.9.1[266],,2.6[68][69]
 Geolocation API[267],5.0[268],12,1.9.1[269],533[270],"2.61=Geolocation support was added in Presto 2.5, but was not enabled by default until 2.6.[271][272][68][69]"
 Offline Web applications[273],6.0[274],12,1.9.1[275],,2.6[68][69]
 Web Notifications[276],,,22.0[277][278], only in Chrome[279],25[280]
+=======
+getElementsByClassName[183],5.0[184],12,1.9[185],525,2.1
+registerProtocolHandler,rowspan="2" ,rowspan="2" ,1.91=Limited to the feed protocol in 1.8; fully supported in 1.9.[186]date=May 2014,rowspan="2" ,rowspan="2" 2.10[188]
+registerContentHandler,1.81=Limited to feed MIME types in 1.8 and 1.9.[189],,,,
+Cross-document messaging,4.0,12,1.9[190],,2.0
+Drag-and-drop,6.0,12,1.9.1[98],,2.10.270[191]
+pushState() and replaceState(),6.0[192],12,2.0[193],528[194],2.9[195]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 ! Trident,EdgeHTML,Gecko,WebKit,Presto,

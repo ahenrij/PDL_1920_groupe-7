@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Feature,NMT,GSM,IS-95 (CDMA one),IS-2000 (CDMA 2000),UMTS (3GSM),LTE,5G NR
 Technology,FDMA,TDMA and FDMA,CDMA,CDMA,W-CDMA,OFDMA,OFDMA
 Generation,1G,2G,2G,3G,3G,4G,5G
@@ -10,3 +11,12 @@ Signal quality/coverage area,Good coverage due to low frequencies,Good coverage 
 Frequency utilization/Call density,Very low density,0.2 MHz = 8 timeslots. Each timeslot can hold up to 2 calls (4 calls with VAMOS) through interleaving.,Lower than CDMA-2000?,1.228 MHz = 3Mbit/s,5 MHz = 2 Mbit/s. 42Mbit/s for HSPA+. Each call uses 1.8-12 kbit/s depending on chosen quality and audio complexity.,20 MHz,400 MHz
 Handoff,Hard,Hard,Soft,Soft,Soft,Hard,Hard
 Voice and Data at the same time,No,Yes GPRS Class A,No,No EVDO / Yes SVDO[2],Yes[3],No (data only) Voice possible through VoLTE or fallback to 2G/3G,No (data only) Voice possible through VoLTE.
+=======
+Standard or Revision,Network Compatibility
+"GSM (1991), GPRS (2000), EDGE (2003)","GSM (2G, TDMA)"
+cdmaOne (1995),"cdmaOne (2G, CDMA)"
+"EV-DO (1999), Rev. A (2006), Rev. B (2006), SVDO (2011)","CDMA2000 (3G, CDMA/TDMA)"
+"UMTS (1999), HSDPA (2005), HSUPA (2007), HSPA+ (2009)","UMTS (3G, CDMA)"
+"LTE (2009, 3G), LTE Advanced (2011, 4G)",4G
+"5G NR (2018, 5G)",5G
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

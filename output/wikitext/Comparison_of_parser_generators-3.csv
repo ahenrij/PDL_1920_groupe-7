@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Lexer algorithm,Output languages,"Grammar, code",Development platform,License
 Alex,DFA,Haskell,Mixed,All,"
 AnnoFlex,DFA,Java,Mixed,Java virtual machine,"
@@ -19,3 +20,8 @@ Quex,DFA direct code,"C, C++",Mixed,All,"
 Ragel,DFA,"C, C++, assembly",Mixed,All,"
 RE/flex,"DFA direct code, DFA table driven, and NFA regex libraries",C++,Mixed,All,"
 re2c,DFA direct code,C,Mixed,All,"
+=======
+Name,Parsing algorithm,Input grammar notation,Boolean grammar abilities,Development platform,License
+LuZc[8][9],delta chain,modular,"Conjunctive, not complimentary",POSIX,
+bnf2xml,Recursive descent (is a text filter output is xml),"simple BNFOnly context-free grammars can be denoted in BNF.date=January 2018 grammar (input matching), output is xml",?,"Beta, and not a full EBNF parser","
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

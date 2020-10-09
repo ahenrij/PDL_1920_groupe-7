@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 File manager,File Name [D 1],File Contents [D 2],Basic metadata search [D 3],All metadata search [D 4],RegExp for Contents,Boolean (nesting levels),Fuzzy logic [D 5],Save searches [D 6],Refined searches [D 7]
 Altap Salamander,Yes,?,Yes,?,Yes[s 1],Yes,?,Yes,Yes
 Commander One,Yes,Yes,Yes[s 2],Yes[s 2],Yes,Yes,?,No,No
@@ -32,3 +33,39 @@ xplorer²,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 XYplorer,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[s 7]
 ZTreeWin,Yes,Yes,Yes,Partial,Partial [s 8],Yes,Yes,Yes,Yes
 File manager,File Name [D 1],File Contents [D 2],Basic metadata search [D 3],All metadata search [D 4],RegExp for Contents,Boolean (nesting levels),Fuzzy logic [D 5],Save searches [D 6],Refined searches [D 7]
+=======
+File manager,Filesystem support,Attribute columns,File previews,Metadata indexing,Unicode support,Visual Themes
+Altap Salamander,Yes,Yes,Yes,?,Partial,No
+Commander One,Yes,Yes,Yes,?,Yes,Yes
+CRAX Commander,Yes,Yes,Yes,?,Yes,Partial
+Directory Opus,Yes,Yes,Yes,Partial,Yes,Yes
+Dired,Yes,Yes,Yes,No,Yes,Yes
+Documents by Readdle,,,,,,
+Dolphin,Yes,No,Yes,Yes,Yes,?
+Double Commander,Yes,Yes,Yes,No,Yes[e 1],Partial[e 2]
+emelFM2,?,?,?,?,,?
+Far Manager,Yes,Yes,Yes,Partial,Yes[e 3],No
+Files (Apple),,,Yes,,Yes,
+Files by Google,,,,,,
+Finder,Yes,No,Yes,Yes,Yes[e 4],Partial[e 5]
+ForkLift,Yes,Yes,Yes,No,Yes,Yes
+Konqueror,Yes,No,Yes,Yes,Yes,Yes
+Krusader,Yes,No,Yes,Partial,,?
+Midnight Commander,Yes,No,No,No,Yes,No
+GNOME Files (Nautilus),Yes,?,Yes,?,Yes,?
+Nemo,?,?,?,?,?,?
+Nomad.NET,Yes,Yes,Yes,?,Yes,Yes
+Path Finder,?,?,?,?,,?
+PCManFM,Yes,Yes,Yes,No,Yes,No
+ROX-Filer,,No,Yes,No,,?
+Total Commander,Yes,Yes,Yes,Yes In search tool,Yes[e 1],Partial[e 2]
+Windows Explorer,Yes,Yes,Yes,Yes[80],Yes,Partial[e 5]
+Xandros File Manager,?,?,?,?,?,?
+Xfe,No,Partial,No,No,Partial,Partial[e 6]
+Xfile,?,?,?,?,?,?
+Xfm,?,?,?,?,?,?
+xplorer²,Yes,Yes,Yes,?,Yes,Yes
+XYplorer,Yes,Yes,Yes,?,Yes,Yes
+ZTreeWin,Yes,Yes,Yes,?,Yes,No
+File manager,Filesystem support,Attribute columns,File previews,Metadata indexing,Unicode support,Visual Themes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

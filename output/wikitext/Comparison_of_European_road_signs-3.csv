@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Moldova,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
 Give Way ahead,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Stop ahead,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -46,3 +47,13 @@ Roadworks ahead,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Other danger,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Other danger (temporary),NOT USED,NOT USED,NOT USED,NOT USED,,NOT USED,,NOT USED,,NOT USED,NOT USED,NOT USED,,NOT USED,,NOT USED,,NOT USED,,NOT USED,NOT USED,NOT USED,NOT USED,,NOT USED,NOT USED,,NOT USED,NOT USED,NOT USED
 ,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Moldova,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
+=======
+,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
+Maximum speed limit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+End of maximum speed limit,,,,,,,,,,,,,,,,,,,,,,,,DISUSED,,,,[27],
+Speed limit zone,,,,,,,,,,,,,,,,,,,,,,,,NOT USED,or,,,,
+End of speed limit zone,,,,,,,,,,,,,,,,,,,,,,,,NOT USED,or,,,,
+Minimum speed limit,,NOT USED,,,,,,,,,NOT USED,NOT USED,,,NOT USED,,,,,,,,,NOT USED,,,,,NOT USED
+Minimum speed limit ends,,NOT USED,,,,,,,,,NOT USED,NOT USED,,,NOT USED,,,,,,,,,NOT USED,,,,,NOT USED
+Advisory speed,NOT USED,NOT USED,,,,,,(until 2022),,,NOT USED,NOT USED,,,,,NOT USED,,,,DEFUNCT,,,,NOT USED,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

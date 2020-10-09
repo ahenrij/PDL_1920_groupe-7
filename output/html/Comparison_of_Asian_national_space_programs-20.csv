@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Country,Highest payload capacity,,,,,
 ,LEO,,,GTO,,
 ,Launch Vehicle,Payload capacity,Active since,Launch Vehicle,Payload capacity,Active since
@@ -7,3 +8,9 @@ India,GSLV MkIII,"10,000 kg (22,000 lb)",2017,GSLV MkIII,"4,000 kg (8,800 lb)",2
 Israel,Shavit,"800 kg (1,800 lb)",1988,Not any yet,,
 North Korea,Unha-3,200 kg (440 lb),2009,Not any yet,,
 Iran,Safir-1B,50 kg (110 lb),2008,Not any yet,,
+=======
+Country,Spacecraft,Power,Thrust,Specific impulse,Year launched
+South Korea,DubaiSat-2,0.3 kW,7 mN,1000s,2013
+China,"Shijian 17 (HEP-100MF, magnetic focusing hall thruster)",1.4 kW,,1850s,2016
+,Shijian 17 (LHT-100),1.35 kW,80 mN,1600s,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

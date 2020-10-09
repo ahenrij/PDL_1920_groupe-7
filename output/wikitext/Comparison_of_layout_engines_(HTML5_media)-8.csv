@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Element,Function,Supported first by,Deprecated in HTML version,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
 applet,Insert an applet,HotJava,4[6],"embed, object",4.0,1.7,,rowspan="6" ,1.0
 basefont,Sets font styles,Internet Explorer,4,CSS,3.0,,85,rowspan="4" ,
@@ -12,3 +13,23 @@ s,Strike-through,?,4,"del, CSS",rowspan="3" 4.0,rowspan="4" 1.7,rowspan="4" 1.0,
 strike,Strike-through,?,4,"del, CSS",,,,,
 u,Underline,?,4,CSS,,,,,
 xmp,"Similar to pre and plaintext, but ignores all HTML within and displays as is",?,2,"pre, samp, code",3.0,125,3.3,,
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Basic structure,,,,,
+html,5.0,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+head,rowspan="2" 4.0,,,,
+body,,,,,
+Metadata,,,,,
+title,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+meta,,,,,
+Headings,,,,,
+h1,rowspan="6" 4.0,rowspan="6" 1.0,rowspan="6" ,rowspan="6" ,rowspan="6" 1.0
+h2,,,,,
+h3,,,,,
+h4,,,,,
+h5,,,,,
+h6,,,,,
+Grouping elements,,,,,
+div,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+span,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

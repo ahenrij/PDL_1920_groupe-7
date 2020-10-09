@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,singular,,,,,,,plural,,,,,,,utrum
 ,first,second,,third,,,,first,second,third,,,,,
 ,,familiar,formal,masculine,feminine,neuter,utrum,,,masculine,feminine,neuter,utrum,reflexive,
@@ -5,3 +6,18 @@ Ido,me,tu,vu,il(u),el(u),ol(u),lu,ni,vi,ili,eli,oli,li,su,on(u)
 English,I,thou,you,he,she,it,–,we,you,,,,they,,one
 Esperanto1894,mi/mu,tu,vu,lu,elu,lu,–,nos,vos,,,,ilu,su,on
 Esperanto,mi,ci,vi,li,?i,?i,li,ni,vi,,,,ili,si,oni
+=======
+Grammatical form,Ido,English,,Esperanto,
+Singular noun,-o (libro),book,,-o (libro),
+Plural noun,-i (libri),books,,-oj (libroj),
+Adjective,-a (varma),warm,,-a (varma),
+Adverb,-e (varme),warmly,,-e (varme),
+Present tense infinitive,-ar (irar),to be going,to go,-anti (iranti),-i (iri)
+Past tense infinitive,-ir (irir),to have gone,,-inti (irinti),
+Future tense infinitive,-or (iror),to be going to go,,-onti (ironti),
+Present,-as (iras),"go, goes",,-as (iras),
+Past,-is (iris),went,,-is (iris),
+Future,-os (iros),will go,,-os (iros),
+Imperative,-ez (irez),go!,,-u (iru),
+Conditional,-us (irus),would go,,-us (irus),
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
 ,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
 Mobility Radeon 7000,Feb 2001,M6,RV100,180,AGP 4x,144 167,144 183,0:1:3:1,0.167,0.5,8 16 32,1.464 2.928,SDR DDR,32 64,6,1.3,
@@ -10,3 +11,12 @@ Mobility Radeon 9600,Mar 2003,"M10, M11",RV350,,,300,300,,1.2,1.2,64 128,4.8 9.6
 Mobility Radeon 9600 Pro,2004,M10,,,,350,350,,1.4,1.4,128,11.2,,128,,,
 Mobility Radeon 9700,Feb 2004,M11,RV360,,,450,275,,1.8,1.8,,8.8,,,,,
 Mobility Radeon 9800,Sep 2004,M18,R420,,,350,300,4:8:8:8,2.8,2.8,256,19.2,,256,,,
+=======
+Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
+,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MHz),Band- width (GB/s),
+Radeon 610[188] (Banks),13 August 2019,GCN 1st gen (28 nm),320:20:8,1030,20.6,8.2,659,GDDR5 64-bit,2–4,1125,36,<=50 W
+Radeon 620[189] (Polaris 24 XL),13 August 2019,GCN 3rd gen (28 nm),384:24:8,730 1024,24.6,8.2,786,DDR3 64-bit,2–4,900,14.4,<=50 W
+Radeon 625[190] (Polaris 24 XL),,,,,,,,GDDR5 64-bit,2–4,1125,36,
+Radeon 630[191] (Polaris 23 XL),13 August 2019,GCN 4th gen (14 nm),512:32:8,1082 1219,39,9.8,1248,GDDR5 64-bit[192],2–4,1500,48,<=50 W
+Radeon RX 640[193] (Polaris 23 XT),13 August 2019,,640:40:16,1100 1287,51.5,20.6,1647,GDDR5 64-bit,2–4,1750,56,<=50 W
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

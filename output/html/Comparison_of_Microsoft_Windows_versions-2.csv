@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Resource access control,Subsystem isolation mechanisms,Integrated firewall,Encrypted file systems,Defender,Windows Hello
 Windows 2000,ACLs,,"TCP/IP Filtering, IPSec",Yes (NTFS only),No,No
 Windows XP,ACLs,"Win32 WindowStation, Desktop, Job objects","Windows Firewall (from SP2), TCP/IP Filtering, IPSec",Yes (NTFS only),Optional,No
@@ -11,3 +12,9 @@ Windows Server 2012 R2,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, J
 Windows 8.1,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
 Windows 10,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,Yes
 Windows Server 2016,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,Yes
+=======
+,CPU,RAM,Free disk space
+Windows 95,386,4 MB,120 MB
+Windows 98,486 DX2 66 MHz,16 MB,300 MB
+Windows Me (Millennium Edition),Pentium 150 MHz,32 MB,400 MB
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

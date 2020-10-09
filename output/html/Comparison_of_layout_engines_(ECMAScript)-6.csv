@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Function object,Trident,Gecko,WebKit,Presto,Blink
 Called as function,,,,,
 "Function([[p1 [, p2 [, ...]],] body])",?,Yes,Yes,?,Yes
@@ -15,3 +16,16 @@ toString(),4.0,1.0,Yes,1.0,Yes
 Properties of instances,,,,,
 length,4.0,1.0,Yes,1.0,Yes
 prototype,4.0,1.0,Yes,1.0,Yes
+=======
+Boolean object,Trident,Gecko,WebKit,Presto,Blink
+Called as function,,,,,
+Boolean([value]),Yes,Yes,Yes,Yes,Yes
+Called as constructor,,,,,
+new Boolean([value]),3.0,Yes,Yes,Yes,Yes
+Properties,,,,,
+prototype,4.0,Yes,Yes,Yes,Yes
+Properties of prototype,,,,,
+constructor,4.0,Yes,Yes,Yes,Yes
+toString(),4.0,Yes,Yes,Yes,Yes
+valueOf(),4.0,Yes,Yes,Yes,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Program,Operating systems,License,"Protocols, based on, compatible with",Encryption,Other abilities,Key and target markets,Latest release
 3CX Phone System,"Windows, Linux",Proprietary,SIP,"TLS, SRTP","Voice and video IP telephony and conferencing, voice mail and instant messaging","< 50,000 users","16.2; July 5, 2019; 14 months ago (2019-07-05)"
 AS5300,"Linux, Windows Server 2003",Proprietary,"SIP, UNIStim, MLPP","SSL, TLS, SRTP, SDESC","Voice and Video IP telephony, Voice and Video conferencing, voice mail and instant messaging","1,000 - 25,000 users",1.0; January 2008; 12 years ago (2008-01)
@@ -25,3 +26,8 @@ SIP Express Router (SER),"Linux, BSD, Solaris",GPL,SIP,No,"SIP Registrar/Proxy, 
 sipXecs IP PBX,Linux,AGPL,"Native SIP call control, XMPP","TLS, SRTP","Full redundancy (HA), instant messaging, voicemail, user portal, admin GUI, plug & play management including phones and gateways, fully featured","Enterprises between 10 and 10,000 users, multi-site",14.04.2; July 2014; 6 years ago (2014-07)
 vzRoom,Windows,Proprietary,SIP,"SSL, TLS, AES","Instant messaging-chat, VoIP, video, sharing (desktop, video, file), whiteboard, scheduler, recording","Individual to small and medium enterprise (2-1,000 users)",0.8.8.735; November 2010; 9 years ago (2010-11)
 Yate,"BSD, Linux, macOS, Windows",GPL,"SIP, IAX, H.323, ISDN, XMPP (Jabber), Jingle (Google Talk), MGCP, SS7 over IP, Cisco SLT (Signalling Link Transport) (SS7 MTP2 backhaul over IP), SCTP, SCCP, TCAP, MAP CAMEL","SSL, TLS, SRTP","Voice, video, file transfer, data, H323 to SIP signalling proxy, instant messaging, IVR, PC2Phone and Phone2PC gateway, SCCP — GTT routing between networks, Secure Unified Communications, SIP registrar-proxy, SIP SBC (session border controller), USSD, voicemail, VoIP, VoIP to PSTN gateway, conference server (max 200 voice channels per conference), call centre server, prepaid and postpaid cards",Deployed on home servers and large networks with millions of users,5.5; May 2015; 5 years ago (2015-05)
+=======
+Client name,Encryption protocols
+Google Hangouts[78],SRTP[96]
+Skype[78],A custom protocol
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

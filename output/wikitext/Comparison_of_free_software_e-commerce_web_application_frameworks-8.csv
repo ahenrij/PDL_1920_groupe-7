@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 |,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
 | Apache OFBiz,,,,
 | Batavi,,,,
@@ -15,3 +16,18 @@
 | WooCommerce,,add-on,,
 | Zen Cart,,add-on,,
 !Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified,
+=======
+|,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS
+| Apache OFBiz,,,,,,,
+| Batavi,,,,,,,
+| Bigcommerce,,,,,,,
+| KonaKart,,,,,,,
+| Magento,,,,,,,
+| nopCommerce,,,,,,,
+| osCommerce,,,,,,,
+| PrestaShop,webservice,,,,,,
+| Shopify,,,,,,,
+| WooCommerce,,,,,,,
+| Zen Cart,,,,,,,
+!Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IDE,Developer,Latest stable release,Platform,License,Autocomplete,Debugger,Refactoring support,VCS Support
 Adobe Dreamweaver,Adobe Systems,-,Cross-platform,,,,,
 Aptana Studio,"Aptana, Inc.","December 2013, 3.5.0",Cross-platform,"GPL, proprietary",,,,via plugins
@@ -19,3 +20,9 @@ Quanta Plus,KDE Web Dev Team,"3.5.8 / October 16, 2007",Linux,GPL,,,,
 RadPHP (formerly Delphi for PHP),Embarcadero Technologies,"XE2 / August 30, 2011",Windows,,,,,
 SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, AIX, HP-UX, Solaris",,,,,
 Zend Studio,Zend,10.6 / February 2014,Cross-platform,,,,,"CVS, Git, SVN, others (via plugins)"
+=======
+IDE,License,Windows,Linux,macOS,Other platforms,Editor,Debugger,GUI builder,Profiler,Browsers
+Allegro Common Lisp,,,,,"FreeBSD, HP-UX, AIX, Solaris, Tru64 UNIX",,,,,"Class browser, Systems, Definitions"
+LispWorks,,,,,"FreeBSD, HP-UX, Solaris",,,,,"Class browser, Functions, Errors, Processes, Symbols, Systems"
+SLIME (Emacs),"portions in GPL v2, LGPL, BSD and public domain",,,,"DragonFly BSD, FreeBSD, HP-UX, AIX, IRIX, DOS, NetBSD, OpenBSD, OpenVMS, OS/2, Solaris, other Unix",,,,,"Class browser, Errors, Symbols"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

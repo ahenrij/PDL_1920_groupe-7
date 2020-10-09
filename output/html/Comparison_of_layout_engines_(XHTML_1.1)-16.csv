@@ -1,4 +1,5 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 caption,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 table,,,,,,,
 td,,,,,,,
@@ -9,3 +10,11 @@ colgroup,,,,,,,
 tbody,,Yes,,,,,
 thead,,,,,,,
 tfoot,,,,,,,?
+=======
+ruby,Yes,No,Yes,Yes,No,No,No
+rbc,No,,,No,,,
+rtc,,,,,,,
+rb,Yes,,,Yes,,,
+rt,Yes,,,Yes,,,
+rp,No,,,No,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

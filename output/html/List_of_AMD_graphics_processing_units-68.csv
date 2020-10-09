@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory[e],,,,TDP (W)
 ,,,Config[f],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width (bit),Size (GiB),Clock (MHz),Band- width (GB/s),
 Radeon HD 8550M / 8630M (Sun LE),8 January 2013,GCN 1st gen (28 nm),384:24:8,650 700,5.2 5.6,15.6 16.8,537.6,DDR3 64,1,900,14.4,Unknown
@@ -12,3 +13,11 @@ Radeon HD 8830M (Venus LE),8 January 2013,,640:40:16,575 625,9.2 10,23 25,800,DD
 Radeon HD 8850M (Venus Pro),8 January 2013,,640:40:16,575–725 625–775,9.2 12.4,23 31,800 992,DDR3 GDDR5 128,2,1000 1125,32 72,Unknown
 Radeon HD 8870M (Venus XT),8 January 2013,,640:40:16,725 775,11.6 12.4,29 31,992,DDR3 GDDR5 128,2,1000 1125,32 72,Unknown
 Radeon HD 8970M (Neptune XT),8 January 2013,,1280:80:32,850 900,27.2 28.8,68 72,2304,GDDR5 256,2 4,1200,153.6,100
+=======
+Model (codename),Launch,Architecture & Fab,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
+,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MT/s),Band-width (GB/s),
+Radeon RX 5300M[194] (Navi 14),13 November 2019,RDNA 1.0 7 nm,1408:88:32 22 CU,1000 1445,127.2,46.2,4069,GDDR6 96-bit,3,14000,168,85 W
+Radeon RX 5500M[195] (Navi 14),7 October 2019,,1408:88:32 22 CU,1375 1645,144.8,52.6,4632,GDDR6 128-bit,4,14000,224,85 W
+Radeon RX 5600M[196] (Navi 10),2020,,2304:144:64 36 CU,1000 1265,182.2,81,5829,GDDR6 192-bit,6,12000,288,150 W
+Radeon RX 5700M[197] (Navi 10),2020,,2304:144:64 36 CU,1465 1720,247.7,110.1,7926,GDDR6 256-bit,8,12000,384,180 W
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

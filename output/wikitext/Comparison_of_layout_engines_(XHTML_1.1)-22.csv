@@ -1,2 +1,7 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 style,"3.0Incorrect[2]All style tags after the first 31 style tags are not applied. All style rules after the first 4,095 rules are not applied. On pages that uses the @import rule to continuously import external style sheets that import other style sheets, style sheets that are more than three levels deep are ignored.[9]group=note",,,,,,
+=======
+script,3.0[2],rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" 
+noscript,3.0Incorrect[2]date=May 2011,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

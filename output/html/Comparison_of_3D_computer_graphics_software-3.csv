@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Application,Alembic Importer,USD Importer,Rendering Engine,Volume Rendering for clouds,Interactive Rendering,Isolating light contribution,Light Lister,IES Light,Physical Sun & Sky,Sun Positioning by location and times,Light Portal,Shadow Catcher,IBL and Environment texture,,,Highlight Placement,Light Layers
 ,,,,,,,,,,,,,Lat Long,sIBL,Light Extraction[18],,
 Maya,Yes,(USD for Maya),Maya Hardware 2.0,?,Yes,No[19],Light Editor,?,?,?,?,?,Yes,?,?,(Place Highlight Tool for Maya),No
@@ -14,3 +15,12 @@ MODO,Yes,14.1 and later,MODO Renderer,Yes,Yes,Light Linking[26],?,Photometric Li
 LightWave,11.6 and later,No,LightWave Renderer,Yes,Yes,?,?,Photometric Light,Yes,Yes,Yes,Yes,Yes,"original loader script, where most sIBL features were invented[28]",?,?,No
 Houdini,Yes,Solaris,Mantra (PT) / Karma,Yes,Yes,Light categories,Light bank,Yes,?,?,?,Shadow Matte,Yes,?,?,Solaris,?
 Cinema 4D,Yes,R23 and later,CineRender,?,Yes,Exclude/Include,?,Yes,?,?,?,from R18,Yes,?,?,?,?
+=======
+Application,Hard surface Modeling,,Sculpt Modeling,,,,Non-destructive Modeling,,
+,Polygon Modeling,Subdivision Modeling,Base-mesh Creation,Sculpting,Hand Retopology,Automatic Retopology,Boolean,Bevel,Procedural
+Maya,Yes,Yes,(SOuP BMesh),Yes,Yes,2020 and later,Yes,Yes,Yes
+3ds Max,Yes,Yes,(Form),Paint Deform,Yes,No,Yes,Yes,Yes
+Blender,Yes,Yes,Skin Modifier,Yes,Yes,2.81 and later,Yes,Yes,stack only
+ZBrush,ZModeler,ZModeler,ZSphere and ZSketch,Yes,Yes,ZRemesher,4R8 and later,?,No
+Curvy 3D,No,No,sketch-based,Yes,?,?,?,?,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

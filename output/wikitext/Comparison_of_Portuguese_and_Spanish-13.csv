@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Portuguese,Spanish,English
 cola (< Lat. coloere),"pegamento, cola (< Lat. pix, < Lat. coloere)",glue
 vaso (< Lat. vasum),"maceta, tiesto (< Hisp.-Ar. maceta, maybe < Ital. mazzetto; < Lat. testu)","vase, flowerpot"
@@ -23,3 +24,9 @@ firma (< Lat. firmus),"empresa; compañía; sociedad, negocio (< Lat. prenhendere;
 presunto (< Lat. persuctus),jamón (< Fr. jambon),"ham, prosciutto"
 risco (< Lat. reseca),riesgo (< Arabic rizq[5] or maybe Italian rischio}}),"risk, line"
 topo (< Gr. tópos),cumbre (< Lat. columen or culmen),top
+=======
+,Person who likes,Thing that is liked,Form
+Portuguese,Subject,Object of preposition de,(Eu) gosto da música.
+Spanish,Indirect object,Subject,Me gusta la música.
+English,Subject,Direct object,I like music.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

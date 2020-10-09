@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko[101],WebKit[102],Presto[103]
 Attributes,,,,
 autocomplete,3.1,,,rowspan="3" 2.0
@@ -41,3 +42,14 @@ number,6.0[177],29.0[178],528[169],
 range,6.0[179],23.0[180],,
 color,,29.0[181],,2.7[113]
 ! Trident,Gecko,WebKit,Presto,
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Images,,,,,
+img,4.0,1.0,,,1.0
+Generic inclusion,,,,,
+object,"4.0For images, a frame will be added to the object. Other content types are not supported and the element is incorrectly implemented as an ActiveX wrapper. Nested objects fallback mechanism is not supported prior to version 7.[2]group=note",rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+param,6.0,,,,
+Image maps,,,,,
+map,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+area,5.0,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

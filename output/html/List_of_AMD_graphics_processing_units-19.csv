@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model (Codename),Launch,Architecture (Fab),Bus interface,Stream processors,Clock rate,,Memory,,,,Processing power[a] (GFLOPS),,TDP (Watts)
 ,,,,,Core (MHz),Memory (MHz),Size (MB),Type,Bus width (bit),Bandwidth (GB/s),Single,Double,
 Stream Processor (R580),2006,R500 80 nm,,240,600,,1024,GDDR3,256,83.2,375[364],N/A,165
@@ -6,3 +7,9 @@ FireStream 9250 (RV770)[367][368],"June 16, 2008",TeraScale 1 55 nm,PCIe 2.0 x16
 FireStream 9270 (RV770)[369][370],"November 13, 2008",TeraScale 1 55 nm,PCIe 2.0 x16,800,750,850,2048,GDDR5,256,108.8,1200,240,160
 FireStream 9350 (Cypress XT)[371],"June 23, 2010",TeraScale 2 40 nm,PCIe 2.1 x16,1440,700,1000,2048,GDDR5,256,128,2016,403.2,150
 FireStream 9370 (Cypress XT)[372],"June 23, 2010",TeraScale 2 40 nm,PCIe 2.1 x16,1600,825,1150,4096,GDDR5,256,147.2,2640,528,225
+=======
+Model (Codename),Launch,Architecture (Fab),Transistors Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (TFLOPS),,,Memory,,,,TBP (W),Bus interface,Graphic output Port,Release Price (USD)
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double[f],Bus type & width (bit),Size (GiB),Clock (MT/s),Band- width (GB/s),,,,
+Radeon Pro WX 3200 (Polaris)[293],July 2019,GCN 4th gen (14 nm),,640:40:? (10),,,,SP,1.66,0.104,GDDR5 128,4,6000,96,50,PCIe 3.0 ×16,4x mini-DP 1.4,$200
+Radeon Pro WX 8200 (Vega) [294],August 2018,GCN 5th gen (14 nm),12500×106 484mm2,3584:224:64 (56),1200 1530,342.7,97.92,2x SP,10.967,1/16 SP,HBM2 2048,8,2000,512,<230,PCIe 3.0 ×16,4x mini-DP 1.4,$999
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

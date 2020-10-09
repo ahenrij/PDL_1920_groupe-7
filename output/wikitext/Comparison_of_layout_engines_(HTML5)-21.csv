@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
 section,rowspan="7" 5.0[21],rowspan="7" 12,rowspan="7" 2.0[22][23],rowspan="7" 533[24][25][26][27][28][29],rowspan="7" 2.7.70
 nav,,,,,
@@ -28,3 +29,7 @@ bdi,10.0[62],528[63],,,
 data,,,22.0[64],,
 picture,,13,38.0[65],,
 ! Trident,EdgeHTML,Gecko,WebKit,Presto,
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+bdo,5.0,1.0,,"While alphabetic and alphanumeric words are affected, numeric (numbers only) words are not.date=August 2010group=note",1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Element,Function,Supported first by,Deprecated in HTML version,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
 applet,Insert an applet,HotJava,4[7],"embed, object",<3.1[IE 4.0],1.7,Yes,Yes,1.0
 basefont,Sets font styles,Internet Explorer,4,CSS,<3.1[IE 3.0],No[8],85,,Yes
@@ -12,3 +13,16 @@ s,Strike-through,?,4,"del, CSS",<3.1[IE 4.0],1.7,,,1.0
 strike,Strike-through,?,4,"del, CSS",,,,,
 u,Underline,?,4,CSS,,,,,
 xmp,"Similar to pre and plaintext, but ignores all HTML within and displays as is",?,2,"pre, samp, code",<3.1[IE 3.0],,125,3.3,
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Element identifiers,,,,,
+id,<3.1[IE 3.0],1.0,Yes,Yes,1.0
+class,,,,,
+Inline styles,,,,,
+style,<3.1[IE 3.0],1.0,Yes,Yes,1.0
+Advisory information,,,,,
+title,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+Language information,,,,,
+lang,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+dir,<3.1[IE 5.0],,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

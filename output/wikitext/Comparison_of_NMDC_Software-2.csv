@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 NMDC[1] hub,FOSS,Software license,Active,Latest version (release date),GUI,CLI,Other,IPv6 support,Programming language,Based on,Notes
 UFOHub,,,,8.19.9 (2019-Sep-05),,,,,,,
 Verlihub,,GNU GPL,,1.2.0.0 (2019-03-10),,,,,"C++, Lua, Python, Perl",,
@@ -18,3 +19,15 @@ YnHub,,,,1.0364.126 (2016-07-15),,,,,Delphi,,
 LamaHub,,GNU GPL,,0.0.6.3 (2010-04-25),,,,,C,,
 DC Sharp Hub,,GNU GPL,,3.0.4 beta (2004-09-06),,,,,C#,,
 NMDC hub,FOSS,Software license,Active,Latest version (release date),GUI,CLI,Other,IPv6 support,Programming language,Based on,
+=======
+Other software,GUI,CLI,Other,Programming language,Based on
+jDCbot,,,,Java,
+Net::DirectConnect,,,,Perl,
+FlowLib,,,,C#,
+DC-hublink,,,,Visual Basic,
+Hub-Link,,,,Visual Basic,
+MyIrcDcLinks,,,,Delphi,
+NetChatLink,,,,Delphi,
+Kitty,,,,C#,
+Other software,GUI,CLI,Other,Programming language,Based on
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

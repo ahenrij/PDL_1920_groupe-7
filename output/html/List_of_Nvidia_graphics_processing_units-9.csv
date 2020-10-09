@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
 ,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
 Quadro 400,GT216GL,40,PCIe 2.0 ×16,450,1125,1540,48:16:4,1.8,7.2,512,12.3,DDR3,64,108,-,10.1,4.5,32,"DisplayPort, Dual Link DVI"
@@ -8,3 +9,18 @@ Quadro 5000,,,,513,1026,3000,352:444:40,20.53,22.572,2560,120,,320,722.304,359,,
 Quadro 6000,,,,574,1148,,448:564:48,27.552,32.144,6144,144,,384,1028.608,515,,,204,
 Quadro 7000,GF110,,,651,1301,3696,512:644:48,31.248,41.7,6144,177,,,1332,667,,,,
 Quadro Plex 7000[202],2x GF100,,,574,1148,3000,2x 512:644:48,2x 18.37,2x 36.74,2x 6144,2x 144,,2x 384,2x 1176,2x 588,,,600,
+=======
+Model,Features,,,,,,,
+,Scalable Link Interface (SLI),PureVideo 2 with VP2 Engine: (BSP and 240 AES),PureVideo 4 with VP4 Engine,,,,,
+GeForce 210,No,No,Yes,,,,,
+GeForce GT 220,,,,,,,,
+GeForce GT 240,,,,,,,,
+GeForce GTS 250,Yes 3-Way (4-way for EVGA 285 Classified),Yes,No,,,,,
+GeForce GTX 260,,,,,,,,
+GeForce GTX 260 Core 216,,,,,,,,
+GeForce GTX 260 Core 216 (55 nm),,,,,,,,
+GeForce GTX 275,,,,,,,,
+GeForce GTX 280,,,,,,,,
+GeForce GTX 285,,,,,,,,
+GeForce GTX 295,Yes,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
 ,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
 Radeon 9500,"Oct. 24, 2002",R300 (Khan),150,AGP 8x,275,270,4:4:4:4,1100,1100,1100,275,"64, 128","8.64, 17.28",DDR,"128, 256"
@@ -21,3 +22,11 @@ Radeon 9800 XT,"Sept. 9, 2003",R360,,,412,365,8:4:8:8,3296,3296,3296,412,256,23.
 Radeon X1050 AGP,"Dec. 7, 2006",RV350 (Shivah),130,,250,200,4:2:4:4,1000,1000,1000,125,"128, 256",6.4,,128
 Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
 ,,,,,,,,Fillrate,,,,Memory,,,
+=======
+Model,Released,Codename,Architecture,Fab (nm),Core clock rate (MHz),Config core[a],Fillrate,,Shared memory,,,Processing power (GFLOPS),API compliance (version),,,,Combined TDP[b],,APU
+,,,,,,,Pixel (GP/s),Texture (GT/s),Bandwidth (GB/s),Bus type,Bus width (bit),,Direct3D,OpenGL,OpenCL,Vulkan,Idle (W),Max. (W),
+Radeon HD 6250[152],"November 9, 2010[153]",Wrestler[154],TeraScale 2,40,280–400,80:8:4:2,1.12–1.6,2.24–3.2,8.525,DDR3-1066,64,44.8–64,11.3 (11_0),4.5,1.2,N/A,Unknown,9,"C-30, C-50, Z-60"
+Radeon HD 6290,"January 7, 2011",Ontario,,,276–400,,,,,,,,,,,,,,C-60
+Radeon HD 6310[152],"November 9, 2010[153]",Wrestler[154],,,492,,2.0,4.0,,,,80,,,,,,18,"E-240, E-300, E-350"
+Radeon HD 6320,"August 15, 2011",,,,508–600,,2.032–2.4,4.064–4.8,10.6,DDR3-1333,,82–97,,,,,,,E-450
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

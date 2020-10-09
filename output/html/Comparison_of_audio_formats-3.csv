@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Audio compression format,ACM,DirectShow,QuickTime,GStreamer,FFmpeg,Media Foundation
 8SVX,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),Yes,Yes (ffdshow)
 AAC,Yes,"Yes (ffdshow, Monogram[47])",Yes,Yes (GStreamer FFmpeg plug-in),Yes,Yes
@@ -38,3 +39,24 @@ Truespeech,Yes,Yes,Yes (Perian),Yes (GStreamer FFmpeg plug-in),Yes,Yes (ffdshow)
 True Audio (TTA),Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),Yes,Yes (ffdshow)
 QCELP,Yes (ffdshow),Yes (ffdshow),Yes,Yes (GStreamer FFmpeg plug-in),Yes,Yes (ffdshow)
 Audio compression format,ACM,DirectShow,QuickTime,GStreamer,FFmpeg,Media Foundation
+=======
+Codec,Windows,macOS,Linux,BSD,Unix,Palm OS,Symbian OS,Rockbox,iOS,Android[43],Chromium[44]
+AAC,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+AC-3,Yes,?,Yes,?,?,?,?,?,Yes,?,?
+ALAC,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,No
+ALS,?,?,?,?,?,?,?,?,?,?,?
+aptX,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No
+CELT,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No
+E-AC3,Yes,?,?,?,?,?,?,?,Yes,?,?
+FLAC,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Monkey's Audio,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No
+MP3,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Musepack,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+Opus,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes
+RealAudio[45],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+Speex,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
+Vorbis,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes
+True Audio (TTA),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes
+WavPack,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,No,No
+WMA[45],Yes,Yes[46],Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

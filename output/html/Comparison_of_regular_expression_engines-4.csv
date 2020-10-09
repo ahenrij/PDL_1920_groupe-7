@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Official website,Programming language,Software license,Used by
 Boost.Regex[Note 1],Boost C++ Libraries,C++,Boost,"Notepad++ >= 6.0.0, EmEditor"
 Boost.Xpressive,Boost C++ Libraries,C++,Boost,
@@ -30,3 +31,19 @@ TRE[Note 2],Ville Laurikari,C,BSD,musl
 TRegExpr,RegExp Studio,Object Pascal,"Dual-license: freeware, or LGPL with static linking exception",Total Commander
 XRegExp,XRegExp,JavaScript,MIT,
 Wolfram Language (Mathematica),Wolfram Language Documentation Center,Wolfram Language,,"Mathematica, the Wolfram Development Platform"
+=======
+,Native UTF-16 support[Note 1],Native UTF-8 support[Note 1],Multi-line matching,Partial match[Note 2]
+Boost.Regex,No,No,Yes,Yes
+GLib/GRegex,Yes,Yes,Yes,Yes
+RXP,Yes,Yes,No,Yes
+ICU Regex,Yes,No,Yes,?
+Java,No,Partial[Note 3],Yes,Yes
+.NET,No[Note 4],Yes,Yes,?
+PCRE,Yes[Note 5],Yes,Yes,Yes
+Qt/QRegExp,Yes,No,No,?
+Tcl,Yes,Yes[Note 6],Yes,?
+TRE,Yes,Yes,Yes,?
+RGX,No,No,Yes,?
+wxWdigets::wxRegEx[Note 7],Yes,Yes,Yes,?
+XRegExp,Yes,?,Yes,?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN
 Linux,netfilter iptables/nftables,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 FreeBSD,"IPFW2, IPFilter, PF",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
@@ -25,3 +26,13 @@ RTEMS,,Yes,No,,Yes,Yes,Yes,Yes,Yes,,
 HelenOS,,Yes,Yes,No,No,No,Yes,No,No,No,No
 E/OS,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
 Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN
+=======
+Operating system,Mandatory access control,Software executable space protection,Operating system-level virtualization,Virtualisation,Userspace protection,Others
+Linux,"SELinux, AppArmor[Note 1]","Exec Shield,[Note 1] PaX[Note 1]","Chroot, namespace and cgroups,[Note 2] Linux-VServer,[Note 1] OpenVZ[Note 1]",KVM,"IPFilter, Iptables","grsecurity,[Note 1] RSBAC[Note 1]"
+FreeBSD,"SeBSD,[Note 3][Note 4] TrustedBSD",ProPolice/SSP[Note 5],jail,bhyve[20],"IPFW, PF, IPFilter",
+Darwin,"SEDarwin, TrustedBSD",,jail,,IPFW,
+OpenBSD,,"W^X, ProPolice/SSP[Note 6]",,vmm[21],PF,
+"OpenSolaris, illumos",TrustedBSD,,Solaris Containers,KVM[22],IPFilter,RBAC[23]
+Plan 9,No,No,per-process namespaces,,,
+Inferno,No,No,per-process namespaces,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

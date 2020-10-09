@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Version,Shell,Visual styles,Browser,Web server,Windows Media Player,Command-line interpreter
 Windows 1.0,MS-DOS executive,(Unnamed),N/A,N/A,N/A,N/A
 Windows 2.0,MS-DOS executive,(Unnamed),N/A,N/A,N/A,N/A
@@ -22,3 +23,9 @@ Windows 8.1,Windows shell,Metro,Internet Explorer 11,IIS 8.5,12,"COMMAND.COM, CM
 Windows 10,Windows shell,Metro,Internet Explorer 11 Microsoft Edge 12-13,IIS 10.0,12,"COMMAND.COM, CMD.EXE, PowerShell v5.0"
 Windows Server 2016,"Windows shell, Windows server core",Metro,Internet Explorer 11 Microsoft Edge 13,IIS 10.0,12 (via "Desktop Experience"),"CMD.EXE, PowerShell v5.0"
 Windows Server 2019,"Windows shell, Windows server core",Metro,Internet Explorer 11 Microsoft Edge 13,IIS 10.0,12 (via "Desktop Experience"),"CMD.EXE, PowerShell v5.0"
+=======
+,FAT12,FAT16,FAT32,HPFS,ISO 9660,NTFS,UDF
+Windows 95,Yes,Yes,Yes (OSR2 or above),Network Drive,Yes,Network Drive,No
+Windows 98,Yes,Yes,Yes,Network Drive,Yes,Network Drive,"Yes (1.5, read)"
+Windows Me,Yes,Yes,Yes,Network Drive,Yes,Network Drive,"Yes (1.5, read)"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

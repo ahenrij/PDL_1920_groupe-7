@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Official website,Programming language,Software license,Used by
 Boost.Regexgroup=Noteboost_regex_formerly_regex,Boost C++ Libraries,C++,Boost,"Notepad++ >= 6.0.0, EmEditor"
 Boost.Xpressive,Boost C++ Libraries,C++,Boost,
@@ -30,3 +31,37 @@ TREgroup=Notefuzzy_regexp_libraries,Ville Laurikari,C,BSD,musl
 TRegExpr,RegExp Studio,Object Pascal,"Dual-license: freeware, or LGPL with static linking exception",Total Commander
 XRegExp,XRegExp,JavaScript,MIT,
 Wolfram Language (Mathematica),Wolfram Language Documentation Center,Wolfram Language,,"Mathematica, the Wolfram Development Platform"
+=======
+,Directives group=Notedirectives_explanation,Conditionals,Atomic groups group=Noteatomic_grouping_explanation,Named capture group=Notenamed_groups_explanation,Comments,Embedded code,Unicode property support [20],Balancing groups group=Notebalancing_groups_explanation,Variable-length look-behinds group=Notevarlength_lookbehind_explanation
+Boost.Regex,,,,,,,group=Noteproperties_limited,,
+Boost.Xpressive,,,,,,,,,
+CL-PPCRE,,,,,,,group=Noteproperties_limited,,
+EmEditor,,,,,,,,,
+FREJ,,,,,,,,,
+GLib/GRegex,,,,,,,group=Noteproperties_limited,,
+GNU grep,,,,,,,,,
+Haskell,,,,,,,,,
+RXP,,,,,,,,,
+ICU Regex,,,,group=Noteavailable_icu_55,,,,,
+Java,,,,group=Noteavailable_java_7,,,group=Noteproperties_limited,,
+JavaScript (ECMAScript),,,,,,,group=Noteproperties_limited[21][22],,
+JGsoft,,,,,,,group=Noteproperties_limited,,
+Lua,,,,,,,,,
+.NET,,,,,,,group=Noteproperties_limited,,
+OCaml,,,,,,,,,
+OmniOutliner 3.6.2,,,,,,,,,
+PCRE,,,,,,,,,
+Perl,,,,,,,,,group=Noteperl5_varlength_lookbehind
+PHP,,,,,,,,,
+Python,,,group=Notepython_regex_only2,,,,group=Notepython3_regex_only,,group=Notepython_regex_only2
+Qt/QRegExp,,,,,,,,,
+RE2,,,?,,,,group=Noteproperties_limited,,
+Ruby / Onigmo,,,,,,,group=Noteproperties_limited,,
+Tcl,,,,,,,,,
+TRE,,,,,,,,,
+Vim,,,,,,,,,
+RGX,,,,,,,,,
+XML Schema,,,,,,,,,
+XPath 3/XQuery,,,,,,,,,
+XRegExp,Leading only,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

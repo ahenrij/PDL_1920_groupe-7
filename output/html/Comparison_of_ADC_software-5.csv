@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support,Other
 ADCCore,Yes,?,Yes,Tiger tree hash,"TIGR, ADCS",
 DCBouncer,Yes,No,No,Tiger tree hash,"Any clients, hubs",
@@ -8,3 +9,17 @@ FlowLib,Yes,?,Yes,Tiger tree hash,TIGR,
 NetChatLink,No,No,No,Tiger tree hash,TIGR,
 Announcer Bot,Yes,No,No,,"ADCS, OSNR",only Luadch supports OSNR
 Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support,Other
+=======
+Other software,Software type,FOSS,Software license,Active,Last Update
+ADCCore,General library,Yes,GNU GPL,Yes,
+DCBouncer,Relay,Yes,GNU GPL,Yes,
+DC-Hublink,Hub linker,Yes,GNU GPL,No,
+DCWatch,Hub operator helper,Yes,GNU GPL,No,
+Embla,General library,Yes,GNU GPL,?,
+FlowLib,General library,Yes,GNU GPL,Yes,
+NetChatLink,Hub linker,Yes,GNU GPL,Yes,
+Announcer Bot,Announce new Releases,Yes,GNU GPLv2,Yes,
+Certmanager,Manage SSL Certificates,Yes,GNU GPLv2,Yes,
+SerieBot,SerieBot,Yes,GNU GPL,Yes,
+Other software,Software type,FOSS,Software license,Active,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

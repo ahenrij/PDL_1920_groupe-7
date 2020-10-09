@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages
 "split(/separator/, string«, limit»)",Perl 5
 "split(separator, string«, limit») string.split(separator, «limit»)",Raku
@@ -20,3 +21,7 @@ string.componentsSeparatedByString(separator),Swift (Foundation)
 split string separator,Tcl
 (separator?string)?string or separator(???)string in APL2 and Dyalog APL 16.0 respectively,APL
 "string.split(separator) string.split(limit, separator)",Rust[42]
+=======
+Definition,string1 OP string2 OR (compare string1 string2) returns Boolean.
+Description,Lexicographically compares two strings using a relational operator or function. Boolean result returned.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

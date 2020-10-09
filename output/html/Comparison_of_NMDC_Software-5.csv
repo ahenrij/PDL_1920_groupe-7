@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 NMDC hub,Windows,Linux,Mac OS X,Other
 UFOHub,Yes,No,No,No
 Eximius,Yes,No,No,No
@@ -19,3 +20,15 @@ Ynhub,Yes,No,No,No
 LamaHub,Yes,Yes,Yes,"OS/2, OpenBSD, NetBSD, TrueOS, FreeBSD, ZeX/OS, Android[9]"
 DC Sharp Hub,Yes,No,No,No
 NMDC hub,Windows,Linux,Mac OS X,Other
+=======
+Other software,GUI,CLI,Other,Programming language,Based on
+jDCbot,No,No,No,Java,
+Net::DirectConnect,No,No,No,Perl,
+FlowLib,No,No,No,C#,
+DC-hublink,Yes,No,No,Visual Basic,
+Hub-Link,Yes,No,No,Visual Basic,
+MyIrcDcLinks,Yes,No,No,Delphi,
+NetChatLink,Yes,No,No,Delphi,
+Kitty,Unknown,Unknown,Unknown,C#,
+Other software,GUI,CLI,Other,Programming language,Based on
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

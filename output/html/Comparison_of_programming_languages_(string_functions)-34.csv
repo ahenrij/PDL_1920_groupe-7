@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages,If not found
 "InStrRev(«startpos,» string,substring)",VB,returns 0
 "instrrev(«startpos,» string,substring)",FreeBASIC,returns 0
@@ -23,3 +24,7 @@ string lastIndexOfString:substring,Smalltalk,returns 0
 string last substring string startpos,Tcl,returns ?1
 (?<\?substring?'string')?1,APL,returns ?1
 string.rfind(substring),Rust[39],returns None
+=======
+Definition,"concatenate(string1,string2) returns string."
+Description,"Concatenates (joins) two strings to each other, returning the combined string. Note that some languages like C have mutable strings, so really the second string is being appended to the first string and the mutated string is returned."
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

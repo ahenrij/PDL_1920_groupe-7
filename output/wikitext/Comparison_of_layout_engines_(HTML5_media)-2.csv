@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Trident,Gecko,WebKit,Presto[290]
 Error state,,,
 MediaError,5.0 [291],1.9.1,?
@@ -30,3 +31,8 @@ Controls,,,
 controls,rowspan="3" 5.0[21],rowspan="3" 1.9.1,?
 volume,,,
 muted,,,
+=======
+,Trident,Gecko,WebKit,Presto
+2d,5.0,1.9.1,,2.6
+WebGL,7.0[328],,,2.9.220[331]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Creator,Primary Purpose(s),First release date,Most recent update,Most recent version,Cost,License,Main user interface type,Development status
 Bidule,Plogue,"Realtime synthesis, live coding, algorithmic composition, acoustic research, all-purpose programming language",2002,2017-06,0.9757,,Proprietary,Graphical,Mature
 ChucK,Ge Wang and Perry Cook,"Realtime synthesis, live coding, pedagogy, acoustic research, algorithmic composition",2004,2018-02-09,v1.4.0.0,,GPL,Document,Immature
@@ -11,3 +12,17 @@ SuperCollider,James McCartney,"Realtime synthesis, live coding, algorithmic comp
 Sporth,Paul Batchelor,"Sound design, algorithmic composition, live coding, embedded systems",2015,2016-05,-,,MIT,Document,Immature
 SynthEdit,Jeff McClintock,"Realtime synthesis, live coding, effects coding, GUI design",1999,2019,1.4,,Proprietary/BSD,Graphical,Mature
 VCV Rack,Andrew Belt,Realtime audio synthesis,2017-09,2019-09-29,1.1.5,,BSD-like,Graphical,Immature
+=======
+Name,Textual/graphical,Object-oriented,Type system
+Bidule,Graphical,No,
+ChucK,Textual,Yes,Static
+Csound,Textual/Graphical (FLTK/Qt/HTML5),No,In development
+Impromptu,Mostly textual,-,Dynamic & static
+Kyma,Mostly Graphical,Yes,Dynamic
+Max/MSP,Graphical,No,
+Pure Data,Graphical,No,
+Reaktor,Graphical,No,
+SuperCollider,Textual/Graphical (Cocoa/Swing/Qt),Yes,Dynamic
+SynthEdit,Graphical,Yes,Static
+MPEG-4/SA,Textual,No,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

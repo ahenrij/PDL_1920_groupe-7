@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
 Apache OFBiz,Yes,Yes,Yes,No
 Batavi,Yes,No,Yes,No
@@ -15,3 +16,21 @@ SupaDupa,Yes,No,No,No
 WooCommerce,No,add-on,No,No
 Zen Cart,Yes,add-on,Yes,No
 ,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
+=======
+,Product import-export,Statistics,Stock control,WYSIWYG editor
+Apache OFBiz,Yes,Yes,Yes,Yes
+Batavi,Yes,Yes,Yes,Yes
+Bigcommerce,Yes,Yes,Yes,Yes
+Drupal Commerce,Yes,Yes,Yes,Yes
+KonaKart,Yes,Yes,Yes,Yes
+Magento,Yes,Yes,Yes,Yes
+nopCommerce,Yes,Yes,Yes,Yes
+osCommerce,add-on,Yes,Yes,add-on
+pimcore,Yes,Yes,Yes,Yes
+PrestaShop,Yes,Yes,Yes,Yes
+Shopify,Yes,Yes,Yes,No
+SupaDupa,Yes,Yes,Yes,No
+WooCommerce,Yes,Yes,Yes,Yes
+Zen Cart,add-on,Yes,Yes,add-on
+,Product import-export,Statistics,Stock control,WYSIWYG editor
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

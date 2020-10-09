@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 IDE,License,Windows,Linux,macOS,Other platforms
 Eclipse JDT,EPL,,,,"FreeBSD, JVM, Solaris"
 IntelliJ IDEA,"ASLv2, proprietary",,,,"FreeBSD, OpenBSD, Solaris"
 NetBeans,"CDDL, GPL2",,,,Solaris
+=======
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Profiler,Static code analysis,MXML,Export to Mobile
+Adobe Animate Formerly Adobe Flash Professional,,,,,JVM,,,,,,
+Flash Builder,,,,,JVM,,,,,,
+FlashDevelop,MIT License,,,,,,,,,,
+IntelliJ IDEA,,,,,"FreeBSD, OpenBSD, Solaris",,,,,,
+Powerflasher FDT,,,,,JVM,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

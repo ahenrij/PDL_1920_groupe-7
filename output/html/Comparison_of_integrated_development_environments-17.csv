@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
 BlueJ,GPL2+GNU linking exception,Yes,Yes,Yes,Yes,Solaris,No
 DrJava,Permissive,Yes,Yes,Yes,Yes,Solaris,No
@@ -16,3 +17,9 @@ Servoy,Proprietary,Yes,Yes,Yes,Yes,Solaris,Yes
 SlickEdit,Proprietary,No,Yes,Yes,Yes,"Solaris, Solaris SPARC, AIX, HP-UX",No
 Understand,Proprietary,No,Yes,Yes,Yes,Solaris,Yes
 Xcode (Apple),Proprietary,No,No,Yes,Yes,,Yes
+=======
+IDE,License,Windows,Linux,macOS,Other platforms,Editor,Debugger,GUI builder,Profiler,Browsers
+Allegro Common Lisp,Proprietary,Yes,Yes,Yes,"FreeBSD, HP-UX, AIX, Solaris, Tru64 UNIX",Yes,Yes,Yes,Yes,"Class browser, Systems, Definitions"
+LispWorks,Proprietary,Yes,Yes,Yes,"FreeBSD, HP-UX, Solaris",Yes,Yes,Yes,Yes,"Class browser, Functions, Errors, Processes, Symbols, Systems"
+SLIME (Emacs),"portions in GPL v2, LGPL, BSD and public domain",Yes,Yes,Yes,"DragonFly BSD, FreeBSD, HP-UX, AIX, IRIX, DOS, NetBSD, OpenBSD, OpenVMS, OS/2, Solaris, other Unix",Yes,Yes,No,Yes,"Class browser, Errors, Symbols"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

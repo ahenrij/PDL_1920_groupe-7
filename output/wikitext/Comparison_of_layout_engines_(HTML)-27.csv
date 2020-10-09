@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
 main element[219],,12,21.0[220],,
 template element[222],,13,,,
@@ -16,3 +17,19 @@ Geolocation API[267],5.0[268],12,1.9.1[269],533[270],"2.61=Geolocation support w
 Offline Web applications[273],6.0[274],12,1.9.1[275],,2.6[68][69]
 Web Notifications[276],,,22.0[277][278], only in Chrome[279],25[280]
 ! Trident,EdgeHTML,Gecko,WebKit,Presto,
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Basic table elements,,,,,
+table,rowspan="5" 4.0,rowspan="5" 1.0,rowspan="5" ,rowspan="5" ,rowspan="5" 1.0
+caption,,,,,
+tr,,,,,
+th,,,,,
+td,,,,,
+Row groups,,,,,
+thead,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+tbody,,,,,
+tfoot,,,,,
+Column groups,,,,,
+colgroup,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+col,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

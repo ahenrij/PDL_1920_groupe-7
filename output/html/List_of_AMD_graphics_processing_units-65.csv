@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Graphics core,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core clock2 (MHz),Core config1,Fillrate,,,Memory3,,,,,Processing power (GFLOPS),Features / Notes
 ,,,,,,,,,,Pixel (GP/s),Texture (GT/s),FP32 (GP/s),Size (MB),Bandwidth (GB/s),Bus type,Effective clock (MHz),Bus width (bit),,
 Radeon HD 4200 Graphics (785G Chipset),Aug 2009,RS880,RV620,55,>205,~73 (~9 × 8.05),HT 3.0,500,40:4:4,2,2,1,Up to 512 system + optional 128 sideport,20.8 (system) + 2.6 (sideport),HT (system) + DDR2-1066 DDR3-1333 (sideport),1333 (sideport),16 (sideport),40,UVD2
 Radeon HD 4250 Graphics (880G Chipset),Mar 2010,RS880,,,,,,560,,2.24,2.24,1.12,,,HT (system) + DDR3-1333 (sideport),,,44.8,
 Radeon HD 4290 Graphics (890GX Chipset),,RS880D,,,,,,700,,2.8,2.8,1.4,Up to 512 system + 128 sideport,,,,,56,
+=======
+Model (codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TBP,Bus interface
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Bandwidth (GB/s),,
+Radeon RX Vega 56 (Vega10 XL)[103][104][105],"August 28, 2017 $399 USD",GCN 5th gen Samsung/GloFo 14LPP[106][f],12.5×109 486 mm2,3584:224:64 56 CU,1156 1471,258.9 329.5,74.0 94.1,16572 21088,8286 10544,518 659,HBM2 2048-bit,8,1600,410,210 W,PCIe 3.0 ×16
+Radeon RX Vega 64 (Vega10 XT)[103][105][107],"August 14, 2017 $499 USD",,,4096:256:64 64 CU,1247 1546,319.2 395.8,79.8 98.9,20431 25330,10215 12665,638 792,,,1890,483.8,295 W,
+Radeon RX Vega 64 Liquid (Vega10 XT)[103][105][107],"August 14, 2017 $699 USD",,,,1406 1677,359.9 429.3,90.0 107.3,23036 27476,11518 13738,720 859,,,,,345 W,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

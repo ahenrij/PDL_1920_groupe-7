@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Camera model,Camera line,Manufacturer,Introduced,Weight,MOS/sync,Noise level
 Eyemo 71K,Eyemo,Bell and Howell,1925,11 lb (5.0 kg),MOS,N/A
 Arriflex 35-2C,Arriflex 35 II,Arri,1964,"13.5 lb (6.1 kg), with empty magazine",MOS,N/A
@@ -28,3 +29,21 @@ Aaton 35-3P,Aaton 35,Aaton,2002,"16 lb (7.3 kg), with full magazine and onboard 
 Arriflex 235,Arriflex 235,Arri,2004,"7.7 lb (3.5 kg), with viewfinder",MOS,N/A
 Arriflex 435 Xtreme,Arriflex 435,Arri,2004,"14.3 lb (6.5 kg), without magazine",MOS,N/A
 Aaton Penelope,Aaton Penelope,Aaton,2008,"17 lb (7.7 kg), with full magazine and onboard battery",Sync,"23 dB (3 perf), 22 dB (2 perf)"
+=======
+Camera model,Camera line,Manufacturer,Introduced,Weight,MOS/sync,Lens mount
+7LTR (Super 16),Aaton LTR,Aaton,1974,,Sync,Aaton universal
+54LTR,Aaton LTR,Aaton,1982,,Sync,Aaton universal
+Arriflex 16HSR2 (Super 16),Arriflex 16SR,Arri,1982,"11.02 lb (5.00 kg), with empty magazine",Sync,Arri bayonet (Arri PL for some later models)
+Arriflex 16SR2 (Super 16),Arriflex 16SR,Arri,1982,"11.02 lb (5.00 kg), with empty magazine",Sync,Arri bayonet (Arri PL for some later models)
+Panaflex 16 ("The Elaine"),Panaflex 16,Panavision,"June 27, 1984[1]","16.6 lb (7.5 kg), with eyepiece",Sync,PV mount
+XTR,Aaton XTR,Aaton,1984,,Sync,Aaton universal
+Arriflex 16HSR3,Arriflex 16SR,Arri,1992,14.5 lb (6.6 kg),Sync,Arri PL
+Arriflex 16SR3,Arriflex 16SR,Arri,1992,14.5 lb (6.6 kg),Sync,Arri PL
+X0plus,Aaton XTR,Aaton,1992,,Sync,Aaton universal
+XTRplus,Aaton XTR,Aaton,1992,,Sync,Aaton universal
+XTRprod,Aaton XTR,Aaton,1994,"13 lb (5.9 kg), with onboard battery and full magazine",Sync,"Arri PL, Aaton universal, or PV mount"
+A-Minima,A-Minima,Aaton,2000,"5 lb (2.3 kg), with onboard battery and full magazine",Sync,Arri PL and Nikon
+Arriflex 416,Arriflex 416,Arri,2006,"12.1 lb (5.5 kg), with full magazine",Sync,Arri PL
+Arriflex 416 Plus,Arriflex 416,Arri,2006,"12.6 lb (5.7 kg), with full magazine",Sync,Arri PL
+Xtera,Aaton XTR,Aaton,2006,,Sync,"Arri PL, Aaton universal, or PV mount"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

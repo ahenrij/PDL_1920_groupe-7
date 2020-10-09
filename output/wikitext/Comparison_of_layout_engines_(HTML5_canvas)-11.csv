@@ -1,4 +1,5 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Phrase,,,,,
 em,rowspan="9" 4.0,rowspan="10" 1.0,rowspan="10" ,rowspan="10" ,rowspan="10" 1.0
 strong,,,,,
@@ -23,3 +24,13 @@ br,5.0,,,,
 Marking document changes,,,,,
 ins,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
 del,,,,,
+=======
+Images,,,,,
+img,4.0,1.0,,,1.0
+Generic inclusion,,,,,
+object,"4.0For images, a frame will be added to the object. Other content types are not supported and the element is incorrectly implemented as an ActiveX wrapper. Nested objects fallback mechanism is not supported prior to version 7.[2]group=note",rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+param,6.0,,,,
+Image maps,,,,,
+map,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+area,5.0,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

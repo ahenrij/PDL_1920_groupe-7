@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Features,,,,,,,,
 ,Scalable Link Interface (SLI),"PureVideo 2 with VP2, BSP Engine, and AES128 Engine","PureVideo 3 with VP3, BSP Engine, and AES128 Engine",,,,,,
 GeForce 9300 GE (G98),Yes,No,Yes,,,,,,
@@ -10,3 +11,8 @@ GeForce 9800 GT,,,,,,,,,
 GeForce 9800 GTX,Yes 3-way,,,,,,,,
 GeForce 9800 GTX+,,,,,,,,,
 GeForce 9800 GX2,Yes,,,,,,,,
+=======
+Model,Code name[174],Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate[210],,Memory,,,,Processing power (GFLOPS),,Supported API version,,,,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
+Quadro GV100[212],GV100-875-A1,12,PCIe 3.0 ×16,1132,1627,848 (1696),5120:320:128:80:640,208.4,521,32,870,HBM2,4096,14800,7400,12.1,4.6,1.1,1.2,7,250,"4x DisplayPort, NVLINK support"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

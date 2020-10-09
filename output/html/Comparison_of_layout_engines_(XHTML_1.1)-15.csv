@@ -1,2 +1,6 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 style,<3.1[IE 3.0] [2][note 1],Yes,Yes,Yes,Yes,Yes,Yes
+=======
+img,<3.1[IE 1.0] [8],Yes,Yes,Yes,Yes,Yes,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,4 +1,5 @@
 ,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Interface CDATASection,,,,,,,
 DOM1,(no properties),,,1.0,,?,2.0
 Interface DocumentType,,,,,,,
@@ -23,3 +24,45 @@ DOM1,(no properties),,,1.0,,?,
 Interface ProcessingInstruction,,,,,,,
 DOM1,target,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0,rowspan="2" ,?,rowspan="2" 2.0
 ,data,?,,,,,
+=======
+Exception ExceptionVAL,,,,,,,
+DOM3,code,,,,,,
+Interface DocumentEditVAL,,,,,,,
+DOM3,continuousValidityChecking,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" 
+,domConfig,,,,,,
+,getDefinedElements(),,,,,,
+,validateDocument(),,,,,,
+Interface NodeEditVAL,,,,,,,
+DOM3,defaultValue,rowspan="7" ,rowspan="7" ,rowspan="7" ,rowspan="7" ,rowspan="7" ,rowspan="7" 
+,enumeratedValues,,,,,,
+,canInsertBefore(),,,,,,
+,canRemoveChild(),,,,,,
+,canReplaceChild(),,,,,,
+,canAppendChild(),,,,,,
+,nodeValidity(),,,,,,
+Interface ElementEditVAL,,,,,,,
+DOM3,allowedChildren,rowspan="17" ,rowspan="17" ,rowspan="17" ,rowspan="17" ,rowspan="17" ,rowspan="17" 
+,allowedFirstChildren,,,,,,
+,allowedParents,,,,,,
+,allowedNextSiblings,,,,,,
+,allowedPreviousSiblings,,,,,,
+,allowedAttributes,,,,,,
+,requiredAttributes,,,,,,
+,contentType,,,,,,
+,canSetTextContent,,,,,,
+,canSetAttribute,,,,,,
+,canSetAttributeNode,,,,,,
+,canSetAttributeNS,,,,,,
+,canRemoveAttribute,,,,,,
+,canRemoveAttributeNS,,,,,,
+,canRemoveAttributeNode,,,,,,
+,isElementDefined,,,,,,
+,isElementDefinedNS,,,,,,
+Interface CharacterDataEditVAL,,,,,,,
+DOM3,isWhitespaceOnly(),rowspan="6" ,rowspan="6" ,rowspan="6" ,rowspan="6" ,rowspan="6" ,rowspan="6" 
+,canSetData(),,,,,,
+,canAppendData(),,,,,,
+,canReplaceData(),,,,,,
+,canInsertData(),,,,,,
+,canDeleteData(),,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

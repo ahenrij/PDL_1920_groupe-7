@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Languages,Size,First,Last
 Ada,name'Length,name'First,name'Last
 ALGOL 68,UPB name - LWB name+1 2 UPB name - 2 LWB name+1 etc.,LWB name 2 LWB name etc.,UPB name 2 UPB name etc.
@@ -41,3 +42,15 @@ Visual Basic,UBound(name)-LBound(name)+1,LBound(name),UBound(name)
 Wolfram Language,Length[name],1 First[name],-1 Last[name]
 Xojo,UBound(name),0,UBound(name)
 XPath/XQuery,count($name),1,count($name) last() array:size(name)[4]
+=======
+Language/ Library,Create,Determinant,Transpose,Element,Column,Row,Eigenvalues
+APL,m?dims?x11 x12 ...,-.×m,?m,m[i;j] or i j?m,m[;j] or j?[2]m or j??m,m[i;] or i?m,??1?m
+Fortran,"m = RESHAPE([x11, x12, ...], SHAPE(m))",,TRANSPOSE(m),"m(i,j)","m(:,j)","m(i,:)",
+Ch [47],m = {...},determinant(m),transpose(m),m[i-1][j-1],"shape(m,0)","shape(m,1)","eigen(output, m, NULL)"
+Mathematica,"m = ,Det[m],Transpose[m],"m[[i,j]]","m[[;;,j]]",m[[i]],Eigenvalues[m]
+MATLAB / GNU Octave,m = [...],det(m),m.',"m(i,j)","m(:,j)","m(i,:)",eig(m)
+NumPy,m = mat(...),linalg.det(m),m.T,"m[i-1,j-1]","m[:,j-1]","m[i-1,:]",linalg.eigvals(m)
+S-Lang,"m = reshape([x11, x12, ...], [new-dims])",,m = transpose(m),"m[i,j]","m[*,j]","m[j,*]",
+SymPy,m = Matrix(...),,m.T,"m[i-1,j-1]",,,
+Wolfram Language,"m = ,Det[m],Transpose[m],"m[[i,j]]","m[[;;,j]]",m[[i]],Eigenvalues[m]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

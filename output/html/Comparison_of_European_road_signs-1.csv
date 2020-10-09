@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
 No vehicles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 No entry,,,,,,,,,,,,no exceptions or with exceptions,,,,,,,,,,,,,,,,,
@@ -6,3 +7,13 @@ No motor vehicles except motorcycles,,,,NOT USED,,NOT USED,NOT USED,,,,,NOT USED
 No motorcycles,,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,
 No bicycles,,,,,,,,,,,,,,,,,,,,,,,,,[note 5],,,,
 No pedestrians,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+=======
+,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Moldova,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland [6]
+Give Way / Yield,,,,,,,,,,,,or,,,,,,,,,,,,,,,,,or (Wales),
+Stop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Priority road,,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,NOT USED,
+End of priority road,,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,NOT USED,
+Give way to oncoming traffic,,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,,
+Priority over oncoming vehicles,,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,,
+,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Moldova,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

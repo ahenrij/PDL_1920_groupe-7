@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Error object,Trident,Gecko,WebKit,Presto
 Called as function,,,,
 Error (message),?,?,?,?
@@ -10,3 +11,23 @@ constructor,5.0,1.0,,1.0
 name,5.5,1.0,,1.0
 message,5.5,1.0,,1.0
 toString(),5.0,1.0,,1.0
+=======
+RegExp object,Trident,Gecko,WebKit,Presto
+Called as function,,,,
+"RegExp (pattern, flags)",?,?,?,?
+Called as constructor,,,,
+"new RegExp (pattern, flags)",4.0,1.0,,1.0
+Properties,,,,
+prototype,4.0,1.0,,1.0
+Properties of prototype,,,,
+constructor,4.0,1.0,,1.0
+exec(string),4.0,1.0,,1.0
+test(string),4.0,1.0,,1.0
+toString(),4.0,1.0,,1.0
+Properties of instances,,,,
+source,4.0,1.0,,1.0
+global,4.0,1.0,,1.0
+ignoreCase,5.5,1.0,,1.0
+multiline,5.5,1.0,,1.0
+lastIndex,4.0,1.0,,1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

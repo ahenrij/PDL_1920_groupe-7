@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Metadata,Java,C#
 Metadata annotations/attributes,Interface based; user-defined annotations can be created[81],Class based
 Positional arguments,,
@@ -6,3 +7,18 @@ Default values,At definition,Through initialization
 Nested types,,
 Specialization,,
 Conditional metadata,,
+=======
+Expressions and operators,Java,C#
+Arithmetic operators,,
+Logical operators,,
+Bitwise logic operators,,
+Conditional,,
+String concatenation,,
+Casts,,
+Boxing,,
+Unboxing,,
+Lifted operators,",
+Overflow control,,
+Strict floating point evaluation,,
+Verbatim (here-)strings,Yes; coming in version 15style=background: #8CF;[40],
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

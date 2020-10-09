@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Company,Software,On-demand scan,On-access scan,Boot-time scans,Heuristics,CloudAV,Firewall,IDS,IPS,Sandbox,Email Security,AntiSpam,Web protection,Macro protection,Live Update,Support,Settings Import/ Export,installer/ updater MIMA safe,License,Price,First release,Country of origin,Original author/s,Notes
 AhnLab,AhnLab V3 365 Clinic,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,?,?,Proprietary,Non-free,1988,South Korea,Dr. Ahn Cheol-Soo,
 AhnLab,AhnLab V3 Internet Security,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,No,Yes,Yes,Yes,Yes,?,?,Proprietary,Non-free,1988,South Korea,Dr. Ahn Cheol-Soo,
@@ -50,3 +51,10 @@ TrustPort,TrustPort Internet Security,Yes,Yes,No,Yes,No,Yes,No,No,?,Yes,Yes,Yes,
 TrustPort,TrustPort Total Protection,Yes,Yes,No,Yes,No,Yes,No,No,?,Yes,Yes,Yes,No,Yes,Yes,?,?,Proprietary,Trialware,2008,Czech Republic,,Third-party antivirus engine (?)
 VirusBlokAda,Vba32 AntiVirus,Yes,Yes,No,No,No,No,No,No,?,No,No,No,No,No,No,?,?,Proprietary,Non-free,2010,Belarus,,
 Company,Software,On-demand scan,On-access scan,Boot-time scans,Heuristics,CloudAV,Firewall,IDS,IPS,Sandbox,Email Security,AntiSpam,Web protection,Macro protection,Live-Update,Support,Settings Import/Export,installer/ updater MIMA safe,License,Price,First release,Country of origin,Original author/s,Notes
+=======
+Company,Software,On-demand scan,On-access scan,Firewall,Email security,AntiSpam,Web protection,Live-Update,Support,License,Price,First release,Country of origin,Notes
+Cisco,Clam AntiVirus,Yes,Yes,No,No,No,No,Yes,No,GNU GPL,Free,1998,United States,
+FRISK Software International,F-PROT Antivirus,Yes,Yes,No,Yes,No,No,Yes,Yes,Proprietary,Trialware,1989,Iceland,
+Panda Security,Panda DesktopSecure for Linux,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Proprietary,?,2009,Spain,
+Company,Software,On-demand scan,On-access scan,Firewall,Email security,AntiSpam,Web protection,Live-Update,Support,License,Price,First release,Country of origin,Notes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

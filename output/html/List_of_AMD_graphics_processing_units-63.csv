@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model (Codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TBP (W),Bus interface
 ,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,
 Radeon 520[83],"April 18, 2017 OEM",GCN 1st gen 28 nm,Unknown,320:20:4 5 CU,1030,20.6,4.1,659,Unknown,GDDR5 64-bit,1 2,4500,48,Unknown,Unknown
@@ -14,3 +15,9 @@ Radeon RX 570 (Polaris20 XL)[98][90],"April 18, 2017 $169 USD",,5.7×109 232 mm2,
 Radeon RX 580 (Polaris20 XT)[99][90],"April 18, 2017 $199 USD (4 GB) $229 USD (8 GB)",,,2304:144:32 36 CU,1257 1340,181.0 193.0,40.2 42.9,5792 6175,362.0 385.9,,,8000,256,185,
 Radeon RX 590 GME[100][101],"March 9, 2020 Only available in China",Unknown,,2304:144:32 36 CU,1257 1380,181.0 198.7,40.2 44.2,5792 6359,362.0 397.4,,8,8000,256,Unknown,
 Radeon RX 590 (Polaris30 XT)[102],"November 15, 2018 $279 USD",GCN 4th gen Samsung/GloFo 12LP (14LP+)[h],,2304:144:32 36 CU,1469 1545,211.5 222.5,47.0 49.4,6769 7120,423.0 444.9,,,8000,256,225,
+=======
+Model (Codename),Launch,Architecture (Fab),Transistors Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TBP,Bus interface,Release Price (USD)
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,,
+Radeon Vega Frontier Edition (Air Cooled)[291][292],27 June 2017,GCN 5th gen (14 nm),12.5×109 484 mm2,4096:256:64,1382,409.6,102.4,22643,11321,707.6,HBM2 2048-bit,16,1890,483.8,300 W,PCIe 3.0 ×16,$999
+Radeon Vega Frontier Edition (Liquid Cooled)[291][292],,,,,1600,,,26214,13107,819.2,,,,,350 W,,$1499
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

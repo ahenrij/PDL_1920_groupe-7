@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 Features:,Modularity: supports third-party modules to extend functionality?,IPS : Intrusion prevention system,Open-Source License?,supports IPv6?,Class: Home / Professional,Operating Systems on which it runs?
 Vyatta,Yes,Yes,Yes,Yes,Professional,Vyatta OS (built on Debian)
 WinGate,Yes[a],?,No,No,Professional,"Windows 2000, Windows XP, Windows 2003, Windows Vista, Windows 2008. 32bit and 64bit."
 pfSense,Yes,"Yes, with Snort and Suricata (modules)",Yes,Yes,Both,FreeBSD/NanoBSD-based appliance
 IPFire,Yes,"Yes, with Snort and Guardian",Yes,Yes (manual setup needed),Both,Linux (based on Linux From Scratch)
+=======
+Features:,"Configuration: GUI, text or both modes?","Remote Access: Web (HTTP), Telnet, SSH, RDP, Serial COM RS232, ...",Change rules without requiring restart?,Ability to centrally manage all firewalls together
+WinGate,GUI,Proprietary user interface,Yes,N/A
+ClearOS,both,"RS232, SSH, WebConfig,",Yes,Yes with ClearDNS
+Zeroshell,GUI,"SSH, Web (HTTPS), RS232",Yes,No
+pfSense,both,"SSH, Web (HTTP/HTTPS), RS232",Yes,No
+IPFire,both,"SSH, Web (HTTPS), RS232",Yes,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

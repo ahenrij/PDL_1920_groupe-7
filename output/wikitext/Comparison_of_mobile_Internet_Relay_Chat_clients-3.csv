@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Client,Primary developers,Cost,Software license,User interface,Programming language,Computing platform,Website
 AndroidChat[1],,Free,GNU GPL,"TUI, GUI",Java,Android,[1]
 Mobile Colloquy,Kiji Roshi,US$1.99,BSD License,GUI,Objective-C,iOS,[2]
@@ -15,3 +16,19 @@ YaaicYaaic,Sebastian Kaspari,Free,GNU GPL,GUI,Java,Android,[13]
 Simple IRC,The Linux Geek,Free,GNU GPL,GUI,Java,Android,[14]
 zsIRCzsIRC,Gargaj,Free,3-clause BSD,GUI,C++,Windows Mobile,[15]
 Client,Primary developers,Cost,Software license,User interface,Programming language,Computing platform,Website
+=======
+Client,CTCP,DCC,IPv6,SSL,TLS,OCSP,CRL
+AndroidChat,,,,,,,
+Mobile Colloquy,date=August 2010,date=August 2010,date=August 2010,date=August 2010,date=August 2010,date=August 2010,date=August 2010
+fIRC,,,,,,,
+jmIrc,,,,,,,
+k-IRC,,,,,,,
+Revolution IRC,,,,,,,
+Virca,,,,,,,
+wIRC,,,,,,,
+WLIrc,,,,,,,
+Yaaic,,,,,,,
+Simple IRC,,,,,,,
+zsIRC,,,,,,,
+Client,CTCP,DCC,IPv6,SSL,TLS,OCSP,CRL
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

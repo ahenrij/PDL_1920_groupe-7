@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory configuration,,,,Processing power (GFLOPS)2,TDP (Watts),Comments
 ,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Single precision,,
 GeForce 310,"November 27, 2009",GT218,TSMC 40 nm,260,57,PCIe 2.0 ×16,16:8:4,589,1402,1000,2.356,4.712,512,8,DDR2,64,44.8,30.5,"OEM Card, similar to Geforce 210"
@@ -7,3 +8,11 @@ GeForce GT 330[24],,GT215-301-A3[25],,,,,96:32:8,550,1350,,4.40,17.60,512,32.00,
 ,,GT92[26],,,,,,500,1250,,4.000,24.00,256,51.20,,256,240.0,,
 ,,GT92B[27],,,,,96:32:16,,,,8.000,,1024,16.32,DDR2,128,,,
 GeForce GT 340,,GT215,,,,,96:32:8,550,1340,3400,,,512 1024,54.4,GDDR5[28],128,257.3,69,"OEM Card, similar to GT240"
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS)[198][199],,Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro FX 560,G73GL,90,PCIe ×16,350,350,1200,5:12:12:8,2.8,4.2,128,19.2,GDDR3,128,,,9.0c,2.1,30,
+Quadro FX 46002,G80,,,500,1200,1400,96:24:24,12,24,768,67.2,,384,345,-,10.0,3.3,134,"Stereo display, SLI, Genlock"
+Quadro FX 4600 SDI2,,,,,,,96:24:24,,,,,,,345,,,,154,
+Quadro FX 56002,,,PCIe 2.0 ×16,600,1350,1600,128:32:24,14.4,38.4,1536,76.8,,,518.4,,,,171,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

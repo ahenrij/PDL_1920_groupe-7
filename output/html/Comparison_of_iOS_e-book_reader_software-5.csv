@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Product,Multi-column mode,Styles (bold/italic/etc.),Page Turn Effects,Themes,Day/Night mode,Enable/Disable sleep mode,Brightness Control,Indent paragraph,Enable/Disable CSS,Enable/Disable hyphenation,Customize margins,Customize text alignment,Customize font,Customize spacing: line/paragraph
 Apabi Reader,Yes,Yes,Configurable,Yes,Yes,Yes,Vertical swipe,Yes,Yes,Yes,No,Yes,Yes,Yes
 Blio,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Justification only,Yes,No
@@ -21,3 +22,25 @@ Stanza,No,Yes,Configurable,Yes,Yes,Yes,Vertical swipe,Yes,Yes,Yes,Yes,Yes,Yes,Ye
 uBooks XL,No,Buggy,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
 iBouquiniste,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes
 Product,Multi-column mode,Styles (bold/italic/etc.),Page Turn Effects,Themes,Day/Night mode,Enable/Disable sleep mode,Brightness Control,Indent paragraph,Enable/Disable CSS,Enable/Disable hyphenation,Customize margins,Customize text alignment,Customize font,Customize spacing: line/paragraph
+=======
+Product,Free,License
+Apabi Reader,Yes,
+Blio,Partial (voices cost),
+Bluefire Reader,Partial (Cloudshelf edition is free),Proprietary
+DL Reader,Yes,
+eBookMobi,No,
+Ebook Reader,Yes,Proprietary
+i2Reader,No,
+iBooks,Yes,Proprietary
+Kindle,Yes,
+Kobo Reading App,Yes,
+KyBook / KyBook 2,Yes,"Proprietary, partially OS"
+MapleRead,Partial (CX edition is free),
+Marvin,Partial (ability to see more than one book in library cost),
+MegaReader,No,
+ShuBook 2,Partial,
+SideBooks,Yes,Proprietary
+Stanza,Yes,Proprietary
+uBooks XL,No,
+iBouquiniste,No,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

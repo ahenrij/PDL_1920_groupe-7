@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 File extension(s)[1],MIME type[2],Official name[3],Creation platform[4],Restoration platform[7],Restorable with free software[8],Description
 .7z,application/x-7z-compressed,7z,Multiple,Multiple,Yes,Open source file format. Used by 7-Zip.
 .s7z,application/x-7z-compressed,7zX,macOS,"macOS, restoration on different platforms is possible although not immediate",Yes,"Based on 7z. Preserves Spotlight metadata, resource forks, owner/group information, dates and other data which would be otherwise lost with compression. Made obsolete by the introduction of AppleDouble-encoded 7z archives (Macintosh only)."
@@ -59,3 +60,15 @@ File extension(s)[1],MIME type[2],Official name[3],Creation platform[4],Restorat
 .zoo,application/x-zoo,zoo,Multiple,Multiple,Yes,
 .zpaq,,ZPAQ,Multiple,Multiple,Yes,"Journaling (append-only) archive format with rollback capability. Supports deduplication and incremental update based on last-modified dates. Multi-threaded. Compresses in LZ77, BWT, and context mixing formats. Open source."
 .zz,,Zzip,Multiple,Multiple,Yes,Archiver with a compression algorithm based on the Burrows-Wheeler transform method.
+=======
+File extension(s)[1],MIME type[2],Official name[3],Platform[4],Description
+".a, .ar",application/x-archive,Unix Archiver,Unix-like,"The traditional archive format on Unix-like systems, now used mainly for the creation of static libraries."
+.cpio,application/x-cpio,cpio,Unix-like,"RPM files consist of metadata concatenated with (usually) a cpio archive. Newer RPM systems also support other archives, as cpio is becoming obsolete. cpio is also used with initramfs."
+.shar,application/x-shar,Shell archive,Unix-like,A self-extracting archive that uses the Bourne shell (sh).
+.LBR,,.LBR,CP/M DOS,"A system for storing multiple files. LBR archives typically contained files processed by SQ, or the archive itself was compressed with SQ. LBR archives that were compressed with SQ ended with the extension .LQR"
+.iso,application/x-iso9660-image,ISO-9660 image,(Various; cross platform),"An archive format originally used mainly for archiving and distribution of the exact, nearly-exact, or custom-modified contents of an optical storage medium such as a CD-ROM or DVD-ROM. However, it can be used to archive the contents of other storage media, selected partitions, folders, and/or files. The resulting archive is typically optimized for convenient rendering to (re-)writable CD or DVD media."
+.lbr,,,Commodore 64/128,"A library format used primarily on the Commodore 64 and 128 lines of computers. This bears no resemblance to the DOS LBR format. While library files were quick to implement (a number of programs exist to work with them) they are crippled in that they cannot grow with use: once a file has been created it cannot be amended (files added, changed or deleted) without recreating the entire file."
+.mar,,Mozilla ARchive,(Various; cross platform),An archive format used by Mozilla for storing binary diffs. Used in conjunction with bzip2.
+.sbx,application/x-sbx,SeqBox,(Various; cross platform),A single file container/archive that can be reconstructed even after total loss of file system structures.
+.tar,application/x-tar,Tape archive,Unix-like,"A common archive format used on Unix-like systems. Generally used in conjunction with compressors such as gzip, bzip2, compress or xz to create .tar.gz, .tar.bz2, .tar.Z or tar.xz files."
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

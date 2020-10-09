@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Driver family,Driver,Chipsets,Chipset PHY Modes,Integration in mainline,Non-free firmware required[3],License,Development
 adm8211,adm8211,ADMtek ADM8211 (IEEE 802.11b MAC/BBP,,,Yes,GPLv2,With support from Infineon/ADMtek
 at76c50x?usb at76c50x?usb,at76c50x-USB,Atmel AT76C503/AT76C505 based USB WLAN adapters,,,Depends on the model,GPLv2,
@@ -55,3 +56,35 @@ ti,wl1251,Texas Instruments TI wl1251 (SDIO/SPI),,,Yes[27],GPL,Written by Nokia
 ,wl12xx,"Texas Instruments TI wl1271, wl1273, wl1281 and wl1283",,,Yes[27],GPL,Written by Nokia and Texas Instruments
 ,wl18xx,Texas Instruments TI WiLink 8,,,Yes[27],GPL,Written by Texas Instruments
 zd1211rw,zd1211rw,ZyDAS ZD1211/ZD1211B (USB),,,Yes[29],GPL,various
+=======
+Driver,802.11,Bus interface,WEP,WPA,WPA2,Monitor mode,Master mode,Ad-Hoc mode
+acx,"802.11a, 802.11b, 802.11g","Cardbus, PCI",,,,,,
+an,802.11b,"PC Card, PCI, ISA",,,,,,
+ath,"802.11a, 802.11b, 802.11g","Cardbus, PCI",,,,,,
+athn,"802.11a, 802.11b, 802.11g, 802.11n","Cardbus, PCI-E, Mini PCIE",,,,,,
+atu,802.11b,USB,,,,,,
+atw,802.11b,"Cardbus, PCI",,,,,,
+bwi,"802.11b, 802.11g","Cardbus, PCI",,,,,,
+cnw,N/A,PC Card,,,,,,
+ipw,802.11b,PCI,,,,,,
+iwi,"802.11a, 802.11b, 802.11g",PCI,,,,,,
+iwn,"802.11a, 802.11b, 802.11g, 802.11n","PCI-E, Mini PCIE",,,,,,
+iwm,"802.11a, 802.11b, 802.11g, 802.11n","PCI-E, Mini PCIE",,,,,,
+malo,"802.11b, 802.11g","Cardbus, PC Card, PCI",,,,,,
+otus,"802.11a, 802.11b, 802.11g",USB,,,,,,
+pgt,"802.11a, 802.11b, 802.11g","Cardbus, PCI",,,,,,
+ral,"802.11a, 802.11b, 802.11g","Cardbus, PCI, Mini PCI",,,,,,
+ray,N/A,PC Card,,,,,,
+rtw,802.11b,"Cardbus, PCI",,,,,,
+rtwn,"802.11b, 802.11g",Mini PCIE,,,,,,
+rum,"802.11a, 802.11b, 802.11g",USB,,,,,,
+run,"802.11a, 802.11b, 802.11g",USB,,,,,,
+uath,"802.11a, 802.11b, 802.11g",USB,,,,,,
+upgt,"802.11b, 802.11g",USB,,,,,,
+ural,"802.11b, 802.11g",USB,,,,,,
+urtw,"802.11b, 802.11g",USB,,,,,,
+urtwn,"802.11b, 802.11g",USB,,,,,,
+wi,802.11b,"PC Card, PCI, USB",,,,,,
+wpi,"802.11a, 802.11b, 802.11g",PCI,,,,,,
+zyd,"802.11b, 802.11g",USB,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

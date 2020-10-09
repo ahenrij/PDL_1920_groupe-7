@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
 ,,,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
 FirePro 3D V3700[218],"August 8, 2008",Terascale 1,RV620 PRO[219],55,181,67,PCIe 2.0 x16,800,950,40(8×5):4:4:2,3.2,3.2,256,15.2,GDDR3,64,64,-,10.1,3.3 SM4.1,APP Stream only,N/A,32,"UVD+, PowerPlay"
@@ -12,3 +13,13 @@ FirePro 3D V8700[229],"September 11, 2008",TeraScale 1,RV770 XT,55,956,256,,750,
 FirePro 3D V8750[230],"July 28, 2009",,,,,,,,9002,,,,2048,115.2,,,,240,,,,,154,
 FirePro 3D V8800[231],"April 7, 2010",TeraScale 2,Cypress XT GL (RV870),40,2154,334,,825,11502,1600(320×5):80:32:20,26.4,66,,147.2,,,2640,528,11.0,4.3,1.2,,208,"UVD2, PowerPlay, Eyefinity"
 FirePro 3D V9800[232],"September 9, 2010",,,,,,,850,,,27.2,68,4096,,,,2720,544,,,,,225,
+=======
+Model,Launch,Codename,Architecture,Fab (nm),Core Clock (MHz),,Config core[a],Fillrate,,Shared Memory,,,Processing power (GFLOPS),API compliance (version),,,TDP (W)[b],APU
+,,,,,Base,Turbo,,Texture (GT/s),Pixel (GP/s),Bus width (bit),Bus type,Bandwidth (GB/s),,Direct3D,OpenGL[c],OpenCL,,
+Radeon HD 7310[28],"June 6, 2012",Ontario,TeraScale 2,40,500,N/A,80:8:4,4.00,2.00,64,DDR3-1066,8.53,80,11.3 (11_0),4.5,1.2,18,E2-1200
+Radeon HD 7340[28],,,,,523,680,,5.44,2.72,,DDR3-1333,10.66,83.6–108.8,,,,,E2-1800
+Radeon HD 7480D,"June 1, 2012",Scrapper,TeraScale 3,32,723,N/A,128:8:4,11.6,2.9,128,DDR3-1600,25.6,185,,,,65,"A4-4000, A4-5300"
+Radeon HD 7540D,,,,,760,,192:12:4,Unknown,,,DDR3-1866,29.9,292,,,,,A6-5400K
+Radeon HD 7560D,,Devastator,,,,,256:16:4,,389,,,,65–100,,,,"A8-5500, A8-5600K",
+Radeon HD 7660D,,,,,760,800,384:24:8,16.2,2.7,,,,,,,,584–614,"A10-5700 (760 MHz), A10-5800K (800 MHz)"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

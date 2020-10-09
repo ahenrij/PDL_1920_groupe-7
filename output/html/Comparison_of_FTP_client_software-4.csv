@@ -1,8 +1,14 @@
 Client,Creator,First public release date,Latest stable version,Software license,Copy files over 2 GB[1]
 ALFTP,ESTsoft,2000,"5.31 February 1, 2012; 8 years ago (2012-02-01)",Proprietary,?
+<<<<<<< HEAD
 ExpanDrive (Mac),"ExpanDrive, Inc",2008,"macOS: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[7]) [±] Windows: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[8]) [±] Linux: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[9]) [±]",Proprietary,Yes
 ExpanDrive (Windows) (formerly SFTPDrive),"ExpanDrive, Inc",2005,"macOS: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[10]) [±] Windows: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[11]) [±] Linux: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[12]) [±]",Proprietary,Yes
 ForkLift,"BinaryNights, LLC",2007,"3.4.2 August 26, 2020; 41 days ago (2020-08-26)",Proprietary,Yes
+=======
+ExpanDrive (Mac),"ExpanDrive, Inc",2008,"macOS: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[7]) [±] Windows: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[8]) [±] Linux: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[9]) [±]",Proprietary,Yes
+ExpanDrive (Windows) (formerly SFTPDrive),"ExpanDrive, Inc",2005,"macOS: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[10]) [±] Windows: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[11]) [±] Linux: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[12]) [±]",Proprietary,Yes
+ForkLift,"BinaryNights, LLC",2007,"3.4.2 August 26, 2020; 39 days ago (2020-08-26)",Proprietary,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 FTP Commander,Internetsoft Corporation,1997,"9.21 November 8, 2010; 9 years ago (2010-11-08)",Proprietary,Yes
 FTP Explorer,FTPx Corp.,"October, 1996",1.0.1.53; January 2012,Proprietary,?
 Interarchy,Nolobe Software Pty Ltd,1993 (as Anarchie),"10.0.6 August 18, 2014; 6 years ago (2014-08-18)",Proprietary,Yes

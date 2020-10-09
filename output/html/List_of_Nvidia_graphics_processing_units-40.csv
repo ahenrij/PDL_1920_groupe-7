@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
 ,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
 GeForce 710M,January 2013,GF117,28,PCIe 2.0 ×16,96:16:4,800,1600,1800,3.2,12.8,1024 2048,14.4,DDR3,64,12,4.5,307.2,12,OEM. About 115% of Mobile 620 & Desktop 530[original research?]
@@ -16,3 +17,10 @@ GeForce GTX 770M,,,,,960:80:24 (5 SMX),797,,,19.5,64.9,3072,96,,192,,,1530,75,ab
 GeForce GTX 780M,,GK104,,,1536:128:32 (8 SMX),,5000,26.3,105.3,4096,160,256,,2448,,,122,about 78% of Desktop GTX770[original research?],
 Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
 ,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,Nvidia Optimus technology,TBP (Watts)
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
+Quadro P3200,GP104,16,PCIe 3.0 ×16,,,,1792:112:64:14,,,6144,168,GDDR5,192,5300,12.1,4.5,Yes,78
+Quadro P4200,,,,,,,2304:144:64:18,,,8192,,,256,7600,,,,115
+Quadro P5200,,,,,,,2560:160:64:20,,,16384,230,,,8900,,,,150
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

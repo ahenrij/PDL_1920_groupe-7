@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Windows,MacOSX,Linux,BSD,Android,Price,License,Latest stable release,Notes
 Beyond TV,,,,,,Discontinued,,4.9.3 (Build 6535) 20101015br=yes,"Not compatible with DVB tuners. While Snapstream is providing minor fixes for Beyond TV, they are no longer actively updating and developing the software as they are focusing on commercial applications. Despite the lack of a new version, their fanbase (in the forums) remains active and the program is still available.List of digital television deployments by country"
 DVB Dream,,,,,,US$49,,3.7.1 20190314br=yes[1],Focused on DVB and live TV
@@ -19,3 +20,17 @@ Video Disk Recorder,,,,,,,GPL,2.4.1 20190617br=yes[16],"TV Done Right, VDR can u
 Windows Media Center,,,,,,in=2emWindows 8/8.1: US$69.99Windows 8/8.1 Pro: US$9.99Windows XP/Vista/7: Free,,6.3.9600.16384 20110223br=yes,"Included with Windows XP Media Center Edition, Windows Vista Home Premium and Ultimate editions and Windows 7 Home Premium, Professional, and Ultimate editions. Was available for Windows 8 Pro and Windows 8.1 Pro as part of the Media Center Pack add-on, until it was discontinued on October 30, 2015.[17] Available for Windows 8, Windows 8.1 and Windows 10 unofficially through a windows command script installer.[18] Not available for Windows RT."
 V@Home,,group=generalManage and schedule recordings,,,,Bundled,,2.59 20180414br=yes[19],"Bundled for no extra charge with VBox Home TV Gateway - Network TV Tuner, Manage and schedule recordings from any web browser, local or over the internet"
 group=general,,,,,,,,,
+=======
+DVR,Tuner Sharing,Hard Disk Pooling,Shared Media Database,Home Automation,Media Extenders,Placeshifting/Spaceshifting,Two-way Remote Control,Second Screen
+Beyond TV,,,,,,,,
+EyeTV,,,,,,,,
+NextPVR,,,,,,,,
+Kodi (formerly XBMC),,,,,,,,
+MediaPortal,,,,,,,,
+MediaPhoenix/ShowShifter,,,,,,,,
+MythTV,,,,,,,,
+SageTV,,,,,,,,
+Arcsoft TotalMedia Theatre,,,,,,,,
+Windows Media Center,,,,,,,,
+VBox@TV,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

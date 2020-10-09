@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,"Programming language, toolkit",Operating system,License,Integration,Languages,Network protocols,Current version,Last release date,Server functionality,Visualization
 AnkhSVN,"C#, SharpSvn",Microsoft Windows,Apache License,Microsoft Visual Studio (all editions except Express),English,"http, https, svn, svn+ssh, file",2.6.12735,"October 5, 2016; 3 years ago (2016-10-05)",No,"Diff, blame, history, properties"
 Cornerstone,Xcode,macOS,"Proprietary, free trials available",Standalone GUI,English,"http, https, svn, svn+ssh, file",3.1,"February 8, 2018; 2 years ago (2018-02-08)",No,"Diff, blame, history, properties"
@@ -16,3 +17,12 @@ Version Control for engineers,-,Windows,freeware,"GUI, standalone",English,"http
 ViewVC,Python,"http, https","two-clause Berkeley-style",web-based,English,"http, https, svn, svn+ssh, file",1.1.23,"November 4, 2014; 5 years ago (2014-11-04)[15]",?,"Diff, annotation, blame, revision graph"
 VisualSVN,,Microsoft Windows (32/64-bit),proprietary,Microsoft Visual Studio (all editions except Express),English,"http, https, svn, svn+ssh, file",7.1.2,"July 31, 2019; 14 months ago (2019-07-31)[16]",Yes,?
 Xcode,"Objective-C, Cocoa",macOS,"Proprietary, free[17]",Xcode IDE,English,,9.4.1 Support for SVN was dropped in Xcode 10,"June 19, 2018; 2 years ago (2018-06-19)",?,?
+=======
+Client name,Free,Network protocols,Diff,Merge,Browse remote repository
+Cornerstone,No,"file, http, https, svn, svn+file, svn+http, svn+https, svn+ssh",Yes,Yes,Yes
+eSvn,Yes,"http, svn",?,?,?
+kdesvn,Yes,"file, http, https, (k)svn, (k)svn+file, (k)svn+http, (k)svn+https, (k)svn+ssh",Yes,Yes,Yes
+QSvn,Yes,,Yes,?,?
+RapidSVN,Yes,,internal,internal,Yes
+SubTile,Yes,"http, https, svn, svn+ssh",Yes,Yes,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

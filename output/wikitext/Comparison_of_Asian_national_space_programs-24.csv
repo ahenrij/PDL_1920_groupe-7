@@ -1,5 +1,17 @@
+<<<<<<< HEAD
 Country,Satellite,Transponders,Mass,Power,Year launched
 China,NIGCOMSAT 1R,28,5150kg,10.5 kW,2011
 Japan,ST-2,51,5090kg,,2011
 India,GSAT-16,48,3100kg,5.6 kW,2014
 ,GSAT-11,40,5854kg,13.6 kW,2018
+=======
+Country,Highest payload capacity,,,,,
+,LEO,,,GTO,,
+,Launch Vehicle,Payload capacity,Active since,Launch Vehicle,Payload capacity,Active since
+,CZ-5,25000kg,2016,CZ-5,14000kg,2016
+,H-IIB,16500kg,2009,H-IIB,8000kg,2009
+,GSLV MkIII,10000kg,2017,GSLV MkIII,4000kg,2017
+,Shavit,800kg,1988,Not any yet,,
+,Unha-3,200kg,2009,Not any yet,,
+,Safir-1B,50kg,2008,Not any yet,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

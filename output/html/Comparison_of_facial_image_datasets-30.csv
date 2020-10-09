@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Webpages from Common Crawl 2012,Large collection of webpages and how they are connected via hyperlinks,None.,3.5B,Text,"clustering, classification",2013,[448],V. Granville
 Internet Advertisements Dataset,Dataset for predicting if a given image is an advertisement or not.,Features encode geometry of ads and phrases occurring in the URL.,3279,Text,Classification,1998,[449][450],N. Kushmerick
 Internet Usage Dataset,General demographics of internet users.,None.,"10,104",Text,"Classification, clustering",1999,[451],D. Cook
@@ -7,3 +8,10 @@ Phishing Websites Dataset,Dataset of phishing websites.,Many features of each si
 Online Retail Dataset,Online transactions for a UK online retailer.,Details of each transaction given.,"541,909",Text,"Classification, clustering",2015,[455],D. Chen
 Freebase Simple Topic Dump,Freebase is an online effort to structure all human knowledge.,Topics from Freebase have been extracted.,large,Text,"Classification, clustering",2011,[456][457],Freebase
 Farm Ads Dataset,The text of farm ads from websites. Binary approval or disapproval by content owners is given.,SVMlight sparse vectors of text words in ads calculated.,4143,Text,Classification,2011,[458][459],C. Masterharm et al.
+=======
+Geographical Original of Music Data Set,Audio features of music samples from different locations.,Audio features extracted using MARSYAS software.,"1,059",Text,"Geographical classification, clustering",2014,[256][257],F. Zhou et al.
+Million Song Dataset,Audio features from one million different songs.,Audio features extracted.,1M,Text,"Classification, clustering",2011,[258][259],T. Bertin-Mahieux et al.
+MUSDB18,Multi-track popular music recordings,Raw audio,150,"MP4, WAV",Source Separation,2017,[260],Z. Rafii et. al.
+Free Music Archive,"Audio under Creative Commons from 100k songs (343 days, 1TiB) with a hierarchy of 161 genres, metadata, user data, free-form text.",Raw audio and audio features.,"106,574","Text, MP3","Classification, recommendation",2017,[261],M. Defferrard et al.
+Bach Choral Harmony Dataset,Bach chorale chords.,Audio features extracted.,5665,Text,Classification,2014,[262][263],D. Radicioni et al.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

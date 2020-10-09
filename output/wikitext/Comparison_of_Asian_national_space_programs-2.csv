@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 Country,Spacecraft (engine),Power,Thrust,Specific impulse,Year
 Japan,ETS-IV (Unnamed teflon pulsed plasma thruster),20 W,,300s,1981
 ,"Space Flyer Unit (EPEX, magnetoplasmadynamic thruster)",430 W,12.9 mN,600s,1995
 China,"Dongfeng 5 ballistic rocket (MDT-2A, teflon pulsed plasma thruster)",5 W,,280s,1981
+=======
+Country,Spacecraft,Year launched
+,Kibo,2008
+,Tiangong 1,2011
+,Indian Space Station,~2030 (Proposed)
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

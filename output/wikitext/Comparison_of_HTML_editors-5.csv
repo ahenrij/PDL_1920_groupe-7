@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Editor,Windows,OS X,Linux,BSD,Unix,iOS,Android
 Amaya,,,,source only ,source only ,,
 Aptana,,,,,,,
@@ -37,3 +38,36 @@ SeaMonkey Composer,,,,,,,
 TOWeb,,,,,,,
 WebStorm IDE,,,,,,,
 Editor,Windows,OS X,Linux,BSD,Unix,iOS,Android
+=======
+Editor,JPEG,GIF,PNG,TIFF,SVG
+Amaya,,,,,
+Aptana,,,,,
+Arachnophilia,,,,,
+Bluefish,,,,,
+BlueGriffon,,,,,
+Brackets,,,,,
+Claris Homepage,,,,,
+Codelobster,,,,,
+CoffeeCup HTML Editor,,,,,
+Dreamweaver,,,,,
+Freeway,,,,,
+GoLive,,,,,
+KompoZer,,,,,
+Maqetta,,,,,
+Microsoft Expression Web,,,,,
+Microsoft FrontPage[17],,,,,
+Microsoft SharePoint Designer,,,,,
+Microsoft Visual Web Developer,,,,,
+Mobirise,,,,,
+Nvu,,,,,
+openElement,,,,,
+OpenOffice.org,,,,,
+oXygenXML Editor,,,,,
+Quanta Plus,,,,,
+RocketCake,,,,,
+SeaMonkey Composer,,,,,
+TOWeb,,,,,
+Web Architect,,,,,
+WebStorm IDE,,,,,
+Editor,JPEG,GIF,PNG,TIFF,SVG
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

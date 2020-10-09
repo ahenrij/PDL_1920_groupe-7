@@ -1,4 +1,5 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Phrase,,,,,
 em,rowspan="9" 4.0,rowspan="10" 1.0,rowspan="10" ,rowspan="10" ,rowspan="10" 1.0
 strong,,,,,
@@ -23,3 +24,13 @@ br,5.0,,,,
 Marking document changes,,,,,
 ins,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
 del,,,,,
+=======
+Font styles,,,,,
+b,rowspan="5" 4.0,rowspan="5" 1.0,rowspan="5" ,rowspan="5" ,rowspan="5" 1.0
+i,,,,,
+big,,,,,
+small,,,,,
+tt,,,,,
+Horizontal rules,,,,,
+hr,4.0,1.0,,,1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

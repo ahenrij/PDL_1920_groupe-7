@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Artificial Characters Dataset,Artificially generated data describing the structure of 10 capital English letters.,Coordinates of lines drawn given as integers. Various other features.,6000,Text,"Handwriting recognition, classification",1992,[89],H. Guvenir et al.
 Letter Dataset,Upper case printed letters.,17 features are extracted from all images.,"20,000",Text,"OCR, classification",1991,[90][91],D. Slate et al.
 CASIA-HWDB,Offline handwritten Chinese character database. 3755 classes in the GB 2312 character set.,Gray-scaled images with background pixels labeled as 255.,"1,172,907","Images, Text","Handwriting recognition, classification",2009,[92],CASIA
@@ -14,3 +15,8 @@ Pen-Based Recognition of Handwritten Digits Dataset,Handwritten digits on electr
 Semeion Handwritten Digit Dataset,Handwritten digits from 80 people.,All handwritten digits have been normalized for size and mapped to the same grid.,1593,"Images, text","Handwriting recognition, classification",2008,[107],T. Srl
 HASYv2,Handwritten mathematical symbols,All symbols are centered and of size 32px x 32px.,168233,"Images, text",Classification,2017,[108],Martin Thoma
 Noisy Handwritten Bangla Dataset,"Includes Handwritten Numeral Dataset (10 classes) and Basic Character Dataset (50 classes), each dataset has three types of noise: white gaussian, motion blur, and reduced contrast.",All images are centered and of size 32x32.,"Numeral Dataset: 23330, Character Dataset: 76000","Images, text","Handwriting recognition, classification",2017,[109][110],M. Karki et al.
+=======
+Bike Sharing Dataset,Hourly and daily count of rental bikes in a large city.,"Many features, including weather, length of trip, etc., are given.","17,389",Text,Regression,2013,[439][440],H. Fanaee-T
+New York City Taxi Trip Data,Trip data for yellow and green taxis in New York City.,"Gives pick up and drop off locations, fares, and other details of trips.",6 years,Text,"Classification, clustering",2015,[441],New York City Taxi and Limousine Commission
+Taxi Service Trajectory ECML PKDD,Trajectories of all taxis in a large city.,"Many features given, including start and stop points.","1,710,671",Text,"Clustering, causal-discovery",2015,[442][443],M. Ferreira et al.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

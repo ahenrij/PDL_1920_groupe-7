@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT[82],GOST R 34.11-94[82]
 Botan,No,Yes,Yes,Yes,No,No
 cryptlib,Yes,Yes,Yes,Yes,No,No
@@ -16,3 +17,21 @@ Secure Transport,Yes,Yes,Yes,Yes,No,No
 wolfSSL,Yes,Yes,Yes,Yes,No,No
 Erlang/OTP SSL application,Yes,Yes,Yes,Yes,No,No
 Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT,GOST R 34.11-94
+=======
+Implementation,DEFLATE[172] (insecure)
+Botan,No
+cryptlib,No
+GnuTLS,Disabled by default
+JSSE,No
+LibreSSL,No[41]
+MatrixSSL,Disabled by default
+Mbed TLS,Disabled by default
+NSS,Disabled by default
+OpenSSL,Disabled by default
+RSA BSAFE[53],No
+SChannel,No
+Secure Transport,No
+wolfSSL,Disabled by default
+Erlang/OTP SSL application,No
+Implementation,DEFLATE
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

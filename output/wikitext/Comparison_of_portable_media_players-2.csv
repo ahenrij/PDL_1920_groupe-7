@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Navigation,Audio out,Speaker,Screen size (in),Screen type,Resolution (px),Frame rate (Hz),Color depth (bpp),Video out,Video battery life (hr),Audio battery life (hr)
 Archos 105[54],"D-pad, 7 buttons",Headphone jack,,1.8,OLED,160 × 128,30,18,"Component, Composite",,18
 Archos 405[55][56],"D-pad, 6 two-way buttons","Headphone jack, dock connector",,3.5,TFT LCD,320 × 240,30,Predecessor: 24,"Component, Composite",5,16
@@ -28,3 +29,32 @@ Zune 4/8/16[80][81][82],"Zune pad, 2 buttons","Headphone jack, dock connector",,
 Zune 80/120[83][84],"Zune pad, 2 buttons","Headphone jack, dock connector",,3.2,TFT LCD,320 × 240,30,16,"Component, composite",4,29 (Wi-Fi)/30
 Zune HD[85],"Touchscreen, 3 buttons","Headphone jack, dock connector",,3.3,OLED,480 × 272,30,Unknown,"HDMI, composite",8.5,33 (Wi-Fi off)
 ZVUE 260[86],"D-pad, 9 buttons",Headphone jack,,2.5,AM TFT LCD,234 × 160,30,24,,,6
+=======
+Name,FM radio,Microphone,Line-in recording,DVR recording,Playback while charging,USB host,HDMI out
+Archos 105,,,,,,,
+Archos 405,,,,,,,
+Archos 5,,,,,,,
+Archos 605 WiFi / GPS,,,,,,,
+Archos 705 WiFi,,,,,,,
+Cowon A3,,,,,,,
+Cowon D2,,,,,,,
+Cowon Q5W,,,,,,,
+Gigabeat T-Series,,,,,,,
+GP2X F-200,,,,,,,
+iPod,,,,,,,
+iriver clix 2G,,,,,,,
+PSP 1000 Series,,,,,,,
+PSP Slim & Lite 2000 Series,,,,,,,
+PSP Slim & Lite 3000 Series,,,,,,,
+Samsung Galaxy Player,,,,,,,
+Samsung T10,,,,,,,
+Samsung P2,,,,,,,
+Sansa Fuze,,,,,,,
+Sansa Fuze+,with pause and record,,,,,,
+Sansa View,,,,,,,
+Walkman NWZ-A810 series,,,,,,,
+ZEN,,,,,,,
+ZEN Vision W,,,,,,,
+Zune,,,,,,,"
+Zvue 260,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,7 +1,24 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+<<<<<<< HEAD
 Official app store,Google Play,App Store,Tizen Store,Jolla Store,OpenStore
 Non-discriminatory stores,",",?,"Openrepos.[84] Developers can distribute apps from their own sources, supports multiple app stores",?
 "Common APIs for smartphones, tablets, and PCs",,Smartphone and tablet only[86],,,
 Official SDK platform(s),"Linux, macOS and Windows[87]",macOS using iOS SDK,"GNU/Linux, Windows, macOS[88]","Windows, macOS and Linux[89]",
 Cost to develop for the mobile OS,Free,",Free,Free,Free
 Cost to publish app to official store,US$25 once to offer it on Google Play[91],US$99/year,Free,Free[92],Free
+=======
+"Cut, copy, and paste",,3+[94],,,
+Multi-Device clipboard,,10+[96],,,
+Undo,,3+[98],,,
+Custom home and lock screen wallpaper,,4+[60],,,
+Desktop sync,",,,?,
+Local full backup,","Yes, using external computer or iCloud[103]",,,
+Core data missing sync,"Bookmarks[105] (before 4), SMSs and Settings[106]",,?,?,?
+Notification center,,5+[107],2+[108],,
+Push notifications,,Yes (Apple Push Notification Service),2+[110],,
+Screenshot,"4+ also available on earlier versions with customized firmware, such as Cyanogen Mod and on older Samsung Galaxy smartphones[111]",,,2.0.2+[113],
+iCalendar import,",,?,1.1.6+[117],
+Text/document support (read only; creating using third party apps),"Microsoft Office, PDF, TXT/RTF","Microsoft Office,[118][119][120] iWork, PDF, Images, TXT/RTF, VCF","Read only: text files, PDF, HTML, Multiple office formats","Microsoft Office, OpenDocument, PDF, Text",
+Printer support,4.4+ using Google Cloud Print[121] but not over USB unless proprietary vendor solutions such as HP Print Service are used[122],Yes (AirPrint)[123],,"yes, cups package is available",
+Show remembered Wi-Fi connections,,"No, 3rd party software on jailbroken devices[124]",?,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

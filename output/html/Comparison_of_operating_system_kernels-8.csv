@@ -1,5 +1,17 @@
+<<<<<<< HEAD
 Kernel name,Intel,NVIDIA,AMD,ARM,Qualcomm,Imagination Technologies,Broadcom,VeriSilicon
 ,Intel HD/Iris Graphics,GeForce/Quadro/Tesla,Radeon,Mali,Adreno,PowerVR,VideoCore4,Vivante
 Linux kernel,Yes,Yes,Yes,Yes,Yes,2D only[36][37],Yes,Etnaviv
 Windows NT kernel,Yes,Yes,Yes,?,"Windows RT, Windows Phone 8.x, Windows 10 Mobile",?,?,?
 XNU,via I/O Kit (macOS only),,,No,No,via I/O Kit (iOS only),No,No
+=======
+Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
+FreeBSD kernel,Yes[38],No,No,Yes,No,No,No,No,No,No,No,No,No,Yes[38],Yes[38]
+Linux kernel,Yes,No,(Longene),Yes,Yes,No,No,No,No,No,No,No,No,No,No
+NetBSD kernel,Yes[39],No? [3]?,No? [4]?,Yes[39],Yes,Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes [5],Yes
+OpenBSD kernel,Yes,No,No,Yes,Yes,Yes,No,No,Yes,?,?,?,?,No,Yes
+Windows NT kernel,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No
+ReactOS kernel,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No
+XNU,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
+Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

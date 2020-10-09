@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Shell,Usual environment,Usually invoked,Introduced,Platform-independent,Default login shell in,Default script shell in,License,Source code availability,User interface,Mouse support,Unicode support,ISO 8601 support,Console redirection,Stream redirection,Configurability,Startup/shutdown scripts,Batch scripts,Logging,"available as statically linked, independent single file executable"
 Thompson shell,UNIX,sh,1971,,UNIX,UNIX,,,Text-based CLI,,,,,,,,,,
 Bourne shell 1977 version,7th Ed. UNIX,sh,1977,Yes[1],7th Ed. UNIX,"7th Ed. UNIX,",Proprietary[2],,Text-based CLI,,,,,Yes (arbitrary fds),Yes (via variables and options),Yes (.profile),Yes (Unix feature),,
@@ -26,3 +27,30 @@ BeanShell,Java,,2005,,,,LGPL,,,,,,,,,,,,
 fish,POSIX,fish,2005[28],,GhostBSD,,GPL,,Text-based CLI,,,,,Yes (arbitrary fds),Yes (through environment variables and via web interface through fish_config),Yes (/etc/fish/config.fish and ~/.config/fish/config.fish),Yes (Unix feature),Yes (~/.config/fish/fish_history*),
 Ion,"Redox, Linux",ion,2015[29],,Redox,Redox,MIT,,Text-based CLI,,,,,Yes (arbitrary fds),Yes (follows the XDG Base Directory spec),Yes (~/.config/ion/initrc),Yes,Yes (~/.local/share/ion/history),"
 Shell,Usual environment,Usually invoked,Introduced,Platform-independent,Default login shell in,Default script shell in,License,Source code availability,User interface,Mouse support,Unicode support,ISO 8601 support,Console redirection,Stream redirection,Configurability,Startup/shutdown scripts,Batch scripts,Logging,"available as statically linked, independent single file executable"
+=======
+Shell,Functions,Exception handling,Search & replace on variable substitutions,Arithmetic,Floating point,Math function library,Linear arrays or lists,Associative arrays,Lambda functions,eval function,Pseudorandom number generation,Bytecode
+Bourne shell 1977 version,, Yes (via trap),,,,,,,,,,
+Bourne shell current version, Yes since SVR2, Yes (via trap),,,,,,,,,,
+POSIX shell,, Yes (via trap),,,,,,,,,,
+bash (v4.0),, Yes (via trap),Yes (via ${// syntax),,,,,,,,Yes ($RANDOM) ,
+csh,,,Yes (via $var:s/// syntax),,,,,,,,,
+tcsh,,,Yes (via $var:s/// syntax),,,,,,,,,
+Hamilton C shell,,,Yes (via $var:s/// syntax),,,,,,,, Yes (random utility),
+Scsh,,?,Yes (via string functions and regular expressions),?,?,?,,?,,,"Yes (random-integer, random-real)","Yes (compiler is Scheme48 virtual machine, via scshvm)"
+ksh (ksh93t+),, Yes (via trap),Yes (via ${// syntax and builtin commands),,,,,,,,Yes ($RANDOM),Yes (compiler is called shcomp)
+pdksh,, Yes (via trap),,,,,,,,,Yes ($RANDOM),
+zsh,,,Yes (via ${:s// and ${// syntax),,,Yes (zsh/mathfunc module),,,,,Yes ($RANDOM),Yes (built-in zcompile command)
+ash,,trap),,Yes (since 1992)[60],,,,,,,,
+CCP,,?,,,?,?,,,,,,
+COMMAND.COM,,COMMAND /F (or /N in some versions of DR-DOS)),,,,,,,,,,
+OS/2 CMD.EXE,,,,?,,,?,,,,,
+Windows CMD.EXE,Yes (via CALL :label),,Yes (via SET %varname:expression syntax),Yes (via SET /A)[61],,,Yes (via SET[62]),,,,Yes (%random%),
+4DOS,,"Yes (via ON command, optional Auto-fail via 4DOS /F)",Yes (via %@Replace[...] function),Yes (via SET /A),?,?,"Yes (via ranges, include lists, @file lists and FOR command)",,,,Yes (%@Random[...] function),Yes (via BATCOMP command)
+4OS2,?,?,?,?,?,?,?,?,,,%@Random[...] function),?
+TCC (formerly 4NT),,Yes (via ON and various ...MONITOR commands),Yes (via %@Replace[...] function),Yes (via SET /A),?,?,"Yes (via ranges, include lists, @file lists and FOR command)",?,,,%@Random[...] function),BATCOMP command)
+PowerShell,,,Yes (-replace operator),,,[Math] class[63],,,,,,"Yes, automatic"
+rc,,,,?,?,?,,?,,,,
+BeanShell,,,?,,?,?,,,,,,
+VMS DCL,,,,,,"yes, for compiled programs",,,,,,
+fish,, Yes (via trap),,,,,,,,,Yes (random),
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

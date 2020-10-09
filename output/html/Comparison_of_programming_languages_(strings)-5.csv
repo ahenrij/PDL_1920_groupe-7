@@ -1,4 +1,5 @@
 Syntax,Language(s)
+<<<<<<< HEAD
 ""I said \"Hello, world!\""","C, C++, C#, D, F#, Java, JavaScript, Mathematica, Ocaml, Perl, PHP, Python, Rust, Swift, Wolfram Language, Ya"
 "'I said \'Hello, world!\''","CoffeeScript, JavaScript (alternate), Python (alternate)"
 ""I said `"Hello, world!`""",Windows Powershell
@@ -7,3 +8,7 @@ Syntax,Language(s)
 ""I said, %"Hello, World!%""",Eiffel
 "!"I said \"Hello, world!\""",FreeBASIC
 "r#"I said "Hello, world!""#",Rust (alternate)
+=======
+""I said ""Hello, world!"""","Ada, ALGOL 68, Excel, Fortran, Visual Basic (.NET), FreeBASIC, COBOL"
+"'I said ''Hello, world!'''","Fortran, rc, COBOL, SQL, Pascal, Object Pascal, APL, Smalltalk"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

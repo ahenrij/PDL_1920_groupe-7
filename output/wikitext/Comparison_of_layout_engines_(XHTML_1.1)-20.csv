@@ -1,2 +1,7 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 link,3.0[3],,,,,,
+=======
+del,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" 
+ins,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

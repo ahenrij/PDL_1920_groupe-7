@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Editing style[1],Native operating systems,Latest stable version,Costs,License,Configurable,Integrated viewer
 AUCTeX,Source,"Linux, macOS, Windows",(2019-10-30) 12.2,,GPL,,
 Authorea,Source / partial-WYSIWYG,Online,,,,,
@@ -23,3 +24,30 @@ Verbosus,Source,"Online, Android, iOS",(2016-05-06) 4.1.3,,,,
 WinEdt,Source,Windows,(2018-05-07) 10.3,,,,
 WinShell,Source,Windows,(2013-02-10) 3.3.2.6,,,,
 Name,Editing Style,Native Operating Systems,Latest stable version,Costs,License,Configurable,Integrated viewer
+=======
+,Inverse search[5],DDE support[6],Organises Projects,Menu for inserting symbols,Document comparison,Spell-checking,Multiple undo-redo
+AUCTeX,,,,,,,
+Authorea,,,,,,,
+Auto-Latex Equations for Google Docs,,,,,,,
+CoCalc,,,,,,,
+GNOME LaTeX,,,,,,,
+Gummi,,,,,,,
+Kile,,,,,,,
+LEd,,?,,,,,
+LyX,,?,,,,,
+MeWa,,,,,,,
+Notepad++,",",,,,,
+Overleaf,,,,,,,
+Scientific WorkPlace,,?,?,,,,
+TexLab,,,,,,,
+TeXmacs,,,,,,,
+Texmaker,,,,,,,
+TeXnicCenter,,,,,,,
+TeXShop,,,,,,,
+TeXstudio,,,,,,,
+TeXworks,,,,,,,
+Verbosus,,,,,,,
+WinEdt,,,,,,,
+WinShell,,,,,,,
+,Inverse search,DDE Support,Organises Projects,Menu for inserting symbols,Document comparison,Spell-checking,Multiple undo-redo
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

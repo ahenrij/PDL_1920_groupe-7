@@ -1,6 +1,17 @@
+<<<<<<< HEAD
 Application,MIPMAP generation,Adaptive Tessellation,Instansing,Camera Culling,Deep Pixel Rendering,Fisheye Stereo for Fulldome,Omnidirectional stereo for HMD,Deforming Motion Blur,GPU Rendering,Texture Streaming (GPU)
 V-Ray,img2tiledexr,?,Yes,?,Yes,Domemaster Stereo Shader,3.2 and later,Yes,V-Ray GPU (formerly V-Ray RT),Yes[29]
 RenderMan (RIS),txmake,?,Yes,?,Yes,?,Yes[30],Yes,In development[31],No
 Arnold,maketx,Yes[32],Yes,?,Yes,Domemaster Stereo Shader,5 and later,Yes,Yes,?
 Houdini Mantra (Path-Tracing mode),icp,?,Yes,?,Yes,?,15.5 and later,Yes,No,No
 Blender Cycles,No,2.78 and later,Some,Camera Cull,No,2.78 and later,2.78 and later,Yes,Yes,2.80 and later[33]
+=======
+Application,Polygon,,,,Curves,,,,,,,,,,Spline/Bézier Surface,,,Metaball,Point Clouds,Particles,Voxel,Bone,Text,Camera,Light,Speaker
+,tris,quads,N-gon,donut,Linear,Quadratic Bézier,Cubic Bézier,B-spline,Cardinal spline,Hermite spline,TCB spline,Smooth-step,Akima spline,NURBS,NURBS regular patch,NURBS trimmed surface,Bicubic Bézier patch,,,,,,,,,
+Blender,Yes,Yes,Yes,No[11],Bézier curve without subdivision,No,Yes,No,No,No,No,No,No,Yes,Yes,No,No,Yes,No,Yes,3D Texture,Yes,Yes,Yes,Yes,Yes
+Maya,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,3D Texture,Yes,Yes,Yes,Yes,No
+3ds Max,Yes,Yes,Yes,?,Yes,?,Yes,Yes,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No
+Cinema 4D,Yes,Yes,Yes,?,Yes,No,Yes,Yes,No,?,No,No,Yes,?,?,?,?,Yes,?,Yes,?,Yes,Yes,Yes,Yes,dropped in R23[12]
+LightWave,Yes,Yes,Yes,Yes,?,?,?,Yes,?,only in Graph Editor,only in Graph Editor,?,No,?,(LWCAD plugin),?,No,Yes,No,Yes,?,Yes,Yes,Yes,Yes,?
+Shade 3D,Yes,Yes,Yes,?,?,?,Yes,?,No,No,No,No,No,Yes,?,?,Yes,Yes,No,Yes,?,Yes,Yes,Yes,Yes,Sound Object
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

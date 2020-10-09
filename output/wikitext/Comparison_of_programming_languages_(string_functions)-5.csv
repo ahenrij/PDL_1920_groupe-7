@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 Definition,"contains(string,substring) returns boolean"
 Description,"Returns whether string contains substring as a substring. This is equivalent to using Find and then detecting that it does not result in the failure condition listed in the third column of the Find section. However, some languages have a simpler way of expressing this test."
 Related,Find
+=======
+Definition,"substring(string, startpos, endpos) returns string substr(string, startpos, numChars) returns string"
+Description,"Returns a substring of string between starting at startpos and endpos, or starting at startpos of length numChars. The resulting string is truncated if there are fewer than numChars characters beyond the starting point. endpos represents the index after the last character in the substring. Note that for variable-length encodings such as UTF-8, UTF-16 or Shift-JIS, it can be necessary to remove string positions at the end, in order to avoid invalid strings."
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

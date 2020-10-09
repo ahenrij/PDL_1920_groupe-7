@@ -6,7 +6,11 @@ cdist,Python,GPLv3+,,,,,,2010,2018-04-20 4.8.4[14]
 Chef,"Ruby, Erlang",Apache 2.0,,,,,,2009-01-15 0.5.0,"2019-01-28 14.10.9 (client),[19] 2018-02-13 12.17.33 (server)[20]"
 CFEngine,C[21],GPLv3[22],,,,,,1993,"2020-06-23 3.16.0[27], 2020-06-02 3.15.2[28], 2020-06-02 3.12.5[29]"
 ISconf,Python,GPL[30],,,,,,1998,2006-08-13 4.2.8.233
+<<<<<<< HEAD
 Juju,"Python, Go[33]",Affero General Public License,,,,,,2010-09-17[35],2020-10-07 2.8.5[36]
+=======
+Juju,"Python, Go[33]",Affero General Public License,,,,,,2010-09-17[35],2020-06-04 2.8.0[36]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 Local ConFiGuration system (LCFG),Perl,GPL,,,,,,1994,Weekly Releases
 NOC,Python,BSD License 2.0,,,,,,2012-03-08,2015-05-20 15.05.1[39]
 OCS Inventory NG with GLPI,"Perl, PHP, C++",GPL,,,,,,2003,2014-07-13[41]

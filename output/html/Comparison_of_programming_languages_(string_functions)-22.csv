@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 Definition,length(string) returns an integer number
 Description,Returns the length of a string (not counting the null terminator or any other of the string's internal structural information). An empty string returns a length of 0.
+=======
+Format,Languages
+string.rpartition(separator),"Python, Ruby"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

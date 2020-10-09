@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Software Name,Developer,First public release,Predecessor,Latest Stable version / (Date),Operating system,Price in USD,License,"Microsoft Office (.doc, .xls) support",Microsoft Office Open XML support,OpenDocument support,Portable Document Format support
 Ability Office,Ability Plus Software,1995,—,6.00,Windows,49.99 - 59.99,Proprietary,Yes,Yes,Planned for a future version,Export
 Apache OpenOffice,Apache Software Foundation,2012 May,"OpenOffice.org, StarOffice","4.1.7 (September 21, 2019; 12 months ago (2019-09-21)) [±]","Windows, Mac OS, Linux, BSD, Unix, Solaris/Illumos",Free,Apache License 2.0,Yes,Import-only,Native format,Export and Import with free plugin
@@ -25,3 +26,32 @@ WordPerfect Office,Corel,1991,WordPerfect (1982),"2020 (May 5, 2020; 5 months ag
 WPS Office (Kingsoft Office),Kingsoft,1988,—,PC 11.2.0 by April 2019,"Windows, Linux, Android, iOS, Mac",$119.99 perpetual license; $29.99 annual subscription; free with ads,Proprietary,Yes,Yes,With free add-in[20][21],Export in all versions; Import with subscription only
 Zoho Office Suite,Zoho Corp.,2005,—,,Fully online,"Up to 96 per user per year, depending on feature set",Proprietary,Yes,Yes,Yes,Yes
 Software Name,Developer,First public release,Predecessor,Latest Stable version / (Date),Operating system,Price in USD,License,"Microsoft Office (.doc, .xls...) support",Microsoft Office Open XML support,OpenDocument Support,Portable Document Format support
+=======
+Office suite,Windows,Mac OS,GNU/Linux,BSD,Unix,Android,iOS
+Ability Office,Yes,No,No,No,No,No,No
+Apache OpenOffice,Yes,Yes,Yes,Yes,Yes,No,No
+Breadbox Office,"DOS, Windows",No,No,No,No,No,No
+Calligra Suite,Yes,Yes,Yes,Yes,Yes,No,No
+Feng Office Community Edition,Fully online,Fully online,Fully online,Fully online,Fully online,No,No
+Gobe Productive,Yes,No,No,No,No,No,No
+Google Apps for Work,Fully online,Fully online,Fully online,Fully online,Fully online,Fully online,Fully online
+iWork,Fully online (iCloud version),Yes,Fully online (iCloud version),Fully online (iCloud version),Fully online (iCloud version),No,Yes
+LibreOffice,Yes,Yes,Yes,Yes,Yes,Beta,No
+Lotus SmartSuite,Yes,No,Some (with Wine),No,No,No,No
+MarinerPak,No,Yes,No,No,No,No,Calc only
+Microsoft Office,Yes,"Partial (not all features available, e.g. Project, Visio, Access)",Some (with Wine),No,No,Yes,Yes
+Microsoft Works,Yes,Dropped (4.0; Classic only),Some (with Wine),No,No,No,No
+MobiSystems OfficeSuite,Yes,No,No,No,No,No,No
+NeoOffice,No,Mac OS X v10.3 or above,No,No,No,No,No
+ONLYOFFICE,Yes,Yes,Yes,Online version,Online version,Yes,Yes
+SoftMaker Office,Yes,Yes,Yes,Dropped (2006),No,Yes,No
+StarOffice,Yes,Yes (Intel only),Yes,Yes,Yes,No,No
+TeXmacs,Yes,Yes,Yes,Yes,Yes,No,No
+TeamLab,Fully online,Fully online,Fully online,Fully online,Fully online,No,No
+ThinkFree Office,Fully online,Fully online,Fully online,Fully online,Fully online,No,No
+Tiki Wiki CMS Groupware,Fully online,Fully online,Fully online,Fully online,Fully online,No,No
+WordPerfect Office,Yes,No,Some (Ver. 2000),No,No,No,No
+WPS Office (Kingsoft Office),Yes,Yes,Yes,No,No,Yes,Yes
+Zoho Office Suite,Fully online,Fully online,Fully online,Fully online,Fully online,No,No
+Office suite,Windows,Mac OS,GNU/Linux,BSD,Unix,Android,iOS
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Driver family,Driver,Chipsets,Chipset PHY Modes,Integration in mainline,Non-free firmware required[note 1],License,Development
 adm8211,adm8211,ADMtek ADM8211 (IEEE 802.11b MAC/BBP,?,Yes,Yes,GPLv2,With support from Infineon/ADMtek
 at76c50x?usb at76c50x?usb,at76c50x-USB,Atmel AT76C503/AT76C505 based USB WLAN adapters,?,Yes,Depends on the model,GPLv2,?
@@ -55,3 +56,35 @@ ti,wl1251,Texas Instruments TI wl1251 (SDIO/SPI),?,Yes,Yes[26],GPL,Written by No
 ,wl12xx,"Texas Instruments TI wl1271, wl1273, wl1281 and wl1283",?,Yes (Only up to 3.2[27]),Yes[26],GPL,Written by Nokia and Texas Instruments
 ,wl18xx,Texas Instruments TI WiLink 8,?,Yes,Yes[26],GPL,Written by Texas Instruments
 zd1211rw,zd1211rw,ZyDAS ZD1211/ZD1211B (USB),?,Yes,Yes[28],GPL,various
+=======
+Driver,802.11,Bus interface,WEP,WPA,WPA2,Monitor mode,Master mode,Ad-Hoc mode
+acx,"802.11a, 802.11b, 802.11g","Cardbus, PCI",Yes,No,No,Yes,Yes,Yes
+an,802.11b,"PC Card, PCI, ISA",Yes,No,No,Yes,No,Yes
+ath,"802.11a, 802.11b, 802.11g","Cardbus, PCI",Yes,Yes,Yes,Yes,Yes,Yes
+athn,"802.11a, 802.11b, 802.11g, 802.11n","Cardbus, PCI-E, Mini PCIE",Yes,Yes,Yes,Yes,Yes,No
+atu,802.11b,USB,Yes,No,No,No,No,Yes
+atw,802.11b,"Cardbus, PCI",No,No,No,No,No,Yes
+bwi,"802.11b, 802.11g","Cardbus, PCI",Yes,Yes,Yes,Yes,No,No
+cnw,N/A,PC Card,No,No,No,No,No,No
+ipw,802.11b,PCI,Yes,Yes,Yes,Yes,No,Yes
+iwi,"802.11a, 802.11b, 802.11g",PCI,Yes,Yes,Yes,Yes,No,Yes
+iwn,"802.11a, 802.11b, 802.11g, 802.11n","PCI-E, Mini PCIE",Yes,Yes,Yes,Yes,No,No
+iwm,"802.11a, 802.11b, 802.11g, 802.11n","PCI-E, Mini PCIE",Yes,Yes,Yes,Yes,No,No
+malo,"802.11b, 802.11g","Cardbus, PC Card, PCI",Yes,Yes,Yes,Yes,No,No
+otus,"802.11a, 802.11b, 802.11g",USB,Yes,Yes,Yes,Yes,No,No
+pgt,"802.11a, 802.11b, 802.11g","Cardbus, PCI",Yes,No,No,Yes,Yes,Yes
+ral,"802.11a, 802.11b, 802.11g","Cardbus, PCI, Mini PCI",Yes,Yes,Yes,Yes,Yes,Yes
+ray,N/A,PC Card,No,No,No,No,No,Yes
+rtw,802.11b,"Cardbus, PCI",Yes,No,No,Yes,Yes,Yes
+rtwn,"802.11b, 802.11g",Mini PCIE,Yes,Yes,Yes,Yes,No,No
+rum,"802.11a, 802.11b, 802.11g",USB,Yes,Yes,Yes,Yes,Yes,Yes
+run,"802.11a, 802.11b, 802.11g",USB,Yes,Yes,Yes,Yes,No,No
+uath,"802.11a, 802.11b, 802.11g",USB,Yes,No,No,Yes,No,No
+upgt,"802.11b, 802.11g",USB,Yes,Yes,Yes,Yes,No,No
+ural,"802.11b, 802.11g",USB,Yes,Yes,Yes,Yes,Yes,Yes
+urtw,"802.11b, 802.11g",USB,Yes,Yes,Yes,Yes,No,No
+urtwn,"802.11b, 802.11g",USB,Yes,Yes,Yes,Yes,No,No
+wi,802.11b,"PC Card, PCI, USB",Yes,No,No,No,Yes,Yes
+wpi,"802.11a, 802.11b, 802.11g",PCI,Yes,Yes,Yes,Yes,No,No
+zyd,"802.11b, 802.11g",USB,Yes,Yes,Yes,Yes,No,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

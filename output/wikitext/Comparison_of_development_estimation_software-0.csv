@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Estimation approach,Category,Examples of support of implementation of estimation approach
 Analogy-based estimation,Formal estimation model,"ANGEL, Weighted Micro Function Points"
 WBS-based (bottom up) estimation,Expert estimation,"Project management software, company specific activity templates"
@@ -6,3 +7,10 @@ Size-based estimation models[15],Formal estimation model,"Function Point Analysi
 Group estimation,Expert estimation,"Planning poker, Wideband delphi"
 Mechanical combination,Combination-based estimation,Average of an analogy-based and a Work breakdown structure-based effort estimate[17]
 Judgmental combination,Combination-based estimation,Expert judgment based on estimates from a parametric model and group estimation
+=======
+Software,Schedule estimate,Cost estimate,Cost Models,Input,Report Output Format,Supported Programming Languages,Platforms,Cost,License
+AFCAA REVIC[33],,,REVIC,"KLOC, Scale Factors, Cost Drivers","proprietary, Text",any,DOS,Free,Proprietary Free for public distribution
+Seer for Software[34],,,SEER-SEM,"SLOC, Function points, use cases, bottoms-up, object, features","proprietary, Excel, Microsoft Project, IBM Rational, Oracle Crystal Ball",any,"Windows, Any (Web-based)[35]",Commercial,Proprietary
+SLIM[36],,,SLIM,"Size (SLOC, Function points, Use Cases, etc.), constraints (size, duration, effort, staff), scale factors, historical projects, historical trends","proprietary, Excel, Microsoft Project, Microsoft PowerPoint, IBM Rational, text, HTML",any,"Windows, Any (Web-based)[37]",Commercial,Proprietary
+TruePlanning[38],,,PRICE,"Components, Structures, Activities, Cost drivers, Processes, Functional Software Size (Source Lines of Code (SLOC), Function Points, Use Case Conversion Points (UCCP), Predictive Object Points (POPs) etc.)","Excel, CAD",any,Windows,Commercial,Proprietary
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

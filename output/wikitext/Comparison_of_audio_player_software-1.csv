@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Audio player,HTTP,"RTSP (RTSPU, RTSPT)","MMS (MMSU, MMST)",Podcasting,Other
 AIMP,,,,,
 Amarok,,,,,UPNP
@@ -20,3 +21,34 @@ Sonique,,,,,
 XMMS,,,,,
 Zinf,,,,,
 Audio player,HTTP,"RTSP (RTSPU, RTSPT)","MMS (MMSU, MMST)",Podcasting,Other
+=======
+Audio player,ReplayGain,Tag mass,Tag flexible[10],Time stretch,Pitch shift,A-B repeat,Bookmark,Auto resume,Shutdown on play complete,Archive ability
+AIMP,,,,,,,,,,
+Amarok,,,,,,,,,,
+Audacious,,,,,,,,,,
+Audion,,,,,,,,,,
+cmus,,,,,,,,,,
+Cog,,,,,,,,,,
+Clementine,,,,,,,,,,
+Exaile,,,,,,name=plugin,name=plugin,,name=plugin,
+foobar2000,,,,name=plugin,name=plugin,name=plugin,name=plugin,,name=plugin,
+iTunes,,,,,,,,,,
+JRiver Media Center,,,,,,,,,,
+JuK,,,,,,,,,,
+MediaMonkey,,,,name=plugin,name=plugin,name=plugin,name=plugin,,,
+MPXPLAY,,,,,,,,,,
+MusicBee,,,,,,,,,,
+Musicmatch Jukebox,,,,,,,,,,
+musikCube,,,,,,,,,,
+Quod Libet,,,,,,,,,,
+Rhapsody,,,,,,,,,,
+Rhythmbox,,,,,,,,,,
+Sayonara Player,,,,,,,,,,
+Sonique,,,,,,,,,,
+Spotify,,,,,,,,,,
+Winamp,,,,,,,,,,
+XMMS,,,,,,,,,,
+XMPlay,,,,,,,,,,
+Zinf,,,,,,,,,,
+Audio player,ReplayGain,Tag mass,Tag flexible,Time stretch,Pitch shift,A-B repeat,Bookmark,Auto resume,Shutdown on play complete,Archive ability
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

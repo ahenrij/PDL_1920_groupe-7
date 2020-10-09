@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IDE,License,Developer,Latest stable release,Windows,Linux,macOS,Other platforms
 Microsoft Visual Studio,,Microsoft,"2019-04-1216.0.2 / April 18, 2019",,,,
 MonoDevelop,LGPL,Xamarin and the Mono community,"2016-11-11 6.1.2.44 / November 11, 2016",,,,"FreeBSD, OpenBSD, Solaris"
@@ -8,3 +9,16 @@ Visual Studio Code,source code(MIT License) - binary(Proprietary),Microsoft,"202
 Xamarin Studio,source code(MIT License) - binary(Proprietary),Microsoft,December 2016,,,,
 Eclipse,EPL,Eclipse Foundation,"2017-06-284.7 / June 28, 2017",,,,
 Rider,,JetBrains,"2019-12-112019.3 / December 11, 2019",,,,
+=======
+IDE,Widget toolkit,Platform,Compilers,Open Source,Made in D,Notes
+Visual Studio,Microsoft,Windows,"DMD, LDC (LLVM), GDC (GCC)",,,"Visual Studio extension. VisualD, wrote in D."
+NetBeans,Java Swing,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana, Java","DMD, LDC (LLVM), GDC (GCC)",,,"NetBeans module. NetBeans-D, under MIT License."
+SlickEdit,Qt,"Windows, Linux, MacOS, AIX, HP-UX, Solaris, Solaris SPARC",DMD,,,
+CodeLite,wxWidget,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,
+Xcode,Cocoa,macOS,"DMD, GDC (GCC)",,,"Xcode plugin. D for Xcode, under GPL v2."
+MonoDevelop,GTK#,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,"MonoDevelop extension. Mono-D, support VisualD projects and DUB, Can be installed on Xamarin Studio too, under Apache License."
+KDevelop,Qt,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,
+Geany,GTK+,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,Native support.
+Code::Blocks,wxWidget,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,Includes partial support.
+Eclipse,SWT,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana, Java",DMD,,,Eclipse Plugin. DDT. Dropped.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

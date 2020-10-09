@@ -1,4 +1,5 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 caption,rowspan="10" ,rowspan="5" ,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="9" 
 table,,,,,,,
 td,,,,,,,
@@ -9,3 +10,6 @@ colgroup,,,,,,,
 tbody,rowspan="3" ,,,,,,
 thead,,,,,,,
 tfoot,,,,,,,
+=======
+ismap,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

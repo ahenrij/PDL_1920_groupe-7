@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Example usage,Languages
 String.Trim([chars]),"C#, VB.NET, Windows PowerShell"
 string.strip();,D
@@ -23,3 +24,8 @@ TRIM(string) or TRIM(ADJUSTL(string)),Fortran
 TRIM(string),SQL
 TRIM(string) or LTrim(string) or RTrim(String),ColdFusion
 String.trim string,OCaml 4+
+=======
+Definition,"charAt(string,integer) returns character."
+Description,Returns character at index in the string.
+Equivalent,See substring of length 1 character.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

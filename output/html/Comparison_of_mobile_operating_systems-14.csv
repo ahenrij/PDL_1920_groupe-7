@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch,Plasma Mobile,PureOS,PostmarketOS,KaiOS
 Developed by,"Google, Open Handset Alliance",Apple Inc.,"Linux Foundation, Tizen Association, Samsung, Intel","Sailfish Alliance, Mer, Jolla and Sailfish community contributors",UBports and Ubuntu community contributors (previously Canonical Ltd.),KDE and Blue Systems,Purism,PostmarketOS community,"KaiOS Technologies Inc., Google[1][2]"
 Market share[3],86.1%,13.7%,Unknown,Unknown,Unknown,Unknown,Unknown,N/A,?
@@ -14,3 +15,12 @@ Device independent system updates,Partial system updates since Oreo[25] 3rd part
 Wireless system updates,Yes,5+[30],No,Yes,Yes,,,,
 GPU accelerated GUI,3+[31],Yes,?,Yes,Yes,,,,
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch,Plasma Mobile,PureOS,PostmarketOS,KaiOS
+=======
+Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+Official app store,Google Play,App Store,Tizen Store,Jolla Store,OpenStore
+Non-discriminatory stores,"No, Some apps like Ad blockers are censored on Google Play[80][81] but developers can distribute apps from their own sources","No, Apple discriminates based on country[82] and own Apple policies[83]",?,"Openrepos.[84] Developers can distribute apps from their own sources, supports multiple app stores",?
+"Common APIs for smartphones, tablets, and PCs",Yes[85],Smartphone and tablet only[86],No,Yes,Yes
+Official SDK platform(s),"Linux, macOS and Windows[87]",macOS using iOS SDK,"GNU/Linux, Windows, macOS[88]","Windows, macOS and Linux[89]",Yes
+Cost to develop for the mobile OS,Free,"No, Requires Apple hardware.[90]",Free,Free,Free
+Cost to publish app to official store,US$25 once to offer it on Google Play[91],US$99/year,Free,Free[92],Free
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

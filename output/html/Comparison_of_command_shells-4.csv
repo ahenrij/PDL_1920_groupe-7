@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Shell,Usual environment,Usually invoked,Introduced,Platform-independent,Default login shell in,Default script shell in,License,Source code availability,User interface,Mouse support,Unicode support,ISO 8601 support,Console redirection,Stream redirection,Configurability,Startup/shutdown scripts,Batch scripts,Logging,"available as statically linked, independent single file executable"
 Thompson shell,UNIX,sh,1971,N/A,UNIX,UNIX,N/A,Yes,Text-based CLI,No,No,N/A,Yes,N/A,N/A,N/A,N/A,N/A,N/A
 Bourne shell 1977 version,7th Ed. UNIX,sh,1977,Yes[1],7th Ed. UNIX,"7th Ed. UNIX,",Proprietary[2],Yes,Text-based CLI,No,No,N/A,Yes,Yes (arbitrary fds),Yes (via variables and options),Yes ( .profile),Yes (Unix feature),No,Yes
@@ -26,3 +27,29 @@ BeanShell,Java,?,2005,Yes,?,?,LGPL,?,?,?,Yes,?,?,Yes,?,?,?,?,No
 fish,POSIX,fish,2005[21],Yes,GhostBSD,?,GPL,Yes,Text-based CLI,?,Yes,?,?,Yes (arbitrary fds),Yes (through environment variables and via web interface through fish_config),Yes ( /etc/fish/config.fish and ~/.config/fish/config.fish),Yes (Unix feature),Yes ( ~/.config/fish/fish_history*),?
 Ion,"Redox, Linux",ion,2015[22],Yes,Redox,Redox,MIT,Yes,Text-based CLI,?,Yes,Yes,?,Yes (arbitrary fds),Yes (follows the XDG Base Directory spec),Yes ( ~/.config/ion/initrc),Yes,Yes ( ~/.local/share/ion/history),"Partial (not distributed as a standalone executable, but it can be built as one)"
 Shell,Usual environment,Usually invoked,Introduced,Platform-independent,Default login shell in,Default script shell in,License,Source code availability,User interface,Mouse support,Unicode support,ISO 8601 support,Console redirection,Stream redirection,Configurability,Startup/shutdown scripts,Batch scripts,Logging,"available as statically linked, independent single file executable"
+=======
+Shell,Pipes,Command substitution,Process substitution,Subshells,TCP/UDP connections as streams,Keystroke stacking
+Bourne shell,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+POSIX shell,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+bash (v4.0),bytes concurrent,Yes,Yes (if system supports /dev/fd/?n? or named pipes),Yes,Yes (client only),N/A[nb 19]
+csh,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+tcsh,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+Hamilton C shell,bytes concurrent,Yes,No,Yes,No,?
+Scsh,text,?,?,?,Yes,N/A[nb 19]
+ksh (ksh93t+),bytes (may contain serialized objects if print -C is used) concurrent,Yes ( $(...) and ${<space>...;}),Yes (if system supports /dev/fd/?n?),Yes,"Yes (and SCTP support, client only)",N/A[nb 19]
+pdksh,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+zsh,bytes concurrent,Yes,Yes,Yes,"Yes (client and server, but only TCP)",N/A[nb 19]
+ash,bytes concurrent,Yes,No,Yes,No,N/A[nb 19]
+CCP,No,No,No,No,No,No
+COMMAND.COM,text sequential temporary files,No,No,Partial (only under DR-DOS multitasker via COMMAND.COM /T),No,No
+OS/2 CMD.EXE,text concurrent,No,No,?,No,No
+Windows CMD.EXE,text concurrent,Yes (via FOR /F command),No,Yes (Backtick: ` in FOR /F usebackq),No,No
+4DOS,text sequential temporary files,Yes (via FOR /F command),?,"Partial (via %@EXECSTR[] and %@EXEC[], or via SET /M, ESET /M and UNSET /M and %@MASTER[...])",No,Yes (via KEYSTACK and KSTACK)[51]
+4OS2,text concurrent,?,?,?,No,Yes (via KEYSTACK)
+TCC (formerly 4NT),text concurrent,Yes (via FOR /F command),?,Partial (via %@EXECSTR[] and %@EXEC[]),"Yes (via FTP, TFTP, FTPS, SFTP, HTTP, HTTPS and IFTP, client only)",Yes (via KEYSTACK)
+PowerShell,objects concurrent,Yes,No,Yes,Yes,?
+rc,text concurrent,Yes,Yes (via: <{cmd} if system supports /dev/fd/?n?),Yes,No,?
+BeanShell,not supported,?,?,?,Yes,?
+VMS DCL,text (via PIPE command),Yes,No,Yes (spawn),Yes (server TCP only),No
+fish,bytes concurrent,Yes ( ...),No (broken)[52],No,No,N/A[nb 19]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Creator,Latest release,User interface,Software license,Cost
 Analyze This,Comoe Networks,,Web GUI,N/A,
 Cain and Abel,Massimiliano Montoro,20140407 / 4.9.56,GUI,Freeware,
@@ -26,3 +27,30 @@ tcpdump,The Tcpdump team,20170904 / 4.9.2[13],CLI,BSD License,
 Tranalyzer,The Tranalyzer team,20191129 / 0.8.7lmw1[14],CLI,GNU General Public License,
 Wireshark (formerly Ethereal),The Wireshark team,20200519 / 3.2.4[15],Both,GNU General Public License,
 Xplico,The Xplico team,20190502 / 1.2.2[16],Both,GNU General Public License,
+=======
+Client,Microsoft Windows,macOS,Linux,BSDs,Solaris,Other
+Cain and Abel,,,,,,
+Capsa Free Edition,,,,,,
+Carnivore,,,,,,
+Charles Web Debugging Proxy,,,,,,
+Clusterpoint Network Traffic Surveillance System,,,,,,Any virtual-machine compatible OS
+CommView,,,,,,
+dSniff,,,,,,
+EtherApe,,,,,,
+Ettercap,,,,,,
+HTTP Toolkit,,,,,,Client available for Android[17]
+justniffer,,,,,,
+Kismet,,,,,,
+Lanmeter,,,,,,Fluke proprietary hardware
+netsniff-ng,,,,,,
+ngrep,,,,,,"AIX, BeOS, HP-UX, IRIX, Tru64 UNIX"
+Microsoft Network Monitor,,,,,,
+Observer,,,,,,
+"OmniPeek (formerly AiroPeek, EtherPeek)",,,,,,
+SteelCentral Transaction Analyzer,,Version 3.5 capture agents on PowerPC only,"GUI, plus version 3.5 capture agents",,Version 3.5 capture agents on SPARC only,Version 3.5 capture agents on AIX and PA-RISC HP-UX only
+snoop,,,,,,
+tcpdump,,,,,,"AIX, HP-UX, IRIX, Tru64 UNIX"
+Tranalyzer,,,,,,
+Wireshark (formerly Ethereal),,,,,,"AIX, HP-UX, IRIX, Tru64 UNIX"
+Xplico,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

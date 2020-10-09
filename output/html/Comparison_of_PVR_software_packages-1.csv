@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Windows,MacOSX,Linux,BSD,Android,Price,License,Latest stable release,Notes
 Beyond TV,Yes,No,No,No,No,Discontinued,Proprietary,"4.9.3 (Build 6535) October 15, 2010; 9 years ago (2010-10-15)","Not compatible with DVB tuners. While Snapstream is providing minor fixes for Beyond TV, they are no longer actively updating and developing the software as they are focusing on commercial applications. Despite the lack of a new version, their fanbase (in the forums) remains active and the program is still available. Further information: List of digital television deployments by country"
 DVB Dream,Yes,No,No,No,No,US$49,Proprietary,"3.7.1 March 14, 2019; 18 months ago (2019-03-14)[1]",Focused on DVB and live TV
@@ -19,3 +20,17 @@ Video Disk Recorder,No,No,Yes,Yes,No,Free,GPL,"2.4.1 June 17, 2019; 15 months ag
 Windows Media Center,Yes,No,No,No,No,Windows 8/8.1: US$69.99 Windows 8/8.1 Pro: US$9.99 Windows XP/Vista/7: Free,Proprietary,"6.3.9600.16384 February 23, 2011; 9 years ago (2011-02-23)","Included with Windows XP Media Center Edition, Windows Vista Home Premium and Ultimate editions and Windows 7 Home Premium, Professional, and Ultimate editions. Was available for Windows 8 Pro and Windows 8.1 Pro as part of the Media Center Pack add-on, until it was discontinued on October 30, 2015.[17] Available for Windows 8, Windows 8.1 and Windows 10 unofficially through a windows command script installer.[18] Not available for Windows RT."
 V@Home,Yes,Yes[e],Yes,No,No,Bundled,Proprietary,"2.59 April 14, 2018; 2 years ago (2018-04-14)[19]","Bundled for no extra charge with VBox Home TV Gateway - Network TV Tuner, Manage and schedule recordings from any web browser, local or over the internet"
 "^ Emby Server is available for free under GPL which provides web access to the library. Client software is generally free when connected to an Emby Premiere-licensed server, though some, like Emby on the Windows Store, cost $4.99.[3] ^ Premiere license costs $4.99/month, $49.99/year, or $99.99 for lifetime.[4] ^ Porting MythTV to Windows is under development.[11] ^ There is also a Windows Home Server Edition ^ Manage and schedule recordings",,,,,,,,,
+=======
+DVR,Tuner Sharing,Hard Disk Pooling,Shared Media Database,Home Automation,Media Extenders,Placeshifting/Spaceshifting,Two-way Remote Control,Second Screen
+Beyond TV,Yes,Yes,No,No,Yes,Yes,No,Unknown
+EyeTV,Unknown,Unknown,Yes,Unknown,Unknown,Yes,Unknown,Unknown
+NextPVR,Yes,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+Kodi (formerly XBMC),Yes,Yes,Yes,Yes4,Yes,Unknown,Yes3,Unknown
+MediaPortal,Yes,Yes,Yes,Yes,Yes,Yes,Yes4,Unknown
+MediaPhoenix/ShowShifter,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+MythTV,Yes,Yes,Yes,Yes3,Yes,Yes,Yes,Unknown
+SageTV,Yes,Yes,Unknown,Unknown,Yes,Yes,Unknown,Unknown
+Arcsoft TotalMedia Theatre,Yes,Yes,Yes,No,Yes,Yes,No,Unknown
+Windows Media Center,Yes6,Yes7,Yes,Yes2,Yes,Yes5,Yes2,Unknown
+VBox@TV,Yes,Unknown,Yes,Unknown,Unknown,Yes,Yes,Unknown
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

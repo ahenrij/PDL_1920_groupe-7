@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Transistors (million),"Core config1,2",Core clock (MHz),Fillrate,,,,Memory,,,,,Bus interface,API compliance (version),,,Processing power (GFLOPS),Notes
 ,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Clock (MHz),RAM type,Bus width (bit),Bandwidth (GB/s),,Direct3D,OpenGL,other,,
 Flipper (GameCube) [424][425][426][427][428],"September 14, 2001",Flipper,NEC 180 nm[429],51[430],4(Pixel Pipelines):1(Vertex Pipeline):4:4,162,648,648,648,90,24 shared 16 shared 3 eDRAM,324 81 162,1T-SRAM SDRAM eDRAM,64 8 512,3.2 1.6 12.8/9.63,Integrated,No,Unknown,Unknown,9.4,"Fixed-function T&L, TEV register combiner"
@@ -12,3 +13,11 @@ Scarlett (Xbox Series X)[440],?,Project Scarlett,TSMC 7 nm,"15,300",3328:208:64,
 Codename Oberon (PlayStation 5),?,Oberon,7 nm,,2304:144:64,2233 (Variable/Continuous Boost),"10,289,664","142,912","321,552",?,"16,384 (shared)",?,GDDR6,256,448,?,?,?,?,10289.6,"8K support, 120fps refresh rate support and ray tracing support"
 Model,Launch,Code name,Fab (nm),Transistors (million),"Core config1, 2",Core clock (MHz),Million Operations/s,Million Pixels/s,MTexels/s,MVertices/s,Size (MiB),Clock (MHz),RAM type,Bus width (bit),Bandwidth (GB/s),Bus interface,Direct3D,OpenGL,Other,Processing power (GFLOPS),Notes
 ,,,,,,,Fillrate,,,,Memory,,,,,,API compliance (version),,,,
+=======
+Model,Released,Code name,Fab (nm),Core Clock (MHz),Core config1,Fillrate,,Shared Memory,,,Processing power (GFLOPS),Max. Combined TDP2 (Watts),Fusion_APU
+,,,,,,Pixel (GP/s),Texture (GT/s),Bandwidth (GB/s),Bus type,Bus width (bit),,,
+Radeon HD 6380G,"June 14, 2011",WinterPark,32,400,160:8:4:2,1.6,3.2,17.06,DDR3-1333,128,128,35,E2-3000M
+Radeon HD 6480G,,BeaverCreek,,444,240:12:4:3,1.77,3.55,,,,213.1,35 - 45,A4-3300M A4-3310MX
+Radeon HD 6520G,,,,400,320:16:8:4,3.2,6.4,,,,256,,A6-3400M A6-3410MX A6-3420M
+Radeon HD 6620G,,,,444,400:20:8:5,3.55,8.88,25.6,DDR3-1600,,355.2,,A8-3500M A8-3510MX A8-3530MX
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

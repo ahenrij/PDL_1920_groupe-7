@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Scanner support,Freehand sketch,Raster filters,Change color depth,Image resize,Rotate,Crop,Raster shapes
 Easy Trace,,,,,,,,
 Graphic Tracer Professional,,,N/A,N/A,,,,N/A
@@ -8,3 +9,15 @@ Scan2CAD,,,,,,,,
 WinTopo Pro,,,,,,,,
 AutoTrace,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
 ! Scanner Support,Freehand sketch,Raster Filters,Change color depth,Image resize,Rotate,Crop,Raster Shapes,
+=======
+,Fills & hatch,Vector combine,Rotate & move,Polylines,Spline curves,Lines to curves cmd. & vice versa,Vector shapes,Font ID & replace
+Easy Trace,,,,,,,,No
+Graphic Tracer Professional,N/A,,,,,,,
+Illustrator,,,,,,,,No
+Potrace,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No
+ImageTracer,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No
+Scan2CAD,,,,,,,,No
+WinTopo Pro,,,,,,,,No
+AutoTrace,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No
+! Fills & hatch,Vector combine,Rotate & move,Polylines,Spline curves,Lines to curves cmd. & vice versa,Vector shapes,-,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

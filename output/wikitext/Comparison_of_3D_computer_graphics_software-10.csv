@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Application,Alembic Importer,USD Importer,Rendering Engine,Volume Rendering for clouds,Interactive Rendering,Isolating light contribution,Light Lister,IES Light,Physical Sun & Sky,Sun Positioning by location and times,Light Portal,Shadow Catcher,IBL and Environment texture,,,Highlight Placement,Light Layers
 ,,,,,,,,,,,,,Lat Long,sIBL,Light Extraction[21],,
 Maya,rowspan=3 ,rowspan=3 (USD for Maya),Maya Hardware 2.0,,,,rowspan=3 Light Editor,,,,,,,,,rowspan=3 (Place Highlight Tool for Maya),
@@ -14,3 +15,28 @@ MODO,,14.1 and later,MODO Renderer,,,Light Linking[29],,Photometric Light,colspa
 LightWave,11.6 and later,,LightWave Renderer,,,,,Photometric Light,,,,,,"original loader script, where most sIBL features were invented[31]",,,
 Houdini,,Solaris,Mantra (PTPath Tracing) / Karma,,,Light categories,Light bank,,,,,Shadow Matte,,,,Solaris,
 Cinema 4D,,R23 and later,CineRender,,,Exclude/Include,,,,,,from R18,,,,,
+=======
+,Modeling,3D Painting,Animation,Rendering,3D Tracking,Compositing
+3ds Max,,,,,,
+AC3D,,?,?,,,
+Blender,,,,,,
+Electric Image Animation System,dropped[6],?,,,,?
+Cinema 4D,,,,,R16 or later,
+Clara.io,,?,,,,?
+Cobalt,,?,,,,?
+HiCAD,,,,,,
+Houdini,,,,,,
+IClone,,?,,,?,?
+Lightwave 3D,,,,,,
+MakeHuman,parameter-based,,,,,
+Maya,,,,,dropped (Maya Live),"dropped (Maya Composer, Maya Fusion, and Maya Composite)"
+Metasequoia,,,,,,
+Modo,,,,,,
+Remo 3D,,,,,,
+Shade,,,,,,
+Softimage,,3.7 or later,,,,
+Solid Edge,,?,,,,?
+SketchUp Make,,?,,,,
+SketchUp Pro,,?,,,,
+Wings3D,,?,,,,?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

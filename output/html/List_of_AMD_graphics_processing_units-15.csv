@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
 ,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),
 Radeon R5 M330[155] (Exo Pro),2015,GCN 1st gen (28 nm),320:20:8,Unknown 1030,8.2,20.6,659.2,DDR3 64-bit,2 4,1000,14.4 16,18 W
@@ -13,3 +14,11 @@ Radeon R9 M390[157] (Pitcairn),June 2015,GCN 1st gen (28 nm),1024:64:32,Unknown 
 Radeon R9 M390X[157] (Amethyst XT),2015,GCN 3rd gen (28 nm),2048:128:32,Unknown 723,23.1,92.5,2961.4,GDDR5 256-bit,4,1250,160,125 W
 Radeon R9 M395[157] (Amethyst Pro),2015,,1792:112:32,Unknown 834,26.6,93.4,2989.0,GDDR5 256-bit,2,1365,174.7,125 W
 Radeon R9 M395X[157] Amethyst XT),2015,,2048:128:32,Unknown 909,29.1,116.3,3723.3,GDDR5 256-bit,4,1365,174.7,125 W
+=======
+Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
+FirePro V3900[234],"February 7, 2012",TeraScale 2,Turks GL,40,PCIe 2.1 x16,650,900,480(96×5):24:8:6,5.2,15.6,1,28.8,GDDR3,128,624,-,11.0,4.3,1.2,N/A,50,"HD3D, UVD3, DP 1.2, PowerPlay, Eyefinity"
+FirePro V4900[235],"November 1, 2011",,Turks XT GL,,,800,1000,,6.4,19.2,,64,GDDR52,,768,,,,,,<75 Max,
+FirePro V5900[236],"May 24, 2011",TeraScale 3,Cayman LE GL,,,600,5002,512(128×4):32:32:8,19.2,,2,,,256,610,154,,,,,,
+FirePro V7900[237],,,Cayman Pro GL,,,725,12502,1280(320×4):80:32:20,23.2,58,,160,,,1860,464,,,,,<150 Max,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

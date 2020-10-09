@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IDE,Developer,Latest stable release,Platform,License,Written in
 Anjuta,Anjuta Team,June 2013,Unix-like,GPL,C
 Atom,GitHub (subsidiary of Microsoft),"2018-12-19 1.33.1 / December 19, 2018",Cross-platform,MIT License,JavaScript
@@ -16,3 +17,8 @@ SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, Solaris, AIX, HP-UX",,C
 Visual Studio,Microsoft,"March 31, 2016[28]",Windows,,"C++, C#"
 Visual Studio Code,Microsoft,"2020-09-10 1.49.0 / September 10, 2020",Cross-platform,MIT License,JavaScript
 WebStorm,JetBrains,2019.1/ 25 March 2019[29],Cross-platform,,Java
+=======
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,Profiler,Notes
+Visual Studio Code (using the Julia extension),MIT License,,,,FreeBSD[30],,,License is for the extension; and Microsoft's source code (only).
+Emacs / spacemacs,"portions in GPL v2, LGPL, BSD and public domain",,,,FreeBSD,,,"ESS extension support for emacs. vi support also available, e.g. in spacemacs (useful for pair programming )."
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Implementation,Dependencies,Optional dependencies
 Botan,C++11,sqlite zlib (compression) bzip2 (compression) liblzma (compression) boost openssl (crypto backend) trousers (TPM)
 GnuTLS,libc nettle gmp,zlib (compression) p11-kit (PKCS #11) trousers (TPM) libunbound (DANE)
@@ -10,3 +11,21 @@ OpenSSL,libc,zlib (compression)
 wolfSSL,None,libc zlib (compression)
 Erlang/OTP ssl application,"libcrypto (from OpenSSL), Erlang/OTP and its public_key, crypto and asn1 applications",Erlang/OTP -inets (http fetching of CRLs)
 Implementation,Dependencies,Optional dependencies
+=======
+Implementation,secp160k1 (15)[81],secp160r1 (16)[81],secp160r2 (17)[81],secp192k1 (18)[81],secp192r1 prime192v1 NIST P-192 (19)[81],secp224k1 (20)[81],secp224r1 NIST P-244 (21)[81],secp256k1 (22)[81],secp256r1 prime256v1 NIST P-256 (23)[81],secp384r1 NIST P-384 (24)[81],secp521r1 NIST P-521 (25)[81],arbitrary prime curves (0xFF01)[81][151],arbitrary char2 curves (0xFF02)[81][151]
+Botan,No,No,No,No,No,No,No,No,Yes,Yes,Yes,No,No
+BoringSSL,No,No,No,No,No,No,Yes,No,Yes,Yes,Yes (disabled by default),No,No
+GnuTLS,No,No,No,No,Yes,No,Yes,No,Yes,Yes,Yes,No,No
+JSSE,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+LibreSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+MatrixSSL,No,No,No,No,Yes,No,Yes,No,Yes,Yes,Yes,No,No
+Mbed TLS,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+NSS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+OpenSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+RSA BSAFE,No,No,No,No,Yes,No,Yes,No,Yes,Yes,Yes,No,No
+"SChannel Vista/2008, 7/2008R2, 8/2012, 8.1/2012R2, 10",No,No,No,No,No,No,No,No,Yes,Yes,Yes,No,No
+Secure Transport,No,No,No,No,Yes,No,No,No,Yes,Yes,Yes,No,No
+wolfSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+Erlang/OTP SSL application,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+Implementation,secp160k1 (15),secp160r1 (16),secp160r2 (17),secp192k1 (18),secp192r1 prime192v1 NIST P-192 (19),secp224k1 (20),secp224r1 NIST P-244 (21),secp256k1 (22),secp256r1 prime256v1 NIST P-256 (23),secp384r1 NIST P-384 (24),secp521r1 NIST P-521 (25),arbitrary prime curves (0xFF01),arbitrary char2 curves (0xFF02)
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

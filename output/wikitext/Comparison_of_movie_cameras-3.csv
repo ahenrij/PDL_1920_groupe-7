@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Camera model,Viewfinder
 Eyemo 71K,"Originally parallax, but reflex conversions frequently use Arri eyepiece accessories."
 Arriflex 35-2C,"Fixed eyepiece on camera door; 6.5x magnified image. Interchangeable doors for pivoting or anamorphic viewfinders available. A periscope attachment accessory can also be used for odd angles, but will slightly crop the frame in the viewfinder."
@@ -27,3 +28,21 @@ Arriflex 435 Advanced,"Spherical and anamorphic viewfinders; can rotate 360° ver
 Aaton 35-3P,"Short, medium, and long eyepieces, also available in anamorphic; all can rotate 360° and to left or right of camera with upright image continuously and have manual iris. Heated eyepiece integrated into long eyepiece and optional in medium eyepiece."
 Arriflex 235,"spherical or universal (with anamorphic switch) viewfinder; arm can telescope further away from camera, rotate 360° on camera axis, and 270° left and right of camera, all with continuous upright image. Optional heated eyecup; medium and long extension tubes, heated eyepiece, and manual iris."
 Arriflex 435 Xtreme,"Spherical and anamorphic viewfinders; can rotate 360° vertically and 270° left to right, with upright image continuously and can be extended out. Integrated contrast viewing filter (ND .6); medium and long extension tubes, heated eyepiece, and manual iris."
+=======
+Camera model,Camera line,Manufacturer,Introduced,Weight,MOS/sync,Lens mount
+7LTR (Super 16),Aaton LTR,Aaton,1974,,Sync,Aaton universal
+54LTR,Aaton LTR,Aaton,1982,,Sync,Aaton universal
+Arriflex 16HSR2 (Super 16),Arriflex 16SR,Arri,1982,"11.02lbabbr=on, with empty magazine",Sync,Arri bayonet (Arri PL for some later models)
+Arriflex 16SR2 (Super 16),Arriflex 16SR,Arri,1982,"11.02lbabbr=on, with empty magazine",Sync,Arri bayonet (Arri PL for some later models)
+Panaflex 16 ("The Elaine"),Panaflex 16,Panavision,"June 27, 1984[1]","16.6lbabbr=on, with eyepiece",Sync,PV mount
+XTR,Aaton XTR,Aaton,1984,,Sync,Aaton universal
+Arriflex 16HSR3,Arriflex 16SR,Arri,1992,14.5lbabbr=on,Sync,Arri PL
+Arriflex 16SR3,Arriflex 16SR,Arri,1992,14.5lbabbr=on,Sync,Arri PL
+X0plus,Aaton XTR,Aaton,1992,,Sync,Aaton universal
+XTRplus,Aaton XTR,Aaton,1992,,Sync,Aaton universal
+XTRprod,Aaton XTR,Aaton,1994,"13lbabbr=on, with onboard battery and full magazine",Sync,"Arri PL, Aaton universal, or PV mount"
+A-Minima,A-Minima,Aaton,2000,"5lbabbr=on, with onboard battery and full magazine",Sync,Arri PL and Nikon
+Arriflex 416,Arriflex 416,Arri,2006,"12.1lbabbr=on, with full magazine",Sync,Arri PL
+Arriflex 416 Plus,Arriflex 416,Arri,2006,"12.6lbabbr=on, with full magazine",Sync,Arri PL
+Xtera,Aaton XTR,Aaton,2006,,Sync,"Arri PL, Aaton universal, or PV mount"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

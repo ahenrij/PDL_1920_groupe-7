@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Shell,Pipes,Command substitution,Process substitution,Subshells,TCP/UDP connections as streams,Keystroke stacking
 Bourne shell,bytes concurrent,,,,,
 POSIX shell,bytes concurrent,,,,,
@@ -22,3 +23,29 @@ rc,text concurrent,,Yes (via: <{cmd if system supports /dev/fd/n),,,?
 BeanShell,not supported,?,?,?,,?
 VMS DCL,text (via PIPE command),,,Yes (spawn),Yes (server TCP only),
 fish,bytes concurrent,...),No (broken)[71],,,
+=======
+Shell,Secure (password) prompt,Encrypted variables/ parameters,File/directory passwords,Execute permission,Untrusted script blocking,Restricted shell subset,Safe data subset
+Bourne shell,via stty[72],,?,,,,
+POSIX shell,via stty[72],,?,,,,
+bash (v4.0),read -s,,?,,,,
+csh,via stty[72],,?,,,,
+tcsh,via stty[72],,?,,,,
+Hamilton C shell,,,,,,,
+Scsh,via stty[72],,?,,,,
+ksh (ksh93t+),via stty[72],,?,,,,
+pdksh,via stty[72],,?,,,,
+zsh,read -s,,?,,,,
+ash,via stty[72],,?,,,,
+CCP,,,,,,,
+COMMAND.COM,",,\dirname;dirpwd\filename;filepwd syntax)[74],",,,
+OS/2 CMD.EXE,,,,,,,
+Windows CMD.EXE,,,,,,,
+4DOS,INPUT /P or INKEY /P)[76],,\dirname;;dirpwd\filename;;filepwd syntax)[74],",,,
+4OS2,?,,,,,,
+TCC (formerly 4NT),"INPUT /P, INKEY /P or QUERYBOX /P)[76]",,,,,,
+PowerShell,,,,,,,
+rc,via stty[72],,?,,,,
+BeanShell,?,?,?,?,?,?,?
+VMS DCL,,,,,,,
+fish,read -s,,?,,, Yes (via fish -l),?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

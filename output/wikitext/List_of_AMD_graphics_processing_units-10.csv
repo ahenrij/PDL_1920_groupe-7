@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Clock rate,,Core config,Fillrate,,,,Memory,,,,TDP (Watts),API support (version),,Release Price (USD)
 ,,,,,,,Core (MHz),Memory (MHz),,MOperations/s,MPixels/s,MVertices/s,MTexels/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Max.,Direct3D,OpenGL,
 Radeon X1300,"Oct. 5, 2005 (PCI-E) Dec. 1, 2005 (AGP)",RV515,90,107,100,AGP 8x PCI PCI-E x16,450,250,4:2:4:4,1800,1800,225,1800,128 256,8.0,DDR2,128,,9.0c,2.1,$
@@ -28,3 +29,10 @@ Radeon X1950 XT,"Oct. 17, 2006 (PCI-E) Feb. 18, 2007 (AGP)",R580+,,384,352,AGP 8
 Radeon X1950 XTX,"Oct. 17, 2006",,,,,PCI-E 1.0 x16,650,1000,,31200,10400,1300,10400,512,64,GDDR4,,125,,,$449
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core (MHz),Memory (MHz),Core config,MOperations/s,MPixels/s,MVertices/s,MTexels/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Max.,Direct3D,OpenGL,Release Price (USD)
 ,,,,,,,Clock rate,,,Fillrate,,,,Memory,,,,TDP (Watts),API support (version),,
+=======
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Radeon Xpress X1200,Feb. 28 2007,RS690C (zeus),80,HT 2.0,350,400 - 800,4:2:4:4,1400,1400,1400,175,256 - 512,6.4 - 12.8,DDR2,128
+Radeon Xpress X1250,"Aug. 29, 2006 (Intel), Feb. 28, 2007 (AMD)","RS600, RS690 (zeus)",,"FSB, HT 2.0",400,,,1600,1600,1600,200,,,,
+Radeon Xpress 2100,"March 4, 2008",RS740 (titan),55,HT 2.0,500,,,2000,2000,2000,250,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

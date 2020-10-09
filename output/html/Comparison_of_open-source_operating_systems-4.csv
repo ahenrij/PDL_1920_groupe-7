@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,License,Kernel type,Kernel programming language,Kernel thread support,OS family,Oldest non-EOL version[Note 1],Forks
 Linux,GPL/LGPL,Monolithic with modules,C,1:1,Unix-like,3.16,elks
 FreeBSD,"BSD; GPL, LGPL software usually included",Monolithic with modules,C,1:1,"BSD, Unix-like",11,DragonFly BSD
@@ -30,3 +31,31 @@ HelenOS,BSD,Microkernel,C,M:N,own/original,No,
 E/OS,GPLv2,Monolithic,"ASM, C",1:1,"BeOS, Unix-like",No,
 TempleOS,public domain,Monolithic,"HolyC, C, C++",,Commodore 64-like,No,
 Name,License,Kernel type,Kernel programming language,Kernel thread support,OS family,Oldest non-EOL version,Forks
+=======
+Name,RAID,quota,Resource access control,encryption,other special file system features
+Linux,Yes,Yes,"Unix, ACL, MAC",Yes,"LVM, EVMS"
+FreeBSD,Yes,Yes,"Unix, ACL, MAC",Yes,"GEOM, snapshots, background fsck, user-mountable file systems"
+OpenBSD,Yes,Yes,Unix,Yes,
+NetBSD,Yes,Yes,"Unix, Veriexec",Yes,"Snapshots, Journaling"
+DragonFly BSD,Yes,Yes,Unix,Yes,"HAMMER, Snapshots, Checksumming, Deduplication"
+"OpenSolaris, illumos",Yes,Yes,"Unix, ACL, MAC",Yes,"Solaris Volume Manager, ZFS, snapshots, transparent data repair"
+"Darwin, OpenDarwin",,Yes,"Unix, ACL",Yes,
+MINIX,,,Unix,,
+FreeDOS,,,No,,
+Genode,No,No,No,No,Per-process virtual file-system layer
+KolibriOS,,,No,,
+MenuetOS,,,No,,
+GNU,,,Unix,,
+ReactOS,,,No,,
+"L4, Fiasco, Pistachio",,,,,
+Plan 9,No,No,"Unix-like, no root",No,"snapshots, venti archival storage, per-process namespace, user-mountable file systems"
+AROS,,,,,
+Syllable,,,Unix,,"64-bit, journaling, extended file attributes"
+Inferno,No,No,"Unix-like, no root",No,"per-process namespace, user-mountable file systems"
+FreeRTOS,,,,,
+eCos,,,,,
+RTEMS,,,,,
+HelenOS,No,No,No,No,No
+E/OS,Yes,Yes,Unix,Yes,No
+Name,RAID,quota,Resource access control,encryption,other special file system features
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

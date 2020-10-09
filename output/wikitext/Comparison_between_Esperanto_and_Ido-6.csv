@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,,,Relative and interrogative,,Demonstrative,,Indeterminate,,Most Indeterminate,Negative,,Collective,
 ,Esperanto,Ido,Esperanto,Ido,Esperanto,Ido,Ido,Esperanto,Ido,Esperanto,Ido,,
 ,ki-,"qua, ?",ti-,"ita, ?",i-,"ula, ?",irga,neni-,nula,?i-,omna,,
@@ -22,3 +23,18 @@ Manner,Esperanto,-el,kiel,,tiel,,iel,,,neniel,,?iel,
 ,Ido,"-e, maniere",quale,,tale,,"ule, ulamaniere",,"irge, irgamaniere","nule, nulamaniere",,"omne, omnamaniere",
 Quantity – adjective,Esperanto,-om,kiom,,tiom,,iom,,,neniom,,?iom,
 ,Ido,quanta,quanta,,tanta,,kelka,,irgaquanta,nulaquanta,,omnaquanta,
+=======
+Grammatical form,Ido,English,,Esperanto,
+Singular noun,-o (libro),book,,-o (libro),
+Plural noun,-i (libri),books,,-oj (libroj),
+Adjective,-a (varma),warm,,-a (varma),
+Adverb,-e (varme),warmly,,-e (varme),
+Present tense infinitive,-ar (irar),to be going,to go,-anti (iranti),-i (iri)
+Past tense infinitive,-ir (irir),to have gone,,-inti (irinti),
+Future tense infinitive,-or (iror),to be going to go,,-onti (ironti),
+Present,-as (iras),"go, goes",,-as (iras),
+Past,-is (iris),went,,-is (iris),
+Future,-os (iros),will go,,-os (iros),
+Imperative,-ez (irez),go!,,-u (iru),
+Conditional,-us (irus),would go,,-us (irus),
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

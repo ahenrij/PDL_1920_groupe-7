@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,,Cerberus,Complete,CrushFTP Server,FileZilla,IIS,Multi Server
 ,License type,proprietary,proprietary,proprietary,FLOSS/GPL2,proprietary,proprietary
 OS,Linux,No,No,Yes,No,No,No
@@ -24,3 +25,31 @@ High Availability,Failover Cluster (active/passive),Yes,No,Yes,No,Yes,No
 Automation,Event-handling,Yes,Yes,Yes,No,No,?
 ,Scripting,No,Yes,Yes,No,No,?
 ,,Cerberus,Complete,CrushFTP Server,FileZilla,IIS,Multi Server
+=======
+,,CrushFTP,ProFTPD,Pure-FTPd,vsftpd,Wu-ftp
+,License type,proprietary,FLOSS/GPL,BSD,FLOSS/GPL2,proprietary
+OS,Linux,Yes,Yes,Yes,Yes,Yes
+,Mac OS X,Yes,Yes,Yes,Yes,Yes
+,Unix,Yes,Yes,Yes,Yes,Yes
+,Windows,Yes,No,?,No,?
+User Interface,CLI,Yes,Yes,?,?,?
+,GUI integrated,Yes,No,?,?,?
+,GUI(s) separately,Yes,Yes,?,?,?
+,Web-based GUI,Yes,?,?,?,?
+Services,FTP,Yes,Yes,Yes,Yes,Yes
+,SFTP,Yes,Yes,No,No,No
+,FTPS,Yes,Yes,Yes,Yes,?
+,SCP,Yes,?,?,No,?
+,WebDAV,Yes,?,?,No,?
+,HTTP/HTTPS,Yes,?,?,No,?
+,AS2,Yes,?,?,?,?
+Authentication,LDAP,Yes,Yes,Yes,?,?
+,Active Directory,Yes,?,?,?,?
+,Local,Yes,Yes,Yes,Yes,Yes
+,Database,Yes,Yes,Yes,No,?
+High Availability,Failover Cluster (active/passive),Yes,?,?,?,?
+,Load Balancing (active/active),Yes,?,?,?,?
+Automation,Event-handling,Yes,Yes,?,?,?
+,Scripting,Yes,Yes,?,?,?
+,,CrushFTP,ProFTPD,Pure-FTPd,vsftpd,Wu-ftp
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

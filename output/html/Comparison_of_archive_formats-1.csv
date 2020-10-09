@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 File extension(s)[1],MIME type[2],Official name[3],Platform[4],Description
 .bz2,application/x-bzip2,bzip2,Unix-like,"An open source, patent- and royalty-free compression format. The compression algorithm is a Burrows-Wheeler transform followed by a move-to-front transform and finally Huffman coding."
 ".F, .?XF[5]",,Freeze/melt [1],"QNX4, Unix-like and DOS","Old compressor for QNX4 OS. The compression algorithm is a modified LZSS, with an adaptive Huffman coding."
@@ -16,3 +17,25 @@ File extension(s)[1],MIME type[2],Official name[3],Platform[4],Description
 .Z,application/x-compress,compress,Unix-like,The traditional LZW compression format.
 .zst,application/zstd,Zstandard,Cross-platform,"Algorithm developed by Yann Collet at Facebook, combining high speed and high compression. It is an LZ77 derivative, with entropy encoding in the form of Finite State Entropy and Huffman coding."
 .??_,,,MS-DOS/Windows,Compression format(s) used by some DOS and Windows install programs. MS-DOS includes expand.exe to decompress its install files. The compressed files are created with a matching compress.exe command. The compression algorithm is LZSS.
+=======
+Archive format,Built-in compression,Self-extracting,Directory structure,POSIX attributes,ACLs,Alternate data streams
+cpio,No1,No,Yes,Yes,No,?
+tar,No1,No,Yes,Yes,Some,(in Solaris implementation)
+dar,Yes3,No,Yes,Yes,Yes,Yes
+ar,No,No,No,Yes,No,?
+pax,No,No,Yes,Yes,Yes,?
+dump,No1,No,Yes,Yes,Yes,?
+shar,No,Yes,Yes,Yes,No,?
+makeself,Yes,Yes,Yes,Yes,Yes,?
+zip,Yes,Yes2,Yes,No,?,?
+rar,Yes,Yes2,Yes,No,?,Yes
+ace,Yes,?,Yes,No,?,?
+arj,Yes,Yes2,Yes,No,No,?
+zoo,Yes,?,Yes,No,?,?
+ISO 9660 (CD-ROM),No1,No,Yes,(with Rock Ridge extension),No,?
+cab,Yes,Yes2,?,No,?,?
+rpm,Yes,No,Yes,Yes,?,?
+deb,Yes,No,Yes,Yes,?,?
+7z,Yes,Yes,Yes,Yes,?,?
+Archive format,Built-in compression,Self-extracting,Directory Structure,POSIX attributes,ACLs,Alternate data streams
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

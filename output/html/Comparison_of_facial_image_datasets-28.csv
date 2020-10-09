@@ -1,6 +1,15 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Enron Email Dataset,Emails from employees at Enron organized into folders.,"Attachments removed, invalid email addresses converted to user@enron.com or no_address@enron.com.","~ 500,000",Text,"Network analysis, sentiment analysis",2004 (2015),[184][185],"Klimt, B. and Y. Yang"
 Ling-Spam Dataset,Corpus containing both legitimate and spam emails.,Four version of the corpus involving whether or not a lemmatiser or stop-list was enabled.,"2,412 Ham 481 Spam",Text,Classification,2000,[186][187],"Androutsopoulos, J. et al."
 SMS Spam Collection Dataset,Collected SMS spam messages.,None.,"5,574",Text,Classification,2011,[188][189],T. Almeida et al.
 Twenty Newsgroups Dataset,Messages from 20 different newsgroups.,None.,"20,000",Text,Natural language processing,1999,[190],T. Mitchell et al.
 Spambase Dataset,Spam emails.,Many text features extracted.,"4,601",Text,"Spam detection, classification",1999,[191],M. Hopkins et al.
+=======
+Witty Worm Dataset,Dataset detailing the spread of the Witty worm and the infected computers.,Split into a publicly available set and a restricted set containing more sensitive information like IP and UDP headers.,"55,909 IP addresses",Text,Classification,2004,[272][273],Center for Applied Internet Data Analysis
+Cuff-Less Blood Pressure Estimation Dataset,Cleaned vital signals from human patients which can be used to estimate blood pressure.,125 Hz vital signs have been cleaned.,"12,000",Text,"Classification, regression",2015,[274][275],M. Kachuee et al.
+Gas Sensor Array Drift Dataset,Measurements from 16 chemical sensors utilized in simulations for drift compensation.,Extensive number of features given.,"13,910",Text,Classification,2012,[276][277],A. Vergara
+Servo Dataset,Data covering the nonlinear relationships observed in a servo-amplifier circuit.,Levels of various components as a function of other components are given.,167,Text,Regression,1993,[278][279],K. Ullrich
+UJIIndoorLoc-Mag Dataset,Indoor localization database to test indoor positioning systems. Data is magnetic field based.,Train and test splits given.,"40,000",Text,"Classification, regression, clustering",2015,[280][281],D. Rambla et al.
+Sensorless Drive Diagnosis Dataset,Electrical signals from motors with defective components.,Statistical features extracted.,"58,508",Text,Classification,2015,[282][283],M. Bator
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

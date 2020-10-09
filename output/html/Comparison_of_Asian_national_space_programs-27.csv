@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 No.,Country,Spacecraft,Year,Landing type
 1,Japan,Hiten,1993,Controlled impact
 2,India,Moon Impact Probe,2008,Controlled impact
 3,China,Chang'e 1,2009,Controlled impact
+=======
+Country,Program,,First successful human spaceflight,,Status
+,Name,Period,Year,Spacecraft,
+China,Project 714,1968-72,N/A,Shuguang-1,Cancelled
+,Project 873,1978-80,N/A,Piloted FSW satellite,Cancelled
+,Project 921/Shenzhou,1992-present,2003,Shenzhou 5,Ongoing
+India,Indian Human Spaceflight Programme,2007-present,2021 (Planned) Before August 2022 (Scheduled),Gaganyaan,Ongoing
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

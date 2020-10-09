@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Individual view,Family view,Pedigree view,Chronology view,Ancestor charts,Ancestor narrative reports,Ancestor pedigree reports,Descendant charts,Descendant narrative reports,Fan charts,Research Manager,DNA charts,Research Guidance,Mapping
 Agelong Tree,,,,,,,,,,,,,,
 Ahnenblatt,,,,,,,,,,,,,,
@@ -22,3 +23,28 @@ Reunion,,,,,,,,,,,,,,
 RootsMagic,,,,,,,,,,,,,,
 The Master Genealogist,,,,,,,,,,,,,,
 webtrees,,,,,,,,,,,,,,
+=======
+Name,Unicode Support,Single parent family,Same sex marriage,Witness to events,Name variants,Conflicting evidence,Source surety,Adoption & foster parent,non-standard calendar in date fields
+Agelong Tree,,,,,,,,,
+Ahnenblatt,,,,,,,,,
+Ancestral Quest,,,,,,,,,
+Ancestris,,,,,,,,,aaa
+Brother's Keeper,,,,,,,,,
+Family Historian,,,,,,,,,
+Family Tree Builder,,,,,,,,,
+Family Tree Maker,,,,,,,,,
+GEDitCOM II,,,,,,,,,
+Genbox Family History,,,,,,,,,
+GenealogyJ,,,,,,,,,
+GenoPro,,,,,,,,,
+Gramps,,,,,,,,,
+Heredis,,,,,,,,,
+Legacy Family Treebbb,,,,,,,,,
+LifeLines,,,,,,,,,
+MacFamilyTree,,,,,,,,,
+Personal Ancestral File,,,,,,,,,
+Reunion,,,,,,,,,
+RootsMagic,,,,,,,,,
+The Master Genealogist,,,,,,,,,
+webtrees,,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

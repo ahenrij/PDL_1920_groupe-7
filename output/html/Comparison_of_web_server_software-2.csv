@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Server,Security,,,virtual hosting,Dynamic content[a],,,,,,,,Runs in user space or kernel space,Administration console,Additional protocol support,,,
 ,basic access authentication,digest access authentication,SSL/TLS https,,CGI,FCGI,SCGI,WSGI,Java Servlets,SSI,ISAPI,SSJS,,,IPv6,HTTP/2,QUIC,HTTP/3
 AOLserver,Yes,No,Yes[b][c][d][3],Yes,Yes,No,Unknown,No,No,Yes,Unknown,Unknown,user,Unknown,Unknown,Unknown,Unknown,Unknown
@@ -31,3 +32,36 @@ Wakanda Server,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,Yes,user,Yes,Yes,Unknown,Unk
 Xitami,Yes,Unknown,paid version,Yes,Yes,Unknown,Unknown,No,Unknown,Yes,Unknown,Unknown,user,Unknown,Unknown,Unknown,Unknown,Unknown
 Yaws,Yes,Unknown,Yes,Yes,Yes,Yes,Unknown,No,No,Yes,No,Unknown,user,Unknown,Yes,Unknown,Unknown,Unknown
 Zeus Web Server,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,No,No[g],Yes,Yes,Unknown,user,Yes,No,Unknown,Unknown,Unknown
+=======
+Server,Windows,Linux,macOS,BSD,Solaris,eComStation,OpenVMS,AIX,IBM i,z/OS,HP-UX
+AOLserver,No,Yes,Yes,Yes,Yes,No,No,Unknown,No,Unknown,Unknown
+Apache HTTP Server,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Apache Tomcat,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+Boa,Unknown,Yes,No,Yes,Unknown,No,No,Unknown,No,Unknown,Unknown
+BusyBox httpd,Unknown,Yes,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+Caddy,Yes,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown,Unknown,Unknown
+Caucho Resin Server,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Caudium[21],No,Yes,Yes,Yes,Yes,No,No,Yes,No,Unknown,Unknown
+Cherokee HTTP Server,No[22],Yes,Yes,Yes,Yes,No,No,Unknown,No,Unknown,Unknown
+HFS,Yes,No,No,No,No,No,No,No,No,No,No
+Hiawatha,with Cygwin[23],Yes[23],Yes[23],Yes[23],Yes[23],No,No,No,No,No,No
+IBM HTTP Server,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,Yes
+Internet Information Services,Yes,No,No,No,No,No,No,No,No,No,No
+Jetty (Java),Yes,Yes,Yes,Yes,Yes,Yes,No,Unknown,No,Yes,Unknown
+Jexus,No,Yes,No,Yes,Unknown,No,No,No,No,No,No
+lighttpd,Yes (Cygwin),Yes,Yes,Yes,Yes,No,No,Yes,No,No,Yes
+LiteSpeed Web Server,No,Yes,Yes,Yes,Yes,No,No,Unknown,No,Unknown,Unknown
+Mongoose,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes
+Monkey HTTP Server,No,Yes,Yes,No,No,No,No,No,No,No,No
+NaviServer,Yes,Yes,Yes,Yes,Yes,Unknown,Unknown,Yes,No,Unknown,Unknown
+NCSA HTTPd,Unknown,Yes,No,Yes,Yes,Yes,No,Unknown,No,Unknown,Yes
+nginx,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Yes
+OpenLink Virtuoso,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Yes
+Oracle HTTP Server,Yes,Yes,No,Unknown,Yes,No,No,Yes,No,Unknown,Unknown
+Oracle iPlanet Web Server,Yes,Yes,No,No,Yes,No,No,Yes,No,No,Yes
+thttpd,Yes (Cygwin),Yes,Yes,Yes,Yes,No,No,Unknown,No,Unknown,Unknown
+TUX web server,No,Yes,No,No,No,No,No,No,No,No,No
+Wakanda Server,Yes,Yes (via libbsd),Yes,Yes,Unknown,No,No,No,No,No,No
+Xitami,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Unknown,Yes
+Yaws,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Unknown,Unknown
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

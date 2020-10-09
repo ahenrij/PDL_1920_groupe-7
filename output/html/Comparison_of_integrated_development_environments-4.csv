@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IDE,Developer,Latest stable release,Platform,License,Autocomplete,Debugger,Refactoring support,VCS Support
 Adobe Dreamweaver,Adobe Systems,-,Cross-platform,Proprietary,Yes,No,No,No
 Aptana Studio,"Aptana, Inc.","December 2013, 3.5.0",Cross-platform,"GPL, proprietary",Yes,Yes,No,via plugins
@@ -19,3 +20,16 @@ Quanta Plus,KDE Web Dev Team,"3.5.8 / October 16, 2007",Linux,GPL,Unknown,No,Unk
 RadPHP (formerly Delphi for PHP),Embarcadero Technologies,"XE2 / August 30, 2011",Windows,Proprietary,Yes,Yes,Yes,Unknown
 SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, AIX, HP-UX, Solaris",Proprietary,Yes,Yes,No,Yes
 Zend Studio,Zend,10.6 / February 2014,Cross-platform,Proprietary,Yes,Yes,Yes,"CVS, Git, SVN, others (via plugins)"
+=======
+IDE,Widget toolkit,Platform,Compilers,Open Source,Made in D,Notes
+Visual Studio,Microsoft,Windows,"DMD, LDC (LLVM), GDC (GCC)",No,No,"Visual Studio extension. VisualD, wrote in D."
+NetBeans,Java Swing,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana, Java","DMD, LDC (LLVM), GDC (GCC)",Yes,No,"NetBeans module. NetBeans-D, under MIT License."
+SlickEdit,Qt,"Windows, Linux, MacOS, AIX, HP-UX, Solaris, Solaris SPARC",DMD,No,No,
+CodeLite,wxWidget,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",Yes,No,
+Xcode,Cocoa,macOS,"DMD, GDC (GCC)",No,No,"Xcode plugin. D for Xcode, under GPL v2."
+MonoDevelop,GTK#,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",Yes,No,"MonoDevelop extension. Mono-D, support VisualD projects and DUB, Can be installed on Xamarin Studio too, under Apache License."
+KDevelop,Qt,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",Yes,No,
+Geany,GTK+,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",Yes,No,Native support.
+Code::Blocks,wxWidget,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",Yes,No,Includes partial support.
+Eclipse,SWT,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana, Java",DMD,Yes,No,Eclipse Plugin. DDT. Dropped.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

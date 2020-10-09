@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
 ,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
 Quadro FX 370,G84,80,PCIe ×16,360,720,1000,16:8:4,1.44,2.88,256,6.4,DDR2,64,34.56,-,10.0,3.3,35,
@@ -8,3 +9,11 @@ Quadro FX 1700,G84GL,,,,,,32:16:8,,7.36,,,,,88.32,,,,42,
 Quadro FX 3700,G92,65,PCIe 2.0 ×16,500,1250,1600,112:56:16,8,28,,51.2,GDDR3,256,420,,,,78,"Stereo display, SLI"
 Quadro FX 4700X2,2× G92,,,,,,2× 128:64:16,2× 8,2× 32,2× 1024,2× 51.2,,2× 256,2× 480,,,,226,
 Quadro VX 200,G92,,,450,1125,,112:56:16,8,28,512,51.2,,256,420,,,,75,"2× Dual-link DVI, S-Video, optimised for Autodesk AutoCAD"
+=======
+Model,Code name[174],Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate[210],,Memory,,,,Processing power (GFLOPS)[210],,Supported API version,,,,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
+Quadro RTX 4000,TU104-850-A1,12,PCIe 3.0 ×16,1005,1545,1625 (13000),2304:144:64:36:288,98.9,222.5,8,416,GDDR6,256,7119,222.5,12.1,4.6,1.1,1.2,7.5,160,3x DisplayPort 1x USB Type-C
+Quadro RTX 5000,TU104-875-A1,,,1620,1815,1750 (14000),3072:192:64:48:384,116.2,348.5,16,448,,,11151,348.5,,,,,,200,
+Quadro RTX 6000,TU102-875-A1,,,1440,1770,,4608:288:96:72:576,169.9,509.8,24,672,,384,16312,509.8,,,,,,250,
+Quadro RTX 8000,,,,,,,,,,48,,,,,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

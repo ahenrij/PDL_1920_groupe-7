@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,fixed size array,,dynamic size array,
 ,one-dimensional array,multi-dimensional array,one-dimensional array,multi-dimensional array
 Ada[1],array (<first> .. <last>) of <type> or array (<discrete_type>) of <type>,"array (<first1> .. <last1>, <first2> .. <last2>, ...) of <type> or array (<discrete_type1>, <discrete_type2>, ...) of <type>",array (<discrete_type> range <>) of <type>,"array (<discrete_type1> range <>, <discrete_type2> range <>, ...) of <type>"
@@ -35,3 +36,43 @@ F#,type [] or type array,"type [,,...]",System<wbr/>.Collections<wbr/>.ArrayList
 Standard ML,type vector or type array,,,
 Haskell (GHC),,,,
 COBOL,level-number type OCCURS size «TIMES».,one-dimensional array definition...,level-number type OCCURS min-size TO max-size «TIMES» DEPENDING «ON» size.COBOL DEPENDING ON clause[e],
+=======
+! Single precision,Double precision,Other precision,Processor dependent
+Ada[1],Float,Long_Float,
+ALGOL 68,reala68[a],long reala68[a],"short real, long long real, etc.a68g[d]"
+C,floatlax floats[b],double,long doubleC-long-double[f]
+C++ (STL),,,
+Objective-C (Cocoa),,,
+C#,float,,rowspan=4 
+Java,,,
+Go,float32,float64,
+Rust,f32,f64,
+Swift,Float Float32,Double Float64,Float80Swift-long-double[g]
+D,float,double,
+Common Lisp,single-float,double-float,"float, short-float, long-float"
+Scheme,,,
+ISLISP,,,
+Pascal (Free Pascal),single,double,
+Visual Basic,Single,Double,rowspan=3 
+Visual Basic .NET,,,
+Xojo,,,
+Python,rowspan=2 ,float,
+JavaScript,Number[7],,
+S-Lang,,,
+Fortran,REAL(KIND = n)real inds[c],,
+PHP,,float,
+Perl,,,
+Raku,num32,num64,
+Ruby,,Float,rowspan=4 
+Scala,Float,Double,
+Seed7,,float,
+Smalltalk,Float,Double,
+Windows PowerShell,,,
+OCaml,,float,rowspan=3 
+F#,float32,,
+Standard ML,,,real
+Haskell (GHC),Float,Double,
+Eiffel,REAL_32,REAL_64,
+COBOL,FLOAT-BINARY-7Cobol_ieee[e],FLOAT-BINARY-34Cobol_ieee[e],"FLOAT-SHORT, FLOAT-LONG, FLOAT-EXTENDED"
+Mathematica,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

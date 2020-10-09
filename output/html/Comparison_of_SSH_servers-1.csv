@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Mac OS X,Mac OS classic,Windows,Cygwin,BSD,Linux,Solaris,Java,OpenVMS,z/OS,AmigaOS,AIX,HPUX,"iOS: iPhone,[Note 1] iPod Touch",webOS,Android
 Apache MINA SSHD,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,No,No,No
 Bitvise SSH Server,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
@@ -7,3 +8,14 @@ Dropbear,Yes,No,No,Yes,Yes,Yes,Yes,No,No,No,No,Yes,Yes,No,Yes[Note 2],Yes
 lsh,Yes,No,No,No,Partial[Note 3],Yes,Yes,No,No,No,No,No,No,No,No,??
 OpenSSH (OpenBSD Secure Shell),Included,No,Optional[Note 4],Included,Included,Included[Note 5],Yes,No,Yes,Yes,Yes,Yes[Note 6],Included,Yes[Note 7],Yes[Note 2],Partial
 wolfSSH,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,No,No,??,??,No,??,No
+=======
+Name,SSH1,SSH2,Port forwarding,SFTP,SCP,Supports IPv6,Supports OpenSSH authorized keys,Privilege separation,FIPS 140-2 support
+Apache MINA SSHD,No,Yes,Yes,Yes,Yes,Yes,Yes,No,?
+Bitvise SSH Server,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+CopSSH,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[10],?
+CrushFTP Server,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+Dropbear,No,Yes,Yes,Partial,Yes,Yes,Yes,No,?
+Lsh,No,Yes,Yes,Yes,Yes,?,?,?,?
+OpenSSH (OpenBSD Secure Shell),No[11],Yes,Yes,Yes,Yes,Yes,Yes,Yes[10],Yes[Note 8]
+wolfSSH,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

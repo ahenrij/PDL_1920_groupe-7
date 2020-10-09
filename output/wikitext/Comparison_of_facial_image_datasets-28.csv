@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 MovieTweetings,Movie rating dataset based on public and well-structured tweets,,"~710,000",Text,"Classification, regression",2018,[192],S. Dooms
 Twitter100k,Pairs of images and tweets,,"100,000",Text and Images,Cross-media retrieval,2017,[193][194],"Y. Hu, et al."
 Sentiment140,"Tweet data from 2009 including original text, time stamp, user and sentiment.",Classified using distant supervision from presence of emoticon in tweet.,"1,578,627","Tweets, comma, separated values",Sentiment analysis,2009,[195][196],A. Go et al.
@@ -8,3 +9,10 @@ Twitter Dataset for Arabic Sentiment Analysis,Arabic tweets.,Samples hand-labele
 Buzz in Social Media Dataset,Data from Twitter and Tom's Hardware. This dataset focuses on specific buzz topics being discussed on those sites.,Data is windowed so that the user can attempt to predict the events leading up to social media buzz.,"140,000",Text,"Regression, Classification",2013,[203][204],F. Kawala et al.
 Paraphrase and Semantic Similarity in Twitter (PIT),This dataset focuses on whether tweets have (almost) same meaning/information or not. Manually labeled.,"tokenization, part-of-speech and named entity tagging","18,762",Text,"Regression, Classification",2015,[205][206],Xu et al.
 Geoparse Twitter benchmark dataset,This dataset contains tweets during different news events in different countries. Manually labeled location mentions.,location annotations added to JSON metadata,"6,386","Tweets, JSON","Classification, Information Extraction",2014,[207][208],S.E. Middleton et al.
+=======
+Geographical Original of Music Data Set,Audio features of music samples from different locations.,Audio features extracted using MARSYAS software.,"1,059",Text,"Geographical classification, clustering",2014,[256][257],F. Zhou et al.
+Million Song Dataset,Audio features from one million different songs.,Audio features extracted.,1M,Text,"Classification, clustering",2011,[258][259],T. Bertin-Mahieux et al.
+MUSDB18,Multi-track popular music recordings,Raw audio,150,"MP4, WAV",Source Separation,2017,[260],Z. Rafii et. al.
+Free Music Archive,"Audio under Creative Commons from 100k songs (343 days, 1TiB) with a hierarchy of 161 genres, metadata, user data, free-form text.",Raw audio and audio features.,"106,574","Text, MP3","Classification, recommendation",2017,[261],M. Defferrard et al.
+Bach Choral Harmony Dataset,Bach chorale chords.,Audio features extracted.,5665,Text,Classification,2014,[262][263],D. Radicioni et al.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

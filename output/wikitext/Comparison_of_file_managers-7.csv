@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Creator,First public version (date),"Latest stable version (date, number)",Cost,Software license
 Altap Salamander,Altap,19970815,20190701 (4.0),,
 Commander One,Eltima Software,20150804,2019 (2.3),US$29.95[1],
@@ -52,3 +53,39 @@ xplorer²,Nikos Bozinis,20040610,20171213 (3.5.0.2),"pro US$29.95, ultimate: US$4
 XTree,Jeffery C. Johnson,19850401,1992 (Xtree for Windows),US$39.95,
 XYplorer,Donald Lessau,1997,20200213 (20.80.0100),"Standard License Pro US$39.95, Lifetime License Pro $79.95[1][17]",
 ZTreeWin,Kim Henkel,1996,20120527 (2.1.19) 20130526 (2.4.121 beta) 20170531 (2.4.172 zeta),US$29.95 (1-4),
+=======
+File manager,Filesystem support,Attribute columns,File previews,Metadata indexing,Unicode support,Visual Themes
+Altap Salamander,,,,,,
+Commander One,,,,,,
+CRAX Commander,,,,,,
+Directory Opus,,,,,,
+Dired,,,,,,
+Documents by Readdle,,,,,,
+Dolphin,,,,,,
+Double Commander,,,,,,
+emelFM2,,,,,,
+Far Manager,,,,,,
+Files (Apple),,,,,,
+Files by Google,,,,,,
+Finder,,,,,,
+ForkLift,,,,,,
+Konqueror,,,,,,
+Krusader,,,,,,
+Midnight Commander,,,,,,
+GNOME Files (Nautilus),,,,,,
+Nemo,?,?,?,?,?,?
+Nomad.NET,,,,,,
+Path Finder,,,,,,
+PCManFM,,,,,,
+ROX-Filer,,,,,,
+Total Commander,,,,,,
+Windows Explorer,,,,,,
+Xandros File Manager,,,,,,
+Xfe,,,,,,
+Xfile,,,,,,
+Xfm,,,,,,
+xplorer²,,,,,,
+XYplorer,,,,,,
+ZTreeWin,,,,,,
+File manager,Filesystem support,Attribute columns,File previews,Metadata indexing,Unicode support,Visual Themes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

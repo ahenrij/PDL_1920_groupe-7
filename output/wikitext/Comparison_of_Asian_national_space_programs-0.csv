@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 Country,Number of satellites,Year,Launch Vehicle,Flight
 India,104,2017,PSLV-XL,C37
 China,20,2015,Long March 6,1
 Japan,8,2009,H-IIA,F15
+=======
+Country,Year,Mission
+,1970,Lambda-4S/Ohsumi
+,1970,Long March 1/Dong Fang Hong I
+,1980,SLV/Rohini D1
+,1988,Shavit/Ofeq 1
+,2009,Safir-1/Omid
+,2012,Unha-3/Kwangmy?ngs?ng-3 Unit 2
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

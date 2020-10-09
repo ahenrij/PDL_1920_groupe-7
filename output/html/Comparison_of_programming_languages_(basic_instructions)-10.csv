@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,while,do while,for i = first to last,foreach
 Ada[1],while condition loop statements end loop,loop statements exit when not condition end loop,for index in «reverse» [first .. last | discrete_type] loop statements end loop,for item of «reverse» iterator loop statements end loop (for [all | some] [in | of] [first .. last | discrete_type | iterator] => predicate)[b]
 ALGOL 68,«for index» «from first» «by increment» «to last» «while condition» do statements od,,,for key «to upb list» do «typename val=list[key];» statements od
@@ -44,3 +45,43 @@ CoffeeScript,while condition expression,N/A,for i in [first..last] expression,fo
 ,until condition then expression,,expression for i in [first..last],expression for item in set
 COBOL,PERFORM procedure-1 «THROUGH procedure-2» ««WITH» TEST BEFORE» UNTIL condition[c],PERFORM procedure-1 «THROUGH procedure-2» «WITH» TEST AFTER UNTIL condition[c],PERFORM procedure-1 «THROUGH procedure-2» VARYING i FROM first BY increment UNTIL i > last[d],N/A
 ,PERFORM ««WITH» TEST BEFORE» UNTIL condition expression END-PERFORM,PERFORM «WITH» TEST AFTER UNTIL condition expression END-PERFORM,PERFORM VARYING i FROM first BY increment UNTIL i > last expression END-PERFORM[d],
+=======
+,Single precision,Double precision,Other precision,Processor dependent
+Ada[1],Float,Long_Float,N/A,
+ALGOL 68,real[a],long real[a],"short real, long long real, etc.[d]",
+C,float[b],double,long double[f],
+C++ (STL),,,,
+Objective-C (Cocoa),,,,CGFloat
+C#,float,,N/A,
+Java,,,,
+Go,float32,float64,,
+Rust,f32,f64,,
+Swift,Float Float32,Double Float64,Float80[g],CGFloat
+D,float,double,,real
+Common Lisp,single-float,double-float,"float, short-float, long-float",
+Scheme,,,,
+ISLISP,,,,
+Pascal (Free Pascal),single,double,,real
+Visual Basic,Single,Double,N/A,
+Visual Basic .NET,,,,
+Xojo,,,,
+Python,N/A,float,,
+JavaScript,,Number[7],N/A,
+S-Lang,,,,
+Fortran,REAL(KIND = n)[c],,,
+PHP,,float,,
+Perl,,,,
+Raku,num32,num64,,Num
+Ruby,N/A,Float,N/A,
+Scala,Float,Double,,
+Seed7,N/A,float,,
+Smalltalk,Float,Double,,
+Windows PowerShell,,,,
+OCaml,N/A,float,N/A,
+F#,float32,,,
+Standard ML,N/A,,,real
+Haskell (GHC),Float,Double,,
+Eiffel,REAL_32,REAL_64,,
+COBOL,FLOAT-BINARY-7[e],FLOAT-BINARY-34[e],"FLOAT-SHORT, FLOAT-LONG, FLOAT-EXTENDED",
+Mathematica,N/A,N/A,,Real
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Creator,Latest release,User interface,Software license,Cost
 Analyze This,Comoe Networks,,Web GUI,N/A,?
 Cain and Abel,Massimiliano Montoro,"April 7, 2014 / 4.9.56",GUI,Freeware,Free
@@ -26,3 +27,7 @@ tcpdump,The Tcpdump team,"September 4, 2017 / 4.9.2[13]",CLI,BSD License,Free
 Tranalyzer,The Tranalyzer team,"November 29, 2019 / 0.8.7lmw1[14]",CLI,GNU General Public License,Free
 Wireshark (formerly Ethereal),The Wireshark team,"May 19, 2020 / 3.2.4[15]",Both,GNU General Public License,Free
 Xplico,The Xplico team,"May 2, 2019 / 1.2.2[16]",Both,GNU General Public License,Free
+=======
+,Process grouping,Monitor mode,Capture filter
+Wireshark,?,?,?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

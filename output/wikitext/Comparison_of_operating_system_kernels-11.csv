@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Kernel,Acorn ADFS,Amiga FFS,BeFS,BFS,cramfs,EFS,ext2,ext3,ext4,F2FS,FAT,FreeVxFS,HFS,HFS+,HPFS,ISO 9660,JFFS,JFFS2,JFS,MINIX fs,NSS,NTFS,OCFS,QNX4 FS,System V FS,UDF,UFS,XFS,ZFS,ReiserFS,Reiser4,Btrfs,HAMMER,Tux3,exFAT,ReFS
 DragonFly BSD kernel,,,,,,,,,,,,,,,,,,,,,,limited write,,,,read only,,,,,,,,,,
 FreeBSD kernel,,,,,,,,,,,,,,,,,,,,,,limited write,,,,,,read only,,read only,,,,,,
@@ -8,3 +9,10 @@ ReactOS kernel,,,,,,,,,,,,,,,,,,,,,,Read only,,,,,,,,,,Yes [28],,,,
 Solaris kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Windows NT kernel,,,,,,,Yes [29],Yes [30],Yes [30],,,,Yes [31],Yes [31],,,,,,,,,,,,,,,,,,Yes [28],,,,
 XNU,,,,,,,Yes [32],Yes [32],,,,,,,,,,,,,,Read-Only,,,,,,,read only,,,,,,,
+=======
+Kernel name,Intel,NVIDIA,AMD,ARM,Qualcomm,Imagination Technologies,Broadcom,VeriSilicon
+,Intel HD/Iris Graphics,GeForce/Quadro/Tesla,Radeon,Mali,Adreno,PowerVR,VideoCore4,Vivante
+Linux kernel,,,,,,2D only[36][37],,Etnaviv
+Windows NT kernel,,,,,"Windows RT, Windows Phone 8.x, Windows 10 Mobile",,,
+XNU,colspan=3 via I/O Kit (macOS only),,,via I/O Kit (iOS only),,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

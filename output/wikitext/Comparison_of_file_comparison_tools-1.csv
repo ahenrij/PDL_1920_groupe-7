@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,ZIP support,FTP support,SFTP support,Version control browsing,Patch creation,Patch application,Patch preview,Unicode support,XML-aware
 Beyond Compare,,,,SVN,,,,,
 Compare++,,,,"SVN, CVS, Git, Microsoft TFS, Perforce, VSS using command line",,,,,
@@ -25,3 +26,32 @@ WinDiff,,,,,,,,,
 WinMerge,,,," Mercurial,[36] Subversion,[37] Visual Source Safe, Rational ClearCase[38]",,,,,
 UCC,,,,,,,,,
 Name,ZIP support,FTP support,SFTP support,Version control browsing,Patch creation,Patch application,Patch preview,Unicode support,XML-aware
+=======
+Name,Filename casing,CRC,Filedate,Daylight saving,Character casing
+Beyond Compare,,,,,
+Compare++,,,,,
+diff,,,,,
+diff3,,,,,
+Eclipse (compare),,,,,
+Ediff,,,,,
+ExamDiff Pro,,,,,
+Far Manager (compare),,,,,
+fc,,,,,
+FileMerge (aka opendiff),,,,,
+Guiffy SureMerge,filesystem dependent,,,,
+IntelliJ IDEA (compare),,,,,
+jEdit JDiff plugin,,,,,
+Kompare,,,,,
+Lazarus Diff,,,,,
+Meld,,,,,
+Notepad++ (compare),,,,,
+Perforce P4Merge,,,,,
+Pretty Diff,,,,,
+Tkdiff,,,,,
+Total Commander (compare),,,,,
+vimdiff,,,,,
+WinDiff,,,when different,,
+WinMerge,,,,,
+UCC,,,,,
+Name,Filename casing,CRC,Filedate,Daylight saving,Character casing
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

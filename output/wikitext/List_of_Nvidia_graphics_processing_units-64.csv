@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm)[2],Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)3,TDP (Watts),Comments
 ,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,,
 GeForce 8100 mGPU[15],2008,MCP78,TSMC 80 nm,,,PCIe 2.0 ×16,8:8:4,500,1200,400 (system memory),2,4,Up to 512 from system memory,6.4 12.8,DDR2,64 128,10.0,3.3,28.8,,The block of decoding of HD-video PureVideo HD is disconnected
@@ -20,3 +21,15 @@ GeForce 8800 GTX,"November 8, 2006",G80,TSMC 90 nm,681,484,PCIe 1.0 ×16,128:322:
 GeForce 8800 Ultra,"May 2, 2007",,,,,,,612,1500,1080,14.7,19.6,,103.7,,,,,384,175,
 Model,Launch,Code name,Fab (nm)[2],Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,TDP (Watts),Comments
 ,,,,,,,,Clock rate,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)3,,
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[198][199],,Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro FX 370,G84,80,PCIe ×16,360,720,1000,16:8:4,1.44,2.88,256,6.4,DDR2,64,34.56,-,10.0,3.3,35,
+Quadro FX 370 LP,G86,,,540,1080,,8:8:4,2.16,4.32,,8,,,25.92,,,,25,DMS-59 for two Single Link DVI
+Quadro FX 470,MCP7A-U,65,PCIe 2.0 ×16 (Integrated),580,1400,800 (system memory),16:8:4,2.32,4.64,Up to 256MB from system memory.,12.8,,128,67.2,,,,30,based on GeForce 9400 mGPU
+Quadro FX 570,G84GL,80,PCIe ×16,460,920,800,16:8:8,3.68,3.68,256,,,,44.1,,,,38,
+Quadro FX 1700,G84GL,,,,,,32:16:8,,7.36,,,,,88.32,,,,42,
+Quadro FX 3700,G92,65,PCIe 2.0 ×16,500,1250,1600,112:56:16,8,28,,51.2,GDDR3,256,420,,,,78,"Stereo display, SLI"
+Quadro FX 4700X2,2× G92,,,,,,2× 128:64:16,2× 8,2× 32,2× 1024,2× 51.2,,2× 256,2× 480,,,,226,
+Quadro VX 200,G92,,,450,1125,,112:56:16,8,28,512,51.2,,256,420,,,,75,"2× Dual-link DVI, S-Video, optimised for Autodesk AutoCAD"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

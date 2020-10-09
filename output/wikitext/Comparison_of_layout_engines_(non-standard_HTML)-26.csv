@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko,WebKit,KHTML,Presto
 Phrase,,,,,
 em,rowspan="9" 4.0,rowspan="10" 1.0,rowspan="10" ,rowspan="10" ,rowspan="10" 1.0
@@ -23,3 +24,28 @@ br,5.0,,,,
 Marking document changes,,,,,
 ins,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
 del,,,,,
+=======
+Trident,Gecko[297],WebKit,Presto
+loadstart,rowspan="22" 5.0[298],rowspan="2" 1.9.1,?
+progress,,,
+suspend,1.9.2,,
+abort,rowspan="3" 1.9.1,,
+error,,,
+emptied,,,
+stalled,8.0[299],,
+play,rowspan="5" 1.9.1,,
+pause,,,
+loadedmetadata,,,
+loadeddata,,,
+waiting,,,
+playing,,,
+canplay,rowspan="9" 1.9.1,,
+canplaythrough,,,
+seeking,,,
+seeked,,,
+timeupdate,,,
+ended,,,
+ratechange,,,
+durationchange,,,
+volumechange,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

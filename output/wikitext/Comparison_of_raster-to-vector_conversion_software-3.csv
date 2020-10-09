@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Creator,Released,Latest version,List price (USD),License,Supported OS (without emulation)
 CorelDRAW,Corel,1989,2020,"$449, $169 upgrade",Proprietary,Windows
 Easy Trace,Easy Trace Group,2015,12.0,"960 €, 480 € upgrade, Version 7.99 and 8.65 free",Proprietary,Windows
@@ -13,3 +14,14 @@ Xara Photo & Graphic Designer,Xara Group Ltd.,1994,2018 (v16),$89.99,Proprietary
 Super Vectorizer,Effectmatrix Ltd.,2013,2016 (v1.6.6),$29.99,Proprietary,macOS
 AutoTrace,Martin Weber,1998,2002 (v0.31.1),free,GPL,Linux
 ! Creator,Released,Latest version,List price (USD),License,Supported OS (without emulation),
+=======
+NAME,Maximum zoom,Object limit per document,Control point limit,Color management for print,Thumbnails,Adjust Image (functions),Text Recognition (OCR),Scripting support
+Easy Trace,12800x,No Limit,,,,,,
+Graphic Tracer Professional,No limit,No limit,No limit,,,,,
+Illustrator,640x,,,,,,,
+Potrace,N/A,,,,,,,
+ImageTracer[1],N/A,No limit,No limit,,,,,
+Scan2CAD,64K,No limit,No limit,,,,,
+WinTopo Pro[2],512x,No limit,No limit,,,,,
+! Maximum zoom,Object limit per document,Control point limit,Color management for print,Thumbnails,adjust image (functions),Text Recognition (OCR),Scripting support,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

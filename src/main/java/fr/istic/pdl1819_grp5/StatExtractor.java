@@ -27,6 +27,7 @@ public class StatExtractor {
         int totalbox = 0, totalnav = 0, totallinks = 0, totalothers = 0;
         statcsv.write("url" + separator + "box" + separator + "nav" + separator + "links" + separator + "others");
         statcsv.write("\n");
+       //System.out.println(inputdata);
         for (UrlMatrix url : liturls) {
             try {
             	

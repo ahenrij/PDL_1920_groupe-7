@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Tool,"Supported data models (conceptual, logical, physical)",Supported notations,Forward engineering,Reverse engineering,Model/database comparison and synchronization,Teamwork/repository
 Database Workbench,"Conceptual, logical, physical",IE (Crows feet),Yes,Yes,Update database and/or update model,No
 Enterprise Architect,"Conceptual, Logical & Physical + MDA Transform of Logical to Physical","IDEF1X, UML DDL, Information Engineering & ERD",Yes,Yes,Update database and/or update model,"Multi-user collaboration using File, DBMS or Cloud Repository (or transfer via XMI, CVS/TFS or Difference Merge)."
@@ -11,3 +12,25 @@ Oracle SQL Developer Data Modeler,"Logical, physical","Barker, IE (Crows feet), 
 PowerDesigner,"Conceptual, logical, physical","IDEF1X, IE (Crows feet), and more",Yes,Yes,Update database and/or update model,Yes
 Software Ideas Modeler,"Conceptual, logical, physical","IDEF1X, IE (Crows feet), UML and more",Yes,Yes,Update database and/or update model,Yes
 Toad Data Modeler,"Logical, physical","IDEF1X, IE (Crows feet), and more",Yes,Yes,Update database and/or update model,Yes
+=======
+Tool,Creator,Target Business Size,License,Supported Database Platforms,Supported OSs,Standalone or bundled into a larger toolkit,Launch Date
+Astah,Change Vision,Enterprises,Proprietary,"MySQL, Oracle,","Windows, macOS, Linux",Standalone,2006
+Database Deployment Manager,The Unauthorized Frog project,SMBs and enterprises,LGPL,"CUBRID, MySQL, SQLite","Windows, Linux",Standalone,2010 ?
+Database Workbench,Upscene Productions,SMBs and enterprises,Proprietary,"MS SQL Server, MySQL, Oracle, Firebird, InterBase, SQL Anywhere, NexusDB, MariaDB","Windows, Linux and FreeBSD (both through Wine)",Standalone,2001
+Enterprise Architect,Sparx Systems,SMBs and enterprises,Proprietary,"IBM DB2, Firebird, InterBase, Informix, Ingres, Access, MS SQL Server, MySQL, SQLite, Oracle, PostgreSQL, Sybase","Windows, Linux (Wine), macOS (via CrossOver)",Data modeling is supported as part of a complete modeling platform.,2000
+ER/Studio,Embarcadero (acquired by IDERA),SMBs and enterprises,Proprietary,"Access, IBM DB2, Informix, Hitachi HiRDB, Firebird, Interbase, MySQL, MS SQL Server, Netezza, Oracle, PostgreSQL, Sybase, Teradata, Visual Foxpro and others via ODBC/ANSI SQL",Windows,Standalone,1998
+Erwin Data Modeler,ERWin (formerly CA),SMBs and enterprises,Proprietary,"Access, IBM DB2, Informix, MySQL, MS SQL Server, Netezza, Oracle, PostgreSQL, Sybase, and others via ODBC/ANSI SQL",Windows,Standalone,1998
+MagicDraw,No Magic,"Enterprises, SMBs, personal",Proprietary,"MS SQL Server, Oracle, MySQL, PostgreSQL, IBM DB2","Windows, Linux, macOS",Standalone,1995
+SQL Server Management Studio,Microsoft,Unknown,Proprietary,MS SQL Server,Windows,Standalone,2005
+ModelRight,ModelRight,"Enterprises, SMBs, personal",Proprietary,"Access, MS SQL Server, Oracle, MySQL, PostgreSQL, IBM DB2",Windows,Standalone,2005
+MySQL Workbench,MySQL (An Oracle Company),SMBs - personal,Proprietary or GPL,MySQL,"Linux, Windows, macOS",Standalone,2006
+Navicat Data Modeler,PremiumSoft,SMBs and enterprises,Proprietary,"MySQL, MS SQL Server, PostgreSQL, Oracle, SQLite","Windows, macOS, Linux",Standalone,2012
+NORMA Object-Role Modeling,Terry Halpin,SMBs and enterprises,CPL,"MySQL, MS SQL Server, PostgreSQL, Oracle, DB2",Windows,Visual Studio Extension,2005
+Open ModelSphere,Grandite,Enterprises - SMBs - personal,GNU GPL3,"MS SQL Server, MySQL, PostgreSQL, Oracle, DB2","Windows, macOS, Linux","Standalone with Data, UML, and process modeling",2008
+Oracle SQL Developer Data Modeler,Oracle,Enterprises,Proprietary,"Oracle, MS SQL Server, IBM DB2",Cross-platform,Standalone,2009
+PowerDesigner,SAP,SMBs and enterprises,Proprietary,"Access, Greenplum, Apache Hive, HP Neoview, IBM DB2, Informix, Ingres, Interbase, MySQL, Netezza, NonStop SQL, Oracle, PostgreSQL, Red Brick Warehouse, SAP business Suite, SAP Hana, SAP Adaptive Server Enterprise, SAP IQ, SAP SQL Anywhere, MS SQL Server, Teradata",Windows,Standalone,1989
+Software Ideas Modeler,Dusan Rodina,"Enterprises, SMBs, personal",Proprietary,"MS SQL Server, MySQL",Windows,Standalone,2009
+SQLyog,"Webyog, Inc.","Enterprises, SMBs, personal",Proprietary,"MySQL, MariaDB",Windows and Linux (using Wine),Standalone,2001
+Toad Data Modeler,Quest Software,SMBs and enterprises,Proprietary,"Access, IBM DB2, Informix, MySQL, MariaDB, PostgreSQL, MS SQL Server, SQLite, Oracle",Windows,Standalone,2005 (before this date known as CaseStudio)
+Tool,Creator,Target Business Size,License,Supported Database Platforms,Supported OSs,Standalone or bundled into a larger toolkit,Launch Date
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Application,Latest release date and version,Developed by,Platforms,Mainly Used For,License
 3ds Max,2019-03-27 v 2020,Autodesk,Microsoft Windows,"Modeling, Animation (Video Games and Movies), FX Simulations, Lighting, Rendering",Proprietary
 AC3D,2016-12-? v 8,Inivis,"Linux, Mac OS X, Microsoft Windows",Modeling,Proprietary
@@ -39,3 +40,21 @@ E-on Vue,2017 v 2016 R5,E-on Software,"Mac OS X, Microsoft Windows","Animation, 
 Verto Studio 3D,2018-05-06 v2.3.8,Michael L. Farrell,"Mac OS X, iOS","Mobile Modeling, Texture Mapping, Lighting",Proprietary
 Wings 3D,2019-04-12 v 2.2.4,Dan Gudmundsson (maintainer),"Mac OS X, Microsoft Windows, BSD, Linux","Modeling, Sculpting (the deformation of the model), UV mapping",BSD
 ZBrush,2019-03-06 v 2019,Pixologic,"Mac OS X, Microsoft Windows","Modeling, Texturing, Lighting, Sculpting (the deformation of the model), Rendering",Proprietary
+=======
+Application,Alembic Importer,USD Importer,Rendering Engine,Volume Rendering for clouds,Interactive Rendering,Isolating light contribution,Light Lister,IES Light,Physical Sun & Sky,Sun Positioning by location and times,Light Portal,Shadow Catcher,IBL and Environment texture,,,Highlight Placement,Light Layers
+,,,,,,,,,,,,,Lat Long,sIBL,Light Extraction[17],,
+Maya,Yes,(USD for Maya),Maya Hardware 2.0,?,Yes,No[18],Light Editor,?,?,?,?,?,Yes,?,?,(Place Highlight Tool for Maya),No
+,,,Maya Software,?,?,Light Linking,,No,?,?,?,?,Env Sphere,?,?,,No
+,,,Arnold,Yes,Yes,Light Linking,,Ai Photometric Light,Yes,?,Yes,Yes,Yes,?,?,,No
+3ds Max,Yes,No,Quicksilver,?,Yes,No[19],Light Lister,?,?,?,?,?,?,?,?,Place Highlight,No
+,,,Scanline,?,?,Light Exclude/Include,,?,?,?,?,Yes,?,sIBL-GUI software,?,,No
+,,,ART,?,?,?,,Yes,?,?,?,?,?,?,?,,No
+,,,Arnold,Yes,Yes,Light Group[20],,Ai Photometric Light,Yes,Sun Positioner[21],Yes,Yes,Yes,?,?,,No
+Blender,2.78 and later,No,Workbench,Some,Yes,View Layers[22],Property Chart Addon / Gaffer addon,No,?,Sun Position addon,No,?,Yes,?,?,Look At Gizmo (with Ctrl key),No
+,,,EEVEE,Some,Yes,,,No,Yes,,No,Shader Node[23],Yes,?,?,,No
+,,,Cycles,Yes,Yes,,,2.80 and later[24],Yes,,from 2.75,from 2.79,Yes,sIBL_GUI for Blender addon/ Add Environment nodes addon,?,,No
+MODO,Yes,14.1 and later,MODO Renderer,Yes,Yes,Light Linking[25],?,Photometric Light,Directional Light[26],,Portal,Shadow Catcher,Yes,mm_sIBLToModoEnvironment script,?,?,No
+LightWave,11.6 and later,No,LightWave Renderer,Yes,Yes,?,?,Photometric Light,Yes,Yes,Yes,Yes,Yes,"original loader script, where most sIBL features were invented[27]",?,?,No
+Houdini,Yes,Solaris,Mantra (PT) / Karma,Yes,Yes,Light categories,Light bank,Yes,?,?,?,Shadow Matte,Yes,?,?,Solaris,?
+Cinema 4D,Yes,R23 and later,CineRender,?,Yes,Exclude/Include,?,Yes,?,?,?,from R18,Yes,?,?,?,?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

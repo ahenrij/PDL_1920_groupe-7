@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Dow Jones Index,Weekly data of stocks from the first and second quarters of 2011.,Calculated values included such as percentage change and a lags.,750,Comma separated values,"Classification, regression, Time series",2014,[418][419],M. Brown et al.
 Statlog (Australian Credit Approval),Credit card applications either accepted or rejected and attributes about the application.,Attribute names are removed as well as identifying information. Factors have been relabeled.,690,Comma separated values,Classification,1987,[420][421],R. Quinlan
 eBay auction data,Auction data from various eBay.com objects over various length auctions,"Contains all bids, bidderID, bid times, and opening prices.",~ 550,Text,"Regression, classification",2012,[422][423],G. Shmueli et al.
@@ -6,3 +7,9 @@ Statlog (German Credit Data),Binary credit classification into "good" or "bad" w
 Bank Marketing Dataset,Data from a large marketing campaign carried out by a large bank .,Many attributes of the clients contacted are given. If the client subscribed to the bank is also given.,"45,211",Text,Classification,2012,[425][426],S. Moro et al.
 Istanbul Stock Exchange Dataset,Several stock indexes tracked for almost two years.,None.,536,Text,"Classification, regression",2013,[427][428],O. Akbilgic
 Default of Credit Card Clients,Credit default data for Taiwanese creditors.,Various features about each account are given.,"30,000",Text,Classification,2016,[429][430],I. Yeh
+=======
+Adult Dataset,Census data from 1994 containing demographic features of adults and their income.,Cleaned and anonymized.,"48,842",Comma separated values,Classification,1996,[434],United States Census Bureau
+Census-Income (KDD),Weighted census data from the 1994 and 1995 Current Population Surveys.,Split into training and test sets.,"299,285",Comma separated values,Classification,2000,[435][436],United States Census Bureau
+IPUMS Census Database,Census data from the Los Angeles and Long Beach areas.,None,"256,932",Text,"Classification, regression",1999,[437],IPUMS
+US Census Data 1990,Partial data from 1990 US census.,Results randomized and useful attributes selected.,"2,458,285",Text,"Classification, regression",1990,[438],United States Census Bureau
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

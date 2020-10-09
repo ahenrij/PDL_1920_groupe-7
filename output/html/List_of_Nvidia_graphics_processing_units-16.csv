@@ -1,6 +1,18 @@
+<<<<<<< HEAD
 Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,Nvidia Optimus technology,TBP (Watts)
 ,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
 Quadro M520,GM108,28,PCIe 3.0 ×16,,,,384:24:8 (3 SMM),,,1024,40,GDDR5,64,840,12.1,4.5,Yes,25
 Quadro M620,GM107,,,,512:32:16 (4 SMM),2048,80,,128,1000,30,,,,,,,
 Quadro M1200,,,,,640:40:16 (5 SMM),4096,,,,1400,45,,,,,,,
 Quadro M2200,GM206,,,,1024:64:32 (8 SMM),,88.1,,,2100,55,,,,,,,
+=======
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory configuration,,,,Processing power (GFLOPS)2,TDP (Watts),Comments
+,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Single precision,,
+GeForce 310,"November 27, 2009",GT218,TSMC 40 nm,260,57,PCIe 2.0 ×16,16:8:4,589,1402,1000,2.356,4.712,512,8,DDR2,64,44.8,30.5,"OEM Card, similar to Geforce 210"
+GeForce 315,February 2010,GT216,,486,100,,48:16:4,475,1100,1580,3.8,7.6,512,12.6,DDR3,,105.6,33,"OEM Card, similar to Geforce GT220"
+GeForce GT 320,,GT215,,727,144,,72:24:8,540,1302,,4.32,12.96,1024,25.3,GDDR3,128,187.5,43,OEM Card
+GeForce GT 330[23],,GT215-301-A3[24],,,,,96:32:8,550,1350,,4.40,17.60,512,32.00,,128,257.3,75,"Specifications vary depending on OEM, similar to GT230 v2."
+,,GT92[25],,,,,,500,1250,,4.000,24.00,256,51.20,,256,240.0,,
+,,GT92B[26],,,,,96:32:16,,,,8.000,,1024,16.32,DDR2,128,,,
+GeForce GT 340,,GT215,,,,,96:32:8,550,1340,3400,,,512 1024,54.4,GDDR5[27],128,257.3,69,"OEM Card, similar to GT240"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

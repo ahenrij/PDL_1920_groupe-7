@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Country,Name,Initialisms/Acronym,Founded,Terminated,Capabilities of the space agency,,,,Remarks
 ,,,,,Astronauts,Operates Satellites,Sounding Rockets capable,Recoverable Biological Sounding Rockets capable,
 ,Space Research and Remote Sensing Organization,SPARRSO,1980,—,,,,,[4]
@@ -14,3 +15,14 @@ Philippines,Philippine Space Agency,PhilSA,8 August 2019,—,,,,,[18]
 South Korea,Korea Aerospace Research Institute (?????????),KARI,10 October 1989,—,,,,,date=March 2008
 ,National Space Organization (c=??????),NSPO,3 October 1991,—,,,,,[19]
 Thailand,Geo-Informatics and Space Technology Development Agency (??????????????????????????????????????????),GISTDA ????,3 November 2002,—,,,,,[20]
+=======
+,2011[163],2012[164],2013[165],2014[166],2015[167],2016[168],2017[169],2018[170],2019[171],Total
+,19,19,15,16,19,22,18,39,34,201
+,3,2,4,5,5,7,5,7,6,44
+,3,2,3,4,4,4,7,6,2,35
+,1,3,1,-,1,-,1,-,3,10
+,-,2,-,-,-,1,-,-,-,3
+,-,-,-,1,-,1,-,-,-,2
+,-,-,1,-,-,-,-,-,-,1
+Total,26,28,24,26,29,35,31,52,45,296
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,4 +1,5 @@
 Pump type,Cyclic/continuous ?,Maximum lift height,Production cost,Efficiency,Output,Size of device,Fabrication requirements,Difficulty of production,Durability,Difficulty of repair,Suction lift ?
+<<<<<<< HEAD
 Archimedean screw,continuous,>2m,medium,medium,medium-high,?,?,industrial,?,?,no
 Chain (or rope) and washer pump,continuous,3m-20m,medium-high,medium-high,medium,?,?,traditional,?,?,no
 Coil pump and spiral pump,continuous,>6m,medium,medium,low-medium,?,?,traditional,?,?,no
@@ -17,3 +18,6 @@ Plunger pump,cyclic,100m-500m,high,medium-high,low-medium,?,?,traditional,?,?,ye
 Pulser Pump,cyclic,1-300m,low-medium,low,low-medium,small-huge,?,traditional,very high,easy,no
 Semi-rotary pump,cyclic,5m-10m,low-medium,low-medium,low-medium,?,?,industrial,?,?,yes
 Water ladder,cyclic,>2m,medium,medium,medium,?,?,traditional,?,?,no
+=======
+Hydraulic ram,cyclic,10m-100m,medium,low-medium,low,?,requires flowing water as power source (e.g. river),industrial,high,?,no
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

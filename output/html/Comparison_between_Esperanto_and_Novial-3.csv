@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,English,Esperanto,Novial
 Infinitive,(to) love,am-i,ama
 Simple present,love(s),am-as,ama
@@ -15,3 +16,11 @@ Third imperative,let him love!,li am-u!,let lo ama!
 Present continuous,"is (am, are) loving",est-as am-ant-a(j),es ama-nt
 Future continuous,shall (will) be loving,est-os am-ant-a(j),sal es ama-nt
 Past continuous,was (were) loving,est-is am-ant-a(j),did es (es-ed) ama-nt
+=======
+,singular,,,,,,,plural,,,,,,indef.
+,1st,2nd,,3rd,,,,1st,2nd,3rd,,,,
+,,familiar,formal,m.,f.,n.,pan-gender,,,m.,f.,n.,pan-gender,
+English,I,thou¹,you¹,he,she,it,she or he,we,you,,,,they,one
+Esperanto,mi,ci¹,vi¹,li,?i,?i,-/?i²/gi,ni,vi,,,,ili,oni
+Novial,me,vu,vu,lo,la,lu,le,nus,vus,los,las,lus,les,on
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

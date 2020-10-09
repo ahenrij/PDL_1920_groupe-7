@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Browser layout engine,Trident,Gecko,WebKit,Presto,Blink
 Corresponding JavaScript engine,JScript / Chakra,SpiderMonkey,JavaScriptCore,Linear B / Futhark / Carakan,V8
 ECMAScript Edition 3,Yes,0.6,Yes,1.0,Yes
@@ -11,3 +12,26 @@ JavaScript 1.8.1 extensions,No,1.9.1,No,No,No
 JScript .NET extensions,No,No,No,No,No
 ActionScript extensions,No,No,No,No,No
 E4X,No,Dropped[1],No,No,No
+=======
+NativeError object,Trident,Gecko,WebKit,Presto
+Called as function,,,,
+EvalError (message),?,1.0,Yes,?
+RangeError (message),?,1.0,Yes,?
+ReferenceError (message),?,1.0,Yes,?
+SyntaxError (message),?,1.0,Yes,?
+TypeError (message),?,1.0,Yes,?
+URIError (message),?,1.0,Yes,?
+Called as constructor,,,,
+new EvalError (message),?,1.0,Yes,?
+new RangeError (message),?,1.0,Yes,?
+new ReferenceError (message),?,1.0,Yes,?
+new SyntaxError (message),?,1.0,Yes,?
+new TypeError (message),?,1.0,Yes,?
+new URIError (message),?,1.0,Yes,?
+Properties,,,,
+prototype,?,1.0,?,?
+Properties of prototype,,,,
+constructor,?,1.0,?,?
+name,?,1.0,Yes,?
+message,?,1.0,Yes,?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

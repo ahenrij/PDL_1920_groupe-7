@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages
 string1 == string2,"Python, C++ (STL), C#, Cobra, Go, JavaScript (similarity), PHP (similarity), Ruby, Rust,[9] Erlang, Haskell, Lua, D, Mathematica, Swift, Ya"
 string1 === string2,"JavaScript, PHP"
@@ -14,3 +15,7 @@ string1.Equals(string2),C#
 "[string1 isEqualToString:string2], or [string1 isEqual:string2]",Objective-C (NSString * only)
 string1 ? string2,APL
 string1.eq(string2),Rust[9]
+=======
+Definition,"right(string,n) returns string"
+Description,Returns the right n part of a string. If n is greater than the length of the string then most implementations return the whole string (exceptions exist – see code examples).
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

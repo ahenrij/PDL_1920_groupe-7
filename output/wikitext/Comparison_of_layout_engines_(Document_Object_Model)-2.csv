@@ -1,4 +1,5 @@
 ,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Interface HTMLCollection,,,,,,,
 DOM1,length,rowspan="3" 7.0,?,rowspan="3" 1.0,?,?,rowspan="3" 1.0
 ,item(),?,?,?,,,
@@ -358,3 +359,9 @@ DOM1,align,4.0,,rowspan="11" 1.0,?,?,rowspan="11" 1.0
 ,src,8.0,?,?,,,
 ,width,4.0,?,?,,,
 DOM2,contentDocument,,?,?,,,
+=======
+Interface AbstractView,,,,,,,
+DOM2,document,6.0,?,1.0,?,?,1.0
+Interface DocumentView,,,,,,,
+DOM2,defaultView,No,?,1.0,?,?,1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

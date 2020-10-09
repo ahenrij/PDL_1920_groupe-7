@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 File extension(s)[1],MIME type[2],Official name[3],Platform[4],Description
 ".a, .ar",application/x-archive,Unix Archiver,Unix-like,"The traditional archive format on Unix-like systems, now used mainly for the creation of static libraries."
 .cpio,application/x-cpio,cpio,Unix-like,"RPM files consist of metadata concatenated with (usually) a cpio archive. Newer RPM systems also support other archives, as cpio is becoming obsolete. cpio is also used with initramfs."
@@ -8,3 +9,14 @@ File extension(s)[1],MIME type[2],Official name[3],Platform[4],Description
 .mar,,Mozilla ARchive,(Various; cross platform),An archive format used by Mozilla for storing binary diffs. Used in conjunction with bzip2.
 .sbx,application/x-sbx,SeqBox,(Various; cross platform),A single file container/archive that can be reconstructed even after total loss of file system structures.
 .tar,application/x-tar,Tape archive,Unix-like,"A common archive format used on Unix-like systems. Generally used in conjunction with compressors such as gzip, bzip2, compress or xz to create .tar.gz, .tar.bz2, .tar.Z or tar.xz files."
+=======
+Format,Filename extension,Created by,Introduced in,Based on,Integrity check,Recovery record,Encryption supported,Unicode filenames,Modification date resolution
+Debian package (deb),.deb,Debian,1994 Debian 0.91,"ar, tar, and gzip",Yes,No,No,Yes,1 s
+Macintosh Installer,".pkg, .mpkg (metapackage)",NeXT,1989 NeXTSTEP 1.0,pax and gzip,Yes,?,?,Yes,?
+RPM Package Manager (RPM),.rpm,Red Hat,1995 Red Hat Linux 1.0,cpio and gzip,Yes,?,?,?,1 s
+Slackware Package,.tgz,Patrick Volkerding,1993 Slackware 1.0,tar and gzip,Yes,No,No,?,?
+Windows Installer (also MSI),.msi,Microsoft,2000 Windows 2000,"OLE Structured Storage, Cabinet and SQL",Optional PKCS7 Authenticode Signature,No,No,No,2 s
+Java Archive (JAR1),.jar,Sun Microsystems,1997 JDK 1.1,PKZIP,Yes,No,?,Yes,?
+Google Chrome extension package,.crx,Google,2009 (Chrome 4.0),Zip,?,?,Yes[13][failed verification],?,?
+Pacman,".pkg.tar.zst, .pkg.tar (no compression)",Judd Vinet,2001 (before ArchLinux 0.1),tar and zstd[14] (formerly xz),Yes,No,No,Yes,1 s
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

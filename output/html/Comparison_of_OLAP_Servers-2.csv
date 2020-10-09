@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 OLAP server,XML for Analysis,OLE DB for OLAP,MDX,Stored procedures,Custom functions,SQL,LINQ[14],Visualization,JSON,REST API
 Apache Kylin,No,No,No,No,Yes,Yes,,"Superset, Zeppelin, Tableau, Qlik, Redash, Microsoft Excel",Yes,Yes
 ClickHouse,No,No,No,No,Yes[15],Yes,No,"Superset, Zeppelin, Tableau, Qlik, Redash, DataLens[16]",Yes,Yes
@@ -13,3 +14,17 @@ Mondrian OLAP server,Yes,Yes[22],Yes,Yes,Yes[23],Yes,Yes,Yes[24],?,?
 Oracle Database OLAP Option,No,Yes[25],Yes[25],"Java, PL/SQL, OLAP DML",Yes,Yes[26],No,?,?,?
 SAP NetWeaver BW,Yes,Yes,Yes,No,Yes,No,Yes,?,?,?
 SAS OLAP Server,Yes,Yes,Yes,No,No,No,Yes,Web Report Studio,?,?
+=======
+OLAP server,# cubes,# measures,# dimensions,# dimensions in cube,# hierarchies in dimension,# levels in hierarchy,# dimension members
+Apache Kylin,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
+ClickHouse,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
+Druid,Unrestricted[a],Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
+Essbase[35],Unrestricted,Unrestricted,Unrestricted,255,255,?,"20,000,000 (ASO), 1,000,000 (BSO)"
+IBM Cognos TM1,Unrestricted[a],Unrestricted,Unrestricted[a],256,Unrestricted[a],Unrestricted,Unrestricted
+icCube,"2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647"
+Jedox OLAP Server,2 32 {\displaystyle 2^{32}} (32 bits),2 32 {\displaystyle 2^{32}},2 32 {\displaystyle 2^{32}} (32 bits),250,2 32 {\displaystyle 2^{32}},2 32 {\displaystyle 2^{32}},2 32 {\displaystyle 2^{32}}
+Kyvos,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
+Microsoft Analysis Services[36],"2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647 (max. number of dimensions in a database)","2,147,483,647","2,147,483,647","2,147,483,647 (xOLAP) Unrestricted (In-memory)"
+MicroStrategy Intelligence Server,Unrestricted[a],Unrestricted[a],Unrestricted[a],?,Unrestricted[a],Unrestricted[a],Unrestricted[a]
+SAS OLAP Server[37],Unrestricted[a],1024,128,?,128,19,"4,294,967,296"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

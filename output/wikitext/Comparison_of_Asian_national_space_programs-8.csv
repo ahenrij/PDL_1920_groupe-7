@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Country,Resolution,Satellite,Year launched
 India,0.35 meter,RISAT-2BR1,2019
 ,0.5 meter x 0.3 meter,RISAT-2B,2019
@@ -5,3 +6,9 @@ Japan,0.5 meter,IGS R-5,2017
 Israel,0.5,TecSAR,2008
 China,0.5 meter,Yaogan 29,2015
 South Korea,1 meter,KOMPSat-5,2013
+=======
+Country,Number of satellites,Year,Launch Vehicle,Flight
+,104,2017,PSLV-XL,C37
+,20,2015,Long March 6,1
+,8,2009,H-IIA,F15
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,6 +1,17 @@
+<<<<<<< HEAD
 Kernel Name,File access control,Disable memory execution support,Kernel ASLR,Mandatory access control,Capability-based security,In-kernel key management,Audit API,Sandbox,SYN flood protection,UDP flood protection,Ping flood protection,Smurf attack protection,Network Behavior Analysis
 Linux,"Traditional Unix permissions, POSIX ACL",,,"LSM (SELinux, SMACK, TOMOYO Linux, AppArmor)",seccomp,keyctl,fanotify,"SELinux Sandbox, seccomp",SYN cookies,,,,
 FreeBSD Kernel,"Traditional Unix permissions, POSIX and NFSv4 ACL",,,TrustedBSD MAC,Capsicum,,OpenBSM,"Capsicum, MAC framework",SYN cookies,,,,
 Solaris Kernel,"Traditional Unix permissions, POSIX ACL, NFSv4 ACL",Default,,Solaris Trusted Extensions,,,,,,,,,
 Windows NT kernel,Access control list,DEP,,Mandatory Integrity Control,AppContainers,,,Windows Event Log,,,,,
 XNU,"Traditional Unix permissions, NT/NFSv4 ACL[13]",,,TrustedBSD MAC,,,OpenBSM,Apple XNU Sandbox,,,,,
+=======
+Kernel Name,"Container (no resource management, no security)",Container (no resource management),Container (resource management),Paravirtualization,Full virtualization,User-space execution,Kernel as Library,Kernel as Kernel Driver,Hypervisor-Enforced Kernel Partitioning
+Linux,chroot,colspan="2" LXC,"Virtio, Hyper-V (guest only), Xen (guest only), VMI (guest only), kvm-lite, lguest",KVM,UML,(LKL),(coLinux),,
+DragonFly BSD kernel,chroot,colspan="2" jail,,,vkernel,,,,
+FreeBSD kernel,chroot,colspan="2" jail,"Virtio, Xen (guest only)",BHyVe (KVM),,,,,
+NetBSD kernel,chroot,(sysjail (discontinued)),,Virtio and Xen,,,Rump kernel,,
+Solaris kernel,chroot,colspan="2" Solaris Containers / Zones,,,,,,,
+Windows NT kernel,"colspan="3" AppContainers, Job Objects, Windows Server Containers",colspan="2" Hyper-V,colspan="2" Project Drawbridge,,"Virtual Secure Mode, Device Guard, Credential Guard[14]",,,,
+XNU,chroot,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

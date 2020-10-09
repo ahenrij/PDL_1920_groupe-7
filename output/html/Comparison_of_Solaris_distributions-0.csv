@@ -4,6 +4,10 @@ Nexenta OS,"x86, x86-64",GNOME
 NexentaStor,x86(-64?),?
 OmniOS,"x86, x86-64",none
 OpenIndiana,"x86, x86-64",MATE
+<<<<<<< HEAD
 SmartOS,x86-64[10],none
+=======
+SmartOS,x86-64[11],none
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 v9os,SPARC,none
 Distribution,Supported architectures,Install-time desktop environment selection

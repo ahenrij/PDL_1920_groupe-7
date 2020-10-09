@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
 ,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),
 Radeon R5 M230 (Jet Pro),January 2014,GCN 1st gen (28 nm),320:20:8:5,780 855,3.4,17.1,547,DDR3 64-bit,2 4,1000,16,Unknown
@@ -11,3 +12,8 @@ Radeon R9 M275X (Venus XTX),May 2014,,640:40:16:10,900 925,14.8,37,1184,GDDR5 12
 Radeon R9 M280X (Saturn XT),February 2015,GCN 2nd gen (28 nm),896:56:16:14,1000 1100,17.6,61.6,1792,GDDR5 128-bit,2 4,1500,96,~75 W
 Radeon R9 M290X (Neptune XT),May 2014,GCN 1st gen (28 nm),1280:80:32:20,850 900,28.8,72,2176 2304,GDDR5 256-bit,4,1200,153.6,100 W
 Radeon R9 M295X (Amethyst XT),November 2014,GCN 3rd gen (28 nm),2048:128:32:32,750 800,25.6,102.4,3276.8,GDDR5 256-bit,4,1375,176,250 W
+=======
+Model (codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TBP,Bus interface
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Bandwidth (GB/s),,
+Radeon VII (Vega 20) [108][109][110][111][112][113],"February 7, 2019 $699 USD",GCN 5th gen TSMC 7FF,13.2×109 331 mm2,3840:240:64 60 CU,1400 1750,336 420,89.6 112,"22,272 27,648","11,136 13,824","2,784 3,458.5",HBM2 4096-bit,16,2000,1028,300 W,PCIe 3.0 x16
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

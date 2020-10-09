@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko,WebKit,Presto
 Microdata,,16.0[196],,
 HTML5 Tokenizer,rowspan="3" 6.0[199],rowspan="3" 2.0[200],,rowspan="3" 2.10[202]
@@ -8,3 +9,12 @@ window.onhashchange,4.0[205],1.9.2[206],528[207],2.6[208]
 element.classList,,1.9.2[209],,2.8[97]
 dir="auto",,20.0[211],528+[212],
 ! Trident,Gecko,WebKit,Presto,
+=======
+Trident,edgeHTML,Gecko,WebKit,Presto
+Ogg Vorbis,rowspan="2" Manual install[312],,rowspan="2" 1.9.1[301],
+WAV PCM,,rowspan="3" 525[309],2.0,
+MP3,rowspan="2" 5.0[320],,,rowspan="2" 
+AAC,,,,
+Speex,rowspan="1" Manual install[312],,,
+Opus,,,15.0[324],
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

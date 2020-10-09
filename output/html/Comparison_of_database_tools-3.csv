@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,user manager,Plugin,Compare,Import,Export,Debugger,Source control,Spatial Visualization
 Adminer,Yes,Yes,Yes,"SQL script, CSV, TSV or the above in zip (as a plugin); imports of server-site file in SQL or SQL in zip, gzip or bzip2","SQL script, CSV, TSV or the above in zip, gzip, bzip2; XML (as a plugin)",No,Git,
 Altova DatabaseSpy,No,No,Yes,"CSV, XML","XML, XML Structure, CSV, HTML, MS Excel",No,?,
@@ -22,3 +23,26 @@ SQuirreL SQL,?,Yes,Yes,Yes,?,No,?,
 Toad,Some,No,Yes,Yes,Yes,Yes,"SVN, CVS, TFS, VSS",
 Toad Data Modeler,No,?,Yes,"Toad for Oracle ERD, ERWin 7.1(XML) via plugin","SQL; meta data in XML; report in HTML/RTF/CSV; diagram as BMP, JPEG, PNG",No,?,
 TOra,Some,No,Yes,Yes,Yes,Yes,No,
+=======
+,Visual query builder,Visual schema/model/E-R diagram design,Reverse engineering,Forward engineering,ER diagram groupboxes
+Adminer,Yes,Yes,Yes,No,No
+Altova DatabaseSpy,Yes,Yes,Yes,Yes,?
+Database Deployment Manager,Yes,Yes,Yes,No,No
+Database Workbench,Yes,Yes,Yes,?,Yes
+DBeaver,No,Yes,Yes,No,?
+DBEdit,No,No,No,No,No
+ModelRight,No,Yes,Yes,Yes,Yes
+Navicat,Yes,Yes,Yes,Yes,Yes
+Navicat Data Modeler,Yes,Yes,Yes,Yes,Yes
+MySQL Workbench,Yes,Yes,Yes,Yes,Yes
+Oracle SQL Developer,Yes,Yes,Yes,Yes,?
+Orbada,No,No,No,No,No
+pgAdmin,Yes,No,No,No,No
+phpMyAdmin,Yes,Yes,Yes,No,No
+SQL Database Studio,Yes,Yes,Yes,Yes,No
+SQL Server Management Studio,?,Yes,Yes,?,?
+SQLyog,Yes[19],Yes[20],Yes,Yes,?
+SQuirreL SQL,Yes,Yes,Yes[note 3],?,No
+Toad,Yes,Yes,Yes,Yes,?
+Toad Data Modeler,No,Yes,Yes,Yes[note 4],?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

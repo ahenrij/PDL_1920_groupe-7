@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Launch system,,Country of origin,Class and type,Payload capacity,,,Maiden flight,Manufacturer,Status,Ref
 ,LEO (Orbit),,,GTO,Other,,,,,
 Al-Abid,,Iraq,Small lift expendable launch vehicle,100kg to 300kg (200km to 500km,,,1989,"Space Research Center, Baghdad",Abandoned,[99]
@@ -78,3 +79,9 @@ Unified Modular Launch Vehicle,ULV with 6 x S-13 boosters,India,Medium lift expe
 ,SHLV variant,,Super heavy lift expendable launch vehicle,41300kg-60000kg,16300kg,,2020s,,Under development,
 Uydu F?rlatma Sistemi,,Turkey,Small lift expendable launch vehicle,Microsatellites (700km),,,TBD,ROKETSAN,Under development,[152]
 Yun Feng SLV,,,Small lift expendable launch vehicle,200kg (500km,,,TBD,NCSIST,Under development,[148]
+=======
+No.,Country,Spacecraft,Year,Landing type
+1,,Hiten,1993,Controlled impact
+2,,Moon Impact Probe,2008,Controlled impact
+3,,Chang'e 1,2009,Controlled impact
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

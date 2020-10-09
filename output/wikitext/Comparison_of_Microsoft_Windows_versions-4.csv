@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Operating system,Limit on IA-32,Limit on x64
 4.0.aWindows NT 4.0,4 GB,
 5.0.bWindows 2000 Professional/Server,4 GB,
@@ -42,3 +43,12 @@ Operating system,Limit on IA-32,Limit on x64
 7.eWindows 10 Enterprise,4 GB,2048 GB6 TB
 8.yWindows Server 2016 Standard,,24576 GB24 TB
 8.zWindows Server 2016 Datacenter,,24576 GB24 TB
+=======
+Name,Release date,RTM build,Current version,Status support,Codename,Based on (kernel),Supported architectures
+Windows Phone 7,2010-11-08,7004,7.10.8862,End of life,Photon,CE 6.0,ARM
+Windows Phone 7.5,2011-09-27,7720,,End of life,Mango,CE 6.1,ARM
+Windows Phone 7.8,2013-02-01,8858,,End of life,,CE 6.1,ARM
+Windows Phone 8,2012-10-29,10211,10.0.10586,End of life,"Apollo, Portico",NT 6.2,ARMdate=November 2013
+Windows Phone 8.1,2014-04-14,12359,,End of life,Blue,NT 6.3,ARM
+Windows 10 Mobile,2015-11-08,10586,,End of life,Threshold,NT 10.0,ARM
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

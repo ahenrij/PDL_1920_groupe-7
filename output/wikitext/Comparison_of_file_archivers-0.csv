@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 File archivers,Creator(s),First public release date,Latest stable version,Cost (USD),Software license
 7-Zip,Igor Pavlov,19990102,19.00 20190221,,LGPL (RAR plugin is proprietary)
 ALZip,ESTsoft,1999 (as a WinZip translation),,A free general serial number was published on developer's website altools.com in August 2012,
@@ -32,3 +33,39 @@ XAD a.k.a. XADMaster.library,Dirk Stoecker,1998,13.1,"Shareware, Free for non co
 Xarchiver,Giuseppe Torelli,,0.5.4 20140914,,GPL
 ZipGenius,Matteo Riso of M.Dev Software,20035,6.3.2.3112 201488,,
 ZPAQ,Matt Mahoney,20093,7.15 2016817,,Mixed public domain and MIT[11]
+=======
+File archivers,Windows,DOS,Mac OS X,Linux,BSD,Other Unix,AmigaOS,Android,Windows Mobile,Windows Phone
+7-Zip,os-7zip-11,Command-line interfaceos-7zip-22,os-7zip-22,Command-line interfaceos-7zip-22,Command-line interfaceos-7zip-22,Command-line interfaceos-7zip-22,Command-line interface,,,
+ALZip,,Command-line interface[12],,,,,,,,
+ALZip for Mac,,,,,,,,,,
+Archive Manager,,,,,,,,,,
+Archive Utility,,,,,,,,,,
+Ark,,,,,,,,,,
+B1 Free Archiver,,,,,,,,,,
+BetterZip,,,,,,,,,,
+bsdtar/libarchive,"os-bsdtar-libarchive9",,",,",,,,,
+Commander One,,,,,,,,,,
+CRAX Commander,,,,,,,,,,
+Disk ARchiver,,,,,,,,,,
+Filzip,,,,,,,,,,
+FreeArc,,,,,,,,,,
+GNU tar,,,,,,,,,,
+iArchiver,,,,,,,,,,
+Info-ZIP,,,,,,os-infozip-29,,,os-infozip-18,
+KGB Archiver,os-KGBArchiver7,,Command-line interface,,,,,,,
+PeaZip,os-7zip-11,,Under Development[13] ,,,,,,,
+PKZIP,,,,,,,,,,
+PowerArchiver,,,Command-line interface,,,,,,,
+Star,,,,,,,,,,
+StuffIt,,,,"X86 only, older version (5.2.0?)",,older version (5.2.0?),,,,
+The Unarchiver,Command-line interface,,,Command-line interface,,,,,,
+TUGZip,,,,,,,,,,
+WinAce,,Command-line interfaceos-winace5,Command-line interface expander onlyos-winace5,"X86, Command-line interface expander onlyos-winace5",,,Command-line interface expander only,,,
+WinRAR and RAR,os-7zip-11,,Command-line interfaceos-winrar6,"X86 and x86-64, Command-line interfaceos-winrar6",Command-line interfaceos-winrar6,Command-line interfaceos-winrar6,Command-line interface expander only,,,
+WinZip,os-7zip-11,Command-line interface,,,,,,,,
+XAD,,,,,,,,,,
+Xarchiver,,,,,,,,,,
+ZipGenius,,,,,,,,,,
+ZPAQ,,,,,,,,,,
+! Windows,DOS,Mac OS X,Linux,BSD,Unix,AmigaOS,Android,Windows Mobile,Windows Phone,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

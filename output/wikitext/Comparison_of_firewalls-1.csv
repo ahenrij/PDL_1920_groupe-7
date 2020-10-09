@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Firewall,License,Cost,OS
 Clavister,,Included on all Clavister NGFWs,Proprietary operating system cOS Core
 Check Point,,Included on Check Point security gateways,Proprietary operating system Check Point IPSO and Gaia (Linux-based)
@@ -21,3 +22,28 @@ SmoothWall,GPL,Free / Paid,Linux-based appliance embedded firewall distribution
 IPFire,GPL,Free (Donations welcomed),Linux-based appliance embedded firewall distribution
 WatchGuard,,Included on all Firebox devices,"Proprietary, Fireware OS, Based on the Linux kernel"
 WinGate,,Free / Paid,Windows-based appliance embedded firewall distribution
+=======
+Firewall,License,Cost and usage limits,OS
+Avast Internet Security,,Paid,Microsoft Windows
+Comodo Internet Security,,Free,"Windows 10/8.1/8/7/Vista x86/x64, XP x86"
+Intego VirusBarrier,,Paid,Mac OS X 10.5 or later; on an Xserve
+Kaspersky Internet Security,,Paid / 30 day trial,Windows unknown versions x86/x64
+Lavasoft Personal Firewall,,Paid,Windows unknown versions x86/x64
+Microsoft Forefront Threat Management Gateway,,Discontinued,Windows unknown versions x64
+NetLimiter,,Paid,"Windows 10, 8, 7 x64"
+Norton 360,,Paid,Windows unknown versions x86/x64
+Online Armor Personal Firewall,,Discontinued,Windows unknown versions x86/x64
+Outpost Firewall Pro,,Discontinued,"Windows 10, 8, 7, Vista, XP x86/x64"
+PC Tools Firewall Plus,,Discontinued,Windows unknown versions x86/x64
+Sygate Personal Firewall,,Discontinued,Windows unknown versions x86
+Windows Firewall,,Included with Windows XP SP2 and later,Windows versions x86/x64
+ZoneAlarm,,Free / Paid,"Windows 10/8.1/8/7/Vista x86/x64, XP x86"
+Netfilter/iptables,GPL,Free,Linux kernel module
+nftables,GPL,Free,Linux kernel (>=3.13) module
+Shorewall,GPL,Free,Linux-based appliance
+PeerBlock,GPL,Free,"Windows 8/8.1, 7, Vista x86/x64"
+NPF,BSD,Free,NetBSD kernel module
+PF,BSD,Free,*BSD kernel module
+ipfirewall,BSD,Free,*BSD package
+IPFilter,GPLv2,Free,Package for multiple UNIX-like operating systems
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

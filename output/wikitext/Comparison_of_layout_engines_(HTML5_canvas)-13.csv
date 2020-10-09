@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Trident,Gecko,WebKit,Presto
 <audio> attributes,,,
 src,rowspan="5" 5.0[21],1.9.1,rowspan="5" 525
@@ -23,3 +24,12 @@ kind,rowspan="4" 6.0[287],rowspan="4" 24.0[288],rowspan="4"
 label,,,
 src,,,
 srclang,,,
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Frame layout,,,,,
+frameset,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+frame,,,,,
+noframes,,,,,
+Inline frames,,,,,
+iframe,4.0,1.0,,,1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

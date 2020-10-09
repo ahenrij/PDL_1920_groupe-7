@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
 ,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
 GeForce 410M,"January 5, 2011",GF119,40,PCIe 2.0 ×16,48:83:4,575,1150,1600,2.3,4.6,512,12.8,DDR3,64,12,4.5,110.4,12,Similar to Desktop GT420 OEM
@@ -10,3 +11,8 @@ GeForce GTX 460M,,,,,192:323:24,675,1350,2500,16.2,21.6,1536,60,GDDR5,192,,,518.
 GeForce GTX 470M,,GF104,,,288:483:24,550,1100,,13.2,26.4,,,,,,,633.6,,Similar to Desktop GTX 460/560SE
 GeForce GTX 480M,"May 25, 2010",GF100,,,352:443:32,425,850,2400,13.6,18.7,2048,76.8,,256,,,598.4,100(MXM module),Similar to Desktop GTX465
 GeForce GTX 485M,"January 5, 2011",GF104,,,384:643:32,575,1150,3000,18.4,36.8,,96.0,,,,,883.2,,Similar to Desktop GTX560 Ti
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,Supported API version,,Nvidia Optimus technology,TBP (Watts)
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro K2200M,GM107,28,PCIe 3.0 ×16,1150,1150,1253 (5012),640:40:16 (5 SMM),18.4,46,2048,80.2,GDDR5,128,1472,46,12.1,4.5,Yes,65
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

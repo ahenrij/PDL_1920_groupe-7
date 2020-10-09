@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,"x86, i386, IA-32",x86 SMP,Xen,IA-64,x86-64,PowerPC,PowerPC SMP,SPARC32,SPARC SMP,Alpha,MIPS,ARM,XScale,M68k,PA-RISC,OpenRISC,others,hosted mode
 Linux,,,,,,,,,,,,,,,,,"FR-V, Cell, ETRAX CRIS, M32R, Xtensa, h8, s390, SuperH","UML, coLinux, MkLinux, Itanium Linux-on-Linux, wombat"
 FreeBSD[3],,,,,,,,,,,,,,,,,PC98,
@@ -30,3 +31,33 @@ TempleOS,,,,,,,,,,,,,,,,,,"QEMU, VirtualBox, etc."
 K42,,,,,,,,,,,,,,,,,,
 UnixLite,,,,,,,,,,,,,,,,,,
 Name,"x86, i386, IA-32",x86 SMP,Xen,IA-64,x86-64,PowerPC,PowerPC SMP,SPARC32,SPARC SMP,Alpha,MIPS,ARM,XScale,M68k,PA-RISC,OpenRISC,other,hosted mode
+=======
+Name,RAID,quota,Resource access control,encryption,other special file system features
+Linux,,,"Unix, ACL, MAC",,"LVM, EVMS"
+FreeBSD,,,"Unix, ACL, MAC",,"GEOM, snapshots, background fsck, user-mountable file systems"
+OpenBSD,,,Unix,,
+NetBSD,,,"Unix, Veriexec",,"Snapshots, Journaling"
+DragonFly BSD,,,Unix,,"HAMMER, Snapshots, Checksumming, Deduplication"
+"OpenSolaris, illumos",,,"Unix, ACL, MAC",,"Solaris Volume Manager, ZFS, snapshots, transparent data repair"
+"Darwin, OpenDarwin",,,"Unix, ACL",,
+MINIX,,,Unix,,
+FreeDOS,,,,,
+Genode,,,,,Per-process virtual file-system layer
+KolibriOS,,,,,
+MenuetOS,,,,,
+GNU,,,Unix,,
+ReactOS,,,,,
+"L4, Fiasco, Pistachio",,,,,
+Plan 9,,,"Unix-like, no root",,"snapshots, venti archival storage, per-process namespace, user-mountable file systems"
+AROS,,,,,
+Syllable,,,Unix,,"64-bit, journaling, extended file attributes"
+Inferno,,,"Unix-like, no root",,"per-process namespace, user-mountable file systems"
+FreeRTOS,,,,,
+eCos,,,,,
+RTEMS,,,,,
+HelenOS,,,,,
+E/OS,,,Unix,,-
+K42,,,,,
+UnixLite -->,,,,,
+Name,RAID,quota,Resource access control,encryption,other special file system features
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

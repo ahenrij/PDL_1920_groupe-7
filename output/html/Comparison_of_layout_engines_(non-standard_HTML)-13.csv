@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
 getElementsByClassName[28],5.0[t 31],12,1.9[g 62],525,2.1
 registerProtocolHandler,No,No,1.9[f][dead link],Yes[w 51],2.10[p 14]
@@ -6,3 +7,15 @@ Cross-document messaging,4.0,12,1.9[g 65],Yes,2.0
 Drag-and-drop,6.0,12,1.9.1[g 28],Yes,2.10.270[p 15]
 pushState() and replaceState(),6.0[t 32],12,2.0[g 66],528[w 52],2.9[p 16]
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
+=======
+,Trident,Gecko,WebKit,Presto
+translate[24],No,,,
+Datasets (data-*),No,6.0[g 24],Yes[w 25],2.8[p 10]
+contextmenu,,8.0[g 25],No[w 16],No
+hidden,,2.0[g 26],Yes[w 26],2.7.70
+contenteditable[25],<3.1[IE 5.5],1.9,Yes,2.0
+spellcheck[26],6.0,1.8[g 27],Incorrect[w 27],2.8[p 11]
+draggable,,1.9.1[g 28],533[w 28],2.10.270
+dropzone,No,No[g 29],Yes,2.10.270
+,Trident,Gecko,WebKit,Presto
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

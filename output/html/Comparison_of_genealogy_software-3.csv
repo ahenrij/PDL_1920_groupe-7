@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Software,Latest version,Latest release,Free to use,Free software,Software license,Windows,macOS,Linux,Android,iOS
 Agelong Tree,5.5,2020-04-08,No (40 Person Free Trial),No,Proprietary,Yes,Yes,Using Wine,No,No
 Ahnenblatt,3.10,2020-05-22,"No (Free demo, 50 person limit, watermarked reports; latest free version: 2.99m)",No,Proprietary,Yes,No,Using Wine,No,No
@@ -23,3 +24,28 @@ Reunion,12.0 (build 200127),2020-01-27,"No (Free demo, 50 person limit, no impor
 RootsMagic,7.6.4.0,2020-08-28,Yes (Essentials),No,Proprietary,Yes,Yes,Using Wine,Yes,Yes
 The Master Genealogist,9.05.0000,2014-12-03 (discontinued:2015),No (30 Day Free Trial),No,Proprietary,Yes,No,Using Wine,No,No
 webtrees,2.0.4,,Yes,Yes,GNU GPL,?,?,?,?,?
+=======
+Name,Unicode Support,Single parent family,Same sex marriage,Witness to events,Name variants,Conflicting evidence,Source surety,Adoption & foster parent,non-standard calendar in date fields
+Agelong Tree,Yes,Yes,No,Yes,Yes,?,Yes,Yes,Yes
+Ahnenblatt,Yes,Yes,Yes,Partial christening and marriage only,Yes,?,Yes,Yes,Yes
+Ancestral Quest,Yes,Yes,No,?,Yes,Yes,Yes,Yes,?
+Ancestris,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No[a]
+Brother's Keeper,No,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes
+Family Historian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Family Tree Builder,Yes,Yes,Yes,?,Yes,?,Yes,Yes,Yes
+Family Tree Maker,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No
+GEDitCOM II,Yes,?,Yes,?,?,?,?,?,?
+Genbox Family History,Yes,?,?,?,?,?,?,?,?
+GenealogyJ,Yes,?,Partial One partner's gender mislabelled,No,Yes,Yes,?,Yes,?
+GenoPro,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Gramps,Yes,Yes,Partial One partner's gender mislabelled[1],Yes,Yes,?,Yes,Yes,Yes
+Heredis,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Legacy Family Tree[b],No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+LifeLines,Yes,?,No,?,?,?,?,?,?
+MacFamilyTree,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Personal Ancestral File,Yes,?,No,?,?,?,?,?,?
+Reunion,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes
+RootsMagic,Yes,?,Yes,Yes (paid version),Yes,Yes,Yes,Yes,Yes
+The Master Genealogist,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+webtrees,?,?,?,?,?,?,?,?,?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

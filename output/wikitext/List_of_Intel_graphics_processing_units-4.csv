@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Graphics,Launch,Market,Code name,Chipset,Device ID[3],Core render clock (MHz),Execution units,Shader model (vertex/pixel),API support[13],,,Memory bandwidth (GB/s),DVMT (MB),Hardware acceleration,,
 ,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2,VC-1,AVC
 GMA 3000,2006,Desktop,Lakeport,946GZ,2972,667[14][15],8[14][16],3.0 (SW) / 2.0,9.0c FL9_1,1.5Windows 2.1macOS 2.1Linux ES 2.0Linux,rowspan=20 ,10.6,256,MC[8],rowspan=3 ,rowspan=9 
@@ -20,3 +21,18 @@ GMA 4500MHD,,Mobile,Cantiga,GL40,2A42,400[19],,,,,,,,,,
 ,,,,GM45,,533[19],,,,,,,,,,
 ,,,,GS45,,,,,,,,,,,,
 ,,,,GM47,,640,,,,,,,,,,
+=======
+Name,Release year,Market,Processor,,Device ID,Core config1,Clock rate,,API support[64][13][32][49][50],,,,Memory bandwidth (GB/s)
+,,,Code name,Model,,,Min (MHz),Max (MHz),Direct3D,OpenGL,OpenCL,Vulkan,
+UHD Graphics,2019,Mobile,Ice Lake,Core i3-1000G1 Core i3-1005G1,8A58,256:32:4 (GT1),300,900,12 FL12_1,4.6Windows 4.6Linux ES 3.2Linux,2.1Windows 2.1Linux,1.2Windows 1.2Linux,59.7
+,,,,Core i5-1035G1,8A56,,,1050,,,,,
+Iris Plus Graphics,,,,Core i3-1000G4,8A5C,384:48:6 (GT1.5),,900,,,,,
+,,,,Core i5-1030G4,,,,1050,,,,,
+,,,,Core i5-1035G4,8A5A,,,,,,,,
+,,,,Core i5-1030G7 Core i5-1030NG7,8A51,512:64:8 (GT2),,1050,,,,,
+,,,,Core i7-1060G7 Core i7-1060NG7,,,,1100,,,,,
+,,,,Core i5-1035G7,8A52,,,1050,,,,,
+,,,,Core i7-1065G7,,,,1100,,,,,
+,,,,Core i5-1038G7,8A53,,,1050,,,,,
+,,,,Core i7-1068G7,,,,1100,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

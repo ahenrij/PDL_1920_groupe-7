@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,,,Relative and interrogative,,Demonstrative,,Indeterminate,,Most Indeterminate,Negative,,Collective,
 ,Esperanto,Ido,Esperanto,Ido,Esperanto,Ido,Ido,Esperanto,Ido,Esperanto,Ido,,
 ,ki-,"qua, ?",ti-,"ita, ?",i-,"ula, ?",irga,neni-,nula,?i-,omna,,
@@ -22,3 +23,12 @@ Manner,Esperanto,-el,kiel,,tiel,,iel,,,neniel,,?iel,
 ,Ido,"-e, maniere",quale,,tale,,"ule, ulamaniere",,"irge, irgamaniere","nule, nulamaniere",,"omne, omnamaniere",
 Quantity – adjective,Esperanto,-om,kiom,,tiom,,iom,,,neniom,,?iom,
 ,Ido,quanta,quanta,,tanta,,kelka,,irgaquanta,nulaquanta,,omnaquanta,
+=======
+,singular,,,,,,,plural,,,,,,,utrum
+,first,second,,third,,,,first,second,third,,,,,
+,,familiar,formal,masculine,feminine,neuter,utrum,,,masculine,feminine,neuter,utrum,reflexive,
+Ido,me,tu,vu,il(u),el(u),ol(u),lu,ni,vi,ili,eli,oli,li,su,on(u)
+English,I,thou,you,he,she,it,–,we,you,,,,they,,one
+Esperanto1894,mi/mu,tu,vu,lu,elu,lu,–,nos,vos,,,,ilu,su,on
+Esperanto,mi,ci,vi,li,?i,?i,li,ni,vi,,,,ili,si,oni
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

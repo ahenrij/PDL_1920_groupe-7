@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SMX count,Core config1,Clock rate,,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)9,,TDP (Watts),Release Price (USD)
 ,,,,,,,,,Base (MHz),Average Boost (MHz),Max Boost2 (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D3,OpenGL,OpenCL,Single precision,Double precision,,
 GeForce GT 705[42]4,"March 27, 2014",GF119-300-A1,TSMC 40 nm,292,79,PCIe 2.0 ×16,1,48:8:4,810,,,898 (1796),3.24,6.5,512 1024,14.4,DDR3,64,n/a[29],12,4.6,1.1,155.5,19.4,29,OEM
@@ -23,3 +24,34 @@ GeForce GTX TITAN Black,"February 18, 2014",GK110-430-B1,,,,,15,2880:240:48,889,
 GeForce GTX TITAN Z,"March 25, 2014",2× GK110-350-B1[57],,2× 7080,2× 561,,2× 15,2× 2880:240:48,705,876,,1752.5 (7010),2× 33.8,2× 169,2× 6144,2× 336.5,,2× 384,,,4.5,,5046x2,1682x2[58],375,$2999
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SMX count,Core config1,Clock rate,,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)8,,TDP (Watts),Release Price (USD)
 ,,,,,,,,,Base (MHz),Average Boost (MHz),Max Boost2 (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D3,OpenGL,OpenCL,Single precision,Double precision,,
+=======
+Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce FX 5100,March 2003,NV34,TSMC 150 nm,AGP 8×,200,166,4:1:4:4,800,800,800,50,64 128,2.7,DDR,64
+GeForce FX 5200 LE,,,,,250,,,1000,1000,1000,62.5,64 128 256,2.7 5.3,,64 128
+GeForce FX 5200,,,,AGP 8× PCI,,200,,,,,,,3.2 6.4date=September 2012,,
+GeForce FX 5200 Ultra,"March 6, 2003",,,AGP 8×,325,325,,1300,1300,1300,81.25,,10.4,,128
+GeForce PCX 5300,"March 17, 2004",,,PCIe ×16,250,200,,1000,1000,1000,62.5,128,3.2 6.4date=September 2012,,64 128
+GeForce FX 5500,March 2004,NV34B,TSMC 140 nm,AGP 8× AGP 4× PCI,270,,,1080,1080,1080,67.5,64 128 256,,,
+GeForce FX 5600 XT,October 2003,NV31,TSMC 130 nm,AGP 8×,235,,,940,940,940,58.75,64 128,6.4,,128
+GeForce FX 5600,March 2003,,,AGP 8× PCI,325,275,,1300,1300,1300,81.25,64 128 256[4],8.8,,
+GeForce FX 5600 Ultra,"March 6, 2003",,,AGP 8×,350,350,,1400,1400,1400,87.5,64 128,11.2,,
+GeForce FX 5600 Ultra Rev.2,,,,,400,400,,1600,1600,1600,100,,12.8,,
+GeForce FX 5700 VE,September 2004,NV36,IBM 130 nm,,235,200,4:3:4:4,940,940,940,106.5,128 256,6.4,,
+GeForce FX 5700 LE,March 2004,,,AGP 8× PCI,250,,,1000,1000,1000,187.5,,6.4,,
+GeForce FX 5700,2003,,,AGP 8×,425,250,,1700,1700,1700,318.75,,8,,
+GeForce PCX 5750,"March 17, 2004",,,PCIe ×16,,,,,,,,128,,,
+GeForce FX 5700 Ultra,"October 23, 2003",,,AGP 8×,475,450,,1900,1900,1900,356.25,128 256,14.4,GDDR2,
+GeForce FX 5700 Ultra GDDR3,"March 15, 2004",,,,,475,,,,,,,15.2,GDDR3,
+GeForce FX 5800,"January 27, 2003",NV30,TSMC 130 nm,,400,400,4:2:8:4,1600,1600,3200,200,128,12.8,GDDR2,
+GeForce FX 5800 Ultra,,,,,500,500,,2000,2000,4000,,,16,,
+GeForce FX 5900 ZT,"December 15, 2003",NV35,,,325,350,4:3:8:4,1300,1300,2600,343.75,,22.4,DDR,256
+GeForce FX 5900 XT,"December 15, 2003[5]",,,,390,,,1600,1600,3200,300,,,,
+GeForce FX 5900,May 2003,,,,400,425,,,,,,,27.2,,
+GeForce FX 5900 Ultra,"May 12, 2003",,,,450,,,1800,1800,3600,337.5,128 256,,,
+GeForce PCX 5900,"March 17, 2004",,,PCIe ×16,,,,,,,,,,,
+GeForce FX 5950 Ultra,"October 23, 2003",NV38,,AGP 8×,475,475,,1900,1900,3800,356.25,256,30.4,,
+GeForce PCX 5950,"February 17, 2004",,,PCIe ×16,,,,,,,,,,GDDR3,
+Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

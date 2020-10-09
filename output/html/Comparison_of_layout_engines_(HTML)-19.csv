@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko[g 30],WebKit[w 29],Presto[p 12]
 Attributes,,,,
 autocomplete,3.1,Yes,Yes,2.0
@@ -41,3 +42,30 @@ number,6.0[t 29],29.0[g 59],528[w 47],
 range,6.0[t 30],23.0[g 60],Yes,
 color,No,29.0[g 61],Yes[w 50],2.7[p 13]
 ,Trident,Gecko,WebKit,Presto
+=======
+,Trident,Gecko,WebKit,Presto
+<audio> attributes,,,,
+src,5.0[t 1],1.9.1,525,2.5
+preload,,2.0[note 11][g 90],,Experimental[note 11]
+autoplay,,1.9.1,,2.5
+loop,,11.0[g 91],,
+controls,,1.9.1,,
+<video> attributes,,,,
+src,5.0[t 1],1.9.1,525,2.5
+preload,,2.0[note 11][g 90],,Experimental[note 11]
+autoplay,,1.9.1,,2.5
+loop,,11.0[g 91],,
+controls,,1.9.1,,
+poster,,1.9.2[g 92],,
+width,,1.9.1,,
+height,,,,
+<source> attributes,,,,
+src,5.0[t 1],1.9.1,525[w 70],2.5
+type,,,,
+media,,15.0[g 93],,
+<track> attributes,,,,
+kind,6.0[t 42],24.0[g 94],Yes[w 71],No
+label,,,,
+src,,,,
+srclang,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

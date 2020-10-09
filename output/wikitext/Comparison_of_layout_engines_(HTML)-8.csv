@@ -1,4 +1,5 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Element identifiers,,,,,
 id,rowspan="2" 3.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
 class,,,,,
@@ -9,3 +10,13 @@ title,4.0,1.0,,,1.0
 Language information,,,,,
 lang,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
 dir,5.0,,,,
+=======
+Font styles,,,,,
+b,rowspan="5" 4.0,rowspan="5" 1.0,rowspan="5" ,rowspan="5" ,rowspan="5" 1.0
+i,,,,,
+big,,,,,
+small,,,,,
+tt,,,,,
+Horizontal rules,,,,,
+hr,4.0,1.0,,,1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

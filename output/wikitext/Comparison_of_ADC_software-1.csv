@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ADC hub,FOSS,Software license,Active,Last Update,Notes
 ADCH++,,GPL,,2016-03-08 / 2.12.1,
 ADCH++ GUI,,GPL,,,
@@ -156,3 +157,15 @@ FlowLib,,,,Tiger tree hash,TIGR
 NetChatLink,,,,Tiger tree hash,TIGR
 Announcer Bot,,,,,"ADCS, OSNR"
 Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support
+=======
+Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support,Other
+ADCCore,,,,Tiger tree hash,"TIGR, ADCS",
+DCBouncer,,,,Tiger tree hash,"Any clients, hubs",
+DC-Hublink,,,,Tiger tree hash,TIGR,
+DCWatch,,,"Java, Lua",Tiger tree hash,"TIGR, ADCS",
+Embla,,,,Tiger tree hash,TIGR,
+FlowLib,,,,Tiger tree hash,TIGR,
+NetChatLink,,,,Tiger tree hash,TIGR,
+Announcer Bot,,,,,"ADCS, OSNR",only Luadch supports OSNR
+Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support,Other
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

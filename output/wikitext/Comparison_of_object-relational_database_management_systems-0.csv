@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 ,Array,List,Set,Multiset,Object reference
 CUBRID,,,,,
 Oracle,,,,,
 OpenLink Virtuoso,,,,,
 PostgreSQL,,,,,
 Informix,,,,,
+=======
+,Type,Method,Type inheritance,Table inheritance
+CUBRID,,,,
+Oracle,,,,
+OpenLink Virtuoso,,,,
+PostgreSQL,,,,
+Informix,,,,
+WakandaDB,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

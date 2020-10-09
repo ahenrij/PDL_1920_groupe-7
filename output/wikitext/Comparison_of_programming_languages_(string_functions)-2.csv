@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages
 "string1 OP string2, where OP can be any of =, <>, <, >, <= and >=","Pascal, Object Pascal (Delphi), OCaml, Seed7, Standard ML, BASIC, VB, VB .NET, F#"
 "string1 OP string2, where OP can be any of =, /=, ?, <, >, <=, ? and ?; Also: EQ, NE, LT, LE, GE and GT",ALGOL 68
@@ -20,3 +21,7 @@ Format,Languages
 "string1 OP string2 where OP can be any of ==, <>, <, >, <= and >=",Cobra
 "string1 OP string2 is available in the syntax, but means comparison of the pointers pointing to the strings, not of the string contents. Use the Compare (integer result) function.","C, Java"
 "string1.METHOD(string2) where METHOD is any of eq, ne, gt, lt, ge, le",Rust[9]
+=======
+Definition,"format(formatstring, items) returns string"
+Description,Returns the formatted string representation of one or more items.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

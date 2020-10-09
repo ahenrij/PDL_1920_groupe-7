@@ -1,2 +1,29 @@
 C++,Java
+<<<<<<< HEAD
 C++ is compiled directly to machine code which is then executed directly by the central processing unit.,"Java is compiled to byte-code which the Java virtual machine (JVM) then interprets at runtime. Actual Java implementations do just-in-time compilation to native machine code. Alternatively, the GNU Compiler for Java can compile directly to machine code."
+=======
+"const Foo *a; // it is not possible to modify the object
+              // pointed to by a through a
+Foo * const a = new Foo; 
+// A declaration of a const pointer:
+// it is possible to modify the object,
+// but the pointer will constantly point
+// to the object assigned to it here","final Foo a; // a declaration of a "final" reference:
+             // it is possible to modify the object, 
+             // but the reference will constantly point 
+             // to the first object assigned to it"
+a = new Foo();,a = new Foo(); // Only in constructor
+a->x = 5;
+// ILLEGAL,"a.x = 5;
+// LEGAL, the object's members can still be modified 
+// unless explicitly declared final in the declaring class"
+Foo *const b = new Foo();
+// a declaration of a "const" pointer,final Foo b = new Foo();
+// a declaration of a "final" reference
+"b = new Foo();
+// ILLEGAL, it is not allowed to re-bind it","b = new Foo();
+// ILLEGAL, it is not allowed to re-bind it"
+"b->x = 5;
+// LEGAL, the object can still be modified","b.x = 5;
+// LEGAL, the object can still be modified"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

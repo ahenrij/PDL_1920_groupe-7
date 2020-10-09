@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model (codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TBP,Bus interface
 ,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (MiB),Clock (MT/s),Band- width (GB/s),,
 Radeon R5 220[30] (Caicos Pro),"December 21, 2013 OEM",Terascale 2 40 nm,370×106 67 mm2,80:8:4,625 650,5,2.5,200,N/A,DDR3 64-bit,1024,1066,8.53,18 W,PCIe 2.1 ×16
@@ -23,3 +24,10 @@ Radeon R9 290X[39] (Hawaii XT),"October 24, 2013 November 6, 2014[48] US $549",,
 Radeon R9 295X2[39][49] (Vesuvius),"April 8, 2014 US $1499",,2× 6200×106 2× 438 mm2,2× 2816:176:64,1018,358.33,130.3,11466.75,1433.34,GDDR5 512-bit,2× 4096,5000,2× 320,500 W,
 Model (codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (MiB),Clock (MT/s),Band- width (GB/s),TBP,Bus interface
 ,,,,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,,
+=======
+Model,Launch,Code name,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Radeon 320,May 2002,A3,FSB,160,"200, 266",1:0:3:1,160,160,480,0,Unknown,"1.6, 2.128",DDR,64
+Radeon 330,2002,RS200L (wilma),,150,,,150,150,450,,Unknown,,,
+Radeon 340,,RS200 (wilma),,183,,,183,183,549,,Unknown,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

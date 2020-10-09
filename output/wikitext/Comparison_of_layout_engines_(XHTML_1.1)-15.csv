@@ -1,4 +1,5 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 abbr,date=May 2011,,,,,,
 acronym,4.0[4],,,,,,
 address,rowspan="2" 1.0[4],,,,,,
@@ -23,3 +24,6 @@ samp,1.0[4],,,,,,
 span,3.0[6],,,,,,
 strong,rowspan="2" 1.0[4],,,,,,
 var,,,,,,,
+=======
+img,1.0[8],,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

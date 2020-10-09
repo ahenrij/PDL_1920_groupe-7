@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
 ,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
 GeForce 4057,"September 16, 2011",GT216 GT218,40 nm,486 260,100 57,1,48:16:8 16:8:4,475 589,1100 1402,800 790,3.8 2.36,7.6 4.71,512 1024,12.6,DDR3,64,n/a[29],10.1,3.3,1.1,105.6 44.86,,30.5,OEM
@@ -19,3 +20,17 @@ GeForce GTX 470,"March 26, 2010",GF100-275-A3,,,,14,448:56:40,,,3348,24.28,34,12
 GeForce GTX 480,"March 26, 2010",GF100-375-A3,,,,15,480:60:48,700,1401,3696,33.60,42,1536,177.4,,384,,,,,1344.96,168.12,2504,$499
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
 ,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
+=======
+Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,,API support,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+STG-2000,"May 22, 1995",NV1,SGS 500 nm,PCI,12,75,1:1:1,12,12,12,0,2 4,0.6,EDO VRAM,64,n/a,n/a
+Riva 128,"August 25, 1997",NV3,SGS 350 nm,"AGP 1×,[3] PCI",100,100,,100,100,100,,4,1.6,SDR,128,5.0,1.0
+Riva 128ZX,"February 23, 1998",,SGS/TSMC 350 nm,"AGP 2×, PCI",,,,,,,,8,1.6,,,,
+Riva TNT,"June 15, 1998",NV4,TSMC 350 nm,,90,110,2:2:2,180,180,180,,8 16,1.76,,,6.0,1.2
+Vanta,"March 22, 1999",NV6,TSMC 250 nm,AGP 4×,100,125,,200,200,200,,16,1,,64,,
+Vanta LT,March 2000,,,,80,100,,160,160,160,,8 16,0.8,,,,
+Riva TNT2 M64,October 1999,,,"AGP 4×, PCI",125,150,,250,250,250,,"8, 16 32",1.2,,,,
+Riva TNT2,"March 15, 1999",NV5,,,,,,,,,,16 32,2.4,,128,,
+Riva TNT2 Pro,"October 12, 1999",,TSMC 220 nm,AGP 4×,143,166,,286,286,286,,32,2.656,,,,
+Riva TNT2 Ultra,"March 15, 1999",,TSMC 250 nm,,150,183,,300,300,300,,16 32,2.928,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

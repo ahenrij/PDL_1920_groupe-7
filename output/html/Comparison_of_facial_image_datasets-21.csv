@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Density functional theory quantum simulations of graphene,Labelled images of raw input to a simulation of graphene,Raw data (in HDF5 format) and output labels from density functional theory quantum simulation,60744 test and 501473 and training files,Labeled images,Regression,2019,[129],K. Mills & I. Tamblyn
 Quantum simulations of an electron in a two dimensional potential well,Labelled images of raw input to a simulation of 2d Quantum mechanics,Raw data (in HDF5 format) and output labels from quantum simulation,1.3 million images,Labeled images,Regression,2017,[130],"K. Mills, M.A. Spanner, & I. Tamblyn"
 MPII Cooking Activities Dataset,Videos and images of various cooking activities.,"Activity paths and directions, labels, fine-grained motion labeling, activity class, still image extraction and labeling.","881,755 frames","Labeled video, images, text",Classification,2012,[131][132],M. Rohrbach et al.
@@ -22,3 +23,6 @@ MCQ Dataset,"6 different real multiple choice-based exams (735 answer sheets and
 Surveillance Videos,Real surveillance videos cover a large surveillance time (7 days with 24 hours each).,None,19 surveillance videos (7 days with 24 hours each).,Videos,Data compression,2016,[156],"Taj-Eddin, I. A. T. F. et al."
 LILA BC,Labeled Information Library of Alexandria: Biology and Conservation. Labeled images that support machine learning research around ecology and environmental science.,None,~10M images,Images,Classification,2019,[157],LILA working group
 Can We See Photosynthesis?,32 videos for eight live and eight dead leaves recorded under both DC and AC lighting conditions.,None,32 videos,Videos,Liveness detection of plants,2017,[158],"Taj-Eddin, I. A. T. F. et al."
+=======
+Tox21 Dataset,Prediction of outcome of biological assays.,Chemical descriptors of molecules are given.,12707,Text,Classification,2016,[409],A. Mayr et al.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

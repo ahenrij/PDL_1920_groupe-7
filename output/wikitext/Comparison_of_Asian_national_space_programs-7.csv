@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Asian interplanetary exploration probes,,,,,
 Mission name,Destination,Type,Year,Vehicle,Outcome
 JPN Nozomi,Mars,Orbiter,2003,JPN M-V,
@@ -20,3 +21,8 @@ IND Shukrayaan-1,Venus,Orbiter and aerobots,2023,IND GSLV MkIII,
 JPN MMX,Mars,Orbiter,2024-2025,TBD,
 ,Phobos,Sample return,,,
 IND Mars Orbiter Mission 2,Mars,Orbiter Lander Rover,TBD,IND GSLV MkII or GSLV MkIII,
+=======
+No.,Country,Spacecraft,Year,Type
+1,,Hayabusa,2003,Sample return
+2,,Chang'e 2,2012,Flyby
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

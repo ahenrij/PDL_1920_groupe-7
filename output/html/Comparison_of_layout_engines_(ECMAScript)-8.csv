@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Error object,Trident,Gecko,WebKit,Presto
 Called as function,,,,
 Error (message),?,?,?,?
@@ -10,3 +11,20 @@ constructor,5.0,1.0,Yes,1.0
 name,5.5,1.0,Yes,1.0
 message,5.5,1.0,Yes,1.0
 toString(),5.0,1.0,Yes,1.0
+=======
+Object object,Trident,Gecko,WebKit,Presto,Blink
+Called as function,,,,,
+Object([value]),Yes,Yes,Yes,Yes,Yes
+Called as constructor,,,,,
+new Object([value]),4.0,Yes,Yes,Yes,Yes
+Properties,,,,,
+prototype,4.0,Yes,Yes,Yes,Yes
+Properties of prototype,,,,,
+constructor,4.0,Yes,Yes,Yes,Yes
+toString(),4.0,Yes,Yes,Yes,Yes
+toLocaleString(),4.0,Yes,Yes,Yes,Yes
+valueOf(),4.0,Yes,Yes,Yes,Yes
+hasOwnProperty(V),5.5,Yes,3,Yes,Yes
+isPrototypeOf(V),5.5,Yes,3,Yes,Yes
+propertyIsEnumerable(V),5.5,Yes,3,Yes,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

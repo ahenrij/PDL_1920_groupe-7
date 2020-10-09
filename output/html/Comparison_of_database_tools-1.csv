@@ -22,7 +22,11 @@ pgAdmin,pgAdmin Development Team,2020-03-05,4.19[11],PostgreSQL License,Yes,Yes,
 phpLiteAdmin,"Dane Iracleous, Christopher Kramer and others",2019-09-05,1.9.8.2[12],GPL,Yes,Yes,Yes,No,No,No,No,No,No,Yes,,PHP
 phpMyAdmin,phpMyAdmin Development Team,2020-03-21[±],5.0.2[13],GPL,Yes,Yes,Yes,,Yes,,,,,,"Drizzle, MariaDB",php
 SQL Database Studio,Jan Prochazka,2016-05-27,3.4.1,Proprietary,Yes,No,No,No,No,No,Yes,,,,,".NET, WPF, C#"
+<<<<<<< HEAD
 SQLyog,Webyog Softworks Pvt. Ltd.,2020-09-22[±],13.1.7[14],GPLv2,Yes,requires Wine,requires Wine,,Yes,,,,,,,C++
+=======
+SQLyog,Webyog Softworks Pvt. Ltd.,2020-04-30[±],13.1.6[14],GPLv2,Yes,requires Wine,requires Wine,,Yes,,,,,,,C++
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 SQuirreL SQL,"Colin Bell, Gerd Wagner, Rob Manning and others",2019-09-09[±],4.0.0[15],GPLv2 & LGPLv2,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"Access,Axion Java RDBMS, Apache Derby, Daffodil DB, FileMaker (JDBC), Fujitsu Siemens SESAM/SQL, Firebird, FrontBase, HSQLDB, Hypersonic SQL, H2 (DBMS), IBM DB2, Informix, Ingres, OpenIngres, InstantDB, InterBase, Mckoi SQL Database, Microsoft SQL Server, Mimer SQL, Netezza, Pointbase, SAPDB, Sybase, Sunopsis XML Driver, Teradata Warehouse, ThinkSQL RDBMS, Vertica Analytic Database, and others with JDBC drivers.",Java
 Toad,Quest Software,Various,Various,Proprietary,Yes,No,No,Yes,Yes,,Yes,Yes,,,"DB2, Sybase","Embarcadero Delphi, C#.NET"
 Toad Data Modeler,Quest Software,2009-03-05,3.3.8,Proprietary,Yes,No,No,Yes,Yes,Yes,Yes,,,,"DB2, MS Access, Sybase",Embarcadero Delphi

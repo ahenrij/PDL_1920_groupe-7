@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages
 "string_in_string(string, loc int, substring)",ALGOL 68
 "ContainsStr(string, substring)",Object Pascal (Delphi)
@@ -24,3 +25,7 @@ string.find(substring) != string::npos,C++
 [string containsString:substring],"Objective-C (NSString * only, iOS 8+/OS X 10.10+)"
 string.rangeOfString(substring) != nil,Swift (Foundation)
 ?/substring?string,APL
+=======
+Definition,"replace(string, find, replace) returns string"
+Description,Returns a string with find occurrences changed to replace.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

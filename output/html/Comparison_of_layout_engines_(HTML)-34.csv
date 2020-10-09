@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
 section,5.0[t 1],12,2.0[g 1][g 2],533[w 1][w 2][w 3][w 4][w 5][w 6],2.7.70
 nav,,,,,
@@ -28,3 +29,15 @@ bdi,,,10.0[g 13],528[w 17],No
 data,No,No,22.0[g 14],No,No
 picture,No,13,38.0[g 15],No[w 18],No
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
+=======
+,Trident,Gecko,WebKit,Presto
+translate[24],No,,,
+Datasets (data-*),No,6.0[g 24],Yes[w 25],2.8[p 10]
+contextmenu,,8.0[g 25],No[w 16],No
+hidden,,2.0[g 26],Yes[w 26],2.7.70
+contenteditable[25],<3.1[IE 5.5],1.9,Yes,2.0
+spellcheck[26],6.0,1.8[g 27],Incorrect[w 27],2.8[p 11]
+draggable,,1.9.1[g 28],533[w 28],2.10.270
+dropzone,No,No[g 29],Yes,2.10.270
+,Trident,Gecko,WebKit,Presto
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

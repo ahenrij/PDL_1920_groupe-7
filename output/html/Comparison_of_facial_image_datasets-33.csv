@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 EEG Database,Study to examine EEG correlates of genetic predisposition to alcoholism.,Measurements from 64 electrodes placed on the scalp sampled at 256 Hz (3.9 ms epoch) for 1 second.,122,Text,Classification,1999,[353],H. Begleiter
 P300 Interface Dataset,Data from nine subjects collected using P300-based brain-computer interface for disabled subjects.,Split into four sessions for each subject. MATLAB code given.,"1,224",Text,Classification,2008,[354][355],U. Hoffman et al.
 Heart Disease Data Set,Attributed of patients with and without heart disease.,75 attributes given for each patient with some missing values.,303,Text,Classification,1988,[356][357],A. Janosi et al.
@@ -15,3 +16,14 @@ Mesothelioma Dataset,Mesothelioma patient data.,"Large number of features, inclu
 Parkinson's Vision-Based Pose Estimation Dataset,2D human pose estimates of Parkinson's patients performing a variety of tasks.,Camera shake has been removed from trajectories.,134,Text,"Classification, regression",2017,[377][378][379],M. Li et al.
 KEGG Metabolic Reaction Network (Undirected) Dataset,Network of metabolic pathways. A reaction network and a relation network are given.,Detailed features for each network node and pathway are given.,"65,554",Text,"Classification, clustering, regression",2011,[380],M. Naeem et al.
 Modified Human Sperm Morphology Analysis Dataset (MHSMA),"Human sperm images from 235 patients with male factor infertility, labeled for normal or abnormal sperm acrosome, head, vacuole, and tail.","Cropped around single sperm head. Magnification normalized. Training, validation, and test set splits created.","1,540",.npy files,Classification,2019,[381][382],S. Javadi and S.A. Mirroshandel
+=======
+Zero Resource Speech Challenge 2015,"Spontaneous speech (English), Read speech (Xitsonga).",raw wav,"English: 5h, 12 speakers; Xitsonga: 2h30; 24 speakers",sound,Unsupervised discovery of speech features/subword units/word units,2015,[240][241],Versteegh et al.
+Parkinson Speech Dataset,Multiple recordings of people with and without Parkinson's Disease.,"Voice features extracted, disease scored by physician using unified Parkinson's disease rating scale","1,040",Text,"Classification, regression",2013,[242][243],B. E. Sakar et al.
+Spoken Arabic Digits,Spoken Arabic digits from 44 male and 44 female.,Time-series of mel-frequency cepstrum coefficients.,"8,800",Text,Classification,2010,[244][245],M. Bedda et al.
+ISOLET Dataset,Spoken letter names.,Features extracted from sounds.,7797,Text,Classification,1994,[246][247],R. Cole et al.
+Japanese Vowels Dataset,Nine male speakers uttered two Japanese vowels successively.,Applied 12-degree linear prediction analysis to it to obtain a discrete-time series with 12 cepstrum coefficients.,640,Text,Classification,1999,[248][249],M. Kudo et al.
+Parkinson's Telemonitoring Dataset,Multiple recordings of people with and without Parkinson's Disease.,Sound features extracted.,5875,Text,Classification,2009,[250][251],A. Tsanas et al.
+TIMIT,"Recordings of 630 speakers of eight major dialects of American English, each reading ten phonetically rich sentences.",Speech is lexically and phonemically transcribed.,6300,Text,"Speech recognition, classification.",1986,[252][253],J. Garofolo et al.
+Arabic Speech Corpus,"A single-speaker, Modern Standard Arabic (MSA) speech corpus with phonetic and orthographic transcripts aligned to phoneme level",Speech is orthographically and phonetically transcribed with stress marks.,~1900,"Text, WAV","Speech Synthesis, Speech Recognition, Corpus Alignment, Speech Therapy, Education.",2016,[254],N. Halabi
+Common Voice,A public domain database of crowdsourced data across a wide range of dialects.,Validation by other users,"English: 1,118 hours",MP3 with corresponding text files,Speech recognition,June 2017 (December 2019),[255],Mozilla
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

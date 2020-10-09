@@ -1,4 +1,5 @@
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
+<<<<<<< HEAD
 main element[30],No,12,21.0[g 76],Yes[w 60],No
 template element[31],No,13,No,Yes[w 61],No
 Selectors API[32],4.0[t 36],12,1.9.1[g 77],525[w 62],2.2[p 20]
@@ -15,4 +16,12 @@ Web Workers[42][43],6.0[t 39],12,1.9.1[g 87],Yes,2.6[p 8][p 9]
 Geolocation API[44],5.0[t 40],12,1.9.1[g 88],533[w 69],2.6[l]
 Offline Web applications[45],6.0[t 41],12,1.9.1[g 89],Yes,2.6[p 8][p 9]
 Web Notifications[46],No,No,22.0[47][48],only in Chrome[49],25[p 31]
+=======
+getElementsByClassName[28],5.0[t 31],12,1.9[g 62],525,2.1
+registerProtocolHandler,No,No,1.9[f][dead link],Yes[w 51],2.10[p 14]
+registerContentHandler,,,1.8[g],,
+Cross-document messaging,4.0,12,1.9[g 65],Yes,2.0
+Drag-and-drop,6.0,12,1.9.1[g 28],Yes,2.10.270[p 15]
+pushState() and replaceState(),6.0[t 32],12,2.0[g 66],528[w 52],2.9[p 16]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 ,Trident,EdgeHTML,Gecko,WebKit,Presto

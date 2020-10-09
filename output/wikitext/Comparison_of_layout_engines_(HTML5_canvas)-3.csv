@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko,WebKit,KHTML,Presto
 Images,,,,,
 img,4.0,1.0,,,1.0
@@ -7,3 +8,8 @@ param,6.0,,,,
 Image maps,,,,,
 map,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
 area,5.0,,,,
+=======
+,Trident,EdgeHTML,Gecko,WebKit,Presto
+<track>,6.0[214],12,,,
+<a ping>,,,"1=The ping attribute is disabled by default, due to privacy concerns.[216][217]","1=The ping attribute is disabled by default, thus needs to be manually enabled by each port ",
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

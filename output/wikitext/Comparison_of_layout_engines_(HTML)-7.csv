@@ -1,4 +1,5 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Basic table elements,,,,,
 table,rowspan="5" 4.0,rowspan="5" 1.0,rowspan="5" ,rowspan="5" ,rowspan="5" 1.0
 caption,,,,,
@@ -12,3 +13,13 @@ tfoot,,,,,
 Column groups,,,,,
 colgroup,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
 col,,,,,
+=======
+Unordered and ordered lists,,,,,
+ul,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+ol,,,,,
+li,,,,,
+Definition lists,,,,,
+dl,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+dt,,,,,
+dd,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Other software,Software type,FOSS,Software license,Active,Last Update
 ADCCore,General library,,GNU GPL,,
 DCBouncer,Relay,,GNU GPL,,
@@ -22,6 +23,8 @@ Announcer Bot,,,,,
 Certmanager,,,,,
 SerieBot,,,,Any C# enabled platform,
 Other software,Windows,Linux,OS X,Other,
+=======
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 Other software,GUI,CLI,Other,Programming language,Based on
 ADCCore,,,,C#,CoreDC
 DCBouncer,,,,C++,
@@ -33,6 +36,7 @@ NetChatLink,,,,Object Pascal (Delphi),
 Announcer Bot,,,,Lua,
 Certmanager,,,,wxLua,
 ADC hub,GUI,CLI,Other,Programming language,Based on
+<<<<<<< HEAD
 Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support
 ADCCore,,,,Tiger tree hash,"TIGR, ADCS"
 DCBouncer,,,,Tiger tree hash,"Any clients, hubs"
@@ -43,3 +47,5 @@ FlowLib,,,,Tiger tree hash,TIGR
 NetChatLink,,,,Tiger tree hash,TIGR
 Announcer Bot,,,,,"ADCS, OSNR"
 Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support
+=======
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

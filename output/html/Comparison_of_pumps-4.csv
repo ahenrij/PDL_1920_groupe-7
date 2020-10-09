@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 Pump type,Cyclic/continuous ?,Maximum lift height,Production cost,Efficiency,Output,Size of device,Fabrication requirements,Difficulty of production,Durability,Difficulty of repair,Suction lift ?
 Hydraulic ram,cyclic,10m-100m,medium,low-medium,low,?,requires flowing water as power source (e.g. river),industrial,high,?,no
+=======
+Pump type,Cyclic/continuous,Maximum lift height,Production cost,Efficiency,Output,Size of device,Fabrication requirements,Difficulty of production,Durability,Difficulty of repair,Suction lift ?
+Airlift pump,Continuous (with collector),5m-50m,medium-high,low-medium,medium,?,?,industrial,?,?,no
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

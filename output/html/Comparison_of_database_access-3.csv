@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Prog Language,Access server,Use database,List databases,List tables
 raw MySQL access,,use db;,show databases;,show tables;
 PHP,"$link = mysql_connect(host, user, password); or $db = new mysqli(host, user, password); or $db = new PDO('mysql:host=hostname;dbname=dbname', 'username', 'password');","mysql_select_db(''name'', $link); or $db = new mysqli(host, user, password, ''name''); or $db->select_db(''name'');",,
@@ -11,3 +12,7 @@ c.execute("show databases")
 c.fetchall(),c = db.cursor()
 c.execute("show tables")
 c.fetchall()
+=======
+Database,show all data in all fields,show all data in some fields,show filtered data in all fields
+MySQL,select * from "tbname";,select "fields" from "tbname";,select * from "tbname" where "filter_expr";
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

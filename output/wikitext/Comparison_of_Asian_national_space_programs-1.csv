@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 Country,Spaceplane,First flight mission,Year,Program status
 Japan,HOPE-X,HYFLEX,1996,Cancelled
 China,Various,Shenlong,2007,Ongoing
 India,RLV–TD,Hypersonic Flight Experiment,2016,Under development
+=======
+Country,Spacecraft,Power,Thrust,Specific impulse,Year launched
+,"Hayabusa (?-10, microwave ion thrusters)",350 W,8 mN,3200s,2003
+,"Shijian 9A (LIPS-200, ring-cusp magnetic field ion thruster)",1 kW,40 mN,3000s,2012
+,GSAT-20 (Full),,,,2020 (Planned)
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

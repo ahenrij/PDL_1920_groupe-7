@@ -1,4 +1,5 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Phrase,,,,,
 em,<3.1[IE 4.0],1.0,Yes,Yes,1.0
 strong,,,,,
@@ -23,3 +24,7 @@ br,<3.1[IE 5.0],,,,
 Marking document changes,,,,,
 ins,<3.1[IE 4.0],1.0,Yes,Yes,1.0
 del,,,,,
+=======
+script,<3.1[IE 5.0],1.0,Yes,Yes,1.0
+noscript,Incorrect[note 6],,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

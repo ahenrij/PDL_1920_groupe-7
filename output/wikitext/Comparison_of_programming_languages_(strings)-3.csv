@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Operator,Languages
 +,"ALGOL 68, BASIC, C++, C#, Cobra, Pascal, Object Pascal, Eiffel, Go, JavaScript, Java, Python, Turing, Ruby, Rust, Windows PowerShell, Objective-C, Swift, F#, Scala, Ya"
 ++,"Haskell, Erlang"
@@ -14,3 +15,16 @@ nconc,Common Lisp
 ^,"OCaml, Standard ML, F#, rc"
 //,Fortran
 *,Julia
+=======
+Syntax,Language(s)
+"$"hello, {name}"","C#, Visual Basic .NET"
+""Hello, $name!"","Bourne shell, Perl, PHP, Windows PowerShell"
+"qq(Hello, $name!)",Perl (alternate)
+""Hello, {$name}!"",PHP (alternate)
+""Hello, #{name}!"","CoffeeScript, Ruby"
+"%Q(Hello, #{name}!)",Ruby (alternate)
+"(format t "Hello, ~A" name)",Common Lisp
+"`Hello, ${name}!`",JavaScript (ECMAScript 6)
+""Hello, \(name)!"",Swift
+"f'Hello, {name}!'",Python
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

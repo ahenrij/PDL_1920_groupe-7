@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 JVM,Windows,Linux,FreeBSD,NetBSD,OpenBSD,Solaris,OpenSolaris,Darwin,macOS,iOS,BeOS,Haiku,AIX,IRIX,OS/2,Windows Mobile,AmigaOS,Other
 GCJ,Yes[32],Yes[32],Yes[32],?,?,Yes[32],?,Yes[32],Yes[32],?,?,?,?,Yes[32],?,No[32],No[32],"DEC OSF 4.0f and 5.1, Hitachi SH-3/4 micro-controller[32]"
 "HotSpot, OpenJDK edition",Yes[43] (distributed as source code),Yes,Port[44],Port[44],Port[44],Yes,Yes[45],?,Yes[46],No,No,Port[47],Port[36],No,Port[48],No,No,
@@ -13,3 +14,21 @@ Jikes RVM,No[40],Yes[40],No[40],No[40],No[40],No[40],No[40],No[40],Yes[40],No[40
 Kaffe,Using Cygwin[11],Yes[11],Yes[11],Yes[11],Yes[11],Yes[11],?,Yes[11],Yes[11],No[11],Yes[11],No[11],Yes[11],Yes[11],No[11],No[11],Yes,Many others[11]
 Mysaifu JVM,No[41],No[41],No[41],No[41],No[41],No[41],No[41],No[41],No[41],No[41],No[41],No[41],No[41],No[41],No[41],Yes[41],No[41],
 SableVM,Using Cygwin[42],Yes[42],Yes[42],?,?,?,?,?,Yes[42],?,?,?,?,?,?,?,?,
+=======
+JVM,Status,Latest supported Java version,Supported class libraries,,,Performance,,
+,,,GNU Classpath,OpenJDK,Other,Interpretation,AOT,JIT
+GCJ,No longer maintained or distributed by GNU as of GCC 7 [14],?,Yes,No,,Yes,Yes,No
+"HotSpot, OpenJDK edition",Reference implementation.,1.8,No,Yes,,Yes,No,Yes
+"HotSpot, Oracle JDK edition",Reference implementation.,1.8,No,Yes,,Yes,No,Yes
+"HotSpot, Java SE embedded edition",,?,No,Yes,,Yes,No,Yes
+"HotSpot, Zero port",Interpreter-only port of OpenJDK using almost no assembly language and designed to be very portable.,1.7,No,Yes,,Yes,No,No
+IKVM.NET,,?,?,?,,Whatever the .NET runtime uses,,
+JAmiga,,1.4[15],Yes[16],No,,Yes[17],No,No
+JamVM,,1.8[18],Yes[19],Yes[19],,Yes[19],No,Yes[19]
+Jato VM,,1.6[20],Yes[8],No[21],,No[21],No[21],Yes[8]
+JC virtual machine,Translates Java to C and compiles it with a C compiler.,1.4[22],Yes[23],No,,Yes[24],Yes[24],Yes[24]
+Jikes RVM,,1.6[25],Yes[26],Port[27][28],Apache Harmony[26],No[29],?,Yes
+Kaffe,,1.4[11],Yes[11],No,,Yes[11],No[11],Yes[11]
+Mysaifu JVM,,?,Yes[30],No,,Yes[31],No[31],No[31]
+SableVM,Unmaintained,1.4,Yes,No,,Yes,No,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

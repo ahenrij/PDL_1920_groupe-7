@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IDE,License,Windows,Linux,macOS,Other platforms,Written in,Debugger,GUI builder,Integrated toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release,C compiler,C++ compiler,Refactoring
 Anjuta,GPL,,,,FreeBSD,C,,,,,,,,,,2016-03,,,
 AppCode (IntelliJ IDEA),,,,,,Java,,,,,,,,,,2012-12,,,
@@ -24,3 +25,7 @@ Ultimate++ TheIDE,BSD,,,,,C++,,,,,,,,,,2015-12,External,External,
 Understand,,,,,Solaris,,,,,,,,,,,2015-12,,,
 Xcode (Apple),,,,,cross compiles to iOS,"C, C++, Objective-C, Objective-C++",,,,,,,,,,2016-12,",",
 IDE,License,Windows,Linux,macOS,Other platforms,Written in,Debugger,GUI builder,Integrated toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release,C compiler,C++ compiler,Refactoring
+=======
+IDE,License,Developer,Platform
+BlackBox Component Builder,,Oberon microsystems,Windows
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

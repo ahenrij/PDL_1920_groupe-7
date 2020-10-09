@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Product,Multi-column mode,Styles (bold/italic/etc.),Page Turn Effects,Themes,Day/Night mode,Enable/Disable sleep mode,Brightness Control,Indent paragraph,Enable/Disable CSS,Enable/Disable hyphenation,Customize margins,Customize text alignment,Customize font,Customize spacing: line/paragraph
 Apabi Reader,,,Configurable,,,,Vertical swipe,,,,,,,
 Blio,,,,,,,,,,,,Justification only,,
@@ -21,3 +22,28 @@ Stanza,,,Configurable,,,,Vertical swipe,,,,,,,
 uBooks XL,,Buggy,,,,,,,,,,,,
 iBouquiniste,,,,,,,,,,,,,,
 Product,Multi-column mode,Styles (bold/italic/etc.),Page Turn Effects,Themes,Day/Night mode,Enable/Disable sleep mode,Brightness Control,Indent paragraph,Enable/Disable CSS,Enable/Disable hyphenation,Customize margins,Customize text alignment,Customize font,Customize spacing: line/paragraph
+=======
+Product,total # of formats,.cbr/.cbz,.chm,.djvu,.epub,.fb2,.html,.mobi,.pdb,.pdf,.rtf,.txt
+Apabi Reader,3,,,,,,,,,,,
+Blio,2,,,,,,,,,,,
+Bluefire Reader,2,,,,,,,,,,,
+DL Reader,2,,,,,,,,,,,
+eBookMobi,10+,,,,,,,,,,,
+Ebook Reader,2,,,,,,,,,,,
+i2Reader,6+,,,,,,,,,,,
+iBooks,2,,,,,,,,,,,
+Kindle,2,,,,,,,,,,,
+Kobo Reading App,2,,,,,,,,,,,
+KyBook,8,,,,,,,,,,,
+KyBook 2,16,,,,,,,,,,,
+MapleRead,2,,,,,,,,,,,
+Marvin,2,,,,,,,,,,,
+MegaReader,1,,,,,,,,,,,
+PocketBook reader,8+,,,,,,,,,,,
+ShuBook 2,5+,,,,,,,,,,,
+SideBooks,2,,,,,,,,,,,
+Stanza,5+,,,,,,,,,,,
+uBooks XL,5,,,,,,,,,,,
+iBouquiniste,5,,,,,,,,,,,
+Product,total # of formats,.cbr/.cbz,.chm,.djvu,.epub,.fb2,.html,.mobi,.pdb,.pdf,.rtf,.txt
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

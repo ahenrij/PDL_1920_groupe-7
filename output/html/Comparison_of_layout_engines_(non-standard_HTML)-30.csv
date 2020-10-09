@@ -1,4 +1,5 @@
 ,Trident,Gecko,WebKit,Presto
+<<<<<<< HEAD
 translate[24],No,,,
 Datasets (data-*),No,6.0[g 24],Yes[w 25],2.8[p 10]
 contextmenu,,8.0[g 25],No[w 16],No
@@ -8,3 +9,7 @@ spellcheck[26],6.0,1.8[g 27],Incorrect[w 27],2.8[p 11]
 draggable,,1.9.1[g 28],533[w 28],2.10.270
 dropzone,No,No[g 29],Yes,2.10.270
 ,Trident,Gecko,WebKit,Presto
+=======
+getContext,5.0,1.8,Yes,2.0
+toDataURL,,1.8[g 108],Yes[w 80],2.1[note 15]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

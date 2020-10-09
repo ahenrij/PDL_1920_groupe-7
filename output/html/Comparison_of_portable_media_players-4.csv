@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Navigation,Audio out,Speaker,Screen size (in),Screen type,Resolution (px),Frame rate (Hz),Color depth (bpp),Video out,Video battery life (hr),Audio battery life (hr)
 Archos 105[54],"D-pad, 7 buttons",Headphone jack,No,1.8,OLED,160 × 128,30,18,"Component, Composite",Unknown,18
 Archos 405[55][56],"D-pad, 6 two-way buttons","Headphone jack, dock connector",No,3.5,TFT LCD,320 × 240,30,Predecessor: 24,"Component, Composite",5,16
@@ -28,3 +29,30 @@ Zune 4/8/16[80][81][82],"Zune pad, 2 buttons","Headphone jack, dock connector",N
 Zune 80/120[83][84],"Zune pad, 2 buttons","Headphone jack, dock connector",No,3.2,TFT LCD,320 × 240,30,16,"Component, composite",4,29 (Wi-Fi)/30
 Zune HD[85],"Touchscreen, 3 buttons","Headphone jack, dock connector",No,3.3,OLED,480 × 272,30,Unknown,"HDMI, composite",8.5,33 (Wi-Fi off)
 ZVUE 260[86],"D-pad, 9 buttons",Headphone jack,Yes,2.5,AM TFT LCD,234 × 160,30,24,No,Unknown,6
+=======
+Name,MP3,FairPlay,ALAC,AAC,WMA-DRM,WMA Lossless,WMA,WAV,Audible,Ogg Vorbis,FLAC,Others
+Archos 105,Yes,No,No,No,Yes,No,Yes,Yes,No,No,No,No
+Archos 405,Yes,No,No,No[90],Yes,No,Yes,Yes,No,No,No,AC3[90]
+Archos 5,Yes,No,No,No[90],Yes,No,Yes,Yes,No,Yes,Yes,AC3[90]
+Archos 605 WiFi / GPS,Yes,No,No,No[90],Yes,No,Yes,Yes,No,No,No,AC3[90]
+Archos 705 WiFi,Yes,No,No,No[90],Yes,No,Yes,Yes,No,No,No,AC3[90]
+Cowon A3,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,"APE, MPC, PCM, TTA, WV"
+Cowon D2,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,APE
+Cowon Q5W,Yes,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,"APE, MPC"
+Gigabeat T-Series,Yes,No,No,No,Yes,Yes,Yes,Yes,No,No,No,No
+GP2X F-200,Yes,No,No,No,No,No,No[91],No,No,Yes,No[92],"APE, MP2, MPC,[92] TTA, WV[93]"
+iPod,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,No,No,AIFF
+iriver clix 2G,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+PSP Slim & Lite,Yes,No,No,Yes,No,No,Yes,Yes,No,No,No,ATRAC
+Samsung Galaxy Player,Yes,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No
+Samsung T10,Yes,No,No,No,Yes,No,Yes,No,No,Yes,No,No
+Samsung P2,Yes,No,No,Yes,Yes,No,Yes,No,No,Yes,No,No
+Sansa Fuze,Yes,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Unknown
+Sansa Fuze+,Yes,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Unknown
+Walkman NWZ-A810 series,Yes,No,No,Yes,Yes,No,Yes,Yes,No,No,No,No
+ZEN,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+ZEN Vision W,Yes,No,No,No,Yes,No[94],Yes,Yes,Yes,No,No,No
+Zune,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,No,No,WMA Pro Stereo
+ZVUE 260,Yes,No,No,No,Yes,No,Yes,Yes,No,Yes,No,MP2
+,MP3,AAC-DRM,ALAC,AAC,WMA-DRM,WMA Lossless,WMA,WAV,Audible,Ogg Vorbis,FLAC,Others
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

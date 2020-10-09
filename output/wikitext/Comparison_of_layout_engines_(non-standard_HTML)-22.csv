@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko,WebKit,KHTML,Presto
 Images,,,,,
 img,4.0,1.0,,,1.0
@@ -7,3 +8,8 @@ param,6.0,,,,
 Image maps,,,,,
 map,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
 area,5.0,,,,
+=======
+,Trident,Gecko,WebKit,Presto
+getContext,rowspan="2" 5.0,1.8,,2.0
+toDataURL,1.8[325],,2.1[327],
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Plant Name,Chernobyl Image = Chernobyl_Nuclear_Power_Plant.jpg
 bSize = 200
 cWidth = 200
@@ -33,3 +34,11 @@ Population relocated,"335,000 (About 115,000 from areas surrounding the reactor 
 Population returned,None,"122,000[17]"
 Direct fatalities from the accident,Two immediate trauma deaths; 28 deaths from Acute Radiation Syndrome out of 134 showing symptoms; four from an industrial accident (helicopter crash); 15 deaths from radiation-genic thyroid cancers (as of 2005);[18] as many as 4000 to 90000 cancer related deaths.[19],None
 Current status,"All reactors were shut down by 2000. The damaged reactor was covered by a hastily built steel and concrete structure called the sarcophagus. A New Safe Confinement structure was installed in November 2016, from which the plant will be cleaned up and decommissioned.","Cold shutdown declared on 16 December 2011, but decommissioning is likely to take 30 to 40 years.[20][21] All fuel rods in reactor 4 pool removed. Fukushima disaster cleanup is ongoing."
+=======
+Report date,Period,Into the sea (TBq),,Source
+,,direct,indirect,
+21 May 2011,1 – 6 April 2011,"4,700",,Tepco[34]
+End of August 2011,March – August 2011,"3,500","16,000",JMA[35]
+8 September 2011,March – April 2011,"15,000",,Scientist Group[36]
+29 October 2011,21 March – 15 July 2011,"27,100",,IRSN[37]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

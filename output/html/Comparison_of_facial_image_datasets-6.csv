@@ -1,2 +1,7 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Tox21 Dataset,Prediction of outcome of biological assays.,Chemical descriptors of molecules are given.,12707,Text,Classification,2016,[413],A. Mayr et al.
+=======
+HIGGS Dataset,Monte Carlo simulations of particle accelerator collisions.,28 features of each collision are given.,11M,Text,Classification,2014,[318][319][320],D. Whiteson
+HEPMASS Dataset,Monte Carlo simulations of particle accelerator collisions. Goal is to separate the signal from noise.,28 features of each collision are given.,"10,500,000",Text,Classification,2016,[319][320][321],D. Whiteson
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

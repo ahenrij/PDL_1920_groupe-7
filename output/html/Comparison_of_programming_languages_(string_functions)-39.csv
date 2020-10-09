@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages
 string1 & string2,"Ada, FreeBASIC, Seed7, BASIC, VB, VB .NET, COBOL (between literals only)"
 "strcat(string1, string2)","C, C++ (char * only)[11]"
@@ -18,3 +19,7 @@ string1 string2,SNOBOL
 string1string2,Bash shell
 string1 <> string2,Mathematica
 concat string1 string2,Tcl
+=======
+Definition,reverse(string)
+Description,Reverses the order of the characters in the string.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

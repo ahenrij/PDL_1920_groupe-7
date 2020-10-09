@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Manager,Established,Server side: all free software,Client side: all-free JS code,Developed or used CDE,Require free software on registration,Ad-free,Notes
 Assembla,"Assembla, Inc",2005,No,Unknown,Unknown,No,Yes,
 Azure DevOps Services,Microsoft,2012[1],No,No,Azure DevOps Services Microsoft Visual Studio,No,Yes,Most features are free for open source projects or teams of 5 members or less[2]
@@ -19,3 +20,10 @@ Rosetta Code,Unknown,2007,Unknown,Unknown,Unknown,Yes,Yes,Programming chrestomat
 SEUL,Unknown,1997-05,Unknown,No,Unknown,No,Yes,
 SourceForge,BizX LLC,1999-11,Yes[16][17],Yes,Apache Allura,No,No,"For open-source projects only.[18] Denies service when accessed from Cuba, Iran, North Korea, Sudan, Syria[19]"
 Name,Manager,Established,Server side: all free software,Client side: all-free JS code,Developed or used CDE,Require free software on registration,Ad-free,Notes
+=======
+Name,Ad-free,CVS,Git,SVN,Arch,Notes
+Drupal,Yes,No,Yes,No,No,Only for Drupal related projects.
+freedesktop.org,Yes,No,Yes,No,No,"Only for interoperability and shared base technology for free software desktop environments on Linux and other Unix-like operating systems, including the X Window System (X11) and cairo (graphics)."
+mozdev.org,Yes,Yes,Unknown,No,No,Only for Mozilla-related projects.
+Name,Ad-free,CVS,Git,SVN,Arch,Notes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

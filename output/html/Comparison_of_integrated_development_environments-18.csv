@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 IDE,Developer,Latest stable release,Platform,License
 Decoda,Unknown Worlds Entertainment,"1.16 / October 25, 2011",Windows,GPL[35]
 SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, AIX, HP-UX, Solaris, Solaris SPARC",Proprietary
 ZeroBrane Studio,"Paul Kulchenko, ZeroBrane LLC","1.80 / October 7, 2018","Windows, macOS/Mac, Linux",MIT License
+=======
+IDE,License,Windows,Linux,macOS,Other platforms
+Eclipse JDT,EPL,Yes,Yes,Yes,"FreeBSD, JVM, Solaris"
+IntelliJ IDEA,"ASLv2, proprietary",Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris"
+NetBeans,"CDDL, GPL2",Yes,Yes,Yes,Solaris
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

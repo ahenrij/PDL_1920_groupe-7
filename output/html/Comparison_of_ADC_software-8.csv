@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ADC hub,FOSS,Software license,Active,Last Update,Notes
 ADCH++,Yes,GPL,Yes,2016-03-08 / 2.12.1,
 ADCH++ GUI,Yes,GPL,No,,
@@ -12,3 +13,19 @@ Starlet ADC Hub,No,Proprietary,Yes,,
 Starhub,No,source code available,No,,
 RusHub,Yes,GPL,Yes,2012-07-10 / 2.3.10,
 ADC hub,FOSS,Software license,Active,,
+=======
+ADC client,GUI,CLI,WebUI,Programming language,Based on
+AirDC++,Yes,No,Yes,C++,StrongDC++
+AirDC++ Web Client,No,No,Yes,"C++, TypeScript",AirDC++
+ApexDC++,Yes,No,No,"C++, Lua",StrongDC++
+DC++,Yes,No,No,C++,
+Jucy,Yes,No,No,Java,
+LinuxDC++,Yes,No,No,C++,DC++
+EiskaltDC++,Yes,Yes,Yes,"C++, Lua",DC++
+FlylinkDC++,Yes,No,Yes,C++,"StrongDC++, DC++, ApexDC speed mode"
+RSX++,Yes,No,No,"C++, Lua",StrongDC++
+TKDC++,Yes,No,No,"C++, Lua","StrongDC++, DC++"
+StrongDC++,Yes,No,No,C++,DC++
+ncdc,No,Yes,No,C,
+ADC client,GUI,CLI,WebUI,Programming language,Based on
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

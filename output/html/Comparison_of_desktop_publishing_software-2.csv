@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,HTML,Other
 CorelDRAW,Yes,Yes,Yes,No,Yes,"PSD, AI, SWF, WPD"
 Fatpaint,No,No,No,No,No,"JPG, PNG"
@@ -17,3 +18,26 @@ Scribus,Yes,Yes,Yes,Yes,Yes,List
 The Print Shop,Yes,No,No,No,No,No
 Ventura*,Yes,Yes,No,No,No,"RTF, PSD, AI, WPD"
 Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,HTML,Other
+=======
+Desktop publishing software,Windows,Mac OS (X),Linux,BSD,UNIX,Other
+CorelDRAW,Yes,supported versions<11,No,No,No,No
+Fatpaint,Yes,Yes,Yes,No,No,No
+Flare,Yes,No,No,No,No,No
+FrameMaker,Yes,supported versions<7,No,No,supported versions<8,No
+InDesign,Yes,Yes,No,No,No,No
+InPage,Yes,No,No,No,No,No
+iStudio Publisher,No,Yes,No,No,No,No
+LyX,Yes,Yes,Yes,Yes,Yes,OS/2
+Microsoft Publisher,Yes,No,No,No,No,No
+OpenOffice.org,Yes,Yes,Yes,Yes,Yes,No
+PageMaker*,Yes,Yes,No,No,No,No
+PagePlus,Yes,No,No,No,No,No
+Pages,No,Yes,No,No,No,No
+PageStream,Yes,Yes,Yes,No,No,"AmigaOS, MorphOS"
+QuarkXPress,Yes,Yes,No,No,No,No
+"Ready,Set,Go!",Yes,Yes,No,No,No,No
+Scribus,Yes,Yes,Yes,Yes,Yes,"OS/2 Warp 4, ArcaOS, eComStation, OpenIndiana, Solaris, Haiku"
+The Print Shop,Yes,Yes,No,No,No,No
+Ventura*,Yes,No,No,No,No,No
+Desktop publishing software,Windows,Mac OS (X),Linux,BSD,UNIX,Other
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

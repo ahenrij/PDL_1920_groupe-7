@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Spanish,Portuguese,English
 cola (< Lat. cauda),fila; bicha; cauda; rabo; linha (< Fr. file; < Lat. bestius; < Lat. cauda; < Lat. rapum; < Lat. linea),"queue, file, tail"
 vaso (< Lat. vasum),copo (< Lat. cuppa),"glass, cup"
@@ -23,3 +24,10 @@ firma (< Lat. firmus),assinatura (< Lat. signator),signature
 presunto (< Lat. praesumptus),"presumível, suspeito, provável (< Lat. praesumptus; < Lat. suspectum; < Lat. probabilis)","presumed, suspect"
 risco (< Lat. resecare),falésia (< Fr. falaise),cliff
 topo (< Lat. talpa),toupeira (< Lat. talpa + Port. -eira),"mole, moleskin"
+=======
+Description,Spanish,,Portuguese,
+,Spelling,Pronunciation,Spelling,Pronunciation
+palatal "l",ll,? (~ ?)[130],lh,?
+palatal "n",ñ,?,nh,"? (EP), j? (BP)"
+palatal "y",y,?,i,j
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

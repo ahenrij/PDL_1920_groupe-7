@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format,Languages,If not found
 "string in string(substring, pos, string[startpos:])",ALGOL 68,"returns BOOL: TRUE or FALSE, and position in REF INT pos."
 "InStr(«startpos,»string,substring)",VB (positions start at 1),returns 0
@@ -38,3 +39,8 @@ POSITION(substring IN string),SQL,returns 0 (positions start at 1)
 string first substring string startpos,Tcl,returns ?1
 (substring?string)?1,APL,returns 1 + the last position in string
 string.find(substring),Rust[15],returns None
+=======
+Definition,"join(separator, list_of_strings) returns a list of strings joined with a separator"
+Description,"Joins the list of strings into a new string, with the separator string between each of the substrings. Opposite of split."
+Related,sprintf
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

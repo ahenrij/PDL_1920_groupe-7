@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus interface,L2 Cache(MB),Clock speeds,,,Memory,,,,Fillratename=PerfValues,,Processing power (GFLOPS)name=PerfValues,,,,Ray-tracing Performance,,TDP (Watts)
 ,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)name=PixelFillrate,Texture (GT/s)name=TextureFillrate,Single precision,Double precision,Half precision,Tensor compute (FP16),Rays/s (Billions),RTX OPS/s (Trillions),
 GeForce MX230[183],2019220,GP108 (N17S-G0),14,1.8,70,256:16:16,PCIe 3.0 x4,0.5,1519,1531,7000,2 4,56,GDDR5,64,25.31,25.31,810.0,25.31,12.66,rowspan=5 ,rowspan=5 ,rowspan=5 ,10
@@ -16,3 +17,14 @@ GeForce RTX 2080[195],20190129,,,,,2944:184:64:368:46 (46) (6),,,1380,1590,14000
 GeForce RTX 2080 Max-Q[196],,,,,,,,,735,1095,12000,,,,,70.08,201.5,6447,201.5,12890,,,,80
 GeForce RTX 2080 Super[197],20200402,,,,,3072:192:64:384:48 (48) (6),,,1365,1560,14000,,448.0,,,99.8,299.5,9585,299.5,19170,,,,150
 GeForce RTX 2080 Super Max-Q[198],,,,,,,,,735,1080,11000,,352.0,,,69.1,207.4,6636,207.4,13270,,,,80
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,Supported API version,,,Nvidia Optimus technology,TBP (Watts)
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,,
+Quadro M500M,GM108,28,PCIe 3.0 ×16,1029,1124,900 (1800),384:24:8 (3 SMM),8.992,17.98,2048,14.40,DDR3,64,863.2,26.98,12.1,4.5,1.0,Yes,25
+Quadro M600M,GM107,,,837,876,1253 (5012),384:24:16 (3 SMM),7.008,14.02,,80.2,GDDR5,128,672.8,21.02,,,,,30
+Quadro M1000M,,,,993,,,512:32:16 (4 SMM),15.89,31.78,,,,,1017,31.78,,,,,40
+Quadro M2000M,,,,1029,1098,,640:40:16 (5 SMM),17.57,43.92,4096,,,,1405,43.92,,,,,55
+Quadro M3000M,GM204,,,1050,,,1024:64:32 (8 SMM),33.60,67.20,,160.4,,256,2150,67.20,,,,,75
+Quadro M4000M,,,,975,,,1280:80:48 (10 SMM),62.40,78.00,,,,,2496,78.00,,,,,100
+Quadro M5000M,,,,962,,,1536:96:64 (12 SMM),62.40,93.60,8192,,,,2955.3,93.60,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

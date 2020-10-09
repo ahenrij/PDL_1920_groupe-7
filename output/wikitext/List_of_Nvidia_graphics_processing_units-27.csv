@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,Nvidia Optimus technology,TBP (Watts),Notes
 ,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,,
 Quadro K500M,GK107,28,PCIe 3.0 ×16,850,850,1600,192:16:8,6.8,13.6,1024,12.8,DDR3,64,326.4,11.0,4.5,Yes,35,
@@ -6,3 +7,17 @@ Quadro K2000M,,,,745,745,,384:32:16,11.92,23.84,,,,,572.16,,,,55,Dell Precision 
 Quadro K3000M,GK104,,,654,654,2800,576:48:32,20.93,31.39,,89.6,GDDR5,256,753.41,,,,75,Dell Precision M6700
 Quadro K4000M,,,,600,600,,960:80:32,19.2,48,4096,,,,1152,,,,100,Dell Precision M6700
 Quadro K5000M,,,,706,706,3000,1344:112:32,22.59,79.07,,96,,,1897.73,,,,,Dell Precision M6700
+=======
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts)
+,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
+GeForce 305M,"January 10, 2010",GT218,40,PCIe 2.0 ×16,16:8:4,525,1150,1400,2.1,4.2,512,11.2,DDR3 GDDR3,64,10.1,3.3,55,14
+GeForce 310M,,,,,,625,1530,1600,2.5,5,,12.8,,,,,73,
+GeForce 315M,"January 5, 2011",,,,,606,1212,,2.42,4.85,,,,,,,58.18,
+GeForce 320M,"April 1, 2010",MCP89,,,48:16:8,450,950,1066,3.6,7.2,256 (shared w/ system memory) [126],17.056,DDR3,128,,,136.8,20
+GeForce GT 320M,"January 21, 2010",GT216,,,24:8:8,500,1100,1580,4,4,1024,25.3,DDR3 GDDR3,,,,90,14
+GeForce GT 325M,"January 10, 2010",,,,48:16:8,450,990,1600,3.6,7.2,,25.6,,,,,142,23
+GeForce GT 330M,,,,,,575,1265,,4.6,9.2,,,,,,,182,
+GeForce GT 335M,"January 7, 2010",GT215,,,72:24:8,450,1080,,3.6,10.8,,,,,,,233 (real 155.5),28?
+GeForce GTS 350M,,,,,96:32:8,500,1249,3200,4,16,,51.2,DDR3 GDDR3 GDDR5,,,,360,28
+GeForce GTS 360M,,,,,,,1436,3600,4.4,17.6,,57.6,,,,,413,38
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

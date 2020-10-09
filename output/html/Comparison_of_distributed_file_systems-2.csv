@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Client,Written in,License,Access API,High availability,Shards,Efficient Redundancy,Redundancy Granularity,Initial release year,Memory requirements (GB)
 Alluxio (Virtual Distributed File System),Java,Apache License 2.0,"HDFS, FUSE, HTTP/REST, S3",hot standby,No,Replication[1],File[2],2013,
 Ceph,C++,LGPL,"librados (C, C++, Python, Ruby), S3, Swift, FUSE",Yes,Yes,Pluggable erasure codes[3],Pool[4],2010,1 per TB of storage
@@ -18,3 +19,11 @@ Tahoe-LAFS,Python,GNU GPL [31],"HTTP (browser or CLI), SFTP, FTP, FUSE via SSHFS
 HDFS,Java,Apache License 2.0,"Java and C client, HTTP, FUSE[34]",transparent master failover,No,Reed-Solomon[35],File[36],2005,
 XtreemFS,"Java, C++",BSD License,"libxtreemfs (Java, C++), FUSE",,,Replication[37],File[38],2009,
 Ori[39],"C, C++",MIT,"libori, FUSE",,,Replication,Filesystem[40],2012,
+=======
+Name,Run by,Access API
+Amazon S3,Amazon.com,HTTP (REST/SOAP)
+Google Cloud Storage,Google,HTTP (REST)
+SWIFT (part of OpenStack),"Rackspace, Hewlett-Packard, others",HTTP (REST)
+Microsoft Azure,Microsoft,HTTP (REST)
+IBM Cloud Object Storage,IBM (formerly Cleversafe)[45],HTTP (REST)
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

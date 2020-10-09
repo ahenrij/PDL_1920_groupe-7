@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Card,Width (mm),Length (mm),Thickness (mm),Volume (mm³),Mass (g)[6]
 "CompactFlash, Type I",43.0,36.0,3.3,"5,108",3.3
 "CompactFlash, Type II",43.0,36.0,5.0,"7,740",
@@ -15,3 +16,10 @@ PS Vita Memory Card,15,12.5,1.6,300,0.6[4]
 XQD card,38.5,29.8,3.8,"4,360",
 xD,25.0,20.0,1.78,890,2.8
 USB,varies,varies,varies,varies,varies
+=======
+Standard,SD,,,,UFS Card,,CFast,,XQD,,CFexpress,
+Version,3.0,4.0,6.0,7.0[8],1.0,2.0,1.0,2.0,1.0,2.0,1.0,?
+Launched,2010 Q2,2011 Q1,2017 Q1,?,Q2 2016,?,2008 Q3,2012 Q3,2011 Q4,2014 Q1,2017 Q2,?
+Bus,UHS-I,UHS-II,UHS-III,PCIe,UFS 2.0,UFS 3.0,SATA-300,SATA-600,PCIe 2.0 x1,PCIe 2.0 x2,PCIe 3.0 x2,PCIe 3.0 x8
+Speed (full-duplex),104 MB/s,156 MB/s,624 MB/s,1970 MB/s (?),600 MB/s,1200 MB/s,300 MB/s,600 MB/s,500 MB/s,1000 MB/s,1970 MB/s,7880 MB/s
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

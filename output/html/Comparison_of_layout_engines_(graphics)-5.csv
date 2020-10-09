@@ -1,4 +1,11 @@
 ,,Trident,EdgeHTML,Gecko,WebKit,Blink,KHTML[n 1],Presto
+<<<<<<< HEAD
 GIF 87a,Interlacing,3.0,Yes,1.0,85,Yes,Yes,1.0
 GIF 89a,Binary transparency,,,,,,,
 ,Animation,,,,,,,
+=======
+Operation mode,Progressive,3.0[n 3],Yes,Yes,85,Yes,Yes,1.0
+,Baseline,3.0,,,,,,
+,Hierarchical,,,,,,,
+,Lossless,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,class,protocol,namespace
 ABAP Objects,class name definition «inheriting from parentclass». «interfaces: interfaces.» method_and_field_declarations endclass. class name implementation. method_implementations endclass.,interface name. members endinterface.,
 APL (Dyalog),":Class name «:parentclass» «,interfaces» members :EndClass",:Interface name members :EndInterface,:Namespace name members :EndNamespace
@@ -34,3 +35,30 @@ with OtherTrait2 with OtherTrait3 {
 COBOL,CLASS-ID. name« INHERITS« FROM» parentclasses». FACTORY« IMPLEMENTS interfaces». class-members END FACTORY. OBJECT« IMPLEMENTS interfaces». instance-members END OBJECT. END CLASS name.,INTERFACE-ID. name« INHERITS« FROM» interfaces». members END INTERFACE name.,
 Cobra,class name «inherits parentclass» «implements interfaces» Tab members,interface name «inherits parentinterfaces» Tab members,namespace name Tab members
 ISLISP,(defclass name (base-class) ((x :initform 0 :accessor get-x :initarg x)) (:abstractp nil)),,
+=======
+,Get object type,Is instance of (includes subtypes),Upcasting,Downcasting,
+,,,,Runtime check,No check
+ABAP Objects,colspan=2 ,=,?=,,
+C++ (STL),typeid(x),dynamic_cast<type *>(&x) != nullptr,rowspan=8 ,dynamic_cast<type*>(ptr),(type*) ptr or static_cast<type*>(ptr)
+C#,x.GetType(),x is type,(type) x or x as type,,
+D,typeid(x),,cast(type) x,,
+Delphi,,x is type,x as type,,
+eC,x._class,"eClass_IsDerived(x._class, type)",,(type) x,
+Java,x.getClass(),x instanceof class,(type) x,,
+Objective-C (Cocoa),[x class][73],[x isKindOfClass:[class class]],,(type*) x,
+Swift,x.dynamicType,x is type,x as! type x as? type,,
+JavaScript,x.constructor (If not rewritten.),x instanceof class,colspan=3 ,,
+Visual Basic .NET,x.GetType(),TypeOf x Is type,,"CType(x, type) or TryCast(x, type)",
+Xojo,Introspection.GetType(x),x IsA type,,"CType(x, type)",
+Eiffel,x.generating_type,attached {TYPE} x,attached {TYPE} x as down_x,,
+Python,type(x),"isinstance(x, type)",colspan=3 rowspan=3 ,,
+PHP,get_class(x),x instanceof class,,,
+Perl,ref(x),x->isa("class"),,,
+Raku,x.WHAT,x.isa(class),,type(x) or x.type,
+Ruby,x.class,x.instance_of?(type) or x.kind_of?(type),colspan=3 rowspan=2 ,,
+Smalltalk,x class,x isKindOf: class,,,
+Windows PowerShell,x.GetType(),x -is [type],,[type]x or x -as [type],
+OCaml,colspan=2 ,(x :> type),colspan=2 ,,
+F#,x.GetType(),,x :? type,(x :?> type),
+COBOL,colspan=2 ,x AS type[72],colspan=2 ,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

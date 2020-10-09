@@ -1,2 +1,12 @@
+<<<<<<< HEAD
 Database,show all data in all fields,show all data in some fields,show filtered data in all fields
 MySQL,select * from "tbname";,select "fields" from "tbname";,select * from "tbname" where "filter_expr";
+=======
+Database,Add new column,Delete column,Change column,Add element,Delete element
+MySQL,alter table "tbname" 
+add column "column_name";,alter table "tbname" 
+drop column "column_name";,alter table "tbname" 
+change "old" "new" "newtype";,insert into "tbname" ("fields") 
+values ("values");,delete from "tbname" 
+where "expr";
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

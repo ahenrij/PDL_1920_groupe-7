@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Firewall,License,Cost,OS
 Clavister,Proprietary,Included on all Clavister NGFWs,Proprietary operating system cOS Core
 Check Point,Proprietary,Included on Check Point security gateways,Proprietary operating system Check Point IPSO and Gaia (Linux-based)
@@ -21,3 +22,11 @@ SmoothWall,GPL,Free / Paid,Linux-based appliance embedded firewall distribution
 IPFire,GPL,Free (Donations welcomed),Linux-based appliance embedded firewall distribution
 WatchGuard,Proprietary,Included on all Firebox devices,"Proprietary, Fireware OS, Based on the Linux kernel"
 WinGate,Proprietary,Free / Paid,Windows-based appliance embedded firewall distribution
+=======
+Can:,work at OSI Layer 4 (stateful firewall),work at OSI Layer 7 (application inspection),Change TTL? (Transparent to traceroute),Configure REJECT-with answer,DMZ (de-militarized zone),Filter according to time of day (quota),Redirect TCP/UDP ports (port forwarding),Redirect IP addresses (forwarding),Filter according to User Authorization,Traffic rate-limit / QoS,Tarpit,Log
+Sidewinder,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+WinGate,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes
+Zeroshell,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+pfSense,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+IPFire,Yes,Yes,?,No,Yes,Yes,Yes,Yes,?,Yes,No,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

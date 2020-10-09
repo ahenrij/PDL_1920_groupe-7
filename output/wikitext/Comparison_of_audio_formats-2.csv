@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Audio compression format,ACM,DirectShow,QuickTime,GStreamer,FFmpeg,Media Foundation
 8SVX,Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
 AAC,Yes,"Yes (ffdshow, Monogram[47])",,Yes (GStreamer FFmpeg plug-in),,
@@ -38,3 +39,24 @@ Truespeech,,,Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
 True Audio (TTA),Yes (ffdshow),Yes (ffdshow),Yes (Perian),Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
 QCELP,Yes (ffdshow),Yes (ffdshow),,Yes (GStreamer FFmpeg plug-in),,Yes (ffdshow)
 Audio compression format,ACM,DirectShow,QuickTime,GStreamer,FFmpeg,Media Foundation
+=======
+Codec,Windows,macOS,Linux,BSD,Unix,Palm OS,Symbian OS,Rockbox,iOS,Android[43],Chromium[44]
+AAC,,,,,,,,,,,
+AC-3,,,,,,,,,,,
+ALAC,,,,,,,,,,,
+ALS,,,,,,,,,,,
+aptX,,,,,,,,,,,
+CELT,,,,,,,,,,,
+E-AC3,,,,,,,,,,,
+FLAC,,,,,,,,,,,
+Monkey's Audio,,,,,,,,,,,
+MP3,,,,,,,,,,,
+Musepack,,,,,,,,,,,
+Opus,,,,,,,,,,,
+RealAudio[45],,,,,,,,,,,
+Speex,,,,,,,,,,,
+Vorbis,,,,,,,,,,,
+True Audio (TTA),,,,,,,,,,,
+WavPack,,,,,,,,,,,
+WMA[45],,,,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

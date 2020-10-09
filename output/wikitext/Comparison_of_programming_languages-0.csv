@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Language,Statements ratio[46],Lines ratio[47]
 C,1,1
 C++,2.5,1
@@ -6,3 +7,61 @@ Java,2.5,1.5
 Perl,6,6
 Smalltalk,6,6.25
 Python,6,6.5
+=======
+Language,Failsafe I/O
+1C:Enterprise,
+Ada,
+ALGOL,
+AutoHotkey,
+Bash,
+Ballerina,
+Bro,
+C,
+C++,
+C#,
+COBOL,
+Common Lisp,
+Curry,
+D,
+Eiffel,
+Erlang,
+Fortran,
+GLBasic,
+Go,
+Gosu,
+Harbour,
+Haskell,
+ISLISP,
+Java,
+Julia,
+Kotlin,
+LabVIEW,
+Lua,
+Mathematica,
+Object Pascal,
+Objective-C,
+OCaml,
+OpenLisp,
+Perl,
+PHP,
+Python,
+Raku,
+Rebol,
+Rexx,
+RPG,
+Ruby,
+Rust,
+S,
+Smalltalk,
+Scala,
+Standard ML,date=February 2011
+Swift ? 2.0,
+Tcl,
+Visual Basic,
+Visual Basic .NET,
+Visual Prolog,
+Wolfram Language,
+Xojo,
+XPath/XQuery,
+Language,Failsafe I/O
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

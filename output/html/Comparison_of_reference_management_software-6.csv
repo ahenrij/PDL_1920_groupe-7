@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Software,Developer,First public release,Latest stable release date,Latest stable version,Cost (USD),Free software,License,Notes
 Bebop,ALaRI Institute,2007-11-08,2009-11-10,1.1,Free,Yes,BSD,"web-based BibTeX front-end (Apache, PHP, MySQL)"
 BibBase,Christian Fritz,2005,2013-07,v3,Free,No,Proprietary,"centrally hosted website, intended for publication pages"
@@ -28,3 +29,35 @@ Sente,"Third Street Software, Inc.",2004,Shut down in 2017,6.7.9,US$60–80[1] / F
 Wikindx,Mark Grimshaw,2004-02,2020-07-21,6.3.7,Free,Yes,CC-BY-NC-SA,web-based
 WizFolio,WizPatent,2008-06,Shut down in 2017,Avatara,US$25 / Free Basic version,No,Proprietary,centrally hosted website; discontinued
 Zotero,Roy Rosenzweig Center for History and New Media at GMU,2006,2020-07-22,5.0.89 [10],Free / Online storage free up to 300 MB / Additional storage space available,Yes,AGPL,"Multi-platform desktop version with connectors for Firefox, Chrome and Safari. Web-based access to reference library also available through Zotero.org or through a personal cloud-based database folder on a user's computer (Google Drive, Dropbox, etc.)."
+=======
+Software,HTML,LaTeX[25],RTF,Plain text,RSS,Other
+Bebop,Yes,No,No,No,Yes,unAPI
+BibBase,Yes,No,No,No,Yes,No
+BibDesk,Yes,Yes,Yes,Yes,Yes,"Atom, DOC, PDF, XML,"
+Biblioscape,Yes,No,Yes,Yes,No,No
+BibSonomy,Yes,No,Yes,Yes,Yes,OpenOffice-CSV
+Bibus,Yes,No,No,No,No,No
+Bookends,Yes,No,Yes,Yes,No,clipboard
+Citavi,Yes,Yes[26],Yes,Yes,No,"clipboard, DOC, ODT, PDF, HTML"
+CiteULike,Yes,No,Yes,Yes,Yes,PDF
+colwiz,Yes,Yes,Yes,No,No,PDF
+EndNote,Yes,No,Yes,Yes,No,"clipboard, XML"
+JabRef,Yes,Yes,Yes,Yes,No,clipboard
+KBibTeX,Yes,No,Yes,No,No,"PDF, PS"
+Mendeley,Yes,Yes[27],Yes,Yes,Yes,"clipboard, embeddable HTML widget, RSS"
+Paperpile,?,?,?,?,?,?
+Pybliographer,Yes,?,No,Yes,No,No
+Qiqqa,?,?,?,?,?,?
+ReadCube (now Papers),Yes,No,No,No,No,PDF
+refbase,Yes,Yes,Yes,Yes,Yes,"Markdown, PDF, unAPI"
+RefDB,Yes,?,Yes,Yes,No,"DocBook, TEI"
+Reference Manager,Yes,No,Yes,Yes,No,clipboard
+Referencer,?,?,?,?,?,?
+RefME,?,?,?,?,?,?
+RefWorks,Yes,No,Yes,Yes,No,"DOC, ODT"
+SciRef,No,No,Yes,Yes,No,"Doc, others"
+Sente,Yes,No,Yes,Yes,No,clipboard
+Wikindx,Yes,No,Yes,Yes,Yes,Multiple via BibUtils plug-in
+WizFolio,Yes,No,Yes,Yes,No,"clipboard, DOC"
+Zotero,Yes,Possible via plugin[28],Yes,Possible via plugins[29],Yes,clipboard
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

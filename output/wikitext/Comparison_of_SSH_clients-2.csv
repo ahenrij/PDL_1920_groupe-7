@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,User interface,SSH1,SSH2,Additional protocols,,Port forwarding and Tunneling,,,Session multiplexing group=Notemux,Kerberos,IPv6,Terminal,SFTP/SCP,Proxy clientgroup=NoteconnectViaProxy
 ,,,,TELNET,rlogin,Port forwarding,SOCKS group=NoteSOCKS,VPN group=NoteVPN,,,,,,
 AbsoluteTelnet,"GUI (multi-session, single-window)",,,,,,,,,,,,,"SOCKS 4, 5; HTTP"
@@ -16,3 +17,17 @@ wolfSSH,command line,,,,,,,,,,,simple,,-->
 ZOC,TDI or command line,,,,,,,,,,,,SCP through terminalgroup=Notezoc_scp_through_terminal,SOCKS 4; 5; HTTP; Jumpserver
 Name,User interface,SSH1,SSH2,Additional protocols,,Tunneling,,,Session multiplexing group=Notemux,Kerberos,IPv6,Terminal,SFTP/SCP,Proxy clientgroup=NoteconnectViaProxy
 ,,,,TELNET,rlogin,Port forwarding,SOCKS group=NoteSOCKS,VPN group=NoteVPN,,,,,,
+=======
+Name,Keyboard mapping,Session tabs,ZMODEM transfers,Find text in buffer,Mouse input supportgroup=Notemouse_input,Unicode support,URL hyperlinking,Public key authentication,Smart card support,Hardware encryption,FIPS 140-2 validation,Scripting,Shared Database,Auto-reconnect,CA Certificates
+AbsoluteTelnet,full,,,,,,,,,,,,,,
+Bitvise SSH Client,,,,,,,,,,,,,,,
+OpenSSH (OpenBSD Secure Shell),,,,,group=Noteopenssh_mouse_input,,not nativegroup=Noteopenssh_url_highlight,,group=Noteopenssh_smartcard,,group=Noteopenssh_fips,,,,group=NoteopensshCA
+PuTTY,,group=NoteputtyTabs,,,,,group=NoteputtyHyperlink,,group=NoteputtySmartcard,,,,,,group=NoteputtyCA
+SecureCRT,,,,,,,,,,,,,,,
+SmartFTP,,,,,,,,,,AES-NI,,,,,
+Tera Term,,,,,,,,,,,,,,,
+TN3270 Plus,,,,,,,,,,,,,,,
+TtyEmulator,,,,,,,,,,,,,,,
+wolfSSH,,,,,,,,,,,,,,,
+ZOC,full,,,Alt+F,,UTF-8,,,pkcs#11,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

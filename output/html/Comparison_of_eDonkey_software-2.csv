@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Client,,IP to Country,Protocol Obfuscation[N 7],Handles files >4GB,Chat[N 8],Buddy list,Send FILERATING tags to servers,EndGame,AICH,L2HAC [N 9],Secure User ID,Global Searches,UPnP port mapping[N 10],Intelligent Chunk Selection,Lancast,HideOS / SotN
 aMule,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes[N 11],No,No,No
 eMule,Official,No,Yes,Yes,Yes,Yes,Yes,zz's Version,Yes,No,Yes,Yes,Yes,No,No,No
@@ -23,3 +24,14 @@ MLDonkey,,Yes,No,Yes,Yes,Yes,?,No,Yes,No,Yes,Yes,Yes,No,No,No
 Shareaza,,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,No,No
 xMule,,No,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,No
 Client,,IP to Country,Protocol Obfuscation[N 7],Handles files >4GB,Chat[N 8],Buddy list,Send FILERATING tags to servers,EndGame,AICH,L2HAC [N 9],Secure User ID,Global Searches,UPnP port mapping[N 10],Intelligent Chunk Selection,Lancast,HideOS / SotN
+=======
+Client,Fork from,FLOSS,Runs on,,,Kad,Unicode,Languages supp,Development Status
+,,,Linux,Windows,Mac OS X,,,,
+eDonkey2000,-,No,Yes,Yes,Yes,No,No,1,Discontinued
+aMule,xMule,GPL,Yes,Yes[N 1],Yes,Yes,Yes,28,Active
+eMule and its Mods,-,GPL,No,Yes,No,Yes,Yes,43[1],Active
+eMule Plus,eMule,GPL,No[N 2],Yes,No,No,Yes[N 3],31,Abandoned
+MLDonkey,-,GPL,Yes,Yes,Yes,Yes,Yes,3,Discontinued
+Shareaza,-,GPL,No[N 4],Yes,No,No,Yes,31,Active
+xMule,lMule,GPL,Yes,No,No,No,No,?,Abandoned
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

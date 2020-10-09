@@ -1,2 +1,11 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 a,1.0[5],,,,,,
+=======
+dl,rowspan="6" 1[7],rowspan="6" ,rowspan="6" ,rowspan="6" ,rowspan="6" ,rowspan="6" ,rowspan="6" 
+dt,,,,,,,
+dd,,,,,,,
+ol,,,,,,,
+ul,,,,,,,
+li,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

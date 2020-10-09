@@ -9,7 +9,11 @@ F Filetopia,Filetopia,,,Free,Windows,,Java,,2018,
 Flashget,"BitTorrent, eDonkey; HTTP/FTP download",,,,Windows,,,,2012,
 Fopnu,Fopnu,,fopnu,Free,"Windows, Linux",,C++,,"2020, 1.48 (June 9, 2020)",
 Free Download Manager,BitTorrent; HTTP/FTP download,,metalink,Free,Windows,GPL,C++,,"2015, ,
+<<<<<<< HEAD
 Freenet’s FProxy,Freenet,,,Free,"GNU, macOS, Windows",GPL,Java,,"2020, ,
+=======
+Freenet’s FProxy,Freenet,,,Free,"GNU, macOS, Windows",GPL,Java,,"2018, ,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 Frost,Freenet,,,Free,"GNU, macOS, Windows",GPL,Java,,2011,
 FrostWire,BitTorrent,,magnet,Free,"GNU, macOS, Windows",GPL,Java,,"2015, ,"Fork of LimeWire, with no copyrighted-material blocker planned."
 G GetRight,BitTorrent; HTTP/FTP download,,,,Windows,,,,2011,
@@ -26,7 +30,11 @@ M MLDonkey,"BitTorrent, eDonkey, FastTrack, (Gnutella, Gnutella2), Kad; HTTP/FTP
 MuWire,I2P,,own format?,Free,GNU/Linux,?,Java,,2020,Has a I2P router built-in.
 Nodezilla,Private,,,Free,"GNU, Windows","core proprietary, GUI GPL",Java,,2010,"Most is proprietary, GUI is GPL."
 Perfect Dark,Perfect Dark,,,Free,Windows,,C++,,2015,Boards. Auto update.
+<<<<<<< HEAD
 R Retroshare,Retroshare,,Own format,Free,"Windows, GNU, macOS",GPL,C++,,2019,Uses PGP for friend authentication. Decentralized F2F network type.
+=======
+R Retroshare,Retroshare,,Own format,Free,"Windows, GNU, macOS",GPL,C++,,2018,Uses PGP for friend authentication. Decentralized F2F network type.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 Robert,I2P (protocol BitTorrent),,magnet,Free,"GNU, macOS, Windows",GPL,Python,,2012,needs I2P to run
 S Share,Share,,,Free,Windows,,Object Pascal (Delphi),,2006,Anonymous developer; tries to be Winny successor
 Shareaza,"eDonkey, BitTorrent, Gnutella, Gnutella2, Direct Connect; HTTP/FTP download",,"ed2k, magnet, Piolet/MP2P, gnutella",Free,Windows,GPL,C++,,"2017, ,Uses a powerful files library; maintained by volunteer group

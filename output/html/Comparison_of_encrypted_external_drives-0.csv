@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Developer/Manufacturer,Release Year,Current Model?
 datAshur PRO,iStorage Limited,2015,Yes
 datAshur PRO²,iStorage Limited,-,Yes
@@ -18,3 +19,21 @@ Cruzer Enterprise,SanDisk,,Yes
 Store 'n' Go Corporate,Verbatim,,Yes
 Kanguru Defender 2000,Kanguru Solutions,2012,Yes
 Name,Developer/Manufacturer,Release Year,Current Model?
+=======
+Name,Windows,FreeBSD,Linux,Mac OS,NetBSD,OpenBSD
+SafeStick,Yes,No,Yes,Yes,No,No
+SafeStick SuperSonic,Yes,No,Yes,Yes,No,No
+IronKey S100,Yes,No,Yes,Yes,No,No
+IronKey S200,Yes,No,Yes,Yes,No,No
+IronKey D200,Yes,No,Yes,Yes,No,No
+CryptX2,Yes,Yes,Yes,Yes,Yes,Yes
+DataTraveler 5000,Yes,No,No,No,No,No
+DataTraveler Locker+,Yes,No,No,Yes,No,No
+DataTraveler Vault,Yes,No,Public partition only,Public partition only,No,No
+DataTraveler Vault – Privacy Edition,Yes,No,No,Yes,No,No
+JumpDrive SecureII Plus,Yes,Unknown,Unknown,Unknown,Unknown,Unknown
+IronClad,Yes,No,Yes,Yes,No,No
+Cruzer Enterprise,Yes,Unknown,Unknown,Yes,Unknown,Unknown
+Store n' Go Corporate,Yes,Unknown,Unknown,Unknown,Unknown,Unknown
+Name,Windows,FreeBSD,Linux,Mac OS,NetBSD,OpenBSD
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

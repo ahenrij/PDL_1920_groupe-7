@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,EdgeHTML,Gecko,WebKit,Presto
 section,rowspan="7" 5.0[21],rowspan="7" 12,rowspan="7" 2.0[22][23],rowspan="7" 533[24][25][26][27][28][29],rowspan="7" 2.7.70
 nav,,,,,
@@ -28,3 +29,28 @@ bdi,10.0[62],528[63],,,
 data,,,22.0[64],,
 picture,,13,38.0[65],,
 ! Trident,EdgeHTML,Gecko,WebKit,Presto,
+=======
+Attribute,Element,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
+align,"caption, div, fieldset, h1, h2, h3, h4, h5, h6, hr, img, input, legend, p, object, table",CSS,rowspan="6" 3.1,rowspan="6" ,,rowspan="18" ,rowspan="18" 
+alink,body,CSS,,,,,
+background,body,CSS,rowspan="2" ,,,,
+bgcolor,"body, table, tr, td, th",CSS,,,,,
+border,"img, object",CSS,,,,,
+clear,br,CSS,rowspan="2" ,,,,
+compact,"dl, ul, ol",CSS,,,,,
+color,"basefont, font",CSS,rowspan="11" 3.1,,,,
+height,"td, th",CSS,rowspan="2" ,rowspan="10" ,,,
+hspace,"img, object",CSS,,,,,
+language,script,The type attribute,date=September 2010,,,,
+link,body,CSS,rowspan="7" ,,,,
+noshade,hr,CSS,,,,,
+nowrap,"td, th",CSS,,,,,
+size,"basefont, font, hr",CSS,,,,,
+start,ol,None,,,,,
+text,body,CSS,,,,,
+type,"li, ul, ol",CSS,,,,,
+version,html,DTD,,,,,
+vlink,body,CSS,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" 
+width,"hr, pre, td, th",CSS,,,,,
+vspace,"img, object",CSS,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -4,12 +4,20 @@ Archi- tecture,Bits,Version,Intro- duced,Max # operands,Type,Design,Registers (e
 680x0,32,,1979,2,Register Memory,CISC,8 data and 8 address,Variable,Condition register,Big,,,
 8080,8,,1974,2,Register Memory,CISC,8,Variable (8 to 24 bits),Condition register,Little,,,
 8051,32 (8?32),,1977?,1,Register Register,CISC,32 in 4-bit 16 in 8-bit 8 in 16-bit 4 in 32-bit,Variable (8-bit to 128 bytes),Compare and branch,Little,,,
+<<<<<<< HEAD
 x86,"16, 32, 64 (16?32?64)",,1978,2 (integer) 3 (AVX)[4] 4 (FMA4)[5],Register Memory,CISC,8 (+ 4 or 6 segment reg.) (16/32-bit) 16 (+ 2 segment reg. gs/cs) (64-bit) 32 with AVX-512,"Variable (8086 ~ 80386: variable between 1 and 6 bytes /w MMU + intel SDK, 80486: 2 to 5 bytes with prefix, pentium and onward: 2 to 4 bytes with prefix, x64: 4 bytes prefix, third party x86 emulation: 1 to 15 bytes w/o prefix & MMU . SSE/MMX: 4 bytes /w prefix AVX: 8 Bytes /w prefix)",Condition code,Little,"x87, IA-32, MMX, 3DNow!, SSE, SSE2, PAE, x86-64, SSE3, SSSE3, SSE4, BMI, AVX, AES, FMA, XOP, F16C",No,No
+=======
+x86,"16, 32, 64 (16?32?64)",,1978,2 (integer) 3 (AVX)[4] 4 (FMA4)[5],Register Memory,CISC,8 (+ 4 or 6 segment reg.) (16/32-bit) 16 (+ 2 segment reg. gs/cs) (64-bit),"Variable (8086 ~ 80386: variable between 1 and 6 bytes /w MMU + intel SDK, 80486: 2 to 5 bytes with prefix, pentium and onward: 2 to 4 bytes with prefix, x64: 4 bytes prefix, third party x86 emulation: 1 to 15 bytes w/o prefix & MMU . SSE/MMX: 4 bytes /w prefix AVX: 8 Bytes /w prefix)",Condition code,Little,"x87, IA-32, MMX, 3DNow!, SSE, SSE2, PAE, x86-64, SSE3, SSSE3, SSE4, BMI, AVX, AES, FMA, XOP, F16C",No,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 Alpha,64,,1992,3,Register Register,RISC,32 (including "zero"),Fixed (32-bit),Condition register,Bi,"MVI, BWX, FIX, CIX",No,
 ARC,16/32,ARCv2[6],1996,3,Register Register,RISC,16 or 32 including SP user can increase to 60,Variable (16- and 32-bit),Compare and branch,Bi,APEX User-defined instructions,,
 ARM/A32,32,ARMv1-v8,1983,3,Register Register,RISC,15,Fixed (32-bit),Condition code,Bi,"NEON, Jazelle, VFP, TrustZone, LPAE",,No
 Thumb/T32,32,ARMv4T-ARMv8,1994,3,Register Register,RISC,7 with 16-bit Thumb instructions 15 with 32-bit Thumb-2 instructions,"Thumb: Fixed (16-bit), Thumb-2: Variable (16- and 32-bit)",Condition code,Bi,"NEON, Jazelle, VFP, TrustZone, LPAE",,No
+<<<<<<< HEAD
 Arm64/A64,64,ARMv8-A[7],2011[8],3,Register Register,RISC,32 (including the stack pointer/"zero" register),Fixed (32-bit),Condition code,Bi,SVE and SVE2,,No
+=======
+Arm64/A64,64,ARMv8-A[7],2011[8],3,Register Register,RISC,32 (including the stack pointer/"zero" register),Fixed (32-bit),Condition code,Bi,none: all ARMv7 extensions are non-optional,,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 AVR,8,,1997,2,Register Register,RISC,32 16 on "reduced architecture","Variable (mostly 16-bit, four instructions are 32-bit)","Condition register, skip conditioned on an I/O or general purpose register bit, compare and skip",Little,,,
 AVR32,32,Rev 2,2006,2–3,,RISC,15,Variable[9],,Big,Java Virtual Machine,,
 Blackfin,32,,2000,3[10],Register Register,RISC[11],2 accumulators 8 data registers 8 pointer registers 4 index registers 4 buffer registers,Variable(16- or 32-bit),Condition code,Little[12],,,

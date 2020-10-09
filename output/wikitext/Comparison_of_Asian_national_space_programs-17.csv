@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 No.,Country,Spacecraft,Year
 1,China,Chang'e 3/Yutu,2013
 TBD,Israel,Beresheet,2019 (Failed)
 TBD,India,Chandrayaan-2/Pragyan,2019 (Failed)
 ,,Chandrayaan-3,2021 (Planned)
 TBD,India,Lunar Polar Exploration Mission,2024 (Planned)
+=======
+Country,Active,In orbit,Decayed,Total
+,352,407,84,491
+,90,183,65,248
+,64,101,12,113
+,17,20,6,26
+,15,22,5,27
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

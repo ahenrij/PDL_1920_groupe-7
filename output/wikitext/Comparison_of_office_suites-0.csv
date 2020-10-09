@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Software Name,Developer,First public release,Predecessor,Latest Stable version / (Date),Operating system,Price in USD,License,"Microsoft Office (.doc, .xls) support",Microsoft Office Open XML support,OpenDocument support,Portable Document Format support
 Ability Office,Ability Plus Software,1995,—,6.00,Windows,49.99 - 59.99,,,,Planned for a future version,
 Apache OpenOffice,Apache Software Foundation,2012 May,"OpenOffice.org, StarOffice",,"Windows, Mac OS, Linux, BSD, Unix, Solaris/Illumos",,Apache License 2.0,,,Native format,Export and Import with free plugin
@@ -25,3 +26,32 @@ WordPerfect Office,Corel,1991,WordPerfect (1982),,Windows,69.99 - 399.99,,,,,
 WPS Office (Kingsoft Office),Kingsoft,1988,—,PC 11.2.0 by April 2019,"Windows, Linux, Android, iOS, Mac",$119.99 perpetual license; $29.99 annual subscription; free with ads ,,,,,
 Zoho Office Suite,Zoho Corp.,2005,—,,Fully online,"Up to 96 per user per year, depending on feature set",,,,,
 Software Name,Developer,First public release,Predecessor,Latest Stable version / (Date),Operating system,Price in USD,License,"Microsoft Office (.doc, .xls...) support",Microsoft Office Open XML support,OpenDocument Support,Portable Document Format support
+=======
+Software Name,E-mail client,HTML editor,Collaborative software,Online editing
+Ability Office,,,,
+Apache OpenOffice,,OpenOffice Writer[22],,
+Breadbox Office,,,,
+Calligra Suite,,",,
+| Feng Office Community Edition,,,,
+GobeProductive,,,,
+Google Apps for Work,Gmail,Google Sites,,Fully online
+iWork,Mail,,,iCloud
+LibreOffice,Can interface with email clients and Mail Merge Wizard can send email directly from LibreOffice[23],LibreOffice Writer,LibreOffice Calc,
+Lotus SmartSuite,,Lotus FastSite,,
+MarinerPak,,,,
+Microsoft Office,Microsoft Outlook (Not included in Microsoft Office 2013 or 2016 Home & Student)[25][26],"Microsoft SharePoint Designer. Versions after Office 2000 Premium and Developer contain Microsoft FrontPage, the full-blown web page editor. Microsoft Word can read and write HTML starting with a free special upgrade for Word 6.0",Microsoft SharePoint (Available for separate subscription)[27],Office Online
+Microsoft Works,,,,Microsoft Office Live
+MobiSystems OfficeSuite,"OfficeSuite Mail for Windows, AquaMail for Android",,,
+NeoOffice,,NeoOffice Writer[22],,
+ONLYOFFICE,,,,Fully online
+SoftMaker Office,a bundled Mozilla Thunderbird,,,
+StarOffice,,StarWriter[22],,
+TeXmacs,allows to read emails,,under development,
+TeamLab,,,,
+ThinkFree Office,,Note,,ThinkFree.com
+Tiki Wiki CMS Groupware,Tiki Webmail,WYSIWYG editor via CKEditor,,Fully online
+WordPerfect Office,has mail merge capabilities[28],,,
+WPS Office (Kingsoft Office),available in Android,,,
+Zoho Office Suite,Zoho Mail,Zoho Writer,,
+Software Name,E-mail client,HTML editor,Collaborative software,Online editing
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

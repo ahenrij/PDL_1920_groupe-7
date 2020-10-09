@@ -1,4 +1,5 @@
 ,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Interface NodeIterator,,,,,,,
 DOM2,root,rowspan="4" ,?,rowspan="7" 1.9.1,?,?,rowspan="4" 1.0
 ,whatToShow,?,?,?,,,
@@ -25,3 +26,34 @@ DOM2,root,rowspan="12" ,?,rowspan="12" 1.0,?,?,rowspan="12" 1.0
 Interface DocumentTraversal,,,,,,,
 DOM2,createNodeIterator(),rowspan="2" ,?,1.9.1,?,?,rowspan="2" 1.0
 ,createTreeWalker(),?,1.0,?,?,,
+=======
+Interface Range,,,,,,,
+DOM2,startContainer,rowspan="24" ,?,rowspan="24" 1.0,rowspan="24" ,?,rowspan="24" 1.0
+,startOffset,?,?,,,,
+,endContainer,?,?,,,,
+,endOffset,?,?,,,,
+,collapsed,?,?,,,,
+,commonAncestorContainer,?,?,,,,
+,setStart(),?,?,,,,
+,setEnd(),?,?,,,,
+,setStartBefore(),?,?,,,,
+,setStartAfter(),?,?,,,,
+,setEndBefore(),?,?,,,,
+,setEndAfter(),?,?,,,,
+,collapse(),?,?,,,,
+,selectNode(),?,?,,,,
+,selectNodeContents(),?,?,,,,
+,compareBoundaryPoints(),?,?,,,,
+,deleteContents(),?,?,,,,
+,extractContents(),?,?,,,,
+,cloneContents(),?,?,,,,
+,insertNode(),?,?,,,,
+,surroundContents(),?,?,,,,
+,cloneRange(),?,?,,,,
+,toString(),?,?,,,,
+,detach(),?,?,,,,
+Interface DocumentRange,,,,,,,
+DOM2,createRange(),,?,1.0,,?,1.0
+Exception RangeException,,,,,,,
+DOM2,code,,?,1.0,,?,1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

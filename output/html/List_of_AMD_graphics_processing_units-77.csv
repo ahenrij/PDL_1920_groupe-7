@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model (codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TBP,Bus interface
 ,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Size (GB),Bandwidth (GB/s),Bus type & width,Clock (MT/s),,
 Radeon RX 5300[114] (Navi 14 XL),"August 28th, 2020",RDNA 1.0 TSMC 7FF,6.4×109 158 mm2,1408:88:32 22 CU,1327 1645,116.8 144.8,42.46 52.64,"7,474 9,265","3,737 4632",233.5 289.5,3,168,GDDR6 96-bit,14000,100 W,PCIe 4.0 ×8 (with x16 connector)[115]
@@ -10,3 +11,9 @@ Radeon RX 5600 XT[123] (Navi 10 XLE),,,,2304:144:64 36 CU,1375 1750[124],198 252
 Radeon RX 5700[126][127][128][129][130] (Navi 10 XL),"July 7, 2019 $349 USD $399 USD (XT) $449 USD (50th)",,,,1465 1725,211 248.4,93.8 110.4,"13,501 15,900","6,751 7,949",421.9 496.8,8,448,GDDR6 256-bit,14000,180 W,
 Radeon RX 5700 XT[131][126][128][129][132] (Navi 10 XT),,,,2560:160:64 40 CU,1605 1905,256.8 304.8,102.7 121.9,"16,435 19,510","8,218 9,754",513.6 609.6,,,,,225 W,
 Radeon RX 5700 XT 50th Anniversary Edition[133][134][129][135] (Navi 10 XTX),,,,,1680 1980,268.8 316.8,107.5 126.7,"17,203 20,276","8,602 10,138",537.6 633.6,,,,,235 W,
+=======
+Model (Codename),Release Date,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TDP,Bus interface
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,
+Radeon Vega Pro 16 (Vega 12 XLA) [358][359],November 2018,GCN 5th gen 14 nm,Unknown,1024:64:32 16 CU,300 1190,76.16,38.08,?,2437,152.3,HBM2 1024-bit,4,2400,307.2,50 W,PCIe 3.0 ×16
+Radeon Vega Pro 20 (Vega 12 XTA) [358][360],November 2018,,Unknown,1280:80:32 20 CU,308 1190,95.20,38.08,?,3047,190.4,,,,,50 W,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

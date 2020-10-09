@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Arrays and Collections,Java,C#
 Abstract data types,,
 "One-dimensional, zero-based index arrays",,
@@ -14,3 +15,16 @@ Queues/stacks,,
 Priority queue,,
 Bags/multisets,Third-party librarystyle=background: #8CF;,
 Concurrency optimized collections,,
+=======
+Fields and initialization,Java,C#
+Fields,,
+Constants,,
+Static (class) constructors,,
+Instance constructors,,
+Finalizers/destructors,,
+Instance initializers,,
+Object initialization,Bottom-up (fields and constructors),Top-down (fields); bottom-up (constructors)
+Object initializers,,
+Collection initializers,,
+Array initializers,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

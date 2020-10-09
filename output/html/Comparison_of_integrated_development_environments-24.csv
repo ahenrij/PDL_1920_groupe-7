@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IDE,Developer,Latest stable release,Platform,License,Written in
 Anjuta,Anjuta Team,June 2013,Unix-like,GPL,C
 Atom,GitHub (subsidiary of Microsoft),"1.33.1 / December 19, 2018",Cross-platform,MIT License,JavaScript
@@ -16,3 +17,7 @@ SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, Solaris, AIX, HP-UX",Pr
 Visual Studio,Microsoft,"March 31, 2016[31]",Windows,Proprietary,"C++, C#"
 Visual Studio Code,Microsoft,"1.49.0 / September 10, 2020",Cross-platform,MIT License,JavaScript
 WebStorm,JetBrains,2019.1/ 25 March 2019[32],Cross-platform,Proprietary,Java
+=======
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release
+EiffelStudio,GPL and commercial,Yes,Yes,Yes,"FreeBSD, OpenVMS, Solaris, VxWorks, other Unix",Yes,Yes,Yes,Yes,Automatic testing framework,Yes,Metrics tool,BON / UML class diagramming,Multi-view,V7.1 June 2012
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

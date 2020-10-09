@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Desktop publishing software,Developer(s),Latest stable version,Initial release,License
 CorelDRAW,Corel,X8 (18.0) (20160315),1989," Commercial, proprietary"
 Fatpaint (Cloud-based),Mersica Inc.,1.98 (20110819),2010, Freeware
@@ -20,3 +21,24 @@ Scribus,The Scribus Team,1.4.8 (20190303df=yes),2003,GPL
 The Print Shop,Brøderbund,23.0 (2009),1984," Commercial, proprietary"
 Ventura*,Corel,10.0 (2002),1986," Commercial, proprietary"
 Desktop publishing software,Developer(s),Latest stable version,Initial release,License
+=======
+Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,RTF,HTML,Word .doc,OOXML .docx,Other
+CorelDRAW,,,,,,,,,"PSD, AI, SWF, WPD"
+Fatpaint,,,,,,,,,"JPG, PNG"
+Flare,,,,,,,,,"XLS, Adobe Framemaker, Adobe RoboHelp, Microsoft Compiled HTML Help, DITA"
+FrameMaker,,,,,,,,,WPD
+InDesign,,,,,,,,,"PSD, AI, SWF, WPD, XLS"
+InPage,,,,,,,,,
+iStudio Publisher,,,,,,,,,"PSD, AI"
+LyX,,,,,,,,,
+Microsoft Publisher,,,,,,,,,
+OpenOffice.org,,,,,,,,,"PSD, WPD, XLS"
+PageMaker*,,,,,,,,,
+PagePlus,,,,,,,,,
+Pages,,,,,,,,,
+QuarkXPress,,,,,,,,,"PSD, AI, SWF, XLS, JPG, PNG PDF"
+Scribus,,,,,,,,,List
+The Print Shop,,,,,,,,,
+Ventura*,,,,,,,,,"PSD, AI, WPD"
+Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,RTF,HTML,Word .doc,OOXML .docx,Other
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

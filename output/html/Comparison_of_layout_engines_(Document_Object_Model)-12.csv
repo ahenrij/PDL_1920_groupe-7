@@ -1,4 +1,5 @@
 ,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Interface EventTarget,,,,,,,
 DOM2,addEventListener(),5.0[t 6],No,1.0,Yes,Yes,1.0
 ,removeEventListener(),,,,,,
@@ -75,3 +76,26 @@ DOM2,load,4.0,Yes,1.0,?,?,2.0
 ,blur,,,,?,?,
 ,resize,,,,?,?,
 ,scroll,,,,?,?,
+=======
+Interface StyleSheet,,,,,,,
+DOM2,type,6.0,?,1.0,Yes,?,2.0
+,disabled,,?,,,?,
+,ownerNode,No,?,,,?,
+,parentStyleSheet,6.0,?,,,?,
+,href,8.0,?,,,?,
+,title,6.0,?,,,?,
+,media,Incorrect,?,,,?,
+Interface StyleSheetList,,,,,,,
+DOM2,length,6.0,?,1.0,Yes,?,2.0
+,item(),,?,,,?,
+Interface MediaList,,,,,,,
+DOM2,mediaText,No,?,1.0,Yes,?,2.0
+,length,,?,,,?,
+,item(),,?,,,?,
+,deleteMedium(),,?,,,?,
+,appendMedium(),,?,,,?,
+Interface LinkStyle,,,,,,,
+DOM2,sheet,No,?,1.0,No,?,2.0
+Interface DocumentStyle,,,,,,,
+DOM2,styleSheets,No,?,1.0,No,?,2.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

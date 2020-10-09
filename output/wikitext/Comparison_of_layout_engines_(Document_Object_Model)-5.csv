@@ -1,4 +1,5 @@
 ,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+<<<<<<< HEAD
 Exception LSException,,,,,,,
 DOM3,code,,,,,,1.0
 Interface DOMImplementationLS,,,,,,,
@@ -51,3 +52,8 @@ DOM3,characterStream,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan
 ,encoding,,,,,,
 Interface LSSerializerFilter,,,,,,,
 DOM3,whatToShow,,,,,,
+=======
+Interface CSS2Properties,,,,,,,
+DOM2,Support this interface,4.0,,1.0,?,?,1.0
+,Properties,Please refer to Comparison of layout engines (Cascading Style Sheets) for the comparison of CSS properties.,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

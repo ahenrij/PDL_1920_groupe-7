@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Release date,RTM build,Current version,Status support,Codename,Based on (kernel),Kernel type,Operating environments,Editions,Purpose,Short description
 Windows CE 1.0,1996-11,,,,"Pegasus, Alder",CE 1.0,,,,Embedded,first release of Microsoft's Windows CE line for minimalistic computers and embedded systems
 Windows CE 2.0,1997-11,,,,"Mercury, Apollo",CE 2.0,,,"2.1, 2.11",Embedded,
@@ -7,3 +8,11 @@ Windows CE 5.0,2004-07-09,,5.0 (2004-07-09),Unsupported (2014-10-14),Macallan,CE
 Windows Embedded CE 6.0,2006-11-01,,,Unsupported (2018-04-10),Yamazaki,CE 6.0,Hybrid kernel,,,,
 Windows Embedded Compact 7,2011-03-01,,,Supported (2021-04-13),Chelan,CE 7.0,Hybrid,",,,
 Windows Embedded Compact 2013,2013-08-11,,Update 17 (2017-11-15),Supported (2023-10-10),,CE 8.0,,,"Standard Industry (8.0, 8.1) Handheld",Embedded,
+=======
+Name,Architecture,Integrated firewall,SMP support,USB support,UDMA support,LFN support,Update management,APIs,Safe Mode
+Windows 1.0,x86 16-bit,,,,,,,Win16,
+Windows 2.0,x86 16-bit,,,,,,,Win16,
+Windows 2.1x,x86 16-bit,,,,,,,Win16,
+Windows 3.0,x86 16-bit,,,,,,,Win16,
+Windows 3.1x,x86 16-bit (partial 32-bit compatibility through Win32s),,,,,,,"Win16, Win32s",
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

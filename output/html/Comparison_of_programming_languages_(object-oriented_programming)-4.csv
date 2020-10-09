@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,class,protocol,namespace
 ABAP Objects,class name definition «inheriting from parentclass». «interfaces: interfaces.» method_and_field_declarations endclass. class name implementation. method_implementations endclass.,interface name. members endinterface.,N/A
 APL (Dyalog),":Class name «:parentclass» «,interfaces» members :EndClass",:Interface name members :EndInterface,:Namespace name members :EndNamespace
@@ -34,3 +35,24 @@ with OtherTrait2 with OtherTrait3 {
 COBOL,CLASS-ID. name« INHERITS« FROM» parentclasses». FACTORY« IMPLEMENTS interfaces». class-members END FACTORY. OBJECT« IMPLEMENTS interfaces». instance-members END OBJECT. END CLASS name.,INTERFACE-ID. name« INHERITS« FROM» interfaces». members END INTERFACE name.,N/A
 Cobra,class name «inherits parentclass» «implements interfaces» Tab ? members,interface name «inherits parentinterfaces» Tab ? members,namespace name Tab ? members
 ISLISP,(defclass name (base-class) ((x :initform 0 :accessor get-x :initarg x)) (:abstractp nil)),,
+=======
+,downcast,upcast
+ABAP Objects,N/A,
+C++ (STL),,operator returntype() { instructions }
+C#,static explicit operator returntype(type operand) { instructions },static implicit operator returntype(type operand) { instructions }
+D,,T opCast(T)() if (is(T == type)) { instructions }
+eC,,property T { get { return «conversion code»; } }
+Java,N/A,
+Objective-C,,
+Eiffel[35],,
+Python,,
+Visual Basic .NET,Shared Narrowing Operator CType(operand As type) As returntype instructions End Operator,Shared Widening Operator CType(operand As type) As returntype instructions End Operator
+PHP,N/A,
+Perl,,
+Raku,,multi method type«($self:)» is export { instructions }
+Ruby,N/A,
+Windows PowerShell,,
+OCaml,,
+F#,,
+COBOL,N/A,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

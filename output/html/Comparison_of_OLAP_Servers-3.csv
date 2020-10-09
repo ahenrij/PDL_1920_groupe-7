@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 OLAP server,Authentication,Network encryption,On-the-Fly[a],Data access,,
 ,,,,Cell security,Dimension security,Visual totals
 Apache Kylin,"LDAP, SAML, Kerboros, Microsoft Active Directory",SSL,Yes,No,No,?
@@ -12,3 +13,21 @@ Microsoft Analysis Services,"NTLM, Kerberos",SSL and SSPI,Yes,Yes,Yes,Yes
 MicroStrategy Intelligence Server,"Host authentication, database authentication, LDAP, Microsoft Active Directory, NTLM, SiteMinder, Tivoli, SAP, Kerberos","SSL, AES[38]",?,Yes,Yes,Yes
 Oracle Database OLAP Option,Oracle Database authentication,SSL,?,Yes,Yes,No
 SAS OLAP Server[39],"Host authentication,SAS token authentication, LDAP, Microsoft Active Directory",Yes[40],?,Yes,Yes,Yes
+=======
+OLAP server,Semi-additive measures,Many-to-Many,Multi-Cube Model,Perspectives,KPI,Multilingual,Named Sets,Multi-attribute Hierarchies,Actions
+Apache Kylin,No,No,Yes,No,Yes,Yes,No,Yes,Yes
+ClickHouse,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+Druid,Yes,Yes,Yes,?,No,Yes,?,Yes,Yes
+Essbase,Yes,?,?,?,Yes,Yes,Yes,Yes,?
+IBM Cognos BI,Yes,Yes,?,?,?,?,Yes,Yes,?
+IBM Cognos TM1,Yes,Yes,Yes,?,?,?,?,?,?
+icCube,Yes[32],Yes[33],Yes,Yes,?,Yes,Yes,?,?
+Jedox OLAP Server,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+Kyvos,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No
+Microsoft Analysis Services,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+MicroStrategy Intelligence Server,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Mondrian OLAP server,Yes[34],?,?,?,?,?,?,?,?
+Oracle Database OLAP Option,Yes,?,?,?,?,?,?,?,?
+SAP NetWeaver BW,Yes,?,?,?,?,?,?,?,?
+SAS OLAP Server,Yes,?,?,?,?,?,?,?,?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

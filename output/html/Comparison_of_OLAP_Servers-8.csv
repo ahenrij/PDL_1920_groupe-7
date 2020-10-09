@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 OLAP server,# cubes,# measures,# dimensions,# dimensions in cube,# hierarchies in dimension,# levels in hierarchy,# dimension members
 Apache Kylin,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
 ClickHouse,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
@@ -10,3 +11,19 @@ Kyvos,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestric
 Microsoft Analysis Services[36],"2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647 (max. number of dimensions in a database)","2,147,483,647","2,147,483,647","2,147,483,647 (xOLAP) Unrestricted (In-memory)"
 MicroStrategy Intelligence Server,Unrestricted[a],Unrestricted[a],Unrestricted[a],?,Unrestricted[a],Unrestricted[a],Unrestricted[a]
 SAS OLAP Server[37],Unrestricted[a],1024,128,?,128,19,"4,294,967,296"
+=======
+OLAP server,Authentication,Network encryption,On-the-Fly[a],Data access,,
+,,,,Cell security,Dimension security,Visual totals
+Apache Kylin,"LDAP, SAML, Kerboros, Microsoft Active Directory",SSL,Yes,No,No,?
+ClickHouse,"Built-in, LDAP, Microsoft Active Directory; Kerberos in development",SSL,Yes,Yes,Yes,Yes
+Druid,Druid Database authentication,SSL,Yes,No,Yes,No
+Essbase,"Essbase authentication, LDAP authentication, Microsoft Active Directory",SSL,Yes,Yes,Yes,No
+IBM Cognos TM1,"Builtin, LDAP, Microsoft Active Directory, NTLM, IBM Cognos BI authentication",SSL,Yes,Yes,Yes,Yes
+icCube,"HTTP Basic/Form Authentication, Windows SSO (NTLM,Kerberos), Plugin Based for Embedded Usage",SSL,Yes,Yes,Yes,Yes
+Jedox OLAP Server,"Jedox authentication, LDAP, Microsoft Active Directory",SSL,Yes,Yes,Yes,?
+Kyvos,"Built-in, LDAP, Microsoft Active Directory, SAML, Windows SSO (NTLM, Kerberos)",SSL,Yes,Yes,Yes,No
+Microsoft Analysis Services,"NTLM, Kerberos",SSL and SSPI,Yes,Yes,Yes,Yes
+MicroStrategy Intelligence Server,"Host authentication, database authentication, LDAP, Microsoft Active Directory, NTLM, SiteMinder, Tivoli, SAP, Kerberos","SSL, AES[38]",?,Yes,Yes,Yes
+Oracle Database OLAP Option,Oracle Database authentication,SSL,?,Yes,Yes,No
+SAS OLAP Server[39],"Host authentication,SAS token authentication, LDAP, Microsoft Active Directory",Yes[40],?,Yes,Yes,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

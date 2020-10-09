@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,Trident,Gecko[g 30],WebKit[w 29],Presto[p 12]
 Attributes,,,,
 autocomplete,3.1,Yes,Yes,2.0
@@ -41,3 +42,14 @@ number,6.0[t 29],29.0[g 59],528[w 47],
 range,6.0[t 30],23.0[g 60],Yes,
 color,No,29.0[g 61],Yes[w 50],2.7[p 13]
 ,Trident,Gecko,WebKit,Presto
+=======
+,Trident,Gecko,WebKit,KHTML,Presto
+Images,,,,,
+img,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+Generic inclusion,,,,,
+object,4.0[note 2],1.0,Yes,Yes,1.0
+param,<3.1[IE 6.0],,,,
+Image maps,,,,,
+map,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+area,5.0,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

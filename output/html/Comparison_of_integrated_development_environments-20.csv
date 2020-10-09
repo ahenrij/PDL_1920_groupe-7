@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IDE,License,Windows,Linux,macOS,Developer,Other platforms,Latest stable release
 Basic4android,Proprietary,Yes,No,No,Anywhere Software,cross-compile from Windows to Android,2018-03-20
 FreeBASIC,GPL,Yes,Yes,No,The FreeBASIC Development Team,"Windows, FreeBSD",2019-02-18
@@ -10,3 +11,7 @@ PureBasic,Proprietary,Yes,Yes,Yes,Fantaisie Software,AmigaOS,2020-03-30
 SharpDevelop,LGPL,Yes,No,No,ICSharpCode Team,,2015-07-14
 SlickEdit,Proprietary,Yes,Yes,Yes,SlickEdit,"Solaris, Solaris SPARC, AIX, HP-UX",2018
 Xojo,Proprietary,Yes,Yes,Yes,"Xojo, Inc.",Web,2015-12-17
+=======
+IDE,Developer,Latest stable release,Platform,License
+DrRacket,"PLT Design, Inc.","26 October 2018, v7.1",Cross-platform,LGPL
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

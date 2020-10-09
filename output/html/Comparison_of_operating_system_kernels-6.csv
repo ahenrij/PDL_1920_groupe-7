@@ -1,3 +1,13 @@
+<<<<<<< HEAD
 Kernel name,Deflate,zlib,LZO,LZJB,gzip
 Linux,Yes,Yes,Yes,No,Yes
 Solaris kernel,?,?,?,Yes,Yes
+=======
+Kernel Name,TCP,UDP,SCTP,DCCP
+DragonFly BSD kernel,Yes,Yes,No,No
+FreeBSD kernel,Yes,Yes,Yes,Optional
+Linux kernel,Yes,Yes,Yes,Yes
+Solaris kernel,Yes,Yes,Yes,?
+Windows NT kernel,Yes,Yes,No,?
+XNU,Yes,Yes,No,No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

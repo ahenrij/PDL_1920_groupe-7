@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Name,Parsing algorithm,Input grammar notation,Output languages,"Grammar, code",Lexer,Development platform,IDE,License
 ACCENT,Earley,Yacc variant,C,Mixed,external,All,No,"Free, GNU GPL"
 APaGeD,"GLR, LALR(1), LL(k)",?,D,Mixed,generated,All,No,"Free, Artistic"
@@ -26,3 +27,8 @@ UltraGram,"LALR, LR, GLR",?,"C++, C#, Java, Visual Basic .NET",Separate,generate
 Wormhole,"Pruning, LR, GLR, Scannerless GLR",?,"C, Python",Mixed,scannerless,Windows,No,"Free, MIT"
 Whale Calf,"General tabular, SLL(k), Linear normal form (conjunctive grammars), LR, Binary normal form (Boolean grammars)",?,C++,Separate,external,All,No,Proprietary
 yaep,Earley,Yacc-like,C,Mixed,external,All,No,"Free, GNU LGPL"
+=======
+Name,Parsing algorithm,Input grammar notation,Boolean grammar abilities,Development platform,License
+LuZc[7][8],delta chain,modular,"Conjunctive, not complimentary",POSIX,Proprietary
+bnf2xml,Recursive descent (is a text filter output is xml),"simple BNF[clarification needed] grammar (input matching), output is xml",?,"Beta, and not a full EBNF parser","Free, GNU GPL"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

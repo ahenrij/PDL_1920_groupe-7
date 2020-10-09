@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Country,Motorways,Expressways,Primary roads,,Secondary roads,Regional destinations,Local destinations,Tourist signs,Temporary Detour
 ,,,outside urban area,,,,,,
 Austria,Salzburg,Wien,Villach,,n/a,Salzkammergut[2],,,Umleitung
@@ -22,3 +23,19 @@ Switzerland,Basel,Chiasso,Moudon,,Ftan,n/a,Gare CFF,Castello,Umleitung Déviation
 Spain,Villalba[8],Córdoba[9],Oviedo[10],PINTO[11],BADAJOZ,n/a,centro,Navacerrada,DESVÍO
 UK,Nottingham M1,n/a,Holyhead A55,,Aylesbury,The NORTH[12],Village Hall,Thorpe Park,Diversion
 Åland,n/a,n/a,LÅNGNÄS,,n/a,KLINTEN,Centralsjukhuset,Bomarsund,KATTBY
+=======
+,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
+Straight ahead only,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Proceed right only,,,,,,,,,,,,,,,NOT USED,,,,,NOT USED,,,,,,,NOT USED,,
+Turn right ahead only,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Proceed straight or turn right only,,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,NOT USED,
+Pass on this side,,,,,,,or,,,or,,,,,,,,,,,,,,,,,,,
+Pass on either side,,,,,,,,NOT USED,,,,,,,,,,NOT USED,,,DEFUNCT,,,,,,,,
+Roundabout,,,,,,,,,,,,,,,,,,,,,,,,,,,,(mini- roundabout),
+Route for vehicles carrying dangerous goods,,,NOT USED,NOT USED,,NOT USED,,NOT USED,NOT USED,,NOT USED,NOT USED,,,NOT USED,NOT USED,,NOT USED,,,DEFUNCT,,,,,,,NOT USED,NOT USED
+Bicycles only,,,,,,,,,,,,,,,,,,,,,,,,,[23],,,,
+Pedestrians only,,,,,,,,,,,,,,,,,,,,,,,,,,,,NOT USED,
+Bicycles and pedestrians only,,,,,,,,,,,,,,,,,,,,,,,,,[23],,,,
+Equestrians only,,,,,,,,,,NOT USED,,NOT USED,,,,NOT USED,NOT USED,,,(Belarus),DEFUNCT,,,,,,,NOT USED,
+,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

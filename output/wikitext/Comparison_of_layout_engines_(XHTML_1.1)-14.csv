@@ -1,3 +1,18 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 script,3.0[2],rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" 
 noscript,3.0Incorrect[2]date=May 2011,,,,,,
+=======
+Mouse,,,,,,,
+onclick,rowspan="7" ,rowspan="7" ,rowspan="7" ,rowspan="7" ,rowspan="7" ,rowspan="7" ,rowspan="7" 
+ondblclick,,,,,,,
+onmousedown,,,,,,,
+onmouseup,,,,,,,
+onmouseover,,,,,,,
+onmousemove,,,,,,,
+onmouseout,,,,,,,
+Keyboard,,,,,,,
+onkeypress,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" 
+onkeydown,,,,,,,
+onkeyup,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

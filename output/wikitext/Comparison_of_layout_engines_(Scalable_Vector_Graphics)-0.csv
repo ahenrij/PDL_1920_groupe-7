@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Trident,Gecko,WebKit,Blink,Presto,KSVG,Amaya
 <img>,rowspan="5" 5.0[1],2.0[4],,rowspan="5" ,2.1,
 <embed>,rowspan="2" 1.8,rowspan="2" ,<embed> — Presto does not scale the image properly if its size is given in relative units.group=note,"rowspan="2" <embed>, <object> — KSVG does not scale the image properly if its size is given in relative units.group=note",5.2,
@@ -6,3 +7,13 @@ CSS background-image,rowspan="2" 2.0[7],,rowspan="2" 2.1,rowspan="3" ,,
 CSS list-style-image,list-style-image — WebKit does render the image if its size is given in relative units.[5]group=note,,,,,
 as Favicon,,41[8],,80[9],2.1.1,
 in data URIs,5.0,,,,,
+=======
+,,,Trident,Gecko,WebKit,Blink,Presto,KHTML,Prince,Amaya,Batik,Renesis,LeonLabs
+SVG,1.1,Tiny (SVGT),rowspan="3" 5.0[1],rowspan="3" ,rowspan="3" ,rowspan="3" ,1.0,"rowspan="3" KHTML does not have any native image support. This is by design: in Konqueror, multimedia files are handled by KParts. The KDE project also developed an SVG plugin for Konqueror, known as KSVG.[3]group=note",rowspan="3" ,rowspan="3" ,rowspan="3" Mostly,rowspan="3" ,rowspan="3" 
+,,Basic (SVGB),rowspan="2" Mostly,,,,,,,,,,
+,,Full,,,,,,,,,,,
+,1.2,Tiny,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,2.1,rowspan="4" ,,,,,
+,,Full,rowspan="3" ,rowspan="3" ,rowspan="3" ,,rowspan="3" ,rowspan="3" ,,,,,
+sXBL,,,,,,,,,,,,,
+XBL 2.0,,,,,,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

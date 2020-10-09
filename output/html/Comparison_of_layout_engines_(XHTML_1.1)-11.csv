@@ -1,4 +1,5 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 Mouse,,,,,,,
 onclick,?,?,?,?,?,?,?
 ondblclick,,,,,,,
@@ -11,3 +12,6 @@ Keyboard,,,,,,,
 onkeypress,?,?,?,?,?,?,?
 onkeydown,,,,,,,
 onkeyup,,,,,,,
+=======
+base,<3.1[IE 1.0] [3],Yes,Yes,Yes,Yes,Yes,Yes
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

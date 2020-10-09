@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 Model,Code Name,Release Date,CPU Socket,Processors Supported,Fab (nm),FSB/HT Frequency (MHz),Memory,PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound
 nForce 570 SLI,Crush51 + MCP51,2006,LGA 775,"Pentium 4, Pentium EE, Pentium D, Celeron D, Core 2",,1066 MHz,DDR2-666 dual channel,1.0a 20 lanes,x8+x8 (or x16+x1),5 Ports,8 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0Gbit/s,1000 Mbit/s,HDA
 nForce 590 SLI,Crush51 + MCP55,2006,,,,1066 MHz,DDR2-666 dual channel,1.0a 48 lanes,x16+x16,5 Ports,10 Ports Rev 2.0,1 Ports UDMA 133,6 Ports 3.0Gbit/s,2*1000 Mbit/s,HDA
+=======
+Model,Release Date,Processors Supported,Fabrication process (nm),FSB/HT Frequency (MHz),Memory,Max. memory,AGP,Southbridge,Features,Notes
+nForce 220,2001,"Athlon XP, Athlon, Duron",,"266 MHz, 200 MHz",DDR266 single channel,1.5 GB,AGP 4×,MCP MCP-D,,
+nForce 220-D,2001,"Athlon XP, Athlon, Duron",,"266 MHz, 200 MHz",DDR266 single channel,1.5 GB,AGP 4×,MCP MCP-D,Geforce 2 MX IGP,
+nForce 415-D,"January 8, 2002","Athlon XP, Athlon, Duron",,"266 MHz, 200 MHz",DDR266 dual channel,1.5 GB,AGP 4×,MCP MCP-D,,
+nForce 420-D,2001,"Athlon XP, Athlon, Duron",,"266 MHz, 200 MHz",DDR266 dual channel,1.5 GB,AGP 4×,MCP MCP-D,Geforce 2 MX IGP,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b],,Processing power[c] (GFLOPS),Memory,,,,Bus interface,Notes
 ,,,Config,Clock (MHz),Texture (GT/s),Pixel (GP/s),,Size (MB),Bus type & width (bit),Clock (MHz),Band- width (GB/s),,
 Mobility FireGL 7800 [296] (M7-GL),2001-09-29,R100 (150 nm),0:2:2:2[d],280,0.56,0.56,Unknown,64,DDR 128-bit,200,6.4,AGP,27 Watt TDP
@@ -12,3 +13,11 @@ Mobility FireGL V5250 [304] (M7-GL),2007-01-01,R520 (90 nm),5:12:12:12[d],450,5.
 Mobility FireGL V5600 [305] (M7-GL),2007-05-14,TeraScale 1 (65 nm),120:8:4[e],500,4.0,2.0,120.0,256,GDDR3 128-bit,400,12.8,PCIe 2.0 x16,
 Mobility FireGL V5700 [306] (M7-GL),2008-01-07,Terascale 2 (55 nm),120:8:4[e],600,4.8,2.4,144,512,GDDR3 128-bit,700,22.4,PCIe 2.0 x16,in Lenovo ThinkPad W500
 Mobility FireGL V5725 [307] (M7-GL),2009-01-01,Terascale 2 (55 nm),120:8:4[e],680,5.44,2.72,163.2,256,GDDR3 128-bit,800,25.6,PCIe 2.0 x16,
+=======
+Model,Launch,Code name,Graphics core,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core clock2 (MHz),Core config1,Fillrate,,,Memory3,,,,,Processing power (GFLOPS),Features / Notes
+,,,,,,,,,,Pixel (GP/s),Texture (GT/s),FP32 (GP/s),Size (MB),Bandwidth (GB/s),Bus type,Effective clock (MHz),Bus width (bit),,
+Radeon 3000 Graphics (760G Chipset),2009,RS780L[24],RV610,55,205,~73 (~9 × 8.05),HT 3.0,350,40:4:4,1.4,1.4,0.7,Up to 512 system,20.8 (system),HT (system),N/A,N/A,28,AVIVO
+Radeon 3100 Graphics (780V Chipset),2008 Jan 23 (China) Mar 4 (Worldwide),RS780C,,,,,,,,,,,,,,,,,
+Radeon HD 3200 Graphics (780G Chipset),,RS780,,,,,,500,,2,2,1,Up to 512 system + optional 128 sideport,20.8 (system) + 2.6 (sideport),HT (system) + DDR2-1066 DDR3-1333 (sideport),1333 (sideport),16 (sideport),40,"UVD+, 8x AA (wide-tent CFAA)"
+Radeon HD 3300 Graphics (790GX Chipset),Jul 2008,RS780D,,,,,,700,,2.8,2.8,1.4,Up to 512 system + 128 sideport,,HT (system) + DDR3-1333 (sideport),,,56,"UVD+, PowerPlay"
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

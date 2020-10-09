@@ -1,4 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
+<<<<<<< HEAD
 Zero Resource Speech Challenge 2015,"Spontaneous speech (English), Read speech (Xitsonga).",raw wav,"English: 5h, 12 speakers; Xitsonga: 2h30; 24 speakers",sound,Unsupervised discovery of speech features/subword units/word units,2015,[244][245],Versteegh et al.
 Parkinson Speech Dataset,Multiple recordings of people with and without Parkinson's Disease.,"Voice features extracted, disease scored by physician using unified Parkinson's disease rating scale","1,040",Text,"Classification, regression",2013,[246][247],B. E. Sakar et al.
 Spoken Arabic Digits,Spoken Arabic digits from 44 male and 44 female.,Time-series of mel-frequency cepstrum coefficients.,"8,800",Text,Classification,2010,[248][249],M. Bedda et al.
@@ -8,3 +9,13 @@ Parkinson's Telemonitoring Dataset,Multiple recordings of people with and withou
 TIMIT,"Recordings of 630 speakers of eight major dialects of American English, each reading ten phonetically rich sentences.",Speech is lexically and phonemically transcribed.,6300,Text,"Speech recognition, classification.",1986,[256][257],J. Garofolo et al.
 Arabic Speech Corpus,"A single-speaker, Modern Standard Arabic (MSA) speech corpus with phonetic and orthographic transcripts aligned to phoneme level",Speech is orthographically and phonetically transcribed with stress marks.,~1900,"Text, WAV","Speech Synthesis, Speech Recognition, Corpus Alignment, Speech Therapy, Education.",2016,[258],N. Halabi
 Common Voice,A public domain database of crowdsourced data across a wide range of dialects.,Validation by other users,"English: 1,118 hours",MP3 with corresponding text files,Speech recognition,June 2017 (December 2019),[259],Mozilla
+=======
+Webpages from Common Crawl 2012,Large collection of webpages and how they are connected via hyperlinks,None.,3.5B,Text,"clustering, classification",2013,[444],V. Granville
+Internet Advertisements Dataset,Dataset for predicting if a given image is an advertisement or not.,Features encode geometry of ads and phrases occurring in the URL.,3279,Text,Classification,1998,[445][446],N. Kushmerick
+Internet Usage Dataset,General demographics of internet users.,None.,"10,104",Text,"Classification, clustering",1999,[447],D. Cook
+URL Dataset,120 days of URL data from a large conference.,Many features of each URL are given.,"2,396,130",Text,Classification,2009,[448][449],J. Ma
+Phishing Websites Dataset,Dataset of phishing websites.,Many features of each site are given.,2456,Text,Classification,2015,[450],R. Mustafa et al.
+Online Retail Dataset,Online transactions for a UK online retailer.,Details of each transaction given.,"541,909",Text,"Classification, clustering",2015,[451],D. Chen
+Freebase Simple Topic Dump,Freebase is an online effort to structure all human knowledge.,Topics from Freebase have been extracted.,large,Text,"Classification, clustering",2011,[452][453],Freebase
+Farm Ads Dataset,The text of farm ads from websites. Binary approval or disapproval by content owners is given.,SVMlight sparse vectors of text words in ads calculated.,4143,Text,Classification,2011,[454][455],C. Masterharm et al.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

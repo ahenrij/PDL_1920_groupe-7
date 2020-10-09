@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Boolean object,Trident,Gecko,WebKit,Presto,Blink
 Called as function,,,,,
 Boolean([value]),Yes,Yes,Yes,Yes,Yes
@@ -9,3 +10,14 @@ Properties of prototype,,,,,
 constructor,4.0,Yes,Yes,Yes,Yes
 toString(),4.0,Yes,Yes,Yes,Yes
 valueOf(),4.0,Yes,Yes,Yes,Yes
+=======
+Value,Meaning
+Yes,Fully supported
+No,Has never been supported
+Partial,Only some values are supported
+Incorrect,Not implemented correctly in all cases
+Experimental,May be incomplete or buggy
+Nightly build,Currently in development; full support is expected
+Depends,Only supported for the specified conditions
+Dropped,No longer supported
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

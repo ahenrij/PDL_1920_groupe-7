@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 Features:,Modularity: supports third-party modules to extend functionality?,IPS : Intrusion prevention system,Open-Source License?,supports IPv6?,Class: Home / Professional,Operating Systems on which it runs?
 Vyatta,,,,,Professional,Vyatta OS (built on Debian)
 WinGate,WinGate 6.x supports 3rd party modules for data scanning only (e.g. antivirus and content filtering).,,,,Professional,"Windows 2000, Windows XP, Windows 2003, Windows Vista, Windows 2008. 32bit and 64bit."
 pfSense,,",,,Both,FreeBSD/NanoBSD-based appliance
 IPFire,,",,,Both,Linux (based on Linux From Scratch)
+=======
+Can:,"NATstatic, dynamic w/o ports, PAT","NAT64, NPTv6",Intrusion Detection System (IDS)monitors for malicious activity or policy violations,"Virtual Private Network (VPN)types include: PPTP, L2TP, MPLS, IPsec, SSL",Antivirus (AV),Packet capture,Profile selectionstore sets of firewall settings to switch between
+Vyatta,,,,,",,
+WinGate,,,,,,,
+pfSense,,,,",,,
+IPFire,,,,",,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

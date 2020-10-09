@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Generics,Java,C#
 Implementation,Type erasure,Reification
 Runtime realization,No,Yes
@@ -8,3 +9,12 @@ Constructor constraint,No,Yes (only for parameterless constructor)
 Subtype constraint,Yes,Yes
 Supertype constraint,Yes,No
 Migration compatibility,Yes,No
+=======
+Reference types,Java,C#
+Garbage collection,Yes,Yes
+Weak references,Yes,Yes
+Reference queue (interaction with garbage collection),Yes,Yes
+Soft references,Yes,Yes[citation needed]
+Phantom references,Yes,No
+Proxy support,Yes; proxy generation,Yes; object contexts
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

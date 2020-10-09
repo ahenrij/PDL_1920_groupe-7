@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Java,C#
 public int addOne(final int x) {
     x++; // ERROR: a final variable cannot be reassigned
@@ -20,3 +21,8 @@ public List<int> AddOne(in List<int> list)
                  // readonly (reference type) parameter
     return list;
 }
+=======
+! Java,C#
+Definition,"In Java, the enumeration type is a class, and its values are objects (instances) of that class. The only valid values are the ones listed in the enumeration. The enumeration type may declare fields, allowing each individual enumerated value to reference additional data associated uniquely with that specific value. The enumeration type may also declare or override methods, or implement interfaces.[23]"
+Combining,Java enumeration set and map collections provide functionality to combine multiple enumeration values to a combined value. These special collections allows compiler optimization to minimize the overhead incurred by using collections as the combination mechanism.
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

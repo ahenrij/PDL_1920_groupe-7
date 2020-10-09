@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 Country,Satellite,Type,Year launched
 Japan,IKAROS,Extraterrestrial exploration,2010
+=======
+Country,Spacecraft,Launch payload,Year launched
+,HTV,6000kg,2009
+,Tianzhou,6500kg,2017
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Transistors (billion),Die size (mm2),Bus interface,Core config,Clock speeds,,,Fillrate,,Memory,,,,Supported API version,,,,Processing power (GFLOPS),,,TBP (Watts),SLI support
 ,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),DirectX,OpenGL,OpenCL,Vulkan,Single precision (Boost),Double precision,Half precision,,
 GeForce MX110[166][167],November 2017,GM108,28,,,64,256:16:8,965,993,,7.944,23.83,?2,(variable),GDDR5/DDR3,64,12,4.5,1.0,1.2,762.6,23.83,,30,No
@@ -13,3 +14,17 @@ GeForce GTX 1070 (Notebook)[173],"August 16, 2016",GP104/GP104B[175],,7.2,314,,2
 GeForce GTX 1070 Max-Q,May 2017,,,,,,,1101,1379,,88.26,176.5,,,,,,,,,5648,176.5,88.26,?,rowspan=1 
 GeForce GTX 1080 (Notebook)[173],"August 16, 2016",,,,,,2560:160:64,1556,1733,10000,99.6,249,,320,GDDR5X,,,,,,7967 (8873),249,124,150,rowspan=1 
 GeForce GTX 1080 Max-Q,May 2017,,,,,,,1101,1468,,93.95,234.9,,,,,,,,,7516,234.9,117.4,?,rowspan=1 
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
+Quadro NVS 110M,G72M,90,PCIe 1.0 ×16,300,300,600,3:4:4:2,0.6,1.2,Up to 512,4.8,DDR,64,,9.0c,2.1,10,
+Quadro NVS 120M,G72GLM,,,450,450,700,,0.9,1.8,,5.6,DDR2,,,9.0c,2.1,,
+Quadro NVS 130M,G86M,80,PCIe 2.0 ×16,400?,800?,,8:4:4,1.6?,1.6?,Up to 256,6.4?,,,19.2,10.0,3.3,,
+Quadro NVS 135M,,,,400,800,1188,16:8:4,1.6,3.2,,9.504,GDDR3,,38.4,,,,
+Quadro NVS 140M,,,,,,1200,16:8:4,,,Up to 512,9.6,,,38.4,,,,
+Quadro NVS 150M,G98M,65,,530,1300,1400,8:4:4,2.12,2.12,Up to 256,11.2,,,31.2,,,,
+Quadro NVS 160M,,,,580,1450,,8:8:4,,4.24,256,,,,34.8,,,12,
+Quadro NVS 300M,G72GLM,90,PCIe 1.0 ×16,450,450,1000,3:4:4:2,0.9,1.8,Up to 512,8,DDR2,,,9.0c,2.1,16,
+Quadro NVS 320M,G84M,65,PCIe 2.0 ×16,575,1150,1400,32:16:8,4.6,9.2,,22.4,GDDR3,128,110.4,10.0,3.3,20,
+Quadro NVS 510M,G72GLM,90,PCIe 1.0 ×16,500,500,1200,8:24:24:16,8,12,Up to 1024,38.4,,256,,9.0c,2.1,45?,based on Go 7900 GTX
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

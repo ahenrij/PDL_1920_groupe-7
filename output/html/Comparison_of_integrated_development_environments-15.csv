@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IDE,License,Windows,Linux,macOS,Other platforms,Written in,Debugger,GUI builder,Integrated toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release,C compiler,C++ compiler,Refactoring
 Anjuta,GPL,No,Yes,No,FreeBSD,C,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,2016-03,Yes,Yes,No
 AppCode (IntelliJ IDEA),Proprietary,No,No,Yes,,Java,Yes,Yes,No,Yes (Xcode profiler),No,Yes,Yes,Yes,Yes,2012-12,Yes (Xcode toolchain),Yes (Xcode toolchain),Yes
@@ -24,3 +25,10 @@ Ultimate++ TheIDE,BSD,Yes,Yes,No,,C++,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,2015-12,E
 Understand,Proprietary,Yes,Yes,Yes,Solaris,?,No,No,No,No,No,Yes,Yes,No,Yes,2015-12,No,No,Yes
 Xcode (Apple),Proprietary,No,No,Yes,cross compiles to iOS,"C, C++, Objective-C, Objective-C++",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,2016-12,"Yes, llvm (llvm-gcc and gcc deprecated)","Yes, llvm (llvm-gcc and gcc deprecated)",Yes
 IDE,License,Windows,Linux,macOS,Other platforms,Written in,Debugger,GUI builder,Integrated toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release,C compiler,C++ compiler,Refactoring
+=======
+IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
+Eclipse JDT,EPL,No,Yes,Yes,Yes,"FreeBSD, JVM, Solaris",No
+IntelliJ IDEA,"ASLv2, proprietary",Yes,Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris",No
+NetBeans,"CDDL, GPL2",Yes,Yes,Yes,Yes,"OpenBSD, Solaris",Yes
+SlickEdit,Proprietary,No,Yes,Yes,Yes,"Solaris, Solaris SPARC, AIX, HP-UX",No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

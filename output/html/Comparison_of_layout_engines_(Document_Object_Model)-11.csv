@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Value,Meaning
 Yes,Fully supported
 No,Has never been supported
@@ -7,3 +8,35 @@ Experimental,May be incomplete or buggy
 Nightly build,Currently in development; full support is expected
 Depends,Only supported for the specified conditions
 Dropped,No longer supported
+=======
+,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+Interface Range,,,,,,,
+DOM2,startContainer,No,?,1.0,Yes,?,1.0
+,startOffset,,?,,,?,
+,endContainer,,?,,,?,
+,endOffset,,?,,,?,
+,collapsed,,?,,,?,
+,commonAncestorContainer,,?,,,?,
+,setStart(),,?,,,?,
+,setEnd(),,?,,,?,
+,setStartBefore(),,?,,,?,
+,setStartAfter(),,?,,,?,
+,setEndBefore(),,?,,,?,
+,setEndAfter(),,?,,,?,
+,collapse(),,?,,,?,
+,selectNode(),,?,,,?,
+,selectNodeContents(),,?,,,?,
+,compareBoundaryPoints(),,?,,,?,
+,deleteContents(),,?,,,?,
+,extractContents(),,?,,,?,
+,cloneContents(),,?,,,?,
+,insertNode(),,?,,,?,
+,surroundContents(),,?,,,?,
+,cloneRange(),,?,,,?,
+,toString(),,?,,,?,
+,detach(),,?,,,?,
+Interface DocumentRange,,,,,,,
+DOM2,createRange(),No,?,1.0,No,?,1.0
+Exception RangeException,,,,,,,
+DOM2,code,No,?,1.0,Yes,?,1.0
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

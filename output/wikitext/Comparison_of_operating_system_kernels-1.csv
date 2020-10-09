@@ -1,5 +1,17 @@
+<<<<<<< HEAD
 Kernel name,Intel,NVIDIA,AMD,ARM,Qualcomm,Imagination Technologies,Broadcom,VeriSilicon
 ,Intel HD/Iris Graphics,GeForce/Quadro/Tesla,Radeon,Mali,Adreno,PowerVR,VideoCore4,Vivante
 Linux kernel,,,,,,2D only[36][37],,Etnaviv
 Windows NT kernel,,,,,"Windows RT, Windows Phone 8.x, Windows 10 Mobile",,,
 XNU,colspan=3 via I/O Kit (macOS only),,,via I/O Kit (iOS only),,,,
+=======
+Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
+FreeBSD kernel,,,,,,,,,,,,,,,
+Linux kernel,,,(Longene),,,,,,,,,,,,
+NetBSD kernel,,,,,,,,,,,,,,,
+OpenBSD kernel,,,,,,,,,,,,,,,
+Windows NT kernel,,,,,,,,,,,,,,,
+ReactOS kernel,,,,,,,,,,,,,,,
+XNU,,,,,,,,,,,,,,,
+Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

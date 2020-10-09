@@ -1,4 +1,5 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
+<<<<<<< HEAD
 form,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 input,,,,,,,
 select,,,,,,,
@@ -9,3 +10,6 @@ fieldset,,,,,,,
 label,,,,,,,
 legend,,,,,,,
 optgroup,,,,,,,
+=======
+bdo,<3.1[IE 5.0] [6],?,Yes,Yes,Partial,Yes,?
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

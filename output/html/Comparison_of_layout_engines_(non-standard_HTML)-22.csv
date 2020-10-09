@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
 manifest,html,6.0[22],12,1.9,Yes,2.6[p 8][p 9]
 sizes,link,No,13,8.0 (only mobile)[g 16][g 17],Yes[w 19],No
@@ -9,3 +10,12 @@ download[citation needed],"a,area",No,13,20.0[g 21],Yes,
 sandbox,iframe,6.0[t 5],12,17.0[g 22],533[w 23],
 seamless,iframe,No,No,No[g 23],No[w 24],
 Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+=======
+,Trident,edgeHTML,Gecko,WebKit,Presto
+Ogg Vorbis,Manual install[note 12],,1.9.1[g 101],Depends[note 13],2.5
+WAV PCM,,,,525[note 13],2.0
+MP3,5.0[t 47],,No[g 105],,Depends[note 14]
+AAC,,,No,,
+Speex,Manual install[note 12],,No[g 106],Depends[note 13],No
+Opus,No,Yes[51],15.0[g 107],Depends[note 13],No
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

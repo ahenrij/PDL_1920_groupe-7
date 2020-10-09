@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Plant Name,Chernobyl,Fukushima Daiichi
 Location,Soviet Union (Ukrainian Soviet Socialist Republic) 51°23?22?N 30°05?57?E? / ?51.38946°N 30.09914°E? / 51.38946; 30.09914,Japan 37°39?59?N 141°01?15?E? / ?37.6665°N 141.0208°E? / 37.6665; 141.0208
 Date of the accident,"April 26, 1986","March 11, 2011"
@@ -17,3 +18,15 @@ Population relocated,"335,000 (About 115,000 from areas surrounding the reactor 
 Population returned,None,"122,000[17]"
 Direct fatalities from the accident,Two immediate trauma deaths; 28 deaths from Acute Radiation Syndrome out of 134 showing symptoms; four from an industrial accident (helicopter crash); 15 deaths from radiation-genic thyroid cancers (as of 2005);[18] as many as 4000 to 90000 cancer related deaths.[19],None
 Current status,"All reactors were shut down by 2000. The damaged reactor was covered by a hastily built steel and concrete structure called the sarcophagus. A New Safe Confinement structure was installed in November 2016, from which the plant will be cleaned up and decommissioned.","Cold shutdown declared on 16 December 2011, but decommissioning is likely to take 30 to 40 years.[20][21] All fuel rods in reactor 4 pool removed. Fukushima disaster cleanup is ongoing."
+=======
+Report date,Place,Period,Amount (TBq),Source
+12 April 2011,Chernobyl,25 April – June 1986,"5,200,000",NISA[26]
+12 April 2011,Fukushima,11 March – 5 April 2011,"630,000",NSC[25][26]
+12 April 2011,Fukushima,11 – 17 March 2011,"370,000",NISA[26]
+April 2011,Fukushima,4 April 2011,154,NSC[25]
+25 April 2011,Fukushima,24 April 2011,24,NSC[25]
+6–7 June 2011,Fukushima,11 – 17 March 2011,"770,000",NISA[30]>[27]
+7 June 2011,Fukushima,11 – 17 March 2011,"840,000","NISA,[31] press printing[30]"
+17 August 2011,Fukushima,3–16 August 2011,0.07,Government[32]
+23 August 2011,Fukushima,12 March - 5 April 2011,"630,000",NISA[33]
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

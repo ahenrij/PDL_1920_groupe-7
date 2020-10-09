@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Codename,Released,Fab (nm),USB 2.0 + 1.1,Audio,Parallel ATA1,Features / Notes
 AMD 640 chipset,AMD-645,1997,,,,2 × ATA/33,
 AMD 750 chipset,AMD-756,1999,,0 + 4,,2 × ATA/66,
@@ -12,3 +13,8 @@ Geode LX,Geode CS5536,,,4 + 0,,2 × ATA/100,
 AMD-8111 nForce Professional ULi-1563,AMD-8131,2004,,4 + 2,AC'97,2 × ATA/133,PCI-X
 ,AMD-8132,,,,,,PCI-X 2.0
 AMD-8151,AMD-8151,,,,,,AGP 8X
+=======
+Model,CPU/APU PCIe Link,PCIe,,,SATA + SATA Express,USB 3.1 Gen2 + 3.1 Gen1 + 2.0,RAID,Overclocking,TDP (W),Chipset lithography,Features / notes,Part number
+,,Chipset PCIe 2.0 Lanes,CrossFire,SLI,,,,,,,,
+X399[24][23],4,8×,,,4 + 2,2 + 14 + 6," 0,1,10",,5 W[25],,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Ido,IPA,Novial
 "A, a",/a/,"A, a"
 "B, b",/b/,"B, b"
@@ -28,3 +29,11 @@ Ido,IPA,Novial
 "X, x",/ks/ or /?z/,"X, x"
 "Y, y",/j/,"Y, y"
 "Z, z",/z/,"Z, z (also S, s)"
+=======
+,singular,,,,,,,plural,,,,,,,indef.
+,1st,2nd,,3rd,,,,1st,2nd,3rd,,,,,
+,,familiar,formal,m.,f.,n.,pan-gender,,,m.,f.,n.,pan-gender,Reflexive,
+English,I,you (thou),you,he,she,it,he/it,we,you,,,,they,,one
+Ido,me,tu,vu,il(u),el(u),ol(u),lu,ni,vi,ili,eli,oli,li,su,on(u)
+Novial,me,vu,vu,lo,la,lu(m),le,nus,vus,los,las,lus,les,se,on
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

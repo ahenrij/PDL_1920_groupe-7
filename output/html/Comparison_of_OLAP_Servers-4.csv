@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 OLAP server,Real Time,Write-back,Partitioning,Usage Based Optimizations,Load Balancing and Clustering
 Apache Kylin,Yes [27],No,Yes,Yes,Yes
 ClickHouse,Yes,Yes,Yes,Yes,Yes
@@ -14,3 +15,19 @@ Mondrian OLAP server,Yes,Planned,Yes,?,?
 Oracle Database OLAP Option,?,Yes,Yes,No,?
 SAP NetWeaver BW,?,Yes,Yes,?,?
 SAS OLAP Server,?,Yes,Yes,?,?
+=======
+OLAP server,Company,Website,Latest stable version,Software license,License pricing
+Apache Kylin,Apache Software Foundation,[1],3.1.0,Apache 2.0,free
+ClickHouse,Yandex,[2],20.5.2.7,Apache 2.0,free
+Druid,Open source community,[3],0.11.0,Apache 2.0,free
+Essbase,Oracle,[4],19.3,Proprietary,[1]
+IBM Cognos TM1,IBM,[5],10.2.2 FP7,Proprietary,-
+icCube,icCube,[6],6.8.9,Proprietary,community/[2]
+Jedox OLAP Server,Jedox,[7],2019.3,Proprietary,[3]
+Kyvos,Kyvos Insights,[8],2020.1,Proprietary,-
+Microsoft Analysis Services,Microsoft,[9],2016,Proprietary,[4]
+Mondrian OLAP server,Pentaho,[10],3.7,EPL,free
+Oracle Database OLAP Option,Oracle,[11],11g R2,Proprietary,[5]
+SAP NetWeaver BW,SAP,[12],7.30,Proprietary,-
+SAS OLAP Server,SAS Institute,[13],9.4,Proprietary,-
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

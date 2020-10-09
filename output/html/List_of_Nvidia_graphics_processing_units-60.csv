@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SMX count,Core config1,Clock rate,,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)9,,TDP (Watts),Release Price (USD)
 ,,,,,,,,,Base (MHz),Average Boost (MHz),Max Boost2 (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D3,OpenGL,OpenCL,Single precision,Double precision,,
 GeForce GT 705[42]4,"March 27, 2014",GF119-300-A1,TSMC 40 nm,292,79,PCIe 2.0 ×16,1,48:8:4,810,N/A,N/A,898 (1796),3.24,6.5,512 1024,14.4,DDR3,64,n/a[29],12,4.6,1.1,155.5,19.4,29,OEM
@@ -23,3 +24,11 @@ GeForce GTX TITAN Black,"February 18, 2014",GK110-430-B1,,,,,15,2880:240:48,889,
 GeForce GTX TITAN Z,"March 25, 2014",2× GK110-350-B1[57],,2× 7080,2× 561,,2× 15,2× 2880:240:48,705,876,Unknown,1752.5 (7010),2× 33.8,2× 169,2× 6144,2× 336.5,,2× 384,,,4.5,,5046x2,1682x2[58],375,$2999
 Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SMX count,Core config1,Clock rate,,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)8,,TDP (Watts),Release Price (USD)
 ,,,,,,,,,Base (MHz),Average Boost (MHz),Max Boost2 (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D3,OpenGL,OpenCL,Single precision,Double precision,,
+=======
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
+Quadro FX 360M,G86M,80,PCIe 1.0 ×16,400,800,1200,16:8:4,1.6,3.2,256,9.6,DDR2,64,38.4,10.0,3.3,17,Based on the GeForce 8400M GS
+Quadro FX 560M,G73GLM,90,,500,500,,5:12:12:8,4,6,512,19.2,GDDR3,128,,9.0c,2.1,35?,7600GS based?
+Quadro FX 1600M,G84M,80,,625,1250,1600,32:16:8,5,10,,25.6,,,120,10.0,3.3,50?,
+Quadro FX 3600M,G92M,65,,500,,,64:32:16 96:48:16,8 8,16 24,,51.2,,256,240 360,,,70,Based on the GeForce 8800M GTX
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

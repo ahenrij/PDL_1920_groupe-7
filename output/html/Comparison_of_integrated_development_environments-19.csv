@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 IDE,License,Windows,Linux,macOS,Other platforms
 Eclipse JDT,EPL,Yes,Yes,Yes,"FreeBSD, JVM, Solaris"
 IntelliJ IDEA,"ASLv2, proprietary",Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris"
 NetBeans,"CDDL, GPL2",Yes,Yes,Yes,Solaris
+=======
+IDE,License,Platforms,Latest Release,Developer
+EclipseFP Plugin,EPL?,Java Virtual Machine,"2.6.4 / January 19, 2015",eclipsefp.github.io
+SlickEdit,Proprietary,"Windows, Linux, macOS, AIX, HP-UX, Solaris, Solaris SPARC",October 2016,SlickEdit
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

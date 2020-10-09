@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Kernel,Acorn ADFS,Amiga FFS,BeFS,BFS,cramfs,EFS,ext2,ext3,ext4,F2FS,FAT,FreeVxFS,HFS,HFS+,HPFS,ISO 9660,JFFS,JFFS2,JFS,MINIX fs,NSS,NTFS,OCFS,QNX4 FS,System V FS,UDF,UFS,XFS,ZFS,ReiserFS,Reiser4,Btrfs,HAMMER,Tux3,exFAT,ReFS
 DragonFly BSD kernel,No,No,No,No,No,No,Yes,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,limited write,No,No,No,read only,Yes,No,No,No,No,No,Yes,No,No,No
 FreeBSD kernel,No,No,No,No,No,No,Yes,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,limited write,No,No,No,Yes,Yes,read only,Yes,read only,No,No,No,No,?,No
@@ -8,3 +9,12 @@ ReactOS kernel,No,No,No,No,No,No,Yes [27],Yes [27],Yes [27],No,Yes [27],No,No,No
 Solaris kernel,?,?,?,?,?,?,Yes,?,?,?,Yes,?,?,?,?,Yes,?,?,?,?,No,No,?,?,?,Yes,Yes,?,Yes,No,No,No,No,No,?,No
 Windows NT kernel,?,?,?,?,?,?,Yes [29],Yes [30],Yes [30],No,Yes,?,Yes [31],Yes [31],No,Yes,?,?,?,?,No,Yes,?,?,?,Yes,?,?,No,No,No,Yes [28],No,No,Yes,Yes
 XNU,No,No,No,No,No,No,Yes [32],Yes [32],No,No,Yes,No,Yes,Yes,No,Yes,No,No,No,No,No,Read-Only,No,No,No,Yes,Yes,No,read only,No,No,No,No,No,Yes,No
+=======
+Kernel name,DES,AES,Blowfish,Triple DES,Serpent,Twofish,CAST-128,DES-X,IDEA,RC2,RC5,SEED,Skipjack,TEA,XTEA,CAST-256,RC4,Camellia,Anubis,KHAZAD,Salsa20,FCrypt
+DragonFly BSD kernel,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No
+FreeBSD kernel,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,No
+Linux,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Windows NT kernel,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,No,No
+macOS XNU Kernel,Yes,Yes,Yes,?,?,?,Yes,?,?,Yes,Yes,?,?,?,?,Yes,Yes,?,?,?,?,?
+Kernel name,DES,AES,Blowfish,Triple DES,Serpent,Twofish,CAST-128,DES-X,IDEA,RC2,RC5,SEED,Skipjack,TEA,XTEA,CAST-256,RC4,Camellia,Anubis,KHAZAD,Salsa20,FCrypt
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

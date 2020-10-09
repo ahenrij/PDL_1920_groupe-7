@@ -1,4 +1,5 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+<<<<<<< HEAD
 Proxy server,"3.1+[334] but only global, not per connection[335] and only works for the browser[336] 3rd party apps available[337]",,,,
 On-device encryption,3+[339] but insecure on Qualcomm devices[340],,,3.3.0+[343],
 External storage encryption,6+,External storage not available,,,
@@ -13,3 +14,15 @@ SSH Client,,,?,,
 VPN,,,?,,
 OpenVPN,",,?,,
 WPA PEAP,,,?,In developer mode[367],
+=======
+Non-English languages support,Partial[202],,Limited (Search is not diacritical mark-insensitive),,
+Underlining spell checker,2.3+[206][207],,,?,
+Built-in system-wide dictionary,Built into keyboard app. Available on every device.[209],5+[210],,,
+Autoexpanding text replacements,,5+[211],?,?,?
+Keyboard next word prediction,",8+[214],,,
+Keyboard cursor controller,Google Keyboard;[215];[216],12+;[217] 9-11: Only on devices with 3D Touch;[218],,,
+Optical character recognition input method,,11+: Notes app;[220] 8+: Only for inputting credit card details[221],,,
+Third party input methods,,8+,?,?,?
+Gesture text input,4+[223],13+;[224] 8+: 3rd party software like SwiftKey,?,,
+Emoji support,4.4+[226],,?,2.2.0+[228] 3rd party software[229],
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

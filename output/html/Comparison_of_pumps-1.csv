@@ -1,4 +1,5 @@
 Pump type,Cyclic/continuous ?,Maximum lift height,Production cost,Efficiency,Output,Size of device,Fabrication requirements,Difficulty of production,Durability,Difficulty of repair,Suction lift ?
+<<<<<<< HEAD
 Centrifugal (regenerative) pump,continuous,10m-30m,medium-high,medium,medium,?,?,industrial,?,?,yes
 Centrifugal (turbine) pump,continuous,3m-200m,medium-high,medium-high,high,?,?,industrial,?,?,yes
 Centrifugal (volute) pump,continuous,3m-20m,medium,medium-high,high,?,?,industrial,?,?,yes
@@ -9,3 +10,18 @@ Mixed flow pump,continuous,2m-10m,medium-high,medium-high,high,?,?,industrial,?,
 Propeller (axial flow) pump,continuous,5m-30m,medium-high,medium-high,high,?,?,industrial,?,?,no
 Rebound inertia,cyclic,2m-60m,medium,medium-high,very low,?,?,industrial,?,?,yes
 Resonating joggle pump,cyclic,2m-10m,medium,medium-high,medium-high,?,?,traditional,?,?,no
+=======
+Continuous bucket pump,continuous,5m-50m,low-medium,medium,low-medium,?,?,traditional,?,?,no
+Counterpoise lift or Shadoof,cyclic,1m-4m,low-medium,low-medium,low-medium,?,?,traditional,?,?,no
+Mohte,cyclic,3m-8m,low-medium,low,medium,?,?,traditional,?,?,no
+Persian wheel "Tablia",continuous,3m-10m,low-medium,medium,medium,?,?,traditional,?,?,no
+Persian wheel "Zawaffa",continuous,3m-15m,medium,medium-high,medium-high,?,?,traditional,?,?,no
+Pivoting gutters and "dhones",cyclic,"1m-1,5m",low-medium,low-medium,low-medium,?,?,traditional,?,?,no
+Reciprocating bucket hoist,cyclic,100m-500m,medium-high,medium,medium-high,?,?,industrial,?,?,no
+Rope & bucket and windlass,cyclic,5m-50m,very low,very low,very low,?,?,basic,?,?,no
+Scoops and bailers,cyclic,>1m,very low,very low,low-medium,?,?,basic,?,?,no
+Scoop wheel "Sakia",continuous,>2m,medium-high,medium-high,medium-high,?,?,traditional,?,?,no
+Swing basket,cyclic,>1m,very low,very low,low-medium,?,?,basic,?,?,no
+Waterwheels or noria,continuous,>5m,low-medium,low-medium,low-medium,?,?,traditional,?,?,no
+Watering car,cyclic,>3m,very low,very low,very low,?,?,basic,?,?,no
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
 Eclipse JDT,EPL,No,Yes,Yes,Yes,"FreeBSD, JVM, Solaris",No
 IntelliJ IDEA,"ASLv2, proprietary",Yes,Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris",No
 NetBeans,"CDDL, GPL2",Yes,Yes,Yes,Yes,"OpenBSD, Solaris",Yes
 SlickEdit,Proprietary,No,Yes,Yes,Yes,"Solaris, Solaris SPARC, AIX, HP-UX",No
+=======
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,Profiler,Notes
+Visual Studio Code (using the Julia extension),MIT License,Yes,Yes,Yes,FreeBSD[33],?[34],?,License is for the extension; and Microsoft's source code (only).
+Emacs / spacemacs,"portions in GPL v2, LGPL, BSD and public domain",Yes,Yes,Yes,FreeBSD,Yes,Yes,"ESS extension support for emacs. vi support also available, e.g. in spacemacs (useful for pair programming )."
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67

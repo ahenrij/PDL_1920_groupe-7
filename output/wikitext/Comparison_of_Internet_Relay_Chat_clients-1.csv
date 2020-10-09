@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Client,Multi-server,UTF-8,Proxy server,irc:// URI scheme,Automatic updates,Scripting language
 Bersirc,,,,,,
 BitchX,,,,,,Enhanced IrcII script
@@ -35,3 +36,39 @@ Snak,,,,,,"AppleScript, IrcII script"
 Visual IRC,,,,,,Versus
 WeeChat,,,,,,"C, Perl, Python, Ruby, Lua, Tcl, Scheme (Guile)"
 Client,Multi-server,UTF-8,Proxy server,irc:// URI scheme,Automatic updates,Scripting language
+=======
+Client,CHAT,Whiteboard,SEND,RESUME,TSEND,SEND T,XMIT,Passive DCC,Server,RDCC,REVERSE,RSEND,Reverse / Firewall DCC,File servers (FSERVs),XDCC,VOICE
+Bersirc,,,,,,,,,,,,,,,,
+BitchX,,,,,,,,,,,,,,,,
+ChatZilla,,,,,,,,group=Noteplanned,,,,,,,,
+Colloquy,,,,,,,,,,,,,,,,
+degesch,,,,,,,,,,,,,,,,
+DMDirc,,,,,,,,,,,,,,,,
+ERC,,,,,,,,,,,,,,,,
+HexChat,,,,,,,,,,,,,,,,
+HydraIRC,,,,,,,,,,,,,,,,
+IceChat,,,,,,,,,,,,,,,,
+IRCCloud,,,,,,,,,,,,,,,,
+ircII,,,,,,,,,,,,,,,,
+IRCjr,,,,,,,,,,,,,,,,
+Ircle,,,,,,,,,,,,,,,,
+Irssi,,,,,,,,,,,,,,,,
+KiwiIRC,,,,,,,,,,,,,,,,
+Konversation,,,,,,,,,,,,,,,,
+KVIrc,,,,,,,,,,,,,,group=NoteSupported_Via_Scripting,group=NoteSupported_Via_Scripting,Incompatible with other IRC clients[52]name=voicegroup=Note
+LimeChat,,,,,,,,,,,,,,,,
+Linkinus,,,,,,,,,,,,,,,,
+Mibbit,,,,,,,,,,,,,,,,
+mIRC,,,,Supports the DCC Resume protocol[53]name=dccgroup=Note,,,,,,Supported via a script[54]name=scriptgroup=Note,,,,,group=Notescript,
+Nettalk,,,,,,,,,,,,,,,,
+Opera,,,,,,,,,,,,,,,,
+PIRCH,,,,group=Notedcc,,,,,,,,,,,,
+PJIRC,,,,,,,,,,,,,,,,
+Quassel,,,,,,,,,,,,,,,,
+qwebirc,,,,,,,,,,,,,,,,
+rcirc,,,,,,,,,,,,,,,,
+Smuxi,,,,,,,,,,,,,,,,
+Snak,,,,,,,,,,,,,,,,
+Visual IRC,,,,group=Notedcc,,,,,,,,,,,,group=Notevoice
+WeeChat,,,,,,,,,,,,,,,,
+>>>>>>> ff4582384893868142f1b485861afa33c91d9c67
