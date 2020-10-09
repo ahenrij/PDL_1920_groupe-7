@@ -347,14 +347,13 @@ public class ConverterToCsv implements Converter {
 						result += s.charAt(i);
 					}
 				}
-				if(result.equals("")){
+				if (result.equals("") && !warning) {
 					Map<String, Locale> localeMap;
-<<<<<<< HEAD
-					String codeCountry = s.substring(2,5);
-=======
-					String codeCountry = s.substring(2);
 
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+					System.out.println(s);
+					//Affect empty string to codeCountry if s.length under 5
+					String codeCountry = (s.length() > 5) ? s.substring(2, 5) : "";
+
 					String[] countries = Locale.getISOCountries();
 					localeMap = new HashMap<String, Locale>(countries.length);
 
@@ -395,7 +394,7 @@ public class ConverterToCsv implements Converter {
 			if (article.getText().contains("REDIRECT")) {
 
 				if(article.getText().lastIndexOf("#") !=0 ){
-					url = "https://en.wikipedia.org/wiki/" + article.getText().substring(article.getText().lastIndexOf("[")+1, article.getText().lastIndexOf("#"));
+					url = "https://en.wikipedia.org/wiki/" + article.getText().substring(article.getText().indexOf("[")+1, article.getText().lastIndexOf("#"));
 				}
 				else {
 					url = "https://en.wikipedia.org/wiki/" + article.getText().substring(article.getText().lastIndexOf("[")+1, article.getText().lastIndexOf("]]"));
