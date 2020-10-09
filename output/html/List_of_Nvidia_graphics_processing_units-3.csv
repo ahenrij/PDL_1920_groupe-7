@@ -1,3 +1,0 @@
-Model,Code name[175],Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate[211],,Memory,,,,Processing power (GFLOPS),,Supported API version,,,,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
-Quadro GV100[213],GV100-875-A1,12,PCIe 3.0 ×16,1132,1627,848 (1696),5120:320:128:80:640,208.4,521,32,870,HBM2,4096,14800,7400,12.1,4.6,1.1,1.2,7,250,"4x DisplayPort, NVLINK support"
