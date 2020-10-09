@@ -38,21 +38,20 @@ public class WikipediaMatrix
 		
  		for (UrlMatrix urlMatrix : urlMatrixSet){
 			if(extractType==ExtractType.HTML) {
+				
 				urlMatrix.setFilesMatrix(converter.convertFromHtml(urlMatrix.getLink()));
-			}
-			else {
+				
+			} else 
+			
+			{
 				urlMatrix.setFilesMatrix(converter.convertFromWikitext(urlMatrix.getLink()));
-
-		//System.out.println(urlMatrixSet);
-		for (UrlMatrix urlMatrix : urlMatrixSet){
-			if(extractType==ExtractType.HTML) urlMatrix.setFilesMatrix(converter.convertFromHtml(urlMatrix.getLink()));
-			else urlMatrix.setFilesMatrix(converter.convertFromWikitext(urlMatrix.getLink()));
-
-		}
+			}
  		}
+ 		
 		return urlMatrixSet;
- 		}
+ 	
 	}
+
 
 	public Set<UrlMatrix> getUrlsMatrix() {
 		return urlMatrixSet;
