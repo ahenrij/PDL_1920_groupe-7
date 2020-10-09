@@ -183,7 +183,7 @@ class ConverterToCsvTest {
                 nbRedirectionTotal++;
 
                 if (article.getText().lastIndexOf("#") != 0) {
-                    url = "https://en.wikipedia.org/wiki/" + article.getText().substring(article.getText().lastIndexOf("[") + 1, article.getText().lastIndexOf("#"));
+                    url = "https://en.wikipedia.org/wiki/" + article.getText().substring(article.getText().indexOf("[") + 1, article.getText().lastIndexOf("#"));
                     nbRedirectionCheck++;
                 } else {
                     url = "https://en.wikipedia.org/wiki/" + article.getText().substring(article.getText().lastIndexOf("[") + 1, article.getText().lastIndexOf("]]"));
