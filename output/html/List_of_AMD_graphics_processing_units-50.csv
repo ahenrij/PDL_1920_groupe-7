@@ -1,7 +1,6 @@
-Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
-Mobility Radeon X300,Nov 2005,M22,RV370,110,PCI-E x16,350,250,2:4:4:4,1.4,1.4,128,4,DDR,64,9.0b,2.0,Powerplay 5.0
-Mobility Radeon X600,Jun 2004,M24,RV380,130,,400,,,1.6,1.6,"64, 128",8,,128,,,
-Mobility Radeon X700,Mar 2005,M26,RV410,110,,400-100 (PowerPlay),350-200,6:8:8:4,1.4,2.8,"Shared-128? 64, 128",11.2,"DDR, GDDR3",,,,"3DC, Dynamic Lane Count Switching,"
-Mobility Radeon X800,Nov 2004,M28,R423,130,,400,400,6:12:12:12,4.8,4.8,256,25.6,GDDR3,256,,,"3DC, DLCS, Clock Gating"
-Mobility Radeon X800 XT,Jun 2005,M28 PRO,R423,130,,480,550,6:16:16:16,7.68,7.68,,35.2,,,,,
+Model,Launch,Codename,Architecture,Fab (nm),Core Clock rate (MHz),Config core[a],Fillrate,,Shared Memory,,,Processing power (GFLOPS),API compliance (version),,,,Combined TDP[b],,APU Series
+,,,,,,,Pixel (GP/s),Texture (GT/s),Bus width (bit),Bus type,Bandwidth (GB/s),,Direct3D,OpenGL,OpenCL,Vulkan,Idle (W),Max. (W),
+Radeon HD 6370D,"November 1, 2011",WinterPark,TeraScale 2,32,443,160:8:4,1.77,3.54,128,DDR3-1600,25.6,142,11.3 (11_0),4.5,1.2,N/A,Unknown,65,E2
+Radeon HD 6410D,"June 20, 2011",,,,443[c]–600,,1.77–2.4,3.54–4.8,,,,142–192,,,,,,,A4
+Radeon HD 6530D,,BeaverCreek,,,443,320:16:8,3.54,7.08,,DDR3-1866,29.9,284,,,,,,65–100,A6
+Radeon HD 6550D,,,,,600,400:20:8,4.8,12,,,,480,,,,,,,A8

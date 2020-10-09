@@ -1,15 +1,11 @@
-Object object,Trident,Gecko,WebKit,Presto,Blink
+Boolean object,Trident,Gecko,WebKit,Presto,Blink
 Called as function,,,,,
-Object([value]),,,,,
+Boolean([value]),,,,,
 Called as constructor,,,,,
-new Object([value]),4.0,,,,
+new Boolean([value]),3.0,,,,
 Properties,,,,,
 prototype,4.0,,,,
 Properties of prototype,,,,,
 constructor,4.0,,,,
 toString(),4.0,,,,
-toLocaleString(),4.0,,,,
 valueOf(),4.0,,,,
-hasOwnProperty(V),5.5,,3,,
-isPrototypeOf(V),5.5,,3,,
-propertyIsEnumerable(V),5.5,,3,,

@@ -1,6 +1,6 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Poker Hand Dataset,5 card hands from a standard 52 card deck.,"Attributes of each hand are given, including the Poker hands formed by the cards it contains.","1,025,010",Text,"Regression, classification",2007,[456],R. Cattral
-Connect-4 Dataset,"Contains all legal 8-ply positions in the game of connect-4 in which neither player has won yet, and in which the next move is not forced.",None.,"67,557",Text,Classification,1995,[457],J. Tromp
-Chess (King-Rook vs. King) Dataset,Endgame Database for White King and Rook against Black King.,None.,"28,056",Text,Classification,1994,[458][459],M. Bain et al.
-Chess (King-Rook vs. King-Pawn) Dataset,King+Rook versus King+Pawn on a7.,None.,3196,Text,Classification,1989,[460],R. Holte
-Tic-Tac-Toe Endgame Dataset,Binary classification for win conditions in tic-tac-toe.,None.,958,Text,Classification,1991,[461],D. Aha
+Geographical Original of Music Data Set,Audio features of music samples from different locations.,Audio features extracted using MARSYAS software.,"1,059",Text,"Geographical classification, clustering",2014,[260][261],F. Zhou et al.
+Million Song Dataset,Audio features from one million different songs.,Audio features extracted.,1M,Text,"Classification, clustering",2011,[262][263],T. Bertin-Mahieux et al.
+MUSDB18,Multi-track popular music recordings,Raw audio,150,"MP4, WAV",Source Separation,2017,[264],Z. Rafii et. al.
+Free Music Archive,"Audio under Creative Commons from 100k songs (343 days, 1TiB) with a hierarchy of 161 genres, metadata, user data, free-form text.",Raw audio and audio features.,"106,574","Text, MP3","Classification, recommendation",2017,[265],M. Defferrard et al.
+Bach Choral Harmony Dataset,Bach chorale chords.,Audio features extracted.,5665,Text,Classification,2014,[266][267],D. Radicioni et al.

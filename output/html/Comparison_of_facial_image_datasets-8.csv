@@ -1,6 +1,4 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Enron Email Dataset,Emails from employees at Enron organized into folders.,"Attachments removed, invalid email addresses converted to user@enron.com or no_address@enron.com.","~ 500,000",Text,"Network analysis, sentiment analysis",2004 (2015),[180][181],"Klimt, B. and Y. Yang"
-Ling-Spam Dataset,Corpus containing both legitimate and spam emails.,Four version of the corpus involving whether or not a lemmatiser or stop-list was enabled.,"2,412 Ham 481 Spam",Text,Classification,2000,[182][183],"Androutsopoulos, J. et al."
-SMS Spam Collection Dataset,Collected SMS spam messages.,None.,"5,574",Text,Classification,2011,[184][185],T. Almeida et al.
-Twenty Newsgroups Dataset,Messages from 20 different newsgroups.,None.,"20,000",Text,Natural language processing,1999,[186],T. Mitchell et al.
-Spambase Dataset,Spam emails.,Many text features extracted.,"4,601",Text,"Spam detection, classification",1999,[187],M. Hopkins et al.
+Bike Sharing Dataset,Hourly and daily count of rental bikes in a large city.,"Many features, including weather, length of trip, etc., are given.","17,389",Text,Regression,2013,[443][444],H. Fanaee-T
+New York City Taxi Trip Data,Trip data for yellow and green taxis in New York City.,"Gives pick up and drop off locations, fares, and other details of trips.",6 years,Text,"Classification, clustering",2015,[445],New York City Taxi and Limousine Commission
+Taxi Service Trajectory ECML PKDD,Trajectories of all taxis in a large city.,"Many features given, including start and stop points.","1,710,671",Text,"Clustering, causal-discovery",2015,[446][447],M. Ferreira et al.

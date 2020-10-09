@@ -1,7 +1,9 @@
-Country,Year,Mission
-Japan,1970,Lambda-4S/Ohsumi
-China,1970,Long March 1/Dong Fang Hong I
-India,1980,SLV/Rohini D1
-Israel,1988,Shavit/Ofeq 1
-Iran,2009,Safir-1/Omid
-North Korea,2012,Unha-3/Kwangmy?ngs?ng-3 Unit 2
+Country,Highest payload capacity,,,,,
+,LEO,,,GTO,,
+,Launch Vehicle,Payload capacity,Active since,Launch Vehicle,Payload capacity,Active since
+China,CZ-5,25000kg,2016,CZ-5,14000kg,2016
+Japan,H-IIB,16500kg,2009,H-IIB,8000kg,2009
+India,GSLV MkIII,10000kg,2017,GSLV MkIII,4000kg,2017
+Israel,Shavit,800kg,1988,Not any yet,,
+North Korea,Unha-3,200kg,2009,Not any yet,,
+,Safir-1B,50kg,2008,Not any yet,,

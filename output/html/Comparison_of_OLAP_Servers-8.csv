@@ -1,15 +1,16 @@
-OLAP server,Windows,Linux,UNIX,z/OS,AIX
-Apache Kylin,No,Yes,Yes,No,No
-ClickHouse,No,Yes,Yes,No,No
-Druid,No,Yes,Yes,,
-Essbase,Yes,Yes,Yes,No,Yes
-IBM Cognos TM1,Yes,Yes,Yes,No,Yes
-icCube,Yes,Yes,Yes,Yes,Yes
-Jedox OLAP Server,Yes,Yes,Yes,No,
-Kyvos,No,Yes,Yes,No,No
-Microsoft Analysis Services,Yes,No,No,No,
-MicroStrategy Intelligence Server,Yes,Yes,Yes,No,Yes
-Mondrian OLAP server,Yes,Yes,Yes,Yes,
-Oracle Database OLAP Option,Yes,Yes,Yes,Yes,
-SAP NetWeaver BW,Yes,Yes,Yes,Yes,
-SAS OLAP Server,Yes,Yes,Yes,Yes,
+OLAP server,MOLAP,ROLAP,HOLAP,Offline
+Apache Kylin,Yes,No,No,Yes
+ClickHouse,Yes,Yes,Yes,Yes
+Druid,Yes,Yes,Yes,Yes
+Essbase,Yes,No,No,
+IBM Cognos BI,Yes,Yes,Yes,
+IBM Cognos TM1,Yes,No,No,Cognos Insight Distributed mode
+icCube,Yes,No,No,Offline Cubes
+Jedox OLAP Server,Yes,No,No,No
+Kyvos,Yes,Yes,Yes,Yes
+Microsoft Analysis Services,Yes,Yes,Yes,"Local cubes, PowerPivot for Excel, Power BI Desktop"
+MicroStrategy Intelligence Server,Yes,Yes,Yes,"MicroStrategy Office, Dynamic Dashboards"
+Mondrian OLAP server,No,Yes,No,
+Oracle Database OLAP Option,No,Yes,No,
+SAP NetWeaver BW,Yes,Yes,No,
+SAS OLAP Server,Yes,Yes,Yes,

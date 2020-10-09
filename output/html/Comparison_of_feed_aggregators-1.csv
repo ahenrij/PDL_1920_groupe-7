@@ -1,60 +1,55 @@
-Client,Windows,macOS,Linux,BSD,Solaris,Android,iOS,Other
-Akregator,No,Yes,Yes,Yes,Yes,No,No,No
-Amarok,Yes,Yes,Yes,Yes,Yes,No,No,No
-AOL Explorer,Yes,No,No,No,No,No,No,No
-Avant,Yes,No,No,No,No,No,No,No
-Awasu,Yes,No,No,No,No,No,No,No
-BlogBridge,Yes,Yes,Yes,No,No,No,No,No
-Canto,No,No,Yes,No,No,No,No,No
-Claws Mail,Yes,Yes,Yes,Yes,Yes,No,No,Maemo
-CommaFeed,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Client side: every platform with a web browser Server side: every platform with Java
-Cooliris,Yes,Yes,No,No,No,No,No,No
-Feed Viewer,Yes,No,No,No,No,No,No,Windows Phone
-FeedDemon,Yes,No,No,No,No,No,No,No
-Feedreader,Yes,No,No,No,No,No,No,No
-Flock,Yes,Yes,Yes,Yes,No,No,No,No
-Gnus,Yes,Yes,Yes,Yes,Yes,Yes,No,DOS
-IBM Lotus Notes,Yes,Yes,Yes,No,No,No,No,No
-Inoreader,Yes,Yes,Yes,No,No,Yes,Yes,No
-Internet Explorer,Included,No,No,No,No,No,No,No
-iTunes,Yes,as Podcasts app,No,No,No,No,No,No
-Juice,Yes,Yes,No,No,No,No,No,No
-K-Meleon,Yes,No,No,No,No,No,No,No
-Kazehakase,No,No,Yes,Yes,No,No,No,No
-Liferea,No,No,Yes,Yes,No,No,No,No
-Apple Mail,No,Included,No,No,No,No,No,No
-Maxthon,Yes,No,No,No,No,No,No,No
-MediaMonkey,Yes,No,No,No,No,No,No,No
-Microsoft Office Outlook,Yes,Yes,No,No,No,No,No,Windows Mobile
-Mozilla Firefox,Add-on,Add-on,Add-on,Add-on,No,No,No,No
-Mozilla Thunderbird,Yes,Yes,Yes,Yes,No,No,No,No
-NetNewsWire,No,Yes,No,No,No,No,Yes,No
-Netscape Browser,Yes,No,No,No,No,No,No,No
-Netscape Navigator 9,Yes,Yes,Yes,No,No,No,No,No
-NewsAccess,No,Yes,No,No,No,No,No,No
-NewsBlur,Web based,Web based,Web based,Web based,Web based,Yes,Yes,every platform with a web browser
-Newsbeuter,No,Yes,Yes,Yes,No,No,No,Source code available
-NewsFire,No,Yes,No,No,No,No,No,No
-OmniWeb,No,Yes,No,No,No,No,No,No
-Opera Mail,Yes,Yes,Yes,Yes[37],Dropped,No,No,"BeOS, QNX, OS/2"
-Pegasus Mail,Yes,No,No,No,No,No,No,No
-Protopage,Web based,Web based,Web based,Web based,Web based,Dedicated Web App,Dedicated Web App,every platform with a Web browser
-Pulse,Web based,Web based,Web based,Web based,Web based,Dedicated App,Dedicated App,every platform with a Web browser
-QuiteRSS,Yes,Yes,Yes,No,No,No,No,Source code available
-Rhythmbox,No,No,Yes,Yes,Yes,No,No,No
-RSS Bandit,Yes,No,No,No,No,No,No,No
-RSSOwl,Yes,Yes,Yes,Yes,Yes,Yes,No,every platform with Java and SWT
-Safari,Yes,Included,No,No,No,No,No,No
-Sage,Yes,Yes,Yes,No,No,No,No,No
-SeaMonkey Mail & Newsgroups,Yes,Yes,Yes,Yes,No,No,No,No
-Shiira,No,Yes,No,No,No,No,No,No
-Sleipnir,Yes,No,No,No,No,No,No,No
-Songbird,Yes,Yes,Yes,No,Yes,No,No,No
-The Bat!,Yes,No,No,No,No,No,No,No
-The Old Reader,Web based,Web based,Yes,Web based,Web based,Multiple apps,Multiple apps,"Windows Phone, Symbian, WebOS, Firefox OS"
-Tiny Tiny RSS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,every platform with a web browser
-Winamp,Yes,No,Obsolete,No,No,No,No,No
-Windows Live Mail,Yes,No,No,No,No,No,No,No
-Zimbra,Yes,Yes,Yes,Yes,No,No,No,No
-Zune,Yes,No,No,No,No,No,No,Windows Mobile
-Client,Windows,Mac OS X,Linux,BSD,Solaris,Android,iOS,Other
+Client,Pop-up,Tray notification,Browser plugin,E-mail,"newspaper"-like,Media aggregator,Notes,Downloadable attachments
+Akregator,Yes,Yes,Yes (integration with konqueror),Yes,?,Yes,KDE,?
+Amarok,?,?,?,?,?,Yes,KDE,?
+AOL Explorer,?,?,N/A,?,?,?,Discontinued; Feed support is available in Internet Explorer 7,?
+Avant,?,?,N/A,?,?,?,Feed support is available in Internet Explorer 7,?
+Awasu,Yes,Yes,N/A,Yes,Yes,Yes,Supports user-written plugins.,Yes
+BlogBridge,?,?,?,?,?,?,,?
+Canto,?,?,?,?,?,?,Ncurses/console based reader,?
+Claws Mail,Yes,Yes,Yes,Yes,?,?,RSSyl plugin needed,?
+CommaFeed,?,?,Yes,?,Yes,?,Web browser,?
+Cooliris,?,?,Yes,?,?,?,Web browser plugin,?
+Feed Viewer,No,No,N/A,No,Yes,Yes,,No
+FeedDemon,?,Yes,?,?,Yes,?,Discontinued,?
+Feedreader,Yes,No,No,?,Yes,?,,?
+Flock,?,?,N/A,?,?,Yes,Discontinued,?
+Gnus,Add-on,?,?,Yes,?,?,Emacs-based mail and news client,?
+IBM Lotus Notes,?,?,?,?,?,?,Studio Blog Reader is one RSS reader application for IBM Lotus Notes; Notes version 8.x introduced a native RSS reader,?
+Internet Explorer,?,?,N/A,?,Yes,?,Feed support is available in Internet Explorer 7,?
+iTunes,?,?,?,?,?,Yes,,?
+Juice,?,?,?,?,?,Yes,Designed as Podcast aggregator,?
+K-Meleon,?,?,?,?,?,?,Web browser,?
+Kazehakase,?,?,N/A,?,?,?,Web browser,?
+Liferea,Yes,Yes,?,?,?,?,,?
+Mail (OS X),?,?,?,Yes,?,?,,?
+Maxthon,?,?,N/A,?,?,?,Web browser,?
+MediaMonkey,?,?,?,?,?,Yes,Media Player,?
+Microsoft Office Outlook,?,?,?,?,?,?,Feed support is available in Microsoft Office Outlook 2007,?
+Miro,?,?,?,?,?,Yes,Media Player,?
+Mozilla Firefox,Add-on,Add-on,N/A,?,?,?,Web Browser,?
+Mozilla Thunderbird,?,Add-on,?,Yes,No,?,Mail Client,?
+NetNewsWire,?,?,?,?,?,?,,?
+Netscape Browser,?,?,N/A,?,?,?,Discontinued; Web browser,?
+Netscape Navigator 9,Yes,?,N/A,?,?,?,Discontinued,?
+NewsAccess,?,?,?,?,?,?,,?
+NewsBlur,?,?,?,?,?,?,,?
+NewsFire,?,?,?,?,?,?,,?
+OmniWeb,?,?,?,?,?,?,Part of the OmniWeb browser,?
+Opera Mail,Yes,Yes,No,Yes,No,?,,Yes
+Pegasus Mail,?,?,?,Yes,?,?,Pegasus Mail can convert RSS feeds to e-mails via free add-ons,?
+Rhythmbox,?,?,?,?,?,?,Media Player,?
+RSS Bandit,?,?,?,?,?,?,.NET Framework based,?
+RSSOwl,Yes,Yes,No,No,Yes,Yes,no longer support for Google Reader synchronization since version 2.2.0,Yes
+Safari,?,?,N/A,?,Yes,?,Web Browser,?
+Sage,?,?,?,?,Yes,?,a Firefox extension,?
+SeaMonkey Mail & Newsgroups,?,?,N/A,Yes,?,?,Part of the SeaMonkey Internet suite,?
+Songbird,?,?,?,?,?,Yes,Media Player,?
+Shiira,?,?,N/A,?,?,?,Web browser,?
+Sleipnir,?,?,N/A,?,?,?,Feed support is available in Internet Explorer 7,?
+The Bat!,?,?,?,Yes,No,No,Mail client; rss2mail or rss2pop3 plugin needed for versions prior to 6.4; newer versions support RSS natively,?
+The Old Reader,?,?,Yes,?,?,?,,?
+Winamp,No,?,No,No,No,Yes,Media Player,?
+Windows Live Mail,?,?,?,Yes,?,?,,?
+Zimbra,?,?,?,?,?,?,Groupware suite,?
+Zune,?,?,?,?,?,Yes,Media player,?
+Client,Pop-up,Tray notification,Browser plugin,E-mail,"newspaper"-like,Media aggregator,Notes,Downloadable attachments

@@ -1,10 +1,10 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Yacht Hydrodynamics Dataset,Yacht performance based on dimensions.,Six features are given for each yacht.,308,Text,Regression,2013,[322][323],R. Lopez
-Robot Execution Failures Dataset,5 data sets that center around robotic failure to execute common tasks.,Integer valued features such as torque and other sensor measurements.,463,Text,Classification,1999,[324],L. Seabra et al.
-Pittsburgh Bridges Dataset,Design description is given in terms of several properties of various bridges.,Various bridge features are given.,108,Text,Classification,1990,[325][326],Y. Reich et al.
-Automobile Dataset,"Data about automobiles, their insurance risk, and their normalized losses.",Car features extracted.,205,Text,Regression,1987,[327][328],J. Schimmer et al.
-Auto MPG Dataset,MPG data for cars.,Eight features of each car given.,398,Text,Regression,1993,[329],Carnegie Mellon University
-Energy Efficiency Dataset,Heating and cooling requirements given as a function of building parameters.,Building parameters given.,768,Text,"Classification, regression",2012,[330][331],A. Xifara et al.
-Airfoil Self-Noise Dataset,A series of aerodynamic and acoustic tests of two and three-dimensional airfoil blade sections.,"Data about frequency, angle of attack, etc., are given.",1503,Text,Regression,2014,[332],R. Lopez
-Challenger USA Space Shuttle O-Ring Dataset,Attempt to predict O-ring problems given past Challenger data.,"Several features of each flight, such as launch temperature, are given.",23,Text,Regression,1993,[333][334],D. Draper et al.
-Statlog (Shuttle) Dataset,NASA space shuttle datasets.,Nine features given.,"58,000",Text,Classification,2002,[335],NASA
+Zero Resource Speech Challenge 2015,"Spontaneous speech (English), Read speech (Xitsonga).",raw wav,"English: 5h, 12 speakers; Xitsonga: 2h30; 24 speakers",sound,Unsupervised discovery of speech features/subword units/word units,2015,[244][245],Versteegh et al.
+Parkinson Speech Dataset,Multiple recordings of people with and without Parkinson's Disease.,"Voice features extracted, disease scored by physician using unified Parkinson's disease rating scale","1,040",Text,"Classification, regression",2013,[246][247],B. E. Sakar et al.
+Spoken Arabic Digits,Spoken Arabic digits from 44 male and 44 female.,Time-series of mel-frequency cepstrum coefficients.,"8,800",Text,Classification,2010,[248][249],M. Bedda et al.
+ISOLET Dataset,Spoken letter names.,Features extracted from sounds.,7797,Text,Classification,1994,[250][251],R. Cole et al.
+Japanese Vowels Dataset,Nine male speakers uttered two Japanese vowels successively.,Applied 12-degree linear prediction analysis to it to obtain a discrete-time series with 12 cepstrum coefficients.,640,Text,Classification,1999,[252][253],M. Kudo et al.
+Parkinson's Telemonitoring Dataset,Multiple recordings of people with and without Parkinson's Disease.,Sound features extracted.,5875,Text,Classification,2009,[254][255],A. Tsanas et al.
+TIMIT,"Recordings of 630 speakers of eight major dialects of American English, each reading ten phonetically rich sentences.",Speech is lexically and phonemically transcribed.,6300,Text,"Speech recognition, classification.",1986,[256][257],J. Garofolo et al.
+Arabic Speech Corpus,"A single-speaker, Modern Standard Arabic (MSA) speech corpus with phonetic and orthographic transcripts aligned to phoneme level",Speech is orthographically and phonetically transcribed with stress marks.,~1900,"Text, WAV","Speech Synthesis, Speech Recognition, Corpus Alignment, Speech Therapy, Education.",2016,[258],N. Halabi
+Common Voice,A public domain database of crowdsourced data across a wide range of dialects.,Validation by other users,"English: 1,118 hours",MP3 with corresponding text files,Speech recognition,June 2017 (December 2019),[259],Mozilla

@@ -1,59 +1,39 @@
-,Manufacturer,First public release date,Product line,Launch price (USD),Units sold
-Atari Lynx,Atari,11 October 1989[1],Atari Lynx,$189[1],"3,000,000"
-Atari Lynx II,Atari,1991,Atari Lynx,$179,"500,000[1]"
-Dingoo A320,Dingoo Digital Technology,2009,Dingoo,$82.80,"1,000,000"
-Epoch Game Pocket Computer,Epoch Co.,1984,Epoch Game Pocket Computer,,
-Gamate,Bit Corporation,1990,Gamate,,
-GameKing,Timetop,2003,GameKing,$10–20 (depending on retailer's subsidies and special offers),
-GameKing II,Timetop,2004,GameKing,$15–30 (depending on retailer's subsidies and special offers),
-Game Boy,Nintendo,21 April 1989,Game Boy line,$89.99 [2],"70,000,000[citation needed]"
-Game Boy Advance,Nintendo,21 March 2001,Game Boy line,$100,"37,700,000[3]"
-Game Boy Advance SP,Nintendo,14 February 2003,Game Boy line,$99.99,"43,020,000[3]"
-Game Boy Advance SP (backlit model),Nintendo,13 September 2005,Game Boy line,$79,
-Game Boy Color,Nintendo,21 October 1998,Game Boy line,$69.99[2],"48,600,000[citation needed]"
-Game Boy Light,Nintendo,1997 (Japan only),Game Boy line,,
-Game Boy Micro,Nintendo,13 September 2005,Game Boy line,$99,"2,500,000[1]"
-Game Boy Pocket,Nintendo,1996,Game Boy line,$59[2][failed verification],
-Game.com,Tiger Electronics,September 1997[1],Game.com,$59–69[4],"300,000[1]"
-GCW Zero,Game Consoles Worldwide,March 2013,GCW,$150,
-Gizmondo,Tiger Telematics,2005[1],Gizmondo,$229–400 (depending on advertising subsidies)[1],"25,000[1]"
-GP2X,GamePark Holdings,9 November 2005,GP2X,$185,"60,000[5] (inc. GP2X F200 sales)"
-GP2X F200,GamePark Holdings,30 October 2007[6],GP2X,$169[5],"60,000[5] (inc. original GP2X sales)"
-GP2X Wiz,GamePark Holdings,13 May 2009,GP2X,$179,
-GP2X Caanoo,GamePark Holdings,16 August 2010[7],GP2X,$150,
-GP32,Game Park,23 November 2001,GP32,$239,"30,000[8]"
-GPD Win,GamePad Digital,October 2016,GPD Win,$350–400[9],
-GPD Win 2,GamePad Digital,May 2018,GPD Win,"$649-899 (pre-order, and tentative release prices)",
-GPD XD,Gamepad Digital,2015,GPD XD,$194,
-GPD XD Plus,Gamepad Digital,2018,GPD XD,$207,
-Mega Duck/Cougar Boy,"Creatonic, Videojet, and Timlex",1993,Mega Duck/Cougar Boy,$50,
-Microvision,Milton Bradley Company,October 1979,Microvision,$49.99,
-Mi2,Planet interactive,October 2009,Pocket Dream Console,€70,
-Neo Geo Pocket,SNK Playmore,1998[1],Neo Geo,$69[1][10],
-Neo Geo Pocket Color,SNK Playmore,16 March 1999[1],Neo Geo,$69[10],
-Neo Geo X,SNK Playmore,18 December 2012[1],Neo Geo,$199,
-Nintendo DS,Nintendo,21 November 2004,Nintendo DS,$149.99,"18,820,000[3]"
-Nintendo DS Lite,Nintendo,2 March 2006,Nintendo DS,$129.99,"84,490,000[3]"
-Nintendo DSi,Nintendo,1 November 2008[11],Nintendo DS,$169[12],"16,430,000[13]"
-Nintendo 3DS,Nintendo,26 February 2011[14],Nintendo DS,$249.99[15],"72,890,000 (as of June 2018)[16]"
-Nintendo Switch,Nintendo,3 March 2017,Nintendo Switch,$299.99,"49,570,000 (as of March 31, 2020)[17]"
-Nintendo Switch Lite,Nintendo,20 September 2019,Nintendo Switch,$199.99,"6,190,000 (as of March 31, 2020)[17]"
-Nintendo 2DS,Nintendo,12 October 2013,Nintendo DS,$79.99,
-Nintendo 2DS XL,Nintendo,"June 15, 2017",Nintendo DS,$149.99,
-N-Gage,Nokia,7 October 2003,N-Gage,$299[1],"3,000,000[1]"
-N-Gage QD,Nokia,27 July 2004,N-Gage,$0–245 (depending on cell provider subsidies),
-Pandora,OpenPandora,22 May 2010,Pandora,$349[18] (1st and 2nd batch) Rebirth edition: €370 (€440 incl. VAT),"7,500[19]"
-PlayStation Portable,Sony Computer Entertainment,12 December 2004,PlayStation,$249.99,"51,260,000[2]"
-PlayStation Portable Slim and Lite,Sony Computer Entertainment,5 September 2007,PlayStation,$199.99,
-PlayStation Vita,Sony Computer Entertainment,17 December 2011,PlayStation,$299.99 Wi-Fi+3G $249.99 Wi-Fi Only,"4,000,000 (as of 2015)"
-PocketFami,GameTech,2004,PocketFami,$80,
-Sega Game Gear,Sega,6 October 1990,Sega Game Gear,$150[1],"11,000,000[1]"
-Sega Nomad,Sega,1995[1],Sega Nomad,$180[1],"1,000,000[1]"
-SwanCrystal,Bandai,16 November 2002,WonderSwan,$65,
-Tapwave Zodiac,Tapwave,1 November 2003,Tapwave Zodiac,$300–400 (depending on configuration),"200,000[1]"
-TurboExpress,NEC,1990[1],TurboExpress,$349[1],"1,500,000[1]"
-VG Pocket,Pelican Accessories,August 2006,VG Pocket,$39.99,
-Watara Supervision,Watara,1992,Supervision,$50[20],
-WonderSwan,Bandai,4 March 1999[21],WonderSwan,,
-WonderSwan Color,Bandai,30 December 2000,WonderSwan,$65,
-Xperia PLAY,Sony Ericsson,"April 1, 2011",Xperia,,
+,Display,Resolution,Colors,Controller,Game media,Operating System
+GP2X,3.5" Backlit TFT LCD,320 × 240,"262,144 colors (F100) ; 16.77 million colors (F200)",Eight-Directional Digital Stick,Secure Digital Memory Cards,
+GPD Win,5.5" backlit H-IPS touchscreen,1280 × 720,,"2x analog sticks, D-pad, 4 face buttons, 4 shoulder buttons, 67-button QWERTY keyboard, touchscreen","Various, incl. but not limited to: Digital download, video game ROM .ISO image, MicroSD card",Windows 10
+GPD Win 2,6" backlit H-IPS touchscreen (w/wireless Miracast and Intel WiDi support),"1280 × 720 (w/4K video support, 4096x2304 max)",,"2x analog sticks, D-pad, 4 face buttons, 6 shoulder buttons, 80-button QWERTY keyboard, touchscreen","Various, incl. but not limited to: Digital download, video game ROM .ISO image, MicroSD card",Windows 10
+Pandora,4.3" Backlit LCD touchscreen,800 × 480,"16,777,216 colours","Two analogue nubs, 4-Way D-pad, 2 shoulder buttons, 46 key qwerty keyboard, touchscreen","SD, SDHC and SDXC",
+Game Boy Micro,2 in. LCD,240 × 160,"32,768 colors",D-pad,Proprietary solid-state cartridge,
+Gizmondo,2.8 in. LCD,240 × 320,"65,536 colors",Four-directional digital pad,SD card or downloadable,Windows CE
+PlayStation Portable,4.3 in. LCD,480 × 272,"16,777,216 colours","Four-directional digital pad, analog thumbstick",UMD or memory stick,
+GCW Zero,3.5" Backlit TFT LCD,320 × 240,"262,144 colors","8-directional digital pad, analog joystick, L/R shoulder buttons, ABXY action buttons, start & select buttons, power slider",micro SDHC and micro SDXC,
+Nintendo DS,Two 3 in. LCDs,256 × 192 (×2),"262,144 colors","D-pad, stylus-driven touchscreen",Proprietary matrix memory cards,
+N-Gage QD,2.1 in. LCD,176 × 208,"4,096 colors",Four-directional digital pad,MMC or downloadable,
+Timetop Gameking 1 & 2,2.1 in. Reflective LCD (Backlit in Gameking 2).,48 × 32,4 shades of gray,Four-directional digital pad,Proprietary solid-state cartridge,
+GP32,3.5 in. TFT,320 × 240,"65,536 colors",Four-directional digital stick,Rewritable SmartMedia,
+Dingoo A320,2.8 in. LCD,240 × 320,"65,536 colors","Four-directional digital pad, shoulder buttons, action buttons, start & select buttons","Built-in, miniSD card or downloadable",?C/uOS-II Linux
+Tapwave Zodiac,3.8 in. LCD,480 × 320,"65,536 colors","8-directional analog thumbstick, stylus-driven touchscreen",SD card or downloadable,
+N-Gage,2.1 in. LCD,176 × 208,"4,096 colors",Four-directional digital pad,MMC N-Gage Arena,Symbian OS 6.1 (Series 60)
+Game Boy Advance SP,2.9 in. LCD,240 × 160,"32,768 colors",D-Pad,Proprietary solid-state cartridge,
+Game Boy Advance,2.9 in. LCD,240 × 160,"32,768 colors",D-Pad,Proprietary solid-state cartridge,
+Swan Crystal,2.8 in. TFT LCD,224 × 144,"4,096 colors, 241 simultaneous",Four-directional digital pad,Proprietary solid-state cartridge,
+WonderSwan Color,2.8 in. FSTN reflective LCD,224 × 144,"4,096 colors, 241 simultaneous",Four-directional digital pad,Proprietary solid-state cartridge,
+WonderSwan,2.49 in. FSTN Reflection LCD,224 × 144,,Four-directional digital pad,Proprietary solid-state cartridge,
+Game Boy Color,TFT LCD,160 × 144,"32,768 colors; 10, 32 or 56 simultaneous",Four-directional digital pad,Proprietary solid-state cartridge,
+Neo Geo Pocket Color,TFT LCD,160 × 152,"4,096 colors, 146 simultaneous",8-directional digital thumbstick,Proprietary solid-state cartridge,
+Neo Geo Pocket,TFT LCD,160 × 152,16 palettes per plane?,8-directional digital thumbstick,Proprietary solid-state cartridge,
+game.com,3.9 in. LCD,200 × 160,4,"Four-directional digital pad, touchscreen",Proprietary solid-state cartridge,
+Game Boy Light,Backlit Reflective LCD,160 × 144,4,D-Pad,Proprietary solid-state cartridge,
+Game Boy Pocket,Reflective LCD,160 × 144,4,D-Pad,Proprietary solid-state cartridge,
+Sega Nomad,3 in. LCD,320 × 224,"512 available, 64 simultaneous",Four-directional digital pad,Proprietary solid-state cartridge (compatible with Sega Genesis),
+Mega Duck/Cougar Boy,2.7" (48 (h) x 51 (w) mm) STN dot matriix,160 × 144,4 monochrome green shades,Four-directional digital pad,Proprietary solid-state cartridge,
+Watara Supervision,"3.4", 61 mm x 61 mm (2.37" x 2.37") LCD SuperVision FAQ",160 × 160 pixel display,4 monochrome green shades,Four-directional digital pad,Proprietary solid-state cartridge,
+Atari Lynx II,3.5" LCD,160 × 102,"4096 (12-bit), 16 per scanline",Four-directional digital pad,Proprietary solid-state cartridge,
+Game Gear,3.2 in. LCD,160 × 144,"4,096 available, 32 simultaneous",Four-directional digital pad,Proprietary solid-state cartridge,
+TurboExpress,2.6 in. TFT LCD,256 × 256,512,Four-directional digital pad,Proprietary solid-state cartridge (compatible with TurboGrafx-16),
+Game Boy,Reflective LCD,160 × 144,4,D-Pad,Proprietary solid-state cartridge,
+Atari Lynx,3.5" LCD (diagonal); 3.25" x 1.88"[24],160 × 102,"4096 (12-bit), 16 per scanline",Four-directional digital pad,Proprietary solid-state cartridge,
+Game Pocket Computer,LCD,75 × 64,2,Four-directional control pad,Proprietary solid-state cartridge,
+Microvision,LCD,16 × 16,4,"12 button keypad, one paddle",Proprietary solid-state cartridge,
+Mi2 console,3.5 in. LCD,240 × 320,"full color","Four-directional digital pad, shoulder buttons, action buttons, menu buttons, touch-screen, camera and motion sense","built in, SD card or downloadable",
+Xperia PLAY,4",854 × 480,16M colors,Touchscreen Accelerometer Touchpad 20× buttons,Google Play,Android 2.3.7 (Unofficial 5.1)

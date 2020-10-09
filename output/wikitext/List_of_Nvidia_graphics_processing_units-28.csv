@@ -1,4 +1,6 @@
-Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus Interface,L2 Cache (MB),Clock speeds,,,Memory,,,,Fillratename=PerfValues,,Processing power (GFLOPS)name=PerfValues,,,,TDP (Watts),NVLink Support,Release price (USD),
-,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)name=PixelFillrate,Texture (GT/s)name=TextureFillrate,Single precision,Double precision,Half precision,Tensor compute + Single precision,,,MSRP,Founders Edition
-Nvidia TITAN V[97],"December 7, 2017",GV100-400-A1,TSMC 12FFN,21.1,815,5120:320:96:640 (80) (6),PCIe 3.0 x16,4.5,1200,1455,1700,12,652.8,HBM2,3072,153.6 186.2,384.0 465.6,12?288.0 14?899.2,6?144.0 7?449.6,24?576.0 29?798.4,110?592.0 134?092.8,250,,$2999,
-Nvidia TITAN V CEO Edition[98][99],"June 21, 2018",GV-100-???-A1,,,,5120:320:128:640 (80) (6),,6,,,,32,870.4,,4096,,,,,,,,,colspan="2" ,
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,Nvidia Optimus technology,TBP (Watts)
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
+Quadro M520,GM108,28,PCIe 3.0 ×16,,,,384:24:8 (3 SMM),,,1024,40,GDDR5,64,840,12.1,4.5,Yes,25
+Quadro M620,GM107,,,,512:32:16 (4 SMM),2048,80,,128,1000,30,,,,,,,
+Quadro M1200,,,,,640:40:16 (5 SMM),4096,,,,1400,45,,,,,,,
+Quadro M2200,GM206,,,,1024:64:32 (8 SMM),,88.1,,,2100,55,,,,,,,

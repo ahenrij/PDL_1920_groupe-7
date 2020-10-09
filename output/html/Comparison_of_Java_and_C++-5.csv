@@ -1,15 +1,82 @@
-C++ Templates,Java Generics
-"Classes, functions, aliases[17] and variables[18] can be templated.",Classes and methods can be genericized.
-"Parameters can be variadic, of any type, integral value, character literal, or a class template.","Parameters can be any reference type, including boxed primitive types (i.e. Integer, Boolean...)."
-"Separate instantiations of the class or function will be generated for each parameter-set when compiled. For class templates, only the member functions that are used will be instantiated.","One version of the class or function is compiled, works for all type parameters (via type-erasure)."
-"Objects of a class template instantiated with different parameters will have different types at run time (i.e., distinct template instantiations are distinct classes).","Type parameters are erased when compiled; objects of a class with different type parameters are the same type at run time. It causes a different constructor. Because of this type erasure, it is not possible to overload methods using different instantiations of the generic class."
-"Implementation of the class or function template must be visible within a translation unit in order to use it. This usually implies having the definitions in the header files or included in the header file. As of C++11, it is possible to use extern templates to separate compiling of some instantiations.",Signature of the class or function from a compiled class file is sufficient to use it.
-Templates can be specialized—a separate implementation could be provided for a particular template parameter.,Generics cannot be specialized.
-"Template parameters can have default arguments. Pre-C++11, this was allowed only for template classes, not functions.",Generic type parameters cannot have default arguments.
-"Wildcards unsupported. Instead, return types are often available as nested typedefs. (Also, C++11 added keyword auto, which acts as a wildcard for any type that can be determined at compile time.)",Wildcards supported as type parameter.
-"No direct support for bounding of type parameters, but metaprogramming provides this[19]","Supports bounding of type parameters with "extends" and "super" for upper and lower bounds, respectively; allows enforcement of relationships between type parameters."
-Allows instantiation of an object with the type of the parameter type.,Precludes instantiation of an object with the type of the parameter type (except via reflection).
-Type parameter of class template can be used for static methods and variables.,Type parameter of generic class cannot be used for static methods and variables.
-Static variables unshared between classes and functions of different type parameters.,Static variables shared between instances of classes of different type parameters.
-"Class and function templates do not enforce type relations for type parameters in their declaration. Use of an incorrect type parameter results in compiling failure, often generating an error message within the template code rather than in the user's code that invokes it. Proper use of templated classes and functions is dependent on proper documentation. Metaprogramming provides these features at the cost added effort. There was a proposition to solve this problem in C++11, so-called Concepts, it is planned for the next standard.",Generic classes and functions can enforce type relationships for type parameters in their declaration. Use of an incorrect type parameter results in a type error within the code that uses it. Operations on parametrized types in generic code are only allowed in ways that can be guaranteed to be safe by the declaration. This results in greater type safety at the cost of flexibility.
-Templates are Turing-complete (see template metaprogramming).,Generics are also Turing-complete[20]
+C++,Java
+"class Foo {          // Declares class Foo
+    int x = 0;       //  Private Member variable. It will
+                     // be initialized to 0, if the
+                     // constructor would not set it.
+                     // (from C++11)
+    public:
+      Foo() : x(0)     //  Constructor for Foo; initializes
+      {}               //  x to 0. If the initializer were
+                     //  omitted, the variable would
+                     //  be initialized to the value that
+                     // has been given at declaration of x.
+
+      int bar(int i) { // Member function bar()
+          return 3*i + x;
+      }
+};","class Foo {               // Defines class Foo
+    private int x;        // Member variable, normally declared
+                          // as private to enforce encapsulation
+                          // initialized to 0 by default
+
+    public Foo() {        // Constructor for Foo
+    }                     // no-arg constructor supplied by default
+
+    public int bar(int i) {        // Member method bar()
+        return 3*i + x;
+    }
+}"
+"Foo a;
+// declares a to be a Foo object value,
+// initialized using the default constructor.
+
+// Another constructor can be used as
+Foo a(args);
+// or (C++11):
+Foo a{args};",Foo a = new Foo();
+// declares a to be a reference to a new Foo object
+// initialized using the default constructor
+
+// Another constructor can be used as
+Foo a = new Foo(args);
+Foo b = a;
+// copies the contents of a to a new Foo object b;
+// alternative syntax is "Foo b(a)",// Foo b = a;
+// would declare b to be reference to the object pointed to by a
+Foo b = a.clone();
+// copies the contents of the object pointed to by a 
+//     to a new Foo object;
+// sets the reference b to point to this new object;
+// the Foo class must implement the Cloneable interface
+//     for this code to compile
+a.x = 5; // modifies the object a,a.x = 5; // modifies the object referenced by a
+"std::cout << b.x << std::endl;
+// outputs 0, because b is
+// some object other than a","System.out.println(b.x);
+// outputs 0, because b points to
+// some object other than a"
+Foo *c;
+// declares c to be a pointer to a
+// Foo object (initially
+// undefined; could point anywhere),Foo c;
+// declares c to be a reference to a Foo
+// object (initially null if c is a class member;
+// it is necessary to initialize c before use
+// if it is a local variable)
+c = new Foo;
+// c is set to the value of the address of the Foo object created by operator new,c = new Foo();
+// binds c to reference a new Foo object
+Foo &d = *c;
+// binds d to reference the same object to which c points,Foo d = c;
+// binds d to reference the same object as c
+c->x = 5;
+// modifies the object pointed to by c,c.x = 5;
+// modifies the object referenced by c
+d.bar(5);  // invokes Foo::bar() for a
+c->bar(5); // invokes Foo::bar() for *c,d.bar(5); // invokes Foo.bar() for a
+c.bar(5); // invokes Foo.bar() for c
+"std::cout << d.x << std::endl;
+// outputs 5, because d references the
+// same object to which c points","System.out.println(d.x);
+// outputs 5, because d references the
+// same object as c"

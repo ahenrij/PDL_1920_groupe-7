@@ -1,3 +1,8 @@
-v t e,Consumer,,Professional,
-Portables,"MacBook Air 13.3" (retina) model; uses Intel Core i3, i5, or i7 processors",,"MacBook Pro 13.3" (retina P3) and 16" (retina P3) models; use Intel Core i5, i7, or i9 processors",
-Desktops,"Mac Mini Entry-level desktop; uses Intel Core i3, i5, or i7 processors","iMac 21.5" (non-retina and 4K P3) and 27" (5K P3) models; use Intel Core i3, i5, i7 or i9 processors",iMac Pro 27" (5K P3) model; uses Intel Xeon W processors,Mac Pro Customizable workstation desktop; uses Intel Xeon W processors
+Model,Memory slots,Memory Max,User-replaceable HDD/SSD?,HDD/SSD bays,Expansion slots
+Mac Mini[1],No,16 GB,No,1,No
+iMac[2],"None (21.5"), 4 (27")","16 GB (21.5"), 64 GB (27")",No,1,No
+Mac Pro[3],4,64 GB,No,1,No
+MacBook Air[4],No,8 GB,No,1,No
+MacBook,No,16 GB,No,No,No
+MacBook Pro (2017)[6],No,16 GB,No,No,No
+MacBook Pro (2015)[6],No,16 GB,No,1,No

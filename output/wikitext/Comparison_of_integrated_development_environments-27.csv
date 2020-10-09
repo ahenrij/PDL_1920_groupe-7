@@ -1,4 +1,6 @@
-IDE,Developer,Latest stable release,Platform,License
-Eclipse DLTK,,5.0,"Windows, Linux, macOS, FreeBSD, JVM, Solaris",EPL
-Komodo IDE / Edit,ActiveState,9.0.1,Cross-platform,"IDE:Proprietary, Edit:GPL, LGPL, MPL"
-SlickEdit,SlickEdit,October 2016 v.21,"Windows, Linux, macOS, AIX, Solaris, HP-UX",
+IDE,Developer,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder
+Dolphin Smalltalk,Object Arts,MIT License,,,,,,
+Pharo,INRIA,MIT License,,,,various,,
+Squeak,squeak.org,MIT License,,,,various,,
+VisualAge,Instantiations,,,,,various,,
+VisualWorks,Cincom,,,,,various,,

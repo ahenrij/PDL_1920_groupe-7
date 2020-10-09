@@ -1,26 +1,14 @@
-Model,Launch,Code name,Fab (nm),Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
-Radeon X550 XT,"Jan. 24, 2007",RV410 (alto),110,400,300,4:6:4:8,1600,3200,1600,600,128,4.8 9.6,DDR GDDR3,64 128
-Radeon X550 XTX,,,,,,8:6:8:8,3200,,3200,,,,,
-Radeon X700 SE,"Apr. 1, 2005",,,,200 250,4:6:4:8,1600,,1600,,128,3.2,DDR,64
-Radeon X700 LE,"Dec. 21, 2004",,,,250,8:6:8:8,3200,,3200,,128,4,,
-Radeon X1050 (RV410),"Jan, 25, 2008",,,,200,,,,,,"128, 256",6.4,,128
-Radeon X700,Sept. 2005,,,,250 350,,,,,,,8 11.2,,
-Radeon X700 Pro,"Dec. 21, 2004",,,425,432,,3400,3400,3400,637.5,"128, 256",13.824,GDDR3,
-Radeon X700 XT,Never Released,,,475,525,,3800,3800,3800,712.5,"128, 256",16.8,,
-Radeon X740 XL,"Mar. 7, 2005 (Medion OEM)",,,425,450,,3400,3400,3400,637.5,128,14.4,,
-Radeon X800 GT 128MB,"Aug. 1, 2005",R423 R480 (thor),130,475,175,8:6:8:16,3800,7600,3800,712.5,128,22.4,DDR,256
-Radeon X800 GT 256MB,,,,,490,,,,,,256,31.36,GDDR3,
-Radeon X800,"Dec. 1, 2004",R430 (thor),110,392,350,12:6:12:16,4704,6272,4704,588,"128, 256",22.4,,
-Radeon X800 GTO 128MB,"Sept. 15, 2005",R423 R480 R430 (thor),130 110,400,,,4800,6400,4800,600,128,22.4,,
-Radeon X800 GTO 256MB,,,,,490,,,,,,256,31.36,,
-Radeon X800 Pro,"May 5, 2004",R423 (thor),130,475,450,,5700,7600,5700,712.5,,28.8,,
-Radeon X800 XL,"Dec. 1, 2004 (256 MB) May 4, 2005 (512 MB)",R430 (thor),110,400,490,16:6:16:16,6400,6400,6400,600,"256, 512",31.36,,
-Radeon X800 XT,"Dec. 1, 2004",R423 (thor),130,500,500,,8000,8000,8000,750,256,32,,
-Radeon X800 XT Platinum Edition,"May 5, 2004",,,520,560,,8320,8320,8320,780,,35.84,,
-Radeon X850 Pro,"Dec. 1, 2004",R480 (thor),,507,520,12:6:12:16,6084,8112,6084,760.5,,33.28,,
-Radeon X850 XT,,,,520,540,16:6:16:16,8320,8320,8320,780,,34.56,,
-Radeon X850 XT CrossFire Master,"Sept. 29, 2004",,,520,,,,,,,,34.56,,
-Radeon X850 XT Platinum Edition,"Dec. 21, 2004",,,540,590,,8640,8640,8640,810,,37.76,,
-Model,Launch,Code name,Fab (nm),Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
-,,,,,,,Fillrate,,,,Memory,,,
+Model,Launch,Code name,Fab (nm),Transistors (million),"Core config1,2",Core clock (MHz),Fillrate,,,,Memory,,,,,Bus interface,API compliance (version),,,Processing power (GFLOPS),Notes
+,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Clock (MHz),RAM type,Bus width (bit),Bandwidth (GB/s),,Direct3D,OpenGL,other,,
+Flipper (GameCube) [129][130][131][132][133],"September 14, 2001",Flipper,NEC 180 nm[134],51[135],4(Pixel Pipelines):1(Vertex Pipeline):4:4,162,648,648,648,90,24 shared 16 shared 3 eDRAM,324 81 162,1T-SRAM SDRAM eDRAM,64 8 512,3.2 1.6 12.8/9.63,Integrated,,,,9.4,"Fixed-function T&L, TEV register combiner"
+Xenos (Xbox 360)[136][137],"November 22, 2005",Xenon Zephyr Opus Falcon Jasper Vejle Corona,TSMC 90 nm 90 nm 65/80 nm 65/80 nm 65 nm[138] 45 nm[139] 45 nm,232[140],240(48x5):16:8,500,"240,000",4000,8000,6000,512 (shared) 10 eDRAM,700 500,GDDR3 eDRAM,128,22.4 32 (GPU to daughter die) 256 (Daughter die ROP to eDRAM),,9.0c+,,,240,Surface tessellation
+Hollywood (Wii)[141],"November 19, 2006",Hollywood,NEC 90 nm,,4(Pixel Pipelines):1(Vertex Pipeline):4:4,243,972,972,972,135,24 shared 64 shared 3 eDRAM,486 Unknown 243,1T-SRAM GDDR3 eDRAM,64 Unknown 512,4.8 4 19.2/14.4,,,,,14.1,"Fixed-function T&L, TEV register combiner"
+Latte (Wii U)[142],"November 18, 2012",Latte,Renesas 45 nm,,160:16:8,550,"176,000",4400,8800,,2048 (shared) 32 eDRAM,800 (1600 effective) 550,DDR3 eDRAM,64 1024,12.8 70.4,,,,,176,
+Liverpool (PlayStation 4)[143],"November 15, 2013",Liverpool (GCN based),TSMC 28 nm 16 nm,,1152:72:32,800,"1,843,200","25,600","57,600",,8192 (shared),1375 (5500 effective),GDDR5,256,176,,,4.2,"GNM, GNMX, PlayStation Shader Language, Mantle technically possible",1843.2,HDR possible (only 2K)
+Durango (Xbox One)[144],"November 22, 2013",Durango (GCN based),TSMC 28 nm (One S) 16 nm,4800[145],768:48:16,"853, (One S) 914","1,310,208, (One S) 1,403,904","13,648, (One S) 14,624","40,944, (One S) 43,872",,8192 (shared) 32 eSRAM,1066.5 (2133 effective) 1706 (3412 effective),DDR3 eSRAM,,"68.3 218, 219 (One S)",,11.2[146] 12,,Mantle technically possible,"1310.2, (One S) 1403.9","Tiled resources, (One S) Upscaled 4K HDR support"
+Neo (PlayStation 4 Pro)[147][148][149],"November 10, 2016",Ellesmere GCN 4,TSMC 16 nm,,2304:144:64,911,"4,197,888","58,304","131,200",,8192,1700 (6800 effective),GDDR5,,217.6,,,4.2 (4.5),"GNM, GNMX, PlayStation Shader Language, Mantle technically possible",4197.8,"4K HDR possible, Full Compatible PS4 mode with reduced power consumption"
+Scorpio Engine (Xbox One X)[150][151],"November 7, 2017",Jaguar,,6600[145],2560:160:32,1172,"6,000,640","37,504 [152]","187,520",,12288 (shared),1700 (6800 effective),GDDR5,384,326,,11.2 12,,Unknown,6000.6,"4K HDR support, supersampling"
+Scarlett (Xbox Series X)[145],?,Project Scarlett,TSMC 7 nm,"15,300",3328:208:64,1825,"12,147,200","116,800","379,600",?,10240 + 6144 (shared),?,GDDR6,320,530(GPU) + 336(Standard),?,12,?,?,12147.2,"8K support, 120fps refresh rate support and ray tracing support"
+Codename Oberon (PlayStation 5),?,Oberon,7 nm,,2304:144:64,2233 (Variable/Continuous Boost),"10,289,664","142,912","321,552",?,"16,384 (shared)",?,GDDR6,256,448,?,?,?,?,10289.6,"8K support, 120fps refresh rate support and ray tracing support"
+Model,Launch,Code name,Fab (nm),Transistors (million),"Core config1, 2",Core clock (MHz),Million Operations/s,Million Pixels/s,MTexels/s,MVertices/s,Size (MiB),Clock (MHz),RAM type,Bus width (bit),Bandwidth (GB/s),Bus interface,Direct3D,OpenGL,Other,Processing power (GFLOPS),Notes
+,,,,,,,Fillrate,,,,Memory,,,,,,API compliance (version),,,,

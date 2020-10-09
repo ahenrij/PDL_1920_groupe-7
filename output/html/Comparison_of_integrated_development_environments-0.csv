@@ -1,2 +1,6 @@
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release
-EiffelStudio,GPL and commercial,Yes,Yes,Yes,"FreeBSD, OpenVMS, Solaris, VxWorks, other Unix",Yes,Yes,Yes,Yes,Automatic testing framework,Yes,Metrics tool,BON / UML class diagramming,Multi-view,V7.1 June 2012
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Profiler,Static code analysis,MXML,Export to Mobile
+Adobe Animate Formerly Adobe Flash Professional,Proprietary,Yes,No,Yes,JVM,Yes,Yes,Yes,Yes,Yes,Yes
+Flash Builder,Proprietary,Yes,No,Yes,JVM,Yes,Yes,Yes,Yes,Yes,Yes
+FlashDevelop,MIT License,Yes,No,No,,Yes,No,Yes,No,Yes,Yes
+IntelliJ IDEA,Proprietary,Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris",Yes,No,Yes,Yes,Yes,Yes
+Powerflasher FDT,Proprietary,Yes,Yes,Yes,JVM,Yes,No,Yes,Yes,Yes,Yes

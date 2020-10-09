@@ -1,25 +1,27 @@
-Shell,String processing,Alternation (Brace expansion),Pattern matching (regular expressions built-in),Pattern matching (filename globbing),Globbing qualifiers (filename generation based on file attributes),Recursive globbing (generating files from any level of subdirectories)
-Bourne shell 1977 version,?,,,"Yes (*, ?, [...])",,
-Bourne shell recent version,,,,"Yes (*, ?, [...])",,
-POSIX shell,,,,"Yes (*, ?, [...])",,
-bash (v4.0),,,,"Yes (*, ?, [...], {...)",,**/...)
-csh,Yes (:s and other editing operators),,,,,
-tcsh,Yes (:s and other editing operators),,,,,
-Hamilton C shell,"Yes (:s and other editing operators + substr, strlen, strindex, printf, reverse, upper, lower, concat and other builtin functions)",,,,,Yes (via indefinite directory "..." wildcard[64])
-Scsh,?,?,,,,
-ksh (ksh93t+),",,,"Yes (*, ?, [...])",,"set -G, no following of symlinks)"
-pdksh,?,,,,,
-zsh,",,,"Yes (*, ?, [...], extended globbing[66])",,**/... or ***/... to follow symlinks)
-ash,?,?,,,,
-CCP,,,,,,
-COMMAND.COM,,,,"Yes (*, ?)",,
-OS/2 CMD.EXE,,,,"Yes (*, ?)",DIR /A:... command),
-Windows CMD.EXE,FOR /F and SET /A),,No[67],"Yes (*, ?)",DIR /A:... command),"FOR /R command, or, where available, indirectly via /S subdir option)"
-4DOS,"%@...[], extended environment variable processing, various string commands and FOR /F and SET /A)",,,"Yes (*, ?, [...], extended wildcards, SELECT popup command)","/A:... attribute and /I"..." description options and /[S...] size, /[T...] time, /[D...] date, and /[!...] file exclusion ranges)","FOR /R command, or indirectly via GLOBAL command or, where available, /S subdir option)"
-4OS2,?,,,?,?,?
-TCC (formerly 4NT),"%@...[], extended environment variable processing, various string commands and FOR /F and SET /A)",,,"Yes (*, ?, [...], extended wildcards, SELECT popup command)","/A:... attribute and /I"..." description options and /[S...] size, /[T...] time, /[D...] date, /[O...] owner, and /[!...] file exclusion ranges)","FOR /R command, or indirectly via GLOBAL command or, where available, /S subdir option)"
-PowerShell,"Yes (Concat/Substring/Insert/Remove/Replace, ToLower/ToUpper, Trim/TrimStart/TrimEnd, Compare, Contains/StartsWith/EndWith, Format, IndexOf/LastIndexOf, Pad/PadLeft/PadRight, Split/Join, regular expression functions and other .NET string functions)",,Yes (full regex support)[68],"Yes (*, ?, [...])",?,?
-rc,?,?,,,,
-BeanShell,?,?,,?,?,?
-VMS DCL,,,,,,[SUBDIR...])
-fish,Yes (builtin string function),Yes,yes (via builtin string match and string replace functions),"Yes (*, ?, {...)",,**/...)
+Shell,Command name completion,Path completion,Command argument completion,Wildcard completion,Command history,Mandatory argument prompt,Automatic suggestions,Colored directory listings,Text highlighting,Syntax highlighting,"Directory history, stack or similar features",Implicit directory change,Autocorrection,Integrated environment,Snippets,Value prompt,Menu/options prompt,Progress indicator,Context sensitive help,Command builder
+Thompson shell,,,,,,,,?,?,,,,,,,,,,,
+Bourne shell 1977 version,,,,,,,,?,?,,,,,,,,,,,
+Bourne shell current version,,,,,,,,,,,",,,,,,,,,
+POSIX shell,,,,,,,,,,,Yes (CDPATH),,,,,,,,,
+bash (v4.0),,,when defined,,,,,,,,"Yes (CDPATH, pushd, popd)",optional,,,,,,,,
+csh,,,,,,,,,,,"Yes (cdpath, pushd, popd)",optional,,,,,,,,
+tcsh,,,when defined,,,,,,,,"Yes (cdpath, pushd, popd)",optional,,,,,,,,
+Hamilton C shell,,,,,,,,?,?,,"Yes (cdpath, pushd, popd)",,,,,,,,,
+Scsh,,,,,,,,?,?,,,,,,,,,,,
+ksh (ksh93t+),Yes (extendable),Yes (extendable),,,,,,,,,"Yes (cdpath builtin, pushd, popd implemented as functions)",,,,,,,,,
+pdksh,,,,,,,,,,,,,,,,,,,,
+zsh,,,when defined,,,,Yes (via predict-on or user-defined[33]),,,Third-party extension[34],,optional,,,when defined (as ZLE widgets),,,,,
+ash,,,,,,,,,,,,,,,,,,,,
+CCP,,,,,,,,,,,,,,,,,,,,
+COMMAND.COM,,,,,,,,,",,,,,,,,"CHOICE command, in DR-DOS also via SWITCH / DRSWITCH internal commands)",,,
+OS/2 CMD.EXE,,,,,,,,,,,,,,,,,,,,
+Windows CMD.EXE,partial,partial,,,Yes (F8),,,,,,"Yes (PUSHD, POPD)",,,,,SET /P command),,,,
+4DOS,,,,,,,,,,," (via popup, extended directory searches, CDPATH, PUSHD, POPD, DIRHISTORY, DIRS, CDD, CD - commands and %@DIRSTACK[] function)",,,,,"INPUT, INKEY and ESET commands)","@SELECT[] function, and indirectly via a combination of INKEY, INPUT, SWITCH commands)",,,OPTION command for INI file directives)
+4OS2,?,?,?,?,,,,,,,,,,?,,?,?,,,
+TCC (formerly 4NT),,,,,,,,,,," (via popup, extended directory searches, CDPATH, PUSHD, POPD, DIRHISTORY, DIRS, CDD, CD - commands and %@DIRSTACK[] function)",,,,,"INPUT, INKEY, ESET and SET /P commands)","@SELECT[] function, and indirectly via a combination of INKEY, INPUT, SWITCH commands)[40]",,,
+PowerShell,,,,,Yes (F8),,",?,?,",Yes; multiple stacks; multiple location types[44],,",",",,,,",popup window[47]
+rc,,,,,,,,?,?,,,,,,,?,,,,
+BeanShell,,,,,,,,?,?,,,,,,,,,,,
+VMS DCL,Minimum uniqueness scheme,,,,,,,?,?,,,,,,,,,,,
+fish,,,when defined or parsable in man pages[49],,,,,?,?,,,,,,,, (via fish_config command),,,
+Shell,Command name completion,Path completion,Command argument completion,Wildcard completion,Command history,Mandatory argument prompt,Automatic suggestions,Colored directory listings,Text highlighting,Syntax highlighting,"Directory history, stack or similar features",Implicit directory change,Autocorrection,Integrated environment,Snippets,Value prompt,Menu/options prompt,Progress indicator,Context sensitive help,Command builder

@@ -1,2 +1,3 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
-bdo,5.0,1.0,,"While alphabetic and alphanumeric words are affected, numeric (numbers only) words are not.date=August 2010group=note",1.0
+<link rel="style" … />,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+style,6.0Internet Explorer 9 (trident 5.0) and earlier is limited to 31 <style> elements.[4][5]group=note,,,,

@@ -1,9 +1,8 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
-Quadro 500M,GF108,40,PCIe 2.0 ×16,700,1400,1800,96:16:4,2.8,11.2,1024,28.8,DDR3,128,268.8,11.0,4.5,35,
-Quadro 1000M,,,,,,,,,,2048,,,,,,,45,Dell Precision M4600
-Quadro 2000M,GF106,,,550,1100,,192:32:16,8.8,17.6,,,,,422.4,,,55,Dell Precision M4600
-Quadro 3000M,GF104,,,450,900,2500,240:40:32,14.4,18,,80,GDDR5,256,432,,,75,Dell Precision M6600
-Quadro 4000M,,,,475,950,,336:56:32,15.2,26.6,,,,,638.4,,,100,Dell Precision M6600
-Quadro 5000M,GF100,,,405,810,2400,320:40:32,12.96,16.2,,76.8,,,518.4,,,,Dell Precision M6500
-Quadro 5010M,GF110,,,450,900,2600,384:48:32,14.4,21.6,4096,83.2,,,691.2,,,,Dell Precision M6600
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Supported API version,,,TBP (Watts)
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
+,,,,,,,,,,,,,,,Hardware,Drivers (Software),
+GeForce FX Go 5100*,March 2003,NV34M,150,AGP 8×,200,400,1:2:2:2 *:4:4:4,0.8,0.8,64,3.2,DDR,64,9.0,1.5,2.1**,
+GeForce FX Go 5500*,,,,,300,600,,1.2,1.2,32 64,9.6,,128,,,,
+GeForce FX Go 5600*,,NV31M,130,,350,,,1.4,1.4,32,,,,,,,
+GeForce FX Go 5650*,,,,,350,,,,,,,,,,,,
+GeForce FX Go 5700*,"February 1, 2005",NV36M,,,450,550,3:2:2:2 *:4:4:4,1.8,1.8,,8.8,,,,,,

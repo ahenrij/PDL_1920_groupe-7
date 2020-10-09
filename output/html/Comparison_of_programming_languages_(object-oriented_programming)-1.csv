@@ -1,26 +1,19 @@
-,constructor,destructor,finalizer[12]
-ABAP Objects,methods constructor «importing parameter = argument» method constructor. instructions endmethod.[13],N/A,
-APL (Dyalog),? name :Implements Constructor «:Base «expr»» instructions ?,,? name :Implements Destructor instructions ?
-C++ (STL),class(«parameters») «: initializers[14]» { instructions },~class() { instructions },
-C#,class(«parameters») { instructions },void Dispose(){ instructions },~class() { instructions }
-D,this(«parameters») { instructions },,~this() { instructions }
-eC,class() { instructions },~class() { instructions },
-Java,class(«parameters») { instructions },,void finalize() { instructions }
-Eiffel,[15],,[16]
-Objective-C (Cocoa),- (id)init { instructions... return self; } or - (id)initWithFoo:parameter «bar:parameter ...» { instructions... return self; },- (void)dealloc { instructions },- (void)finalize { instructions }
-Swift,init(«parameters») { instructions },deinit { instructions },
-Python,"def __init__(self«, parameters»): Tab ? instructions",,def __del__(self): Tab ? instructions
-Visual Basic .NET,Sub New(«parameters») instructions End Sub,Sub Dispose() instructions End Sub,Overrides Sub Finalize() instructions End Sub
-Xojo,Sub Constructor(«parameters») instructions End Sub,Sub Destructor() instructions End Sub,
-PHP,function __construct(«parameters») { instructions },function __destruct() { instructions },
-Perl,"sub new { my ($class«, parameters») = @_; my $self = {}; instructions ... bless($self, $class); return $self; }",sub DESTROY { my ($self) = @_; instructions },
-Raku,"submethod BUILD { instructions } or «multi » method new(««$self: »parameters») { self.bless(*, field1 => value1, ...); ... instructions }",submethod DESTROY { instructions },
-Ruby,def initialize«(parameters)» instructions end,N/A,
-Windows PowerShell,N/A,,
-OCaml,initializer instructions[17],N/A,
-F#,do instructions or new(parameters) = expression[18],member this.Dispose() = instructions,override this.Finalize() = instructions
-JavaScript,function name(«parameters») { instructions }[19],N/A,
-JavaScript (ES6),constructor(«parameters») { instructions },,
-COBOL,N/A[20],N/A,
-Cobra,cue init(parameters) Tab ? base.init Tab ? instructions,def dispose Tab ? instructions,
-ISLISP,(defmethod initialize-object ((instance <class-name>) initvalues),,
+,Import namespace,,Import item
+,qualified,unqualified,
+ABAP Objects,,,
+C++ (STL),,using namespace ns;,using ns::item ;
+C#,,using ns;,using item = ns.item;
+D,,import ns;,import ns : item;
+Java,,import ns.*;,import ns.item;
+Objective-C,,,
+Visual Basic .NET,,Imports ns,
+Eiffel,,,
+Python,import ns,from ns import *,from ns import item
+PHP,,use ns;,use ns\item;
+Perl,use ns;,,use ns qw(item);
+Raku,,,
+Ruby,,,
+Windows PowerShell,,,
+OCaml,,open ns,
+F#,,,
+COBOL,N/A,,

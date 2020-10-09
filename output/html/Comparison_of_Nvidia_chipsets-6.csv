@@ -1,5 +1,7 @@
-Model,Release Date,Processors Supported,Fabrication process (nm),FSB/HT Frequency (MHz),Memory,Max. memory,AGP,Southbridge,Features,Notes
-nForce2 SPP,2002,"Athlon XP, Athlon, Sempron, Duron",,"333 MHz, 266 MHz, 200 MHz",DDR266/333 dual channel,3 GB,AGP 8×,MCP2 MCP2-T,,
-nForce2 IGP,2002,"Athlon XP, Athlon, Sempron, Duron",,"333 MHz, 266 MHz, 200 MHz",DDR266/333 dual channel,3 GB,AGP 8×,MCP2 MCP2-T,GeForce 4 MX IGP,
-nForce2 400,2003,"Athlon XP, Athlon, Sempron, Duron",,"400 MHz, 333 MHz, 266 MHz, 200 MHz",DDR266/333/400 single channel,3 GB,AGP 8×,MCP2 MCP2-T MCP2-S/R/GB,,
-nForce2 Ultra 400,2003,"Athlon XP, Athlon, Sempron, Duron",,"400 MHz, 333 MHz, 266 MHz, 200 MHz",DDR266/333/400 dual channel,3 GB,AGP 8×,MCP2 MCP2-T MCP2-S/R/GB,,
+Model,Code Name,Release Date,Processors Supported,Fabrication process (nm),FSB/HT Frequency (MHz),AGP,PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound,Features,Notes
+nForce3 Go 120,,2003,Turion 64,,HT 400 MHz,AGP4X,No,No,6 Ports,6 Ports Rev 2.0,2 Ports UDMA 133,No,100 Mbit/s,AC'97 2.1,,
+nForce3 Go 150,,2003,Turion 64,,HT 600 MHz,AGP8X,No,No,6 Ports,6 Ports Rev 2.0,3 Ports UDMA 133,No,1000 Mbit/s,AC'97 2.1,,
+nForce 430 Go,,2005,"Turion 64, Sempron 64",,HT 800 MHz,No,1.0a 18 lanes,No,6 Ports,8 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0Gbit/s,1000 Mbit/s,HDA,"RAID 0,1,0+1,5",
+nForce 610m,,2007,"Turion 64, Sempron 64",,HT 1 GHz,No,1.1 4 lanes,No,5 Ports,10 Ports Rev 2.0,1 Ports UDMA 133,4 Ports 3.0Gbit/s,100 Mbit/s,HDA,Onboard GeForce 7000M,
+nForce 630m,,2007,"Turion 64, Sempron 64",,HT 1 GHz,No,1.1 20 lanes,No,5 Ports,10 Ports Rev 2.0,1 Ports UDMA 133,4 Ports 3.0Gbit/s,1000 Mbit/s,HDA,Onboard GeForce 7150M,
+nForce 8200M,MCP77MV,2008,"Turion 64, Sempron 64",,HT3.0 2.6 GHz,No,2.0 4 lanes,No,5 Ports,10 Ports Rev 2.0,No,4 Ports 3.0Gbit/s,1000 Mbit/s,HDA,Onboard GeForce 8200M,

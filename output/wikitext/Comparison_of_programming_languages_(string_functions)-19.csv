@@ -1,22 +1,16 @@
 Format,Languages
-"string1 OP string2, where OP can be any of =, <>, <, >, <= and >=","Pascal, Object Pascal (Delphi), OCaml, Seed7, Standard ML, BASIC, VB, VB .NET, F#"
-"string1 OP string2, where OP can be any of =, /=, ?, <, >, <=, ? and ?; Also: EQ, NE, LT, LE, GE and GT",ALGOL 68
-"(stringOP? string1 string2), where OP can be any of =, -ci=, <, -ci<, >, -ci>, <=, -ci<=, >= and -ci>= (operators starting with '-ci' are case-insensitive)",Scheme
-"(stringOP string1 string2), where OP can be any of =, -ci=, <>, -ci<>, <, -ci<, >, -ci>, <=, -ci<=, >= and -ci>= (operators starting with '-ci' are case-insensitive)",Scheme (SRFI 13)
-"(stringOP string1 string2), where OP can be any of =, -equal, /=, -not-equal, <, -lessp, >, -greaterp, <=, -not-greaterp, >= and -not-lessp (the verbal operators are case-insensitive)",Common Lisp
-"(stringOP string1 string2), where OP can be any of =, /=, <, >, <=, and >=",ISLISP
-"string1 OP string2, where OP can be any of =, \=, <, >, <= and >=",Rexx
-"string1 OP string2, where OP can be any of =, ¬=, <, >, <=, >=, ¬< and ¬>",PL/I
-"string1 OP string2, where OP can be any of =, /=, <, >, <= and >=",Ada
-"string1 OP string2, where OP can be any of ==, /=, <, >, =< and >=",Erlang
-"string1 OP string2, where OP can be any of ==, /=, <, >, <= and >=",Haskell
-"string1 OP string2, where OP can be any of eq, ne, lt, gt, le and ge","Perl, Raku"
-"string1 OP string2, where OP can be any of ==, !=, <, >, <= and >=","C++ (STL), C#, D, Go, JavaScript, Python, PHP, Ruby, Rust,[9] Swift, Ya"
-"string1 OP string2, where OP can be any of -eq, -ceq, -ne, -cne, -lt, -clt, -gt, -cgt, -le, -cle, -ge, and -cge (operators starting with 'c' are case-sensitive)",Windows PowerShell
-"string1 OP string2, where OP can be any of ==, ~=, <, >, <= and >=",Lua
-"string1 OP string2, where OP can be any of =, ~=, <, >, <= and >=",Smalltalk
-"string1 OP string2, where OP can be any of ==, /=, <, >, <= and >=; Also: .EQ., .NE., .LT., .LE., .GT. and .GE.",Fortran.[10]
-"string1 OP string2 where OP can be any of =, <>, <, >, <=, >= as well as worded equivalents",COBOL
-"string1 OP string2 where OP can be any of ==, <>, <, >, <= and >=",Cobra
-"string1 OP string2 is available in the syntax, but means comparison of the pointers pointing to the strings, not of the string contents. Use the Compare (integer result) function.","C, Java"
-"string1.METHOD(string2) where METHOD is any of eq, ne, gt, lt, ge, le",Rust[9]
+string1 == string2,"Python, C++ (STL), C#, Cobra, Go, JavaScript (similarity), PHP (similarity), Ruby, Rust,[9] Erlang, Haskell, Lua, D, Mathematica, Swift, Ya"
+string1 === string2,"JavaScript, PHP"
+string1 == string2 or string1 .EQ. string2,Fortran
+"strcmp(string1, string2) == 0",C
+(string=? string1 string2),Scheme
+(string= string1 string2),"Common Lisp, ISLISP"
+string1 = string2,"ALGOL 68, Ada, Object Pascal (Delphi), OCaml, Pascal, Rexx, Seed7, Standard ML, BASIC, VB, VB .NET, F#, Smalltalk, PL/I, COBOL"
+"test string1 = string2, or [ string1 = string2 ]",Bourne Shell
+string1 eq string2,"Perl, Raku"
+string1.equals(string2),"Cobra, Java"
+string1.Equals(string2),C#
+"string1 -eq string2, or [string]::Equals(string1, string2)",Windows PowerShell
+"[string1 isEqualToString:string2], or [string1 isEqual:string2]",Objective-C (NSString * only)
+string1 ? string2,APL
+string1.eq(string2),Rust[9]

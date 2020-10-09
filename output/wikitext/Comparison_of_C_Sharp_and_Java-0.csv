@@ -1,9 +1,7 @@
-Statements,Java,C#
-Loops,,
-Conditionals,,
-Flow control,,
-Assignment,,
-Exception control,,
-Variable declaration,,
-Variable type inference,,
-Deterministic disposal (ARM-blocks),,
+Reference types,Java,C#
+Garbage collection,,
+Weak references,,
+Reference queue (interaction with garbage collection),,
+Soft references,,date=February 2020
+Phantom references,,
+Proxy support,,

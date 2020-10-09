@@ -1,32 +1,4 @@
-,Trident,Gecko,WebKit,Presto[p 32]
-Error state,,,,
-MediaError,5.0 [t 43],1.9.1,?,2.5
-Network state,,,,
-src,5.0[t 1],1.9.1,?,2.5
-currentSrc,,,,
-networkState,,,,
-preload,,2.0[note 11][g 90],,No
-buffered,,2.0[g 95],,
-load(),,1.9.1,,2.5
-canPlayType(),,,533[w 72],
-Ready state,,,,
-readyState,5.0[t 1],1.9.1,?,2.5
-seeking,,,,
-Playback state,,,,
-currentTime,5.0[t 1],1.9.1,?,2.5
-startTime,,No,,
-duration,,1.9.1,,
-paused,,,,
-defaultPlaybackRate,,20.0[g 96],,No
-playbackRate,,,,
-played,,15.0[g 97],,
-seekable,,8.0[g 98],,
-ended,,1.9.1,,2.5
-autoplay,,,,
-loop,,11.0[g 91],,
-play(),,1.9.1,,
-pause(),,,,
-Controls,,,,
-controls,5.0[t 1],1.9.1,?,2.5
-volume,,,,
-muted,,,,
+,Trident,edgeHTML,Gecko,WebKit,Presto
+Ogg Theora,Manual install[note 12],,1.9.1[g 101],Depends[note 13],2.5
+H.264,5.0[t 46],,33.0[50][g 102],Depends (525)[note 13][w 78],Depends[note 14]
+WebM VP8,Manual install[note 12],Yes[51],2.0[g 103][g 104],Depends (534)[w 79],2.6.30[p 34][p 35][p 36]

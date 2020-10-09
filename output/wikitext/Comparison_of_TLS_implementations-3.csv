@@ -1,13 +1,22 @@
-Implementation,Platform requirements,Network requirements,Thread safety,Random seed,Able to cross-compile,No OS (bare metal),Supported operating systems
-Botan,C++11,None,Thread-safe,Platform-dependent,,,"Windows, Linux, macOS, Android, iOS, FreeBSD, OpenBSD, Solaris, AIX, HP-UX, QNX, BeOS, IncludeOS"
-cryptlib,C89,POSIX send() and recv(). API to supply your own replacement,Thread-safe,"Platform-dependent, including hardware sources",,,"AMX, BeOS, ChorusOS, DOS, eCos, FreeRTOS/OpenRTOS, uItron, MVS, OS/2, Palm OS, QNX Neutrino, RTEMS, Tandem NonStop, ThreadX, uC/OS II, Unix (AIX, FreeBSD, HPUX, Linux, OS X, Solaris, etc.), VDK, VM/CMS, VxWorks, Win16, Win32, Win64, WinCE/PocketPC/etc, XMK"
-GnuTLS,C89,POSIX send() and recv(). API to supply your own replacement.,"Thread-safe, needs custom mutex hooks if neither POSIX nor Windows threads are available.",Platform dependent,,,"Generally any POSIX platforms or Windows, commonly tested platforms include GNU/Linux, Win32/64, OS X, Solaris, OpenWRT, FreeBSD, NetBSD, OpenBSD."
-JSSE,Java,Java SE network components,Thread-safe,Depends on java.security.SecureRandom,,,"Java based, platform-independent"
-MatrixSSL,C89,None,Thread-safe,Platform dependent,,,All
-Mbed TLS,C89,POSIX read() and write(). API to supply your own replacement.,Threading layer available (POSIX or own hooks),Random seed set through entropy pool,,,"Known to work on: Win32/64, Linux, OS X, Solaris, FreeBSD, NetBSD, OpenBSD, OpenWRT, iPhone (iOS), Xbox, Android, SeggerOS"
-NSS,"C89, NSPR[222]",NSPR[222] PR_Send() and PR_Recv(). API to supply your own replacement.,Thread-safe,Platform dependent[223],,,"AIX, Android, FreeBSD, NetBSD, OpenBSD, BeOS, HP-UX, IRIX, Linux, OS X, OS/2, Solaris, OpenVMS, Amiga DE, Windows, WinCE, Sony PlayStation"
-OpenSSL,C89,None,Thread-safe,Platform dependent,,,"Unix, DOS (with djgpp), Windows, OpenVMS, MacOS, NetWare, eCos"
-RSA BSAFE Micro Edition Suite,C89,None,Thread-safe,Platform dependent,,,"FreeBSD, Linux, macOS, Microsoft Windows, Android, iOS, AIX, Solaris"
-RSA BSAFE SSL-J,Java,Java SE network components,Thread-safe,Depends on java.security.SecureRandom,,,"FreeBSD, Linux, macOS, Microsoft Windows, Android, AIX, Solaris"
-wolfSSL,C89,POSIX send() and recv(). API to supply your own replacement.,"Thread-safe, needs mutex hooks if PThreads or WinThreads not available, can be turned off",Random seed set through wolfCrypt,,,"Win32/64, Linux, OS X, Solaris, ThreadX, VxWorks, FreeBSD, NetBSD, OpenBSD, embedded Linux, Yocto Project, OpenEmbedded, WinCE, Haiku, OpenWRT, iPhone (iOS), Android, Nintendo Wii and Gamecube through DevKitPro, QNX, MontaVista, NonStop, TRON/ITRON/µITRON, Micrium µC/OS-III, FreeRTOS, SafeRTOS, NXP/Freescale MQX, Nucleus, TinyOS, HP/UX, AIX, ARC MQX, Keil RTX, TI-RTOS, uTasker, embOS, INtime, Mbed, uT-Kernel, RIOT, CMSIS-RTOS, FROSTED, Green Hills INTEGRITY, TOPPERS, PetaLinux, Apache mynewt"
-Implementation,Platform requirements,Network requirements,Thread safety,Random seed,Able to cross-compile,No OS (bare metal),Supported operating systems
+Implementation,RSA[16],RSA-EXPORT (insecure)[16],DHE-RSA (forward secrecy)[16],DHE-DSS (forward secrecy)[16],ECDH-ECDSA[68],ECDHE-ECDSA (forward secrecy)[68],ECDH-RSA[68],ECDHE-RSA (forward secrecy)[68],"GOST R 34.10-94, 34.10-2001[69]"
+Botan,Disabled by default,No,,Disabled by default,No,,No,,No
+cryptlib,Yes,No,,Yes,No,,No,,No
+GnuTLS,Yes,No,,Disabled by default[19],No,,No,,No
+JSSE,Yes,Disabled by default,,Yes,Yes,,Yes,,No[70]
+LibreSSL,Yes,No[23],,Yes,Yes,,Yes,,Yes[71]
+MatrixSSL,Yes,No,,No,Yes,,Yes,,No
+Mbed TLS,Yes,No,,No,Yes,,Yes,,No
+NSS,Yes,Disabled by default,,Yes,Yes,,Yes,,No[73][74]
+OpenSSL,Yes,No[32],,Disabled by default[32],Yes,,Yes,,Yes[75]
+RSA BSAFE,Yes,No,,Yes,Yes,,Yes,,No
+SChannel XP/2003,Yes,Yes,No,XP: Max 1024 bits 2003: 1024 bits only,No,,No,,No[76]
+SChannel Vista/2008,Yes,Disabled by default,No,1024 bits by default[77],No,,No,except AES_GCM,No[76]
+SChannel 8/2012,Yes,Disabled by default,AES_GCM only[78][79][80],1024 bits by default[77],No,,No,except AES_GCM,No[76]
+"SChannel 7/2008R2, 8.1/2012R2",Yes,Disabled by default,,2048 bits by default[77],No,,No,except AES_GCM,No[76]
+SChannel 10,Yes,Disabled by default,,2048 bits by default[77],No,,No,,No[76]
+Secure Transport OS X 10.6,Yes,Yes,except AES_GCM,Yes,Yes,except AES_GCM,yes,except AES_GCM,No
+Secure Transport OS X 10.8-10.10,Yes,No,except AES_GCM,No,Yes,except AES_GCM,Yes,except AES_GCM,No
+Secure Transport OS X 10.11,Yes,No,,No,No,,No,,No
+wolfSSL,Yes,No,,No,Yes,,Yes,,No
+Erlang/OTP SSL application,Yes,No,,Yes,Yes,,Yes,,No
+Implementation,RSA[16],RSA-EXPORT (insecure)[16],DHE-RSA (forward secrecy)[16],DHE-DSS (forward secrecy)[16],ECDH-ECDSA[68],ECDHE-ECDSA (forward secrecy)[68],ECDH-RSA[68],ECDHE-RSA (forward secrecy)[68],"GOST R 34.10-94, 34.10-2001[69]"

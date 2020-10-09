@@ -1,26 +1,26 @@
-,public,private,protected,friend
-ABAP Objects,public section.[21] data field type type.,private section.[21] data field type type.,protected section.[21] data field type type.,[22]
-APL (Dyalog),:Field Public field «? value»,:Field «Private» field «? value»,,
-C++ (STL),public: type field;,private: type field;,protected: type field;,[23]
-C#,public type field «= value»;,private type field «= value»;,protected type field «= value»;,internal type field «= value»;
-D,,,,package type field «= value»;
-Java,,,protected type field «= value»;,type field «= value»;
-eC,public type field;,private type field;,,
-Eiffel,feature field: TYPE,feature {NONE} field: TYPE,feature {current_class} field: TYPE,feature {FRIEND} field: TYPE
-Objective-C,@public type field;,@private type field;,@protected type field;,@package type field;
-Swift,N/A,,,
-Smalltalk,N/A,,[24],N/A
-Python,self.field = value[25],N/A[26],N/A,
-Visual Basic .NET,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,Friend field As type «= value»
-Xojo,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,N/A
-PHP,public $field «= value»;,private $field «= value»;,protected $field «= value»;,
-Perl,$self->{field} = value;[25],N/A,,
-Raku,has« type »$.field« is rw»,has« type »$!field,N/A,
-Ruby,N/A,,@field = value[25],
-Windows PowerShell,Add-Member «-MemberType »NoteProperty «-Name »Bar «-Value »value -InputObject variable,N/A,,
-OCaml,N/A,,val «mutable» field = value,N/A
-F#,N/A,let «mutable» field = value,N/A,
-JavaScript,this.field = value this["field"] = value[25],,,
-COBOL,N/A,level-number field clauses.[27],N/A,N/A
-Cobra,var field «as type» «= value»,var __field «as type» «= value»,var _field «as type» «= value»,
-ISLISP,(field :initform value :accessor accessor-name :initarg keyword),,,
+,basic/void method,value-returning method
+ABAP Objects,methods name «importing parameter = argument» «exporting parameter = argument» «changing parameter = argument» «returning value(parameter)» method name. instructions endmethod.[28],[29]
+APL (Dyalog),? «left argument» name «right arguments» instructions ?,? result ? «left argument» name «right arguments» instructions ?
+"C++[30] type foo(«parameters»); The implementation of methods is usually provided in a separate source file, with the following syntax type class::foo(«parameters») { instructions }[31]",void foo(«parameters») { instructions },type foo(«parameters») { instructions ... return value; }
+C#,,
+D,,
+Java,,
+eC,void ««type of 'this'»::»foo(«parameters») { instructions },type ««type of this»::»foo(«parameters») { instructions ... return value; }
+Eiffel,foo ( «parameters» ) do instructions end,foo ( «parameters» ): TYPE do instructions... Result := value end
+Objective-C,- (void)foo«:parameter «bar:parameter ...»» { instructions },- (type)foo«:parameter «bar:parameter ...»» { instructions... return value; }
+Swift,func foo(«parameters») { instructions },func foo(«parameters») -> type { instructions... return value }
+Python,"def foo(self«, parameters»): Tab ? instructions","def foo(self«, parameters»): Tab ? instructions Tab ? return value"
+Visual Basic .NET,Sub Foo(«parameters») instructions End Sub,Function Foo(«parameters») As type instructions ... Return value End Function
+Xojo,Sub Foo(«parameters») instructions End Sub,Function Foo(«parameters») As type instructions ... Return value End Function
+PHP,function foo(«parameters»)«: void» { instructions },function foo(«parameters»)«: type» { instructions ... return value; }
+Perl,"sub foo { my ($self«, parameters») = @_; instructions }","sub foo { my ($self«, parameters») = @_; instructions ... return value; }"
+Raku,«has »«multi »method foo(««$self: »parameters») { instructions },«has «type »»«multi »method foo(««$self: »parameters») { instructions ... return value; }
+Ruby,def foo«(parameters)» instructions end,def foo«(parameters)» instructions expression resulting in return value end or def foo«(parameters)» instructions return value end
+Windows PowerShell,Add-Member «-MemberType» ScriptMethod «-Name» foo «-Value» { «param(parameters)» instructions } -InputObject variable,Add-Member «-MemberType» ScriptMethod «-Name» foo «-Value» { «param(parameters)» instructions ... return value } -InputObject variable
+OCaml,N/A,method foo «parameters» = expression
+F#,,member this.foo(«parameters») = expression
+JavaScript,this.method = function(«parameters») {instructions} name«.prototype.method = function(«parameters») {instructions}[32],this.method = function(«parameters») {instructions... return value;} name«.prototype.method = function(«parameters») {instructions... return value;}[32]
+Javascript (ES6),foo(«parameters») {instructions},foo(«parameters») {instructions... return value;}
+COBOL,METHOD-ID. foo. «DATA DIVISION. LINKAGE SECTION. parameter declarations» PROCEDURE DIVISION« USING parameters». instructions END METHOD foo.,METHOD-ID. foo. DATA DIVISION. LINKAGE SECTION. «parameter declarations» result-var declaration PROCEDURE DIVISION« USING parameters» RETURNING result-var. instructions END METHOD foo.
+Cobra,def foo(parameters) Tab ? instructions,def foo(parameters) as type Tab ? instructions Tab ? return value
+ISLISP,(defgeneric method (arg1 arg2)) (defmethod method ((arg1 <class1> arg2 <class2>) ...),

@@ -1,22 +1,9 @@
-Asian interplanetary exploration probes,,,,,
-Mission name,Destination,Type,Year,Vehicle,Outcome
-JPN Nozomi,Mars,Orbiter,2003,JPN M-V,
-JPN Hayabusa,Asteroid: 25143 Itokawa,Sample return,2005-7,JPN M-V,
-JPN Akatsuki (PLANET-C),Venus,Orbiter,2010,JPN H-IIA 202,
-,,,2015,,
-JPN IKAROS,Venus,Flyby,2010,,
-JPN Shin'en,Venus,Flyby,2010,,
-PRC Yinghuo-1,Mars,Orbiter,2011,UKR Zenit-2M,
-PRC Chang'e 2,Asteroid: 4179 Toutatis,Flyby,2012,PRC Long March 3C,
-IND Mars Orbiter Mission,Mars,Orbiter,2013-14,IND PSLV-XL,
-JPN Hayabusa2,Asteroid: 162173 Ryugu,Sample return,2014-20,JPN H-IIA 202,en route
-JPN PROCYON,Asteroid: 2000 DP107,Flyby,2016,JPN H-IIA 202,
-JPN Mio,Mercury,Orbiter,2018-24,EU Ariane 5 ECA,en route
-PRC Tianwen-1,Mars,Orbiter/Rover,2020-21,PRC Long March 5,en route
-UAE Hope Mars Mission,Mars,Orbiter,2020-21,JPN H-IIA,en route
-IND Aditya-L1,Sun,Orbiter,2020,IND PSLV-XL,
-JPN DESTINY+,Asteroid: 3200 Phaethon,Flyby,2022-26,JPN Epsilon,
-IND Shukrayaan-1,Venus,Orbiter and aerobots,2023,IND GSLV MkIII,
-JPN MMX,Mars,Orbiter,2024-2025,TBD,
-,Phobos,Sample return,,,
-IND Mars Orbiter Mission 2,Mars,Orbiter Lander Rover,TBD,IND GSLV MkII or GSLV MkIII,
+,2011[163],2012[164],2013[165],2014[166],2015[167],2016[168],2017[169],2018[170],2019[171],Total
+China,19,19,15,16,19,22,18,39,34,201
+India,3,2,4,5,5,7,5,7,6,44
+Japan,3,2,3,4,4,4,7,6,2,35
+Iran,1,3,1,-,1,-,1,-,3,10
+North Korea,-,2,-,-,-,1,-,-,-,3
+Israel,-,-,-,1,-,1,-,-,-,2
+South Korea,-,-,1,-,-,-,-,-,-,1
+Total,26,28,24,26,29,35,31,52,45,296

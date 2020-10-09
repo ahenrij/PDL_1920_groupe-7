@@ -1,3 +1,5 @@
-Model,Code Name,Release Date,CPU Socket,Processors Supported,Fab (nm),FSB/HT Frequency (MHz),Memory,PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound,Graphics
-GeForce 9300,MCP7A,October 2008,LGA 775,"Intel Core 2, Pentium Dual-Core, Core-based Celerons",,1333 MHz,DDR3-1333 / DDR2-800 dual channel,2.0 20 lanes,No,5 Ports,12 Ports Rev 2.0,No,6 Ports 3.0Gbit/s,1000 Mbit/s,HDA,GeForce 9300
-GeForce 9400,MCP7A,,,,,,,,,,,,,,,GeForce 9400
+Model,Release Date,Fabrication process (nm),PCI,USB,FireWire (IEEE1394),PATA,SATA,LAN,Sound,Features,Notes
+MCP2,2002,,5 Ports,6 Ports Rev 2.0,No,2 Ports UDMA 133,No,100 Mbit/s,AC'97 2.1,,
+MCP2-T,2002,,5 Ports,6 Ports Rev 2.0,2 Ports,2 Ports UDMA 133,No,2× 100 Mbit/s,AC'97 2.1 NVAPU SoundStorm,additional 100 Mbit/s LAN by 3Com,
+MCP2-S/R,2004,,6 Ports,8 Ports Rev 2.0,No,2 Ports UDMA 133,2 Ports 1.5 Gbit/s,100 Mbit/s,AC'97 2.1,"RAID 0, 1, 0+1 (MCP2-R)",
+MCP2-GB,2004,,6 Ports,8 Ports Rev 2.0,No,2 Ports UDMA 133,2 Ports 1.5 Gbit/s,1000 Mbit/s,AC'97 2.1,"RAID 0, 1, 0+1 Gigabit LAN with nVidia Firewall",

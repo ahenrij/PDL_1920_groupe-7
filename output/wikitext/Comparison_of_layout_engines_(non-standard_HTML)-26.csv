@@ -1,8 +1,61 @@
-,Trident,EdgeHTML,Gecko,WebKit,Presto
-getElementsByClassName[183],5.0[184],12,1.9[185],525,2.1
-registerProtocolHandler,rowspan="2" ,rowspan="2" ,1.91=Limited to the feed protocol in 1.8; fully supported in 1.9.[186]date=May 2014,rowspan="2" ,rowspan="2" 2.10[188]
-registerContentHandler,1.81=Limited to feed MIME types in 1.8 and 1.9.[189],,,,
-Cross-document messaging,4.0,12,1.9[190],,2.0
-Drag-and-drop,6.0,12,1.9.1[98],,2.10.270[191]
-pushState() and replaceState(),6.0[192],12,2.0[193],528[194],2.9[195]
-! Trident,EdgeHTML,Gecko,WebKit,Presto,
+,Trident[332],Gecko[333],WebKit[334],Presto[335][336]
+The canvas state,,,,
+save,rowspan="2" 5.0,rowspan="2" 1.8,rowspan="2" ,rowspan="2" 2.0
+restore,,,,
+Transformations,,,,
+scale,rowspan="5" 5.0,rowspan="5" 1.8,rowspan="5" ,rowspan="3" 2.0
+rotate,,,,
+translate,,,,
+transform,2.6[337][338][339][340],,,
+setTransform,2.6[337],,,
+Compositing,,,,
+globalAlpha,rowspan="2" 5.0,rowspan="2" 1.8,rowspan="2" ,rowspan="2" 2.0
+globalCompositeOperation,,,,
+Colors and styles,,,,
+strokeStyle,rowspan="5" 5.0,rowspan="5" 1.8,rowspan="5" ,rowspan="5" 2.0
+fillStyle,,,,
+createLinearGradient,,,,
+createRadialGradient,,,,
+createPattern,,,,
+Line styles,,,,
+lineWidth,rowspan="4" 5.0,rowspan="4" 1.8,rowspan="4" ,rowspan="4" 2.0
+lineCap,,,,
+lineJoin,,,,
+miterLimit,,,,
+Shadows,,,,
+shadowOffsetX,rowspan="4" 5.0,rowspan="4" 1.9.1[341],rowspan="4" ,rowspan="4" 2.4[342]
+shadowOffsetY,,,,
+shadowBlur,,,,
+shadowColor,,,,
+Simple shapes,,,,
+clearRect,rowspan="3" 5.0,rowspan="3" 1.8,rowspan="3" ,rowspan="3" 2.0
+fillRect,,,,
+strokeRect,,,,
+Complex shapes,,,,
+beginPath,rowspan="13" 5.0,rowspan="4" 1.8,rowspan="13" ,rowspan="13" 2.0
+closePath,,,,
+moveTo,,,,
+lineTo,,,,
+quadraticCurveTo,1.8.1[343],,,
+bezierCurveTo,1.8,,,
+arcTo,1.8.1[344],,,
+rect,rowspan="6" 1.8,,,
+arc,,,,
+fill,,,,
+stroke,,,,
+clip,,,,
+isPointInPath,,,,
+Focus management,,,,
+drawFocusRing,,28.0[345],,
+Text,,,,
+font,rowspan="6" 5.0,"rowspan="6" 1.9.1Gecko had experimental support in version 1.9, with different names.[346]group=note",rowspan="6" ,
+textAlign,rowspan="5" 2.6,,,
+textBaseline,,,,
+fillText,,,,
+strokeText,,,,
+measureText,,,,
+Images,,,,
+drawImage,rowspan="4" 5.0,1.8,rowspan="4" ,2.0
+createImageData,1.9.1[347][348],2.7[349],,
+getImageData,1.9[348],rowspan="2" 2.6[337],,
+putImageData,2.0[350][348],,,

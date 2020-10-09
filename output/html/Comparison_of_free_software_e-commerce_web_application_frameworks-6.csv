@@ -1,16 +1,12 @@
-,Product import-export,Statistics,Stock control,WYSIWYG editor
-Apache OFBiz,Yes,Yes,Yes,Yes
-Batavi,Yes,Yes,Yes,Yes
-Bigcommerce,Yes,Yes,Yes,Yes
-Drupal Commerce,Yes,Yes,Yes,Yes
-KonaKart,Yes,Yes,Yes,Yes
-Magento,Yes,Yes,Yes,Yes
-nopCommerce,Yes,Yes,Yes,Yes
-osCommerce,add-on,Yes,Yes,add-on
-pimcore,Yes,Yes,Yes,Yes
-PrestaShop,Yes,Yes,Yes,Yes
-Shopify,Yes,Yes,Yes,No
-SupaDupa,Yes,Yes,Yes,No
-WooCommerce,Yes,Yes,Yes,Yes
-Zen Cart,add-on,Yes,Yes,add-on
-,Product import-export,Statistics,Stock control,WYSIWYG editor
+,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS,Purolator
+Apache OFBiz,No,No,Yes,Yes,No,Yes,Yes,No
+Bigcommerce,Yes,Yes,No,Yes,No,Yes,Yes,No
+KonaKart,No,No,No,Yes,No,Yes,Yes,No
+Magento,No,Yes,Yes,Yes,No,Yes,Yes,Yes
+nopCommerce,Yes,Yes,No,Yes,No,Yes,Yes,No
+osCommerce,No,No,No,No,No,No,No,No
+PrestaShop,Yes,Yes,No,Yes,No,Yes,Yes,Yes
+Shopify,No,add-on,No,No,No,Yes,Yes,No
+WooCommerce,No,Yes,No,No,No,Yes,No,No
+Zen Cart,add-on,add-on,add-on,add-on,Yes,add-on,Yes,Yes
+,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS,Purolator

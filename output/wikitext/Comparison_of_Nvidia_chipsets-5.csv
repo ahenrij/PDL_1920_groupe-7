@@ -1,4 +1,3 @@
-Model,Code Name,Release Date,CPU Socket,Processors Supported,Fabrication process (nm),FSB/HT Frequency (MHz),PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound,Features
-GeForce 8100,MCP78,2008,Socket AM2+,Athlon 64 Athlon 64 X2 Athlon 64 FX Opteron Sempron Phenom Phenom II,,HT 3.0 2.6 GHz,2.0 19 lanes,No,5 Ports,12 Ports Rev 2.0,1 Ports UDMA 133,6 Ports 3.0Gbit/s,1000 Mbit/s,HDA,GeForce 8100
-GeForce 8200,,2008,,,,,,,,,,,,,GeForce 8200
-GeForce 8300,,2008,,,,,,,,,,,,,GeForce 8300
+Model,Code Name,Release Date,CPU Socket,Processors Supported,Fab (nm),FSB/HT Frequency (MHz),Memory,PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound
+nForce 570 SLI,Crush51 + MCP51,2006,LGA 775,"Pentium 4, Pentium EE, Pentium D, Celeron D, Core 2",,1066 MHz,DDR2-666 dual channel,1.0a 20 lanes,x8+x8 (or x16+x1),5 Ports,8 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0Gbit/s,1000 Mbit/s,HDA
+nForce 590 SLI,Crush51 + MCP55,2006,,,,1066 MHz,DDR2-666 dual channel,1.0a 48 lanes,x16+x16,5 Ports,10 Ports Rev 2.0,1 Ports UDMA 133,6 Ports 3.0Gbit/s,2*1000 Mbit/s,HDA

@@ -1,3 +1,34 @@
-Definition,"find_character(string,char) returns integer"
-Description,"Returns the position of the start of the first occurrence of the character char in string. If the character is not found most of these routines return an invalid index value – -1 where indexes are 0-based, 0 where they are 1-based – or some value to be interpreted as Boolean FALSE. This can be accomplished as a special case of #Find, with a string of one character; but it may be simpler or more efficient in many languages to locate just one character. Also, in many languages, characters and strings are different types, so it is convenient to have such a function."
-Related,find
+Format,Languages
+LCase(string),VB
+lcase(string),FreeBASIC
+lc(string),"Perl, Raku"
+string.lc,Raku
+tolower(char),C[30]
+std.string.toLower(string),D
+"transform(string.begin(), string.end(), result.begin(), ::tolower)[31]",C++[32]
+lowercase(string),Object Pascal (Delphi)
+strtolower(string),PHP
+lower(string),Seed7
+echo "string" | tr 'A-Z' 'a-z',Unix
+string.lower(),Python
+downcase(string),Pick Basic
+string.downcase,Ruby[33]
+strings.ToLower(string),Go
+(string-downcase string),"Scheme (R6RS), Common Lisp"
+(lower-case string),Clojure
+String.lowercase string,OCaml
+String.map Char.toLower string,Standard ML
+map Char.toLower string,Haskell
+string.toLowerCase(),"Java, JavaScript"
+to_lower(string),Erlang
+string.ToLower(),"VB .NET, C#, Windows PowerShell, F#"
+string.lowercaseString,"Objective-C (NSString * only), Swift (Foundation)"
+string.lower(string) (string):lower(),Lua
+string asLowercase,Smalltalk
+LOWER(string),SQL
+lowercase(string),PL/I[7]
+ToLowerCase[string],Mathematica
+«FUNCTION» LOWER-CASE(string),COBOL
+string.toLower,Cobra
+string tolower string,Tcl
+string.to_lowercase(),Rust[34]

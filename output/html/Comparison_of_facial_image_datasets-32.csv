@@ -1,4 +1,7 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Bike Sharing Dataset,Hourly and daily count of rental bikes in a large city.,"Many features, including weather, length of trip, etc., are given.","17,389",Text,Regression,2013,[439][440],H. Fanaee-T
-New York City Taxi Trip Data,Trip data for yellow and green taxis in New York City.,"Gives pick up and drop off locations, fares, and other details of trips.",6 years,Text,"Classification, clustering",2015,[441],New York City Taxi and Limousine Commission
-Taxi Service Trajectory ECML PKDD,Trajectories of all taxis in a large city.,"Many features given, including start and stop points.","1,710,671",Text,"Clustering, causal-discovery",2015,[442][443],M. Ferreira et al.
+NPS Chat Corpus,Posts from age-specific online chat rooms.,"Hand privacy masked, tagged for part of speech and dialogue-act.","~ 500,000",XML,"NLP, programming, linguistics",2007,[209],"Forsyth, E., Lin, J., & Martell, C."
+Twitter Triple Corpus,A-B-A triples extracted from Twitter.,,"4,232",Text,NLP,2016,[210],"Sordini, A. et al."
+UseNet Corpus,UseNet forum postings.,"Anonymized e-mails and URLs. Omitted documents with lengths <500 words or >500,000 words, or that were <90% English.",7 billion,Text,,2011,[211],"Shaoul, C., & Westbury C."
+NUS SMS Corpus,"SMS messages collected between two users, with timing analysis.",,"~ 10,000",XML,NLP,2011,[212],"KAN, M"
+Reddit All Comments Corpus,All Reddit comments (as of 2015).,,~ 1.7 billion,JSON,"NLP, research",2015,[213],Stuck_In_the_Matrix
+Ubuntu Dialogue Corpus,Dialogues extracted from Ubuntu chat stream on IRC.,,,CSV,Dialogue Systems Research,2015,[214],"Lowe, R. et al."

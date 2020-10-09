@@ -1,6 +1,7 @@
-No.,Country,Spacecraft,Year
-1,China,Chang'e 3/Yutu,2013
-TBD,Israel,Beresheet,2019 (Failed)
-TBD,India,Chandrayaan-2/Pragyan,2019 (Failed)
-,,Chandrayaan-3,2021 (Planned)
-TBD,India,Lunar Polar Exploration Mission,2024 (Planned)
+Country,Resolution,Satellite,Year launched
+India,0.25 meter,Cartosat-3,2019
+Japan,0.4 meter,IGS Optical 5V,2013
+Israel,0.5 meter,Ofeq 9,2010
+China,0.5 meter,Gaofen 9,2015
+,0.7 meter,KOMPSAT-3,2012
+,150 meters,Rasad 1,2011

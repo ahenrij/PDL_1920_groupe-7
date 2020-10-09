@@ -1,29 +1,8 @@
-Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN
-Linux,netfilter iptables/nftables,,,,,,,,,,
-FreeBSD,"IPFW2, IPFilter, PF",,,,,,,,,,
-OpenBSD,PF,,,,,,,,,,
-NetBSD,"IPFilter, NPF, PF",,,,,group=Notee1,,,,,
-DragonFly BSD,"IPFW2, PF",,,,,,,,,,
-"OpenSolaris, illumos",IPFilter,,,,,,,,group=Notee2,,
-"Darwin, OpenDarwin",IPFW,,,,,,,,,,
-MINIX,,,,,,,,,,,
-FreeDOS,,,,,,,,,,,
-Genode,software IP routing,,,,,,,,,,
-Haiku,None,,,,,,,,,,
-KolibriOS,None,,,,,,,,,,
-MenuetOS,None,,,,,,,,,,
-GNU,netfilter iptables/nftables (with Linux-libre and Linux kernel)group=Notee3,,group=Notee4,,,,group=Notee5,,,,
-ReactOS,,,,,,,,,,,
-"L4, Fiasco, Pistachio",,,,,,,,,,,
-Plan 9,ipmux,,,,,,,,,,
-AROS,,,,,,,,,,,
-Syllable,,,,,,,,,,,
-Inferno,ipmux,,,,,,,,,,
-FreeRTOS,,,,,,,,,,,
-eCos,,,,,,,,,,,
-RTEMS,,,,,,,,,,,
-HelenOS,,,,,,,,,,,
-E/OS,,,,,,,,,,,-
-K42,,,,,,,,,,,
-UnixLite -->,,,,,,,,,,,
-Name,Firewall,TCP/IP,IPv6,IPX,PPP,PPPoE,DHCP,bridge,TUN/TAP,ssh,OpenVPN
+Operating system,Mandatory access control,Software executable space protection,Operating system-level virtualization,Virtualisation,Userspace protection,Others
+Linux,"SELinux, AppArmorgroup=Notez1 ","Exec Shield,group=Notez1 PaXgroup=Notez1 ","Chroot, namespace and cgroups,group=Notez4 Linux-VServer,group=Notez1 OpenVZgroup=Notez1 ",KVM,"IPFilter, Iptables","grsecurity,group=Notez1 RSBACgroup=Notez1"
+FreeBSD,"SeBSD,group=Notez2group=Notez3 TrustedBSD",ProPolice/SSPgroup=Notez5,jail,bhyve[48],"IPFW, PF, IPFilter",
+Darwin,"SEDarwin, TrustedBSD",,jail,,IPFW,
+OpenBSD,,"W^X, ProPolice/SSPgroup=Notez6",,vmm[49],PF,
+"OpenSolaris, illumos",TrustedBSD,,Solaris Containers,KVM[50],IPFilter,RBAC[51]
+Plan 9,,,per-process namespaces,,,
+Inferno,,,per-process namespaces,,,

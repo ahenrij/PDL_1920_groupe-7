@@ -1,4 +1,23 @@
-,Trident,edgeHTML,Gecko,WebKit,Presto
-Ogg Theora,Manual install[note 12],,1.9.1[g 101],Depends[note 13],2.5
-H.264,5.0[t 46],,33.0[50][g 102],Depends (525)[note 13][w 78],Depends[note 14]
-WebM VP8,Manual install[note 12],Yes[51],2.0[g 103][g 104],Depends (534)[w 79],2.6.30[p 34][p 35][p 36]
+,Trident,Gecko[g 99],WebKit,Presto
+loadstart,5.0[t 44],1.9.1,?,?
+progress,,,,
+suspend,,1.9.2,,
+abort,,1.9.1,,
+error,,,,
+emptied,,,,
+stalled,,8.0[g 100],,
+play,,1.9.1,,
+pause,,,,
+loadedmetadata,,,,
+loadeddata,,,,
+waiting,,,,
+playing,,No,,
+canplay,,1.9.1,,
+canplaythrough,,,,
+seeking,,,,
+seeked,,,,
+timeupdate,,,,
+ended,,,,
+ratechange,,,,
+durationchange,,,,
+volumechange,,,,

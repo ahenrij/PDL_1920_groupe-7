@@ -1,13 +1,11 @@
-ADC hub,Encryption,IPv6,Plugin,Hash algorithms,Bloom filter,ADC support,Other
-ADCH++,Yes,Yes,"Lua, Python, Ruby",Tiger tree hash,Yes,"TIGR, PING, ADCS",
-ADCH++ GUI,Yes,No,Python,Tiger tree hash,Yes,"TIGR, PING, ADCS",
-DSHub,Yes,No,"Java, Python",Tiger tree hash,No,"TIGR, PING, ADCS",
-FLexHub,Linux only,No,No,Tiger tree hash,No,"TIGR, PING, ADCS",
-Luadch,Yes,Yes,Lua,Tiger tree hash,No,"TIGR, PING, ADCS, KEYP, ASCH, SUDP, OSNR",
-Nexthub,Yes,No,C#,Tiger tree hash,No,"TIGR, ADCS",
-uhub,Yes,Yes,C,Tiger tree hash,No,"TIGR, PING, ADCS",
-Qhub,?,?,?,Tiger tree hash,No,TIGR,
-Starlet ADC Hub,No,No,No,Tiger tree hash,No,TIGR,
-Starhub,?,?,?,Tiger tree hash,No,TIGR,
-RusHub,No,?,No,Tiger tree hash,No,TIGR,
-ADC hub,Encryption,IPv6,Plugin,Hash algorithms,Bloom filter,ADC support,Other
+Other software,GUI,CLI,Other,Programming language,Based on
+ADCCore,No,No,No,C#,CoreDC
+DCBouncer,No,Yes,No,C++,
+DC-Hublink,Yes,No,No,Visual Basic,
+DCWatch,No,Yes,No,"Java, Lua",Embla
+Embla,No,No,No,Java,
+FlowLib,No,No,No,C#,
+NetChatLink,Yes,No,No,Object Pascal (Delphi),
+Announcer Bot,No,No,No,Lua,
+Certmanager,Yes,No,No,wxLua,
+ADC hub,GUI,CLI,Other,Programming language,Based on

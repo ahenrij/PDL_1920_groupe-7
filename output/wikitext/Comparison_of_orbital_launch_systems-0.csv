@@ -1,114 +1,157 @@
-Vehicle,Origin,Manufacturer,Payload mass to ... (kg),,,"Orbital launches incl. failuresSuborbital flight tests and on-pad explosions are excluded, but launches failing en route to orbit are included.",Date of flight,
-,,,LEO,GTO,Other,,"FirstEffective year for active rockets, planned year for rockets in development",Latest
-Alpha,United States,Firefly Aerospace,1000[5],,630 to SSO,0,2020[6],
-Amur,Russia,,10500[7],,,,2026[7],
-Angara 1.2,Russia,Khrunichev,3500[8],,2400 to SSO,0,"2021[9]A suborbital flight was conducted in 2014 as Angara-1.2pp, testing only the first and second stages.[10]",
-Angara A5,Russia,Khrunichev,24000[8],7500 with KVTK 5400 with Briz-M [8],,1,2014,2014
-Antares 230 / 230+,United States,Northrop Grumman,8200[11],,3000 to SSOname=500km,6[12],2016,2020
-Ariane 5 ECA,Europe,EADS Astrium,21000[13],"10,865[14]Upgraded to 11,115 kg by 2020[15]",,73[16],2002,2019
-Ariane 6 A62,Europe,ArianeGroup,"10,350[17]45","5,000[17]33","6,450 to SSO 3,000 to HEO 3,000 to TLI [17]40–49",0,2021[18],
-Ariane 6 A64,Europe,ArianeGroup,"21,650[17]46","11,500+ [17]33","14,900 to SSO 5,000 to GEO 8,400 to HEO 8,500 to TLI [17]40–49",0,2021–2022[19],
-Astra,United States,Astra Space,100[20],,150 to SSO,1,2020[20],2020
-Atlas V 401,United States,ULA,9050[21],"4,950","6,670 to SSO",38[21],2002,2018
-Atlas V 411,United States,ULA,9050[21],"6,075","8,495 to SSO",6[21],2006,2020
-Atlas V 421,United States,ULA,9050[21],"7,000","9,050 to SSO",7[21],2007,2017
-Atlas V 431,United States,ULA,9050[21],"7,800","9,050 to SSO",3[21],2005,2016
-Atlas V 501,United States,ULA,8250[21],"3,970","5,945 to SSO 1,500 to GEO",6[21],2010,2020
-Atlas V 511,United States,ULA,"11,000[21]","5,250","7,820 to SSO 1,750 to GEO",0[21],2020,
-Atlas V 521,United States,ULA,13300[21],"6,485","9,585 to SSO 2,760 to GEO",2[21],2003,2004
-Atlas V 531,United States,ULA,15300[21],"7,425","11,160 to SSO 3,250 to GEO",3[21],2010,2013
-Atlas V 541,United States,ULA,17100[21],"8,240","12,435 to SSO 3,730 to GEO",7[21],2011,2020
-Atlas V 551,United States,ULA,18500[21],"8,700","13,550 to SSO 3,960 to GEO",11[21],2006,2020
-Atlas V N22for Starliner[22],United States,ULA,"13,000",,,1,2019[23],2019
-Beta,United States,Firefly Aerospace,4000[24],0TBATo be announced,3000 to SSO,0,TBATo be announced,
-Bloostar,Spain,Zero 2 Infinity,140[25],,75 to SSO[25],0,TBATo be announced,
-Blue Whale 1,South Korea,Perigee Aerospace,63[26],,50 to SSO,0,2021[27],
-Ceres-1,China,Galactic Energy,350,,270 to SSO,0,2020[28],
-Cyclone-4M,Ukraine,Yuzhnoye Yuzhmash,5000[29],1000[30],3350 to SSO[29],0,2021[31],
-Delta IV Heavy,United States,ULA,28790[32],14220,23560 to polar 11290 to TLI 8000 to TMI,11[33],2004,2019
-Electron,United States,Rocket Lab,300[34],,200 to SSO[34],12[35],2017,2020
-Epsilon,Japan,IHI[36],1500[37],,590 to SSO,4[38],2013,2019
-Eris-S,Australia,Gilmour Space Technologies,200[39],,,0,2021–2022[40],
-Eris-L,Australia,Gilmour Space Technologies,450[39],,,0,TBATo be announced,
-Falcon 9 Full Thrust (partially reusable),United States,SpaceX,16800+[41],"5,500[42]GTO payload is 5,550 kg when the first stage lands downrange on a drone ship (ASDS). Reduced to 3,500 kg if the first stage returns to the launch site (RTLS).[43]","9,600 to polar[44]","F9FTlaunchreusable[45][46]Additionally, one rocket exploded on the launch pad in 2016.[47]",2015,2020
-Falcon 9 Full Thrust (expended),United States,SpaceX,22800[42],8300[42],"4,020 to TMI",F9FTlaunchexpendable[48][49],2017,2020
-Falcon Heavy (partially reusable)[50],United States,SpaceX,"30,000[51]–57,000[52]","8,000[42]–10,000GTO payload is 8,000 kg when the core first-stage booster lands downrange on a drone ship (ASDS) and the side boosters return to the launch site (RTLS). Increased to 10,000 kg if all boosters land on drone ships.[43]",,FHlaunch[53][54],2018,2019
-Falcon Heavy (expended),United States,SpaceX,"63,800[55]","26,700[55]","16,800 to TMI[55]",0,– As of 2019 Falcon Heavy has only flown in partially reusable configuration; fully expendable configuration is considered operational in the sense that it is a simplified version of the reusable configuration.,
-GSLV Mk II,India,ISRO,5000[56],"2700[57]GTO payload with enhanced engines, as of GSLV version 2A[58]",,7[58],2010,2018
-GSLV Mk III,India,ISRO,"10,000[59]","4,000",,3[60],2017A suborbital test flight was conducted in 2014 (designated LVM-3/CARE) without the cryogenic upper stage (CUS).[61],2019
-H-IIA 202,Japan,Mitsubishi,"8,000[62]67","4,000[62]48","5,100 to SSO5,100 kg to a 500-km Sun-synchronous orbit; 3,300 kg to 800 km[62]64–65 [62]64–65",26[63],2001,2020
-H-IIA 204,Japan,Mitsubishi,,"5,950[62]48",,4[63],2006,2017
-H3,Japan,Mitsubishi,4000[64],6500[65],4000 to SSO[66],0,2021[67],
-Hyperbola-1,China,i-Space,300[68],,,1[69],2019[70]A suborbital test flight was conducted in April 2018.[68],2019
-Hyperbola-2,China,i-Space,"2,000[68]",,,0,2021[68],
-Jielong 1[71],China,CALT,,,200 (SSO),1[71],2019,2019
-Kaituozhe-2,China,CASC,800[72],,,1[72],2017,2017
-Kuaizhou 1/1A,China,ExPace,400[73],,,9[73],2013A suborbital test flight was conducted in March 2012.[73],2019
-Kuaizhou 11,China,ExPace,1500[74],,1000 to SSO[75],1,2020,2020
-Kuaizhou 21,China,ExPace,"20,000[76]",,,0,2025[75],
-LauncherOne,United States,Virgin Orbit,500[77],,300 to SSO[78],1,2020,2020
-Long March 2C,China,CALT,3850 date=October 2018,1250 with CTS2,2000 to SSO with YZ-1S[79],57[80]Includes 6 possible launches of CZ-2C (3) noted by Gunter Krebs in reference [80].,1982,2019
-Long March 2D,China,SAST,4000,,1150 to SSO,46[80],1992,2020
-Long March 2F,China,CALT,8600,,,13[80],1999,2016
-Long March 3A,China,CALT,"6,000[81]","2,600","5,000 to SSO",27[82],1994,2018
-Long March 3B/E,China,CALT,"11,500[81]","5,500","6,900 to SSO",53[82],2007,2020
-Long March 3C,China,CALT,"9,100[81]","3,800","6,500 to SSO",17[82],2008,2019
-Long March 4B,China,SAST,4200[83],1500,2800 to SSO,35[83],1999,2019
-Long March 4C,China,SAST,4200[84],1500,2800 to SSO,28[83],2006,2019
-Long March 5,China,CALT,25000[85],14000 [86],15000 to SSO[87] 9400 to TLI[86] 6000 to TMI[86],4[87],2016,2020
-Long March 5B,China,CALT,25000[87],,,1[87],2020[88],2020
-Long March 6,China,SAST,,,1080 to SSO[89],3[90],2015,2019
-Long March 7,China,CALT,13500[91],,5500 to SSO,2[92],2016[93],2017
-Long March 7A,China,CALT,,5500 to 7000[88],,1,2020,2020
-Long March 8 (partially reusable)[94],China,CALT,7600[95],2500,4500 to SSO,0,2021[94],
-Long March 9[96],China,CALT,"140,000[97]","66,000[98]","50,000 to TLI[97] 44,000 to TMI[94]",0,2028[99]–2030[94],
-Long March 11,China,CALT,700[100],,350 to SSO,8[101],2015,2019
-Minotaur I,United States,Northrop Grumman,580[102],,,10[103],2000,2013
-Minotaur IV,United States,Northrop Grumman,1735[104],,,4[105],2010,2017
-Minotaur V,United States,Northrop Grumman,,670[105],465 to HCO,1[105],2013,2013
-Minotaur-C (Taurus)[106],United States,Northrop Grumman,1458[107],,1054 to SSOname=400kmReference altitude 400 km,10[108],1994,2017
-Miura 5,Spain,PLD Space,300[109],,,0,2024[110],
-New Glenn,,Blue Origin,"45,000[111]","13,000",,0,2021[112],
-New Line 1 (partially reusable)[113],China,LinkSpace,,,440lbkgdisp=number to SSO[113],0,2021[114],
-Nuri (KSLV-2),South Korea,KARI,1500 at 600–800 km[115],,,0,2021[115]A suborbital test flight was conducted in November 2018.,
-OS-M1,China,OneSpace,205[116],,143 to SSO,1,2019[117]A suborbital test flight was conducted in May 2018.[118],2019
-OS-M2,China,OneSpace,390[116],,292 to SSO,0,TBATo be announced,
-Pegasus,United States,Northrop Grumman,500[119],,,44[119][120],1990,2019
-Prime,,Orbex,220[121],,150 to SSOname=500kmReference altitude 500 km[122],0,2021[122],
-Proton-M / M+,Russia,Khrunichev,23000 (M+)[123] 21600 (M)[124],6920 (M+) 6150 (M),,108[125][126][127],2001,2019
-PSLV-CA,India,ISRO,2100[128],,1100 to SSO,14[128],2007,2019
-PSLV-DL,India,ISRO,,,,1[128],2019,2019
-PSLV-QL,India,ISRO,,,,2[128],2019,2019
-PSLV-XL,India,ISRO,3800[128],1300,1750 to SSO 550 to TMI[129],21[128],2008,2019
-Qased,,Operator: Iranian Revolutionary Guard Corps,,,,1,2020,2020
-RS1,United States,ABL Space Systems,1350[130],400,1000 to SSO 750 to MEO,0,2021[131],
-Safir,,Iranian Space Agency,65[132],,,"7[132]Additionally, two rockets exploded on the launch pad, one in 2012 and one in 2019.[132]",2008,2019
-Shavit,Israel,IAI,300[133],,,10[134],1988,2020
-Simorgh,,Iranian Space Agency,350[135],,,2[135]A suborbital test flight succeeded in 2016; both orbital flights in 2017 and 2019 failed.[135],2017,2019
-Soyuz-2.1a,Russia,TsSKB-Progress,7020 from Baikonur[136],,,33[137][138][139],"2006Suborbital test flight in 2004, without Fregat upper stage.[137]",2019
-Soyuz-2.1b,Russia,TsSKB-Progress,8200 from Baikonur[136],2400[140],,32[138][141],2006,2019
-Soyuz ST-A,Europe,TsSKB-Progress Arianespace,7800 from Kourou[142],2810 with Fregat[143],,6[138],2011,2018
-Soyuz ST-B,Europe,TsSKB-Progress Arianespace,9000 from Kourou[144],3250 with Fregat[143],4400 to SSO[145],16[138],2011,2019
-Soyuz-2-1v,Russia,TsSKB-Progress,2800[146],,1400 to SSO,5[146],2013,2019
-Soyuz-5 / Irtysh,Russia,TsSKB-Progress RSC Energia,"18,000[147]",,"2,500 to GEO",0,2022[148][149],
-Space Launch System Block 1with ICPS,United States,NASA / Boeing (core) Northrop Grumman (SRBs),"95,000[150]",,"26,000 to TLI[150]",0,2021[151],
-SLS Block 1Bwith EUS,United States,NASA / Boeing Northrop Grumman,"105,000[152]",,"37,000 to TLI[150]",0,2025[153],
-SLS Block 2with EUS and advanced boosters,United States,NASA / Boeing Northrop Grumman,"130,000[154]",,"45,000 to HCO[150]",0,late 2020s (TBD),
-SS-520,,IHI Aerospace,4[155],,,2[156],"2017[157]A prior version of the SS-520 flew twice as a suborbital sounding rocket in 1998 and 2000. In 2017, the addition of a small third stage enabled orbital launches of ultra-light nano- or picosatellites.[155]",2018
-SSLV,India,ISRO,500[158],,300 to SSO,0,2020[159],
-Starship[160] (Single launch),United States,SpaceX,"100,000+[160][161]","21,000[162]",,0,2021 (orbital)[163],
-Starship[160] (Additional refuelling launches),United States,SpaceX,"100,000+[160][164]","100,000+ [160]","100,000+ to Mars surface[160] 100,000+ to lunar surface[160]",0,2021-2023 (TBD)[165],
-Terran 1,United States,Relativity Space,1250[166],,900 to SSO,0,2021[167],
-Unha,North Korea,KCST,100[168],,,4[169],"2009A suborbital test flight failed in 2006. The first two orbital missions failed in 2009 and 2012, and the rocket finally reached orbit in late 2012.[169]",2016
-Vega,Europe,ESA / ASI,1500name=700kmReference altitude 700 km[170],,1330 to SSO[171],15[172],2012,2019
-Vega C,Europe,ESA / ASI,2200name=700km[173],,,0,2021[174],
-Vega E,Europe,ESA / ASI,3000name=700km[175],,,0,2025[176],
-Vikram l[177],India,Skyroot Aerospace[178],280,,200 to SSPO,0,2021[179],
-Vikram ll[177],India,Skyroot Aerospace,520,,410 to SSPO,0,TBATo be announced,
-Vikram lll[177],India,Skyroot Aerospace,720,,580 to SSPO,0,TBATo be announced,
-Vulcan / Centaur,United States,ULA,27200[180],14400[180],"7,200 to GEO[180] 12,100 to TLI",0,2021[181],
-Yun Feng,Taiwan,National Chung-Shan Institute of Science and Technology,200[182],,,0,TBATo be announced,
-Yenisei[183],Russia,TsSKB-Progress RSC Energia,"88,000 – 115,000[149]",,"27,000 to TLI[184][185][186]",0,2028[185],
-Zero,Japan,Interstellar Technologies,,,100 to SSOname=500km[187],0,2022–2023[188],
-Zhuque-1,China,LandSpace,300[189],,200 to SSO,1[190],2018[190],2018
-Zhuque-2,China,LandSpace,"4,000[191]",,"2,000 to SSO",0,2021[192],
+Vehicle,Origin,Manufacturer,Mass to ... (kg),,,Launches (+ suborbital),Date of flight,
+,,,LEO,GTO,Other,,First,Last
+Antares 110–130,United States,Orbital,5100[11],,1500 to SSO,5[11],2013,2014
+Ariane 1,Europe,Aérospatiale,1400,1830[193],,11[193],1979,1986
+Ariane 2,Europe,Aérospatiale,,2270[193],,6[193],1986,1989
+Ariane 3,Europe,Aérospatiale,,2650[193],,11[193],1984,1989
+Ariane 4 40,Europe,Aérospatiale,4600[193],2105,2740 to SSO,7[193],1990,1999
+Ariane 4 42L,Europe,Aérospatiale,7000[193],3480,4500 to SSO,13[193],1993,2002
+Ariane 4 42P,Europe,Aérospatiale,6000[193],2930,3400 to SSO,15[193],1990,2002
+Ariane 4 44L,Europe,Aérospatiale,7000[193],4720,6000 to SSO,40[193],1989,2003
+Ariane 4 44LP,Europe,Aérospatiale,7000[193],4220,5000 to SSO,26[193],1988,2001
+Ariane 4 44P,Europe,Aérospatiale,6500[193],3465,4100 to SSO,15[193],1991,2001
+Ariane 5 G,Europe,EADS Astrium,18000[16],6900[16],,16[16],1996,2003
+Ariane 5 G+,Europe,EADS Astrium,,7100[16],,3[16],2004,2004
+Ariane 5 GS,Europe,EADS Astrium,16000[194],6600[16],,6[16],2005,2009[195]
+Ariane 5 ES,Europe,EADS Astrium,21000[13],8000[16],,8[16],2008,2018
+ASLV,India,ISRO[196],150[197],,,4[197],1987,1994
+Athena I,United States,Lockheed Martin,795[198],515,,4[199],1995,2001
+Athena II,United States,Lockheed Martin,1800[200],,,3[201],1998,1999[202]
+Atlas-Centaur,United States,Lockheed,1134[203],2222[204],,148,1962,1983
+Atlas G,United States,Lockheed,5900[205],2222,"1,179 to HCO[205]",7[205],1984,1989
+Atlas H/MSD,United States,Lockheed,3630[206],,,5,1983,1987
+Atlas I,United States,Lockheed Martin,5900[205],2340[205],,11[205],1990,1997
+Atlas II,United States,Lockheed Martin,6780[205],2810,"2,000 to HCO[205]",10[205],1991,1998
+Atlas IIA,United States,Lockheed Martin,7316[205],3180,"2,160 to HCO[205]",23[205],1992,2002
+Atlas IIAS,United States,Lockheed Martin,8618[205],3833,"2,680 to HCO[205]",30[205],1993,2004
+Atlas IIIA,United States,Lockheed Martin,8686[205],4060,"2,970 to HCO[205]",2[205],2000,2004
+Atlas IIIB/DEC,,Lockheed Martin,10759[205],4609[205],,1[205],2002,2002
+Atlas IIIB/SEC,United States,Lockheed Martin,10218[207],4193[205],,3[205],2003,2005
+Black Arrow,,RAE,73[208],,,2 (+2),"1969First suborbital test in 1969, first orbital launch attempt in 1970",1971
+Titan IIICommercial Titan III,United States,Martin Marietta,13100[209],,,4,1990,1992
+Delta 0300,United States,McDonnell Douglas,,340[210],747 to SSO[211],3[212],1972,1973[213]
+Delta 0900,United States,McDonnell Douglas,1300[214],,818 to SSO[212],2[212],1972,1972
+Delta 1410,United States,McDonnell Douglas,340[215],,,1[212],1975,1975
+Delta 1604,United States,McDonnell Douglas,390[216],,,2[212],1972,1973
+Delta 1900,United States,McDonnell Douglas,1800[212],,,1[212],1973,1973
+Delta 1910,United States,McDonnell Douglas,1066[217],,,1[212],1975,1975
+Delta 1913,United States,McDonnell Douglas,328[218],,,1[212],1973,1973
+Delta 1914,United States,McDonnell Douglas,,680[219],,2[212],1972,1973
+Delta 2310,United States,McDonnell Douglas,336[220],,,3[212],1974,1981
+Delta 2313,United States,McDonnell Douglas,,,243 to GEO[221],3[212],1974,1977
+Delta 2910,United States,McDonnell Douglas,1887[212],,,6[212],1975,1978
+Delta 2913,United States,McDonnell Douglas,2000[222],700[222],,6[212],1975,1976
+Delta 2914,United States,McDonnell Douglas,,724[212],,30[212],1974,1979
+Delta 3910,United States,McDonnell Douglas,2494[212],1154 with PAM-D,,10[212],1980,1988
+Delta 3913,United States,McDonnell Douglas,816[223],,,1[212],1981,1981
+Delta 3914,United States,McDonnell Douglas,,954[212],,13[212],1975,1987
+Delta 3920,United States,McDonnell Douglas,3452[212],1284 with PAM-D,,10[212],1982,1989
+Delta 3924,United States,McDonnell Douglas,,1104[212],,4[212],1982,1984
+Delta 4925,United States,McDonnell Douglas,3400[224],1312[212],,2[212],1989,1990
+Delta 5920,United States,McDonnell Douglas,3848[225],,,1[212],1989,1989
+Delta II 6920,United States,McDonnell Douglas,3983[212],,,3[212],1990,1992
+Delta II 6925,United States,McDonnell Douglas,,1447[212],,14[212],1989,1992
+Delta II 7320,United States,Boeing IDS / ULA,2865[212],,1651 to SSO,12[212],1999,2015
+Delta II 7326,United States,Boeing IDS,,934[212],636 to TLI 629 to HCO,3[212],1998,2001
+Delta II 7420,United States,ULA,3185[212],,1966 to SSO,14[212],1998,2018
+Delta II 7425,United States,Boeing IDS,,1100[212],804 to HCO,4[212],1998,2002
+Delta II 7426,United States,Boeing IDS,,1058[212],734 to TLI 711 to HCO,1[212],1999,1999
+Delta II 7920,United States,Boeing IDS / ULA,5030[212],,3123 to SSO,29[212],1998,2017
+Delta II 7925,United States,Boeing IDS / ULA,,1819[212],"1,177 to TLI 1,265 to HCO",69[212],1990,2009
+Delta II-H 7920H,United States,Boeing IDS / ULA,6097[212],,,3[212],2003,2011
+Delta II-H 7925H,United States,Boeing IDS / ULA,,2171,"1,508 to HCO[212]",3[212],2003,2007
+Delta III 8930,United States,Boeing IDS,8292[212],3810,,3[212],1998,2000
+Delta IV M,United States,Boeing IDS,9440[32],4440,7690 to polar,3[33],2003,2006
+"Delta IV M+(4,2)",United States,ULA,13140[32],6390,10250 to polar,14[33],2002,2019
+"Delta IV M+(5,2)",United States,ULA,11470[32],5490,9600 to polar,3[33],2012,2018
+"Delta IV M+(5,4)",United States,ULA,14140[32],7300,11600 to polar,8[33],2009,2019
+Diamant,France,SEREB,107[226][227],,,12,1965,1975
+Dnepr,Ukraine,Yuzhmash,3700[228],,,22[228],1999,2015[229]
+"EnergiaWithout Buran, and assuming payload providing orbital insertion",,NPO Energia,100000[230],,"20000 to GEO[230] 32,000 to TLI[230]",1 (failed to orbit)[231],1987,1987
+Energia-Buran,,NPO Energia (Launcher) NPO Molniya (Orbiter),"30000[230]name=spaceplaneThe U.S. Space Shuttle Transportation System and the Soviet Energia-Buran system consist of launch vehicle rockets and returnable spaceplane orbiter. Payload values listed here are for the mass of the payload in cargo bay of the spaceplanes, excluding the mass of the spaceplanes themselves.",,,1,1988,1988
+Falcon 1,United States,SpaceX,470[232],,,5[232],2006,2009
+Falcon 9 v1.0,United States,SpaceX,"10,450[233]","4,540[233]",,5[234],2010,2013
+Falcon 9 v1.1,United States,SpaceX,"13,150[235]The SpaceX website lists the F9 payload to LEO as 13,150kg. The payload to GTO is listed as 4,850kg. However, SpaceX has stated that these numbers include a 30% margin to accommodate re-usability.","4,850[235]",,15[234],2013,2016
+Feng Bao 1,China,Shanghai Bureau No.2,"2,500[236]",,,8 (+3)[237],1972,1981
+GSLV Mk.I(a),India,ISRO,5000[56],1540[238],,1[238],2001,2001
+GSLV Mk.I(b),India,ISRO,5000[56],2150[238],,4[238],2003,2007
+GSLV Mk.I(c),India,ISRO,5000[56],,,1[238],2010,2010
+H-I,Japan,Mitsubishi,1400[239],,,9,1986,1992
+H-II / IIS,Japan,Mitsubishi,10060[240],4000[241],,7[241],1994,1999
+H-IIA 2022,Japan,Mitsubishi,,4500[63],,3[63],2005,2007
+H-IIA 2024,Japan,Mitsubishi,11000[242],5000[63],,7[63],2002,2008
+H-IIB,Japan,Mitsubishi,"16,500 (ISS)[65]","8,000",,8[243],2009,2020
+J-I,Japan,Nissan Motors[244],1000[245],,,0 (+1),1996,1996
+Kaituozhe-1,China,CALT,100[246],,,2,2002,2003
+Kosmos-3M,,NPO Polyot,1500[247],,,442[248],1967,2010
+Lambda 4S,Japan,Nissan Motors[244],26[249],,,5,1966,1970
+Long March 1,China,CALT,300[250],,,2[251],1970,1971
+Long March 1D,China,CALT,740[252],,,0 (+3)[251],"1995Suborbital test flights in 1995, 1997 and 2002, no orbital launches attempted",2002
+Long March 2A,China,CALT,2000[253],,,4[80],1974,1978
+Long March 2E,China,CALT,9200[80],,,7[80],1990,1995
+Long March 3,China,CALT,5000[82],,,13[82],1984,2000
+Long March 3B,China,CALT,"11,200[81]","5,100","5,700 to SSO",12[82],1996,2012
+Long March 4A,China,CALT,4000,,,2[83],1988,1990
+M-V,Japan,Nissan Motors[244] (1997–2000) IHI Aerospace[36] (2000–2006),1850[249],,,7,1997,2006
+Molniya,,RSC Energia,1800[254],,,40[255],1960,1967
+Molniya-M,,RSC Energia,2400[256],,,280[257],1965,2010
+Mu-3C,Japan,Nissan Motors[244],195[249],,,4,1974,1979
+Mu-3H,Japan,Nissan Motors[244],300[249],,,3,1977,1978
+Mu-3S,Japan,Nissan Motors[244],300[249],,,4,1980,1984
+Mu-3SII,Japan,Nissan Motors[244],770[249],,,8,1985,1995
+Mu-4S,Japan,Nissan Motors[244],180[249],,,4,1971,1972
+N1,,NPO Energia,"95000[258][259][260]The N1 rocket was initially designed for 75mt LEO capacity and launch attempts were made with this version, but there were studies to increase the payload capacity to 90–95 mt, if a liquid-hydrogen upper stage engine could be developed.",,,4[261] (never reached orbit),1969,1972
+N-I,Japan,Mitsubishi,1200[262],,,7,1975,1982
+N-II,Japan,Mitsubishi,2000[263],,,8,1981,1987
+Naro-1,South Korea,KARI/Khrunichev,100[264],,,3,2009,2013
+NOTS-EV-1 Pilot,United States,United States Navy,1.05[265],,,10,1958,1958
+Paektusan,North Korea,KCST,700[266],,,0 (+1),1998,1998
+Polyot,,RSC Energia,1400,,,2,1963,1964
+Proton-K,,Khrunichev,19760[267],4930[268],,311[269],1965,2012
+PSLV-G,India,ISRO,3200[128],1050,1600 to SSO,12[128],1993,2016[270]
+Rokot,Russia,Khrunichev,1950[271],,1200 to SSO,34[271],1990,2019
+Saturn I,United States,Chrysler (S-I) Douglas (S-IV),9000[272],,,10[273],1961,1965[273]
+Saturn IB,United States,Chrysler (S-IB) Douglas (S-IVB),18600[274],,,9[275],1966,1975
+Saturn V,United States,Boeing (S-IC) North American (S-II) Douglas (S-IVB),140000[276][277],,47000 to TLI[278],"13[279][280]The Saturn V made 13 launches, 12 of which reached the correct orbits, and the other (Apollo 6) reached a different orbit than the one which had been planned; however, some mission objectives could still be completed; NASA, Saturn V News Reference, Appendix: Saturn V Flight History (1968) url=https://web.archive.org/web/20110517075159/http://history.msfc.nasa.gov/saturn_apollo/documents/Flight_History.pdf date=2011-05-17 . For more information, see the Saturn V article. The Saturn V launch record is usually quoted as having never failed, e.g. "The rocket was masterminded by Wernher Von Braun and did not fail in any of its flights", Alan Lawrie and Robert Godwin; Saturn, but the Apollo 6 launch should be considered a partial mission failure. The 13th launch of Saturn V was in special configuration (SA-513) with the Skylab.",1967,1973
+Scout,United States,US Air Force/NASA,174[281],,,125,1961,1994
+Shtil',Russia,Makeyev,420 280–420[282],,,2[283],1998,2006
+SLV,India,ISRO,40[284],,,4[284],1979,1983[284]
+Soyuz,,RSC Energia,6450,,,31[285],1966,1976
+Soyuz-FG,Russia,TsSKB-Progress,6900[286],,,70[138][287],2001,2019
+Soyuz-L,,RSC Energia,5500,,,3[288],1970,1971
+Soyuz-M,,RSC Energia,6600,,,8[289],1971,1976
+Soyuz-U,,TsSKB-Progress,6650 from Baikonour[290] 6150 from Plesetsk[290],,,786[138][139][291],1973,2017
+Soyuz-U2,,TsSKB-Progress,7050,,,72[292],1982,1995
+Space Shuttle,United States,ATK (SRBs) Martin Marietta (External tank) Rockwell (Orbiter),24400name=spaceplane, 4944 with IUS[293] 1200 with PAM-D[294] ,3550 to escape with IUS[293],135[295],1981,2011
+Sputnik 8K71PS,,RSC Energia,500[296],,,2,1957,1957
+Sputnik 8A91,,RSC Energia,1327,,,2,1958,1958
+Start-1,Russia,MITT,532,,350 to SSO[297],5[298],1993,2006
+Strela,Russia,Khrunichev,1400[299],,,3[300],2003,2014
+Titan II GLV,United States,Martin Marietta,3600[301],,,11 (+1),1964,1966
+Titan II(23)G,United States,Martin Marietta,3600[302],,,13,1988,2003
+Titan IIIA,United States,Martin Marietta,3100[303],,,4,1964,1965
+Titan IIIB,United States,Martin Marietta,3000[304],,,70,1966,1987
+Titan IIIC,United States,Martin Marietta,13100[305],,,36,1965,1982
+Titan IIID,United States,Martin Marietta,12300[306],,,22,1971,1982
+Titan IIIE,United States,Martin Marietta,15400[307],,,7,1974,1977
+Titan 34D,United States,Martin Marietta,4515[308],,,15,1982,1989
+Titan IVA,United States,Martin Marietta,17110[309],"4,944 with IUS"," 14,090 to SSO[309] 4,536 to GSO with Centaur 3,550 to escape with IUS ",22[310],1989,1998
+Titan IVB,United States,Lockheed Martin,"21,682[311]","5,761[311] (9,000 with upper stage)",,17[310],1997,2005
+Tsyklon-2A,,Yuzhmash,3350[312],,,8[313],1967,1969
+Tsyklon-2,,Yuzhmash,2820[314],,,106[315],1969,2006[315]
+Tsyklon-3,,Yuzhmash,1920[316],,,122[317],1977,2009[317]
+Vanguard,United States,Martin,9[318],,,11 (+1),1957,1959
+Vector-R,United States,Vector Space Systems,64[319],,,0 (+2),2017,2017
+VLS-1,Brazil,"AEB, IAE",380[320],,,2A third rocket exploded before launch. (never reached orbit),1997,2003
+Volna,Russia,Makeyev,100[321],,,1 (+5)[283],1995First orbital launch attempt in 2005,2005[283]
+Voskhod,,RSC Energia,6000[322],,,306,1963,1976
+Vostok-L,,RSC Energia,,,390 to TLI[323],4,1960,1960
+Vostok-K,,RSC Energia,2460[324],,,16,1960,1964
+Vostok-2,,RSC Energia,4730[324],,,45,1962,1967
+Vostok-2M,,RSC Energia,1300[325],,,93,1964,1991
+Soyuz/Vostok,,RSC Energia,6000[326],,,2,1965,1966
+Zenit-2,,Yuzhnoye,13740[327],,,36[328],1985,2004[329]
+Zenit-2M / 2SLB,Ukraine,Yuzhnoye,13920[327],,,2[328],2007,2011
+Zenit-3F,Ukraine,Yuzhnoye,,,1740 to GEO[330],4[331],2011,2017
+Zenit-3SL,Ukraine,Yuzhmash RSC Energia,7000[331],6160,,36[331],1999,2014
+Zenit-3SLB / 3M,Ukraine,Yuzhmash RSC Energia,,3750[331],,6[331],2008,2013

@@ -1,4 +1,8 @@
 ,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
-End of no overtaking,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-End of no horns,NOT USED,NOT USED,,NOT USED,NOT USED,NOT USED,,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,,,NOT USED,NOT USED,DEFUNCT,,,NOT USED,DISUSED,NOT USED,NOT USED,NOT USED,NOT USED
-End of all restrictions,,,,,,NOT USED,,,,,,NOT USED,,,,,,,,,,,,DISUSED,,,,NOT USED,NOT USED
+Maximum speed limit,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+End of maximum speed limit,,,,,,,,,,,,,,,,,,,,,,,,DISUSED,,,,[27],
+Speed limit zone,,,,,,,,,,,,,,,,,,,,,,,,NOT USED,or,,,,
+End of speed limit zone,,,,,,,,,,,,,,,,,,,,,,,,NOT USED,or,,,,
+Minimum speed limit,,NOT USED,,,,,,,,,NOT USED,NOT USED,,,NOT USED,,,,,,,,,NOT USED,,,,,NOT USED
+Minimum speed limit ends,,NOT USED,,,,,,,,,NOT USED,NOT USED,,,NOT USED,,,,,,,,,NOT USED,,,,,NOT USED
+Advisory speed,NOT USED,NOT USED,,,,,,(until 2022),,,NOT USED,NOT USED,,,,,NOT USED,,,,DEFUNCT,,,,NOT USED,,,,

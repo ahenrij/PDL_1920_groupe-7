@@ -1,63 +1,54 @@
-Name,First public release date,Creator,Owner or maintainer as of 2016[update],License
-86-DOS 0.42,1981-02-25,Seattle Computer Products,Support ended,Proprietary
-86-DOS 1.00,1981-04-28,,,
-PC DOS 1.0,1981-08-12,Microsoft (for IBM),,
-PC DOS 1.1,1982-05-??,,,
-PC DOS 2.0,1983-03-??,,,
-PC DOS 2.1,1983-10-??,,,
-PC DOS 3.0,1984-08-??,,,
-PC DOS 3.1,1985,,,
-PC DOS 3.2,1986,,,
-PC DOS 3.3,1987,,,
-IBM DOS 4.0 (called PC DOS 4.0),1988,,,
-IBM DOS 5.0 (called PC DOS 5.0),1991,,,
-"PC DOS 6.1, PC DOS 6.3",1993,,,
-PC DOS 7.0 (revision 0),1995,,,
-PC DOS 2000 (PC DOS 7.0 revision 1),1998,,,
-PC DOS 7.10,2003,,Support ended by IBM,
-MS-DOS 1.25[1] (first version named "MS-DOS"),1982,Microsoft,Support ended,"Free, MIT License"
-Z-DOS 1.25,1982-05-??,OEM Zenith Data Systems,,Proprietary
-MS-DOS 2.0,1983-03-??,Microsoft,,"Free, MIT License"
-MS-DOS 2.11,1983-12-??,,,Proprietary
-MS-DOS 3.0,1984,,,
-MS-DOS 3.1,,,,
-MS-DOS 3.2,1986,,,
-MS-DOS 3.3,1987,,,
-MS-DOS 4.0,1988,,,
-MS-DOS 5.0,1991,,,
-MS-DOS 6.0,1993,,,
-MS-DOS 6.20,,,,
-MS-DOS 6.21,1994,,,
-MS-DOS 6.22,,,,
-MS-DOS 7.0 (Windows 95A),1995,,,
-"MS-DOS 7.10 (Windows 95 OSRs 2 and 2.5, 98, 98 SE)",1996,,,
-MS-DOS 8.0 (Windows ME and later)[2],2000,,Support ended by Microsoft[3],
-"DOS Plus 1.1, 1.2/1.2a",1985,Digital Research,Support ended,
-DOS Plus 2.1,1986,,,
-DR DOS 3.31-3.35,1988,,,
-DR DOS 3.40-3.41,1989,,,
-DR DOS 5.0,1990,,,
-DR DOS 6.0,1991,,,
-Novell DOS 7,1993,Novell,,
-Caldera OpenDOS 7.01,1997,"Caldera, Inc.; Caldera UK, Ltd.","Support ended officially; a derivative, Enhanced DR-DOS, is maintained by Udo Kuhnt","Partial, free non-commercial use"
-Caldera DR-OpenDOS 7.02,,,Support ended,
-Caldera DR-DOS 7.02,1998,,,Proprietary
-Caldera DR-DOS 7.03,"1999, 1998 prereleased","Caldera Thin Clients, Inc.; Caldera UK, Ltd; Lineo, Inc.","DRDOS, Inc.",
-DR-DOS 8.0,2004,DeviceLogics,Support ended,
-DR-DOS 8.1[4],2005,"DRDOS, Inc.",,
-FreeDOS 1.0,2006-09-03,"Jim Hall, et al.",The FreeDOS Project,"Free, GPL"
-FreeDOS 1.1,2012-01-02,,,
-FreeDOS 1.2,2016-12-25,,,
-PTS-DOS 6.4,1993,PhysTechSoft[5],PhysTechSoft,Proprietary
-PTS-DOS 6.5,?,,,
-PTS-DOS 6.6,,,,
-PTS-DOS 2000 (6.7),,,,
-PTS-DOS 32 (7.0),,,,
-PTS-DOS 6.51,ca. 1995,Paragon Technology Systems,Paragon Technology Systems,
-Paragon DOS 2000 Pro,?,,,
-ROM-DOS 6.22[6],,Datalight,Datalight,
-ROM-DOS 7.1[6],,,,
-Embedded DOS,,General Software,General Software,
-DIP DOS 2.11,1989,"DIP Research, Atari Corporation",Support ended,
-RxDOS,1994,Michael Podanoffsky,Support ended,"Free, GPL"
-SISNE plus,?,"Itautec, Scopus Tecnologia",Support ended,Proprietary
+Name,Hard drive: partition size max,Native support: File systems,Native support: floppy capacities 3.5",Native support: floppy capacities 5.25",Native support: floppy capacities 8.0",Integrated disk compression utility,Native support: long file names
+86-DOS 0.42-1.00,n/a,FAT12; (CP/M 2 through RDCPM),n/a,NorthStar 87.5 KB; Cromemco 90 KB,Cromemco/Tarbell 250.25 KB; Tarbell 616 KB; Tarbell 1232 KB[7],No,No
+MS-DOS 1.25,n/a,FAT12,n/a,160 KB; 320 KB,250.25 KB[8],No,No
+MS-DOS 2.0-2.11,16 MB (32 MB with third-party FORMAT)[9],FAT12,n/a,160 KB; 180 KB; 320 KB; 360 KB,250.25 KB;[8][10][11] 500.5 KB;[8][10][11] 616 KB;[10][11] 1232 KB[8][10]</ref>[11],No,No
+MS-DOS 3.0,32 MB,"FAT12, FAT16",n/a,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+MS-DOS 3.1,32 MB,"FAT12, FAT16",n/a,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+MS-DOS 3.2,32 MB,"FAT12, FAT16",720 KB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+MS-DOS 3.3,32 MB,"FAT12, FAT16",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+MS-DOS 3.31,512 MB,"FAT12, FAT16, FAT16B",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+MS-DOS 4.0,2 GB,"FAT12, FAT16, FAT16B",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+MS-DOS 5.0,2 GB,"FAT12, FAT16, FAT16B","720 KB, 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+MS-DOS 6.0,2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,DoubleSpace,No
+MS-DOS 6.20,2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,DoubleSpace,No
+MS-DOS 6.21,2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+MS-DOS 6.22,2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,DriveSpace,No
+MS-DOS 7.0 (Windows 95A),2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,DriveSpace,No
+"MS-DOS 7.1 (Windows 95B/OSR2, Windows 95C/OSR2.5, Windows 98, and Windows 98SE)",124.55 GB with FAT32[12],"FAT12, FAT16, FAT16B, FAT32","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,"DriveSpace for Windows 95, none for Windows 98",No
+MS-DOS 8.0 (Windows Me and later Windows versions)[2],124.55 GB with FAT32[12],"FAT12, FAT16, FAT16B, FAT32","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+PC DOS 1.0,n/a,FAT12,n/a,160 KB,n/a,No,No
+PC DOS 1.1,n/a,FAT12,n/a,160 KB; 320 KB (double-sided),n/a,No,No
+PC DOS 2.0-2.1,16 MB (32 MB with third-party FORMAT)[9],FAT12,n/a,160 KB; 180 KB; 320 KB; 360 KB,n/a,No,No
+PC DOS 3.0,32 MB,"FAT12, FAT16",n/a,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+PC DOS 3.1,32 MB,"FAT12, FAT16",n/a,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+PC DOS 3.2,32 MB,"FAT12, FAT16",720 KB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+PC DOS 3.3,32 MB,"FAT12, FAT16",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+IBM DOS 4.0,2 GB,"FAT12, FAT16, FAT16B",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+IBM DOS 5.0,2 GB,"FAT12, FAT16, FAT16B","720 KB, 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+PC DOS 6.1 (early version),2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+PC DOS 6.1 with Compression / PC DOS 6.3,2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,SuperStor,No
+PC DOS 7.0 / PC DOS 2000,2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 1.86 MB (XDF), 2.88 MB","160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB, 1.54 MB (XDF)",n/a,Stacker,No
+PC DOS 7.10,?,"FAT12, FAT16, FAT16B, FAT32","720 KB; 1.44 MB, 1.86 MB (XDF), 2.88 MB","160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB, 1.54 MB (XDF)",n/a,"Stacker, not on FAT32",No
+DOS Plus 1.1,32 MB,"FAT12, FAT16, CP/M-86",315 KB; 720 KB; CP/M 315 KB; CP/M 720 KB; MSX-DOS 360 KB; MSX-DOS 720 KB,160 KB; 180 KB; 320 KB; 360 KB; 800 KB; 1.2 MB; CP/M 160 KB; CP/M 320 KB,n/a,No,No
+DOS Plus 1.2-2.1,32 MB,"FAT12, FAT16, CP/M-86",Apricot 315 KB;[13] (720 KB[14]),160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB; Acorn 640 KB; Acorn 800 KB;[15] CP/M 320 KB,n/a,No,No
+DR DOS 3.31-3.35,2 GB[citation needed],"FAT12, FAT16, FAT16B",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,n/a,No,No
+DR DOS 3.40-3.41,2 GB,"FAT12, FAT16, FAT16B",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),No,No
+DR DOS 5.0,2 GB,"FAT12, FAT16, FAT16B",720 KB; 1.44 MB,160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),No,No
+DR DOS 6.0,2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),SuperStor,No
+PalmDOS 1.0,2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),SuperStor,No
+Novell DOS 7,2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),Stacker,No
+OpenDOS 7.01,2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),Stacker,No
+DR-OpenDOS 7.02,2 GB,"FAT12, FAT16, FAT16B","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),Stacker,No
+DR-DOS 7.02,2 GB,"FAT12, FAT16, FAT16B, (FAT32 in FDISK only)","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),Stacker,"Partial, COMMAND.COM and LONGNAME only"
+DR-DOS 7.03,2 GB,"FAT12, FAT16, FAT16B, (FAT32 in FDISK only)","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),Stacker,"Partial, COMMAND.COM and LONGNAME only"
+DR-DOS 7.04-7.05,?,"FAT12, FAT16, FAT16B, FAT32 (non-bootable)","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),"Stacker, not on FAT32","Partial, COMMAND.COM and LONGNAME only"
+DR-DOS 7.06-7.07,?,"FAT12, FAT16, FAT16B, FAT32 (bootable)","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),"Stacker, not on FAT32","Partial, COMMAND.COM and LONGNAME only"
+DR-DOS 8.0,?,"FAT12, FAT16, FAT16B, FAT32","720 KB; 1.44 MB, 2.88 MB",160 KB; 180 KB; 320 KB; 360 KB; 1.2 MB,(250.25 KB[16]),"Supported, not on FAT32","Partial, COMMAND.COM only"
+DR-DOS 8.1,?,"FAT12, FAT16, FAT16B, FAT32","720 KB; 1.44 MB, 2.88 MB",360 KB; 1.2 MB,n/a,No,No
+FreeDOS 1.0,2 TB[citation needed],"FAT12, FAT16, FAT16B, FAT32","720 KB; 1.44 MB, 2.88 MB",360 KB; 1.2 MB,n/a,?,No
+FreeDOS 1.1-1.2,2 TB[citation needed],"FAT12, FAT16, FAT16B, FAT32","720 KB; 1.44 MB, 2.88 MB",360 KB; 1.2 MB,n/a,No,Yes
+PTS-DOS 32,?,"FAT12, FAT16, FAT16B, FAT32","720 KB; 1.44 MB, 2.88 MB",360 KB; 1.2 MB,n/a,No,No
+PTS-DOS 2000,?,"FAT12, FAT16, FAT16B, FAT32","720 KB; 1.44 MB, 2.88 MB",360 KB; 1.2 MB,n/a,No,No
+PTS-DOS 2000 PRO,?,"FAT12, FAT16, FAT16B, FAT32","720 KB; 1.44 MB, 2.88 MB",360 KB; 1.2 MB,n/a,No,No
+Datalight ROM-DOS,?,"FAT12, FAT16, FAT16B, FAT32","720 KB; 1.44 MB, 2.88 MB",360 KB; 1.2 MB,n/a,No,Yes
+DIP DOS,n/a,FAT12,n/a,n/a,n/a,No,No

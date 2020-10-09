@@ -1,7 +1,9 @@
-Threading and Synchronization,Java,C#
-Threads,,
-Thread pool,,
-Task-based parallelism,,
-Semaphores,,
-Monitors,,
-Thread-local variables,,
+Statements,Java,C#
+Loops,,
+Conditionals,,
+Flow control,,
+Assignment,,
+Exception control,,
+Variable declaration,,
+Variable type inference,,
+Deterministic disposal (ARM-blocks),,

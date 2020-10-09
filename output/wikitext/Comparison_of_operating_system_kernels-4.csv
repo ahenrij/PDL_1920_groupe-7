@@ -1,9 +1,5 @@
-Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
-FreeBSD kernel,,,,,,,,,,,,,,,
-Linux kernel,,,(Longene),,,,,,,,,,,,
-NetBSD kernel,,,,,,,,,,,,,,,
-OpenBSD kernel,,,,,,,,,,,,,,,
-Windows NT kernel,,,,,,,,,,,,,,,
-ReactOS kernel,,,,,,,,,,,,,,,
-XNU,,,,,,,,,,,,,,,
-Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
+Kernel name,ACLAsynchronous connection-oriented,SCOSynchronous connection-oriented,LMPLink management protocol,HCIHost/controller interface,L2CAPLogical link control and adaptation protocol,BNEPBluetooth network encapsulation protocol,RFComm.Radio frequency communication,SDPService discovery protocol,TCPTelephony control protocol,AVTCPAudio/visual control transport protocol,AVDTPAudio/visual data transport protocol,OBEXObject exchange,CMTP,HIDP,HCRP,CAPI,PPP
+FreeBSD kernel,,,,,,,,,,,,,,,,,
+Linux,,,,,,,,,,,,,,,,,
+macOS XNU Kernel,,,,,,,,,,,,,,,,,
+Kernel name,ACL,SCO,LMP,HCI,L2CAP,BNEP,RFComm.,SDP,TCP,AVTCP,AVDTP,OBEX,CMTP,HIDP,HCRP,CAPI,PPP

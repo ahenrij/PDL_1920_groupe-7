@@ -1,21 +1,26 @@
-,read-write,read-only,write-only
-ABAP Objects,N/A,,
-APL (Dyalog),:Property Numbered Default name ? result ? Get instructions ? ? Set arguments instructions ? :EndProperty Bar,:Property Numbered Default Bar ? result ? Get instructions ? :EndProperty Bar,:Property Numbered Default Bar ? Set arguments instructions ? :EndProperty Bar
-C++ (STL),type& operator[](type index) { instructions },type operator[](type index) { instructions },
-C#,type this[type index] { get{ instructions } set{ instructions } },type this[type index] { get{ instructions } },type this[type index] { set{ instructions } }
-D,"type opIndex(type index) { instructions } type opIndexAssign(type value, type index) { instructions }",type opIndex(type index) { instructions },"type opIndexAssign(type value, type index) { instructions }"
-Java,N/A,,
-Objective-C (recent Clang compiler),N/A,- (id)objectAtIndexedSubscript:(NSUInteger)index { instructions return value; } or - (id)objectForKeyedSubscript:(id)index { instructions return value; },- (void)setObject:(id)value atIndexedSubscript:(NSUInteger)index { instructions } or - (void)setObject:(id)value forKeyedSubscript:(id)index { instructions }
-Swift,subscript (index : type) -> returntype { get { instructions } set«(newIndex)» { instructions } },subscript (index : type) -> returntype { instructions },
-Eiffel[35],bracket_name alias "[]" (index: TYPE): TYPE assign set_item do instructions end set_item (value: TYPE; index: TYPE): do instructions end,bracket_name alias "[]" (index: TYPE): TYPE do instructions end,
-Python,"def __getitem__(self, index): Tab ? instructions Tab ? return value def __setitem__(self, index, value): Tab ? instructions","def __getitem__(self, index): Tab ? instructions Tab ? return value","def __setitem__(self, index, value): Tab ? instructions"
-Visual Basic .NET,Default Property Item(Index As type) As type Get instructions End Get Set(ByVal Value As type) instructions End Set End Property,Default ReadOnly Property Item(Index As type) As type Get instructions End Get End Property,Default WriteOnly Property Item(Index As type) As type Set(ByVal Value As type) instructions End Set End Property
-PHP,[37],,
-Perl,[38],,
-Raku,«our «type »»«multi »method postcircumfix:<[ ]> is rw («$self: » type $index) { instructions ... return value; } or «our «type »»«multi »method postcircumfix:<{ }> is rw («$self: » type $key) { instructions ... return value; },«our «type »»«multi »method postcircumfix:<[ ]>(«$self: » type $index) { instructions ... return value; } or «our «type »»«multi »method postcircumfix:<{ }> («$self: » type $key) { instructions ... return value; },N/A
-Ruby,"def [](index) instructions expression resulting in return value end def []=(index, value) instructions end",def [](index) instructions expression resulting in return value end,"def []=(index, value) instructions end"
-Windows PowerShell,N/A,,
-OCaml,,,
-F#,member this.Item with get(index) = expression and set index value = expression,member this.Item with get(index) = expression,member this.Item with set index value = expression
-COBOL,N/A,,
-Cobra,pro[index «as type»] as type Tab ? get Tab ?Tab ? instructions Tab ?Tab ? return value Tab ? set Tab ?Tab ? instructions,get[index «as type»] as type Tab ? instructions Tab ? return value,set[index «as type»] as type Tab ? instructions
+,public,private,protected,friend
+ABAP Objects,public section.[21] data field type type.,private section.[21] data field type type.,protected section.[21] data field type type.,[22]
+APL (Dyalog),:Field Public field «? value»,:Field «Private» field «? value»,,
+C++ (STL),public: type field;,private: type field;,protected: type field;,[23]
+C#,public type field «= value»;,private type field «= value»;,protected type field «= value»;,internal type field «= value»;
+D,,,,package type field «= value»;
+Java,,,protected type field «= value»;,type field «= value»;
+eC,public type field;,private type field;,,
+Eiffel,feature field: TYPE,feature {NONE} field: TYPE,feature {current_class} field: TYPE,feature {FRIEND} field: TYPE
+Objective-C,@public type field;,@private type field;,@protected type field;,@package type field;
+Swift,N/A,,,
+Smalltalk,N/A,,[24],N/A
+Python,self.field = value[25],N/A[26],N/A,
+Visual Basic .NET,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,Friend field As type «= value»
+Xojo,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,N/A
+PHP,public $field «= value»;,private $field «= value»;,protected $field «= value»;,
+Perl,$self->{field} = value;[25],N/A,,
+Raku,has« type »$.field« is rw»,has« type »$!field,N/A,
+Ruby,N/A,,@field = value[25],
+Windows PowerShell,Add-Member «-MemberType »NoteProperty «-Name »Bar «-Value »value -InputObject variable,N/A,,
+OCaml,N/A,,val «mutable» field = value,N/A
+F#,N/A,let «mutable» field = value,N/A,
+JavaScript,this.field = value this["field"] = value[25],,,
+COBOL,N/A,level-number field clauses.[27],N/A,N/A
+Cobra,var field «as type» «= value»,var __field «as type» «= value»,var _field «as type» «= value»,
+ISLISP,(field :initform value :accessor accessor-name :initarg keyword),,,

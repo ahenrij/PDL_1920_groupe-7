@@ -1,6 +1,5 @@
-Model,Archi- tecture,Chips,Thread processors (total),Bus interface,Memory,,TDP (Watts)
-,,,,,Bus type,Size (GB),
-GRID K1[228],Kepler,4× GK107,4× 192,PCIe 3.0 ×16,DDR3,4× 4GB,130
-GRID K2[229],,2× GK104-895,2× 1536,,GDDR5,2× 4GB,225
-GRID K340,,4× GK107,4× 384,,,4× 1GB,
-GRID K520,,2× GK104,2× 1536,,,2× 4GB,
+Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce3 Ti200,"October 1, 2001",NV20,TSMC 150 nm,AGP 4× PCI,175,200,4:1:8:4,700,700,1400,42.75,64 128,6.4,DDR,128
+GeForce3,"February 27, 2001",,,,200,230,,800,800,1600,50,64,7.36,,
+GeForce3 Ti500,"October 1, 2001",,,,240,250,,960,960,1920,60,64 128,8,,

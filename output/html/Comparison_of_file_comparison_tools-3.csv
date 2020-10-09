@@ -1,27 +1,27 @@
-Name,GUI,CLI,Scripting,Horizontal / vertical,Syntax highlighting,Reports
-Beyond Compare,Yes,Yes,Yes,Both,Yes,"XML, HTML, CSV, Text, Unix Patch"
-Compare++,Yes,Yes,,Both,Yes,"HTML, Text(combined or side-by-side)"
-diff,No,Yes,,Horizontal,Yes pipe to diff-highlight[30],
-diff3,No,Yes,,Horizontal,,
-Eclipse (compare),Yes,,,Vertical,Yes,
-Ediff,Yes,Yes,elisp,Both,Yes,
-ExamDiff Pro,Yes,Yes,,optional,Yes,"UNIX, HTML, Diff"
-Far Manager (compare),Yes,Yes,Yes,,Yes,No
-fc,No,Yes,,Horizontal,,
-FileMerge (aka opendiff),Yes,Yes,,Vertical,Yes,No
-Guiffy SureMerge,Yes,Yes,Java API,Both,Yes,"HTML, Text, Unix Patch"
-IntelliJ IDEA (compare),Yes,Yes,,Vertical,Yes,
-jEdit JDiff plugin,Yes,,,Both,Yes,
-Kompare,Yes,,,Vertical,No,
-Lazarus Diff,Yes,,,,Yes,
-Meld,Yes,No,,Horizontal,Yes,No
-Notepad++ (compare),Yes,Yes,,Both,Yes,No
-Perforce P4Merge,Yes,Yes,,Vertical,No,No
-Pretty Diff,Yes,Yes,JavaScript,Both,Yes,XHTML
-Tkdiff,Yes,,,,,
-Total Commander (compare),Yes,,,Both,No,No
-vimdiff,Yes,Yes,vim script,Both,Yes,HTML
-WinDiff,Yes,Yes,,Horizontal,No,Text
-WinMerge,Yes,Yes,,Both,Yes,"CSV, Tab-delimited, HTML, XML"
-UCC,Yes,Yes,,Vertical,Yes,"Text, CSV"
-Name,GUI,CLI,Scripting,Horizontal / vertical,Syntax highlighting,Reports
+Name,Show in-line changes,Directory comparison,Binary comparison,Moved lines,3-way comparison,Merge,Structured comparison[26],Manual compare alignment,Image compare
+Beyond Compare,Yes,Yes,Yes,No,Yes (Files and Folders),Yes (Pro only),,Yes,Yes
+Compare++,Yes,Yes,,,Yes,Yes,"Yes (C/C++,C#,Java,Javascript,CSS3)",,
+diff,No,Yes,partly,No,No,No,,,
+diff3,No,No,,,Yes (non-optional),,,,
+Eclipse (compare),Yes,,,,No (only ancestor),Yes,,No,
+Ediff,Yes,Yes,Yes,,Yes,Yes,,,
+ExamDiff Pro,Yes,Yes,Yes,Yes[27],Yes (ExamDiff Pro Master only)[28],Yes,,manual synchronization,
+Far Manager (compare),Yes (Via plugin) [29],Yes,Yes,Yes (Via plugin) [29],No,No,,,
+fc,No,No,Yes,,No,No,,,
+FileMerge (aka opendiff),Yes,Yes,Yes,,Yes (optional ancestor),Yes,,,
+Guiffy SureMerge,Yes,Yes,Yes,,Yes,Yes,,Yes,Yes
+IntelliJ IDEA (compare),Yes,Yes,Yes,No,Yes,Yes,,Yes,Yes
+jEdit JDiff plugin,Yes,,,,No,Yes,,,
+Kompare,,Yes,No,,No,Yes,,,
+Lazarus Diff,,,,,,,,,
+Meld,Yes,Yes,No,Yes,Yes,Yes,,"line alignment, unlink scroll",
+Notepad++ (compare),Yes,No,No,Yes,No,No,No,,
+Perforce P4Merge,Yes,No,No,,Yes,Yes,,,Yes
+Pretty Diff,Yes,Yes,No,No,No,No,Yes,No,
+Tkdiff,Yes,No,No,No,No,No,,,
+Total Commander (compare),Yes,Yes,Yes,No,No,Yes,No,resync comparison,No
+vimdiff,Yes,Yes (via DirDiff plugin),,,Yes,Yes,,,
+WinDiff,Yes,Yes,Yes,Yes,No,No,,,
+WinMerge,Yes,Yes,Yes,Yes,Yes,Yes,,No,Yes
+UCC,Yes,Yes,Yes,Yes,No,Yes,,,
+Name,Show in-line changes,Directory comparison,Binary comparison,Moved lines,3-way comparison,Merge,Structured comparison[26],Manual compare alignment,Image compare

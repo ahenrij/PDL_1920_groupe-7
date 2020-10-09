@@ -1,8 +1,11 @@
-Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config[a],Bus interface,L2 Cache (MB),Clock speeds,,,Memory,,,,Fillrate[b],,Processing power (GFLOPS)[b],,,TDP (Watts),NVLink support,Release price (USD)
-,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)[c],Texture (GT/s)[d],Single precision,Double precision,Half precision,,,
-GeForce GTX 1650[100],"April 23, 2019",TU117-300-A1,TSMC 12FFN,4.7,200,896:56:32:1792:0 (14) (2),PCIe 3.0 x16,1,1485,1665,8000,4,128.0,GDDR5,128,47.52,83.16,2?661.00 2?984.00,83.16 93.24,5?322.00 5?967.00,75,No,$149
-,"April 3, 2020[101]",TU117,,,,,,,1410,1590,12000,,192.0,GDDR6,,45.12,78.96,2?526.72 2?849.28,78.96 89.04,5?053.44 5?698.56,,,
-GeForce GTX 1650 Super[102],"November 22, 2019[103]",TU116-250-KA-A1[104],,6.6,284,1280:80:32:2560:0 (20) (3),,1.5,1530,1725,,,,,,48.96,122.40,3?916.80 4?416.00,122.40 138.00,7?833.60 8?832.00,100,,$159
-GeForce GTX 1660[105],"March 14, 2019",TU116-300-A1,,,,1408:88:48:2816:0 (22) (3),,,,1785,8000,6,,GDDR5,192,73.44,134.64,4?308.00 5?027.00,134.64 157.08,8?616.00 10?053.00,120,,$219
-GeForce GTX 1660 Super[106],"October 29, 2019",TU116-300-A1,,,,,,,,,14000,,336.0,GDDR6,,,,,,,125,,$229
-GeForce GTX 1660 Ti[107],"February 21, 2019",TU116-400-A1,,,,1536:96:48:3072:0 (24) (3),,,1500,1770,12000,,288.0,,,72.00,144.00,4?608.00 5?437.44,144.00 169.92,9?216.00 10?874.88,120,,$279
+Model,Code name[175],Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),L2 Cache (MB),Core config1,Fillrate,,Memory,,,,,Processing power (GFLOPS),,,Supported API version,,,,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Memory clock (MHz),Bus type,Bus width (bit),Single precision,Half Precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
+Quadro T1000[224],TU117(N19P-Q1-A1),12,PCIe 3.0,1395,1455,1,768:48:32:12:1536,46.56,69.84,4,128,2000,GDDR5,128,2235,,69.84,12.1,4.6,1.2,1.2,7.5,40-50,
+Quadro T2000[224],TU117(N19P-Q3-A1),,,1575,1785,,1024:64:32:16:2048,57.1,114.2,,,,,,3500,,,,,,,,60,
+Quadro T2000 Max-Q,TU117,,,,,,,,,,,,,,,,,,,,,,40,
+Quadro RTX 3000[224],TU106(N19E-Q1-KA-K1),,,945,1380,4,2304:144:48:36:288,88.32,198.7,6,448,1750,GDDR6,256,6359,12720,198.7,,,,,,60-80,
+RTX 3000 Max-Q[225],TU106,,,600,1215,,,77.76,175.0,,416,1625,,,5599,11200,175.0,,,,,,60,
+Quadro RTX 4000[224],TU104(N19E-Q3-A1),,,1110,1560,,2560:160:64:40:320,99.84,249.6,8,448,1750,,,7987,15970,249.6,,,,,,110,
+RTX 4000 Max-Q[226],TU104,,,780,1380,,,88.32,220.8,,416,1625,,,7066,14130,220.8,,,,,,80,
+Quadro RTX 5000[224],TU104(N19E-Q5-A1),,,,,,3072:192:64:48:384,98.88,296.6,16,448,1750,,,9492,18980,296.6,,,,,,110,
+Quadro RTX 5000 Max-Q[227],TU04,,,600,1350,,,86.40,259.2,,,,,,8294,15970,259.2,,,,,,80,

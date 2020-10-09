@@ -1,16 +1,31 @@
-Format,Languages
-string1 == string2,"Python, C++ (STL), C#, Cobra, Go, JavaScript (similarity), PHP (similarity), Ruby, Rust,[9] Erlang, Haskell, Lua, D, Mathematica, Swift, Ya"
-string1 === string2,"JavaScript, PHP"
-string1 == string2 or string1 .EQ. string2,Fortran
-"strcmp(string1, string2) == 0",C
-(string=? string1 string2),Scheme
-(string= string1 string2),"Common Lisp, ISLISP"
-string1 = string2,"ALGOL 68, Ada, Object Pascal (Delphi), OCaml, Pascal, Rexx, Seed7, Standard ML, BASIC, VB, VB .NET, F#, Smalltalk, PL/I, COBOL"
-"test string1 = string2, or [ string1 = string2 ]",Bourne Shell
-string1 eq string2,"Perl, Raku"
-string1.equals(string2),"Cobra, Java"
-string1.Equals(string2),C#
-"string1 -eq string2, or [string]::Equals(string1, string2)",Windows PowerShell
-"[string1 isEqualToString:string2], or [string1 isEqual:string2]",Objective-C (NSString * only)
-string1 ? string2,APL
-string1.eq(string2),Rust[9]
+Format,Languages,Format string syntax
+"associate(file, string); putf(file, $formatstring$, items)",ALGOL 68,ALGOL
+"Format(item, formatstring)",VB,
+"sprintf(formatstring, items)","Perl, PHP, Raku, Ruby",C
+item.fmt(formatstring),Raku,C
+"io_lib:format(formatstring, items)",Erlang,
+"sprintf(outputstring, formatstring, items)",C,C
+"std.string.format(formatstring, items)",D,C
+"Format(formatstring, items)",Object Pascal (Delphi),
+"fmt.Sprintf(formatstring, items)",Go,C
+printf -v outputstring formatstring items,Bash shell,C
+formatstring % (items),"Python, Ruby",C
+formatstring.format(items),Python,.NET
+Printf.sprintf formatstring[19] items,"OCaml, F#",C
+Text.Printf.printf formatstring items,Haskell (GHC),C
+formatstring printf: items,Smalltalk,C
+"String.format(formatstring, items)",Java,C
+"String.Format(formatstring, items)","VB .NET, C#, F#",.NET
+(format formatstring items),Scheme (SRFI 28),Lisp
+(format nil formatstring items),Common Lisp,Lisp
+(format formatstring items),Clojure,Lisp
+formatstring -f items,Windows PowerShell,.NET
+"[NSString stringWithFormat:formatstring, items]",Objective-C (NSString * only),C
+"String(format:formatstring, items)",Swift (Foundation),C
+"string.format(formatstring, items) (formatstring):format(items)",Lua,C
+"WRITE (outputstring, formatstring) items",Fortran,Fortran
+put string(string) edit(items)(format),PL/I,PL/I (similar to Fortran)
+"String.format(formatstring, items)",Cobra,.NET
+format formatstring items,Tcl,C
+formatnumbers ? items or formatstring ?FMT items,APL,APL
+"format!(formatstring, items)",Rust[20],Python

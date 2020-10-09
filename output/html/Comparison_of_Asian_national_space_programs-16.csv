@@ -1,6 +1,4 @@
-Country,Active,In orbit,Decayed,Total
-China,352,407,84,491
-Japan,90,183,65,248
-India,64,101,12,113
-Israel,17,20,6,26
-South Korea,15,22,5,27
+Country,Spacecraft,Power,Thrust,Specific impulse,Year launched
+South Korea,DubaiSat-2,0.3 kW,7 mN,1000s,2013
+China,"Shijian 17 (HEP-100MF, magnetic focusing hall thruster)",1.4 kW,,1850s,2016
+,Shijian 17 (LHT-100),1.35 kW,80 mN,1600s,

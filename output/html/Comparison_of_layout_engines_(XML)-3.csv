@@ -1,9 +1,4 @@
-Value,Meaning
-Yes,Fully supported
-No,Has never been supported
-Partial,Only some values are supported
-Incorrect,Not implemented correctly in all cases
-Experimental,May be incomplete or buggy
-Nightly build,Currently in development; full support is expected
-Depends,Only supported for the specified conditions
-Dropped,No longer supported
+,Trident,Gecko,WebKit,KHTML,Presto,Prince XML,Antenna House
+XLink[spec 10],5.0,Partial[note 2],No[w 2],No,Partial,Partial[note 3],Partial[a 2]
+XML Base[spec 11],No,1.0,No[w 3],Yes,Yes,6.0,Yes[a 3]
+XPointer[spec 12],?,Partial,No[w 4],No,No,?,No

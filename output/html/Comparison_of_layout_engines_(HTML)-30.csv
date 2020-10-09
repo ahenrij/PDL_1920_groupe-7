@@ -1,10 +1,32 @@
-,Trident,Gecko,WebKit,Presto
-Microdata,No,16.0[g 67],No[w 53],Yes[p 17]
-HTML5 Tokenizer,6.0[t 33],2.0[g 68],Yes[w 54],2.10[p 18]
-HTML5 Tree Builder,,,Yes[w 14],
-HTML5 Fragment Parser,,,Yes,
-<a rel="noreferrer">,No,33.0[g 69],Yes[w 55],No
-window.onhashchange,4.0[t 34],1.9.2[g 70],528[w 56],2.6[p 19]
-element.classList,No,1.9.2[g 71],Yes[w 57],2.8[p 11]
-dir="auto",No,20.0[g 72],528+[w 58],No
-,Trident,Gecko,WebKit,Presto
+,Trident,Gecko,WebKit,Presto[p 32]
+Error state,,,,
+MediaError,5.0 [t 43],1.9.1,?,2.5
+Network state,,,,
+src,5.0[t 1],1.9.1,?,2.5
+currentSrc,,,,
+networkState,,,,
+preload,,2.0[note 11][g 90],,No
+buffered,,2.0[g 95],,
+load(),,1.9.1,,2.5
+canPlayType(),,,533[w 72],
+Ready state,,,,
+readyState,5.0[t 1],1.9.1,?,2.5
+seeking,,,,
+Playback state,,,,
+currentTime,5.0[t 1],1.9.1,?,2.5
+startTime,,No,,
+duration,,1.9.1,,
+paused,,,,
+defaultPlaybackRate,,20.0[g 96],,No
+playbackRate,,,,
+played,,15.0[g 97],,
+seekable,,8.0[g 98],,
+ended,,1.9.1,,2.5
+autoplay,,,,
+loop,,11.0[g 91],,
+play(),,1.9.1,,
+pause(),,,,
+Controls,,,,
+controls,5.0[t 1],1.9.1,?,2.5
+volume,,,,
+muted,,,,

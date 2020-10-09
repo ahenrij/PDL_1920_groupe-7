@@ -1,7 +1,7 @@
-Country,Resolution,Satellite,Year launched
-India,0.35 meter,RISAT-2BR1,2019
-,0.5 meter x 0.3 meter,RISAT-2B,2019
-Japan,0.5 meter,IGS R-5,2017
-Israel,0.5,TecSAR,2008
-China,0.5 meter,Yaogan 29,2015
-South Korea,1 meter,KOMPSat-5,2013
+Country,Year,Mission
+Japan,1970,Lambda-4S/Ohsumi
+China,1970,Long March 1/Dong Fang Hong I
+India,1980,SLV/Rohini D1
+Israel,1988,Shavit/Ofeq 1
+Iran,2009,Safir-1/Omid
+North Korea,2012,Unha-3/Kwangmy?ngs?ng-3 Unit 2

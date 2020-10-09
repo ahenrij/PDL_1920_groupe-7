@@ -1,13 +1,13 @@
-Name,Creator,Primary Purpose(s),First release date,Most recent update,Most recent version,Cost,License,Main user interface type,Development status
-Bidule,Plogue,"Realtime synthesis, live coding, algorithmic composition, acoustic research, all-purpose programming language",2002,2017-06,0.9757,,Proprietary,Graphical,Mature
-ChucK,Ge Wang and Perry Cook,"Realtime synthesis, live coding, pedagogy, acoustic research, algorithmic composition",2004,2018-02-09,v1.4.0.0,,GPL,Document,Immature
-Csound,Barry Vercoe,"Realtime performance, sound synthesis, algorithmic composition, acoustic research",1986,2020-01-27,v6.14.0,,LGPL,"Document, graphical",Mature
-Impromptu,Andrew Sorensen,"Live coding, algorithmic composition, hardware control, realtime synthesis, 2d/3d graphics programming",2006,2010-10,v2.5,,Proprietary,Document,Stable
-Kyma,Carla Scaletti,"Realtime audio synthesis, hardware control, acoustic research, algorithmic composition, data sonification, live-performance multi-effects processing",1986,2018-9-03,v7.23,,Proprietary,Graphical,Mature
-Max/MSP,Miller Puckette,"Realtime audio + video synthesis, hardware control, GUI design",1980s (mid),2019-09-24,v8.1.0,,Proprietary,Graphical,Mature
-Pure Data,Miller Puckette,"Realtime synthesis, hardware control, acoustic research",1990s,2020-08-16,v0.51-1,,BSD-like,Graphical,Mature
-Reaktor,Native Instruments,"Realtime synthesis, hardware control, GUI design",1996,2017-08-16,6.2,,Proprietary,Graphical,Mature
-SuperCollider,James McCartney,"Realtime synthesis, live coding, algorithmic composition, acoustic research, all-purpose programming language",1996-03,2020-03-10,v3.11.0,,GPL,Document,Mature
-Sporth,Paul Batchelor,"Sound design, algorithmic composition, live coding, embedded systems",2015,2016-05,-,,MIT,Document,Immature
-SynthEdit,Jeff McClintock,"Realtime synthesis, live coding, effects coding, GUI design",1999,2019,1.4,,Proprietary/BSD,Graphical,Mature
-VCV Rack,Andrew Belt,Realtime audio synthesis,2017-09,2019-09-29,1.1.5,,BSD-like,Graphical,Immature
+Name,Operating system(s),Source code language(s),Programming (plugin) API language(s),Other technical features
+Bidule,"Mac OS X, Windows",C++,C++,ASIO/ CoreAudio (Mac)/ ReWire support. Possible to write custom modules via API if NDA accepted.
+ChucK,"Mac OS X, Linux, Windows",C++,,"Unified timing mechanism (no separation between audio-rate and control-rate), command-line access"
+Csound,"Mac OS X, Linux, Windows","C, C++","C; also Python, Java, Lisp, Lua, Tcl, C++","IDE (QuteCsound), multitrack interface (blue); several analysis/resynthesis facilities; can compute double-precision audio; Python and LuaJIT algorithmic composition library; multi-threaded processing"
+Impromptu,Mac OS X,"Lisp, Objective-C, Scheme","C, C++, Objective-C, Scheme","Native access to most OS X APIs including Core Image, Quartz, QuickTime and OpenGL. Impromptu also includes its own statically typed (inferencing) systems language for heavy numeric processing - OpenGL, RT AudioDSP etc.."
+Kyma,"Mac OS X, Windows","Smalltalk, C, Objective-C",Smalltalk,"The Kyma hardware processes user algorithms at sample-rate, as opposed to a vector of samples[1] Kyma has a Frequency resolution of .0026 Hz, and large multi-dimensional arrays can be transferred through spectral algorithms at the speed of a single Frame."
+Max/MSP,"Mac OS X, Windows","C, Objective-C","C, Java, JavaScript, also Python and Ruby via externals",
+Pure Data,"Mac OS X, Linux, Windows, iPod, Android",C,"C, C++, FAUST, Haskell, Java, Lua, Python, Q, Ruby, Scheme, others",
+Reaktor,"Mac OS X, Windows",,,
+SuperCollider,"Mac OS X, Linux, Windows, FreeBSD","C, C++, Objective-C",C++,"Client-server architecture; client and server can be used independently, command-line access"
+Sporth,"Linux, Mac OS X",C,"C, Scheme","Many frontends built using the API exist, including Chuck, PD, and LADSPA"
+SynthEdit,"Windows, MacOS",C++,C++,
+VCV Rack,"Mac OS X, Linux, Windows",C++,C++,

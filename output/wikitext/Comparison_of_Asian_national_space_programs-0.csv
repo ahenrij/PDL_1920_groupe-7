@@ -1,7 +1,5 @@
-Country,Resolution,Satellite,Year launched
-India,0.35 meter,RISAT-2BR1,2019
-,0.5 meter x 0.3 meter,RISAT-2B,2019
-Japan,0.5 meter,IGS R-5,2017
-Israel,0.5,TecSAR,2008
-China,0.5 meter,Yaogan 29,2015
-South Korea,1 meter,KOMPSat-5,2013
+Country,Uncrewed rendezvous,,crewed rendezvous,
+,Spacecraft involved,Year,Spacecraft involved,Year
+Japan,ETS-VII,1997,,
+China,Shenzhou 8 & Tiangong 1,2011,Shenzhou 9 & Tiangong 1,2012
+India,SPADEX,2020 (Planned),,

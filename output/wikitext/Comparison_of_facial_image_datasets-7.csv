@@ -1,7 +1,7 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Cloud DataSet,Data about 1024 different clouds.,Image features extracted.,1024,Text,"Classification, clustering",1989,[427],P. Collard
-El Nino Dataset,Oceanographic and surface meteorological readings taken from a series of buoys positioned throughout the equatorial Pacific.,12 weather attributes are measured at each buoy.,178080,Text,Regression,1999,[428],Pacific Marine Environmental Laboratory
-Greenhouse Gas Observing Network Dataset,Time-series of greenhouse gas concentrations at 2921 grid cells in California created using simulations of the weather.,None.,2921,Text,Regression,2015,[429],D. Lucas
-Atmospheric CO2 from Continuous Air Samples at Mauna Loa Observatory,"Continuous air samples in Hawaii, USA. 44 years of records.",None.,44 years,Text,Regression,2001,[430],Mauna Loa Observatory
-Ionosphere Dataset,Radar data from the ionosphere. Task is to classify into good and bad radar returns.,Many radar features given.,351,Text,Classification,1989,[370][431],Johns Hopkins University
-Ozone Level Detection Dataset,Two ground ozone level datasets.,"Many features given, including weather conditions at time of measurement.",2536,Text,Classification,2008,[432][433],K. Zhang et al.
+Witty Worm Dataset,Dataset detailing the spread of the Witty worm and the infected computers.,Split into a publicly available set and a restricted set containing more sensitive information like IP and UDP headers.,"55,909 IP addresses",Text,Classification,2004,[276][277],Center for Applied Internet Data Analysis
+Cuff-Less Blood Pressure Estimation Dataset,Cleaned vital signals from human patients which can be used to estimate blood pressure.,125 Hz vital signs have been cleaned.,"12,000",Text,"Classification, regression",2015,[278][279],M. Kachuee et al.
+Gas Sensor Array Drift Dataset,Measurements from 16 chemical sensors utilized in simulations for drift compensation.,Extensive number of features given.,"13,910",Text,Classification,2012,[280][281],A. Vergara
+Servo Dataset,Data covering the nonlinear relationships observed in a servo-amplifier circuit.,Levels of various components as a function of other components are given.,167,Text,Regression,1993,[282][283],K. Ullrich
+UJIIndoorLoc-Mag Dataset,Indoor localization database to test indoor positioning systems. Data is magnetic field based.,Train and test splits given.,"40,000",Text,"Classification, regression, clustering",2015,[284][285],D. Rambla et al.
+Sensorless Drive Diagnosis Dataset,Electrical signals from motors with defective components.,Statistical features extracted.,"58,508",Text,Classification,2015,[286][287],M. Bator

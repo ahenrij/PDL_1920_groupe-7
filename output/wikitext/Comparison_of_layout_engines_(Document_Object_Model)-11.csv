@@ -1,27 +1,25 @@
 ,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
-Interface NodeIterator,,,,,,,
-DOM2,root,rowspan="4" ,?,rowspan="7" 1.9.1,?,?,rowspan="4" 1.0
-,whatToShow,?,?,?,,,
-,filter,?,?,?,,,
-,expandEntityReferences,?,?,?,,,
-,nextNode(),rowspan="2" ,?,?,?,rowspan="2" 2.0,
-,previousNode(),?,?,?,,,
-,detach(),,?,?,?,1.0,
-Interface NodeFilter,,,,,,,
-DOM2,acceptNode(),,?,1.0,?,?,1.0
-Interface TreeWalker,,,,,,,
-DOM2,root,rowspan="12" ,?,rowspan="12" 1.0,?,?,rowspan="12" 1.0
-,whatToShow,?,?,?,,,
-,filter,?,?,?,,,
-,expandEntityReferences,?,?,?,,,
-,currentNode,?,?,?,,,
-,parentNode(),?,?,?,,,
-,firstChild(),?,?,?,,,
-,lastChild(),?,?,?,,,
-,previousSibling(),?,?,?,,,
-,nextSibling(),?,?,?,,,
-,previousNode(),?,?,?,,,
-,nextNode(),?,?,?,,,
-Interface DocumentTraversal,,,,,,,
-DOM2,createNodeIterator(),rowspan="2" ,?,1.9.1,?,?,rowspan="2" 1.0
-,createTreeWalker(),?,1.0,?,?,,
+Interface CDATASection,,,,,,,
+DOM1,(no properties),,,1.0,,?,2.0
+Interface DocumentType,,,,,,,
+DOM1,name,rowspan="3" ,rowspan="3" ,1.0,rowspan="3" ,?,rowspan="3" 1.0
+,entities,rowspan="2" ,?,,,,
+,notations,?,,,,,
+DOM2,publicId,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0,rowspan="3" ,?,rowspan="3" 1.0
+,systemId,?,,,,,
+,internalSubset,?,,,,,
+Interface Notation,,,,,,,
+DOM1,publicId,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0,rowspan="2" ,?,rowspan="2" 2.0
+,systemId,?,,,,,
+Interface Entity,,,,,,,
+DOM1,publicId,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0,rowspan="3" ,?,rowspan="3" 
+,systemId,?,,,,,
+,notationName,?,,,,,
+DOM3,inputEncoding,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,?,rowspan="3" 
+,xmlEncoding,?,,,,,
+,xmlVersion,?,,,,,
+Interface EntityReference,,,,,,,
+DOM1,(no properties),,,1.0,,?,
+Interface ProcessingInstruction,,,,,,,
+DOM1,target,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0,rowspan="2" ,?,rowspan="2" 2.0
+,data,?,,,,,

@@ -1,7 +1,9 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
-Frame layout,,,,,
-frameset,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
-frame,,,,,
-noframes,,,,,
-Inline frames,,,,,
-iframe,4.0,1.0,,,1.0
+Font styles,,,,,
+b,rowspan="5" 4.0,rowspan="5" 1.0,rowspan="5" ,rowspan="5" ,rowspan="5" 1.0
+i,,,,,
+big,,,,,
+small,,,,,
+tt,,,,,
+Horizontal rules,,,,,
+hr,4.0,1.0,,,1.0

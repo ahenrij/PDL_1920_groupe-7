@@ -1,46 +1,48 @@
-,Data Domain,Cursor,Trigger,Function 1,Procedure 1,External routine 1
-4th Dimension,Yes,No,Yes,Yes,Yes,Yes
-ADABAS,?,Yes,?,Yes?,Yes?,Yes
-Adaptive Server Enterprise,Yes,Yes,Yes,Yes,Yes,Yes
-Advantage Database Server,Yes,Yes,Yes,Yes,Yes,Yes
-Altibase,Yes,Yes,Yes,Yes,Yes,Yes
-Apache Derby,No,Yes,Yes,Yes 2,Yes 2,Yes 2
-ClustrixDB,No,Yes,No,Yes,Yes,Yes
-CUBRID,Yes,Yes,Yes,Yes,Yes 2,Yes
-Empress Embedded Database,Yes via RANGE CHECK,Yes,Yes,Yes,Yes,Yes
-EXASolution,Yes,No,No,Yes,Yes,Yes
-DB2,Yes via CHECK CONSTRAINT,Yes,Yes,Yes,Yes,Yes
-Firebird,Yes,Yes,Yes,Yes,Yes,Yes
-HSQLDB,Yes,No,Yes,Yes,Yes,Yes
-H2,Yes,No,Yes 2,Yes 2,Yes 2,Yes
-Informix Dynamic Server,Yes via CHECK,Yes,Yes,Yes,Yes,Yes 5
-Ingres,Yes,Yes,Yes,Yes,Yes,Yes
-InterBase,Yes,Yes,Yes,Yes,Yes,Yes
-Linter SQL RDBMS,No,Yes,Yes,Yes,Yes,No
-LucidDB,No,Yes,No,Yes 2,Yes 2,Yes 2
-MariaDB,Yes[156],Yes,Yes,Yes,Yes,Yes
-MaxDB,Yes,Yes,Yes,Yes,Yes,?
-Microsoft Access (JET),Yes,No,No,No,"Yes, But single DML/DDL Operation",Yes
-Microsoft Visual Foxpro,No,Yes,Yes,Yes,Yes,Yes
-Microsoft SQL Server,Yes,Yes,Yes,Yes,Yes,Yes
-Microsoft SQL Server Compact (Embedded Database),No,Yes,No,No,No,No
-Mimer SQL,Yes,Yes,Yes,Yes,Yes,No
-MonetDB,No,No,Yes,Yes,Yes,Yes
-MySQL,No 3,Yes,Yes,Yes,Yes,Yes
-OpenBase SQL,Yes,Yes,Yes,Yes,Yes,Yes
-Oracle,Yes,Yes,Yes,Yes,Yes,Yes
-Oracle Rdb,Yes,Yes,Yes,Yes,Yes,Yes
-OpenLink Virtuoso,Yes,Yes,Yes,Yes,Yes,Yes
-Pervasive PSQL,Yes,Yes,Yes,Yes,Yes,No
-Polyhedra DBMS,No,No,Yes,Yes,Yes,Yes
-PostgreSQL,Yes,Yes,Yes,Yes,Yes,Yes
-Raima Database Manager,No,Yes,No,No,Yes,Yes
-RDM Server,No,Yes,Yes,No,Yes,Yes
-SAP HANA,?,?,?,?,?,?
-solidDB,Yes,Yes,Yes,Yes,Yes,Yes
-SQL Anywhere,Yes,Yes,Yes,Yes,Yes,Yes
-SQLite,No,No,Yes,No,No,Yes
-Teradata,No,Yes,Yes,Yes,Yes,Yes
-UniData,No,No,Yes,Yes,Yes,Yes
-UniVerse,No,No,Yes,Yes,Yes,Yes
-,Data Domain,Cursor,Trigger,Function 1,Procedure 1,External routine 1
+Database Name,ACID,Referential integrity,Transactions,Fine-grained locking,Multiversion concurrency control,Unicode,Interface,Type inference
+4th Dimension,Yes,Yes,Yes,?,?,Yes,GUI & SQL,Yes
+ADABAS,Yes,No,Yes,?,?,Yes,proprietary direct call & SQL (via 3rd party),Yes
+Adaptive Server Enterprise,Yes,Yes,Yes,Yes (Row-level locking),Yes,Yes,API & GUI & SQL,Yes
+Advantage Database Server,Yes,Yes,Yes,Yes (Row-level locking),?,Yes4,API & SQL,Yes
+Altibase,Yes,Yes,Yes,Yes (Row-level locking),?,Yes,API & GUI & SQL,Yes
+Apache Derby,Yes,Yes,Yes,Yes (Row-level locking) [49],?,Yes,SQL,Yes
+ClustrixDB,Yes,Yes,Yes,Yes,Yes,Yes,SQL,Yes
+CUBRID,Yes,Yes,Yes,Yes (Row-level locking),?,Yes,GUI & SQL,Yes
+DB2,Yes,Yes,Yes,Yes (Row-level locking)[50],?,Yes,GUI & SQL,Yes
+Empress Embedded Database,Yes,Yes,Yes,?,?,Yes,API & SQL,Yes
+EXASolution,Yes,Yes,Yes,?,?,Yes,API & GUI & SQL,Yes
+Firebird,Yes,Yes,Yes,?,Yes,Yes,API & SQL,Yes
+HSQLDB,Yes,Yes,Yes,?,Yes,Yes,SQL,Yes
+H2,Yes,Yes,Yes,?,Yes[51],Yes,SQL,Yes
+Informix Dynamic Server,Yes,Yes,Yes,Yes (Row-level locking),Yes,Yes,"SQL, REST, and JSON",Yes
+Ingres,Yes,Yes,Yes,Yes (Row-level locking),Yes,Yes,SQL & QUEL,Yes
+InterBase,Yes,Yes,Yes,?,?,Yes,SQL,Yes
+Linter SQL RDBMS,Yes,Yes,Yes (Except for DDL),Yes (Row-level locking),?,Yes,API & GUI & SQL,Yes
+LucidDB,Yes,No,No,?,?,Yes,SQL,Yes
+MariaDB,Yes2,Yes6,Yes2 except for DDL[52][53],Yes (Row-level locking),Yes,Yes,SQL,Yes
+MaxDB,Yes,Yes,Yes,?,?,Yes,SQL,Yes
+Microsoft Access (JET),Yes,Yes,Yes,?,?,Yes,GUI & SQL,Yes
+Microsoft Visual FoxPro,Yes,Yes,Yes,Yes (Row-level locking SMB2),Yes,No,GUI & SQL,Yes
+Microsoft SQL Server,Yes,Yes,Yes,Yes (Row-level locking)[54],Yes,Yes,GUI & SQL,Yes
+Microsoft SQL Server Compact (Embedded Database),Yes,Yes,Yes,?,?,Yes,GUI & SQL,Yes
+Mimer SQL,Yes,Yes,Yes,Yes (Optimistic locking),Yes,Yes,API & GUI & SQL,Yes
+MonetDB,Yes,Yes,Yes,?,?,Yes,API & SQL & MAL,Yes
+MySQL,Yes2,Yes3,Yes2 except for DDL[52],Yes (Row-level locking)[55],Yes,Yes,GUI 5 & SQL,Yes
+OpenEdge,Yes,Yes7,Yes,Yes (Row-level locking),?,Yes,GUI & SQL,Yes
+OpenLink Virtuoso,Yes,Yes,Yes,?,?,Yes,API & GUI & SQL,Yes
+Oracle,Yes,Yes,Yes except for DDL[52],Yes (Row-level locking)[56],Yes,Yes,API & GUI & SQL,Yes
+Oracle Rdb,Yes,Yes,Yes,?,?,Yes,SQL,Yes
+Pervasive PSQL,Yes,Yes,Yes,?,?,Yes6,API & GUI & SQL,Yes
+Polyhedra DBMS,Yes,Yes,Yes,Yes (optimistic and pessimistic cell-level locking)[57],?,Yes,API & SQL,Yes
+PostgreSQL,Yes,Yes,Yes,Yes (Row-level locking)[58],Yes,Yes,API & GUI & SQL,No[59]
+Raima Database Manager,Yes,Yes,Yes,?,Yes,Yes,SQL & API,Yes
+RDM Server,Yes,Yes,Yes,?,?,Yes,SQL & API,Yes
+SAP HANA,Yes,Yes,Yes,Yes (Row-level locking),Yes,Yes,API & GUI & SQL,Yes
+solidDB,Yes,Yes,Yes,Yes (Row-level locking),?,Yes,API & SQL,Yes
+SQL Anywhere,Yes,Yes,Yes,Yes (Row-level locking)[60],Yes[61],Yes,API & GUI & HTTP(S) (REST & SOAP)[62] & SQL,Yes
+SQLBase,Yes,Yes,Yes,?,?,Yes,API & GUI & SQL,Yes
+SQLite,Yes,Yes,Yes,No (Database-level locking)[63],No,Optional[64],API & SQL,Yes
+Teradata,Yes,Yes,Yes,Yes (Hash and Partition),?,Yes,SQL,Yes
+Tibero,Yes,Yes,Yes,Yes (Row-level locking),Yes,Yes,API & GUI & SQL,Yes
+UniData,Yes,No,Yes,?,?,Yes,Multiple,Yes
+UniVerse,Yes,No,Yes,?,?,Yes,Multiple,Yes
+Database Name,ACID,Referential integrity,Transactions,Fine-grained locking,Multiversion concurrency control,Unicode,Interface,Type inference

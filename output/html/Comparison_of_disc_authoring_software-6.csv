@@ -1,15 +1,14 @@
-Application,Creator,Software license
-Ashampoo Burning Studio,Ashampoo Software,Freemium
-Alcohol 120%,Alcohol Soft,Shareware
-CDBurnerXP,"Stefan Haglund, Fredrik Haglund",Freeware [1]
-cdrtools,Jörg Schilling,Open-source (CDDL parts are GPL)
-DeepBurner,Astonsoft,Freemium
-ExpressBurn,NCH Software,Freemium
-ImgBurn,LIGHTNING UK!,Freeware [2]
-InfraRecorder,Christian Kindahl,Open-source (GPL)
-K3b,"Sebastian Trüg, Christian Kvasny",Open-source (GPL)
-Libburnia,Libburnia team,Open-source (GPL)
-Nero Burning ROM,Ahead Software,Shareware
-UltraISO,EZB Systems,Shareware
-X-CD-Roast,T. Niederreiter,Open-source (GPL)
-Application,Creator,Software license
+Application,bin/cue,Apple disk image,img,ISO image,Nero CD image,Audio file/cue
+Alcohol 120%,Yes,No,No,Yes,Yes,No
+CDBurnerXP,Partial[1],No,No,Yes,Partial[1],Yes
+cdrtools,Yes,?,?,Yes,No,Yes
+DeepBurner,?,?,?,Yes,?,?
+ExpressBurn,No,No,No,Yes,No,No
+ImgBurn,Yes,No,Yes,Yes,Yes,Yes
+InfraRecorder,Yes,No,Yes,Yes,No,?
+K3b,Yes,?,?,Yes,Yes,Yes
+Libburnia,Yes,No,Yes,Yes,No,Yes
+Nero Burning ROM,Yes,No,Partial,Yes,Yes,Yes
+UltraISO,Yes,Yes,Yes,Yes,Yes,Yes
+X-CD-Roast,?,?,?,Yes,?,?
+Application,bin/cue,Apple disk image,img,ISO image,Nero CD image,Audio file/cue

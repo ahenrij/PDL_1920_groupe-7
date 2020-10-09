@@ -1,27 +1,27 @@
-Name,Filename casing,CRC,Filedate,Daylight saving,Character casing
-Beyond Compare,Yes,Yes,Yes,Yes,Yes
-Compare++,Yes,Yes,Yes,,Yes
-diff,Yes,No,No,No,Optional
-diff3,,,,,
-Eclipse (compare),,,,,
-Ediff,,,,,
-ExamDiff Pro,No,Yes,Yes,Yes,Yes
-Far Manager (compare),Yes,No,Yes,No,Yes
-fc,No,,,,Optional
-FileMerge (aka opendiff),No,No,No,,Optional
-Guiffy SureMerge,filesystem dependent,,Yes,,Yes
-IntelliJ IDEA (compare),,,,,
-jEdit JDiff plugin,,,,,
-Kompare,Yes,,,,
-Lazarus Diff,,,,,
-Meld,,,,,
-Notepad++ (compare),No,No,No,,Yes
-Perforce P4Merge,N/A,No,No,No,Yes
-Pretty Diff,N/A,No,No,No,Optional
-Tkdiff,,,,,
-Total Commander (compare),,,Optional,Yes (in synchronize only),Optional
-vimdiff,No,No,No,No,Yes
-WinDiff,No,No,when different,Yes,Optional
-WinMerge,No,No,Optional,,Optional
-UCC,No,No,Yes,No,
-Name,Filename casing,CRC,Filedate,Daylight saving,Character casing
+Name,GUI,CLI,Scripting,Horizontal / vertical,Syntax highlighting,Reports
+Beyond Compare,Yes,Yes,Yes,Both,Yes,"XML, HTML, CSV, Text, Unix Patch"
+Compare++,Yes,Yes,,Both,Yes,"HTML, Text(combined or side-by-side)"
+diff,No,Yes,,Horizontal,Yes pipe to diff-highlight[30],
+diff3,No,Yes,,Horizontal,,
+Eclipse (compare),Yes,,,Vertical,Yes,
+Ediff,Yes,Yes,elisp,Both,Yes,
+ExamDiff Pro,Yes,Yes,,optional,Yes,"UNIX, HTML, Diff"
+Far Manager (compare),Yes,Yes,Yes,,Yes,No
+fc,No,Yes,,Horizontal,,
+FileMerge (aka opendiff),Yes,Yes,,Vertical,Yes,No
+Guiffy SureMerge,Yes,Yes,Java API,Both,Yes,"HTML, Text, Unix Patch"
+IntelliJ IDEA (compare),Yes,Yes,,Vertical,Yes,
+jEdit JDiff plugin,Yes,,,Both,Yes,
+Kompare,Yes,,,Vertical,No,
+Lazarus Diff,Yes,,,,Yes,
+Meld,Yes,No,,Horizontal,Yes,No
+Notepad++ (compare),Yes,Yes,,Both,Yes,No
+Perforce P4Merge,Yes,Yes,,Vertical,No,No
+Pretty Diff,Yes,Yes,JavaScript,Both,Yes,XHTML
+Tkdiff,Yes,,,,,
+Total Commander (compare),Yes,,,Both,No,No
+vimdiff,Yes,Yes,vim script,Both,Yes,HTML
+WinDiff,Yes,Yes,,Horizontal,No,Text
+WinMerge,Yes,Yes,,Both,Yes,"CSV, Tab-delimited, HTML, XML"
+UCC,Yes,Yes,,Vertical,Yes,"Text, CSV"
+Name,GUI,CLI,Scripting,Horizontal / vertical,Syntax highlighting,Reports

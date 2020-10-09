@@ -1,5 +1,24 @@
-Name,Ad-free,CVS,Git,SVN,Arch,Notes
-Drupal,Yes,No,Yes,No,No,Only for Drupal related projects.
-freedesktop.org,Yes,No,Yes,No,No,"Only for interoperability and shared base technology for free software desktop environments on Linux and other Unix-like operating systems, including the X Window System (X11) and cairo (graphics)."
-mozdev.org,Yes,Yes,Unknown,No,No,Only for Mozilla-related projects.
-Name,Ad-free,CVS,Git,SVN,Arch,Notes
+Name,CVS,Git,Hg,SVN,BZR,TFVC,Arch,Perforce,Fossil
+Assembla,No,Yes,No,Yes,No,No,No,Yes,No
+Azure DevOps Services,No,Yes,No,No,No,Yes,No,No,No
+Bitbucket,No,Yes,Until Feb 2020[c],No,No,No,No,No,No
+Buddy,No,Yes,No,No,No,No,No,No,No
+CloudForge,No,Yes,No,Yes,No,No,No,No,No
+GForge,Yes,Yes,No,Yes,No,No,No,No,No
+Gitea,No,Yes,No,No,No,No,No,No,No
+GitHub,No,Yes,No,Partial[38],No,No,No,No,No
+GitLab,No,Yes,No,No,No,No,No,No,No
+GNU Savannah,Yes,Yes,Yes,Yes,Yes[39],No,Yes,No,No
+java.net,No,Yes[40],Yes[40],Yes[40],No,No,No,No,No
+Kallithea,No,Yes,Yes,No,No,No,No,No,No
+Launchpad,Import only,Yes[14][41],Import only[42],Import only,Yes,No,No,No,Unknown
+OSDN,Yes,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
+Ourproject.org,Yes,No,No,Yes,No,No,No,Unknown,Unknown
+OW2 Consortium,Yes,No,No,Yes,No,No,No,Unknown,Unknown
+Helix TeamHub,No,Yes,Yes,Yes,No,No,No,Yes,No
+Phabricator,No,Yes,Yes,Yes,No,No,No,No,No
+RhodeCode,No,Yes,Yes,Yes,No,No,No,No,No
+SEUL.org,Yes,No,No,Yes,No,No,No,Unknown,Unknown
+SourceForge,Dropped[43],Yes,Yes,Yes,Dropped[44],No,No,Unknown,No[45]
+Sourcehut,No,Yes,Yes,No,No,No,No,Unknown,Unknown
+Name,CVS,Git,Hg,SVN,BZR,TFVC,Arch,Perforce,Fossil

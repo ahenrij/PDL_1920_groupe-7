@@ -1,11 +1,4 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
-Quadro FX 350,G72GL,90,PCIe ×16,550,550,810,3:4:4:2,1.1,1.1,128,6.48,DDR2,64,,,9.0c,2.1,21,
-Quadro FX 550,NV43GL,,,360,360,800,4:8:8:8,2.88,2.88,,12.8,GDDR3,128,,25,,,,
-Quadro FX 1500,G71,,,375,375,,7:20:20:16,6,7.5,256,40.0,,256,,65,,,,
-Quadro FX 3500,G71GL,,,470,470,1320,7:20:20:16,7.52,9.4,,42.2,,,,80,,,"Stereo display, SLI",
-Quadro FX 4500,G70,110,,,,1050,8:24:24:16,,11.28,512,33.6,,,,109,,,,
-Quadro FX 4500X2,,,,,,,2× 8:24:24:16,15.04,22.56,1024,,,,,145,,,"Stereo display, Genlock",
-Quadro FX 4500 SDI,,,,,,,8:24:24:16,7.52,11.28,512,,,,,116,,,,
-Quadro FX 5500,G71,90,,700,700,,,11.2,16.8,1024,,,,,96,,,"Stereo display, SLI, Genlock",
-Quadro FX 5500 SDI,,,,,,,,,,,,,,,104,,,,
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config[a],Bus Interface,L2 Cache (MB),Clock speeds,,,Memory,,,,Fillrate[b],,Processing power (GFLOPS)[b],,,,TDP (Watts),NVLink Support,Release price (USD),
+,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)[c],Texture (GT/s)[d],Single precision,Double precision,Half precision,Tensor compute + Single precision,,,MSRP,Founders Edition
+Nvidia TITAN V[97],"December 7, 2017",GV100-400-A1,TSMC 12FFN,21.1,815,5120:320:96:640 (80) (6),PCIe 3.0 x16,4.5,1200,1455,1700,12,652.8,HBM2,3072,153.6 186.2,384.0 465.6,12?288.0 14?899.2,6?144.0 7?449.6,24?576.0 29?798.4,110?592.0 134?092.8,250,No,$2999,N/A
+Nvidia TITAN V CEO Edition[98][99],"June 21, 2018",GV-100-???-A1,,,,5120:320:128:640 (80) (6),,6,,,,32,870.4,,4096,,,,,,,,Yes,N/A,

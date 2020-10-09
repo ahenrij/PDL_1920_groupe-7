@@ -1,8 +1,38 @@
-Application,PBR viewport,Viewport effects,Interactive GI Rendering,Integrated Compositing,Text editor for shader writing,Material Nodes,Turntable Rendering
-Maya,,,Arnold,,,"Hypershade, Node Editor, ShaderFX",Yes[17]
-3ds Max,,,Arnold,(State Set),OSL Map[18],"Slate Material Editor, ShaderFX",Easy Turntable script
-MODO,,,,,,Nodal Shading,Render Turntable[19]
-Blender,colspan=2 Eevee (2.80 and later),Cycles,,Text Editor,,Turnaround Camera addon,
-Gaffer,,,external renderers,,OSLCode Node,,
-Marmoset Toolbag,,,,,,Uber PBR shaders only,
-Substance Designer,,YEBIS,NVIDIA Iray,,,MDL graph,
+Name,Windows,Mac OS X,Linux,Unix,BSD,Other
+3ds Max,,,,,,
+AC3D,,,,,,
+Art of Illusion,,,,,,Anything with Java support
+AutoCAD,,,,,,
+Blender,,,,,,"Solaris, AmigaOS 4, MorphOS"
+Carrara,,,,,,
+Cheetah 3D,,,,,,
+Cinema 4D,,,,,,Amiga OS
+Clara.io,,,,,,"Chrome OS, Android"
+DesignSpark Mechanical,,,,,,
+Electric Image Animation System,,,,,,
+form-Z,,,,,,
+HiCAD,,,,,,
+Houdini,,,,,,
+IClone,,,,,,
+LightWave 3D,,,,,,AmigaOS
+MakeHuman,,,,,,
+Massive,,,,,,
+Maya,,,,,,
+Metasequoia,,,,,,
+Modo,,,,,,
+POV-Ray,,,,,,"Amiga OS, Atari TOS"
+Remo 3D,,,,,,
+Shade,,,,,,
+Silo,,,,,,
+SketchUp Make,,,,,,
+SketchUp Pro,,,,,,
+Softimage,,,,,,
+Solid Edge,,,,,,
+solidThinking,,,,,,
+solidWorks,,,,,,
+SpaceClaim,,,,,,
+trueSpace,,,,,,Amiga OS
+Verto Studio 3D,,,,,,iOS
+E-on Vue,,,,,,
+Wings 3D,,,,,,
+ZBrush,,,,,,

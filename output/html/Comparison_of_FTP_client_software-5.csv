@@ -1,13 +1,50 @@
-Client,Creator,First public release date,Latest stable version,Software license,Copy files over 2 GB[1]
-ALFTP,ESTsoft,2000,"5.31 February 1, 2012; 8 years ago (2012-02-01)",Proprietary,?
-ExpanDrive (Mac),"ExpanDrive, Inc",2008,"macOS: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[7]) [±] Windows: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[8]) [±] Linux: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[9]) [±]",Proprietary,Yes
-ExpanDrive (Windows) (formerly SFTPDrive),"ExpanDrive, Inc",2005,"macOS: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[10]) [±] Windows: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[11]) [±] Linux: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[12]) [±]",Proprietary,Yes
-ForkLift,"BinaryNights, LLC",2007,"3.4.2 August 26, 2020; 41 days ago (2020-08-26)",Proprietary,Yes
-FTP Commander,Internetsoft Corporation,1997,"9.21 November 8, 2010; 9 years ago (2010-11-08)",Proprietary,Yes
-FTP Explorer,FTPx Corp.,"October, 1996",1.0.1.53; January 2012,Proprietary,?
-Interarchy,Nolobe Software Pty Ltd,1993 (as Anarchie),"10.0.6 August 18, 2014; 6 years ago (2014-08-18)",Proprietary,Yes
-Steed,"French Fry, SAS",2012,"1.2.1.1169 June 27, 2017; 3 years ago (2017-06-27)",Proprietary,Yes
-Transmit,"Panic, Inc.",1998,"5.6.4 April 20, 2020; 5 months ago (2020-04-20)",Proprietary,Yes
-WISE-FTP,AceBIT,1998,"7.0 (Build 7.0.4) March 16, 2012; 8 years ago (2012-03-16)",Proprietary,?
-edtFTPj,Bruce P. Blackshaw,2000,"2.3.0 August 26, 2011; 9 years ago (2011-08-26)",Proprietary,Yes
-edtFTPnet,Bruce P. Blackshaw,2003,"2.2.1 August 26, 2011; 9 years ago (2011-08-26)",Proprietary,Yes
+Client,Windows,macOS,Linux,BSD,Unix,AmigaOS,ChromeOS
+AbsoluteTelnet,Yes,No,No,No,No,No,No
+ALFTP,Yes,No,No,No,No,No,No
+Beyond Compare,Yes,Yes,Yes,No,No,No,No
+Classic FTP,Yes,Yes,No,No,No,No,No
+Codeanywhere (webbased),Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Commander One,No,Yes,No,No,No,No,No
+CoreFTP,Yes,No,No,No,No,No,No
+CrossFTP,Yes,Yes,Yes,Yes,Yes,Yes,No
+cURL (CL),Yes,Yes,Yes,Yes,Yes,Yes,No
+CuteFTP,Yes,Yes,No,No,No,No,No
+Cyberduck,Yes,Yes,No,No,No,No,No
+Directory Opus,Yes,No,No,No,No,Yes,No
+ExpanDrive,Yes,Yes,No,No,No,No,No
+FAR Manager,Yes,No,No,No,No,No,No
+Fetch,No,Yes,No,No,No,No,No
+FileZilla,Yes,Yes,Yes,Yes,Yes,No,No
+FireFTP,Yes,Yes,Yes,Yes,Yes,No,No
+FlashFXP,Yes,No,No,No,No,No,No
+Fling FTP,Yes,No,No,No,No,No,No
+ForkLift,No,Yes,No,No,No,No,No
+FTP Client,No,Yes,No,No,No,No,No
+FTP Commander,Yes,No,No,No,No,No,No
+FTP Explorer,Yes,No,No,No,No,No,No
+FTP Voyager,Yes,No,No,No,No,No,No
+Fugu,No,Yes,No,No,No,No,No
+gFTP,No,Yes,Yes,Yes,Yes,No,No
+Interarchy,No,Yes,No,No,No,No,No
+LeechFTP,Yes,No,No,No,No,No,No
+lftp (CL),Yes (cygwin),Yes,Yes,Yes,Yes,No,No
+Macfusion,No,Yes,No,No,No,No,No
+Mosaic,Yes,Yes,No,No,Yes,Yes,No
+NcFTP (CL),Yes,Yes,Yes,Yes,Yes,Yes,No
+net2ftp (web-based),Yes,Yes,Yes,Yes,Yes,Yes,No
+pbFtpClient,Yes,No,No,No,No,Yes,No
+PSFTP (PuTTY) (CL),Yes,No,Yes,Yes,Yes,No,No
+Rclone,Yes,Yes,Yes,Yes,Yes,No,No
+Secure FTP,Yes,Yes,Yes,Yes,Yes,Yes,No
+SmartFTP,Yes,No,No,No,No,No,No
+Steed,Yes,No,No,No,No,No,No
+Sysax FTP Automation,Yes,No,No,No,No,No,No
+Total Commander,Yes,No,No,No,No,No,No
+tnftp (CL),Yes (cygwin),Yes,Yes,Yes,Yes,No,Yes
+Transmit,No,Yes,No,No,No,No,No
+WebDrive,Yes,Yes,No,No,No,No,No
+WinSCP,Yes,No,No,No,No,No,No
+WISE-FTP,Yes,No,No,No,No,No,No
+WS_FTP,Yes,No,No,No,No,No,No
+Yummy FTP,No,Yes,No,No,No,No,No
+Client,Windows,Mac OS X,Linux,BSD,Unix,AmigaOS,ChromeOS

@@ -1,11 +1,10 @@
-Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
-manifest,html,6.0[22],12,1.9,Yes,2.6[p 8][p 9]
-sizes,link,No,13,8.0 (only mobile)[g 16][g 17],Yes[w 19],No
-charset,meta,4.0[23],12,1.9.2,Yes,2.5.24
-scoped,style,No,No,21.0[g 18],No[w 20],No
-async,script,6.0,12,1.9.2[g 19],Yes[w 21],
-reversed,ol,No,No,18.0[g 20],Yes[w 22],
-download[citation needed],"a,area",No,13,20.0[g 21],Yes,
-sandbox,iframe,6.0[t 5],12,17.0[g 22],533[w 23],
-seamless,iframe,No,No,No[g 23],No[w 24],
-Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+,Trident,Gecko,WebKit,Presto
+translate[24],No,,,
+Datasets (data-*),No,6.0[g 24],Yes[w 25],2.8[p 10]
+contextmenu,,8.0[g 25],No[w 16],No
+hidden,,2.0[g 26],Yes[w 26],2.7.70
+contenteditable[25],<3.1[IE 5.5],1.9,Yes,2.0
+spellcheck[26],6.0,1.8[g 27],Incorrect[w 27],2.8[p 11]
+draggable,,1.9.1[g 28],533[w 28],2.10.270
+dropzone,No,No[g 29],Yes,2.10.270
+,Trident,Gecko,WebKit,Presto

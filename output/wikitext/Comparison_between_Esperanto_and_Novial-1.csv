@@ -1,31 +1,17 @@
-Esperanto,IPA,Novial
-"A, a",a,"A, a"
-"B, b",b,"B, b"
-"C, c",ts,"Ts, ts; S, s"
-"?, ?",t?,"Ch, ch; Sh, sh"
-"D, d",d,"D, d"
-"E, e",e or ?,"E, e"
-"F, f",f,"F, f"
-"G, g",?,"G, g"
-"?, ?",d?,"J, j"
-"H, h",h,"H, h"
-"?, ?",x,"K, k"
-"I, i",i,"I, i"
-"J, j",j,"Y, y"
-"?, ?",?,"J, j"
-"K, k",k,"K, k"
-"L, l",l,"L, l"
-"M, m",m,"M, m"
-"N, n",n,"N, n"
-"O, o",o or ?,"O, o"
-"P, p",p,"P, p"
-Kv kv,[kv],"Qu, qu"
-"R, r",r,"R, r"
-"S, s",s,"S, s; Z, z"
-"?, ?",?,"Sh, sh; Ch, ch"
-"T, t",t,"T, t"
-"U, u",u,"U, u"
-"?, ?",[u?],"U, u (after a vowel)"
-"V, v",v,"V, v; W, w"
-"Ks, ks; kz","[ks], [?z]","X, x"
-"Z, z",z,"Z, z; S, s"
+,English,Esperanto,Novial
+Infinitive,(to) love,am-i,ama
+Simple present,love(s),am-as,ama
+Future,will (shall) love,am-os,sal ama
+Simple past,loved,am-is,did ama (ama-d)
+Present perfect,have (has) loved,est-as am-int-a(j),ha ama
+Pluperfect,had loved,est-is am-int-a(j),ha-d ama
+Future perfect,will (shall) have loved,est-os am-int-a(j),sal ha ama
+Future in the past,"was going to (would, should) love",est-is am-ont-a(j),sal-ed ama
+Conditional,would (should) love,am-us,vud ama
+Conditional perfect,would (should) have loved,est-us am-int-a(j),vud ha ama
+First imperative,let us love!,ni am-u!,let nus ama!
+Second imperative,love!,am-u!,ama!
+Third imperative,let him love!,li am-u!,let lo ama!
+Present continuous,"is (am, are) loving",est-as am-ant-a(j),es ama-nt
+Future continuous,shall (will) be loving,est-os am-ant-a(j),sal es ama-nt
+Past continuous,was (were) loving,est-is am-ant-a(j),did es (es-ed) ama-nt

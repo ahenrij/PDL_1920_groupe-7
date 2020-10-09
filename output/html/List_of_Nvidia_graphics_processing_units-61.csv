@@ -1,8 +1,19 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
-Quadro2 Go[215],NV11GLM?,,AGP 4×,143,,130 360,2:0:4:2,0.286,0.592,32 64,2.9 5.8,SDR DDR,128,,7.0,1.2,,"First mobile Quadro based on the GeForce2 Go, Dynamic core clock 100–143 MHz, dynamic voltage 1.575V, graphics core listed as 64-bit and 128-bit for DDR and SDR SDRAM types respectively according to Nvidia[216][217]"
-Quadro4 500 Go GL[218][219],NV17 GLM,150,"AGP 4×,8×",?,,?,2:0:4:2,0.44,0.88,64,7.0,DDR,,,7.0,1.3,,"Based on the GeForce4 Go, dynamic core clock 66–220 MHz, core voltage 1.35 V, uses DDR SDRAM according to Nvidia brochures[217]"
-Quadro4 700 Go GL[218][220][221],NV28 GLM,150,,176,,200,4:2:4:4,0.704,0.704,,7.4?,,128?,,8.1,,,"Based on GeForce4 Go 4200, uses DDR according to Nvidia brochures"
-Quadro FX Go 700[222],NV31 GLM,130,AGP 8×,295?,,590?,4:3:4:4,1.18,1.18,128,9.44?,,128,,9.0,2.1?,,Based on the Geforce FX Go (FX 56XX)
-Quadro FX Go 1000[223],NV36 GLM,120,,,,570?,,,,,9.12?,,,,,,,Seems to be an overclocked Quadro FX 700 Go.
-Quadro FX Go 1400[223],NV41 GLM,130,PCIe,275,,590,12:5:12:12?,2.20,2.2,256,18.9?,,256,,,,,"Last chip designated as a Quadro FX Go, uses PCIe instead of AGP 8×. Core config has been mentioned as either 8:5:8:8 or 12:5:12:12 - the latter is likely since chip is derived from GeForce Go 6800."
+Model,Features,,,,,
+,OpenEXR HDR,Scalable Link Interface (SLI),TurboCache,PureVideo WMV9 Decoding,,
+GeForce 6100,No,No,No,Limited,,
+GeForce 6150 SE,No,No,Driver-Side Only,Limited,,
+GeForce 6150,No,No,No,Yes,,
+GeForce 6150 LE,No,No,Driver-Side Only,Yes,,
+GeForce 6200,No,No,Yes (PCIe only),Yes,,
+GeForce 6500,No,Yes,Yes,Yes,,
+GeForce 6600 LE,Yes,Yes (No SLI Connector),No,Yes,,
+GeForce 6600,Yes,Yes (SLI Connector or PCIe Interface),No,Yes,,
+GeForce 6600 DDR2,Yes,Yes (SLI Connector or PCIe Interface),No,Yes,,
+GeForce 6600 GT,Yes,Yes,No,Yes,,
+GeForce 6800 LE,Yes,No,No,No,,
+GeForce 6800 XT,Yes,Yes (PCIe only),No,Yes (NV42 only),,
+GeForce 6800,Yes,Yes (PCIe only),No,"Yes (NV41, NV42 only)",,
+GeForce 6800 GTO,Yes,Yes,No,No,,
+GeForce 6800 GS,Yes,Yes (PCIe only),No,Yes (NV42 only),,
+GeForce 6800 GT,Yes,Yes (PCIe only),No,No,,
+GeForce 6800 Ultra,Yes,Yes (PCIe only),No,No,,

@@ -1,11 +1,6 @@
-Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
-Mobility Radeon X1300,"January 19, 2006",M52,RV515,90,PCIe x16,350,250,2:4:4:4,1.4,1.4,128 + shared,8,DDR DDR2,128,9.0c,2.0,
-Mobility Radeon X1350,"September 18, 2006",M62,,,,470,350,,1.88,1.88,,11.2,DDR2 GDDR3,,,,
-Mobility Radeon X1400,"January 19, 2006",M54,,,,445,250,,1.78,1.78,,8,DDR DDR2,,,,
-Mobility Radeon X1450,"September 18, 2006",M64,,,,550,450,,2.2,2.2,,14.4,DDR2 GDDR3,,,,
-Mobility Radeon X1600,"February 1, 2006",M56,RV530,,,425 450,375 470,5:12:4:4,1.7 1.8,1.7 1.8,256,12.0 15.04,DDR2 GDDR3,,,,
-Mobility Radeon X1700,,M66,RV535,,,475,400 550,,1.9,1.9,,11.2 17.6,,,,,strained silicon
-Mobility Radeon X1800,"March 1, 2006",M58,R520,,,450,500,8:12:12:12,5.4,5.4,,32,GDDR3,256,,,
-Mobility Radeon X1800 XT,,M58,,,,550,650,8:16:16:16,8.8,8.8,,41.6,,,,,
-Mobility Radeon X1900,"January 11, 2007",M59,RV570,80,,400,480,8:36:12:12,4.8,4.8,,30.72,,,,,PowerPlay 6.0
+Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
+FirePro V3900[58],"February 7, 2012",TeraScale 2,Turks GL,40,PCIe 2.1 x16,650,900,480(96×5):24:8:6,5.2,15.6,1,28.8,GDDR3,128,624,-,11.0,4.3,1.2,rowspan=4 ,50,"HD3D, UVD3, DP 1.2, PowerPlay, Eyefinity"
+FirePro V4900[59],"November 1, 2011",,Turks XT GL,,,800,1000,,6.4,19.2,,64,GDDR52,,768,,,,,<75 Max,,
+FirePro V5900[60],"May 24, 2011",TeraScale 3,Cayman LE GL,,,600,5002,512(128×4):32:32:8,19.2,,2,,,256,610,154,,,,,,
+FirePro V7900[61],,,Cayman Pro GL,,,725,12502,1280(320×4):80:32:20,23.2,58,,160,,,1860,464,,,,<150 Max,,

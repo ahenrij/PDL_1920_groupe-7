@@ -1,7 +1,5 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts)
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,
-Quadro FX 380M,GT218M,40,PCIe 2.0 ×16,625,1530,1600,16:8:4,2.5,5,512,12.8,GDDR3,64,73.44,10.1,3.3,25
-Quadro FX 880M,GT216M,,,550,1210,,48:16:8,4.4,8.8,1024,25.6,,128,174.24,,,35
-Quadro FX 1800M,GT215M,,,450,1080,1600 2200,72:24:8,3.6,10.8,,25.6 35.2,GDDR3 GDDR5,,233.28,,,45
-Quadro FX 2800M,G92M,55,,500,1250,2000,96:48:16,8,16,,64,GDDR3,256,360,10.0,,75
-Quadro FX 3800M,,,,675,1688,,128:64:16,10.8,43.2,,,,,648.192,,,100
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus interface,L2 Cache(MB),Clock speeds,,,Memory,,,,Fillrate,,Processing power (TFLOPS),,,,Ray-tracing Performance,,,TDP (Watts),NVLink support,Release price (USD),
+,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s),Texture (GT/s),Single precision,Double precision,Half precision,Tensor compute (FP16) (2:1 sparse),Rays/s (Billions),RTX OPS/s (Trillions),Ray Perf TFLOPS,,,MSRP,Founders Edition
+GeForce RTX 3070[120],"October 29, 2020[121]",GA104-300-A1,Samsung 8N (10LP++++),17.4,392.5,5888:184:96:184:46 (46) (6),PCIe 4.0 x16,4,1500,1730,14000,8,448.0,GDDR6,256,96.0 110.72,276.0 318.32,17.66 20.37,0.276 0.318,17.66 20.37,141.31 162.98,,,40[122],220,rowspan="2" ,,$499
+GeForce RTX 3080[123],"September 17, 2020",GA102-300-K1-A1,,28.3,628.4,8704:272:96:272:68 (68) (6),,5,1440,1710,19000,10,760.0,GDDR6X,320,126.72 150.48,391.68 465.12,25.06 29.76,0.392 0.465,25.06 29.76,200.54 238.14,,,58[122],320,,$699,
+GeForce RTX 3090[124],"September 24, 2020",GA102-300-A1,,28.3,,10496:328:112:328:82 (82) (7),,6,1400,1700,19500,24,935.8,,384,134.4 162.72,459.20 555.96,29.38 35.68,0.459 0.558,29.38 35.68,235.08 285.48,,,69[122],350,2-way NVLink,,$1499

@@ -1,34 +1,42 @@
-File manager,File Name [D 1],File Contents [D 2],Basic metadata search [D 3],All metadata search [D 4],RegExp for Contents,Boolean (nesting levels),Fuzzy logic [D 5],Save searches [D 6],Refined searches [D 7]
-Altap Salamander,Yes,?,Yes,?,Yes[s 1],Yes,?,Yes,Yes
-Commander One,Yes,Yes,Yes[s 2],Yes[s 2],Yes,Yes,?,No,No
-CRAX Commander,Yes,Yes,Yes[s 2],?,Yes,Yes,?,No,No
-Directory Opus,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Dired,Yes,?,No,No,Yes,Yes,Yes,No,No
-Documents by Readdle,,,,,,,,,
-Dolphin,Yes,?,Yes,Yes,Yes,Yes,?,?,Yes
-Double Commander,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?
-emelFM2,Yes,?,Yes,Yes,?,?,?,Partial,?
-FAR Manager,Yes,?,Yes,Yes,Yes[s 3],Yes[s 3],Yes[s 3],Yes,Yes
-File Commander,Yes,No,Yes,No,No,Yes,No,Yes,No
-Files (Apple),,,,,,,,,
-Files by Google,,,,,,,,,
-Finder,Yes,?,Yes,Yes,No,?,?,Yes,?
-ForkLift,Yes,Partial,Yes,Yes,Yes,Yes,?,No,No
-Konqueror,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
-Krusader,Yes,?,Yes,Yes,Yes[79],No,No,Yes,Yes
-GNOME Files (Nautilus),Yes,?,Partial [s 4],Partial [s 4],?,?,?,Yes,?
-Nemo,?,?,?,?,?,?,?,?,?
-Nomad.NET,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
-Path Finder,Yes,?,Yes,Yes,No,No,?,No,No
-PCManFM,Yes,?,Yes,No,Yes,No,No,No,No
-ROX-Filer,Yes,?,Yes,Yes,Yes,Yes,?,No,?
-Total Commander,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Partial [s 5]
-Windows Explorer,Yes,No,Yes,No,No,?,?,Yes,Yes
-Xandros File Manager,?,?,?,?,?,?,?,?,?
-Xfe,Yes,Yes[s 6],Yes,No,No,No,No,No,No
-Xfile,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes
-Xfm,?,?,?,?,?,?,?,?,?
-xplorer²,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-XYplorer,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[s 7]
-ZTreeWin,Yes,Yes,Yes,Partial,Partial [s 8],Yes,Yes,Yes,Yes
-File manager,File Name [D 1],File Contents [D 2],Basic metadata search [D 3],All metadata search [D 4],RegExp for Contents,Boolean (nesting levels),Fuzzy logic [D 5],Save searches [D 6],Refined searches [D 7]
+File manager,Family,UI,Icon view,List view,Column view,Thumbnails,Details + Thumbs,Grouping,Content dependent [37],Twin panel,Favorites / Bookmark,Panel tabs
+Altap Salamander,Orthodox,GUI,Yes,Yes,Yes,Yes,No,No,No,Yes,Partial,No
+Commander One,Orthodox,GUI,Yes,Yes,Yes,Yes,?,?,No,?,Yes,Yes
+CRAX Commander,Orthodox,GUI,Yes,Yes,No,Yes,?,?,No,Yes,Yes,Yes
+Demos Commander,Orthodox,Text,?,Yes,?,?,?,?,?,Yes,?,?
+Directory Opus,Orthodox,GUI,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Dired,Orthodox,Text,?,Yes,?,"Yes, on GUI[38]","Yes, on GUI[38]",?,?,"Yes, one or more",Partial (bookmarks),Yes (show tab-bar optional) [39]
+Documents by Readdle,,GUI,Yes,,,Yes,,,,,,
+Dolphin,Navigational,GUI,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+Double Commander,Orthodox,GUI,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+DOS Navigator,Orthodox,Text,?,Yes,?,?,?,?,?,Yes,?,?
+emelFM2,Orthodox,GUI,No,Yes,No,Yes[40],?,No,No,Yes,?,No
+FAR Manager,Orthodox,Text [41],Partial[42],Yes,Yes,Yes[43],Partial[42],Yes,Yes,Yes,Yes,Partial [m 1]
+File Commander,Orthodox,Text,No,Yes,Yes,No,Partial,Yes,No,Yes,No,No
+File Manager,Orthodox,GUI,Yes,Yes,No,?,?,?,?,Yes,No,No
+Files (Apple),,GUI,Yes,,,Yes,Yes,,,,,
+Files by Google,,GUI,,,,,,,,,,
+Finder,Spatial / Miller Columns,GUI,Yes,Yes,Yes,Yes,"Yes, with Cover Flow",Yes,No,No,Yes,Yes
+ForkLift,Orthodox,GUI,Yes,Yes,Yes,Yes,Partial,Yes,No,Yes,Yes,Yes
+gentoo,Orthodox,GUI,?,Yes,?,?,?,?,?,Yes,?,?
+GNOME Commander,Orthodox,GUI,No,Yes,No,No,?,No,No,Yes,?,Yes
+Konqueror,Navigational / Orthodox,GUI,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Krusader,Orthodox,GUI,Yes,Yes,Yes,Yes,?,No,Yes,Yes,Yes,Yes
+Midnight Commander,Orthodox,Text,No,Yes,Yes,?,?,?,Yes,Yes,Yes,?
+GNOME Files (Nautilus),Navigational / Spatial,GUI,Yes,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+Nemo,Navigational / Spatial,GUI,Yes,Yes,Yes,Yes,Yes,No,No,"Yes,press[F3]",Yes,Yes
+Nomad.NET,Orthodox,GUI,Yes,Yes,Yes,Yes,?,Yes,"Partial, Manual",Yes,Yes,"Yes, Shared"
+Path Finder,Navigational,GUI,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes
+PCManFM,Navigational,GUI,Yes,Yes,Yes,Yes,Yes,?,No,Yes,Yes,Yes
+ROX-Filer,Spatial,GUI,Yes,Yes,No,Yes,Yes,No,No,No,Yes,No
+STDU Explorer,Navigational,GUI,Yes,Yes,Yes,Yes,No,No,No,No,No,No
+Total Commander,Orthodox,GUI,Yes,Yes,Yes,Yes,Yes,Yes,Yes In viewing,Yes,Yes,Yes
+Thunar,Navigational,GUI,Yes,Yes,Yes,Yes,Yes,No,?,No,Yes,Yes
+Volkov Commander,Orthodox,Text,?,Yes,?,?,?,?,?,Yes,?,?
+Windows Explorer,Navigational / Spatial,GUI,Yes,Yes,Yes [m 2],Yes,Partial [m 3],Yes,Yes,No,Yes,No
+Xandros File Manager,Navigational,GUI,Yes,?,?,?,?,?,?,?,?,?
+Xfe,Hybrid Navigational,GUI,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No
+Xfm,Spatial,GUI,Yes,No,No,No,No,?,?,No,?,No
+xplorer²,Hybrid Navigational / Orthodox,GUI,Yes,Yes,Yes,Yes,Yes[44],Yes,Yes,Yes,Yes,Yes
+XYplorer,Hybrid Navigational / Orthodox,GUI,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes
+ZTreeWin,Orthodox,Text,No,Yes,Yes,No,Partial,Yes,No,Yes,Yes,No
+File manager,Family,UI,Icon view,List view,Column view,Thumbnails,Details + Thumbs,Grouping,Content dependent,Twin panel,Favorites / Bookmark,Panel tabs

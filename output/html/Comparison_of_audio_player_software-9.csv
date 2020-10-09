@@ -1,25 +1,22 @@
-Audio player,ID3v1,ID3v2,APEv2 tag,Vorbis comment,Cue sheet,CD-Text,WAVE chunks
-AIMP,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Amarok,Yes[metadatanotes 1],Yes[metadatanotes 1][metadatanotes 2],Yes[metadatanotes 1],Yes,Yes[metadatanotes 3],?,Yes
-Audacious,Yes,Yes,Yes,Yes,Yes,Yes,?
-Audion,Yes,Yes,No,No,?,?,?
-cmus,Yes,Yes,Yes,Yes,Yes,No,?
-Cog,Yes,Yes,Yes,Yes,Yes,?,?
-foobar2000,Yes,Yes,Yes,Yes,Yes,Yes[metadatanotes 4],Yes
-iTunes,Yes,Yes,Yes,?,?,?,?
-JRiver Media Center,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-JuK,Yes[metadatanotes 1],Yes[metadatanotes 1],Yes[metadatanotes 1],Yes[metadatanotes 1],?,?,?
-MediaMonkey,Yes,Yes,Yes,Yes,?,Yes,?
-Mixxx,Yes,Yes,Yes,Yes,No,No,Yes
-MPXPLAY,Yes,Yes,Yes,Yes,?,?,?
-MusicBee,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Musicmatch Jukebox,Yes,Yes,No,?,?,Yes,?
-musikCube,Yes,Yes,Yes,?,?,?,?
-Quod Libet,Yes,Yes,Yes,Yes,No,No,Yes
-Rhapsody,Yes,Yes,No,No,?,?,?
-Rhythmbox,Yes,Yes,Yes,Yes,?,?,?
-Sayonara Player,Yes,Yes,?,Yes,?,?,?
-Sonique,Yes,No,?,?,?,?,?
-XMMS,Yes,Yes,No,Yes,?,?,?
-Zinf,Yes,Yes,No,Yes,?,?,?
-Audio player,ID3v1,ID3v2,APEv2 tag,Vorbis comment,Cue sheet,CD-Text,WAVE chunks
+Audio player,HTTP,"RTSP (RTSPU, RTSPT)","MMS (MMSU, MMST)",Podcasting,Other
+AIMP,Yes,No,Yes,No,No
+Amarok,Yes,Yes,Yes,Yes,UPNP
+Audacious,Yes,No,Yes,No,?
+Audion,Yes,No,No,No,?
+cmus,Yes,No,No,No,?
+Cog,No,No,No,No,?
+foobar2000,Yes,Partial[protocolnotes 1],Yes,Partial[protocolnotes 2],?
+JuK,?,?,?,?,?
+JRiver Media Center,Yes,Yes,Yes,Yes,?
+MediaMonkey,Yes,No,No,Yes[protocolnotes 3],?
+MusicBee,Yes,?,?,Yes,?
+Musicmatch Jukebox,Yes,?,?,?,?
+musikCube,Yes,No,No,?,?
+Music Player Daemon,Yes[22],Yes[23],Yes[24],Yes,Music Player Daemon
+Rhapsody,Yes,Yes,Yes,Yes,?
+Rhythmbox,Yes,Yes,No,Partial[protocolnotes 4],UPNP
+Sayonara Player,Yes,?,?,?,?
+Sonique,Yes,?,?,?,?
+XMMS,Yes,?,?,?,?
+Zinf,Yes,Yes,No,No,?
+Audio player,HTTP,"RTSP (RTSPU, RTSPT)","MMS (MMSU, MMST)",Podcasting,Other

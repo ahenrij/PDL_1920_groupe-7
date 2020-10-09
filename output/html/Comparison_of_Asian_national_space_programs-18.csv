@@ -1,3 +1,4 @@
-No.,Country,Spacecraft,Year,Type
-1,Japan,Akatsuki,2015,Orbiter
-TBD,India,Shukrayaan-1,2023 (Planned),Orbiter with aerobots
+Country,Spaceplane,First flight mission,Year,Program status
+Japan,HOPE-X,HYFLEX,1996,Cancelled
+China,Various,Shenlong,2007,Ongoing
+India,RLV–TD,Hypersonic Flight Experiment,2016,Under development

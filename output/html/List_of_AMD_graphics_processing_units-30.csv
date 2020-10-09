@@ -1,8 +1,10 @@
-Model (codename),Release Date,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TBP,Bus interface
-,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Bandwidth (GB/s),,
-Radeon Instinct MI6 (Polaris 10) [407][408][409][410][411],December 2016,GCN 4th gen 14 nm,5.7×109 232 mm2,2304:144:32 36 CU,1120 1233,177.6,39.46,5800,5800,358,GDDR5 256-bit,16,7000,224,150 W,PCIe 3.0 x16
-Radeon Instinct MI8 (Fiji XT) [407][408][409][412][413],,GCN 3rd gen 28 nm,8.9×109 596 mm2,4096:256:64 64 CU,1000,256.0,64.0,8200,8200,512,HBM 4096-bit,4,1000,512,175 W,
-Radeon Instinct MI25 (Vega 10 XT)[407][408][409][414][415][416],,GCN 5th gen 14 nm,12.5×109 510 mm2,4096:256:64 64 CU,1400 1500,384,96.0,24600,12300,768,HBM2 2048-bit,16,1704,436.2,300 W,
-"Radeon Instinct MI25 mxgpu (Prototype, June 2017)[417]",Unreleased,,2× 12.5×109 510 mm2,2× 4096:256:64 64 CU,1400 1500,2× 384,2× 96.0,2× 24600,2× 12300,2× 768,,2× 16,,2× 436.2,300 W,
-Radeon Instinct MI50 (Vega 20 GL)[418][419][420][421],November 2018,GCN 5th gen 7 nm,13.2×109 331 mm2,3840:240:- 60 CU,1450 1746,419.04,-,26800,13400,6700,HBM2 4096-bit,16,2000,1024,300 W,PCIe 4.0 x16
-Radeon Instinct MI60 (Vega 20 GL)[418][422][423],,,,4096:256:- 64 CU,1500 1800,460.8,-,29450,14725,7362.5,,32,,1024,300 W,
+Model,Launch,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Hardware T&L,Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
+Rage LT (Rage II),Nov 1996,500,PCI,60,66,No,0:1:1:1,0.06,0.06,4,0.53,"EDO, SDR, SGR",64,5,N/A,
+Rage LT Pro (Rage Pro),Nov 1997,350,"AGP, PCI",75,100,,,0.075,0.075,8,0.80,,,6,1.1,Motion Compensation
+Rage Mobility M/P (Rage Pro),Nov 1998,250,,90,Unknown,,,0.18,0.18,,Unknown,"SDR, SGR",,Unknown,Unknown,"M had 4 MB of integrated SDRAM, P had none. IDCT, Motion Compensation."
+Rage Mobility M1 (Rage Pro),Feb 1999,,,90,90,,,,,,0.72,SDR,,6,1.2,"M1 had 8 MB of integrated SDRAM, P had none. IDCT, Motion Compensation."
+Rage 128 GL,Aug 1998,,,103,103,,0:2:2:2,0.206,0.206,32,1.65,,128,,,
+Rage Mobility 128 (Rage 128 Pro),Oct 1999,,,105,105,,,0.21,0.21,16,2.28,,,,,"IDCT, Motion Compensation"
+Rage Mobility M3 (AGP 4x) (Rage 128 Pro),,,,,,,,,,,2.28,,,,,"M3 had 8 MB of integrated SDRAM, IDCT, Motion Compensation."
+Rage Mobility M4 (AGP 4x) (Rage 128 Pro),,,,,,,,,,32,2.28,,,,,"M4 had 16 MB of integrated SDRAM, IDCT, Motion Compensation."

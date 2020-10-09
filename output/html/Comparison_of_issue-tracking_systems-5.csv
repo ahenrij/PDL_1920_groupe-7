@@ -1,40 +1,36 @@
-System,Creator,License,Implementation language(s),Back end,Launch date,Refs
-Apache Bloodhound,Apache Software Foundation,Apache License,Python,"MySQL, PostgreSQL, SQLite",2012,[1]
-Assembla Tickets,Assembla,"Proprietary, hosted. Available for free for open source projects",Ruby,MySQL,2008,
-Axosoft,Axosoft LLC,"Proprietary, Saas","C#, .NET",SQL Server,2002,
-Bugzilla,Mozilla Foundation,MPL,Perl,"MySQL, Oracle, PostgreSQL, SQLite",1998-09-19,
-Debbugs,Debian,GPL,Perl,"Flat file, Berkeley DB indexes[citation needed]",Between 1994 and 1999[notes 1],
-Faveo Helpdesk,Ladybird Web Solution,Open Software License,PHP,MySQL,2015,
-FogBugz,Glitch,Saas,"ASP on Windows, PHP on macOS, FreeBSD, and Linux","SQL Server, MySQL",2000,[2]
-Fossil,D. Richard Hipp,BSD,C,SQLite,2006,
-FusionForge,Various (open source contributors),GPLv2,PHP,PostgreSQL,2009-02,
-GLPI,INDEPNET,GPLv2,PHP,MySQL,2003-11-17,
-GNATS,Free Software Foundation,GPL,"C, Web Front-end In Perl",Text files with custom daemon/search engine,1992,
-HP Quality Center,"Hewlett-Packard, formerly Mercury Interactive",Proprietary,".NET (client), Java (server)","Oracle, SQL Server",1995,
-IBM Rational ClearQuest,Rational Software,Proprietary,kernel: executables for several platforms; hooks: Perl and Visual Basic,"IBM DB2, Oracle, SQL Server, Access, Sybase ASA",1998,
-IBM Rational Team Concert,Rational Software,Proprietary,kernel: Java; API: Java,"IBM DB2, Oracle, SQL Server, Apache Derby",2008,
-Jira,Atlassian,Proprietary. Free community licenses for open source and academic projects,Java,"MySQL, PostgreSQL, Oracle, SQL Server",2002,
-Launchpad,Canonical Ltd.,AGPL,"JavaScript, Python",PostgreSQL,2004-01,
-MantisBT,Various (open source contributors),GPL,PHP,"ADOdb (MySQL, PostgreSQL, SQL Server, etc.)",2000,
-Microsoft Dynamics CRM,Microsoft,"Proprietary, Commercial",.NET,Microsoft SQL Server,2003,
-OpenProject,OpenProject Foundation e.V.,GPL,"Ruby, JavaScript","MySQL, PostgreSQL, MariaDB",2010,
-org-mode,Carsten Dominik,GPL,Emacs,Flat file,2003,
-OTRS,OTRS,AGPL,"Perl, JavaScript","MySQL, PostgreSQL, Oracle, SQL Server",2002,
-Phabricator,Facebook,Apache License,PHP,,2010,
-Pivotal Tracker,Pivotal Labs,"Proprietary, free version for public projects, non-profits and academic institutions",Ruby,"Ruby on Rails, MySQL, Memcached",2008,
-Redmine,Jean-Philippe Lang,GPLv2,Ruby,"MySQL, PostgreSQL, SQLite",2006,
-Request Tracker,"Best Practical Solutions, LLC",GPLv2,Perl,"MySQL, PostgreSQL, Oracle, SQLite",1999-10-13,
-Roundup,"Ka-Ping Yee, Richard Jones",MIT license (ZPL v 2.0 for the template system),Python,"SQLite, MySQL, PostgreSQL, Berkeley DB",2001,
-StarTeam,"originally Starbase Corporation, currently Borland",Proprietary,"C++, Java, etc.","SQL Server recommended, Oracle, DB2 supported",Unknown,
-Supportworks,Hornbill Systems,Proprietary,C++ and PHP,"SQL Server, MySQL, Oracle, Sybase",1994[3],
-SysAid,SysAid Technologies,Proprietary,"C#, Java","Derby, Microsoft SQL Server, MySQL, Oracle",2002,
-Team Foundation Server,Microsoft,"Proprietary, Commercial",.NET,MS SQL Server 2005 & 2008,2005,
-TestTrack,Seapine Software,Proprietary,"C++, Qt4, JavaScript","Oracle, PostgreSQL, SQL Server, SQLite",1996,
-Trac,Edgewall Software,New BSD,Python,"SQLite, PostgreSQL, MySQL",2006-10-01,
-TrackerSuite.Net,Automation Centre,Proprietary,C#,"SQL Server, SQL Server Express",2006,
-Trello,Atlassian,Saas,Node.js,MongoDB,2011,
-Tuleap,enalean,GPLv2,php,"LAMP, MySQL",2011,
-Twproject,Open Lab,"Proprietary, some parts LGPL",Java,all relational (uses Hibernate),2003,
-Wrike,"Wrike, Inc.","Proprietary, hosted",Java,PostgreSQL,2006,
-YouTrack,JetBrains s.r.o.,"Proprietary, stand-alone and hosted, free version, free for open source projects",Java,JavaScript and Kotlin,2009,
-System,Creator,License,Implementation language(s),Back end,Launch date,Refs
+System,Form based,Public key cryptography,Two-factor,OpenID,OAuth,LDAP,Shibboleth,Others
+Apache Bloodhound,Yes,Optional[88],No,Optional[89],No,Yes,Unknown,No
+Assembla Tickets,Yes,No,No,Yes,Yes,Yes (private version),Unknown,Unknown
+Axosoft,Yes,No,No,No,No,Yes,No,No
+Bugzilla,Yes,No,No,Optional[90],No,Yes,Unknown,No
+Debbugs,No,No,No,No,No,No,No,No
+Faveo Helpdesk,Yes,No,No,No,Yes,Yes,No,No
+FogBugz,Yes,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
+Fossil,Unknown,Unknown,Unknown,Unknown,Unknown,No,Unknown,Unknown
+FusionForge,Yes,No,No,Yes,No,Yes,No,"Yes, CAS"
+GLPI,Yes,No,Yes,No,No,Yes,No,No
+GNATS,Unknown,Unknown,Unknown,Unknown,Unknown,No,Unknown,Unknown
+HP Quality Center,No,No,No,No,No,Yes,No,Unknown
+IBM Rational ClearQuest,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
+Jira,Yes,No,No,Yes,Yes,Yes,"Yes, via plugin[91][92]","Yes, via Crowd[93]"
+MantisBT,Yes,No,No,Yes[94],Yes[95],Yes,Unknown,No
+Microsoft Dynamics CRM,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
+org-mode,Unknown,Unknown,Unknown,Unknown,Unknown,No,Unknown,Unknown
+OTRS,Yes,Yes,Yes,Unknown,Unknown,Yes,Unknown,Unknown
+Phabricator,Yes,No,Yes,No,Yes,Yes,No,No
+Pivotal Tracker,Yes,No,No,"Yes, Google Account",No,No,No,No
+Redmine,Yes,Yes[96],No,Yes[97],No,Yes,"Yes, via Apache (using mod_rails)",No
+Request Tracker,Yes,Unknown,Unknown,Yes[98],Unknown,Yes[99],Unknown,Yes[100]
+Roundup,Yes,Unknown,Unknown,Yes[101],Unknown,Yes,Yes[102],Yes[103]
+StarTeam,Unknown,Unknown,Unknown,Unknown,Unknown,No,Unknown,Unknown
+Supportworks,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
+SysAid,Yes,No,No,No,No,Yes,No,"Yes, CAS"
+Team Foundation Server,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
+TestTrack,Yes,Optional,No,No,No,Yes,No,Yes - custom DLL
+Trac,Yes,Optional[88],No,Optional[89],No,Yes,Unknown,No
+TrackerSuite.Net,Yes,No,No,No,No,Yes,No,No
+Tuleap,Yes,No,No,Yes,Yes,Yes,No,No
+Twproject,Yes,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,"Yes, Simple container auth."
+Wrike,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
+YouTrack,Yes,No,Yes,Yes,Yes,Yes,Unknown,Yes: JIRA account
+System,Form based,Public key cryptography,Two-factor,OpenID,OAuth,LDAP,Shibboleth,Others

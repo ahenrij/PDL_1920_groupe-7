@@ -1,23 +1,24 @@
-Name,Unicode Support,Single parent family,Same sex marriage,Witness to events,Name variants,Conflicting evidence,Source surety,Adoption & foster parent,non-standard calendar in date fields
-Agelong Tree,Yes,Yes,No,Yes,Yes,?,Yes,Yes,Yes
-Ahnenblatt,Yes,Yes,Yes,Partial christening and marriage only,Yes,?,Yes,Yes,Yes
-Ancestral Quest,Yes,Yes,No,?,Yes,Yes,Yes,Yes,?
-Ancestris,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No[a]
-Brother's Keeper,No,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes
-Family Historian,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Family Tree Builder,Yes,Yes,Yes,?,Yes,?,Yes,Yes,Yes
-Family Tree Maker,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No
-GEDitCOM II,Yes,?,Yes,?,?,?,?,?,?
-Genbox Family History,Yes,?,?,?,?,?,?,?,?
-GenealogyJ,Yes,?,Partial One partner's gender mislabelled,No,Yes,Yes,?,Yes,?
-GenoPro,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Gramps,Yes,Yes,Partial One partner's gender mislabelled[1],Yes,Yes,?,Yes,Yes,Yes
-Heredis,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Legacy Family Tree[b],No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
-LifeLines,Yes,?,No,?,?,?,?,?,?
-MacFamilyTree,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Personal Ancestral File,Yes,?,No,?,?,?,?,?,?
-Reunion,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes
-RootsMagic,Yes,?,Yes,Yes (paid version),Yes,Yes,Yes,Yes,Yes
-The Master Genealogist,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-webtrees,?,?,?,?,?,?,?,?,?
+Name,English,Afrikaans,Danish,Dutch,French,German,Italian,Norwegian,Polish,Portuguese,Russian,Spanish,Swedish
+Agelong Tree[a],Yes,No[b],No[b],Yes,Yes,Yes,Yes,No[b],Yes,?,Yes,Yes,No[b]
+Ahnenblatt[c],Yes,No[b],Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes
+Ancestral Quest[d],Yes,No[b],Yes,No[b],Yes,Yes,No[b],Yes,Partial,?,No,Yes,Partial
+Ancestris[e],Yes,No[b],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No[b],Yes,Yes
+Brother's Keeper,Yes,Yes,Yes,Yes,Yes,Yes,No[b],Yes,Yes,?,Yes,No[b],Yes
+Family Historian,Yes,No,No,No,No,No,No,No,No,?,No,No,No
+Family Tree Builder,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes
+Family Tree Maker (Windows),Yes,No,Yes,No,No,No,No,No,No,?,No,No,No
+Family Tree Maker for Mac,Yes,No,No,No,No,No,No,No,No,?,No,No,No
+GEDitCOM II,Yes,No,No,No,Yes,No,No,No,No,?,No,Yes,Yes
+Genbox Family History[f],Yes,No,Yes,Yes,Yes,Yes,Yes,Partial,Yes,?,Yes,Partial,Partial
+GenealogyJ,Yes,No,No,Yes,Yes,Yes,No,No,Yes,?,Yes,Yes,No
+GenoPro[g][h],Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,?,Yes,Yes,Yes
+Gramps[i],Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes
+Heredis,Yes,No,No,No,Yes,Yes,No,No,No,?,No,No,No
+Legacy Family Tree,Yes[j],Yes,Yes,Yes,Yes,Yes,Yes,Yes[k],No,?,No,public test,Yes
+LifeLines,Yes,No,Yes,No,Yes,Yes,No,No,No,?,No,No,Yes
+MacFamilyTree,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes
+Personal Ancestral File,(v4.x/5.x),No,No,No,(v4.x),(v4.x/5.x),No,No,No,?,No,(v4.x),(v5.x)
+Reunion[l],Yes,No,No,Yes[l],Yes[l],Yes[l],No,Yes[l],No,?,No,No,No
+RootsMagic,Yes,No,No,No,No,No,No,No,No,?,No,No,No
+The Master Genealogist,Yes[n],Yes,Yes,Yes,Yes,Yes,Partial,Yes,No[g],?,No,No[g],Yes
+webtrees,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes

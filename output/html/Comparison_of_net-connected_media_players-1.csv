@@ -1,6 +1,15 @@
-Manufacturer,System (year),Connectivity,Maximum video resolution,Video formats supported,Network,USB,Internal media storage,Card reader slot,Web browser,Remote control,Network file server,Network file client
-Microsoft,Xbox One (2013),"HDMI, HDMI-in, optical audio","1080p; 4K@60fps (Xbox One S, Xbox One X)",Many,"802.11a/b/g/n, 10/100/1000 Ethernet",3x USB 3.0,"500GB or 1TB hard drive, not user-upgradeable",None,Yes,IR remote sold separately,Unspecified,DLNA
-Microsoft,Xbox 360 (2005),"HDMI, component audio/video, composite audio/video, optical audio",1080p[4],Many,"802.11a/b/g/n, 10/100/1000 Ethernet",3x USB 2.0,"4GB up to 500GB hard drive, user-upgradeable",None,Yes,IR remote sold separately,Unspecified,DLNA
-Sony,PlayStation 4 (2013),"HDMI, optical audio",1080p; 4K (PS4 Pro),Many,"802.11 b/g/n, 10/100/1000 Ethernet",2x USB 3.0,"500GB or 1TB hard drive, user-upgradeable",None,Yes,IR remote sold separately,None,DLNA
-Sony,PlayStation 3 (2006),"HDMI, composite audio/video, component audio/video, optical audio",1080p,Many,"802.11a/b/g/n, 10/100/1000 Ethernet",2x USB 2.0 (4x USB 2.0),"12GB[5] up to 500GB hard drive, user-upgradeable","Some early models include card readers,[6] other models do not.",Yes,"Bluetooth remote built into controller, IR remote sold separately",None,DLNA
-Nintendo,Wii U (2012),"HDMI, component audio/video, composite audio/video",1080p,H.264 via browser[7],"802.11a/b/g/n, 10/100 Ethernet",4x USB 2.0,"8 or 32 GB NAND flash, not user-upgradeable",SD card,Yes,IR remote built into GamePad,None,None
+Model,Amazon Video,Crackle,Flixster,Google Play,Hulu,iTunes (Apple TV),Movies Anywhere,Netflix,Sling TV [8],Vevo,Vimeo,VUDU,WWE Network,YouTube,UltraFlix
+Amazon Fire TV,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+Apple TV,Yes (3rd generation and later),Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,4th generation and later,Yes,with software version 7.2 and later,Yes (HD)
+Asus Cube,Yes,No,No,Yes,No,No,?,Yes,No,No,No,No,No,Yes,No
+Google Chromecast/Nexus Player,Yes[9],Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Hisense Pulse,No,Yes,Yes,Yes,No,No,?,Yes,No,No,No,Yes,No,Yes,Yes
+Little Smart Box,No,Yes,Yes,Yes,Yes,No,?,Yes,No,Yes,Yes,Yes,No,Yes,No
+Microsoft Xbox,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes[10],Yes,No,Yes,Yes,Yes,Yes
+NanoTech Nuvola,No,No,No,Yes,Yes,No,?,Yes,No,No,No,No,No,Yes,Yes
+Nintendo,Yes,No,No,No,Yes,No,?,Yes,No,No,No,No,No,Yes,No
+Roku | Roku Devices,Yes,Yes,Yes,Yes[11],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+SHIELD Android TV,Yes,Yes,Yes[12],Yes,Yes,No,?,Yes,Yes,Yes,Yes,Yes,Yes[13],Yes,Yes
+Sony PlayStation,Yes,Yes,No,No,Yes,No,?,Yes,No,No,No,Yes,Yes,Yes,No
+Vizio Co-Star,Yes,Yes,No,No,LT only,No,?,Yes,No,No,No,Yes,No,Yes,Yes
+Western Digital WD TV,No,No,Yes,No,Yes,No,?,Live and Play versions,No,No,Yes,Yes,No,Yes,No

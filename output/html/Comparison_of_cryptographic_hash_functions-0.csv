@@ -1,21 +1,37 @@
-Function,Year,Designer,Derived from,Reference
-BLAKE,2008,Jean-Philippe Aumasson Luca Henzen Willi Meier Raphael C.-W. Phan,ChaCha20,Website Specification
-BLAKE2,2012,Jean-Philippe Aumasson Samuel Neves Zooko Wilcox-O'Hearn Christian Winnerlein,BLAKE,Website Specification RFC 7693
-BLAKE3,2020,Jack O'Connor Jean-Philippe Aumasson Samuel Neves Zooko Wilcox-O'Hearn,BLAKE2,Website Specification
-GOST R 34.11-94,1994,FAPSI and VNIIstandart,GOST 28147-89,RFC 5831
-HAVAL,1992,Yuliang Zheng Josef Pieprzyk Jennifer Seberry,,Website Specification
-KangarooTwelve,2016,Guido Bertoni Joan Daemen Michaël Peeters Gilles Van Assche,Keccak,Website Specification
-MD2,1989,Ronald Rivest,,RFC 1319
-MD4,1990,,,RFC 1320
-MD5,1992,,MD4,RFC 1321
-MD6,2008,,,Website Specification
-RIPEMD,1992,The RIPE Consortium[1],MD4,
-RIPEMD-128 RIPEMD-256 RIPEMD-160 RIPEMD-320,1996,Hans Dobbertin Antoon Bosselaers Bart Preneel,RIPEMD,Website Specification
-SHA-0,1993,NSA,,SHA-0
-SHA-1,1995,,SHA-0,Specification
-SHA-256 SHA-384 SHA-512,2002,,,
-SHA-224,2004,,,
-SHA-3 (Keccak),2008,Guido Bertoni Joan Daemen Michaël Peeters Gilles Van Assche,RadioGatún,Website Specification
-Streebog,2012,"FSB, InfoTeCS JSC",,RFC 6986
-Tiger,1995,Ross Anderson Eli Biham,,Website Specification
-Whirlpool,2004,Vincent Rijmen Paulo Barreto,,Website
+Function,Size (bits)[note 1],,,,,,Words × Passes = Rounds[note 2],Operations[note 3],Endian[note 4]
+,Word,Digest,Chaining values[note 5],Computation values[note 6],Block,Length [note 7],,,
+GOST R 34.11-94,32,×8 = 256,,,×8 = 256,32,4,A B L S,Little
+HAVAL-3-128,32,×4 = 128,×8 = 256,,"×32 = 1,024",64,32 × 3 = 96,A B S,Little
+HAVAL-3-160,,×5 = 160,,,,,,,
+HAVAL-3-192,,×6 = 192,,,,,,,
+HAVAL-3-224,,×7 = 224,,,,,,,
+HAVAL-3-256,,×8 = 256,,,,,,,
+HAVAL-4-128,,×4 = 128,,32 × 4 = 128,,,,,
+HAVAL-4-160,,×5 = 160,,,,,,,
+HAVAL-4-192,,×6 = 192,,,,,,,
+HAVAL-4-224,,×7 = 224,,,,,,,
+HAVAL-4-256,,×8 = 256,,,,,,,
+HAVAL-5-128,,×4 = 128,,32 × 5 = 160,,,,,
+HAVAL-5-160,,×5 = 160,,,,,,,
+HAVAL-5-192,,×6 = 192,,,,,,,
+HAVAL-5-224,,×7 = 224,,,,,,,
+HAVAL-5-256,,×8 = 256,,,,,,,
+MD2,8,×16 = 128,×32 = 256,×48 = 384,×16 = 128,None,48 × 18 = 864,B,N/A
+MD4,32,×4 = 128,,,×16 = 512,64,16 × 3 = 48,A B S,Little
+MD5,,,16 × 4 = 64,,,,,,
+RIPEMD,32,×4 = 128,,×8 = 256,×16 = 512,64,16 × 3 = 48,A B S,Little
+RIPEMD-128,,,16 × 4 = 64,,,,,,
+RIPEMD-256,,×8 = 256,,,,,,,
+RIPEMD-160,,×5 = 160,,×10 = 320,,,16 × 5 = 80,,
+RIPEMD-320,,×10 = 320,,,,,,,
+SHA-0,32,×5 = 160,,,×16 = 512,64,16 × 5 = 80,A B S,Big
+SHA-1,,,,,,,,,
+SHA-256,,×8 = 256,×8 = 256,,,,16 × 4 = 64,,
+SHA-224,,×7 = 224,,,,,,,
+SHA-512,64,×8 = 512,×8 = 512,,×16 = 1024,128,16 × 5 = 80,,
+SHA-384,,×6 = 384,,,,,,,
+Tiger-192,64,×3 = 192,×3 = 192,,×8 = 512,64,8 × 3 = 24,A B L S,Not Specified
+Tiger-160,,×2.5=160,,,,,,,
+Tiger-128,,×2 = 128,,,,,,,
+Function,Word,Digest,Chaining values,Computation values,Block,Length,Words × Passes = Rounds,Operations,Endian
+,Size (bits),,,,,,,,

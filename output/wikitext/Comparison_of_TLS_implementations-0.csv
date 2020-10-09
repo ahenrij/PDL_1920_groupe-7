@@ -1,29 +1,24 @@
-Implementation,Block cipher with mode of operation,,,,Stream cipher,
-,IDEA CBC group="n"name="removal_from_tls1.2"IDEA and DES have been removed from TLS 1.2.[133](insecure)[134],DES CBC (insecure) [135],"DES-40 CBC (EXPORT, insecure) [136]","RC2-40 CBC (EXPORT, insecure) [136]",RC4-128 (insecure) [137],"RC4-40 (EXPORT, insecure) [138][136]"
-Botan,No,No,No,No,No[139],No
-BoringSSL,No,No,No,No,Disabled by default at compile time,No
-cryptlib,No,Disabled by default at compile time,No,No,Disabled by default at compile time,No
-GnuTLS,No,No,No,No,Disabled by default[19],No
-JSSE,No,Disabled by default,Disabled by default,No,Disabled by default,Disabled by default [140]
-LibreSSL,Yes,Yes,No[23],No[23],Yes,No[23]
-MatrixSSL,Yes,No,No,No,Disabled by default,No
-Mbed TLS,No,Disabled by default at compile time,No,No,Disabled by default at compile time[26],No
-NSS,Yes,Disabled by default,Disabled by default,Disabled by default,Lowest priority[141][142],Disabled by default
-OpenSSL,Disabled by default[32],Disabled by default,No[32],No[32],Disabled by default,No[32]
-RSA BSAFE Micro-Edition Suite,No,No,No,No,Disabled by default,No
-RSA BSAFE SSL-J,No,Disabled by default,Disabled by default,No,Disabled by default,Disabled by default
-SChannel XP/2003,No,Yes,Yes,Yes,Yes,Yes
-SChannel Vista/2008,No,Disabled by default,Disabled by default,Disabled by default,Yes,Disabled by default
-SChannel 7/2008R2,No,Disabled by default,Disabled by default,Disabled by default,Lowest priority will be disabled soon[143],Disabled by default
-SChannel 8/2012,No,Disabled by default,Disabled by default,Disabled by default,Only as fallback,Disabled by default
-SChannel 8.1/2012R2,No,Disabled by default,Disabled by default,Disabled by default,Disabled by default[143],Disabled by default
-Schannel 10[132],No,Disabled by default,Disabled by default,Disabled by default,Disabled by default[143],Disabled by default
-Secure Transport OS X 10.6,Yes,Yes,Yes,Yes,Yes,Yes
-Secure Transport OS X 10.7,Yes,,,,Yes,
-Secure Transport OS X 10.8-10.9,Yes,Disabled by default,Disabled by default,Disabled by default,Yes,Disabled by default
-Secure Transport OS X 10.10-10.11,Yes,Disabled by default,Disabled by default,Disabled by default,Lowest priority,Disabled by default
-Secure Transport macOS 10.12,Yes,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default
-wolfSSL,Disabled by default[144],No,No,No,Disabled by default,No
-Erlang/OTP SSL application,no,Disabled by default,no,no,Disabled by default,no
-Implementation,Block cipher with mode of operation,,,,Stream cipher,
-,IDEA CBC [135](insecure)[134],DES CBC (insecure) [135],"DES-40 CBC (EXPORT, insecure) [136]","RC2-40 CBC (EXPORT, insecure) [136]",RC4-128 (insecure) [137],"RC4-40 (EXPORT, insecure) [138][136]"
+Implementation,Block cipher with mode of operation,,,,,,,,,,Stream cipher,None
+,AES GCM [104],AES CCM [105],AES CBC,Camellia GCM [106],Camellia CBC [107],ARIA GCM [108],ARIA CBC [108],SEED CBC [109],3DES EDE CBC (insecure)[110],GOST 28147-89 CNT (proposed) [69][111],ChaCha20-Poly1305 [112],Null (insecure) [113]
+Botan,,Yes,Yes,,Yes,No,No,Disabled by default,Disabled by default,No,,Not implemented
+BoringSSL,,No,Yes,No,No,No,No,No,Yes,No,,
+cryptlib,,No,Yes,No,No,No,No,No,Yes,No,,Not implemented
+GnuTLS,,Yes[19],Yes,,Yes,No,No,No,Disabled by default[115],No,,Disabled by default
+JSSE,,No,Yes,No,No,No,No,No,Disabled by default[117],No[70],Yes (JDK 12+)[118],Disabled by default
+LibreSSL,,No,Yes,No,Yes[71],No,No,No[23],Yes,Yes[71],,Disabled by default
+MatrixSSL,,No,Yes,No,No,No,No,Yes,Disabled by default,No,,Disabled by default
+Mbed TLS,,Yes [120],Yes,,Yes,,Yes[121],No,Yes,No,,Disabled by default at compile time
+NSS,,No,Yes,No[124][125],Yes[126],No,No,Yes[127],Yes,No[73][74],,Disabled by default
+OpenSSL,,Disabled by default[32],Yes,No,Disabled by default[32],Disabled by default[130],No,Disabled by default[32],Disabled by default[32],Yes[75],,Disabled by default
+RSA BSAFE Micro-Edition Suite,,Yes,Yes,No,No,No,Yes,Yes,Lowest priority,No,,Disabled by default
+RSA BSAFE SSL-J,,Yes,Yes,No,No,No,No,No,Disabled by default,No,,Disabled by default
+SChannel XP/2003,,No,2003 only[131],No,No,No,No,No,Yes,No[76],,Disabled by default
+"SChannel Vista/2008, 2008R2, 2012",,No,Yes,No,No,No,No,No,Yes,No[76],,Disabled by default
+"SChannel 7, 8, 8.1/2012R2",Yes except ECDHE_RSA [78][79],No,Yes,No,No,No,No,No,Yes,No[76],,Disabled by default
+Schannel 10[132],,No,Yes,No,No,No,No,No,Yes,No[76],,Disabled by default
+Secure Transport OS X 10.6 - 10.10,,No,Yes,No,No,No,No,No,Yes,No,,Disabled by default
+Secure Transport OS X 10.11,,No,Yes,No,No,No,No,No,Yes,No,,Disabled by default
+wolfSSL,,Yes,Yes,No,Yes,No,No,No,Yes,No,,Disabled by default
+Erlang/OTP SSL application,,No,Yes,No,No,No,No,No, Disabled by default,No,Experimental,Disable by default
+Implementation,Block cipher with mode of operation,,,,,,,,,,Stream cipher,None
+,AES GCM [104],AES CCM [105],AES CBC,Camellia GCM [106],Camellia CBC [107],ARIA GCM [108],ARIA CBC [108],SEED CBC [109],3DES EDE CBC (insecure)[110],GOST 28147-89 CNT (proposed) [69][111],ChaCha20-Poly1305 [112],Null (insecure) [113]

@@ -1,3 +1,2 @@
-Definition,"find(string,substring) returns integer"
-Description,"Returns the position of the start of the first occurrence of substring in string. If the substring is not found most of these routines return an invalid index value – -1 where indexes are 0-based, 0 where they are 1-based – or some value to be interpreted as Boolean FALSE."
-Related,instrrev
+Definition,"substring(string, startpos, endpos) returns string substr(string, startpos, numChars) returns string"
+Description,"Returns a substring of string between starting at startpos and endpos, or starting at startpos of length numChars. The resulting string is truncated if there are fewer than numChars characters beyond the starting point. endpos represents the index after the last character in the substring. Note that for variable-length encodings such as UTF-8, UTF-16 or Shift-JIS, it can be necessary to remove string positions at the end, in order to avoid invalid strings."

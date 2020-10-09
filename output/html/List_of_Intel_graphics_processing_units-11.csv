@@ -1,26 +1,22 @@
-Name,Year released,Market,Processor,,Device ID,Execution units,Core clock (MHz),Memory,,API support,,Intel Clear Video HD
-,,,Code name,Model,,,,DVMT (MB),Bandwidth (GB/s),Direct3D,OpenGL,
-HD Graphics,2010,Desktop,Ironlake (Clarkdale),Celeron G1101,0042,12,533,1720,17,10.1 FL10_0,2.1 ES 2.0Linux,No
-,,,,,,,,,,,,
-,,,,Core i3-5x0,,,733,,21.3,,,Yes
-,,,,Core i5-6x0,,,,,,,,
-,,,,Core i5-655K,,,,,,,,
-,,,,Core i5-661,,,900,,,,,
-,,Laptop,Ironlake (Arrandale),Celeron U3xxx,0046,,166–500,,12.8,,,No
-,,,,Pentium U5xxx,,,,,,,,
-,,,,Core i3-3x0UM,,,,,,,,Yes
-,,,,Core i5-5x0UM,,,,,,,,
-,,,,Core i5-2520M,,,,,,,,
-,,,,Core i7-6x0UE,,,,,,,,
-,,,,Core i7-6x0UM,,,,,,,,
-,,,,Core i7-620LE,,,266–566,,17.1,,,
-,,,,Core i7-6x0LM,,,,,,,,
-,,,,Celeron P4xxx,,,500–667,,,,,No
-,,,,Pentium P6xxx,,,,,,,,
-,,,,Core i3-330E,,,,,,,,Yes
-,,,,Core i3-3x0M,,,,,,,,
-,,,,Core i5-4x0M,,,500–766,,,,,
-,,,,Core i5-520E,,,,,,,,
-,,,,Core i5-5x0M,,,,,,,,
-,,,,Core i7-610E,,,,,,,,
-,,,,Core i7-6x0M,,,,,,,,
+Graphics,Launch,Market,Code name,Chipset,Device ID[3],Core render clock (MHz),Execution units,Shader model (vertex/pixel),API support[13],,,Memory bandwidth (GB/s),DVMT (MB),Hardware acceleration,,
+,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2,VC-1,AVC
+GMA 3000,2006,Desktop,Lakeport,946GZ,2972,667[14][15],8[14][16],3.0 (SW) / 2.0,9.0c FL9_1,1.5Windows 2.1macOS 2.1Linux ES 2.0Linux,No,10.6,256,MC[8],No,No
+,,,Broadwater,Q963,2992,,,,,,,,,,,
+,,,,Q965,,,,,,,,12.8,,,,
+GMA X3000,,,,G965,29A2,,,3.0,,,,,384,Full[8],MC + (LF ? WMV9 only),
+GMA X3500,2007,,Bearlake,G35,2982,,,4.0,10.0 FL10_0,,,,,,MC + LF,
+GMA X3100,,Mobile,Crestline,GL960,2A02 2A12,400[17],,,,,,8.5,,,MC + (LF ? WMV9 only),
+,,,,GLE960,,,,,,,,,,,,
+,,,,GM965,,500[17],,,,,,10.7,,,,
+,,,,GME965,,,,,,,,,,,,
+GMA 4500,2008,Desktop,Eaglelake,B43,2E42 2E92,533,10,,,2.1 ES 2.0Linux,,12.8 (DDR2) 17 (DDR3)[18],1720,,MC + LF,MC + LF
+,,,,Q43,2E12,,,,,,,,,,,
+,,,,Q45,,,,,,,,,,,,
+GMA X4500,,,,G41,2E32,800,,,,,,,,,,
+,,,,G43,2E22,,,,,,,,,,,
+GMA X4500HD,,,,G45,,,,,,,,,,,Full,Full
+GMA 4500MHD,,Mobile,Cantiga,GL40,2A42,400[19],,,,,,,,,,
+,,,,GS40,,,,,,,,,,,,
+,,,,GM45,,533[19],,,,,,,,,,
+,,,,GS45,,,,,,,,,,,,
+,,,,GM47,,640,,,,,,,,,,

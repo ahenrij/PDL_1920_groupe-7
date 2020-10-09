@@ -1,5 +1,2 @@
-IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
-Eclipse JDT,EPL,,,,,"FreeBSD, JVM, Solaris",
-IntelliJ IDEA,"ASLv2, proprietary",,,,,"FreeBSD, OpenBSD, Solaris",
-NetBeans,"CDDL, GPL2",,,,,"OpenBSD, Solaris",
-SlickEdit,,,,,,"Solaris, Solaris SPARC, AIX, HP-UX",
+IDE,Developer,Latest stable release,Platform,License
+DrRacket,"PLT Design, Inc.","26 October 2018, v7.1",Cross-platform,LGPL

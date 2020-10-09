@@ -1,4 +1,6 @@
-Speed,MB/s,DVD equivalent
-1x,4.5,3x
-2x,9.0,7x
-4x,18.0,14x
+Speed,MB/s
+1x,0.15
+4x,0.6
+24x,3.6
+48x,7.2
+52x,7.8

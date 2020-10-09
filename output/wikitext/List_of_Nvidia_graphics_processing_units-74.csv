@@ -1,19 +1,15 @@
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12*,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
-NVS 50,NV18,150,AGP 4×/PCI,250,250,200,0:2:4:2,0.5,1.0,64,1.6,DDR,32,,7,1.2,,"DVI-I, S-Video"
-NVS 100,NV17,,,200,,333,0:2:4:2,,,64,2.664,,64,,,,,"2× DVI-I, VGA, S-Video"
-NVS 200,,,,250,250,250,0:2:4:2,0.5,1.0,64,8.0,,128,,,,,LFH-60
-NVS 210S,MCP51,90,Integrated,425,,,1:2:2:1,0.425,0.850,Up to 256 from system memory,,,,,9.0c,,,DVI + VGA
-NVS 280,NV34GL,150,PCIe ×16/AGP 8× / PCI,275,275,250,0:2:4:2/ 1:2:2:2 *:4:4:4,0.55,1.1,64,8.0,,,,9.0,1.5,13,DMS-59
-NVS 285,NV44,110,PCIe ×1/×16,,,275,3:4:4:2,,,128,8.8,,,,,2.1,18,DMS-59
-NVS 290,G86,80,,460,920,800,16:8:4,1.84,3.68,256,6.4,DDR2,64,44.16,10,3.3,21,DMS-59
-NVS 295,G98,65,,550,1300,1400,8:8:4,2.2,4.4,,11.2,GDDR3,,31.2,,,23,2× DisplayPort or 2× DVI-D
-NVS 300,GT218,40,,589,1402,1580,16:8:4,2.356,4.712,512,12.64,DDR3,,67.3,10.1,,17.5,DMS-59
-NVS 310,GF119,,PCIe ×16,,,1750,48:8:4,,,,14,,,,11.0,4.1,19.5,2× DisplayPort
-NVS 315,,,,900,900,1800,,3.6,7.2,1024,14.4,,,,,,,DMS-59 Idle Power Consumption 7W
-NVS 400,2× NV17,150,PCI,220,220,343,2× 0:2:4:2,2× 0.44,2× 0.88,2× 64,2× 11.0,DDR,2× 128,2× 5.328,,,,DMS-59
-NVS 420,2×G98,65,PCIe ×1/×16,550,1300,1400,2× 8:8:4,2× 2.2,2× 4.4,2× 256,2× 11.2,GDDR3,2× 64,2× 31.2,10,3.3,40,through VHDCI to (4× DisplayPort or 4× DVI-D)
-NVS 440,2×NV43,110,,250,,,,,,2× 128,,DDR,,,,,31,2× DMS-59[214]
-NVS 450,2×G98,65,,550,1300,1400,2× 8:8:4,2× 2.2,2× 4.4,2× 256,2× 11.2,GDDR3,2× 64,2× 31.2,10,3.3,35,4× DisplayPort
-NVS 510,GK107,28,PCIe ×16,,,1800,192:16:8 (1 SMX),,,2048,28.5,,128,,11.0,4.5,,4× miniDisplayPort
-NVS 810,2× GM107,28,,,,2× 512:32:16,2× 2048,,,2× 128,68,,8× miniDisplayPort,,,,,
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
+,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
+GeForce 920M,"March 12, 2015",GK208,28,PCIe 3.0 ×16,384:32:8 (2 SMX),954,,1800,7.6,30.5,2,14.4,DDR3,64,12 (11_0),4.5,1.2,733,33,
+GeForce 930M,,GM108,,,384:24:8 (3 SMM),928,941,,7.4,22.3,,,,,,,,713,29[156],
+GeForce 940M,,,,,,1072,1176,2000,8.6,25.7,,16,,,,,,823,36[157],
+GeForce 940MX[158],"June 28, 2016",GM107,,,512:32:8 (4 SMM),795,861,5000,6.9,27.6,,40,GDDR5,,,,,882,23,
+GeForce GTX 950M,"March 12, 2015",,,,640:40:16 (5 SMM),914,rowspan="2" ,,14.6,36.6,"2, 4",80,,128,,,,1170,,Similar core config to GTX 750 Ti (GM107-400-A2)
+,,,,,,,2000,32,,,,DDR3,55[159],,,,,,,
+GeForce GTX 960M,,,,,,1097,1176,5000,17.5,43.8,,80,GDDR5,,,,,1403,65[160],
+GeForce GTX 965M[161],"January 5, 2015",GM204,,,1024:64:32 (8 SMM),944,,,30.2,60.4,,,,,12 (12_1),,,1933,60[162],Similar core config to GTX 960 (GM206-300)
+GeForce GTX 970M[163],"October 7, 2014",,,,1280:80:48 (10 SMM),,993,,44.4,73.9,"3, 6",120,,192,,,,2365,75,Similar core config to GTX 960 OEM (GM204)
+GeForce GTX 980M[164],,,,,1536:96:64 (12 SMM),1038,1127,,66.4,99.6,"4, 8",160,,256,,,,3189,100,Similar core config to GTX 970 (GM204-200) with one SMM disabled
+GeForce GTX 980[165],"September 22, 2015",,,,2048:128:64 (16 SMM),1064,,7010,68.1,136.2,8,224,,,,,,4358,"165, oc to 200",Similar to Desktop GTX 980
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
+,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,

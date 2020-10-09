@@ -1,46 +1,45 @@
-Client,IMSP,ACAP,RSS 0.91 Feeds,RSS 1.0 Feeds,RSS 2.0 Feeds,ATOM Feeds,iCalendar,MAPI/RPC,CalDAV,CardDAV
-Alpine,?,?,?,?,?,?,?,?,?,?
-Apple Mail,?,?,?,?,?,?,Yes,?,Yes,Yes
-Becky! Internet Mail,?,?,Yes [Note 9],Yes [Note 9],Yes [Note 9],Yes [Note 9],?,?,?,?
-Citadel,?,?,?,?,?,?,?,?,?,?
-Claws Mail,?,?,No,Yes [Note 10],Yes [Note 10],Yes [Note 10],Yes [Note 11],?,?,?
-Cone,No,No,No,No,No,No,No,?,?,?
-Courier,No,No,No,No,No,No,No,?,?,?
-Elm,?,?,?,?,?,?,?,?,?,?
-eM Client,No,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes
-EmailTray,No,No,No,No,No,No,No,No,?,?
-Eudora,No,Yes,No,No,No,No,No,?,?,?
-Evolution,No,No,No [Note 12],No [Note 12],No [Note 12],No,Yes,Yes,Yes,Yes
-Gnus,?,?,Yes,Yes,Yes,No,?,?,?,?
-GroupWise,?,No,?,?,?,?,Yes,?,?,?
-Hiri,No,No,No,No,No,No,No,No,No,No
-i.Scribe / InScribe,No,No,No,No,No,No,No,Yes,?,?
-IBM Lotus Notes,No,No,Yes [Note 13],Yes,Yes,Yes,Yes,?,?,?
-KMail,?,?,Yes [Note 14],Yes [Note 14],Yes [Note 14],Yes [Note 14],Yes [Note 15],?,Yes,Yes
-Mailpile,?,?,?,?,?,?,?,?,?,?
-Microsoft Entourage,?,?,?,?,?,?,Yes,?,?,?
-Microsoft Office Outlook,?,?,Yes [Note 16],Yes [Note 16],Yes [Note 16],Yes [Note 16],Yes [Note 17],Yes,No,No
-Mozilla Mail & Newsgroups,?,?,?,?,?,?,?,?,?,?
-Mozilla Thunderbird,No,No,Yes,Yes,Yes,Yes,Yes [Note 18],Yes [Note 19],Yes,No
-Mulberry,Yes,Yes,No,No,No,No,Yes,?,Yes,?
-Mutt,?,?,No,No,No,No,No,?,?,?
-Netscape Messenger,?,?,?,?,?,?,?,?,?,?
-Netscape Messenger 9,?,?,?,?,?,?,?,?,?,?
-nmh / MH,?,?,?,?,?,?,?,?,?,?
-Opera Mail,?,?,Yes,Yes,Yes,Yes,No,?,No,No
-Outlook Express,?,?,No,No,No,No,No,?,No,No
-Pegasus Mail,?,?,Yes [Note 5],Yes [Note 5],Yes [Note 5],?,?,?,?,?
-Pine,No,No,No,No,No,No,No,?,?,?
-Pocomail,No,No,Yes,Yes,Yes,No,No,?,?,?
-SeaMonkey Mail & Newsgroups,No,No,Yes,Yes,Yes,Yes,Yes [Note 18],?,?,?
-Spicebird,No,No,Yes,Yes,Yes,Yes,Yes [Note 18],No,?,?
-SquirrelMail,?,?,Yes,Yes,Yes,Yes,Yes,Yes,?,?
-Sylpheed,No,No,No,No,No,No,No,No,?,?
-The Bat!,No,No,Yes [Note 20],Yes [Note 20],Yes [Note 20],Yes [Note 20],No,Yes,?,Yes
-Trojitá,No,No,No,No,No,No,No,No,?,?
-Turnpike,?,?,?,?,?,?,?,?,?,?
-Windows Live Mail,?,?,Yes,Yes,Yes,Yes,No,?,?,?
-Windows Mail,?,?,?,?,?,?,?,?,?,?
-YAM,No,No,No,No,No,No,No,?,?,?
-Zimbra,?,?,Yes,Yes,Yes,Yes,Yes,?,?,?
-Client,IMSP,ACAP,RSS 0.91 Feeds,RSS 1.0 Feeds,RSS 2.0 Feeds,ATOM Feeds,iCalendar,MAPI/RPC,CalDAV,CardDAV
+Client,Message templates,,,,,,Message templates individual for,"Support in message templates scripts, programming languages",,,,,,
+,new,reply,forward,read confirmation,save,print,,JavaScript,VBScript,PHP Scripts,Python,Regular expressions,Java,Other (specify)
+Alpine,Yes,Yes,Yes,?,?,?,any,No,No,No,No,?,No,?
+Becky! Internet Mail,Yes,Yes,Yes,Yes,Yes,Yes,any account folder,?,?,?,?,?,?,
+Citadel,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Claws Mail,Yes,Yes,Yes,Yes,Yes,Yes,account folder,No,No,No,Yes,?,?,Perl
+Cone,Yes,No,No,No,No,No,?,No,No,No,No,No,No,No
+Courier,Yes,Yes,Yes,No,Yes,Yes,?,No,No,No,No,No,No,No
+Elm,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+eM Client,Yes,Yes,Yes,Yes,Yes,Yes,account,No,No,No,No,No,No,No
+Eudora,Yes,Yes,Yes,Yes,Yes,Yes,any,No,No,No,No,Yes,No,No
+Evolution,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?
+Gnus,Yes,Yes,Yes,Yes,Yes,Yes,?,No,No,No,No,Yes,No,elisp
+GroupWise,Yes,No,No,Yes,Yes,?,?,?,?,?,?,?,?,?
+Hiri,Yes,Yes,Yes,No,Yes,Yes,any,No,No,No,No,No,No,No
+i.Scribe / InScribe,Yes,Yes,Yes,No,No,No,any,No,No,No,No,No,No,Internal macros (similar to JavaScript)
+IBM Notes,Yes,Yes,Yes,Yes,?,?,?,Yes,No,No,No,Yes[40],Yes,"LotusScript, Formula language"
+KMail,Yes,Yes,Yes,No,No,No,none,?,No,No,No,?,?,?
+Mailpile,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Microsoft Entourage,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?,"AppleScript, Automator"
+Microsoft Office Outlook,Yes,Yes,Yes,Yes,?,?,?,No,No,?,No,?,No,?
+Mozilla Mail & Newsgroups,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Mozilla Thunderbird,Yes,Yes[Note 1],Yes[Note 1],Yes,Yes,Yes,profile,Yes,?,?,?,?,?,?
+Mulberry,Yes,Yes,Yes,Yes,?,?,?,No,No,No,No,?,?,?
+Mutt,Yes,Yes,Yes,No,?,?,any,No,No,No,No,Yes,?,Internal macros
+Netscape Messenger,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Netscape Messenger 9,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+nmh / MH,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Opera Mail,No,No,No,No,No,No,N/A,No,No,No,No,No,No,No
+Outlook Express,Yes,Yes,?,Yes,?,?,?,Yes,Yes,?,?,?,?,?
+Pegasus Mail,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?,?
+Pine,Yes,Yes,Yes,?,?,?,any,?,No,No,?,?,No,?
+Pocomail,Yes,Yes,Yes,?,?,Yes,?,No,No,No,No,No,No,PocoScript
+RoundCube,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,?
+SeaMonkey Mail & Newsgroups,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+SquirrelMail,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,?
+Sylpheed,Yes,Yes,Yes,?,?,?,?,No,No,No,No,No,?,?
+The Bat!,Yes,Yes,Yes,Yes,Yes,Yes,account folder address book group contact,Yes [Note 2],Yes [Note 3],Yes [Note 4],Yes [Note 5],Yes,PCRE 6.2,Internal and plugins macros
+Turnpike,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Windows Live Mail,Yes[Note 6],Yes[Note 6],?,Yes[Note 6],?,?,?,Yes,No,?,?,?,?,?
+Windows Mail,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+YAM,Yes,Yes,Yes,?,Yes,Yes,?,No,No,No,No,?,?,ARexx
+Zimbra,Yes,Yes,Yes,Yes,Yes,Yes,any,No,No,No,No,No,?,?
+Client,Message templates,,,,,,Message templates individual for,"Support in message templates scripts, programming languages",,,,,,
+,new,reply,forward,read confirmation,save,print,,JavaScript,VBScript,PHP Scripts,Python,Regular expressions,Java,Other (specify)

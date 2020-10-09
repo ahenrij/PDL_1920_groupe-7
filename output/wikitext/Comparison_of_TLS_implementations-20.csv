@@ -1,21 +1,13 @@
-Implementation,Secure Renegotiation [167],Server Name Indication [168],ALPN [169],Certificate Status Request [168],OpenPGP [170],Supplemental Data [171],Session Ticket [172],Keying Material Exporter [173],Maximum Fragment Length [168],Truncated HMAC [168],Encrypt-then-MAC [174],TLS Fallback SCSV [175],Extended Master Secret [176],ClientHello Padding [177],Raw Public Keys [178]
-Botan,,,,,,,,,,No,,,,,
-cryptlib,,,,,,,,,,No,,,,,
-GnuTLS,,,,,,,,,,No,,,,,
-JSSE,,,,,,,,,,No,,,,,
-LibreSSL,,,,,,,,,,No,,Server side only[189],,,
-MatrixSSL,,,,,,,,,,Yes,,,,,
-Mbed TLS,,,,,,,,,,Disabled by default[26],,,,,
-NSS,,,,,,,,,,No,,,,,
-OpenSSL,,,,,,,,,,No,,,,,
-RSA BSAFE Micro-Edition Suite,,,,,,,,,,Yes,,,,,
-RSA BSAFE SSL-J,,,,,,,,,,Yes,,,,,
-SChannel XP/2003,,,,,,,,,,No,,,,,
-SChannel Vista/2008,,,,,,,,,,No,,,,,
-SChannel 7/2008R2,,,,,,,,,,No,,,,,
-SChannel 8/2012,,,,,,,Client side only[202],,,No,,,,,
-"SChannel 8.1/2012R2, 10",,,,,,,,,,No,,,,,
-Secure Transport,,,,,,,,,,No,,,,,
-wolfSSL,,,,,,,,,,Yes,,,,,
-Erlang/OTP SSL application,,,,,,,,,,No,,,,,
-Implementation,Secure Renegotiation,Server Name Indication,ALPN,Certificate Status Request,OpenPGP,Supplemental Data,Session Ticket,Keying Material Exporter,Maximum Fragment Length,Truncated HMAC,Encrypt-then-MAC,TLS Fallback SCSV,Extended Master Secret,ClientHello Padding,Raw Public Keys
+Implementation,Platform requirements,Network requirements,Thread safety,Random seed,Able to cross-compile,No OS (bare metal),Supported operating systems
+Botan,C++11,None,Thread-safe,Platform-dependent,,,"Windows, Linux, macOS, Android, iOS, FreeBSD, OpenBSD, Solaris, AIX, HP-UX, QNX, BeOS, IncludeOS"
+cryptlib,C89,POSIX send() and recv(). API to supply your own replacement,Thread-safe,"Platform-dependent, including hardware sources",,,"AMX, BeOS, ChorusOS, DOS, eCos, FreeRTOS/OpenRTOS, uItron, MVS, OS/2, Palm OS, QNX Neutrino, RTEMS, Tandem NonStop, ThreadX, uC/OS II, Unix (AIX, FreeBSD, HPUX, Linux, OS X, Solaris, etc.), VDK, VM/CMS, VxWorks, Win16, Win32, Win64, WinCE/PocketPC/etc, XMK"
+GnuTLS,C89,POSIX send() and recv(). API to supply your own replacement.,"Thread-safe, needs custom mutex hooks if neither POSIX nor Windows threads are available.",Platform dependent,,,"Generally any POSIX platforms or Windows, commonly tested platforms include GNU/Linux, Win32/64, OS X, Solaris, OpenWRT, FreeBSD, NetBSD, OpenBSD."
+JSSE,Java,Java SE network components,Thread-safe,Depends on java.security.SecureRandom,,,"Java based, platform-independent"
+MatrixSSL,C89,None,Thread-safe,Platform dependent,,,All
+Mbed TLS,C89,POSIX read() and write(). API to supply your own replacement.,Threading layer available (POSIX or own hooks),Random seed set through entropy pool,,,"Known to work on: Win32/64, Linux, OS X, Solaris, FreeBSD, NetBSD, OpenBSD, OpenWRT, iPhone (iOS), Xbox, Android, SeggerOS"
+NSS,"C89, NSPR[222]",NSPR[222] PR_Send() and PR_Recv(). API to supply your own replacement.,Thread-safe,Platform dependent[223],,,"AIX, Android, FreeBSD, NetBSD, OpenBSD, BeOS, HP-UX, IRIX, Linux, OS X, OS/2, Solaris, OpenVMS, Amiga DE, Windows, WinCE, Sony PlayStation"
+OpenSSL,C89,None,Thread-safe,Platform dependent,,,"Unix, DOS (with djgpp), Windows, OpenVMS, MacOS, NetWare, eCos"
+RSA BSAFE Micro Edition Suite,C89,None,Thread-safe,Platform dependent,,,"FreeBSD, Linux, macOS, Microsoft Windows, Android, iOS, AIX, Solaris"
+RSA BSAFE SSL-J,Java,Java SE network components,Thread-safe,Depends on java.security.SecureRandom,,,"FreeBSD, Linux, macOS, Microsoft Windows, Android, AIX, Solaris"
+wolfSSL,C89,POSIX send() and recv(). API to supply your own replacement.,"Thread-safe, needs mutex hooks if PThreads or WinThreads not available, can be turned off",Random seed set through wolfCrypt,,,"Win32/64, Linux, OS X, Solaris, ThreadX, VxWorks, FreeBSD, NetBSD, OpenBSD, embedded Linux, Yocto Project, OpenEmbedded, WinCE, Haiku, OpenWRT, iPhone (iOS), Android, Nintendo Wii and Gamecube through DevKitPro, QNX, MontaVista, NonStop, TRON/ITRON/µITRON, Micrium µC/OS-III, FreeRTOS, SafeRTOS, NXP/Freescale MQX, Nucleus, TinyOS, HP/UX, AIX, ARC MQX, Keil RTX, TI-RTOS, uTasker, embOS, INtime, Mbed, uT-Kernel, RIOT, CMSIS-RTOS, FROSTED, Green Hills INTEGRITY, TOPPERS, PetaLinux, Apache mynewt"
+Implementation,Platform requirements,Network requirements,Thread safety,Random seed,Able to cross-compile,No OS (bare metal),Supported operating systems

@@ -1,8 +1,16 @@
-Application,Polygon,,,,Curves,,,,,,,,,,Spline/Bézier Surface,,,Metaball,Point Clouds,Particles,Voxel / Volume,Bone,Text,Camera,Light,Speaker
-,tris,quads,N-gon,donut,Linear,Quadratic Bézier,Cubic Bézier,B-spline,Cardinal spline,Hermite spline,TCB spline,Smooth-step,Akima spline,NURBS,NURBS regular patch,NURBS trimmed surface,Bicubic Bézier patch,,,,,,,,,
-Blender,Yes,Yes,Yes,No[11],Bézier curve without subdivision,No,Yes,No,No,No,No,No,No,Yes,Yes,No,No,Yes,No,Yes,2.83 and later,Yes,Yes,Yes,Yes,Yes
-Maya,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,No,No,No,Yes,Yes,Yes,No,Yes,No,Yes,3D Texture,Yes,Yes,Yes,Yes,No
-3ds Max,Yes,Yes,Yes,?,Yes,?,Yes,Yes,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No
-Cinema 4D,Yes,Yes,Yes,?,Yes,No,Yes,Yes,No,?,No,No,Yes,?,?,?,?,Yes,?,Yes,R20 and later,Yes,Yes,Yes,Yes,dropped in R23[12]
-LightWave,Yes,Yes,Yes,Yes,?,?,?,Yes,?,only in Graph Editor,only in Graph Editor,?,No,?,(LWCAD plugin),?,No,Yes,No,Yes,OpenVDB primitives[13],Yes,Yes,Yes,Yes,?
-Shade 3D,Yes,Yes,Yes,?,?,?,Yes,?,No,No,No,No,No,Yes,?,?,Yes,Yes,No,Yes,?,Yes,Yes,Yes,Yes,Sound Object
+Application,Alembic Importer,USD Importer,Rendering Engine,Volume Rendering for clouds,Interactive Rendering,Isolating light contribution,Light Lister,IES Light,Physical Sun & Sky,Sun Positioning by location and times,Light Portal,Shadow Catcher,IBL and Environment texture,,,Highlight Placement,Light Layers
+,,,,,,,,,,,,,Lat Long,sIBL,Light Extraction[18],,
+Maya,Yes,(USD for Maya),Maya Hardware 2.0,?,Yes,No[19],Light Editor,?,?,?,?,?,Yes,?,?,(Place Highlight Tool for Maya),No
+,,,Maya Software,?,?,Light Linking,,No,?,?,?,?,Env Sphere,?,?,,No
+,,,Arnold,Yes,Yes,Light Linking,,Ai Photometric Light,Yes,?,Yes,Yes,Yes,?,?,,No
+3ds Max,Yes,No,Quicksilver,?,Yes,No[20],Light Lister,?,?,?,?,?,?,?,?,Place Highlight,No
+,,,Scanline,?,?,Light Exclude/Include,,?,?,?,?,Yes,?,sIBL-GUI software,?,,No
+,,,ART,?,?,?,,Yes,?,?,?,?,?,?,?,,No
+,,,Arnold,Yes,Yes,Light Group[21],,Ai Photometric Light,Yes,Sun Positioner[22],Yes,Yes,Yes,?,?,,No
+Blender,2.78 and later,No,Workbench,Some,Yes,View Layers[23],Property Chart Addon / Gaffer addon,No,?,Sun Position addon,No,?,Yes,?,?,Look At Gizmo (with Ctrl key),No
+,,,EEVEE,Some,Yes,,,No,Yes,,No,Shader Node[24],Yes,?,?,,No
+,,,Cycles,Yes,Yes,,,2.80 and later[25],Yes,,from 2.75,from 2.79,Yes,sIBL_GUI for Blender addon/ Add Environment nodes addon,?,,No
+MODO,Yes,14.1 and later,MODO Renderer,Yes,Yes,Light Linking[26],?,Photometric Light,Directional Light[27],,Portal,Shadow Catcher,Yes,mm_sIBLToModoEnvironment script,?,?,No
+LightWave,11.6 and later,No,LightWave Renderer,Yes,Yes,?,?,Photometric Light,Yes,Yes,Yes,Yes,Yes,"original loader script, where most sIBL features were invented[28]",?,?,No
+Houdini,Yes,Solaris,Mantra (PT) / Karma,Yes,Yes,Light categories,Light bank,Yes,?,?,?,Shadow Matte,Yes,?,?,Solaris,?
+Cinema 4D,Yes,R23 and later,CineRender,?,Yes,Exclude/Include,?,Yes,?,?,?,from R18,Yes,?,?,?,?

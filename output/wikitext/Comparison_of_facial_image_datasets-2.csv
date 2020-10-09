@@ -1,2 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-DBpedia Neural Question Answering (DBNQA) Dataset,A large collection of Question to SPARQL specially design for Open Domain Neural Question Answering over DBpedia Knowledgebase.,This dataset contains a large collection of Open Neural SPARQL Templates and instances for training Neural SPARQL Machines; it was pre-processed by semi-automatic annotation tools as well as by three SPARQL experts.,"894,499",Question-query pairs,Question Answering,2018,[412][413],"Hartmann, Soru, and Marx et al."
+Adult Dataset,Census data from 1994 containing demographic features of adults and their income.,Cleaned and anonymized.,"48,842",Comma separated values,Classification,1996,[438],United States Census Bureau
+Census-Income (KDD),Weighted census data from the 1994 and 1995 Current Population Surveys.,Split into training and test sets.,"299,285",Comma separated values,Classification,2000,[439][440],United States Census Bureau
+IPUMS Census Database,Census data from the Los Angeles and Long Beach areas.,None,"256,932",Text,"Classification, regression",1999,[441],IPUMS
+US Census Data 1990,Partial data from 1990 US census.,Results randomized and useful attributes selected.,"2,458,285",Text,"Classification, regression",1990,[442],United States Census Bureau

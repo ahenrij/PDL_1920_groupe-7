@@ -1,16 +1,11 @@
-Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch,Plasma Mobile,PureOS,PostmarketOS,KaiOS
-Developed by,"Google, Open Handset Alliance",Apple Inc.,"Linux Foundation, Tizen Association, Samsung, Intel","Sailfish Alliance, Mer, Jolla and Sailfish community contributors",UBports and Ubuntu community contributors (previously Canonical Ltd.),KDE and Blue Systems,Purism,PostmarketOS community,"KaiOS Technologies Inc., Google[1][2]"
-Market share[3],86.1%,13.7%,Unknown,Unknown,Unknown,Unknown,Unknown,N/A,?
-Current version,11,14.0,4.0.0.7,3.3.0.16,16.04 OTA-11,5.16.4,9.0,alpha,2.6.0
-Development version,12,N/A,5.5 M1,Unknown,Unknown,Unknown,Unknown,N/A,
-Current version release dates,20200908,20200916,20181116,20200428[4],20200513[5],20190730[6],20190926df=yes[7],,
-License,"Base system is Free and open-source, but usually bundled with proprietary apps and drivers, which provide an increasing amount of the functionality.[8]",,","Free and open-source, but the UI and the SDK are proprietary and closed source","Free and open-source, mainly the GPL[9]","Free and open-source, mainly the GPL","Free and open-source, mainly the GPL","Free and open-source, GPL",
-OS family,Modified Linux kernel based,Darwin,Linux (based on Combination of Linux MeeGo and Samsung Bada),Linux,Linux (based on Ubuntu),Linux,Linux (based on Debian),Linux (based on Alpine Linux),Firefox OS / Open Web (based on Linux kernel)
-Supported CPU architecture,"ARM (32-bit ARMv7-A and 64-bit ARMv8-A only), x86, x86-64[10]",64-bit ARMv8-A only,"ARM, x86, x86-64","ARM, x86-64","ARM, x86-64","ARM, ?",Convergence operating system,"ARM, ARM64, x86, x86-64",ARM
-Programmed in,"C, C++, Java, Kotlin","C, C++, Objective-C, Swift","C++, Xamarin.Forms (.NET C#, F#, VB[11])","C++, QML, Python","Apps: HTML5, QML, Go, JavaScript, C++ System: C, C++, QML","C++, QML",,Python install tool and shell script packages,
-Public issues list,,,,,,,,,date=August 2019
-DRM-free[20],,,,,,date=August 2019,date=August 2019,,?
-Device independent system updates,Partial system updates since Oreo[25] 3rd party software like LineageOS[26],,,,,,,,"For feature phones, not smart phones"
-Wireless system updates,,5+[30],,,,,,,
-GPU accelerated GUI,3+[31],,?,,,,,,
-Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch,Plasma Mobile,PureOS,PostmarketOS,KaiOS
+Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
+Non-English languages support,Partial[202],,Limited (Search is not diacritical mark-insensitive),,
+Underlining spell checker,2.3+[206][207],,,?,
+Built-in system-wide dictionary,Built into keyboard app. Available on every device.[209],5+[210],,,
+Autoexpanding text replacements,,5+[211],?,?,?
+Keyboard next word prediction,",8+[214],,,
+Keyboard cursor controller,Google Keyboard;[215];[216],12+;[217] 9-11: Only on devices with 3D Touch;[218],,,
+Optical character recognition input method,,11+: Notes app;[220] 8+: Only for inputting credit card details[221],,,
+Third party input methods,,8+,?,?,?
+Gesture text input,4+[223],13+;[224] 8+: 3rd party software like SwiftKey,?,,
+Emoji support,4.4+[226],,?,2.2.0+[228] 3rd party software[229],

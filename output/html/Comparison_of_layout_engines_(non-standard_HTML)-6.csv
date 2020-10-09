@@ -1,11 +1,4 @@
-Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
-manifest,html,6.0[22],12,1.9,Yes,2.6[p 8][p 9]
-sizes,link,No,13,8.0 (only mobile)[g 16][g 17],Yes[w 19],No
-charset,meta,4.0[23],12,1.9.2,Yes,2.5.24
-scoped,style,No,No,21.0[g 18],No[w 20],No
-async,script,6.0,12,1.9.2[g 19],Yes[w 21],
-reversed,ol,No,No,18.0[g 20],Yes[w 22],
-download[citation needed],"a,area",No,13,20.0[g 21],Yes,
-sandbox,iframe,6.0[t 5],12,17.0[g 22],533[w 23],
-seamless,iframe,No,No,No[g 23],No[w 24],
-Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
+,Trident,edgeHTML,Gecko,WebKit,Presto
+Ogg Theora,Manual install[note 12],,1.9.1[g 101],Depends[note 13],2.5
+H.264,5.0[t 46],,33.0[50][g 102],Depends (525)[note 13][w 78],Depends[note 14]
+WebM VP8,Manual install[note 12],Yes[51],2.0[g 103][g 104],Depends (534)[w 79],2.6.30[p 34][p 35][p 36]

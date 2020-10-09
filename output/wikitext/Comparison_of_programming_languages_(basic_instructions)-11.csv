@@ -1,44 +1,38 @@
-,8 bit (byte),,16 bit (short integer),,32 bit,,64 bit (long integer),,Word size,,Arbitrarily precise (bignum)
-,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,
-Ada[1],range -2**7 .. 2**7 - 1Ada_range[j],range 0 .. 2**8 - 1Ada_range[j] or mod 2**8Ada_mod[k],range -2**15 .. 2**15 - 1Ada_range[j],range 0 .. 2**16 - 1Ada_range[j] or mod 2**16Ada_mod[k],range -2**31 .. 2**31 - 1Ada_range[j],range 0 .. 2**32 - 1Ada_range[j] or mod 2**32Ada_mod[k],range -2**63 .. 2**63 - 1Ada_range[j],mod 2**64Ada_mod[k],IntegerAda_range[j],range 0 .. 2**Integer'<wbr/>Size - 1Ada_range[j] or mod Integer'<wbr/>SizeAda_mod[k],
-ALGOL 68 (variable-width),short short intCInt[c],rowspan=2 ,short intCInt[c],rowspan=2 ,intCInt[c],rowspan=2 ,long intCInt[c],rowspan=2 ,intCInt[c],,long long int a68[a]a68g[g]
-,,bytes & bits,,,,,,,,,
-C (C99 fixed-width),int8_t,uint8_t,int16_t,uint16_t,int32_t,uint32_t,int64_t,uint64_t,intptr_tCInt[c],size_tCInt[c],rowspan=5 
-C++ (C++11 fixed-width),,,,,,,,,,,
-C (C99 variable-width),signed char,unsigned char,shortCInt[c],unsigned shortCInt[c],longCInt[c],unsigned longCInt[c],long longCInt[c],unsigned long longCInt[c],intCInt[c],unsigned intCInt[c],
-C++ (C++11 variable-width),,,,,,,,,,,
-Objective-C (Cocoa),signed char or int8_t,unsigned char or uint8_t,short or int16_t,unsigned short or uint16_t,int or int32_t,unsigned int or uint32_t,long long or int64_t,unsigned long long or uint64_t,NSInteger or long,NSUInteger or unsigned long,
-C#,sbyte,byte,short,ushort,int,uint,long,ulong,IntPtr,UIntPtr,System.Numerics<wbr/>.BigInteger (.NET 4.0)
-Java,byte,,,charJava char[b],,,,,,,java.math<wbr/>.BigInteger
-Go,int8,uint8 or byte,int16,uint16,int32,uint32,int64,uint64,int,uint,big.Int
-Rust,i8,u8,i16,u16,i32,u32,i64,u64,isize,usize,
-Swift,Int8,UInt8,Int16,UInt16,Int32,UInt32,Int64,UInt64,Int,UInt,
-D,byte,ubyte,short,ushort,int,uint,long,ulong,,,BigInt
-Common Lisp[2],(signed-byte 8),(unsigned-byte 8),(signed-byte 16),(unsigned-byte 16),(signed-byte 32),(unsigned-byte 32),(signed-byte 64),(unsigned-byte 64),,,bignum
-Scheme,,,,,,,,,,,
-ISLISP[3],,,,,,,,,,,bignum
-Pascal (FPC),shortint,byte,smallint,word,longint,longword,int64,qword,integer,cardinal,
-Visual Basic,,Byte,Integer,,Long,,colspan=2 ,rowspan=2 colspan=2 ,rowspan=1 ,,
-Visual Basic .NET,SByte,,Short,UShort,Integer,UInteger,Long,ULong,System.Numerics<wbr/>.BigInteger (.NET 4.0),,
-FreeBasic,Byte or Integer<8>,UByte or UInteger<8>,Short or Integer<16>,UShort or UInteger<16>,Long or Integer<32>,ULong or UInteger<32>,LongInt or Integer<64>,ULongInt or UInteger<64>,Integer,UInteger,
-Python 2.x,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,int,,long,,,,
-Python 3.x,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,int,,,,,
-S-Lang,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,,,,,,
-Fortran,INTEGER<wbr/>(KIND = n)Kinds[f],,INTEGER<wbr/>(KIND = n)Kinds[f],,INTEGER<wbr/>(KIND = n)Kinds[f],,INTEGER<wbr/>(KIND = n)Kinds[f],,,,
-PHP,colspan=2 ,colspan=2 ,int PHP 32/64 bit long[m],,int PHP 32/64 bit long[m],,colspan=2 ,PHP bignum[e],,,
-Perl 5,colspan=2 scalars[d],colspan=2 scalars[d],colspan=2 scalars[d],colspan=2 scalars[d],colspan=2 scalars[d],Math::BigInt,,,,,
-Raku,int8,uint8,int16,uint16,int32,uint32,int64,uint64,Int,colspan=2 ,
-Ruby,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,Fixnum,,Bignum,,,,
-ErlangErlang_int[n],colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,integer(),,integer()Erlang_arb[o],,,,
-Scala,Byte,,Short,CharScala Char[l],Int,,Long,,,,scala.math.BigInt
-Seed7,,,,,,,integer,,,,bigInteger
-Smalltalk,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,SmallIntegerSmalltalk[i],,LargeIntegerSmalltalk[i],,,,
-Windows PowerShell,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,,,,,,
-OCaml,colspan=2 ,colspan=2 ,int32,,int64,,int or nativeint,,open Big_int;; big_int,,
-F#,sbyte,byte,int16,uint16,,int32 or int,uint32,uint64,nativeint,unativeint,bigint
-Standard ML,,Word8.word,colspan=2 ,Int32.int,Word32.word,Int64.int,Word64.word,int,word,LargeInt.int or IntInf.int,
-Haskell (GHC),«import Int» Int8,«import Word» Word8,«import Int» Int16,«import Word» Word16,«import Int» Int32,«import Word» Word32,«import Int» Int64,«import Word» Word64,Int,«import Word» Word,Integer
-Eiffel,INTEGER_8,NATURAL_8,INTEGER_16,NATURAL_16,INTEGER_32,NATURAL_32,INTEGER_64,NATURAL_64,INTEGER,NATURAL,
-COBOLCobol[h],BINARY-CHAR «SIGNED»,BINARY-CHAR UNSIGNED,BINARY-SHORT «SIGNED»,BINARY-SHORT UNSIGNED,BINARY-LONG «SIGNED»,BINARY-LONG UNSIGNED,BINARY-DOUBLE «SIGNED»,BINARY-DOUBLE UNSIGNED,,,
-Mathematica,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,Integer,,,,,
-Wolfram Language,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,Integer,,,,,
+,string to integer,string to long integer,string to floating point,integer to string,floating point to string
+Ada[1],Integer'Value (string_expression),Long_Integer'Value (string_expression),Float'Value (string_expression),Integer'Image (integer_expression),Float'Image (float_expression)
+"ALGOL 68 with general, and then specific formats","With prior declarations and association of: string buf := "12345678.9012e34 "; file proxy; associate(proxy, buf);",,,,
+,"get(proxy, ivar);","get(proxy, livar);","get(proxy, rvar);","put(proxy, ival);","put(proxy, rval);"
+,"getf(proxy, ($g$, ivar)); or getf(proxy, ($dddd$, ivar));","getf(proxy, ($g$, livar)); or getf(proxy, ($8d$, livar));","getf(proxy, ($g$, rvar)); or getf(proxy, ($8d.4dE2d$, rvar));","putf(proxy, ($g$, ival)); or putf(proxy, ($4d$, ival));","putf(proxy, ($g(width, places, exp)$, rval)); or putf(proxy, ($8d.4dE2d$, rval));"
+APL,?string_expression,?string_expression,?string_expression,?integer_expression,?float_expression
+C (C99),integer = atoi(string);,long = atol(string);,float = atof(string);,"sprintf(string, "%i", integer);","sprintf(string, "%f", float);"
+Objective-C,integer = [string intValue];,long = [string longLongValue];,float = [string doubleValue];,"string = [NSString stringWithFormat<wbr/>:@"%i", integer];","string = [NSString stringWithFormat<wbr/>:@"%f", float];"
+C++ (STL),«std::»istringstream(string) >> number;,,,«std::»ostringstream o; o << number; string = o.str();,
+C++11,integer = «std::»stoi(string);,long = «std::»stol(string);,float = «std::»stof(string); double = «std::»stod(string);,string = «std::»to_string(number);,
+C#,integer = int.Parse<wbr/>(string);,long = long.Parse<wbr/>(string);,float = float.Parse<wbr/>(string); double = double.Parse<wbr />(string);,string = number<wbr/>.ToString();,
+D,integer = std.conv.to!int<wbr/>(string),long = std.conv.to!long<wbr/>(string),float = std.conv.to!float<wbr/>(string) double = std.conv.to!double<wbr />(string),string = std.conv.to!string<wbr/>(number),
+Java,integer = Integer.parseInt<wbr/>(string);,long = Long.parseLong<wbr/>(string);,float = Float.parseFloat<wbr/>(string); double = Double.parseDouble<wbr/>(string);,string = Integer.toString<wbr/>(integer); string = String.valueOf<wbr />(integer);,string = Float.toString<wbr/>(float); string = Double.toString<wbr />(double);
+JavaScriptJavaScript's technicalities[a],integer = parseInt(string);,,float = parseFloat(string); float = new Number (string); float = Number (string); float = +string;,string = number.toString (); string = String (number); string = number+""; string = `${number}`,
+Go,"integer, error = strconv.Atoi(string) integer, error = strconv.ParseInt<wbr/>(string, 10, 0)","long, error = strconv.ParseInt<wbr/>(string, 10, 64)","float, error = strconv.ParseFloat<wbr/>(string, 64)","string = strconv.Itoa(integer) string = strconv.FormatInt<wbr />(integer, 10) string = fmt.Sprint(integer)",string = strconv.FormatFloat<wbr/>(float) string = fmt.Sprint<wbr />(float)
+RustRust type conversion[d],string.parse::<i32>() i32::from_str(string),string.parse::<i64>() i64::from_str(string),string.parse::<f64>() f64::from_str(string),integer.to_string(),float.to_string()
+Common Lisp,(setf integer (parse-integer string)),,(setf float (read-from-string string)),(setf string (princ-to-string number)),
+Scheme,(define number (string->number string)),,,(define string (number->string number)),
+ISLISP,(setf integer (convert string <integer>)),,(setf float (convert string <float>)),(setf string (convert number <string>)),
+Pascal,integer := StrToInt(string);,,float := StrToFloat(string);,string := IntToStr(integer);,string := FloatToStr(float);
+Visual Basic,integer = CInt(string),long = CLng(string),float = CSng(string) double = CDbl(string),string = CStr(number),
+Visual Basic .NET (can use both VB syntax above and .NET methods shown right),integer = Integer.Parse<wbr />(string),long = Long.Parse<wbr />(string),float = Single.Parse<wbr />(string) double = Double.Parse<wbr />(string),string = number<wbr />.ToString(),
+Xojo,integer = Val(string),long = Val(string),double = Val(string) double = CDbl(string),string = CStr(number) or string = Str(number),
+Python,integer = int(string),long = long(string),float = float(string),string = str(number),
+S-Lang,integer = atoi(string);,long = atol(string);,float = atof(string);,string = string(number);,
+Fortran,"READ(string,format) number",,,"WRITE(string,format) number",
+PHP,integer = intval(string); or integer = (int)string;,,float = floatval(string); float = (float)string;,string = "$number"; or string = strval(number); or string = (string)number;,
+PerlPerl's technicalities[b],number = 0 + string;,,,string = "number";,
+Raku,number = +string;,,,string = ~number;,
+Ruby,integer = string.to_i or integer = Integer(string),,float = string.to_f float = Float(string),string = number.to_s,
+Scala,integer = string.toInt,long = string.toLong,float = string.toFloat double = string.toDouble,string = number.toString,
+Smalltalk,integer := Integer readFrom: string,,float := Float readFrom: string,string := number asString,
+Windows PowerShell,integer = [int]string,long = [long]string,float = [float]string,string = [string]number; or string = "number"; or string = (number).ToString(),
+OCaml,let integer = int_<wbr/>of_string string,,let float = float_<wbr/>of_string string,let string = string_<wbr/>of_int integer,let string = string_<wbr/>of_float float
+F#,let integer = int string,let integer = int64 string,let float = float string,let string = string number,
+Standard ML,val integer = Int<wbr/>.fromString string,,val float = Real<wbr/>.fromString string,val string = Int<wbr/>.toString integer,val string = Real<wbr/>.toString float
+Haskell (GHC),number = read string,,,string = show number,
+COBOL,MOVE «FUNCTION» NUMVAL(string)COBOL's NUMVAL alternatives[c] TO number,,,MOVE number TO numeric-edited,

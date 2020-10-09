@@ -1,10 +1,13 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Yacht Hydrodynamics Dataset,Yacht performance based on dimensions.,Six features are given for each yacht.,308,Text,Regression,2013,[322][323],R. Lopez
-Robot Execution Failures Dataset,5 data sets that center around robotic failure to execute common tasks.,Integer valued features such as torque and other sensor measurements.,463,Text,Classification,1999,[324],L. Seabra et al.
-Pittsburgh Bridges Dataset,Design description is given in terms of several properties of various bridges.,Various bridge features are given.,108,Text,Classification,1990,[325][326],Y. Reich et al.
-Automobile Dataset,"Data about automobiles, their insurance risk, and their normalized losses.",Car features extracted.,205,Text,Regression,1987,[327][328],J. Schimmer et al.
-Auto MPG Dataset,MPG data for cars.,Eight features of each car given.,398,Text,Regression,1993,[329],Carnegie Mellon University
-Energy Efficiency Dataset,Heating and cooling requirements given as a function of building parameters.,Building parameters given.,768,Text,"Classification, regression",2012,[330][331],A. Xifara et al.
-Airfoil Self-Noise Dataset,A series of aerodynamic and acoustic tests of two and three-dimensional airfoil blade sections.,"Data about frequency, angle of attack, etc., are given.",1503,Text,Regression,2014,[332],R. Lopez
-Challenger USA Space Shuttle O-Ring Dataset,Attempt to predict O-ring problems given past Challenger data.,"Several features of each flight, such as launch temperature, are given.",23,Text,Regression,1993,[333][334],D. Draper et al.
-Statlog (Shuttle) Dataset,NASA space shuttle datasets.,Nine features given.,"58,000",Text,Classification,2002,[335],NASA
+Forest Fires Dataset,Forest fires and their properties.,13 features of each fire are extracted.,517,Text,Regression,2008,[388][389],P. Cortez et al.
+Iris Dataset,Three types of iris plants are described by 4 different attributes.,None.,150,Text,Classification,1936,[390][391],R. Fisher
+Plant Species Leaves Dataset,Sixteen samples of leaf each of one-hundred plant species.,"Shape descriptor, fine-scale margin, and texture histograms are given.",1600,Text,Classification,2012,[392][393],J. Cope et al.
+Mushroom Dataset,Mushroom attributes and classification.,Many properties of each mushroom are given.,8124,Text,Classification,1987,[394],J. Schlimmer
+Soybean Dataset,Database of diseased soybean plants.,35 features for each plant are given. Plants are classified into 19 categories.,307,Text,Classification,1988,[395],R. Michalski et al.
+Seeds Dataset,Measurements of geometrical properties of kernels belonging to three different varieties of wheat.,None.,210,Text,"Classification, clustering",2012,[396][397],Charytanowicz et al.
+Covertype Dataset,Data for predicting forest cover type strictly from cartographic variables.,Many geographical features given.,"581,012",Text,Classification,1998,[398][399],J. Blackard et al.
+Abscisic Acid Signaling Network Dataset,Data for a plant signaling network. Goal is to determine set of rules that governs the network.,None.,300,Text,Causal-discovery,2008,[400],J. Jenkens et al.
+Folio Dataset,20 photos of leaves for each of 32 species.,None.,637,"Images, text","Classification, clustering",2015,[401][402],T. Munisami et al.
+Oxford Flower Dataset,17 category dataset of flowers.,"Train/test splits, labeled images,",1360,"Images, text",Classification,2006,[138][403],M-E Nilsback et al.
+Plant Seedlings Dataset,12 category dataset of plant seedlings.,"Labelled images, segmented images,",5544,Images,"Classification, detection",2017,[404],Giselsson et al.
+Fruits 360 dataset,Database with images of 120 fruits and vegetables.,"100x100 pixels, White background.",82213,Images (jpg),Classification,2017-2019,[405][406],"Mihai Oltean, Horea Muresan"

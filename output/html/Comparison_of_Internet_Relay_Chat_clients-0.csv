@@ -1,36 +1,34 @@
-Client,386BSD,"BSD/OS (BSD/386, BSDI)","FreeBSD, NetBSD, OpenBSD",SunOS,ULTRIX,AIX,A/UX,HP-UX,IRIX,SCO OpenServer,Solaris,UnixWare,Linux,NeXTSTEP,OpenVMS,OSF/1,QNX,Tru64 UNIX
-Bersirc,?,?,?,?,?,?,?,?,?,?,?,?,Yes,?,No,?,?,?
-BitchX,?,Yes[Note 1],Yes[Note 1],Yes[Note 1],Yes[Note 1],Yes[Note 1],?,Yes[Note 1],Yes[Note 1],?,Yes[Note 1],Yes,Yes[Note 1],Yes,?,Yes[Note 1],Yes[Note 1],?
-ChatZilla,No,No,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes
-Colloquy,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-degesch,?,?,Yes,?,?,?,?,?,?,?,?,?,Yes,?,?,?,?,?
-DMDIrc,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-ERC,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-HexChat,?,?,Yes,Yes,?,Yes,?,Yes,Yes,?,Yes,?,Yes,?,?,?,?,Yes
-HydraIRC,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-IceChat,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-IRCCloud,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-ircII,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,?,Yes,Yes,Yes
-IRCjr,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Ircle,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Irssi,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
-KiwiIRC,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Konversation,?,?,Yes,?,?,?,?,?,?,?,Yes,?,Yes,?,?,?,?,Yes
-KVIrc,?,?,Yes,?,?,?,?,?,?,?,Yes,?,Yes,?,?,?,?,?
-LeafChat,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No
-LimeChat,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Linkinus,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Mibbit,?,?,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,?,?,Yes
-mIRC,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Nettalk,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Opera,No,No,Yes,No,No,No,No,No,No,No,Yes,No,Yes,No,No,No,Dropped,No
-PIRCH,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-PJIRC,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Quassel,?,?,Yes,?,?,?,?,?,?,?,Yes,?,Yes,?,?,?,?,?
-qwebirc,?,?,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,?,?,Yes
-rcirc,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Smuxi,?,?,Yes,?,?,?,?,?,?,?,Yes,?,Yes,?,?,?,?,?
-Snak,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Visual IRC,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-WeeChat,?,?,Yes[Note 2],?,?,?,?,Yes,Partial[Note 3],?,Yes[Note 2],?,Yes,?,?,?,Yes[Note 2],?
-Client,386BSD,"BSD/OS (BSD/386, BSDI)","FreeBSD, NetBSD, OpenBSD",SunOS,ULTRIX,AIX,A/UX,HP-UX,IRIX,SCO OpenServer,Solaris,UnixWare,Linux,NeXTSTEP,OpenVMS,OSF/1,QNX,Tru64 UNIX
+Client,CHAT,Whiteboard,SEND,RESUME,TSEND,SEND T,XMIT,Passive DCC,Server,RDCC,REVERSE,RSEND,Reverse / Firewall DCC,File servers (FSERVs),XDCC,VOICE
+Bersirc,?,?,?,?,?,?,?,No,No,?,?,?,?,?,?,?
+BitchX,Yes,No,Yes,Yes,Yes,Yes,?,No,No,?,?,?,?,?,Yes,?
+ChatZilla,Yes,No,Yes,No[52],?,?,No,No[Note 1],No,No,No,No,No,No,?,?
+Colloquy,Yes,?,Yes,Yes,?,?,?,Yes,No,?,?,?,?,?,Yes,?
+degesch,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+DMDirc,Yes,No,Yes,Yes,?,?,No,Yes,No,No,No,No,Yes,No,No,?
+ERC,Yes,?,Yes,?,?,?,?,?,?,?,?,?,?,?,?,?
+HexChat,Yes,No,Yes,Yes,?,?,?,Yes,?,?,?,?,?,?,Yes,?
+HydraIRC,Yes,No,Yes,Yes,?,?,No,?,?,?,?,?,?,No,No,?
+IceChat,Yes,No,Yes,?,?,?,No,?,?,?,?,?,?,No,No,?
+IRCCloud,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+ircII,?,?,?,?,?,?,?,No,No,?,?,?,?,?,?,?
+IRCjr,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,?
+Ircle,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Irssi,Yes,No,Yes,Yes,?,?,?,Yes,Yes,?,?,?,?,?,?,?
+KiwiIRC,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,?
+Konversation,Yes,Yes,Yes,Yes,?,?,?,Yes,No,?,?,?,Yes,?,Yes,?
+KVIrc,Yes,No,Yes,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,Yes[Note 2],Yes[Note 2],Yes[Note 3]
+LimeChat,?,?,?,?,?,?,?,Yes,Yes,?,?,?,?,?,?,?
+Linkinus,?,?,?,?,?,?,?,Yes,No,?,?,?,?,?,?,?
+Mibbit,No,?,?,?,?,?,?,No,No,?,?,?,?,?,?,?
+mIRC,Yes,?,Yes,Yes[Note 4],?,?,?,Yes,Yes,Yes[Note 5],?,?,Yes,Yes,Yes[Note 5],?
+Nettalk,Yes,No,Yes,Yes,No,No,No,No,Partial,No,No,No,No,?,?,?
+Opera,No,?,?,?,?,?,?,Yes,No,?,?,?,?,?,?,?
+PIRCH,Yes,No,Yes,Yes[Note 4],?,?,No,No,No,No,No,No,No,No,No,?
+PJIRC,Yes,No,Yes,Yes,?,?,?,?,?,?,?,?,?,?,?,?
+Quassel,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,?
+qwebirc,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,?
+rcirc,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,?
+Smuxi,?,?,?,?,?,?,?,No,No,?,?,?,?,?,?,?
+Snak,Yes,?,Yes,Yes,?,Yes,?,No,No,?,?,?,?,?,?,?
+Visual IRC,?,Yes,?,Yes[Note 4],?,?,?,Yes,No,?,?,?,Yes,?,?,Yes[Note 3]
+WeeChat,Yes,?,Yes,?,?,?,?,No,No,?,?,?,?,?,Yes,?

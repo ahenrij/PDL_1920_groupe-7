@@ -1,23 +1,11 @@
-Trident,Gecko[297],WebKit,Presto
-loadstart,rowspan="22" 5.0[298],rowspan="2" 1.9.1,?
-progress,,,
-suspend,1.9.2,,
-abort,rowspan="3" 1.9.1,,
-error,,,
-emptied,,,
-stalled,8.0[299],,
-play,rowspan="5" 1.9.1,,
-pause,,,
-loadedmetadata,,,
-loadeddata,,,
-waiting,,,
-playing,,,
-canplay,rowspan="9" 1.9.1,,
-canplaythrough,,,
-seeking,,,
-seeked,,,
-timeupdate,,,
-ended,,,
-ratechange,,,
-durationchange,,,
-volumechange,,,
+,Trident,Gecko,WebKit,KHTML,Presto
+Element identifiers,,,,,
+id,rowspan="2" 3.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+class,,,,,
+Inline styles,,,,,
+style,3.0,1.0,,,1.0
+Advisory information,,,,,
+title,4.0,1.0,,,1.0
+Language information,,,,,
+lang,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+dir,5.0,,,,

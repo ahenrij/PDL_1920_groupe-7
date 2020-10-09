@@ -1,25 +1,29 @@
-Name,H.264,ASF,WMV,DivX / Xvid,MPEG-4,AVI,QuickTime,Other formats
-Archos 105,No,No,Yes,No,No,No,No,No
-Archos 405,No[90],No,Yes,No,Yes,Yes,No[90],MPEG-2[90]
-Archos 5,No[90],No,Yes,Yes,Yes,Yes,No[90],"MPEG-2,[90] MKV"
-Archos 605 WiFi / GPS,No[90],No,Yes,Yes,Yes,Yes,No[90],MPEG-2[90]
-Archos 705 WiFi,No[90],No,Yes,Yes,Yes,Yes,No[90],MPEG-2[90]
-Cowon A3,Yes,Yes,Yes,Yes,Yes,Yes,No,"MKV, MTV, OGM, VOB, DAT, AMV, MJPEG, MPEG-1"
-Cowon D2,No,No,Yes,No[95],No,Yes,No,No
-Cowon Q5W,No,Yes,Yes,Yes,Yes,Yes,No,OGM
-Gigabeat T-Series,No,Yes,Yes,No[96],No[96],No[96],No[96],No
-GP2X F-200,No,No,No[91],Yes,Yes,Yes,No,No
-iPod (before Nano 6G; iPod 6G does),Yes,No,No,with plugin,Yes,with plugin,Yes,No
-iriver clix 2G,No,Yes,Yes,Yes,Yes,Yes,No,No
-PSP Slim & Lite,Yes,No,No,No,Yes,No,No,MJPEG
-Rio PMP300,No,No,No,No,Yes,No,No,No
-Samsung Galaxy Player,Yes,Yes,Yes,Yes,Yes,Yes,No,MKV
-Samsung T10,No,No,Yes,.svi only,Yes,No,No,No
-Samsung P2,No,No,Yes,.svi only,Yes,No,No,No
-Sansa Fuze,No,No,No,No,No,Yes,No,No
-Sansa Fuze+,Yes[97],No,Yes,No,No,No,No,MPEG-4 Part 14
-Walkman NWZ-A810 series,Yes,No,No,No,Yes,No,No,No
-ZEN,No[96],No,Yes,Yes,No[96],Yes,No,MJPEG
-ZEN Vision W,No[96],No,Yes,Yes,No[96],Yes,No,MJPEG
-Zune,Yes,No,Yes,Yes,Yes,Yes,No,DVR-MS[96]
-ZVUE 260,No,Yes,Yes,Xvid only,Yes,Yes,No,No
+Name,Connectivity,,,,OS compatibility,,,,,,,Integrated software,Protocol compliancy,
+,USB,,Wi-Fi,Bluetooth,Linux,Macintosh,Windows,,,,MSC,,MTP,
+,Mini-B port,2.0,,,,Mac OS X,Vista,XP,2000,9x,,,,
+Archos 105,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,WMP through MTP,Yes,Yes,
+Archos 405,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,WMP through MTP,Yes,Yes,
+Archos 5,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Me,WMP through MTP,Yes,Yes,
+Archos 605 WiFi / GPS,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,WMP through MTP,Yes,Yes,
+Archos 705 WiFi,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,WMP through MTP,Yes,Yes,
+Cowon A3,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Me,jetAudio,Yes,Yes,
+Cowon D2,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,jetAudio,Yes,Yes,
+Cowon Q5W,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Me,jetAudio,Yes,Yes,
+Gigabeat T400,Yes,Yes,No,No,No[87],No,Yes,Yes,No,No,WMP through MTP,No,Yes,
+GP2X F-200,Unknown,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,N/A,N/A,N/A,
+iPod classic,No,Yes,No,No,No[88],Yes,Yes,Yes,Yes,No,iTunes,No,No,
+iPod nano 4G,No,Yes,No,No,No[88],Yes,Yes,Yes,Yes,No,iTunes,No,No,
+iPod touch 1G,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,iTunes,No,No,
+iPod touch 2G - 5G,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,iTunes,No,No,
+iriver clix 2G,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,iriver plus Rhapsody[89],Yes,Yes,
+PSP Slim & Lite,Yes,Yes,Yes,PSP Go only,Yes,Yes,Yes,Yes,Yes,No,Media Go,Yes,No,
+Samsung Galaxy Player,No,Yes,Yes,Yes,No,No,Yes,Yes,No,No,WMP through MTP,No,Yes,
+Samsung T10,Yes,Yes,No,Yes,No[87],No,Yes,Yes,No,No,EmoDio,No,Yes,
+Samsung P2,Yes,Yes,No,Yes,No[87],No,Yes,Yes,No,No,EmoDio,Yes,Yes,
+Sansa Fuze,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,MSC,WMP through MTP,Yes,Yes,
+Sansa Fuze+,micro B,Yes,No,No,Yes,Yes,Yes,Yes,Yes,MSC,WMP through MTP,Yes,Yes,
+Walkman NWZ-A810 series,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,WMP through MTP,Yes,Yes,
+ZEN,Yes,Yes,No,No,No[87],No,Yes,Yes,No,No,Creative MediaSource,No,Yes,
+ZEN Vision W,Yes,Yes,No,No,No[87],No,Yes,Yes,No,No,Creative MediaSource,No,Yes,
+Zune,No,Yes,Yes,No,No,No,Yes,Yes,No,No,Zune Software,No,Yes,
+ZVUE 260,Unknown,Yes,No,No,No,Yes,No,Yes,No,No,ZAPP,No,No,

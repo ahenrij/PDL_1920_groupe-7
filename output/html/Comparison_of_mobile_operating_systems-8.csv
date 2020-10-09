@@ -1,10 +1,8 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-Separate volume for ringtone and media,Yes,Yes,?,Yes,Yes
-Voice commands,Yes[369],5+ (Siri),?,"3rd party software, such as Saera[370]",No
-Offline voice commands,6+[371],Yes[372],?,No,No
-Voice recognition,Yes,5+ (Siri),?,No,No
-Offline voice recognition,4.1+[373],"Limited, only calling and music playback[374]",No,No,No
-Non-English voice recognition,Yes,Yes[205],?,No,No
-Sound recorder,Very limited (Doesn't work in background[375] and not voice controlled),3+: Limited (Not voice controlled)[376][377],Partial,3rd party software[378],3rd party software
-Call recorder,"Prevented by OS restrictions,[379] but possible with 3rd party firmware[380]",3rd party software[381],No,"Disabled by default, must be interactively switched on during a call when enabled / 3rd party software[382]",?
-Sound trim,"No,[383] but 3rd party software available[384]",Yes[385],?,?,?
+Non-intrusive incoming calls,5+[386] or 3rd party software[387],14+[388],No,No[389],?
+Non-intrusive notifications,Yes[390],5+[107],?,?,?
+Move apps to external storage,2.2+[391],External storage not allowed for apps,No,No,No
+Remote Frame Buffer (RFB) protocol,Yes[392],3rd party software[393],?,?,?
+Screencast on device,"No,[394] 3rd party software like LineageOS ScreenCast,[395] AOKP or OmniROM[396]",9+[397],No,No,Yes
+Screencast over USB,"4.4+ over USB,[121] for prior versions root required for 3rd party app[398]",8+: on OS X[399],No,?,No
+Screen share,On select devices using vendor's implementation[400][401][402],3rd party software[403],No,No,No

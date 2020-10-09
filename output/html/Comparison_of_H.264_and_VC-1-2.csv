@@ -1,8 +1,10 @@
-Feature,VC-1,H.264
-Partition sizes,16×16 and 8×8[9],"16×16, 16×8, 8×16, 8×8, 8×4, 4×8, and 4×4"
-Integer transform,"8×8, 4×8, 8×4, and 4×4",4×4; 8×8 available in High Profile only
-Frame,Used for progressive or interlaced content,
-Macroblock sizes,16×16 only,
-Motion vector,Two dimensional vector offset from current position to reference frame,
-Picture,A field or frame,
-Skipped macroblock,No data is encoded for macroblock,
+,VC-1,H.264
+Bitstream formats,single bit stream,NAL and byte stream
+Bitstream format,"In advanced profile, each Bitstream Data Unit has its own header. Simple and Main profile provide neither sequence nor entry point headers.","SPS (sequence parameter set), PPS (picture parameters set), slice header, macroblock"
+Deblocking filter,In-loop filter and overlap transform,In-loop only
+CABAC,No,Only supported in Main and higher profiles
+Variable transform size,Yes,Only in High profile and above
+Slice,Contiguous (integer number of macroblock rows only),Contiguous or non-contiguous
+Sub-pixel interpolation methods,"bicubic, bilinear",6-tap filter for half pixels; averaging for quarter pixels
+Variable Length Coding,Yes,
+B frame used for predicting other pictures,Yes,

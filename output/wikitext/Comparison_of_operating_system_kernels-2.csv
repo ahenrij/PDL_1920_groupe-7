@@ -1,10 +1,11 @@
-Kernel,Acorn ADFS,Amiga FFS,BeFS,BFS,cramfs,EFS,ext2,ext3,ext4,F2FS,FAT,FreeVxFS,HFS,HFS+,HPFS,ISO 9660,JFFS,JFFS2,JFS,MINIX fs,NSS,NTFS,OCFS,QNX4 FS,System V FS,UDF,UFS,XFS,ZFS,ReiserFS,Reiser4,Btrfs,HAMMER,Tux3,exFAT,ReFS
-DragonFly BSD kernel,,,,,,,,,,,,,,,,,,,,,,limited write,,,,read only,,,,,,,,,,
-FreeBSD kernel,,,,,,,,,,,,,,,,,,,,,,limited write,,,,,,read only,,read only,,,,,,
-Linux kernel,Yes [24],,read only,,,read only,,,,,,read only,,limited write (only with empty journal),,,,,,,,Yes (Full R/W with additional userspace driver)[25],,Yes [24] [26],write support?,,Yes [24],, both FUSE and native,,,,,,,
-MINIX 3 kernel,,,,,,,,,,,"Tools available, cannot mount",,,,,,,,,,,,,,,,,,,,,,,,,
-NetWare kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ReactOS kernel,,,,,,,,,,,,,,,,,,,,,,Read only,,,,,,,,,,Yes [28],,,,
-Solaris kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Windows NT kernel,,,,,,,Yes [29],Yes [30],Yes [30],,,,Yes [31],Yes [31],,,,,,,,,,,,,,,,,,Yes [28],,,,
-XNU,,,,,,,Yes [32],Yes [32],,,,,,,,,,,,,,Read-Only,,,,,,,read only,,,,,,,
+Kernel Name,a.out,ECOFF,ELF,FDPIC ELF binaries (mmu less),flat binaries (superH),HUNK,Mach-O,"Misc (wrapper based, like interpreters)",PE,"SOM (PA-RISC, HP-UX)",NLM,PEF,DOS COM,MZ,LE,LX,NE
+Amiga Exec,,,,,,,,,,,,,,,,,
+DragonFly BSD kernel,,,,,,,,,,,,,,,,,
+HP-UX kernel,,,,,,,,,,,,,,,,,
+Linux kernel,,,,,,,,,,! -->binfmt_misc,! --> and run them using Wine,,,,,,
+MINIX 3 kernel,,,,,,,,,,,,,,,,,
+NetBSD kernel,,,,,,,,,,,,,,,,,
+ReactOS kernel,,,,,,,,,,,,,,,,,
+Solaris kernel,,,,,,,,,,,,,,,,,
+Windows NT kernel,,,Yes with WSL,,,,,,,,,,Yes on x86,Yes on x86,,,Yes on x86
+XNU,,,,,,,,,,,,,,,,,

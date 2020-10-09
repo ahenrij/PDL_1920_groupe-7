@@ -1,38 +1,34 @@
-File manager,SMB/CIFS,WebDAV,NFS,AFP,FTP,FISH/SSH
-Altap Salamander,Yes,No,Yes,No,Yes,Yes
-Commander One,Yes[n 1],Yes,Yes[n 1],Yes[n 1],Yes,Yes
-CRAX Commander,Yes[n 1],Yes,Yes[n 1],Yes[n 1],Yes,Yes
-Directory Opus,Yes,Yes,Yes,No,Yes,Yes (SFTP & SSL[45])
-Dired,Yes[n 1],Yes[n 1],Yes[n 1],No,Yes,Yes[n 1]
+File manager,Filesystem support,Attribute columns,File previews,Metadata indexing,Unicode support,Visual Themes
+Altap Salamander,Yes,Yes,Yes,?,Partial,No
+Commander One,Yes,Yes,Yes,?,Yes,Yes
+CRAX Commander,Yes,Yes,Yes,?,Yes,Partial
+Directory Opus,Yes,Yes,Yes,Partial,Yes,Yes
+Dired,Yes,Yes,Yes,No,Yes,Yes
 Documents by Readdle,,,,,,
-Dolphin,Yes,Yes,Yes,?,Yes,Yes
-Double Commander,Yes,?,?,?,Yes,?
-emelFM2,?,?,?,?,No,?
-Far Manager,Yes,Partial[n 2],Partial[n 3],No,Yes,Yes[n 4]
-File Commander,Yes,Partial[n 2],Partial[n 3],No,Partial[n 5],Partial[n 6]
-File Manager,?,?,?,?,?,?
-Files (Apple),,,,,,
+Dolphin,Yes,No,Yes,Yes,Yes,?
+Double Commander,Yes,Yes,Yes,No,Yes[e 1],Partial[e 2]
+emelFM2,?,?,?,?,,?
+Far Manager,Yes,Yes,Yes,Partial,Yes[e 3],No
+Files (Apple),,,Yes,,Yes,
 Files by Google,,,,,,
-Finder,Yes[n 1],Yes[n 1],Yes[n 1],Yes[n 1],Partial[n 1],No
-ForkLift,Yes,Yes,Yes,Yes,Yes,Yes
-GNOME Commander,Yes,Yes,Yes,No,Yes,Yes
-Konqueror,Yes,Yes,Yes,Yes,Yes,Yes
-Krusader,Yes,Yes,Yes,No,Yes,Yes
-muCommander,Yes,?,Yes,?,Yes,Yes
-Midnight Commander,Yes,No,Yes,No,Yes,Yes
-GNOME Files (Nautilus),Yes,Yes,Yes,Yes,Yes,Yes
-Nemo,Yes,?,?,?,Yes,Yes
-Nomad.NET,Yes,No,No,No,Yes,No
-Path Finder,Yes,Yes,Yes,Yes,Yes (Read Access),No
-PCManFM,Yes[n 7],?,?,?,?,?
-ROX-Filer,Yes[n 1],Yes[n 1],Yes[n 1],Yes[n 1],Yes[n 1],Yes[n 1]
-Total Commander,Yes,Yes[n 4],Partial[n 3],No,Yes,Yes
-Thunar,Yes[n 7],Yes[n 7],Yes[n 7],No,Yes[n 7],Yes[n 7]
-Windows Explorer,Yes,Yes,Yes[n 8],No,Yes,No
+Finder,Yes,No,Yes,Yes,Yes[e 4],Partial[e 5]
+ForkLift,Yes,Yes,Yes,No,Yes,Yes
+Konqueror,Yes,No,Yes,Yes,Yes,Yes
+Krusader,Yes,No,Yes,Partial,,?
+Midnight Commander,Yes,No,No,No,Yes,No
+GNOME Files (Nautilus),Yes,?,Yes,?,Yes,?
+Nemo,?,?,?,?,?,?
+Nomad.NET,Yes,Yes,Yes,?,Yes,Yes
+Path Finder,?,?,?,?,,?
+PCManFM,Yes,Yes,Yes,No,Yes,No
+ROX-Filer,,No,Yes,No,,?
+Total Commander,Yes,Yes,Yes,Yes In search tool,Yes[e 1],Partial[e 2]
+Windows Explorer,Yes,Yes,Yes,Yes[80],Yes,Partial[e 5]
 Xandros File Manager,?,?,?,?,?,?
-Xfe,?,?,?,?,?,?
+Xfe,No,Partial,No,No,Partial,Partial[e 6]
+Xfile,?,?,?,?,?,?
 Xfm,?,?,?,?,?,?
-xplorer²,Yes,Yes[n 9],Partial[n 3],No,Yes,No
-XYplorer,Yes,Yes,Yes[n 8],No,Yes,No
-ZTreeWin,Yes,Partial[n 5],Partial[n 3],No,Partial[n 5],Partial[n 6]
-File manager,SMB/CIFS,WebDAV,NFS,AFP,FTP,FISH/SSH
+xplorer²,Yes,Yes,Yes,?,Yes,Yes
+XYplorer,Yes,Yes,Yes,?,Yes,Yes
+ZTreeWin,Yes,Yes,Yes,?,Yes,No
+File manager,Filesystem support,Attribute columns,File previews,Metadata indexing,Unicode support,Visual Themes

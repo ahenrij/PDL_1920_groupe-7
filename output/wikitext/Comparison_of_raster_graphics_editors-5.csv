@@ -1,3 +1,97 @@
-Free and open-source software,Proprietary software,,Online w/ App
-,Freeware,Commercial,
-CinePaint Darktable DigiKam F-Spot G'MIC GIMP GimPhoto GIMPshop GNU Paint GrafX2 GraphicsMagick gThumb Hugin ImageJ ImageMagick KolourPaint Krita LazPaint LightZone mtPaint MyPaint Panorama Tools Pencil2D Phatch Pinta Rawstudio RawTherapee Seashore Shotwell Tile Studio Tux Paint UFRaw Brush Strokes Image Editor Chasys Draw IES FastStone Image Viewer Fatpaint Fotografix IrfanView Moai[1] PhotoScape PixBuilder Photo Editor Pixia Project Dogwaffle 1.2 Free Version XnView Photo Pos Pro,,Ability Photopaint ACD Canvas X (formerly Deneba Canvas) ACDSee Acorn Image Editor Adobe Photoshop Adobe Photoshop Lightroom Adobe Photoshop Elements Affinity Photo ArcSoft PhotoImpression Artipic ArtRage Autodesk SketchBook Pro Black Ink Bloom Image Editor Capture One CodedColor PhotoStudio Pro Corel Painter Corel Painter Essentials Corel PaintShop Pro Corel Photo-Paint Erdas Imagine GraphicConverter Helicon Filter Iridient Developer,Kid Pix LiveQuartz LView Pro Manga Studio MediBang Paint Microsoft Paint NeoPaint OpenCanvas Paint Tool SAI Paint.NET Photogenics PhotoLine Photo Mechanic Photos (Apple app) Photo Raster PicMaster Pixelmator Pixen PMview Portrait Professional Procreate_(software) Project Dogwaffle QFX Serif PhotoPlus TVPaint Xara Photo & Graphic Designer Zoner Photo Studio 
+,Description,Creator,First public release date,Latest stable version,Latest Stable Release Date,List Price (USD),Software license
+Ability Photopaint,Graphics editor with some advanced features,Ability Software,200103,4,,,
+ACDSee,,,,19,,$59,
+ACDSee Pro,,,,9,,$99,
+ACDSee Ultimate,,,,9,,$149,
+Acorn Image Editor,Image editor and graphics creator for macOS,Flying Meat Inc.,20070910,5.6.2,20170124,,
+Adobe Fireworks*,"Alternative to Photoshop targeted at web designers, discontinued after CS6",Macromedia,1998,CS6 / 12.0,20120507,Discontinued,
+Adobe Photoshop,Professional image editor and graphics creation tool,Adobe Systems,19900219,CC 2020/ 21.1.3,20200519,$9.99/month,
+Adobe Photoshop Elements,"Raster graphics editor for entry-level photographers, image editors and hobbyists",,,14.0,20150924,$99,
+Adobe Photoshop Lightroom,Photo editor,Adobe Systems,20070219,8.2,20190207,$9.99/month,
+Affinity Photo,"Professional image editor for Windows, macOS and iOS",Serif Europe,20150709,1.8.2,20200403,$49.99,
+Autodesk SketchBook Pro,Paint and drawing toolset for use with digitized pen tablets & tablet computers,Autodesk,2004,2016 (4.1),,,
+Artipic,Image editor for Windows and macOS,Artipic AB,2014,2.6,20171030,,
+ArtRage,Digital paint program for tablet computers,Ambient Design,2004,6,201906,,
+Artweaver,Emulates physical painting experience on a computer,Boris Eyrich,2002,7.0.4,20200209,,Freeware
+Bibble*,Photo editor and organizer with camera raw file support,Bibble Labs,2000,5.2,,,
+Black Ink,Advanced Digital Painting,Bleank,2012,2020.1,202001,$59.99,
+Bloom,Procedural node-based image editor,Sad Cat Software,2015,1.0.467,20160805,,
+Brush Strokes Image Editor,Image editor like Windows Paint,Paul Bird,2004,2.0,,,Freeware
+Capture One,Professional raw converter and image editor,Phase One,2002,12,,,
+Chasys Draw IES,"Image Editor with layers, animation, icon edit, super-res, batch and camera raw",John Paul Chacha,2001,4.56.01,20181112,,Freeware
+CinePaint,"Moving picture, photo and graphics editor",Robin Rowe,20020704,1.0-4,20130508,,GPL
+CodedColor PhotoStudio Pro,An bitmap graphics editor and image organizer for Windows pc,1STEIN Corp.,2001,6.2,,,
+Corel PaintShop Pro,Advanced image editor and graphics creator,Jasc Software,1992,X7,,,
+Corel Painter,Made to create natural-looking artistic images,"Mark Zimmer, Tom Hedges, John Derry",199108,15.1.0.740,20160112,,
+Corel PHOTO-PAINT,Professional image editor and graphics creator with advanced features,Corel Corporation,1992,X7/17,,,
+darktable,Photography workflow application and raw developer,Johannes Hanika,200904,3.0.0,20191224,,GPL 3
+Deluxe Paint*,Discontinued basic editor,Dan Silva,1985,5.2,1995,,
+Deneba Canvas,Graphics editor and creator supporting both raster graphics and vector graphics.It also work on GIS data.,"Jorge Miranda, Joaquin de Soto, Manny Menendez",198709,14,,,
+DigiKam,Free photo organizer and image editor,"Renchi Raju, Gilles Caulier",2002,6.4.0,20191102,,GPL
+Digital Photo Professional,Photo organizer and image editor from Canon,Canon Inc.,,4.2.10,,,
+Erdas Imagine,Advanced remote sensing and GIS ability; handles multispectral images,"ERDAS, Inc.",1980,2016 (16),20160614,,
+Fatpaint,Full featured web-based graphic design and photo editing application,Mersica Inc.,2010,1.99.55,,,Freeware
+Fotografix,"Freeware, portable image editor",L. Madhavan,20090414,1.5,,,Freeware
+F-Spot,Image viewer and organizer for GNOME,Ettore Perazzoli,2005,0.8.2,20101219,,GPLv2
+G'MIC,Free command line software for 2D or 3D image processing and visualization,David Tschumperlé,200810,2.8.3,20200123,,CeCILL
+GIMP,Free image editor and graphics creator,"Spencer Kimball, Peter Mattis",199601,2.10.18,20200224,,GNU (L)GPLv3+ v2.7+[3]
+GimPhoto,"Modification of the free and open-source graphics program GNU Image Manipulation Program (GIMP), with the intent to be a free alternative to Adobe Photoshop.",Ek Kian,,24.1,20141230,,GPLv2
+GIMPshop,GIMP with a GUI similar to Adobe Photoshop,Scott Moschella,,2.2.11,,,GPL
+GNU Paint,Free and open-source raster graphics editor,Andy Tai,20070910,0.3.3,,,GPL
+GrafX2,GrafX2 with a GUI similar to Deluxe Paint,"Sunset Design (Guillaume Dorme, Karl Maritaud)",1996,2.7,20200201,,GPL
+GraphicConverter,"Image viewer, converter, organizer and editor capable of importing around 200 and exporting 80 different image file types. Compatible with many Photoshop plug-ins",Thorsten Lemke,1992,10,,,
+GraphicsMagick,Commandline image converter and editor,GraphicsMagick Group,2002,1.3.34,20191224,,MIT
+gThumb,Image viewer and organizer for the GNOME desktop environment,Paolo Bacchilega,2001,3.8.3,20191223,,GPL3
+HDR PhotoStudio,HDR (High Dynamic Range Editor) with human vision imaging model,Unified Color,200910,2.15.37,,,
+Helicon Filter,Advanced image editor with a simplified tabbed interface,Helicon Soft Ltd.,200408,5.0.28,,,
+ImageJ,Image processing program developed at the National Institutes of Health.,Wayne Rasband (NIH),1997,1.46m,,,Public Domain
+ImageMagick,"Command line software suite for displaying, converting, and editing raster image files",ImageMagick Studio LLC,1990,7.0.9-23,20200215,,Apache 2.0
+iPhoto*,Image organizer and basic editor for macOS; replaced by Photos,Apple Inc.,2002,9.6,,,
+IrfanView,Image and video viewer with basic editing functions,Irfan Skiljan,1996,4.44[4],20161220,,Freeware
+Iridient Developer,Powerful raw image conversion application designed and optimized for macOS,Iridient Digital,2004,3.0.3,,,
+KolourPaint,,KDE,2004,19.12.1,20200109,,BSD
+Krita,Digital painting oriented free and open-source raster graphic editor with vector support. KDE/Calligra based.,KDE,2005,4.2.8,20191127,,GPL
+LazPaint,Free multiplatform layered image editor,circular,2011,7.0.7,20191014,,GPL
+LiveQuartz,Basic multi-layer photo editor,Romain Piveteau,2005,2.8,2018121,,
+MacPaint*,Obsolete basic editor,Bill Atkinson,1984,2.0,,,
+Microsoft Office Picture Manager*,Basic image editor,Microsoft,2002,14.0,,,
+Microsoft Paint,Basic graphic creator and editor packaged with Microsoft Windows operating systems,Microsoft,1985,6.1,,,
+Microsoft Photo Editor*,Obsolete basic image editor for Windows,Microsoft,2000,3.01,,,
+mtPaint,pixel art and photo editing application,Mark Tyler,20040913,3.40,20111230,free,GPL3
+MyPaint,Digital painting application,Martin Renold,20050312,2.0.0,20200216,free,GPL2
+OpenCanvas,,Portalgraphics,2000,4,,,
+paint.net,Freeware image editor and graphics creator based on the .Net framework,"Rick Brewster, et al.",20040506,4.0.19 (for Windows 7 SP1 or newer) / 3.5.11 (the last version to support Windows XP),2017102,,Freeware[5][6]
+Paint Tool SAI*,Simple and lightweight painting software,Systemax Software,20080225,1.2.5,20160425,~$50 (5500JPY),
+PC Paintbrush*,Obsolete basic editor,ZSoft Corporation,1984,5,,,
+Pencil2D,2D graphical animation software.,Pascal Naidon,,0.6.4,20190531,,GPL
+Phatch,Editor for batch processing digital graphics and photographs.,Stani Michiels,,0.2.7,,,GPL
+Photogenics,Made to create 32-bit HDRs,Idruna Software Inc.,1995,HDR 7.0,,,
+PhotoLine,Image editor with advanced features,Computerinsel (Germany),1995,20.53,2018,€59,
+PhotoPerfect*,Image editor with some advanced features,"Arcadia Software AG, Joachim Koopmann Software",2002,2.9,,,
+Photos,Image organizer and basic editor for macOS; replaced iPhoto from OS X 10.10.3 onwards,Apple Inc.,2014,1.0,,,
+Photo Raster,Advanced online photo editor,David Levinsky,2012,0.9,,,
+Picasa*,"Efficient image organizer with basic editing tools, other image effects",Google,2002,3.9.141.259,20151009,Discontinued,Freeware
+PicMaster,"Has 300 filter effects, slide show, poster printing, mosaics, true 3D, more",Alexander Sabov,199912,4.03,,,
+Pinta,"Mid-level Free and Open Source raster graphics editor, based on Paint.Net",Jonathan Pobst,20100207,1.7,20200804,,MIT
+PixBuilder Photo Editor,,WnSoft Graphic Software,200506,1.31,,,
+Pixelmator,Image editor and graphics creator for macOS,Pixelmator Team ltd.,20070925,3.0,,,
+Pixen,Pixel art and sprite editor for macOS,Open Sword Group,,3.8,,,
+Pixia,Originally designed for Anime/Manga art.,Isao Maruoka,1998,4.70d,,,
+PMview,Fast image viewer with basic editing functions,Peter Nielsen,1992,3.80 (2017),,,
+Project Dogwaffle,Dan Ritchie retired but others continue active development[7],Dan Ritchie,1997,2011 (7.0) (1.2 available as freeware),,,
+QFX,Mature and complete image editing package,Ron Scott,1990,8,,,
+Rawstudio,Raw image processor.,Anders Brander & Anders Kvist,20060622,2.0,,,GPL 2
+RawTherapee,"Powerful free and cross-platform raw image editor, for developing raw photos from digital cameras.",Gabor Horvath,20060921,5.8,20200204,,GPL
+Seashore,"Basic counterpart to GIMP, using its XCF format; full support for a few graphics formats",Mark Pazolli,20030116,2.5.7,20200215,,GPLv2
+Serif PhotoPlus,"Complete editor and photo organizer suite; similar features and menus to other software from Serif; available as economy version or in bundle with clipart, effects, public domain image library; made for easy use",Serif,1999,X8,20150810,,
+Shotwell,Image organizer for GNOME,Yorba Foundation,20090626,0.31.0,20190311,,LGPL 2.1
+Tux Paint,Drawing program for young children.,Bill Kendrick,20020616,0.9.23,20180902,,GPL
+TVPaint,2D animation software,Herve ADAM,19910616,9.5.11,,,
+UFRaw,Raw image format processor,Udi Fuchs,,0.22,20150617,,GPL
+Ulead PhotoImpact*,,Ulead Systems,,12,,,
+Ultimate Paint*,Basic graphics editor based on Deluxe Paint,"Joseph Ladanyi, Daniel Szabo",1998,2.88,,,
+WinImages,Animation-centric,Black Belt Systems,1985,7.5,,,Freeware
+Xara Photo & Graphic Designer,Graphic design program including photo editing and vector illustration tools,Xara,1995 (Windows),9,,,
+XnView,"Cross-platform image viewer used for converting, organising and editing graphical & video files.",Pierre-emmanuel Gougelet,1998 (1.06),"2.20 (Windows)/0.64 (Linux, macOS)",,,
+XPaint,Simple Drawing program for Unix/X11 with Xaw3d widgets,"David Koblas, Torsten Martinsen, Jean-Pierre Demailly",1993,2.10.2,20171113,,Custom free license
+Zoner Photo Studio,All-in-one editor package,Zoner Inc.,,11.0 build 8,,,

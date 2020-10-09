@@ -1,54 +1,46 @@
-,Windows,macOS,Linux,BSD,UNIX,AmigaOS,z/OS,iOS,Android,OpenVMS
-4th Dimension,Yes,Yes,No,No,No,No,No,No,No,No
-ADABAS,Yes,No,Yes,No,Yes,No,Yes,No,No,No
-Adaptive Server Enterprise,Yes,No,Yes,Yes,Yes,No,No,No,No,No
-Advantage Database Server,Yes,No,Yes,No,No,No,No,No,No,No
-Altibase,Yes,No,Yes,No,Yes,No,No,No,No,No
-Apache Derby,Yes,Yes,Yes,Yes,Yes,No,Yes,?,No,No
-ClustrixDB,No,No,Yes,No,Yes,No,No,No,No,No
-CUBRID,Yes,Partial,Yes,No,No,No,No,No,No,No
-DB2,Yes,Yes (Express C),Yes,No,Yes,No,Yes,Yes,No,No
-Empress Embedded Database,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,No
-EXASolution,No,No,Yes,No,No,No,No,No,No,No
-FileMaker,Yes,Yes,Yes,No,No,No,No,Yes,No,No
-Firebird,Yes,Yes,Yes,Yes,Yes,No,Maybe,No,Yes[41],No
-HSQLDB,Yes,Yes,Yes,Yes,Yes,No,Yes,?,?,No
-H2,Yes,Yes,Yes,Yes,Yes,No,Yes,?,Yes,No
-Informix Dynamic Server,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
-Ingres,Yes,Yes,Yes,Yes,Yes,No,Partial,No,No,Yes[42]
-InterBase,Yes,Yes,Yes,No,Yes (Solaris),No,No,Yes,Yes,No
-Linter SQL RDBMS,Yes,Yes,Yes,Yes,Yes,No,Under Linux on IBM Z,Yes,Yes,Yes
-LucidDB,Yes,Yes,Yes,No,No,No,No,No,No,No
-MariaDB,Yes,Yes[43],Yes,Yes,Yes,No,No,?,Yes[44],No
-MaxDB,Yes,No,Yes,No,Yes,No,Maybe,No,No,No
-Microsoft Access (JET),Yes,No,No,No,No,No,No,No,No,No
-Microsoft Visual Foxpro,Yes,No,No,No,No,No,No,No,No,No
-Microsoft SQL Server,Yes,No,Yes[45],No,No,No,No,No,No,No
-Microsoft SQL Server Compact (Embedded Database),Yes,No,No,No,No,No,No,No,No,No
-Mimer SQL,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Yes
-MonetDB,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
-MySQL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes[46],No
-Omnis Studio,Yes,Yes,Yes,No,No,No,No,No,No,No
-OpenEdge,Yes,No,Yes,No,Yes,No,No,No,No,No
-OpenLink Virtuoso,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
-Oracle,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes
-Oracle Rdb,No,No,No,No,No,No,No,No,No,Yes
-Pervasive PSQL,Yes,Yes (OEM only),Yes,No,No,No,No,No,No,No
-Polyhedra,Yes,No,Yes,No,Yes,No,No,No,No,No
-PostgreSQL,Yes,Yes,Yes,Yes,Yes,Yes (MorphOS)[47],Under Linux on IBM Z[48],No,Yes,No
-R:Base,Yes,No,No,No,No,No,No,No,No,No
-Raima Database Manager,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No
-RDM Server,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
-SAP HANA,Yes,No,Yes,No,No,No,No,No,No,No
-solidDB,Yes,No,Yes,No,Yes,No,Under Linux on IBM Z,No,No,No
-SQL Anywhere,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No
-SQLBase,Yes,No,Yes,No,No,No,No,No,No,No
-SQLite,Yes,Yes,Yes,Yes,Yes,Yes,Maybe,Yes,Yes,No
-SQream DB,No,No,Yes,No,No,No,No,No,No,No
-Superbase,Yes,No,No,No,No,Yes,No,No,No,No
-Teradata,Yes,No,Yes,No,Yes,No,No,No,No,No
-Tibero,Yes,No,Yes,No,Yes,No,No,No,No,No
-UniData,Yes,No,Yes,No,Yes,No,No,No,No,No
-UniVerse,Yes,No,Yes,No,Yes,No,No,No,No,No
-YugabyteDB,Yes,Yes,Yes,No,No,No,No,No,No,No
-,Windows,macOS,Linux,BSD,UNIX,AmigaOS,z/OS,iOS,Android,OpenVMS
+,Union,Intersect,Except,Inner joins,Outer joins,Inner selects,Merge joins,Blobs and Clobs,Common Table Expressions,Windowing Functions,Parallel Query,System-versioned Tables
+4th Dimension,Yes,Yes,Yes,Yes,Yes,No,No,Yes,?,?,?,?
+ADABAS,Yes,?,?,?,?,?,?,?,?,?,?,?
+Adaptive Server Enterprise,Yes,?,?,Yes,Yes,Yes,Yes,Yes,?,?,Yes,?
+Advantage Database Server,Yes,No,No,Yes,Yes,Yes,Yes,Yes,?,No,?,?
+Altibase,Yes,Yes,"Yes, via MINUS",Yes,Yes,Yes,Yes,Yes,No,No,No,?
+Apache Derby,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,No,No,?,?
+ClustrixDB,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,?
+CUBRID,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes[81],?,?
+DB2,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[118],Yes[119]
+Empress Embedded Database,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+EXASolution,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,?
+Firebird,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?
+HSQLDB,Yes,Yes,Yes,Yes,Yes,Yes,Yes[120],Yes,Yes,No,Yes[120],?
+H2,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,experimental[121],Yes[122],?,?
+Informix Dynamic Server,Yes,Yes,"Yes, via MINUS",Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[123],?
+Ingres,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,No,?,?
+InterBase,Yes,?,?,Yes,Yes,?,?,Yes,?,?,?,?
+Linter SQL RDBMS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
+LucidDB,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,?,?,?,?
+MariaDB,Yes,10.3+[124],10.3+[125],Yes,Yes,Yes,No,Yes,Yes[126],Yes[127],No[128],Yes[119]
+MaxDB,Yes,?,?,Yes,Yes,Yes,No,Yes,?,?,?,?
+Microsoft Access (JET),Yes,No,No,Yes,Yes,Yes,No,Yes,No,No,?,?
+Microsoft Visual Foxpro,Yes,?,?,Yes,Yes,Yes,?,Yes,?,?,?,?
+Microsoft SQL Server,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[129],Yes[130],Yes[119]
+Microsoft SQL Server Compact (Embedded Database),Yes,No,No,Yes,Yes,?,No,Yes,No,No,?,?
+Mimer SQL,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,No,No,?
+MonetDB,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+MySQL,Yes,No,No,Yes,Yes,Yes,No,Yes,8+[131],No,No[128],No[119]
+OpenBase SQL,No,No,No,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+OpenLink Virtuoso,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,?,?,Yes,?
+Oracle,Yes,Yes,"Yes, via MINUS",Yes,Yes,Yes,Yes,Yes,Yes 1,Yes,Yes[132],No[119]
+Oracle Rdb,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?
+Pervasive PSQL,Yes,No,No,Yes,Yes,?,?,Yes,No,No,No,?
+Polyhedra DBMS,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No,?
+PostgreSQL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[133],No[119]
+Raima Database Manager,No,No,No,Yes,Yes,No,No,Yes,No,No,No,?
+RDM Server,Yes,No,No,Yes,Yes,Yes,No,Yes,No,No,No,?
+SAP HANA,?,?,?,?,?,?,?,?,?,?,?,?
+solidDB,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,?
+SQL Anywhere,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+SQLite,Yes,Yes,Yes,Yes,LEFT only,Yes,No,Yes,3.8.3+[134],3.25+[135],No,No[119]
+SQream DB,ALL only,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,No,?
+Teradata,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+UniVerse,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,?,?
+,Union,Intersect,Except,Inner joins,Outer joins,Inner selects,Merge joins,Blobs and Clobs,Common Table Expressions,Windowing Functions,Parallel Query,System-versioned Tables

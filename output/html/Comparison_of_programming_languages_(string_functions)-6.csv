@@ -1,25 +1,2 @@
-Example usage,Languages
-String.Trim([chars]),"C#, VB.NET, Windows PowerShell"
-string.strip();,D
-(.trim string),Clojure
-sequence [ predicate? ] trim,Factor
-(string-trim '(#\Space #\Tab #\Newline) string),Common Lisp
-(string-trim string),Scheme
-string.trim(),"Java, JavaScript (1.8.1+, Firefox 3.5+), Rust[50]"
-Trim(String),"Pascal,[51] QBasic, Visual Basic, Delphi"
-string.strip(),Python
-"strings.Trim(string, chars)",Go
-LTRIM(RTRIM(String)),"Oracle SQL, T-SQL"
-"strip(string [,option, char])",REXX
-"string:strip(string [,option, char])",Erlang
-string.strip or string.lstrip or string.rstrip,Ruby
-string.trim,Raku
-trim(string),"PHP, Raku"
-[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]],Objective-C using Cocoa
-string withBlanksTrimmed string withoutSpaces string withoutSeparators,"Smalltalk (Squeak, Pharo) Smalltalk"
-strip(string),SAS
-string trim $string,Tcl
-TRIM(string) or TRIM(ADJUSTL(string)),Fortran
-TRIM(string),SQL
-TRIM(string) or LTrim(string) or RTrim(String),ColdFusion
-String.trim string,OCaml 4+
+Definition,"compare(string1,string2) returns integer."
+Description,"Compares two strings to each other. If they are equivalent, a zero is returned. Otherwise, most of these routines will return a positive or negative result corresponding to whether string1 is lexicographically greater than, or less than, respectively, than string2. The exceptions are the Scheme and Rexx routines which return the index of the first mismatch, and Smalltalk which answer a comparison code telling how the receiver sorts relative to string parameter."

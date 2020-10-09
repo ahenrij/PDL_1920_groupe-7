@@ -1,24 +1,25 @@
-Audio player,AVI,ASF,QuickTime,Ogg,OGM,Matroska,MP4,MPEG-21,NUT,FLV
-AIMP,No,Yes,No,Yes,No,No,Partial,No,No,No
-Amarok,Yes,Yes,Yes,Yes,Basic,Basic,Yes,?,?,Yes
-Audacious,No,Yes,No,Yes,No,No,Yes,No,No,Audio only
-Audion,No,No,No,No,No,No,No,?,?,?
-cmus,No,No,No,Vorbis only,No,Basic,Yes,?,?,?
-Cog,No,No,No,Yes,No,No,Partial,?,?,?
-foobar2000,Partial[a],Yes,No,Yes,No,Yes[containernotes 1],Yes,?,?,Audio only
-JuK,No,No,No,Vorbis only,No,No,No,?,?,?
-JRiver Media Center,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes
-MediaMonkey,No,No,No,Vorbis only,No,No,No,?,?,?
-MOC,Yes,?,?,Yes,?,Yes,Yes,?,?,Yes
-MPXPLAY,Yes,Yes,No,Yes,?,?,Yes,?,?,?
-MusicBee,No,No,No,Vorbis only,No,No,AAC only,No,No,No
-Musicmatch Jukebox,No,No,No,No,No,No,No,?,?,?
-musikCube,No,No,No,Vorbis only,No,No,No,?,?,?
-Rhapsody,No,No,No,No,No,No,No,?,?,?
-Rhythmbox,No,Yes,No,Vorbis only,No,No,Yes[f],?,?,?
-Sayonara Player,No,?,No,Vorbis only,?,?,?,?,?,?
-Sonique,No[g],No,No,Yes,No,No,No,?,?,?
-Winamp,Yes,Yes,Yes[a],Yes,Yes,Yes,Yes,?,?,Yes
-XMMS,No,No,No,Vorbis only,No,No,No,?,?,?
-Zinf,No,No,No,Vorbis only,No,No,No,?,?,?
-Audio player,AVI,ASF,QuickTime,Ogg,OGM,Matroska,MP4,MPEG-21,NUT,FLV
+Audio player,ID3v1,ID3v2,APEv2 tag,Vorbis comment,Cue sheet,CD-Text,WAVE chunks
+AIMP,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Amarok,Yes[metadatanotes 1],Yes[metadatanotes 1][metadatanotes 2],Yes[metadatanotes 1],Yes,Yes[metadatanotes 3],?,Yes
+Audacious,Yes,Yes,Yes,Yes,Yes,Yes,?
+Audion,Yes,Yes,No,No,?,?,?
+cmus,Yes,Yes,Yes,Yes,Yes,No,?
+Cog,Yes,Yes,Yes,Yes,Yes,?,?
+foobar2000,Yes,Yes,Yes,Yes,Yes,Yes[metadatanotes 4],Yes
+iTunes,Yes,Yes,Yes,?,?,?,?
+JRiver Media Center,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+JuK,Yes[metadatanotes 1],Yes[metadatanotes 1],Yes[metadatanotes 1],Yes[metadatanotes 1],?,?,?
+MediaMonkey,Yes,Yes,Yes,Yes,?,Yes,?
+Mixxx,Yes,Yes,Yes,Yes,No,No,Yes
+MPXPLAY,Yes,Yes,Yes,Yes,?,?,?
+MusicBee,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Musicmatch Jukebox,Yes,Yes,No,?,?,Yes,?
+musikCube,Yes,Yes,Yes,?,?,?,?
+Quod Libet,Yes,Yes,Yes,Yes,No,No,Yes
+Rhapsody,Yes,Yes,No,No,?,?,?
+Rhythmbox,Yes,Yes,Yes,Yes,?,?,?
+Sayonara Player,Yes,Yes,?,Yes,?,?,?
+Sonique,Yes,No,?,?,?,?,?
+XMMS,Yes,Yes,No,Yes,?,?,?
+Zinf,Yes,Yes,No,Yes,?,?,?
+Audio player,ID3v1,ID3v2,APEv2 tag,Vorbis comment,Cue sheet,CD-Text,WAVE chunks

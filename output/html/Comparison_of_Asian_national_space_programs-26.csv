@@ -1,12 +1,10 @@
-First success,LEO,GTO / GEO,Notes
-11 Feb 1970,L-4S (26 kg),,First launch was 1966 (failed 4 times).
-24 Apr 1970,CZ-1 (0.3 t),,First launch failed in 1969.
-26 Jul 1975,FB-1 (2.5 t),,Suborbital flight was performed in 1972. CZ-2A (LEO 2t) failed in 1974.
-12 Aug 1986,H-I (LEO 3.2 t / GTO 1.1 t),,First stage was a license-built Delta rocket.
-16 Jul 1990,CZ-2E (LEO 9.2 t / GTO 3.5 t),,
-3 Feb 1994,H-II (LEO 10.1 t / GTO 3.9 t),,
-20 Aug 1997,CZ-3B (LEO 12 t / GTO 5.2 t),,
-18 Dec 2006,H-IIA204 (LEO 15 t / GTO 5.8 t),,
-10 Sep 2009,H-IIB (LEO 19 t / GTO 8 t),,
-3 Nov 2016,H-IIB (LEO 19 t),CZ-5 (GTO 14 t)[81],
-5 May 2020,CZ-5 (LEO 25 t / GTO 14 t),,
+Country,Engine,Thrust (vac.),Stage,Cycle,Active,Status
+Japan,LE-5 cryogenic engine,"LE-5 — 102.9 kN (23,100 lbf) ---------- LE-5A — 121.5 kN (27,300 lbf) ---------- LE-5B — 144.9 kN (32,600 lbf)",Upper stage,5 — Gas generator 5A and 5B — Expander,1986 — present,In service
+,LE-7 cryogenic engine,"LE-7 — 1,078 kN (242,000 lbf) ---------- LE-7A — 1,074 kN (241,000 lbf)",Booster,Staged combustion,1994 — present,In service
+China,YF-73 cryogenic engine,"44.15 kN (9,930 lbf)",Upper stage,Gas generator,1987-2000,Retired
+,YF-75 cryogenic engine,"78.45 kN (17,640 lbf)",Upper stage,Gas generator,1994 — present,In service
+,YF-75D cryogenic engine,"88.26 kN (19,840 lbf)",Upper stage,Expander,2016 — present,In service
+,YF-77 cryogenic engine,"700 kN (160,000 lbf)",Booster,Gas generator,2016 — present,In service
+India,CE-7.5 cryogenic engine,"73.5 kN (16,500 lbf)",Upper stage,Staged combustion,2014 — present,In service
+,CE-20 cryogenic engine,"200 kN (45,000 lbf)",Upper stage,Gas-generator,2017 — present,In service
+,SCE-200 semi-cryogenic engine,"2,030 kN (460,000 lbf)",Booster,Staged combustion,After 2022,Under development

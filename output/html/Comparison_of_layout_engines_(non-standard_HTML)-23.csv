@@ -1,23 +1,25 @@
-Attribute,Element,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
-align,"caption, div, fieldset, h1, h2, h3, h4, h5, h6, hr, img, input, legend, p, object, table",CSS,3.1,Yes,Yes,Yes,Yes
-alink,body,CSS,,,No,,
-background,body,CSS,,,Yes,,
-bgcolor,"body, table, tr, td, th",CSS,,,,,
-border,"img, object",CSS,,,Partial[note 8],,
-clear,br,CSS,,,No,,
-compact,"dl, ul, ol",CSS,No,No,,,
-color,"basefont, font",CSS,3.1,Partial[note 9][8],Partial[note 9],,
-height,"td, th",CSS,,Yes,Yes,,
-hspace,"img, object",CSS,,,,,
-language,script,The type attribute,,No[citation needed],,,
-link,body,CSS,,Yes,,,
-noshade,hr,CSS,,,,,
-nowrap,"td, th",CSS,,,,,
-size,"basefont, font, hr",CSS,,,,,
-start,ol,None,,,,,
-text,body,CSS,,,,,
-type,"li, ul, ol",CSS,,,,,
-version,html,DTD,No,No,No,No,No
-vlink,body,CSS,Yes,Yes,Yes,Yes,Yes
-width,"hr, pre, td, th",CSS,,,,,
-vspace,"img, object",CSS,,,,,
+,Trident,Gecko,WebKit,Presto
+<audio> attributes,,,,
+src,5.0[t 1],1.9.1,525,2.5
+preload,,2.0[note 11][g 90],,Experimental[note 11]
+autoplay,,1.9.1,,2.5
+loop,,11.0[g 91],,
+controls,,1.9.1,,
+<video> attributes,,,,
+src,5.0[t 1],1.9.1,525,2.5
+preload,,2.0[note 11][g 90],,Experimental[note 11]
+autoplay,,1.9.1,,2.5
+loop,,11.0[g 91],,
+controls,,1.9.1,,
+poster,,1.9.2[g 92],,
+width,,1.9.1,,
+height,,,,
+<source> attributes,,,,
+src,5.0[t 1],1.9.1,525[w 70],2.5
+type,,,,
+media,,15.0[g 93],,
+<track> attributes,,,,
+kind,6.0[t 42],24.0[g 94],Yes[w 71],No
+label,,,,
+src,,,,
+srclang,,,,

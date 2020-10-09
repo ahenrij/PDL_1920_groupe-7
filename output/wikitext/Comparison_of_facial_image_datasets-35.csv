@@ -1,13 +1,16 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Forest Fires Dataset,Forest fires and their properties.,13 features of each fire are extracted.,517,Text,Regression,2008,[384][385],P. Cortez et al.
-Iris Dataset,Three types of iris plants are described by 4 different attributes.,None.,150,Text,Classification,1936,[386][387],R. Fisher
-Plant Species Leaves Dataset,Sixteen samples of leaf each of one-hundred plant species.,"Shape descriptor, fine-scale margin, and texture histograms are given.",1600,Text,Classification,2012,[388][389],J. Cope et al.
-Mushroom Dataset,Mushroom attributes and classification.,Many properties of each mushroom are given.,8124,Text,Classification,1987,[390],J. Schlimmer
-Soybean Dataset,Database of diseased soybean plants.,35 features for each plant are given. Plants are classified into 19 categories.,307,Text,Classification,1988,[391],R. Michalski et al.
-Seeds Dataset,Measurements of geometrical properties of kernels belonging to three different varieties of wheat.,None.,210,Text,"Classification, clustering",2012,[392][393],Charytanowicz et al.
-Covertype Dataset,Data for predicting forest cover type strictly from cartographic variables.,Many geographical features given.,"581,012",Text,Classification,1998,[394][395],J. Blackard et al.
-Abscisic Acid Signaling Network Dataset,Data for a plant signaling network. Goal is to determine set of rules that governs the network.,None.,300,Text,Causal-discovery,2008,[396],J. Jenkens et al.
-Folio Dataset,20 photos of leaves for each of 32 species.,None.,637,"Images, text","Classification, clustering",2015,[397][398],T. Munisami et al.
-Oxford Flower Dataset,17 category dataset of flowers.,"Train/test splits, labeled images,",1360,"Images, text",Classification,2006,[134][399],M-E Nilsback et al.
-Plant Seedlings Dataset,12 category dataset of plant seedlings.,"Labelled images, segmented images,",5544,Images,"Classification, detection",2017,[400],Giselsson et al.
-Fruits 360 dataset,Database with images of 120 fruits and vegetables.,"100x100 pixels, White background.",82213,Images (jpg),Classification,2017-2019,[401][402],"Mihai Oltean, Horea Muresan"
+Housing Data Set,Median home values of Boston with associated home and neighborhood attributes.,None.,506,Text,Regression,1993,[466],D. Harrison et al.
+The Getty Vocabularies,"structured terminology for art and other material culture, archival materials, visual surrogates, and bibliographic materials.",None.,large,Text,Classification,2015,[467],Getty Center
+Yahoo! Front Page Today Module User Click Log,User click log for news articles displayed in the Featured Tab of the Today Module on Yahoo! Front Page.,Conjoint analysis with a bilinear model.,"45,811,883 user visits",Text,"Regression, clustering",2009,[468][469],Chu et al.
+British Oceanographic Data Centre,"Biological, chemical, physical and geophysical data for oceans. 22K variables tracked.",Various.,"22K variables, many instances",Text,"Regression, clustering",2015,[470],British Oceanographic Data Centre
+Congressional Voting Records Dataset,Voting data for all USA representatives on 16 issues.,"Beyond the raw voting data, various other features are provided.",435,Text,Classification,1987,[471],J. Schlimmer
+Entree Chicago Recommendation Dataset,Record of user interactions with Entree Chicago recommendation system.,Details of each users usage of the app are recorded in detail.,"50,672",Text,"Regression, recommendation",2000,[472],R. Burke
+Insurance Company Benchmark (COIL 2000),Information on customers of an insurance company.,Many features of each customer and the services they use.,"9,000",Text,"Regression, classification",2000,[473][474],P. van der Putten
+Nursery Dataset,Data from applicants to nursery schools.,Data about applicant's family and various other factors included.,"12,960",Text,Classification,1997,[475][476],V. Rajkovic et al.
+University Dataset,Data describing attributed of a large number of universities.,None.,285,Text,"Clustering, classification",1988,[477],S. Sounders et al.
+Blood Transfusion Service Center Dataset,"Data from blood transfusion service center. Gives data on donors return rate, frequency, etc.",None.,748,Text,Classification,2008,[478][479],I. Yeh
+Record Linkage Comparison Patterns Dataset,Large dataset of records. Task is to link relevant records together.,Blocking procedure applied to select only certain record pairs.,"5,749,132",Text,Classification,2011,[480][481],University of Mainz
+Nomao Dataset,Nomao collects data about places from many different sources. Task is to detect items that describe the same place.,Duplicates labeled.,"34,465",Text,Classification,2012,[482][483],Nomao Labs
+Movie Dataset,"Data for 10,000 movies.",Several features for each movie are given.,"10,000",Text,"Clustering, classification",1999,[484],G. Wiederhold
+Open University Learning Analytics Dataset,Information about students and their interactions with a virtual learning environment.,None.,"~ 30,000",Text,"Classification, clustering, regression",2015,[485][486],J. Kuzilek et al.
+Mobile phone records,Telecommunications activity and interactions,Aggregation per geographical grid cells and every 15 minutes.,large,Text,"Classification, Clustering, Regression",2015,[487],G. Barlacchi et al.

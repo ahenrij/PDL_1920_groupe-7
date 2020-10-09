@@ -1,24 +1,17 @@
-Name,CVS,Git,Hg,SVN,BZR,TFVC,Arch,Perforce,Fossil
-Assembla,No,Yes,No,Yes,No,No,No,Yes,No
-Azure DevOps Services,No,Yes,No,No,No,Yes,No,No,No
-Bitbucket,No,Yes,Until Feb 2020[c],No,No,No,No,No,No
-Buddy,No,Yes,No,No,No,No,No,No,No
-CloudForge,No,Yes,No,Yes,No,No,No,No,No
-GForge,Yes,Yes,No,Yes,No,No,No,No,No
-Gitea,No,Yes,No,No,No,No,No,No,No
-GitHub,No,Yes,No,Partial[38],No,No,No,No,No
-GitLab,No,Yes,No,No,No,No,No,No,No
-GNU Savannah,Yes,Yes,Yes,Yes,Yes[39],No,Yes,No,No
-java.net,No,Yes[40],Yes[40],Yes[40],No,No,No,No,No
-Kallithea,No,Yes,Yes,No,No,No,No,No,No
-Launchpad,Import only,Yes[14][41],Import only[42],Import only,Yes,No,No,No,Unknown
-OSDN,Yes,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-Ourproject.org,Yes,No,No,Yes,No,No,No,Unknown,Unknown
-OW2 Consortium,Yes,No,No,Yes,No,No,No,Unknown,Unknown
-Helix TeamHub,No,Yes,Yes,Yes,No,No,No,Yes,No
-Phabricator,No,Yes,Yes,Yes,No,No,No,No,No
-RhodeCode,No,Yes,Yes,Yes,No,No,No,No,No
-SEUL.org,Yes,No,No,Yes,No,No,No,Unknown,Unknown
-SourceForge,Dropped[43],Yes,Yes,Yes,Dropped[44],No,No,Unknown,No[45]
-Sourcehut,No,Yes,Yes,No,No,No,No,Unknown,Unknown
-Name,CVS,Git,Hg,SVN,BZR,TFVC,Arch,Perforce,Fossil
+Name,Users,Projects,Alexa rank (lower = more popular)
+Assembla,Unknown,"526,581+[46]","35,454 as of 28 July 2020[update][47]"
+Bitbucket,"5,000,000[48]",Unknown,"1,341 as of 28 July 2020[update][49]"
+Buddy,Unknown,Unknown,"39,857 as of 28 July 2020[update][50]"
+CloudForge,Unknown,Unknown,"402,884 as of 28 July 2020[update][51]"
+Gitea,Unknown,Unknown,"236,332 as of 28 July 2020[update][52]"
+GitHub,"31,000,000[53]","100,000,000[53]",78 as of 28 July 2020[update][54]
+GitLab,"100,000[55]","546,000[56][k]","2,710 as of 28 July 2020[update][57]"
+GNU Savannah,"93,346[58]","3,848[58]","162,054 as of 28 July 2020[update][59]"
+Launchpad,"3,965,288[60]","40,881[61]","11,533 as of 28 July 2020[update][62]"
+OSDN,"54,826[63]","6,294[63]","8,708 as of 28 July 2020[update][64]"
+Ourproject.org,"6,353[65]","1,846[65]","1,083,012 as of 28 July 2020[update][66]"
+OW2 Consortium,Unknown,Unknown,"1,509,677 as of 28 July 2020[update][67]"
+Rosetta code,Unknown,Unknown,"66,029 as of 28 July 2020[update][68]"
+SEUL,Unknown,Unknown,"1,602,812 as of 28 July 2020[update][69]"
+SourceForge,"3,700,000[70]","500,000[70]",470 as of 28 July 2020[update][71]
+Name,Users,Projects,Alexa rank (lower = more popular)

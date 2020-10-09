@@ -1,17 +1,16 @@
-|,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
+|,Product import-export,Statistics,Stock control,WYSIWYG editor
 | Apache OFBiz,,,,
 | Batavi,,,,
 | Bigcommerce,,,,
-| Drupal Commerce,,add-on,,
+| Drupal Commerce,,,,
 | KonaKart,,,,
-| Magento,,,enterprise,
-| Miva Merchant,,,,
+| Magento,,,,
 | nopCommerce,,,,
-| osCommerce,,,,
+| osCommerce,add-on,,,add-on
 | pimcore,,,,
 | PrestaShop,,,,
 | Shopify,,,,
 | SupaDupa,,,,
-| WooCommerce,,add-on,,
-| Zen Cart,,add-on,,
-!Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified,
+| WooCommerce,,,,
+| Zen Cart,add-on,,,add-on
+!Product import-export,Statistics,Stock control,WYSIWYG editor,

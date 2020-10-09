@@ -1,22 +1,11 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-While-in-use permissions,10+,11+: Location only[32],No,No,Yes
-Per-app Internet access,"No,[33] 3rd party software[34]",7+: Cellular only;[35] 3rd party software on jailbroken devices[36],No,No,No
-Per-app identity access,8+[37],6+[38][39],No,No,Yes
-Per-app user data access,6+[40],6+[41],No,No,Yes
-Per-app background execution,"No,[42] 3rd party apps available[43]",7+[44],No,No,Background execution not allowed
-Per-app notifications,4.1+[45],5+[46][47],No,No,Yes
-Per-app location access,6+[40],4+[48],No,No,Yes
-Per-app camera access,6+[40],8+[49],No,No,Yes
-Per-app microphone access,6+[40],7+[50],No,No,Yes
-Per-app shared files access,6+[40],8+[51],No,No,Yes
-Per-app network data usage auditing,4+[52],Yes[53],?,No[54],No
-Fine grained storage usage,Yes[55],5+[56],?,No,Yes
-Parental controls,4.3+ or 3rd party software[57],Yes[58],?,No,No
-Screen orientation lock,Yes[59],Yes[60],?,1.0.4+[61],Yes
-File manager,6.0+[62],11+[63],3rd party software[64],Yes[65],Yes
-File manager write access to external storage,6+ Or 3rd party software like LineageOS,13+,Yes,Yes,Yes
-Multi-user,"4.2+, including phones 5+[66][67]",9.3+: Education use only on iPad[68],No,No,No
-Guest mode,5+[69],6+[70],No,No,No
-Guided Access,No,Yes[71],No,No,No
-Do not disturb mode,5+[72],6+[73],No,No,No
-App groups,Yes,4+[74],?,1.0.7+[75],Yes
+Audio playback,"AAC LC/LTP 3GPP, HE-AACv1 (AAC+), HE-AACv2 (enhanced AAC+) AMR-NB, AMR-WB, MP3, MIDI (Type 0 and 1, DLS versions 1 and 2), Ogg Vorbis, PCM/WAVE, FLAC, WAVE, Opus[238]","AAC, protected AAC (from iTunes Store), HE-AAC, MP3, MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, WAV[239]","AAC, AAC+, eAAC+, AMR-NB, AMR-WB, MP3, Vorbis, WAV[240]","MP3, FLAC, AAC, eAAC, eAAC+, ALAC, AC3, DTS, Opus, Vorbis",?
+Video playback,"H.263, H.264 (up to Baseline Profile), H.265 HEVC, MPEG-4 SP, DivX, XviD, VP8, VP9[238] (WMV on 3rd party software like VLC media player)","H.264 (up to High Profile), MPEG-4, M-JPEG[239]","H.263, H.264, MPEG-4 Part 2[240]","MPEG-4, H264, H263,[241] although audio in recorded videos is out of sync[242]",?
+Wired video out,4K on 6+[243],"Up to 1080p via HDMI[244] or VGA,[245] 576p/480p via component[246] or composite;[247]",No,No[248],Yes
+Wired digital audio output,5+ USB Audio[249],7+: USB Audio[250],No,No,Yes
+Wireless video/audio streaming to set top boxes/TVs/speakers,"4.2+ Miracast,[251] but DLNA[252] only available on selected devices",AirPlay[253],DLNA[254],?,Yes
+Media player on-device playlist creation,Yes[255],Yes[60],?,Yes,Yes
+Media player video scrubbing,Yes,Yes,?,?,?
+Media player audio scrubbing,Yes,Yes,?,?,?
+Media player fine scrubbing,"No,[256] 3rd party software like VLC media player, basic fine scrubbing removed on 4+[257]",Yes[258],?,?,?
+Media player double speed playing,6+[259],Only Podcasts[260],?,?,?

@@ -1,21 +1,19 @@
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
-GeForce 4057,"September 16, 2011",GT216 GT218,40 nm,486 260,100 57,1,48:16:8 16:8:4,475 589,1100 1402,800 790,3.8 2.36,7.6 4.71,512 1024,12.6,DDR3,64,n/a[29],10.1,3.3,1.1,105.6 44.86,,30.5,OEM
-GeForce GT 420,"September 3, 2010",GF108,TSMC 40 nm,585,116,,48:4:4,700,1400,1800,2.8,2.8,512,28.8,GDDR3,128,,12 FL 11_1,4.6,,134.4,,50,
-GeForce GT 430,"October 11, 2010",GF108 GF108-300-A1,,,,2,96:16:4,,,1600 1800,,11.2,512,25.6 28.8,,,,,,1.2,268.8,,60,
-,,,,,,,,,,1800,,,512 1024 2048,28.8,,128,,,,1.1,268.8,Unknown,49,$79
-,,,,,,,,,,1300,,,,10.4,,64,,,,,,,,
-GeForce GT 440,"February 1, 2011",GF108,,,,,,810,1620,1800 3200,3.24,12.96,1024,28.8 51.2,GDDR3 GDDR5,128,,,,,311.04,,65,$100
-,"October 11, 2010",GF106,,1170,238,3,144:24:24,594,1189,1800,14.26,14.26,1536 3072,43.2,GDDR3,192,,,,,342.43,,56,OEM
-GeForce GTS 450,,,,,,,,790,1580,4000,18.96,18.96,1536,96,GDDR5,,,,,,455.04,,106,
-,"September 13, 2010 March 15, 2011",GF106-250 GF116-200,,,,4,192:32:16,783,1566,3608,12.53,25.06,512 1024,57.73,,128,,,,,601.34,,106,$129
-GeForce GTX 460 SE,"November 15, 2010",GF104-225-A1,,1950,332,6,288:48:32,650,1300,3400,20.8,31.2,1024,108.8,,256,,,,,748.8,,150,$160
-GeForce GTX 460,"October 11, 2010",GF104,,,,7,336:56:32,,,,,36.4,1024,108.8,,,,,,,873.6,,,OEM
-,"July 12, 2010",GF104-300-KB-A1,,,,,336:56:24,675,1350,3600,16.2,37.8,768,86.4,,192,,,,,907.2,Unknown,,$199
-,,,,,,,336:56:32,,,,21.6,,1024 2048,115.2,,256,,,,,,,160,$229
-,"September 24, 2011",GF114,,,,,336:56:24,778,1556,4008,18.67,43.57,1024,96.2,,192,,,,,1045.6,,,$199
-GeForce GTX 465,"May 31, 2010",GF100-030-A3,,3000[30],529,11,352:44:32,607,1215,3206,19.42,26.71,1024,102.6,,256,,,,1.2,855.36,106.92,2004,$279
-GeForce GTX 470,"March 26, 2010",GF100-275-A3,,,,14,448:56:40,,,3348,24.28,34,1280,133.9,,320,,,,,1088.64,136.08,2154,$349
-GeForce GTX 480,"March 26, 2010",GF100-375-A3,,,,15,480:60:48,700,1401,3696,33.60,42,1536,177.4,,384,,,,,1344.96,168.12,2504,$499
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
+Model,Launch,Code name,Fab (nm)[2],Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TDP (Watts),Comments
+,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,,
+GeForce 9300 mGPU,October 2008,MCP7A-S,65 nm,282,162,PCIe 2.0 ×16,16:8:4,450,1200,400 666,1.8,3.6,Up to 512 from system memory,6.4/12.8 10.664/21.328,DDR2 DDR3,64 128,10.0,3.3,57.6,,based on 8400 GS
+GeForce 9400 mGPU,,MCP7A-U,,,,,,580,1400,,2.32,4.64,,,,,,,67.2,12,
+GeForce 9300 GE[18],June 2008,G98,TSMC 65 nm,210,86,,8:8:4,540,1300,500,2.16,4.32,256,8.0,DDR2,64,,,20.8,25,
+GeForce 9300 GS[18],,,,,,,,567,1400,,2.268,4.536,,,,,,,22.4,,
+GeForce 9400 GT,"August 27, 2008",G96-200-c1 G96a G96b,TSMC 55 nm,314,144,PCIe 2.0 ×16 PCI,16:8:4,550,,400 800,2.2,4.4,256 512 1024,12.8 25.6,DDR2 GDDR3,128,,,44.8,50,
+GeForce 9500 GT,"July 29, 2008",G96-300-C1,UMC 65 nm,,,,32:16:8,,,500 800,4.4,8.8,,16.0 25.6,DDR2 GDDR3,,,,89.6,,
+GeForce 9600 GS,,G94a,TSMC 65 nm,505,240,,48:24:12,500,1250,500,6,12,768,24.0,DDR2,192,,,120,,OEM
+GeForce 9600 GSO,May 2008,G92-150-A2,,754,324,PCIe 2.0 ×16,96:48:12,550,1375,800,6.6,26.4,384 768 1536,38.4,GDDR3,,,,264,84,
+GeForce 9600 GSO 512,October 2008,G94a G94b,TSMC 65 nm TSMC 55 nm,505,240 196?date=September 2012,,48:24:16,650,1625,900,10.4,15.6,512,57.6,,256,,,156,90,
+GeForce 9600 GT Green Edition,2009,G94b,TSMC 55 nm,,196?date=September 2012,,64:32:16,600 625,1500 1625,700/900 900date=September 2012,9.6 10.0,19.2 20.0,512 1024,44.8/57.6 57.6date=September 2012,,,,,192 208,59,Core Voltage = 1.00v
+GeForce 9600 GT,"February 21, 2008",G94-300-A1,TSMC 65 nm,,240 196?date=September 2012,,,650,1625,900,10.4,20.8,,57.6,,,,,208,95,
+GeForce 9800 GT Green Edition,2009,G92a2 G92b,TSMC/UMC 65 nm TSMC/UMC 55 nm,754,324 260,,112:56:16,550,1375,700 800 900,8.8,30.8,,44.8 51.2 57.6,,,,,308,75,Core Voltage = 1.00v
+GeForce 9800 GT,July 2008,G92a G92b,UMC 55 nm,,,,,600,1500,900,9.6,33.6,,57.6,,,,,336,125 105,
+GeForce 9800 GTX,"April 1, 2008",G92-420-A2,TSMC 65 nm,,324,,128:64:16,675,1688,1100,10.8,43.2,512,70.4,,,,,432,140,
+GeForce 9800 GTX+,"July 16, 2008",G92b,TSMC 55 nm,,260,,,738,1836,1100,11.808,47.232,512 1024,,,,,,470,141,
+GeForce 9800 GX2,"March 18, 2008",2× G92,TSMC/UMC 65 nm,2× 754,2× 324,,2× 128:64:16,600,1500,1000,2× 9.6,2× 38.4,2× 512,2× 64.0,,2× 256,,,2× 384,197,
+Model,Launch,Codename,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Comments

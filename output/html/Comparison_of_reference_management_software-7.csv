@@ -1,30 +1,30 @@
-Software,APA,Chicago/Turabian,Harvard,MLA,Other,Extension method
-Bebop,No,No,No,No,none,none
-BibBase,Yes,No,No,No,none,none
-BibDesk,Yes,yes,No,No,various,BibDesk export templates
-Biblioscape,Yes,Yes,Yes,Yes,2000+ styles[citation needed],Biblioscape format (through GUI)
-BibSonomy,Yes,No,Yes,No,none,none
-Bibus,Yes,No,No,No,"56 styles, user-contributed",bibus format (through GUI)
-Bookends,Yes,Yes,Yes,Yes,various[citation needed],?
-Citavi,Yes,Yes,Yes,Yes,10600+ styles. Styles can be requested and are centrally corrected; any BibTeX style when used with LaTeX.,"Citavi format (through GUI), includes conditions and programmable components; BibTeX"
-CiteULike,Yes,Yes,Yes,Yes,various[citation needed],none
-colwiz,Yes,Yes,Yes,Yes,9464 styles,CSL
-EndNote,Yes,Yes,Yes,Yes,6926 styles,EndNote format (through GUI)
-JabRef,Yes,Yes,Yes,Yes,any BibTeX style,BibTeX
-KBibTeX,Yes,Yes,Yes,Yes,any BibTeX style,BibTeX
-Mendeley,Yes,Yes,Yes,Yes,9464 styles,CSL
-Paperpile,Yes,Yes,Yes,Yes,9464 styles,CSL
-Pybliographer,Yes,No,No,No,none,Pybliographer XML
-Qiqqa,Yes,Yes,Yes,Yes,9464 styles,BibTeX and CSL
-ReadCube (now Papers),Yes,Yes,Yes,Yes,9464 styles,BibTeX and CSL
-refbase,Yes,Yes,Yes,Yes,various polar & marine journals,PHP
-RefDB,Yes,Yes,Yes,Yes,21 biomedical & law journals,"XML (citestylex.dtd), interactive script"
-Reference Manager,Yes,Yes,Yes,Yes,various,Reference Manager format (through GUI)
+Software,HTML,LaTeX[25],RTF,Plain text,RSS,Other
+Bebop,Yes,No,No,No,Yes,unAPI
+BibBase,Yes,No,No,No,Yes,No
+BibDesk,Yes,Yes,Yes,Yes,Yes,"Atom, DOC, PDF, XML,"
+Biblioscape,Yes,No,Yes,Yes,No,No
+BibSonomy,Yes,No,Yes,Yes,Yes,OpenOffice-CSV
+Bibus,Yes,No,No,No,No,No
+Bookends,Yes,No,Yes,Yes,No,clipboard
+Citavi,Yes,Yes[26],Yes,Yes,No,"clipboard, DOC, ODT, PDF, HTML"
+CiteULike,Yes,No,Yes,Yes,Yes,PDF
+colwiz,Yes,Yes,Yes,No,No,PDF
+EndNote,Yes,No,Yes,Yes,No,"clipboard, XML"
+JabRef,Yes,Yes,Yes,Yes,No,clipboard
+KBibTeX,Yes,No,Yes,No,No,"PDF, PS"
+Mendeley,Yes,Yes[27],Yes,Yes,Yes,"clipboard, embeddable HTML widget, RSS"
+Paperpile,?,?,?,?,?,?
+Pybliographer,Yes,?,No,Yes,No,No
+Qiqqa,?,?,?,?,?,?
+ReadCube (now Papers),Yes,No,No,No,No,PDF
+refbase,Yes,Yes,Yes,Yes,Yes,"Markdown, PDF, unAPI"
+RefDB,Yes,?,Yes,Yes,No,"DocBook, TEI"
+Reference Manager,Yes,No,Yes,Yes,No,clipboard
 Referencer,?,?,?,?,?,?
 RefME,?,?,?,?,?,?
-RefWorks,Yes,Yes,Yes,Yes,"4256, plus CSL styles",RefWorks format (through GUI); CSL
-SciRef,Yes,Yes,Yes,Yes,various,SciRef format (through GUI)
-Sente,Yes,Yes,Yes,Yes,various,Sente format (through GUI)
-Wikindx,Yes,Yes,Yes,Yes,"ABNT, APA, BMJ, Chicago, Harvard, IEEE, MLA, Turabian",Wikindx format (through GUI)
-WizFolio,Yes,Yes,Yes,Yes,1000+ styles,WizFolio format (through GUI)
-Zotero,Yes,Yes,Yes,Yes,9464 styles,CSL
+RefWorks,Yes,No,Yes,Yes,No,"DOC, ODT"
+SciRef,No,No,Yes,Yes,No,"Doc, others"
+Sente,Yes,No,Yes,Yes,No,clipboard
+Wikindx,Yes,No,Yes,Yes,Yes,Multiple via BibUtils plug-in
+WizFolio,Yes,No,Yes,Yes,No,"clipboard, DOC"
+Zotero,Yes,Possible via plugin[28],Yes,Possible via plugins[29],Yes,clipboard

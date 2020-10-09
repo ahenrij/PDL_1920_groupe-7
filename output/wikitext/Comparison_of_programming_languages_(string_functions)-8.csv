@@ -1,2 +1,2 @@
-Definition,uppercase(string) returns string
-Description,Returns the string in upper case.
+Definition,"format(formatstring, items) returns string"
+Description,Returns the formatted string representation of one or more items.

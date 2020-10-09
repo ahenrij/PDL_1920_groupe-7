@@ -1,4 +1,3 @@
-Country,Spaceplane,First flight mission,Year,Program status
-Japan,HOPE-X,HYFLEX,1996,Cancelled
-China,Various,Shenlong,2007,Ongoing
-India,RLV–TD,Hypersonic Flight Experiment,2016,Under development
+Country,Spacecraft,Launch payload,Year launched
+Japan,HTV,"6,000 kg (13,000 lb)",2009
+China,Tianzhou,"6,500 kg (14,300 lb)",2017

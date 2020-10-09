@@ -1,6 +1,6 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Geographical Original of Music Data Set,Audio features of music samples from different locations.,Audio features extracted using MARSYAS software.,"1,059",Text,"Geographical classification, clustering",2014,[256][257],F. Zhou et al.
-Million Song Dataset,Audio features from one million different songs.,Audio features extracted.,1M,Text,"Classification, clustering",2011,[258][259],T. Bertin-Mahieux et al.
-MUSDB18,Multi-track popular music recordings,Raw audio,150,"MP4, WAV",Source Separation,2017,[260],Z. Rafii et. al.
-Free Music Archive,"Audio under Creative Commons from 100k songs (343 days, 1TiB) with a hierarchy of 161 genres, metadata, user data, free-form text.",Raw audio and audio features.,"106,574","Text, MP3","Classification, recommendation",2017,[261],M. Defferrard et al.
-Bach Choral Harmony Dataset,Bach chorale chords.,Audio features extracted.,5665,Text,Classification,2014,[262][263],D. Radicioni et al.
+Enron Email Dataset,Emails from employees at Enron organized into folders.,"Attachments removed, invalid email addresses converted to user@enron.com or no_address@enron.com.","~ 500,000",Text,"Network analysis, sentiment analysis",2004 (2015),[184][185],"Klimt, B. and Y. Yang"
+Ling-Spam Dataset,Corpus containing both legitimate and spam emails.,Four version of the corpus involving whether or not a lemmatiser or stop-list was enabled.,"2,412 Ham 481 Spam",Text,Classification,2000,[186][187],"Androutsopoulos, J. et al."
+SMS Spam Collection Dataset,Collected SMS spam messages.,None.,"5,574",Text,Classification,2011,[188][189],T. Almeida et al.
+Twenty Newsgroups Dataset,Messages from 20 different newsgroups.,None.,"20,000",Text,Natural language processing,1999,[190],T. Mitchell et al.
+Spambase Dataset,Spam emails.,Many text features extracted.,"4,601",Text,"Spam detection, classification",1999,[191],M. Hopkins et al.

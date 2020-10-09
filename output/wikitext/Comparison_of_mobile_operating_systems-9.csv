@@ -1,16 +1,8 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-Multitasking,,7+;[292] 4–6: Limited[293],2+[110],,
-Quick app switching,7+[294],9+: via 3D Touch;[295] 5+: only on iPad[296],,,
-Document-centric multitasking,5+[297],13+: can open different views of same app side by side[298],,,
-Split-screen app usage,"7+, some manufacturers earlier[299]",9+: only on iPad with 2 GB RAM or more[300],,,Tablet-only
-Desktop interactive widgets,,10+: App icons via 3D Touch and/or dedicated widget screen[303],,,
-Lock screen widgets,,"Media player, voicemail, camera;[306] 5+: Notifications; 7+: Control Center 8+: Interactive Notifications[307] 10+: Full widgets[303]","Media player; Notifications (SMS, call)",,
-Notification view widgets,4.1+: Google Now and possible with 3rd party apps,8+,,,
-Quick settings toggles,2+[308],7+[309],,Via the Patchmanager app[310],
-Search multiple internal apps at once,,,,,
-Settings search,5+ or 3rd party software like LineageOS[312],9+[313],,,
-Search all fields of internal objects,Only search Contacts name field but not any other field[314],6+[315],Only searches contacts by name,?,
-Core apps missing search,Calendar[316] (available since 3+ and HTC Sense),Bookmarks[317],?,?,?
-Phone number links to dialer,"Available in stock Android, but not all devices enable it.[318]",,"Yes, but not in browser",,
-Addresses links to maps,"In Contacts, but not in Calendar[319] nor in Gmail[320]",,?,,?
-Dates links to calendar,,,,,?
+Non-intrusive incoming calls,5+[385] or 3rd party software[386],14+[387],,,?
+Non-intrusive notifications,,5+[107],?,?,?
+Move apps to external storage,2.2+[390],External storage not allowed for apps,,,
+Remote Frame Buffer (RFB) protocol,,3rd party software[392],?,?,?
+Screencast on device,",9+[396],,,
+Screencast over USB,"4.4+ over USB,[121] for prior versions root required for 3rd party app[397]",8+: on OS X[398],,?,
+Screen share,On select devices using vendor's implementation[399][400][401],3rd party software[402],,,

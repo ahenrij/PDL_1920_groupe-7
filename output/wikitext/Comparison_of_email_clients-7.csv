@@ -1,49 +1,60 @@
-Client,First public Date,First public Version,First stable Date,First stable Version,Latest stable release
-Alpine,2006-11,0.8,2007 December,1.00,"2017-03-17, 
-Apple Mail,?,?,?,?,?
-Becky! Internet Mail,1996,1,,,"2017-08-29, 
-Citadel,1987,,1988,1.00,"2017-01-15, 
-Claws Mail,2001-05,0.4.67,2005-01,1.0.0,"2017-08-29, 
-Cone,2003-05,0.50,2003-05,0.50,"2016-08-03, 
-Courier,2004-06,3.5,discontinued,discontinued,"2004-06, 
-Elm,1986,,1987-03,2,"2005-08-18, 
-eM Client,2007-11,1.0,2007-11,1.0,"2020-06-27, 
-EmailTray,2010-10,2.0,2011-03,3.11,"2012-07-02, 
-Eudora,1988[3],,1988[3],,"2006-10-11, 
-Evolution,2000-05-11,0.0,2001-12-03,1.0,"2017-09-13, 
-Forté Agent,,,,,"2014-10-20, 
-Geary,20120504,0.1,20120504,0.1,"2017-10-02, 
-Gnus,1987[4],,1988-02-01[4],2.0,"2015-04-06, 
-GroupWise,,,1986,1.0,"2014-04-02, 
-Hiri,2014-02,0.4,2016-06,1.0,"2017-06-10, 
-i.Scribe / InScribe,1999,1.00,,,"2014-08-04, 
-IBM Lotus Notes,1989,1.0,1989,1.0,"2013-03-14, 
-IMP,,,1998,1.0,"2016-09-06, 
-K-9 Mail,,,,,2018-09-02
-KMail,1998-10,Alpha,1999-02,1.0.17,"2014-11-11, 
-Mailbird,2013-04-01,Public Beta,,,"2018-12-19, 
-Mailpile,2011-11,[5],[6],[7],2019-09-04 
-Microsoft Entourage,,,,,"2013-03-12, 
-Microsoft Office Outlook,1997,97,1997,97,"2019-05-09, 
-Mozilla Thunderbird,2003-07-28,0.1,2004-12-07,1.0,"2019-03-25, 
-Mulberry,1996-09-20,1.0,1996-09-20,1.0,"2007-02-21, 
-Mutt,1995,,,,"2017-09-02, 
-Netscape Messenger,,,,,"2007-08-17, 
-Netscape Messenger 9,2007-11-15,9.0a1,discontinued,discontinued,2007-11-15
-nmh / MH,1979,,,,"2012-06-11, 
-Opera Mail,1996-09,2.1b1,1996-12,2.1,"2016-02-16, 
-Outlook Express,1996,3.0,,,"2004-08-25, 
-Pegasus Mail,1990,,1990,,"2018-06-07, 
-Pine,1992-01-15,2.00,1992-01-15,2.00,"2005-09-28, 
-Pocomail,1999,,,,"2009-04-06, 
-RoundCube,2006,0.1-rc1,2014-04-07,1.0.0,"2017-04-28, 1.2.5"
-SeaMonkey Mail & Newsgroups,2005-09-15,1.0a,2006-01-30,1.0,"2017-07-31, 
-SquirrelMail,1999-12,0.1,2001-01,1.0,"2011-07-12, 
-Sylpheed,2000-01,0.1.0,2004-12,1.0.0,"2017-06-29, 
-The Bat!,1997-03,1.0 Beta,1998-03,1.00 Build 1310,"2018-03-23, 
-Trojitá,2009-08,0.1,2012-12,0.3.90,"2016-06-15, 
-Turnpike,1996 (circa),1.0,1996 (circa),1.0,"2006-05-23, 
-Windows Live Mail,2007-11-06,12,2007-11-06,12,"2014-11-04, 
-Windows Mail,,,,,"2007-01-01,"
-YAM,1995,1.0,1995,1.0,"2014-04-18, 
-Zimbra,2005-11,Beta,2006-03,3.5,"2014-12-15, 
+Client,Author/Developer,Operating system,Software license,User Interface
+Alpine,University of Washington,Cross-platform,Apache License 2.0,TUI
+Apple Mail,Apple,"macOS, iOS, watchOS",,GUI (Cocoa)
+Balsa,Stuart Parmenter,Linux,GNU General Public License,GUI (GTK3)
+Becky! Internet Mail,Rimarts,Windows,,GUI
+BlitzMail,Dartmouth College,,BSD licenses,GUI
+Citadel,citadel.org,Unix-like,GNU General Public License,Webmail
+Claws Mail,the Claws Mail team,Cross-platform,GNU General Public License,GUI (GTK2)
+Cone,Courier Mail Server developers,Unix-like,GNU General Public License,TUI
+Courier (formerly Calypso),"Micro Computer Systems, Inc., continued by Rose City Software",Windows,,GUI
+Elm,"Dave Taylor, Sydney Weinstein, Bill Pemberton, Michael Elkins, Kari Hurtta",Unix-like,,TUI
+eM Client,eM Client Inc.,"Windows, macOS",,GUI
+EmailTray,Internet Promotion Agency S.A.,"Windows, Android",,GUI
+Eudora OSE,Qualcomm,"Windows, macOS",,GUI
+Evolution,The GNOME Project,Unix-like,GNU General Public License,GUI (GTK)
+FirstClass,Open Text,,,GUI
+Forté Agent,Mark Sidell,Windows,,GUI
+Geary,Yorba Foundation,Unix-like,GNU LGPL v2.1,GUI (GTK)
+GNUMail,Ludovic Marcotte and others,"Unix-like, macOS",GNU General Public License,GUI
+Gnus,Gnus team,Cross-platform,GNU General Public License,TUI and GUI
+GroupWise,Micro Focus (formerly Novell),Cross-platform,,GUI
+Hiri,Hiri,Cross-platform,,GUI
+"i.Scribe, InScribe",Memecode,"Windows, macOS, Linux",,GUI
+HCL Notes (formerly IBM Notes and IBM Lotus Notes),"HCL Technologies (formerly IBM and Lotus Software), HCL Technologies","Windows, macOS, Linux",,"GUI (Notes), Web (Verse, iNotes) and Mobile (Traveler)"
+IMP,Horde LLC,Cross-platform,GNU General Public License,Webmail
+K-9 Mail,"K-9 Dog Walkers: cketti, et al.",Android,Apache License 2.0,GUI
+KMail,KDE,Cross-platform,GNU General Public License,GUI (Qt)
+Mail (Windows),Microsoft,Windows,,GUI
+Mailbird,Mailbird,Windows,,GUI
+Mailpile,Mailpile,"Linux, Windows, macOS",Affero General Public License and Apache License 2.0,Webmail
+mailx,,Unix-like,BSD Licenses,TUI
+Microsoft Entourage,Microsoft,macOS,,GUI
+Microsoft Outlook,Microsoft,"Windows, macOS",,GUI
+Mozilla Mail & Newsgroups,Mozilla Foundation,,Mozilla Public License,GUI (XUL)
+Mozilla Thunderbird,Mozilla Foundation,Cross-platform,Mozilla Public License,GUI (XUL)
+Mulberry,"Cyrus Daboo (formerly Cyrusoft International, Inc./ISAMET)",Cross-platform,Apache License 2.0,GUI
+Mutt,Michael Elkins,Cross-platform,GNU General Public License,TUI (ncurses)
+Netscape Messenger,Netscape Communications,,?,GUI
+Netscape Messenger 9,Netscape Communications,,Mozilla Public License,GUI
+Nylas Mail,Nylas,"macOS, Linux, Windows",MIT,GUI
+nmh / MH,RAND Corporation,Unix-like,BSD Licenses,CLI
+Opera Mail,Opera Software,Cross-platform,,GUI
+Outlook Express,Microsoft,Windows,,GUI
+Pegasus Mail,David Harris,Windows,,GUI
+Pine,University of Washington,Cross-platform,,TUI
+Pocomail,Poco Systems,Windows,,GUI
+RoundCube,The RoundCube Team,Cross-platform,GNU General Public License,Webmail
+SeaMonkey Mail & Newsgroups,SeaMonkey Council,Cross-platform,Mozilla Public License,GUI (XUL)
+Spark,Readdle,macOS,,GUI
+Spicebird,Synovel,"Windows, Linux, BSD",Mozilla Public License,GUI (XUL)
+SquirrelMail,The SquirrelMail Project Team,Cross-platform,GNU General Public License,Webmail
+Sylpheed,Hiroyuki Yamamoto,Cross-platform,GNU General Public License,GUI (GTK2)
+The Bat!,RitLabs,Windows,,GUI
+Trojitá,KDE,Cross-platform,GNU General Public License,GUI (Qt)
+Turnpike,Thus PLC (Demon Internet),Windows,,GUI
+Windows Live Mail,Microsoft,Windows,,GUI
+Windows Mail (Vista),Microsoft,Windows,,GUI
+YAM,YAM Open Source Team and contributing authors,AmigaOS,GNU General Public License,GUI
+Zimbra Desktop,Zimbra,Cross-platform,Mozilla Public License for server and ZPL for client,GUI
+Client,Author/Developer,Operating system,Software license,User interface

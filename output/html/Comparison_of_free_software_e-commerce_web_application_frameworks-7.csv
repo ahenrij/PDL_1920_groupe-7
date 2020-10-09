@@ -1,15 +1,15 @@
-,Authorize.Net AIM,Authorize.Net SIM,Barclaycard CPI,Barclaycard MPI,HSBC API,HSBC CPI,PayPal Standard
-Apache OFBiz,Yes,No,No,No,No,No,Yes
-Batavi,No,No,No,No,No,No,No
-Bigcommerce,Yes,Yes,No,No,No,No,Yes
-Drupal Commerce,Yes,No,No,No,No,No,Yes
-KonaKart,Yes,Yes,No,No,No,No,Yes
-Magento,Yes,3rd party,Yes,Yes,Yes,Yes,Yes
-nopCommerce,Yes,Yes,No,No,No,No,Yes
-osCommerce,Yes,Yes,No,No,No,No,Yes
-pimcore,No,No,No,No,No,No,No
-PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Shopify,Yes,Yes,No,Yes,No,No,Yes
-WooCommerce,Yes,Yes,No,No,No,No,Yes
-Zen Cart,Yes,Yes,No,No,No,No,Yes
-,Authorize.Net AIM,Authorize.Net SIM,Barclaycard CPI,Barclaycard MPI,HSBC API,HSBC CPI,PayPal Standard
+,Skrill,Stripe,PayPal Pro,PayPal Payflow Link,PayPal Payflow Pro,Sage Pay Form,Sage Pay Direct,USAePay,WorldPay,Offline processing,Offline methods
+Apache OFBiz,No,No,No,No,No,No,No,No,Yes,Yes,Yes
+Batavi,No,No,No,No,No,No,No,No,No,Yes,Yes
+Bigcommerce,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Drupal Commerce,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No
+KonaKart,Yes,No,No,No,Yes,No,No,Yes,Yes,Yes,Yes
+Magento,Yes,Yes,Yes,Yes,Yes,Yes,Yes,3rd party,Yes,Yes,Yes
+nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,3rd party,Yes,Yes,Yes
+osCommerce,Yes,Yes,Yes,No,No,Yes,Yes,No,No,Yes,Yes
+pimcore,No,No,No,No,No,No,No,No,No,No,No
+PrestaShop,Yes,Yes,Yes,No,No,No,No,No,Yes,Yes,Yes
+Shopify,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+WooCommerce,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+Zen Cart,Yes,Yes,Yes,No,add-on,No,Yes,Yes,Yes,add-on,Yes
+,Skrill,Stripe,PayPal Pro,PayPal Payflow Link,PayPal Payflow Pro,Sage Pay Form,Sage Pay Direct,USAePay,WorldPay,Offline processing,Offline methods

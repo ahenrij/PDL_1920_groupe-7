@@ -1,26 +1,25 @@
-,public,private,protected,friend
-ABAP Objects,public section.[21] data field type type.,private section.[21] data field type type.,protected section.[21] data field type type.,[22]
-APL (Dyalog),:Field Public field «? value»,:Field «Private» field «? value»,,
-C++ (STL),public: type field;,private: type field;,protected: type field;,[23]
-C#,public type field «= value»;,private type field «= value»;,protected type field «= value»;,internal type field «= value»;
-D,,,,package type field «= value»;
-Java,,,protected type field «= value»;,type field «= value»;
-eC,public type field;,private type field;,,
-Eiffel,feature field: TYPE,feature {NONE} field: TYPE,feature {current_class} field: TYPE,feature {FRIEND} field: TYPE
-Objective-C,@public type field;,@private type field;,@protected type field;,@package type field;
-Swift,colspan=4 ,,,
-Smalltalk,colspan=2 ,[24],,
-Python,self.field = value[25],,colspan=2 ,
-Visual Basic .NET,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,Friend field As type «= value»
-Xojo,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,
-PHP,public $field «= value»;,private $field «= value»;,protected $field «= value»;,
-Perl,$self->{field} = value;[25],colspan=3 ,,
-Raku,has« type »$.field« is rw»,has« type »$!field,colspan=2 ,
-Ruby,colspan=2 ,@field = value[25],,
-Windows PowerShell,Add-Member «-MemberType »NoteProperty «-Name »Bar «-Value »value -InputObject variable,colspan=3 ,,
-OCaml,colspan=2 ,val «mutable» field = value,rowspan=2 ,
-F#,,let «mutable» field = value,,
-JavaScript,this.field = value this["field"] = value[25],,,
-COBOL,,level-number field clauses.[27],,
-Cobra,var field «as type» «= value»,var __field «as type» «= value»,var _field «as type» «= value»,
-ISLISP,(field :initform value :accessor accessor-name :initarg keyword),,,
+,read-write,read-only,write-only
+ABAP Objects,colspan=3 ,,
+APL (Dyalog),:Property Bar ? result ? Get instructions ? ? Set arguments instructions ? :EndProperty Bar,:Property Bar ? result ? Get instructions ? :EndProperty Bar,:Property Bar ? Set arguments instructions ? :EndProperty Bar
+C++ (STL),colspan=3 ,,
+C#,type Bar { get { instructions ... return value; } set { instructions } },type Bar { get { instructions ... return value; } },type Bar { set { instructions } }
+D,@property type bar() { instructions ... return value; } @property type bar(type value) { instructions ... return value; },@property type bar() { instructions ... return value; },@property type bar(type value) { instructions ... return value; }
+eC,property type Bar { get { instructions ... return value; } set { instructions } },property type Bar { get { instructions ... return value; } },property type Bar { set { instructions } }
+Java,colspan=3 ,,
+Objective-C 2.0 (Cocoa),@property (readwrite) type bar; and then inside @implementation - (type)bar { instructions } - (void)setBar:(type)value { instructions },@property (readonly) type bar; and then inside @implementation - (type)bar { instructions },
+Swift,var bar : type { get { instructions } set«(newBar)» { instructions } },var bar : type { instructions },
+Eiffel,feature -- Access x: TYPE assign set_x feature -- Settings set_x (a_x: like x) do instructions ensure x_set: verification end,,
+Python,"def setBar(self, value): Tab instructions def getBar(self): Tab instructions Tab return value bar = property(getBar, setBar)[33]",def getBar(self): Tab instructions Tab return value bar = property(getBar),"def setBar(self, value): Tab instructions bar = property(fset = setBar)"
+Visual Basic .NET,Property Bar() As type Get instructions Return value End Get Set (ByVal Value As type) instructions End Set End Property,ReadOnly Property Bar() As type Get instructions Return value End Get End Property,WriteOnly Property Bar() As type Set (ByVal Value As type) instructions End Set End Property
+Xojo,ComputedProperty Bar() As type Get instructions Return value End Get Set (ByVal Value As type) instructions End Set End ComputedProperty,ComputedProperty Bar() As type Get instructions Return value End Get End ComputedProperty,ComputedProperty Bar() As type Set (value As type) instructions End Set End ComputedProperty
+PHP,"function __get($property) { switch ($property) { case ,function __get($property) { switch ($property) { case ,"function __set($property, $value) { switch ($property) { case 
+Perl,sub Bar { my $self = shift; if (my $Bar = shift) { # setter $self->{Bar} = $Bar; return $self; } else { # getter return $self->{Bar}; } },sub Bar { my $self = shift; if (my $Bar = shift) { # read-only die "Bar is read-only\n"; } else { # getter return $self->{Bar}; } },sub Bar { my $self = shift; if (my $Bar = shift) { # setter $self->{Bar} = $Bar; return $self; } else { # write-only die "Bar is write-only\n"; } }
+Raku,colspan=3 ,,
+Ruby,def bar instructions expression resulting in return value end def bar=(value) instructions end,def bar instructions expression resulting in return value end,def bar=(value) instructions end
+Windows PowerShell,Add-Member «-MemberType »ScriptProperty «-Name »Bar «-Value »{ instructions ... return value } «-SecondValue »{ instructions } -InputObject variable,Add-Member «-MemberType »ScriptProperty «-Name »Bar «-Value »{ instructions ... return value} -InputObject variable,Add-Member «-MemberType »ScriptProperty «-Name »Bar -SecondValue { instructions } -InputObject variable
+OCaml,colspan=3 ,,
+F#,member this.Bar with get() = expression and set(value) = expression,member this.Bar = expression,member this.Bar with set(value) = expression
+JavaScript (ES6),get bar(«parameters») { instructions ... return value}set bar(«parameters») { instructions },get bar(«parameters») { instructions ... return value},set bar(«parameters») { instructions }
+COBOL,METHOD-ID. GET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. return-var declaration PROCEDURE DIVISION RETURNING return-var. instructions END METHOD. METHOD-ID. SET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. value-var declaration PROCEDURE DIVISION USING value-var. instructions END METHOD.,METHOD-ID. GET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. return-var declaration PROCEDURE DIVISION RETURNING return-var. instructions END METHOD.,METHOD-ID. SET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. value-var declaration PROCEDURE DIVISION USING value-var. instructions END METHOD.
+Cobra,pro bar «as type» Tab get TabTab instructions TabTab return value Tab set TabTab instructions,get bar «as type» Tab instructions Tab return value,set bar «as type» Tab instructions
+ISLISP,colspan=3 ,,

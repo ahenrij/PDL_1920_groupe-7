@@ -1,4 +1,2 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Ecoli Dataset,Protein localization sites.,Various features of the protein localizations sites are given.,336,Text,Classification,1996,[403][404],K. Nakai et al.
-MicroMass Dataset,Identification of microorganisms from mass-spectrometry data.,Various mass spectrometer features.,931,Text,Classification,2013,[405][406],P. Mahe et al.
-Yeast Dataset,Predictions of Cellular localization sites of proteins.,Eight features given per instance.,1484,Text,Classification,1996,[407][408],K. Nakai et al.
+DBpedia Neural Question Answering (DBNQA) Dataset,A large collection of Question to SPARQL specially design for Open Domain Neural Question Answering over DBpedia Knowledgebase.,This dataset contains a large collection of Open Neural SPARQL Templates and instances for training Neural SPARQL Machines; it was pre-processed by semi-automatic annotation tools as well as by three SPARQL experts.,"894,499",Question-query pairs,Question Answering,2018,[416][417],"Hartmann, Soru, and Marx et al."

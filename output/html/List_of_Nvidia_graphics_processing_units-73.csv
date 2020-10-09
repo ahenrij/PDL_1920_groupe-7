@@ -1,8 +1,6 @@
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Supported API version,,,TBP (Watts)
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
-,,,,,,,,,,,,,,,Hardware,Drivers (Software),
-GeForce FX Go 5100*,March 2003,NV34M,150,AGP 8×,200,400,1:2:2:2 *:4:4:4,0.8,0.8,64,3.2,DDR,64,9.0,1.5,2.1**,Unknown
-GeForce FX Go 5500*,,,,,300,600,,1.2,1.2,32 64,9.6,,128,,,,Unknown
-GeForce FX Go 5600*,,NV31M,130,,350,,,1.4,1.4,32,,,,,,,Unknown
-GeForce FX Go 5650*,,,,,350,,,,,,,,,,,,Unknown
-GeForce FX Go 5700*,"February 1, 2005",NV36M,,,450,550,3:2:2:2 *:4:4:4,1.8,1.8,,8.8,,,,,,Unknown
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts)
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,
+Quadro FX 350M,G72GLM,90,PCIe 1.0 ×16,450,450,900,3:4:4:2,0.9,1.8,256,14.4,GDDR3,128,,9.0c,2.1,15
+Quadro FX 1500M,G71GLM,,,375,375,1000,8:24:24:16,6,9,512,32,,256,,,,
+Quadro FX 2500M,,,,500,500,1200,,8,12,,38.4,,,,,,
+Quadro FX 3500M,,,,575,575,,,9.2,13.8,,,,,,,,

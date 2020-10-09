@@ -1,6 +1,5 @@
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Profiler,Static code analysis,MXML,Export to Mobile
-Adobe Animate Formerly Adobe Flash Professional,Proprietary,Yes,No,Yes,JVM,Yes,Yes,Yes,Yes,Yes,Yes
-Flash Builder,Proprietary,Yes,No,Yes,JVM,Yes,Yes,Yes,Yes,Yes,Yes
-FlashDevelop,MIT License,Yes,No,No,,Yes,No,Yes,No,Yes,Yes
-IntelliJ IDEA,Proprietary,Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris",Yes,No,Yes,Yes,Yes,Yes
-Powerflasher FDT,Proprietary,Yes,Yes,Yes,JVM,Yes,No,Yes,Yes,Yes,Yes
+IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
+Eclipse JDT,EPL,No,Yes,Yes,Yes,"FreeBSD, JVM, Solaris",No
+IntelliJ IDEA,"ASLv2, proprietary",Yes,Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris",No
+NetBeans,"CDDL, GPL2",Yes,Yes,Yes,Yes,"OpenBSD, Solaris",Yes
+SlickEdit,Proprietary,No,Yes,Yes,Yes,"Solaris, Solaris SPARC, AIX, HP-UX",No

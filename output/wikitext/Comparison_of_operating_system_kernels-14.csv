@@ -1,5 +1,7 @@
-Kernel name,ACLAsynchronous connection-oriented,SCOSynchronous connection-oriented,LMPLink management protocol,HCIHost/controller interface,L2CAPLogical link control and adaptation protocol,BNEPBluetooth network encapsulation protocol,RFComm.Radio frequency communication,SDPService discovery protocol,TCPTelephony control protocol,AVTCPAudio/visual control transport protocol,AVDTPAudio/visual data transport protocol,OBEXObject exchange,CMTP,HIDP,HCRP,CAPI,PPP
-FreeBSD kernel,,,,,,,,,,,,,,,,,
-Linux,,,,,,,,,,,,,,,,,
-macOS XNU Kernel,,,,,,,,,,,,,,,,,
-Kernel name,ACL,SCO,LMP,HCI,L2CAP,BNEP,RFComm.,SDP,TCP,AVTCP,AVDTP,OBEX,CMTP,HIDP,HCRP,CAPI,PPP
+Kernel name,CRC-32 (IEEE),CRC32c,MD2,MD4,MD5,SHA-1,SHA-2,SHA-3,Michael MIC,Poly1305,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,HMAC,MDC2,GOST,LASH,VMAC
+Linux,,,,,, ,,,,,,,,,,,,,,,
+,,,,,  ,,,,,,, ,,,,,,,,,
+,,,,,  ,,,,,,, ,,,,,,,,,
+FreeBSD kernel,,,,,,,  ,,,,,,, ,,,,,,,
+XNU kernel,,,,,,,  ,,,,,,, ,,,,,,,
+Kernel name,CRC-32 (IEEE),CRC32c,MD2,MD4,MD5,SHA-1,SHA-2,SHA-3,Michael MIC,Poly1305,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,HMAC,MDC2,GOST,LASH,VMAC

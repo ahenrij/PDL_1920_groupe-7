@@ -1,27 +1,5 @@
-BitTorrent client,Windows,macOS,Linux,BSD,iOS,Android,Other
-BitComet,Yes,Yes,No,No,No,No,No
-BitLord,Yes,Yes,No,No,No,No,No
-BitTorrent,Yes,Yes,No,No,No,Yes[25],No
-Deluge,Yes,Yes,Yes,Yes,No,No,Solaris
-FlashGet,Yes,No,No,No,No,No,No
-Free Download Manager,Yes,Yes,No,No,No,No,No
-Frostwire,Yes[26],Yes[26],Yes[26],Yes[26],No[26],Yes[26],"Unix-like,[26] z/OS,[27] Solaris, OS/2, eComStation, ArcaOS[28]"
-KGet,No,No,Yes,Yes,No,No,No
-KTorrent,No,Yes,Yes,Yes,No,No,No
-Lftp,Yes,Yes,Yes,Yes,No,No,No
-LimeWire,Yes,Yes,Yes,Yes,No,No,Yes[specify]
-Miro,Yes,Yes,Yes,Yes,No,No,No
-MLDonkey,Yes,Yes,Yes,Yes,No,No,"Solaris, MorphOS"
-?Torrent,Yes,Yes,Web,No,No,Yes[29],No
-Opera 12,Yes[Note 1],Yes,Yes[Note 1],Yes[Note 1],No,Yes[citation needed],Solaris
-qBittorrent,Yes[30],Yes[30],Yes[30],Yes[30],No[30],No[31],"OS/2 (including eComStation and ArcaOS), FreeBSD, Haiku[30]"
-Robert,Yes,Yes,Yes,Yes,No,No,No
-rTorrent,"Yes, through Cygwin[32]",Yes,Yes,Yes,No,No,Solaris
-Shareaza,Yes,No,No,No,No,No,No
-Tixati,Yes,No,Yes,No,No,No,No
-Tonido,Yes,Yes,Yes,Yes,No,No,No
-Transmission,Yes [Note 1],Yes,Yes,Yes,"Yes, through Cydia",Yes,"Solaris, OpenWrt"
-Tribler,Yes,Yes,Yes,Yes,No,No,No
-Vuze,Yes,Yes,Yes,Yes,No,Yes[33],No
-Xunlei,Yes,Yes,No,No,Yes,Yes[citation needed],No
-Name,Windows,Mac OS X,Linux,BSD,iOS,Android,Other
+BitTorrent library,First public release date,Latest stable,Software license
+libtorrent (Rasterbar),8 September 2005; 15 years ago (2005-09-08)[80],"2.0[81] (September 6, 2020; 25 days ago (2020-09-06)) [±]",BSD licenses
+MonoTorrent,September 2006; 14 years ago (2006-09),"1.0.23 (July 7, 2020; 2 months ago (2020-07-07)) [±]",MIT/X11
+rTorrent (libTorrent Rakshasa),15 July 2004; 16 years ago (2004-07-15)[82],"rTorrent 0.9.8 / libTorrent 0.13.8 (July 19, 2019; 14 months ago (2019-07-19)) [±][83]",GNU GPLv2
+BitTorrent library,First public release date,Latest stable,Software license

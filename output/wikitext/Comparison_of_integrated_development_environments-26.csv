@@ -1,11 +1,18 @@
-IDE,Widget toolkit,Platform,Compilers,Open Source,Made in D,Notes
-Visual Studio,Microsoft,Windows,"DMD, LDC (LLVM), GDC (GCC)",,,"Visual Studio extension. VisualD, wrote in D."
-NetBeans,Java Swing,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana, Java","DMD, LDC (LLVM), GDC (GCC)",,,"NetBeans module. NetBeans-D, under MIT License."
-SlickEdit,Qt,"Windows, Linux, MacOS, AIX, HP-UX, Solaris, Solaris SPARC",DMD,,,
-CodeLite,wxWidget,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,
-Xcode,Cocoa,macOS,"DMD, GDC (GCC)",,,"Xcode plugin. D for Xcode, under GPL v2."
-MonoDevelop,GTK#,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,"MonoDevelop extension. Mono-D, support VisualD projects and DUB, Can be installed on Xamarin Studio too, under Apache License."
-KDevelop,Qt,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,
-Geany,GTK+,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,Native support.
-Code::Blocks,wxWidget,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,Includes partial support.
-Eclipse,SWT,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana, Java",DMD,,,Eclipse Plugin. DDT. Dropped.
+IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
+BlueJ,GPL2+GNU linking exception,,,,,Solaris,
+DrJava,Permissive,,,,,Solaris,
+Eclipse JDT,EPL,,,,,"FreeBSD, JVM, Solaris",
+Geany,GPL,,,,,"FreeBSD, AIX, OpenBSD, Solaris, other Unix",
+Greenfoot,GPL,,,,,Solaris,
+IntelliJ IDEA,"Community Edition: Apache License v2.0, Ultimate Edition: proprietary",,,,,"FreeBSD, OpenBSD, Solaris",
+JBuilder,,,,,,Solaris,
+JCreator,,,,,,,
+JDeveloper,,,,,,generic JVM,
+jGRASP,,,,,,,
+MyEclipse,,,,,,"FreeBSD, JVM, Solaris",
+NetBeans,"CDDL, GPL2",,,,,"OpenBSD, Solaris",
+Rational Application Developer,,,,,,"AIX, Solaris",
+Servoy,,,,,,Solaris,
+SlickEdit,,,,,,"Solaris, Solaris SPARC, AIX, HP-UX",
+Understand,,,,,,Solaris,
+Xcode (Apple),,,,,,,

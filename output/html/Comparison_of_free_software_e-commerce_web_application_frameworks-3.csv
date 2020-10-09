@@ -1,16 +1,16 @@
-,Multiple store fronts,Affiliates,API (remote management functions),Minimum orders,Multiple vendor support,Out-of-the-box shopping cart
-Apache OFBiz,Yes,Yes,Yes,Yes,No,Yes
-Batavi,No,No,No,Yes,Yes,Yes
-Bigcommerce,No,3rd party,Yes,Yes,Yes,Yes
+,HTML catalog,Meta tagging,RSS feeds,SEO URLs,"Site map, XML",GoodRelations RDFa
+Apache OFBiz,Yes,Yes,No,Yes,Yes,No
+Batavi,Yes,Yes,No,Yes,No,No
+Bigcommerce,Yes,Yes,Yes,Yes,Yes,No
 Drupal Commerce,Yes,Yes,Yes,Yes,Yes,Yes
-KonaKart,No,No,Yes,Yes,Yes,Yes
-Magento,Yes,3rd party,Yes,Yes,Yes,Yes
-nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes
-osCommerce,No,No,No,Yes,No,Yes
-pimcore,Yes,Yes,Yes,Yes,Yes,No
+KonaKart,Yes,Yes,Yes,Yes,No,No
+Magento,Yes,Yes,Yes,Yes[33],Yes,No
+nopCommerce,Yes,Yes,Yes,Yes,Yes,No
+osCommerce,No,No,add-on,Yes,add-on,Yes
+pimcore,Yes,Yes,Yes,Yes,Yes,Yes
 PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes
-Shopify,No,Yes,Yes,Yes,Yes,Yes
-SupaDupa,No,No,No,No,No,Yes
-WooCommerce,No,Yes,Yes,No,Yes,No
-Zen Cart,add-on,3rd party,No,add-on,No,Yes
-,Multiple store fronts,Affiliates,API (remote management functions),Minimum orders,Multiple vendor support,Out-of-the-box shopping cart
+Shopify,Yes,Yes,Yes,Yes,Yes,No
+SupaDupa,Yes,Yes,No,Yes,Yes,No
+WooCommerce,Yes,Yes,Yes,Yes,Yes,Yes
+Zen Cart,add-on,Yes,add-on[34],add-on,add-on,No
+,HTML catalog,Meta tagging,RSS feeds,SEO URLs,"Site map, XML",GoodRelations RDFa

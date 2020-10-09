@@ -1,4 +1,6 @@
-IDE,License,Windows,Linux,macOS,Developer,Latest stable release
-Microsoft Visual Studio,Proprietary Community Edition: Freeware,Yes,No,No,Microsoft,"15.7 / August 1, 2018"
-Visual Studio Code[26],source code(MIT License) - binary(Proprietary),Yes,Yes,Yes,Microsoft,"1.25 / June, 2018"
-Rider[27],Proprietary,Yes,Yes,Yes,JetBrains,"2018.1 / April 19, 2018"
+IDE,Developer,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder
+Dolphin Smalltalk,Object Arts,MIT License,Yes,No,No,No,Yes,Yes
+Pharo,INRIA,MIT License,Yes,Yes,Yes,various,Yes,Yes
+Squeak,squeak.org,MIT License,Yes,Yes,Yes,various,Yes,Yes
+VisualAge,Instantiations,Proprietary,Yes,Yes,Yes,various,Yes,Yes
+VisualWorks,Cincom,Proprietary,Yes,Yes,Yes,various,Yes,Yes

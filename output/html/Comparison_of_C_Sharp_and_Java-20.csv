@@ -1,7 +1,7 @@
-Reference types,Java,C#
-Garbage collection,Yes,Yes
-Weak references,Yes,Yes
-Reference queue (interaction with garbage collection),Yes,Yes
-Soft references,Yes,Yes[citation needed]
-Phantom references,Yes,No
-Proxy support,Yes; proxy generation,Yes; object contexts
+Threading and Synchronization,Java,C#
+Threads,Yes,Yes
+Thread pool,Yes,Yes
+Task-based parallelism,Yes[85],Yes[86]
+Semaphores,Yes,Yes
+Monitors,Yes,Yes
+Thread-local variables,Yes,Yes; ThreadStaticAttribute and ThreadLocal<T> class

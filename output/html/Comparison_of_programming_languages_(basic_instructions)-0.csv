@@ -1,34 +1,33 @@
-,Simple composite types,,Algebraic data types,Unions
-,Records,Tuple expression,,
-Ada[1],type identifier is «abstract» «tagged» «limited» [record fieldname1 : type; fieldname2 : type; ... end record |null record],N/A,"Any combination of records, unions and enumerations (as well as references to those, enabling recursive types).",type identifier (variation : discrete_type) is record case variation is when choice_list1 => fieldname1 : type; ... when choice_list2 => fieldname2 : type; ... ...end case;end record
-ALGOL 68,"struct (modename «fieldname», ...);",Required types and operators can be user defined,,"union (modename, ...);"
-C (C99),struct «name» {type name;...};,N/A,N/A,union {type name;...};
-Objective-C,,,,
-C++,struct «name» {type name;...};[b],«std::»tuple<type1..typen>,,
-C#,struct name {type name;...},"(val1, val2, ... )",,N/A
-Java,N/A[a],,,
-JavaScript,,N/A,,
-D,struct name {type name;...},,"std.variant.Algebraic!(type,...)",union {type name;...}
-Go,struct { «name» type ...},,,
-Rust,"struct name {name: type, ...}","(val1, val2, ... )","enum name { Foo(types), ...}","union name {name: type, ...}"
-Swift,struct name { var name «: type» ...},"(«name1:» val1, «name2:» val2, «name3:» val3, ... )",enum name { case Foo«(types)» case Bar «(types)» ... },
-Common Lisp,(defstruct name slot-name (slot-name initial-value) (slot-name initial-value :type type) ...),(cons val1 val2)[c],,
-Scheme,N/A,,,
-ISLISP,,,,
-Pascal,record name: type; ...end,N/A,N/A,record case type of value: (types); ...end
-Visual Basic,,,,
-Visual Basic .NET,Structure name Dim name As type ... End Structure,"(val1, val2, ... )",,
-Python,N/A[a],"«(»val1, val2, val3, ... «)»",,N/A
-S-Lang,"struct {name [=value], ...}",,,
-Fortran,TYPE name type :: name ... END TYPE,,,
-PHP,N/A[a],,,
-Perl,N/A[d],,,N/A
-Raku,N/A[a],,,
-Ruby,OpenStruct.new({:name => value}),,,
-Scala,"case class name(«var» name: type, ...)","(val1, val2, val3, ... )",abstract class name case class Foo(«parameters») extends name case class Bar(«parameters») extends name ... or abstract class name case object Foo extends name case object Bar extends name ... or combination of case classes and case objects,
-Windows PowerShell,,,,
-OCaml,type name = {«mutable» name : type;...},"«(»val1, val2, val3, ... «)»",type name = Foo «of type» | Bar «of type» | ...,N/A
-F#,,,,
-Standard ML,"type name = {name : type,...}","(val1, val2, val3, ... )",datatype name = Foo «of type» | Bar «of type» | ...,
-Haskell,"data Name = Constr {name :: type,...}",,data Name = Foo «types» | Bar «types» | ...,
-COBOL,level-number name type clauses. level-number+n name type clauses. ...,N/A,N/A,name REDEFINES variable type.
+,Integer,Single precision,Double precision,Half and Quadruple precision etc.
+Ada[1],N/A,Complex[b],Complex[b],Complex[b]
+ALGOL 68,N/A,compl,long compl etc.,short compl etc. & long long compl etc.
+C (C99) [9],N/A,float complex,double complex,N/A
+C++ (STL),N/A,std::complex<float>,std::complex<double>,
+C#,N/A,N/A,System.Numerics.Complex (.NET 4.0),
+Java,N/A,N/A,N/A,
+Go,N/A,complex64,complex128,
+D,N/A,cfloat,cdouble,
+Objective-C,N/A,N/A,N/A,
+Common Lisp,(complex integer),(complex single-float),(complex double-float),complex
+Scheme,,,,N/A
+Pascal,N/A,N/A,,
+Visual Basic,N/A,N/A,,
+Visual Basic .NET,N/A,N/A,System.Numerics.Complex (.NET 4.0),
+Perl,,,Math::Complex,
+Raku,,complex64,complex128,Complex
+Python,,,complex,N/A
+JavaScript,N/A,N/A,,
+S-Lang,N/A,N/A,,
+Fortran,,COMPLEX(KIND = n)[a],,
+Ruby,Complex,N/A,Complex,
+Scala,N/A,N/A,N/A,
+Seed7,N/A,N/A,complex,
+Smalltalk,Complex,Complex,Complex,
+Windows PowerShell,N/A,N/A,,
+OCaml,N/A,N/A,Complex.t,
+F#,,,System.Numerics.Complex (.NET 4.0),
+Standard ML,N/A,N/A,N/A,
+Haskell (GHC),N/A,Complex.Complex Float,Complex.Complex Double,
+Eiffel,N/A,N/A,N/A,
+COBOL,N/A,N/A,N/A,
+Mathematica,Complex,N/A,N/A,Complex

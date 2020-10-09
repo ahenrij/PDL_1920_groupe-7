@@ -1,4 +1,3 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-Ecoli Dataset,Protein localization sites.,Various features of the protein localizations sites are given.,336,Text,Classification,1996,[403][404],K. Nakai et al.
-MicroMass Dataset,Identification of microorganisms from mass-spectrometry data.,Various mass spectrometer features.,931,Text,Classification,2013,[405][406],P. Mahe et al.
-Yeast Dataset,Predictions of Cellular localization sites of proteins.,Eight features given per instance.,1484,Text,Classification,1996,[407][408],K. Nakai et al.
+Wine Dataset,Chemical analysis of wines grown in the same region in Italy but derived from three different cultivars.,13 properties of each wine are given,178,Text,"Classification, regression",1991,[318][319],M. Forina et al.
+Combined Cycle Power Plant Data Set,Data from various sensors within a power plant running for 6 years.,None,9568,Text,Regression,2014,[320][321],P. Tufekci et al.

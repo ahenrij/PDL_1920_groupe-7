@@ -1,11 +1,12 @@
-Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
-Mobility Radeon X1300,"January 19, 2006",M52,RV515,90,PCIe x16,350,250,2:4:4:4,1.4,1.4,128 + shared,8,DDR DDR2,128,9.0c,2.0,
-Mobility Radeon X1350,"September 18, 2006",M62,,,,470,350,,1.88,1.88,,11.2,DDR2 GDDR3,,,,
-Mobility Radeon X1400,"January 19, 2006",M54,,,,445,250,,1.78,1.78,,8,DDR DDR2,,,,
-Mobility Radeon X1450,"September 18, 2006",M64,,,,550,450,,2.2,2.2,,14.4,DDR2 GDDR3,,,,
-Mobility Radeon X1600,"February 1, 2006",M56,RV530,,,425 450,375 470,5:12:4:4,1.7 1.8,1.7 1.8,256,12.0 15.04,DDR2 GDDR3,,,,
-Mobility Radeon X1700,,M66,RV535,,,475,400 550,,1.9,1.9,,11.2 17.6,,,,,strained silicon
-Mobility Radeon X1800,"March 1, 2006",M58,R520,,,450,500,8:12:12:12,5.4,5.4,,32,GDDR3,256,,,
-Mobility Radeon X1800 XT,,M58,,,,550,650,8:16:16:16,8.8,8.8,,41.6,,,,,
-Mobility Radeon X1900,"January 11, 2007",M59,RV570,80,,400,480,8:36:12:12,4.8,4.8,,30.72,,,,,PowerPlay 6.0
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Radeon VE/7000,"Feb 19, 2001",RV100 (piglet),180,"AGP 4x, PCI",183,183,1:0:3:1,183,336,549,0,"32, 64",2.688,DDR,64
+Radeon LE/7100 (OEM),"May 1, 2001",Rage 6 / R100,,AGP 4x,150,150,2:1:6:2,296,296,888,37.5,32,4.736,,128
+Radeon SDR/7200,June 2000,,,"AGP 4x, PCI",166,166,,333,333,996,41.5,,2.656,SDR,
+Radeon DDR/7200,April 2000,,,AGP 4x,166/183A,166/183A,,333/366A,333/366A,966/1098A,41.5/45.75A,"32, 64",5.312/5.856A,DDR,
+Radeon DDR/7500 VIVO,2001,,,"AGP 4x, PCI",166/183B,166/183B,,333/366B,333/366B,966/1098B,41.5/45.75B,64,5.312/5.856B,,
+Radeon DDR/7500 VIVO "SE",,,,,200,200,,400,400,1200,50.0,,6.400,,
+Radeon 7500 LE,N/A,RV200 (morpheus),150,,250,175,,500,500,1500,62.5,"32, 64",5.600,,
+Radeon 7500,"Aug 14, 2001",RV200 (morpheus),,,290,230,,580,580,1740,72.5,"32, 64, 128[18]",7.360,,
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
+,,,,,,,,Fillrate,,,,Memory,,,

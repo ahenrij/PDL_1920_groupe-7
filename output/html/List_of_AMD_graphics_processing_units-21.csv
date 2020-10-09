@@ -1,6 +1,11 @@
-Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
-,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
-FirePro V3900[234],"February 7, 2012",TeraScale 2,Turks GL,40,PCIe 2.1 x16,650,900,480(96×5):24:8:6,5.2,15.6,1,28.8,GDDR3,128,624,-,11.0,4.3,1.2,N/A,50,"HD3D, UVD3, DP 1.2, PowerPlay, Eyefinity"
-FirePro V4900[235],"November 1, 2011",,Turks XT GL,,,800,1000,,6.4,19.2,,64,GDDR52,,768,,,,,,<75 Max,
-FirePro V5900[236],"May 24, 2011",TeraScale 3,Cayman LE GL,,,600,5002,512(128×4):32:32:8,19.2,,2,,,256,610,154,,,,,,
-FirePro V7900[237],,,Cayman Pro GL,,,725,12502,1280(320×4):80:32:20,23.2,58,,160,,,1860,464,,,,,<150 Max,
+Model,Launch,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,,API compliance,
+,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+3D Rage,April 1996[13],500,PCI,40,40,1:0:1:1,40,40,40,0,2,0.32,EDO,64,5.0,None2
+3D Rage II,September 1996,,"AGP 1x (Rage IIc only), PCI",60,83 (66 MHz with EDO),,60,60,60,,"2, 4, 8",0.664,"EDO, SGRAM, SDR",,,
+Rage Pro,March 1997,350,"AGP 1x, AGP 2x, PCI",75,75,,75,75,75,,"4, 8, 16",0.6,,,6.0,1.1
+Rage XL[14][15][16][17],August 1998,250,"AGP 2x, PCI",83,125,,83,83,83,,8,1.0,SDR,,,
+Rage 128 VR,,,,80,120,2:0:2:2,160,160,160,,"8, 32",0.96,,,,1.2
+Rage 128 GL,,,,103,103,,206,206,206,,"16, 32",1.648,"SGRAM, SDR",128,,
+Rage 128 Pro,August 1999,,"AGP 4x, PCI",125,143,,250,250,250,,,2.288,,,,
+Rage 128 Ultra,,,,130,130,,260,260,260,,"16, 32, 64",2.088,SDR,,,
+Rage Fury MAXX,October 1999,,AGP 4x,125,143,2:0:2:2 x2,500,500,500,,32 x2,4.576,,128 x2,,

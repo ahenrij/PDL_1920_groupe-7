@@ -1,3 +1,9 @@
-,Trident,Gecko,WebKit,Presto
-getContext,5.0,1.8,Yes,2.0
-toDataURL,,1.8[g 108],Yes[w 80],2.1[note 15]
+Value,Meaning
+Yes,Fully supported
+No,Has never been supported
+Partial,Only some values are supported
+Incorrect,Not implemented correctly in all cases
+Experimental,May be incomplete or buggy
+Nightly build,Currently in development; full support is expected
+Depends,Only supported for the specified conditions
+Dropped,No longer supported

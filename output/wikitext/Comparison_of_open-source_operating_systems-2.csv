@@ -1,32 +1,29 @@
-Name,ATA,SATA,SCSI,USB 3.0,USB 2.0,USB 1.1,FireWire,PCMCIA/PC card,AGP,Nvidia official driver IA-32,Nvidia official driver IA-64,Nvidia official driver AMD64,ATI official driver x86,ATI official driver x86-64,ATI r200 free software driver,ATI r300 free software driver,Nvidia free software driver,Audio,"TV tuner, video editing, or webcam"
-Linux,,,,,,,,,,,,,,,,,","OSS, ALSA","V4L,V4L2"
-FreeBSD,,,,,,,,,,,,,,,,,,,
-OpenBSD,,,,,,,,,,,,,,,,2d only[19],2d only[20],,
-NetBSD,,,,,,,,,,,,,,,,,,,
-DragonFly BSD,,,,,,,,,,,,,,,,,,,
-"OpenSolaris, illumos",,,,,,,,,,,,,,,,,,,V4L2
-"Darwin, OpenDarwin",,,,,,,,,,,,,,,,,,,
+Name,"FAT16, dosfs; FAT32, vfat",NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS,"RAM disk, tmpfs",ZFS,Other special file systems
+Linux,,group=Notef5group=Notef7,,,,,group=Notef2,,,group=Notef9,,group=Notef2,,,,,,,"9P,group=Notef3 FUSE,group=Notef3 sysfs,group=Notef3 configfs,group=Notef3 Reiser4,group=Notef3group=Notef4 JFS, Btrfs, UnionFS, Ext4"
+FreeBSD,,group=Notef2group=Notef7,,group=Notef2,group=Notef5,group=Notef2,,,,,,,,,,,,,"FUSE, nullfs, UnionFS"
+NetBSD,,group=Notef2group=Notef7,,,,,,,,group=Notef2,,,,group=Notef2,,,,,"PUFFS, LFS, EFS"
+OpenBSD,,group=Notef2,,,,,,,,,,,,,,,,,AFS
+DragonFly BSD,,group=Notef2,,,,,,,,,,,,group=Notef10,,,,,"HAMMER, nullfs, PUFFS"
+"OpenSolaris, illumos",,group=Notef7group=Notef8,,,,,,,,,,,,,,,,,"SMB (native), QFS"
+"Darwin, OpenDarwin",,group=Notef2group=Notef7,,,,,,,,,,,,,,,,,
 MINIX,,,,,,,,,,,,,,,,,,,
 FreeDOS,,,,,,,,,,,,,,,,,,,
-Genode,,,,,,,,,,,,,,,,,,,
-Haiku,,,,,,,,,,,,,,,,,,,
-KolibriOS,,,,,,,,,,,,,,,,,,,
+Genode,,,,,,,,,,,,,,,,,,,Extensible VFS layer
+Haiku,,group=Notef7,group=Notef12,group=Notef12,,,,,,,,,,,,group=Notef11,,,
+KolibriOS,,group=Notef2,group=Notef2,group=Notef2,group=Notef2,,,,,,,,,,,,,,
 MenuetOS,,,,,,,,,,,,,,,,,,,
-GNU,,group=Notec1,group=Notec1,,group=Notec1,group=Notec1,group=Notec1,group=Notec1,,group=Notec2,group=Notec2,group=Notec2,group=Notec2,group=Notec2,group=Notec3,group=Notec3,group=Notec1,group=Notec1,group=Notec1
+GNU,,,,group=Notef13,,,group=Notef14,,,,,,,,,,,,
 ReactOS,,,,,,,,,,,,,,,,,,,
-RISC OS,,,,,,,,,,,,,,,,,,,TV tuner[25]
 "L4, Fiasco, Pistachio",,,,,,,,,,,,,,,,,,,
-Plan 9,,,,,,,,,,,,,,,,,,,
-AROS,,,,,,,,,,,,,own,,,,2D only,,
-Syllable,,,,,,,,,,,,,,,,,,,
-Inferno,,,,,,,,,,,,,,,,,,,
+Plan 9,,,,,,,,,,,,,,,,,,,"Fossil, Venti, most system services"
+AROS,,,,,,,,,,,,,,,,,,,"SFS, AFFS"
+Syllable,,group=Notef2,group=Notef2,group=Notef2,,,,,,,,,,,,,,,AFS
+Inferno,,,,,,,,,,,,,,,,,,,"kfs, most system services"
 FreeRTOS,,,,,,,,,,,,,,,,,,,
-eCos,,,,,,,,,,,,,,,,,,,
-RTEMS,,,,,,,,,,,,,,,,,,,
-HelenOS,,,,,,,,,,,,,,,,,,,
-E/OS,,,,,11,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
+eCos,,,group=Notef2,,,,,,,,,,,,,,,,"MMFS, ROMfs, JFFS2, YAFFS"
+RTEMS,,,,,,,,,,,,,,,,,,,"TarFS, TFTP FS, IMFS, miniIMFS"
+HelenOS,,,,,,,,,,,,,,,,,,,"locfs, exFAT"
+E/OS,,,,,,,,,,,,group=Notef6,,,,,,,-
 K42,,,,,,,,,,,,,,,,,,,
-UnixLite,,,,,,,,,,,,,,,,,,,
--->,,,,,,,,,,,,,,,,,,,
-Name,ATA,SATA,SCSI,USB 3.0,USB 2.0,USB 1.1,FireWire,PCMCIA/PC card,AGP,Nvidia official driver IA-32,Nvidia official driver IA-64,Nvidia official driver AMD64,ATI official driver x86,ATI official driver x86-64,ATI r200 free software driver,ATI r300 free software driver,Nvidia free software driver,Audio,"TV tuner, video editing, or webcam"
+UnixLite -->,,,,,,,,,,,,,,,,,,,
+Name,"FAT16, dosfs; FAT32, vfat",NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS,"RAM disk, tmpfs",ZFS,Other special file systems

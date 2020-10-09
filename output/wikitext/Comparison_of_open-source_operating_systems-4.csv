@@ -1,29 +1,28 @@
-Name,"FAT16, dosfs; FAT32, vfat",NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS,"RAM disk, tmpfs",ZFS,Other special file systems
-Linux,,group=Notef5group=Notef7,,,,,group=Notef2,,,group=Notef9,,group=Notef2,,,,,,,"9P,group=Notef3 FUSE,group=Notef3 sysfs,group=Notef3 configfs,group=Notef3 Reiser4,group=Notef3group=Notef4 JFS, Btrfs, UnionFS, Ext4"
-FreeBSD,,group=Notef2group=Notef7,,group=Notef2,group=Notef5,group=Notef2,,,,,,,,,,,,,"FUSE, nullfs, UnionFS"
-NetBSD,,group=Notef2group=Notef7,,,,,,,,group=Notef2,,,,group=Notef2,,,,,"PUFFS, LFS, EFS"
-OpenBSD,,group=Notef2,,,,,,,,,,,,,,,,,AFS
-DragonFly BSD,,group=Notef2,,,,,,,,,,,,group=Notef10,,,,,"HAMMER, nullfs, PUFFS"
-"OpenSolaris, illumos",,group=Notef7group=Notef8,,,,,,,,,,,,,,,,,"SMB (native), QFS"
-"Darwin, OpenDarwin",,group=Notef2group=Notef7,,,,,,,,,,,,,,,,,
-MINIX,,,,,,,,,,,,,,,,,,,
-FreeDOS,,,,,,,,,,,,,,,,,,,
-Genode,,,,,,,,,,,,,,,,,,,Extensible VFS layer
-Haiku,,group=Notef7,group=Notef12,group=Notef12,,,,,,,,,,,,group=Notef11,,,
-KolibriOS,,group=Notef2,group=Notef2,group=Notef2,group=Notef2,,,,,,,,,,,,,,
-MenuetOS,,,,,,,,,,,,,,,,,,,
-GNU,,,,group=Notef13,,,group=Notef14,,,,,,,,,,,,
-ReactOS,,,,,,,,,,,,,,,,,,,
-"L4, Fiasco, Pistachio",,,,,,,,,,,,,,,,,,,
-Plan 9,,,,,,,,,,,,,,,,,,,"Fossil, Venti, most system services"
-AROS,,,,,,,,,,,,,,,,,,,"SFS, AFFS"
-Syllable,,group=Notef2,group=Notef2,group=Notef2,,,,,,,,,,,,,,,AFS
-Inferno,,,,,,,,,,,,,,,,,,,"kfs, most system services"
-FreeRTOS,,,,,,,,,,,,,,,,,,,
-eCos,,,group=Notef2,,,,,,,,,,,,,,,,"MMFS, ROMfs, JFFS2, YAFFS"
-RTEMS,,,,,,,,,,,,,,,,,,,"TarFS, TFTP FS, IMFS, miniIMFS"
-HelenOS,,,,,,,,,,,,,,,,,,,"locfs, exFAT"
-E/OS,,,,,,,,,,,,group=Notef6,,,,,,,-
-K42,,,,,,,,,,,,,,,,,,,
-UnixLite -->,,,,,,,,,,,,,,,,,,,
-Name,"FAT16, dosfs; FAT32, vfat",NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS,"RAM disk, tmpfs",ZFS,Other special file systems
+Name,RAID,quota,Resource access control,encryption,other special file system features
+Linux,,,"Unix, ACL, MAC",,"LVM, EVMS"
+FreeBSD,,,"Unix, ACL, MAC",,"GEOM, snapshots, background fsck, user-mountable file systems"
+OpenBSD,,,Unix,,
+NetBSD,,,"Unix, Veriexec",,"Snapshots, Journaling"
+DragonFly BSD,,,Unix,,"HAMMER, Snapshots, Checksumming, Deduplication"
+"OpenSolaris, illumos",,,"Unix, ACL, MAC",,"Solaris Volume Manager, ZFS, snapshots, transparent data repair"
+"Darwin, OpenDarwin",,,"Unix, ACL",,
+MINIX,,,Unix,,
+FreeDOS,,,,,
+Genode,,,,,Per-process virtual file-system layer
+KolibriOS,,,,,
+MenuetOS,,,,,
+GNU,,,Unix,,
+ReactOS,,,,,
+"L4, Fiasco, Pistachio",,,,,
+Plan 9,,,"Unix-like, no root",,"snapshots, venti archival storage, per-process namespace, user-mountable file systems"
+AROS,,,,,
+Syllable,,,Unix,,"64-bit, journaling, extended file attributes"
+Inferno,,,"Unix-like, no root",,"per-process namespace, user-mountable file systems"
+FreeRTOS,,,,,
+eCos,,,,,
+RTEMS,,,,,
+HelenOS,,,,,
+E/OS,,,Unix,,-
+K42,,,,,
+UnixLite -->,,,,,
+Name,RAID,quota,Resource access control,encryption,other special file system features

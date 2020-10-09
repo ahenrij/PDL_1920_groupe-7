@@ -1,22 +1,20 @@
-Format,Languages,If not found
-"char in string(char, pos, string[startpos:])",ALGOL 68,"returns BOOL: TRUE or FALSE, and position in REF INT pos."
-"instr(string, any char«,startpos») (char, can contain more them one char, in which case the position of the first appearance of any of them is returned.)",FreeBASIC,returns 0
-"strchr(string,char)","C, C++ (char * only, returns pointer to character)",returns NULL
-"std.string.find(string, dchar)",D,returns ?1
-"string.find(char«,startpos»)",C++ (STL),returns std::string::npos
-"pos(string, char«, startpos»)",Seed7,returns 0
-"strings.IndexRune(string,char)",Go,returns ?1
-"string.indexOf(char«,startpos»)","Java, JavaScript",returns ?1
-"string.IndexOf(char«,startpos«, charcount»»)","VB .NET, C#, Windows PowerShell, F#",returns ?1
-(position char string),Common Lisp,returns NIL
-(char-index char string),ISLISP,returns nil
-List.elemIndex char string,Haskell (returns Just index),returns Nothing
-String.index string char,OCaml,raises Not_found
-"position = SCAN (string, set «, back» «, kind») or position = VERIFY (string, set «, back» «, kind»)Fortran find[a]",Fortran,returns zero
-string indexOf: char ifAbsent: aBlock string indexOf: char string includes: char,Smalltalk,evaluate aBlock which is a BlockClosure (or any object understanding value) returns 0 returns true or false
-"index(string, char, startpos )",PL/I[16],returns 0 (positions start at 1)
-string.index(?char),Ruby,returns nil
-"strpos(string,char,startpos)",PHP,returns false
-"string.indexOf(char«,startpos«, charcount»»)",Cobra,returns ?1
-string?char,APL,returns 1 + the last position in string
-string.find(substring),Rust[15],returns None
+Format,Languages
+string1 & string2,"Ada, FreeBASIC, Seed7, BASIC, VB, VB .NET, COBOL (between literals only)"
+"strcat(string1, string2)","C, C++ (char * only)[11]"
+string1 . string2,"Perl, PHP"
+string1 + string2,"ALGOL 68, C++ (STL), C#, Cobra, FreeBASIC, Go, Pascal, Object Pascal (Delphi), Java, JavaScript, Windows PowerShell, Python, Ruby, Rust,[12] F#, Swift, Turing, VB, Ya"
+string1 ~ string2,"D, Raku"
+(string-append string1 string2),"Scheme, ISLISP"
+(concatenate 'string string1 string2),Common Lisp
+(str string1 string2),Clojure
+string1,string2
+string1 // string2,Fortran
+string1 ++ string2,"Erlang, Haskell"
+string1 ^ string2,"OCaml, Standard ML, F#"
+[string1 stringByAppendingString:string2],Objective-C (NSString * only)
+string1 .. string2,Lua
+"string1 , string2","Smalltalk, APL"
+string1 string2,SNOBOL
+string1string2,Bash shell
+string1 <> string2,Mathematica
+concat string1 string2,Tcl

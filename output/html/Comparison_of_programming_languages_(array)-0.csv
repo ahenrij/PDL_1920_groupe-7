@@ -1,43 +1,27 @@
-Languages,Size,First,Last
-Ada,name'Length,name'First,name'Last
-ALGOL 68,UPB name - LWB name+1 2 UPB name - 2 LWB name+1 etc.,LWB name 2 LWB name etc.,UPB name 2 UPB name etc.
-APL,? name (? name)[index],?IO,(? name)-~?IO (? name)[index]-~?IO
-AWK,length,1,asorti
-"C#, Visual Basic .NET, Windows PowerShell, F#",name.Length,name.GetLowerBound(dimension),name.GetUpperBound(dimension)
-CFML,arrayLen(name) name.len(),1,name.len()
-Ch,max(shape(name)),0,max(shape(name))-1
-Common Lisp,(length name),0,(1- (length name))
-D,name.length,0,name.length-1 $-1
-Fortran,SIZE(name),LBOUND(name),UBOUND(name)
-Go,len(name),0,len(name) - 1
-Haskell,rangeSize (bounds name),fst (bounds name),snd (bounds name)
-ISLISP,(length name),0,(1- (length name))
-"Cobra, D, Haxe, Java, JavaScript, Scala",name.length,0,name.length - 1
-J,#name,0,<:@#name
-Julia,length(name) size(name),1 first.(axes(name)),end last.(axes(name))
-Lingo,count(name),1,getLast(name)
-LiveCode,length(name),1 first,-1 last
-Lua,#name,1 by convention; any integer[2],#name
-Mathematica,Length[name],1 First[name],-1 Last[name]
-"MATLAB, GNU Octave",length(name),1,end
-Nim,name.len,name.low[3],name.high
-Oberon,LEN(name),0,LEN(name) - 1
-Object Pascal,Length(name),0 low(name),Length(name)-1 high(name)
-Objective-C (NSArray * only),[name count],0,[name count] - 1
-OCaml,Array.length name,0,Array.length name - 1
-Perl,scalar(@name),$[,$#name
-PHP,count($ name),0,count($ name) - 1
-Python,len(name),0,-1 len(name) - 1
-R,length(name),1,length(name)
-Raku,@ name.elems,0,@name.end
-Red,length? name,name/1 first name,last name
-Ruby,name.size,0 name.first,-1 name.size - 1 name.last
-Rust,name.len(),0,name.len() - 1
-S-Lang,length(name),0,-1 length(name)-1
-Scheme,(vector-length vector),0,(- (vector-length vector) 1)
-Smalltalk,name size,1 name first,name size name last
-Swift,name.count,0,name.count - 1
-Visual Basic,UBound(name)-LBound(name)+1,LBound(name),UBound(name)
-Wolfram Language,Length[name],1 First[name],-1 Last[name]
-Xojo,UBound(name),0,UBound(name)
-XPath/XQuery,count($name),1,count($name) last() array:size(name)[4]
+Format,Languages
+name[first:last],"ALGOL 68,[7] Julia"
+name[first+(?len)-?IO],APL
+name[first:end:step],"Python,[8][9] Go"
+name[first..last],"Pascal, Object Pascal, Delphi, Nim"
+$name[first..last],Windows PowerShell
+@name[first..last],Perl[10]
+"name[first..last] name[first...end] name[first, len]",Ruby[9]
+copy/part skip name first len,Red
+name(first..last),Ada[7]
+name(first:last),"Fortran,[7][8] GNU Octave, MATLAB[7][10]"
+name[[first;;last;;step]],"Mathematica,[7][8][9] Wolfram Language"
+name[[first:last]],S-Lang[7][8][10]
+name.[first..last],F#
+"name.slice(first, end)","Haxe, JavaScript, Scala"
+"name.slice(first, len)",CFML
+"array_slice(name, first, len)",PHP[9]
+(subseq name first end),Common Lisp
+(subseq name first end),ISLISP
+Array.sub name first len,OCaml
+"[name subarrayWithRange:NSMakeRange(first, len)]",Objective-C (NSArray * only)
+(first([+i.@(-~)end){name,J
+name[first..<end] name[first...last],Swift
+name copyFrom: first to:last name copyFrom: first count:len,Smalltalk
+name[first..end],"D, C#[11][12]"
+name[first..end] name[first..=last],Rust
+name[first:end],Cobra

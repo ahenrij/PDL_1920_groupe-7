@@ -1,10 +1,8 @@
-Java,C#
-"// Is valid, as numbers is an object of type short[]
- short[] numbers = new short[100];
-
- // Is valid, but it isn't clear code
- double values[] = new double[100];","// Is valid, as numbers is an object of type short[]
- short[] numbers = new short[100];
-
- // Won't compile!
- double values[] = new double[100];"
+"Preprocessing, Compilation and Packaging",Java,C#
+Namespaces,Packages,Namespaces
+File contents,Restricted,Free
+Packaging,Package,"public/internal visibility on namespace members, which the build system translates to modules and assemblies at the CLR-level"
+Classes/assembly search path,ClassPath,Both compile-time and runtime[82][83]
+Conditional compilation,No; but see Apache Ant[84],Yes
+Custom errors/warnings,Yes; AnnotationProcessor,Yes
+Explicit regions,No,Yes

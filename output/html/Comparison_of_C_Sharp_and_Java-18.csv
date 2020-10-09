@@ -1,22 +1,26 @@
-Data types,Java,C#
-Arbitrary-size decimals,Reference type; no operators[1],Third party library[2]
-Arbitrary-size integers,Reference type; no operators,Yes[3]
-Arrays,Yes[4],Yes
-Boolean type,Yes,Yes
-Character,Yes[5],Yes
-Complex numbers,Third-party library[6],Yes
-Date/time,Yes; reference type[7],Yes; value type
-Enumerated types,Yes; reference type,Yes; scalar
-High-precision decimal number,No; but see 'Arbitrary-size decimals' above,128-bit (28 digits) Decimal type[8]
-IEEE 754 binary32 floating point number,Yes,Yes
-IEEE 754 binary64 floating point number,Yes,Yes
-Lifted (nullable) types,No; but wrapper types,Yes
-Pointers,No;[9] only method references[10],Yes[11]
-Reference types,Yes,Yes
-Signed integers,"Yes; 8, 16, 32, 64 bits","Yes; 8, 16, 32, 64 bits"
-Strings,"Immutable reference type, Unicode","Immutable reference type, Unicode"
-Type annotations,Yes,Yes
-Single-root (unified) type system,No; but wrapper types,Yes[12]
-Tuples,No; limited 3rd party available.[13],Yes[14]
-Unsigned integers,No; but some method support.[15],"Yes; 8, 16, 32, 64 bits"
-Value types,No; only primitive types,Yes
+Java,C#
+"Type checks and downcasts are injected into client code (the code referencing the generics). Compared to non-generic code with manual casts, these casts will be the same,[69] but compared to compile-time verified code that would not need runtime casts and checks, these operations represent a performance overhead.","C#/.NET generics guarantee type-safety and are verified at compile time, making extra checks/casts are unnecessary at runtime. Hence, generic code will run faster than non-generic (or type-erased) code that require casts when handling non-generic or type-erased objects."
+"Cannot use primitive types as type parameters; instead, the developer must use the wrapper type corresponding to the primitive type. This incurs extra performance overhead by requiring boxing and unboxing conversions as well a memory and garbage collection pressure, as the wrappers will be heap-allocated as opposed to stack-allocated.",Primitive and value types are allowed as type parameters in generic realizations. At runtime code will be synthesized and compiled for each unique combination of type parameters upon first use. Generics that are realized with primitive/value type do not require boxing/unboxing conversions.
+Generic exceptions are not allowed[70] and a type parameter cannot be used in a catch clause[71],Can both define generic exceptions and use those in catch clauses
+Static members are shared across all generic realizations[72] (during type erasure all realizations are folded into a single class),Static members are separate for each generic realization. A generic realization is a unique class.
+Type parameters cannot be used in declarations of static fields/methods or in definitions of static inner classes,No restrictions on use of type parameters
+"Cannot create an array where the component type is a generic realization (concrete parameterized type) Pair<String, String>[] tenPairs = new Pair[10]; //OK","A generic realization is a 1st class citizen and can be used as any other class; also an array component object tenPairs = new Pair<int, string>[10]; // OK"
+"Cannot create an array where the component type is a type parameter, but it is valid to create an Object array and perform a typecast on the new array to achieve the same effect. public class Lookup<K, V> {
+    public V[] getEmptyValues(K key) {
+        return (V[]) new Object[0]; // OK
+    }
+}
+ When a generic type parameter is under inheritance constraints the constraint type may be used instead of Object public class Lookup<K, V extends Comparable<V>> {
+    public V[] getEmptyValues(K key) {
+        return (V[]) new Comparable[0];
+    }
+}","Type parameters represent actual, discrete classes and can be used like any other type within the generic definition. public class Lookup<K, V> {
+    public V[] GetEmptyValues(K key) {
+        return new V[0]; // OK
+    }
+}"
+There is no class literal for a concrete realization of a generic type,A generic realization is an actual class.
+instanceof is not allowed with type parameters or concrete generic realizations,The is and as operators work the same for type parameters as for any other type.
+Cannot create new instances using a type parameter as the type,"With a constructor constraint, generic methods or methods of generic classes can create instances of classes that have default constructors."
+Type information is erased during compiling. Special extensions to reflection must be used to discover the original type.,"Type information about C# generic types is fully preserved at runtime, and allows full reflection support and instantiation of generic types."
+Reflection cannot be used to construct new generic realizations. During compilation extra code (typecasts) are injected into the client code of generics. This precludes creating new realizations later.,Reflection can be used to create new realizations for new combinations of type parameters.

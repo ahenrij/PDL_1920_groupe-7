@@ -1,25 +1,24 @@
-,read-write,read-only,write-only
-ABAP Objects,N/A,,
-APL (Dyalog),:Property Bar ? result ? Get instructions ? ? Set arguments instructions ? :EndProperty Bar,:Property Bar ? result ? Get instructions ? :EndProperty Bar,:Property Bar ? Set arguments instructions ? :EndProperty Bar
-C++ (STL),N/A,,
-C#,type Bar { get { instructions ... return value; } set { instructions } },type Bar { get { instructions ... return value; } },type Bar { set { instructions } }
-D,@property type bar() { instructions ... return value; } @property type bar(type value) { instructions ... return value; },@property type bar() { instructions ... return value; },@property type bar(type value) { instructions ... return value; }
-eC,property type Bar { get { instructions ... return value; } set { instructions } },property type Bar { get { instructions ... return value; } },property type Bar { set { instructions } }
-Java,N/A,,
-Objective-C 2.0 (Cocoa),@property (readwrite) type bar; and then inside @implementation - (type)bar { instructions } - (void)setBar:(type)value { instructions },@property (readonly) type bar; and then inside @implementation - (type)bar { instructions },N/A
-Swift,var bar : type { get { instructions } set«(newBar)» { instructions } },var bar : type { instructions },N/A
-Eiffel,feature -- Access x: TYPE assign set_x feature -- Settings set_x (a_x: like x) do instructions ensure x_set: verification end,,
-Python,"def setBar(self, value): Tab ? instructions def getBar(self): Tab ? instructions Tab ? return value bar = property(getBar, setBar)[33]",def getBar(self): Tab ? instructions Tab ? return value bar = property(getBar),"def setBar(self, value): Tab ? instructions bar = property(fset = setBar)"
-Visual Basic .NET,Property Bar() As type Get instructions Return value End Get Set (ByVal Value As type) instructions End Set End Property,ReadOnly Property Bar() As type Get instructions Return value End Get End Property,WriteOnly Property Bar() As type Set (ByVal Value As type) instructions End Set End Property
-Xojo,ComputedProperty Bar() As type Get instructions Return value End Get Set (ByVal Value As type) instructions End Set End ComputedProperty,ComputedProperty Bar() As type Get instructions Return value End Get End ComputedProperty,ComputedProperty Bar() As type Set (value As type) instructions End Set End ComputedProperty
-PHP,"function __get($property) { switch ($property) { case 'Bar' : instructions ... return value; } } function __set($property, $value) { switch ($property) { case 'Bar' : instructions } }",function __get($property) { switch ($property) { case 'Bar' : instructions ... return value; } },"function __set($property, $value) { switch ($property) { case 'Bar' : instructions } }"
-Perl,sub Bar { my $self = shift; if (my $Bar = shift) { # setter $self->{Bar} = $Bar; return $self; } else { # getter return $self->{Bar}; } },sub Bar { my $self = shift; if (my $Bar = shift) { # read-only die "Bar is read-only\n"; } else { # getter return $self->{Bar}; } },sub Bar { my $self = shift; if (my $Bar = shift) { # setter $self->{Bar} = $Bar; return $self; } else { # write-only die "Bar is write-only\n"; } }
-Raku,N/A,,
-Ruby,def bar instructions expression resulting in return value end def bar=(value) instructions end,def bar instructions expression resulting in return value end,def bar=(value) instructions end
-Windows PowerShell,Add-Member «-MemberType »ScriptProperty «-Name »Bar «-Value »{ instructions ... return value } «-SecondValue »{ instructions } -InputObject variable,Add-Member «-MemberType »ScriptProperty «-Name »Bar «-Value »{ instructions ... return value} -InputObject variable,Add-Member «-MemberType »ScriptProperty «-Name »Bar -SecondValue { instructions } -InputObject variable
-OCaml,N/A,,
-F#,member this.Bar with get() = expression and set(value) = expression,member this.Bar = expression,member this.Bar with set(value) = expression
-JavaScript (ES6),get bar(«parameters») { instructions ... return value}set bar(«parameters») { instructions },get bar(«parameters») { instructions ... return value},set bar(«parameters») { instructions }
-COBOL,METHOD-ID. GET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. return-var declaration PROCEDURE DIVISION RETURNING return-var. instructions END METHOD. METHOD-ID. SET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. value-var declaration PROCEDURE DIVISION USING value-var. instructions END METHOD.,METHOD-ID. GET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. return-var declaration PROCEDURE DIVISION RETURNING return-var. instructions END METHOD.,METHOD-ID. SET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. value-var declaration PROCEDURE DIVISION USING value-var. instructions END METHOD.
-Cobra,pro bar «as type» Tab ? get Tab ?Tab ? instructions Tab ?Tab ? return value Tab ? set Tab ?Tab ? instructions,get bar «as type» Tab ? instructions Tab ? return value,set bar «as type» Tab ? instructions
-ISLISP,N/A,,
+,String representation,,Object copy,Value equality,Object comparison,Hash code,Object ID
+,Human-readable,Source-compatible,,,,,
+ABAP Objects,N/A,,,,,,
+APL (Dyalog),?x,?SRC x,?NS x,x = y,N/A,,
+C++ (STL),,,,x == y[50],,,pointer to object can be converted into an integer ID
+C#,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashCode(),System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(x)
+Java,x.toString(),,x.clone()[51],x.equals(y),x.compareTo(y)[52],x.hashCode(),System.identityHashCode(x)
+JavaScript,x.toString(),,,,,,
+D,x.toString() or std.conv.to!string(x),x.stringof,,x == y or x.opEquals(y),x.opCmp(y),x.toHash(),
+eC,"x.OnGetString(tempString, null, null) or PrintString(x)",,y.OnCopy(x),,x.OnCompare(y),,object handle can be converted into an integer ID
+Objective-C (Cocoa),x.description,x.debugDescription,[x copy][53],[x isEqual:y],[x compare:y][54],x.hash,pointer to object can be converted into an integer ID
+Swift,x.description[55],x.debugDescription[56],,x == y[57],x < y[58],x.hashValue[59],reflect(x).objectIdentifier!.uintValue()
+Smalltalk,x displayString,x printString,x copy,x = y,,x hash,x identityHash
+Python,str(x)[60],repr(x)[61],copy.copy(x)[62],x == y[63],"cmp(x, y)[64]",hash(x)[65],id(x)
+Visual Basic .NET,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashCode(),
+Eiffel,x.out,,x.twin,x.is_equal(y),"When x is COMPARABLE, one can simply do x < y","When x is HASHABLE, one can use x.hash_code","When x is IDENTIFIED, one can use x.object_id"
+PHP,$x->__toString(),,clone x[66],x == y,,,spl_object_hash(x)
+Perl,"$x"[67],"Data::Dumper->Dump([$x],['x'])[68]",Storable::dclone($x)[69],,,,Scalar::Util::refaddr( $x )[70]
+Raku,~x[67],x.perl,x.clone,x eqv y,x cmp y,,x.WHICH
+Ruby,x.to_s,x.inspect,x.dup or x.clone,x == y or x.eql?(y),x <=> y,x.hash,x.object_id
+Windows PowerShell,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashCode(),
+OCaml,,,Oo.copy x,x = y,,Hashtbl.hash x,Oo.id x
+F#,string x or x.ToString() or sprintf "%O" x,sprintf "%A" x,x.Clone(),x = y or x.Equals(y),compare x y or x.CompareTo(y),hash x or x.GetHashCode(),
+COBOL,N/A,,,,,,

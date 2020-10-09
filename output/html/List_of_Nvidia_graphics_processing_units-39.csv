@@ -1,21 +1,25 @@
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
-GeForce 4057,"September 16, 2011",GT216 GT218,40 nm,486 260,100 57,1,48:16:8 16:8:4,475 589,1100 1402,800 790,3.8 2.36,7.6 4.71,512 1024,12.6,DDR3,64,n/a[29],10.1,3.3,1.1,105.6 44.86,Unknown,30.5,OEM
-GeForce GT 420,"September 3, 2010",GF108,TSMC 40 nm,585,116,,48:4:4,700,1400,1800,2.8,2.8,512,28.8,GDDR3,128,,12 FL 11_1,4.6,,134.4,Unknown,50,
-GeForce GT 430,"October 11, 2010",GF108 GF108-300-A1,,,,2,96:16:4,,,1600 1800,,11.2,512,25.6 28.8,,,,,,1.2,268.8,Unknown,60,
-,,,,,,,,,,1800,,,512 1024 2048,28.8,,128,,,,1.1,268.8,Unknown,49,$79
-,,,,,,,,,,1300,,,,10.4,,64,,,,,,,,
-GeForce GT 440,"February 1, 2011",GF108,,,,,,810,1620,1800 3200,3.24,12.96,1024,28.8 51.2,GDDR3 GDDR5,128,,,,,311.04,Unknown,65,$100
-,"October 11, 2010",GF106,,1170,238,3,144:24:24,594,1189,1800,14.26,14.26,1536 3072,43.2,GDDR3,192,,,,,342.43,Unknown,56,OEM
-GeForce GTS 450,,,,,,,,790,1580,4000,18.96,18.96,1536,96,GDDR5,,,,,,455.04,Unknown,106,
-,"September 13, 2010 March 15, 2011",GF106-250 GF116-200,,,,4,192:32:16,783,1566,3608,12.53,25.06,512 1024,57.73,,128,,,,,601.34,Unknown,106,$129
-GeForce GTX 460 SE,"November 15, 2010",GF104-225-A1,,1950,332,6,288:48:32,650,1300,3400,20.8,31.2,1024,108.8,,256,,,,,748.8,Unknown,150,$160
-GeForce GTX 460,"October 11, 2010",GF104,,,,7,336:56:32,,,,,36.4,1024,108.8,,,,,,,873.6,Unknown,,OEM
-,"July 12, 2010",GF104-300-KB-A1,,,,,336:56:24,675,1350,3600,16.2,37.8,768,86.4,,192,,,,,907.2,Unknown,,$199
-,,,,,,,336:56:32,,,,21.6,,1024 2048,115.2,,256,,,,,,,160,$229
-,"September 24, 2011",GF114,,,,,336:56:24,778,1556,4008,18.67,43.57,1024,96.2,,192,,,,,1045.6,Unknown,,$199
-GeForce GTX 465,"May 31, 2010",GF100-030-A3,,3000[30],529,11,352:44:32,607,1215,3206,19.42,26.71,1024,102.6,,256,,,,1.2,855.36,106.92,2004,$279
-GeForce GTX 470,"March 26, 2010",GF100-275-A3,,,,14,448:56:40,,,3348,24.28,34,1280,133.9,,320,,,,,1088.64,136.08,2154,$349
-GeForce GTX 480,"March 26, 2010",GF100-375-A3,,,,15,480:60:48,700,1401,3696,33.60,42,1536,177.4,,384,,,,,1344.96,168.12,2504,$499
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SMX count,Core config1,Clock rate,,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)9,,TDP (Watts),Release Price (USD)
+,,,,,,,,,Base (MHz),Average Boost (MHz),Max Boost2 (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D3,OpenGL,OpenCL,Single precision,Double precision,,
+GeForce GT 705[42]4,"March 27, 2014",GF119-300-A1,TSMC 40 nm,292,79,PCIe 2.0 ×16,1,48:8:4,810,N/A,N/A,898 (1796),3.24,6.5,512 1024,14.4,DDR3,64,n/a[29],12,4.6,1.1,155.5,19.4,29,OEM
+GeForce GT 710[43],,GK208-301-A1,TSMC 28 nm,1020,79,PCIe 2.0 ×8,,192:16:8,823,N/A,N/A,900 (1800),6.6,13.2,512,,,64,1.0[29],,,1.2,316.0,13.2,,
+,"January 26, 2016",GK208-203-B1,,,,"PCIe 2.0 ×8, PCIe ×1",,192:16:8,954,N/A,N/A,900 (1800) 1253 (5010),7.6,15.3,1024 2048,14.4 40.0,DDR3 GDDR5,,,,,,366,15.3,19,$35–45
+GeForce GT 720[44],"March 27, 2014",GK208-201-B1,,,,PCIe 2.0 ×8,,192:16:8,797,N/A,N/A,900 (1800) 1253 (5010),6.4,12.8,1024 2048,14.4 40.0,,,,,,,306,12.8,,$49–59
+"GeForce GT 730 [45]5,6","June 18, 2014",GK208-301-A1,,,,,2,384:16:8,902,N/A,N/A,900 (1800),7.22,14.44,1024[46] 2048 4096,14.4,DDR3,,,,,,692.7,28.9,23,$69–79
+,,GK208-400-A1,,,,,,384:16:8,902,N/A,N/A,1250 (5000),7.22,14.44,1024 2048[47],40.0,GDDR5,,,,,,,,25,
+,,GF108,TSMC 40 nm,585,116,PCIe 2.0 ×16,,96:16:4,700,N/A,N/A,900 (1800),2.8,11.0,1024 2048 4096,28.8,DDR3,128,n/a[29],,,1.1,268.8,33.6,49,
+GeForce GT 7407,"May 29, 2014",GK107-425-A2,TSMC 28HP,1270,118,PCIe 3.0 ×16,,384:32:16,993,N/A,N/A,891 (1782),15.9,31.8,,28.5,,128,1.0[29],,,1.2,762.6,31.8,64,$89–99
+,,GK107-425-A2,,,,,,384:32:16,993,N/A,N/A,1252 (5008),15.9,31.8,,80.1,GDDR5,,,,,,,,,
+GeForce GTX 745,"February 18, 2014",GM107-220-A2,,1870,148,,3,384:24:16,1033,Unknown,Unknown,900 (1800),16.5,24.8,1024 4096,28.8,DDR3,,,,,,793.3,24.8,55,OEM
+GeForce GTX 750,,GM107-300-A2,,,,,4,512:32:16,1020,1085,1163,1250 (5000),16.3,32.6,1024 2048,80,GDDR5,,,,,,1044.5,32.6,,$119
+GeForce GTX 750 Ti,,GM107-400-A2,,,,,5,640:40:16,1020,1085,1200,1350 (5400),16.3,40.8,1024 2048 4096,86.4,,,,,,,1305.6,40.8,60,$149
+GeForce GTX 760 192-bit,"October 17, 2013",GK104-200-KD-A2,,3540,294,,6,1152:96:24,824,888,889,1450 (5800),19.8,79.1,1536 3072,134.4,,192,,,,,1896.2,79.0,130,OEM
+GeForce GTX 760,"June 25, 2013",GK104-225-A2,,,,,,1152:96:32,980,1033,1124,1502 (6008),31.410,94,2048 4096,192.3,,256,,,,,2257.9,94.1,170,$249 ($219)
+GeForce GTX 760 Ti8,"September 27, 2013[48]",GK104,,,,,7,1344:112:32,915,980,1084,1502 (6008),29.3,102.5,2048,192.3,,,,,,,2459.5,102.5,,OEM
+GeForce GTX 770,"May 30, 2013",GK104-425-A2,,,,,8,1536:128:32,1046,1085,1130,1752.5 (7010),33.5,134,2048 4096,224,,,,,,,3213.3,133.9,230,$399 ($329)
+GeForce GTX 780,"May 23, 2013",GK110-300-A1,,7080,561,,12,2304:192:48,863,900,1002,1502 (6008),41.410,160.5,3072 6144[49],288.4,,384,,,,,3976.7,165.7,,$649 ($499)
+GeForce GTX 780 Ti[50][51][52],"November 7, 2013",GK110-425-B1,,,,,15,2880:240:48,876,928,1019,1752.5 (7010),42.010,210.2,3072,336.5,,,,,,,5045.7,210.2,,$699
+GeForce GTX TITAN[53][54][55],"February 21, 2013",GK110-400-A1,,,,,14,2688:224:48,837,876,993,1502 (6008),40.2,187.5,6144,288.4,,,,,,,4499.7,1300[56]-1499.9,,$999
+GeForce GTX TITAN Black,"February 18, 2014",GK110-430-B1,,,,,15,2880:240:48,889,980,1058,1752.5 (7010),42.7,213.4,,336.5,,,,,,,5120.6,1706.9,,
+GeForce GTX TITAN Z,"March 25, 2014",2× GK110-350-B1[57],,2× 7080,2× 561,,2× 15,2× 2880:240:48,705,876,Unknown,1752.5 (7010),2× 33.8,2× 169,2× 6144,2× 336.5,,2× 384,,,4.5,,5046x2,1682x2[58],375,$2999
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,SMX count,Core config1,Clock rate,,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)8,,TDP (Watts),Release Price (USD)
+,,,,,,,,,Base (MHz),Average Boost (MHz),Max Boost2 (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D3,OpenGL,OpenCL,Single precision,Double precision,,
