@@ -1,0 +1,32 @@
+Name,"x86, i386, IA-32",x86 SMP,Xen,IA-64,x86-64,PowerPC,PowerPC SMP,SPARC32,SPARC SMP,Alpha,MIPS,ARM,XScale,M68k,PA-RISC,OpenRISC,others,hosted mode
+Linux,,,,,,,,,,,,,,,,,"FR-V, Cell, ETRAX CRIS, M32R, Xtensa, h8, s390, SuperH","UML, coLinux, MkLinux, Itanium Linux-on-Linux, wombat"
+FreeBSD[3],,,,,,,,,,,,,,,,,PC98,
+OpenBSD[4],,,,,,,,,,,,,,,,,SuperH ],
+NetBSD[5],,,,,,,,,,,,,,,,,"SuperH, ns32k, VAX, hppa, M68010, mipseb, mipsel, sh3eb, sh3el, sparc64",
+DragonFly BSD[6],,,,,,,,,,,,,,,,,,vkernel
+OpenSolaris[7] illumos,,,,,,,,,,,,,,,,,,
+"Darwin, OpenDarwin[8]",,,,,,,,,,,,,,,,,,L4/Darwin
+MINIX[9],,,,,,,,,,,,,,,,,,
+FreeDOS,,,,,,,,,,,,,,,,,,
+Genode,,,,,,,,,,,,,,,,,RISC-V,Linux
+Haiku,,,,,,,,,,,,group=Noteb1[10],,,,,,
+KolibriOS,,,,,,,,,,,,,,,,,,
+MenuetOS,,,,,,,,,,,,,,,,,,
+GNU,,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,"FR-V, Cell, ETRAX CRIS, M32R, Xtensa, h8, s390, SuperHgroup=Noteb4","UML, Itanium Linux-on-Linuxgroup=Noteb5"
+ReactOS,,,group=Noteb1,,,group=Noteb1,group=Noteb1,,,,,,,,,,,
+RISC OS,,,,,,,,,,,,,,,,,,
+"L4, Pistachio",,,,group=Noteb2,group=Noteb2,group=Noteb2,,,,group=Noteb2,group=Noteb2,,,,,,,
+Plan 9,,,,,,,,group=Noteb3,group=Noteb3,,,,,group=Noteb3,,,See[11][12],"lguest, vx32"
+AROS,,,,,,,,,,,,,,,,,,"i386-linux, i386-freebsd"
+Syllable,,,,,,,,,,,,,,,,,,
+Inferno,,,,,,,,,,,,,,group=Noteb3,,,"AMD Am29000,group=Noteb3 Texas Instruments OMAP","Microsoft Windows, Linux, FreeBSD, Plan 9, OS X, Solaris, Irix, UnixWare,group=Noteb3 HP-UX,group=Noteb3 Internet Explorer"
+FreeRTOS,,,,,,,,,,,,,,,,,"AVR, PIC, MSP430, HCS12, 8052, MicroBlaze, Cortex-M3, H8S",
+eCos,,,,,,,,,,,,,,,,,"CalmRISC, ColdFire, FR-V, h8, Matsushita AM3x, Nios II, NEC V8xx, SuperH","Microsoft Windows, Linux"
+RTEMS,,,Xen,,,,,,,,,,,,,,"Blackfin, Nios II, Coldfire, Texas Instruments C3x/C4x, SuperH, H8S","Linux, Solaris, Cygwin, FreeBSD, multiple CPU simulators"
+HelenOS,,,,,,,,,,,,,,,,,,
+E/OS,,,,,,,,,,,,,,,,,,
+TempleOS,,,,,,,,,,,,,,,,,,"QEMU, VirtualBox, etc."
+,,,,,,,,,,,,,,,,,,,
+K42,,,,,,,,,,,,,,,,,,
+UnixLite,,,,,,,,,,,,,,,,,,
+Name,"x86, i386, IA-32",x86 SMP,Xen,IA-64,x86-64,PowerPC,PowerPC SMP,SPARC32,SPARC SMP,Alpha,MIPS,ARM,XScale,M68k,PA-RISC,OpenRISC,other,hosted mode

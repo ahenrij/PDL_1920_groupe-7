@@ -1,0 +1,34 @@
+Name,Can boot an OS on another disk partition as guest,USB support,GUI,Live memory allocation,3D acceleration,Snapshots per VM,Snapshot of running system,Live migration,Shared folders,Shared clipboard,PCI passthrough
+KVM,,,,,,,,,,,
+User Mode Linux,,,,,,,,,,N/A,
+"Containers, or Zones",,,,,Not needed,,,,,Not needed,Not needed
+DosBox,,,SVN builds only,,Glide (SVN builds only),,,,,,
+"Oracle VirtualBox (formerly OSE, GPLv2), with Guest Additions (GPLv2)[28]",,USB 1.1 only,,,,,,,with Guest Additions[30],with Guest Additions[30],
+Oracle VirtualBox with Extension Pack (PUEL) and Guest Additions (GPLv2)[28],,,,, OpenGL 2.0 and Direct3D 8/9[31],,,,,,Retired (Until 6.0[32]; Linux only[33])
+Oracle VM Server for SPARC (LDoms),,USB 2.0,,,,,,,,,
+OKL4 Microvisor,,,VMs only,,,,,,,,Static assignment
+Virtual Iron 4.2,,,,,,,,,,,
+Virtual PC 2007,,,,,,,,,,,
+Windows Virtual PC,,partially,,,,,,,,,
+VirtualPC 7 for Mac,,,,,,,,,,,
+Microsoft Virtual Server 2005 R2,,,,,,?,,,,,
+Microsoft Hyper-V Server 2008 R2,,Partial support over remote desktop connections Hyper-V-USBRedirection,,,DirectX 9.0c Hyper-V-3DAcceleration (via RemoteFX),,,,,,
+Microsoft Hyper-V Server 2012 R2,,,,,DirectX 9.0c Hyper-V-3DAcceleration (via RemoteFX),,,,,,
+Virtuozzo,,,,,,,,,,,
+VMware ESX Server 3.0 atp,,,,,,?,,,,,
+VMware ESX Server 2.5.3,,,,,,,,,,,
+VMware ESX Server 4.0 - 6.x (vSphere),,,,,,,,,,,
+VMware Fusion 2.0,,,,,DirectX 9 Shader model 2,,,,,,
+VMware Server,,,,,,1,,,,,
+VMware Workstation 5.5,,,,,Experimental support for DirectX 8; also supported with VMGL[35],,,,,,
+VMware Workstation 6.0,,,,,Experimental support for DirectX 8; Also supported with VMGL[35],,,,,,
+VMware Workstation 7.0 and 8.0,,,,,Support for DirectX 9.0c Shader Model 3 and OpenGL 2.13D.[36],,,,,,
+VMware Player,,,,,supported with VMGL[35],,,,,,
+Wind River hypervisor,,,,,,,,,,,
+Wind River VxWorks MILS Platform,,,,,,,,,,,
+Xen,,,,,Supported with VMGL[35],?,,,,,
+XCP-ng,,,,,,,,,,,
+XenServer,,,,,Supported with VMGL[35],,,,,,
+z/VM,,Not applicable,,,Not applicable,,,,,Not applicable,Not applicable
+z LPARs,,Not applicable,,,Not applicable,,,,,Not applicable,Not applicable
+Name,Can boot an OS on another disk partition as guest,USB,GUI,Live memory allocation,3D acceleration,Snapshots per VM,Snapshot of running system,Live migration,Shared folders,Shared clipboard,PCI passthrough

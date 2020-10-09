@@ -1,0 +1,11 @@
+Fields and initialization,Java,C#
+Fields,,
+Constants,,
+Static (class) constructors,,
+Instance constructors,,
+Finalizers/destructors,,
+Instance initializers,,
+Object initialization,Bottom-up (fields and constructors),Top-down (fields); bottom-up (constructors)
+Object initializers,,
+Collection initializers,,
+Array initializers,,

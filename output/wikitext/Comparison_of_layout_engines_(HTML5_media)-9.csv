@@ -1,0 +1,25 @@
+,Trident,Gecko,WebKit,KHTML,Presto
+Phrase,,,,,
+em,rowspan="9" 4.0,rowspan="10" 1.0,rowspan="10" ,rowspan="10" ,rowspan="10" 1.0
+strong,,,,,
+dfn,,,,,
+code,,,,,
+samp,,,,,
+kbd,,,,,
+var,,,,,
+cite,,,,,
+acronym,,,,,
+abbr,3.1,,,,
+Quotations,,,,,
+blockquote,4.0,1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+q,4.0,1.8<q> does not support nested quotes prior to Gecko 1.8.[1]group=note,,,
+Subscripts and superscripts,,,,,
+sub,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+sup,,,,,
+Lines and paragraphs,,,,,
+p,rowspan="2" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+pre,,,,,
+br,5.0,,,,
+Marking document changes,,,,,
+ins,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+del,,,,,

@@ -1,0 +1,27 @@
+Shell,Command name completion,Path completion,Command argument completion,Wildcard completion,Command history,Mandatory argument prompt,Automatic suggestions,Colored directory listings,Text highlighting,Syntax highlighting,"Directory history, stack or similar features",Implicit directory change,Autocorrection,Integrated environment,Snippets,Value prompt,Menu/options prompt,Progress indicator,Context sensitive help,Command builder
+Thompson shell,,,,,,,,?,?,,,,,,,,,,,
+Bourne shell 1977 version,,,,,,,,?,?,,,,,,,,,,,
+Bourne shell current version,,,,,,,,,,,",,,,,,,,,
+POSIX shell,,,,,,,,,,,Yes (CDPATH),,,,,,,,,
+bash (v4.0),,,when defined,,,,,,,,"Yes (CDPATH, pushd, popd)",optional,,,,,,,,
+csh,,,,,,,,,,,"Yes (cdpath, pushd, popd)",optional,,,,,,,,
+tcsh,,,when defined,,,,,,,,"Yes (cdpath, pushd, popd)",optional,,,,,,,,
+Hamilton C shell,,,,,,,,?,?,,"Yes (cdpath, pushd, popd)",,,,,,,,,
+Scsh,,,,,,,,?,?,,,,,,,,,,,
+ksh (ksh93t+),Yes (extendable),Yes (extendable),,,,,,,,,"Yes (cdpath builtin, pushd, popd implemented as functions)",,,,,,,,,
+pdksh,,,,,,,,,,,,,,,,,,,,
+zsh,,,when defined,,,,Yes (via predict-on or user-defined[33]),,,Third-party extension[34],,optional,,,when defined (as ZLE widgets),,,,,
+ash,,,,,,,,,,,,,,,,,,,,
+CCP,,,,,,,,,,,,,,,,,,,,
+COMMAND.COM,,,,,,,,,",,,,,,,,"CHOICE command, in DR-DOS also via SWITCH / DRSWITCH internal commands)",,,
+OS/2 CMD.EXE,,,,,,,,,,,,,,,,,,,,
+Windows CMD.EXE,partial,partial,,,Yes (F8),,,,,,"Yes (PUSHD, POPD)",,,,,SET /P command),,,,
+4DOS,,,,,,,,,,," (via popup, extended directory searches, CDPATH, PUSHD, POPD, DIRHISTORY, DIRS, CDD, CD - commands and %@DIRSTACK[] function)",,,,,"INPUT, INKEY and ESET commands)","@SELECT[] function, and indirectly via a combination of INKEY, INPUT, SWITCH commands)",,,OPTION command for INI file directives)
+4OS2,?,?,?,?,,,,,,,,,,?,,?,?,,,
+TCC (formerly 4NT),,,,,,,,,,," (via popup, extended directory searches, CDPATH, PUSHD, POPD, DIRHISTORY, DIRS, CDD, CD - commands and %@DIRSTACK[] function)",,,,,"INPUT, INKEY, ESET and SET /P commands)","@SELECT[] function, and indirectly via a combination of INKEY, INPUT, SWITCH commands)[40]",,,
+PowerShell,,,,,Yes (F8),,",?,?,",Yes; multiple stacks; multiple location types[44],,",",",,,,",popup window[47]
+rc,,,,,,,,?,?,,,,,,,?,,,,
+BeanShell,,,,,,,,?,?,,,,,,,,,,,
+VMS DCL,Minimum uniqueness scheme,,,,,,,?,?,,,,,,,,,,,
+fish,,,when defined or parsable in man pages[49],,,,,?,?,,,,,,,, (via fish_config command),,,
+Shell,Command name completion,Path completion,Command argument completion,Wildcard completion,Command history,Mandatory argument prompt,Automatic suggestions,Colored directory listings,Text highlighting,Syntax highlighting,"Directory history, stack or similar features",Implicit directory change,Autocorrection,Integrated environment,Snippets,Value prompt,Menu/options prompt,Progress indicator,Context sensitive help,Command builder

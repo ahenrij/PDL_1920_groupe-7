@@ -1,0 +1,4 @@
+Assembler,Developer,FOSS,License,Instruction set,Host platform,Development active
+ASM-One Macro Assembler,Rune Gram-Madsen,,,Motorola 680x0,Commodore Amiga,
+vasm,"Volker Barthelmann, Frank Wille",,,Motorola 680x0,various,
+rmac,"James Hammons, George Nakos, Landon Dyer",,,MOS Technology 6502,"Linux, Windows, macOS",

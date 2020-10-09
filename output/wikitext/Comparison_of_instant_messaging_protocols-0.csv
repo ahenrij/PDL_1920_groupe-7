@@ -1,0 +1,28 @@
+Protocol,Creator,First public release date,License,Identity (not inc. alias),Asynchronous message relaying,Transport Layer Security,End-to-end encryption,Unlimited number of contacts,Bulletins to all contacts,One-to-many routing 4,Spam protection,"Group, channel or conference support",Audio/VoIP support,Webcam/Video,Batch file sharing,Media synchronisation,Serverless 6 (decentralized),Protocol
+Bitmessage,Jonathan Warren,2012 Nov,Open standard,Alphanumeric address,,,,,,,,,,,,,,Bitmessage
+Bonjour,Apple Inc.,2002 August,Proprietary Freeware; portions under the Apache license,Username,,,,,,multicast,Medium,,,,,,,Bonjour
+Briar,Briarproject.org,2018 May 9,Open standard,Public & Private key (via QR Codes),,,,,,,,,,,,,,Briar
+Gadu-Gadu,GG Network,2000 Jul 17,Proprietary,Unique number e.g. 12345678,,,,,,Centralistic,,,,,,,,Gadu-Gadu
+IRC,Jarkko Oikarinen,1988 Aug,Open standard,Nickname!Username@hostname (or "hostmask") e.g. user!~usr@a.b.com1,"Yes, but via a memo system that differs from the main system","Yes, depending on individual server support",OTR by DM to client-to-client only,,,Simplistic multicast,Medium,",,,,,,IRC
+Echo,spot-on.sf.net / goldbug.sf.net,2013,Open standard,Key,,"Yes, optional",,,,,,,,,,,,Echo
+Matrix,Matrix.org,"2014 Sep[1]date=July 2020reason=p. 247: 'Matrix.org, released in December 2014'",Open standard,Matrix user ID (MXID),,"Yes, mandatory","Yes, default for private conversations[2]",,,,,,,,,,,Matrix
+"MSNP (Windows Live Messenger, etc.)",Microsoft,1999 Jul,Proprietary,Email address (Microsoft account),,,,Only for certified robots,,Centralistic,,,,,,,,"MSNP (Windows Live Messenger, etc.)"
+MTProto (Telegram),Telegram Messenger LLP,2013 Aug,Open standard,"Phone number (e.g. +1234567890), nickname (e.g. @example)",,,No end-to-end encryption for group chats on any client. No end-to-end encrypted one-on-one chats on desktop clients,,,,",,,,,,,MTProto (Telegram)
+Mumble,Thorvald Natvig,1999 Jul,Open standard,Username,,,,Only for certified robots,,Centralistic,,,,,,,,Mumble
+"OSCAR (AIM, ICQ)",AOL,1997,Proprietary (Discontinued 15-Dec-2017)[4],"Username, Email Address or UIN e.g. 12345678",,",,,,Centralistic,client-based,",,,,,,"OSCAR (AIM, ICQ)"
+"RVP (Windows Messenger, etc.)",Microsoft,1997 Mar,Proprietary (Discontinued),Windows Active Directory Login,,,,,,Centralistic,,,,,,,,"RVP (Windows Messenger, etc.)"
+Ricochet,Invisible.im,2014 Mar,Open standard,Tor onion address,,,,,,,,,,,,,,Ricochet
+Jami (based on DHT and SIP),Savoir-faire Linux Inc.,2015 May,Open standard,40-digit address,,,,,,,Medium,,,,,,,Jami (based on DHT and SIP)
+Signal Protocol,Signal Messenger,2014 Feb[5],Open standard,Phone number (e.g. +1234567890),,,,,,,",,,,,,,Signal Protocol
+SIP/SIMPLE,IETF,1996,Open standard,user@hostname,,,,,,,Medium,,,,,,Depends on implemenation,SIP/SIMPLE
+Skype,Skype,2003 Aug,Proprietary,Username,,,,,,Centralistic,client-based,,,,,,,Skype
+Steam Friends,Valve,2003 Sep 12,Proprietary,SteamID/Username or Unique Number,,,,"No, although rising",,,,,,,,,,Steam Friends
+TOC2,AOL,2005 Sep,Proprietary (Discontinued),Username or UIN e.g. 12345678,,,,,,Centralistic,,paying members only,,,,,,TOC2
+TOX (based on DHT),irungentoo (github user),2013 June,Open standard,Public & Private key,,,,,,,,,,,,,,TOX (based on DHT)
+Tuenti,Tuenti,2006,Proprietary,Username,,,,,,,,,,,,,,Tuenti
+Windows Messenger service,Microsoft,1990,Proprietary (Discontinued),NetBIOS,,,,,,,,,,,,,,Windows Messenger service
+XMPP,"Jeremie Miller, standardized via IETF",1999 Jan,Open standard,Jabber ID (JID) e.g. usr@a.b.c/home2,,,,,,,,,"Yes, via Jingle","Yes, via Jingle",,,,XMPP
+YMSG (Yahoo! Messenger),Yahoo!,"1998, March 9",Proprietary,Username,,reason=YMSG probably uses TLS based on EFF scorecard from November 2014: https://www.eff.org/node/82654 ?=yesdate=July 2016,,,,Centralistic,,,,,,,,YMSG (Yahoo! Messenger)
+Zephyr Notification Service,MIT,1987,Open standard,Kerberos principal e.g. user@ATHENA.MIT.EDU,,,,,,,,,,,,,,Zephyr Notification Service
+SMS/MMS/EMS/Call,Friedhelm Hillebrand,1985,Proprietary,Phone number (e.g. +1234567890),,,,"About 250 contacts in SIM, unlimited from phone.",,serial messages,Medium,,,,,,,SMS
+Protocol,Creator,First public release date,License,Identity (not inc. alias),Asynchronous message relaying,Transport Layer Security,End-to-end encryption,Unlimited number of contacts,Bulletins to all contacts,One-to-many routing 4,Spam protection,"Group, channel or conference support",Audio/VoIP support,Webcam/Video,Batch file sharing,Media synchronisation,Serverless 6 (decentralized),Protocol

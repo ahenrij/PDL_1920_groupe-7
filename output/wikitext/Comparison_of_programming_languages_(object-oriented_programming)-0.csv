@@ -1,0 +1,26 @@
+! basic/void method,value-returning method
+ABAP Objects,methods name «importing parameter = argument» «exporting parameter = argument» «changing parameter = argument» «returning value(parameter)» method name. instructions endmethod.[28]
+APL (Dyalog),? «left argument» name «right arguments» instructions ?
+"C++[30] type foo(«parameters»); The implementation of methods is usually provided in a separate source file, with the following syntax type class::foo(«parameters») { instructions }[31]",void foo(«parameters») { instructions }
+C#,
+D,
+Java,
+eC,void ««type of 'this'»::»foo(«parameters») { instructions }
+Eiffel,foo ( «parameters» ) do instructions end
+Objective-C,- (void)foo«:parameter «bar:parameter ...»» { instructions }
+Swift,func foo(«parameters») { instructions }
+Python,"def foo(self«, parameters»): Tab instructions"
+Visual Basic .NET,Sub Foo(«parameters») instructions End Sub
+Xojo,Sub Foo(«parameters») instructions End Sub
+PHP,function foo(«parameters»)«: void» { instructions }
+Perl,"sub foo { my ($self«, parameters») = @_; instructions }"
+Raku,«has »«multi »method foo(««$self: »parameters») { instructions }
+Ruby,def foo«(parameters)» instructions end
+Windows PowerShell,Add-Member «-MemberType» ScriptMethod «-Name» foo «-Value» { «param(parameters)» instructions } -InputObject variable
+OCaml,rowspan=2 
+F#,member this.foo(«parameters») = expression
+JavaScript,this.method = function(«parameters») {instructions} name«.prototype.method = function(«parameters») {instructions}[32]
+Javascript (ES6),foo(«parameters») {instructions}
+COBOL,METHOD-ID. foo. «DATA DIVISION. LINKAGE SECTION. parameter declarations» PROCEDURE DIVISION« USING parameters». instructions END METHOD foo.
+Cobra,def foo(parameters) Tab instructions
+ISLISP,(defgeneric method (arg1 arg2)) (defmethod method ((arg1 <class1> arg2 <class2>) ...)

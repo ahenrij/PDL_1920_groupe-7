@@ -1,0 +1,8 @@
+Prog Language,Access server,Use database,List databases,List tables
+raw MySQL access,,use db;,show databases;,show tables;
+PHP,"lang=php1=$link = mysql_connect(host, user, password); or lang=php1=$db = new mysqli(host, user, password); or lang=php1=$db = new PDO('mysql:host=hostname;dbname=dbname', 'username', 'password');","lang=php1=mysql_select_db(name, $link); or lang=php1=$db = new mysqli(host, user, password, name); or lang=php1=$db->select_db(name);",,
+Python,"lang=python1=db = MySQLdb.connect(      host="hostname", 
+     user="username", 
+     passwd="password", 
+     db="dbname", 
+     connect_timeout=5)",lang=pythonimport MySQLdb,lang=python1=c = db.cursor() c.execute("show databases") c.fetchall(),lang=python1=c = db.cursor() c.execute("show tables") c.fetchall()

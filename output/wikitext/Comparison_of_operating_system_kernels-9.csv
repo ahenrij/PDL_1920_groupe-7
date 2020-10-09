@@ -1,0 +1,17 @@
+kernel,HP,,,Softbank/ARM Holdings,,Intel,,,,Tallwood MIPS,,IBM,,,,Renesas Electronics,,,,,,,Oracle,,,NXP,,Analog Devices,Xilinx,Cadence,,Canon/Axis Comm.,Socionext,,Microchip/ Atmel,CML/ Hyperstone,Intel/Altera,,,WDC,Sunplus Technology,Mellanox,TI
+,VAX,Alpha,PA-RISC,ARM,,x86,,i960,IA-64,MIPS,,PowerPC,,S/390,z/Arch,H8300,M16C,M32R,78K,V850,SuperH,,SPARC,,,m68k,,Blackfin (no-mmu),MicroBlaze,Xtensa,,ETRAX CRIS,FR-V,MN10300,AVR32,E1 (no-mmu),Nios (no-mmu),Nios II,,WDC 65C816,S+core,Tilera,C6X
+,,,,mmu,no-mmu,x86,x86-64,,,mmu,no-mmu,32-bit,64-bit,,,,,,,,mmu,no-mmu,32-bit,64-bit,no-mmu,mmu,no-mmu,,,mmu,no-mmu,,,,,,,mmu,no-mmu,,,,
+DragonFly BSD kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FreeBSD kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Linux kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MINIX 3 kernel,,,,,,,In progress,,,In progress,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NetBSD kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+NetWare kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+OpenBSD kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rockbox kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Solaris kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Windows NT kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Windows CE kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+XNU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SPARTAN kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+FreeRTOS kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

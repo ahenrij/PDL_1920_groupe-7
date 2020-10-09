@@ -1,0 +1,18 @@
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus interface,L2 Cache(MB),Clock speeds,,,Memory,,,,Fillratename=PerfValues,,Processing power (GFLOPS)name=PerfValues,,,,Ray-tracing Performance,,TDP (Watts)
+,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)name=PixelFillrate,Texture (GT/s)name=TextureFillrate,Single precision,Double precision,Half precision,Tensor compute (FP16),Rays/s (Billions),RTX OPS/s (Trillions),
+GeForce MX230[183],2019220,GP108 (N17S-G0),14,1.8,70,256:16:16,PCIe 3.0 x4,0.5,1519,1531,7000,2 4,56,GDDR5,64,25.31,25.31,810.0,25.31,12.66,rowspan=5 ,rowspan=5 ,rowspan=5 ,10
+GeForce MX250[184][185],,GP108 (N17S-G2),,,,384:24:16,,,1518,1582,,,,,,24.3,36.4,1166,37.97,18.98,25,,,
+,,GP108B,,,,,,,937,1038,,,48.06,,,16.61,24.91,797.2,24.91,12.46,10,,,
+GeForce MX330[186],20200212,GP108 (N17S-G3),,,,,,,1531,1594,,,56,,,25.50,38.26,1224,38.26,19.13,25,,,
+GeForce MX350[187],,GP107 (N17S-G5),,3.3,135,640:32:16,,,1354,1468,,,,,,23.49,46.98,1879,58.72,29.36,20,,,
+GeForce MX450[188],"August 1, 2020",TU117 (N18S-G5),?,?,?,896:?:?,?,?,1395,1575,?,?,?,?,?,?,,,,,,,,
+GeForce RTX 2060[189],20190129,TU106,TSMC 12FFN,10.8,445,1920:120:48:240:30 (30) (3),PCIe 3.0 x16,3,960,1200,14000,6,336.0,GDDR6,192,57.6,144,4608,144.0,9216,,,,80
+GeForce RTX 2060 Max-Q[190],,,,,,,,,975,1175,11000,,264.0,,,56.88,142.2,4550,142.2,9101,,,,65
+GeForce RTX 2070[191],,,,,,2304:144:64:288:36 (36) (3),,4,1215,1440,14000,8,448.0,,256,92.16,207.4,6636,207.4,13270,,,,115
+GeForce RTX 2070 Max-Q[192],,,,,,,,,885,1185,12000,,,,,75.84,170.6,5460,170.6,10920,,,,80
+GeForce RTX 2070 Super[193],20200402,TU104,,13.6,545,2560:160:64:320:40 (40) (5),,,1140,1380,14000,,,,,88.3,220.8,7066,220.8,14130,,,,115
+GeForce RTX 2070 Super Max-Q[194],,,,,,,,,930,1155,12000,,,,,69.1,172.8,5530,172.8,11060,,,,80
+GeForce RTX 2080[195],20190129,,,,,2944:184:64:368:46 (46) (6),,,1380,1590,14000,,384.0,,,101.8,292.6,9362,292.6,18720,,,,150
+GeForce RTX 2080 Max-Q[196],,,,,,,,,735,1095,12000,,,,,70.08,201.5,6447,201.5,12890,,,,80
+GeForce RTX 2080 Super[197],20200402,,,,,3072:192:64:384:48 (48) (6),,,1365,1560,14000,,448.0,,,99.8,299.5,9585,299.5,19170,,,,150
+GeForce RTX 2080 Super Max-Q[198],,,,,,,,,735,1080,11000,,352.0,,,69.1,207.4,6636,207.4,13270,,,,80

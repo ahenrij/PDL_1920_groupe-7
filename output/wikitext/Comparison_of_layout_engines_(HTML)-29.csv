@@ -1,0 +1,14 @@
+,Trident,Gecko,WebKit,KHTML,Presto
+Basic structure,,,,,
+form,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+fieldset,,,,,
+legend,,,,,
+Form controls and labels,,,,,
+button,"4.0Prior to Internet Explorer 8.0 (trident 4.0), and in earlier compatibility modes, the innerText is submitted instead of the value attribute.[3]group=note",rowspan="4" 1.0,rowspan="4" ,rowspan="3" ,rowspan="4" 1.0
+textarea,rowspan="3" 4.0,,,,
+input,,,,,
+label,3.4.2<label> was focusable prior to KHTML 3.4.2.date=August 2010group=note,,,,
+List boxes (combo boxes),,,,,
+select,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+optgroup,,,,,
+option,,,,,

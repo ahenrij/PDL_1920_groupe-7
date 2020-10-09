@@ -1,0 +1,14 @@
+Implementation,Namespace,Build tools,API manual,Crypto back-end,OpenSSL compatibility Layerdate=November 2013
+Botan,Botan::TLS,Makefile,Sphinx,Included (pluggable),
+Bouncy Castle,org.bouncycastle,Java Development Environment,Programmers reference manual (PDF),Included (pluggable),
+cryptlib,crypt*,"makefile, MSVC project workspaces","Programmers reference manual (PDF), architecture design manual (PDF)",Included (monolithic),
+GnuTLS,gnutls_*,"Autoconf, automake, libtool","Manual and API reference (HTML, PDF)","External, libnettle",
+JSSE,javax.net.ssl sun.security.ssl,Makefile,API Reference (HTML) + security/jsse/JSSERefGuide.htmlJSSE Reference Guide,"Java Cryptography Architecture, Java Cryptography Extension",
+MatrixSSL,matrixSsl_* ps*,"Makefile, MSVC project workspaces, Xcode projects for OS X and iOS","API Reference (PDF), Integration Guide",Included (pluggable),"
+Mbed TLS,mbedtls_ssl_* mbedtls_sha1_* mbedtls_md5_* mbedtls_x509* ...,"Makefile, CMake, MSVC project workspaces, yotta",API Reference + High Level and Module Level Documentation (HTML),Included (monolithic),
+NSS,CERT_* SEC_* SECKEY_* NSS_* PK11_* SSL_* ...,Makefile,Manual (HTML),"Included, PKCS#11 based[220]",
+OpenSSL,SSL_* SHA1_* MD5_* EVP_* ...,Makefile,Man pages,Included (monolithic),
+RSA BSAFE Micro-Edition Suite,R_*,Makefile,Developer's guide,Included,
+RSA BSAFE SSL-J,com.rsa.asn1group=dev_env_footnotesa com.rsa.certjgroup=dev_env_footnotesb com.rsa.jcpgroup=dev_env_footnotesc com.rsa.jsafegroup=dev_env_footnotesd com.rsa.sslgroup=dev_env_footnotese com.rsa.jssegroup=dev_env_footnotesf,Java classloader,"Javadoc, Developer's guide (HTML)",Included,
+wolfSSL,wolfSSL_* CyaSSL_* SSL_*,"Autoconf, automake, libtool, MSVC project workspaces, XCode projects, CodeWarrior projects, MPLAB X projects, Keil, IAR, Clang, GCC, e2Studio","Manual and API Reference (HTML, PDF)",Included (monolithic),
+Implementation,Namespace,Build tools,API manual,Crypto back-end,OpenSSL compatibility layer

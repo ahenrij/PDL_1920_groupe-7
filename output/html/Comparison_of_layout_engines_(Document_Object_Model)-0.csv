@@ -1,0 +1,53 @@
+,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+Exception LSException,,,,,,,
+DOM3,code,No,No,No[g 13],No,No,1.0
+Interface DOMImplementationLS,,,,,,,
+DOM3,createLSParser(),No,No,No,No,No,1.0
+,createLSSerializer(),,,,,,
+,createLSInput(),,,,,,
+,createLSOutput(),,,,,,
+Interface LSParser,,,,,,,
+DOM3,domConfig,No,No,No,No,No,1.0
+,filter,,,,,,
+,async,,,,,,
+,busy,,,,,,
+,parse(),,,,,,
+,parseURI(),,,,,,
+,parseWithContext(),,,,,,
+,abort(),,,,,,
+Interface LSInput,,,,,,,
+DOM3,characterStream,No,No,No,No,No,1.0
+,byteStream,,,,,,
+,stringData,,,,,,
+,systemId,,,,,,
+,publicId,,,,,,
+,baseURI,,,,,,
+,encoding,,,,,,
+,certifiedText,,,,,,
+Interface LSResourceResolver,,,,,,,
+DOM3,resolveResource(),No,No,No,No,No,No
+Interface LSParserFilter,,,,,,,
+DOM3,whatToShow,No,No,No,No,No,No
+,startElement(),,,,,,2.0
+,acceptNode(),,,,,,
+Interface LSProgressEvent,,,,,,,
+DOM3,input,No,No,No,No,No,No
+,position,,,,,,
+,totalSize,,,,,,
+Interface LSLoadEvent,,,,,,,
+DOM3,newDocument,No,No,No,No,No,2.0
+,input,,,,,,No
+Interface LSSerializer,,,,,,,
+DOM3,domConfig,No,No,No,No,No,1.0
+,newLine,,,,,,
+,filter,,,,,,
+,write(),,,,,,
+,writeToURI(),,,,,,
+,writeToString(),,,,,,
+Interface LSOutput,,,,,,,
+DOM3,characterStream,No,No,No,No,No,1.0
+,byteStream,,,,,,
+,systemId,,,,,,
+,encoding,,,,,,
+Interface LSSerializerFilter,,,,,,,
+DOM3,whatToShow,No,No,No,No,No,No

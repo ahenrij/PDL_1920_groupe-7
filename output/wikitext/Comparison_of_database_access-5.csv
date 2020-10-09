@@ -1,0 +1,2 @@
+! Read value,Change value,Search,Inserting
+django,lang=python1=table_var."field_name",lang=python1=table_var."field_name" = \ "value",lang=python1=table_var = \ Table.objects.filter( "expr" )

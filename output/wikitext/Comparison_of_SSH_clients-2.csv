@@ -1,0 +1,18 @@
+Name,User interface,SSH1,SSH2,Additional protocols,,Port forwarding and Tunneling,,,Session multiplexing group=Notemux,Kerberos,IPv6,Terminal,SFTP/SCP,Proxy clientgroup=NoteconnectViaProxy
+,,,,TELNET,rlogin,Port forwarding,SOCKS group=NoteSOCKS,VPN group=NoteVPN,,,,,,
+AbsoluteTelnet,"GUI (multi-session, single-window)",,,,,,,,,,,,,"SOCKS 4, 5; HTTP"
+Bitvise SSH Client,GUI or command line,,,,,,,,,,,,,"SOCKS 4, 5"
+Dropbear,command line,,,,,,,,,,,,,
+lsh,command line,,,,,,,,,,,,,
+OpenSSH (OpenBSD Secure Shell),command line,group=Noteopenssh-drops-ssh1,,,,,,,,,,,, ProxyCommand 
+PuTTY,GUI or command line,,,,,,,,,group=Noteputty_kerberos,,,group=Notescp_bin,"SOCKS 4, 5; HTTP; Telnet; Local"
+SecureCRT,GUI,,,,,,,,,,,,,"SOCKS 4, 5; HTTP; Telnet; Generic"
+SmartFTP,"GUI (multi-session, single-window)",,,,,,,,,,,,,"SOCKS 4, 5; HTTP"
+Tera Term,GUI,,,,,,,,,,,,SCP,"SOCKS 4, 5; HTTP; Telnet"
+TN3270 Plus,GUI,,,,,,,,,,,,,SOCKS 4
+TtyEmulator,GUI or command line,,,,,,,,,,,,,"SOCKS 4,4a, 5; HTTP Local"
+WinSCP group=Notewinscp_contributions,GUI or command line,,,,,limitedgroup=Notewinscp_tunneling,,,,,,simple,,-->
+wolfSSH,command line,,,,,,,,,,,simple,,-->
+ZOC,TDI or command line,,,,,,,,,,,,SCP through terminalgroup=Notezoc_scp_through_terminal,SOCKS 4; 5; HTTP; Jumpserver
+Name,User interface,SSH1,SSH2,Additional protocols,,Tunneling,,,Session multiplexing group=Notemux,Kerberos,IPv6,Terminal,SFTP/SCP,Proxy clientgroup=NoteconnectViaProxy
+,,,,TELNET,rlogin,Port forwarding,SOCKS group=NoteSOCKS,VPN group=NoteVPN,,,,,,

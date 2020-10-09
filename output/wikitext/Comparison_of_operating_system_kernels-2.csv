@@ -1,0 +1,11 @@
+Kernel Name,a.out,ECOFF,ELF,FDPIC ELF binaries (mmu less),flat binaries (superH),HUNK,Mach-O,"Misc (wrapper based, like interpreters)",PE,"SOM (PA-RISC, HP-UX)",NLM,PEF,DOS COM,MZ,LE,LX,NE
+Amiga Exec,,,,,,,,,,,,,,,,,
+DragonFly BSD kernel,,,,,,,,,,,,,,,,,
+HP-UX kernel,,,,,,,,,,,,,,,,,
+Linux kernel,,,,,,,,,,! -->binfmt_misc,! --> and run them using Wine,,,,,,
+MINIX 3 kernel,,,,,,,,,,,,,,,,,
+NetBSD kernel,,,,,,,,,,,,,,,,,
+ReactOS kernel,,,,,,,,,,,,,,,,,
+Solaris kernel,,,,,,,,,,,,,,,,,
+Windows NT kernel,,,Yes with WSL,,,,,,,,,,Yes on x86,Yes on x86,,,Yes on x86
+XNU,,,,,,,,,,,,,,,,,

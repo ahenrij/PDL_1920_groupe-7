@@ -1,0 +1,11 @@
+!General linear model,Generalized linear model
+Typical estimation method,"Least squares, best linear unbiased prediction"
+Examples,"ANOVA, ANCOVA, linear regression"
+Extensions and related methods,"MANOVA, MANCOVA, linear mixed model"
+R package and function,lm() in stats package (base R)
+Matlab function,mvregress()
+SAS procedures,"PROC GLM, PROC REG"
+Stata command,regress
+SPSS command,"regression, glm"
+Wolfram Language & Mathematica function,LinearModelFit[][9]
+EViews command,ls[11]

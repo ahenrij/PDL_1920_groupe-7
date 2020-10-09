@@ -25,7 +25,7 @@ clone https://github.com/awadiaby/PDL_1920_groupe-7/ for development and testing
 * java IDE  (Eclispe,Intelliji Idea etc..)
 * [Maven](https://maven.apache.org/) - Dependency Management to get all dependencies of this project.
 * for installing and testing we are inviting you to click on, this below link
-[Install.md](https://github.com/manuc352/PDL_1920_groupe-7/blob/master/INSTALL.md)
+[Install.md](https://github.com/awadiaby/PDL_1920_groupe-7/blob/master/INSTALL.md)
 * you will see A step by step series of examples that tell you how to install  and test this,after that
 you can run the project for testing and extracting csv files from wikipedia pages which are 
 available in the directory inputdat--> wikiurls.txt.
@@ -71,12 +71,6 @@ For the versions available, see the [tags on this repository](https://github.com
 
 ## Authors
 As we have already said it this project has been developed by those students
-* Jocelin DEGNI
-* Yann ATTOUBE
-* Anderson KONAN
-* Kiko DAGNOGO
-
-now it's our turn to improve their work 
 
 * Emmanuel CHAUVEL 
 * Narcisse KOUADIO
@@ -85,12 +79,10 @@ now it's our turn to improve their work
 * Karima GRAMI
 
 
-
 now it's our turn to improve their work 
 
-
 * Awa Diaby
-* Thibaud
+* Thibaut Assogba
 * Maurice Aka
 * Safietou Diallo
 

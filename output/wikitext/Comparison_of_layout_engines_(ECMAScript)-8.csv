@@ -1,0 +1,11 @@
+Boolean object,Trident,Gecko,WebKit,Presto,Blink
+Called as function,,,,,
+Boolean([value]),,,,,
+Called as constructor,,,,,
+new Boolean([value]),3.0,,,,
+Properties,,,,,
+prototype,4.0,,,,
+Properties of prototype,,,,,
+constructor,4.0,,,,
+toString(),4.0,,,,
+valueOf(),4.0,,,,

@@ -1,0 +1,21 @@
+NativeError object,Trident,Gecko,WebKit,Presto
+Called as function,,,,
+EvalError (message),?,1.0,,?
+RangeError (message),?,1.0,,?
+ReferenceError (message),?,1.0,,?
+SyntaxError (message),?,1.0,,?
+TypeError (message),?,1.0,,?
+URIError (message),?,1.0,,?
+Called as constructor,,,,
+new EvalError (message),?,1.0,,?
+new RangeError (message),?,1.0,,?
+new ReferenceError (message),?,1.0,,?
+new SyntaxError (message),?,1.0,,?
+new TypeError (message),?,1.0,,?
+new URIError (message),?,1.0,,?
+Properties,,,,
+prototype,?,1.0,?,?
+Properties of prototype,,,,
+constructor,?,1.0,?,?
+name,?,1.0,,?
+message,?,1.0,,?

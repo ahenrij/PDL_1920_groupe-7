@@ -1,0 +1,60 @@
+Client,Author/Developer,Operating system,Software license,User Interface
+Alpine,University of Washington,Cross-platform,Apache License 2.0,TUI
+Apple Mail,Apple,"macOS, iOS, watchOS",,GUI (Cocoa)
+Balsa,Stuart Parmenter,Linux,GNU General Public License,GUI (GTK3)
+Becky! Internet Mail,Rimarts,Windows,,GUI
+BlitzMail,Dartmouth College,,BSD licenses,GUI
+Citadel,citadel.org,Unix-like,GNU General Public License,Webmail
+Claws Mail,the Claws Mail team,Cross-platform,GNU General Public License,GUI (GTK2)
+Cone,Courier Mail Server developers,Unix-like,GNU General Public License,TUI
+Courier (formerly Calypso),"Micro Computer Systems, Inc., continued by Rose City Software",Windows,,GUI
+Elm,"Dave Taylor, Sydney Weinstein, Bill Pemberton, Michael Elkins, Kari Hurtta",Unix-like,,TUI
+eM Client,eM Client Inc.,"Windows, macOS",,GUI
+EmailTray,Internet Promotion Agency S.A.,"Windows, Android",,GUI
+Eudora OSE,Qualcomm,"Windows, macOS",,GUI
+Evolution,The GNOME Project,Unix-like,GNU General Public License,GUI (GTK)
+FirstClass,Open Text,,,GUI
+Forté Agent,Mark Sidell,Windows,,GUI
+Geary,Yorba Foundation,Unix-like,GNU LGPL v2.1,GUI (GTK)
+GNUMail,Ludovic Marcotte and others,"Unix-like, macOS",GNU General Public License,GUI
+Gnus,Gnus team,Cross-platform,GNU General Public License,TUI and GUI
+GroupWise,Micro Focus (formerly Novell),Cross-platform,,GUI
+Hiri,Hiri,Cross-platform,,GUI
+"i.Scribe, InScribe",Memecode,"Windows, macOS, Linux",,GUI
+HCL Notes (formerly IBM Notes and IBM Lotus Notes),"HCL Technologies (formerly IBM and Lotus Software), HCL Technologies","Windows, macOS, Linux",,"GUI (Notes), Web (Verse, iNotes) and Mobile (Traveler)"
+IMP,Horde LLC,Cross-platform,GNU General Public License,Webmail
+K-9 Mail,"K-9 Dog Walkers: cketti, et al.",Android,Apache License 2.0,GUI
+KMail,KDE,Cross-platform,GNU General Public License,GUI (Qt)
+Mail (Windows),Microsoft,Windows,,GUI
+Mailbird,Mailbird,Windows,,GUI
+Mailpile,Mailpile,"Linux, Windows, macOS",Affero General Public License and Apache License 2.0,Webmail
+mailx,,Unix-like,BSD Licenses,TUI
+Microsoft Entourage,Microsoft,macOS,,GUI
+Microsoft Outlook,Microsoft,"Windows, macOS",,GUI
+Mozilla Mail & Newsgroups,Mozilla Foundation,,Mozilla Public License,GUI (XUL)
+Mozilla Thunderbird,Mozilla Foundation,Cross-platform,Mozilla Public License,GUI (XUL)
+Mulberry,"Cyrus Daboo (formerly Cyrusoft International, Inc./ISAMET)",Cross-platform,Apache License 2.0,GUI
+Mutt,Michael Elkins,Cross-platform,GNU General Public License,TUI (ncurses)
+Netscape Messenger,Netscape Communications,,?,GUI
+Netscape Messenger 9,Netscape Communications,,Mozilla Public License,GUI
+Nylas Mail,Nylas,"macOS, Linux, Windows",MIT,GUI
+nmh / MH,RAND Corporation,Unix-like,BSD Licenses,CLI
+Opera Mail,Opera Software,Cross-platform,,GUI
+Outlook Express,Microsoft,Windows,,GUI
+Pegasus Mail,David Harris,Windows,,GUI
+Pine,University of Washington,Cross-platform,,TUI
+Pocomail,Poco Systems,Windows,,GUI
+RoundCube,The RoundCube Team,Cross-platform,GNU General Public License,Webmail
+SeaMonkey Mail & Newsgroups,SeaMonkey Council,Cross-platform,Mozilla Public License,GUI (XUL)
+Spark,Readdle,macOS,,GUI
+Spicebird,Synovel,"Windows, Linux, BSD",Mozilla Public License,GUI (XUL)
+SquirrelMail,The SquirrelMail Project Team,Cross-platform,GNU General Public License,Webmail
+Sylpheed,Hiroyuki Yamamoto,Cross-platform,GNU General Public License,GUI (GTK2)
+The Bat!,RitLabs,Windows,,GUI
+Trojitá,KDE,Cross-platform,GNU General Public License,GUI (Qt)
+Turnpike,Thus PLC (Demon Internet),Windows,,GUI
+Windows Live Mail,Microsoft,Windows,,GUI
+Windows Mail (Vista),Microsoft,Windows,,GUI
+YAM,YAM Open Source Team and contributing authors,AmigaOS,GNU General Public License,GUI
+Zimbra Desktop,Zimbra,Cross-platform,Mozilla Public License for server and ZPL for client,GUI
+Client,Author/Developer,Operating system,Software license,User interface

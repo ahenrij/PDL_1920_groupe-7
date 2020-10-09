@@ -1,0 +1,24 @@
+Shell,Pipes,Command substitution,Process substitution,Subshells,TCP/UDP connections as streams,Keystroke stacking
+Bourne shell,bytes concurrent,,,,,
+POSIX shell,bytes concurrent,,,,,
+bash (v4.0),bytes concurrent,,Yes (if system supports /dev/fd/n or named pipes),,Yes (client only),
+csh,bytes concurrent,,,,,
+tcsh,bytes concurrent,,,,,
+Hamilton C shell,bytes concurrent,,,,,?
+Scsh,text,?,?,?,,
+ksh (ksh93t+),bytes (may contain serialized objects if print -C is used) concurrent,Yes ($(...) and ${<space>...;),Yes (if system supports /dev/fd/n),,"Yes (and SCTP support, client only)",
+pdksh,bytes concurrent,,,,,
+zsh,bytes concurrent,,,,"Yes (client and server, but only TCP)",
+ash,bytes concurrent,,,,,
+CCP,,,,,,
+COMMAND.COM,text sequential temporary files,,,COMMAND.COM /T),,
+OS/2 CMD.EXE,text concurrent,,,?,,
+Windows CMD.EXE,text concurrent,Yes (via FOR /F command),,Yes (Backtick: ` in FOR /F usebackq),,
+4DOS,text sequential temporary files,Yes (via FOR /F command),?,"%@EXECSTR[] and %@EXEC[], or via SET /M, ESET /M and UNSET /M and %@MASTER[...])",,KEYSTACK and KSTACK)[70]
+4OS2,text concurrent,?,?,?,,KEYSTACK)
+TCC (formerly 4NT),text concurrent,Yes (via FOR /F command),?,%@EXECSTR[] and %@EXEC[]),"FTP, TFTP, FTPS, SFTP, HTTP, HTTPS and IFTP, client only)",KEYSTACK)
+PowerShell,objects concurrent,,,,,?
+rc,text concurrent,,Yes (via: <{cmd if system supports /dev/fd/n),,,?
+BeanShell,not supported,?,?,?,,?
+VMS DCL,text (via PIPE command),,,Yes (spawn),Yes (server TCP only),
+fish,bytes concurrent,...),No (broken)[71],,,

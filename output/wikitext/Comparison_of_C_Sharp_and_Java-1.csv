@@ -1,0 +1,10 @@
+Native interoperability,Java,C#
+Cross-language interoperability,",
+External/native methods,,
+Marshalling,External glue code needed,
+Pointers and arithmetics,,
+Native types,,
+Fixed-size buffers,,
+Explicit stack allocation,,
+Address-of,,
+Object pinning (fix variable to address),,

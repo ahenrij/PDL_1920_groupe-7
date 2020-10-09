@@ -1,0 +1,10 @@
+IDE,License,Developer,Latest stable release,Windows,Linux,macOS,Other platforms
+Microsoft Visual Studio,,Microsoft,"2019-04-1216.0.2 / April 18, 2019",,,,
+MonoDevelop,LGPL,Xamarin and the Mono community,"2016-11-11 6.1.2.44 / November 11, 2016",,,,"FreeBSD, OpenBSD, Solaris"
+SharpDevelop,LGPL,IC#Code Team,"2016-04-14 5.1 / April 14, 2016",,,,
+SlickEdit,,SlickEdit,October 2016,,,,"Solaris, Solaris SPARC, AIX, HP-UX"
+Understand,,SciTools,"2015-12-04 814 / December 4, 2015",,,,Solaris
+Visual Studio Code,source code(MIT License) - binary(Proprietary),Microsoft,"2020-09-10 1.49.0 / September 10, 2020",,,,
+Xamarin Studio,source code(MIT License) - binary(Proprietary),Microsoft,December 2016,,,,
+Eclipse,EPL,Eclipse Foundation,"2017-06-284.7 / June 28, 2017",,,,
+Rider,,JetBrains,"2019-12-112019.3 / December 11, 2019",,,,

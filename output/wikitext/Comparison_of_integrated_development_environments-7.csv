@@ -1,0 +1,21 @@
+IDE,Developer,Latest stable release,Platform,License,Autocomplete,Debugger,Refactoring support,VCS Support
+Adobe Dreamweaver,Adobe Systems,-,Cross-platform,,,,,
+Aptana Studio,"Aptana, Inc.","December 2013, 3.5.0",Cross-platform,"GPL, proprietary",,,,via plugins
+CodeLite,CodeLite,"October 2015, 9.0",Cross-platform,GPL,,,,"Git, SVN"
+Codelobster,Codelobster,"March 2018, 5.14.5",Windows,,,,,via plugins
+Eclipse Che,Eclipse Foundation / Zend,"4.7 / September 2, 2016",Cross-platform,EPL,,,,
+Eclipse PDT,Eclipse Foundation / Zend,"7.0 / December 18, 2019","Windows, Linux, macOS, FreeBSD, JVM, Solaris",EPL,,,,"CVS, Git, Mercurial, SVN (via plugins)"
+Geany,Geany Team,"1.27 / March 13, 2016","Windows, Linux, macOS, FreeBSD, AIX, OpenBSD, Solaris, other Unix",GPL,,,,via plugins
+HTML-Kit,Chami.com,292,Windows (all),,,,,
+HyperEdit,Jonathan Deutsch / Tumult,"1.6 / April 30, 2008",macOS,,,,,
+KDevelop,KDE KDevelop Team,,Cross-platform,GPL,,,,"CVS, Git, SVN"
+Komodo IDE / Edit,ActiveState,10.0.1 (June 2016),Cross-platform,,,,,"Bazaar, CVS, Git, Mercurial, Perforce, SVN"
+NetBeans,Sun Microsystems / Oracle,,Cross-platform on Netbeans,"CDDL, GPL",,,,"CVS, Git, Mercurial, SVN"
+PHPEclipse (Eclipse),PHPEclipse project team,1.2.2 / September 2009,"Windows, Linux, macOS, FreeBSD, JVM, Solaris",CPL,,,,
+PhpED Professional,NuSphere Corporation,"19.111 / May, 2019",Windows,,,,,"CVS, SVN, any other Windows-shell integrated"
+PHPEdit,WaterProof SARL, article =  latest release version = 3.6.4  latest release date = 20100409 ,Windows,,,,,"CVS, SVN"
+PhpStorm (IntelliJ IDEA),JetBrains,2019.1 / 28 March 2019,"Windows, Linux, macOS, FreeBSD, OpenBSD, Solaris",,,,,"CVS, Git, Mercurial, Perforce, SVN"
+Quanta Plus,KDE Web Dev Team,"3.5.8 / October 16, 2007",Linux,GPL,,,,
+RadPHP (formerly Delphi for PHP),Embarcadero Technologies,"XE2 / August 30, 2011",Windows,,,,,
+SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, AIX, HP-UX, Solaris",,,,,
+Zend Studio,Zend,10.6 / February 2014,Cross-platform,,,,,"CVS, Git, SVN, others (via plugins)"

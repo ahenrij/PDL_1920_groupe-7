@@ -1,0 +1,27 @@
+Name,GUI,CLI,Scripting,Horizontal / vertical,Syntax highlighting,Reports
+Beyond Compare,,,,Both,,"XML, HTML, CSV, Text, Unix Patch"
+Compare++,,,,Both,,"HTML, Text(combined or side-by-side) "
+diff,,,,Horizontal,,
+diff3,,,,Horizontal,,
+Eclipse (compare),,,,Vertical,,
+Ediff,,,elisp,Both,,
+ExamDiff Pro,,,,optional,,"UNIX, HTML, Diff"
+Far Manager (compare),,,,,,
+fc,,,,Horizontal,,
+FileMerge (aka opendiff),,,,Vertical,,
+Guiffy SureMerge,,,Java API,Both,,"HTML, Text, Unix Patch"
+IntelliJ IDEA (compare),,,,Vertical,,
+jEdit JDiff plugin,,,,Both,,
+Kompare,,,,Vertical,,
+Lazarus Diff,,,,,,
+Meld,,,,Horizontal,,
+Notepad++ (compare),,,,Both,,
+Perforce P4Merge,,,,Vertical,,
+Pretty Diff,,,JavaScript,Both,, XHTML
+Tkdiff,,,,,,
+Total Commander (compare),,,,Both,,
+vimdiff,,,vim script,Both,,HTML
+WinDiff,,,,Horizontal,,Text
+WinMerge,,,,Both,,"CSV, Tab-delimited, HTML, XML"
+UCC,,,,Vertical,,"Text, CSV"
+Name,GUI,CLI,Scripting,Horizontal / vertical,Syntax highlighting,Reports

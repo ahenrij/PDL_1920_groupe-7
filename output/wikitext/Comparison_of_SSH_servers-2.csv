@@ -1,0 +1,9 @@
+Name,Mac OS X,Mac OS classic,Windows,Cygwin,BSD,Linux,Solaris,Java,OpenVMS,z/OS,AmigaOS,AIX,HPUX,"iOS: iPhone,group=Noteiphone iPod Touch",webOS,Android
+Apache MINA SSHD,,,,,,,,,,,,,,,,
+Bitvise SSH Server,,,,,,,,,,,,,,,,
+CopSSH,,,,,,,,,,,,,,,,
+CrushFTP Server,,,,,,,,,,,,,,,,
+Dropbear,,,,,,,,,,,,,,,group=Notesshwebos,
+lsh,,,,,group=Notefreebsdonly,,,,,,,,,,,??
+OpenSSH (OpenBSD Secure Shell),,,group=Notewin32-openssh,,,group=Noteopensshlinux,,,,,,group=Noteopensshaix,,group=Noteopensshiphone,group=Notesshwebos,
+wolfSSH,,,,,,,,,,,,??,??,,??,

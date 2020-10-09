@@ -1,0 +1,3 @@
+,Trident,Gecko,WebKit,Presto
+getContext,rowspan="2" 5.0,1.8,,2.0
+toDataURL,1.8[325],,2.1[327],

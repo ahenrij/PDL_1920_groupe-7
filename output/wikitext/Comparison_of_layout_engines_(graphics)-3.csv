@@ -1,0 +1,8 @@
+,,Trident,EdgeHTML,Gecko,WebKit,Blink,KHTML[12],Presto
+Color mode[14],True color,rowspan="3" 3.1,rowspan="3" ,rowspan="3" 1.0,rowspan="3" 85,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+,Grayscale,,,,,,,
+,Palette-based,,,,,,,
+Alpha channel,,3.1,,1.0,85,,,1.0
+Gamma correction,,rowspan="2" 5.0[15],,3.5[16],Webkit incorrectly applies gamma correction to unlabeled PNGs.[17]group=n,,,Presto supported gamma correction for all color profiles except for ICC-profile.[19]group=nname=gamma-correction
+Color correction,,,1.9,,,,,
+Interlacing,,,,1.0,,,4.0,1.0

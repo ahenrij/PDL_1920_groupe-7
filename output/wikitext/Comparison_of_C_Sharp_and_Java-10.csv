@@ -1,0 +1,10 @@
+Generics,Java,C#
+Implementation,Type erasure,Reification
+Runtime realization,,
+Type variance,Use-site,Declaration-site (only on interfaces)
+Reference type constraint,,
+Value/primitive type constraint,,
+Constructor constraint,,
+Subtype constraint,,
+Supertype constraint,,
+Migration compatibility,,

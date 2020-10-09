@@ -1,0 +1,8 @@
+,,,Trident,Gecko,WebKit,Blink,Presto,KHTML,Prince,Amaya,Batik,Renesis,LeonLabs
+SVG,1.1,Tiny (SVGT),5.0[t 1],Partial[g 1],Partial,Partial,1.0,Partial[note 1],Partial,Partial,Mostly,Partial,Partial
+,,Basic (SVGB),,,,,Mostly,,,,,,
+,,Full,,,,,,,,,,,
+,1.2,Tiny,No,No,No,No,2.1,No,?,?,Partial,Partial,Partial
+,,Full,,,,,No,,No,No,No,No,No
+sXBL,,,,,,,,,,,Yes,,
+XBL 2.0,,,,,,,,,,,No,,

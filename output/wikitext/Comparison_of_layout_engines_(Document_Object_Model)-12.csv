@@ -1,0 +1,84 @@
+,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
+Interface CSSStyleSheet,,,,,,,
+DOM2,ownerRule,rowspan="4" ,?,rowspan="4" 1.0,?,?,rowspan="4" 2.0
+,cssRules,,1.3,?,,,
+,insertRule(),rowspan="2" ,rowspan="2" ,?,,,
+,deleteRule(),?,,,,,
+Interface StyleSheetList,,,,,,,
+DOM2,length,rowspan="2" 6.0,?,rowspan="2" 1.0,?,?,rowspan="2" 2.0
+,item(),?,?,?,,,
+Interface CSSRuleList,,,,,,,
+DOM2,length,rowspan="2" ,?,rowspan="2" 1.0,?,?,rowspan="2" 2.0
+,item(),?,?,?,,,
+Interface CSSRule,,,,,,,
+DOM2,type,rowspan="4" ,?,rowspan="4" 1.0,?,?,rowspan="4" 2.0
+,cssText,rowspan="2" ,?,?,,,
+,parentStyleSheet,1.3,?,,,,
+,parentRule,?,?,?,,,
+Interface CSSStyleRule,,,,,,,
+DOM2,selectorText,6.0,,rowspan="2" 1.0,1.3,?,rowspan="2" 2.0
+,style,,?,?,?,,
+Interface CSSMediaRule,,,,,,,
+DOM2,media,rowspan="4" ,?,rowspan="4" 1.0,?,?,rowspan="4" 2.0
+,cssRules,?,?,?,,,
+,insertRule(),?,?,?,,,
+,deleteRule(),?,?,?,,,
+Interface CSSFontFaceRule,,,,,,,
+DOM2,style,,?,1.9.1[9],?,?,2.0
+Interface CSSPageRule,,,,,,,
+DOM2,selectorText,rowspan="2" ,?,rowspan="2" ,?,?,rowspan="2" 2.0
+,style,?,?,?,,,
+Interface CSSImportRule,,,,,,,
+DOM2,href,rowspan="3" ,,rowspan="3" 1.0,1.3,?,rowspan="3" 2.0
+,media,?,?,?,,,
+,styleSheet,?,?,?,,,
+Interface CSSCharsetRule,,,,,,,
+DOM2,encoding,,?,1.0,?,?,2.0
+Interface CSSUnknownRule,,,,,,,
+DOM2,(no properties),,?,,?,?,2.0
+Interface CSSStyleDeclaration,,,,,,,
+DOM2,cssText,rowspan="9" ,?,rowspan="4" 1.0,?,?,rowspan="3" 2.0
+,length,?,?,?,,,
+,parentRule,?,?,?,,,
+,getPropertyValue(),,1.3,?,1.0,,
+,getPropertyCSSValue(),?,,?,?,2.0,
+,removeProperty(),,rowspan="4" 1.0,1.3,?,1.0,
+,getPropertyPriority(),Incorrect,?,?,2.0,,
+,setProperty(),,1.3,?,1.0,,
+,item(),?,?,?,2.0,,
+Interface CSSValue,,,,,,,
+DOM2,cssText,rowspan="2" ,?,rowspan="2" ,?,?,rowspan="2" 
+,cssValueType,?,?,?,,,
+Interface CSSPrimitiveValue,,,,,,,
+DOM2,primitiveType,rowspan="8" ,?,,?,?,rowspan="8" 
+,setFloatValue(),?,rowspan="7" ,?,?,,
+,getFloatValue(),?,?,?,,,
+,setStringValue(),?,?,?,,,
+,getStringValue(),?,?,?,,,
+,getCounterValue(),?,?,?,,,
+,getRectValue(),?,?,?,,,
+,getRGBColorValue(),?,?,?,,,
+Interface CSSValueList,,,,,,,
+DOM2,length,rowspan="2" ,?,rowspan="2" ,?,?,rowspan="2" 
+,item(),?,?,?,,,
+Interface RGBColor,,,,,,,
+DOM2,red,rowspan="3" ,?,rowspan="3" ,?,?,rowspan="3" 
+,green,?,?,?,,,
+,blue,?,?,?,,,
+Interface Rect,,,,,,,
+DOM2,top,rowspan="4" ,?,rowspan="4" ,?,?,rowspan="4" 
+,right,?,?,?,,,
+,bottom,?,?,?,,,
+,left,?,?,?,,,
+Interface Counter,,,,,,,
+DOM2,identifier,rowspan="3" ,?,rowspan="3" ,?,?,rowspan="3" 
+,listStyle,?,?,?,,,
+,separator,?,?,?,,,
+Interface ViewCSS,,,,,,,
+DOM2,getComputedStyle(),,,1.0,,?,1.0
+Interface DocumentCSS,,,,,,,
+DOM2,getOverrideStyle(),,?,,?,?,
+Interface DOMImplementationCSS,,,,,,,
+DOM2,createCSSStyleSheet(),,?,,?,?,
+Interface ElementCSSInlineStyle,,,,,,,
+DOM2,style,6.0,,1.0,1.3,,1.0

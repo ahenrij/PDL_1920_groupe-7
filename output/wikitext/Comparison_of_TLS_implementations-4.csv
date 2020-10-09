@@ -1,0 +1,29 @@
+Implementation,Block cipher with mode of operation,,,,Stream cipher,
+,IDEA CBC group="n"name="removal_from_tls1.2"IDEA and DES have been removed from TLS 1.2.[133](insecure)[134],DES CBC (insecure) [135],"DES-40 CBC (EXPORT, insecure) [136]","RC2-40 CBC (EXPORT, insecure) [136]",RC4-128 (insecure) [137],"RC4-40 (EXPORT, insecure) [138][136]"
+Botan,No,No,No,No,No[139],No
+BoringSSL,No,No,No,No,Disabled by default at compile time,No
+cryptlib,No,Disabled by default at compile time,No,No,Disabled by default at compile time,No
+GnuTLS,No,No,No,No,Disabled by default[19],No
+JSSE,No,Disabled by default,Disabled by default,No,Disabled by default,Disabled by default [140]
+LibreSSL,Yes,Yes,No[23],No[23],Yes,No[23]
+MatrixSSL,Yes,No,No,No,Disabled by default,No
+Mbed TLS,No,Disabled by default at compile time,No,No,Disabled by default at compile time[26],No
+NSS,Yes,Disabled by default,Disabled by default,Disabled by default,Lowest priority[141][142],Disabled by default
+OpenSSL,Disabled by default[32],Disabled by default,No[32],No[32],Disabled by default,No[32]
+RSA BSAFE Micro-Edition Suite,No,No,No,No,Disabled by default,No
+RSA BSAFE SSL-J,No,Disabled by default,Disabled by default,No,Disabled by default,Disabled by default
+SChannel XP/2003,No,Yes,Yes,Yes,Yes,Yes
+SChannel Vista/2008,No,Disabled by default,Disabled by default,Disabled by default,Yes,Disabled by default
+SChannel 7/2008R2,No,Disabled by default,Disabled by default,Disabled by default,Lowest priority will be disabled soon[143],Disabled by default
+SChannel 8/2012,No,Disabled by default,Disabled by default,Disabled by default,Only as fallback,Disabled by default
+SChannel 8.1/2012R2,No,Disabled by default,Disabled by default,Disabled by default,Disabled by default[143],Disabled by default
+Schannel 10[132],No,Disabled by default,Disabled by default,Disabled by default,Disabled by default[143],Disabled by default
+Secure Transport OS X 10.6,Yes,Yes,Yes,Yes,Yes,Yes
+Secure Transport OS X 10.7,Yes,,,,Yes,
+Secure Transport OS X 10.8-10.9,Yes,Disabled by default,Disabled by default,Disabled by default,Yes,Disabled by default
+Secure Transport OS X 10.10-10.11,Yes,Disabled by default,Disabled by default,Disabled by default,Lowest priority,Disabled by default
+Secure Transport macOS 10.12,Yes,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default
+wolfSSL,Disabled by default[144],No,No,No,Disabled by default,No
+Erlang/OTP SSL application,no,Disabled by default,no,no,Disabled by default,no
+Implementation,Block cipher with mode of operation,,,,Stream cipher,
+,IDEA CBC [135](insecure)[134],DES CBC (insecure) [135],"DES-40 CBC (EXPORT, insecure) [136]","RC2-40 CBC (EXPORT, insecure) [136]",RC4-128 (insecure) [137],"RC4-40 (EXPORT, insecure) [138][136]"
