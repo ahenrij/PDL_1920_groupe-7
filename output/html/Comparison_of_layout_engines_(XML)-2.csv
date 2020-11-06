@@ -1,13 +1,4 @@
 ,Trident,Gecko,WebKit,KHTML,Presto,Prince XML,Antenna House
-<<<<<<< HEAD
-XML namespace[spec 1],5.0,1.0,?,Yes,1.0,5.1,Yes
-xml:id[spec 2],No,No[g 1],No,No,2.0,,Yes
-XML Events[spec 3],No,1.8,?,?,1.0,?,No
-XInclude[spec 4],3.1,No[g 2],No,?,No,5.1,No
-XML Fragment Interchange[spec 5],?,?,?,?,?,?,No
-Associating CSS,<3.1[IE 5.0],1.0,419,Yes,1.0,Yes,Yes
-=======
-DTD,No,Partial[note 4],No[w 6],No,Partial[note 5],3.0,Depends[a 1]
-XML Schema[spec 18][spec 19][spec 20][spec 21],?,Partial,No,?,No,?,Depends[a 1]
-RELAX NG[spec 22],?,No[g 9],,?,,?,Depends[a 1]
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+XLink[spec 10],5.0,Partial[note 2],No[w 2],No,Partial,Partial[note 3],Partial[a 2]
+XML Base[spec 11],No,1.0,No[w 3],Yes,Yes,6.0,Yes[a 3]
+XPointer[spec 12],?,Partial,No[w 4],No,No,?,No

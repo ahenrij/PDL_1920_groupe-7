@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-Definition,"right(string,n) returns string"
-Description,Returns the right n part of a string. If n is greater than the length of the string then most implementations return the whole string (exceptions exist – see code examples).
-=======
-Definition,length(string) returns an integer number
-Description,Returns the length of a string (not counting the null terminator or any other of the string's internal structural information). An empty string returns a length of 0.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Definition,"<string>.split(separator[, limit]) splits a string on separator, optionally only up to a limited number of substrings"
+Description,"Splits the given string by occurrences of the separator (itself a string) and returns a list (or array) of the substrings. If limit is given, after limit – 1 separators have been read, the rest of the string is made into the last substring, regardless of whether it has any separators in it. The Scheme and Erlang implementations are similar but differ in several ways. JavaScript differs also in that it cuts, it does not put the rest of the string into the last element. See the example here. The Cobra implementation will default to whitespace. Opposite of join."

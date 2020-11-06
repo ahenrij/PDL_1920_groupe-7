@@ -1,25 +1,16 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
-Radeon VE/7000,"Feb 19, 2001",RV100 (piglet),180,"AGP 4x, PCI",183,183,1:0:3:1,183,336,549,0,"32, 64",2.688,DDR,64
-Radeon LE/7100 (OEM),"May 1, 2001",Rage 6 / R100,,AGP 4x,150,150,2:1:6:2,296,296,888,37.5,32,4.736,,128
-Radeon SDR/7200,June 2000,,,"AGP 4x, PCI",166,166,,333,333,996,41.5,,2.656,SDR,
-Radeon DDR/7200,April 2000,,,AGP 4x,166/183A,166/183A,,333/366A,333/366A,966/1098A,41.5/45.75A,"32, 64",5.312/5.856A,DDR,
-Radeon DDR/7500 VIVO,2001,,,"AGP 4x, PCI",166/183B,166/183B,,333/366B,333/366B,966/1098B,41.5/45.75B,64,5.312/5.856B,,
-Radeon DDR/7500 VIVO "SE",,,,,200,200,,400,400,1200,50.0,,6.400,,
-Radeon 7500 LE,N/A,RV200 (morpheus),150,,250,175,,500,500,1500,62.5,"32, 64",5.600,,
-Radeon 7500,"Aug 14, 2001",RV200 (morpheus),,,290,230,,580,580,1740,72.5,"32, 64, 128[18]",7.360,,
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
-,,,,,,,,Fillrate,,,,Memory,,,
-=======
-Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config,Fillrate,,Memory,,,,API compliance (version),,Processing power (GFLOPS),Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
-Mobility Radeon X2300,"March 1, 2007",M64,RV515,90,PCIe x16,480,400,2:4:4:41,1.92,1.92,128,6.4 12.8,DDR DDR2 GDDR3,64 128,9.0c,2.0,Unknown,"renamed product, HyperMemory, no UVD, PowerPlay 6.0"
-Mobility Radeon X2500,"June 1, 2007",M66,RV530,,,460,,5:12:4:41,1.84,1.84,256,12.8,,128,,,Unknown,"based on X1600/1700, HM up to 768Mb, no UVD, PowerPlay 6.0"
-Mobility Radeon HD 2300,"March 1, 2007",M71,RV515,,,480,,2:4:4:41,1.92,1.92,128 256 512,6.4 12.8,,64 128,,,Unknown,"same as X2300, but with UVD, PowerPlay 6.0"
-Mobility Radeon HD 2400,"May 14, 2007",M72S,RV610,65,,450,,40:4:42,1.8,1.8,256+ Hyper Memory,6.4,DDR2,64,10.0,2.0 (3.3),36,"UVD, PowerPlay 7.0"
-Mobility Radeon HD 2400 XT,,M72M,,,,600 600,400 700,,2.4,2.4,,6.4 11.2,DDR2 GDDR3,,,,48,
-Mobility Radeon HD 2600,,M76M,RV630,,,500 500,400 600,120:8:42,2.0,4.0,,12.8 19.2,,128,,,120,
-Mobility Radeon HD 2600 XT,,M76XT,,,,680,750,,2.72,5.44,,24,GDDR3,,,,168,
-Mobility Radeon HD 2700,"December 12, 2007",M76,,,,650,700,,2.6,5.2,256+ Hyper Memory (total 768),22.4,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
+,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MHz),Band- width (GB/s),
+Radeon R5 M420[161] (Jet Pro),15 May 2016,GCN 1st gen (28 nm),320:20:8,780 855,15.6 17.1,6.24 6.84,499 547,DDR3 64-bit,2,1000,16.0,~20 W
+Radeon R5 M430[162] (Exo Pro),15 May 2016,,320:20:8,1030 ?,20.6,8.2,659.2 659.2,DDR3 64-bit,2,1000,14.4,18 W
+Radeon R7 M435[163] (Jet Pro),15 May 2016,,320:20:8,780 855,15.6 17.1,6.24 6.84,499 547,GDDR5 64-bit,4,1000,32,~20 W
+Radeon R7 M440[164] (Meso Pro),15 May 2016,,320:20:8,1021 ?,20.4,8.17,653 653,DDR3 64-bit,4,1000,16,~20 W
+Radeon R7 M445[165] (Meso Pro),14 May 2016,,320:20:8,780 920,15.6 18.4,6.24 7.36,499 589,GDDR5 64-bit,4,1000,32,~20 W
+Radeon R7 M460[166][167] (Meso XT),April 2016,,384:24:8,1100 1125,26.4 27.0,8.8 9.00,844 864,DDR3 64-bit,2,900,14.4,Unknown
+Radeon RX 460[168] (Baffin),August 2016,GCN 4th gen (14 nm),896:56:16,Unknown,Unknown,Unknown,Unknown,GDDR5 128-bit,2,1750,112,35 W?
+Radeon R7 M465[169][170] (Litho XT),May 2016,GCN 1st gen (28 nm),384:24:8,825 960,19.8 23.0,6.6 7.68,634 737,GDDR5 128-bit,4,1150,32,Unknown
+Radeon R7 M465X[171] (Tropo XT),May 2016,,512:32:16,900 925,28.8 29.6,14.4 14.80,921 947,GDDR5 128-bit,4,1125,72,Unknown
+Radeon R9 M470[172] (Strato Pro),May 2016,GCN 2nd gen (28 nm),768:48:16,900 1000,43.2 48.0,14.4 16.00,1382 1536,GDDR5 128-bit,4,1500,96,~75 W
+Radeon R9 M470X[173] (Strato XT),May 2016,,896:56:16,1000 1100,56.0 61.6,16.00 17.60,1792 1971,GDDR5 128-bit,4,1500,96,~75 W
+Radeon RX 470[174] (Ellesmere Pro),August 2016,GCN 4th gen (14 nm),2048:128:32,Unknown,Unknown,Unknown,Unknown,GDDR5 256-bit,4,1650,211,85 W?
+Radeon RX 480M (Baffin),TBA,,1024:xx:xx,Unknown,Unknown,Unknown,Unknown,GDDR5 128-bit,Unknown,Unknown,Unknown,35 W
+Radeon R9 M485X[175] (Antigua XT),May 2016,GCN 3rd gen (28 nm),2048:128:32,723,92.5,23.14,2961,GDDR5 256-bit,8,1250,160,~100 W

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Tool,Creator,Target Business Size,License,Supported Database Platforms,Supported OSs,Standalone or bundled into a larger toolkit,Launch Date
 Astah,Change Vision,Enterprises,Proprietary,"MySQL, Oracle,","Windows, macOS, Linux",Standalone,2006
 Database Deployment Manager,The Unauthorized Frog project,SMBs and enterprises,LGPL,"CUBRID, MySQL, SQLite","Windows, Linux",Standalone,2010 ?
@@ -19,18 +18,3 @@ Software Ideas Modeler,Dusan Rodina,"Enterprises, SMBs, personal",Proprietary,"M
 SQLyog,"Webyog, Inc.","Enterprises, SMBs, personal",Proprietary,"MySQL, MariaDB",Windows and Linux (using Wine),Standalone,2001
 Toad Data Modeler,Quest Software,SMBs and enterprises,Proprietary,"Access, IBM DB2, Informix, MySQL, MariaDB, PostgreSQL, MS SQL Server, SQLite, Oracle",Windows,Standalone,2005 (before this date known as CaseStudio)
 Tool,Creator,Target Business Size,License,Supported Database Platforms,Supported OSs,Standalone or bundled into a larger toolkit,Launch Date
-=======
-Tool,"Supported data models (conceptual, logical, physical)",Supported notations,Forward engineering,Reverse engineering,Model/database comparison and synchronization,Teamwork/repository
-Database Workbench,"Conceptual, logical, physical",IE (Crows feet),Yes,Yes,Update database and/or update model,No
-Enterprise Architect,"Conceptual, Logical & Physical + MDA Transform of Logical to Physical","IDEF1X, UML DDL, Information Engineering & ERD",Yes,Yes,Update database and/or update model,"Multi-user collaboration using File, DBMS or Cloud Repository (or transfer via XMI, CVS/TFS or Difference Merge)."
-ER/Studio,"Logical, physical, ETL","IDEF1X, IE (Crows feet)",Yes,Yes,Update database and/or update model,"ER/Studio Repository and Team Server (formerly Portal/CONNECT) for web based publishing collaboration and model management, with Business Glossary as standard."
-MagicDraw,"Conceptual, Logical & Physical + MDA Transform of Logical to Physical","IDEF1X, UML DDL, Information Engineering & ERD",Yes,Yes,Update database and/or update model,"Multi-user collaboration using File, DBMS or (transfer via XMI, CVS/TFS or Difference Merge)."
-MySQL Workbench,Physical,"IDEF1X, IE (Crows feet), UML, and more",Yes,Yes,Update database and/or update model,No
-Navicat Data Modeler,"Conceptual, physical",IE (Crows feet),Yes,Yes,Update database and/or update model,No
-NORMA Object-Role modeling,"Conceptual (ORM), Logical, Physical","ORM, Relational(Crows feet option), Barker",Yes,Yes,Update database and/or update model,No
-Open ModelSphere,"Conceptual, Logical, physical","IDEF1X, IE (Crows feet), and more",Yes,Yes,Update database and/or update model,No
-Oracle SQL Developer Data Modeler,"Logical, physical","Barker, IE (Crows feet), and Bachman",Yes,Yes,Update database and/or update model,Yes
-PowerDesigner,"Conceptual, logical, physical","IDEF1X, IE (Crows feet), and more",Yes,Yes,Update database and/or update model,Yes
-Software Ideas Modeler,"Conceptual, logical, physical","IDEF1X, IE (Crows feet), UML and more",Yes,Yes,Update database and/or update model,Yes
-Toad Data Modeler,"Logical, physical","IDEF1X, IE (Crows feet), and more",Yes,Yes,Update database and/or update model,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

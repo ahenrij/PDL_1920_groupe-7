@@ -1,19 +1,5 @@
-<<<<<<< HEAD
-Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
-FreeBSD kernel,Yes[38],No,No,Yes,No,No,No,No,No,No,No,No,No,Yes[38],Yes[38]
-Linux kernel,Yes,No,(Longene),Yes,Yes,No,No,No,No,No,No,No,No,No,No
-NetBSD kernel,Yes[39],No? [3]?,No? [4]?,Yes[39],Yes,Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes[39],Yes [5],Yes
-OpenBSD kernel,Yes,No,No,Yes,Yes,Yes,No,No,Yes,?,?,?,?,No,Yes
-Windows NT kernel,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No
-ReactOS kernel,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No
-XNU,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
-Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
-=======
-Kernel name,CRC-32 (IEEE),CRC32c,MD2,MD4,MD5,SHA-1,SHA-2,SHA-3,Michael MIC,Poly1305,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,HMAC,MDC2,GOST,LASH,VMAC
-Linux,Yes[40][41],Yes[42],No,Yes[43],Yes[44],Yes[45],Yes[46],Partial[47],Yes[48],Yes[49],Yes[50],Yes[51],Yes[52],Yes[53],Yes[54],Yes[55],Yes[56],No,No,No,Yes[57]
-Solaris kernel,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?,Yes,?,?,Yes,?,Yes,Yes,?,?,?
-Windows NT kernel,?,?,Yes,Yes,Yes,Yes,Yes,?,No,?,No,No,No,No,No,No,Yes,No,No,No,?
-FreeBSD kernel,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,Yes,?,?,Yes,?,Yes,?,?,?,?
-XNU kernel,Yes,?,Yes,?,Yes,Yes,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Kernel name,CRC-32 (IEEE),CRC32c,MD2,MD4,MD5,SHA-1,SHA-2,SHA-3,Michael MIC,Poly1305,RIPEMD-128,RIPEMD-160,RIPEMD-256,RIPEMD-320,Tiger,Whirlpool,HMAC,MDC2,GOST,LASH,VMAC
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Kernel name,ACL,SCO,LMP,HCI,L2CAP,BNEP,RFComm.,SDP,TCP,AVTCP,AVDTP,OBEX,CMTP,HIDP,HCRP,CAPI,PPP
+FreeBSD kernel,?,?,?,Yes,Yes,?,Yes,Yes,?,?,?,No,?,?,?,?,?
+Linux,?,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,Yes,Yes,?,?,?
+macOS XNU Kernel,?,?,?,?,Yes,?,Yes,Yes,?,?,?,No,?,?,?,?,?
+Kernel name,ACL,SCO,LMP,HCI,L2CAP,BNEP,RFComm.,SDP,TCP,AVTCP,AVDTP,OBEX,CMTP,HIDP,HCRP,CAPI,PPP

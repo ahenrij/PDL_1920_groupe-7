@@ -1,52 +1,26 @@
-<<<<<<< HEAD
-,String representation,,Object copy,Value equality,Object comparison,Hash code,Object ID
-,Human-readable,Source-compatible,,,,,
-ABAP Objects,colspan=7 ,,,,,,
-APL (Dyalog),?x,?SRC x,?NS x,x = y,colspan=2 ,,
-C++ (STL),,,,x == y[50],,,pointer to object can be converted into an integer ID
-C#,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashCode(),System<wbr/>.Runtime<wbr/>.CompilerServices<wbr/>.RuntimeHelpers<wbr/>.GetHashCode(x)
-Java,x.toString(),,x.clone()[51],x.equals(y),x.compareTo(y)[52],x.hashCode(),System<wbr/>.identityHashCode<wbr/>(x)
-JavaScript,x.toString(),,,,,,
-D,x.toString() or std.conv<wbr/>.to!string<wbr/>(x),x.stringof,,x == y or x.opEquals(y),x.opCmp(y),x.toHash(),
-eC,"x.OnGetString(tempString, null, null) or PrintString(x)",,y.OnCopy(x),,x.OnCompare(y),,object handle can be converted into an integer ID
-Objective-C (Cocoa),x.description,x.debugDescription,[x copy][53],[x isEqual:y],[x compare:y][54],x.hash,pointer to object can be converted into an integer ID
-Swift,x.description[55],x.debugDescription[56],,x == y[57],x < y[58],x.hashValue[59],reflect(x)<wbr/>.objectIdentifier!<wbr/>.uintValue()
-Smalltalk,x displayString,x printString,x copy,x = y,,x hash,x identityHash
-Python,str(x)[60],repr(x)[61],copy.copy(x)[62],x == y[63],"cmp(x, y)[64]",hash(x)[65],id(x)
-Visual Basic .NET,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashCode(),
-Eiffel,x.out,,x.twin,x.is_equal(y),"When x is COMPARABLE, one can simply do x < y","When x is HASHABLE, one can use x.hash_code","When x is IDENTIFIED, one can use x.object_id"
-PHP,$x->__toString(),,clone x[66],x == y,,,spl_object_hash(x)
-Perl,"$x"[67],"Data::Dumper<wbr/>->Dump<wbr/>([$x],[,Storable<wbr/>::dclone<wbr/>($x)[69],,,,Scalar<wbr/>::Util<wbr/>::refaddr<wbr/>( $x )[70]
-Raku,~x[67],x.perl,x.clone,x eqv y,x cmp y,,x.WHICH
-Ruby,x.to_s,x.inspect,x.dup or x.clone,x == y or x.eql?(y),x <=> y,x.hash,x.object_id
-Windows PowerShell,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashCode(),
-OCaml,,,Oo.copy x,x = y,,Hashtbl<wbr/>.hash x,Oo.id x
-F#,string x or x<wbr/>.ToString() or sprintf "%O" x,sprintf "%A" x,x.Clone(),x = y or x<wbr/>.Equals(y),compare x y or x<wbr/>.CompareTo(y),hash x or x<wbr/>.GetHashCode(),
-COBOL,colspan=7 ,,,,,,
-=======
-,current object,current object's parent object,null reference,Current Context of Execution
-Smalltalk,self,super,nil,thisContext
-ABAP Objects,me,super,initial,
-APL (Dyalog),?THIS,?BASE,?NULL,
-C++ (STL),*this,[40],"NULL, nullptr",
-C#,this,base[41],null,
-Java,,super[41],,
-D,,,,
-JavaScript,,super[41] (ECMAScript 6),"null, undefined[42]",
-eC,this,,null,
-Objective-C,self,super[41],nil,
-Swift,self,super[41],nil[43],
-Python,self[44],"super(current_class_name, self)[5] super() (3.x only)",None,
-Visual Basic .NET,Me,MyBase,Nothing,
-Xojo,Me / Self,Parent,Nil,
-Eiffel,Current,Precursor «{superclass}» «(args)»[41][45],Void,
-PHP,$this,parent[41],null,
-Perl,$self[44],$self->SUPER[41],undef,
-Raku,self,SUPER,Nil,
-Ruby,self,super«(args)»[46],nil,binding
-Windows PowerShell,$this,,$NULL,
-OCaml,self[47],super[48],,
-F#,this,base[41],null,
-COBOL,SELF,SUPER,NULL,
-Cobra,this,base,nil,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+! basic/void method,value-returning method
+ABAP Objects,methods name «importing parameter = argument» «exporting parameter = argument» «changing parameter = argument» «returning value(parameter)» method name. instructions endmethod.[28]
+APL (Dyalog),? «left argument» name «right arguments» instructions ?
+"C++[30] type foo(«parameters»); The implementation of methods is usually provided in a separate source file, with the following syntax type class::foo(«parameters») { instructions }[31]",void foo(«parameters») { instructions }
+C#,
+D,
+Java,
+eC,void ««type of 'this'»::»foo(«parameters») { instructions }
+Eiffel,foo ( «parameters» ) do instructions end
+Objective-C,- (void)foo«:parameter «bar:parameter ...»» { instructions }
+Swift,func foo(«parameters») { instructions }
+Python,"def foo(self«, parameters»): Tab instructions"
+Visual Basic .NET,Sub Foo(«parameters») instructions End Sub
+Xojo,Sub Foo(«parameters») instructions End Sub
+PHP,function foo(«parameters»)«: void» { instructions }
+Perl,"sub foo { my ($self«, parameters») = @_; instructions }"
+Raku,«has »«multi »method foo(««$self: »parameters») { instructions }
+Ruby,def foo«(parameters)» instructions end
+Windows PowerShell,Add-Member «-MemberType» ScriptMethod «-Name» foo «-Value» { «param(parameters)» instructions } -InputObject variable
+OCaml,rowspan=2 
+F#,member this.foo(«parameters») = expression
+JavaScript,this.method = function(«parameters») {instructions} name«.prototype.method = function(«parameters») {instructions}[32]
+Javascript (ES6),foo(«parameters») {instructions}
+COBOL,METHOD-ID. foo. «DATA DIVISION. LINKAGE SECTION. parameter declarations» PROCEDURE DIVISION« USING parameters». instructions END METHOD foo.
+Cobra,def foo(parameters) Tab instructions
+ISLISP,(defgeneric method (arg1 arg2)) (defmethod method ((arg1 <class1> arg2 <class2>) ...)

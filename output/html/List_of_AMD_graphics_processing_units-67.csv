@@ -1,19 +1,7 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
-Radeon Xpress X200,"Nov. 8, 2004",RS480 (metallo),130,HT,300,"200-400 (DDR), 200 (sideport)",4:2:2:2,600,600,600,0,16-128 system + 16 sideport,1.6-6.4 system + 0.8 sideport,DDR,"64, 128"
-Radeon Xpress 1100 (originally Xpress 200),2005,RS482 (grayskull),110,HT,300,"200-400 (DDR), 400-800 (DDR2)",,,,,,16-128 system,1.6-12.8 system,"DDR, DDR2",
-Radeon Xpress 1150 (originally Xpress 200 for Intel),"March 11, 2005 (Intel), May 23, 2006 (AMD)","RC400, RC410, RS400, RS415, RS485",,"HT, FSB",400,,,800,800,800,,,1.6-12.8,,
-=======
-Model,Launch,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,,API compliance,
-,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
-3D Rage,April 1996[13],500,PCI,40,40,1:0:1:1,40,40,40,0,2,0.32,EDO,64,5.0,None2
-3D Rage II,September 1996,,"AGP 1x (Rage IIc only), PCI",60,83 (66 MHz with EDO),,60,60,60,,"2, 4, 8",0.664,"EDO, SGRAM, SDR",,,
-Rage Pro,March 1997,350,"AGP 1x, AGP 2x, PCI",75,75,,75,75,75,,"4, 8, 16",0.6,,,6.0,1.1
-Rage XL[14][15][16][17],August 1998,250,"AGP 2x, PCI",83,125,,83,83,83,,8,1.0,SDR,,,
-Rage 128 VR,,,,80,120,2:0:2:2,160,160,160,,"8, 32",0.96,,,,1.2
-Rage 128 GL,,,,103,103,,206,206,206,,"16, 32",1.648,"SGRAM, SDR",128,,
-Rage 128 Pro,August 1999,,"AGP 4x, PCI",125,143,,250,250,250,,,2.288,,,,
-Rage 128 Ultra,,,,130,130,,260,260,260,,"16, 32, 64",2.088,SDR,,,
-Rage Fury MAXX,October 1999,,AGP 4x,125,143,2:0:2:2 x2,500,500,500,,32 x2,4.576,,128 x2,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
+,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MHz),Band- width (GB/s),
+Radeon 610[191] (Banks),13 August 2019,GCN 1st gen (28 nm),320:20:8,1030,20.6,8.2,659,GDDR5 64-bit,2–4,1125,36,<=50 W
+Radeon 620[192] (Polaris 24 XL),13 August 2019,GCN 3rd gen (28 nm),384:24:8,730 1024,24.6,8.2,786,DDR3 64-bit,2–4,900,14.4,<=50 W
+Radeon 625[193] (Polaris 24 XL),,,,,,,,GDDR5 64-bit,2–4,1125,36,
+Radeon 630[194] (Polaris 23 XL),13 August 2019,GCN 4th gen (14 nm),512:32:8,1082 1219,39,9.8,1248,GDDR5 64-bit[195],2–4,1500,48,<=50 W
+Radeon RX 640[196] (Polaris 23 XT),13 August 2019,,640:40:16,1100 1287,51.5,20.6,1647,GDDR5 64-bit,2–4,1750,56,<=50 W

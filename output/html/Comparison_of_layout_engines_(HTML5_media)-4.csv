@@ -1,36 +1,23 @@
-<<<<<<< HEAD
-,Trident,Gecko,WebKit,KHTML,Presto
-<link rel="style" … />,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-style,6.0[note 5],,,,
-=======
-,Trident,EdgeHTML,Gecko,WebKit,Presto
-section,5.0[t 1],12,2.0[g 1][g 2],533[w 1][w 2][w 3][w 4][w 5][w 6],2.7.70
-nav,,,,,
-article,,,,,
-aside,,,,,
-hgroup,,,,,
-header,,,,,
-footer,,,,,
-ping,No,No,Disabled,Yes,No
-time,No,No,22.0[g 3],No,2.8.146
-mark,5.0[t 1],12,2.0[g 4],Yes[w 7],2.7.70
-"ruby,[20] rt, rp",3.1[t 2],12,38.0[g 5],533[w 8][w 9],No
-dialog[21],No,No,No[g 6],Only in Chrome[w 10],No
-figure,5.0[t 1],12,2.0[g 7],Yes[w 11],2.7.70
-figcaption,,,,,
-embed,<3.1[IE 3.0],12,1.7,85,1.0
-video,5.0 (Partial)[t 3][t 4],12,15.0[g 8],525,2.5[a][b]
-audio,,,,,
-source,,,,,
-canvas,,Partial,1.9.2[g 9],Partial,2.0[p 4]
-Inline MathML,No,No,2.0,No[w 12][w 13],2.1[c]
-Inline SVG,5.0[t 3],12,,Yes[w 14],2.9.220[p 6]
-details,No,No,47[g 10],Yes[w 15],No
-summary,,,,Yes[w 15],
-command,,,No[g 11],No,
-menu,,,8.0[g 12],No[w 16],2.8[p 7]
-bdi,,,10.0[g 13],528[w 17],No
-data,No,No,22.0[g 14],No,No
-picture,No,13,38.0[g 15],No[w 18],No
-,Trident,EdgeHTML,Gecko,WebKit,Presto
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Attribute,Element,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
+align,"caption, div, fieldset, h1, h2, h3, h4, h5, h6, hr, img, input, legend, p, object, table",CSS,3.1,Yes,Yes,Yes,Yes
+alink,body,CSS,,,No,,
+background,body,CSS,,,Yes,,
+bgcolor,"body, table, tr, td, th",CSS,,,,,
+border,"img, object",CSS,,,Partial[note 8],,
+clear,br,CSS,,,No,,
+compact,"dl, ul, ol",CSS,No,No,,,
+color,"basefont, font",CSS,3.1,Partial[note 9][8],Partial[note 9],,
+height,"td, th",CSS,,Yes,Yes,,
+hspace,"img, object",CSS,,,,,
+language,script,The type attribute,,No[citation needed],,,
+link,body,CSS,,Yes,,,
+noshade,hr,CSS,,,,,
+nowrap,"td, th",CSS,,,,,
+size,"basefont, font, hr",CSS,,,,,
+start,ol,None,,,,,
+text,body,CSS,,,,,
+type,"li, ul, ol",CSS,,,,,
+version,html,DTD,No,No,No,No,No
+vlink,body,CSS,Yes,Yes,Yes,Yes,Yes
+width,"hr, pre, td, th",CSS,,,,,
+vspace,"img, object",CSS,,,,,

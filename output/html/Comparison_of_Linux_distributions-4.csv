@@ -1,62 +1,3 @@
-<<<<<<< HEAD
-Distribution,Free software repositories,Approximate number of pre-compiled packages,Approximate number of source packages,Default package management tool(s),Package format,Default installer,Graphical installation process,Netinstall,Netboot
-Alpine Linux,"Free, and nonfree","8,135[174]",?,apk,.apk,setup-alpine,No,?,?
-ALT Linux,"Free, and nonfree","8,300[175]",?,"APT (APT-RPM), RPM",RPM,,Yes,?,?
-Arch Linux,"Free, and nonfree","10,999[176]","66,265 from AUR[177]",Pacman,.pkg.tar.zst[178],None (third-party install scripts only),No,Yes,iPXE
-BLAG,Free only,"10,000[179]",?,"RPM, yum, APT",RPM,,Yes,No,No
-Bodhi Linux,"Free, and nonfree",[a][180],?,APT,.dpkg,Ubiquity,Yes,?,?
-CentOS,"Free, and nonfree",[b],?,"RPM, yum/up2date",RPM,Anaconda,Yes,Yes,?
-Chakra,"Free, and nonfree","3,074[181]","CCR: 5,342[182]",Pacman (will be replaced by Akabei in future),.pkg.tar.xz,,Package manager in development,?,?
-ClearOS,"Free, and nonfree",[c],?,"RPM, yum",RPM,,No,?,?
-CrunchBang Linux,"Free, and nonfree",[d][180],?,APT,.deb,,Yes,?,?
-Debian,"Free, and nonfree","89,403[180]","28,923[e]",APT,.deb,Debian-Installer,Yes,Yes,PXE
-Devuan,"Free, and nonfree",[f][180],?,APT,.deb,Debian-Installer,Yes,Yes,PXE
-Dragora GNU/Linux-Libre,Free only,484,?,pkgsystem,.tlz,?,No,No,No
-dyne:bolic,Free only,?,?,APT,.deb,Debian-Installer,Yes,No,No
-Fedora,"Free, and nonfree","58,991 with RPM fusion[183]","30,681[184]","DNF, yum, PackageKit",RPM,Anaconda,Yes,Yes,?
-Gentoo,"Free, and nonfree","10,000[185]","19,092[186][g]",Portage,".ebuild, .tbz2",None (third-party install scripts only),Yes[h],Yes,PXE
-gNewSense,Free only,?,?,APT,.deb,Debian-Installer,Yes,Yes,No
-Guix System,Free only,"13,168[187]","13,168",Guix,".scm, .go",guix system init[188],Yes[189],Yes[190],No
-Hyperbola GNU/Linux-libre,Free only,"14,494[191]",?,Pacman,.pkg.tar.xz,None (third-party install scripts only),No,Yes,?
-Knoppix,"Free, and nonfree",[i][180],?,APT,.deb,,No,?,?
-LibreCMC,Free only,826,?,?,?,,No,No,No
-Linux Mint,"Free, and nonfree",[j][180],?,APT,.deb,Ubiquity,Yes,?,?
-Mageia,"Free, and nonfree","17,283 (i586), 11,409 (x86-64)[192]","8,834[193]","urpmi, rpmdrake",RPM,DrakX,Yes,Yes,?
-Mandriva Linux,"Free, and nonfree","22,600",?,"urpmi, rpmdrake",RPM,DrakX,Yes,?,?
-Manjaro Linux,"Free, and nonfree",?,[k][177],Pacman,.pkg.tar.xz,Calamares[194],Yes[195],Yes,iPXE
-MEPIS,"Free, and nonfree",[l][180],?,APT,.deb,MEPIS Install,Yes,?,?
-Musix GNU+Linux,Free only,"1,819",?,APT,.deb,Debian-Installer,Yes,No,No
-OpenELEC,"Free, and nonfree",140[196],?,"XBMCbuntu addon manager, own and 3rd party addons",.zip,,Yes,?,?
-openSUSE,"Free, and nonfree","42,236 with PackMan[197]","34,000","YaST, Zypper",RPM,YaST,Yes,Yes,?
-OpenWrt,"Free, and nonfree","2,000",?,opkg,.ipk,-,No,?,?
-Parabola GNU/Linux-libre,Free only,"23,000[198]",?,Pacman,.pkg.tar.xz,None (third-party install scripts only) or Calamares,Yes,Yes,?
-Pardus,"Free, and nonfree","4,000",?,PiSi,.pisi,YALI,Yes,?,?
-Parsix,"Free, and nonfree",[m][180],"14,900",APT,.deb,,Yes,?,?
-PCLinuxOS,"Free, and nonfree","12,000",?,"APT, RPM",RPM,,Yes,?,?
-Puppy,"Free, and nonfree",700,?,"PupGet, DotPup",".pup, .pet",,Yes,?,?
-Red Hat Enterprise Linux,"Free, and nonfree","3,000 (plus 9,155 from EPEL[199])",?,"RPM, yum",RPM,Anaconda,Yes,?,?
-Rxart,"Free, and nonfree",[n][180],?,APT,.deb,,Yes,?,?
-Sabayon Linux,"Free, and nonfree",[o],?,"Portage, Entropy","ebuild, .tbz2",Calamares,Yes,?,?
-Scientific,"Free, and nonfree",[p],?,APT/yum,RPM,,Yes,?,?
-Slackware,"Free, and nonfree","2,292","7,705 from SlackBuilds[200]",slackpkg,"tgz, .txz, .tlz, .tbz",bash script[201],No,Yes,Yes
-Slax,"Free, and nonfree","2,050",?,none,.lzm,,,?,?
-SliTaz GNU/Linux,"Free, and nonfree","3,381[202]",?,Tazpkg,.tazpkg,tazinst,Yes,iPXE,iPXE
-Solus,"Free, and nonfree","9,500",?,eopkg,.eopkg,os-installer,Yes,No,No
-Source Mage GNU/Linux,"Free, and nonfree",118,"8,876",Sorcery Package Manager,src,,Yes,?,?
-SUSE Linux,"Free, and nonfree","24,094","11,385","YaST, Zypper",RPM,YaST,Yes,?,?
-Tiny Core Linux,"Free, and nonfree","25,160",?,"ab, tce-load",tcz,"tc-install, core2usb",Yes,?,?
-Tiny SliTaz,"Free, and nonfree",50,?,Web site[203],tazpkg,,No,?,iPXE
-Trisquel,Free only,"52,748[204]",?,APT,.deb,Ubiquity,Yes,Yes,?
-TurnKey GNU/Linux,"Free, and nonfree",[q][180] (plus ?30 custom packages),"21,041[r] (currently TurnKey only supplies source code for custom packages)",APT,.deb,DI-Live (custom fork of Debian Installer),No,No,No
-"Ubuntu, Kubuntu, Xubuntu","Free, and nonfree",[s][180],"24,474[t]",APT,.deb,Ubiquity,Yes,Yes,PXE
-Ututo,Free only,"5,000",?,UTUTO Package Manager,ebuild,?,?,No,No
-Vector Linux,"Free, and nonfree",?,?,"slapt-get, gslapt, installpkg",tgz,,Yes,?,?
-Void Linux,"Free, nonfree and multilib","6,000","6,719",xbps,.xbps,ncurses script,Yes,Yes,No
-XBMC Live,"Free, and nonfree",?,?,APT,.deb,,No,?,?
-Zentyal,"Free, and nonfree",[u][180],?,APT,.deb,dpkg,Yes,?,?
-Zenwalk,"Free, and nonfree","2,000",?,"netpkg, installpkg, upgradepkg","tgz, txz",,Yes,?,?
-Distribution,Free software repositories,Approximate number of pre-compiled packages,Approximate number of source packages,Default package management tools,Package format,Default installer,Graphical installation process,Netinstall,Netboot
-=======
 Distribution,Founder,Maintainer,Initial release year,Current stable version,Security updates (years),Release date,System distribution commitment,Forked from,Target audience,Cost,Status
 Alpine Linux,Alpine Linux Team,Alpine Linux Team,2006,3.12.0[2],?,2020-05-29,X,LEAF Project,"security, lightweight, general",None,Active
 ALT Linux,ALT Linux Team,"ALT Linux Team, ALT Linux LLC",2001,9.1[3],?,2020-07-29,X,Mandrake Linux,"general, school",None,Active
@@ -82,7 +23,7 @@ Elementary OS,Daniel Foré,elementary LLC,2011,5.1.2[23],?,2020-02-05,X,"Ubuntu, 
 ELinOS,SYSGO,SYSGO,1999,6.2[24],?,2017-10-01,X,–,embedded systems,Partial,Active
 Emdebian Grip,Embedded Debian Project,Embedded Debian Project,2009,3.1,End-of-life,2013-06-15,X,Debian,embedded systems,None,Inactive
 EndeavourOS,Bryan Poerwoatmodjo,EndeavourOS,2019,Rolling,?,2020-07-15,X,Arch Linux,general,None,Active
-Fedora,Fedora Project,Fedora Project,2003,32[25],1 year,2020-04-28,Fedora Licensing Guidelines[26],Red Hat Linux,general,None,Active
+Fedora,Fedora Project,Fedora Project,2003,33[25],1 year,2020-10-27,Fedora Licensing Guidelines[26],Red Hat Linux,general,None,Active
 Freespire,"Lindows.com, Inc.",PC/OpenSystems LLC,2001,6.0[27],?,2020-02-10,X,Ubuntu,desktop,None,Active
 Gentoo Linux,Daniel Robbins,"Gentoo Foundation, Inc.",2002,Rolling,Rolling,Rolling,Gentoo Social Contract,Enoch Linux,general,None,Active
 Guix System,Ludovic Courtès,"Ludovic Courtès, Ricardo Wurmus, the Guix community",2012,1.1.0[28],Rolling,2020-04-15,100% Free: GNU FSDG[5],–,general,None,Active
@@ -139,9 +80,9 @@ SteamOS,Valve,Valve,2013,2.195[68],?,2019-07-19,X,Debian,video games,None,Active
 SUSE Linux Enterprise,SUSE,SUSE,2000,15SP2,13 years per version[69],2020-07-21,"Common code base for x86-64, Power, System z, Arm64","Slackware, Jurix","edge, workstation, server, supercomputer",Commercial[70],Active
 Tails,?,Tails Development Team,2009,4.11[71],–[g 2],2020-09-22,X,Debian,security-focused aimed for anonymity and privacy,None,Active
 Tiny Core Linux,Robert Shingledecker,Team Tiny Core,2009,11.0,?,2020-02-09,X,"Independent, inspired from Damn Small Linux",portable,None,Active
-Trisquel GNU/Linux,Rubén Rodríguez Pérez (quidam),Rubén Rodríguez Pérez (quidam),2005,8.0[g 3],5 years,2018-04-18,100% Free: GNU FSDG[5],Ubuntu LTS,desktop,None,Active
+Trisquel GNU/Linux,Rubén Rodríguez Pérez (quidam),Rubén Rodríguez Pérez (quidam),2005,9.0[g 3],3 years,2020-10-16,100% Free: GNU FSDG[5],Ubuntu LTS,desktop,None,Active
 TurnKey GNU/Linux,"Alon Swartz, Liraz Siri",TurnKey GNU/Linux Team,2008,15.x[72],Debian packages as per Debian; TurnKey packages for life of current major version (plus backports per request),2019-06-28,Debian Social Contract and DFSG,Debian,server based software appliance library aiming to balance security and ease of use,None,Active
-Ubuntu and Derivatives[73],Canonical Ltd.,Canonical Ltd.,2004,20.04.1 LTS[74],"Standard releases 1 year, LTS releases 5 years. Flavor LTS releases 3 or 5 years. Ubuntu Pro 10 years.",2020-08-06,X,Debian,"general, server, desktop, supercomputer, IBM mainframe",None,Active
+Ubuntu and Derivatives[73],Canonical Ltd.,Canonical Ltd.,2004,20.10[74],"Standard releases 1 year, LTS releases 5 years. Flavor LTS releases 3 or 5 years. Ubuntu Pro 10 years.",2020-10-22,X,Debian,"general, server, desktop, supercomputer, IBM mainframe",None,Active
 Univention Corporate Server,Univention GmbH,Univention GmbH,2004,4.4-4[75],"up to 6 months for the free Core Edition; if maintenance is purchased, it's up to 7 years, see:[76]",2020-03-24,X,Debian,"home, business, and school",Core Edition is free of charge,Active
 Ututo,"Diego Saravia, Daniel Olivera",UTUTO dev team,2000,XS 2012,?,2012-04-27,100% Free: GNU FSDG[5],"Ututo XS: Gentoo Linux, Ututo UL: Ubuntu",general,None,Active
 VectorLinux,Robert S. Lange,dev team,1999,VL 7.2[77],?,2017-08-28,X,Slackware,desktop,None,?
@@ -152,4 +93,3 @@ Zentyal,eBox Technologies,eBox Technologies,2005,6.1[78],?,2019-12-12,X,"Debian,
 Zenwalk,Jean-Philippe Guillemin,dev team,2004,Rolling[79],?,2018-03-09,X,Slackware,general,None,Active
 Zorin OS,Zorin Group,Zorin Group,2009,OS 15[80],?,2019-06-05,X,Ubuntu,"general, desktop","Zorin OS Lite & Core are free, while Business and Ultimate are paid for",Active
 Distribution,Founder,Maintainer,Initial release year,Current stable version,Security updates (years),Release date,System distribution commitment,Forked from,Target audience,Cost,Status
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

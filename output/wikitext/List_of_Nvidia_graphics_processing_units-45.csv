@@ -1,34 +1,7 @@
-<<<<<<< HEAD
-Model,Features,,,,,
-,Gamma-correct antialiasing,64-bit OpenEXR HDR,Scalable Link Interface (SLI),TurboCache,Dual Link DVI,
-GeForce 7100 GS,,,",,,
-GeForce 7200 GS,,,,,,
-GeForce 7300 SE,,,,,,
-GeForce 7300 LE,,,,,,
-GeForce 7300 GS,,,,,,
-GeForce 7300 GT,,,",,One port,
-GeForce 7600 GS,,,,,One port,
-GeForce 7600 GT,,,,,One port,
-GeForce 7600 GT (80 nm),,,,,One port,
-GeForce 7650 GS (80 nm),,,,,One port,
-GeForce 7800 GS,,,,,One port,
-GeForce 7800 GT,,,,,One port,
-GeForce 7800 GTX,,,,,One port,
-GeForce 7800 GTX 512,,,,,One port,
-GeForce 7900 GS,,,,,Two ports,
-GeForce 7900 GT,,,,,Two ports,
-GeForce 7900 GTO,,,,,Two ports,
-GeForce 7900 GTX,,,,,Two ports,
-GeForce 7900 GX2 (GTX Duo),,,,,Two ports,
-GeForce 7950 GT,,,,,Two ports,
-GeForce 7950 GX2,,,,,Two ports,
-=======
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
-Quadro2 Go[214],NV11GLM?,,AGP 4×,143,,130 360,2:0:4:2,0.286,0.592,32 64,2.9 5.8,SDR DDR,128,,7.0,1.2,,"First mobile Quadro based on the GeForce2 Go, Dynamic core clock 100–143 MHz, dynamic voltage 1.575V, graphics core listed as 64-bit and 128-bit for DDR and SDR SDRAM types respectively according to Nvidia[215][216]"
-Quadro4 500 Go GL[217][218],NV17 GLM,150,"AGP 4×,8×",?,,?,2:0:4:2,0.44,0.88,64,7.0,DDR,,,7.0,1.3,,"Based on the GeForce4 Go, dynamic core clock 66–220 MHz, core voltage 1.35 V, uses DDR SDRAM according to Nvidia brochures[216]"
-Quadro4 700 Go GL[217][219][220],NV28 GLM,150,,176,,200,4:2:4:4,0.704,0.704,,7.4?,,128?,,8.1,,,"Based on GeForce4 Go 4200, uses DDR according to Nvidia brochures"
-Quadro FX Go 700[221],NV31 GLM,130,AGP 8×,295?,,590?,4:3:4:4,1.18,1.18,128,9.44?,,128,,9.0,2.1?,,Based on the Geforce FX Go (FX 56XX)
-Quadro FX Go 1000[222],NV36 GLM,120,,,,570?,,,,,9.12?,,,,,,,Seems to be an overclocked Quadro FX 700 Go.
-Quadro FX Go 1400[222],NV41 GLM,130,PCIe,275,,590,12:5:12:12?,2.20,2.2,256,18.9?,,256,,,,,"Last chip designated as a Quadro FX Go, uses PCIe instead of AGP 8×. Core config has been mentioned as either 8:5:8:8 or 12:5:12:12 - the latter is likely since chip is derived from GeForce Go 6800."
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,Processing power (GFLOPS)2,TDP (Watts),Comments
+,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Direct3D,OpenGL,Single precision,,
+GeForce G 100,"March 10, 2009",G98,TSMC 65 nm,210,86,PCIe 2.0 ×16,8:8:4,567,1400,500,2.15,4.3,512,8.0,DDR2,64,10.0,3.3,22.4,35,OEM products
+GeForce GT 120,,G96b,TSMC 55 nm,314,121,,32:16:8,500,,800,4.4,8.8,,16.0,,128,,,89.6,50,
+GeForce GT 130,,G94b,,505,196?date=September 2012,,48:24:12,,1250,500,6,12,1536,24.0,,192,,,120,75,
+GeForce GT 140,,,,,,,64:32:16,650,1625,1800,10.4,20.8,512 1024,57.6,GDDR3,256,,,208,105,
+GeForce GTS 150,,G92b,,754,260,,128:64:16,738,1836,1000,11.808,47.232,1024,64.0,,,,,470,141,

@@ -1,46 +1,23 @@
-<<<<<<< HEAD
-Product,total # of formats,.cbr/.cbz,.chm,.djvu,.epub,.fb2,.html,.mobi,.pdb,.pdf,.rtf,.txt
-Apabi Reader,3,,,,,,,,,,,
-Blio,2,,,,,,,,,,,
-Bluefire Reader,2,,,,,,,,,,,
-DL Reader,2,,,,,,,,,,,
-eBookMobi,10+,,,,,,,,,,,
-Ebook Reader,2,,,,,,,,,,,
-i2Reader,6+,,,,,,,,,,,
-iBooks,2,,,,,,,,,,,
-Kindle,2,,,,,,,,,,,
-Kobo Reading App,2,,,,,,,,,,,
-KyBook,8,,,,,,,,,,,
-KyBook 2,16,,,,,,,,,,,
-MapleRead,2,,,,,,,,,,,
-Marvin,2,,,,,,,,,,,
-MegaReader,1,,,,,,,,,,,
-PocketBook reader,8+,,,,,,,,,,,
-ShuBook 2,5+,,,,,,,,,,,
-SideBooks,2,,,,,,,,,,,
-Stanza,5+,,,,,,,,,,,
-uBooks XL,5,,,,,,,,,,,
-iBouquiniste,5,,,,,,,,,,,
-Product,total # of formats,.cbr/.cbz,.chm,.djvu,.epub,.fb2,.html,.mobi,.pdb,.pdf,.rtf,.txt
-=======
-Product,Free,License
-Apabi Reader,,
-Blio,,
-Bluefire Reader,,Proprietary
-DL Reader,,
-eBookMobi,,
-Ebook Reader,,Proprietary
-i2Reader,,
-iBooks,,Proprietary
-Kindle,,
-Kobo Reading App,,
-KyBook / KyBook 2,,"Proprietary, partially OS"
-MapleRead,,
-Marvin,,
-MegaReader,,
-ShuBook 2,,
-SideBooks,,Proprietary
-Stanza,,Proprietary
-uBooks XL,,
-iBouquiniste,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Product,Highlight,Annotate,Edit meta-data,Online dictionary,Offline dictionary,Lookup Wikipedia,Translate,Share,TTS support (read aloud),DRM support,Export to iTunes
+Apabi Reader,,,,,,,,Two Chinese websites only,,,
+Blio,,,,,,,,,,,
+Bluefire Reader,,,"Author, Title, Publisher",,,,,"Facebook, Twitter, eMail",,,
+DL Reader,,,"Author, Title, Publisher",,,,,,,Adobe DRM,
+eBookMobi,,,,,,,,eMail,,,
+Ebook Reader,,,,,,,,"Facebook, Twitter, eMail, Google+",,Adobe DRM,
+i2Reader,,,,,,,,eMail,,,
+iBooks,,,,,,,,"Facebook, Twitter, eMail, SMS"," yes, via VoiceOver",Apple FairPlay,
+Kindle,,,,,,,,"Facebook, Twitter",,,
+Kobo Reading App,,,,,,,,"Facebook, Twitter",,,
+KyBook,,,,,,,,"Facebook, Twitter, eMail, VKontakte",,,
+KyBook 2,,,,,,,"Facebook, Twitter, eMail, VKontakte",,,,
+MapleRead,,,,,,,,,,,
+Marvin,,,,,,,,"Facebook, Twitter, eMail, customizable",,,
+MegaReader,,,,,,,,,,,
+PocketBook reader,,,,,,,,"Facebook, Twitter, eMail, SMS",,,
+ShuBook 2,,,"Author, Title, Label",,,,,"Whole book only, eMail",,,
+SideBooks,,,,,,,,,,,
+Stanza,,,,,,,,"Facebook, Twitter, eMail",,,
+uBooks XL,,,,,,,,eMail,,,
+iBouquiniste,,,,,,,,eMail,,,
+Product,Highlight,Annotate,Edit meta-data,Online dictionary,Offline dictionary,Lookup Wikipedia,Translate,Share,TTS support (read aloud),DRM support,Export to iTunes

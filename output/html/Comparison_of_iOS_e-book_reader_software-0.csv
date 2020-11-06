@@ -1,49 +1,23 @@
-<<<<<<< HEAD
-Product,Developer,Pagination,Rotation Lock,Auto-scroll,Progress indicator,Backward/forward,Table of Contents,Bookmarks,Resume,Cloud synchronisation,Go To,Full text search
-Apabi Reader[1],Beijing Founder Apabi Technology Limited,Yes,Yes,No,In library and in-book,Yes,Yes,Unlimited,Yes,No,Yes,Yes
-Blio[2],"K-NFB Reading Technology, Inc.",Yes,No,No,In-book only,Yes,Yes,Unlimited,Yes,No,Yes,Yes
-Bluefire Reader[3],Bluefire Productions,Yes,Yes,No,In-book only,Yes,Yes,Unlimited,Yes,Yes,Yes,Yes
-DL Reader[4],"Datalogics, Inc",Yes,Yes,No,In-book only,Yes,Yes,Unlimited,Yes,No,Yes,Yes
-eBookMobi[5],Tien Thinh Vu,Yes,"support on iPad, portrait only on iPhone",No,In library and in-book,Yes,Yes,Unlimited,Yes,No,Yes,No
-Ebook Reader[6],Ebooks.com Limited,Yes,Yes,No,In library and in-book,Yes,Yes,Unlimited,Yes,Yes,Yes,Yes
-i2Reader[7],Yuriy Melyushin,Yes,Yes,Yes,In-book only,Yes,Yes,Unlimited,Yes,No,Yes,Yes
-iBooks[8],Apple,Yes,No,Manual,In-book only,Yes,Yes,Unlimited,Yes,Yes,Yes,Yes
-Kindle[9],AMZN Mobile LLC,Yes,Yes,No,In library and in-book,Yes,Yes,Unlimited,Yes,Yes,Yes,Yes
-Kobo Reading App[10],Kobo Inc.,Yes,Yes,No,In-book only,Yes,Yes,Last place marker only,Yes,Yes,Yes,No
-KyBook Reader[11],Konstantin Bukreev,Yes,Yes,No,In library and in-book,Yes,Yes,Unlimited,Yes,No,Yes,Yes
-KyBook 2[12],Konstantin Bukreev,Yes,Yes,In library and in-book,Yes,Yes,Unlimited,Yes,Yes,Yes,Yes,Yes
-MapleRead[13],Maplepop LLC,Yes,Yes,No,In library and in-book,Configurable,Yes,Unlimited,Yes,Yes,Yes,Yes
-Marvin[14],Appstafarian,Yes,Yes,Yes,In library and in-book,Configurable,Yes,Unlimited,Yes,Optional,Yes,Yes
-MegaReader[15],"Inkstone Software, Inc.",Yes,Yes,No,In-book only,Yes,Yes,Unlimited,Yes,No,Yes,No
-PocketBook reader[16],Obreey Products,Yes,Yes,Yes,In-book only,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-ShuBook 2[17],Ambibma Ltd.,Yes,Yes,No,In library and in-book,Yes,Yes,Unlimited,Yes,No,Yes,Yes
-SideBooks[18],"Tatsumi-system Co., Ltd.",Yes,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes
-Stanza[19],Lexcycle,Configurable,Yes,No,In library and in-book,Configurable,Yes,Unlimited,Yes,No,Yes,Yes
-uBooks XL[20],Nix Solutions Ltd,Mixed scrolling & pagination,Yes,Yes,Yes,Yes,Yes,Unlimited,Yes,Yes,Yes,Yes
-iBouquiniste[21],Sandr,Yes,Yes,No,In-book only,Yes,Yes,Unlimited,Yes,Yes,Yes,Yes
-Product,Developer,Pagination,Rotation Lock,Auto-scroll,Progress indicator,Backward/forward,Table of Contents,Bookmarks,Resume,Cloud synchronisation,Go To,Full text search
-=======
-Product,Multi-column mode,Styles (bold/italic/etc.),Page Turn Effects,Themes,Day/Night mode,Enable/Disable sleep mode,Brightness Control,Indent paragraph,Enable/Disable CSS,Enable/Disable hyphenation,Customize margins,Customize text alignment,Customize font,Customize spacing: line/paragraph
-Apabi Reader,Yes,Yes,Configurable,Yes,Yes,Yes,Vertical swipe,Yes,Yes,Yes,No,Yes,Yes,Yes
-Blio,Yes,Yes,Yes,No,Yes,No,Yes,No,No,No,No,Justification only,Yes,No
-Bluefire Reader,No,Yes,Yes,Yes,Yes,No,Vertical swipe,No,Yes,No,Pre-set choices only,Justification only,Yes,Line only
-DL Reader,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No,Pre-set choices only,Justification only,Yes,No
-eBookMobi,Yes,Yes,No,Yes,No,No,Yes,No,No,No,No,No,Yes,No
-Ebook Reader,No,Yes,Yes,No,Yes,(Disabled by default),Yes,No,No,No,No,No,Yes,No
-i2Reader,Yes,Buggy,Yes,Yes,Using styles,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes
-iBooks,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No
-Kindle,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Pre-set choices only,Yes,Yes,Line; pre-set choices only
-Kobo Reading App,No,Yes,Yes,No,Yes,No,Vertical swipe,No,Yes,No,No,Yes,Yes,No
-KyBook,Yes,Yes,Yes,Yes,Using themes,No,Yes,Yes,Configurable,Yes,Yes,Yes,Yes,Yes
-KyBook 2,Yes,Yes,Yes,Using themes,Yes,Yes,Yes,Configurable,Yes,Yes,Yes,Yes,Yes,Yes
-MapleRead,Configurable,Yes,Configurable,Configurable,Configurable,Yes,Vertical swipe,Configurable,Yes,Yes,Yes,Yes,Yes,Yes
-Marvin,Configurable,Yes,Configurable,Yes,Yes,Yes,Vertical swipe,Yes,Configurable,Yes,Yes,Yes,Yes,Yes
-MegaReader,Configurable,Buggy,Configurable,Yes,Using themes,Yes,Vertical swipe,No,No,No,Yes,Yes,Yes,Line only
-PocketBook reader,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,Yes,No
-ShuBook 2,No,Buggy,Configurable,Yes,Yes,Yes,Vertical swipe,Configurable,No,Yes,"None, small, large",Yes,Yes,Yes
-SideBooks,No,No,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,No,No,No
-Stanza,No,Yes,Configurable,Yes,Yes,Yes,Vertical swipe,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-uBooks XL,No,Buggy,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
-iBouquiniste,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes
-Product,Multi-column mode,Styles (bold/italic/etc.),Page Turn Effects,Themes,Day/Night mode,Enable/Disable sleep mode,Brightness Control,Indent paragraph,Enable/Disable CSS,Enable/Disable hyphenation,Customize margins,Customize text alignment,Customize font,Customize spacing: line/paragraph
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Product,total # of formats,.cbr/.cbz,.chm,.djvu,.epub,.fb2,.html,.mobi,.pdb,.pdf,.rtf,.txt
+Apabi Reader,3,No,No,No,Yes,No,No,No,No,Yes,No,Yes
+Blio,2,No,No,No,Yes,No,No,No,No,Yes,No,No
+Bluefire Reader,2,No,No,No,Yes,No,No,No,No,Yes,No,No
+DL Reader,2,No,No,No,Yes,No,No,No,No,Yes,No,No
+eBookMobi,10+,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Ebook Reader,2,No,No,No,Yes,No,No,No,No,Yes,No,No
+i2Reader,6+,No,No,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes
+iBooks,2,No,No,No,Yes,No,No,No,No,Yes,No,No
+Kindle,2,No,No,No,No,No,No,Yes,No,Yes,No,No
+Kobo Reading App,2,No,No,No,Yes,No,No,No,No,Yes,No,No
+KyBook,8,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes
+KyBook 2,16,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
+MapleRead,2,No,No,No,Yes,No,No,No,No,Yes,No,No
+Marvin,2,Yes,No,No,Yes,No,No,No,No,No,No,No
+MegaReader,1,No,No,No,Yes,No,No,No,No,No,No,No
+PocketBook reader,8+,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes
+ShuBook 2,5+,No,No,No,Yes,No,No,No,Yes,Yes,Yes,Yes
+SideBooks,2,Yes,No,No,No,No,No,No,No,Yes,No,No
+Stanza,5+,Yes,No,Yes,Yes,No,No,No,Yes,Yes,No,No
+uBooks XL,5,No,No,No,Yes,Yes,Yes,No,No,No,No,Yes
+iBouquiniste,5,No,No,No,Yes,Yes,Yes,No,No,Yes,No,Yes
+Product,total # of formats,.cbr/.cbz,.chm,.djvu,.epub,.fb2,.html,.mobi,.pdb,.pdf,.rtf,.txt

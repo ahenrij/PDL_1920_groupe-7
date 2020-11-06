@@ -1,30 +1,21 @@
-<<<<<<< HEAD
-Value,Meaning
-Yes,Fully supported
-No,Has never been supported
-Partial,Only some values are supported
-Incorrect,Not implemented correctly in all cases
-Experimental,May be incomplete or buggy
-Nightly build,Currently in development; full support is expected
-Depends,Only supported for the specified conditions
-Dropped,No longer supported
-=======
-RegExp object,Trident,Gecko,WebKit,Presto
+NativeError object,Trident,Gecko,WebKit,Presto
 Called as function,,,,
-"RegExp (pattern, flags)",?,?,?,?
+EvalError (message),?,1.0,Yes,?
+RangeError (message),?,1.0,Yes,?
+ReferenceError (message),?,1.0,Yes,?
+SyntaxError (message),?,1.0,Yes,?
+TypeError (message),?,1.0,Yes,?
+URIError (message),?,1.0,Yes,?
 Called as constructor,,,,
-"new RegExp (pattern, flags)",4.0,1.0,Yes,1.0
+new EvalError (message),?,1.0,Yes,?
+new RangeError (message),?,1.0,Yes,?
+new ReferenceError (message),?,1.0,Yes,?
+new SyntaxError (message),?,1.0,Yes,?
+new TypeError (message),?,1.0,Yes,?
+new URIError (message),?,1.0,Yes,?
 Properties,,,,
-prototype,4.0,1.0,Yes,1.0
+prototype,?,1.0,?,?
 Properties of prototype,,,,
-constructor,4.0,1.0,Yes,1.0
-exec(string),4.0,1.0,Yes,1.0
-test(string),4.0,1.0,Yes,1.0
-toString(),4.0,1.0,Yes,1.0
-Properties of instances,,,,
-source,4.0,1.0,Yes,1.0
-global,4.0,1.0,Yes,1.0
-ignoreCase,5.5,1.0,Yes,1.0
-multiline,5.5,1.0,Yes,1.0
-lastIndex,4.0,1.0,Yes,1.0
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+constructor,?,1.0,?,?
+name,?,1.0,Yes,?
+message,?,1.0,Yes,?

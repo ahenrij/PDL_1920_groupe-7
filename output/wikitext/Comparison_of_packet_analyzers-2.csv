@@ -1,2 +1,29 @@
-,Process grouping,Monitor mode,Capture filter
-Wireshark,,,
+,Creator,Latest release,User interface,Software license,Cost
+Analyze This,Comoe Networks,,Web GUI,N/A,
+Cain and Abel,Massimiliano Montoro,20140407 / 4.9.56,GUI,Freeware,
+Capsa,Colasoft,20180424 / 11.1[1],GUI,,"$0–$995, depending on version[2]"
+Carnivore,Federal Bureau of Investigation,,,N/A,
+Charles Web Debugging Proxy,Karl van Randow,20170710 / 4.1.4,GUI,,$30–$50 (Free Trial)
+Clarified Analyzer,Clarified Networks,,GUI,,
+Clusterpoint Network Traffic Surveillance System,Clusterpoint,,web GUI,,
+CommView,TamoSoft,20171130 / 6.5 Build 770,GUI,,"$299–$599, $149 1 year subscription"
+dSniff,Dug Song,20001217 / 2.3[3],CLI,BSD License,
+EtherApe,Juan Toledo,20180603 / 0.9.18[4],GUI,GNU General Public License,
+Ettercap,ALoR and NaGA,20200801 / 0.8.3.1-Bertillon[5],Both,GNU General Public License,
+Fiddler,Eric Lawrence / Telerik,20191003 / 5.0.20194[6],GUI,Freeware,
+HTTP Toolkit,Tim Perry,20200508 / v0.1.22[7],GUI,GNU Affero General Public License,
+justniffer,The Justniffer team,20160321 / 0.5.15[8],CLI,GNU General Public License,
+Kismet,Mike Kershaw (dragorn),20200502 / 2020-04-R3[9],CLI,GNU General Public License,
+Microsoft Message Analyzer,Microsoft,20161028 / 1.4[10],GUI,,
+Microsoft Network Monitor,Microsoft,20100624 / 3.4,GUI,,
+netsniff-ng,Daniel Borkmann,20161107 / 0.6.2,CLI,GNU General Public License,
+ngrep,Jordan Ritter,20170907 / 1.47,CLI,BSD-style,
+Observer,Viavi Solutions (formerly Network Instruments),,GUI,,Price on request
+"OmniPeek (formerly AiroPeek, EtherPeek)",Savvius (formerly WildPackets),201711 / 11.1,GUI,,"$1194–$5994, depending on version[11]"
+Proxyman,Nghia Tran,20201020 / v2.10.0(21000)[12],GUI,,$25–$59 (Free Trial)
+SteelCentral Transaction Analyzer,OPNET Technologies/Riverbed Technology,20140609 / 17.0.T-PL1[13],GUI,,
+snoop,Sun Microsystems,20061211 / Solaris 10,CLI,CDDL,
+tcpdump,The Tcpdump team,20170904 / 4.9.2[14],CLI,BSD License,
+Tranalyzer,The Tranalyzer team,20191129 / 0.8.7lmw1[15],CLI,GNU General Public License,
+Wireshark (formerly Ethereal),The Wireshark team,20200519 / 3.2.4[16],Both,GNU General Public License,
+Xplico,The Xplico team,20190502 / 1.2.2[17],Both,GNU General Public License,

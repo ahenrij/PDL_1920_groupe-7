@@ -1,22 +1,7 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-<<<<<<< HEAD
-form,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="10" ,rowspan="10" 
-input,,,,,,,
-select,,,,,,,
-option,,,,,,,
-textarea,,,,,,,
-button,,,,,,,
-fieldset,,,,,,,
-label,,,,,,,
-legend,,,,,,,
-optgroup,,,,,,,
-=======
-b,1[6],rowspan="8" ,rowspan="8" ,rowspan="8" ,rowspan="8" ,rowspan="8" ,rowspan="8" 
-big,3[6],,,,,,
-hr,1[8],,,,,,
-i,1[6],,,,,,
-small,rowspan="3" 3[6],,,,,,
-sub,,,,,,,
-sup,,,,,,,
-tt,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+ruby,,rowspan="6" ,rowspan="6" ,,rowspan="6" ,rowspan="6" ,rowspan="6" 
+rbc,rowspan="2" ,rowspan="2" ,,,,,
+rtc,,,,,,,
+rb,,,,,,,
+rt,,,,,,,
+rp,,,,,,,

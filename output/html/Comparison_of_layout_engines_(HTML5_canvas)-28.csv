@@ -1,23 +1,25 @@
-<<<<<<< HEAD
-Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
-manifest,html,6.0[22],12,1.9,Yes,2.6[p 8][p 9]
-sizes,link,No,13,8.0 (only mobile)[g 16][g 17],Yes[w 19],No
-charset,meta,4.0[23],12,1.9.2,Yes,2.5.24
-scoped,style,No,No,21.0[g 18],No[w 20],No
-async,script,6.0,12,1.9.2[g 19],Yes[w 21],
-reversed,ol,No,No,18.0[g 20],Yes[w 22],
-download[citation needed],"a,area",No,13,20.0[g 21],Yes,
-sandbox,iframe,6.0[t 5],12,17.0[g 22],533[w 23],
-seamless,iframe,No,No,No[g 23],No[w 24],
-Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
-=======
-,Trident,Gecko,WebKit,KHTML,Presto
-Font styles,,,,,
-b,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-i,,,,,
-big,,,,,
-small,,,,,
-tt,,,,,
-Horizontal rules,,,,,
-hr,<3.1[IE 4.0],1.0,Yes,Yes,1.0
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Trident,Gecko,WebKit,Presto
+<audio> attributes,,,,
+src,5.0[t 1],1.9.1,525,2.5
+preload,,2.0[note 11][g 90],,Experimental[note 11]
+autoplay,,1.9.1,,2.5
+loop,,11.0[g 91],,
+controls,,1.9.1,,
+<video> attributes,,,,
+src,5.0[t 1],1.9.1,525,2.5
+preload,,2.0[note 11][g 90],,Experimental[note 11]
+autoplay,,1.9.1,,2.5
+loop,,11.0[g 91],,
+controls,,1.9.1,,
+poster,,1.9.2[g 92],,
+width,,1.9.1,,
+height,,,,
+<source> attributes,,,,
+src,5.0[t 1],1.9.1,525[w 70],2.5
+type,,,,
+media,,15.0[g 93],,
+<track> attributes,,,,
+kind,6.0[t 42],24.0[g 94],Yes[w 71],No
+label,,,,
+src,,,,
+srclang,,,,

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Software,Creator,Edition,Release Date,Cost (USD),Open source,Software license,Implementation
 AdroitLogic UltraESB,AdroitLogic,17.01,January 2017,Subscription based licensing and support or perpetual licensing,,,Enterprise Service Bus
 Anypoint Platform,MuleSoft,Mule 3.7,June 2015,Sold as software as a subscription with various packaged options to serve different use cases. The pricing scales with usage as measured by number of cores on-premises and virtual cores in the cloud.,,Dual (CPAL or proprietary,
@@ -33,31 +32,3 @@ webMethods Integration Server,Software AG,9.0[11],May 2013,varies,,,Enterprise S
 WebSphere Message Broker (now known as IBM Integration Bus),IBM,8.0,October 2011,No longer marketed under this name - replacement name is IBM Integration Bus,,,Enterprise Service Bus
 WSO2 Enterprise Integrator,WSO2,6.4,2018,Free / Commercial support available,, Apache License 2.0,"Enterprise Service Bus, Message Broker, Application Server, Business Process Server, Data Services Server"
 WSO2 Enterprise Service Bus (ESB),WSO2,5.0.0,2016,Free / Commercial support available,, Apache Software License,
-=======
-Software,Microsoft Windows,,,,,,,,,Darwin/ OS X,Linux,,,,IBM,,,,HP-UX,illumos/ Solaris,iOS-->
-,2000,XP,Vista,2003 Server,2008 R2 Server,2008 Server,2012 Server,7 – 64 bit,8 – 64 bit,,Red Hat,SUSE,Ubuntu,CentOS,AIX,OS/390,i5/OS,z/OS,,,
-AdroitLogic UltraESB,,,,,,,,,,,,,,,,,,,,,
-Anypoint Platform,,,,,,,,,,,,,,,,,,,,,
-Artix ESB,"with SP3, SP4","with SP1, SP2",,,,,,,,,,,,,,,,,,,
-Automation Anywhere Integration Pack,,,,,,,,,,,,,,,,,,,,,
-BizTalk Server,,,,,,,,,,,,,,,,,,,,,
-Flow Software,,,,,,,,,,,,,,,,,,,,,
-IBM Integration Bus [23],,,,,,,,,,,,,,,,,,,,,
-JBoss Enterprise Service Bus (ESB),,,,,,,,,,,,,,,,,,,,,
-JBoss Enterprise SOA Platform,,,,,,,,,,,,,,,,,,,,,
-Informatica Power Center,,,,,,,,,,,,,,,,,,,,,
-Openadaptor,,,,,,,,,,,,,,,,,,,,,
-OpenESB,,,,,,,,,,,,,,,,,,,,,
-OpenLink Virtuoso,,,,,,,,,,,,,,,,,,,,,
-Oracle BPEL Process Manager,,,,,,,,,,,,,,,5L,,,,,,
-Oracle Enterprise Service Bus,,,,,,,,,,,,,,,,,,,,,
-PEtALS ESB,,,,,,,,,,,,,,,,,,,,,
-SAP Exchange Infrastructure,,,,,,,,,,,,,,,,,,,,,
-ServiceMix,,with SP2,,,,,,,,,,,,,,,,,,,
-Sonic ESB,,,,,,,,,,,,,,,,,,,,,
-Spagic,,,,,,,,,,,,,,,,,,,,,
-Sun Java Composite Application Platform Suite,,,,,,,,,,,,,,,,,,,,,
-TrackerSuite.Net,,with SP2,,,,,,,,,,,,,,,,,,,
-Unify NXJ,with SP4,with SP1,,,,,,,,,,,,,5.3,,,,,,
-WSO2 Enterprise Service Bus (ESB),,,,,,,,,,,,,,,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

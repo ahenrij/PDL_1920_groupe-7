@@ -1,91 +1,39 @@
-<<<<<<< HEAD
-Name,Creator,First public version (date),"Latest stable version (date, number)",Cost,Software license
-Altap Salamander,Altap,19970815,20190701 (4.0),,
-Commander One,Eltima Software,20150804,2019 (2.3),US$29.95[1],
-CRAX Commander,Soft4U2,20130901,20180605 (1.11.1),US$19.99[1],
-Directory Opus,"Jonathan Potter, GPSoftware",Amiga: v1 (1990-01-03) Windows: v6 (2001-06-18),20200330 (12.20),A$49 lite / A$89 pro,
-Dired,"integral part of Emacs, part of the GNU project",1974?,20090730 (7.17),,GPL
-Documents by Readdle,Readdle,,,,
-Dolphin,KDE,20060607 (0.5),,,GPL
-DOS Navigator,Ritlabs,1991 (0.90),1999 (1.51),,BSD original
-DOS Shell,Microsoft / IBM,1988,1998,Part of MS-DOS/PC DOS (OS),
-Double Commander,Alexander Koblov (alexx2000) and others,2007,20190707 (0.9.5),,GPL
-emelFM2,tooar,20030906,20140218 (0.9.1),,GPL
-Explorer++,David Ercig,20080108,20130203 (1.3.5),,GPL
-Far Manager,Eugene Roshal (original); Far Group,1996,mf=y,,BSD revised
-File Commander,Brian Havard,1993,20110303 (2.40),A$35.00,
-File Explorer[2],Microsoft,19950824,20150729,Part of Windows (OS),
-File Manager,Microsoft (Ian Ellison-Taylor),1990,201917 (10.0.1901.1)[3],Part of Windows (OS),MIT[3]
-Files (Apple),Apple Inc.,2017919,,Part of iOS (OS),
-Files by Google,Google LLC,20171205df=yes,,,
-GeoManager,"Berkeley Softworks[4], Breadbox Ensemble[5]",1990,2009,Part of PC/GEOS (OS),
-Finder,Apple Inc.,198401,20150813 (10.10.5),Part of macOS (OS),
-fman,Michael Herrmann,20160718,20190422 (1.5.8),US$18[1],
-ForkLift,BinaryNights,20070601,20200826 (3.4.2),US$29.95[1],
-gentoo,Emil Brink,,2012318 (0.19.13),,GPL
-GNOME Commander,GNOME Commander,200109,20170528 (1.6.4),,GPL
-GNOME Files[6],Eazel,20010411,,,GPL
-Konqueror,KDE,200010,,,GPL
-Krusader,Krusader Krew,20000711,,,GPL
-Midnight Commander[7],GNU Midnight Commander,< May 1994[8],20181212 (4.8.22),,GPL
-muCommander,Maxence Bernard,20020217,20181208 (0.9.3),,GPL
-Nemo,Linux Mint,201207 (1.0.0),"December 11, 2018 (4.0.5)[9]",Free[10],GPL
-Nomad.NET,Eugene Sichkar,20080814 (2.2.0.537 beta),20160613 (3.2.0.2890),,
-Norton Commander,"Peter Norton Computing, later Symantec corporation",1986,19990201 (2.01 Windows DOS: 1998-07-01 (5.51)), ?,
-Path Finder[11],Cocoatech,200104,20200324 (9.1),US$36.00,
-PathMinder,Albert Nurick and Brittain Fraley,1984,1988 (4.11),US$39.95,
-PCManFM,Hong Jen Yee,20060109,2016221 (1.2.4),,GPL
-PC Shell,Central Point Software,1986,,paid[12],
-ROX-Filer,Thomas Leonard et al.,Before 20000310,20111009 (2.11),,GPL
-SpaceFM,IgnorantGuru,20120113 (0.5.0),2016120 (1.0.5),,GPL
-STDU Explorer,STDUtility,20090323,20120524 (1.0.465),,
-Tabbles,Yellow blue soft UAB,20090801,20160812 (3.1.29),US$29.95[1],
-Thunar,Xfce,20060122,date=September 2020(4.15.2)[13],,GPL
-Total Commander[14],Christian Ghisler,19930925 (1.00d),20200325 (9.51),"CHF40, €37, US$42[1]",
-ViewMAX,Digital Research / Novell,1990 (1.0),1993 (3.0),Part of DR-DOS (OS),GPL[15]
-Volkov Commander,Vsevolod Volkov,circa 1992,,shareware / freeware,
-WinSCP,WinSCP,20000930,,,GPL
-Xandros File Manager,Xandros Corporation,,20070726 (4.2),Part of Xandros Desktop,
-Xfe,Roland Baudin,2002,20180916 (1.43.1),,GPL
-Xfile,Rixstep,20030302,20070219 (1.8.0),US$79.00[16],
-Xfm,"Simon Marlow, Albert Gräf, Till Straumann, Robert Vogelgesang, Juan D. Martin",1992,200109 (1.4.3),,GPL
-xplorer²,Nikos Bozinis,20040610,20171213 (3.5.0.2),"pro US$29.95, ultimate: US$49.95[1]",
-XTree,Jeffery C. Johnson,19850401,1992 (Xtree for Windows),US$39.95,
-XYplorer,Donald Lessau,1997,20200213 (20.80.0100),"Standard License Pro US$39.95, Lifetime License Pro $79.95[1][17]",
-ZTreeWin,Kim Henkel,1996,20120527 (2.1.19) 20130526 (2.4.121 beta) 20170531 (2.4.172 zeta),US$29.95 (1-4),
-=======
-File manager,Filesystem support,Attribute columns,File previews,Metadata indexing,Unicode support,Visual Themes
-Altap Salamander,,,,,,
-Commander One,,,,,,
-CRAX Commander,,,,,,
-Directory Opus,,,,,,
-Dired,,,,,,
-Documents by Readdle,,,,,,
-Dolphin,,,,,,
-Double Commander,,,,,,
-emelFM2,,,,,,
-Far Manager,,,,,,
-Files (Apple),,,,,,
-Files by Google,,,,,,
-Finder,,,,,,
-ForkLift,,,,,,
-Konqueror,,,,,,
-Krusader,,,,,,
-Midnight Commander,,,,,,
-GNOME Files (Nautilus),,,,,,
-Nemo,?,?,?,?,?,?
-Nomad.NET,,,,,,
-Path Finder,,,,,,
-PCManFM,,,,,,
-ROX-Filer,,,,,,
-Total Commander,,,,,,
-Windows Explorer,,,,,,
-Xandros File Manager,,,,,,
-Xfe,,,,,,
-Xfile,,,,,,
-Xfm,,,,,,
-xplorer²,,,,,,
-XYplorer,,,,,,
-ZTreeWin,,,,,,
-File manager,Filesystem support,Attribute columns,File previews,Metadata indexing,Unicode support,Visual Themes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+File manager,Symbolic links,Browse compressed folders,Slideshows,Shows combined Size of Selected Directories,Branch Sizes,Directory Compare,Synchronizer,Find as you type (Type-ahead find),Embedded/Integrated Terminal,"For Directories, size column shows:"
+Altap Salamander,,,,,,,,,,DIR
+Commander One,,,,,,,,,",DIR and Total size including subdirectories
+CRAX Commander,,,,,,,,,,DIR and Total size including subdirectories
+Directory Opus,,,,,,,,,,DIR and Total size including subdirectories
+Dired,,,,,,,,,,Literal [71]
+Documents by Readdle,,,,,,,,,,
+DOS Navigator,,,,,,,,,,Total size including subdirectories
+Dolphin,,,,,,,,,,Number of entries
+Double Commander,,,,,,,,,,DIR
+emelFM2,,,,,,,,,,Literal [71]
+FAR Manager,,,,,,,,,,
+File Commander,,,,,,,,,,
+Files (Apple),,,,,,,,,,
+Files by Google,,,,,,,,,,
+Finder,,,,,,,,,,
+ForkLift,,,,,,,,,,DIR and Total size including subdirectories
+GNOME Commander,,,,,,,,,,
+Konqueror,,,,,,,,,,Folder only size (default) selectable to file count/total size
+Krusader,,,,,,,,,,
+Midnight Commander,,,,,,,,,,
+muCommander,,,,,,,,,",
+GNOME Files (Nautilus),,,,,,,,,",Number of entries
+Nemo,?,?,?,?,?,?,?,?,",
+Nomad.NET,,,,,,,,,",DIR and Total size including subdirectories
+Path Finder,,,,,,,,,,
+PCManFM,,,,,,,,,",Nothing
+ROX-Filer,,,,,,,,",,Nothing
+Thunar,,,,,,,,,,Literal*
+Total Commander,,,,,,,,,,DIR and Total size including subdirectories
+Windows Explorer,,,,,,,,,,
+Xandros File Manager,,,,,,,,,,
+Xfe,,,,,,,,,,
+Xfile,,,,,,,,,,
+Xfm,,,,,,,,,,
+xplorer²,,,,,,,,,,
+XYplorer,,,,,,,,,,Contents including subs
+ZTreeWin,,,,,,,,,,Selectable: Number of entries or Size (Optional: Including subs)
+File manager,Symbolic links,Browse compressed folders,Slideshows,Shows combined Size of Selected Directories,Branch Sizes,Directory Compare,Synchronizer,Find as you type (Type-ahead find),Embedded/Integrated Terminal,"For Directories, size column shows:"

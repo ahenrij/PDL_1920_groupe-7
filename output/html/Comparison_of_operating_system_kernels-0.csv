@@ -1,20 +1,17 @@
-<<<<<<< HEAD
-Kernel,Acorn ADFS,Amiga FFS,BeFS,BFS,cramfs,EFS,ext2,ext3,ext4,F2FS,FAT,FreeVxFS,HFS,HFS+,HPFS,ISO 9660,JFFS,JFFS2,JFS,MINIX fs,NSS,NTFS,OCFS,QNX4 FS,System V FS,UDF,UFS,XFS,ZFS,ReiserFS,Reiser4,Btrfs,HAMMER,Tux3,exFAT,ReFS
-DragonFly BSD kernel,No,No,No,No,No,No,Yes,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,limited write,No,No,No,read only,Yes,No,No,No,No,No,Yes,No,No,No
-FreeBSD kernel,No,No,No,No,No,No,Yes,Yes,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,limited write,No,No,No,Yes,Yes,read only,Yes,read only,No,No,No,No,?,No
-Linux kernel,Yes [24],Yes,read only,Yes,Yes,read only,Yes,Yes,Yes,Yes,Yes,read only,Yes,limited write (only with empty journal),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes (Full R/W with additional userspace driver)[25],Yes,Yes [24] [26],write support?,Yes,Yes [24],Yes,both FUSE and native,Yes,Yes,Yes,No,Yes,Yes,No
-MINIX 3 kernel,No,No,No,No,No,No,Yes,No,No,No,"Tools available, cannot mount",No,No,No,No,Yes,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-NetWare kernel,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,?,No
-ReactOS kernel,No,No,No,No,No,No,Yes [27],Yes [27],Yes [27],No,Yes [27],No,No,No,No,Yes [27],No,No,No,No,No,Read only,No,No,No,Yes [27],No,No,No,No,No,Yes [28],No,No,No,No
-Solaris kernel,?,?,?,?,?,?,Yes,?,?,?,Yes,?,?,?,?,Yes,?,?,?,?,No,No,?,?,?,Yes,Yes,?,Yes,No,No,No,No,No,?,No
-Windows NT kernel,?,?,?,?,?,?,Yes [29],Yes [30],Yes [30],No,Yes,?,Yes [31],Yes [31],No,Yes,?,?,?,?,No,Yes,?,?,?,Yes,?,?,No,No,No,Yes [28],No,No,Yes,Yes
-XNU,No,No,No,No,No,No,Yes [32],Yes [32],No,No,Yes,No,Yes,Yes,No,Yes,No,No,No,No,No,Read-Only,No,No,No,Yes,Yes,No,read only,No,No,No,No,No,Yes,No
-=======
-Kernel name,DES,AES,Blowfish,Triple DES,Serpent,Twofish,CAST-128,DES-X,IDEA,RC2,RC5,SEED,Skipjack,TEA,XTEA,CAST-256,RC4,Camellia,Anubis,KHAZAD,Salsa20,FCrypt
-DragonFly BSD kernel,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No
-FreeBSD kernel,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,No
-Linux,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Windows NT kernel,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,No,No
-macOS XNU Kernel,Yes,Yes,Yes,?,?,?,Yes,?,?,Yes,Yes,?,?,?,?,Yes,Yes,?,?,?,?,?
-Kernel name,DES,AES,Blowfish,Triple DES,Serpent,Twofish,CAST-128,DES-X,IDEA,RC2,RC5,SEED,Skipjack,TEA,XTEA,CAST-256,RC4,Camellia,Anubis,KHAZAD,Salsa20,FCrypt
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+kernel,HP,,,Softbank/ARM Holdings,,Intel,,,,Tallwood MIPS,,IBM,,,,Renesas Electronics,,,,,,,Oracle,,,NXP,,Analog Devices,Xilinx,Cadence,,Canon/Axis Comm.,Socionext,,Microchip/ Atmel,CML/ Hyperstone,Intel/Altera,,,WDC,Sunplus Technology,Mellanox,TI
+,VAX,Alpha,PA-RISC,ARM,,x86,,i960,IA-64,MIPS,,PowerPC,,S/390,z/Arch,H8300,M16C,M32R,78K,V850,SuperH,,SPARC,,,m68k,,Blackfin (no-mmu),MicroBlaze,Xtensa,,ETRAX CRIS,FR-V,MN10300,AVR32,E1 (no-mmu),Nios (no-mmu),Nios II,,WDC 65C816,S+core,Tilera,C6X
+,,,,mmu,no-mmu,x86,x86-64,,,mmu,no-mmu,32-bit,64-bit,,,,,,,,mmu,no-mmu,32-bit,64-bit,no-mmu,mmu,no-mmu,,,mmu,no-mmu,,,,,,,mmu,no-mmu,,,,
+DragonFly BSD kernel,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+FreeBSD kernel,No,No,No,Yes,?,Yes,Yes,?,Yes,Yes,No,Yes,Yes,No,No,?,?,?,?,?,No,No,No,Yes,?,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Linux kernel,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,No,4.16 and below only[33],No,2.6 and below only,Yes,Yes,Yes,Yes,Yes,Yes,Yes,4.16 and below only[33],Yes,Yes,Yes,4.16 and below only[33],4.16 and below only[33],4.16 and below only[33],4.12 and below only,No,No,Yes,Yes,No,4.16 and below only[33],4.16 and below only[33],Yes
+MINIX 3 kernel,?,No,No,Yes,?,Yes,In progress,No,No,In progress,?,No,No,No,No,No,?,No,?,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+NetBSD kernel,Yes,Yes,Yes,Yes,No[34],Yes,Yes,?,Yes,Yes,No[34],Yes,No,No,No,?,?,?,?,?,Yes,No[34],Yes,Yes,No[34],Yes,No[34],?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+NetWare kernel,No,No,No,No,No,Yes,No,?,No,No,No,No,No,No,No,?,?,?,?,?,No,No,No,No,No,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+OpenBSD kernel,No,Yes,Yes,Yes,?,Yes,Yes,?,No,Yes,?,Yes,No,No,No,?,?,?,?,?,Yes,?,Yes,Yes,?,Yes,Yes,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Rockbox kernel,?,?,?,Yes,?,?,?,?,?,Yes,?,?,?,?,No,?,?,?,?,?,Yes,?,?,?,?,Yes,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Solaris kernel,No,No,No,No,No,Yes,Yes,?,No,No,No,No,No,No,No,?,?,?,?,?,No,No,Yes,Yes,?,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+Windows NT kernel,No,NT 5.0 RC1 and below only,No,Yes,No,Yes,Yes,No,XP and 2003-2008 R2 only,NT 4.0 and below only,No,NT 3.51 and NT 4.0 only,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Windows CE kernel,No,No,No,Yes,?,Yes,?,No,No,Yes,?,No,No,No,No,No,?,No,?,No,Yes,?,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+XNU,No,No,No,Yes,?,Yes,Yes,?,No,No,No,Yes,Yes,No,No,?,?,?,?,?,No,No,No,No,No,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+SPARTAN kernel,?,No,No,Yes,?,Yes,Yes,?,Yes,Yes,?,Yes,No,No,No,?,?,?,?,?,No,No,Yes,Yes,?,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
+FreeRTOS kernel,?,?,?,?,Yes[35],?,?,?,?,?,?,Yes[35],?,?,No,Yes[35],?,?,Yes[35],Yes[35],?,Yes[35],?,?,?,?,?,Yes[35],Yes[35],?,?,?,?,?,Yes[35],?,?,?,Yes[35],?,?,?,?

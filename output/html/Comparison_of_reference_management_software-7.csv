@@ -1,30 +1,30 @@
-Software,Word for Windows,Word for Mac,Word Online,Pages,Apache OpenOffice / LibreOffice,Kile/LyX,Google Docs,RTF scan[30],Other
-Bebop,No,No,No,No,No,No,No,No,none
-BibBase,No,No,No,No,No,No,No,No,none
-BibDesk,No,No,No,No,No,Yes,?,?,?
-Biblioscape,Yes,No,?,No,No,No,No,?,WordPerfect
-BibSonomy,No,No,No,No,No,No,No,No,none
-Bibus,Yes,?,?,?,Yes,No,No,?,none
-Bookends,Yes,Yes,No,Yes,Yes,No,No,Yes,"Mellel, Nisus"
-Citavi,Yes,No,No,No,Only versions prior to 6.0,Yes[31],No,Only versions prior to 6.0,"LaTeX editors LEd, Texmaker, TeXnicCenter, TeXstudio, TeXworks, WinEdt, WinShell"
-CiteULike,No,No,No,No,No,No,No,No,none
-colwiz,Yes,?,?,?,Yes,No,No,?,"NeoOffice, Star Office"
-EndNote,Yes,Yes,No,Yes,No[32],No,No,Yes,No
-JabRef,Yes[33],?,?,?,Yes[34],Yes,No,?,"Emacs, Texmaker, TeXstudio, Vim, WinEdt"
-KBibTeX,No,?,?,?,No,Yes,No,?,none
-Mendeley,Yes,Partial[35],Yes[36],No,Yes,No,No,?,NeoOffice
-Paperpile,in beta,No,No,No,No,No,Yes,No,No
-Pybliographer,No,?,?,?,Yes,Yes,No,?,none
-Qiqqa,Yes,?,?,?,No,Yes,No,No,none
-ReadCube (now Papers),Yes,Yes,Yes[37],Yes[38],Yes,No,Yes,"No| style="background:#9F9;vertical-align:middle;text-align:center;" class="table-yes"|Manuscripts App, Ulysses, Scrivener",
-refbase,No,?,?,?,Yes[39],No,No,Yes,"PIRA, MediaWiki, SPIP"
-RefDB,No,?,?,?,No,No,No,No,none
-Reference Manager,Yes,No,?,No,No,No,No,Yes,none
-Referencer,?,?,?,?,?,?,?,?,?
-RefME,?,?,?,?,?,?,?,?,?
-RefWorks,Yes,Yes,No,No,No,No,Yes,Yes,none
-SciRef,Yes,?,?,?,No,No,No,No,none
-Sente,Yes,?,?,Only versions prior to 5.0,No,No,No,Yes,"Mellel, Nisus, TextEdit; HTML and plain text scan"
-Wikindx,No,?,?,?,No,No,No,Yes,Integrated WYSIWYG word processor (RTF output for Word/OpenOffice)
-WizFolio,Yes,?,?,?,Yes,No,Yes,?,Zoho Writer
-Zotero,Yes,Yes,No,No,Yes,(with LyZ)[40],Yes,Yes,NeoOffice
+Software,APA,Chicago/Turabian,Harvard,MLA,Other,Extension method
+Bebop,No,No,No,No,none,none
+BibBase,Yes,No,No,No,none,none
+BibDesk,Yes,yes,No,No,various,BibDesk export templates
+Biblioscape,Yes,Yes,Yes,Yes,2000+ styles[citation needed],Biblioscape format (through GUI)
+BibSonomy,Yes,No,Yes,No,none,none
+Bibus,Yes,No,No,No,"56 styles, user-contributed",bibus format (through GUI)
+Bookends,Yes,Yes,Yes,Yes,various[citation needed],?
+Citavi,Yes,Yes,Yes,Yes,10600+ styles. Styles can be requested and are centrally corrected; any BibTeX style when used with LaTeX.,"Citavi format (through GUI), includes conditions and programmable components; BibTeX"
+CiteULike,Yes,Yes,Yes,Yes,various[citation needed],none
+colwiz,Yes,Yes,Yes,Yes,9464 styles,CSL
+EndNote,Yes,Yes,Yes,Yes,6926 styles,EndNote format (through GUI)
+JabRef,Yes,Yes,Yes,Yes,any BibTeX style,BibTeX
+KBibTeX,Yes,Yes,Yes,Yes,any BibTeX style,BibTeX
+Mendeley,Yes,Yes,Yes,Yes,9464 styles,CSL
+Paperpile,Yes,Yes,Yes,Yes,9464 styles,CSL
+Pybliographer,Yes,No,No,No,none,Pybliographer XML
+Qiqqa,Yes,Yes,Yes,Yes,9464 styles,BibTeX and CSL
+ReadCube (now Papers),Yes,Yes,Yes,Yes,9464 styles,BibTeX and CSL
+refbase,Yes,Yes,Yes,Yes,various polar & marine journals,PHP
+RefDB,Yes,Yes,Yes,Yes,21 biomedical & law journals,"XML (citestylex.dtd), interactive script"
+Reference Manager,Yes,Yes,Yes,Yes,various,Reference Manager format (through GUI)
+Referencer,?,?,?,?,?,?
+RefME,?,?,?,?,?,?
+RefWorks,Yes,Yes,Yes,Yes,"4256, plus CSL styles",RefWorks format (through GUI); CSL
+SciRef,Yes,Yes,Yes,Yes,various,SciRef format (through GUI)
+Sente,Yes,Yes,Yes,Yes,various,Sente format (through GUI)
+Wikindx,Yes,Yes,Yes,Yes,"ABNT, APA, BMJ, Chicago, Harvard, IEEE, MLA, Turabian",Wikindx format (through GUI)
+WizFolio,Yes,Yes,Yes,Yes,1000+ styles,WizFolio format (through GUI)
+Zotero,Yes,Yes,Yes,Yes,9464 styles,CSL

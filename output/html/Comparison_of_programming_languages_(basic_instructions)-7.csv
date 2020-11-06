@@ -1,74 +1,42 @@
-<<<<<<< HEAD
-,fixed size array,,dynamic size array,
-,one-dimensional array,multi-dimensional array,one-dimensional array,multi-dimensional array
-Ada[1],array (<first> .. <last>) of <type> or array (<discrete_type>) of <type>,"array (<first1> .. <last1>, <first2> .. <last2>, ...) of <type> or array (<discrete_type1>, <discrete_type2>, ...) of <type>",array (<discrete_type> range <>) of <type>,"array (<discrete_type1> range <>, <discrete_type2> range <>, ...) of <type>"
-ALGOL 68,[first:last]«modename» or simply: [size]«modename»,"[first1:last1, first2:last2]«modename» or [first1:last1][first2:last2]«modename» etc.",flex[first:last]«modename» or simply: flex[size]«modename»,"flex[first1:last1, first2:last2]«modename» or flex[first1:last1]flex[first2:last2]«modename» etc."
-C (C99),type name[size][a],type name[size1][size2][a],type *name or within a block: int n = ...; type name[n],
-C++ (STL),"«std::»array<type, size>(C++11)",,«std::»vector<type>,
-C#,type[],"type[,,...]",System.Collections.ArrayList or System.Collections.Generic.List<type>,
-Java,type[][b],type[][]...[b],ArrayList or ArrayList<type>,
-D,type[size],type[size1][size2],type[],
-Go,[size]type,[size1][size2]...type,[]type,[][]type
-Rust,[type; size],[[type; size1]; size2],Vec<type>,Vec<Vec<type>>
-Swift,,,[type] or Array<type>,[[type]] or Array<Array<type>>
-Objective-C,NSArray,,NSMutableArray,
-JavaScript,N/A,N/A,Array[d],
-Common Lisp,(simple-array type (dimension)),(simple-array type (dimension1 dimension2)),(array type (dimension)),(array type (dimension1 dimension2))
-Scheme,,,,
-ISLISP,,,,
-Pascal,array[first..last] of type[c],"array[first1..last1] of array[first2..last2] ... of type [c] or array[first1..last1, first2..last2, ...] of type [c]",N/A,N/A
-Object Pascal (Delphi),,,array of type,array of array ... of type
-Visual Basic,,,,
-Visual Basic .NET,type(),"type(,,...)",System.Collections.ArrayList or System.Collections.Generic.List(Of type),
-Python,,,list,
-S-Lang,,,,
-Fortran,type :: name(size),"type :: name(size1, size2,...)","type, ALLOCATABLE :: name(:)","type, ALLOCATABLE :: name(:,:,...)"
-PHP,,,array,
-Perl,,,,
-Raku,,,Array[type] or Array of type,
-Ruby,,,Array,
-Scala,Array[type],Array[...[Array[type]]...],ArrayBuffer[type],
-Seed7,array type or array [idxType] type,array array type or array [idxType] array [idxType] type,array type or array [idxType] type,array array type or array [idxType] array [idxType] type
-Smalltalk,Array,,OrderedCollection,
-Windows PowerShell,type[],"type[,,...]",,
-OCaml,type array,type array ... array,,
-F#,type [] or type array,"type [,,...]",System.Collections.ArrayList or System.Collections.Generic.List<type>,
-Standard ML,type vector or type array,,,
-Haskell (GHC),,,,
-COBOL,level-number type OCCURS size «TIMES».,one-dimensional array definition...,level-number type OCCURS min-size TO max-size «TIMES» DEPENDING «ON» size.[e],N/A
-=======
-,Simple composite types,,Algebraic data types,Unions
-,Records,Tuple expression,,
-Ada[1],type identifier is «abstract» «tagged» «limited» [record fieldname1 : type; fieldname2 : type; ... end record |null record],N/A,"Any combination of records, unions and enumerations (as well as references to those, enabling recursive types).",type identifier (variation : discrete_type) is record case variation is when choice_list1 => fieldname1 : type; ... when choice_list2 => fieldname2 : type; ... ...end case;end record
-ALGOL 68,"struct (modename «fieldname», ...);",Required types and operators can be user defined,,"union (modename, ...);"
-C (C99),struct «name» {type name;...};,N/A,N/A,union {type name;...};
+,calling a function,basic/void function,value-returning function,required main function
+Ada[1],foo «(parameters)»,procedure foo «(parameters)» is begin statements end foo,function foo «(parameters)» return type is begin statements end foo,N/A
+ALGOL 68,foo«(parameters)»;,proc foo = «(parameters)» void: ( instructions );,proc foo = «(parameters)» rettype: ( instructions ...; retvalue );,N/A
+APL,«parameters» foo parameters,foo?{ statements },foo?{ statements },N/A
+C (C99),foo(«parameters»),void foo(«parameters») { instructions },type foo(«parameters») { instructions ... return value; },"«global declarations» int main(«int argc, char *argv[]») { instructions }"
 Objective-C,,,,
-C++,struct «name» {type name;...};[b],«std::»tuple<type1..typen>,,
-C#,struct name {type name;...},"(val1, val2, ... )",,N/A
-Java,N/A[a],,,
-JavaScript,,N/A,,
-D,struct name {type name;...},,"std.variant.Algebraic!(type,...)",union {type name;...}
-Go,struct { «name» type ...},,,
-Rust,"struct name {name: type, ...}","(val1, val2, ... )","enum name { Foo(types), ...}","union name {name: type, ...}"
-Swift,struct name { var name «: type» ...},"(«name1:» val1, «name2:» val2, «name3:» val3, ... )",enum name { case Foo«(types)» case Bar «(types)» ... },
-Common Lisp,(defstruct name slot-name (slot-name initial-value) (slot-name initial-value :type type) ...),(cons val1 val2)[c],,
-Scheme,N/A,,,
-ISLISP,,,,
-Pascal,record name: type; ...end,N/A,N/A,record case type of value: (types); ...end
-Visual Basic,,,,
-Visual Basic .NET,Structure name Dim name As type ... End Structure,"(val1, val2, ... )",,
-Python,N/A[a],"«(»val1, val2, val3, ... «)»",,N/A
-S-Lang,"struct {name [=value], ...}",,,
-Fortran,TYPE name type :: name ... END TYPE,,,
-PHP,N/A[a],,,
-Perl,N/A[d],,,N/A
-Raku,N/A[a],,,
-Ruby,OpenStruct.new({:name => value}),,,
-Scala,"case class name(«var» name: type, ...)","(val1, val2, val3, ... )",abstract class name case class Foo(«parameters») extends name case class Bar(«parameters») extends name ... or abstract class name case object Foo extends name case object Bar extends name ... or combination of case classes and case objects,
-Windows PowerShell,,,,
-OCaml,type name = {«mutable» name : type;...},"«(»val1, val2, val3, ... «)»",type name = Foo «of type» | Bar «of type» | ...,N/A
-F#,,,,
-Standard ML,"type name = {name : type,...}","(val1, val2, val3, ... )",datatype name = Foo «of type» | Bar «of type» | ...,
-Haskell,"data Name = Constr {name :: type,...}",,data Name = Foo «types» | Bar «types» | ...,
-COBOL,level-number name type clauses. level-number+n name type clauses. ...,N/A,N/A,name REDEFINES variable type.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+C++ (STL),,,,
+Java,,,,public static void main(String[] args) { instructions } or public static void main(String... args) { instructions }
+D,,,,int main(«char[][] args») { instructions} or int main(«string[] args») { instructions} or void main(«char[][] args») { instructions} or void main(«string[] args») { instructions}
+C#,,"Same as above; alternatively, if only one statement: void foo(«parameters») => statement;","Same as above; alternatively, if simple enough to be an expression: void foo(«parameters») => expression;","static void Main(«string[] args») method_body May instead return int. (starting with C# 7.1:) May return Task or Task<int>, and if so, may be async."
+JavaScript,,"function foo(«parameters») { instructions } or var foo = function («parameters») {instructions } or var foo = new Function («"parameter", ... ,"last parameter"» "instructions");",function foo(«parameters») { instructions ... return value; },N/A
+Go,,func foo(«parameters») { instructions },func foo(«parameters») type { instructions ... return value },func main() { instructions }
+Swift,,func foo(«parameters») { instructions },func foo(«parameters») -> type { instructions ... return value },N/A
+Common Lisp,(foo «parameters»),(defun foo («parameters») instructions) or (setf (symbol-function 'symbol) function),(defun foo («parameters») ... value),N/A
+Scheme,,(define (foo parameters) instructions) or (define foo (lambda (parameters) instructions)),(define (foo parameters) instructions... return_value) or (define foo (lambda (parameters) instructions... return_value)),
+ISLISP,,(defun foo («parameters») instructions),(defun foo («parameters») ... value),
+Pascal,foo«(parameters)»,procedure foo«(parameters)»; «forward;»[a] «label label declarations» «const constant declarations» «type type declarations» «var variable declarations» «local function declarations» begin instructionsend;,function foo«(parameters)»: type; «forward;»[a] «label label declarations» «const constant declarations» «type type declarations» «var variable declarations» «local function declarations» begin instructions; foo := valueend;,program name; «label label declarations» «const constant declarations» «type type declarations» «var variable declarations» «function declarations» begin instructions end.
+Visual Basic,Foo(«parameters»),Sub Foo«(parameters)» instructions End Sub,Function Foo«(parameters)»« As type» instructions Foo = valueEnd Function,Sub Main() instructionsEnd Sub
+Visual Basic .NET,,,"Same as above; alternatively: Function Foo«(parameters)»« As type» instructions Return valueEnd Function The As clause is not required if Option Strict is off. A type character may be used instead of the As clause. If control exits the function without a return value having been explicitly specified, the function returns the default value for the return type.",Sub Main(««ByVal »args() As String») instructions End Subor Function Main(««ByVal »args() As String») As Integer instructionsEnd Function
+Xojo,,,,
+Python,foo(«parameters»),def foo(«parameters»): Tab ? instructions,def foo(«parameters»): Tab ? instructions Tab ? return value,N/A
+S-Lang,foo(«parameters» «;qualifiers»),define foo («parameters») { instructions },define foo («parameters») { instructions ... return value; },public define slsh_main () { instructions }
+Fortran,foo («arguments») CALL sub_foo («arguments»)[c],SUBROUTINE sub_foo («arguments») instructions END SUBROUTINE[c],type FUNCTION foo («arguments») instructions ... foo = value END FUNCTION[c],PROGRAM main instructions END PROGRAM
+Forth,«parameters» FOO,: FOO « stack effect comment: ( before -- ) » instructions ;,: FOO « stack effect comment: ( before -- after ) » instructions ;,N/A
+PHP,foo(«parameters»),function foo(«parameters») { instructions },function foo(«parameters») { instructions ... return value; },N/A
+Perl,foo(«parameters») or &foo«(parameters)»,sub foo { «my (parameters) = @_;» instructions },sub foo { «my (parameters) = @_;» instructions... «return» value; },
+Raku,foo(«parameters») or &foo«(parameters)»,«multi »sub foo(parameters) { instructions },«our «type» »«multi »sub foo(parameters) { instructions... «return» value; },
+Ruby,foo«(parameters)»,def foo«(parameters)» instructions end,def foo«(parameters)» instructions «return» value end,
+Rust,foo(«parameters»),fn foo(«parameters») { instructions },fn foo(«parameters») -> type { instructions },fn main() { instructions }
+Scala,foo«(parameters)»,def foo«(parameters)»«: Unit =» { instructions },def foo«(parameters)»«: type» = { instructions ... «return» value },def main(args: Array[String]) { instructions }
+Windows PowerShell,foo «parameters»,function foo { instructions }; or function foo { «param(parameters)» instructions },function foo «(parameters)» { instructions … return value }; or function foo { «param(parameters)» instructions … return value },N/A
+Bash shell,foo «parameters»,function foo { instructions } or foo () { instructions },function foo { instructions return «exit_code» } or foo () { instructions return «exit_code» },
+,,"parameters $n ($1, $2, $3, ...) $@ (all parameters) $# (the number of parameters) $0 (this function name)",,
+OCaml,foo parameters,let «rec» foo parameters = instructions,let «rec» foo parameters = instructions... return_value,
+F#,,,,[<EntryPoint>] let main args = instructions
+Standard ML,,fun foo parameters = ( instructions ),fun foo parameters = ( instructions... return_value ),
+Haskell,,foo parameters = do Tab ? instructions,foo parameters = return_value or foo parameters = do Tab ? instructions Tab ? return value,«main :: IO ()» main = do instructions
+Eiffel,foo («parameters»),foo («parameters») require preconditions do instructions ensure postconditions end,foo («parameters»): type require preconditions do instructions Result := value ensure postconditions end,[b]
+CoffeeScript,foo(),foo = ->,foo = -> value,N/A
+,foo parameters,foo = () ->,foo = ( parameters ) -> value,
+COBOL,CALL "foo" «USING parameters» «exception-handling» «END-CALL»[d],«IDENTIFICATION DIVISION.» PROGRAM-ID. foo. «other divisions...» PROCEDURE DIVISION «USING parameters». instructions.,«IDENTIFICATION DIVISION.» PROGRAM-ID/FUNCTION-ID. foo. «other divisions...» DATA DIVISION. «other sections...» LINKAGE SECTION. «parameter definitions...» variable-to-return definition «other sections...» PROCEDURE DIVISION «USING parameters» RETURNING variable-to-return. instructions.,N/A
+,«FUNCTION» foo«(«parameters»)»,N/A,,

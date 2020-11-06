@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-,Fills & hatch,Vector combine,Rotate & move,Polylines,Spline curves,Lines to curves cmd. & vice versa,Vector shapes,Font ID & replace
-Easy Trace,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
-Graphic Tracer Professional,N/A,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Illustrator,Yes,Yes,Yes,Yes,Yes,No,Yes,No
-Potrace,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No
-ImageTracer,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No
-Scan2CAD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
-WinTopo Pro,?,Yes,Yes,Yes,Yes,?,?,No
-AutoTrace,N/A,N/A,N/A,N/A,N/A,N/A,N/A,No
-,Fills & hatch,Vector combine,Rotate & move,Polylines,Spline curves,Lines to curves cmd. & vice versa,Vector shapes,
-=======
 ,Creator,Released,Latest version,List price (USD),License,Supported OS (without emulation)
 CorelDRAW,Corel,1989,2020,"$449, $169 upgrade",Proprietary,Windows
 Easy Trace,Easy Trace Group,2015,12.0,"960 €, 480 € upgrade, Version 7.99 and 8.65 free",Proprietary,Windows
@@ -25,4 +13,3 @@ Xara Photo & Graphic Designer,Xara Group Ltd.,1994,2018 (v16),$89.99,Proprietary
 Super Vectorizer,Effectmatrix Ltd.,2013,2016 (v1.6.6),$29.99,Proprietary,macOS
 AutoTrace,Martin Weber,1998,2002 (v0.31.1),free,GPL,Linux
 ,Creator,Released,Latest version,List price (USD),License,Supported OS (without emulation)
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

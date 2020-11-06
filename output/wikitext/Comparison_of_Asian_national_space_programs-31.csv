@@ -1,86 +1,42 @@
-<<<<<<< HEAD
-No.,Country,Spacecraft,Year,Type
-1,Japan,Akatsuki,2015,Orbiter
-TBD,India,Shukrayaan-1,2023 (Planned),Orbiter with aerobots
-=======
-Launch system,,Country of origin,Class and type,Payload capacity,,,Maiden flight,Manufacturer,Status,Ref
-,LEO (Orbit),,,GTO,Other,,,,,
-Al-Abid,,,Small lift expendable launch vehicle,100kg to 300kg (200km to 500km,,,1989,"Space Research Center, Baghdad",Abandoned,[99]
-Augmented Satellite Launch Vehicle,,,Small lift expendable launch vehicle,150kg (400km),,,1987,ISRO,Retired,[100]
-Epsilon,,,Medium lift expendable launch vehicle,1500kg (250kmx500km) 700kg (500km),,590kg to 500km (SSO),2013,JAXA,In service,[101]
-Feng Bao 1,,,Medium lift expendable launch vehicle,2500kg,,,1972,Shanghai Bureau No.2,Retired,[102]
-Geosynchronous Satellite Launch Vehicle,GSLV Mk I,,Medium lift expendable launch vehicle,5000kg,2150kg,,2001,ISRO,Retired,[103]
-,GSLV Mk II,,,5000kg,2700kg,,2010,ISRO,In service,
-Geosynchronous Satellite Launch Vehicle Mark III,,,Medium lift expendable launch vehicle,10000kg,4000kg,,2014 (Suborbital) 2017 (Orbital),ISRO,In service,[104]
-GX,,,Medium lift expendable launch vehicle,3600kg,,1814kg to 800km SSO,,JAXA/ULA/IHI,Cancelled,[105]
-H-I,,,Medium lift expendable launch vehicle,3200kg,1100kg,,1986,Mitsubishi Heavy Industries/McDonnell Douglas,Retired,[106]
-H-II,H-II,,Medium lift expendable launch vehicle,10060kg,3930kg,,1994,Mitsubishi Heavy Industries,Retired,[107]
-,H-IIA,,,10000kg to 15000kg,4100kg to 6000kg,,2001,Mitsubishi Heavy Industries/ATK,In service,[108]
-,H-IIB,,,16500kg,8000kg,,2009,Mitsubishi Heavy Industries,In service,[109]
-H3,,,Medium lift expendable launch vehicle,,>8000kg,>4000kg to SSO (Minimum configuration),2020 (Planned),Mitsubishi Heavy Industries,Under development,[110]
-J-I,,,Experimental expendable launch vehicle,-,-,1054kg along 1300km downrange.,1996,NASDA/ISAS,Retired,[111]
-Jielong-1,,,Small lift expendable launch vehicle,,,150kg to 700km (SSO),2019,CALT,In service,[112]
-Kaituozhe,Kaituozhe-1,,Small lift expendable launch vehicle,100kg,Not applicable,,2002,CASC,Retired,[113]
-,Kaituozhe-2,,Small lift expendable launch vehicle,800kg,,,2017,,In service,[114]
-,Kaituozhe-2A,,Medium lift expendable launch vehicle,2000km,,,Unconfirmed,,Unknown,
-Kuaizhou,Kuaizhou 1,,Small lift expendable launch vehicle,,,430kg to 500km (SSO),2013,CASC,In service,[115][116]
-,Kuaizhou-1A,,Small lift expendable launch vehicle,300kg,,250kg to 500km (SSO) 200kg to 700km (SSO),2017,,In service,
-,Kuaizhou-11,,Small lift expendable launch vehicle,1500kg,,1000kg to 700km (SSO),2019-20 (Planned),,Under development,[117]
-,Kuaizhou-21,,Heavy lift expendable launch vehicle,"20,000kg",,,2025 (Projected),,Under development,[115][118]
-,Kuaizhou-31,,Super heavy lift expendable launch vehicle,"70,000kg",,,TBD,,Under development,
-Lambda (rocket family),,,Small lift expendable launch vehicle,26kg,,,1970,ISAS/Nissan,Retired,[119]
-Long 1 March rocket family,Long March 1,,Small lift expendable launch vehicle,300kg,,,1970,MAI/CASC/CAST,Retired,[120]
-,Long March 1D,,Small lift expendable launch vehicle,930kg,,,1995,CALT,Retired,[121]
-Long March 2,Long March 2A,,Medium lift expendable launch vehicle,2000kg,,,1974,CALT,Retired,[122]
-,Long March 2C,,Medium lift expendable launch vehicle,3850kg,1250kg,1900kg to SSO,1982,,In service,
-,Long March 2D,,Medium lift expendable launch vehicle,3500kg,,1300kg to SSO,1992,,In service,
-,Long March 2E,,Medium lift expendable launch vehicle,9500kg,3500kg,,1990,,In service,
-,Long March 2F,,Medium lift expendable launch vehicle,8400kg,,,1990,,In service,
-Long March 3,Long 3 March,,Medium lift expendable launch vehicle,5000kg,1500kg,,1984,CALT,Retired,[123]
-,Long March 3A,,Medium lift expendable launch vehicle,8500kg,2600kg,1600kg to HCO,1993,,In service,
-,"Long March 3B, 3B/E",,Medium lift expendable launch vehicle,11500kg,5100kg,3300kg to HCO 2000kg to GEO,1996,,In service,
-,"Long March 3C, 3C/E",,Medium lift expendable launch vehicle,,3900kg,2400kg to HCO,2008,,In service,
-Long March 4,Long March 4A,,Medium lift expendable launch vehicle,4000kg,,1500kg to Sun-synchronous orbit,1988,CALT,Retired,[124]
-,Long March 4B,,Medium lift expendable launch vehicle,4200kg,1500kg,2800kg to SSO,1999,,In service,
-,Long March 4C,,Medium lift expendable launch vehicle,4200kg,1500kg,2800kg to SSO,2006,,In service,
-Long March 5,,,Heavy lift expendable launch vehicle,25000kg (200km x 400km),14000kg,8200kg to TLI,2016,CALT,In service,[125]
-Long March 6,,,Small lift expendable launch vehicle,,,1080kg to 700km (SSO),2015,CALT,In service,[126]
-Long March 7,,,Medium lift expendable launch vehicle,13500kg (200km x 400km),5500kg,,2016,CALT,In service,[127]
-Long March 9[128],,,Super heavy lift,"140,000[129]","66,000[130]","50,000 to TLI[129] 44,000 to TMI[131]",2028[132]–2030[131],CALT,In development,
-Long March 11,,,Small lift expendable launch vehicle,700kg,,350kg to 700km (Sun-synchronous orbit),2015,CALT,In service,[133]
-Mu (rocket family),Mu-3C,,Small lift expendable launch vehicle,195kg,,,1974,ISAS/Nissan/IHI,Retired,[134]
-,Mu-3H,,Small lift expendable launch vehicle,300kg,,,1977,,Retired,
-,Mu-3S,,Small lift expendable launch vehicle,300kg,,,1980,,Retired,
-,Mu-3SII,,Small lift expendable launch vehicle,770kg,,,1985,,Retired,
-,Mu-4S,,Small lift expendable launch vehicle,180kg,,,1971,,Retired,
-,M-V,,Small lift expendable launch vehicle,1850kg,,1300kg to Polar LEO,1997,,Retired,
-N (rocket family),N-I,,Small lift expendable launch vehicle,1200kg,360kg,,1975,Mitsubishi Heavy Industries/McDonnell Douglas,Retired,[135]
-,N-II,,Medium lift expendable launch vehicle,2000kg,730kg,,1981,,Retired,[136]
-Paektusan-1,,,Small lift expendable launch vehicle,700kg,,,1998,KCST,Retired,[137]
-Polar Satellite Launch Vehicle,PSLV-G,,Medium lift expendable launch vehicle,3200kg,1050kg,1600kg to SSO,1993,ISRO,Retired,[138]
-,PSLV-CA,,Medium lift expendable launch vehicle,2100kg,,1100kg to SSO,2007,,In service,
-,PSLV-XL,,Medium lift expendable launch vehicle,3800kg,1300kg,1750kg to SSO 1350kg to TMI,2008,,In service,
-,PSLV-DL,,Medium lift expendable launch vehicle,2100kg,,1100kg to SSO,2019,,In service,
-,PSLV-QL,,Medium lift expendable launch vehicle,3800kg,1300kg,1750kg to SSO 1350kg to TMI,2019,,In service,
-,PSLV-3S,,Small lift expendable launch vehicle,500kg (550km,,,,,Concept only,
-Qonoos,,,Medium lift expendable launch vehicle,3500kg,1500kg,,2025 (Projected),ISA,Under development,date=December 2019
-Reusable Launch Vehicle,,,TSTO Reusable launch system,,,,2016 (Flight experiment),ISRO,Under development,[139]
-RPS-420,Pengorbitan-1,,Small lift expendable launch vehicle,25kg,,,TBD,LAPAN,Proposed,[140]
-,Pengorbitan-2,,Small lift expendable launch vehicle,50kg,,,TBD,,Proposed,
-S-Series (rocket family),SS-520,,Small lift expendable launch vehicle,100kg (>300km,,,1980,IHI Corporation,In service,[141]
-Safir,,,Small lift expendable launch vehicle,65kg,,,2008,ISA,In service,[142]
-Satellite Launch Vehicle,,,Small lift expendable launch vehicle,40kg (400km,,,1979,ISRO,Retired,[143]
-Shavit,,,Small lift expendable launch vehicle,800kg,,,1988,Israel Aerospace Industries,In service,[144]
-Simorgh,,,Small lift expendable launch vehicle,350kg,,,2016 (Sub-orbital),ISA,Under development,[145]
-Small Satellite Launch Vehicle,,,Small lift expendable launch vehicle,500kg (500km),,300kg,2020 (Planned),ISRO,Under development,[146]
-TSLV,,,Small lift expendable launch vehicle,50kg (700km),,,TBD,NSPO,Under development,[147][148]
-Unha,,,Small lift expendable launch vehicle,200kg (465km x 502km),,,2009,KCST,In service,[149]
-Unified Modular Launch Vehicle,ULV with 6 x S-13 boosters,,Medium lift expendable launch vehicle,4500kg,1500kg,,No earlier than 2022,ISRO,Under development,[91][150][151]
-,ULV with 2 x S-60 boosters,,Medium lift expendable launch vehicle,10000kg,3000kg,,No earlier than 2022,,Under development,
-,ULV with 2 x S-139 boosters,,Medium lift expendable launch vehicle,12000kg,4500kg,,No earlier than 2022,,Under development,
-,ULV with 2 x S-200 boosters,,Medium lift expendable launch vehicle,15000kg,6000kg,,No earlier than 2022,,Under development,
-,HLV variant,,Heavy lift expendable launch vehicle,20000kg,10000kg,,2020s,,Under development,
-,SHLV variant,,Super heavy lift expendable launch vehicle,41300kg-60000kg,16300kg,,2020s,,Under development,
-Uydu F?rlatma Sistemi,,,Small lift expendable launch vehicle,Microsatellites (700km),,,TBD,ROKETSAN,Under development,[152]
-Yun Feng SLV,,,Small lift expendable launch vehicle,200kg (500km,,,TBD,NCSIST,Under development,[148]
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Date,Nation,Name,Asian First,World achievements
+4 October 1957,,Baikonur Cosmodrome,Satellite launch pad,"The first satellite, Sputnik 1, was launched."
+11 February 1970,,Ohsumi,Satellite,"The smallest satellite launch vehicle (L-4S; 9.4t weight, 1.4m diameter)"
+24 February 1975,,Taiyo,Solar probe,
+26 October 1975,,FSW-0,Satellite recovery[69],
+26 October 1975,,FSW-0: – 10m (1975) FSW-1B: – 4m (1992)[70] Beidou: – 0.5m (till 2007)[71],High resolution imaging satellite,
+8 July 1976,,Palapa A1,Geosynchronous satellite (launched by NASA),
+23 February 1977,,N-I,Geosynchronous launch,
+14 July 1977,,GMS,Weather satellite (launched by NASA),-->
+21 February 1979,,Hakucho,Space observatory,
+23 July 1980,,Ph?m Tuân,Asian in space (Soyuz 37),
+20 September 1981,,FB-1,Simultaneous satellite launch[72],
+8 January 1985,,Sakigake,Leaving Earth orbit,The first interplanetary launch by solid rocket (M-3SII)
+19 March 1990,,Hagoromo,Reach lunar orbit (assumed),
+7 April 1990,,CZ-3,Commercial launch (AsiaSat 1),
+10 April 1993,,Hiten,Intentional lunar impact,The first aerobraking test[73]
+8 July 1994,,Chiaki Mukai,Asian woman in space (STS-65),
+19 November 1997,,Takao Doi,Spacework (STS-87),
+28 November 1997,,ETS-VII,Rendezvous docking,
+3 July 1998,,Nozomi,Martian mission (Failure),
+30 October 2000,,Beidou,Satellite navigation system,
+10 September 2002,,Kodama[74],Data relay satellite (with ESA),
+15 October 2003,,Yang Liwei,First man in space launched by an Asian space program,
+15 October 2003,,Shenzhou 5,Crewed spacecraft,
+19 November 2005,,Hayabusa,Soft-landed probe on extraterrestrial object,"The first asteroid ascent, sample return from an asteroid"
+11 January 2007,,FY-1C,ASAT test,"Highest in history with altitude 865 km, also the fastest with speed 18k miles"
+23 February 2008,,WINDS,Internet satellite,The fastest internet satellite[75]
+11 March 2008,,Japanese Experiment Module,"Manned foundations in space (STS-123, STS-124, STS-127)",The world's largest pressurized volume in space[76]
+25 April 2008,,Tianlian I,Indigenous Tracking & Data Relay Satellite System First TDRS system to support crewed missions,
+27 September 2008,,Zhai Zhigang (Shenzhou 7),Indigenous EVA,
+27 September 2008,,BanXing,Crewed spacecraft-launched satellite,
+14 November 2008,,Moon Impact Probe,Probe designed for Lunar impact,Discovered water on the Moon before impact.[77][78]
+23 January 2009,,GOSAT,Greenhouse gas explorer[79],
+20 May 2010,,Akatsuki,First Asian Venus mission,
+21 May 2010,,IKAROS,Solar sail,The first spacecraft to successfully demonstrate solar-sail technology in interplanetary space
+25 August 2011,,Chang'e 2,Lunar probe with extended deep space missions (asteroid mission to 4179 Toutatis).,
+29 September 2011,,Tiangong-1,First independent Asian Space station,
+18 June 2012,,Shenzhou 9,First crewed space docking by an Asian country (with Tiangong-1),
+14 December 2013,,Chang'e 3/Yutu,First lunar soft landing and lunar rover by an Asian country.,First lunar soft landing in 21st century
+24 September 2014,,Mars Orbiter Mission,First successful Mars mission by an Asian country,First Martian mission by a country to succeed on the first attempt. Third country to do so after the USSR and the USA.
+15 February 2017,,PSLV-C37,First to successfully launch and deploy 104 satellites simultaneously from a single rocket (PSLV -C37).[80][81],First country in the world to launch more than 100 satellites at one go.
+3 January 2019,,Chang'e 4,First soft landing on the far side of the Moon,First soft landing on the far side of the Moon by any country. Landed with Yutu-2 rover.

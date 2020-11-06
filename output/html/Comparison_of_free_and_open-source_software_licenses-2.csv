@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-Licence,Author,Latest version,Publication date
-,,,
-Eiffel Forum License,NICE,2,2002
-Intel Open Source License,Intel Corporation,N/A,?
-RealNetworks Public Source License,RealNetworks,?,?
-Reciprocal Public License,Scott Shattuck,1.5,2007
-Sun Industry Standards Source License,Sun Microsystems,?,?
-Sun Public License,Sun Microsystems,?,?
-Sybase Open Watcom Public License,Open Watcom,N/A,2003-01-28
-Zope Public License,Zope Foundation,2.1,?
-=======
 Licence and version,FSF approval [35],GPL (v3) compatibility [36][37][38][39][40],OSI approval [41],Debian approval [42][43],Fedora approval [44]
 Academic Free License,Yes,No,Yes,No,Yes
 Affero General Public License 3.0,Yes,Yes,Yes,Yes,Yes
@@ -67,4 +55,3 @@ XFree86 1.1 License,Yes,Yes[74],No,No,No
 zlib/libpng license,Yes,Yes,Yes,Yes,Yes
 Zope Public License 1.0,Yes,No,No,No,Yes
 Zope Public License 2.0,Yes,Yes,Yes,No,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

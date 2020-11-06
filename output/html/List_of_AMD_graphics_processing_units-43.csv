@@ -1,32 +1,6 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
-Radeon 9500,"Oct. 24, 2002",R300 (Khan),150,AGP 8x,275,270,4:4:4:4,1100,1100,1100,275,"64, 128","8.64, 17.28",DDR,"128, 256"
-Radeon 9500 Pro,,,,,,,8:4:8:8,2200,2200,2200,,128,8.64,,128
-Radeon 9550,2004,RV350 (Shivah),130,,250,200,4:2:4:4,1000,1000,1000,125,"64, 128, 256",6.4,,
-Radeon 9550 SE,,,,,,,,,,,,,3.2,,64
-Radeon 9600,2003,,,,325,,,1300,1300,1300,162.5,"128, 256",6.4,,128
-Radeon 9600 Pro,"Mar. 6, 2003",,,,400,300,,1600,1600,1600,200,,9.6,,
-Radeon 9600 SE,2003,,,,325,200,,1300,1300,1300,162.5,"64, 128, 256",3.2,,64
-Radeon 9600 XT,"Sept. 30, 2003",RV360,,,500,300,,2000,2000,2000,250,"128, 256",9.6,,128
-Radeon 9600 TX,2003 (Medion OEM),R300 (Khan),150,,297,270,8:4:8:8,2376,2376,2376,287,128,8.6,,
-Radeon 9700 TX,2002 (Dell OEM),,,,263,263,,2104,2104,2104,275,,16.83,,256
-Radeon 9700,"Oct. 24, 2002",,,,275,270,,2200,2200,2200,,,17.28,,
-Radeon 9700 Pro,"July 18, 2002",,,,325,310,,2600,2600,2600,325,,19.84,,
-Radeon 9800,2003,R350,,,,,,,,,,,,,
-Radeon 9800 XL,,,,,350,,,2800,2800,2800,350,,,,
-Radeon 9800 XXL[19],"Oct. 1, 2003",R360,,,390,338,,3120,3120,3120,390,,21.60,,256[19]
-Radeon 9800 Pro,"Mar. 1, 2003[20]","R350, R360",,,380,"340, 350",,3040,3040,3040,380,"128, 256","21.76, 22.40","DDR, GDDR2",256
-Radeon 9800 SE[21],"Mar. 1, 2003[22]",R350,,,"325, 380[21]","270, 340[21]",4:4:4:4[22],"1300, 1520[21]","1300, 1520[21]","1300, 1520[21]","325, 380[21]",,"8.64, 21.76[21]",DDR,"128, 2562[21]"
-Radeon 9800 XT,"Sept. 9, 2003",R360,,,412,365,8:4:8:8,3296,3296,3296,412,256,23.36,,256
-Radeon X1050 AGP,"Dec. 7, 2006",RV350 (Shivah),130,,250,200,4:2:4:4,1000,1000,1000,125,"128, 256",6.4,,128
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
-,,,,,,,,Fillrate,,,,Memory,,,
-=======
-Model,Released,Codename,Architecture,Fab (nm),Core clock rate (MHz),Config core[a],Fillrate,,Shared memory,,,Processing power (GFLOPS),API compliance (version),,,,Combined TDP[b],,APU
-,,,,,,,Pixel (GP/s),Texture (GT/s),Bandwidth (GB/s),Bus type,Bus width (bit),,Direct3D,OpenGL,OpenCL,Vulkan,Idle (W),Max. (W),
-Radeon HD 6250[152],"November 9, 2010[153]",Wrestler[154],TeraScale 2,40,280–400,80:8:4:2,1.12–1.6,2.24–3.2,8.525,DDR3-1066,64,44.8–64,11.3 (11_0),4.5,1.2,N/A,Unknown,9,"C-30, C-50, Z-60"
-Radeon HD 6290,"January 7, 2011",Ontario,,,276–400,,,,,,,,,,,,,,C-60
-Radeon HD 6310[152],"November 9, 2010[153]",Wrestler[154],,,492,,2.0,4.0,,,,80,,,,,,18,"E-240, E-300, E-350"
-Radeon HD 6320,"August 15, 2011",,,,508–600,,2.032–2.4,4.064–4.8,10.6,DDR3-1333,,82–97,,,,,,,E-450
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
+FirePro V3900[237],"February 7, 2012",TeraScale 2,Turks GL,40,PCIe 2.1 x16,650,900,480(96×5):24:8:6,5.2,15.6,1,28.8,GDDR3,128,624,-,11.0,4.3,1.2,N/A,50,"HD3D, UVD3, DP 1.2, PowerPlay, Eyefinity"
+FirePro V4900[238],"November 1, 2011",,Turks XT GL,,,800,1000,,6.4,19.2,,64,GDDR52,,768,,,,,,<75 Max,
+FirePro V5900[239],"May 24, 2011",TeraScale 3,Cayman LE GL,,,600,5002,512(128×4):32:32:8,19.2,,2,,,256,610,154,,,,,,
+FirePro V7900[240],,,Cayman Pro GL,,,725,12502,1280(320×4):80:32:20,23.2,58,,160,,,1860,464,,,,,<150 Max,

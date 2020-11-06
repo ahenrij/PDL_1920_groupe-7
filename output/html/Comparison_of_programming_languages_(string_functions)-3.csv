@@ -1,35 +1,26 @@
-<<<<<<< HEAD
-Definition,"concatenate(string1,string2) returns string."
-Description,"Concatenates (joins) two strings to each other, returning the combined string. Note that some languages like C have mutable strings, so really the second string is being appended to the first string and the mutated string is returned."
-=======
 Format,Languages
-IF string1<string2 THEN -1 ELSE ABS (string1>string2) FI,ALGOL 68
-"cmp(string1, string2)",Python 2
-(string1 > string2) - (string1 < string2),Python
-"strcmp(string1, string2)","C, PHP"
-"std.string.cmp(string1, string2)",D
-"StrComp(string1, string2)","VB, Object Pascal (Delphi)"
-string1 cmp string2,"Perl, Raku"
-string1 compare: string2,"Smalltalk (Squeak, Pharo)"
-string1 <=> string2,Ruby
-string1.compare(string2),"C++ (STL), Swift (Foundation)"
-"compare(string1, string2)","Rexx, Seed7"
-"CompareStr(string1, string2)","Pascal, Object Pascal (Delphi)"
-string1.compareTo(string2),"Cobra, Java"
-string1.CompareTo(string2),"VB .NET, C#, F#"
-(compare string1 string2),Clojure
-(string= string1 string2),Common Lisp
-(string-compare string1 string2 p< p= p>),Scheme (SRFI 13)
-(string= string1 string2),ISLISP
-compare string1 string2,OCaml
-"String.compare (string1, string2)",Standard ML [4]
-compare string1 string2,Haskell [5]
-"[string]::Compare(string1, string2)",Windows PowerShell
-[string1 compare:string2],Objective-C (NSString * only)
-"LLT(string1,string2) LLE(string1,string2) LGT(string1,string2) LGE(string1,string2)",Fortran [6]
-string1.localeCompare(string2),JavaScript
-"bytes.Compare([]byte(string1), []byte(string2))",Go
-string compare ?-nocase? ?-length int? string1 string2,Tcl
-"compare(string1,string2,count)",PL/I[7]
-string1.cmp(string2),Rust[8]
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+"string_in_string(string, loc int, substring)",ALGOL 68
+"ContainsStr(string, substring)",Object Pascal (Delphi)
+"strstr(string, substring) != NULL","C, C++ (char * only)"
+string.Contains(substring),"C#, VB .NET, Windows PowerShell, F#"
+string.contains(substring),"Cobra, Java (1.5+), Raku, Rust[13]"
+string.indexOf(substring) >= 0,JavaScript
+"strpos(string, substring) !== false",PHP
+"pos(string, substring) <> 0",Seed7
+substring in string,"Cobra, Python (2.3+)"
+"string.find(string, substring) ~= nil",Lua
+string.include?(substring),Ruby
+Data.List.isInfixOf substring string,Haskell (GHC 6.6+)
+string includesSubstring: substring,"Smalltalk (Squeak, Pharo, Smalltalk/X)"
+String.isSubstring substring string,Standard ML
+(search substring string),Common Lisp
+(not (null (string-index substring string))),ISLISP
+(substring? substring string),Clojure
+"! StringFreeQ[string, substring]",Mathematica
+"index(string, substring, startpos)>0","Fortran, PL/I[14]"
+"index(string, substring, occurrence)>0",Pick Basic
+"strings.Contains(string, substring)",Go
+string.find(substring) != string::npos,C++
+[string containsString:substring],"Objective-C (NSString * only, iOS 8+/OS X 10.10+)"
+string.rangeOfString(substring) != nil,Swift (Foundation)
+?/substring?string,APL

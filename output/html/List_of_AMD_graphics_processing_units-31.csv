@@ -1,42 +1,15 @@
-<<<<<<< HEAD
-Model (Codename),Launch,Architecture (Fab),Core,,Fillrate,,Processing power (GFLOPS),Memory,,,,Bus interface,TDP (W)
-,,,Config[a],Clock (MHz),Texture (GT/s),Pixel (GP/s),,Size (GiB),Bus type & width (bit)[b],Memory (MHz),Bandwidth (GB/s),,
-Radeon HD 7430M (Seymour Pro),January 2012,TeraScale 2 (40 nm),160:8:4:2,600,4.8,2.4,192,1,DDR3 64-bit,900,14.4,PCIe 2.1 ×16,7
-Radeon HD 7450M (Seymour Pro),,,,700 700,5.6,2.8,224,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,7
-Radeon HD 7470M (Seymour XT),,,,750 800,6 6.4,3.0 3.2,240 256,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,7~9
-Radeon HD 7490M (Seymour XTX),,,,800,6.4,3.2,256,1,GDDR5 64-bit,950,30.4,,9
-Radeon HD 7510M (Thames LE),January 2012,TeraScale 2 (40 nm),400:20:8:5,450,9.0,3.6,360,1,DDR3 64-bit,800,12.8,,11
-Radeon HD 7530M (Thames LP),January 2012,TeraScale 2 (40 nm),400:24:8:5,450,9.0,3.6,360,1,DDR3 64-bit,900,14.4,,11
-Radeon HD 7550M (Thames Pro),January 2012,TeraScale 2 (40 nm),400:20:8:5,450 550,9.0 11.0,3.6 4.4,360 440,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,13
-Radeon HD 7570M (Thames Pro),January 2012,TeraScale 2 (40 nm),400:20:8:5,450 650,9.0 13.0,3.6 5.2,360 520,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,13~15
-Radeon HD 7590M (Thames XT),January 2012,TeraScale 2 (40 nm),480:24:8:6,600,14.4,4.8,576,1,GDDR5 64-bit,800,25.6,,18
-Radeon HD 7610M (Thames LE),January 2012,TeraScale 2 (40 nm),400:20:8:5,450,9.0,3.6,360,1,DDR3 128-bit,800,25.6,,20
-Radeon HD 7630M (Thames LP),January 2012,TeraScale 2 (40 nm),480:24:8:6,450,10.8,3.6,432,1,DDR3 128-bit,800,25.6,,20~25
-Radeon HD 7650M (Thames Pro),,,,450 550,10.8 13.2,3.6 4.4,432 528,1,DDR3 128-bit,800 800,25.6,,20~25
-Radeon HD 7670M (Thames Pro),,,,600,14.4,4.8,576,1,DDR3 GDDR5 128-bit,900,28.8 57.6,,20~25
-Radeon HD 7690M (Thames XT),,,,725 600,17.4 14.4,5.8 4.8,696 576,1 2,DDR3 GDDR5 128-bit,900 900,28.8 57.6,,20~25
-Radeon HD 7690M XT (Thames XTX),,,,725,17.4,5.8,696,1 2,GDDR5 128-bit,900,57.6,,25
-Radeon HD 7730M (Chelsea LP),April 2012,GCN 1st gen (28 nm),512:32:16:8,575 675,18.4 21.6,9.2 10.8,588.8 691.2,2,GDDR3 128-bit,900 900,28.8,PCIe 2.1 ×16,25~28
-Radeon HD 7750M (Chelsea Pro),,,,575,18.4,9.2,588.8,1 2,GDDR5 128-bit,1000,64,,28
-Radeon HD 7770M (Chelsea XT),,,,675,21.6,10.8,691.2,1 2,GDDR5 128-bit,1000,64,,32
-Radeon HD 7850M (Heathrow Pro),April 2012,GCN 1st gen (28 nm),640:40:16:10,675,27,10.8,864,2,GDDR5 128-bit,1000,64,PCIe 3.0 ×16,40
-Radeon HD 7870M (Heathrow XT),,,,800,32,12.8,1024,2,GDDR5 128-bit,1000,64,,40–45
-Radeon HD 7970M (Wimbledon XT),April 2012,GCN 1st gen (28 nm),1280:80:32:20,850,68,27.2,2176,2 4,GDDR5 256-bit,1200,153.6,PCIe 3.0 ×16,75
-=======
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Clock rate,,Core config[a],Fillrate,,Memory,,,,Processing power (GFLOPS),,TDP (Watts)[b],,Crossfire Support,API support (version),,,Release Price (USD)
-,,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Idle,Max.,,Direct3D,OpenGL,OpenCL,
-Radeon HD 5450,"Feb 4, 2010",Cedar PRO,40,292,59,PCIe 2.1 x16 PCI PCIe 2.1 x1,650 650 650,400 800 800,80:8:4,2.6,5.2,512 1024 2048,6.4 12.8,DDR2 DDR3,64,104,N/A,6.4,19.1,No,11.3 (11_0),4.5,1.2,~50
-Radeon HD 5550,"Feb 9, 2010",Redwood LE,,627,104,PCIe 2.1 x16,550 550 550,,320:16:8,4.4,8.8,,12.8 25.6 51.2,DDR2 GDDR3 GDDR5,128,352,,10,39,,,,,~70
-Radeon HD 5570,,Redwood PRO,,,,,650 650,400 900,400:20:8,5.2,13.0,,12.8 28.8 57.6,,,520,,,,,,,,80
-Radeon HD 5610,"May 14, 2011",,,,,,650,500,,,,1024,16.0,GDDR3,,,,,,,,,,
-Radeon HD 5670,"Jan 14, 2010",Redwood XT,,,,,775 775,800 1000,,6.2,15.5,512 1024 2048,25.6 64.0,GDDR3 GDDR5,,620,,15,64,4-way Crossfire,,,,99
-Radeon HD 5750,"Oct 13, 2009",Juniper PRO,,1040,170,,700 700,1150 1150,720:36:16,11.2,25.2,512 1024,73.6,GDDR5,,1008,,16,86,,,,,129
-Radeon HD 5770,,Juniper XT,,,,,850 850,1200 1200,800:40:16,13.6,34.0,,76.8,,,1360,,18,108,,,,,159
-Radeon HD 5830,"Feb 25, 2010",Cypress LE,,2154,334,,800,1000,1120:56:16,12.8,44.8,1024,128.0,,256,1792,358.4,25,175,,,,,239
-Radeon HD 5850,"Sep 30, 2009",Cypress PRO,,,,,725 725,1000 1000,1440:72:32,23.2,52.2,1024 2048,,,,2088,417.6,27,151,,,,,259
-Radeon HD 5870,"Sep 23, 2009",Cypress XT,,,,,850 850,1200 1200,1600:80:32,27.2,68.0,,153.6,,,2720,544,,188 228,,,,,379
-Radeon HD 5870 Eyefinity Edition[c][26],"Mar 11, 2010",,,,,,850,1200,,,,2048,,,,,,,228,,,,,479
-Radeon HD 5970,"Nov 18, 2009",Hemlock XT,,2154×2,334×2,,725 725,1000 1000,1600:80:32×2,46.4,116.0,1024×2 2048×2,128×2,,256×2,4640,928,51,294,2-way Crossfire,,,,599
-Model,Launch,Code name,Fab (nm),Transistors (Million),Die Size (mm²),Bus interface,Core (MHz),Memory (MHz),Core config[a],Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single Precision,Double Precision,Idle,Max.,Crossfire Support,Direct3D,OpenGL,OpenCL,Release Price (USD)
-,,,,,,,Clock rate,,,Fillrate,,Memory>,,,,Processing power (GFLOPS),,TDP (W)[b],,,API support (version),,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
+,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),
+Radeon R5 M330[158] (Exo Pro),2015,GCN 1st gen (28 nm),320:20:8,Unknown 1030,8.2,20.6,659.2,DDR3 64-bit,2 4,1000,14.4 16,18 W
+Radeon R5 M335[158] (Exo Pro),2015,,320:20:8,Unknown 1070,8.6,21.4,684.8,DDR3 64-bit,2 4,1100,17.6,Unknown
+Radeon R7 M360[159] (Meso XT),2015,,384:24:8,Unknown 1125,9,27,864,DDR3 64-bit,2 4,1000,16,Unknown
+Radeon R9 M365X[160] (Strato Pro),2015,,640:40:16,Unknown 925,14.8,37,1184,GDDR5 128-bit,4,1125,72,50 W
+Radeon R9 M370X[160] (Strato Pro),May 2015,,640:40:16,800,12.8,32,1024,GDDR5 128-bit,2,1125,72,40–45 W
+Radeon R9 M375[160] (Strato Pro),2015,,640:40:16,Unknown 1015,16.2,40.6,1299.2,GDDR5 128-bit,4,1100,35.2,Unknown
+Radeon R9 M375X[160] (Strato Pro),2015,,640:40:16,Unknown 1015,16.2,40.6,1299.2,GDDR5 128-bit,4,1125,72,Unknown
+Radeon R9 M380[160] (Strato Pro),2015,,640:40:16,Unknown 900,14.4,36,1152,GDDR5 128-bit,4,1500,96,Unknown
+Radeon R9 M385X[160] (Strato),2015,GCN 2nd gen (28 nm),896:56:16,Unknown 1100,17.6,61.6,1971.2,GDDR5 128-bit,4,1500,96,~75 W
+Radeon R9 M390[160] (Pitcairn),June 2015,GCN 1st gen (28 nm),1024:64:32,Unknown 958,30.7,61.3,1962,GDDR5 256-bit,2,1365,174.7,~100 W
+Radeon R9 M390X[160] (Amethyst XT),2015,GCN 3rd gen (28 nm),2048:128:32,Unknown 723,23.1,92.5,2961.4,GDDR5 256-bit,4,1250,160,125 W
+Radeon R9 M395[160] (Amethyst Pro),2015,,1792:112:32,Unknown 834,26.6,93.4,2989.0,GDDR5 256-bit,2,1365,174.7,125 W
+Radeon R9 M395X[160] Amethyst XT),2015,,2048:128:32,Unknown 909,29.1,116.3,3723.3,GDDR5 256-bit,4,1365,174.7,125 W

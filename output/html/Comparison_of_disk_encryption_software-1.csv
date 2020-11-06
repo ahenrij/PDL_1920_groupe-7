@@ -1,156 +1,62 @@
-<<<<<<< HEAD
-Name,Windows NT,Windows Mobile (incl.Pocket PC),FreeBSD,Linux,Mac OS X,NetBSD,OpenBSD,DragonFly BSD,Android,iOS
-Aloaha Crypt Disk,Yes,No,No,No,No,No,No,No,?,?
-BestCrypt Volume Encryption,Yes,No,No,No[41],Yes,No,No,No,?,?
-BitArmor DataControl,Yes,No,No,No,No,No,No,No,?,?
-BitLocker,Yes,No,No,Partial[42],Partial[42],No,No,No,No,?
-Bloombase Keyparc,Yes,No,No,Yes,Yes,No,No,No,?,?
-Boxcryptor,Yes,No,No,Yes,Yes,No,No,No,Yes,Yes
-CenterTools DriveLock,Yes,No,No,No,No,No,No,No,?,?
-CGD,No,No,No,No,No,Yes,No,No,?,?
-Check Point Full Disk Encryption,Yes,Yes,No,Yes[43],Yes,No,No,No,?,?
-CipherShed,Yes,No,No[44],Yes,Yes,No,No,No,Yes[45],?
-CrossCrypt,Yes[46],No,No,No,No,No,No,No,No,?
-CryFS,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,?
-Cryhod,Yes,No,No,Yes,No,No,No,No,?,?
-Cryptainer,Yes,Yes[47],No,No,No,No,No,No,?,?
-CryptArchiver,Yes,No,No,No,No,No,No,No,?,?
-Cryptic Disk,Yes,No,No,No,No,No,No,No,No,No
-Cryptoloop,Yes[48],No,No,Yes,No,No,No,No,?,?
-Cryptomator,Yes[49],No,No,Yes,Yes,No,No,No,Yes,Yes
-CryptoPro Secure Disk Enterprise,Yes,No,No,No,No,No,No,No,No,?
-CryptoPro Secure Disk for BitLocker,Yes,No,No,No,No,No,No,No,No,?
-Cryptsetup / Dmsetup,Yes[48],No,No,Yes,No,No,No,Yes,?,?
-CryptSync,Yes,No,No,Yes,Yes,No,No,No,No,?
-Discryptor,No,No,No,No,No,No,No,No,?,?
-DiskCryptor,Yes,No,No,No,No,No,No,No,?,?
-DISK Protect,Yes,No,No,No,No,No,No,No,?,?
-Dm-crypt / LUKS,Yes[48],Yes[50],No,Yes,No,No,No,Yes,?,?
-DriveCrypt,Yes,No,No,No,No,No,No,No,?,?
-DriveSentry GoAnywhere 2,Yes,No,No,No,No,No,No,No,?,?
-E4M,Yes,No,No,No,No,No,No,No,?,?
-e-Capsule Private Safe,Yes,No,No,No,No,No,No,No,?,?
-eCryptfs,No,No,No,Yes,No,No,No,No,?,?
-EgoSecure HDD Encryption,Yes,No,No,No,No,No,No,No,?,?
-EncFS,Yes[51],Yes[52],Yes (FUSE),Yes (FUSE),Yes[51],Yes (FUSE),Yes (FUSE),Yes (FUSE),Yes[52],?
-EncryptStick,Yes,No,No,Yes,Yes,No,No,No,?,?
-EncryptUSB,Yes,No,No,No,Yes,No,No,No,?,?
-FileVault,No,No,No,No,Yes,No,No,No,?,?
-FileVault 2,No,No,No,Partial[53],Yes,No,No,No,?,?
-FREE CompuSec,Yes,No,No,No,No,No,No,No,?,?
-FreeOTFE,Yes,Yes,No,Partial[54],No,No,No,No,No,?
-GBDE,No,No,Yes,No,No,No,No,No,?,?
-GELI,No,No,Yes,No,No,No,No,No,?,?
-Knox,No,No,No,No,Yes,No,No,No,?,?
-LibreCrypt,Yes,No,No,Partial[55],No,No,No,No,Yes[56],?
-Loop-AES,No,No,No,Yes,No,No,No,No,?,?
-McAfee Drive Encryption (SafeBoot),Yes,Yes[57],No,No,Yes,No,No,No,?,?
-n-Crypt Pro,Yes,No,No,No,No,No,No,No,?,?
-NetLib Encryptionizer (directory encryption),Yes,No,No,No,No,No,No,No,No,No
-PGPDisk,Yes,No,No,No,Yes,No,No,No,?,?
-PGP Whole Disk Encryption,Yes,Yes,No,Yes,Yes,No,No,No,?,?
-Private Disk,Yes,No,No,No,No,No,No,No,?,?
-ProxyCrypt,Yes,No,No,No,No,No,No,No,No,?
-R-Crypto,Yes,No,No,No,No,No,No,No,?,?
-SafeGuard Easy,Yes,No,No,No,No,No,No,No,?,?
-SafeGuard Enterprise,Yes,No,No,No,Yes,No,No,No,?,?
-SafeGuard PrivateDisk,Yes,No,No,No,No,No,No,No,?,?
-SafeHouse Professional,Yes,No,No,No,No,No,No,No,?,?
-Scramdisk,Yes,No,No,Yes,No,No,No,No,?,?
-Scramdisk 4 Linux,No,No,No,Yes,No,No,No,No,?,?
-SecuBox,No,Yes,No,No,No,No,No,No,?,?
-SecureDoc,Yes,No,No,Yes,Yes,No,No,No,?,?
-Sentry 2020,Yes,No,No,No,No,No,No,No,?,?
-Seqrite Volume Encryption,Yes,No,No,No,No,No,No,No,No,No
-Softraid / RAID C,No,No,No,No,No,No,Yes,No,?,?
-SpyProof!,Yes,No,No,No,No,No,No,No,?,?
-Svnd / Vnconfig,No,No,No,No,No,No,Yes,No,?,?
-Symantec Endpoint Encryption,Yes,No,No,No[58],Yes,No,No,No,?,?
-Tcplay,No,No,No,Yes,No,No,No,Yes,No,?
-Trend Micro Endpoint Encryption,Yes,No,No,No,Yes,No,No,No,No,?
-TrueCrypt,Yes,No,No[59],Yes,Yes,No,No,No,Yes[45],?
-USBCrypt,Yes,No,No,No,No,No,No,No,No,?
-VeraCrypt,Yes,No,Yes,Yes,Yes,No,No,No,Yes[60],?
-CyberSafe Top Secret,Yes,No,No,No,No,No,No,No,Yes,?
-Name,Windows NT,Windows Mobile (incl. Pocket PC),FreeBSD,Linux,Mac OS X,NetBSD,OpenBSD,DragonFly BSD,Android,iOS
-=======
-Name,Developer,First released,Licensing,Maintained?
-Aloaha Crypt Disk,Aloaha,2008,Open source[citation needed],Yes
-ArchiCrypt Live,Softwaredevelopment Remus ArchiCrypt,1998,Proprietary,Yes
-BestCrypt,Jetico,1993[1],Proprietary,Yes
-BitArmor DataControl,BitArmor Systems Inc.,2008-05,Proprietary,Yes
-BitLocker,Microsoft,2006,Proprietary,Yes
-Bloombase Keyparc,Bloombase,2007,Proprietary,No[2]
-Boxcryptor,Secomba GmbH,2011,Proprietary,Yes
-CGD,Roland C. Dowdeswell,2002-10-04[3],BSD,Yes
-CenterTools DriveLock,CenterTools,2008,Proprietary,Yes
-Check Point Full Disk Encryption,Check Point Software Technologies Ltd,1999[4][5][6],Proprietary,Yes
-CipherShed,CipherShed Project,2014[7],TrueCrypt License Version 3.0[8],No
-CrossCrypt,Steven Scherrer,2004-02-10[9],GPL,No
-CryFS,Sebastian Messmer,2015,LGPLv3,Yes
-Cryhod,Prim'X Technologies,2010,Proprietary,Yes
-Cryptainer,Cypherix Software,1999,Proprietary,Yes
-Cryptic Disk,Exlade,2003,Proprietary,Yes
-CryptArchiver,WinEncrypt,?,Proprietary,Yes
-Cryptoloop,?,2003-07-02[10],GPL,No
-Cryptomator,Skymatic UG (haftungsbeschränkt),2016-03-09[11],GPLv3,Yes
-CryptoPro Secure Disk Enterprise,cpsd it-services GmbH,2010,Proprietary,Yes
-CryptoPro Secure Disk for BitLocker,cpsd it-services GmbH,2012,Proprietary,Yes
-CryptSync,Stefan Küng,2012,Gpl v2,Yes
-Discryptor,Cosect Ltd.,2008,Proprietary,No
-DiskCryptor,ntldr,2007,GPL,Yes
-DISK Protect,Becrypt Ltd,2001,Proprietary,Yes
-Cryptsetup / Dmsetup,Christophe Saout,2004-03-11[12],GPL,Yes
-Dm-crypt / LUKS,Clemens Fruhwirth (LUKS),2005-02-05[13],GPL,Yes
-DriveCrypt,SecurStar GmbH,2001,Proprietary,Yes[14]
-DriveSentry GoAnywhere 2,DriveSentry,2008,Proprietary,No
-E4M,Paul Le Roux,1998-12-18[15],Open source,No
-e-Capsule Private Safe,EISST Ltd.,2005,Proprietary,Yes
-eCryptfs,"Dustin Kirkland, Tyler Hicks, (formerly Mike Halcrow)",2005[16],GPL,Yes
-EgoSecure HDD Encryption,EgoSecure GmbH,2006,Proprietary,Yes
-EncFS,Valient Gough,2003[17],LGPLv3,Yes
-EncryptStick,ENC Security Systems,2009,Proprietary,Yes
-EncryptUSB,ClevX,2016,Proprietary,Yes
-FileVault,Apple Inc.,2003-10-24,Proprietary,Yes
-FileVault 2,Apple Inc.,2011-07-20,Proprietary,Yes
-FREE CompuSec,CE-Infosys,2002,Proprietary,Yes
-FreeOTFE,Sarah Dean,2004-10-10[18],Open source,No
-GBDE,Poul-Henning Kamp,2002-10-19[19],BSD,No
-GELI,Pawel Jakub Dawidek,2005-04-11[20],BSD,Yes
-GnuPG,Werner Koch,1999-09-07[21],GPL,Yes
-gocryptfs,Jakob Unterwurzacher,2015-10-07[22],MIT / X Consortium License,Yes
-Knox,AgileBits,2010,Proprietary,Yes
-KryptOS,The MorphOS Development Team,2010,Proprietary,Yes
-LibreCrypt,tdk,2014-06-19[23],Open source,No
-Loop-AES,Jari Ruusu,2001-04-11,GPL,Yes
-McAfee Drive Encryption (SafeBoot),"McAfee, LLC",2007[24],Proprietary,Yes
-n-Crypt Pro,n-Trance Security Ltd,2005,Proprietary,Yes
-NetLib Encryptionizer (directory encryption),NetLib Security,1987,Proprietary,Yes
-Nodrive (Virtual Encrypted Disk),Hidden Solutions,2018,Proprietary,Yes
-PGPDisk,PGP Corporation (acquired by Symantec in 2010),1998-09-01[25],Proprietary,Yes
-Private Disk,Dekart,1993[26],Proprietary,Yes
-ProxyCrypt,v77,2013,Open source,Yes
-R-Crypto,R-Tools Technology Inc,2008,Proprietary,Yes
-SafeGuard Easy,Sophos (Utimaco),1993[27],Proprietary,Yes
-SafeGuard Enterprise,Sophos (Utimaco),2007[28],Proprietary,Yes
-SafeGuard PrivateDisk,Sophos (Utimaco)[29],2000,Proprietary,Yes
-SafeHouse Professional,"PC Dynamics, Inc.",1992,Proprietary,Yes
-Scramdisk,Shaun Hollingworth,1997-07-01,Open source,No
-Scramdisk 4 Linux,Hans-Ulrich Juettner,2005-08-06[30],GPL,No
-SecuBox,Aiko Solutions,2007-02-19,Proprietary,Yes
-SECUDE Secure Notebook,SECUDE,2003,Proprietary,Yes
-SecureDoc,WinMagic Inc.,1997,Proprietary,Yes
-Seqrite Encryption Manager,Quick Heal Technologies Ltd.,2017,Proprietary,Yes
-Sentry 2020,SoftWinter,1998[31],Proprietary,No
-Softraid / RAID C,OpenBSD,2007-11-01[32],BSD,Yes
-SpyProof!,Information Security Corp.,2002,Proprietary,Yes
-Svnd / Vnconfig,OpenBSD,2000-12-01[33],BSD,Yes
-Symantec Endpoint Encryption,Symantec Corporation,2008,Proprietary,Yes
-Tcplay,Alex Hornung,2012-01-28[34],BSD,Yes
-Trend Micro Endpoint Encryption (Mobile Armor),Trend Micro[35],2004 or earlier[36],Proprietary,Yes
-TrueCrypt,TrueCrypt Foundation,2004-02-02[37],TrueCrypt License 3.1[38],No
-USBCrypt,WinAbility Software Corp.,2010,Proprietary,Yes
-VeraCrypt,IDRIX,2013-06-22[39],Apache License 2.0[40] TrueCrypt License Version 3.0 (legacy code only),Yes
-CyberSafe Top Secret,CyberSoft,2013,Proprietary,Yes
-Name,Developer,First released,Licensing,Maintained?
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Name,Hidden containers,Pre-boot authentication,Single sign-on,Custom authentication,Multiple keys,Passphrase strengthening,Hardware acceleration,TPM,Filesystems,Two-factor authentication
+Aloaha Secure Stick,Yes,No,N/A,Yes,Yes,No,No,No,"NTFS, FAT32",Yes
+ArchiCrypt Live,Yes[63],No,N/A,No,Yes[63][64],No,No,No,?,Yes[63][65]
+BestCrypt,Yes,Yes,?,Yes,Yes[66],Yes,Yes,Yes,Any supported by OS,Yes[67]
+BitArmor DataControl,No,Yes,?,No,Yes,Yes,No,No,"NTFS, FAT32 on non-system volumes",No
+BitLocker,No,Yes[68],No,Yes[69],Yes[70],Yes[71],Yes,Yes[70],Chiefly NTFS [Note 1],Yes [Note 2]
+Bloombase Keyparc,No,No,N/A,Yes,Yes,Yes,Yes,No,?,?
+CGD,No,No,N/A,Yes[72],Yes[73],Yes[72],No,No,Any supported by OS,Yes[72]
+CenterTools DriveLock,No,Yes,Yes,No,No,Yes,No,No,Any supported by OS,Yes
+Check Point Full Disk Encryption,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"NTFS, FAT32",Yes
+CipherShed,Yes (limited to one per "outer" container),only on Windows[74],?,No,yes with multiple keyfiles[75][76],Yes,Yes,No[77],"Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged[78]",Yes
+CryFS,No,No,N/A,No,No,Yes[79],No,No,Any supported by OS,No
+CrossCrypt,No,No,N/A,No,No,No,No,No,?,No
+CryptArchiver,No,No,N/A,No,No,?,No,No,?,?
+Cryptic Disk,Yes,No,No,No,Yes,Yes,Yes,No,Any supported by OS,Yes
+Cryhod,No,Yes,Yes,No,Yes,Yes,Yes,No,Any supported by OS,Yes
+Cryptoloop,No,Yes[80],?,Yes,No,No,Yes[citation needed],No,Any supported by OS,?
+Cryptomator,No,No,N/A,No,No,Yes,Yes,No,Any supported by OS,No
+CryptoPro Secure Disk Enterprise,Yes with add-on Secure Device,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Any supported by OS,Yes
+CryptoPro Secure Disk for BitLocker,Yes with add-on Secure Device,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Any supported by OS,Yes
+Cryptsetup / Dmsetup,No,Yes[80],?,Yes,No,No,Yes,No,Any supported by OS,Yes
+DiskCryptor,No,Yes,?,No,No,No,Yes[81],No,"Only Windows MBR volumes; no UEFI GPT drives, ReFs",Yes[81]
+DISK Protect,No,Yes[82],Yes,No,Yes[82],No,Yes,Yes,"NTFS,FAT32",Yes
+Dm-crypt / LUKS,No,Yes[80],?,Yes,Yes,Yes,Yes,Partial[83] [Note 3],Any supported by OS,Yes
+DriveCrypt,Yes[84],Yes,Yes,Yes,Yes,Yes,Yes,No,Any supported by OS,Yes
+DriveSentry GoAnywhere 2,No,No,N/A,Yes,No,Yes,No,?,Any supported by OS,Yes
+E4M,No,No,N/A,No,No,?,No,No,?,No
+e-Capsule Private Safe,Yes[85],No,N/A,No,Yes[85],No,Yes,No,?,?
+eCryptfs,No,No,N/A,Yes,Yes,Yes,Yes,Yes,Yes[86],Yes
+EgoSecure HDD Encryption,No,Yes,Yes,Yes,Yes,Yes,Yes[87],Yes,"NTFS, FAT32",Yes
+EncryptUSB,No,No,No,No,No,Yes,No,No,"NTFS, FAT32, exFAT",No
+FileVault,No,No,N/A,No,Two passwords[88],Yes[88],?,No,"HFS+, possibly others",No
+FileVault 2,No,Yes,Yes,No,Yes,Yes,Yes[89],No,"HFS+, possibly others",No
+FREE CompuSec,No,Yes,?,No,No,No,No,No,Any supported by OS,No
+FreeOTFE,Yes,No,N/A,Yes[90],Yes[91],Yes,Yes,No,Any supported by OS,Yes
+GBDE,No,No[92],N/A,Yes,Yes[93],No[93],No[92],No,Any supported by OS,Yes
+GELI,No,Yes[92],?,Yes,Yes[94],Yes[94],Yes[92],No,Any supported by OS,Yes
+Loop-AES,No,Yes[95],?,Yes[95],Yes[95],Yes[95],Yes[95],No,Any supported by OS,Yes[96]
+McAfee Drive Encryption (SafeBoot),Yes,Yes,Yes,Yes,Yes,Yes,Yes[87][97],Yes,Any supported by OS,Yes
+n-Crypt Pro,No,No,N/A,No,No,N/A[98],No,No,?,?
+PGPDisk,No,Yes[99],Yes,?,Yes,Yes[100],?,Yes,?,Yes
+Private Disk,No,No,N/A,No,Yes,Yes,No,No,Any supported by OS,Yes
+ProxyCrypt,Yes,No,No,No,No,Yes,Yes,No,Any supported by OS,Yes
+R-Crypto,?,No,N/A,?,?,?,?,?,Any supported by OS,?
+SafeGuard Easy,No,Yes,?,No,Yes,Yes,No,Yes[101],Any supported by OS,Yes
+SafeGuard Enterprise,No,Yes,Yes,No,Yes,Yes,No,Yes[101],Any supported by OS,Yes
+SafeGuard PrivateDisk,No,No,N/A,No,Yes,Yes,No,Yes[102],Any supported by OS,Yes
+SafeHouse Professional,No,No,N/A,Yes,Yes,Yes,No,No,Any supported by OS,Yes
+Scramdisk,Yes,No,N/A,No,No,No,No,No,?,Last update to web site 2009-07-02
+Scramdisk 4 Linux,Yes[103],No,N/A,No,No,Yes[103],No,No,"ext2, ext3, reiserfs, minix, ntfs, vfat/msdos",No
+SecuBox,No,No,N/A,No,No,Yes,No,No,?,No
+SecureDoc,No,Yes[104],?,Yes,Yes,Yes,Yes,Yes,?,Yes
+Seqrite Encryption Manager,No,Yes,Yes,No,Yes,Yes,Yes,No,Any supported by OS,No
+Sentry 2020,No,No,?,No,No,No,No,No,?,No
+Softraid / RAID C,No,No,?,?,?,?,Yes,?,Any supported by OS,?
+Svnd / Vnconfig,No,No,N/A,No,No,Yes[105],Yes,?,Any supported by OS,?
+Symantec Endpoint Encryption,No,Yes,Yes,Yes,Yes,Yes,No,No,"NTFS, FAT32",Yes
+Trend Micro Endpoint Encryption,No,Yes,Yes,Yes,Yes,Yes[106],Yes[107],No,Any supported by OS,Yes[108]
+TrueCrypt [Note 4],Yes (limited to one per "outer" container),only on Windows[109],?,No,yes with multiple keyfiles[76][110],Yes,Yes,No[77],"Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged[78]",Yes
+VeraCrypt,Yes (limited to one per "outer" container),only on Windows[111],No,No,yes with multiple keyfiles,Yes,Yes,No,Windows on both MBR and UEFI GPT drives; dynamic drives discouraged,Yes
+CyberSafe Top Secret,Yes,No,No,No,Yes,Yes,Yes,No,"Only Windows MBR volumes; no UEFI GPT drives, and dynamic drives discouraged",Yes
+Name,Hidden containers,Pre-boot authentication,Single sign-on,Custom authentication,Multiple keys,Passphrase strengthening,Hardware acceleration,TPM,Filesystems,Two-factor authentication

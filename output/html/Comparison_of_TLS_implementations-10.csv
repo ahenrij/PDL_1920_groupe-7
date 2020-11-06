@@ -1,46 +1,17 @@
-<<<<<<< HEAD
-Implementation,Namespace,Build tools,API manual,Crypto back-end,OpenSSL compatibility Layer[clarify]
-Botan,Botan::TLS,Makefile,Sphinx,Included (pluggable),No
-Bouncy Castle,org.bouncycastle,Java Development Environment,Programmers reference manual (PDF),Included (pluggable),No
-cryptlib,crypt*,"makefile, MSVC project workspaces","Programmers reference manual (PDF), architecture design manual (PDF)",Included (monolithic),No
-GnuTLS,gnutls_*,"Autoconf, automake, libtool","Manual and API reference (HTML, PDF)","External, libnettle",Yes (limited)
-JSSE,javax.net.ssl sun.security.ssl,Makefile,API Reference (HTML) + JSSE Reference Guide,"Java Cryptography Architecture, Java Cryptography Extension",No
-MatrixSSL,matrixSsl_* ps*,"Makefile, MSVC project workspaces, Xcode projects for OS X and iOS","API Reference (PDF), Integration Guide",Included (pluggable),"Yes (Subset: SSL_read, SSL_write, etc.)"
-Mbed TLS,mbedtls_ssl_* mbedtls_sha1_* mbedtls_md5_* mbedtls_x509* ...,"Makefile, CMake, MSVC project workspaces, yotta",API Reference + High Level and Module Level Documentation (HTML),Included (monolithic),No
-NSS,CERT_* SEC_* SECKEY_* NSS_* PK11_* SSL_* ...,Makefile,Manual (HTML),"Included, PKCS#11 based[226]",Yes (separate package called nss_compat_ossl[227])
-OpenSSL,SSL_* SHA1_* MD5_* EVP_* ...,Makefile,Man pages,Included (monolithic),N/A
-RSA BSAFE Micro-Edition Suite,R_*,Makefile,Developer's guide,Included,No
-RSA BSAFE SSL-J,com.rsa.asn1[a] com.rsa.certj[b] com.rsa.jcp[c] com.rsa.jsafe[d] com.rsa.ssl[e] com.rsa.jsse[f],Java classloader,"Javadoc, Developer's guide (HTML)",Included,No
-wolfSSL,wolfSSL_* CyaSSL_* SSL_*,"Autoconf, automake, libtool, MSVC project workspaces, XCode projects, CodeWarrior projects, MPLAB X projects, Keil, IAR, Clang, GCC, e2Studio","Manual and API Reference (HTML, PDF)",Included (monolithic),Yes (about 10% of API)
-Implementation,Namespace,Build tools,API manual,Crypto back-end,OpenSSL compatibility layer
-=======
-Implementation,Block cipher with mode of operation,,,,Stream cipher,
-,IDEA CBC [n 1](insecure)[144],DES CBC (insecure) [n 1],"DES-40 CBC (EXPORT, insecure) [n 2]","RC2-40 CBC (EXPORT, insecure) [n 2]",RC4-128 (insecure) [n 3],"RC4-40 (EXPORT, insecure) [n 4][n 2]"
-Botan,No,No,No,No,No[145],No
-BoringSSL,No,No,No,No,Disabled by default at compile time,No
-cryptlib,No,Disabled by default at compile time,No,No,Disabled by default at compile time,No
-GnuTLS,No,No,No,No,Disabled by default[37],No
-JSSE,No,Disabled by default,Disabled by default,No,Disabled by default,Disabled by default [146]
-LibreSSL,Yes,Yes,No[41],No[41],Yes,No[41]
-MatrixSSL,Yes,No,No,No,Disabled by default,No
-Mbed TLS,No,Disabled by default at compile time,No,No,Disabled by default at compile time[44],No
-NSS,Yes,Disabled by default,Disabled by default,Disabled by default,Lowest priority[147][148],Disabled by default
-OpenSSL,Disabled by default[50],Disabled by default,No[50],No[50],Disabled by default,No[50]
-RSA BSAFE Micro-Edition Suite,No,No,No,No,Disabled by default,No
-RSA BSAFE SSL-J,No,Disabled by default,Disabled by default,No,Disabled by default,Disabled by default
-SChannel XP/2003,No,Yes,Yes,Yes,Yes,Yes
-SChannel Vista/2008,No,Disabled by default,Disabled by default,Disabled by default,Yes,Disabled by default
-SChannel 7/2008R2,No,Disabled by default,Disabled by default,Disabled by default,Lowest priority will be disabled soon[149],Disabled by default
-SChannel 8/2012,No,Disabled by default,Disabled by default,Disabled by default,Only as fallback,Disabled by default
-SChannel 8.1/2012R2,No,Disabled by default,Disabled by default,Disabled by default,Disabled by default[149],Disabled by default
-Schannel 10[142],No,Disabled by default,Disabled by default,Disabled by default,Disabled by default[149],Disabled by default
-Secure Transport OS X 10.6,Yes,Yes,Yes,Yes,Yes,Yes
-Secure Transport OS X 10.7,Yes,Unknown,Unknown,Unknown,Yes,Unknown
-Secure Transport OS X 10.8-10.9,Yes,Disabled by default,Disabled by default,Disabled by default,Yes,Disabled by default
-Secure Transport OS X 10.10-10.11,Yes,Disabled by default,Disabled by default,Disabled by default,Lowest priority,Disabled by default
-Secure Transport macOS 10.12,Yes,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default
-wolfSSL,Disabled by default[150],No,No,No,Disabled by default,No
-Erlang/OTP SSL application,no,Disabled by default,no,no,Disabled by default,no
-Implementation,Block cipher with mode of operation,,,,Stream cipher,
-,IDEA CBC [n 1](insecure)[144],DES CBC (insecure) [n 1],"DES-40 CBC (EXPORT, insecure) [n 2]","RC2-40 CBC (EXPORT, insecure) [n 2]",RC4-128 (insecure) [n 3],"RC4-40 (EXPORT, insecure) [n 4][n 2]"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Implementation,TLS 1.2 Suite B
+Botan,Yes
+Bouncy Castle,Yes
+cryptlib,Yes
+GnuTLS,Yes
+JSSE,Yes[65]
+LibreSSL,Yes
+MatrixSSL,Yes
+Mbed TLS,Yes
+NSS,No[66]
+OpenSSL,Yes[52]
+RSA BSAFE,Yes[53]
+S2n,
+SChannel,Yes[67]
+Secure Transport,No
+wolfSSL,Yes
+Implementation,TLS 1.2 Suite B

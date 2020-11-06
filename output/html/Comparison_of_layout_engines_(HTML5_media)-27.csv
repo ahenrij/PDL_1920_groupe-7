@@ -1,24 +1,17 @@
-<<<<<<< HEAD
-,Trident,Gecko,WebKit,KHTML,Presto
-Element identifiers,,,,,
-id,<3.1[IE 3.0],1.0,Yes,Yes,1.0
-class,,,,,
-Inline styles,,,,,
-style,<3.1[IE 3.0],1.0,Yes,Yes,1.0
-Advisory information,,,,,
-title,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-Language information,,,,,
-lang,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-dir,<3.1[IE 5.0],,,,
-=======
-,Trident,Gecko,WebKit,Presto
-translate[24],No,,,
-Datasets (data-*),No,6.0[g 24],Yes[w 25],2.8[p 10]
-contextmenu,,8.0[g 25],No[w 16],No
-hidden,,2.0[g 26],Yes[w 26],2.7.70
-contenteditable[25],<3.1[IE 5.5],1.9,Yes,2.0
-spellcheck[26],6.0,1.8[g 27],Incorrect[w 27],2.8[p 11]
-draggable,,1.9.1[g 28],533[w 28],2.10.270
-dropzone,No,No[g 29],Yes,2.10.270
-,Trident,Gecko,WebKit,Presto
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Attribute,Deprecated for,Function,Supported first by,Trident,Gecko,WebKit,KHTML,Presto
+bgproperties,body,Determines whether background image scrolls with the background,Internet Explorer,3.1,No,Yes,Yes,No
+bordercolor,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,No,Yes,Yes,No
+bordercolordark,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,No,No,No,No
+bordercolorlight,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,,,,
+controls,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
+dynsrc,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
+event,script,Defines function to call for an object.,Internet Explorer,,Partial,?,?,?
+for,script,Defines the object to bind a scripting event.,Internet Explorer,,Partial,?,?,?
+frame,table,Controls the display of the outer borders of a table in the table tag,Internet Explorer,,Yes,?,Yes,No
+framespacing,frameset,Sets the amount of space between frames,Internet Explorer,,?,?,No,No
+leftmargin,body,Sets the margin between the browser window and the contents of the page,Internet Explorer,3.1,?,?,Yes,No
+loop,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
+rightmargin,body,Sets the margin between the browser window and the contents of the page,Internet Explorer,3.1,?,?,No,No
+start,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
+target,form,Specifies a target window or frame for the output of a form,Internet Explorer,,No[19],?,Yes,No
+valign,caption,Sets vertical alignment of table caption,Internet Explorer,3.1,?,?,No,No

@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-Name,Operating system,Vendor,Online storage,Remote desktop,"Prior file versions, revision control",Comments,Portable,Detect rename,Detect move,Scheduling,Full duplex transfer
-Microsoft ActiveSync,Windows,Microsoft,,,?,Syncs mobile devices,,,,,
-Resilio Sync,"Windows, OS X, Linux, FreeBSD, Android, iOS","Resilio, Inc.",,,,Distributed peer-to-peer sync,,,,Pro only[25],
-Briefcase (part of Windows) (removed in Windows 10 build 14942[26]),Windows,Microsoft,,,?,,,,,,
-Cobian Backup,Windows,CobianSoft,,,",Backup software with folder synchronization feature; remote management; Shadow Copy,,,,,
-Windows Mobile Device Center,Windows,Microsoft,,,?,Syncs mobile devices; successor to Microsoft ActiveSync,,,,,
-Microsoft Sync Framework,Windows,Microsoft,?,,?,"Syncs files, data, services; a framework, not a tool",,,,-,
-Microsoft SyncToy,Windows,Microsoft,,,",Sync local folders,,,,via OS,
-Windows Live Mesh (discontinued 13 February 2013),"Windows (Vista and greater), Windows Mobile, OSX",Microsoft,,,","Sync folders, online storage",,,?,",
-OmniGroup OmniPresence,"OSX, OmniGroup software for iOS, open source framework available",OmniGroup,,,",Sync local folders via OmniSync or WebDAV server but not to the server itself,,?,?,",
-Windows Live Sync (discontinued 31 March 2011),"Windows, OSX",Microsoft,",,","Sync folders, browse devices from website, remote access; was Microsoft FolderShare, 20,000 file limit",,,,",?
-=======
 Name,Programming language,Platform,License,Stable version,Portable,Detect conflict,Renames or moves,Propagate deletes,Revision control,Scheduling or service,Other information
 Conduit,Python,"Linux, FreeBSD",GPL,0.3.17 (2010-01-21)[2],,,,,,,"Synchronizes files, website, network apps"
 DirSync Pro,Java,Java SE,GPLv3,1.53 (2018-03-07)[3],,,,,,,"sym-links, filter, metadata, contents, auto-sync"
@@ -22,7 +9,7 @@ Nextcloud,"PHP, C++, JavaScript[12]","Server: Linux, FreeBSD Clients: Windows, O
 OneSync,C#,Windows,GPL,4.0 (2012-02-19)[14],,,,,,,
 ownCloud community edition,"PHP, C++, JavaScript[15]","Server: Linux, FreeBSD Clients: Windows, OS X, Linux, FreeBSD, Android, iOS",AGPLv3 (Server Edition) / proprietary (Enterprise Edition),,,,,,,,"iOS, Android, Blackberry, Win, Mac, Linux Client; external storage support; encryption app; app framework"
 Pydio Open source home,"Server: PHP, Python, C++ Clients: JS, C#, Swift, Java","Windows, OS X, Linux, Android, iOS",AGPLv3,8.0.2 (2017-12-13),,,,,,,
-rclone,Go,"Linux, Windows, Linux, Windows, macOS, FreeBSD, NetBSD, OpenBSD, Plan9, Solaris - Intel/AMD-64, Intel/AMD-32, ARM-32, ARM-64, MIPS-Big-Endian, MIPS-Little-Endian",MIT,1.53.1 (13 September 2020),,,,,,,"Supports over fifty cloud, protocol and virtual backends including S3 buckets, Google Drive, Microsoft OneDrive, and other high latency file storage. Capabilities include sync, cache, encrypt and mount."
+rclone,Go,"Linux, Windows, Linux, Windows, macOS, FreeBSD, NetBSD, OpenBSD, Plan9, Solaris - Intel/AMD-64, Intel/AMD-32, ARM-32, ARM-64, MIPS-Big-Endian, MIPS-Little-Endian",MIT,1.53.2 (26 October 2020),,,,,,,"Supports over fifty cloud, protocol and virtual backends including S3 buckets, Google Drive, Microsoft OneDrive, and other high latency file storage. Capabilities include sync, cache, encrypt and mount."
 rsync,C in a Unix-Linux shell,"Windows, OS X,[18] Linux,[19][20] BSD",GPL v3,,,,,,,,"client & server operation. Multiple comparison criteria (date, check-sum)."
 Seafile community edition,"C99, Python[21]","Server: Linux, Raspbian, Windows Clients: Linux, OS X, Windows, Android, iOS.[22]",AGPLv3 (Server) + Apache License 2.0 (Client),,,,,,,,Android and iOS mobile clients
 SparkleShare,C#,"Windows, OS X, Linux, Android, iOS",GPL v3 and LGPL,2.0.1 (2017-12-22),,,,,,,
@@ -32,4 +19,3 @@ Syncthing,Go,"Windows, OS X, Linux, Android, BSD, Solaris",MPL v2,,,,,,,,Distrib
 Synkron,C++,"Windows, OS X, Linux",GPL v2,1.6.2 (2011-01-25){[24]},,,,,,,no longer in active development
 Unison,Objective CAML,"Windows, OS X, Linux, Unix flavors",GPL v3,2.51.2 (2018-01-27),,,,,,,
 Name,Programming language,Platform,License,Stable version,Portable,Detect conflict,Renames or moves,Propagate deletes,Revision control,Scheduling or service,Other information
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

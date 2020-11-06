@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 System,Form based,Public key cryptography,Two-factor,OpenID,OAuth,LDAP,Shibboleth,Others
-Apache Bloodhound,Yes,Optional[88],No,Optional[89],No,Yes,Unknown,No
+Apache Bloodhound,Yes,Optional[86],No,Optional[87],No,Yes,Unknown,No
 Assembla Tickets,Yes,No,No,Yes,Yes,Yes (private version),Unknown,Unknown
 Axosoft,Yes,No,No,No,No,Yes,No,No
-Bugzilla,Yes,No,No,Optional[90],No,Yes,Unknown,No
+Bugzilla,Yes,No,No,Optional[88],No,Yes,Unknown,No
 Debbugs,No,No,No,No,No,No,No,No
 Faveo Helpdesk,Yes,No,No,No,Yes,Yes,No,No
 FogBugz,Yes,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
@@ -12,63 +11,25 @@ FusionForge,Yes,No,No,Yes,No,Yes,No,"Yes, CAS"
 GLPI,Yes,No,Yes,No,No,Yes,No,No
 GNATS,Unknown,Unknown,Unknown,Unknown,Unknown,No,Unknown,Unknown
 HP Quality Center,No,No,No,No,No,Yes,No,Unknown
-IBM Rational ClearQuest,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
-Jira,Yes,No,No,Yes,Yes,Yes,"Yes, via plugin[91][92]","Yes, via Crowd[93]"
-MantisBT,Yes,No,No,Yes[94],Yes[95],Yes,Unknown,No
+Jira,Yes,No,No,Yes,Yes,Yes,"Yes, via plugin[89][90]","Yes, via Crowd[91]"
+MantisBT,Yes,No,No,Yes[92],Yes[93],Yes,Unknown,No
 Microsoft Dynamics CRM,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
 org-mode,Unknown,Unknown,Unknown,Unknown,Unknown,No,Unknown,Unknown
 OTRS,Yes,Yes,Yes,Unknown,Unknown,Yes,Unknown,Unknown
 Phabricator,Yes,No,Yes,No,Yes,Yes,No,No
 Pivotal Tracker,Yes,No,No,"Yes, Google Account",No,No,No,No
-Redmine,Yes,Yes[96],No,Yes[97],No,Yes,"Yes, via Apache (using mod_rails)",No
-Request Tracker,Yes,Unknown,Unknown,Yes[98],Unknown,Yes[99],Unknown,Yes[100]
-Roundup,Yes,Unknown,Unknown,Yes[101],Unknown,Yes,Yes[102],Yes[103]
+Redmine,Yes,Yes[94],No,Yes[95],No,Yes,"Yes, via Apache (using mod_rails)",No
+Request Tracker,Yes,Unknown,Unknown,Yes[96],Unknown,Yes[97],Unknown,Yes[98]
+Roundup,Yes,Unknown,Unknown,Yes[99],Unknown,Yes,Yes[100],Yes[101]
 StarTeam,Unknown,Unknown,Unknown,Unknown,Unknown,No,Unknown,Unknown
 Supportworks,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
 SysAid,Yes,No,No,No,No,Yes,No,"Yes, CAS"
 Team Foundation Server,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
 TestTrack,Yes,Optional,No,No,No,Yes,No,Yes - custom DLL
-Trac,Yes,Optional[88],No,Optional[89],No,Yes,Unknown,No
+Trac,Yes,Optional[86],No,Optional[87],No,Yes,Unknown,No
 TrackerSuite.Net,Yes,No,No,No,No,Yes,No,No
 Tuleap,Yes,No,No,Yes,Yes,Yes,No,No
 Twproject,Yes,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,"Yes, Simple container auth."
 Wrike,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown
 YouTrack,Yes,No,Yes,Yes,Yes,Yes,Unknown,Yes: JIRA account
 System,Form based,Public key cryptography,Two-factor,OpenID,OAuth,LDAP,Shibboleth,Others
-=======
-System,Email,RSS,Atom,XMPP,Twitter
-Apache Bloodhound,Yes,Yes,No,No,No
-Assembla Tickets,Yes,Yes,No,No,Yes
-Axosoft,Yes,Yes,No,No,No
-Bugzilla,Yes,Yes,Yes,No,No
-Debbugs,Yes,No,No,No,No
-Faveo Helpdesk,Yes,No,No,No,No
-FogBugz,Yes,Yes,No,No,No
-Fossil,Yes,Yes,No,No,No
-FusionForge,Yes,Yes,No,No,No
-GLPI,Yes,No,No,Yes,No
-GNATS,Yes,No,No,No,No
-HP Quality Center,Yes,No,No,No,No
-IBM Rational ClearQuest,Yes,No,No,No,No
-Jira,Yes,Yes,No,Yes,No
-MantisBT,Yes,Yes,No,No,Yes
-Microsoft Dynamics CRM,Yes,No,No,No,No
-org-mode,No,No,No,No,No
-OTRS,Yes,No,No,No,No
-Phabricator,Yes,No,No,No,No
-Pivotal Tracker,Yes,Yes,Yes,No,Yes
-Redmine,Yes,Yes,Yes,"Yes, via plugin",Yes
-Request Tracker,Yes,Yes[69],No,No,No
-Roundup,Yes,Yes[70],Yes[70],No,No
-StarTeam,Yes,No,No,No,No
-Supportworks,Yes,No,No,No,No
-SysAid,Yes,No,No,No,No
-Team Foundation Server,Yes,No,No,No,No
-TestTrack,Yes,Yes,No,No,No
-Trac,Yes,Yes,No,No,No
-TrackerSuite.Net,Yes,No,No,No,No
-Twproject,Yes,Yes,No,No,Yes
-Wrike,Yes,No,No,No,No
-YouTrack,Yes,Yes,No,Yes,No
-System,Email,RSS,Atom,XMPP,Twitter
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

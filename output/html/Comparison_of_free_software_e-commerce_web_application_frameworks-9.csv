@@ -1,35 +1,19 @@
-<<<<<<< HEAD
-,Product import-export,Statistics,Stock control,WYSIWYG editor
-Apache OFBiz,Yes,Yes,Yes,Yes
-Batavi,Yes,Yes,Yes,Yes
-Bigcommerce,Yes,Yes,Yes,Yes
-Drupal Commerce,Yes,Yes,Yes,Yes
-KonaKart,Yes,Yes,Yes,Yes
-Magento,Yes,Yes,Yes,Yes
-nopCommerce,Yes,Yes,Yes,Yes
-osCommerce,add-on,Yes,Yes,add-on
-pimcore,Yes,Yes,Yes,Yes
-PrestaShop,Yes,Yes,Yes,Yes
-Shopify,Yes,Yes,Yes,No
-SupaDupa,Yes,Yes,Yes,No
-WooCommerce,Yes,Yes,Yes,Yes
-Zen Cart,add-on,Yes,Yes,add-on
-,Product import-export,Statistics,Stock control,WYSIWYG editor
-=======
-,Coupons,Gift certificates,Membership discounts,Membership-only categories,Membership-only products,Reward points,Special offers
-Apache OFBiz,Yes,Yes,Yes,No,Yes,No,Yes
-Batavi,No,No,Yes,No,No,No,Yes
-Bigcommerce,Yes,Yes,Yes,Yes,Yes,3rd party,Yes
-Drupal Commerce,Yes,Yes,Yes,Yes,Yes,No,Yes
-KonaKart,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Magento,Yes,Yes,Yes,Yes,Yes,Yes (Enterprise Edition),Yes
-nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-osCommerce,Add-on,Add-on,No,No,No,No,Yes
-pimcore,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Shopify,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-SupaDupa,Yes,Yes,No,No,No,No,Yes
-WooCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Zen Cart,Yes,Yes,Yes,Add-on[31],Add-on[31],Yes[32],Yes
-,Coupons,Gift certificates,Membership discounts,Membership-only categories,Membership-only products,Reward points,Special offers
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Flat file,MySQL,MySQLi,PostgreSQL,MSSQL,Oracle,SQLite,Firebird,Apache Derby,MongoDB
+Apache OFBiz,No,Yes,No,Yes,Yes,Yes,No[20],Yes,Yes,No
+Batavi,No,Yes,No,No,No,No,No,No,No,No
+Bigcommerce,No,Yes,No,Yes,No,No,No,No,No,No
+Drupal Commerce,No,Yes,Yes,Yes,No,No,Yes,No,No,discontinued[21]
+KonaKart,No,Yes,No,Yes,Yes,Yes,No,No,No,No
+Magento,No,Yes,Yes,No,No,No,No,No,No,No
+nopCommerce,No,No,No,No,Yes,No,No,No,No,No
+OpenCart,No,Yes,Yes,No,No,No,No,No,No,No
+osCommerce,No,Yes,No,No,No,No,No,No,No,No
+pimcore,No,Yes,No,No,No,No,No,No,No,No
+PrestaShop,No,Yes,Yes,No,No,No,No,No,No,No
+Shopify,No,Yes,Yes,No,No,No,No,No,No,No
+Spree Commerce,No,Yes,Yes,Yes,No,No,Yes,No,No,No
+SupaDupa,No,Yes,Yes,No,No,No,No,No,No,No
+WooCommerce,No,Yes,Yes,No[22],No,No,No,No,No,No
+X-Cart,No,Yes,Yes,Yes,No,No,No,No,No,No
+Zen Cart,No,Yes,Yes,No,No,No,No,No,No,No
+,Flat file,MySQL,MySQLi,PostgreSQL,MSSQL,Oracle,SQLite,Firebird,Apache Derby,MongoDB

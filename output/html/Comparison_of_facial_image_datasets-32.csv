@@ -1,18 +1,6 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Cloud DataSet,Data about 1024 different clouds.,Image features extracted.,1024,Text,"Classification, clustering",1989,[431],P. Collard
-El Nino Dataset,Oceanographic and surface meteorological readings taken from a series of buoys positioned throughout the equatorial Pacific.,12 weather attributes are measured at each buoy.,178080,Text,Regression,1999,[432],Pacific Marine Environmental Laboratory
-Greenhouse Gas Observing Network Dataset,Time-series of greenhouse gas concentrations at 2921 grid cells in California created using simulations of the weather.,None.,2921,Text,Regression,2015,[433],D. Lucas
-Atmospheric CO2 from Continuous Air Samples at Mauna Loa Observatory,"Continuous air samples in Hawaii, USA. 44 years of records.",None.,44 years,Text,Regression,2001,[434],Mauna Loa Observatory
-Ionosphere Dataset,Radar data from the ionosphere. Task is to classify into good and bad radar returns.,Many radar features given.,351,Text,Classification,1989,[374][435],Johns Hopkins University
-Ozone Level Detection Dataset,Two ground ozone level datasets.,"Many features given, including weather conditions at time of measurement.",2536,Text,Classification,2008,[436][437],K. Zhang et al.
-=======
-Amazon reviews,US product reviews from Amazon.com.,None.,~ 82M,Text,"Classification, sentiment analysis",2015,[155],McAuley et al.
-OpinRank Review Dataset,Reviews of cars and hotels from Edmunds.com and TripAdvisor respectively.,None.,"42,230 / ~259,000 respectively",Text,"Sentiment analysis, clustering",2011,[156][157],K. Ganesan et al.
-MovieLens,"22,000,000 ratings and 580,000 tags applied to 33,000 movies by 240,000 users.",None.,~ 22M,Text,"Regression, clustering, classification",2016,[158],GroupLens Research
-Yahoo! Music User Ratings of Musical Artists,Over 10M ratings of artists by Yahoo users.,None described.,~ 10M,Text,"Clustering, regression",2004,[159][160],Yahoo!
-Car Evaluation Data Set,Car properties and their overall acceptability.,Six categorical features given.,1728,Text,Classification,1997,[161][162],M. Bohanec
-YouTube Comedy Slam Preference Dataset,User vote data for pairs of videos shown on YouTube. Users voted on funnier videos.,Video metadata given.,"1,138,562",Text,Classification,2012,[163][164],Google
-Skytrax User Reviews Dataset,"User reviews of airlines, airports, seats, and lounges from Skytrax.",Ratings are fine-grain and include many aspects of airport experience.,41396,Text,"Classification, regression",2015,[165],Q. Nguyen
-Teaching Assistant Evaluation Dataset,Teaching assistant reviews.,"Features of each instance such as class, class size, and instructor are given.",151,Text,Classification,1997,[166][167],W. Loh et al.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Geographic Origin of Music Data Set,Audio features of music samples from different locations.,Audio features extracted using MARSYAS software.,"1,059",Text,"Geographic classification, clustering",2014,[260][261],F. Zhou et al.
+Million Song Dataset,Audio features from one million different songs.,Audio features extracted.,1M,Text,"Classification, clustering",2011,[262][263],T. Bertin-Mahieux et al.
+MUSDB18,Multi-track popular music recordings,Raw audio,150,"MP4, WAV",Source Separation,2017,[264],Z. Rafii et al.
+Free Music Archive,"Audio under Creative Commons from 100k songs (343 days, 1TiB) with a hierarchy of 161 genres, metadata, user data, free-form text.",Raw audio and audio features.,"106,574","Text, MP3","Classification, recommendation",2017,[265],M. Defferrard et al.
+Bach Choral Harmony Dataset,Bach chorale chords.,Audio features extracted.,5665,Text,Classification,2014,[266][267],D. Radicioni et al.

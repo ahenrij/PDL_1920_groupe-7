@@ -1,18 +1,6 @@
-<<<<<<< HEAD
 Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
 ,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
 Quadro FX 360M,G86M,80,PCIe 1.0 ×16,400,800,1200,16:8:4,1.6,3.2,256,9.6,DDR2,64,38.4,10.0,3.3,17,Based on the GeForce 8400M GS
 Quadro FX 560M,G73GLM,90,,500,500,,5:12:12:8,4,6,512,19.2,GDDR3,128,,9.0c,2.1,35?,7600GS based?
 Quadro FX 1600M,G84M,80,,625,1250,1600,32:16:8,5,10,,25.6,,,120,10.0,3.3,50?,
 Quadro FX 3600M,G92M,65,,500,,,64:32:16 96:48:16,8 8,16 24,,51.2,,256,240 360,,,70,Based on the GeForce 8800M GTX
-=======
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory configuration,,,,Processing power (GFLOPS)2,TDP (Watts),Comments
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Single precision,,
-GeForce 310,"November 27, 2009",GT218,TSMC 40 nm,260,57,PCIe 2.0 ×16,16:8:4,589,1402,1000,2.356,4.712,512,8,DDR2,64,44.8,30.5,"OEM Card, similar to Geforce 210"
-GeForce 315,February 2010,GT216,,486,100,,48:16:4,475,1100,1580,3.8,7.6,512,12.6,DDR3,,105.6,33,"OEM Card, similar to Geforce GT220"
-GeForce GT 320,,GT215,,727,144,,72:24:8,540,1302,,4.32,12.96,1024,25.3,GDDR3,128,187.5,43,OEM Card
-GeForce GT 330[23],,GT215-301-A3[24],,,,,96:32:8,550,1350,,4.40,17.60,512,32.00,,128,257.3,75,"Specifications vary depending on OEM, similar to GT230 v2."
-,,GT92[25],,,,,,500,1250,,4.000,24.00,256,51.20,,256,240.0,,
-,,GT92B[26],,,,,96:32:16,,,,8.000,,1024,16.32,DDR2,128,,,
-GeForce GT 340,,GT215,,,,,96:32:8,550,1340,3400,,,512 1024,54.4,GDDR5[27],128,257.3,69,"OEM Card, similar to GT240"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

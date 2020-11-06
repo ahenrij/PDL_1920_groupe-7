@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-Country,Active,In orbit,Decayed,Total
-China,352,407,84,491
-Japan,90,183,65,248
-India,64,101,12,113
-Israel,17,20,6,26
-,15,22,5,27
-=======
-No.,Country,Spacecraft,Year
-1,,Chang'e 3/Yutu,2013
-TBD,,Beresheet,2019 (Failed)
-TBD,,Chandrayaan-2/Pragyan,2019 (Failed)
-,,Chandrayaan-3,2021 (Planned)
-TBD,,Lunar Polar Exploration Mission,2024 (Planned)
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Country,Resolution,Satellite,Year launched
+,0.35 meter,RISAT-2BR1,2019
+,0.5 meter x 0.3 meter,RISAT-2B,2019
+,0.5 meter,IGS R-5,2017
+,0.5,TecSAR,2008
+,0.5 meter,Yaogan 29,2015
+,1 meter,KOMPSat-5,2013

@@ -1,16 +1,9 @@
-Country,Resolution,Satellite,Year launched
-<<<<<<< HEAD
-India,0.25 meter,Cartosat-3,2019
-Japan,0.4 meter,IGS Optical 5V,2013
-Israel,0.5 meter,Ofeq 9,2010
-China,0.5 meter,Gaofen 9,2015
-South Korea,0.7 meter,KOMPSAT-3,2012
-Iran,150 meters,Rasad 1,2011
-=======
-India,0.35 meter,RISAT-2BR1,2019
-,0.5 meter x 0.3 meter,RISAT-2B,2019
-Japan,0.5 meter,IGS R-5,2017
-Israel,0.5,TecSAR,2008
-China,0.5 meter,Yaogan 29,2015
-South Korea,1 meter,KOMPSat-5,2013
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,2011[164],2012[165],2013[166],2014[167],2015[168],2016[169],2017[170],2018[171],2019[172],Total
+China,19,19,15,16,19,22,18,39,34,201
+India,3,2,4,5,5,7,5,7,6,44
+Japan,3,2,3,4,4,4,7,6,2,35
+Iran,1,3,1,-,1,-,1,-,3,10
+North Korea,-,2,-,-,-,1,-,-,-,3
+Israel,-,-,-,1,-,1,-,-,-,2
+South Korea,-,-,1,-,-,-,-,-,-,1
+Total,26,28,24,26,29,35,31,52,45,296

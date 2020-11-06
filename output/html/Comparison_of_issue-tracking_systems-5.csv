@@ -1,78 +1,37 @@
-<<<<<<< HEAD
-System,Git,Mercurial,Bazaar,Monotone,Darcs,CVS,Subversion,Perforce,AccuRev,ClearCase,Others
-Apache Bloodhound,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Optional[71],Yes,No,No
-Assembla Tickets,Yes,Yes,No,No,No,No,Yes,Yes,No,No,No
-Axosoft,Yes,Yes[72],No,No,No,No,Yes,Yes,No,No,"Yes VSS, Vault Sourcegear"
-Bugzilla,Yes[73],Yes[74],Yes,No,No,Yes,Yes,Yes,Yes,No,No
-Debbugs,No,No,No,No,No,No,No,No,No,No,No
-Faveo Helpdesk,No,No,No,No,No,No,No,No,No,No,No
-FogBugz,Yes,Yes,No,No,No,Yes,Yes,Yes,No,No,2[75]
-Fossil,No,No,No,No,No,No,No,No,Yes,No,1[76]
-FusionForge,Yes,Yes,Yes,No,No,Yes,Yes,No,No,No,No
-GNATS,No,No,No,No,No,Yes,No,No,No,No,No
-HP Application Lifecycle Management,No,No,No,No,No,Yes,Yes,Yes[77],Yes,No,No
-IBM Rational ClearQuest,No,No,No,No,No,No,No,Yes[78],Yes,Yes,No
-Jira,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes[79],No[80],Yes[81]
-MantisBT,Yes,Yes[82],No,No,No,Yes,Yes,No,No,No,No
-Microsoft Dynamics CRM,No,No,No,No,No,No,No,No,No,No,No
-org-mode,No,No,No,No,No,No,No,No,No,No,No
-OTRS,No,No,No,No,No,No,No,No,No,No,No
-Phabricator,Yes,Yes,No,No,No,No,Yes,No,No,No,No
-Pivotal Tracker,Yes,No,No,No,No,Yes,Yes,No,No,No,No
-Redmine,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes[77],No,No,No
-Request Tracker,No,No,No,No,No,Yes,Yes,No,No,No,No
-Roundup,No,No,No,No,Yes,No,Yes,No,No,No,No
-StarTeam,No,No,No,No,No,No,No,No,No,No,Yes - StarTeam includes revision control
-Supportworks,No,No,No,No,No,No,No,No,No,No,No
-SysAid,No,No,No,No,No,No,Yes,No,No,No,No
-Team Foundation Server,Yes[83],No,Yes[84],No,No,No,Yes[85],No,No,No,Yes - TFS includes revision control
-TestTrack,Yes,No,No,No,No,Yes,Yes,Yes,No,No,"Yes - Surround SCM, VSS"
-Trac,Yes,Yes,Yes,Yes,Yes,No,Yes,Optional[71],Yes,No,No
-TrackerSuite.Net,No,No,No,No,No,No,No,No,No,No,No
-Tuleap,Yes,No,No,No,No,Yes,Yes,No,No,No,No
-Twproject,No,No,No,No,No,No,Yes,No,No,No,No
-Wrike,No,No,No,No,No,No,Yes,No,No,No,No
-YouTrack,Yes[86],Yes[86],No,No,No,Yes[86],Yes[86],Yes[86],No,Yes[86],3[86][87]
-System,Git,Mercurial,Bazaar,Monotone,Darcs,CVS,Subversion,Perforce,AccuRev,ClearCase,Others
-=======
-System,Creator,License,Implementation language(s),Back end,Launch date,Refs
-Apache Bloodhound,Apache Software Foundation,Apache License,Python,"MySQL, PostgreSQL, SQLite",2012,[1]
-Assembla Tickets,Assembla,"Proprietary, hosted. Available for free for open source projects",Ruby,MySQL,2008,
-Axosoft,Axosoft LLC,"Proprietary, Saas","C#, .NET",SQL Server,2002,
-Bugzilla,Mozilla Foundation,MPL,Perl,"MySQL, Oracle, PostgreSQL, SQLite",1998-09-19,
-Debbugs,Debian,GPL,Perl,"Flat file, Berkeley DB indexes[citation needed]",Between 1994 and 1999[notes 1],
-Faveo Helpdesk,Ladybird Web Solution,Open Software License,PHP,MySQL,2015,
-FogBugz,Glitch,Saas,"ASP on Windows, PHP on macOS, FreeBSD, and Linux","SQL Server, MySQL",2000,[2]
-Fossil,D. Richard Hipp,BSD,C,SQLite,2006,
-FusionForge,Various (open source contributors),GPLv2,PHP,PostgreSQL,2009-02,
-GLPI,INDEPNET,GPLv2,PHP,MySQL,2003-11-17,
-GNATS,Free Software Foundation,GPL,"C, Web Front-end In Perl",Text files with custom daemon/search engine,1992,
-HP Quality Center,"Hewlett-Packard, formerly Mercury Interactive",Proprietary,".NET (client), Java (server)","Oracle, SQL Server",1995,
-IBM Rational ClearQuest,Rational Software,Proprietary,kernel: executables for several platforms; hooks: Perl and Visual Basic,"IBM DB2, Oracle, SQL Server, Access, Sybase ASA",1998,
-IBM Rational Team Concert,Rational Software,Proprietary,kernel: Java; API: Java,"IBM DB2, Oracle, SQL Server, Apache Derby",2008,
-Jira,Atlassian,Proprietary. Free community licenses for open source and academic projects,Java,"MySQL, PostgreSQL, Oracle, SQL Server",2002,
-Launchpad,Canonical Ltd.,AGPL,"JavaScript, Python",PostgreSQL,2004-01,
-MantisBT,Various (open source contributors),GPL,PHP,"ADOdb (MySQL, PostgreSQL, SQL Server, etc.)",2000,
-Microsoft Dynamics CRM,Microsoft,"Proprietary, Commercial",.NET,Microsoft SQL Server,2003,
-OpenProject,OpenProject Foundation e.V.,GPL,"Ruby, JavaScript","MySQL, PostgreSQL, MariaDB",2010,
-org-mode,Carsten Dominik,GPL,Emacs,Flat file,2003,
-OTRS,OTRS,AGPL,"Perl, JavaScript","MySQL, PostgreSQL, Oracle, SQL Server",2002,
-Phabricator,Facebook,Apache License,PHP,,2010,
-Pivotal Tracker,Pivotal Labs,"Proprietary, free version for public projects, non-profits and academic institutions",Ruby,"Ruby on Rails, MySQL, Memcached",2008,
-Redmine,Jean-Philippe Lang,GPLv2,Ruby,"MySQL, PostgreSQL, SQLite",2006,
-Request Tracker,"Best Practical Solutions, LLC",GPLv2,Perl,"MySQL, PostgreSQL, Oracle, SQLite",1999-10-13,
-Roundup,"Ka-Ping Yee, Richard Jones",MIT license (ZPL v 2.0 for the template system),Python,"SQLite, MySQL, PostgreSQL, Berkeley DB",2001,
-StarTeam,"originally Starbase Corporation, currently Borland",Proprietary,"C++, Java, etc.","SQL Server recommended, Oracle, DB2 supported",Unknown,
-Supportworks,Hornbill Systems,Proprietary,C++ and PHP,"SQL Server, MySQL, Oracle, Sybase",1994[3],
-SysAid,SysAid Technologies,Proprietary,"C#, Java","Derby, Microsoft SQL Server, MySQL, Oracle",2002,
-Team Foundation Server,Microsoft,"Proprietary, Commercial",.NET,MS SQL Server 2005 & 2008,2005,
-TestTrack,Seapine Software,Proprietary,"C++, Qt4, JavaScript","Oracle, PostgreSQL, SQL Server, SQLite",1996,
-Trac,Edgewall Software,New BSD,Python,"SQLite, PostgreSQL, MySQL",2006-10-01,
-TrackerSuite.Net,Automation Centre,Proprietary,C#,"SQL Server, SQL Server Express",2006,
-Trello,Atlassian,Saas,Node.js,MongoDB,2011,
-Tuleap,enalean,GPLv2,php,"LAMP, MySQL",2011,
-Twproject,Open Lab,"Proprietary, some parts LGPL",Java,all relational (uses Hibernate),2003,
-Wrike,"Wrike, Inc.","Proprietary, hosted",Java,PostgreSQL,2006,
-YouTrack,JetBrains s.r.o.,"Proprietary, stand-alone and hosted, free version, free for open source projects",Java,JavaScript and Kotlin,2009,
-System,Creator,License,Implementation language(s),Back end,Launch date,Refs
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+System,Web,Mobile web,Email,CLI,GUI,REST,SOAP,Mylyn[51],Visual Studio,IntelliJ IDEA,Others
+Apache Bloodhound,Yes,No,Optional[52][53],No,No,No,No,Yes,No,No,Yes XMLRPC
+Assembla Tickets,Yes,No,Yes,Yes,No,Yes,No,Yes,No,Yes,No
+Axosoft,Yes,No,Yes,No,Yes,Yes,Yes,No,No,No,Yes - iPhone
+Bugzilla,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No[54],Yes,Yes XMLRPC[55]
+Debbugs,No,No,Yes,Yes,No,No,No,No,No,No,No
+Faveo Helpdesk,Yes,No,Yes,No,No,Yes,No,No,No,No,Yes - Android App iOS App
+FogBugz,Yes,No,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes XML
+Fossil,Yes,No,No,Yes,No,No,No,No,No,No,No
+FusionForge,Yes,No,No,No,No,No,Yes,No,No,No,No
+GLPI,Yes,No,Yes,No,No,Yes,No,No,No,No,No
+GNATS,Yes,No,Yes,Yes,Yes,No,No,No,No,No,No
+HP Quality Center,Yes,No,No,No,Yes[56],Yes,No,Yes[57],No[54],"Yes, via plugin",Yes]
+Jira,Yes,Yes[58],Yes,Yes[59],Yes,Yes,Yes,Yes,No[54],Yes,"Yes - Android App, iPhone App"
+Launchpad,Yes,No,Yes,No,No,Yes,No,No,No,No,Yes - Python[60]
+MantisBT,Yes,No,Yes,No,No,No,Yes,Yes,No,Yes,Yes - Android App
+Microsoft Dynamics CRM,Yes,No,Yes,No,No,No,Yes,No,No,No,No
+org-mode,No,No,No,Yes,No,No,No,No,No,No,No
+OTRS,Yes,No,Yes,No,No,Yes,Yes,No,No,No,No
+Phabricator,Yes,No,Yes,Yes,Yes,Yes,No,No,No,"Yes, via plugin",No
+Pivotal Tracker,Yes,No,Yes,Yes,Yes,Yes,No,No,No,Yes,"Yes - XML, iOS App"
+Redmine,Yes,Yes[61],Yes,Partial [notes 2],No,Yes,No,Yes,No,Yes,"Yes - Android App, iOS App"
+Request Tracker,Yes,No,Yes,Yes,No,Yes[62],No,No,No,No,No
+Roundup,Yes,No,Yes,Yes,No,No,No,No,No,No,Yes XMLRPC[63]
+StarTeam,Yes,No,No,No,Yes,No,No,No,Yes,No,No
+Supportworks,Yes,No,Yes,No,Yes,Yes[64],No,No,No,No,No
+SysAid,Yes,No,Yes,No,Yes,Yes,Yes,No,No,No,No
+Team Foundation Server,Yes,No,Yes,Yes,No,No,Yes,Yes,No,"Yes, via plugin",No
+TestTrack,Yes,No,Yes,No,Yes,No,Yes,No,No,No,"Yes - XML, Eclipse"
+Trac,Yes,No[65],Optional[52],No,No,No,No,Yes,No,Yes,Yes XMLRPC
+TrackerSuite.Net,Yes,No,Yes,No,No,No,No,No,No,No,No
+Trello,Yes,Yes,Yes,No,No,Yes,No,No,No,Yes,No
+Tuleap,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,No,No
+Twproject,Yes,No,Yes,No,No,No,No,No,No,No,No
+Wrike,Yes,No,No,No,No,No,No,No,No,"Yes, via plugin",No
+YouTrack,Yes,Yes[66],Yes,No,Yes,Yes,No,Yes[67],No,Yes,No
+System,Web,Mobile Web,Email,CLI,GUI,REST,SOAP,Mylyn[51],Visual Studio,IntelliJ IDEA,Others

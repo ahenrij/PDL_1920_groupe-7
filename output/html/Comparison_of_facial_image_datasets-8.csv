@@ -1,11 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Numenta Anomaly Benchmark (NAB),"Data are ordered, timestamped, single-valued metrics. All data files contain anomalies, unless otherwise noted.",None,50+ files,Comma separated values,Anomaly detection,2016 (continually updated),[414],Numenta
-"On the Evaluation of Unsupervised Outlier Detection: Measures, Datasets, and an Empirical Study","Most data files are adapted from UCI Machine Learning Repository data, some are collected from the literature.","treated for missing values, numerical attributes only, different percentages of anomalies, labels",1000+ files,ARFF,Anomaly detection,2016 (possibly updated with new datasets and/or results),[415],Campos et al.
-=======
-Enron Email Dataset,Emails from employees at Enron organized into folders.,"Attachments removed, invalid email addresses converted to user@enron.com or no_address@enron.com.","~ 500,000",Text,"Network analysis, sentiment analysis",2004 (2015),[180][181],"Klimt, B. and Y. Yang"
-Ling-Spam Dataset,Corpus containing both legitimate and spam emails.,Four version of the corpus involving whether or not a lemmatiser or stop-list was enabled.,"2,412 Ham 481 Spam",Text,Classification,2000,[182][183],"Androutsopoulos, J. et al."
-SMS Spam Collection Dataset,Collected SMS spam messages.,None.,"5,574",Text,Classification,2011,[184][185],T. Almeida et al.
-Twenty Newsgroups Dataset,Messages from 20 different newsgroups.,None.,"20,000",Text,Natural language processing,1999,[186],T. Mitchell et al.
-Spambase Dataset,Spam emails.,Many text features extracted.,"4,601",Text,"Spam detection, classification",1999,[187],M. Hopkins et al.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+TV Human Interaction Dataset,"Videos from 20 different TV shows for prediction social actions: handshake, high five, hug, kiss and none.",None.,"6,766 video clips",video clips,Action prediction,2013,[45],"Patron-Perez, A. et al."
+Berkeley Multimodal Human Action Database (MHAD),Recordings of a single person performing 12 actions,MoCap pre-processing,660 action samples,"8 PhaseSpace Motion Capture, 2 Stereo Cameras, 4 Quad Cameras, 6 accelerometers, 4 microphones",Action classification,2013,[46],"Ofli, F. et al."
+THUMOS Dataset,Large video dataset for action classification.,Actions classified and labeled.,45M frames of video,"Video, images, text","Classification, action detection",2013,[47][48],Y. Jiang et al.
+MEXAction2,Video dataset for action localization and spotting,Actions classified and labeled.,1000,Video,Action detection,2014,[49],Stoian et al.

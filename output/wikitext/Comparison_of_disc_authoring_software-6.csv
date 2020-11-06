@@ -1,14 +1,14 @@
-Application,Command line interface,Graphical user interface,Text user interface
-Alcohol 120%,,,
-CDBurnerXP,,,
-cdrtools,,,
-DeepBurner,,,
-ExpressBurn,,,
-ImgBurn,,,
-InfraRecorder,,,
-K3b,,,
-Libburnia,,,
-Nero Burning ROM,,,
-UltraISO,,,
-X-CD-Roast,,,
-Application,Command line interface,Graphical user interface,Text user interface
+Application,bin/cue,Apple disk image,img,ISO image,Nero CD image,Audio file/cue
+Alcohol 120%,,,,,,
+CDBurnerXP,,,,,,
+cdrtools,,,,,,
+DeepBurner,,,,,,
+ExpressBurn,,,,,,
+ImgBurn,,,,,,
+InfraRecorder,,,,,,
+K3b,,,,,,
+Libburnia,,,,,,
+Nero Burning ROM,,,,,,
+UltraISO,,,,,,
+X-CD-Roast,,,,,,
+Application,bin/cue,Apple disk image,img,ISO image,Nero CD image,Audio file/cue

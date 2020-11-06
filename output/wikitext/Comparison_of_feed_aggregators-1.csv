@@ -1,61 +1,3 @@
-<<<<<<< HEAD
-Client,Offline support,Search,Annotations,News Filtering,Pluginable,Automatic Update,Publish Capabilities
-Akregator,,,,,,,
-Amarok,,,,,,,
-AOL Explorer,,,,,,,
-Avant,,,,,,,
-Awasu,,,,,,,
-BlogBridge,,,,,,,
-Canto,,,,,,,
-Claws Mail,,,,,,,
-CommaFeed,,,,,,,
-Cooliris,,,,,,,
-Feed Viewer,,,,,,,Sharing
-FeedDemon,,,,,,,
-Feedreader,,,,,,,
-Flock,,,,,,,
-Gnus,,,,,,,
-IBM Lotus Notes,,,,,,,
-Internet Explorer,,,,,,,
-iTunes,,,,,,,
-Juice,,,,,,,
-K-Meleon,,,,,,,
-Kazehakase,,,,,,,
-Liferea,,,,,,,
-Mail (OS X),,,,,,,
-Maxthon,,,,,,,
-MediaMonkey,,,,,,,
-Microsoft Office Outlook,,,,,,,
-Mozilla Firefox,,,,,,,
-Mozilla Thunderbird,,,,,,,
-NetNewsWire,,,,,,,
-Netscape Browser,,,,,,,
-Netscape Navigator 9,,,,,,,
-NewsAccess,,,,,,,
-Newsbeuter,,,,,,,
-NewsBlur,,,,,,,
-NewsFire,,,,,,,
-OmniWeb,,,,,,,
-Opera Mail,,,,,,,
-Pegasus Mail,,,,,,,
-Rhythmbox,,,,,,,
-RSS Bandit,,,,,,,
-RSSOwl,,,,,,,
-Safari,,,,,,,
-Sage,,,,,,,
-SeaMonkey Mail & Newsgroups,,,,,,,
-Shiira,,,,,,,
-Sleipnir,,,,,,,
-Songbird,,,,,,,
-The Bat!,,,,,,,
-The Old Reader,Via some mobile apps,,,,,,Sharing
-Tiny Tiny RSS,,,,,,,
-Winamp,,,,,,,
-Windows Live Mail,,,,,,,
-Zimbra,,,,,,,
-Zune,,,,,,,
-Client,Offline support,Search,Annotations,News Filtering,Pluginable,Automatic Update,Publish Capabilities
-=======
 Client,License,First stable release,,Latest stable release
 ,,Date,Version,
 Akregator,,,,"19.08.2 (October 10, 2019)"
@@ -69,6 +11,7 @@ Canto,,"January 14, 2009",0.6.0,"0.9.7 (July 31, 2017)"
 Claws Mail,,"January, 2005",1.0.0,
 CommaFeed,Apache License,,,"2.4.0 (August 1, 2017)[1]"
 Cooliris,,,,
+CyberSEO,,"August, 2006",1.0,"8.014 (October 27, 2020)"
 Digg Reader,,,,"Discontinued on March 26, 2018"
 Feed Viewer,,"April, 2006",1.0,"31 (September 12, 2014)"
 FeedDemon,,,,"4.5.0.0 (Final release on June 19, 2013)[2]"
@@ -92,7 +35,7 @@ Microsoft Office Outlook,,1997,97,"15.0.4517.1509 (January 29, 2013)"
 Mozilla Firefox,MPL,"September 23, 2002",0.1,"Builtin RSS reader was removed in Version 64, Available as an add-on. [7][8][9] 
 Mozilla Thunderbird,MPL,"December 7, 2004",1.0,
 My Yahoo!,,,,
-NetNewsWire,MIT license [10],"February 11, 2003",1.0,"5.0.4 (August 8, 2020)"
+NetNewsWire,MIT license [10],"February 11, 2003",1.0,"5.1.1 (October 5, 2020)"
 Netscape Browser,,"May 19, 2005",8.0,
 Netscape Navigator 9,,"October 15, 2007",9.0,"9.0.0.6 (February 20, 2008)"
 Netvibes,,,,
@@ -108,6 +51,7 @@ Pulse,,,,
 QuiteRSS,GNU GPL v3,"Dec, 2014",0.14.0,0.19.3 (01.29.2020)
 Rhythmbox,,,,
 RSS Bandit,BSD license,"March, 2003",1.0,"1.9.0.1002 (July 4, 2010)"
+RSS Guard,,"February 4, 2014",1.9.9.3,"3.7.2 (September 1, 2020)"
 RSSOwl,EPL,"December 19, 2004",1.0,
 Safari,,,,
 Sage,MPL,,,"1.5.5 (June 16, 2017)"
@@ -123,4 +67,3 @@ Zimbra,Zimbra licensing,"March, 2006",3.5,"7.1.3 (November, 2011)"
 Zune,,,,
 Client,License,Date,Version,Latest stable release
 ,,First stable release,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

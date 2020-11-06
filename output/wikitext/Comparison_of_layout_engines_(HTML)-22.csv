@@ -1,38 +1,10 @@
-<<<<<<< HEAD
-Trident,Gecko,WebKit,Presto
-<audio> attributes,,,
-src,rowspan="5" 5.0[21],1.9.1,rowspan="5" 525
-preload,2.0[281][282],,
-autoplay,1.9.1,rowspan="3" 2.5,
-loop,11.0[283],,
-controls,1.9.1,,
-<video> attributes,,,
-src,rowspan="8" 5.0[21],1.9.1,rowspan="8" 525
-preload,2.0[281][282],,
-autoplay,1.9.1,rowspan="6" 2.5,
-loop,11.0[283],,
-controls,1.9.1,,
-poster,1.9.2[284],,
-width,rowspan="2" 1.9.1,,
-height,,,
-<source> attributes,,,
-src,rowspan="3" 5.0[21],rowspan="2" 1.9.1,rowspan="3" 525[285]
-type,,,
-media,15.0[286],,
-<track> attributes,,,
-kind,rowspan="4" 6.0[287],rowspan="4" 24.0[288],rowspan="4" 
-label,,,
-src,,,
-srclang,,,
-=======
 ,Trident,Gecko,WebKit,Presto
-Microdata,,16.0[196],,
-HTML5 Tokenizer,rowspan="3" 6.0[199],rowspan="3" 2.0[200],,rowspan="3" 2.10[202]
-HTML5 Tree Builder,,,,
-HTML5 Fragment Parser,,,,
-<a rel="noreferrer">,,33.0[203],,
-window.onhashchange,4.0[205],1.9.2[206],528[207],2.6[208]
-element.classList,,1.9.2[209],,2.8[97]
-dir="auto",,20.0[211],528+[212],
+translate[86],colspan="4" ,,,
+Datasets (data-*),rowspan="3" ,6.0[87],,2.8[89]
+contextmenu,8.0[90],,,
+hidden,2.0[91],,2.7.70,
+contenteditable[93],5.5,1.9,,2.0
+spellcheck[94],rowspan="2" 6.0,1.8[95],,2.8[97]
+draggable,1.9.1[98],533[99],2.10.270,
+dropzone,,,,2.10.270
 ! Trident,Gecko,WebKit,Presto,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

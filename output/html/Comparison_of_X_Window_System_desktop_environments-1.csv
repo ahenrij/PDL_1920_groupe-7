@@ -17,7 +17,7 @@ Personal information manager,Kontact,,,,,,Contacts,,,
 Instant messenger,"Kopete, KDE Telepathy",Empathy,,,,,,,,Shotgun
 Archive manager,Ark,Archive Manager,Engrampa,Archive Manager,"Xarchiver, Squeeze",Xarchiver,Archive,,,
 PDF viewer,Okular (KPDF before SC 4),Evince,Atril,Xreader,,,,Vindaloo,,Epdf
-IDE,KDevelop,Anjuta,,,,,,"Gorm, ProjectCenter",,EDI
+IDE,KDevelop,"Anjuta, GNOME Builder",,,,,,"Gorm, ProjectCenter",,EDI
 X session manager,ksmserver,gnome-session,mate-session,cinnamon-session,Xfce4-session,LXSession,ROX-Session,,,
 Widget engine,built-in – Plasma (SuperKaramba before SC 4),gDesklets,,,,,,,,Elementary
 Licenses used,"GPL, LGPL, BSD, others","GPL, LGPL","GPL, LGPL",GPLv2 (or later),"GPL, LGPL, BSD","GPL, LGPL",GPL,"GPL, BSD","GPL, LGPL","BSD, LGPL"

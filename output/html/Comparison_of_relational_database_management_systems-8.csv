@@ -1,104 +1,54 @@
-<<<<<<< HEAD
-,Type system,Integer,Floating point,Decimal,String,Binary,Date/Time,Boolean,Other
-4th Dimension,Static,"UUID (16-bit), SMALLINT (16-bit), INT (32-bit), BIGINT (64-bit), NUMERIC (64-bit)","REAL, FLOAT","REAL, FLOAT","CLOB, TEXT, VARCHAR","BIT, BIT VARYING, BLOB","DURATION, INTERVAL, TIMESTAMP",BOOLEAN,PICTURE
-Altibase[135],Static,"SMALLINT (16-bit), INTEGER (32-bit), BIGINT (64-bit)","REAL (32-bit), DOUBLE (64-bit)","DECIMAL, NUMERIC, NUMBER, FLOAT","CHAR, VARCHAR, NCHAR, NVARCHAR, CLOB","BLOB, BYTE, NIBBLE, BIT, VARBIT",DATE,,GEOMETRY
-ClustrixDB[136],Static,"TINYINT (8-bit), SMALLINT (16-bit), MEDIUMINT (24-bit), INT (32-bit), BIGINT (64-bit)","FLOAT (32-bit), DOUBLE",DECIMAL,"CHAR, BINARY, VARCHAR, VARBINARY, TEXT, TINYTEXT, MEDIUMTEXT, LONGTEXT","TINYBLOB, BLOB, MEDIUMBLOB, LONGBLOB","DATETIME, DATE, TIMESTAMP, YEAR","BIT(1), BOOLEAN","ENUM, SET,"
-CUBRID[137],Static,"SMALLINT (16-bit), INTEGER (32-bit), BIGINT (64-bit)","FLOAT, REAL(32-bit), DOUBLE(64-bit)","DECIMAL, NUMERIC","CHAR, VARCHAR, NCHAR, NVARCHAR, CLOB",BLOB,"DATE, DATETIME, TIME, TIMESTAMP",BIT,"MONETARY, BIT VARYING, SET, MULTISET, SEQUENCE, ENUM"
-DB2,?,"SMALLINT (16-bit), INTEGER (32-bit), BIGINT (64-bit)","DECFLOAT, REAL, DOUBLE",DECIMAL,"CLOB, CHAR, VARCHAR","BINARY, VARBINARY, BLOB","DATE, TIME, TIMESTAMP WITH TIME ZONE, TIMESTAMP WITHOUT TIME ZONE",BOOLEAN,"XML, GRAPHIC, VARGRAPHIC, DBCLOB, ROWID"
-Empress Embedded Database,Static,"TINYINT, SQL_TINYINT, or INTEGER8; SMALLINT, SQL_SMALLINT, or INTEGER16; INTEGER, INT, SQL_INTEGER, or INTEGER32; BIGINT, SQL_BIGINT, or INTEGER64","REAL, SQL_REAL, or FLOAT32; DOUBLE PRECISION, SQL_DOUBLE, or FLOAT64; FLOAT, or SQL_FLOAT; EFLOAT","DECIMAL, DEC, NUMERIC, SQL_DECIMAL, or SQL_NUMERIC; DOLLAR","CHARACTER, ECHARACTER, CHARACTER VARYING, NATIONAL CHARACTER, NATIONAL CHARACTER VARYING, NLSCHARACTER, CHARACTER LARGE OBJECT, TEXT, NATIONAL CHARACTER LARGE OBJECT, NLSTEXT",BINARY LARGE OBJECT or BLOB; BULK,"DATE, EDATE, TIME, ETIME, EPOCH_TIME, TIMESTAMP, MICROTIMESTAMP",BOOLEAN,"SEQUENCE 32, SEQUENCE"
-EXASolution,Static,"TINYINT, SMALLINT, INTEGER, BIGINT,","REAL, FLOAT, DOUBLE","DECIMAL, DEC, NUMERIC, NUMBER","CHAR, NCHAR, VARCHAR, VARCHAR2, NVARCHAR, NVARCHAR2, CLOB, NCLOB",N/A,"DATE, TIMESTAMP, INTERVAL","BOOLEAN, BOOL",GEOMETRY
-FileMaker[138],Static,Not Supported,Not Supported,NUMBER,TEXT,CONTAINER,TIMESTAMP,Not Supported,
-Firebird[139],?,"INT64, INTEGER, SMALLINT","DOUBLE, FLOAT","DECIMAL, NUMERIC, DECIMAL(18, 4), DECIMAL(10, 4)","BLOB, CHAR, CHAR(x) CHARACTER SET UNICODE_FSS, VARCHAR(x) CHARACTER SET UNICODE_FSS, VARCHAR","BLOB SUB_TYPE TEXT, BLOB","DATE, TIME, TIMESTAMP (without time zone)",BOOLEAN,"TIMESTAMP, CHAR(38), User defined types (Domains)"
-,Type system,Integer,Floating point,Decimal,String,Binary,Date/Time,Boolean,Other
-HSQLDB[140],Static,"TINYINT (8-bit), SMALLINT (16-bit), INTEGER (32-bit), BIGINT (64-bit)",DOUBLE (64-bit),"DECIMAL, NUMERIC","CHAR, VARCHAR, LONGVARCHAR, CLOB","BINARY, VARBINARY, LONGVARBINARY, BLOB","DATE, TIME, TIMESTAMP, INTERVAL",BOOLEAN,"OTHER (object), BIT, BIT VARYING, ARRAY"
-Informix Dynamic Server[141],Static + UDT,"SMALLINT (16-bit), INT (32-bit), INT8 (64-bit proprietary), BIGINT (64-bit)","SMALLFLOAT (32-bit), FLOAT (64-bit)","DECIMAL (32 digits float/fixed), MONEY","CHAR, VARCHAR, NCHAR, NVARCHAR, LVARCHAR, CLOB, TEXT","TEXT, BYTE, BLOB, CLOB","DATE, DATETIME, INTERVAL",BOOLEAN,"SET, LIST, MULTISET, ROW, TIMESERIES, SPATIAL, GEODETIC, JSON, BSON, USER DEFINED TYPES"
-Ingres[142],Static,"TINYINT (8-bit), SMALLINT (16-bit), INTEGER (32-bit), BIGINT (64-bit)","FLOAT4 (32-bit), FLOAT (64-bit)",DECIMAL,"C, CHAR, VARCHAR, LONG VARCHAR, NCHAR, NVARCHAR, LONG NVARCHAR, TEXT","BYTE, VARBYTE, LONG VARBYTE (BLOB)","DATE, ANSIDATE, INGRESDATE, TIME, TIMESTAMP, INTERVAL",N/A,"MONEY, OBJECT_KEY, TABLE_KEY, USER-DEFINED DATA TYPES (via OME)"
-Linter SQL RDBMS,Static + Dynamic (in stored procedures),"SMALLINT (16-bit), INTEGER (32-bit), BIGINT (64-bit)","REAL(32-bit), DOUBLE(64-bit)","DECIMAL, NUMERIC","CHAR, VARCHAR, NCHAR, NVARCHAR, BLOB","BYTE, VARBYTE, BLOB",DATE,BOOLEAN,"GEOMETRY, EXTFILE"
-MariaDB[143],Static,"TINYINT (8-bit), SMALLINT (16-bit), MEDIUMINT (24-bit), INT (32-bit), BIGINT (64-bit)","FLOAT (32-bit), DOUBLE (aka REAL) (64-bit)",DECIMAL,"CHAR, BINARY, VARCHAR, VARBINARY, TEXT, TINYTEXT, MEDIUMTEXT, LONGTEXT","TINYBLOB, BLOB, MEDIUMBLOB, LONGBLOB","DATETIME, DATE, TIMESTAMP, YEAR","BIT(1), BOOLEAN (aka BOOL) = synonym for TINYINT","ENUM, SET, GIS data types (Geometry, Point, Curve, LineString, Surface, Polygon, GeometryCollection, MultiPoint, MultiCurve, MultiLineString, MultiSurface, MultiPolygon)"
-Microsoft SQL Server[144],Static,"TINYINT, SMALLINT, INT, BIGINT","FLOAT, REAL","NUMERIC, DECIMAL, SMALLMONEY, MONEY","CHAR, VARCHAR, TEXT, NCHAR, NVARCHAR, NTEXT","BINARY, VARBINARY, IMAGE, FILESTREAM, FILETABLE","DATE, DATETIMEOFFSET, DATETIME2, SMALLDATETIME, DATETIME, TIME",BIT,"CURSOR, TIMESTAMP, HIERARCHYID, UNIQUEIDENTIFIER, SQL_VARIANT, XML, TABLE, Geometry, Geography, Custom .NET datatypes"
-Microsoft SQL Server Compact (Embedded Database)[145],Static,"TINYINT, SMALLINT, INT, BIGINT","FLOAT, REAL","NUMERIC, DECIMAL, MONEY","NCHAR, NVARCHAR, NTEXT","BINARY, VARBINARY, IMAGE",DATETIME,BIT,"TIMESTAMP, ROWVERSION, UNIQUEIDENTIFIER, IDENTITY, ROWGUIDCOL"
-Mimer SQL,Static,"SMALLINT, INT, BIGINT, INTEGER(n)","FLOAT, REAL, DOUBLE, FLOAT(n)","NUMERIC, DECIMAL","CHAR, VARCHAR, NCHAR, NVARCHAR, CLOB, NCLOB","BINARY, VARBINARY, BLOB","DATE, TIME, TIMESTAMP, INTERVAL",BOOLEAN,"DOMAINS, USER-DEFINED TYPES (including the pre-defined spatial data types location, latitude, longitude and coordinate)"
-MonetDB,"Static, extensible","TINYINT, SMALLINT, INT, INTEGER, BIGINT, HUGEINT, SERIAL, BIGSERIAL","FLOAT, FLOAT(n), REAL, DOUBLE, DOUBLE PRECISION","DECIMAL, NUMERIC","CHAR, CHAR(n), VARCHAR(n), CLOB, CLOB(n), TEXT, STRING","BLOB, BLOB(n)","DATE, TIME, TIME WITH TIME ZONE, TIMESTAMP, TIMESTAMP WITH TIME ZONE, INTERVAL MONTH, INTERVAL SECOND",BOOLEAN,"JSON, JSON(n), URL, URL(n), INET, UUID, GIS data types (Geometry, Point, Curve, LineString, Surface, Polygon, GeometryCollection, MultiPoint, MultiCurve, MultiLineString, MultiSurface, MultiPolygon), User Defined Types"
-MySQL[136],Static,"TINYINT (8-bit), SMALLINT (16-bit), MEDIUMINT (24-bit), INT (32-bit), BIGINT (64-bit)","FLOAT (32-bit), DOUBLE (aka REAL) (64-bit)",DECIMAL,"CHAR, BINARY, VARCHAR, VARBINARY, TEXT, TINYTEXT, MEDIUMTEXT, LONGTEXT","TINYBLOB, BLOB, MEDIUMBLOB, LONGBLOB","DATETIME, DATE, TIMESTAMP, YEAR","BIT(1), BOOLEAN (aka BOOL) = synonym for TINYINT","ENUM, SET, GIS data types (Geometry, Point, Curve, LineString, Surface, Polygon, GeometryCollection, MultiPoint, MultiCurve, MultiLineString, MultiSurface, MultiPolygon)"
-OpenLink Virtuoso[146],Static + Dynamic,"INT, INTEGER, SMALLINT","REAL, DOUBLE PRECISION, FLOAT, FLOAT'('INTNUM')'","DECIMAL, DECIMAL'('INTNUM')', DECIMAL'('INTNUM', 'INTNUM')', NUMERIC, NUMERIC'('INTNUM')', NUMERIC'('INTNUM', 'INTNUM')'","CHARACTER, CHAR'('INTNUM')', VARCHAR, VARCHAR'('INTNUM')', NVARCHAR, NVARCHAR'('INTNUM')'",BLOB,"TIMESTAMP, DATETIME, TIME, DATE",n/a,"ANY, REFERENCE (IRI, URI), UDT (User Defined Type), GEOMETRY (BOX, BOX2D, BOX3D, BOXM, BOXZ, BOXZM, CIRCULARSTRING, COMPOUNDCURVE, CURVEPOLYGON, EMPTY, GEOMETRYCOLLECTION, GEOMETRYCOLLECTIONM, GEOMETRYCOLLECTIONZ, GEOMETRYCOLLECTIONZM, LINESTRING, LINESTRINGM, LINESTRINGZ, LINESTRINGZM, MULTICURVE, MULTILINESTRING, MULTILINESTRINGM, MULTILINESTRINGZ, MULTILINESTRINGZM, MULTIPOINT, MULTIPOINTM, MULTIPOINTZ, MULTIPOINTZM, MULTIPOLYGON, MULTIPOLYGONM, MULTIPOLYGONZ, MULTIPOLYGONZM, POINT, POINTM, POINTZ, POINTZM, POLYGON, POLYGONM, POLYGONZ, POLYGONZM, POLYLINE, POLYLINEZ, RING, RINGM, RINGZ, RINGZM)"
-,Type system,Integer,Floating point,Decimal,String,Binary,Date/Time,Boolean,Other
-Oracle[147],Static + Dynamic (through ANYDATA),NUMBER,"BINARY_FLOAT, BINARY_DOUBLE",NUMBER,"CHAR, VARCHAR2, CLOB, NCLOB, NVARCHAR2, NCHAR, LONG (deprecated)","BLOB, RAW, LONG RAW (deprecated), BFILE","DATE, TIMESTAMP (with/without TIME ZONE), INTERVAL",N/A,"SPATIAL, IMAGE, AUDIO, VIDEO, DICOM, XMLType"
-Pervasive PSQL[148],Static,"BIGINT, INTEGER, SMALLINT, TINYINT, UBIGINT, UINTEGER, USMALLINT, UTINYINT","BFLOAT4, BFLOAT8, DOUBLE, FLOAT","DECIMAL, NUMERIC, NUMERICSA, NUMERICSLB, NUMERICSLS, NUMERICSTB, NUMERICSTS","CHAR, LONGVARCHAR, VARCHAR","BINARY, LONGVARBINARY, VARBINARY","DATE, DATETIME, TIME",BIT,"CURRENCY, IDENTITY, SMALLIDENTITY, TIMESTAMP, UNIQUEIDENTIFIER"
-Polyhedra[149],Static,"INTEGER8 (8-bit), INTEGER(16-bit), INTEGER (32-bit), INTEGER64 (64-bit)","FLOAT32 (32-bit), FLOAT (aka REAL; 64-bit)",N/A,"VARCHAR, LARGE VARCHAR (aka CHARACTER LARGE OBJECT)",LARGE BINARY (aka BINARY LARGE OBJECT),DATETIME,BOOLEAN,N/A
-PostgreSQL[150],Static,"SMALLINT (16-bit), INTEGER (32-bit), BIGINT (64-bit)","REAL (32-bit), DOUBLE PRECISION (64-bit)","DECIMAL, NUMERIC","CHAR, VARCHAR, TEXT",BYTEA,"DATE, TIME (with/without TIME ZONE), TIMESTAMP (with/without TIME ZONE), INTERVAL",BOOLEAN,"ENUM, POINT, LINE, LSEG, BOX, PATH, POLYGON, CIRCLE, CIDR, INET, MACADDR, BIT, UUID, XML, JSON, JSONB, arrays, composites, ranges, custom"
-Raima Database Manager[151],Static,"tinyint, smallint, integer, bigint","real, float, double",N/A,"char, varchar, wchar, varwchar, long varchar, long varwchar","binary, varbinary, long varbinary","date, time, timestamp",bit,N/A
-RDM Server[152],Static,"tinyint, smallint, integer, bigint","real, float, double","decimal, numeric","char, varchar, wchar, varwchar, long varchar, long varwchar","binary, varbinary, long varbinary","date, time, timestamp",bit,rowid
-SAP HANA,Static,"TINYINT, SMALLINT, INTEGER, BIGINT","SMALLDECIMAL, REAL, DOUBLE, FLOAT, FLOAT(n)",DECIMAL,"VARCHAR, NVARCHAR, ALPHANUM, SHORTTEXT","VARBINARY, BINTEXT, BLOB","DATE, TIME, SECONDDATE, TIMESTAMP",BOOLEAN,"CLOB, NCLOB, TEXT, ARRAY, ST_GEOMETRY, ST_POINT, ST_MULTIPOINT, ST_LINESTRING, ST_MULTILINESTRING, ST_POLYGON, ST_MULTIPOLYGON, ST_GEOMETRYCOLLECTION, ST_CIRCULARSTRING"
-solidDB,Static,"TINYINT (8-bit), SMALLINT (16-bit), INTEGER (32-bit), BIGINT (64-bit)","REAL (32-bit), DOUBLE (64-bit), FLOAT (64-bit)","DECIMAL, NUMERIC (51 digits)","CHAR, VARCHAR, LONG VARCHAR, WCHAR, WVARCHAR, LONG WVARCHAR","BINARY, VARBINARY, LONG VARBINARY","DATE, TIME, TIMESTAMP",,
-SQLite[153],Dynamic,INTEGER (64-bit),"REAL (aka FLOAT, DOUBLE) (64-bit)",N/A,"TEXT (aka CHAR, CLOB)",BLOB,N/A,N/A,N/A
-SQream DB[154],Static,"TINYINT (8-bit), SMALLINT (16-bit), INTEGER (32-bit), BIGINT (64-bit)","REAL (32-bit), DOUBLE (aka FLOAT) (64-bit)",N/A,"CHAR, VARCHAR, NVARCHAR",N/A,"DATE, DATETIME (aka TIMESTAMP)",BOOL,N/A
-,Type system,Integer,Floating point,Decimal,String,Binary,Date/Time,Boolean,Other
-Teradata,Static,"BYTEINT (8-bit), SMALLINT (16-bit), INTEGER (32-bit), BIGINT (64-bit)",FLOAT (64-bit),"DECIMAL, NUMERIC (38 digits)","CHAR, VARCHAR, CLOB","BYTE, VARBYTE, BLOB","DATE, TIME, TIMESTAMP (w/wo TIME ZONE)",,"PERIOD, INTERVAL, GEOMETRY, XML, JSON, UDT (User Defined Type)"
-UniData,Dynamic,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
-UniVerse,Dynamic,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
-,Type system,Integer,Floating point,Decimal,String,Binary,Date/Time,Boolean,Other
-=======
-,Maintainer,First public release date,Latest stable version,Latest release date,License,Public issues list
-4D (4th Dimension),4D S.A.S.,1984,v16.0,2017-01-10[1],Proprietary,No
-ADABAS,Software AG,1970,8.1,2013-06,Proprietary,No
-Adaptive Server Enterprise,SAP AG,1987,16.0 SP03 PL07,2019-06-10,Proprietary,No
-Advantage Database Server (ADS),SAP AG,1992,12.0,2015,Proprietary,No
-Altibase,Altibase Corp.,2000,7.1.0.1.2,2018-03-02,GNU-AGPLv3; GNU-LGPLv3(for client-libraries),No
-Apache Derby,Apache,2004,10.15.1.3[2],2019-03-11,Apache License,Yes[3]
-ClustrixDB,MariaDB Corporation,2010,v7.0,2015-08-19,Proprietary,No
-CUBRID,CUBRID,2008-11,10.2.1,2020-06-01,"GPL v2 or later, BSD license for APIs and GUI tools",Yes[4]
-Datacom,"CA, Inc.",Early 70s[5],14[6],2012[7],Proprietary,No
-Db2,IBM,1983,11.5[8],2019-06-27[�],Proprietary,No
-Empress Embedded Database,Empress Software Inc,1979,10.20,2010-03,Proprietary,No
-EXASolution,EXASOL AG,2004,6.0.0,2017-03-17,Proprietary,No
-FileMaker,"FileMaker, Inc., an Apple subsidiary",1985-04,18,2019-05-22,Proprietary,No
-Firebird,Firebird project,2000-07-25,3.0.5[9],2020-01-12[�],IPL[10] and IDPL[11],Yes[12]
-GPUdb,GIS Federal,2014,3.2.5,2015-01-14,Proprietary,No
-HSQLDB,HSQL Development Group,2001,2.4.1,2018-05-20,BSD,Yes[13]
-H2,H2 Software,2005,1.4.200,2019-10-14,EPL and modified MPL,Yes[14]
-Informix Dynamic Server,IBM,1981????1980,14.10.xC4W1,2020-06-22,Proprietary,No
-Ingres,Ingres Corp.,1974,11.0,2017-03-21,GPL and Proprietary,No
-InterBase,Embarcadero,1984,XE7 v12.0.4.357,2015-08-12,Proprietary,No
-Linter SQL RDBMS,RELEX Group,1990,6.0.17.53,2018-02-15,Proprietary,Yes[15]
-LucidDB,The Eigenbase Project,2007-01,0.9.4,2012-01-05,GPL v2,No
-MariaDB,MariaDB Community,2010-02-01,10.5.5[16],2020-08-10[�],"GPL v2, LGPL (for client-libraries)[17]",Yes[18]
-MaxDB,SAP AG,2003-05,7.9.0.8,2014,Proprietary,Yes[19]
-MemSQL,MemSQL,2012-06,7.1.9,2020-09-28,Proprietary,No
-Microsoft Access (JET),Microsoft,1992,16 (2016),2015-09-22,Proprietary,No
-Microsoft Visual Foxpro,Microsoft,1984,9 (2005),2007-10-11,Proprietary,No
-Microsoft SQL Server,Microsoft,1989,SQL Server 2019[20],2019-11-04[�],Proprietary,No
-Microsoft SQL Server Compact (Embedded Database),Microsoft,2000,2011 (v4.0),,Proprietary,No
-Mimer SQL,Mimer Information Technology,1978,10.1.6A,2020-07-31,Proprietary,No
-MonetDB,The MonetDB Team / CWI,2004,Jun2020-SP1,2020-07-27,"Mozilla Public License, version 2.0[21]",Yes[22]
-mSQL,Hughes Technologies,1994,4.1[23],2017-06-30,Proprietary,No
-MySQL,Oracle Corporation,1995-11,8.0.21[24],2020-07-13[�],GPL v2 or Proprietary,Yes[25]
-NexusDB,NexusDB Pty Ltd,2003,4.00.14,2015-06-25,Proprietary,No
-HP NonStop SQL,Hewlett-Packard,1987,SQL/MX 3.4,,Proprietary,No
-NuoDB,NuoDB,2013,4.1,August 2020,Proprietary,No
-Omnis Studio,TigerLogic Inc,1982-07,6.1.3 Release 1no,2015-12,Proprietary,No
-OpenEdge,Progress Software Corporation,1984,11.6.3,2016-08-19,Proprietary,No
-OpenLink Virtuoso,OpenLink Software,1998,7.2.5.1,2018-08-15,GPL v2 or Proprietary,Yes[26]
-Oracle DB,Oracle Corporation,1979-11,19c[27],2019-02-13[�],Proprietary,No
-Oracle Rdb,Oracle Corporation,1984,7.4.1.0[28],2020-08-10[�],Proprietary,No
-Paradox,Corel Corporation,1985,11,2009-09-07,Proprietary,No
-Percona Server for MySQL,Percona,2006,8.0.18-9[29],2019-12-11,GPL v2,Yes
-Pervasive PSQL,Pervasive Software,1982,v12,2015,Proprietary,No
-Polyhedra DBMS,ENEA AB,1993,9.0,2015-06-24,"Proprietary, with Polyhedra Lite available as Freeware[30]",No
-PostgreSQL,PostgreSQL Global Development Group,1989-06,13.0,2020-09-24[31],PostgreSQL License (a liberal Open Source license)[32],No[33]
-R:Base,R:BASE Technologies,1982,10.0,2016-05-26,Proprietary,No
-Raima Database Manager,Raima Inc.,1984,14.1,2018-03-23,Proprietary,No
-RDM Server,Raima Inc.,1993,8.4,2012-10-31,Proprietary,No
-SAP HANA,SAP AG,2010,2.0 SPS04,2019-08-08,Proprietary,No
-solidDB,UNICOM Global,1992,7.0.0.10,2014-04-29,Proprietary,No
-SQL Anywhere,SAP AG,1992,17.0.0.48,2019-07-26,Proprietary,No
-SQLBase,Unify Corp.,1982,11.5,2008-11,Proprietary,No
-SQLite,D. Richard Hipp,2000-09-12,3.30.1,2019-10-11[34],Public domain,Yes[35]
-SQream DB,SQream Technologies,2014,2.1[36],2018-01-15,Proprietary,No
-Superbase,Superbase,1984,Scientific (2004),,Proprietary,No
-Teradata,Teradata,1984,15,2014-04,Proprietary,No
-Tibero,TmaxSoft,1992,6,2015-04,Proprietary,No
-TiDB,Apache,2016,3.0.0,2019-06-28[37],Apache License,Yes[38]
-UniData,Rocket Software,1988,8.2.1,2017-07,Proprietary,No
-YugabyteDB,Apache,2018,1.3.1,2019-07-30[39],Apache License,Yes[40]
-,Maintainer,First public release date,Latest stable version,Latest release date,License,Public issues list
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Windows,macOS,Linux,BSD,UNIX,AmigaOS,z/OS,iOS,Android,OpenVMS
+4th Dimension,Yes,Yes,No,No,No,No,No,No,No,No
+ADABAS,Yes,No,Yes,No,Yes,No,Yes,No,No,No
+Adaptive Server Enterprise,Yes,No,Yes,Yes,Yes,No,No,No,No,No
+Advantage Database Server,Yes,No,Yes,No,No,No,No,No,No,No
+Altibase,Yes,No,Yes,No,Yes,No,No,No,No,No
+Apache Derby,Yes,Yes,Yes,Yes,Yes,No,Yes,?,No,No
+ClustrixDB,No,No,Yes,No,Yes,No,No,No,No,No
+CUBRID,Yes,Partial,Yes,No,No,No,No,No,No,No
+DB2,Yes,Yes (Express C),Yes,No,Yes,No,Yes,Yes,No,No
+Empress Embedded Database,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,No
+EXASolution,No,No,Yes,No,No,No,No,No,No,No
+FileMaker,Yes,Yes,Yes,No,No,No,No,Yes,No,No
+Firebird,Yes,Yes,Yes,Yes,Yes,No,Maybe,No,Yes[40],No
+HSQLDB,Yes,Yes,Yes,Yes,Yes,No,Yes,?,?,No
+H2,Yes,Yes,Yes,Yes,Yes,No,Yes,?,Yes,No
+Informix Dynamic Server,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+Ingres,Yes,Yes,Yes,Yes,Yes,No,Partial,No,No,Yes[41]
+InterBase,Yes,Yes,Yes,No,Yes (Solaris),No,No,Yes,Yes,No
+Linter SQL RDBMS,Yes,Yes,Yes,Yes,Yes,No,Under Linux on IBM Z,Yes,Yes,Yes
+LucidDB,Yes,Yes,Yes,No,No,No,No,No,No,No
+MariaDB,Yes,Yes[42],Yes,Yes,Yes,No,No,?,Yes[43],No
+MaxDB,Yes,No,Yes,No,Yes,No,Maybe,No,No,No
+Microsoft Access (JET),Yes,No,No,No,No,No,No,No,No,No
+Microsoft Visual Foxpro,Yes,No,No,No,No,No,No,No,No,No
+Microsoft SQL Server,Yes,No,Yes[44],No,No,No,No,No,No,No
+Microsoft SQL Server Compact (Embedded Database),Yes,No,No,No,No,No,No,No,No,No
+Mimer SQL,Yes,Yes,Yes,No,Yes,No,No,No,Yes,Yes
+MonetDB,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+MySQL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes[45],No
+Omnis Studio,Yes,Yes,Yes,No,No,No,No,No,No,No
+OpenEdge,Yes,No,Yes,No,Yes,No,No,No,No,No
+OpenLink Virtuoso,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+Oracle,Yes,Yes,Yes,No,Yes,No,Yes,No,No,Yes
+Oracle Rdb,No,No,No,No,No,No,No,No,No,Yes
+Pervasive PSQL,Yes,Yes (OEM only),Yes,No,No,No,No,No,No,No
+Polyhedra,Yes,No,Yes,No,Yes,No,No,No,No,No
+PostgreSQL,Yes,Yes,Yes,Yes,Yes,Yes (MorphOS)[46],Under Linux on IBM Z[47],No,Yes,No
+R:Base,Yes,No,No,No,No,No,No,No,No,No
+Raima Database Manager,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No
+RDM Server,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
+SAP HANA,Yes,No,Yes,No,No,No,No,No,No,No
+solidDB,Yes,No,Yes,No,Yes,No,Under Linux on IBM Z,No,No,No
+SQL Anywhere,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No
+SQLBase,Yes,No,Yes,No,No,No,No,No,No,No
+SQLite,Yes,Yes,Yes,Yes,Yes,Yes,Maybe,Yes,Yes,No
+SQream DB,No,No,Yes,No,No,No,No,No,No,No
+Superbase,Yes,No,No,No,No,Yes,No,No,No,No
+Teradata,Yes,No,Yes,No,Yes,No,No,No,No,No
+Tibero,Yes,No,Yes,No,Yes,No,No,No,No,No
+UniData,Yes,No,Yes,No,Yes,No,No,No,No,No
+UniVerse,Yes,No,Yes,No,Yes,No,No,No,No,No
+YugabyteDB,Yes,Yes,Yes,No,No,No,No,No,No,No
+,Windows,macOS,Linux,BSD,UNIX,AmigaOS,z/OS,iOS,Android,OpenVMS

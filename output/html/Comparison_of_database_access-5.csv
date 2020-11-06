@@ -1,3 +1,5 @@
-Prog Language,Describe,List table content,Search
-raw MySQL access,describe tablename;,select field from tablename;,
-PHP,,,
+,Read value,Change value,Search,Inserting
+django,table_var."field_name",table_var."field_name" = \
+"value",table_var = \
+Table.objects.filter( "expr" ),table_var = Table()
+table_var.save()

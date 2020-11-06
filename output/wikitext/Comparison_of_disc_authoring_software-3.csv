@@ -1,30 +1,14 @@
-<<<<<<< HEAD
-Application,bin/cue,Apple disk image,img,ISO image,Nero CD image,Audio file/cue
-Alcohol 120%,,,,,,
-CDBurnerXP,,,,,,
-cdrtools,,,,,,
-DeepBurner,,,,,,
-ExpressBurn,,,,,,
-ImgBurn,,,,,,
-InfraRecorder,,,,,,
-K3b,,,,,,
-Libburnia,,,,,,
-Nero Burning ROM,,,,,,
-UltraISO,,,,,,
-X-CD-Roast,,,,,,
-Application,bin/cue,Apple disk image,img,ISO image,Nero CD image,Audio file/cue
-=======
-Application,ISO 9660,Joliet,Rock Ridge,Amiga rock ridge,El Torito,Apple ISO9660,UDF,MRW
-Alcohol 120%,,,,,,,,
-CDBurnerXP,,,,,,,,
-cdrtools,,,,,,,,
-ExpressBurn,,,,,,,,
-ImgBurn,,,,,,,,
-InfraRecorder,,,,,,,,
-K3b,,,,,,,,
-Libburnia,,,,,,,,
-Nero Burning ROM,,,,,,,,
-UltraISO,,,,,,,,
-X-CD-Roast,,,,,,,,
-Application,ISO 9660,Joliet,Rock Ridge,Amiga rockridge,El Torito,Apple ISO9660,UDF,MRW
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Application,Command line interface,Graphical user interface,Text user interface
+Alcohol 120%,,,
+CDBurnerXP,,,
+cdrtools,,,
+DeepBurner,,,
+ExpressBurn,,,
+ImgBurn,,,
+InfraRecorder,,,
+K3b,,,
+Libburnia,,,
+Nero Burning ROM,,,
+UltraISO,,,
+X-CD-Roast,,,
+Application,Command line interface,Graphical user interface,Text user interface

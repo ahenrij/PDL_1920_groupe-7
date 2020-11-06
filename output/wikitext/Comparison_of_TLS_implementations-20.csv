@@ -1,46 +1,16 @@
-<<<<<<< HEAD
-Implementation,RSA[16],RSA-EXPORT (insecure)[16],DHE-RSA (forward secrecy)[16],DHE-DSS (forward secrecy)[16],ECDH-ECDSA[68],ECDHE-ECDSA (forward secrecy)[68],ECDH-RSA[68],ECDHE-RSA (forward secrecy)[68],"GOST R 34.10-94, 34.10-2001[69]"
-Botan,Disabled by default,No,,Disabled by default,No,,No,,No
-cryptlib,Yes,No,,Yes,No,,No,,No
-GnuTLS,Yes,No,,Disabled by default[19],No,,No,,No
-JSSE,Yes,Disabled by default,,Yes,Yes,,Yes,,No[70]
-LibreSSL,Yes,No[23],,Yes,Yes,,Yes,,Yes[71]
-MatrixSSL,Yes,No,,No,Yes,,Yes,,No
-Mbed TLS,Yes,No,,No,Yes,,Yes,,No
-NSS,Yes,Disabled by default,,Yes,Yes,,Yes,,No[73][74]
-OpenSSL,Yes,No[32],,Disabled by default[32],Yes,,Yes,,Yes[75]
-RSA BSAFE,Yes,No,,Yes,Yes,,Yes,,No
-SChannel XP/2003,Yes,Yes,No,XP: Max 1024 bits 2003: 1024 bits only,No,,No,,No[76]
-SChannel Vista/2008,Yes,Disabled by default,No,1024 bits by default[77],No,,No,except AES_GCM,No[76]
-SChannel 8/2012,Yes,Disabled by default,AES_GCM only[78][79][80],1024 bits by default[77],No,,No,except AES_GCM,No[76]
-"SChannel 7/2008R2, 8.1/2012R2",Yes,Disabled by default,,2048 bits by default[77],No,,No,except AES_GCM,No[76]
-SChannel 10,Yes,Disabled by default,,2048 bits by default[77],No,,No,,No[76]
-Secure Transport OS X 10.6,Yes,Yes,except AES_GCM,Yes,Yes,except AES_GCM,yes,except AES_GCM,No
-Secure Transport OS X 10.8-10.10,Yes,No,except AES_GCM,No,Yes,except AES_GCM,Yes,except AES_GCM,No
-Secure Transport OS X 10.11,Yes,No,,No,No,,No,,No
-wolfSSL,Yes,No,,No,Yes,,Yes,,No
-Erlang/OTP SSL application,Yes,No,,Yes,Yes,,Yes,,No
-Implementation,RSA[16],RSA-EXPORT (insecure)[16],DHE-RSA (forward secrecy)[16],DHE-DSS (forward secrecy)[16],ECDH-ECDSA[68],ECDHE-ECDSA (forward secrecy)[68],ECDH-RSA[68],ECDHE-RSA (forward secrecy)[68],"GOST R 34.10-94, 34.10-2001[69]"
-=======
-Implementation,Secure Renegotiation [167],Server Name Indication [168],ALPN [169],Certificate Status Request [168],OpenPGP [170],Supplemental Data [171],Session Ticket [172],Keying Material Exporter [173],Maximum Fragment Length [168],Truncated HMAC [168],Encrypt-then-MAC [174],TLS Fallback SCSV [175],Extended Master Secret [176],ClientHello Padding [177],Raw Public Keys [178]
-Botan,,,,,,,,,,No,,,,,
-cryptlib,,,,,,,,,,No,,,,,
-GnuTLS,,,,,,,,,,No,,,,,
-JSSE,,,,,,,,,,No,,,,,
-LibreSSL,,,,,,,,,,No,,Server side only[189],,,
-MatrixSSL,,,,,,,,,,Yes,,,,,
-Mbed TLS,,,,,,,,,,Disabled by default[26],,,,,
-NSS,,,,,,,,,,No,,,,,
-OpenSSL,,,,,,,,,,No,,,,,
-RSA BSAFE Micro-Edition Suite,,,,,,,,,,Yes,,,,,
-RSA BSAFE SSL-J,,,,,,,,,,Yes,,,,,
-SChannel XP/2003,,,,,,,,,,No,,,,,
-SChannel Vista/2008,,,,,,,,,,No,,,,,
-SChannel 7/2008R2,,,,,,,,,,No,,,,,
-SChannel 8/2012,,,,,,,Client side only[202],,,No,,,,,
-"SChannel 8.1/2012R2, 10",,,,,,,,,,No,,,,,
-Secure Transport,,,,,,,,,,No,,,,,
-wolfSSL,,,,,,,,,,Yes,,,,,
-Erlang/OTP SSL application,,,,,,,,,,No,,,,,
-Implementation,Secure Renegotiation,Server Name Indication,ALPN,Certificate Status Request,OpenPGP,Supplemental Data,Session Ticket,Keying Material Exporter,Maximum Fragment Length,Truncated HMAC,Encrypt-then-MAC,TLS Fallback SCSV,Extended Master Secret,ClientHello Padding,Raw Public Keys
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Implementation,TPM support,Hardware token support,Objects identified via
+Botan,,PKCS11,
+cryptlib,,PKCS11,User-defined label
+GnuTLS,,PKCS11,RFC 7512 PKCS #11 URLs[217]
+JSSE,,"PKCS11 Java Cryptography Architecture, Java Cryptography Extension",
+LibreSSL,,PKCS11 (via 3rd party module),Custom method
+MatrixSSL,,PKCS11,
+Mbed TLS,,PKCS11 (via libpkcs11-helper) or standard hooks,Custom method
+NSS,,PKCS11,
+OpenSSL,,PKCS11 (via 3rd party module)[218],RFC 7512 PKCS #11 URLs[217]
+RSA BSAFE Micro-Edition Suite,,PKCS11 (via 3rd party module),User-defined label
+RSA BSAFE SSL-J,,,
+SChannel,,Microsoft CryptoAPI,"UUID, User-defined label"
+Secure Transport,,,
+wolfSSL,,PKCS11,
+Implementation,TPM support,Hardware token support,Objects identified via

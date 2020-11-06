@@ -1,56 +1,13 @@
-<<<<<<< HEAD
-Number object,Trident,Gecko,WebKit,Presto
-Called as function,,,,
-Number([value]),?,Yes,Yes,?
-Called as constructor,,,,
-new Number([value]),3.0,1.0,Yes,1.0
-Properties,,,,
-prototype,4.0,1.0,Yes,1.0
-MAX_VALUE,4.0,1.0,Yes,1.0
-MIN_VALUE,4.0,1.0,Yes,1.0
-NaN,4.0,1.0,Yes,1.0
-NEGATIVE_INFINITY,4.0,1.0,Yes,1.0
-POSITIVE_INFINITY,4.0,1.0,Yes,1.0
-Properties of prototype,,,,
-constructor,4.0,1.0,Yes,1.0
-toString([radix]),4.0,1.0,Yes,1.0
-toLocaleString(),5.5,1.0,Yes,1.0
-valueOf(),4.0,1.0,Yes,1.0
-toFixed(fractionDigits),5.5,1.0,Yes,1.0
-toExponential(fractionDigits),5.5,1.0,Yes,1.0
-toPrecision(precision),5.5,1.0,Yes,1.0
-=======
-Array object,Trident,Gecko,WebKit,Presto,Blink
-Called as function,,,,,
-"Array([item1 [, item2 [, ...]]])",Yes,Yes,Yes,Yes,Yes
-Called as constructor,,,,,
-"new Array([item1, item2 [, ...]])",4.0,1.0,Yes,1.0,Yes
-new Array(len),4.0,1.0,Yes,1.0,Yes
-Properties,,,,,
-prototype,4.0,1.0,Yes,1.0,Yes
-Properties of prototype,,,,,
-constructor,4.0,1.0,Yes,1.0,Yes
-toString(),4.0,1.0,Yes,1.0,Yes
-toLocaleString(),5.5,1.0,Yes,1.0,Yes
-"concat([item1 [, item2 [,...]]])",4.0,1.0,Yes,1.0,Yes
-join(separator),4.0,1.0,Yes,1.0,Yes
-pop(),5.5,1.0,Yes,1.0,Yes
-"push([item1 [, item2 [,...]]])",5.5,1.0,Yes,1.0,Yes
-reverse(),4.0,1.0,Yes,1.0,Yes
-shift(),5.5,1.0,Yes,1.0,Yes
-"slice(start, end)",4.0,1.0,Yes,1.0,Yes
-sort(comparefn),4.0,1.0,Yes,1.0,Yes
-"splice(start, deleteCount [, item1 [, item2 [, ...]]])",5.5,1.0,Yes,1.0,Yes
-"unshift([item1 [, item2 [, ...]]])",5.5,1.0,Yes,1.0,Yes
-"indexOf(searchElement[, fromIndex])",9.0[2],1.8,522,2.1,Yes
-"lastIndexOf(searchElement[, fromIndex])",,1.8,522,2.1,Yes
-"filter(callback[, thisObject])",,1.8,522,2.1,Yes
-"forEach(callback[, thisObject])",,1.8,522,2.1,Yes
-"every(callback[, thisObject])",,1.8,522,2.1,Yes
-"map(callback[, thisObject])",,1.8,522,2.1,Yes
-"some(callback[, thisObject])",,1.8,522,2.1,Yes
-"reduce(callback[, initialValue])",,1.9,528,2.5.22,Yes
-"reduceRight(callback[, initialValue])",,1.9,528,2.5.22,Yes
-Properties of instances,,,,,
-length,4.0,1.0,Yes,1.0,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Browser layout engine,Trident,Gecko,WebKit,Presto,Blink
+Corresponding JavaScript engine,JScript / Chakra,SpiderMonkey,JavaScriptCore,Linear B / Futhark / Carakan,V8
+ECMAScript Edition 3,Yes,0.6,Yes,1.0,Yes
+ECMAScript Edition 5,5.0,2.0,Partial,Yes,Yes
+ECMAScript Edition 6,,,,,
+JavaScript 1.5 extensions,No,0.6,Yes,1.0,Yes
+JavaScript 1.6 extensions (excluding E4X),No,1.8,Partial,Partial,Partial
+JavaScript 1.7 extensions,No,1.8.1,No,Partial,No
+JavaScript 1.8 extensions,No,1.9,Partial,No,Partial
+JavaScript 1.8.1 extensions,No,1.9.1,No,No,No
+JScript .NET extensions,No,No,No,No,No
+ActionScript extensions,No,No,No,No,No
+E4X,No,Dropped[1],No,No,No

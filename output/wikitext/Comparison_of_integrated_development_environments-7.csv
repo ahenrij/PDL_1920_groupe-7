@@ -1,28 +1,13 @@
-<<<<<<< HEAD
-IDE,Developer,Latest stable release,Platform,License,Autocomplete,Debugger,Refactoring support,VCS Support
-Adobe Dreamweaver,Adobe Systems,-,Cross-platform,,,,,
-Aptana Studio,"Aptana, Inc.","December 2013, 3.5.0",Cross-platform,"GPL, proprietary",,,,via plugins
-CodeLite,CodeLite,"October 2015, 9.0",Cross-platform,GPL,,,,"Git, SVN"
-Codelobster,Codelobster,"March 2018, 5.14.5",Windows,,,,,via plugins
-Eclipse Che,Eclipse Foundation / Zend,"4.7 / September 2, 2016",Cross-platform,EPL,,,,
-Eclipse PDT,Eclipse Foundation / Zend,"7.0 / December 18, 2019","Windows, Linux, macOS, FreeBSD, JVM, Solaris",EPL,,,,"CVS, Git, Mercurial, SVN (via plugins)"
-Geany,Geany Team,"1.27 / March 13, 2016","Windows, Linux, macOS, FreeBSD, AIX, OpenBSD, Solaris, other Unix",GPL,,,,via plugins
-HTML-Kit,Chami.com,292,Windows (all),,,,,
-HyperEdit,Jonathan Deutsch / Tumult,"1.6 / April 30, 2008",macOS,,,,,
-KDevelop,KDE KDevelop Team,,Cross-platform,GPL,,,,"CVS, Git, SVN"
-Komodo IDE / Edit,ActiveState,10.0.1 (June 2016),Cross-platform,,,,,"Bazaar, CVS, Git, Mercurial, Perforce, SVN"
-NetBeans,Sun Microsystems / Oracle,,Cross-platform on Netbeans,"CDDL, GPL",,,,"CVS, Git, Mercurial, SVN"
-PHPEclipse (Eclipse),PHPEclipse project team,1.2.2 / September 2009,"Windows, Linux, macOS, FreeBSD, JVM, Solaris",CPL,,,,
-PhpED Professional,NuSphere Corporation,"19.111 / May, 2019",Windows,,,,,"CVS, SVN, any other Windows-shell integrated"
-PHPEdit,WaterProof SARL, article =  latest release version = 3.6.4  latest release date = 20100409 ,Windows,,,,,"CVS, SVN"
-PhpStorm (IntelliJ IDEA),JetBrains,2019.1 / 28 March 2019,"Windows, Linux, macOS, FreeBSD, OpenBSD, Solaris",,,,,"CVS, Git, Mercurial, Perforce, SVN"
-Quanta Plus,KDE Web Dev Team,"3.5.8 / October 16, 2007",Linux,GPL,,,,
-RadPHP (formerly Delphi for PHP),Embarcadero Technologies,"XE2 / August 30, 2011",Windows,,,,,
-SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, AIX, HP-UX, Solaris",,,,,
-Zend Studio,Zend,10.6 / February 2014,Cross-platform,,,,,"CVS, Git, SVN, others (via plugins)"
-=======
-IDE,License,Windows,Linux,macOS,Other platforms,Editor,Debugger,GUI builder,Profiler,Browsers
-Allegro Common Lisp,,,,,"FreeBSD, HP-UX, AIX, Solaris, Tru64 UNIX",,,,,"Class browser, Systems, Definitions"
-LispWorks,,,,,"FreeBSD, HP-UX, Solaris",,,,,"Class browser, Functions, Errors, Processes, Symbols, Systems"
-SLIME (Emacs),"portions in GPL v2, LGPL, BSD and public domain",,,,"DragonFly BSD, FreeBSD, HP-UX, AIX, IRIX, DOS, NetBSD, OpenBSD, OpenVMS, OS/2, Solaris, other Unix",,,,,"Class browser, Errors, Symbols"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+IDE,License,Platform,Developer,Latest stable release
+Code::Blocks,GPL,"Windows, Linux, macOS, FreeBSD, OpenBSD, Solaris",Code::Blocks Team,17.12 / 2017-12-30
+Geany,GPL,"Windows, Linux, macOS, FreeBSD, AIX, OpenBSD, Solaris, other Unix",Team,"1.27 / March 13, 2016"
+GNAT Programming Studio,GPL,"Windows, Linux, macOS, DragonFly BSD, FreeBSD, NetBSD, OpenBSD, Solaris",AdaCore,4.3.1 / June 2009
+KDevelop,GPL,Linux,KDevelop Team,
+NetBeans,CDDLGPL,"Windows, Linux, macOS",NetBeans Community,
+OpenWatcom,OSI Approved,"Windows, Linux, DOS, OS/2",OpenWatcom Community,"1.9 / June 2, 2010"
+Photran (Eclipse),EPL,"Windows, Linux, macOS, FreeBSD, JVM, Solaris","University of Illinois, Los Alamos National Laboratory","9.1 / June 24, 2015"
+Plato,,Windows,Silverfrost,4.7.3.0
+Understand,,"Windows, Linux, macOS, Solaris, other Unix",SciTools,"December 4, 2015"
+Simply Fortran,,"Windows, Linux, macOS","Approximatrix, LLC","3.14 / August 12, 2020"
+SlickEdit,,"Windows, Linux, MacOS, AIX, Solaris, Solaris SPARC, HP-UX",SlickEdit,October 2016
+IntelliJ IDEA,ASLv2,"Windows, Linux, MacOS, FreeBSD, OpenBSD, Solaris",JetBrains,September 2017

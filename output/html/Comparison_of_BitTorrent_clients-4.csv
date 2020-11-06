@@ -1,26 +1,27 @@
-BitTorrent client,GUI,Remote,CLI,Other,Programming language,Based on,IPv6,?TP
-BitComet,Yes,Yes,Partial[34],No,C++,-,Yes,No
-BitLord,Yes,No,No,No,"Python, C++",libtorrent (Rasterbar),Yes,No
-"BitTorrent 5, Mainline",Yes,No,Partial,No,Python,-,No,No
-BitTorrent 6,Yes,Yes,Partial,No,C++,?Torrent,Yes,Yes
-Deluge,Yes,Yes,Yes,Daemon,"Python, C++",libtorrent (Rasterbar),Yes,Yes[35]
-FlashGet,Yes,No,No,No,?,?,No,No
-Free Download Manager,Yes,Yes,Partial,No,C++,libtorrent (Rasterbar),No,No
-Frostwire,Yes,No,No,No,Java,libtorrent (Rasterbar),No,Yes[36]
-KGet,Yes,Yes,Partial[Note 2],No,C++,-,Yes,No
-KTorrent,Yes,Yes,Partial,No,C++,-,Yes,Yes[37]
-LimeWire,Yes,No,No,No,Java,libtorrent (Rasterbar),No,No
-Miro,Yes,No,No,No,C++,libtorrent (Rasterbar),No,No
-MLDonkey,No,Third Party[38],Partial,Telnet,OCaml,-,No,No
-?Torrent,Yes,Yes,No[39],RESTful Web API[40],C++[41],-,Yes[42],Yes[43]
-Opera 12,Yes,No,No,No,C++,-,Yes,No
-qBittorrent,Yes,Yes,Partial,No,"Python, C++",libtorrent (Rasterbar),Yes,Yes[44]
-rTorrent,No,Third Party,Yes,SCGI,C++,[libTorrent] (Rakshasa),Yes[45],No
-Shareaza,Yes,Yes,Partial,No,C++,-,No,No
-Tixati,Yes,Yes,No,Web interface,C++,-,Yes,Yes[46]
-Tonido,No,Yes,No,No,C++,libtorrent (Rasterbar),No,No
-Transmission,Yes,Yes,Yes,"Daemon, JSON-RPC over HTTP remote control API","C, Objective-C",libtransmission,Yes,Yes[47]
-Tribler,Yes,Partial,Partial,No,"Python, C++",libtorrent (Rasterbar),No,Yes
-Vuze (formerly Azureus),Yes,Yes,Partial,"Telnet, XML over HTTP remote control API","Java, SWT",-,Yes,Yes[48]
-Xunlei,Yes,No,No,remote control over internet[49],C++,-,No,No
-BitTorrent client,GUI,Web,CLI,Other,Programming language,Based on,IPv6,?TP
+BitTorrent client,Windows,macOS,Linux,BSD,iOS,Android,Other
+BitComet,Yes,Yes,No,No,No,No,No
+BitLord,Yes,Yes,No,No,No,No,No
+BitTorrent,Yes,Yes,No,No,No,Yes[25],No
+Deluge,Yes,Yes,Yes,Yes,No,No,Solaris
+FlashGet,Yes,No,No,No,No,No,No
+Free Download Manager,Yes,Yes,No,No,No,No,No
+Frostwire,Yes[26],Yes[26],Yes[26],Yes[26],No[26],Yes[26],"Unix-like,[26] z/OS,[27] Solaris, OS/2, eComStation, ArcaOS[28]"
+KGet,No,No,Yes,Yes,No,No,No
+KTorrent,No,Yes,Yes,Yes,No,No,No
+Lftp,Yes,Yes,Yes,Yes,No,No,No
+LimeWire,Yes,Yes,Yes,Yes,No,No,Yes[specify]
+Miro,Yes,Yes,Yes,Yes,No,No,No
+MLDonkey,Yes,Yes,Yes,Yes,No,No,"Solaris, MorphOS"
+?Torrent,Yes,Yes,Web,No,No,Yes[29],No
+Opera 12,Yes[Note 1],Yes,Yes[Note 1],Yes[Note 1],No,Yes[citation needed],Solaris
+qBittorrent,Yes[30],Yes[30],Yes[30],Yes[30],No[30],No[31],"OS/2 (including eComStation and ArcaOS), FreeBSD, Haiku[30]"
+Robert,Yes,Yes,Yes,Yes,No,No,No
+rTorrent,"Yes, through Cygwin[32]",Yes,Yes,Yes,No,No,Solaris
+Shareaza,Yes,No,No,No,No,No,No
+Tixati,Yes,No,Yes,No,No,No,No
+Tonido,Yes,Yes,Yes,Yes,No,No,No
+Transmission,Yes [Note 1],Yes,Yes,Yes,"Yes, through Cydia",Yes,"Solaris, OpenWrt"
+Tribler,Yes,Yes,Yes,Yes,No,No,No
+Vuze,Yes,Yes,Yes,Yes,No,Yes[33],No
+Xunlei,Yes,Yes,No,No,Yes,Yes[citation needed],No
+Name,Windows,Mac OS X,Linux,BSD,iOS,Android,Other

@@ -1,104 +1,16 @@
-<<<<<<< HEAD
-English,Standard Malay,Indonesian
-account,akaun,akun
-accountability,akauntabliti,akuntabilitas
-accountant,akauntan,akuntan
-amateur,amatur,amatir
-architect,arkitek,arsitek
-armed forces,tentera,tentara
-auction,lelong,lelang
-autonomy,autonomi,otonomi
-balcony,balkoni,balkon
-bell,loceng,lonceng
-because (grammatical conjunction),kerana,karena
-biome,biom,bioma
-bridge,jambatan,jembatan
-"broken, damaged",rosak,rusak
-business,bisnes,bisnis
-bus,bas,bus
-cancer (diseases),kanser,kanker
-case (legal),kes,kasus
-cement,simen,semen
-civil,sivil,sipil
-community,komuniti,komunitas
-concert,konsert,konser
-counter,kaunter,konter
-December,Disember,Desember
-dialect,loghat,logat
-different,beza,beda
-doctor (medical practitioner),doktor,dokter
-eight,lapan,delapan
-Europe,Eropah,Eropa
-export,eksport,ekspor
-faculty,fakulti,fakultas
-finance,kewangan,keuangan
-garage,garaj,garasi
-dialect,loghat,logat
-gonorrhea,gonorea,gonore
-immigration,imigresen,imigrasi
-mathematics,matematik,matematika
-magistrate,majistret,magistrat
-meaning,erti,arti
-medication,ubat,obat
-minute,minit,menit
-money,wang,uang
-music,muzik,musik
-"namely, e.g.",iaitu,yaitu
-news,khabar,kabar
-newspaper,surat khabar,surat kabar
-number,nombor,nomor
-official (adj.),rasmi,resmi
-official position,jawatan,jabatan
-parliament,parlimen,parlemen
-party (political),parti,partai
-passport,pasport,paspor
-phase,fasa,fase
-physics,fizik,fisika
-popular,popular,populer
-prototype,prototaip,prototipe
-sauce,sos,saus
-sausage,sosej,sosis
-scenario,senario,skenario
-scheme,skim,skema
-secret,rahsia,rahasia
-snow,salji,salju
-sputum,kahak,dahak
-station,stesen,stasiun
-taxi,teksi,taksi
-tempo,tempoh,tempo
-thin,nipis,tipis
-Thursday,Khamis,Kamis
-"truck, lorry",trak,truk
-university,universiti,universitas
-want,mahu,mau
-zone,zon,zona
-=======
 English,Malaysian,Indonesian
-dandruff,kelemumur,ketombe
-December,Disember,Desember (influenced by Dutch december)
-decimal,perpuluhan (means tithe in Indonesian),"desimal (from Dutch decimale), persepuluhan (rare)"
-decree,dekri,"surat keputusan, dekrit (from Dutch decreet)"
-degree (of temperature),darjah,derajat
-"delicious, tasty","lazat, sedap, enak","lezat, enak, sedap"
-democratic,demokratik,"demokratis (from Dutch demokratisch note: "democratic republic" (in country names) translates as republik demokratik, such as in Republik Demokratik Kongo (Democratic Republic of the Congo))"
-department,jabatan ('occupation' in Indonesian),"departemen, jurusan (for department in university)"
-departure,pelepasan,"keberangkatan, kepergian"
-depression (psychological),kemurungan (means "sadness" in Indonesian),depresi (from Dutch depressie)
-deputy,timbalan,"wakil, deputi, timbalan (rare)"
-design,reka bentuk,"desain, kerangka bentuk, rancangan"
-detail,terperinci,"detail, detil (nonstandard), perincian, rinci (nonstandard)"
-dialect,loghat,"dialek, logat"
-detection,pengesana,"pelacakan, deteksi"
-different – difference,"beza, berbeza – perbezaan","beda, berbeda – perbedaan"
-diocese,"kawasan uskup, keuskupan",keuskupan
-director,pengarah,"direktur from Dutch (and French) directeur, sutradara (of a film) from Sanskrit (through Javanese), pengarah (for an event)"
-discount,"diskaun, rebat, potongan harga","diskon, rabat, potongan harga, korting from Dutch, less frequent"
-discussion,"perbincangan, diskusi","pembicaraan, perbincangan, diskusi (from Dutch discussie)"
-disinfectant,penyahjangkit,"disinfektan, sucihama"
-domestic,dalam negara,"dalam negeri, domestik"
-driver,pemandu means guide in Indonesian,"sopir from French chauffeur through Dutch, pengemudi formal"
-driver's license (U.S.) driving licence (UK),lesen memandu,surat izin mengemudi (SIM)
-drugs (illegal),dadah (colloquial use in Indonesia means "goodbye"),"narkoba (an acronym for NARKotika dan OBat-obatan terlArang (narcotics and illegal drugs)), NAPZA (less frequent – an acronym for NArkotika, Psikotropika dan Zat-zat Adiktif (narcotics, psychotropics, and addictive chemical substances))"
-Dutch East Indies,Hindia Timur Belanda,Hindia-Belanda
-duty (economics),"duti, cukai","bea, cukai"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+ketchup,"kicap (Indonesian equivalent, kecap, means soy sauce)",saus tomat
+lane,lorong (means alley in Indonesian),lajur
+lawyer,peguam,"advokat from Dutch advocaat, pengacara (means 'master of ceremonies' in Malay)"
+Lebanon,Lubnan from Arabic,"Lebanon, Libanon influenced by Dutch"
+legislative,"perundangan (In Indonesian, it means legislation), legislatif",legislatif
+liability,liabiliti,kewajiban
+licence,"lesen, izin","izin, ijin from Arabic idhn, lisensi from Dutch licentie"
+lieutenant,leftenan (influenced by British English pronunciation),letnan
+"lift, elevator",lif,lift
+liquidity (economy),kecairan,likuiditas
+Lisbon,Lisbon,"Lisboa from Portuguese, Lisabon influenced by Dutch Lissabon"
+list,senarai,"daftar, senarai less common"
+local,tempatan,"lokal, setempat"
+lorry (UK),Lori,"Truk (from American English: 'truck'), prahoto from Dutch vrachtauto"
+Luxembourg,Luxembourg,Luksemburg influenced by Dutch/German Luxemburg

@@ -1,25 +1,13 @@
-<<<<<<< HEAD
-Version,CPU,RAM,,Free disk space,Video adapter and monitor
-,,Minimum,Recommended,,
-Windows NT 3.51 Workstation,"386, 25 MHz",8 MB,16 MB,90 MB,VGA (640x480)
-Windows NT 4.0 Workstation,"486, 33 MHz",12 MB,?,110 MB,
-Windows 2000 Professional,133 MHz,32 MB,128 MB,650 MB,
-Windows XP,233 MHz,64 MB,128 MB,1.5 GB,Super VGA (800x600)
-Windows Fundamentals for Legacy PCs,,,,500 MB,
-Windows XP 64-Bit Edition,700 MHz Itanium[6],1 GB[6],?,6 GB[6],
-Windows Server 2003,1 GHz (x86) or 1.4 GHz (x64),128 MB,256 MB,2 GB (x86) 4 GB (x64),
-Windows Vista,800 MHz,384 MB (Starter) 512 MB (others) [7],2 GB,15 GB (~6.5 GB for OS),Super VGA (800x600) WDDM & DirectX 9 for Aero
-Windows Server 2008,1 GHz (x86) or 1.4 GHz (x64),,2 GB,10 GB,
-Windows 7,1 GHz,1 GB (x86) 2 GB (x64),4 GB,16 GB (x86) 20 GB (x64) (~6.5 GB for OS),
-Windows Server 2012,1.4 GHz (x86-64),512 MB,1 GB,10 GB,"Super VGA (800x600), 32-bit color"
-Windows 8,1 GHz,1 GB (x86) 2 GB (x64),4 GB,16 GB (x86) 20 GB (x64) (~6.5 GB for OS),"Super VGA (800x600), 32-bit color 1024 x 768 for Windows Store apps 1366 x 768 to snap apps"
-Windows 10,1 GHz or faster processor or SoC,1 GB (x86) 2 GB (x64),4 GB,16 GB (x86) 20 GB (x64),"Super VGA (800x600), 32-bit color"
-Windows Server 2016,1.4 GHz 64-bit processor,512 MB ECC 2 GB with Desktop Experience installed[8],depends on role,32 GB,Super VGA (1024 x768)
-=======
-Name,Release date,Latest version,Status support,Codename,OS required,Architecture,Editions,Target market
-Windows 1.0,1985-11-20,1.04 (1987-04-08),Unsupported (2001-12-31),Interface Manager,DOS 2.0 or higher,16-bit,,Desktops
-Windows 2.0,1987-09-08,2.03 (1987-12-09),Unsupported (2001-12-31),,DOS 3.0 or higher,16-bit,,Desktops
-Windows 2.1x,1988-05-27,2.11 (1989-03-13),Unsupported (2001-12-31),,DOS 3.0 or higher,16-bit,,Desktops
-Windows 3.0,1990-05-22,3.0a with Multimedia Extensions (1991-10-20),Unsupported (2001-12-31),,DOS 3.1 or higher,16-bit,Windows 3.0 Windows 3.0a Windows 3.0a with Multimedia Extensions,Desktops
-Windows 3.1x,1992-04-06,3.11 (1993-12-31),Unsupported (2001-12-31),3.1 for Workgroups: Kato 3.11: Snowball (LB) 3.11 for Workgroups: Sparta,DOS 3.3 or higher,16-bit*,Windows 3.1 Windows for Workgroups 3.1 Windows 3.11 Windows for Workgroups 3.11 Windows 3.2 (Simplified Chinese only),Desktops
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Resource access control,Subsystem isolation mechanisms,Integrated firewall,Encrypted file systems,Defender,Windows Hello
+Windows 2000,ACLs,,"TCP/IP Filtering, IPSec",Yes (NTFS only),No,No
+Windows XP,ACLs,"Win32 WindowStation, Desktop, Job objects","Windows Firewall (from SP2), TCP/IP Filtering, IPSec",Yes (NTFS only),Optional,No
+Windows Server 2003,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Optional,No
+Windows Vista,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
+Windows Server 2008,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
+Windows 7,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
+Windows Server 2012,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
+Windows 8,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
+Windows Server 2012 R2,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
+Windows 8.1,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
+Windows 10,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,Yes
+Windows Server 2016,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,Yes

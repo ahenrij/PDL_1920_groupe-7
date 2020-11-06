@@ -1,5 +1,6 @@
 Client,Developer,First public release,Monthly active users,Registration requirement,License,Operating system,,,,,,E2EE 2-user chat,E2EE group chat,File transfer,Voice recording,Client,Voice chat,Video chat,Read receipts,Editing sent messages,Deleting sent messages,Custom emoji,Stickers,Self-destructing messages,Lock screen,Screenshot protection (Android only)[1],App screenshot notification,User screenshot notification[2],Local encrypted,Themes / skins,Plugins,Peer-to-peer text chat,Open source servers,Federated servers,Privacy law compliant,Client
 ,,,,,,Windows,macOS,Linux,Web,Android,iOS,,,,,,,,,,,,,,,,,,,,,,,,,
+ADAMANT Messenger,ADAMANT TECH LABS,"September 2, 2017; 3 years ago",,Nothing required,GPLv3,,,,,,,,,,,ADAMANT Messenger,,,,,,,,,,,,,?,N/A,,N/A,,,,ADAMANT Messenger
 Discord,Discord Inc.,20150306,250 million (2019)[2],Email,Proprietary Freeware,,,,,,,,,,,Discord,,,,,,,,,,,,,?,,,,,,,Discord
 eBuddy,Paulo Taylor,20030309,,Phone number,Proprietary Freeware,,,,,,,,,,,eBuddy,,,,,,,,,,?,?,?,?,,,,,,,eBuddy
 Facebook Messenger,"Facebook, Inc.",20110809,1300 million (2019)[2],Facebook account,Proprietary Freeware,,,,,,,,,,,Facebook Messenger,,,,,,,,,,?,?,?,?,,,,,,,Facebook Messenger
@@ -13,11 +14,7 @@ Kadu,Kadu Team,200108,,,GPLv2,,,,,,,,,,,Kadu,,,,,,,,,,?,?,?,?,,,,,,,Kadu
 KakaoTalk,Kakao Corp.,20100318,49 million (2018)[4],,Proprietary Freeware,,,,,,,,,,,KakaoTalk,,,,,,,,,,?,?,?,?,,,,,,,KakaoTalk
 Keybase,Keybase,"February 8, 2017; 201728 years ago",,Nothing required,New BSD License,,,,",,,,,,,Keybase,,,,,,,,,,",,,?,",,,,,,Keybase
 Kik Messenger,Medialab,201010,15 million (2017)[5],Email,Proprietary Freemium adware,,,,,,,,,,,Kik Messenger,,,,,,,,,,?,?,?,?,,,,,,,Kik Messenger
-<<<<<<< HEAD
 Line,LINE Corporation,March 2012,700 million (2017),Phone number,Proprietary Freemium,,,,,,,,,,,Line,,,,,,,,,,?,?,?,?,,,,,,,Line
-=======
-Line,LINE Corporation,March 2012,203 million (2018)[4],Phone number,Proprietary Freemium,,,,,,,,,,,Line,,,,,,,,,,?,?,?,?,,,,,,,Line
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 Mattermost,Mattermost Inc,2015,,,AGPLv3,,,,,,,,,,,Mattermost,,,,,,,,,,?,?,?,?,,,,,,,Mattermost
 MCabber,Mikael Berthe,20050607,,,GPL,,,,,,,,,,,MCabber,,,,,,,,,,?,?,?,?,,,,,,,MCabber
 Messages,Apple Inc.,20120725,,,Part of macOS and iOS,,,,,,,,,,,Messages,,,,,,,,,,?,?,?,?,,,,,,,Messages

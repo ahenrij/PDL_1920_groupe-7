@@ -1,5 +1,4 @@
 Name,License,Deployment,Platforms
-<<<<<<< HEAD
 NetworkMaps,OpenSource,SaaS,"Windows, macOS, Linux"
 Cacoo (Software),Proprietary,SaaS,"Windows, macOS"
 ConceptDraw PRO,Proprietary,Desktop,"Windows, macOS"
@@ -7,9 +6,3 @@ Microsoft Visio,Proprietary,Desktop,Windows
 SmartDraw,Proprietary,Desktop,Windows
 Lucidchart,Proprietary,SaaS,"Linux, macOS, Windows"
 Gliffy,Proprietary,SaaS,"Linux, macOS, Windows"
-=======
-netTransformer,GPL,Desktop,Windows/Linux/macOS
-OpenNMS,AGPLv3,Desktop,"Linux, macOS, others"
-SolarWinds,Proprietary,Desktop,Windows
-Spiceworks,Proprietary,Desktop,Windows
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

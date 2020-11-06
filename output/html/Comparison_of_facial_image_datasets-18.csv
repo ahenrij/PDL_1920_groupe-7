@@ -1,13 +1,7 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Abalone Dataset,Physical measurements of Abalone. Weather patterns and location are also given.,None.,4177,Text,Regression,1995,[383],Marine Research Laboratories – Taroona
-Zoo Dataset,Artificial dataset covering 7 classes of animals.,Animals are classed into 7 categories and features are given for each.,101,Text,Classification,1990,[384],R. Forsyth
-Demospongiae Dataset,Data about marine sponges.,503 sponges in the Demosponge class are described by various features.,503,Text,Classification,2010,[385],E. Armengol et al.
-Splice-junction Gene Sequences Dataset,Primate splice-junction gene sequences (DNA) with associated imperfect domain theory.,None.,3190,Text,Classification,1992,[362],G. Towell et al.
-Mice Protein Expression Dataset,Expression levels of 77 proteins measured in the cerebral cortex of mice.,None.,1080,Text,"Classification, Clustering",2015,[386][387],C. Higuera et al.
-=======
-TV Human Interaction Dataset,"Videos from 20 different TV shows for prediction social actions: handshake, high five, hug, kiss and none.",None.,"6,766 video clips",video clips,Action prediction,2013,[41],"Patron-Perez, A. et al."
-Berkeley Multimodal Human Action Database (MHAD),Recordings of a single person performing 12 actions,MoCap pre-processing,660 action samples,"8 PhaseSpace Motion Capture, 2 Stereo Cameras, 4 Quad Cameras, 6 accelerometers, 4 microphones",Action classification,2013,[42],"Ofli, F. et al."
-THUMOS Dataset,Large video dataset for action classification.,Actions classified and labeled.,45M frames of video,"Video, images, text","Classification, action detection",2013,[43][44],Y. Jiang et al.
-MEXAction2,Video dataset for action localization and spotting,Actions classified and labeled.,1000,Video,Action detection,2014,[45],Stoian et al.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Cloud DataSet,Data about 1024 different clouds.,Image features extracted.,1024,Text,"Classification, clustering",1989,[431],P. Collard
+El Nino Dataset,Oceanographic and surface meteorological readings taken from a series of buoys positioned throughout the equatorial Pacific.,12 weather attributes are measured at each buoy.,178080,Text,Regression,1999,[432],Pacific Marine Environmental Laboratory
+Greenhouse Gas Observing Network Dataset,Time-series of greenhouse gas concentrations at 2921 grid cells in California created using simulations of the weather.,None.,2921,Text,Regression,2015,[433],D. Lucas
+Atmospheric CO2 from Continuous Air Samples at Mauna Loa Observatory,"Continuous air samples in Hawaii, USA. 44 years of records.",None.,44 years,Text,Regression,2001,[434],Mauna Loa Observatory
+Ionosphere Dataset,Radar data from the ionosphere. Task is to classify into good and bad radar returns.,Many radar features given.,351,Text,Classification,1989,[374][435],Johns Hopkins University
+Ozone Level Detection Dataset,Two ground ozone level datasets.,"Many features given, including weather conditions at time of measurement.",2536,Text,Classification,2008,[436][437],K. Zhang et al.

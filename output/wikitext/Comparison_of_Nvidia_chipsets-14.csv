@@ -1,16 +1,14 @@
-Model,Code Name,Release Date,Processors Supported,Fabrication process (nm),FSB/HT Frequency (MHz),AGP,PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound,Features,Notes
-<<<<<<< HEAD
-nForce3 Go 120,,2003,Turion 64,,HT 400 MHz,AGP4X,No,No,6 Ports,6 Ports Rev 2.0,2 Ports UDMA 133,No,100 Mbit/s,AC'97 2.1,,
-nForce3 Go 150,,2003,Turion 64,,HT 600 MHz,AGP8X,No,No,6 Ports,6 Ports Rev 2.0,3 Ports UDMA 133,No,1000 Mbit/s,AC'97 2.1,,
-nForce 430 Go,,2005,"Turion 64, Sempron 64",,HT 800 MHz,No,1.0a 18 lanes,No,6 Ports,8 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0Gbit/s,1000 Mbit/s,HDA,"RAID 0,1,0+1,5",
-nForce 610m,,2007,"Turion 64, Sempron 64",,HT 1 GHz,No,1.1 4 lanes,No,5 Ports,10 Ports Rev 2.0,1 Ports UDMA 133,4 Ports 3.0Gbit/s,100 Mbit/s,HDA,Onboard GeForce 7000M,
-nForce 630m,,2007,"Turion 64, Sempron 64",,HT 1 GHz,No,1.1 20 lanes,No,5 Ports,10 Ports Rev 2.0,1 Ports UDMA 133,4 Ports 3.0Gbit/s,1000 Mbit/s,HDA,Onboard GeForce 7150M,
-nForce 8200M,MCP77MV,2008,"Turion 64, Sempron 64",,HT3.0 2.6 GHz,No,2.0 4 lanes,No,5 Ports,10 Ports Rev 2.0,No,4 Ports 3.0Gbit/s,1000 Mbit/s,HDA,Onboard GeForce 8200M,
-=======
-nForce3 Professional 150/250,CK8,08/2003,AMD Opteron,150nm,HT 1.0 1.6 GHz,AGP 3.0 533 MT/s,No,No,6 Ports,8 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 1.5Gbit/s,1000 Mbit/s,AC'97 2.1,MediaShield,
-nForce Professional 2200 MCP,CK8-04,01/2005,AMD Opteron,150nm,HT 1 GHz 2000 MT/s,No,"1.0a 20 lanes, 4 links flexible x16: 2 slots",x8+x8,5 Ports,10 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0Gbit/s,1000 Mbit/s,AC'97 2.3,"MediaShield RAID 0,1,0+1,5",
-nForce Professional 2200 and 2050,CK8-04,01/2005,AMD Opteron,150nm,HT 1 GHz 2000 MT/s,No,"1.0a 40 lanes, 8 links flexible x16: 2 slots",x16+x16,5 Ports,10 Ports Rev 2.0,2 Ports UDMA 133,8 Ports 3.0Gbit/s,2*1000 Mbit/s,AC'97 2.3,"MediaShield RAID 0,1,0+1,5",
-nForce Professional 3400 MCP,MCP55 Pro,2006,AMD Opteron,,HT 1 GHz 2000 MT/s,No,"1.0a 28 lanes, 6 links fixed x16: 2 slots",x8+x8,5 Ports,10 Ports Rev 2.0,1 Ports UDMA 133,6 Ports 3.0Gbit/s,2*1000 Mbit/s,HDA,"MediaShield RAID 0,1,0+1,5",
-nForce Professional 3600 MCP,MCP55 Pro,2006,AMD Opteron,,HT 1 GHz 2000 MT/s,No,"1.0a 28 lanes, 6 links fixed x16: 2 slots",x8+x8,5 Ports,10 Ports Rev 2.0,1 Ports UDMA 133,6 Ports 3.0Gbit/s,2*1000 Mbit/s,HDA,"MediaShield RAID 0,1,0+1,5",
-nForce Professional 3600 and 3050,MCP55 Pro,2006,AMD Opteron,,HT 1 GHz 2000 MT/s,No,"1.0a 56 lanes, 12 links flexible x16: 2 slots",x16+x16,5 Ports,10 Ports Rev 2.0,2 Ports UDMA 133,12 Ports 3.0Gbit/s,4*1000 Mbit/s,HDA,"MediaShield RAID 0,1,0+1,5",
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Code Name,Release Date,CPU Socket,Processors Supported,Fab (nm),HyperTransport (MHz),PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound,Features,Notes
+nForce 500,CK8-04,2006,Socket AM2,Athlon 64 Athlon 64 X2 Athlon 64 FX Opteron Sempron Phenom Phenom II,,1 GHz,1.0a 20 lanes,No,5 Ports,10 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 1.5 Gbit/s,1000 Mbit/s,AC'97 2.3,,Rebranded nForce4
+nForce 500 Ultra,CK8-04,2006,,,,,,No,,10 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0 Gbit/s,1000 Mbit/s,AC'97 2.3,,Rebranded nForce4 Ultra
+nForce 500 SLI,CK8-04,2006,,,,,,x8+x8,,10 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0 Gbit/s,1000 Mbit/s,AC'97 2.3,,Rebranded nForce4 SLI
+nForce 510,MCP51,2006,,,,,,No,,8 Ports Rev 2.0,1 Ports UDMA 133,2 Ports 3.0 Gbit/s,100 Mbit/s,HDA,,
+nForce 520 LE,MPC61/MCP65,2007,,,90 nm / ?,,,No,,8 Ports Rev 2.0,1 Ports UDMA 133,2 Ports 3.0 Gbit/s,100 Mbit/s,HDA,,MPC61 is enhanced version of nForce 430 rev.2 with Disabled Onboard GeForce 6100
+nForce 520,MCP65,2007,,,,,,No,,10 Ports Rev 2.0,1 Ports UDMA 133,4 Ports 3.0 Gbit/s,100 Mbit/s,HDA,,
+nForce 550,MCP55,"March 7, 2006",,,,,,No,,10 Ports Rev 2.0,1 Ports UDMA 133,4 Ports 3.0 Gbit/s,1000 Mbit/s,HDA,,
+nForce 560,MCP65,2007,,,,,,No,,10 Ports Rev 2.0,1 Ports UDMA 133,4 Ports 3.0 Gbit/s,1000 Mbit/s,HDA,,Same chipset as nForce 570 LT SLI but with some resistors removed thus disabling SLI
+nForce 560 SLI,CK8-04,2007,,,,,,x8+x8,,10 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0 Gbit/s,1000 Mbit/s,AC'97 2.3,,Rebranded nForce4 SLI
+nForce 570 LT SLI,MCP65,2007,,,,,,x8+x8,,10 Ports Rev 2.0,1 Ports UDMA 133,4 Ports 3.0 Gbit/s,1000 Mbit/s,HDA,,
+nForce 570 Ultra,MCP55,"March 7, 2006",,,,,,No,,10 Ports Rev 2.0,1 Ports UDMA 133,6 Ports 3.0 Gbit/s,2× 1000 Mbit/s,HDA,,
+nForce 570 SLI,MCP55,"March 7, 2006",,,,,1.0a 28 lanes,x8+x8,,10 Ports Rev 2.0,,,,HDA,,
+nForce 590 SLI,Crush51 + MCP55,"March 7, 2006",,,,,1.0a 46 lanes,x16+x16,,10 Ports Rev 2.0,,,,HDA,,

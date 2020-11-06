@@ -1,46 +1,9 @@
-<<<<<<< HEAD
-Name,Version,Date
-BProlog,8.1,2014-02-23
-JIProlog,4.1.6.1,2018-03-17
-Ciao,1.19.0,2020-03-21
-DOS-PROLOG,6.0,
-ECLiPSe,7.0_54,2020-02-26
-GNU Prolog,1.4.5,2018-07-14
-Jekejeke Prolog,1.3.1,2018-11-02
-JLog,1.3.6,2007-09-13
-JScriptLog,0.7.5 beta,2007-09-10
-jTrolog,,
-LPA-PROLOG,7.0,2019-12-19
-Open Prolog,,
-Poplog Prolog,V15.65,2015-10-14
-SICStus Prolog,4.6.0,2020-05-04
-Strawberry Prolog,3.0 Beta 4,2013-12-10
-SWI-Prolog,8.2.0,2020-05-27
-tuProlog,3.2.1,2017-02-14
-Visual Prolog,"9.0, Build 902",2019-04-26
-XSB Prolog,3.8,2017-10-29
-YAProlog,6.3.3,2013-01-21
-=======
-Platform,,,Features,,,,,,,,Toolkit,,,Prolog Mechanics
-Name,OS,Licence,Native Graphics,Compiled Code,Unicode,Object Oriented,Native OS Control,Stand Alone Executable,C Interface[3],Java Interface[3],Interactive Interpreter,Debugger,Code Profiler,Syntax
-BProlog,"Unix, Windows, Mac OS X",Free for non-commercial uses,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"ISO-Prolog, plus event-handling, CLP(FD), and tabling"
-JIProlog,"JVM, Android",Shareware/Commercial and AGPL,Yes,,Yes,,Yes via Java,Yes,Yes via Java,Yes,Yes,Yes,,ISO-Prolog
-Ciao,"Unix, Windows, Mac OS X","GPL, LGPL",,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"ISO-Prolog, plus extensions"
-DOS-PROLOG,MS-DOS,Shareware,Yes,Yes,Yes,,Yes,Yes,,,,Yes,,Edinburgh Prolog
-ECLiPSe,"Linux, Windows, Solaris, macOS",MPL,,Yes,,,Yes,,Yes,Yes,Yes,Yes,Yes,"Extended Prolog, Multi-dialect, including ISO"
-GNU Prolog,"Unix, Windows, Mac OS X","GPL, LGPL",,Yes,,,Yes,Yes,Yes,,Yes,Yes,,ISO-Prolog
-Jekejeke Prolog,"JVM, Android",Distribution Evaluation,Yes,,Yes,Yes,Yes,,,Yes,Yes,Yes,Yes,"ISO-Prolog, Java API"
-JLog,JVM,GPL,Yes,Yes,,,,,,Yes,Yes,,,ISO-Prolog
-JScriptLog,Web Browser,GPL,,,,,,,,,Yes,,,ISO-Prolog
-jTrolog,JVM,LGPL,,,Yes,,,,,Yes,Yes,Yes,,ISO-Prolog tests[permanent dead link]
-LPA-PROLOG,Windows,Commercial,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Edinburgh Prolog with extensions
-Open Prolog,Mac OS,Freeware,,,,,,,,,,Yes,,
-Poplog Prolog,"Linux (32- and 64-bit), Unix, Windows",Free Open Source,"Only through POP-11, on Linux",Yes,,,Yes,Yes,Yes,,Yes,Yes,,"Edinburgh Prolog, with interfaces to Poplog Common Lisp and Pop-11"
-SICStus Prolog,"Unix, Linux, Windows, macOS",Commercial,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,ISO-Prolog
-Strawberry Prolog,"Windows, Unix","Freeware, Commercial",Yes,Yes,Yes,,,Yes,,,,Yes,,Not ISO-Prolog + extensions
-SWI-Prolog,"Unix, Linux, Windows, macOS",BSD License,Yes,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"ISO-Prolog, Edinburgh Prolog"
-tuProlog,"JVM, Android",LGPL,Yes,,Yes,,,,Yes,Yes,Yes,Yes,,ISO-Prolog
-Visual Prolog,Windows,"Freeware, Commercial",Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,Yes,Yes,
-XSB Prolog,"Linux, Windows, Solaris, macOS",LGPL,,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"ISO-Prolog, tabled WFS"
-YAP-Prolog,"Linux, Windows, Solaris, Mac OS X, HP-UX",GPL or Artistic (user choice),,Yes,Yes,,Yes,Yes,Yes,Yes,Yes,Yes,,"Edinburgh, ISO-Prolog, Quintus and SICStus Prolog compatible"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Name,Type checker,Determinacy checker,Call-pattern checker
+Ciao,Yes,Yes,Yes
+GNU Prolog,,,
+Jekejeke Prolog,,,
+SICStus Prolog,,Yes,
+SWI-Prolog,,Yes,
+Visual Prolog,Yes,Yes,Yes
+XSB,,,
+YAP-Prolog,,,

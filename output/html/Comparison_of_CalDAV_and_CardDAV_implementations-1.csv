@@ -14,8 +14,9 @@ Open Xchange,"GNU GPL, CC","Java, JavaScript",Unknown,Unknown,Unknown,Unknown,Un
 ownCloud[34],AGPL v3,PHP,Yes [Note 1],Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Yes,Unknown,Unknown,Unknown,Yes [Note 1],Unknown,Unknown,Unknown
 Radicale[35],GNU GPL,Python,Yes,Yes,Some,No,Some,No,Unknown,No,Some,Some,Some,No,Some,No,Unknown,Some,Unknown,No,Unknown,Unknown,Unknown,Unknown,Unknown
 SabreDAV[36],BSD,PHP,Yes [Note 1],Yes,Yes,Yes,Yes,Yes,Unknown,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,Yes,Unknown,Yes,Unknown,Yes [Note 1],Unknown,Unknown,Unknown
-SOGo[37],GNU GPL,Objective-C,Yes,Yes,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-Xandikos[38],GNU GPL,Python,Yes,Yes,Yes,Some,Some,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Unknown,Yes,No,No,Unknown
+SOGo[37],GNU GPL,Objective-C,Yes,Yes,Unknown,Unknown,Some[38][39],Unknown,Unknown,Unknown,Some[40][41],Unknown,Unknown,Some[42][43][44][45],Unknown,Unknown,Unknown,Unknown,Some[46],Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+Xandikos[47],GNU GPL,Python,Yes,Yes,Yes,Some,Some,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Unknown,Yes,No,No,Unknown
 Zarafa,"AGPL, proprietary",PHP,Yes [Note 1],Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Read only,Unknown,Unknown,Unknown,Yes [Note 1],Unknown,Unknown,Unknown
-Zentyal[39],GNU GPL,Perl,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+Zentyal[48],GNU GPL,Perl,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
+Meishi[49],BSD,Ruby,Yes,Yes'basic',Someyes,Someno,Yesmuch of,No,Unknown,No,No,Unknown,Yes,No,No,No,Unknown,Some,Unknown,No,No,Unknown,No,No,Unknown
 Zimbra,GNU GPL,Java,Yes,Yes,Yes,Yes,Yes,No,Unknown,No,Yes,Unknown,Yes,Yes,Yes,Yes,Unknown,Yes,Unknown,Yes,Unknown,Unknown,Unknown,Unknown,Unknown

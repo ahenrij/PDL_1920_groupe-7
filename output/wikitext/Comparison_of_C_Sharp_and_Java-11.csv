@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-"Preprocessing, Compilation and Packaging",Java,C#
-Namespaces,Packages,Namespaces
-File contents,Restricted,Free
-Packaging,Package,"public/internal visibility on namespace members, which the build system translates to modules and assemblies at the CLR-level"
-Classes/assembly search path,ClassPath,Both compile-time and runtime[82][83]
-Conditional compilation,,
-Custom errors/warnings,,
-Explicit regions,,
-=======
 Metadata,Java,C#
 Metadata annotations/attributes,Interface based; user-defined annotations can be created[81],Class based
 Positional arguments,,
@@ -16,4 +6,3 @@ Default values,At definition,Through initialization
 Nested types,,
 Specialization,,
 Conditional metadata,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

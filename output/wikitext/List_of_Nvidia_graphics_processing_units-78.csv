@@ -1,19 +1,8 @@
-<<<<<<< HEAD
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1*,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
-Quadro FX 500,NV34GL,150,AGP 8×,270,270,480,1:4:4:4,1.08,1.08,128,7.687,DDR,128,,,9.0,2.0,,Stereo display
-Quadro FX 600,NV34GL,,PCI,350,350,800,,1,1,256,7.8,,,,,,,,
-Quadro FX 700,NV35GL,,AGP 8×,275,275,550,3:4:4:4,1.1,1.1,128,8.8,,,,,,,,
-Quadro FX 1000,NV30GL,130,,300,300,600,2:4:8:4,1.2,2.4,,9.6,DDR2,,,,,,,
-Quadro FX 1100,NV36GL,,,425,425,648,3:4:4:4,1.7,1.7,,10.1,,,,,,,,
-Quadro FX 2000,NV30GL,,,400,400,800,2:4:8:4,1.6,3.2,,12.8,,,,,,,,
-Quadro FX 3000,NV35GL,,,,,850,3:4:8:4,,,256,27.2,DDR,256,,,,,,
-Quadro FX 3000G,,,,,,,,,,,27.2,,,,"Stereo display, Genlock",,,,
-Quadro FX 4000,NV40GL,,,375,375,1000,5:12:12:8,3,4.5,,32.0,GDDR3,,,9.0c,2.1,142,Stereo display,
-Quadro FX 4000 SDI,,,,,,,,,,,,,,,,,,"Stereo display, Genlock",
-=======
-Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
-GeForce 256 SDR,"October 11, 1999",NV10,TSMC 220 nm,AGP 4× PCI,120,166,4:4:4,480,480,480,0,32,2.656,SDR,128
-GeForce 256 DDR,"December 13, 1999",,,,,150,,,,,,32 64,4.8,DDR,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,,API support,
+,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+GeForce4 Go 410,"February 6, 2002",NV17M,AGP 8×,200,200,2:0:4:2,400,400,800,0,16,1.6,SDR,64,8.0a,1.3
+GeForce4 Go 420,,,,,400,,,,,,32,3.2,DDR,,,
+GeForce4 Go 440,,,,220,440,,440,440,880,,64,7.04,,128,,
+GeForce4 Go 460,"October 14, 2002",,,250,500,,500,500,1000,,,8,,,,
+GeForce4 Go 488,,NV18M,,300,550,,600,600,1200,,,8.8,,,,
+GeForce4 Go 4200,"November 14, 2002",NV28M,,200,400,4:2:8:4,800,800,1600,100,,6.4,,,,

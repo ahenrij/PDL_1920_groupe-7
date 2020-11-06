@@ -1,51 +1,14 @@
-<<<<<<< HEAD
 ,Trident,Gecko,WebKit,KHTML,Presto
-Phrase,,,,,
-em,rowspan="9" 4.0,rowspan="10" 1.0,rowspan="10" ,rowspan="10" ,rowspan="10" 1.0
-strong,,,,,
-dfn,,,,,
-code,,,,,
-samp,,,,,
-kbd,,,,,
-var,,,,,
-cite,,,,,
-acronym,,,,,
-abbr,3.1,,,,
-Quotations,,,,,
-blockquote,4.0,1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-q,4.0,1.8<q> does not support nested quotes prior to Gecko 1.8.[1]group=note,,,
-Subscripts and superscripts,,,,,
-sub,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-sup,,,,,
-Lines and paragraphs,,,,,
-p,rowspan="2" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
-pre,,,,,
-br,5.0,,,,
-Marking document changes,,,,,
-ins,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-del,,,,,
-=======
-Attribute,Element,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
-align,"caption, div, fieldset, h1, h2, h3, h4, h5, h6, hr, img, input, legend, p, object, table",CSS,rowspan="6" 3.1,rowspan="6" ,,rowspan="18" ,rowspan="18" 
-alink,body,CSS,,,,,
-background,body,CSS,rowspan="2" ,,,,
-bgcolor,"body, table, tr, td, th",CSS,,,,,
-border,"img, object",CSS,,,,,
-clear,br,CSS,rowspan="2" ,,,,
-compact,"dl, ul, ol",CSS,,,,,
-color,"basefont, font",CSS,rowspan="11" 3.1,,,,
-height,"td, th",CSS,rowspan="2" ,rowspan="10" ,,,
-hspace,"img, object",CSS,,,,,
-language,script,The type attribute,date=September 2010,,,,
-link,body,CSS,rowspan="7" ,,,,
-noshade,hr,CSS,,,,,
-nowrap,"td, th",CSS,,,,,
-size,"basefont, font, hr",CSS,,,,,
-start,ol,None,,,,,
-text,body,CSS,,,,,
-type,"li, ul, ol",CSS,,,,,
-version,html,DTD,,,,,
-vlink,body,CSS,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" 
-width,"hr, pre, td, th",CSS,,,,,
-vspace,"img, object",CSS,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Basic table elements,,,,,
+table,rowspan="5" 4.0,rowspan="5" 1.0,rowspan="5" ,rowspan="5" ,rowspan="5" 1.0
+caption,,,,,
+tr,,,,,
+th,,,,,
+td,,,,,
+Row groups,,,,,
+thead,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+tbody,,,,,
+tfoot,,,,,
+Column groups,,,,,
+colgroup,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
+col,,,,,

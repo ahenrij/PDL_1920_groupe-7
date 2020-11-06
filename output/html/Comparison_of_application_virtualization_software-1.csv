@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Virtual machine,Languages,Comments,Interpreter,JIT,Implementation language,SLoC
 Common Language Runtime (CLR),"C#, C++/CLI, F#, VB.NET",bytecode is CIL; .NET Core Runtime on GitHub,No,Yes,"C#, C++",
 Adobe Flash Player (aka Tamarin),"ActionScript, SWF (file format)",interactive web authoring tool. bytecode is named "ActionScript Byte Code (.abc)",Yes,Yes,C++,135k (initially released)
@@ -38,19 +37,3 @@ Waba,,"Virtual machine for small devices, similar to Java",,,,
 Yet Another Ruby VM (YARV),Ruby,Virtual machine of the reference implementation for Ruby 1.9 and newer versions,Yes,Yes,C,
 Z-machine,Z-Code,,,,,
 Zend Engine,PHP,,Yes,No,C,75k
-=======
-Virtual machine,Machine model,Memory management,Code security,Interpreter,JIT,AOT,Shared libraries,Common Language Object Model,Dynamic typing
-Android Runtime (ART),register,automatic,Yes,Yes,Yes,Yes,?,Yes,Yes
-Common Language Runtime (CLR),stack,automatic or manual,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Dis (Inferno),register,automatic,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-DotGNU Portable.NET,stack,automatic or manual,Yes,Yes,Yes,Yes,Yes,Yes,No
-Java virtual machine (JVM),stack,automatic,Yes,Yes,Yes,Yes,Yes,Yes,Yes[1]
-JikesRVM,stack,automatic,Yes,Yes,Yes,Yes,?,Yes,Yes
-LLVM,register,manual,No,Yes,Yes,Yes,Yes,Yes,No
-Mono,stack,automatic or manual,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Parrot,register,automatic,No,Yes,No[2],Yes,Yes,Yes,Yes
-Dalvik,register,automatic,Yes,Yes,Yes,No,?,No,No
-Squeak,stack,automatic,No,Yes,Yes,No,Yes,No,Yes
-BEAM (Erlang),register,automatic,?,Yes,Yes,Yes,Yes,Yes,Yes
-MoarVM,register,automatic,?,Yes,Yes,Yes,Yes,Yes,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

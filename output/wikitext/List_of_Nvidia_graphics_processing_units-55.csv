@@ -1,30 +1,19 @@
-<<<<<<< HEAD
-Model,Code name[175],Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate[211],,Memory,,,,Processing power (GFLOPS)[211],,Supported API version,,,,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
-Quadro RTX 4000,TU104-850-A1,12,PCIe 3.0 ×16,1005,1545,1625 (13000),2304:144:64:36:288,98.9,222.5,8,416,GDDR6,256,7119,222.5,12.1,4.6,1.1,1.2,7.5,160,3x DisplayPort 1x USB Type-C
-Quadro RTX 5000,TU104-875-A1,,,1620,1815,1750 (14000),3072:192:64:48:384,116.2,348.5,16,448,,,11151,348.5,,,,,,200,
-Quadro RTX 6000,TU102-875-A1,,,1440,1770,,4608:288:96:72:576,169.9,509.8,24,672,,384,16312,509.8,,,,,,250,
-Quadro RTX 8000,,,,,,,,,,48,,,,,,,,,,,,
-=======
-Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus interface,L2 Cache (MB),Clock speeds,,,Memory,,,,Fillratename=PerfValues,,Processing power (GFLOPS)name=PerfValuesname=ProcessingPower,,,TDP (Watts),SLI support,Release price (USD),
-,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),"Pixel (GP/s)name=PixelFillrateAs the GTX 1070 has one of the four GP104 GPCs disabled in the die, its frontend is only able to rasterize 48 pixels per clock.[76] Analogically, the GTX 1060 features only two GPCs on its GP106 die, meaning that its frontend can only rasterize 32 pixels per clock. The remaining backend ROPs can still be used for tasks such as MSAA.[77]",Texture (GT/s)name=TextureFillrate,Single precision,Double precision,Half precision,,,MSRP,Founders Edition
-GeForce GT 1030[78][79],"March 12, 2018",GP108-310-A1,Samsung 14LPP,1.8,74,384:24:16 (3) (1),PCIe 3.0 x4[80][81],?,1152,1379,2100,2,16.8,DDR4,64,18.4 22.0,27.6 33.0,884.7 1?059.0,27.6 33.0,13.8 16.5,20,rowspan=12 ,$79,rowspan=10 
-,"May 17, 2017",GP108-300-A1,,,,,,.5,1227,1468,6000,,48.0,GDDR5,,19.6 23.4,29.4 35.2,942.3 1?127.4,29.4 35.2,14.7 17.6,30,$70,,
-GeForce GTX 1050[82],"October 25, 2016",GP107-300-A1,,3.3,132,640:40:32 (5) (2),PCIe 3.0 x16,1,1354,1455,7000,,112.0,,128,43.3 46.6,54.1 58.8,1?733.1 1?862.4,54.1 58.2,27.0 29.1,75 (Retail up to 120),$109,,
-,"May 21, 2018",GP107-301-A1,,,,768:48:24 (6) (2),,.75,1392,1518,,3,84.0,,96,33.4 36.4,66.8 72.9,2?138.1 2?331.6,66.8 72.9,33.4 36.4,,,,
-GeForce GTX 1050 Ti[82],"October 25, 2016",GP107-400-A1,,,,768:48:32 (6) (2),,1,1290,1392,,4,112.0,,128,41.2 44.5,61.9 66.8,1?981.4 2?138.1,61.9 66.8,30.9 33.4,,$139,,
-GeForce GTX 1060 [83][84][85][86],"December 25, 2016",GP104-140-A1,TSMC 16FF,7.2,314,1152:72:48 (9) (2),,1.5?,1506,1708,8000,3,192.0,,192,72.2 81.9,108.4 122.9,3?469.8 3?935.2,108.4 122.9,54.2 61.4,120 (Retail up to 200),$199,,
-,"August 18, 2016",GP106-300-A1,,4.4,200,,,1.5,,,,,,,,,,,,,,,,
-,"December 26, 2017",GP106-350-K3-A1,,,,1280:80:40 (10) (2),,1.25,,,,5,160.0,,160,60.2 68.3,120.4 136.7,3?855.3 4?375.0,120.4 136.7,60.2 68.3,,OEM,,
-,"March 8, 2018",GP104-150-A1,,7.2,314,1280:80:48 (10) (2),,1.5,,,,6,192.0,,192,72.2 82.0,,,,,,rowspan=2 ,,
-,"December, 2018",GP104-150-KA-A1,,,,,,,,,,,,GDDR5X,,,,,,,,,,
-,"July 19, 2016",GP106-400-A1,,4.4,200,,,1.5?,,,,,,GDDR5,,,,,,,,$249,$299,
-,"April 20, 2017",GP106-410-A1,,,,,,,,,9000,,216.0,,,,,,,,,$299,,
-GeForce GTX 1070[87][88],"June 10, 2016 / Dec. 2018",GP104-200-A1,,7.2,314,1920:120:64 (15) (3),,2,,1683,8000,8,256.0,GDDR5 / GDDR5X,256,96.3 107.7,180.7 201.9,5?783.0 6?462.7,180.7 201.9,90.3 100.9,150 (Retail up to 250),4-way SLI or 2-way SLI HB[89][90],$379,$449 ($399)[91]
-GeForce GTX 1070 Ti[87],"November 2, 2017",GP104-300-A1,,,,2432:152:64 (19) (4),,,1607,,,,,GDDR5,,102.8 107.7,244 256,7?816.4 8?186.1,244.2 255.8,122.1 127.9,180 (Retail up to 300),,$449,
-GeForce GTX 1080[92],"May 27, 2016",GP104-400-A1,,,,2560:160:64 (20) (4),,,,1733,10000,,320.0,GDDR5X,,102.8 110.9,257.1 277.2,8?227.8 8?872.9,257.1 277.2,128.5 138.6,,,$599 ($499)[91],$699 ($549)[91]
-,"April 20, 2017",GP104-410-A1,,,,,,,,,11000,,352.0,,,,,,,,,,,
-GeForce GTX 1080 Ti[93],"March 5, 2017",GP102-350-K1-A1,,12,471,3584:224:88 (28) (6),,2.75,1480,1582,,11,484.0,,352,130.2 139.2,331.5 354.3,10?608.6 11?339.7,331.5 354.3,165.7 177.1,250,,$699,
-Nvidia TITAN X[94],"August 2, 2016",GP102-400-A1,,,,3584:224:96 (28) (6),,3,1417,1531,10000,12,480.0,,384,136.0 146.9,317.4 342.9,10?157.0 10?974.2,317.4 342.9,158.7 171.4,,,$1200,rowspan="2" 
-Nvidia TITAN Xp[95],"April 6, 2017",GP102-450-A1,,,,3840:240:96 (30) (6),,,1405,1480,11400,,547.7,,,134.8 142.0,337.2 355.2,10?790.4 11?366.4,337.2 355.2,168.6 177.6,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm)[2],Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TDP (Watts),Comments
+,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,,
+GeForce 9300 mGPU,October 2008,MCP7A-S,65 nm,282,162,PCIe 2.0 ×16,16:8:4,450,1200,400 666,1.8,3.6,Up to 512 from system memory,6.4/12.8 10.664/21.328,DDR2 DDR3,64 128,10.0,3.3,57.6,,based on 8400 GS
+GeForce 9400 mGPU,,MCP7A-U,,,,,,580,1400,,2.32,4.64,,,,,,,67.2,12,
+GeForce 9300 GE[18],June 2008,G98,TSMC 65 nm,210,86,,8:8:4,540,1300,500,2.16,4.32,256,8.0,DDR2,64,,,20.8,25,
+GeForce 9300 GS[18],,,,,,,,567,1400,,2.268,4.536,,,,,,,22.4,,
+GeForce 9400 GT,"August 27, 2008",G96-200-c1 G96a G96b,TSMC 55 nm,314,144,PCIe 2.0 ×16 PCI,16:8:4,550,,400 800,2.2,4.4,256 512 1024,12.8 25.6,DDR2 GDDR3,128,,,44.8,50,
+GeForce 9500 GT,"July 29, 2008",G96-300-C1,UMC 65 nm,,,,32:16:8,,,500 800,4.4,8.8,,16.0 25.6,DDR2 GDDR3,,,,89.6,,
+GeForce 9600 GS,,G94a,TSMC 65 nm,505,240,,48:24:12,500,1250,500,6,12,768,24.0,DDR2,192,,,120,,OEM
+GeForce 9600 GSO,May 2008,G92-150-A2,,754,324,PCIe 2.0 ×16,96:48:12,550,1375,800,6.6,26.4,384 768 1536,38.4,GDDR3,,,,264,84,
+GeForce 9600 GSO 512,October 2008,G94a G94b,TSMC 65 nm TSMC 55 nm,505,240 196?date=September 2012,,48:24:16,650,1625,900,10.4,15.6,512,57.6,,256,,,156,90,
+GeForce 9600 GT Green Edition,2009,G94b,TSMC 55 nm,,196?date=September 2012,,64:32:16,600 625,1500 1625,700/900 900date=September 2012,9.6 10.0,19.2 20.0,512 1024,44.8/57.6 57.6date=September 2012,,,,,192 208,59,Core Voltage = 1.00v
+GeForce 9600 GT,"February 21, 2008",G94-300-A1,TSMC 65 nm,,240 196?date=September 2012,,,650,1625,900,10.4,20.8,,57.6,,,,,208,95,
+GeForce 9800 GT Green Edition,2009,G92a2 G92b,TSMC/UMC 65 nm TSMC/UMC 55 nm,754,324 260,,112:56:16,550,1375,700 800 900,8.8,30.8,,44.8 51.2 57.6,,,,,308,75,Core Voltage = 1.00v
+GeForce 9800 GT,July 2008,G92a G92b,UMC 55 nm,,,,,600,1500,900,9.6,33.6,,57.6,,,,,336,125 105,
+GeForce 9800 GTX,"April 1, 2008",G92-420-A2,TSMC 65 nm,,324,,128:64:16,675,1688,1100,10.8,43.2,512,70.4,,,,,432,140,
+GeForce 9800 GTX+,"July 16, 2008",G92b,TSMC 55 nm,,260,,,738,1836,1100,11.808,47.232,512 1024,,,,,,470,141,
+GeForce 9800 GX2,"March 18, 2008",2× G92,TSMC/UMC 65 nm,2× 754,2× 324,,2× 128:64:16,600,1500,1000,2× 9.6,2× 38.4,2× 512,2× 64.0,,2× 256,,,2× 384,197,
+Model,Launch,Codename,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Comments

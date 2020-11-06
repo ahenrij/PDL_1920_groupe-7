@@ -1,24 +1,8 @@
-<<<<<<< HEAD
-IDE,License,Developer,Latest stable release,Windows,Linux,macOS,Other platforms
-Microsoft Visual Studio,,Microsoft,"2019-04-1216.0.2 / April 18, 2019",,,,
-MonoDevelop,LGPL,Xamarin and the Mono community,"2016-11-11 6.1.2.44 / November 11, 2016",,,,"FreeBSD, OpenBSD, Solaris"
-SharpDevelop,LGPL,IC#Code Team,"2016-04-14 5.1 / April 14, 2016",,,,
-SlickEdit,,SlickEdit,October 2016,,,,"Solaris, Solaris SPARC, AIX, HP-UX"
-Understand,,SciTools,"2015-12-04 814 / December 4, 2015",,,,Solaris
-Visual Studio Code,source code(MIT License) - binary(Proprietary),Microsoft,"2020-09-10 1.49.0 / September 10, 2020",,,,
-Xamarin Studio,source code(MIT License) - binary(Proprietary),Microsoft,December 2016,,,,
-Eclipse,EPL,Eclipse Foundation,"2017-06-284.7 / June 28, 2017",,,,
-Rider,,JetBrains,"2019-12-112019.3 / December 11, 2019",,,,
-=======
-IDE,Widget toolkit,Platform,Compilers,Open Source,Made in D,Notes
-Visual Studio,Microsoft,Windows,"DMD, LDC (LLVM), GDC (GCC)",,,"Visual Studio extension. VisualD, wrote in D."
-NetBeans,Java Swing,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana, Java","DMD, LDC (LLVM), GDC (GCC)",,,"NetBeans module. NetBeans-D, under MIT License."
-SlickEdit,Qt,"Windows, Linux, MacOS, AIX, HP-UX, Solaris, Solaris SPARC",DMD,,,
-CodeLite,wxWidget,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,
-Xcode,Cocoa,macOS,"DMD, GDC (GCC)",,,"Xcode plugin. D for Xcode, under GPL v2."
-MonoDevelop,GTK#,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,"MonoDevelop extension. Mono-D, support VisualD projects and DUB, Can be installed on Xamarin Studio too, under Apache License."
-KDevelop,Qt,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,
-Geany,GTK+,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,Native support.
-Code::Blocks,wxWidget,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,Includes partial support.
-Eclipse,SWT,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana, Java",DMD,,,Eclipse Plugin. DDT. Dropped.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+IDE,Developer,Latest stable release,Platform,License
+Eclipse EPIC,EPIC Project Team,"0.6.44 / April 18, 2012","Windows, Linux, macOS, FreeBSD, JVM, Solaris",CPL
+Geany,Team,"1.27 / March 13, 2016","Windows, Linux, macOS, FreeBSD, AIX, OpenBSD, Solaris, other Unix",GPL
+Komodo IDE / Edit,ActiveState,"9.0.1 / April 19, 2015",Cross-platform,
+NetBeans,Sun Microsystems / Oracle,,Cross-platform,"CDDL, GPL"
+Padre,Padre Team,"1.0 / November 8, 2013",Cross-platform,Perl
+JetBrains IDEs (via plugin)[34],Alexandr Evstigneev,"2019.1.3 / May 25, 2019",Cross-platform,Apache 2.0
+SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, AIX, Solaris, HP-UX",

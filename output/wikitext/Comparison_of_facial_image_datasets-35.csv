@@ -1,14 +1,13 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Abalone Dataset,Physical measurements of Abalone. Weather patterns and location are also given.,None.,4177,Text,Regression,1995,[383],Marine Research Laboratories – Taroona
-Zoo Dataset,Artificial dataset covering 7 classes of animals.,Animals are classed into 7 categories and features are given for each.,101,Text,Classification,1990,[384],R. Forsyth
-Demospongiae Dataset,Data about marine sponges.,503 sponges in the Demosponge class are described by various features.,503,Text,Classification,2010,[385],E. Armengol et al.
-Splice-junction Gene Sequences Dataset,Primate splice-junction gene sequences (DNA) with associated imperfect domain theory.,None.,3190,Text,Classification,1992,[362],G. Towell et al.
-Mice Protein Expression Dataset,Expression levels of 77 proteins measured in the cerebral cortex of mice.,None.,1080,Text,"Classification, Clustering",2015,[386][387],C. Higuera et al.
-=======
-Poker Hand Dataset,5 card hands from a standard 52 card deck.,"Attributes of each hand are given, including the Poker hands formed by the cards it contains.","1,025,010",Text,"Regression, classification",2007,[456],R. Cattral
-Connect-4 Dataset,"Contains all legal 8-ply positions in the game of connect-4 in which neither player has won yet, and in which the next move is not forced.",None.,"67,557",Text,Classification,1995,[457],J. Tromp
-Chess (King-Rook vs. King) Dataset,Endgame Database for White King and Rook against Black King.,None.,"28,056",Text,Classification,1994,[458][459],M. Bain et al.
-Chess (King-Rook vs. King-Pawn) Dataset,King+Rook versus King+Pawn on a7.,None.,3196,Text,Classification,1989,[460],R. Holte
-Tic-Tac-Toe Endgame Dataset,Binary classification for win conditions in tic-tac-toe.,None.,958,Text,Classification,1991,[461],D. Aha
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Forest Fires Dataset,Forest fires and their properties.,13 features of each fire are extracted.,517,Text,Regression,2008,[388][389],P. Cortez et al.
+Iris Dataset,Three types of iris plants are described by 4 different attributes.,None.,150,Text,Classification,1936,[390][391],R. Fisher
+Plant Species Leaves Dataset,Sixteen samples of leaf each of one-hundred plant species.,"Shape descriptor, fine-scale margin, and texture histograms are given.",1600,Text,Classification,2012,[392][393],J. Cope et al.
+Mushroom Dataset,Mushroom attributes and classification.,Many properties of each mushroom are given.,8124,Text,Classification,1987,[394],J. Schlimmer
+Soybean Dataset,Database of diseased soybean plants.,35 features for each plant are given. Plants are classified into 19 categories.,307,Text,Classification,1988,[395],R. Michalski et al.
+Seeds Dataset,Measurements of geometrical properties of kernels belonging to three different varieties of wheat.,None.,210,Text,"Classification, clustering",2012,[396][397],Charytanowicz et al.
+Covertype Dataset,Data for predicting forest cover type strictly from cartographic variables.,Many geographical features given.,"581,012",Text,Classification,1998,[398][399],J. Blackard et al.
+Abscisic Acid Signaling Network Dataset,Data for a plant signaling network. Goal is to determine set of rules that governs the network.,None.,300,Text,Causal-discovery,2008,[400],J. Jenkens et al.
+Folio Dataset,20 photos of leaves for each of 32 species.,None.,637,"Images, text","Classification, clustering",2015,[401][402],T. Munisami et al.
+Oxford Flower Dataset,17 category dataset of flowers.,"Train/test splits, labeled images,",1360,"Images, text",Classification,2006,[138][403],M-E Nilsback et al.
+Plant Seedlings Dataset,12 category dataset of plant seedlings.,"Labelled images, segmented images,",5544,Images,"Classification, detection",2017,[404],Giselsson et al.
+Fruits 360 dataset,Database with images of 120 fruits and vegetables.,"100x100 pixels, White background.",82213,Images (jpg),Classification,2017-2019,[405][406],"Mihai Oltean, Horea Muresan"

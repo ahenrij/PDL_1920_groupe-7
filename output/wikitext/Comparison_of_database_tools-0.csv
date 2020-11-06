@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Tools,User Interface,Create & Alter wizard,,,,Browse,,,,Auto Completion,Syntax colored,Multi server support,Monitoring server
 ,,Database,Table,Procedure,Trigger,Database,Table,Procedure,Trigger,,,,
 Adminer,Browser-based,,,,,,,,,,,,
@@ -27,26 +26,3 @@ SQuirreL SQL,desktop,,,,,,,,,,,,
 Toad,desktop,,,,,,,,,,,,
 Toad Data Modeler,desktop,,,,,,,,,,,,
 TOra,desktop,,,,,,,,,,,,
-=======
-|,| Visual query builder,| Visual schema/model/E-R diagram design,| Reverse engineering,| Forward engineering,| ER diagram groupboxes
-Adminer,,,,,
-Altova DatabaseSpy,,,,,
-Database Deployment Manager,,,,,
-Database Workbench,,,,,
-DBeaver,,,,,
-DBEdit,,,,,
-ModelRight,,,,,
-Navicat,,,,,
-Navicat Data Modeler,,,,,
-MySQL Workbench,,,,,
-Oracle SQL Developer,,,,,
-Orbada,,,,,
-pgAdmin,,,,,
-phpMyAdmin,,,,,
-SQL Database Studio,,,,,
-SQL Server Management Studio,,,,,
-SQLyog,,,,,
-SQuirreL SQL,,,"Only incremental, by manually going through each table and clicking "Add to graph".",,
-Toad,,,,,
-Toad Data Modeler,,,,Generated SQL must be executed outside Toad Data Modeler.,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

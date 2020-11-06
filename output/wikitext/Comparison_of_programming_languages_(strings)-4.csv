@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-Syntax,Language(s)
-""I said \"Hello, world!\""","C, C++, C#, D, F#, Java, JavaScript, Mathematica, Ocaml, Perl, PHP, Python, Rust, Swift, Wolfram Language, Ya"
-"'I said \'Hello, world!\''","CoffeeScript, JavaScript (alternate), Python (alternate)"
-""I said `"Hello, world!`""",Windows Powershell
-""I said ^"Hello, world!^""",REBOL
-"{I said "Hello, world!"}",REBOL (alternate)
-""I said, %"Hello, World!%""",Eiffel
-"!"I said \"Hello, world!\""",FreeBASIC
-"r#"I said "Hello, world!""#",Rust (alternate)
-=======
 Syntax,Here document,Language(s)
 <<EOF
 I have a lot of things to say
@@ -42,4 +31,3 @@ and so little time to say them
 I have a lot of things to say
 and so little time to say them
 ]],No,Lua
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

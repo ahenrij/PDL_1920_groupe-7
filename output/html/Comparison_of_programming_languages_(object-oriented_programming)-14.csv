@@ -1,61 +1,26 @@
-<<<<<<< HEAD
-,construction,destruction
-ABAP Objects,data variable type ref to class . create object variable «exporting parameter = argument».[1],[2][3]
-APL (Dyalog),variable??NEW class «parameters»,?EX 'variable'
-C++ (STL),class variable«(parameters)»; or class *variable = new class«(parameters)»;,delete pointer;
-C#,class variable = new class(parameters);,variable.Dispose();[3]
-Java,,[3]
-D,,destroy(variable);
-eC,"class «instance handle» { «properties/data members assignments, instance method overrides» }",delete instance handle;
-Objective-C (Cocoa),class *variable = [[class alloc ] init]; or class *variable = [[class alloc ] initWithFoo:parameter «bar:parameter ...»];,[variable release];
-Swift,let variable = class(parameters),
-Python,variable = class(parameters),del variable[3] (Normally not needed)
-Visual Basic .NET,Dim variable As New class(parameters),variable.Dispose()[3]
-Xojo,Dim variable As New class(parameters),variable = Nil
-Eiffel,create variable or create «{TYPE}» variable.make_foo «(parameters)» or variable := create {TYPE} or variable := create {TYPE}.make_foo «(parameters)»,[3]
-PHP,$variable = new class«(parameters)»;,unset($variable);[3]
-Perl 5,«my »$variable = class->new«(parameters)»;,undef($variable);
-Raku,«my »$variable = class.new«(parameters)»;,$variable.undefine;
-Ruby,variable = class.new«(parameters)»,[3]
-Windows PowerShell,$variable = New-Object «-TypeName» class ««-ArgumentList» parameters»,Remove-Variable «-Name» variable
-OCaml,let variable = new class «parameters» or let variable = object members end[4],[3]
-F#,let variable = «new »class(«parameters»),
-Smalltalk,"The class is an Object. Just send a message to a class, usually #new or #new:, and many others, for example: Point x: 10 y: 20.
-Array with: -1 with: 3 with: 2.",
-JavaScript,"var variable = new class«(parameters)» or var variable = { «key1: value1«, key2: value2 ...»»}",[3]
-Object Pascal (Delphi),ClassVar := ClassType.ConstructorName(parameters);,ClassVar.Free;
-Scala,"val obj = new Object // no parameters
-val obj = new Object(arg0, arg1, arg2...)
-val obj = Object(arg0, arg1, arg2...) // case class
-val obj = new Object(arg0, arg1, param1 = value1, ...) // named parameters",[3]
-COBOL,INVOKE class "NEW" RETURNING variable or MOVE class::"NEW" TO variable,
-Cobra,variable «as class» = class(parameters),variable.dispose
-ISLISP,(setq variable (create (class <some-class> [:field-1 value-1 [:field-2 value-2] ..]))),[3]
-=======
-,public,private,protected,friend
-ABAP Objects,public section.[21] data field type type.,private section.[21] data field type type.,protected section.[21] data field type type.,[22]
-APL (Dyalog),:Field Public field «? value»,:Field «Private» field «? value»,,
-C++ (STL),public: type field;,private: type field;,protected: type field;,[23]
-C#,public type field «= value»;,private type field «= value»;,protected type field «= value»;,internal type field «= value»;
-D,,,,package type field «= value»;
-Java,,,protected type field «= value»;,type field «= value»;
-eC,public type field;,private type field;,,
-Eiffel,feature field: TYPE,feature {NONE} field: TYPE,feature {current_class} field: TYPE,feature {FRIEND} field: TYPE
-Objective-C,@public type field;,@private type field;,@protected type field;,@package type field;
-Swift,N/A,,,
-Smalltalk,N/A,,[24],N/A
-Python,self.field = value[25],N/A[26],N/A,
-Visual Basic .NET,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,Friend field As type «= value»
-Xojo,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,N/A
-PHP,public $field «= value»;,private $field «= value»;,protected $field «= value»;,
-Perl,$self->{field} = value;[25],N/A,,
-Raku,has« type »$.field« is rw»,has« type »$!field,N/A,
-Ruby,N/A,,@field = value[25],
-Windows PowerShell,Add-Member «-MemberType »NoteProperty «-Name »Bar «-Value »value -InputObject variable,N/A,,
-OCaml,N/A,,val «mutable» field = value,N/A
-F#,N/A,let «mutable» field = value,N/A,
-JavaScript,this.field = value this["field"] = value[25],,,
-COBOL,N/A,level-number field clauses.[27],N/A,N/A
-Cobra,var field «as type» «= value»,var __field «as type» «= value»,var _field «as type» «= value»,
-ISLISP,(field :initform value :accessor accessor-name :initarg keyword),,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,object member,,,class member,namespace member
+,method,field,property,,
+ABAP Objects,x->method(«parameters»).[39],x->field,N/A,x=>field or x=>method(«parameters[39]»).,N/A
+C++ (STL),x.method(parameters) or ptr->method(parameters),x.field or ptr->field,,cls::member,ns::member
+Objective-C,[x method«:parameter «bar:parameter ...»»],x->field,x.property (2.0 only) or [x property],[cls method«:parameter «bar:parameter ...»»],
+Smalltalk,x method«:parameter «bar:parameter ...»»,N/A,,cls method«:parameter «bar:parameter ...»»,
+Swift,x.method(parameters),,x.property,cls.member,
+APL (Dyalog),left argument» x.method «right argument(s)»,x.field,x.property,cls.member,ns.member
+C#,x.method(parameters),,,,
+Java,,,N/A,,
+D,,,x.property,,
+Python,,,,,
+Visual Basic .NET,,,,,
+Xojo,,,,,
+Windows PowerShell,,,,[cls]::member,
+F#,,N/A,,cls.member,
+eC,x.method«(parameters)»,x.field,x.property,cls::member,ns::member
+Eiffel,x.method«(parameters)»,x.field,,{cls}.member,N/A
+Ruby,,N/A,x.property,cls.member,
+PHP,x->method(parameters),x->field,x->property,cls::member,ns\member
+Perl,x->method«(parameters)»,x->{field},,cls->method«(parameters)»,ns::member
+Raku,x.method«(parameters)» or x!method«(parameters)»,x.field or x!field,,cls.method«(parameters)» or cls!method«(parameters)»,ns::member
+OCaml,x#method «parameters»,N/A,,,
+JavaScript,x.method(parameters) x["method"](parameters),x.field x["field"],x.property x["property"],cls.member cls["member"],N/A
+COBOL,INVOKE x "method" «USING parameters» «RETURNING result» or x::"method"«(«parameters»)»,N/A,property OF x,INVOKE cls "method" «USING parameters» «RETURNING result» or cls::"method"«(«parameters»)» or property OF cls,N/A
+Cobra,x.method«(parameters)»,x.field,x.property,cls.member,ns.member

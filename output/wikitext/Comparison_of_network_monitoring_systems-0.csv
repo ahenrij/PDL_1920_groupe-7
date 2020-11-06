@@ -24,14 +24,12 @@ Octopussy,,,,,,,,,,,,Full control,,,"Perl, ASP",MySQL,,,,,2017-06-03,1.0.16
 op5 Monitor,,,,,,,,,,,,,,Via plugin,"C, PHP","Flat file, SQL","Limited free, Commercial",,,,Monthly,7.3.0
 OpenKBM,,,,,,,,,,,,,,,,Proprietary with JDBC support,Commercial,,,,,
 OpenNMS,,,,,,,,,,,,Full Control,,,Java,"JRobin / RRDTool / Apache Cassandra, PostgreSQL",AGPLv3,,,,2019-09-26,25.0.0
-Opmantek NMIS,,,,,,,,,,Full Control,,,,,Perl,"MongoDB, RRDtool","GPL, Commercial",,,,2020-06,8.7.0 9.1.0
 OPNET's AppResponse Xpert,,,,,,,,,,,,"Viewing, Acknowledging, Reporting",,,,,Commercial,,,,,
 Opsview,,,,,,,,,,,,Full Control,,,"Perl, C, ExtJS",SQL,Commercial,,,,2019-08-07,6.2
 OSI NetExpert,,,,,,,,,,,,,,,"Java, C++",Oracle,Commercial,,,,2013-04,10.0
 PA Server Monitor,,,,,,,,,,,,"Viewing, Reporting",,,C++,"SQLite, Microsoft SQL Server",Commercial,,,,2014-07,5.5
 PacketTrap,,,,,,,,,,,,"Viewing, Reporting",,,,SQL,Commercial,,,,,
 Pandora FMS,,,,,,,,,,,,Full Control,,,"Perl, PHP, C++, JavaScript","MySQL, Oracle","GPLv2, Commercial",,,,2017-07,7.0 NG 707
-PathSolutions TotalView,,,,,,,,,,,,,,,Windows,SQLite,Commercial,,,,2018-06-01,9.01
 Performance Co-Pilot,,,,,,"Optional, Limited",,,,,,Viewing,,,"C Perl, Python, POSIX, MinGW",Flat file,"GPL, LGPL",,,,2016-11-15,3.11.6
 PRTG,,,,,,,,,,,,,,,Windows,Flat file,"Limited free, Commercial",,,,2019-05-15,19.2.50
 ScienceLogic,,,,,,,,,,,,Full Control,,,Python,MySQL,Commercial,,,,,

@@ -1,59 +1,10 @@
-<<<<<<< HEAD
-Research Networking Tool,h-index,Citation count,Altmetrics,SNIP and SJR,Journal Impact Factor*,Other,Comment
-Academic Room,,,,,,,
-Activity Insight,Yes,Yes,Yes,Yes,Yes,,
-C-IKNOW,,,,,,,
-PROFILES by Mentis® (formerly Collaborative Partnership / Profile System),Yes,Yes,Yes,Yes,Yes,,
-Community Academic Profiles - CAP,,,,,,,
-Converis,Yes,Yes,Yes Can integrate with altmetric data feed,No,Yes,"Category Normalized Citation Impact, Journal Normalized Citation Impact, Percentile in Category, Highly Cited Paper, Hot Paper, International Collaboration, Institutional Collaboration, Industry Collaboration and Open Access",
-CurvitaTM Profile Manager,,,,,,,
-CUSP - Columbia University Scientific Profiles,,,,,,,
-Digital Vita,,,,,,,
-Elsevier's Pure (integrated with SciVal),Yes,Yes,Yes Altmetric and PlumX,Yes,No,"Field-weighted Citation Impact, Number of Authors, CiteScore",
-Elsevier's SciVal,Yes,Yes,Yes Views data from ScienceDirect and Scopus,Yes,No,"20+ indicators ranging from h, g & m indices, to Publications in Top Journal Percentiles, Field-Weighted Citation Impact, Academic-Corporate Collaboration Impact & Views per Publication",
-Epernicus Solutions & Epernicus Network,,,,,,,
-ERIM Member Profile System (ERIM MIS),,,,,,,
-Esploro,YesPlanned,Yes integrated with external tools,Yes,Yes planned,Yes planned,Multiple research-related indicators to measure research outputs usage and impact,
-EUREKA!TM Enhancing Student Research,,,,,,,
-Expertise @ Maryland,,,,,,,
-Faculty Profile System,,,,,,,
-Faculty Research Information Profile (FRIP),,,,,,,
-Faculty Scholarly Productivity Index,,,,,,,
-GENIUS,,,,,,,
-Google Scholar,Yes,,,,,,
-HUBzero,,,,,,,
-iamResearcher,,,,,,,
-iAMscientist,,,,,,,
-i2iConnect,,,,,,,
-InCites,Yes,Yes,Yes Recorded Future partnership provides customized newsfeed and instition activity from web content,No,Yes,,
-INDURE,,,,,,,
-LatticeGrid,,,,,,,
-Lattes Database,,,,,,,
-LinkedIn,No,No,None,,,,
-Life Science Network,No,No,"Yes (views counts, recommendations, rating scores calculated from anonymous and non-anonymous contributions)",No,No (but journals can be entered into the database and their IF indicated),,
-Loki,,,,,,,
-Lyterati,,,,,,,
-McCormick Collaboration Visualization Tool,,,,,,,
-MizzouLinks,,,,,,,
-MyScienceWork,,,,,,,
-OSU:pro,,,,,,,
-Pivot,,,,,,,
-Profiles,,,,,,,
-ReachNC,Yes,,,,,,
-Research Accelerator,,,,,,,
-ResearcherID,Yes,Yes,,,,,
-SciENcv,,,,,,,
-Symplectic Elements,Yes,Yes,Yes,Yes,Yes,,
-VIVO,,,Yes,,,,
-Yaffle,,,,,,,
-=======
 Research Networking Tool,Link to Product Page,Developer/Owner,Open Source,Adopters
 Activity Insight,Activity Insight[6],Digital Measures[7],No,Hundreds of major research institutions around the world
 C-IKNOW[8][9],C-IKNOW,Science of Networks in Communities (SONIC) - Northwestern University,Yes,"National Cancer Institute, National Science Foundation"
 PROFILES by Mentis (formerly Collaborative Partnership / Profile System),PROFILES by Mentis][10],"Inknowledge, Inc (previously University of Texas at Arlington)",No (Profiles is available in a free forever plan),"UT Arlington, UT Pan American, University of North Texas Health Science Center, UT El Paso, UT San Antonio, UT Tyler, UT Health Science Center, University of North Texas (formerly), UT Dallas, UT Health Center at Tyler, Texas Christian University, Gulf Coast Consortia: Rice University, Baylor College of Medicine and several others)"
 Community Academic Profiles - CAP,Community Academic Profiles,Stanford University,No,Stanford University
 Converis,Converis,Clarivate Analytics,No,"Several universities, governments and funders across North and South America, Europe, Middle East, North Africa, Sub Saharan Africa and Asia."
-CurvitaTM Profile Manager,Curvita Profile Manager,SciMed Solutions,No,"University of North Carolina, University of Virginia, Duke University"
+Curvita Profile Manager,Curvita Profile Manager,SciMed Solutions,No,"University of North Carolina, University of Virginia, Duke University"
 CUSP - Columbia University Scientific Profiles,CUSP,Columbia University,No,Columbia University
 Digital Vita,DigitalVita,Center for Dental Informatics - University of Pittsburgh,Yes,"University of Pittsburgh, Pitt Health Sciences Center"
 Dimensions,Dimensions,Digital Science,No,"University of Michigan, University of Massachusetts - Lowell, University of California San Diego. See case studies."
@@ -63,7 +14,7 @@ Epernicus Solutions & Epernicus Network,Epernicus,Epernicus,No (but Epernicus Ne
 Epistemio,Epistemio,Epistemio,No,N/A (platform is directed toward individual researcher use)
 ERIM Member Profile System (ERIM MIS),People ERIM People profile system,"Erasmus Research Institute of Management, Erasmus University Rotterdam, Netherlands",No,Erasmus University
 Esploro,Esploro,Ex Libris,No,> 10 in early adopter program; Ex-Libris has a large presence in the higher Education community
-EUREKA!TM Enhancing Student Research,EUREKA,University of Texas at Austin (UTA),No,University of Texas at Austin
+EUREKA! Enhancing Student Research,EUREKA,University of Texas at Austin (UTA),No,University of Texas at Austin
 Expertise @ Maryland,UM Experts,University of Maryland,Yes (will be),University of Maryland College Park
 Faculty Profile System,UC Irvine Faculty Profile System,University of California Irvine,No,UC Irvine
 Faculty Profiles System,Stony Brook University Faculty Profiles System,Stony Brook University,No,Stony Brook University
@@ -104,4 +55,3 @@ UNIWeb,UNIWeb,Proximify,No,"University of Ottawa, McGill University, Dalhousie U
 VIVO[1][15],VIVO,Duraspace,Yes[16],"Cornell University, University of Florida, Washington University in St. Louis, Weill Cornell Medical College, Indiana University, Ponce School of Medicine, Scripps Research Institute, Duke University, University of Colorado at Boulder, Northwestern University, University of Nebraska, University of Melbourne, Griffith University, Chinese Academy of Sciences, etc. There are currently over 140 VIVO implementations in the United States and international VIVO projects in over 25 countries.[17]"
 WorkWeb,WebWork at archive.org,Columbia University,No,Columbia University
 Yaffle[18][19],Yaffle,Memorial University of Newfoundland,Yes,Memorial University of Newfoundland
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

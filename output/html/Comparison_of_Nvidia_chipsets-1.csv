@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-Model,Code Name,Release Date,Processors Supported,Fabrication process (nm),FSB/HT Frequency (MHz),AGP,PCI,USB,PATA,SATA,LAN,Sound,Features,Notes
-nForce3 150,CK8,"September 23, 2003","Athlon 64, Sempron 64 Socket 939, 754",150 nm,HT 600 MHz,AGP 8×,6 Ports,6 Ports Rev 2.0,2 Ports UDMA 133,No,100 Mbit/s,AC'97 2.1,,
-nForce3 250,CK8,"March, 2004","Athlon 64, Sempron 64 Socket 939, 754",150 nm,HT 800 MHz,AGP 8×,6 Ports,8 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 1.5 Gbit/s,100 Mbit/s,AC'97 2.3,,"GB variant includes gigabit LAN While the SATA controller supports four drives, the integrated SATA PHY only supports two drives; an external SATA PHY is required to support the other two"
-nForce3 Ultra,CK8,"June 1, 2004","Athlon 64 FX, Athlon 64 X2, Athlon 64, Sempron 64 Socket 939, 754",150 nm,HT 1 GHz,AGP 8×,6 Ports,8 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 1.5 Gbit/s,1000 Mbit/s,AC'97 2.3,,"While the SATA controller supports four drives, the integrated SATA PHY only supports two drives; an external SATA PHY is required to support the other two"
-=======
-Model,Code Name,Release Date,Processors Supported,Fab (nm),HyperTransport (MHz),PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound,Features,Notes
-GeForce 6100 + nForce 400,MCP61,2006,"Athlon 64 X2, Athlon 64, Sempron 64 Socket AM2, 939",90 nm,HT 1 GHz,1.0a 2 lanes,No,6 Ports,8 Ports Rev 2.0,1 Ports UDMA 133,2 Ports 3.0Gbit/s,100 Mbit/s,HDA,Onboard GeForce 6100,
-GeForce 6100 + nForce 405,MCP61,2006,"Athlon 64 X2, Athlon 64, Sempron 64 Socket AM2, 939",,HT 1 GHz,1.0a 10 lanes,No,6 Ports,8 Ports Rev 2.0,1 Ports UDMA 133,2 Ports 3.0Gbit/s,100 Mbit/s,HDA,Onboard GeForce 6100,
-GeForce 6150 + nForce 410,C51G + MCP51,2005,"Athlon 64 X2, Athlon 64, Sempron 64 Socket AM2, 939, 754",,HT 1 GHz (800 MHz s754),1.0a 18 lanes,No,6 Ports,8 Ports Rev 2.0,2 Ports UDMA 133,2 Ports 3.0Gbit/s,100 Mbit/s,HDA,Onboard GeForce 6150,
-GeForce 6150 + nForce 430,C51G + MCP51,2005,"Athlon 64 X2, Athlon 64, Sempron 64 Socket AM2, 939",,HT 1 GHz,1.0a 18 lanes,No,6 Ports,8 Ports Rev 2.0,2 Ports UDMA 133,4 Ports 3.0Gbit/s,1000 Mbit/s,HDA,Onboard GeForce 6150,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Code Name,Release Date,CPU Socket,Processors Supported,Fab (nm),HyperTransport (MT/s),PCI-Express,SLI,PCI,USB,PATA,SATA,LAN,Sound,Graphic
+nForce 630a,MCP68,"September, 2007",Socket AM2,Athlon 64 Athlon 64 X2 Athlon 64 FX Opteron Sempron Phenom Phenom II,,1.0 2000,1.1 20 lanes,No,5 Ports,12 Ports Rev 2.0,1 Ports UDMA 133,4 Ports 3.0Gbit/s,1000 Mbit/s,HDA,GeForce 7025/7050
+nForce 680a SLI,2*MCP55,"December 6, 2006",Socket F,AMD Dual Dual-core,,2 × 1.0 2× 2000,1.0a 56 lanes,x16+x16+x8+x8,5 Ports,20 Ports Rev 2.0,2 Ports UDMA 133,12 Ports 3.0Gbit/s,4 × 1000 Mbit/s,HDA,none

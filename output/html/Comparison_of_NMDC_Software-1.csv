@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-NMDC Client,FOSS,Software license,Active,Windows,Linux,Mac OS X,Other OS,GUI,CLI,Other UI,Programming language,Based on
-MLDonkey,Yes,GNU GPL,No,Yes,Yes,Yes,No,Yes,Yes,WebUI,"OCaml, C, assembly",
-Shareaza,Yes,GNU GPL,Yes,Yes,No,No,No,Yes,Unknown,Unknown,C++,
-NeoModus Direct Connect,No,Proprietary Freeware,No,Yes,Yes,No,No,Yes,No,No,"Visual Basic, C++",
-ShakesPeer,Yes,GNU GPL,No,No,No,Yes,No,Yes,No,No,C,
-Valknut,Yes,GNU GPL,No,No,Yes,No,FreeBSD,Yes,No,No,C++,
-DCTC,Yes,GNU GPL,No,,,,,No,No,Yes,C++,
-DC#,Yes,GNU GPL,No,Yes,No,No,No,Yes,No,No,C#,
-LDCC,Yes,GNU GPLv2,No,No,Yes,No,No,No,No,Yes,C,
-DCDM++,Yes,GNU GPL,No,Yes,No,No,No,Yes,No,No,C++,DC++
-fulDC,Yes,GNU GPL,No,Yes,No,No,No,Yes,No,No,C++,DC++
-RevConnect,Yes,GNU GPL,No,Yes,No,No,No,Yes,No,No,C++,DC++
-CzDC,Yes,GNU GPL,No,Yes,No,No,No,Yes,No,No,C++,DC++
-EiskaltDC,Yes,GNU GPL,No,No,Yes,Yes,FreeBSD,Yes,No,No,C++,Valknut
-ncdc,Yes,MIT Licence,Yes,No,Yes,Yes,FreeBSD,No,Yes,No,C,
-NMDC Client,FOSS,Software license,Active,Windows,Linux,Mac OS X,Other OS,GUI,CLI,Other UI,Programming language,Based on
-=======
 NMDC[1] hub,FOSS,Software license,Active,Latest version (release date),GUI,CLI,Other,IPv6 support,Programming language,Based on,Notes
 UFOHub,No,Proprietary Freeware,Yes,8.19.9 (2019-Sep-05),Yes,No,Yes,Yes,Unknown,,
 Verlihub,Yes,GNU GPL,Yes,1.2.0.0 (2019-03-10),No,Yes,Unknown,No,"C++, Lua, Python, Perl",,
@@ -36,4 +18,3 @@ YnHub,No,Proprietary Freeware,Yes,1.0364.126 (2016-07-15),Yes,No,No,No,Delphi,,
 LamaHub,Yes,GNU GPL,No,0.0.6.3 (2010-04-25),Unknown,Unknown,Unknown,No,C,,
 DC Sharp Hub,Yes,GNU GPL,No,3.0.4 beta (2004-09-06),Unknown,Unknown,Unknown,No,C#,,
 NMDC hub,FOSS,Software license,Active,Latest version (release date),GUI,CLI,Other,IPv6 support,Programming language,Based on,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

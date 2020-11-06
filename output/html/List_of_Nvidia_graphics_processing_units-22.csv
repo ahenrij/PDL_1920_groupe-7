@@ -1,13 +1,10 @@
-<<<<<<< HEAD
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[200][201],,Supported API version,,TBP (Watts),Notes
 ,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
-Quadro FX 560,G73GL,90,PCIe ×16,350,350,1200,5:12:12:8,2.8,4.2,128,19.2,GDDR3,128,,,9.0c,2.1,30,
-Quadro FX 46002,G80,,,500,1200,1400,96:24:24,12,24,768,67.2,,384,345,-,10.0,3.3,134,"Stereo display, SLI, Genlock"
-Quadro FX 4600 SDI2,,,,,,,96:24:24,,,,,,,345,,,,154,
-Quadro FX 56002,,,PCIe 2.0 ×16,600,1350,1600,128:32:24,14.4,38.4,1536,76.8,,,518.4,,,,171,
-=======
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[198][199],,Supported API version,,TBP (Watts)
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,
-Quadro FX 330,NV37GL,150,PCIe ×16,250,250,400,2:4:4:2,1,1,64,3.2,DDR,128,,,9.0,2.0,21
-Quadro FX 1300,NV38,130,,350,350,550,3:4:8:4,2.8,2.8,128,17.6,,256,,2.1,,55,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Quadro FX 370,G84,80,PCIe ×16,360,720,1000,16:8:4,1.44,2.88,256,6.4,DDR2,64,34.56,-,10.0,3.3,35,
+Quadro FX 370 LP,G86,,,540,1080,,8:8:4,2.16,4.32,,8,,,25.92,,,,25,DMS-59 for two Single Link DVI
+Quadro FX 470,MCP7A-U,65,PCIe 2.0 ×16 (Integrated),580,1400,800 (system memory),16:8:4,2.32,4.64,Up to 256MB from system memory.,12.8,,128,67.2,,,,30,based on GeForce 9400 mGPU
+Quadro FX 570,G84GL,80,PCIe ×16,460,920,800,16:8:8,3.68,3.68,256,,,,44.1,,,,38,
+Quadro FX 1700,G84GL,,,,,,32:16:8,,7.36,,,,,88.32,,,,42,
+Quadro FX 3700,G92,65,PCIe 2.0 ×16,500,1250,1600,112:56:16,8,28,,51.2,GDDR3,256,420,,,,78,"Stereo display, SLI"
+Quadro FX 4700X2,2× G92,,,,,,2× 128:64:16,2× 8,2× 32,2× 1024,2× 51.2,,2× 256,2× 480,,,,226,
+Quadro VX 200,G92,,,450,1125,,112:56:16,8,28,512,51.2,,256,420,,,,75,"2× Dual-link DVI, S-Video, optimised for Autodesk AutoCAD"

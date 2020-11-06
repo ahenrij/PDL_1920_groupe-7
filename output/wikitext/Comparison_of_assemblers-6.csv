@@ -1,21 +1,18 @@
-<<<<<<< HEAD
-Assembler,Developer,FOSS,License,Instruction set,Host platform
-IBM 1410/7010 OS Autocoder,IBM,,IBM 1410 IBM 7010,IBM 1410/7010 Operating System,
-7070/7074 Autocoder,IBM,,IBM 7070/7072/7074,-,7080 Autocoder III
-Symbolic Coding and Assembly Technique (SCAT),Share,,IBM 709 7090/7094/7094 II,SHARE Operating System (SOS),
-FORTRAN II Assembly Program (FAP),IBM,,IBM 709 7090/7094/7094 II,IBM 7090/94 IBSYS,
-Macro Assembly Program (MAP),IBM,,IBM 709 IBM 7040/7044 7090/7094/7094 II,IBM IBSYS/IBJOB,
-BAL,,,,IBM System/360,IBM BPS/360
-HLASM,,,,z/Architecture,numerous
-IBM Assembler D,,,,IBM System/360,IBM DOS/360
-IBM Assembler E,,,,IBM System/360,IBM OS/360
-IBM Assembler F,,,,IBM System/360,IBM OS/360 and CP-67/CMS
-IBM Assembler H,,,,IBM System/360 and System/370,IBM OS/360 and successors
-IBM Assembler XF,,,,IBM System/370,numerous
-PL360,,,,IBM System/360,IBM OS/360
-=======
-Assembler,Developer,FOSS,License,Instruction set,Host platform,Development active
-ASM-One Macro Assembler,Rune Gram-Madsen,,,Motorola 680x0,Commodore Amiga,
-vasm,"Volker Barthelmann, Frank Wille",,,Motorola 680x0,various,
-rmac,"James Hammons, George Nakos, Landon Dyer",,,MOS Technology 6502,"Linux, Windows, macOS",
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Assembler,Developer,Operating system,FOSS,License,Development active
+A86/A386,Eric Isaacson,"Windows, DOS",,,
+ACK,"Andrew Tanenbaum, Ceriel Jacobs","Linux, MINIX, Unix-like",,BSD since 2003,1985-? ACK
+IBM ALP,IBM,OS/2,,,
+AT&T,AT&T,Unix System V,,,1985-?ATT
+Digital Research ASM86,Digital Research,"CP/M-86, DOS, Intel's ISIS and iRMX",,,1978-1992
+FASM,Tomasz Grysztar,"Windows, DOS, Linux, Unix-like",,BSD with added Copyleft,
+GAS,GNU Project,"Unix-like, Windows, DOS, OS/2",,,Since 1987
+HLA,Randall Hyde,"Windows, Linux, FreeBSD, macOS",,Public domain,
+"Open Watcom Assembler (HJWASM a.k.a. UASM, JWASM, WASM)",Watcom,"Linux, Windows, DOS, FreeBSD, OS/2","approved by OSI, but not by FSF",Sybase Open Watcom Public,
+MASM,Microsoft,"Windows, DOS, OS/2",,Microsoft EULA,Since 1981MASM
+NASM,"Simon Tatham, Julian Hall, Hans Peter Anvin, et al.","Linux, macOS, Windows, DOS, OS/2",,BSD,
+Tim Paterson's ASM,Tim Paterson,"86-DOS, DOS DEBUG",,,1979-1983
+TASM,Borland,"Windows, DOS",,,TASM1TASM2
+TCCASM,Fabrice Bellard,"Unix-like, Windows",,LGPL,
+vasm,,various,,,
+Xenix,Microsoft,Xenix 2.3 and 3.0 (before 1985),,,1982-1984
+Yasm[1],,"Windows, DOS, Linux, Unix-like",,BSD,YASM

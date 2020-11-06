@@ -1,20 +1,8 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Webpages from Common Crawl 2012,Large collection of webpages and how they are connected via hyperlinks,None.,3.5B,Text,"clustering, classification",2013,[448],V. Granville
-Internet Advertisements Dataset,Dataset for predicting if a given image is an advertisement or not.,Features encode geometry of ads and phrases occurring in the URL.,3279,Text,Classification,1998,[449][450],N. Kushmerick
-Internet Usage Dataset,General demographics of internet users.,None.,"10,104",Text,"Classification, clustering",1999,[451],D. Cook
-URL Dataset,120 days of URL data from a large conference.,Many features of each URL are given.,"2,396,130",Text,Classification,2009,[452][453],J. Ma
-Phishing Websites Dataset,Dataset of phishing websites.,Many features of each site are given.,2456,Text,Classification,2015,[454],R. Mustafa et al.
-Online Retail Dataset,Online transactions for a UK online retailer.,Details of each transaction given.,"541,909",Text,"Classification, clustering",2015,[455],D. Chen
-Freebase Simple Topic Dump,Freebase is an online effort to structure all human knowledge.,Topics from Freebase have been extracted.,large,Text,"Classification, clustering",2011,[456][457],Freebase
-Farm Ads Dataset,The text of farm ads from websites. Binary approval or disapproval by content owners is given.,SVMlight sparse vectors of text words in ads calculated.,4143,Text,Classification,2011,[458][459],C. Masterharm et al.
-=======
-Amazon reviews,US product reviews from Amazon.com.,None.,~ 82M,Text,"Classification, sentiment analysis",2015,[155],McAuley et al.
-OpinRank Review Dataset,Reviews of cars and hotels from Edmunds.com and TripAdvisor respectively.,None.,"42,230 / ~259,000 respectively",Text,"Sentiment analysis, clustering",2011,[156][157],K. Ganesan et al.
-MovieLens,"22,000,000 ratings and 580,000 tags applied to 33,000 movies by 240,000 users.",None.,~ 22M,Text,"Regression, clustering, classification",2016,[158],GroupLens Research
-Yahoo! Music User Ratings of Musical Artists,Over 10M ratings of artists by Yahoo users.,None described.,~ 10M,Text,"Clustering, regression",2004,[159][160],Yahoo!
-Car Evaluation Data Set,Car properties and their overall acceptability.,Six categorical features given.,1728,Text,Classification,1997,[161][162],M. Bohanec
-YouTube Comedy Slam Preference Dataset,User vote data for pairs of videos shown on YouTube. Users voted on funnier videos.,Video metadata given.,"1,138,562",Text,Classification,2012,[163][164],Google
-Skytrax User Reviews Dataset,"User reviews of airlines, airports, seats, and lounges from Skytrax.",Ratings are fine-grain and include many aspects of airport experience.,41396,Text,"Classification, regression",2015,[165],Q. Nguyen
-Teaching Assistant Evaluation Dataset,Teaching assistant reviews.,"Features of each instance such as class, class size, and instructor are given.",151,Text,Classification,1997,[166][167],W. Loh et al.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Dow Jones Index,Weekly data of stocks from the first and second quarters of 2011.,Calculated values included such as percentage change and a lags.,750,Comma separated values,"Classification, regression, Time series",2014,[418][419],M. Brown et al.
+Statlog (Australian Credit Approval),Credit card applications either accepted or rejected and attributes about the application.,Attribute names are removed as well as identifying information. Factors have been relabeled.,690,Comma separated values,Classification,1987,[420][421],R. Quinlan
+eBay auction data,Auction data from various eBay.com objects over various length auctions,"Contains all bids, bidderID, bid times, and opening prices.",~ 550,Text,"Regression, classification",2012,[422][423],G. Shmueli et al.
+Statlog (German Credit Data),Binary credit classification into "good" or "bad" with many features,Various financial features of each person are given.,690,Text,Classification,1994,[424],H. Hofmann
+Bank Marketing Dataset,Data from a large marketing campaign carried out by a large bank .,Many attributes of the clients contacted are given. If the client subscribed to the bank is also given.,"45,211",Text,Classification,2012,[425][426],S. Moro et al.
+Istanbul Stock Exchange Dataset,Several stock indexes tracked for almost two years.,None.,536,Text,"Classification, regression",2013,[427][428],O. Akbilgic
+Default of Credit Card Clients,Credit default data for Taiwanese creditors.,Various features about each account are given.,"30,000",Text,Classification,2016,[429][430],I. Yeh

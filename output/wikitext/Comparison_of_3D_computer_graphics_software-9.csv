@@ -1,49 +1,7 @@
-<<<<<<< HEAD
-,Imports,,,,Exports,,,,
-,3D,3D game,CAD and GIS,Web and mobile[10],3D,3D game,3D renderers,CAD and GIS,Web and mobile[10]
-3ds Max,"FBX, 3DS, PRJ, ABC, AI, COLLADA, HTR, OBJ, SHP, SKP, STL, TRC, VRML",Openflight FLT,"DEM, XML, DDF, DWG, DXF, IGE, IGS, IGES, IPT, WIRE, IAM, LS, VW, LP, SAT, Catia V4/V5, JT, ProE, RVT, PRT, SolidWorks[11], STEP, WIRE",,"FBX, 3DS, AI, ASE, COLLADA, HTR, OBJ, STL",Openflight FLT,,"ATR, BLK, DF, DWG, DXF, IGS, LAY, LP, SAT, VW","M3G, VRML97"
-AC3D,"3DS, AC3D, COLLADA, Lightwave, Massive, Milkshape Ascii, OBJ, OFF, Pointfield, Points, STL (ascii), Terragen, Triangle, Vector","Quake BSP, Quake MD2, Renderware, SMF","DXF, LDraw (Lego), SOF Airfoil",VRML 1.0[12],"3DS, 3D Studio ASE, AC3D, Dive, DVS, DXF, COLLADA, Lightwave, Massive, Milkshape Ascii, OBJ, STL (ascii), Triangle","DirectX, Ogre, Quake MD2, Quake Map, SMF, Unreal Tournament","POV-Ray, Renderman","Inventor, LDraw (Lego)","VRML 1.0, VRML 2.0, X3D[12]"
-Blender,"COLLADA, Alembic, FBX, BVH, PLY, OBJ, STL, SVG",,DXF,"X3D, glTF","COLLADA, Alembic, FBX, BVH, PLY, OBJ, STL, SVG, PC2",,POV-Ray,DXF,"X3D, glTF"
-Electric Image Animation System,"3DS, FBX, OBJ, LWO, MDD",,DXF,,"3DS, OBJ, LWO",,,DXF,
-Cinema 4D,"FBX, OBJ, 3DS, QD3D, STL, DEM, LWO/LWS",,DXF,"VRML 1, VRML 2","FBX, OBJ, 3DS, QD3D, STL, W3D",,,DXF,"VRML 1, VRML 2"
-Clara.io,"FBX, OBJ, Collada, MD2, MD3, MD5, 3DS, STL, LWO, GEO, IRR, PLY, POV, SHP, XGL, ZGL, AC, BLEND, BVH, CSM, LWS",X,DXF,"VRML, Three.js","FBX, OBJ, Collada, STL",,,,"Three.js, Babylon.js"
-Cobalt,"3DS, AI, ASCII Text",,"ACIS SAT, CATIA v4, CCAD, CGM, CO (native), Drawing board, DWG/DXF, Facet, Grid Surface, IGS (IGES), Parasolid XT, Pro/E, Rhino 3DM, Spline, STP (STEP)",VRML,"AI, ASCII Text, RAW Triangle",,,"ACIS SAT, CATIA v4, CGM, CO (native), Drawing board, DWG/DXF, Facet, Grid Surface, IGS (IGES),Parasolid XT, PDF, Pro/E, STP (STEP)","Shockwave 3D, VRML"
-Houdini,?,,,,?,,,,
-IClone,"FBX, OBJ, BVH, SKP (via 3DXChange)",,,,"FBX, OBJ, BVH (via 3DXChange)",,,,
-Lightwave 3D,"3DS, COLLADA, FBX, OBJ, LWO, FBX, MD2, VideoScape",,DXF,"VRML, VRML97","3DS, COLLADA, FBX, OBJ, LWO, MD2",,,DXF,"VRML, VRML97"
-MakeHuman,N/A,,,,"COLLADA, FBX Export, MD5, MHX, OBJ, STL",Ogre3D,,,
-Maya,"Maya Ascii, Maya Binary, MEL, FBX, OBJ, STL",Openflight FLT,"DXF, IGES, StudioTools Wire",VRML2,"Maya Ascii, Maya Binary, Mel, FBX, OBJ, GE2, RTG",OpenFlight FLT,"Mental Ray, RIB","DXF, IGES, StudioTools Wire, Open Inventor2",VRML2
-Metasequoia,"3DS, COB (Caligari Object), LWO, OBJ, ROK (Rokkaku Dai?), SUF (DoGA CGA System)",RSD (PlayStation),DXF,,"3DS, COB (Caligari Object), LWO, OBJ, RDS (Ray Dream Studio), ROK (Rokkaku Dai?), SCE (SoftF/X Model), SUF (DoGA CGA System)","DirectX, RSD (PlayStation)","POV-Ray, RIB",DXF,VRML 1.0
-Modo,"LXO, LWO2, LWOB, FBX, 3DS, GEO, OBJ, COLLADA, MDD",,"DXF, SolidWorks[11]",,"LXO, LWO, FBX, PLT, GEO, OBJ, COLLADA",,,DXF,X3D
-Remo 3D,"3DC, 3DS, AC, Collada, FBX, LWO, LWS, MD2, OBJ, OpenSceneGraph,[13] P3D, PLY, STL, STA, SHP",X,"DW, DXF",,"3DS, AC, Collada, DOT, FBX, OBJ, OpenSceneGraph,[13] P3D, STL",,,,
-Shade,"OBJ, SketchUp, XML; (Pro) 3DS, BVH, COLLADA, LWO",,DXF,,"COLLADA, DXF, OBJ, XML; (Pro) 3DS, LWO","DirectX, Second Life Sculpted Prim, Blue Mars",RIB,,VRML 2.0?Flash (SWF)
-Softimage,?,,,,?,,,,
-Solid Edge,STL,,"IGES, STEP, DXF, JT, ACIS (SAT), ProE, SolidWorks[11], NX, SDRC, Microstation, Inventor, CATIA (V4/V5), Parasolid, Autocad, XML, MDS",,,,,"IGES, STEP, STL, EMS, JT, XGL, XML, DXF, Parasolid, CATIA (V4/V5), ACIS (SAT), Microstation, Autocad",PDF
-SketchUp Make,SKP,,"DEM, DDF[9], SKP+KMZ, 3DS[9]",,"COLLADA, SKP",,,SKP+KMZ[9],
-SketchUp Pro,"SKP, 3DS[9]",,"DWG, DXF, DEM, DDF[9], SKP+KMZ",,"COLLADA, SKP, EPS, EPX (removed v16+), 3DS, FBX, OBJ",dotXSI,,"DWG, DXF, SKP+KMZ","PDF, VRML"
-Wings3D,"3DS, AI, EPS, LWO, LXO, Nendo, OBJ, STL, SVG, Wings3D",,,,"3DS, COLLADA, LWO, LXO, Nendo, OBJ, STL, SVG, Wings3D","BZFlag, DirectX, Renderware","Kerkythea, POV-Ray",,VRML 2.0
-=======
-,Imports,Exports
-3ds Max,"BMP, Cineon, TGA, JPG, PNG, OpenEXR, Cineon, Radiance HDR, SGI, RLA, RPF, AVI, MPEG and QuickTime, GIF, TIFF, PSD, MOV, YUV, DDS",?
-Art of Illusion,"GIF, JPG, PNG, BMP, HDR, SVG","JPG, PNG, BMP, TIFF, HDR, QuickTime"
-AC3D,"GIF, JPG, PNG, BMP, DDS, PPM, Targa, TIFF","GIF, JPG, PNG, BMP, DDS, PPM, Targa, TIFF"
-Blender,"TGA, JPG, PNG, OpenEXR, DPX, Cineon, Radiance HDR, Iris, SGI Movie, IFF, AVI and QuickTime, GIF, TIFF, PSD, MOV","TGA, JPG, PNG, OpenEXR, DPX, Cineon, Radiance HDR, Iris, SGI Movie, IFF, AVI and QuickTime, GIF, TIFF, PSD, MOV"
-Electric Image Animation System,"TGA, JPG, PNG, BMP, Radiance HDR, AVI and QuickTime, TIFF, PSD, MOV","PNG, BMP, AVI and QuickTime GIF, TIFF, MOV"
-Cinema 4D,?,?
-Clara.io,"PNG, JPG",?
-Cobalt,"BMP, GIF, JPEG, PICT, PNG, PPM, XBM, XPM","BMP, GIF, JPEG, PICT, PNG, PPM, XBM, XPM"
-Houdini,?,?
-IClone,"JPG, BMP, GIF, TGA, PNG, AVI, WMV, MP3, WAV, popVideo","JPG, BMP, GIF, TGA, PNG, WMV, AVI, MP4, popVideo, FLV, iWidget"
-Lightwave 3D,"TGA, JPG, PNG, AI, EPS, BMP, IFF, Radiance HDR, AVI and QuickTime, GIF, TIFF, PSD, MOV, OpenEXR","TGA, JPG, PNG, BMP, Radiance HDR, IFF, AVI and QuickTime, GIF, TIFF, PSD, MOV, OpenEXR"
-MakeHuman,?,?
-Maya,"Ai, Aiff, Pix, AVI, Cineon, EPS, GIF, Jpeg, Swf, Maya IFF, Maya16 IFF, MacPaint, PSD, PNG, Quantel, Quickdraw, MOV, RLA, SVG, SGI, SGI16, SGI Movie, TGA, TIF, BMP, HDR","Maya IFF, AVI, QT, GIF, Softimage, RLA, BMP, TIF, SGI RGB, Alias PIX, Jpeg, EPS, Cineon, Quantel, TGA, Macpaint, PSD, PNG, Quickdraw, DDS"
-Metasequoia,?,?
-Modo,"TGA, BMP, FLX, GIF, HDR, HDR, JP2, JPG, JPEG, PNG, SGI, openEXR, EPS, AI, PSD","TGA, BMP, FLX, GIF, HDR, JP2, JPG, JPEG, PNG, TIF, openEXR, MOV, MWV, PSD"
-Remo 3D,"BMP, DDS, GIF, JPG, PNG, PNM, SGI (RGB), TGA, TIF","JPG, PNG, SGI (RGB), TIF, XPM"
-Shade,?,"QuickTime VR, Piranesi EPix"
-Softimage,?,?
-Solid Edge,?,?
-SketchUp Make,"JPG, PNG, TIF, TGA, BMP","JPG, PNG, TIF, BMP"
-SketchUp Pro,"JPG, PNG, TIF, TGA, BMP","JPG, PNG, TIF, BMP, MOV(on Mac), AVI (on Windows)[9]"
-Wings3D,?,?
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Application,Hard surface Modeling,,Sculpt Modeling,,,,Non-destructive Modeling,,,Patch Modeling -->,
+,Polygon Modeling,Subdivision Modeling,Base-mesh Creation,Sculpting,Hand Retopology,Automatic Retopology,Boolean,Bevel,Procedural,Single Patch,Multi-Patch -->
+Maya,,,(SOuP BMesh),,,2020 and later,,,,,
+3ds Max,,,(Form),Paint Deform,,,,,,,
+Blender,,,Skin Modifier,,,2.81 and later,,,stack only,,
+ZBrush,ZModeler,ZModeler,ZSphere and ZSketch,,,ZRemesher,4R8 and later,?,,,
+Curvy 3D,,,sketch-based,,?,?,?,?,,,

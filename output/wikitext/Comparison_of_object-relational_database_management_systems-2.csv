@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ,Type,Method,Type inheritance,Table inheritance
 CUBRID,,,,
 Oracle,,,,
@@ -6,11 +5,3 @@ OpenLink Virtuoso,,,,
 PostgreSQL,,,,
 Informix,,,,
 WakandaDB,,,,
-=======
-,Array,List,Set,Multiset,Object reference
-CUBRID,,,,,
-Oracle,,,,,
-OpenLink Virtuoso,,,,,
-PostgreSQL,,,,,
-Informix,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

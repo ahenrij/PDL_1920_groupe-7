@@ -1,37 +1,33 @@
-! exit block(break),continue,label,branch (goto),return value from generator
-Ada[1],exit «loop_name» «when condition»,,label:,goto label
-ALGOL 68,value exit; ...,do statements; skip exit; label: statements od,label: ...,go to label; ... goto label; ... label; ...
-APL,:Leave,:Continue,label:,?label or :GoTo label
-C (C99),break;,continue;,label:,goto label;
-Objective-C,,,,
-C++ (STL),,,,
-D,,,,
-C#,,,,
-Java,break «label»;,continue «label»;,,rowspan=2 
-JavaScript,,,,yield value«;»
-PHP,break «levels»;,continue «levels»;,,goto label;
-Perl,last «label»;,next «label»;,,
-Raku,,,,
-Go,break «label»,continue «label»,,goto label
-Swift,break «label»,continue «label»,,
-Bash shell,break «levels»,continue «levels»,,
-Common Lisp,(return) or (return-from block) or (loop-finish),,(tagbody tag<dl><dd><dl><dd>...</dd></dl>tag</dd></dl>...),(go tag)
-Scheme,,,,
-ISLISP,(return-from block),,(tagbody tag<dl><dd><dl><dd>...</dd></dl>tag</dd></dl>...),(go tag)
-Pascal(ISO),colspan=2 ,label:Pascal's declarations[a],goto label;,rowspan=4 
-Pascal(FPC),break;,,,continue;
-Visual Basic,"Exit blockAlternatively, for methods, Return",,label:,GoTo label
-Xojo,,Continue block,,
-Visual Basic .NET,,,,
-Python,break,continue,colspan=2 ,yield value
-RPG IV,LEAVE;,ITER;,,
-S-Lang,break;,continue;,,
-Fortran,EXIT,CYCLE,labelFortran label[b],GOTO label
-Ruby,break,next,,
-Windows PowerShell,break «label»,continue,,
-OCaml,rowspan=4 colspan=4 ,,,
-F#,,,,
-Standard ML,,,,
-Haskell (GHC),,,,
-COBOL,EXIT PERFORM or EXIT PARAGRAPH or EXIT SECTION or EXIT.,EXIT PERFORM CYCLE,label «SECTION».,GO TO label
-Ya,break «from where»; f.e. break for switch;,continue «to where»; f.e. continue for switch;,:label,goto :label;
+,Argument values,Argument counts,Program name / Script name
+Ada[1],Argument (n),Argument_Count,Command_Name
+C (C99),argv[n],argc,first argument
+Objective-C,,,
+C++,,,
+C#,args[n],args.Length,Assembly.GetEntryAssembly()<wbr/>.Location;
+Java,,args.length,
+D,,,first argument
+JavaScript Windows Script Host implementation,WScript.Arguments(n),WScript.Arguments.length,WScript.ScriptName or WScript.ScriptFullName
+Go,os.Args[n],len(os.Args),first argument
+RustRust args[a],std::env::args().nth(n) std::env::args_os().nth(n),std::env::args().count() std::env::args_os().count(),std::env::args().next() std::env::args_os().next()
+Swift,Process.arguments[n] or Process.unsafeArgv[n],Process.arguments.count or Process.argc,first argument
+Common Lisp,,,
+Scheme (R6RS),(list-ref (command-line) n),(length (command-line)),first argument
+ISLISP,,,
+Pascal,ParamStr(n),ParamCount,first argument
+Visual Basic,Commandunseparated[b],,App.Path
+Visual Basic .NET,CmdArgs(n),CmdArgs.Length,[Assembly].GetEntryAssembly().Location
+Xojo,System.CommandLine,(string parsing),Application.ExecutableFile.Name
+Python,sys.argv[n],len(sys.argv),first argument
+S-Lang,__argv[n],__argc,first argument
+Fortran,"DO i = 1,argc<dl><dd> CALL GET_COMMAND_ARGUMENT (i,argv(i)) </dd></dl> ENDDO",argc = COMMAND_ARGUMENT_COUNT (),"CALL GET_COMMAND_ARGUMENT (0,progname)"
+PHP,$argv[n],$argc,first argument
+Bash shell,"$n ($1, $2, $3, ...) $@ (all arguments)",$#,$0
+Perl,$ARGV[n],scalar(@ARGV),$0
+Raku,@*ARGS[n],@*ARGS.elems,$PROGRAM_NAME
+Ruby,ARGV[n],ARGV.size,$0
+Windows PowerShell,$args[n],$args.Length,$MyInvocation.MyCommand<wbr/>.Name
+OCaml,Sys.argv.(n),Array.length Sys.argv,first argument
+F#,args.[n],args.Length,Assembly.GetEntryAssembly()<wbr/>.Location
+Standard ML,"List.nth (CommandLine<wbr/>.arguments (), n)",length (CommandLine<wbr/>.arguments ()),CommandLine.name ()
+Haskell (GHC),lang=haskelldo { args <- System.getArgs; return length args !! n ,lang=haskelldo { args <- System.getArgs; return length args ,System.getProgName
+COBOL,COBOL Arguments[c],,

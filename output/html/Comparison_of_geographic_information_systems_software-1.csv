@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Name,Language,WMS,WFS,WFS-T,WCS,WMC,SLD,FES,Other
 ArcGIS Server,.NET/Java,Yes,Yes,Yes,Yes,No,Yes,No,"SOAP, REST, KML"
 MapServer,C,Yes,Yes,No,Yes,Yes,Yes,Yes,
@@ -7,9 +6,3 @@ GeoServer,Java,Yes,Yes,Yes,Yes,Yes,Yes,Yes,
 MapDotNet,C#/.NET,Yes,No,No,No,No,No,No,SOAP and REST feature and map services
 Manifold System,ASP C#,Yes,Yes,No,No,No,No,No,client and server
 GeoMedia WebMap,ASP C#,Yes,Yes,Yes,Yes,No,?,No,
-=======
-Name,Language,WMS,WFS,GeoRSS,Other
-OpenLayers,JavaScript,Yes,Yes,Yes,"support for navigation, icons, markers, and layer selection."
-Leaflet,JavaScript,Yes[2],Yes,No,"support for navigation, icons, markers, layers, GeoJSON"
-MapDotNet,JavaScript/HTML5,Yes,Yes,Yes,"digitizing, wkt rendering, draggable icons and content, geospatial queries (intersection, overlapping)"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

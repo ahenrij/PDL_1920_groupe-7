@@ -1,24 +1,10 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Poker Hand Dataset,5 card hands from a standard 52 card deck.,"Attributes of each hand are given, including the Poker hands formed by the cards it contains.","1,025,010",Text,"Regression, classification",2007,[460],R. Cattral
-Connect-4 Dataset,"Contains all legal 8-ply positions in the game of connect-4 in which neither player has won yet, and in which the next move is not forced.",None.,"67,557",Text,Classification,1995,[461],J. Tromp
-Chess (King-Rook vs. King) Dataset,Endgame Database for White King and Rook against Black King.,None.,"28,056",Text,Classification,1994,[462][463],M. Bain et al.
-Chess (King-Rook vs. King-Pawn) Dataset,King+Rook versus King+Pawn on a7.,None.,3196,Text,Classification,1989,[464],R. Holte
-Tic-Tac-Toe Endgame Dataset,Binary classification for win conditions in tic-tac-toe.,None.,958,Text,Classification,1991,[465],D. Aha
-=======
-Artificial Characters Dataset,Artificially generated data describing the structure of 10 capital English letters.,Coordinates of lines drawn given as integers. Various other features.,6000,Text,"Handwriting recognition, classification",1992,[85],H. Guvenir et al.
-Letter Dataset,Upper case printed letters.,17 features are extracted from all images.,"20,000",Text,"OCR, classification",1991,[86][87],D. Slate et al.
-CASIA-HWDB,Offline handwritten Chinese character database. 3755 classes in the GB 2312 character set.,Gray-scaled images with background pixels labeled as 255.,"1,172,907","Images, Text","Handwriting recognition, classification",2009,[88],CASIA
-CASIA-OLHWDB,"Online handwritten Chinese character database, collected using Anoto pen on paper. 3755 classes in the GB 2312 character set.",Provides the sequences of coordinates of strokes.,"1,174,364","Images, Text","Handwriting recognition, classification",2009,[89][88],CASIA
-Character Trajectories Dataset,Labeled samples of pen tip trajectories for people writing simple characters.,3-dimensional pen tip velocity trajectory matrix for each sample,2858,Text,"Handwriting recognition, classification",2008,[90][91],B. Williams
-Chars74K Dataset,Character recognition in natural images of symbols used in both English and Kannada,,"74,107",,"Character recognition, handwriting recognition, OCR, classification",2009,[92],T. de Campos
-UJI Pen Characters Dataset,Isolated handwritten characters,Coordinates of pen position as characters were written given.,"11,640",Text,"Handwriting recognition, classification",2009,[93][94],F. Prat et al.
-Gisette Dataset,Handwriting samples from the often-confused 4 and 9 characters.,"Features extracted from images, split into train/test, handwriting images size-normalized.","13,500","Images, text","Handwriting recognition, classification",2003,[95],Yann LeCun et al.
-Omniglot dataset,1623 different handwritten characters from 50 different alphabetss.,Hand-labeled.,"38,300","Images, text, strokes","Classification, one-shot learning",2015,[96][97],American Association for the Advancement of Science
-MNIST database,Database of handwritten digits.,Hand-labeled.,"60,000","Images, text",Classification,1998,[98][99],National Institute of Standards and Technology
-Optical Recognition of Handwritten Digits Dataset,Normalized bitmaps of handwritten data.,Size normalized and mapped to bitmaps.,5620,"Images, text","Handwriting recognition, classification",1998,[100],E. Alpaydin et al.
-Pen-Based Recognition of Handwritten Digits Dataset,Handwritten digits on electronic pen-tablet.,Feature vectors extracted to be uniformly spaced.,"10,992","Images, text","Handwriting recognition, classification",1998,[101][102],E. Alpaydin et al.
-Semeion Handwritten Digit Dataset,Handwritten digits from 80 people.,All handwritten digits have been normalized for size and mapped to the same grid.,1593,"Images, text","Handwriting recognition, classification",2008,[103],T. Srl
-HASYv2,Handwritten mathematical symbols,All symbols are centered and of size 32px x 32px.,168233,"Images, text",Classification,2017,[104],Martin Thoma
-Noisy Handwritten Bangla Dataset,"Includes Handwritten Numeral Dataset (10 classes) and Basic Character Dataset (50 classes), each dataset has three types of noise: white gaussian, motion blur, and reduced contrast.",All images are centered and of size 32x32.,"Numeral Dataset: 23330, Character Dataset: 76000","Images, text","Handwriting recognition, classification",2017,[105][106],M. Karki et al.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Zero Resource Speech Challenge 2015,"Spontaneous speech (English), Read speech (Xitsonga).",raw wav,"English: 5h, 12 speakers; Xitsonga: 2h30; 24 speakers",sound,Unsupervised discovery of speech features/subword units/word units,2015,[244][245],Versteegh et al.
+Parkinson Speech Dataset,Multiple recordings of people with and without Parkinson's Disease.,"Voice features extracted, disease scored by physician using unified Parkinson's disease rating scale","1,040",Text,"Classification, regression",2013,[246][247],B. E. Sakar et al.
+Spoken Arabic Digits,Spoken Arabic digits from 44 male and 44 female.,Time-series of mel-frequency cepstrum coefficients.,"8,800",Text,Classification,2010,[248][249],M. Bedda et al.
+ISOLET Dataset,Spoken letter names.,Features extracted from sounds.,7797,Text,Classification,1994,[250][251],R. Cole et al.
+Japanese Vowels Dataset,Nine male speakers uttered two Japanese vowels successively.,Applied 12-degree linear prediction analysis to it to obtain a discrete-time series with 12 cepstrum coefficients.,640,Text,Classification,1999,[252][253],M. Kudo et al.
+Parkinson's Telemonitoring Dataset,Multiple recordings of people with and without Parkinson's Disease.,Sound features extracted.,5875,Text,Classification,2009,[254][255],A. Tsanas et al.
+TIMIT,"Recordings of 630 speakers of eight major dialects of American English, each reading ten phonetically rich sentences.",Speech is lexically and phonemically transcribed.,6300,Text,"Speech recognition, classification.",1986,[256][257],J. Garofolo et al.
+Arabic Speech Corpus,"A single-speaker, Modern Standard Arabic (MSA) speech corpus with phonetic and orthographic transcripts aligned to phoneme level",Speech is orthographically and phonetically transcribed with stress marks.,~1900,"Text, WAV","Speech Synthesis, Speech Recognition, Corpus Alignment, Speech Therapy, Education.",2016,[258],N. Halabi
+Common Voice,A public domain database of crowdsourced data across a wide range of dialects.,Validation by other users,"English: 1,118 hours",MP3 with corresponding text files,Speech recognition,June 2017 (December 2019),[259],Mozilla

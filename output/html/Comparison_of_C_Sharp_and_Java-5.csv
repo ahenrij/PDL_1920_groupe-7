@@ -1,19 +1,9 @@
-<<<<<<< HEAD
-Metadata,Java,C#
-Metadata annotations/attributes,Interface based; user-defined annotations can be created[81],Class based
-Positional arguments,No; unless a single argument,Yes
-Named arguments,Yes,Yes
-Default values,At definition,Through initialization
-Nested types,Yes,Yes
-Specialization,No,Yes
-Conditional metadata,No,Yes
-=======
-"Preprocessing, Compilation and Packaging",Java,C#
-Namespaces,Packages,Namespaces
-File contents,Restricted,Free
-Packaging,Package,"public/internal visibility on namespace members, which the build system translates to modules and assemblies at the CLR-level"
-Classes/assembly search path,ClassPath,Both compile-time and runtime[82][83]
-Conditional compilation,No; but see Apache Ant[84],Yes
-Custom errors/warnings,Yes; AnnotationProcessor,Yes
-Explicit regions,No,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Statements,Java,C#
+Loops,Yes,Yes
+Conditionals,Yes,Yes
+Flow control,Yes,Yes
+Assignment,Yes,Yes
+Exception control,Yes,Yes
+Variable declaration,Yes,Yes
+Variable type inference,Yes[43],Yes
+Deterministic disposal (ARM-blocks),Yes,Yes

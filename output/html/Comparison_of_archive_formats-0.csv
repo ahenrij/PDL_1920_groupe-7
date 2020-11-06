@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-Format,Filename extension,Created by,Introduced in,Based on,Integrity check,Recovery record,Encryption supported,Unicode filenames,Modification date resolution
-Debian package (deb),.deb,Debian,1994 Debian 0.91,"ar, tar, and gzip",Yes,No,No,Yes,1 s
-Macintosh Installer,".pkg, .mpkg (metapackage)",NeXT,1989 NeXTSTEP 1.0,pax and gzip,Yes,?,?,Yes,?
-RPM Package Manager (RPM),.rpm,Red Hat,1995 Red Hat Linux 1.0,cpio and gzip,Yes,?,?,?,1 s
-Slackware Package,.tgz,Patrick Volkerding,1993 Slackware 1.0,tar and gzip,Yes,No,No,?,?
-Windows Installer (also MSI),.msi,Microsoft,2000 Windows 2000,"OLE Structured Storage, Cabinet and SQL",Optional PKCS7 Authenticode Signature,No,No,No,2 s
-Java Archive (JAR1),.jar,Sun Microsystems,1997 JDK 1.1,PKZIP,Yes,No,?,Yes,?
-Google Chrome extension package,.crx,Google,2009 (Chrome 4.0),Zip,?,?,Yes[13][failed verification],?,?
-Pacman,".pkg.tar.zst, .pkg.tar (no compression)",Judd Vinet,2001 (before ArchLinux 0.1),tar and zstd[14] (formerly xz),Yes,No,No,Yes,1 s
-=======
 File extension(s)[1],MIME type[2],Official name[3],Platform[4],Description
 .bz2,application/x-bzip2,bzip2,Unix-like,"An open source, patent- and royalty-free compression format. The compression algorithm is a Burrows-Wheeler transform followed by a move-to-front transform and finally Huffman coding."
 ".F, .?XF[5]",,Freeze/melt [1],"QNX4, Unix-like and DOS","Old compressor for QNX4 OS. The compression algorithm is a modified LZSS, with an adaptive Huffman coding."
@@ -27,4 +16,3 @@ File extension(s)[1],MIME type[2],Official name[3],Platform[4],Description
 .Z,application/x-compress,compress,Unix-like,The traditional LZW compression format.
 .zst,application/zstd,Zstandard,Cross-platform,"Algorithm developed by Yann Collet at Facebook, combining high speed and high compression. It is an LZ77 derivative, with entropy encoding in the form of Finite State Entropy and Huffman coding."
 .??_,,,MS-DOS/Windows,Compression format(s) used by some DOS and Windows install programs. MS-DOS includes expand.exe to decompress its install files. The compressed files are created with a matching compress.exe command. The compression algorithm is LZSS.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

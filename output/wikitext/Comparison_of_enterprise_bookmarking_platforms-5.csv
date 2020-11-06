@@ -1,15 +1,6 @@
-<<<<<<< HEAD
-Software,Hosted Platform,On-Premises Platform,Encryption level,Multi-user support,Access permissions,LDAP integration,Information-level permissions,Workspace-level permissions,Role-level permissions,Notes
-Connectbeam,,,?,,,,?,?,?,none
-Dogear,,,?,,,,?,?,?,The Lotus Connection Suite with Dogear runs on the AIX (Unix) operating system
-Jumper 2.0,,,HTTPS optionally available,,,,,,,LDAP integration is available
-Knowledge Plaza,,,HTTPS with high-grade 256-bit AES,,,,,,,none
-Scuttle,,,HTTPS optionally available [1],,,,,?,,none
-=======
-Software,Faceted classification,Restricted facets,Mandatory facets,Predefined tags,Related/synonym tags,Notes
-Connectbeam,,,,,,none
-Dogear,,,,,,none
-Jumper 2.0,,,,,,none
-Knowledge Plaza,,,,,,none
-Scuttle,,,,,,none
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Software,Windows,Mac OS X,Linux,BSD,Unix,IIS,Apache,Notes
+Connectbeam,,,,,,,,none
+Dogear,,,,,,,,requires IBM WebSphere Application Server 6.1.0.13 for the web server
+Jumper 2.0,,,,,,,,none
+Knowledge Plaza,,,,,,,,No OS management required. Infrastructure-as-a-Service for on-premises installation.
+Scuttle,,,,,,,,none

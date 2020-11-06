@@ -1,38 +1,14 @@
-<<<<<<< HEAD
-Attribute,Deprecated for,Function,Supported first by,Trident,Gecko,WebKit,KHTML,Presto
-bgproperties,body,Determines whether background image scrolls with the background,Internet Explorer,3.1,No,Yes,Yes,No
-bordercolor,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,No,Yes,Yes,No
-bordercolordark,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,No,No,No,No
-bordercolorlight,body,"Sets colors for 3-D table borders in the table, td, th, and tr elements",Internet Explorer,,,,,
-controls,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
-dynsrc,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
-event,script,Defines function to call for an object.,Internet Explorer,,Partial,?,?,?
-for,script,Defines the object to bind a scripting event.,Internet Explorer,,Partial,?,?,?
-frame,table,Controls the display of the outer borders of a table in the table tag,Internet Explorer,,Yes,?,Yes,No
-framespacing,frameset,Sets the amount of space between frames,Internet Explorer,,?,?,No,No
-leftmargin,body,Sets the margin between the browser window and the contents of the page,Internet Explorer,3.1,?,?,Yes,No
-loop,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
-rightmargin,body,Sets the margin between the browser window and the contents of the page,Internet Explorer,3.1,?,?,No,No
-start,img,Uses the img element to place video or audio clips,Internet Explorer,,No,No,No,No
-target,form,Specifies a target window or frame for the output of a form,Internet Explorer,,No[19],?,Yes,No
-valign,caption,Sets vertical alignment of table caption,Internet Explorer,3.1,?,?,No,No
-=======
-,Trident,EdgeHTML,Gecko,WebKit,Presto
-main element[30],No,12,21.0[g 76],Yes[w 60],No
-template element[31],No,13,No,Yes[w 61],No
-Selectors API[32],4.0[t 36],12,1.9.1[g 77],525[w 62],2.2[p 20]
-Web Storage[33],4.0,12,1.9.1[g 78],525,2.5[p 21]
-Indexed Database API[34],5.0[t 37],12,16.0[g 79],Partial,No
-Web SQL Database (obsolete)[35],No,No,No[g 80],Yes[w 63],2.5[p 21]
-File API[36],5.0,12,Yes[g 81],Yes[w 64][w 65],2.8[p 22]
-File API: Writer[37],5.0,No,No[g 82],Partial[w 66],No
-File API: Directories and System[38],No,No,No[g 83],Yes[w 67],
-Media Capture API[39],,,2.0[j],No,2.10[p 23]
-Server-sent events[40],,,6.0[g 85],Yes[w 68],2.7[p 24][p 25]
-WebSocket[41],6.0[t 38],12,11.0[g 86],533,2.11[k]
-Web Workers[42][43],6.0[t 39],12,1.9.1[g 87],Yes,2.6[p 8][p 9]
-Geolocation API[44],5.0[t 40],12,1.9.1[g 88],533[w 69],2.6[l]
-Offline Web applications[45],6.0[t 41],12,1.9.1[g 89],Yes,2.6[p 8][p 9]
-Web Notifications[46],No,No,22.0[47][48],only in Chrome[49],25[p 31]
-,Trident,EdgeHTML,Gecko,WebKit,Presto
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Element,Function,Supported first by,Deprecated in HTML version,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
+applet,Insert an applet,HotJava,4[7],"embed, object",<3.1[IE 4.0],1.7,Yes,Yes,1.0
+basefont,Sets font styles,Internet Explorer,4,CSS,<3.1[IE 3.0],No[8],85,,Yes
+center,Centers contents,Netscape[9],4,CSS,3.1,Yes,Yes,,
+dir,Directory list,?,4,"ul, ol",,,,,
+font,Applies font styles,Netscape,4,CSS,,,,,
+isindex[10],Adds a search field,?,4,input type="search",<3.1[IE 5.5],1.7,312,,Partial
+listing,Displays preformatted text,IETF,2,"pre, samp, code, CSS",3.1,,125,3.3,Yes
+menu,Menu list,?,4,"ul, ol",,Yes,Yes,Yes,
+plaintext,"Designates that all HTML be ignored, and to display the page as is",?,3.2,The text/plain MIME type,,,,,
+s,Strike-through,?,4,"del, CSS",<3.1[IE 4.0],1.7,,,1.0
+strike,Strike-through,?,4,"del, CSS",,,,,
+u,Underline,?,4,CSS,,,,,
+xmp,"Similar to pre and plaintext, but ignores all HTML within and displays as is",?,2,"pre, samp, code",<3.1[IE 3.0],,125,3.3,

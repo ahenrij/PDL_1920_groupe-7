@@ -1,34 +1,38 @@
-<<<<<<< HEAD
-Application,PBR viewport,Viewport effects,Interactive GI Rendering,Integrated Compositing,Text editor for shader writing,Material Nodes,Turntable Rendering
-Maya,Yes,Some,Arnold,No,?,"Hypershade, Node Editor, ShaderFX",Yes[14]
-3ds Max,Yes,Some,Arnold,(State Set),OSL Map[15],"Slate Material Editor, ShaderFX",Easy Turntable script
-MODO,Yes,?,Yes,No,?,Nodal Shading,Render Turntable[16]
-Blender,Eevee (2.80 and later),,Cycles,Yes,Text Editor,Yes,Turnaround Camera addon
-Gaffer,No,No,external renderers,Yes,OSLCode Node,No,No
-Marmoset Toolbag,Yes,Yes,No,No,?,Uber PBR shaders only,Yes[17]
-Substance Designer,Yes,YEBIS,NVIDIA Iray,?,?,MDL graph,?
-=======
-,Imports,,,,Exports,,,,
-,3D,3D game,CAD and GIS,Web and mobile[io 1],3D,3D game,3D renderers,CAD and GIS,Web and mobile[io 1]
-3ds Max,"FBX, 3DS, PRJ, ABC, AI, COLLADA, HTR, OBJ, SHP, SKP, STL, TRC, VRML",Openflight FLT,"DEM, XML, DDF, DWG, DXF, IGE, IGS, IGES, IPT, WIRE, IAM, LS, VW, LP, SAT, Catia V4/V5, JT, ProE, RVT, PRT, SolidWorks[io 2], STEP, WIRE",,"FBX, 3DS, AI, ASE, COLLADA, HTR, OBJ, STL",Openflight FLT,,"ATR, BLK, DF, DWG, DXF, IGS, LAY, LP, SAT, VW","M3G, VRML97"
-AC3D,"3DS, AC3D, COLLADA, Lightwave, Massive, Milkshape Ascii, OBJ, OFF, Pointfield, Points, STL (ascii), Terragen, Triangle, Vector","Quake BSP, Quake MD2, Renderware, SMF","DXF, LDraw (Lego), SOF Airfoil",VRML 1.0[10],"3DS, 3D Studio ASE, AC3D, Dive, DVS, DXF, COLLADA, Lightwave, Massive, Milkshape Ascii, OBJ, STL (ascii), Triangle","DirectX, Ogre, Quake MD2, Quake Map, SMF, Unreal Tournament","POV-Ray, Renderman","Inventor, LDraw (Lego)","VRML 1.0, VRML 2.0, X3D[10]"
-Blender,"COLLADA, Alembic, FBX, BVH, PLY, OBJ, STL, SVG",,DXF,"X3D, glTF","COLLADA, Alembic, FBX, BVH, PLY, OBJ, STL, SVG, PC2",,POV-Ray,DXF,"X3D, glTF"
-Electric Image Animation System,"3DS, FBX, OBJ, LWO, MDD",,DXF,,"3DS, OBJ, LWO",,,DXF,
-Cinema 4D,"FBX, OBJ, 3DS, QD3D, STL, DEM, LWO/LWS",,DXF,"VRML 1, VRML 2","FBX, OBJ, 3DS, QD3D, STL, W3D",,,DXF,"VRML 1, VRML 2"
-Clara.io,"FBX, OBJ, Collada, MD2, MD3, MD5, 3DS, STL, LWO, GEO, IRR, PLY, POV, SHP, XGL, ZGL, AC, BLEND, BVH, CSM, LWS",X,DXF,"VRML, Three.js","FBX, OBJ, Collada, STL",,,,"Three.js, Babylon.js"
-Cobalt,"3DS, AI, ASCII Text",,"ACIS SAT, CATIA v4, CCAD, CGM, CO (native), Drawing board, DWG/DXF, Facet, Grid Surface, IGS (IGES), Parasolid XT, Pro/E, Rhino 3DM, Spline, STP (STEP)",VRML,"AI, ASCII Text, RAW Triangle",,,"ACIS SAT, CATIA v4, CGM, CO (native), Drawing board, DWG/DXF, Facet, Grid Surface, IGS (IGES),Parasolid XT, PDF, Pro/E, STP (STEP)","Shockwave 3D, VRML"
-Houdini,?,,,,?,,,,
-IClone,"FBX, OBJ, BVH, SKP (via 3DXChange)",,,,"FBX, OBJ, BVH (via 3DXChange)",,,,
-Lightwave 3D,"3DS, COLLADA, FBX, OBJ, LWO, FBX, MD2, VideoScape",,DXF,"VRML, VRML97","3DS, COLLADA, FBX, OBJ, LWO, MD2",,,DXF,"VRML, VRML97"
-MakeHuman,N/A,,,,"COLLADA, FBX Export, MD5, MHX, OBJ, STL",Ogre3D,,,
-Maya,"Maya Ascii, Maya Binary, MEL, FBX, OBJ, STL",Openflight FLT,"DXF, IGES, StudioTools Wire",VRML2,"Maya Ascii, Maya Binary, Mel, FBX, OBJ, GE2, RTG",OpenFlight FLT,"Mental Ray, RIB","DXF, IGES, StudioTools Wire, Open Inventor2",VRML2
-Metasequoia,"3DS, COB (Caligari Object), LWO, OBJ, ROK (Rokkaku Dai?), SUF (DoGA CGA System)",RSD (PlayStation),DXF,,"3DS, COB (Caligari Object), LWO, OBJ, RDS (Ray Dream Studio), ROK (Rokkaku Dai?), SCE (SoftF/X Model), SUF (DoGA CGA System)","DirectX, RSD (PlayStation)","POV-Ray, RIB",DXF,VRML 1.0
-Modo,"LXO, LWO2, LWOB, FBX, 3DS, GEO, OBJ, COLLADA, MDD",,"DXF, SolidWorks[io 2]",,"LXO, LWO, FBX, PLT, GEO, OBJ, COLLADA",,,DXF,X3D
-Remo 3D,"3DC, 3DS, AC, Collada, FBX, LWO, LWS, MD2, OBJ, OpenSceneGraph,[io 3] P3D, PLY, STL, STA, SHP",X,"DW, DXF",,"3DS, AC, Collada, DOT, FBX, OBJ, OpenSceneGraph,[io 3] P3D, STL",,,,
-Shade,"OBJ, SketchUp, XML; (Pro) 3DS, BVH, COLLADA, LWO",,DXF,,"COLLADA, DXF, OBJ, XML; (Pro) 3DS, LWO","DirectX, Second Life Sculpted Prim, Blue Mars",RIB,,VRML 2.0?Flash (SWF)
-Softimage,?,,,,?,,,,
-Solid Edge,STL,,"IGES, STEP, DXF, JT, ACIS (SAT), ProE, SolidWorks[io 2], NX, SDRC, Microstation, Inventor, CATIA (V4/V5), Parasolid, Autocad, XML, MDS",,,,,"IGES, STEP, STL, EMS, JT, XGL, XML, DXF, Parasolid, CATIA (V4/V5), ACIS (SAT), Microstation, Autocad",PDF
-SketchUp Make,SKP,,"DEM, DDF[9], SKP+KMZ, 3DS[9]",,"COLLADA, SKP",,,SKP+KMZ[9],
-SketchUp Pro,"SKP, 3DS[9]",,"DWG, DXF, DEM, DDF[9], SKP+KMZ",,"COLLADA, SKP, EPS, EPX (removed v16+), 3DS, FBX, OBJ",dotXSI,,"DWG, DXF, SKP+KMZ","PDF, VRML"
-Wings3D,"3DS, AI, EPS, LWO, LXO, Nendo, OBJ, STL, SVG, Wings3D",,,,"3DS, COLLADA, LWO, LXO, Nendo, OBJ, STL, SVG, Wings3D","BZFlag, DirectX, Renderware","Kerkythea, POV-Ray",,VRML 2.0
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Name,Windows,Mac OS X,Linux,Unix,BSD,Other
+3ds Max,Yes,No,No,No,No,No
+AC3D,Yes,Yes,Yes,No,No,No
+Art of Illusion,Yes,Yes,Yes,Yes,No,Anything with Java support
+AutoCAD,Yes,No,No,No,No,No
+Blender,Yes,Yes,Yes,Yes,Yes,"Solaris, AmigaOS 4, MorphOS"
+Carrara,Yes,Yes,No,No,No,No
+Cheetah 3D,No,Yes,No,No,No,No
+Cinema 4D,Yes,Yes,No,No,No,Amiga OS
+Clara.io,Yes,Yes,Yes,Yes,Yes,"Chrome OS, Android"
+DesignSpark Mechanical,Yes,No,No,No,No,No
+Electric Image Animation System,Yes,Yes,No,No,No,No
+form-Z,Yes,Yes,No,No,No,No
+HiCAD,Yes,No,No,No,No,No
+Houdini,Yes,Yes,Yes,No,No,No
+IClone,Yes,No,No,No,No,No
+LightWave 3D,Yes,Yes,No,No,No,AmigaOS
+MakeHuman,Yes,Yes,Yes,No,No,No
+Massive,Yes,No,Yes,No,No,No
+Maya,Yes,Yes,Yes,No,No,No
+Metasequoia,Yes,No,No,No,No,No
+Modo,Yes,Yes,Yes,No,No,No
+POV-Ray,Yes,Yes,Yes,No,No,"Amiga OS, Atari TOS"
+Remo 3D,Yes,No,Yes,No,No,No
+Shade,Yes,Yes,No,No,No,No
+Silo,Yes,Yes,Yes,No,No,No
+SketchUp Make,Yes,Yes,No,No,No,No
+SketchUp Pro,Yes,Yes,No,No,No,No
+Softimage,Yes,No,Yes,No,No,No
+Solid Edge,Yes,No,No,No,No,No
+solidThinking,Yes,Yes,No,No,No,No
+solidWorks,Yes,No,No,No,No,No
+SpaceClaim,Yes,No,No,No,No,No
+trueSpace,Yes,No,No,No,No,Amiga OS
+Verto Studio 3D,No,Yes,No,No,No,iOS
+E-on Vue,Yes,Yes,No,No,No,No
+Wings 3D,Yes,Yes,Yes,No,No,No
+ZBrush,Yes,Yes,No,No,No,No

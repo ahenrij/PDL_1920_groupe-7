@@ -1,47 +1,26 @@
-<<<<<<< HEAD
-! Precondition,Postcondition,Check,Invariant,Loop
-ABAP Objects,colspan=5 rowspan=2 ,,,
-C++ (STL),,,,
-C#,Spec#: type foo( «parameters» ) requires expression { body },Spec#: type foo( «parameters» ) ensures expression { body },,
-Java,colspan=5 rowspan=3 ,,,
-Objective-C,,,,
-Visual Basic .NET,,,,
-D,f in { asserts } body{ instructions },f out (result) { asserts } body{ instructions },assert(expression),invariant() { expression }
-Eiffel,f require tag: expression do end,f do ensure tag: expression end,f do check tag: expression end end,class X invariant tag: expression end
-Python,colspan=5 rowspan=3 ,,,
-PHP,,,,
-Perl,,,,
-Raku,PRE { condition },POST { condition },,
-Ruby,colspan=5 rowspan=5 ,,,
-Windows PowerShell,,,,
-OCaml,,,,
-F#,,,,
-COBOL,,,,
-=======
-,constructor,destructor,finalizer[12]
-ABAP Objects,methods constructor «importing parameter = argument» method constructor. instructions endmethod.[13],colspan=2 ,
-APL (Dyalog),? name :Implements Constructor «:Base «expr»» instructions ?,,? name :Implements Destructor instructions ?
-C++ (STL),class(«parameters») «: initializers[14]» { instructions },~class() { instructions },
-C#,class(«parameters») { instructions },void Dispose(){ instructions },~class() { instructions }
-D,this(«parameters») { instructions },,~this() { instructions }
-eC,class() { instructions },~class() { instructions },
-Java,class(«parameters») { instructions },,void finalize() { instructions }
-Eiffel,[15],,[16]
-Objective-C (Cocoa),- (id)init { instructions... return self; } or - (id)initWithFoo:parameter «bar:parameter ...» { instructions... return self; },- (void)dealloc { instructions },- (void)finalize { instructions }
-Swift,init(«parameters») { instructions },deinit { instructions },
-Python,"def __init__(self«, parameters»): Tab instructions",,def __del__(self): Tab instructions
-Visual Basic .NET,Sub New(«parameters») instructions End Sub,Sub Dispose() instructions End Sub,Overrides Sub Finalize() instructions End Sub
-Xojo,Sub Constructor(«parameters») instructions End Sub,Sub Destructor() instructions End Sub,
-PHP,function __construct(«parameters») { instructions },function __destruct() { instructions },
-Perl,"sub new { my ($class«, parameters») = @_; my $self = {}; instructions ... bless($self, $class); return $self; }",sub DESTROY { my ($self) = @_; instructions },
-Raku,"submethod BUILD { instructions } or «multi » method new(««$self: »parameters») { self.bless(*, field1 => value1, ...); ... instructions }",submethod DESTROY { instructions },
-Ruby,def initialize«(parameters)» instructions end,colspan=2 ,
-Windows PowerShell,colspan=3 ,,
-OCaml,initializer instructions[17],colspan=2 ,
-F#,do instructions or new(parameters) = expression[18],member this.Dispose() = instructions,override this.Finalize() = instructions
-JavaScript,function name(«parameters») { instructions }[19],colspan=2 ,
-JavaScript (ES6),constructor(«parameters») { instructions },,
-COBOL,,colspan=2 ,
-Cobra,cue init(parameters) Tab base.init Tab instructions,def dispose Tab instructions,
-ISLISP,(defmethod initialize-object ((instance <class-name>) initvalues),,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,object member,,,class member,namespace member
+,method,field,property,,
+ABAP Objects,x->method(«parameters»).[39],x->field,,x=>field or x=>method(«parameters[39]»).,
+C++ (STL),x.method(parameters) or ptr->method(parameters),x.field or ptr->field,,cls::member,ns::member
+Objective-C,[x method«:parameter «bar:parameter ...»»],x->field,x.property (2.0 only) or [x property],[cls method«:parameter «bar:parameter ...»»],
+Smalltalk,x method«:parameter «bar:parameter ...»»,,,cls method«:parameter «bar:parameter ...»»,
+Swift,x.method(parameters),,x.property,cls.member,
+APL (Dyalog),left argument» x.method «right argument(s)»,x.field,x.property,cls.member,ns.member
+C#,x.method(parameters),,,,
+Java,,,,,
+D,,,x.property,,
+Python,,,,,
+Visual Basic .NET,,,,,
+Xojo,,,,,
+Windows PowerShell,,,,[cls]::member,
+F#,,,,cls.member,
+eC,x.method«(parameters)»,x.field,x.property,cls::member,ns::member
+Eiffel,x.method«(parameters)»,x.field,,{cls}.member,rowspan=2 
+Ruby,,,x.property,cls.member,
+PHP,x->method(parameters),x->field,x->property,cls::member,ns\member
+Perl,x->method«(parameters)»,x->{field},,cls->method«(parameters)»,ns::member
+Raku,x.method«(parameters)» or x!method«(parameters)»,x.field or x!field,,cls.method«(parameters)» or cls!method«(parameters)»,ns::member
+OCaml,x#method «parameters»,colspan=2 ,,,
+JavaScript,x.method(parameters) x["method"](parameters),x.field x["field"],x.property x["property"],cls.member cls["member"],
+COBOL,INVOKE x "method" «USING parameters» «RETURNING result» or x::"method"«(«parameters»)»,,property OF x,INVOKE cls "method" «USING parameters» «RETURNING result» or cls::"method"«(«parameters»)» or property OF cls,
+Cobra,x.method«(parameters)»,x.field,x.property,cls.member,ns.member

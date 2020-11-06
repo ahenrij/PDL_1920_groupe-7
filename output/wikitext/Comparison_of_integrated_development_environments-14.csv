@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release
-EiffelStudio,GPL and commercial,,,,"FreeBSD, OpenVMS, Solaris, VxWorks, other Unix",,,,,Automatic testing framework,,Metrics tool,BON / UML class diagramming,Multi-view,V7.1 June 2012
-=======
 IDE,Developer,Latest stable release,Platform,License
-Eclipse EPIC,EPIC Project Team,"0.6.44 / April 18, 2012","Windows, Linux, macOS, FreeBSD, JVM, Solaris",CPL
-Geany,Team,"1.27 / March 13, 2016","Windows, Linux, macOS, FreeBSD, AIX, OpenBSD, Solaris, other Unix",GPL
-Komodo IDE / Edit,ActiveState,"9.0.1 / April 19, 2015",Cross-platform,
-NetBeans,Sun Microsystems / Oracle,,Cross-platform,"CDDL, GPL"
-Padre,Padre Team,"1.0 / November 8, 2013",Cross-platform,Perl
-JetBrains IDEs (via plugin)[34],Alexandr Evstigneev,"2019.1.3 / May 25, 2019",Cross-platform,Apache 2.0
-SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, AIX, Solaris, HP-UX",
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+R Tools for Visual Studio,Microsoft,"20170310, v1.0 RC3",Microsoft Windows,Apache License 2.0
+RStudio,"RStudio, Inc.","20181029, v1.1.463",Cross-platform,AGPL

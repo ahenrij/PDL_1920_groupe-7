@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-Country,Satellite,Transponders,Mass,Power,Year launched
-China,NIGCOMSAT 1R,28,"5,150 kg (11,350 lb)",10.5 kW,2011
-Japan,ST-2,51,"5,090 kg (11,220 lb)",,2011
-India,GSAT-16,48,"3,100 kg (6,800 lb)",5.6 kW,2014
-,GSAT-11,40,"5,854 kg (12,906 lb)",13.6 kW,2018
-=======
-Country,Spacecraft,Year launched
-Japan,Kibo,2008
-China,Tiangong 1,2011
-India[85][86][87][88],Indian Space Station,~2030 (Proposed)
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Country,Active,In orbit,Decayed,Total
+China,352,407,84,491
+Japan,90,183,65,248
+India,64,101,12,113
+Israel,17,20,6,26
+South Korea,15,22,5,27

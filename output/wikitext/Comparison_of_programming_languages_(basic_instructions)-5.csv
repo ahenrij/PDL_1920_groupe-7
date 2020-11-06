@@ -1,78 +1,42 @@
-<<<<<<< HEAD
-,fixed size array,,dynamic size array,
-,one-dimensional array,multi-dimensional array,one-dimensional array,multi-dimensional array
-Ada[1],array (<first> .. <last>) of <type> or array (<discrete_type>) of <type>,"array (<first1> .. <last1>, <first2> .. <last2>, ...) of <type> or array (<discrete_type1>, <discrete_type2>, ...) of <type>",array (<discrete_type> range <>) of <type>,"array (<discrete_type1> range <>, <discrete_type2> range <>, ...) of <type>"
-ALGOL 68,[first:last]<wbr/>«modename» or simply: [size]<wbr/>«modename»,"[first1:last1, first2:last2]<wbr/>«modename» or [first1:last1][first2:last2]<wbr/>«modename» etc.",flex[first:last]<wbr/>«modename» or simply: flex[size]<wbr/>«modename»,"flex[first1:last1, first2:last2]<wbr/>«modename» or flex[first1:last1]<wbr/>flex[first2:last2]<wbr/>«modename» etc."
-C (C99),type name[size]C's array[a],type name[size1][size2]C's array[a],type *name or within a block: int n = ...; type name[n],
-C++ (STL),"«std::»array<type, size>(C++11)",,«std::»vector<type>,
-C#,type[],"type[,,...]",System<wbr/>.Collections<wbr/>.ArrayList or System<wbr/>.Collections<wbr/>.Generic<wbr/>.List<wbr/><type>,
-Java,type[]Java's array[b],type[][]...Java's array[b],ArrayList or ArrayList<type>,
-D,type[size],type[size1][size2],type[],
-Go,[size]type,[size1][size2]...type,[]type,[][]type
-Rust,[type; size],[['type; size1]; size2],Vec<type>,Vec<Vec<type>>
-Swift,,,[type] or Array<type>,[[type]] or Array<Array<type>>
-Objective-C,NSArray,,NSMutableArray,
-JavaScript,,,ArrayJavaScript's array[d],
-Common Lisp,(simple-array type (dimension)),(simple-array type (dimension1 dimension2)),(array type (dimension)),(array type (dimension1 dimension2))
-Scheme,,,,
-ISLISP,,,,
-Pascal,array[first..last] of typesubrange[c],"array[first1..last1] of array[first2..last2] ... of type subrange[c] or array[first1..last1, first2..last2, ...] of type subrange[c]",,
-Object Pascal (Delphi),,,array of type,array of array ... of type
-Visual Basic,,,,
-Visual Basic .NET,type(),"type(,,...)",System<wbr/>.Collections<wbr/>.ArrayList or System<wbr/>.Collections<wbr/>.Generic<wbr/>.List<wbr/>(Of type),
-Python,,,list,
-S-Lang,,,,
-Fortran,type :: name(size),"type :: name(size1, size2,...)","type, ALLOCATABLE :: name(:)","type, ALLOCATABLE :: name(:,:,...)"
-PHP,,,array,
-Perl,,,,
-Raku,,,Array[type] or Array of type,
-Ruby,,,Array,
-Scala,Array[type],Array[...[Array[type]]...],ArrayBuffer[type],
-Seed7,array type or array [idxType] type,array array type or array [idxType] array [idxType] type,array type or array [idxType] type,array array type or array [idxType] array [idxType] type
-Smalltalk,Array,,OrderedCollection,
-Windows PowerShell,type[],"type[,,...]",,
-OCaml,type array,type array ... array,,
-F#,type [] or type array,"type [,,...]",System<wbr/>.Collections<wbr/>.ArrayList or System<wbr/>.Collections<wbr/>.Generic<wbr/>.List<wbr/><type>,
-Standard ML,type vector or type array,,,
-Haskell (GHC),,,,
-COBOL,level-number type OCCURS size «TIMES».,one-dimensional array definition...,level-number type OCCURS min-size TO max-size «TIMES» DEPENDING «ON» size.COBOL DEPENDING ON clause[e],
-=======
-! Single precision,Double precision,Other precision,Processor dependent
-Ada[1],Float,Long_Float,
-ALGOL 68,reala68[a],long reala68[a],"short real, long long real, etc.a68g[d]"
-C,floatlax floats[b],double,long doubleC-long-double[f]
+! calling a function,basic/void function,value-returning function,required main function
+Ada[1],foo «(parameters)»,procedure foo «(parameters)» is begin statements end foo,function foo «(parameters)» return type is begin statements end foo
+ALGOL 68,foo«(parameters)»;,proc foo = «(parameters)» void: ( instructions );,proc foo = «(parameters)» rettype: ( instructions ...; retvalue );
+APL,«parameters» foo parameters,foo?{ statements },foo?{ statements }
+C (C99),foo(«parameters»),void foo(«parameters») { instructions },type foo(«parameters») { instructions ... return value; }
+Objective-C,,,
 C++ (STL),,,
-Objective-C (Cocoa),,,
-C#,float,,rowspan=4 
 Java,,,
-Go,float32,float64,
-Rust,f32,f64,
-Swift,Float Float32,Double Float64,Float80Swift-long-double[g]
-D,float,double,
-Common Lisp,single-float,double-float,"float, short-float, long-float"
-Scheme,,,
-ISLISP,,,
-Pascal (Free Pascal),single,double,
-Visual Basic,Single,Double,rowspan=3 
-Visual Basic .NET,,,
+D,,,
+C#,,"Same as above; alternatively, if only one statement: void foo(«parameters») => statement;","Same as above; alternatively, if simple enough to be an expression: void foo(«parameters») => expression;"
+JavaScript,,"function foo(«parameters») { instructions } or var foo = function («parameters») {instructions } or var foo = new Function («"parameter", ... ,"last parameter"» "instructions");",function foo(«parameters») { instructions ... return value; }
+Go,,func foo(«parameters») { instructions },func foo(«parameters») type { instructions ... return value }
+Swift,,func foo(«parameters») { instructions },func foo(«parameters») -> type { instructions ... return value }
+Common Lisp,(foo «parameters»),(defun foo («parameters»)<dl><dd>instructions)</dd></dl> or (setf (symbol-function 'symbol)<dl><dd>function)</dd></dl>,(defun foo («parameters»)<dl><dd>...</dd><dd>value)</dd></dl>
+Scheme,,(define (foo parameters) instructions) or (define foo (lambda (parameters) instructions)),(define (foo parameters) instructions... return_value) or (define foo (lambda (parameters) instructions... return_value))
+ISLISP,,(defun foo («parameters»)<dl><dd>instructions)</dd></dl>,(defun foo («parameters»)<dl><dd>...</dd><dd>value)</dd></dl>
+Pascal,foo«(parameters)»,procedure foo«(parameters)»; «forward;»forward declaration[a] «label<dl><dd>label declarations»</dd></dl> «const<dl><dd>constant declarations»</dd></dl> «type<dl><dd>type declarations»</dd></dl> «var<dl><dd>variable declarations»</dd></dl> «local function declarations» begin<dl><dd>instructions</dd></dl>end;,function foo«(parameters)»: type; «forward;»forward declaration[a] «label<dl><dd>label declarations»</dd></dl> «const<dl><dd>constant declarations»</dd></dl> «type<dl><dd>type declarations»</dd></dl> «var<dl><dd>variable declarations»</dd></dl> «local function declarations» begin<dl><dd> instructions; foo := value</dd></dl>end;
+Visual Basic,Foo(«parameters»),Sub Foo«(parameters)»<dl><dd> instructions </dd></dl> End Sub,Function Foo«(parameters)»« As type»<dl><dd>instructions Foo = value</dd></dl>End Function
+Visual Basic .NET,,,"Same as above; alternatively: Function Foo«(parameters)»« As type»<dl><dd>instructions Return value</dd></dl>End Function The As clause is not required if Option Strict is off. A type character may be used instead of the As clause. If control exits the function without a return value having been explicitly specified, the function returns the default value for the return type."
 Xojo,,,
-Python,rowspan=2 ,float,
-JavaScript,Number[7],,
-S-Lang,,,
-Fortran,REAL(KIND = n)real inds[c],,
-PHP,,float,
-Perl,,,
-Raku,num32,num64,
-Ruby,,Float,rowspan=4 
-Scala,Float,Double,
-Seed7,,float,
-Smalltalk,Float,Double,
-Windows PowerShell,,,
-OCaml,,float,rowspan=3 
-F#,float32,,
-Standard ML,,,real
-Haskell (GHC),Float,Double,
-Eiffel,REAL_32,REAL_64,
-COBOL,FLOAT-BINARY-7Cobol_ieee[e],FLOAT-BINARY-34Cobol_ieee[e],"FLOAT-SHORT, FLOAT-LONG, FLOAT-EXTENDED"
-Mathematica,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Python,foo(«parameters»),def foo(«parameters»): Tab instructions,def foo(«parameters»): Tab instructions Tab return value
+S-Lang,foo(«parameters» «;qualifiers»),define foo («parameters») { instructions },define foo («parameters») { instructions ... return value; }
+Fortran,foo («arguments») CALL sub_foo («arguments»)Fortran arguments[c],SUBROUTINE sub_foo («arguments») <dl><dd> instructions </dd></dl> END SUBROUTINEFortran arguments[c],type FUNCTION foo («arguments») <dl><dd> instructions ... foo = value </dd></dl> END FUNCTIONFortran arguments[c]
+Forth,«parameters» FOO,: FOO « stack effect comment: ( before -- ) » <dl><dd> instructions </dd></dl> ;,: FOO « stack effect comment: ( before -- after ) » <dl><dd> instructions </dd></dl> ;
+PHP,foo(«parameters»),function foo(«parameters») { instructions },function foo(«parameters») { instructions ... return value; }
+Perl,foo(«parameters») or &foo«(parameters)»,sub foo { «my (parameters) = @_;» instructions },sub foo { «my (parameters) = @_;» instructions... «return» value; }
+Raku,foo(«parameters») or &foo«(parameters)»,«multi »sub foo(parameters) { instructions },«our «type» »«multi »sub foo(parameters) { instructions... «return» value; }
+Ruby,foo«(parameters)»,def foo«(parameters)» <dl><dd>instructions </dd></dl> end,def foo«(parameters)» <dl><dd>instructions «return» value </dd></dl> end
+Rust,foo(«parameters»),fn foo(«parameters») { instructions },fn foo(«parameters») -> type { instructions }
+Scala,foo«(parameters)»,def foo«(parameters)»«: Unit =» { instructions },def foo«(parameters)»«: type» = { instructions ... «return» value }
+Windows PowerShell,foo «parameters»,function foo { instructions }; or function foo { «param(parameters)» instructions },function foo «(parameters)» { instructions … return value }; or function foo { «param(parameters)» instructions … return value }
+Bash shell,foo «parameters»,<poem>function foo { 4instructions  or foo () { 4instructions </poem>,<poem>function foo { 4instructions 4return «exit_code»  or foo () { 4instructions 4return «exit_code» </poem>
+,,"parameters $n ($1, $2, $3, ...) $@ (all parameters) $# (the number of parameters) $0 (this function name)",
+OCaml,foo parameters,let «rec» foo parameters = instructions,let «rec» foo parameters = instructions... return_value
+F#,,,
+Standard ML,,fun foo parameters = ( instructions ),fun foo parameters = ( instructions... return_value )
+Haskell,,foo parameters = do Tab instructions,foo parameters = return_value or foo parameters = do Tab instructions Tab return value
+Eiffel,foo («parameters»),foo («parameters») <dl><dd>require <dl><dd>preconditions</dd></dl> do <dl><dd>instructions</dd></dl> ensure <dl><dd>postconditions</dd></dl> end</dd></dl>,foo («parameters»): type <dl><dd>require <dl><dd>preconditions</dd></dl> do <dl><dd>instructions</dd><dd>Result := value</dd></dl> ensure <dl><dd>postconditions</dd></dl> end</dd></dl>
+CoffeeScript,foo(),foo = ->,foo = -> value
+,foo parameters,foo = () ->,foo = ( parameters ) -> value
+COBOL,CALL "foo" «USING parameters» <dl><dd> «exception-handling» </dd></dl> «END-CALL»COBOL calling programs[d],«IDENTIFICATION DIVISION.» PROGRAM-ID. foo. «other divisions...» PROCEDURE DIVISION «USING parameters». <dl><dd> instructions.</dd></dl>,«IDENTIFICATION DIVISION.» PROGRAM-ID/FUNCTION-ID. foo. «other divisions...» DATA DIVISION. «other sections...» LINKAGE SECTION. «parameter definitions...» variable-to-return definition «other sections...» PROCEDURE DIVISION «USING parameters» RETURNING variable-to-return. <dl><dd> instructions.</dd></dl>
+,«FUNCTION» foo«(«parameters»)»,,

@@ -13,7 +13,7 @@ JsDoc Toolkit,Yes,No,No,No,No,No,No,No,Yes+JSON,
 Natural Docs,Yes,No,No,No,No,No,No,No,No,
 NDoc,Yes,Yes,No,No,No,No,No,No,No,
 pdoc3,Yes,No,No,Indirectly[e],No,No,No,No,No,No
-phpDocumentor,Yes,Yes,No,Yes,No,No,No,Yes,Yes,
+phpDocumentor,Yes,Yes (1.x only),No,Yes (1.x only),No,No,No,Yes (1.x only),Yes (1.x only),
 pydoc,Yes,No,No,No,No,No,No,No,No,No
 RDoc,Yes,Yes[f],No,No,No,No,Indirectly[g],No,Yes[f],
 ROBODoc,Yes,Indirectly,Yes,Indirectly[c],Yes,Indirectly[c],Yes,Yes,No,

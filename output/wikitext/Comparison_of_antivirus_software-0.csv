@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-Company,Software,On-demand scan,On-access scan,Firewall,AntiSpam,Web protection,AntiTheft,Call/SMS Filtering,Backup,Parental Control,Support,License,Price,First release,Country of origin,Notes
-Dr. Web,Dr. Web Mobile Security Suite,,,,,,,,,,,,Trialware,2015,Russia,
-Kaspersky Lab,Kaspersky Mobile Security,,,,,,,,,,,,,2008,Russia,Banned by USG
-McAfee,McAfee Mobile Security,,,,,,,,,,,,,2011,United States,
-Company,Software,On-demand scan,On-access scan,Firewall,AntiSpam,Web protection,AntiTheft,Call/SMS Filtering,Backup,Parental Control,Support,License,Price,First release,Country of origin,Notes
-=======
 Company,Software,On-demand scan,On-access scan,Heuristics,CloudAV,Firewall,IDS,IPS,Email Security,AntiSpam,Web protection,Live-Update,Support,License,Price,First release,Country of origin,Notes
 Avast,Avast Mac Security,,,,,,,,,,,,,,,2012,Czech Republic,
 Avira Operations,Avira Free Mac Security,,,,,,,,,,,,,,,2011,Germany,
@@ -23,9 +16,8 @@ Malwarebytes,Malwarebytes for Mac,Yes,No,,,No,No,No,No,Yes,No,Yes,,,Free,2006,Un
 Panda Security,Panda Antivirus for Mac,,,,,,,,,,,,,,,2008,Spain,
 Sophos,Sophos Anti-Virus for Mac,,,,,,,,,,,,,,,2010,United Kingdom,
 Symantec,Symantec Endpoint Protection,,,,,,,,,,,,,,,2012,United States,
-Symantec,Norton Security Standard for Mac,,,,,,,,,,,,,,,2012,United States,
+NortonLifelock (formerly Symantec),Norton Security Standard for Mac,,,,,,,,,,,,,,,2012,United States,
 Trend Micro,Titanium Internet Security for Mac,,,,,,,,,,,,,,,2011,Japan,
 Webroot,SecureAnywhere AntiVirus,,,,,,,,,,,,,,Trialware,2012,United States,
 Webroot,SecureAnywhere Internet Security Plus and Complete,,,,,,,,,,,,,,Trialware,2012,United States,
 Company,Software,On-demand scan,On-access scan,Heuristics,CloudAV,Firewall,IDS,IPS,Email Security,AntiSpam,Web protection,Live-Update,Support,License,Price,First release,Country of origin,Notes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,7 +1,5 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-<<<<<<< HEAD
-del,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" 
-ins,,,,,,,
-=======
-base,1.0[3],,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+body,rowspan="2" 1.0[1],rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" ,rowspan="4" 
+head,,,,,,,
+html,1.0[2],,,,,,
+title,1.0[3],,,,,,

@@ -1,35 +1,12 @@
-<<<<<<< HEAD
-Object object,Trident,Gecko,WebKit,Presto,Blink
-Called as function,,,,,
-Object([value]),Yes,Yes,Yes,Yes,Yes
-Called as constructor,,,,,
-new Object([value]),4.0,Yes,Yes,Yes,Yes
-Properties,,,,,
-prototype,4.0,Yes,Yes,Yes,Yes
-Properties of prototype,,,,,
-constructor,4.0,Yes,Yes,Yes,Yes
-toString(),4.0,Yes,Yes,Yes,Yes
-toLocaleString(),4.0,Yes,Yes,Yes,Yes
-valueOf(),4.0,Yes,Yes,Yes,Yes
-hasOwnProperty(V),5.5,Yes,3,Yes,Yes
-isPrototypeOf(V),5.5,Yes,3,Yes,Yes
-propertyIsEnumerable(V),5.5,Yes,3,Yes,Yes
-=======
-Function object,Trident,Gecko,WebKit,Presto,Blink
-Called as function,,,,,
-"Function([[p1 [, p2 [, ...]],] body])",?,Yes,Yes,?,Yes
-Called as constructor,,,,,
-"new Function([[p1 [, p2 [, ...]],] body])",4.0,1.0,Yes,1.0,Yes
-Properties,,,,,
-length,?,1.0,Yes,Yes,Yes
-prototype,4.0,1.0,Yes,1.0,Yes
-Properties of prototype,,,,,
-length,?,1.0,Yes,?,Yes
-constructor,4.0,1.0,Yes,1.0,Yes
-toString(),4.0,1.0,Yes,1.0,Yes
-"apply(thisArg, argArray)",4.0,1.0,Yes,1.0,Yes
-"call(thisArg [, arg1 [, arg2 [, ...]]])",4.0,1.0,Yes,1.0,Yes
-Properties of instances,,,,,
-length,4.0,1.0,Yes,1.0,Yes
-prototype,4.0,1.0,Yes,1.0,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Error object,Trident,Gecko,WebKit,Presto
+Called as function,,,,
+Error (message),?,?,?,?
+Called as constructor,,,,
+new Error (message),5.0,1.0,Yes,1.0
+Properties,,,,
+prototype,5.0,1.0,Yes,1.0
+Properties of prototype,,,,
+constructor,5.0,1.0,Yes,1.0
+name,5.5,1.0,Yes,1.0
+message,5.5,1.0,Yes,1.0
+toString(),5.0,1.0,Yes,1.0

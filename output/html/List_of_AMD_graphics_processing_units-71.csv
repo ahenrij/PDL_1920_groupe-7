@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-Model (codename),Launch,Architecture & Fab,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
-,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MT/s),Band-width (GB/s),
-Radeon RX 5300M[194] (Navi 14),13 November 2019,RDNA 1.0 7 nm,1408:88:32 22 CU,1000 1445,127.2,46.2,4069,GDDR6 96-bit,3,14000,168,85 W
-Radeon RX 5500M[195] (Navi 14),7 October 2019,,1408:88:32 22 CU,1375 1645,144.8,52.6,4632,GDDR6 128-bit,4,14000,224,85 W
-Radeon RX 5600M[196] (Navi 10),2020,,2304:144:64 36 CU,1000 1265,182.2,81,5829,GDDR6 192-bit,6,12000,288,150 W
-Radeon RX 5700M[197] (Navi 10),2020,,2304:144:64 36 CU,1465 1720,247.7,110.1,7926,GDDR6 256-bit,8,12000,384,180 W
-=======
-Model,Launch,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,TDP (Watts),Notes
-,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,,
-FirePro RG220[373],May 2010,RV711,55,PCIe 2.0 x16,500,800,80(16×5):8:4:1,2.0,4.0,512,12.8,"GDDR3 for GPU, RDRAM for PCoIP",64,80,No,10.1,3.3,1.0,35,Dual Ethernet ports plus DMS-59 for dual DVI-D output (no VGA host output)
-FirePro R5000[374],"February 25, 2013",Pitcairn LE GL (GCN 1st gen),28,PCIe 3.0 x16,825,,768:48:32:12,26.4,39.6,2048,102.4,GDDR5,256,1267.2,79.2,11.1,4.5,1.2,<150,Ethernet port plus Two Mini DisplayPort w/ Tera2 PCoIP
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model (codename),Release Date,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TBP,Bus interface
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Bandwidth (GB/s),,
+Radeon Instinct MI6 (Polaris 10) [410][411][412][413][414],December 2016,GCN 4th gen 14 nm,5.7×109 232 mm2,2304:144:32 36 CU,1120 1233,177.6,39.46,5800,5800,358,GDDR5 256-bit,16,7000,224,150 W,PCIe 3.0 x16
+Radeon Instinct MI8 (Fiji XT) [410][411][412][415][416],,GCN 3rd gen 28 nm,8.9×109 596 mm2,4096:256:64 64 CU,1000,256.0,64.0,8200,8200,512,HBM 4096-bit,4,1000,512,175 W,
+Radeon Instinct MI25 (Vega 10 XT)[410][411][412][417][418][419],,GCN 5th gen 14 nm,12.5×109 510 mm2,4096:256:64 64 CU,1400 1500,384,96.0,24600,12300,768,HBM2 2048-bit,16,1704,436.2,300 W,
+"Radeon Instinct MI25 mxgpu (Prototype, June 2017)[420]",Unreleased,,2× 12.5×109 510 mm2,2× 4096:256:64 64 CU,1400 1500,2× 384,2× 96.0,2× 24600,2× 12300,2× 768,,2× 16,,2× 436.2,300 W,
+Radeon Instinct MI50 (Vega 20 GL)[421][422][423][424],November 2018,GCN 5th gen 7 nm,13.2×109 331 mm2,3840:240:- 60 CU,1450 1746,419.04,-,26800,13400,6700,HBM2 4096-bit,16,2000,1024,300 W,PCIe 4.0 x16
+Radeon Instinct MI60 (Vega 20 GL)[421][425][426],,,,4096:256:- 64 CU,1500 1800,460.8,-,29450,14725,7362.5,,32,,1024,300 W,

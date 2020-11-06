@@ -1,26 +1,28 @@
-<<<<<<< HEAD
-Kernel Name,File access control,Disable memory execution support,Kernel ASLR,Mandatory access control,Capability-based security,In-kernel key management,Audit API,Sandbox,SYN flood protection,UDP flood protection,Ping flood protection,Smurf attack protection,Network Behavior Analysis
-Linux,"Traditional Unix permissions, POSIX ACL",Yes,Yes,"LSM (SELinux, SMACK, TOMOYO Linux, AppArmor)",seccomp,keyctl,fanotify,"SELinux Sandbox, seccomp",SYN cookies,No?,No?,No?,No
-FreeBSD Kernel,"Traditional Unix permissions, POSIX and NFSv4 ACL",Yes,?,TrustedBSD MAC,Capsicum,?,OpenBSM,"Capsicum, MAC framework",SYN cookies,?,?,?,?
-Solaris Kernel,"Traditional Unix permissions, POSIX ACL, NFSv4 ACL",Default,?,Solaris Trusted Extensions,?,?,?,?,?,?,?,?,?
-Windows NT kernel,Access control list,DEP,Yes,Mandatory Integrity Control,AppContainers,?,Yes,Windows Event Log,Yes[12],?,?,?,?
-XNU,"Traditional Unix permissions, NT/NFSv4 ACL[13]",Yes,Yes,TrustedBSD MAC,?,?,OpenBSM,Apple XNU Sandbox,?,?,?,?,?
-=======
-kernel,HP,,,Softbank/ARM Holdings,,Intel,,,,Tallwood MIPS,,IBM,,,,Renesas Electronics,,,,,,,Oracle,,,NXP,,Analog Devices,Xilinx,Cadence,,Canon/Axis Comm.,Socionext,,Microchip/ Atmel,CML/ Hyperstone,Intel/Altera,,,WDC,Sunplus Technology,Mellanox,TI
-,VAX,Alpha,PA-RISC,ARM,,x86,,i960,IA-64,MIPS,,PowerPC,,S/390,z/Arch,H8300,M16C,M32R,78K,V850,SuperH,,SPARC,,,m68k,,Blackfin (no-mmu),MicroBlaze,Xtensa,,ETRAX CRIS,FR-V,MN10300,AVR32,E1 (no-mmu),Nios (no-mmu),Nios II,,WDC 65C816,S+core,Tilera,C6X
-,,,,mmu,no-mmu,x86,x86-64,,,mmu,no-mmu,32-bit,64-bit,,,,,,,,mmu,no-mmu,32-bit,64-bit,no-mmu,mmu,no-mmu,,,mmu,no-mmu,,,,,,,mmu,no-mmu,,,,
-DragonFly BSD kernel,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-FreeBSD kernel,No,No,No,Yes,?,Yes,Yes,?,Yes,Yes,No,Yes,Yes,No,No,?,?,?,?,?,No,No,No,Yes,?,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Linux kernel,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,No,4.16 and below only[33],No,2.6 and below only,Yes,Yes,Yes,Yes,Yes,Yes,Yes,4.16 and below only[33],Yes,Yes,Yes,4.16 and below only[33],4.16 and below only[33],4.16 and below only[33],4.12 and below only,No,No,Yes,Yes,No,4.16 and below only[33],4.16 and below only[33],Yes
-MINIX 3 kernel,?,No,No,Yes,?,Yes,In progress,No,No,In progress,?,No,No,No,No,No,?,No,?,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-NetBSD kernel,Yes,Yes,Yes,Yes,No[34],Yes,Yes,?,Yes,Yes,No[34],Yes,No,No,No,?,?,?,?,?,Yes,No[34],Yes,Yes,No[34],Yes,No[34],?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-NetWare kernel,No,No,No,No,No,Yes,No,?,No,No,No,No,No,No,No,?,?,?,?,?,No,No,No,No,No,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-OpenBSD kernel,No,Yes,Yes,Yes,?,Yes,Yes,?,No,Yes,?,Yes,No,No,No,?,?,?,?,?,Yes,?,Yes,Yes,?,Yes,Yes,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Rockbox kernel,?,?,?,Yes,?,?,?,?,?,Yes,?,?,?,?,No,?,?,?,?,?,Yes,?,?,?,?,Yes,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Solaris kernel,No,No,No,No,No,Yes,Yes,?,No,No,No,No,No,No,No,?,?,?,?,?,No,No,Yes,Yes,?,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Windows NT kernel,No,NT 5.0 RC1 and below only,No,Yes,No,Yes,Yes,No,XP and 2003-2008 R2 only,NT 4.0 and below only,No,NT 3.51 and NT 4.0 only,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Windows CE kernel,No,No,No,Yes,?,Yes,?,No,No,Yes,?,No,No,No,No,No,?,No,?,No,Yes,?,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-XNU,No,No,No,Yes,?,Yes,Yes,?,No,No,No,Yes,Yes,No,No,?,?,?,?,?,No,No,No,No,No,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-SPARTAN kernel,?,No,No,Yes,?,Yes,Yes,?,Yes,Yes,?,Yes,No,No,No,?,?,?,?,?,No,No,Yes,Yes,?,No,No,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-FreeRTOS kernel,?,?,?,?,Yes[35],?,?,?,?,?,?,Yes[35],?,?,No,Yes[35],?,?,Yes[35],Yes[35],?,Yes[35],?,?,?,?,?,Yes[35],Yes[35],?,?,?,?,?,Yes[35],?,?,?,Yes[35],?,?,?,?
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Kernel name,Programming language,Used in,Creator,Executable format (also see section below),Type,Integrated firewall,SMP support,Multiple architecture support (also see section below).,Multitasking,Virtualization,Security,Profiling/Debugging,Soft real-time support,Hard real-time support,Can keep RTC in UT[2]
+Amiga Exec,,AmigaOS,Commodore International,HUNK,Exokernel (atypical)[3],No,No,No,Yes,No,No,Yes,No,No,No
+Amiga Exec SG (2nd Generation),,AmigaOS 4,Hyperion Entertainment,ELF/HUNK,Exokernel (atypical),No,No,No,Yes,No,No,Yes,No,No,?
+DragonFly BSD kernel,C,DragonFly BSD,Matt Dillon,ELF,hybrid,"Ipfirewall, PF",Yes,No,Yes,"chroot, jail, vkernel",Unix permissions,"DDB, KGDB",?,?,?
+FreeBSD kernel,C,"FreeBSD, Debian GNU/kFreeBSD, Gentoo/FreeBSD, Orbis OS",The FreeBSD Project,"ELF, others - platform dependent",monolithic,"IPFilter, Ipfirewall, PF",Yes,Yes,Yes,"chroot, jail, bhyve","Unix permissions, POSIX.1e and NFSv4 ACLs,[4] Capsicum, TrustedBSD MAC, OpenBSM","KDB, DDB, KGDB, DTrace, hwpmc",Yes,?,Yes
+GNU Hurd,C,"GNU/Hurd (Arch Hurd, Debian GNU/Hurd)",GNU Project/Free Software Foundation,ELF,multiserver microkernel,No,partial,No,Yes,"chroot, Xen","Unix permissions, POSIX ACL, POSIX Capabilities",?,?,?,?
+GNU Mach,C,"part of GNU Hurd, used in GNU/Hurd",GNU Project/Free Software Foundation,ELF,microkernel,No,partial,No,Yes,"chroot, Xen","Unix permissions, POSIX ACL, POSIX Capabilities",?,?,?,?
+Inferno kernel,,Inferno,Bell Labs / Vita Nuova Holdings,?,virtual machine,?,Yes,Yes,Yes,"chroot, Xen",?,?,?,?,?
+L4,,L4,Jochen Liedtke,No,microkernel,No,Yes,Yes,Yes,Yes,"Afterburner/L4 [1], Marzipan [2], capabilities in L4/Fiasco[5]",L4/Fiasco[5],L4/Fiasco[5],?,?
+Linux kernel,C,"Linux (kernel), Android, Ubuntu, CentOS, webOS, Fire OS, Firefox OS, Chrome OS, Syllable Server, Mastodon Linux, OpenBSD/Linux, Plan 9/Linux, Sailfish OS, Tizen, amongst others.",Linus Torvalds,"ELF, others",monolithic,*ipfwadm (2.0 –) ipchains (2.2 –) Netfilter (2.4 – 3.x) nftables (3.13 –),Yes,Yes,Yes,"cgroups, chroot, Lguest, Xen, KVM, kvm-lite, LXC","Unix permissions, POSIX ACL, POSIX Capabilities, keyctl, LSM(SELinux, SMACK, TOMOYO Linux, AppArmor)","OProfile, kprobe, SystemTap, JProbe, ftrace, KDB, KGDB, kernel marker, perf tools",CONFIG_PREEMPT,(CONFIG_PREEMPT_RT Patch),Yes
+Compute Node Linux,,Compute Node Linux,Cray Inc.,?,?,?,?,?,?,?,?,?,?,?,?
+Mach,C,NeXTSTEP and OPENSTEP for Mach and Tru64 UNIX,Carnegie Mellon University,Mach-O,"microkernel, hybrid kernel",?,Yes,?,Yes,?,?,?,Yes,?,?
+MINIX 3 kernel,C,MINIX 3,Andrew S. Tanenbaum,"ELF,[6] a.out[7][8]",microkernel,No,No,Yes,Yes,No,Unix permissions,"Call profiling, statistical profiling, Minix Debugger (mdb)",No,No,?
+MkLinux,,?,OSF Research Institute and Apple Computer,?,microkernel,?,?,?,?,?,?,?,?,?,?
+NetBSD kernel,C,"NetBSD, GNU/kNetBSD (Debian GNU/NetBSD),",The NetBSD Project,"ELF, others - platform dependent","monolithic, anykernel using rump kernel architecture","IPFilter, PF, NPF",Yes,Yes,Yes,"Xen, chroot","kauth, Unix permissions","DDB, KGDB, tprof",POSIX real-time scheduling extensions,Kernel preemption [9],?
+NetWare kernel,,NetWare,Novell,NLM,hybrid,Yes,Yes,No,Yes,?,?,?,?,?,?
+OpenBSD kernel,C,OpenBSD,OpenBSD developers,"ELF, others - platform dependent",monolithic,PF,Yes,Yes,Yes,?,Unix permissions,?,?,?,?
+OS/2 kernel,,OS/2 version 2 and above,IBM,LX,hybrid,No,Yes,No PowerPC version developed but never officially released.,Yes,No,Yes,Yes,Yes,No,?
+Plan 9 kernel,C,Plan 9 from Bell Labs,Bell Labs,?,hybrid,ipmux,Yes,Yes,Yes,?,?,?,?,?,?
+ReactOS kernel,"C, C++",ReactOS,ReactOS Foundation,"PE, others?",hybrid,?,?,?,Yes,?,?,?,?,?,?
+Rockbox kernel,,Rockbox,The Rockbox Project,?,?,?,?,Yes,?,?,?,?,?,?,?
+SunOS kernel,C,SunOS,Sun Microsystems,a.out,monolithic,?,Yes,Yes,Yes,?,Unix permissions,?,?,?,?
+Solaris kernel,C,"Solaris, OpenSolaris, GNU/kOpenSolaris (Nexenta OS)",Sun Microsystems,ELF (32-bit only until Solaris 7 in 1998),monolithic,IPFilter,Yes,Yes,Yes,"Zones, chroot","Unix permissions, ACL, RBAC, Auditing, Privileges, Zones, Trusted Extensions","DTrace, CPU profiling, microstate accounting, perf counters, kernel lock stats, kstats, mdb, kmdb",Real-time scheduler,?,?
+Trix kernel,,Trix,Massachusetts Institute of Technology,a.out,monolithic,?,Yes,No,Yes,?,?,?,?,?,?
+Windows NT kernel,"C, C++","Windows NT, 2000, XP, 2003, Vista, Windows 7, Windows 8, Windows Phone 8, Windows Phone 8.1, Windows 10",Microsoft,"PE, others?",hybrid,Yes,Yes,Yes,Yes,Hyper-V,ACL,Event Tracing[10],Multimedia Class Scheduler Service,No,Unofficial[11]
+XNU (Darwin kernel),"C, C++","Mac OS X, iOS, iPadOS, tvOS, watchOS, OpenDarwin, PureDarwin GNU/Darwin",Apple Inc.,Mach-O,hybrid,"Ipfirewall, PF (starting in Lion)",Yes,Yes,Yes,chroot,"Unix permissions, NT/NFSv4 ACLs, TrustedBSD MAC, OpenBSM","KDB, DDB, DTrace",Yes,No,Yes
+SPARTAN kernel,,HelenOS,Jakub Jermar,ELF,microkernel,?,Yes,Yes,Yes,?,?,?,?,?,?
+Kernel name,,Used in,Creator,Executable format (also see section below),Type,Integrated firewall,SMP support,Multiple architecture support (also see section below).,Multitasking,Virtualization,Security,Profiling/Debugging,Soft real-time support,Hard real-time support,Can keep RTC in UT

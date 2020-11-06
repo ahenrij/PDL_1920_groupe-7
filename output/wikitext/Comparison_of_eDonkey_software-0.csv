@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-Client,Fork from,FLOSS,Runs on,,,Kad,Unicode,Languages supp,Development Status
-,,,Linux,Windows,Mac OS X,,,,
-eDonkey2000,-,,,,,,,1,Discontinued
-aMule,xMule,GPL,,,,,,28,
-eMule and its Mods,-,GPL,,,,,,43[2],
-eMule Plus,eMule,GPL,,,,,,31,Abandoned
-MLDonkey,-,GPL,,,,,,3,Discontinued
-Shareaza,-,GPL,,,,,,31,
-xMule,lMule,GPL,,,,,,,Abandoned
-=======
 Client,,Website,Initial Release,Current Stable Version,Mod Based On
 eDonkey2000,,None[17],mf=yes20000906,1.4.6 (mf=yes2006),-
 aMule,,[1],200309,,-
@@ -41,4 +30,3 @@ Morpheus,,None[24],mf=yes2001,,-
 Shareaza,,[24],mf=yes2002,,-
 xMule,,[25],mf=yes200306,,-
 Client,,Website,Initial Release,Current Stable Version,Mod Based On
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

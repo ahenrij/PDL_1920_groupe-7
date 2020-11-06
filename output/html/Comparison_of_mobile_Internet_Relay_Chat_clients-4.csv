@@ -1,31 +1,14 @@
-<<<<<<< HEAD
-Client,CTCP,DCC,IPv6,SSL,TLS,OCSP,CRL
-AndroidChat,No,No,No,No,No,No,No
-Mobile Colloquy,Yes[citation needed],No[citation needed],Yes[citation needed],Yes[citation needed],Yes[citation needed],No[citation needed],No[citation needed]
+Client,Multi-server,UTF-8,Proxy server,irc:// URI scheme,Automatic updates,Scripting language,Push notifications
+AndroidChat,?,?,?,?,?,?,?
+Mobile Colloquy,Yes,Yes,No,Yes,Yes,No,Yes
 fIRC,?,?,?,?,?,?,?
-jmIrc,Yes,No,No,No,No,No,No
-k-IRC,Yes,No,No,No,No,No,No
-Revolution IRC,No,Yes,?,Yes,Yes,?,?
-Virca,?,?,?,?,?,?,?
-wIRC,Yes,Yes,No,Yes,Yes,?,?
-WLIrc,Yes,Yes,?,No,No,No,?
-Yaaic,No[5],?,?,Yes,Yes,?,?
-Simple IRC,Yes,Yes,?,Yes,Yes,?,?
-zsIRC,Yes,No,No,Yes,Yes,No,No
-Client,CTCP,DCC,IPv6,SSL,TLS,OCSP,CRL
-=======
-Client,CHAT,Whiteboard,SEND,GET,RESUME,TSEND,SEND T,XMIT,Passive DCC,Server,RDCC,REVERSE,RSEND,Reverse / Firewall DCC,File servers (FSERVs),XDCC
-AndroidChat,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Mobile Colloquy,Yes[citation needed],No,No,?,No,No,No,No,No,No,No,No,No,No,No,No
-fIRC,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-jmIrc,No,No,No,?,No,No,No,No,No,No,No,No,No,No,No,No
-k-IRC,No,No,No,?,No,No,No,No,No,No,No,No,No,No,No,No
-Revolution IRC,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Virca,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-wIRC,Yes,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No
-WLIrc,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Yaaic,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Simple IRC,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
-zsIRC,No,No,No,?,No,No,No,No,No,No,No,No,No,No,No,No
-Client,CHAT,Whiteboard,SEND,GET,RESUME,TSEND,SEND T,XMIT,Passive DCC,Server,RDCC,REVERSE,RSEND,Reverse / Firewall DCC,File servers (FSERVs),XDCC
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+jmIrc,No,Yes,Yes,No,No,Yes,?
+k-IRC,No,No,No,No,No,No,?
+Revolution IRC,Yes,Yes,No,?,No,No,Yes
+Virca,?,Yes,?,?,No,?,?
+wIRC,?,?,Yes,?,?,?,?
+WLIrc,?,No,?,?,No,?,?
+Yaaic,Yes,Yes,No,No,Yes,No,?
+Simple IRC,Yes,Yes,No,No,No,No,Yes
+zsIRC,Yes,Yes,No,No,Yes,No,?
+Client,Multi-server,UTF-8,Proxy server,irc:// URI scheme,Automatic updates,Scripting language,Push notifications

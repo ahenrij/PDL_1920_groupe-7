@@ -1,36 +1,13 @@
-<<<<<<< HEAD
-|,Guest account,Customer testimonials,Featured products,"Glossary, tool tip words",Image enlarge,Mini cart,Multiple addresses,Newest products,Newsletter,News,Next-previous product links,Polls,Popular products,Printing-friendly
-| Apache OFBiz,,,,,,,,,,,,,,
-| Batavi,,,,,,,,,,,,,,
-| Bigcommerce,,Add-on,,,,,,,,,,3rd party,,
-| Drupal Commerce,,,,Add-on,,,,,,,,,,Add-on
-| KonaKart,,,,,,,,,,,,,,
-| nopCommerce,,,,,,,,,,,,,,
-| Magento,,,,,,,,,,,,,,
-| osCommerce,Add-on,Add-on,Add-on,,,,,,,,,Add-on,,Add-on
-| OpenCart,,,,,,3rd party,,,,Add-on,3rd party,,,
-| pimcore,,,,,,,,,,,,,,
-| PrestaShop,,,,,,,,,,,,,,
-| Shopify,,,,,,,,,,,,,,
-| SupaDupa,,,,,,,,,,,,,,
-| WooCommerce,,,,,,,,,,,,,,
-| Zen Cart,Add-on[14],Add-on[15],,,,,Add-on[16],,,,,,,
-!Guest account,Customer testimonials,Featured products,"Glossary, tool tip words",Image enlarge,Mini cart,Multiple addresses,Newest products,Newsletter,News,Next-previous product links,Polls,Popular products,Printing-friendly,
-=======
-|,Multiple store fronts,Affiliates,API (remote management functions),Minimum orders,Multiple vendor support,Out-of-the-box shopping cart
+|,Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS
 | Apache OFBiz,,,,,,
 | Batavi,,,,,,
-| Bigcommerce,,3rd party,,,,
-| Drupal Commerce,,,,,,
+| Bigcommerce,,,,,,
 | KonaKart,,,,,,
-| Magento,,3rd party,,,,
+| Magento,,,,,,
 | nopCommerce,,,,,,
 | osCommerce,,,,,,
-| pimcore,,,,,,
-| PrestaShop,,,,,,
+| PrestaShop,webservice,,,,,
 | Shopify,,,,,,
-| SupaDupa,,,,,,
 | WooCommerce,,,,,,
-| Zen Cart,add-on,3rd party,,add-on,,
-!Multiple store fronts,Affiliates,API (remote management functions),Minimum orders,Multiple vendor support,Out-of-the-box shopping cart,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+| Zen Cart,,,add-on,add-on,add-on,add-on
+!Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS,

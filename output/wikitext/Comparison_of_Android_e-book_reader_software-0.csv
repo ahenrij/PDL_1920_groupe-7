@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Software,License,Other platforms,DRM formats supported
 Aldiko,,iOS,Adobe DRM
 AlReader[1],,None,
@@ -16,25 +15,3 @@ Librera[5],GPL,None,None
 MReader,,None,None
 OverDrive Media Console[6],,"Chromebook, iOS, Mac OS X, Windows","Adobe DRM, OverDrive"
 Snapplify,,"Web application, iOS","Adobe DRM, Snapplify SnappSafe DRM"
-=======
-Product,Local books,Book file search,Epub downloading,Browser downloading,OPDS catalog,Books tag,Books sort,Books manage metadata
-Aldiko Book Reader,,,,,,,,
-AlReader,,,,,,,,
-Bookari,,,,,,,,
-Cool Reader,,,,,,,,
-EBookDroid,,,,,,,,
-Ebook Reader,,,,,,,,
-eReader Prestigio,,,,,,,,
-FBReader,,,,,,,,
-iReader,,,,,,,,
-Kindle,,,,,,,,
-Kobo Books,,,,,,,,
-KOReader,,,,,,,,
-Lektz eBook Reader,,,,,,,,
-Librera,,,,,,,,
-Moon+ reader,,,,,,,,
-MReader,,,,,,,,
-PocketBook,,,,,,,,
-Socio eReader,,,,,,,,
-Product,Local books,Book file search,Epub downloading,Browser downloading,OPDS catalog,Books tag,Books sort,Books manage metadata
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

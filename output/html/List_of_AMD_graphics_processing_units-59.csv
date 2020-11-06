@@ -1,28 +1,5 @@
-<<<<<<< HEAD
-Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
-,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MHz),Band- width (GB/s),
-Radeon 520[173] (Banks),18 April 2017,GCN 1st gen (28 nm),320:20:8,1030,20.6,8.2,659,DDR3 64-bit,2,1000,16.0,<50 W
-,,,,,,,,GDDR5 64-bit,2,1125,36,
-Radeon 530[174] (Weston),18 April 2017,GCN 3rd gen (28 nm),384:24:8,730 1024,24.6,8.2,786,DDR3 64-bit,2,900,14.4,<50 W
-Radeon 530X[175] Radeon 535[176] (Polaris 24 XT),18 April 2017,,384:24:8,730 1024,24.6,8.2,786,GDDR5 64-bit,2,1125,36,<50 W
-Radeon RX 540[177] (Lexa Pro),11 November 2017,GCN 4th gen (14 nm),512:32:16,1124 1219,39,19.5,1248,GDDR5 128-bit,2,1500,96,<50 W
-Radeon 540X[178] (Polaris 23 XL),11 April 2018,,,,,,,,,,,
-Radeon RX 550[179] (Lexa Pro),2 July 2017,,640:40:16,1100 1287,51.5,20.6,1647,GDDR5 128-bit,2,1500,96,<50 W
-Radeon 550X[180] (Polaris 23 XT),11 April 2018,,,,,,,,,,,
-Radeon RX 560[181][182][183] (Baffin XT),5 January 2017,,896:56:16,784 1032,57.8,16.5,1849,GDDR5 128-bit,4,1710,109.4,55 W
-,,,896:56:16,1000 1053,59,16.9,1887,GDDR5 128-bit,4,1500,96,55 W
-,,,1024:64:16,1090 1202,77,19.2,2462,GDDR5 128-bit,4,1500,96,65 W
-Radeon RX 560X[184] (Polaris 31 XL),9 January 2019,,896:56:16,1223,68.5,19.6,2192,GDDR5 128-bit,4,1750,112,65 W
-Radeon RX 570[185] (Ellesmere Pro),10 December 2017,,2048:128:32,926 1206,154.4,38.6,4940,GDDR5 256-bit,8,1650,211,85 W
-Radeon RX 580[186] (Polaris 20 XT),18 April 2017,,2304:144:32,1000 1077,155.1,34.5,4963,GDDR5 256-bit,8,2000,256,100 W
-Radeon RX 580X[187] (Polaris 20 XT),11 April 2018,,,,,,,,,,,
-=======
-Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
-,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
-FirePro W2100[254],"August 13, 2014",GCN 1st gen,Oland XT,28,PCIe 3.0 x8,630,900,320:20:8:5,5.04,12.6,2,28.8,DDR3,128,403.2,25.5,11.2a/12.0,4.5,2.0 (new),1.0,<26,Two Standard DisplayPort DP 1.2a outputs
-FirePro W4100[255],,,Cape Verde,,PCIe 3.0 x16,630,1125,512:32:16:8,10.08,20.16,,72,GDDR5,,645.1,40.3,,,,,<50,Four Standard Mini-DP 1.2a outputs
-FirePro W5100[256],,GCN 2nd gen,Bonaire Pro,,,930,1500,768:48:16:12,14.88,44.64,4,96,,,1430,89.2,11.2b/12.0,,2.0,,<75,"DirectGMA, GeometryBoost, 4 DP 1.2a, including Adaptive-Sync and HBR2"
-FirePro W7100[257],,GCN 3rd gen,Tonga Pro GL,,,920,1400,1792:112:32:28,29.4,103,8,160,,256,3297,206,,,,1.1,<150,
-FirePro W8100[258],"June 26, 2014",GCN 2nd gen,Hawaii Pro GL,,,824,1250,2560:160:64:40,52.7,145,,320,,512,4218.9,2109.45,,,,1.0,220,"ECC RAM, 4 DP + SDI-Link"
-FirePro W9100[259],"March 26, 2014",,Hawaii XT,,,930,1250,2816:176:64:44,59.5,163.7,16 32,320,,,5237.8,2618.9,,,2.0[260],,275,"ECC RAM, Six Mini DP + SDI-Link"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Radeon 9000,2003,RC350,FSB,300,400,4:1:2:2,600,600,600,75,16 - 128,3.2,DDR,64
+Radeon 9100,,RS300 (superman),,,,,,,,,,6.4,,128
+Radeon 9100 Pro,"May 3, 2004",RS350,,,,,,,,,,,,

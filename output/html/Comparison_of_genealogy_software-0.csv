@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Name,English,Afrikaans,Danish,Dutch,French,German,Italian,Norwegian,Polish,Portuguese,Russian,Spanish,Swedish
 Agelong Tree[a],Yes,No[b],No[b],Yes,Yes,Yes,Yes,No[b],Yes,?,Yes,Yes,No[b]
 Ahnenblatt[c],Yes,No[b],Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes
@@ -23,29 +22,3 @@ Reunion[l],Yes,No,No,Yes[l],Yes[l],Yes[l],No,Yes[l],No,?,No,No,No
 RootsMagic,Yes,No,No,No,No,No,No,No,No,?,No,No,No
 The Master Genealogist,Yes[n],Yes,Yes,Yes,Yes,Yes,Partial,Yes,No[g],?,No,No[g],Yes
 webtrees,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-=======
-Name,Individual view,Family view,Pedigree view,Chronology view,Ancestor charts,Ancestor narrative reports,Ancestor pedigree reports,Descendant charts,Descendant narrative reports,Fan charts,Research Manager,DNA charts,Research Guidance,Mapping
-Agelong Tree,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
-Ahnenblatt,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes
-Ancestral Quest,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes
-Ancestris,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
-Brother's Keeper,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
-Family Historian[a],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes
-Family Tree Builder,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
-Family Tree Maker,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes
-GEDitCOM II,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes
-Genbox Family History,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
-GenealogyJ,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes
-GenoPro,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,No,Yes
-Gramps,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes
-Heredis,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
-Kith and Kin Pro,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No
-Legacy Family Tree[b],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
-LifeLines,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?,No,?
-MacFamilyTree,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
-Personal Ancestral File,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,?,No,?
-Reunion,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes
-RootsMagic,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-The Master Genealogist,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,No,?
-webtrees,Yes,Yes,Yes,Yes,Yes,?,Yes,?,?,?,?,?,?,?
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

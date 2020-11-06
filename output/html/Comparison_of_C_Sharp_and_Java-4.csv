@@ -1,16 +1,13 @@
-<<<<<<< HEAD
-Native interoperability,Java,C#
-Cross-language interoperability,"Yes (with GraalVM, Nashorn, CORBA, JNI or JNA)[92]",Yes; C# was designed for it[92]
-External/native methods,Yes,Yes
-Marshalling,External glue code needed,Yes; metadata controlled
-Pointers and arithmetics,Yes[93],Yes
-Native types,Yes[94],Yes
-Fixed-size buffers,No,Yes
-Explicit stack allocation,No,Yes
-Address-of,No,Yes
-Object pinning (fix variable to address),No,Yes
-=======
-Exceptions,Java,C#
-Checked exceptions,Yes,No
-Try-catch-finally,Yes,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Expressions and operators,Java,C#
+Arithmetic operators,Yes,Yes
+Logical operators,Yes,Yes
+Bitwise logic operators,Yes,Yes
+Conditional,Yes,Yes
+String concatenation,Yes,Yes
+Casts,Yes,Yes
+Boxing,Yes; implicit,Yes; implicit
+Unboxing,Yes; implicit,Yes; explicit
+Lifted operators,"No, but see java.util.Optional",Yes
+Overflow control,No,Yes
+Strict floating point evaluation,Yes; opt-in/out,Yes; opt-in[39]
+Verbatim (here-)strings,Yes; coming in version 15[40],Yes[41]

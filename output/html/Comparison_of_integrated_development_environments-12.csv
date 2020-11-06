@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
-Eclipse JDT,EPL,No,Yes,Yes,Yes,"FreeBSD, JVM, Solaris",No
-IntelliJ IDEA,"ASLv2, proprietary",Yes,Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris",No
-NetBeans,"CDDL, GPL2",Yes,Yes,Yes,Yes,"OpenBSD, Solaris",Yes
-SlickEdit,Proprietary,No,Yes,Yes,Yes,"Solaris, Solaris SPARC, AIX, HP-UX",No
-=======
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,Profiler,Notes
-Visual Studio Code (using the Julia extension),MIT License,Yes,Yes,Yes,FreeBSD[33],?[34],?,License is for the extension; and Microsoft's source code (only).
-Emacs / spacemacs,"portions in GPL v2, LGPL, BSD and public domain",Yes,Yes,Yes,FreeBSD,Yes,Yes,"ESS extension support for emacs. vi support also available, e.g. in spacemacs (useful for pair programming )."
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release
+Eclipse w/ AonixADT[1],EPL,Yes,Yes,Yes,"FreeBSD, JVM, Solaris",Yes,Yes[2],No,Unknown,Unknown,Yes,Unknown,No,Yes,December 2009
+GNAT Programming Studio,GPL,Yes,Yes,Yes,"DragonFly BSD, FreeBSD, NetBSD, OpenBSD, Solaris",Yes,Yes[3],Yes,Yes,Yes,Yes,Yes,No,Yes,June 2014
+SlickEdit,Proprietary,Yes,Yes,Yes,"Solaris, Solaris SPARC, AIX, HP-UX",Yes,No,No,No,No,Yes,No,No,Yes,2018
+Understand,Proprietary,Yes,Yes,Yes,Solaris,No,No,No,No,No,Yes,Yes,No,Yes,December 2015

@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-Operator,Languages
-+,"ALGOL 68, BASIC, C++, C#, Cobra, Pascal, Object Pascal, Eiffel, Go, JavaScript, Java, Python, Turing, Ruby, Rust, Windows PowerShell, Objective-C, Swift, F#, Scala, Ya"
-++,"Haskell, Erlang"
-$+,mIRC Scripting Language
-&,"Ada, AppleScript, COBOL (for literals only), Curl, Seed7, VHDL, Visual Basic, Visual Basic .NET, Excel, FreeBASIC"
-nconc,Common Lisp
-.,"Perl, PHP, and Maple (up to version 5), Autohotkey"
-~,Raku and D
-||,"Icon, Standard SQL, PL/I, Rexx, and Maple (from version 6)"
-<>,"Mathematica, Wolfram Language"
-..,Lua
-:,Pick Basic
-",","J programming language, Smalltalk, APL"
-^,"OCaml, Standard ML, F#, rc"
-//,Fortran
-*,Julia
-=======
 Syntax,Language(s)
 ""I said \"Hello, world!\""","C, C++, C#, D, F#, Java, JavaScript, Mathematica, Ocaml, Perl, PHP, Python, Rust, Swift, Wolfram Language, Ya"
 "'I said \'Hello, world!\''","CoffeeScript, JavaScript (alternate), Python (alternate)"
@@ -25,4 +7,3 @@ Syntax,Language(s)
 ""I said, %"Hello, World!%""",Eiffel
 "!"I said \"Hello, world!\""",FreeBASIC
 "r#"I said "Hello, world!""#",Rust (alternate)
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

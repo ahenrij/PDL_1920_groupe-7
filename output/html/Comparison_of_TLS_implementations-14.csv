@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-Implementation,Application-defined,PKIX path validation[107],CRL[108],OCSP[109],DANE (DNSSEC)[110],Trust on First Use (TOFU),CAA[111],CT[112]
-Botan,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-Bouncy Castle,Yes,Yes,Yes,Yes,Yes,No,Unknown,Unknown
-cryptlib,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-GnuTLS,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,Unknown
-JSSE,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-LibreSSL,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-MatrixSSL,Yes,Yes,Yes,Yes[113],No,No,Unknown,Unknown
-Mbed TLS,Yes,Yes,Yes,No[114],No,No,Unknown,Unknown
-NSS,Yes,Yes,Yes,Yes,No[115],No,Unknown,Unknown
-OpenSSL,Yes,Yes,Yes,Yes,Yes,No,Unknown,Yes
-RSA BSAFE,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-SChannel,Unknown,Yes,Yes[116],Yes[116],No,No,Unknown,Unknown
-Secure Transport,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-wolfSSL,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-Erlang/OTP SSL application,Yes,Yes,Yes,No,No,No,Unknown,Unknown
-Implementation,Application-defined,PKIX path validation,CRL,OCSP,DANE (DNSSEC),Trust on First Use (TOFU),CAA,CT
-=======
 Implementation,SRP[94],SRP-DSS[94],SRP-RSA[94],PSK-RSA[95],PSK[95],DHE-PSK (forward secrecy)[95],ECDHE-PSK (forward secrecy)[96],KRB5[97],DH-ANON[34] (insecure),ECDH-ANON[81] (insecure)
 Botan,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Disabled by default,Disabled by default
 cryptlib,No,No,No,No,Yes,Yes,No,Unknown,No,No
@@ -34,4 +15,3 @@ Secure Transport,No,No,No,No,No,No,No,Unknown,Yes,Yes
 wolfSSL,No,No,No,No,Yes,No,Yes[106],No,No,No
 Erlang/OTP SSL application,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default,No,No,Disabled by default,Disabled by default
 Implementation,SRP[94],SRP-DSS[94],SRP-RSA[94],PSK-RSA[95],PSK[95],DHE-PSK (forward secrecy)[95],ECDHE-PSK (forward secrecy)[96],KRB5[97],DH-ANON[34] (insecure),ECDH-ANON[81] (insecure)
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,34 +1,23 @@
-<<<<<<< HEAD
-BitTorrent library,Super-seeding,Tracker,UPnP [35],NAT Port Mapping Protocol,NAT traversal [36],DHT [37],Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,?TP
-libtorrent (Rasterbar),,,,,,,,,,,,,
-MonoTorrent,,,,,,,,,,,,,
-rTorrent (libTorrent Rakshasa),,,,,,,,,,,,,
-BitTorrent library,Super-seeding,Tracker,UPnP,NAT Port Mapping Protocol,NAT traversal,DHT,Peer exchange,Encryption,UDP tracker,LPD,Fast extensions,Magnet URI,?TP
-=======
-BitTorrent client,GUI,Remote,CLI,Other,Programming language,Based on,IPv6,?TP
-BitComet,,,,,C++,-,,
-BitLord,,,,,"Python, C++",libtorrent (Rasterbar),,
-"BitTorrent 5, Mainline",,,,,Python,-,,
-BitTorrent 6,,,,,C++,?Torrent,,
-Deluge,,,,Daemon,"Python, C++",libtorrent (Rasterbar),,
-FlashGet,,,,,,,,
-Free Download Manager,,,,,C++,libtorrent (Rasterbar),,
-Frostwire,,,,,Java,libtorrent (Rasterbar),,
-KGet,,,,,C++,-,,
-KTorrent,,,,,C++,-,,
-LimeWire,,,,,Java,libtorrent (Rasterbar),,
-Miro,,,,,C++,libtorrent (Rasterbar),,
-MLDonkey,,Third Party[22],,Telnet,OCaml,-,,
-?Torrent,,,,RESTful Web API[24],C++[25],-,,
-Opera 12,,,,,C++,-,,
-qBittorrent,,,,,"Python, C++",libtorrent (Rasterbar),,
-rTorrent,,Third Party,,SCGI,C++,[libTorrent] (Rakshasa),,
-Shareaza,,,,,C++,-,,
-Tixati,,,,Web interface,C++,-,,
-Tonido,,,,,C++,libtorrent (Rasterbar),,
-Transmission,,,,"Daemon, JSON-RPC over HTTP remote control API","C, Objective-C",libtransmission,,
-Tribler,,,,,"Python, C++",libtorrent (Rasterbar),,
-Vuze (formerly Azureus),,,,"Telnet, XML over HTTP remote control API","Java, SWT",-,,
-Xunlei,,,,remote control over internet[33],C++,-,,
-BitTorrent client,GUI,Web,CLI,Other,Programming language,Based on,IPv6,?TP
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+BitTorrent client,Magnet URI,Preload Magnet metadata [34],Super-seeding,Embedded tracker,UPnP [35],NAT Port Mapping Protocol,NAT traversal [36],DHT [37],Peer exchange,Encryption,UDP tracker,LPD,Proxy server
+BitComet,,,,,,,,,,,,,"HTTP 1.1, SOCKS4-4a-5"
+BitLord,,,,,,,,,,,,,"HTTP 1.1, SOCKS4-4a-5"
+"BitTorrent 5, Mainline",,,,,,,,,,,,,
+BitTorrent 6,,,,,,,,,,,,,"HTTP(S), SOCKS4-5"
+Deluge,,,,,,,,,,,,,"HTTP(S), SOCKS4-5"
+FlashGet,,,,,,,,,,,,,
+Free Download Manager,,,,,,,,,,,,,
+KTorrent,,,,,,,,,,,,,"HTTP, SOCKS4-5"
+LimeWire,,,,,,,,,,,,,
+MLDonkey,,,,,,,,,,,,,
+?Torrent,,,,,,,,,,,,,"HTTP(S), SOCKS4-5"
+Opera 12,,,,,,,,,,,,,
+qBittorrent,,,,,,,,,,,,,"HTTP(S), SOCKS4-5"
+rTorrent,,,,,,,,,,,,,
+Shareaza,,,,,,,,,,,,,
+Tixati,,,,,,,,,,,,,only with out going without DHT if anonymity required
+Tonido,,,,,,,,,,,,,
+Transmission,,,,,,,,,,,,,
+Tribler,,,,,,,,,,,,,Uses P2P onion routing to provide anonymity.
+Vuze (formerly Azureus),,,,,,,,,,,,Plugin,"HTTP(S)?, SOCKS4-4a-5"
+Xunlei,,,,,,,,,,,,,"HTTP, SOCKS5, FTP"
+BitTorrent client,Magnet URI,Preload Magnet metadata,Super-seeding,Embedded tracker,UPnP,NAT Port Mapping Protocol,NAT traversal,DHT,Peer exchange,Encryption,UDP tracker,LPD,Proxy server

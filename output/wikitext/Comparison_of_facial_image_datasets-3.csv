@@ -1,18 +1,6 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-UrbanSound,"Labeled sound recordings of sounds like air conditioners, car horns and children playing.",Sorted into folders by class of events as well as metadata in a JSON file and annotations in a CSV file.,"1,059",Sound (WAV),Classification,2014,[268][269],J. Salamon et al.
-AudioSet,"10-second sound snippets from YouTube videos, and an ontology of over 500 labels.",128-d PCA'd VGG-ish features every 1 second.,"2,084,320",Text (CSV) and TensorFlow Record files,Classification,2017,[270],"J. Gemmeke et al., Google"
-Bird Audio Detection challenge,"Audio from environmental monitoring stations, plus crowdsourced recordings",,"17,000+",,Classification,2016 (2018),[271][272],Queen Mary University and IEEE Signal Processing Society
-WSJ0 Hipster Ambient Mixtures,Audio from WSJ0 mixed with noise recorded in the San Francisco Bay Area,Noise clips matched to WSJ0 clips,"28,000",Sound (WAV),Audio source separation,2019,[273],"Wichern, G., et al., Whisper and MERL"
-Clotho,"4,981 audio samples of 15 to 30 seconds long, each audio sample having five different captions of eight to 20 words long.",,"24,905",Sound (WAV) and text (CSV),Automated audio captioning,2020,[274][275],"K. Drossos, S. Lipping, and T. Virtanen"
-=======
-Zero Resource Speech Challenge 2015,"Spontaneous speech (English), Read speech (Xitsonga).",raw wav,"English: 5h, 12 speakers; Xitsonga: 2h30; 24 speakers",sound,Unsupervised discovery of speech features/subword units/word units,2015,[240][241],Versteegh et al.
-Parkinson Speech Dataset,Multiple recordings of people with and without Parkinson's Disease.,"Voice features extracted, disease scored by physician using unified Parkinson's disease rating scale","1,040",Text,"Classification, regression",2013,[242][243],B. E. Sakar et al.
-Spoken Arabic Digits,Spoken Arabic digits from 44 male and 44 female.,Time-series of mel-frequency cepstrum coefficients.,"8,800",Text,Classification,2010,[244][245],M. Bedda et al.
-ISOLET Dataset,Spoken letter names.,Features extracted from sounds.,7797,Text,Classification,1994,[246][247],R. Cole et al.
-Japanese Vowels Dataset,Nine male speakers uttered two Japanese vowels successively.,Applied 12-degree linear prediction analysis to it to obtain a discrete-time series with 12 cepstrum coefficients.,640,Text,Classification,1999,[248][249],M. Kudo et al.
-Parkinson's Telemonitoring Dataset,Multiple recordings of people with and without Parkinson's Disease.,Sound features extracted.,5875,Text,Classification,2009,[250][251],A. Tsanas et al.
-TIMIT,"Recordings of 630 speakers of eight major dialects of American English, each reading ten phonetically rich sentences.",Speech is lexically and phonemically transcribed.,6300,Text,"Speech recognition, classification.",1986,[252][253],J. Garofolo et al.
-Arabic Speech Corpus,"A single-speaker, Modern Standard Arabic (MSA) speech corpus with phonetic and orthographic transcripts aligned to phoneme level",Speech is orthographically and phonetically transcribed with stress marks.,~1900,"Text, WAV","Speech Synthesis, Speech Recognition, Corpus Alignment, Speech Therapy, Education.",2016,[254],N. Halabi
-Common Voice,A public domain database of crowdsourced data across a wide range of dialects.,Validation by other users,"English: 1,118 hours",MP3 with corresponding text files,Speech recognition,June 2017 (December 2019),[255],Mozilla
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Poker Hand Dataset,5 card hands from a standard 52 card deck.,"Attributes of each hand are given, including the Poker hands formed by the cards it contains.","1,025,010",Text,"Regression, classification",2007,[460],R. Cattral
+Connect-4 Dataset,"Contains all legal 8-ply positions in the game of connect-4 in which neither player has won yet, and in which the next move is not forced.",None.,"67,557",Text,Classification,1995,[461],J. Tromp
+Chess (King-Rook vs. King) Dataset,Endgame Database for White King and Rook against Black King.,None.,"28,056",Text,Classification,1994,[462][463],M. Bain et al.
+Chess (King-Rook vs. King-Pawn) Dataset,King+Rook versus King+Pawn on a7.,None.,3196,Text,Classification,1989,[464],R. Holte
+Tic-Tac-Toe Endgame Dataset,Binary classification for win conditions in tic-tac-toe.,None.,958,Text,Classification,1991,[465],D. Aha

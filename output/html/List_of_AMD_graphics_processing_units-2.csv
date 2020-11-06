@@ -1,27 +1,9 @@
-<<<<<<< HEAD
-Model (Codename),Launch,Architecture (Fab),Core config[a],Clock rate (MHz),,Fillrate,,Processing power (GFLOPS),Shared memory,,
-,,,,Core (MHz),Boost (MHz),Pixel (GP/s),Texture (GT/s),,Bus type & width (bit),Clock,Bandwidth (GB/s)
-Radeon HD 7400G (Scrapper),September 2012,TeraScale 3 (32 nm),192:12:4,327,424,1.31,3.92,125.57,DDR3 128-bit,1333 to 2133,21.33–34.13
-Radeon HD 7420G (Scrapper),June 2012,,128:8:4,480,655,1.92,3.84,122.88,,,
-Radeon HD 7500G (Scrapper),May 2012,,256:16:8,327,424,2.62,5.23,167.42,,,
-Radeon HD 7520G (Scrapper),June 2012,,192:12:4,496,685,1.98,5.95,190.46,,,
-Radeon HD 7600G (Devastator),September 2012,,384:24:8,320,424,2.56,7.68,245.76,,,
-Radeon HD 7620G (Devastator),May 2012,,,360,497,2.88,8.64,276.48,,,
-Radeon HD 7640G (Devastator),,,256:16:8,496,685,3.97,7.94,253.95,,,
-Radeon HD 7660G (Devastator),,,384:24:8,,,,11.9,380.93,,,
-=======
-Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory[e],,,,TDP (W)
-,,,Config[f],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width (bit),Size (GiB),Clock (MHz),Band- width (GB/s),
-Radeon HD 8550M / 8630M (Sun LE),8 January 2013,GCN 1st gen (28 nm),384:24:8,650 700,5.2 5.6,15.6 16.8,537.6,DDR3 64,1,900,14.4,Unknown
-Radeon HD 8570M / 8650M (Sun Pro),8 January 2013,,384:24:8,650 700,5.2 5.6,15.6 16.8,537.6,GDDR5 64,1,1125,36,Unknown
-Radeon HD 8670M (Mars XT),8 January 2013,,384:24:8,775 825,6.2 6.6,18.6 19.8,633.6,DDR3 64,1,900,14.4,Unknown
-Radeon HD 8690M (Sun XT),8 January 2013,,384:24:8,775 825,6.2 6.6,18.6 19.8,633.6,GDDR5 64,1,1125,36,Unknown
-Radeon HD 8730M (Mars LE),8 January 2013,,384:24:8,650 700,5.2 5.6,15.6 16.8,537.6,DDR3 128,2,1000,32,Unknown
-Radeon HD 8750M (Mars Pro),8 January 2013,,384:24:8,620–775 670–825,4.96 6.6,14.88 19.8,514.56 633.6,DDR3 GDDR5 128,2,1000,32 64,Unknown
-Radeon HD 8770M (Mars XT),8 January 2013,,384:24:8,775 825,6.2 6.6,18.6 19.8,633.6,GDDR5 128,2,1125,72,Unknown
-Radeon HD 8790M (Mars XTX),8 January 2013,,384:24:8,850 900,6.8 7.2,20.4 21.6,691.2,GDDR5 128,2,1125,72,Unknown
-Radeon HD 8830M (Venus LE),8 January 2013,,640:40:16,575 625,9.2 10,23 25,800,DDR3 128,2,1000,32,Unknown
-Radeon HD 8850M (Venus Pro),8 January 2013,,640:40:16,575–725 625–775,9.2 12.4,23 31,800 992,DDR3 GDDR5 128,2,1000 1125,32 72,Unknown
-Radeon HD 8870M (Venus XT),8 January 2013,,640:40:16,725 775,11.6 12.4,29 31,992,DDR3 GDDR5 128,2,1000 1125,32 72,Unknown
-Radeon HD 8970M (Neptune XT),8 January 2013,,1280:80:32,850 900,27.2 28.8,68 72,2304,GDDR5 256,2 4,1200,153.6,100
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model (Codename),Release Date,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TDP,Bus interface
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,
+Radeon Pro 555 (Polaris 21) [351][352][353][354],June 2017,GCN 4th gen 14 nm,3.0×109 123 mm2,768:48:16 12 CU,850,40.8,13.6,1306,1/16 SP,GDDR5 128-bit,2,5100,81.60,50 W,PCIe 3.0 ×16
+Radeon Pro 555X (Polaris 21) [351][352][353][355],July 2018,,,768:48:16 12 CU,907,43.54,14.51,1393,1/16 SP,GDDR5 128-bit,4,5100,81.60,50 W,
+Radeon Pro 560 (Polaris 21) [351][352][353][356],June 2017,,,1024:64:16 16 CU,907,58.05,14.51,1858,1/16 SP,GDDR5 128-bit,4,5080,81.28,50 W,
+Radeon Pro 560X (Polaris 21) [351][352][353][357],July 2018,,,1024:64:16 16 CU,1004,64.26,16.06,2056,1/16 SP,GDDR5 128-bit,4,5080,81.28,50 W,
+Radeon Pro 570 (Polaris 20) [351][352][353][358],June 2017,,5.7×109 232 mm2,1792:112:32 28 CU,1000,112,32,3584,1/16 SP,GDDR5 256-bit,4,6800,217.6,120 W,
+Radeon Pro 575 (Polaris 20) [351][352][353][359],June 2017,,,2048:128:32 32 CU,1100,140.8,35.2,4506,1/16 SP,GDDR5 256-bit,4,6800,217.6,120 W,
+Radeon Pro 580 (Polaris 20) [351][352][353][360],June 2017,,,2304:144:32 36 CU,1100 1200,172.8,38.4,5530,1/16 SP,GDDR5 256-bit,8,6800,217.0,150 W,

@@ -1,26 +1,5 @@
-<<<<<<< HEAD
-IDE,License,Platform,Developer,Latest stable release
-Code::Blocks,GPL,"Windows, Linux, macOS, FreeBSD, OpenBSD, Solaris",Code::Blocks Team,17.12 / 2017-12-30
-Geany,GPL,"Windows, Linux, macOS, FreeBSD, AIX, OpenBSD, Solaris, other Unix",Team,"1.27 / March 13, 2016"
-GNAT Programming Studio,GPL,"Windows, Linux, macOS, DragonFly BSD, FreeBSD, NetBSD, OpenBSD, Solaris",AdaCore,4.3.1 / June 2009
-KDevelop,GPL,Linux,KDevelop Team,
-NetBeans,CDDLGPL,"Windows, Linux, macOS",NetBeans Community,
-OpenWatcom,OSI Approved,"Windows, Linux, DOS, OS/2",OpenWatcom Community,"1.9 / June 2, 2010"
-Photran (Eclipse),EPL,"Windows, Linux, macOS, FreeBSD, JVM, Solaris","University of Illinois, Los Alamos National Laboratory","9.1 / June 24, 2015"
-Plato,,Windows,Silverfrost,4.7.3.0
-Understand,,"Windows, Linux, macOS, Solaris, other Unix",SciTools,"December 4, 2015"
-Simply Fortran,,"Windows, Linux, macOS","Approximatrix, LLC","3.14 / August 12, 2020"
-SlickEdit,,"Windows, Linux, MacOS, AIX, Solaris, Solaris SPARC, HP-UX",SlickEdit,October 2016
-IntelliJ IDEA,ASLv2,"Windows, Linux, MacOS, FreeBSD, OpenBSD, Solaris",JetBrains,September 2017
-=======
-IDE,License,Developer,Latest stable release,Windows,Linux,macOS,Other platforms
-Microsoft Visual Studio,,Microsoft,"2019-04-1216.0.2 / April 18, 2019",,,,
-MonoDevelop,LGPL,Xamarin and the Mono community,"2016-11-11 6.1.2.44 / November 11, 2016",,,,"FreeBSD, OpenBSD, Solaris"
-SharpDevelop,LGPL,IC#Code Team,"2016-04-14 5.1 / April 14, 2016",,,,
-SlickEdit,,SlickEdit,October 2016,,,,"Solaris, Solaris SPARC, AIX, HP-UX"
-Understand,,SciTools,"2015-12-04 814 / December 4, 2015",,,,Solaris
-Visual Studio Code,source code(MIT License) - binary(Proprietary),Microsoft,"2020-09-10 1.49.0 / September 10, 2020",,,,
-Xamarin Studio,source code(MIT License) - binary(Proprietary),Microsoft,December 2016,,,,
-Eclipse,EPL,Eclipse Foundation,"2017-06-284.7 / June 28, 2017",,,,
-Rider,,JetBrains,"2019-12-112019.3 / December 11, 2019",,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release
+Eclipse w/ AonixADT[1],EPL,,,,"FreeBSD, JVM, Solaris",,,,,,,,,,December 2009
+GNAT Programming Studio,GPL,,,,"DragonFly BSD, FreeBSD, NetBSD, OpenBSD, Solaris",,,,,,,,,,June 2014
+SlickEdit,,,,,"Solaris, Solaris SPARC, AIX, HP-UX",,,,,,,,,,2018
+Understand,,,,,Solaris,,,,,,,,,,December 2015

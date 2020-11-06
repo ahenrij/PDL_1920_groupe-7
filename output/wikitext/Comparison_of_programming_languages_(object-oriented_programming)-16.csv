@@ -1,54 +1,19 @@
-<<<<<<< HEAD
-,Get object type,Is instance of (includes subtypes),Upcasting,Downcasting,
-,,,,Runtime check,No check
-ABAP Objects,colspan=2 ,=,?=,,
-C++ (STL),typeid(x),dynamic_cast<type *>(&x) != nullptr,rowspan=8 ,dynamic_cast<type*>(ptr),(type*) ptr or static_cast<type*>(ptr)
-C#,x.GetType(),x is type,(type) x or x as type,,
-D,typeid(x),,cast(type) x,,
-Delphi,,x is type,x as type,,
-eC,x._class,"eClass_IsDerived(x._class, type)",,(type) x,
-Java,x.getClass(),x instanceof class,(type) x,,
-Objective-C (Cocoa),[x class][73],[x isKindOfClass:[class class]],,(type*) x,
-Swift,x.dynamicType,x is type,x as! type x as? type,,
-JavaScript,x.constructor (If not rewritten.),x instanceof class,colspan=3 ,,
-Visual Basic .NET,x.GetType(),TypeOf x Is type,,"CType(x, type) or TryCast(x, type)",
-Xojo,Introspection.GetType(x),x IsA type,,"CType(x, type)",
-Eiffel,x.generating_type,attached {TYPE} x,attached {TYPE} x as down_x,,
-Python,type(x),"isinstance(x, type)",colspan=3 rowspan=3 ,,
-PHP,get_class(x),x instanceof class,,,
-Perl,ref(x),x->isa("class"),,,
-Raku,x.WHAT,x.isa(class),,type(x) or x.type,
-Ruby,x.class,x.instance_of?(type) or x.kind_of?(type),colspan=3 rowspan=2 ,,
-Smalltalk,x class,x isKindOf: class,,,
-Windows PowerShell,x.GetType(),x -is [type],,[type]x or x -as [type],
-OCaml,colspan=2 ,(x :> type),colspan=2 ,,
-F#,x.GetType(),,x :? type,(x :?> type),
-COBOL,colspan=2 ,x AS type[72],colspan=2 ,,
-=======
-! basic/void method,value-returning method
-ABAP Objects,methods name «importing parameter = argument» «exporting parameter = argument» «changing parameter = argument» «returning value(parameter)» method name. instructions endmethod.[28]
-APL (Dyalog),? «left argument» name «right arguments» instructions ?
-"C++[30] type foo(«parameters»); The implementation of methods is usually provided in a separate source file, with the following syntax type class::foo(«parameters») { instructions }[31]",void foo(«parameters») { instructions }
-C#,
-D,
-Java,
-eC,void ««type of 'this'»::»foo(«parameters») { instructions }
-Eiffel,foo ( «parameters» ) do instructions end
-Objective-C,- (void)foo«:parameter «bar:parameter ...»» { instructions }
-Swift,func foo(«parameters») { instructions }
-Python,"def foo(self«, parameters»): Tab instructions"
-Visual Basic .NET,Sub Foo(«parameters») instructions End Sub
-Xojo,Sub Foo(«parameters») instructions End Sub
-PHP,function foo(«parameters»)«: void» { instructions }
-Perl,"sub foo { my ($self«, parameters») = @_; instructions }"
-Raku,«has »«multi »method foo(««$self: »parameters») { instructions }
-Ruby,def foo«(parameters)» instructions end
-Windows PowerShell,Add-Member «-MemberType» ScriptMethod «-Name» foo «-Value» { «param(parameters)» instructions } -InputObject variable
-OCaml,rowspan=2 
-F#,member this.foo(«parameters») = expression
-JavaScript,this.method = function(«parameters») {instructions} name«.prototype.method = function(«parameters») {instructions}[32]
-Javascript (ES6),foo(«parameters») {instructions}
-COBOL,METHOD-ID. foo. «DATA DIVISION. LINKAGE SECTION. parameter declarations» PROCEDURE DIVISION« USING parameters». instructions END METHOD foo.
-Cobra,def foo(parameters) Tab instructions
-ISLISP,(defgeneric method (arg1 arg2)) (defmethod method ((arg1 <class1> arg2 <class2>) ...)
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,downcast,upcast
+ABAP Objects,colspan=2 ,
+C++ (STL),,operator returntype() { instructions }
+C#,static explicit operator returntype(type operand) { instructions },static implicit operator returntype(type operand) { instructions }
+D,,T opCast(T)() if (is(T == type)) { instructions }
+eC,,property T { get { return «conversion code»; } }
+Java,rowspan=4 colspan=2 ,
+Objective-C,,
+Eiffel[35],,
+Python,,
+Visual Basic .NET,Shared Narrowing Operator CType(operand As type) As returntype instructions End Operator,Shared Widening Operator CType(operand As type) As returntype instructions End Operator
+PHP,rowspan=2 colspan=2 ,
+Perl,,
+Raku,,multi method type«($self:)» is export { instructions }
+Ruby,rowspan=3 colspan=2 ,
+Windows PowerShell,,
+OCaml,,
+F#,,
+COBOL,colspan=2 ,

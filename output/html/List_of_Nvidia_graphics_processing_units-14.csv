@@ -1,30 +1,29 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
-GeForce 410M,"January 5, 2011",GF119,40,PCIe 2.0 ×16,48:83:4,575,1150,1600,2.3,4.6,512,12.8,DDR3,64,12,4.5,110.4,12,Similar to Desktop GT420 OEM
-GeForce GT 415M,"September 3, 2010",GF108,,,,500,1000,,2,4,,25.6,,128,,,96,<12(GPU only)[128],
-GeForce GT 420M,,,,,96:163:4,,,,,8,,,,,,,192,10–23(GPU only)[128],Similar to Desktop GT430
-GeForce GT 425M,,,,,,560,1120,,2.24,8.96,1024,,,,,,215.04,20–23(GPU only)[128],
-GeForce GT 435M,,,,,,650,1300,,2.6,10.4,2048,,,,,,249.6,32–35(GPU only)[128],Similar to Desktop GT430/440
-GeForce GT 445M,,GF106,,,144:243:16 144:243:24,590,1180,1600 2500,9.44 14.16,14.16,1024 1536,25.6 60,DDR3 GDDR5,128 192,,,339.84,30–35(GPU only)[128],Similar to Desktop GTS450 OEM)
-GeForce GTX 460M,,,,,192:323:24,675,1350,2500,16.2,21.6,1536,60,GDDR5,192,,,518.4,45–50(GPU only)[128],Similar to Desktop GTX550 Ti
-GeForce GTX 470M,,GF104,,,288:483:24,550,1100,,13.2,26.4,,,,,,,633.6,,Similar to Desktop GTX 460/560SE
-GeForce GTX 480M,"May 25, 2010",GF100,,,352:443:32,425,850,2400,13.6,18.7,2048,76.8,,256,,,598.4,100(MXM module),Similar to Desktop GTX465
-GeForce GTX 485M,"January 5, 2011",GF104,,,384:643:32,575,1150,3000,18.4,36.8,,96.0,,,,,883.2,,Similar to Desktop GTX560 Ti
-=======
-Model,Features,,,,,,,,
-,Scalable Link Interface (SLI),3-Way SLI,PureVideo HD with VP1,"PureVideo 2 with VP2, BSP Engine, and AES128 Engine","PureVideo 3 with VP3, BSP Engine, and AES128 Engine",PureVideo 4 with VP4,Compute ability,,
-GeForce 8300 GS (G86),No,No,No,Yes,No,No,1.1,,
-GeForce 8400 GS Rev. 2 (G98),No,No,No,No,Yes,No,1.1,,
-GeForce 8400 GS Rev. 3 (GT218),No,No,No,No,No,Yes,1.2,,
-GeForce 8500 GT,Yes,No,No,Yes,No,No,1.1,,
-GeForce 8600 GT,Yes,No,No,Yes,No,No,1.1,,
-GeForce 8600 GTS,Yes,No,No,Yes,No,No,1.1,,
-GeForce 8800 GS (G92),Yes,No,No,Yes,No,No,1.1,,
-GeForce 8800 GTS (G80),Yes,No,Yes,No,No,No,1.0,,
-GeForce 8800 GTS Rev. 2 (G80),Yes,No,Yes,No,No,No,1.0,,
-GeForce 8800 GT (G92),Yes,No,No,Yes,No,No,1.1,,
-GeForce 8800 GTS (G92),Yes,No,No,Yes,No,No,1.1,,
-GeForce 8800 GTX,Yes,Yes,Yes,No,No,No,1.0,,
-GeForce 8800 Ultra,Yes,Yes,Yes,No,No,No,1.0,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
+GeForce FX 5100,March 2003,NV34,TSMC 150 nm,AGP 8×,200,166,4:1:4:4,800,800,800,50,64 128,2.7,DDR,64
+GeForce FX 5200 LE,,,,,250,,,1000,1000,1000,62.5,64 128 256,2.7 5.3,,64 128
+GeForce FX 5200,,,,AGP 8× PCI,,200,,,,,,,3.2 6.4[citation needed],,
+GeForce FX 5200 Ultra,"March 6, 2003",,,AGP 8×,325,325,,1300,1300,1300,81.25,,10.4,,128
+GeForce PCX 5300,"March 17, 2004",,,PCIe ×16,250,200,,1000,1000,1000,62.5,128,3.2 6.4[citation needed],,64 128
+GeForce FX 5500,March 2004,NV34B,TSMC 140 nm,AGP 8× AGP 4× PCI,270,,,1080,1080,1080,67.5,64 128 256,,,
+GeForce FX 5600 XT,October 2003,NV31,TSMC 130 nm,AGP 8×,235,,,940,940,940,58.75,64 128,6.4,,128
+GeForce FX 5600,March 2003,,,AGP 8× PCI,325,275,,1300,1300,1300,81.25,64 128 256[5],8.8,,
+GeForce FX 5600 Ultra,"March 6, 2003",,,AGP 8×,350,350,,1400,1400,1400,87.5,64 128,11.2,,
+GeForce FX 5600 Ultra Rev.2,,,,,400,400,,1600,1600,1600,100,,12.8,,
+GeForce FX 5700 VE,September 2004,NV36,IBM 130 nm,,235,200,4:3:4:4,940,940,940,106.5,128 256,6.4,,
+GeForce FX 5700 LE,March 2004,,,AGP 8× PCI,250,,,1000,1000,1000,187.5,,6.4,,
+GeForce FX 5700,2003,,,AGP 8×,425,250,,1700,1700,1700,318.75,,8,,
+GeForce PCX 5750,"March 17, 2004",,,PCIe ×16,,,,,,,,128,,,
+GeForce FX 5700 Ultra,"October 23, 2003",,,AGP 8×,475,450,,1900,1900,1900,356.25,128 256,14.4,GDDR2,
+GeForce FX 5700 Ultra GDDR3,"March 15, 2004",,,,,475,,,,,,,15.2,GDDR3,
+GeForce FX 5800,"January 27, 2003",NV30,TSMC 130 nm,,400,400,4:2:8:4,1600,1600,3200,200,128,12.8,GDDR2,
+GeForce FX 5800 Ultra,,,,,500,500,,2000,2000,4000,,,16,,
+GeForce FX 5900 ZT,"December 15, 2003",NV35,,,325,350,4:3:8:4,1300,1300,2600,343.75,,22.4,DDR,256
+GeForce FX 5900 XT,"December 15, 2003[6]",,,,390,,,1600,1600,3200,300,,,,
+GeForce FX 5900,May 2003,,,,400,425,,,,,,,27.2,,
+GeForce FX 5900 Ultra,"May 12, 2003",,,,450,,,1800,1800,3600,337.5,128 256,,,
+GeForce PCX 5900,"March 17, 2004",,,PCIe ×16,,,,,,,,,,,
+GeForce FX 5950 Ultra,"October 23, 2003",NV38,,AGP 8×,475,475,,1900,1900,3800,356.25,256,30.4,,
+GeForce PCX 5950,"February 17, 2004",,,PCIe ×16,,,,,,,,,,GDDR3,
+Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)

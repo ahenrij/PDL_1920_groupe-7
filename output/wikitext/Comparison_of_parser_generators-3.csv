@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-Name,Lexer algorithm,Output languages,"Grammar, code",Development platform,License
-Alex,DFA,Haskell,Mixed,All,"
-AnnoFlex,DFA,Java,Mixed,Java virtual machine,"
-Astir,"DFA table driven, with branching",C++,Only grammar (actioned),All,"
-AustenX,DFA,Java,Separate,All,"
-C# Flex,DFA,C#,Mixed,.NET CLR,"
-C# Lex,DFA,C#,Mixed,.NET CLR,?
-CookCC,DFA,Java,Mixed,Java virtual machine,"
-Dolphin,DFA,C++,Separate,All,
-Flex,DFA table driven,"C, C++",Mixed,All,"
-gelex,DFA,Eiffel,Mixed,Eiffel,"
-golex,DFA,Go,Mixed,Go,"
-gplex,DFA,C#,Mixed,.NET CLR,"
-JFlex,DFA,Java,Mixed,Java virtual machine,"
-JLex,DFA,Java,Mixed,Java virtual machine,"
-lex,DFA,C,Mixed,POSIX,"
-lexertl,DFA,C++,?,All,"
-Quex,DFA direct code,"C, C++",Mixed,All,"
-Ragel,DFA,"C, C++, assembly",Mixed,All,"
-RE/flex,"DFA direct code, DFA table driven, and NFA regex libraries",C++,Mixed,All,"
-re2c,DFA direct code,C,Mixed,All,"
-=======
 Name,Parsing algorithm,Input grammar notation,Boolean grammar abilities,Development platform,License
 LuZc[8][9],delta chain,modular,"Conjunctive, not complimentary",POSIX,
 bnf2xml,Recursive descent (is a text filter output is xml),"simple BNFOnly context-free grammars can be denoted in BNF.date=January 2018 grammar (input matching), output is xml",?,"Beta, and not a full EBNF parser","
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

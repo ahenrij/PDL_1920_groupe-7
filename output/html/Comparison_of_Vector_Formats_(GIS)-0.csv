@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-,Point,Multipoint,Line,Polyline,MultiPolyline,Polygon,Multipolygon
-GeoJSON[1],Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Personal Geodatabase,Yes,No,Yes,No,No,Yes,No
-Shapefile[2],Yes,Yes,Yes,Yes,Yes,Yes,Yes (as Polygon with multiple outer rings or as MultiPatch)
-=======
 ,Design Authority,Software license
 AutoCAD DXF,,
 Cartesian coordinate system,,
@@ -14,4 +8,3 @@ National Transfer Format,,
 Shapefile,ESRI,
 TIGER,,
 Vector Product Format (VPF),,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

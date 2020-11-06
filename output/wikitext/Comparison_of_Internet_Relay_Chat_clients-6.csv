@@ -1,84 +1,38 @@
-<<<<<<< HEAD
-Client,CTCP,DCC,IPv6,SSL,TLS,DANE,OCSP,CRL,SASL,OTR
-Bersirc,,,,,,,,,,
-BitchX,,,,,,,,,,
-ChatZilla,,,,,,,,,script,
-Colloquy,,,,,,,,,,
-degesch,,,,,,,,,,
-DMDirc,,,,,,,,,,
-ERC,,,,,,,,,group=Notepatch,
-HexChat,,,,,,,,,,group=Noteplugin
-HydraIRC,,,,,,,,,,
-IceChat,,,,,,,,,,
-IRCCloud,,,,,,,,,,
-ircII,,,,,,,,,,
-IRCjr,,,,,,,,,,
-Ircle,,,,,,,,,,
-Irssi,,,,,,,,,,
-jIRCii,,,,,,,,,,
-KiwiIRC,,,,,,,,,,
-Konversation,,,,,,,,,,
-KVIrc,,,,,,,,,,
-LimeChat,,,,,,,,,,
-Linkinus,,,,,,,,,,
-Mibbit,,group=NoteProtocol_support_Mibbit_Agroup=Notensuccess,,,,,,,,
-mIRC,,,,,,,,,,
-Nettalk,,,,,,,,,,
-Opera,,,,,,,,,,
-PIRCH,,,,,,,,,,
-PJIRC,,,,,,,,,,
-Quassel,,,,,,,,,,
-qwebirc,,,,,,,,,,
-rcirc,,,,,,,,,,
-Scrollback,,,,,,,,,,
-Smuxi,,,,,,,,,,
-Snak,,,,,,,,,,
-Visual IRC,,,,,,,,,,
-WeeChat,,,,,,,,,,group=Noteplugin
-Client,CTCP,DCC,IPv6,SSL,TLS,DANE,OCSP,CRL,SASL,OTR
-=======
-Client,Primary developers,Distribution model,Software license,User interface,Programming language
-AdiIRC[1],Per Amundsen,Freeware,,GUI,.NET Framework/C#
-Adium,Thijs Alkemade,Free software,GPL,GUI,Objective-C and C
-AmbassadorAmbassador[2],Isengrim,Free software,MPL,GUIgroup=Notestandaloneandbrowser,"JavaScript, XUL"
-AndroIRC[3],Madalynn,Freeware,,GUI,?
-BersircBersirc[4],"Jamie Frater, Nicholas Copeland",Free software,LGPL,GUI,C (Delphi originally)
-BitchXBitchX,Colten Edwards,Free software,BSD,"TUI, GUI",C
-ChatZillaChatZilla,"James Ross, Robert Ginda, Samuel Sieb, Gijs Kruitbosch",Free software,"MPL, GPL, LGPL tri-license",GUIgroup=Notewebbrowser,"JavaScript, XUL"
-ColloquyColloquy,"Timothy Hatcher, Kiji Roshi","Desktop: Free software, mobile: commercial","BSD: mobile, GPL: desktop",GUI,Objective-C
-ERCERC,"Alexander L. Belikoff, Sergey Berezin",Free software,GPL,"TUI, GUI",Emacs Lisp
-F-IRC,Folkert van Heusden,Free software,GPL,TUI,C++
-GrumpyChat[5],Petr Bena,Free software,LGPL,GUI,C++
-HexChat[6],Berke Viktor,Free software,GPL,"TUI, GUI",C
-IceChat[7][8],Paul Vanderzee,Free software,GPL,GUI,C# (Visual Basic until 2004)[9]
-Igloo[10],Jordan Koch,Commercial,,GUI,Swift
-Instantbird,Florian Quèze,Free software,GPL,GUI,"C/C++, JavaScript, CSS, XUL"
-IRCCloudIRCCloud[11],IRCCloud Ltd.,Freemium,,Web,"JavaScript frontend, Erlang backend"
-ircIIircII,Michael Sandrof,Free software,BSD,TUI,C
-IrcleIrcle,Onno Tijdgat,"Commercial, 30-day trial",,GUI,C
-IrssiIrssi,Timo Sirainen,Free software,GPL,TUI,C
-Kiwi IRCKiwiIRC,Darren Whitlen,Free software,AGPL,Web,"JavaScript frontend, Node.js backend"
-kirckirc,Michael Czigler,Free software,GPL,TUI,C
-KVIrcKVIrc,Szymon Stefanek,Free software,GPL,GUI,C++
-KonversationKonversation,KDE,Free software,GPL,GUI,C++
-LeafChatLeafChat[12],Samuel Marshall,Free software,GPL,GUI,Java
-LimeChatLimeChat[13][14][15],Satoshi Nakagawa,Free software,GPL[16],GUI,RubyCocoa (2007–2010)[15][16] Objective-C (2010–)[17]
-LinkinusLinkinus,Conceited Software,"Commercial, 15-day trial",,GUI,Objective-C
-MibbitMibbit,Jimmy Moore,Textual Adbar,,Web,"JavaScript frontend, Java backend"
-mIRCmIRC,Khaled Mardam-Bey,"Shareware, 30-day trial[18]",,GUI,C/C++[19]
-Monochrome[20],Peter Pawlowski,Freeware,GPLv2,GUI,C#
-Nettalk,Nicolas Kruse,Freeware,Apache 2.0,GUI,Visual Basic
-Opera (until version 12.xx) Operagroup=Noteopera,,Freeware,,GUIgroup=Notebrowsercomp,C++
-Pidgin,,Free software,GPL,GUI,C
-PIRCHPIRCH,,Shareware,,GUI,Delphi
-PJIRCPJIRC,Philippe Detournay,Free software,GPL,GUI,Java
-QuasselQuassel,"Manuel Nickschas, Marcus Eggenberger, Alexander von Renteln",Free software,GPL,"TUIgroup=Notencomp, GUIgroup=Notecldaemon",C++
-qwebircqwebirc,Chris Porter,Free software,GPL,Web,"JavaScript front end, Python backend"
-rcircrcirc,Ryan Yeske,Free software,GPL,TUI,Emacs Lisp
-SmuxiSmuxi,Mirco Bauer,Free software,GPL,"GUI, TUI, servergroup=Notecldaemon",C#
-SnakSnak,Kent Sorensen,Commercial,,GUI,
-ThunderbirdThunderbird,Mozilla Foundation,Free software,MPL 2.0,GUI,"C, C++, JavaScript"
-Visual IRCVisual IRC,Jesse McGrew,Free software,GPL,GUI,Delphi
-WeeChatWeeChat,Sebastien Helleu,Free software,GPL,"TUI, GUIgroup=Notedev",C
-Client,Primary developers,Distribution model,Software license,User interface,Programming language
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Client,"Windows 7, Vista","XP, 2000",NT 4.0,NT 3.x,"Me, 98",95,3.1x,ReactOS,macOS (Intel/PPC),OS 9,OS 8,System 7 (PPC/68k),"BeOS, Haiku","OS/2, eCS, ArcaOS",AmigaOS (68k),"AmigaOS 4, MorphOS (PPC)",DOS
+Bersirc,,,,,,,,,,,,,,,,,
+BitchX,Requires Cygwin[29][30]name=bitchxinstallgroup=Note,,,,,,,,,,,,,,,,
+ChatZilla,,,,,,,,,,,,,,,,,
+Colloquy,,,,,,,,,,,,,,,,,
+degesch,,,,,,,,,,,,,,,,,
+ERC,,,,,,,,,,,,,,,,,
+HexChat,,,,,,,,,,,,,,,,,
+HydraIRC,,,,,,,,,,,,,,,,,
+IceChat,,,,,,,,,,,,,,,,,
+IRCCloud,,,,,,,,,,,,,,,,,
+ircII,,,,,,,,,,,,,,,,,
+IRCjr,,Requires SwsVpkt[31]name=swsvpktgroup=Note,,,,,,,,,,,,,,,
+Ircle,,,,,,,,,,,,,,,,,
+Irssi,,,,,,,,,,,,,,,,,
+jIRCii,,,,,,,,,,,,,,,,,
+KiwiIRC,,,,,,,,,,,,,,,,,
+Konversation,,,,,,,,,,,,,,,,,
+KVIrc,,,,,,,,,,,,,,,,,
+LeafChat,,,,,,,,,,,,,,,,,
+LimeChat,,,,,,,,,Requires RubyCocoa 1.0.0 or latername=rubycocoagroup=Note,,,,,,,,
+Linkinus,,,,,,,,,,,,,,,,,
+Mibbit,,,,,,,,,,,,,,,,,
+mIRC,,,,,,,,,,,,,,,,,
+Nettalk,,,,,Does not support Windows 95 or Windows 98[35]name=nowin95group=Note,,,,,,,,,,,,
+Opera,,,,,,,,,,,,,,,,,
+PIRCH,,,,,,,,,,,,,,,,,
+PJIRC,,,,,,,,,,,,,,,,,
+Quassel,,,,,,,,,,,,,,,,,
+qwebirc,,,,,,,,,,,,,,,,,
+rIRC,,,,,,,,,,,,,,,,,
+rcirc,,,,,,,,,,,,,,,,,
+Scrollback,,,,,,,,,,,,,,,,,
+Smuxi,,,,,,,,,,,,,,,,,
+Snak,,,,,,,,,,,,,,,,,
+Visual IRC,,,,,,,,,,,,,,,,,
+WeeChat,,,,,,,,,,,,,,,,,
+Client,"Windows 7, Vista","XP, 2000",NT 4.0,NT 3.x,"Me, 98",95,3.1x,ReactOS,OS X (Intel/PPC),OS 9,OS 8,System 7 (PPC/68k),"BeOS, Haiku","OS/2, eCS",AmigaOS (68k),"AmigaOS 4, MorphOS (PPC)",DOS

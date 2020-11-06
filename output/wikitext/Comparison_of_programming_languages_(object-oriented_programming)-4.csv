@@ -1,42 +1,24 @@
-,read-write,read-only,write-only
-ABAP Objects,colspan=3 ,,
-<<<<<<< HEAD
-APL (Dyalog),:Property Numbered Default name ? result ? Get instructions ? ? Set arguments instructions ? :EndProperty Bar,:Property Numbered Default Bar ? result ? Get instructions ? :EndProperty Bar,:Property Numbered Default Bar ? Set arguments instructions ? :EndProperty Bar
-C++ (STL),type& operator[](type index) { instructions },type operator[](type index) { instructions },
-C#,type this[type index] { get{ instructions } set{ instructions } },type this[type index] { get{ instructions } },type this[type index] { set{ instructions } }
-D,"type opIndex(type index) { instructions } type opIndexAssign(type value, type index) { instructions }",type opIndex(type index) { instructions },"type opIndexAssign(type value, type index) { instructions }"
-Java,colspan=3 ,,
-Objective-C (recent Clang compiler),,- (id)objectAtIndexedSubscript:(NSUInteger)index { instructions return value; } or - (id)objectForKeyedSubscript:(id)index { instructions return value; },- (void)setObject:(id)value atIndexedSubscript:(NSUInteger)index { instructions } or - (void)setObject:(id)value forKeyedSubscript:(id)index { instructions }
-Swift,subscript (index : type) -> returntype { get { instructions } set«(newIndex)» { instructions } },subscript (index : type) -> returntype { instructions },
-Eiffel[35],bracket_name alias "[]" (index: TYPE): TYPE assign set_item do instructions end set_item (value: TYPE; index: TYPE): do instructions end,bracket_name alias "[]" (index: TYPE): TYPE do instructions end,
-Python,"def __getitem__(self, index): Tab instructions Tab return value def __setitem__(self, index, value): Tab instructions","def __getitem__(self, index): Tab instructions Tab return value","def __setitem__(self, index, value): Tab instructions"
-Visual Basic .NET,Default Property Item(Index As type) As type Get instructions End Get Set(ByVal Value As type) instructions End Set End Property,Default ReadOnly Property Item(Index As type) As type Get instructions End Get End Property,Default WriteOnly Property Item(Index As type) As type Set(ByVal Value As type) instructions End Set End Property
-PHP,[37],,
-Perl,[38],,
-Raku,«our «type »»«multi »method postcircumfix:<[ ]> is rw («$self: » type $index) { instructions ... return value; } or «our «type »»«multi »method postcircumfix:<{ }> is rw («$self: » type $key) { instructions ... return value; },«our «type »»«multi »method postcircumfix:<[ ]>(«$self: » type $index) { instructions ... return value; } or «our «type »»«multi »method postcircumfix:<{ }> («$self: » type $key) { instructions ... return value; },
-Ruby,"def [](index) instructions expression resulting in return value end def []=(index, value) instructions end",def [](index) instructions expression resulting in return value end,"def []=(index, value) instructions end"
-Windows PowerShell,rowspan=2 colspan=3 ,,
-OCaml,,,
-F#,member this.Item with get(index) = expression and set index value = expression,member this.Item with get(index) = expression,member this.Item with set index value = expression
-COBOL,colspan=3 ,,
-Cobra,pro[index «as type»] as type Tab get TabTab instructions TabTab return value Tab set TabTab instructions,get[index «as type»] as type Tab instructions Tab return value,set[index «as type»] as type Tab instructions
-=======
-C++ (STL),colspan=3 ,,
-C#,type Bar { get; set; },type Bar { get; private set; },type Bar { private get; set; }
-D,colspan=3 ,,
-Java,colspan=3 ,,
-Objective-C 2.0 (Cocoa),@property (readwrite) type bar; and then inside @implementation @synthesize bar;,@property (readonly) type bar; and then inside @implementation @synthesize bar;,
-Swift,var bar : type,let bar : type,
-Eiffel,,,
-Python,"@property def bar(self): Tabinstructions @bar.setter def bar(self, value): Tabinstructions",@property def bar(self): Tabinstructions,"bar = property() @bar.setter def bar(self, value): Tabinstructions"
-Visual Basic .NET,Property Bar As type« = initial_value» (VB 10),,
-PHP,,,
-Perl[34],use base qw(Class::Accessor); ->mk_accessors('Bar');,use base qw(Class::Accessor); ->mk_ro_accessors('Bar');,use base qw(Class::Accessor); ->mk_wo_accessors('Bar');
-Raku,colspan=3 ,,
-Ruby,attr_accessor :bar,attr_reader :bar,attr_writer :bar
-Windows PowerShell,,,
-OCaml,colspan=3 ,,
-F#,"member val Bar = value with get, set",,
-COBOL,level-number bar clauses PROPERTY.,level-number bar clauses PROPERTY «WITH» NO SET.,level-number bar clauses PROPERTY «WITH» NO GET.
-Cobra,pro bar from var «as type»,get bar from var «as type»,set bar from var «as type»
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,String representation,,Object copy,Value equality,Object comparison,Hash code,Object ID
+,Human-readable,Source-compatible,,,,,
+ABAP Objects,colspan=7 ,,,,,,
+APL (Dyalog),?x,?SRC x,?NS x,x = y,colspan=2 ,,
+C++ (STL),,,,x == y[50],,,pointer to object can be converted into an integer ID
+C#,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashCode(),System<wbr/>.Runtime<wbr/>.CompilerServices<wbr/>.RuntimeHelpers<wbr/>.GetHashCode(x)
+Java,x.toString(),,x.clone()[51],x.equals(y),x.compareTo(y)[52],x.hashCode(),System<wbr/>.identityHashCode<wbr/>(x)
+JavaScript,x.toString(),,,,,,
+D,x.toString() or std.conv<wbr/>.to!string<wbr/>(x),x.stringof,,x == y or x.opEquals(y),x.opCmp(y),x.toHash(),
+eC,"x.OnGetString(tempString, null, null) or PrintString(x)",,y.OnCopy(x),,x.OnCompare(y),,object handle can be converted into an integer ID
+Objective-C (Cocoa),x.description,x.debugDescription,[x copy][53],[x isEqual:y],[x compare:y][54],x.hash,pointer to object can be converted into an integer ID
+Swift,x.description[55],x.debugDescription[56],,x == y[57],x < y[58],x.hashValue[59],reflect(x)<wbr/>.objectIdentifier!<wbr/>.uintValue()
+Smalltalk,x displayString,x printString,x copy,x = y,,x hash,x identityHash
+Python,str(x)[60],repr(x)[61],copy.copy(x)[62],x == y[63],"cmp(x, y)[64]",hash(x)[65],id(x)
+Visual Basic .NET,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashCode(),
+Eiffel,x.out,,x.twin,x.is_equal(y),"When x is COMPARABLE, one can simply do x < y","When x is HASHABLE, one can use x.hash_code","When x is IDENTIFIED, one can use x.object_id"
+PHP,$x->__toString(),,clone x[66],x == y,,,spl_object_hash(x)
+Perl,"$x"[67],"Data::Dumper<wbr/>->Dump<wbr/>([$x],[,Storable<wbr/>::dclone<wbr/>($x)[69],,,,Scalar<wbr/>::Util<wbr/>::refaddr<wbr/>( $x )[70]
+Raku,~x[67],x.perl,x.clone,x eqv y,x cmp y,,x.WHICH
+Ruby,x.to_s,x.inspect,x.dup or x.clone,x == y or x.eql?(y),x <=> y,x.hash,x.object_id
+Windows PowerShell,x.ToString(),,x.Clone(),x.Equals(y),x.CompareTo(y),x.GetHashCode(),
+OCaml,,,Oo.copy x,x = y,,Hashtbl<wbr/>.hash x,Oo.id x
+F#,string x or x<wbr/>.ToString() or sprintf "%O" x,sprintf "%A" x,x.Clone(),x = y or x<wbr/>.Equals(y),compare x y or x<wbr/>.CompareTo(y),hash x or x<wbr/>.GetHashCode(),
+COBOL,colspan=7 ,,,,,,

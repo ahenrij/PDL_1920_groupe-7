@@ -1,25 +1,21 @@
-<<<<<<< HEAD
-Model (Codename),Launch,Architecture (Fab),Transistors Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory[e],,,,TDP (W),Bus interface
-,,,,Config[f],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width (bit),Size (MiB),Clock (MHz),Band- width (GB/s),Idle Max,
-Radeon HD 8350 (Cedar),"January 8, 2013",TeraScale 2 (40 nm),292×106 59 mm2,80:8:4,400–650,3.2 5.2,1.6 2.6,104,N/A,DDR2 DDR3 64-bit,256 512,400 800,6.4 12.8,6.4 19.1,PCIe 2.1 ×16
-Radeon HD 8450 (Caicos),"January 8, 2013",,370×106 67 mm2,160:8:4,625,5.0,2.5,200,N/A,DDR3 64-bit,512,533,8.53,9 18,
-Radeon HD 8470 (Caicos),"January 8, 2013",,,,750,6.0,3.0,240,N/A,GDDR5 64-bit,1024,800,25.6,9 35,
-Radeon HD 8490 (Caicos),"July 23, 2013",,,,875,7.0,3.5,280,N/A,GDDR5 64-bit,1024,900,28.8,9 35,
-Radeon HD 8570 (Oland),"January 8, 2013",GCN 1st gen (28 nm),950×106 77 mm2,384:24:8,730,19.2,6.4,560,35,DDR3 GDDR5 128-bit,2048,900 1150,28.8 72,12 66,PCIe 3.0 ×8
-Radeon HD 8670 (Oland),"January 8, 2013",,,,1000,24,8,768,48,GDDR5 128-bit,2048,1150,72,16 86,
-Radeon HD 8730 (Cape Verde LE),"September 5, 2013",,1500×106 123 mm2,384:24:8,800,19.2,6.4,614.4,44.8,GDDR5 128-bit,1024,1125,72,10 47,PCIe 3.0 ×16
-Radeon HD 8760 (Cape Verde XT),"January 8, 2013",,,640:40:16,1000,40,16,1280,80,GDDR5 128-bit,2048,1125,72,16 80,PCIe 3.0 ×16
-Radeon HD 8770 (Bonaire XT),"September 2, 2013",GCN 2nd gen (28 nm),2080×106 160 mm2,896:56:16,1000,56.0,16.0,1792,128,GDDR5 128-bit,2048,1500,96,10 85,PCIe 3.0 ×16
-Radeon HD 8870 (Pitcairn XT)[29],"January 8, 2013",GCN 1st gen (28 nm),2800×106 212 mm2,1280:80:32,1000,80,32,2560,160,GDDR5 256-bit,2048,1200,153.6,15 150,PCIe 3.0 ×16
-Radeon HD 8950 (Tahiti Pro),"January 8, 2013",,4313×106 352 mm2,1792:112:32,850 925,95.2 103.6,27.2 29.6,3046.4 3315.2,761.6 828.8,GDDR5 384-bit,3072,1250,240,15 225,PCIe 3.0 ×16
-Radeon HD 8970 (Tahiti XT2),"January 8, 2013",,,2048:128:32,1000 1050,128.0 134.4,32 33.6,4096 4301,1024 1075,GDDR5 384-bit,3072,1500,288,15 250,PCIe 3.0 ×16
-Radeon HD 8990 (Malta),"April 24, 2013",,2× 4313×106 2× 352 mm2,2× 2048:128:32,950 1000,2× 128,2× 32,7782 8192,1946 2048,GDDR5 384-bit,2× 3072,1500,2× 288,15 375,PCIe 3.0 ×16
-Model (Codename),Launch,Architecture (Fab),Transistors Die Size,Config[f],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width (bit),Size (MiB),Clock (MHz),Band- width (GB/s),Idle Max,Bus interface
-,,,,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory[e],,,,TDP (W),
-=======
-Model,Launch,Code name,Graphics core,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core clock2 (MHz),Core config1,Fillrate,,,Memory3,,,,,Processing power (GFLOPS),Features / Notes
-,,,,,,,,,,Pixel (GP/s),Texture (GT/s),FP32 (GP/s),Size (MB),Bandwidth (GB/s),Bus type,Effective clock (MHz),Bus width (bit),,
-Radeon HD 4200 Graphics (785G Chipset),Aug 2009,RS880,RV620,55,>205,~73 (~9 × 8.05),HT 3.0,500,40:4:4,2,2,1,Up to 512 system + optional 128 sideport,20.8 (system) + 2.6 (sideport),HT (system) + DDR2-1066 DDR3-1333 (sideport),1333 (sideport),16 (sideport),40,UVD2
-Radeon HD 4250 Graphics (880G Chipset),Mar 2010,RS880,,,,,,560,,2.24,2.24,1.12,,,HT (system) + DDR3-1333 (sideport),,,44.8,
-Radeon HD 4290 Graphics (890GX Chipset),,RS880D,,,,,,700,,2.8,2.8,1.4,Up to 512 system + 128 sideport,,,,,56,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model: Mobility Radeon,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Processing power (GFLOPS),TDP (Watts)
+,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
+Mobility Radeon HD 530v[142],"May 5, 2010",M92,RV710,55,PCIe x16 2.0,500,600,80:8:4,2,4,1024,9.6,DDR2 DDR3 GDDR3,64,10.1,3.3,80,10
+Mobility Radeon HD 545v[143],,,,,,720,400 800,,2.88,5.76,512 1024,6.4 12.8,,,,,115.2,15
+Mobility Radeon HD 550v[144],,M96,RV730,,,450,600,320:32:8,3.6,14.4,1024,19.2,,128,,,288,10
+Mobility Radeon HD 560v[145],,,,,,550,800,,4.4,17.6,,25.6,,,,,352,15
+Mobility Radeon HD 565v[146],,M96-XT,,,,675,,,5.4,21.6,,25.6,,,,,432,20
+Mobility Radeon HD 5145,"January 7, 2010",M92,RV710,,,720,900,80:8:4,2.88,5.76,,14.4,DDR3 GDDR3,64,,,115.2,15
+Mobility Radeon HD 5165,,M96,RV730,,,600,,320:32:8,4.8,19.2,,28.8,,128,,,384,35
+Mobility Radeon HD 5430,,Park LP,Cedar (RV 810),40,PCIe x16 2.1,500 550,800,80:8:4,2.0 2.2,4.0 4.4,,12.8,,64,11,4.4,80 88,7
+Mobility Radeon HD 5450,,Park PRO,,,,675,,,2.7,5.4,,,,,,,108,11
+Mobility Radeon HD 5470,,Park XT,,,,750,,,3,6,1024 512,12.8 25.6,DDR3 GDDR3 GDDR5,,,,120,13 15
+Mobility Radeon HD 5650,,Madison PRO,Redwood (RV 830),,,450 650,,400:20:8,3.6 5.2,9.0 13.0,1024,25.6,DDR3 GDDR3,128,,,360 520,15 19
+Mobility Radeon HD 5730,,Madison LP,,,,650,,,5.2,13,,,,,,,520,26
+Mobility Radeon HD 5750,,Madison PRO,,,,550,,,4.4,11,,51.2,GDDR5,,,,440,25
+Mobility Radeon HD 5770,,Madison XT,,,PCIe x16 2.0/2.1,650,,,5.2,13,,,,,,,520,30
+Mobility Radeon HD 5830,,Broadway LP,Juniper (RV 840),,PCIe x16 2.1,500,,800:40:16,8,20,,25.6,DDR3 GDDR3,,,,800,24
+Mobility Radeon HD 5850,,Broadway PRO,,,,625 500 625,900 1000,800:40:16,10 8 10,25 20 25,2048 1024,28.8 64 64,,,,,1000 800 1000,31 30 39
+Mobility Radeon HD 5870,,Broadway XT,,,,700,1000,,11.2,28,1024,64,GDDR5,,,,1120,50
+Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS),TDP (Watts)
+,,,,,,,,,Fillrate,,Memory,,,,API compliance (version),,,

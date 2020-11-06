@@ -1,54 +1,21 @@
-<<<<<<< HEAD
 ,read-write,read-only,write-only
 ABAP Objects,N/A,,
-APL (Dyalog),:Property Bar ? result ? Get instructions ? ? Set arguments instructions ? :EndProperty Bar,:Property Bar ? result ? Get instructions ? :EndProperty Bar,:Property Bar ? Set arguments instructions ? :EndProperty Bar
-C++ (STL),N/A,,
-C#,type Bar { get { instructions ... return value; } set { instructions } },type Bar { get { instructions ... return value; } },type Bar { set { instructions } }
-D,@property type bar() { instructions ... return value; } @property type bar(type value) { instructions ... return value; },@property type bar() { instructions ... return value; },@property type bar(type value) { instructions ... return value; }
-eC,property type Bar { get { instructions ... return value; } set { instructions } },property type Bar { get { instructions ... return value; } },property type Bar { set { instructions } }
+APL (Dyalog),:Property Numbered Default name ? result ? Get instructions ? ? Set arguments instructions ? :EndProperty Bar,:Property Numbered Default Bar ? result ? Get instructions ? :EndProperty Bar,:Property Numbered Default Bar ? Set arguments instructions ? :EndProperty Bar
+C++ (STL),type& operator[](type index) { instructions },type operator[](type index) { instructions },
+C#,type this[type index] { get{ instructions } set{ instructions } },type this[type index] { get{ instructions } },type this[type index] { set{ instructions } }
+D,"type opIndex(type index) { instructions } type opIndexAssign(type value, type index) { instructions }",type opIndex(type index) { instructions },"type opIndexAssign(type value, type index) { instructions }"
 Java,N/A,,
-Objective-C 2.0 (Cocoa),@property (readwrite) type bar; and then inside @implementation - (type)bar { instructions } - (void)setBar:(type)value { instructions },@property (readonly) type bar; and then inside @implementation - (type)bar { instructions },N/A
-Swift,var bar : type { get { instructions } set«(newBar)» { instructions } },var bar : type { instructions },N/A
-Eiffel,feature -- Access x: TYPE assign set_x feature -- Settings set_x (a_x: like x) do instructions ensure x_set: verification end,,
-Python,"def setBar(self, value): Tab ? instructions def getBar(self): Tab ? instructions Tab ? return value bar = property(getBar, setBar)[33]",def getBar(self): Tab ? instructions Tab ? return value bar = property(getBar),"def setBar(self, value): Tab ? instructions bar = property(fset = setBar)"
-Visual Basic .NET,Property Bar() As type Get instructions Return value End Get Set (ByVal Value As type) instructions End Set End Property,ReadOnly Property Bar() As type Get instructions Return value End Get End Property,WriteOnly Property Bar() As type Set (ByVal Value As type) instructions End Set End Property
-Xojo,ComputedProperty Bar() As type Get instructions Return value End Get Set (ByVal Value As type) instructions End Set End ComputedProperty,ComputedProperty Bar() As type Get instructions Return value End Get End ComputedProperty,ComputedProperty Bar() As type Set (value As type) instructions End Set End ComputedProperty
-PHP,"function __get($property) { switch ($property) { case 'Bar' : instructions ... return value; } } function __set($property, $value) { switch ($property) { case 'Bar' : instructions } }",function __get($property) { switch ($property) { case 'Bar' : instructions ... return value; } },"function __set($property, $value) { switch ($property) { case 'Bar' : instructions } }"
-Perl,sub Bar { my $self = shift; if (my $Bar = shift) { # setter $self->{Bar} = $Bar; return $self; } else { # getter return $self->{Bar}; } },sub Bar { my $self = shift; if (my $Bar = shift) { # read-only die "Bar is read-only\n"; } else { # getter return $self->{Bar}; } },sub Bar { my $self = shift; if (my $Bar = shift) { # setter $self->{Bar} = $Bar; return $self; } else { # write-only die "Bar is write-only\n"; } }
-Raku,N/A,,
-Ruby,def bar instructions expression resulting in return value end def bar=(value) instructions end,def bar instructions expression resulting in return value end,def bar=(value) instructions end
-Windows PowerShell,Add-Member «-MemberType »ScriptProperty «-Name »Bar «-Value »{ instructions ... return value } «-SecondValue »{ instructions } -InputObject variable,Add-Member «-MemberType »ScriptProperty «-Name »Bar «-Value »{ instructions ... return value} -InputObject variable,Add-Member «-MemberType »ScriptProperty «-Name »Bar -SecondValue { instructions } -InputObject variable
-OCaml,N/A,,
-F#,member this.Bar with get() = expression and set(value) = expression,member this.Bar = expression,member this.Bar with set(value) = expression
-JavaScript (ES6),get bar(«parameters») { instructions ... return value}set bar(«parameters») { instructions },get bar(«parameters») { instructions ... return value},set bar(«parameters») { instructions }
-COBOL,METHOD-ID. GET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. return-var declaration PROCEDURE DIVISION RETURNING return-var. instructions END METHOD. METHOD-ID. SET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. value-var declaration PROCEDURE DIVISION USING value-var. instructions END METHOD.,METHOD-ID. GET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. return-var declaration PROCEDURE DIVISION RETURNING return-var. instructions END METHOD.,METHOD-ID. SET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. value-var declaration PROCEDURE DIVISION USING value-var. instructions END METHOD.
-Cobra,pro bar «as type» Tab ? get Tab ?Tab ? instructions Tab ?Tab ? return value Tab ? set Tab ?Tab ? instructions,get bar «as type» Tab ? instructions Tab ? return value,set bar «as type» Tab ? instructions
-ISLISP,N/A,,
-=======
-,constructor,destructor,finalizer[12]
-ABAP Objects,methods constructor «importing parameter = argument» method constructor. instructions endmethod.[13],N/A,
-APL (Dyalog),? name :Implements Constructor «:Base «expr»» instructions ?,,? name :Implements Destructor instructions ?
-C++ (STL),class(«parameters») «: initializers[14]» { instructions },~class() { instructions },
-C#,class(«parameters») { instructions },void Dispose(){ instructions },~class() { instructions }
-D,this(«parameters») { instructions },,~this() { instructions }
-eC,class() { instructions },~class() { instructions },
-Java,class(«parameters») { instructions },,void finalize() { instructions }
-Eiffel,[15],,[16]
-Objective-C (Cocoa),- (id)init { instructions... return self; } or - (id)initWithFoo:parameter «bar:parameter ...» { instructions... return self; },- (void)dealloc { instructions },- (void)finalize { instructions }
-Swift,init(«parameters») { instructions },deinit { instructions },
-Python,"def __init__(self«, parameters»): Tab ? instructions",,def __del__(self): Tab ? instructions
-Visual Basic .NET,Sub New(«parameters») instructions End Sub,Sub Dispose() instructions End Sub,Overrides Sub Finalize() instructions End Sub
-Xojo,Sub Constructor(«parameters») instructions End Sub,Sub Destructor() instructions End Sub,
-PHP,function __construct(«parameters») { instructions },function __destruct() { instructions },
-Perl,"sub new { my ($class«, parameters») = @_; my $self = {}; instructions ... bless($self, $class); return $self; }",sub DESTROY { my ($self) = @_; instructions },
-Raku,"submethod BUILD { instructions } or «multi » method new(««$self: »parameters») { self.bless(*, field1 => value1, ...); ... instructions }",submethod DESTROY { instructions },
-Ruby,def initialize«(parameters)» instructions end,N/A,
+Objective-C (recent Clang compiler),N/A,- (id)objectAtIndexedSubscript:(NSUInteger)index { instructions return value; } or - (id)objectForKeyedSubscript:(id)index { instructions return value; },- (void)setObject:(id)value atIndexedSubscript:(NSUInteger)index { instructions } or - (void)setObject:(id)value forKeyedSubscript:(id)index { instructions }
+Swift,subscript (index : type) -> returntype { get { instructions } set«(newIndex)» { instructions } },subscript (index : type) -> returntype { instructions },
+Eiffel[35],bracket_name alias "[]" (index: TYPE): TYPE assign set_item do instructions end set_item (value: TYPE; index: TYPE): do instructions end,bracket_name alias "[]" (index: TYPE): TYPE do instructions end,
+Python,"def __getitem__(self, index): Tab ? instructions Tab ? return value def __setitem__(self, index, value): Tab ? instructions","def __getitem__(self, index): Tab ? instructions Tab ? return value","def __setitem__(self, index, value): Tab ? instructions"
+Visual Basic .NET,Default Property Item(Index As type) As type Get instructions End Get Set(ByVal Value As type) instructions End Set End Property,Default ReadOnly Property Item(Index As type) As type Get instructions End Get End Property,Default WriteOnly Property Item(Index As type) As type Set(ByVal Value As type) instructions End Set End Property
+PHP,[37],,
+Perl,[38],,
+Raku,«our «type »»«multi »method postcircumfix:<[ ]> is rw («$self: » type $index) { instructions ... return value; } or «our «type »»«multi »method postcircumfix:<{ }> is rw («$self: » type $key) { instructions ... return value; },«our «type »»«multi »method postcircumfix:<[ ]>(«$self: » type $index) { instructions ... return value; } or «our «type »»«multi »method postcircumfix:<{ }> («$self: » type $key) { instructions ... return value; },N/A
+Ruby,"def [](index) instructions expression resulting in return value end def []=(index, value) instructions end",def [](index) instructions expression resulting in return value end,"def []=(index, value) instructions end"
 Windows PowerShell,N/A,,
-OCaml,initializer instructions[17],N/A,
-F#,do instructions or new(parameters) = expression[18],member this.Dispose() = instructions,override this.Finalize() = instructions
-JavaScript,function name(«parameters») { instructions }[19],N/A,
-JavaScript (ES6),constructor(«parameters») { instructions },,
-COBOL,N/A[20],N/A,
-Cobra,cue init(parameters) Tab ? base.init Tab ? instructions,def dispose Tab ? instructions,
-ISLISP,(defmethod initialize-object ((instance <class-name>) initvalues),,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+OCaml,,,
+F#,member this.Item with get(index) = expression and set index value = expression,member this.Item with get(index) = expression,member this.Item with set index value = expression
+COBOL,N/A,,
+Cobra,pro[index «as type»] as type Tab ? get Tab ?Tab ? instructions Tab ?Tab ? return value Tab ? set Tab ?Tab ? instructions,get[index «as type»] as type Tab ? instructions Tab ? return value,set[index «as type»] as type Tab ? instructions

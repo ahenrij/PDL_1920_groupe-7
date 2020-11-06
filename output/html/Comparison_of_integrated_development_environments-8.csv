@@ -1,22 +1,6 @@
-<<<<<<< HEAD
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release
-Eclipse w/ AonixADT[1],EPL,Yes,Yes,Yes,"FreeBSD, JVM, Solaris",Yes,Yes[2],No,Unknown,Unknown,Yes,Unknown,No,Yes,December 2009
-GNAT Programming Studio,GPL,Yes,Yes,Yes,"DragonFly BSD, FreeBSD, NetBSD, OpenBSD, Solaris",Yes,Yes[3],Yes,Yes,Yes,Yes,Yes,No,Yes,June 2014
-SlickEdit,Proprietary,Yes,Yes,Yes,"Solaris, Solaris SPARC, AIX, HP-UX",Yes,No,No,No,No,Yes,No,No,Yes,2018
-Understand,Proprietary,Yes,Yes,Yes,Solaris,No,No,No,No,No,Yes,Yes,No,Yes,December 2015
-=======
-IDE,Developer,Latest stable release,Windows,Linux,macOS,Other platforms,Mobiles,Debugger,GUI builder,License,Autocomplete
-CodeTyphon,PilotLogic,2020-01-08 Ver 7.00,Yes,Yes,Yes,"AmigaOS, Android, FreeBSD, Game Boy Advance, Haiku, AIX, iOS, MorphOS, DOS, NetBSD, Nintendo DS, Nintendo Wii, OpenBSD, DragonFly, OpenIndiana, OS/2, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental), JavaScript transpiler, Embedded systems.",Yes,Yes,Yes,GPL; LGPL with static linking exception,Yes
-Delphi,Embarcadero Technologies,Delphi 10.3 (Rio) / November 21 2018,Yes,No,No,"cross-compile to macOS, Android, iOS Linux[36]",Yes,Yes,Yes,Proprietary,Yes
-Free Pascal IDE,Volunteers,"3.0.4 / December 6, 2017",Yes,Yes,Yes,"AmigaOS, Android, FreeBSD, Game Boy Advance, Haiku, AIX, iOS, MorphOS, DOS, NetBSD, Nintendo DS, Nintendo Wii, OpenBSD, OS/2, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental), JavaScript transpiler, Embedded systems.",Yes,Yes,No,GPL; LGPL with static linking exception,No
-KDevelop,KDevelop Team,"5.5.1 (May 5, 2020; 4 months ago (2020-05-05)) [±] (only 3.x supports Pascal)",Yes,Yes,Yes,"FreeBSD, OpenBSD, NetBSD, Solaris, other Unix",No,No,No,GPL,
-Lazarus,Volunteers,"2.0.0 / February 6, 2019",Yes,Yes,Yes,See Free Pascal,Yes,Yes,Yes,GPL; LGPL with static linking exception,Yes
-MIDletPascal,Code Research Laboratories,"3.5 / February 2, 2013",Yes,No,No,cross-compile from Windows to Java ME,Yes,No,No,GPL,
-Morfik,Morfik Technology Pty Ltd.,2.0.5.27,Yes,Yes,Yes,compiles to HTML+CSS+XML+JavaScript (web apps),Yes,Yes,Yes,Proprietary,
-MSEide,Martin Schreiber,4.6 / 2017-11-24,Yes,Yes,No,FreeBSD,Yes,Yes,Yes,GPL; LGPL with static linking exception for the library MSEgui,
-Understand,SciTools,4.0 / April 2015,Yes,Yes,Yes,Solaris,Yes,No,Yes,Proprietary,
-Visual Studio via Oxygene,RemObjects Software,10.0 / August 2018,Yes and additional Water IDE,No,Yes via Fire IDE,"JVM, .NET, Mono, Cocoa, Cocoa Touch, Android, iOS, WebAssembly, cross compile to Linux",Yes,Yes,Yes,Proprietary; free compiler,Yes
-PocketStudio,winsoft,3.0,No,No,No,Palm OS,Yes,Yes,Yes,Proprietary,
-Dev-Pascal,Bloodshed Software,1.9.2 (using FPC 1.9.2 from 2005),Yes,No,No,,No,Yes,No,GPL,
-PascalABC.NET,Volunteers,"3.4 / Jule 27, 2018",Yes,Yes,Yes,compiles to CLR,No,Yes,Yes,LGPL,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Profiler,Static code analysis,MXML,Export to Mobile
+Adobe Animate Formerly Adobe Flash Professional,Proprietary,Yes,No,Yes,JVM,Yes,Yes,Yes,Yes,Yes,Yes
+Flash Builder,Proprietary,Yes,No,Yes,JVM,Yes,Yes,Yes,Yes,Yes,Yes
+FlashDevelop,MIT License,Yes,No,No,,Yes,No,Yes,No,Yes,Yes
+IntelliJ IDEA,Proprietary,Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris",Yes,No,Yes,Yes,Yes,Yes
+Powerflasher FDT,Proprietary,Yes,Yes,Yes,JVM,Yes,No,Yes,Yes,Yes,Yes

@@ -1,31 +1,18 @@
-<<<<<<< HEAD
-Esperanto,a,b,c,?,d,e,f,g,?,h,?,i,j,?,k,l,m,n,o,p,kv,r,s,?,t,u,?,v,-,-,z
-Esperanto1894,a,b,z,-,d,e,f,g,-,h,-,i,j,-,k,l,m,n,o,p,kv,r,s,c,t,u,-,v,-,-,-
-Ido,a,b,c,ch,d,e,f,g,j,h,-,i,y,j,k,l,m,n,o,p,qu,r,s,sh,t,u,-,v,w,x,z
-IPA phonemes,a,b,t?s,t??,d,e,f,g,d??,h,x,i,j,?,k,l,m,n,o,p,"/kw/,/kv/",r,s,?,t,u,u? (in diphthongs),?,w,"/ks/,/?z/",z
-=======
-,,,Relative and interrogative,,Demonstrative,,Indeterminate,,Most Indeterminate,Negative,,Collective,
-,Esperanto,Ido,Esperanto,Ido,Esperanto,Ido,Ido,Esperanto,Ido,Esperanto,Ido,,
-,ki-,"qua, ?",ti-,"ita, ?",i-,"ula, ?",irga,neni-,nula,?i-,omna,,
-Individual,Esperanto,-u,kiu,,tiu,,iu,,,neniu,,?iu,
-,Ido,-u,qua,,ita,,ulu,,irgu,nulu,,omnu,
-Thing,Esperanto,-o,kio,,tio,,io,,,nenio,,?io,
-,Ido,-o,quo,,ito,,ulo,,irgo,nulo,,omno,
-Plural,Esperanto,-j,kiuj/kioj,,tiuj/tioj,,iuj/ioj,,,neniuj/nenioj,,?iuj/?ioj,
-,Ido,-i,qui,,iti,,uli,,irgi,nuli,,omni,
-Adjective,Ido,-a,qua,,ita,,ula,,irga,nula,,omna,
-Motive,Esperanto,-al,kial,,tial,,ial,,,nenial,,?ial,
-,Ido,pro,pro quo,,pro to,,pro ulo,,pro irgo,pro nulo,,pro omno,
-Association,Esperanto,-es,kies,,ties,,ies,,,nenies,,?ies,
-,Ido,di,di quo,,di to,,di ulo,,di irgo,di nulo,,di omno,
-Place,Esperanto,-e,kie,,tie,,ie,,,nenie,,?ie,
-,Ido,loke,ube,,ibe,,ulaloke,,irgaloke,nulaloke,,omnaloke,
-Time,Esperanto,-am,kiam,,tiam,,iam,,,neniam,,?iam,
-,Ido,tempe,kande,,lore,,ulatempe,,irgatempe,nulatempe,,"omnatempe, sempre",
-Quality,Esperanto,-a,kia,,tia,,ia,,,nenia,,?ia,
-,Ido,"-a, speca",quala,,tala,,ulaspeca,,irgaspeca,nulaspeca,,omnaspeca,
-Manner,Esperanto,-el,kiel,,tiel,,iel,,,neniel,,?iel,
-,Ido,"-e, maniere",quale,,tale,,"ule, ulamaniere",,"irge, irgamaniere","nule, nulamaniere",,"omne, omnamaniere",
-Quantity – adjective,Esperanto,-om,kiom,,tiom,,iom,,,neniom,,?iom,
-,Ido,quanta,quanta,,tanta,,kelka,,irgaquanta,nulaquanta,,omnaquanta,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Esperanto,Ido,English,French,German,Italian,Spanish,Portuguese
+bubalo,bufalo,buffalo,buffle,Büffel,bufalo,búfalo,búfalo
+?elo,celulo,cell,cellule,Zelle,cellula,célula,célula
+?irka?,cirkum,around/circa,autour de,ungefähr/circa,circa,"alrededor, cerca","ao redor de, em volta de"
+dedi?i,dedikar,to dedicate,dédier,widmen,dedicare,dedicar,dedicar
+edzo,spoz(ul)o,husband/spouse,époux,Ehemann,sposo,esposo,esposo/marido
+elasta,elastika,elastic,élastique,elastisch,elastico,elástico,elástico
+estonteco,futuro,future,futur,Zukunft,futuro,futuro,futuro
+kaj,e(d),and,et,und,e(d),y/e,e
+lernejo,skolo,school,école,Schule,scuola,escuela,escola
+limo,limito,limit,limite,Limit,limite,límite,limite
+ma?i,mastikar,to chew/masticate,mâcher,kauen,masticare,masticar,mastigar
+mencii,mencionar,to mention,mentionner,erwähnen,menzionare,mencionar,mencionar
+nacio,naciono,nation,nation,Nation,nazione,nación,nação
+penti,repentar,to repent,repentir,bereuen,pentirsi,arrepentirse,arrepender-se
+?ipo,navo,boat/ship,bateau/navire,Schiff,barca/nave,barco/nave/navío,bote/barca/barco/nave/nau/navio
+ta?mento,detachmento,detachment,détachement,Abteilung,distaccamento,destacamento,destacamento
+vipuro,vipero,viper,vipère,Viper,vipera,víbora,víbora

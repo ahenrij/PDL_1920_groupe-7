@@ -1,20 +1,7 @@
-<<<<<<< HEAD
-Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
-Mobility Radeon X1300,"January 19, 2006",M52,RV515,90,PCIe x16,350,250,2:4:4:4,1.4,1.4,128 + shared,8,DDR DDR2,128,9.0c,2.0,
-Mobility Radeon X1350,"September 18, 2006",M62,,,,470,350,,1.88,1.88,,11.2,DDR2 GDDR3,,,,
-Mobility Radeon X1400,"January 19, 2006",M54,,,,445,250,,1.78,1.78,,8,DDR DDR2,,,,
-Mobility Radeon X1450,"September 18, 2006",M64,,,,550,450,,2.2,2.2,,14.4,DDR2 GDDR3,,,,
-Mobility Radeon X1600,"February 1, 2006",M56,RV530,,,425 450,375 470,5:12:4:4,1.7 1.8,1.7 1.8,256,12.0 15.04,DDR2 GDDR3,,,,
-Mobility Radeon X1700,,M66,RV535,,,475,400 550,,1.9,1.9,,11.2 17.6,,,,,strained silicon
-Mobility Radeon X1800,"March 1, 2006",M58,R520,,,450,500,8:12:12:12,5.4,5.4,,32,GDDR3,256,,,
-Mobility Radeon X1800 XT,,M58,,,,550,650,8:16:16:16,8.8,8.8,,41.6,,,,,
-Mobility Radeon X1900,"January 11, 2007",M59,RV570,80,,400,480,8:36:12:12,4.8,4.8,,30.72,,,,,PowerPlay 6.0
-=======
-Model,Launch,Core,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,TDP / idle (watts),Notes
-,,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL (OpenCL),,
-FirePro 2250[213],2007-01-01,RV516,80,107,100,PCIe x1/x16,600,500,2:4:4:4,2.4,0.3,256,32,DDR2,256,9.0c,2.1 (no),20/11,DMS-59 for dual DVI-D output
-FirePro 2270[214],2011-01-31,Cedar GL (RV810),40,292,59,PCIe 2.1 x1/x16,,600,80(16×5):8:4:1,,4.8,512 1024,9.6,GDDR3,64,11.0,4.3 (1.2),15/8 17/8,DMS-59 for dual output: DP or DVI-I or D-sub
-FirePro 2450 Multi-View[215],2009-01-01,2x RV620 (Terascale 1),55,2× 181,2× 61,PCIe 2.0 x1/x16,,,2× 40(8×5):4:4:1,,,512,38.4,,256,10.1,3.3 (APP),36/18,2x VHDCI for quad output: DVI-I or D-sub
-FirePro 2460 Multi-View[216][217],2010-04-01,Cedar GL (RV810) (Tera-scale2),40,292,59,PCIe 2.1 x16,500,500,80(16×5):8:4:1,2.0,4.0,,32,GDDR5,64,11.0,4.3 (1.2),17/13,"4x Mini DP for quad output: DP or DVI-D, UVD2, PowerPlay, Eyefinity"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
+FirePro W600[245],"June 13, 2012",GCN 1st Gen.,Cape Verde Pro GL,28,PCIe 3.0 x16,750,1000,512:32:16:8,12.0,24.0,2,64,GDDR5,128,768,Up to 55,11.1/12,4.5,1.2,1.0,75,Six Mini DisplayPort
+FirePro W5000[246],,,Pitcairn LE GL,,,825,800,768:48:32:12,26.4,39.6,,102.4,,256,1267.2,79.2,,,,,<75,"Two DisplayPort, One DVI-I"
+FirePro W7000[247],,,Pitcairn XT GL,,,950,1200,1280:80:32:20,30.4,76.0,4,153.6,,,2432,152,,,,,<150,Four DisplayPort
+FirePro W8000[248],"June 14, 2012",,Tahiti PRO GL,,,900,1375,1792:112:32:28,28.8,100.8,,176,,,3225.6,806.4,,,,,<225,"ECC RAM, Four DisplayPort + SDI-Link"
+FirePro W9000[249][250],,,Tahiti XT GL,,,975,1375,2048:128:32:32,31.20,124.8,6,264,,384,3993.6,998.4,,,,,274,"ECC RAM, Six mini-DisplayPorts + SDI-Link"

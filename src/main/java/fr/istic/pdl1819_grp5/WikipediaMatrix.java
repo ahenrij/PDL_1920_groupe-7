@@ -21,11 +21,11 @@ public class WikipediaMatrix
 
 	private ExtractType extractType;
 
-	public WikipediaMatrix() throws IOException {
+	public WikipediaMatrix(ExtractType type) throws IOException {
 
 		this.urlMatrixSet = new HashSet<UrlMatrix>();
 		this.converter = new ConverterToCsv();
-		this.extractType =  ExtractType.HTML; // Default extraction
+		this.extractType =  type; // Default extraction
 
 	}
 

@@ -1,35 +1,21 @@
-<<<<<<< HEAD
-Implementation,DEFLATE[172] (insecure)
-Botan,No
-cryptlib,No
-GnuTLS,Disabled by default
-JSSE,No
-LibreSSL,No[41]
-MatrixSSL,Disabled by default
-Mbed TLS,Disabled by default
-NSS,Disabled by default
-OpenSSL,Disabled by default
-RSA BSAFE[53],No
-SChannel,No
-Secure Transport,No
-wolfSSL,Disabled by default
-Erlang/OTP SSL application,No
-Implementation,DEFLATE
-=======
-Implementation,brainpoolP256r1 (26)[152],brainpoolP384r1 (27)[152],brainpoolP512r1 (28)[152],X25519 [153],Curve448 Ed448-Goldilocks [154],M221 Curve2213 [155],E222 [155],Curve1174 [155],E382 [155],M383 [155],Curve383187 [155],Curve41417 Curve3617 [155],M511 Curve511187 [155],E521 [155]
-Botan,Yes[156],Yes[156],Yes[156],Yes[125],No,No,No,No,No,No,No,No,No,No
-BoringSSL,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No
-GnuTLS,No,No,No,Yes[157],No,No,No,No,No,No,No,No,No,No
-JSSE,No,No,No,Yes (JDK 13+)[158],No,No,No,No,No,No,No,No,No,No
-LibreSSL,Yes[41],Yes[41],Yes[41],Yes[159],No,No,No,No,No,No,No,No,No,No
-MatrixSSL,Yes,Yes,Yes,TLS 1.3 only[160],No,No,No,No,No,No,No,No,No,No
-Mbed TLS,Yes[161],Yes[161],Yes[161],Primitive only[162],Primitive only[163],No,No,No,No,No,No,No,No,No
-NSS,No[164],No[164],No[164],Yes[165],No,No,No,No,No,No,No,No,No,No
-OpenSSL,Yes[52],Yes[52],Yes[52],Yes[166][167],Yes[168][169],No,No,No,No,No,No,No,No,No
-RSA BSAFE,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-"SChannel Vista/2008, 7/2008R2, 8/2012, 8.1/2012R2, 10",No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Secure Transport,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-wolfSSL,Yes,Yes,Yes,Yes[170],No,No,No,No,No,No,No,No,No,No
-Erlang/OTP SSL application,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No
-Implementation,brainpoolP256r1 (26),brainpoolP384r1 (27),brainpoolP512r1 (28),Curve25519,Curve448 Ed448-Goldilocks,M221 Curve2213,E222,Curve1174,E382,M383,Curve383187,Curve41417 Curve3617,M511 Curve511187,E521
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Implementation,Secure Renegotiation [172],Server Name Indication [173],ALPN [174],Certificate Status Request [173],OpenPGP [175],Supplemental Data [176],Session Ticket [177],Keying Material Exporter [178],Maximum Fragment Length [173],Truncated HMAC [173],Encrypt-then-MAC [179],TLS Fallback SCSV [180],Extended Master Secret [181],ClientHello Padding [182],Raw Public Keys [183]
+Botan,Yes,Yes,Yes[184],No,No,No,Yes,Yes,Yes,No,Yes,Yes[185],Yes[186],No,Unknown
+cryptlib,Yes,Yes,No,No,No,Yes,No,No,No[187],No,Yes,Yes,Yes,No,Unknown
+GnuTLS,Yes,Yes,Yes[188],Yes,No[189],Yes,Yes,Yes,Yes,No,Yes[37],Yes[190],Yes[37],Yes[191],Yes[192]
+JSSE,Yes,Yes[65],Yes[65],Yes,No,No,Yes,No,Yes,No,No,No,Yes,No,No
+LibreSSL,Yes,Yes,Yes[193],Yes,No,No?,Yes,Yes?,No,No,No,Server side only[194],No,Yes,No
+MatrixSSL,Yes,Yes,Yes[195],Yes[129],No,No,Yes,No,Yes,Yes,No,Yes[129],Yes[129],No,Unknown
+Mbed TLS,Yes,Yes,Yes[196],No,No,No,Yes,No,Yes,Disabled by default[44],Yes[197],Yes[197],Yes[197],No,No
+NSS,Yes,Yes,Yes[198],Yes,No[199],No,Yes,Yes,No,No,No[200],Yes[201],Yes[202],Yes[198],Unknown
+OpenSSL,Yes,Yes,Yes[52],Yes,No,No?,Yes,Yes,Yes,No,Yes,Yes[203],Yes[204],Yes[205],No
+RSA BSAFE Micro-Edition Suite,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No,No,No,No,No
+RSA BSAFE SSL-J,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No
+SChannel XP/2003,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,Unknown
+SChannel Vista/2008,Yes,Yes,No,No,No,Yes,No,No,No,No,No,No,Yes[206],No,Unknown
+SChannel 7/2008R2,Yes,Yes,No,Yes,No,Yes,No,No,No,No,No,No,Yes[206],No,Unknown
+SChannel 8/2012,Yes,Yes,No,Yes,No,Yes,Client side only[207],No,No,No,No,No,Yes[206],No,Unknown
+"SChannel 8.1/2012R2, 10",Yes,Yes,Yes,Yes,No,Yes,Yes[207],No,No,No,No,No,Yes[206],No,Unknown
+Secure Transport,Yes,Yes,Unknown,No,No,Yes,No,No,No,No,No,No,No,No,Unknown
+wolfSSL,Yes,Yes,Yes[149],Yes,No,No,Yes,No,Yes,Yes,No,No,Yes,No,Unknown
+Erlang/OTP SSL application,Yes,Yes,Yes,No,No,No,No,No,No,No,No,Yes,No,No,Unknown
+Implementation,Secure Renegotiation,Server Name Indication,ALPN,Certificate Status Request,OpenPGP,Supplemental Data,Session Ticket,Keying Material Exporter,Maximum Fragment Length,Truncated HMAC,Encrypt-then-MAC,TLS Fallback SCSV,Extended Master Secret,ClientHello Padding,Raw Public Keys

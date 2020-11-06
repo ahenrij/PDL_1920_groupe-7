@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-Blue,under 1%,lower risk
-Green,up to 5%,
-Yellow,up to 10%,
-Orange,up to 20%,
-Red,over 20%,higher risk
-Grey,no data,no data available
-=======
 Birth control method,Brand/common name,Typical-use failure rate (%),Perfect-use failure rate (%),Type,Implementation,User action required,Initial Cost,Cost (per year)
 Contraceptive implant,"Implanon/Nexplanon,[17] Jadelle,[18] the implant",0.05 (1 of 2000),0.05,Progestogen,Subdermal implant,3-5 years,$0 - $,$0 - $
 Vasectomy[17],male sterilization,0.15 (1 of 666),0.1,Sterilization,Surgical procedure,Once,$0 - $,$0 - $
@@ -43,4 +35,3 @@ Abstinence pledge[note 8][31][better source needed],,50–57.5 (estimated) (1 of 2
 None (unprotected intercourse)[17],,85 (6 of 7),85,Behavioral,Discontinuing birth control,N/A,$0 - $,$0
 Placebo[32],,"100[note 9] (all, after about half a year)",100,Placebo,Oral medication,Daily,$0 - $,$0 - $
 Birth control method,Brand/common name,Typical-use failure rate (%),Perfect-use failure rate (%),Type,Implementation,User action required,Initial Cost,Cost (per year)
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

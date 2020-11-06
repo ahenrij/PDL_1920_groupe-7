@@ -1,58 +1,7 @@
-<<<<<<< HEAD
-Attribute,Element,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
-align,"caption, div, fieldset, h1, h2, h3, h4, h5, h6, hr, img, input, legend, p, object, table",CSS,3.1,Yes,Yes,Yes,Yes
-alink,body,CSS,,,No,,
-background,body,CSS,,,Yes,,
-bgcolor,"body, table, tr, td, th",CSS,,,,,
-border,"img, object",CSS,,,Partial[note 8],,
-clear,br,CSS,,,No,,
-compact,"dl, ul, ol",CSS,No,No,,,
-color,"basefont, font",CSS,3.1,Partial[note 9][8],Partial[note 9],,
-height,"td, th",CSS,,Yes,Yes,,
-hspace,"img, object",CSS,,,,,
-language,script,The type attribute,,No[citation needed],,,
-link,body,CSS,,Yes,,,
-noshade,hr,CSS,,,,,
-nowrap,"td, th",CSS,,,,,
-size,"basefont, font, hr",CSS,,,,,
-start,ol,None,,,,,
-text,body,CSS,,,,,
-type,"li, ul, ol",CSS,,,,,
-version,html,DTD,No,No,No,No,No
-vlink,body,CSS,Yes,Yes,Yes,Yes,Yes
-width,"hr, pre, td, th",CSS,,,,,
-vspace,"img, object",CSS,,,,,
-=======
-,Trident,Gecko,WebKit,Presto[p 32]
-Error state,,,,
-MediaError,5.0 [t 43],1.9.1,?,2.5
-Network state,,,,
-src,5.0[t 1],1.9.1,?,2.5
-currentSrc,,,,
-networkState,,,,
-preload,,2.0[note 11][g 90],,No
-buffered,,2.0[g 95],,
-load(),,1.9.1,,2.5
-canPlayType(),,,533[w 72],
-Ready state,,,,
-readyState,5.0[t 1],1.9.1,?,2.5
-seeking,,,,
-Playback state,,,,
-currentTime,5.0[t 1],1.9.1,?,2.5
-startTime,,No,,
-duration,,1.9.1,,
-paused,,,,
-defaultPlaybackRate,,20.0[g 96],,No
-playbackRate,,,,
-played,,15.0[g 97],,
-seekable,,8.0[g 98],,
-ended,,1.9.1,,2.5
-autoplay,,,,
-loop,,11.0[g 91],,
-play(),,1.9.1,,
-pause(),,,,
-Controls,,,,
-controls,5.0[t 1],1.9.1,?,2.5
-volume,,,,
-muted,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Trident,edgeHTML,Gecko,WebKit,Presto
+Ogg Vorbis,Manual install[note 12],,1.9.1[g 101],Depends[note 13],2.5
+WAV PCM,,,,525[note 13],2.0
+MP3,5.0[t 47],,No[g 105],,Depends[note 14]
+AAC,,,No,,
+Speex,Manual install[note 12],,No[g 106],Depends[note 13],No
+Opus,No,Yes[51],15.0[g 107],Depends[note 13],No

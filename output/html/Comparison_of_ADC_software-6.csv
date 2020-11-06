@@ -1,31 +1,15 @@
-<<<<<<< HEAD
-ADC client,Magnet URI,UPnP,NAT traversal,DHT,Encryption,IPv6,Plugin/API,Proxy,Hash algorithms,Protocol support,NMDC compatible,Other
-AirDC++,Yes,Yes,Yes,No,Yes,Yes,Web API,Yes,Tiger tree hash,"TIGR, ADCS, UCMD,NATT, SEGA, PFSR, KEYP, PBD1, UBN1, MCN1, BLOM, SUDP, QP, HBRI, ASCH",Yes,
-AirDC++ Web Client,Yes,Yes,Yes,No,Yes,Yes,Web API,Yes,Tiger tree hash,Inherits from AirDC++,Yes,
-ApexDC++,Yes,Yes,Yes,Yes,Yes,No,"C++, Lua",Yes,Tiger tree hash,Inherits from StrongDC++,Yes,
-DC++,Yes,Yes,Yes,No,Yes,Yes,"C++, Lua",Yes,Tiger tree hash,"TIGR, ADCS, UCMD, BLOM, NATT, SEGA",Yes,
-jucy,Yes,Yes,No,No,Yes,Yes,Eclipse RCP,Yes,Tiger tree hash,"TIGR, ADCS, KEYP, SUDP, BLOM, UCMD",Yes,
-LinuxDC++,Yes,Yes,No,No,Yes,No,No,Yes,Tiger tree hash,Inherits from DC++,Yes,
-EiskaltDC++,Yes,Yes,Yes,Yes,Yes,No,"Lua, QtScript, QML",Yes,Tiger tree hash,"TIGR, ADCS, UCMD, BLOM, NATT, SEGA, PFSR, KEYP, FS",Yes,
-FlylinkDC++,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Tiger tree hash,Inherits from StrongDC++,Yes,
-RSX++,Yes,Yes,No,Yes,Yes,No,"C++, Lua",Yes,Tiger tree hash,Inherits from StrongDC++,Yes,
-TKDC++,Yes,Yes,Yes,No,Yes,No,"C++, Lua",Yes,Tiger tree hash,"TIGR, ADCS, UCMD, BLOM, NATT, PFSR, SEGA",Yes,
-StrongDC++,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Tiger tree hash,"TIGR, ADCS, UCMD, BLOM, NATT, PFSR, QP, SEGA",Yes,
-ncdc,No,No,No,No,Yes,Yes,No,No,Tiger tree hash,"TIGR, ADCS, KEYP, SUDP",Yes,
-ADC client,Magnet URI,UPnP,NAT traversal,DHT,Encryption,IPv6,Plugin,Proxy,Hash algorithms,Protocol support,NMDC compatible,Other
-=======
-ADC hub,FOSS,Software license,Active,Last Update,Notes
-ADCH++,Yes,GPL,Yes,2016-03-08 / 2.12.1,
-ADCH++ GUI,Yes,GPL,No,,
-DSHub,Yes,GPL,No,2008-10-09 / RC1,
-FlexHub,Yes,AGPL,Yes,2013-10-20 / 0.2 svn 1469,
-Luadch,Yes,GPLv2,Yes,2019-10-13 / v2.20,
-Nexthub,Yes,MIT License,No,,
-uhub,Yes,GPL,Yes,2014-10-17 / 0.5.0,In Debian[2] and OpenWrt[3]
-ErlHub,Yes,GPL,?,,
-Qhub,Yes,GPL,No,2006-07-09 / v0.10,
-Starlet ADC Hub,No,Proprietary,Yes,,
-Starhub,No,source code available,No,,
-RusHub,Yes,GPL,Yes,2012-07-10 / 2.3.10,
-ADC hub,FOSS,Software license,Active,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+ADC hub,GUI,CLI,Other,Programming language,Based on
+ADCH++,No,Yes,?,"C++, Lua, Python, Ruby",
+ADCH++ GUI,Yes,No,?,"C++, Python",ADCH++
+DSHub,Yes,Yes,?,"Java, Python",
+FlexHub,Planned,Yes,?,Lua,
+Luadch,No,Yes,?,"C++, Lua",
+Luadch GUI,Yes,No,?,wxLua,
+Nexthub,Yes,No,No,C-Sharp,
+uhub,No,Yes,?,C,
+Erlhub,?,?,?,Erlang,
+Qhub,?,?,?,?,
+Starlet ADC Hub,No,Yes,No,C,
+StarHub,Yes,?,?,Java,
+RusHub,No,Yes,No,C++,
+ADC hub,GUI,CLI,Other,Programming language,Based on

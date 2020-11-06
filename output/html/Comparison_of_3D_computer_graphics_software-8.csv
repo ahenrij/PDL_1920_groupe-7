@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-Application,Hard surface Modeling,,Sculpt Modeling,,,,Non-destructive Modeling,,
-,Polygon Modeling,Subdivision Modeling,Base-mesh Creation,Sculpting,Hand Retopology,Automatic Retopology,Boolean,Bevel,Procedural
-Maya,Yes,Yes,(SOuP BMesh),Yes,Yes,2020 and later,Yes,Yes,Yes
-3ds Max,Yes,Yes,(Form),Paint Deform,Yes,No,Yes,Yes,Yes
-Blender,Yes,Yes,Skin Modifier,Yes,Yes,2.81 and later,Yes,Yes,stack only
-ZBrush,ZModeler,ZModeler,ZSphere and ZSketch,Yes,Yes,ZRemesher,4R8 and later,?,No
-Curvy 3D,No,No,sketch-based,Yes,?,?,?,?,No
-=======
 Application,MIPMAP generation,Adaptive Tessellation,Instansing,Camera Culling,Deep Pixel Rendering,Fisheye Stereo for Fulldome,Omnidirectional stereo for HMD,Deforming Motion Blur,GPU Rendering,Texture Streaming (GPU)
-V-Ray,img2tiledexr,?,Yes,?,Yes,Domemaster Stereo Shader,3.2 and later,Yes,V-Ray GPU (formerly V-Ray RT),Yes[28]
-RenderMan (RIS),txmake,?,Yes,?,Yes,?,Yes[29],Yes,In development[30],No
-Arnold,maketx,Yes[31],Yes,?,Yes,Domemaster Stereo Shader,5 and later,Yes,Yes,?
+V-Ray,img2tiledexr,?,Yes,?,Yes,Domemaster Stereo Shader,3.2 and later,Yes,V-Ray GPU (formerly V-Ray RT),Yes[29]
+RenderMan (RIS),txmake,?,Yes,?,Yes,?,Yes[30],Yes,In development[31],No
+Arnold,maketx,Yes[32],Yes,?,Yes,Domemaster Stereo Shader,5 and later,Yes,Yes,?
 Houdini Mantra (Path-Tracing mode),icp,?,Yes,?,Yes,?,15.5 and later,Yes,No,No
-Blender Cycles,No,2.78 and later,Some,Camera Cull,No,2.78 and later,2.78 and later,Yes,Yes,2.80 and later[32]
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Blender Cycles,No,2.78 and later,Some,Camera Cull,No,2.78 and later,2.78 and later,Yes,Yes,2.80 and later[33]

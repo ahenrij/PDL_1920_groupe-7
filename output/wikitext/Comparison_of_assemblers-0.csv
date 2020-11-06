@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Assembler,Developer,Operating system,FOSS,License,Development active
 FASM,Tomasz Grysztar,"DOS, Unix-like, Windows",,BSD with added Copyleft,
 GAS,GNU Project,"DOS, OS/2, Unix-like, Windows",,GNU GPLv3,
@@ -8,14 +7,3 @@ Open Watcom Assembler,Watcom,"DOS, FreeBSD, Linux, OS/2, Windows","approved by O
 POASM,,"Windows, Windows Mobile",,Freeware,
 TCCASM,Fabrice Bellard,"Unix-like, Windows",,LGPL,
 Yasm[2],,"DOS, Unix-like, Windows",,BSD,
-=======
-Assembler,Developer,FOSS,License,Instruction set,Host platform
-Atari Assembler Editor,Shepardson Microsystems,,,MOS Technology 6502,Atari 8-bit family
-Atari Macro Assembler,Shepardson Microsystems,,,MOS Technology 6502,Atari 8-bit family
-Lisa,Randall Hyde,,,MOS Technology 6502,Apple II series
-MAC/65,Optimized Systems Software,,,"MOS Technology 6502, WDC 65C02",Atari 8-bit family
-Merlin,Glen Bredon,,Public-domain,"MOS Technology 6502, WDC 65C02",Apple II series
-vasm,"Volker Barthelmann, Frank Wille",,,MOS Technology 6502,various
-k2asm,"Andre Kaesmacher, Hauke Brandes, Börje Sieling",,Artistic License,MOS Technology 6502,"Linux, Windows, macOS, possibly other Unices"
-rmac,"James Hammons, George Nakos, Landon Dyer",,,MOS Technology 6502,"Linux, Windows, macOS"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

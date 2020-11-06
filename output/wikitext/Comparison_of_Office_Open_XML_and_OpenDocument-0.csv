@@ -10,7 +10,7 @@ Language type,Markup language (XML),Markup language (XML)
 XML schema representation,XML Schema (W3C) (XSD) and RELAX NG (ISO/IEC 19757-2),RELAX NG (ISO/IEC 19757-2)
 Expression of extensibility rules,NVDL (ISO/IEC 19757-4),
 Compression format,ZIP,ZIP
-Container structure,Open Packaging Convention (ISO/IEC 29500-2:2012)[2],ODF Package[3]
+Container structure,Open Packaging Conventions (ISO/IEC 29500-2:2012)[2],ODF Package[3]
 Metadata format,Dublin Core (ISO 15836),subset of Dublin Core and “urn:oasis:names:tc:opendocument:xmlns:meta” elements
 Drawing language,"DrawingML, VML",“urn:oasis:names:tc:opendocument:xmlns:drawing” elements and “urn:oasis:names:tc:opendocument:xmlns:svg-compatible” elements
 Mathematical notation language,Office MathML (OMML),MathML[4][5]

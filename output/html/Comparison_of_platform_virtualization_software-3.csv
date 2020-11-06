@@ -1,34 +1,15 @@
-Name,Can boot an OS on another disk partition as guest,USB support,GUI,Live memory allocation,3D acceleration,Snapshots per VM,Snapshot of running system,Live migration,Shared folders,Shared clipboard,PCI passthrough
-KVM,Yes,Yes,Yes[24],Yes,Yes (via AIGLX),Yes,Yes[25],Yes[26],,,Yes
-User Mode Linux,Yes,No,No,No,No,,,No,Yes,N/A,
-"Containers, or Zones",Yes,Yes,Yes,Yes,Not needed,Yes[27],Yes,No,Yes,Not needed,Not needed
-DosBox,No,No,SVN builds only,No,Glide (SVN builds only),No,Yes,No,No,No,No
-"Oracle VirtualBox (formerly OSE, GPLv2), with Guest Additions (GPLv2)[28]",Yes,USB 1.1 only,Yes,Yes,No,Yes branched[29],Yes,Yes,with Guest Additions[30],with Guest Additions[30],No
-Oracle VirtualBox with Extension Pack (PUEL) and Guest Additions (GPLv2)[28],Yes,Yes,Yes,Yes,OpenGL 2.0 and Direct3D 8/9[31],Yes branched[29],Yes,Yes,Yes,Yes,Retired (Until 6.0[32]; Linux only[33])
-Oracle VM Server for SPARC (LDoms),Yes,USB 2.0,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes
-OKL4 Microvisor,Yes,Yes,VMs only,Yes,Yes,,,No,,,Static assignment
-Virtual Iron 4.2,,,,,,,,Yes,,,
-Virtual PC 2007,No,No,Yes,No,No,,,No,Yes,Yes,
-Windows Virtual PC,No,partially,Yes,No,No,,,No,Yes,Yes,
-VirtualPC 7 for Mac,No,Yes,Yes,Yes,No,,,No,Yes,Yes,
-Microsoft Virtual Server 2005 R2,,No,Yes,No,No,?,Yes,No,,,
-Microsoft Hyper-V Server 2008 R2,Yes,Partial support over remote desktop connections [11],Yes,Yes,DirectX 9.0c [12] (via RemoteFX),Yes branched,Yes,Yes,,,No
-Microsoft Hyper-V Server 2012 R2,Yes,Yes,Yes,Yes,DirectX 9.0c [13] (via RemoteFX),Yes branched,Yes,Yes,,,No
-Virtuozzo,Yes,Yes,Yes,Yes,No,,,Yes,,,
-VMware ESX Server 3.0 atp,,,Yes,,No,?,Yes,Yes,,,No
-VMware ESX Server 2.5.3,,,Yes,,No,,,,,,No
-VMware ESX Server 4.0 - 6.x (vSphere),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes[34]
-VMware Fusion 2.0,Yes,Yes,Yes,No,DirectX 9 Shader model 2,,,No,,,No
-VMware Server,Yes,Yes,Yes,Yes,No,1,Yes,No,Yes,Yes,
-VMware Workstation 5.5,Yes,Yes,Yes,Yes,Experimental support for DirectX 8; also supported with VMGL[35],Yes branched,Yes,No,Yes,Yes,No
-VMware Workstation 6.0,Yes,Yes,Yes,Yes,Experimental support for DirectX 8; Also supported with VMGL[35],Yes branched,Yes,No,Yes,Yes,No
-VMware Workstation 7.0 and 8.0,Yes,Yes,Yes,Yes,Support for DirectX 9.0c Shader Model 3 and OpenGL 2.13D.[36],Yes branched,Yes,No,Yes,Yes,No
-VMware Player,Yes,Yes,Yes,Yes,supported with VMGL[35],No,No,No,Yes,,No
-Wind River hypervisor,Yes,Yes,Yes,Yes,Yes,,,No,,,
-Wind River VxWorks MILS Platform,Yes,,,,,,,,,,
-Xen,Yes,Yes[37],Yes[24],Yes,Supported with VMGL[35],?,Yes,Yes,,,Yes
-XCP-ng,Yes,Yes,Yes,Yes,,,Yes,Yes,,,
-XenServer,Yes,,Yes[24],Yes,Supported with VMGL[35],Yes,Yes,Yes,,,Yes
-z/VM,Yes,Not applicable,Yes (zURM/HMC),Yes,Not applicable,,,Yes (2011),,Not applicable,Not applicable
-z LPARs,Yes,Not applicable,Yes (HMC),Yes,Not applicable,,,Yes (2007),,Not applicable,Not applicable
-Name,Can boot an OS on another disk partition as guest,USB,GUI,Live memory allocation,3D acceleration,Snapshots per VM,Snapshot of running system,Live migration,Shared folders,Shared clipboard,PCI passthrough
+Name,Maximum host cores / CPUs,Maximum host memory,Maximum host disk volume size,Maximum number of guest VM running,Maximum number of logical CPU per VM guest,Maximum amount of memory per VM guest,Maximum number of SCSI + IDE disks per VM guest,Maximum disk size per VM guest
+"Containers, or Zones",No theoretical limit (largest SPARC has 384 physical cores),32 TB (largest SPARC),No limit,8191,No limit,No limit,No limit,No limit
+VMware Player 15.0[41],No limit,No limit,No limit,No limit,16,4 GB (32-bit); 64 GB (64-bit),?,8 TB
+VMware vSphere Hypervisor (ESXi) 4.1[42],160 logical cores,1 TB,2 TB minus 512 bytes,320,8,255 GB,4 IDE; 60 SCSI,2 TB minus 512 bytes
+VMware vSphere ESXi 5.0[43],160 logical cores,2 TB,64 TB,512,32,1 TB,4 IDE; 60 SCSI,2 TB minus 512 bytes
+VMware vSphere Hypervisor (ESXi 5.5) (free)[44],16 NUMA Nodes / 320 logical CPUs,4 TB,Depending on filesystem,512,8,1 TB,4 IDE; 60 SCSI; 120 SATA,62 TB
+VMware vSphere Hypervisor (ESXi 5.5)[45],16 NUMA Nodes / 320 logical CPUs,4 TB,Depending on filesystem,512,64,1 TB,4 IDE; 60 SCSI; 120 SATA,62 TB
+VMware vSphere Hypervisor (ESXi 6.7)[46],16 NUMA Nodes / 768 logical CPUs,16 TB,Depending on filesystem,1024,256,6128 GB,4 IDE; 256 SCSI; 120 SATA; 60 NVMe,62 TB
+VirtualBox,No limit,No limit,No limit,No limit[47],32,No limit,"4 IDE; no limit for SATA, SCSI, SAS",GUI: 2 TB Command line: no limit
+Microsoft Hyper-V Server 2008 R2[48],64 cores / 8 CPUs[49],1 TB,No limit,384,4,64 GB,4 IDE; 256 SCSI,2 TB
+Microsoft Hyper-V Server 2012[50],320 cores / 64 CPUs[51],4 TB,No limit,1024,64,1 TB,4 IDE; 256 SCSI,64 TB
+Microsoft Hyper-V Server 2016[52],512 cores / 320 CPUs,24 TB,No limit,1024,240,12 TB,4 IDE; 256 SCSI,64 TB
+Xen[53],4095 CPUs,16TB,No limit,No limit,512 PV / 128 HVM,512GB PV / 1TB HVM,?,?
+XCP-ng,4095 CPUs,16TB,No limit,No limit,512 PV / 128 HVM,512GB PV / 1TB HVM,?,?
+Xen Server[53],4095 CPUs,16TB,No limit,No limit,512 PV / 128 HVM,512GB PV / 1TB HVM,?,?

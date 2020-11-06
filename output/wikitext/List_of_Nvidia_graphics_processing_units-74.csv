@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts)
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,
-Quadro FX 350M,G72GLM,90,PCIe 1.0 ×16,450,450,900,3:4:4:2,0.9,1.8,256,14.4,GDDR3,128,,9.0c,2.1,15
-Quadro FX 1500M,G71GLM,,,375,375,1000,8:24:24:16,6,9,512,32,,256,,,,
-Quadro FX 2500M,,,,500,500,1200,,8,12,,38.4,,,,,,
-Quadro FX 3500M,,,,575,575,,,9.2,13.8,,,,,,,,
-=======
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
-GeForce Go 6100 + nForce Go 430,,C51M,110,HyperTransport,425,System memory,2:1:2:1,850,425,850,106.25,Up to 128 MB system,System memory,DDR2,64/128
-GeForce Go 6150 + nForce Go 430,,,,,,,,,,,,,,,
-GeForce Go 6200,,NV44M,,PCIe ×16,300,600,4:3:4:2,1200,600,1200,225,16,2.4,DDR,32
-GeForce Go 6400,,,,,400,700,,1600,800,1600,250,,5.6,,64
-GeForce Go 6600,,NV43M,,,300,,8:3:8:4,3000,1500,3000,281.25,128,11.2,,128
-GeForce Go 6800,"November 8, 2004",NV41M,130,,,700 1100,12:5:12:12,,,,375,,22.4 35.2,"DDR, DDR2 DDR3",256
-GeForce Go 6800 Ultra,"February 24, 2005",,,,450,,,5400,3600,5400,562.5,256,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,Supported API version,,Nvidia Optimus technology,TBP (Watts)
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro K2200M,GM107,28,PCIe 3.0 ×16,1150,1150,1253 (5012),640:40:16 (5 SMM),18.4,46,2048,80.2,GDDR5,128,1472,46,12.1,4.5,Yes,65

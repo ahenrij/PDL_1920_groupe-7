@@ -1,31 +1,15 @@
-<<<<<<< HEAD
-Application,Microsoft Windows,Mac OS X,Linux,BSD,Unix
-Alcohol 120%,,,,,
-CDBurnerXP,,,,,
-cdrtools,,,,,
-DeepBurner,,,,,
-ExpressBurn,,,,,
-ImgBurn,,,,,
-InfraRecorder,,,,,
-K3b,,,,,
-Libburnia,,,,,Solaris
-Nero Burning ROM,,,,,
-UltraISO,,,,,
-X-CD-Roast,,,,,
-Application,Microsoft Windows,Mac OS X,Linux,BSD,Unix
-=======
-Application,bin/cue,Apple disk image,img,ISO image,Nero CD image,Audio file/cue
-Alcohol 120%,,,,,,
-CDBurnerXP,,,,,,
-cdrtools,,,,,,
-DeepBurner,,,,,,
-ExpressBurn,,,,,,
-ImgBurn,,,,,,
-InfraRecorder,,,,,,
-K3b,,,,,,
-Libburnia,,,,,,
-Nero Burning ROM,,,,,,
-UltraISO,,,,,,
-X-CD-Roast,,,,,,
-Application,bin/cue,Apple disk image,img,ISO image,Nero CD image,Audio file/cue
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Application,Creator,Software license
+Ashampoo Burning Studio,Ashampoo Software,Freemium
+Alcohol 120%,Alcohol Soft,Shareware
+CDBurnerXP,"Stefan Haglund, Fredrik Haglund",Freeware [1]
+cdrtools,Jörg Schilling,Open-source (CDDL parts are GPL)
+DeepBurner,Astonsoft,Freemium
+ExpressBurn,NCH Software,Freemium
+ImgBurn,LIGHTNING UK!,Freeware [2]
+InfraRecorder,Christian Kindahl,Open-source (GPL)
+K3b,"Sebastian Trüg, Christian Kvasny",Open-source (GPL)
+Libburnia,Libburnia team,Open-source (GPL)
+Nero Burning ROM,Ahead Software,Shareware
+UltraISO,EZB Systems,Shareware
+X-CD-Roast,T. Niederreiter,Open-source (GPL)
+Application,Creator,Software license

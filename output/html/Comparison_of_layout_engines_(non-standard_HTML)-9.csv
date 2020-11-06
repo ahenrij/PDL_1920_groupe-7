@@ -1,20 +1,23 @@
-<<<<<<< HEAD
-,Trident,Gecko,WebKit,KHTML,Presto
-Basic structure,,,,,
-form,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-fieldset,,,,,
-legend,,,,,
-Form controls and labels,,,,,
-button,<3.1[IE 4.0] [note 3],1.0,Yes,Yes,1.0
-textarea,<3.1[IE 4.0],,,,
-input,,,,,
-label,,,,3.4.2[note 4],
-List boxes (combo boxes),,,,,
-select,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-optgroup,,,,,
-option,,,,,
-=======
-,Trident,Gecko,WebKit,Presto
-2d,5.0,1.9.1,Partial,2.6
-WebGL,7.0[t 48],Depends[g 109],Depends[w 81],2.9.220[p 37]
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Trident,Gecko[g 99],WebKit,Presto
+loadstart,5.0[t 44],1.9.1,?,?
+progress,,,,
+suspend,,1.9.2,,
+abort,,1.9.1,,
+error,,,,
+emptied,,,,
+stalled,,8.0[g 100],,
+play,,1.9.1,,
+pause,,,,
+loadedmetadata,,,,
+loadeddata,,,,
+waiting,,,,
+playing,,No,,
+canplay,,1.9.1,,
+canplaythrough,,,,
+seeking,,,,
+seeked,,,,
+timeupdate,,,,
+ended,,,,
+ratechange,,,,
+durationchange,,,,
+volumechange,,,,

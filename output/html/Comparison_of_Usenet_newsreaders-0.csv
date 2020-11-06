@@ -18,7 +18,7 @@ Opera Mail,GUI,Traditional Newsreader,Yes,No,No,,No,Yes,Yes,,Free,Cross-platform
 Outlook Express,GUI,Traditional Newsreader,Yes,No,No,No,No,Yes,Yes,,,Microsoft Windows,Proprietary,Part of Microsoft Windows (up to Windows Server 2003)
 Pan,GUI,Combination,Yes,No,Yes,No,,Yes,Yes,,Free,"Unix-like, Microsoft Windows",GPL,Gtk+
 Name,Interface,Type of Client,Downloading headers XOVER,PAR,NZB,unZip & unRAR,Integrated Search Service (retention / $$$/yr),IPv6,SSL/TLS,Audio Video Streaming,Price,Platform,License,Other
-Seamonkey Mail & Newsgroups,GUI,Traditional Newsreader,Yes,No,No,No,No,,,,Free,Cross-platform,MPL,Replaced Mozilla Mail & Newsgroups
+Seamonkey Mail & Newsgroups,GUI,Traditional Newsreader,Yes,No,No,No,No,Yes,Yes,,Free,Cross-platform,MPL,Replaced Mozilla Mail & Newsgroups
 slrn,text-based,Traditional Newsreader,Yes,Yes (using macros),Yes (using macros),Yes (using macros),No,Yes,Yes,No,Free,Cross-platform,GPLv2+,Highly extensible using S-Lang scripts (macros)
 Sylpheed,GUI,Traditional Newsreader,Yes,No,No,,,,Yes,,Free,Cross-platform,GPL/LGPL,Gtk+
 tin,text-based,Traditional Newsreader,Yes,No,No,No,,Yes,No,,Free,Unix-like,BSD,Free Software

@@ -1,36 +1,14 @@
-<<<<<<< HEAD
-,Trident,EdgeHTML,Gecko,WebKit,Presto
-getElementsByClassName[183],5.0[184],12,1.9[185],525,2.1
-registerProtocolHandler,rowspan="2" ,rowspan="2" ,1.91=Limited to the feed protocol in 1.8; fully supported in 1.9.[186]date=May 2014,rowspan="2" ,rowspan="2" 2.10[188]
-registerContentHandler,1.81=Limited to feed MIME types in 1.8 and 1.9.[189],,,,
-Cross-document messaging,4.0,12,1.9[190],,2.0
-Drag-and-drop,6.0,12,1.9.1[98],,2.10.270[191]
-pushState() and replaceState(),6.0[192],12,2.0[193],528[194],2.9[195]
-! Trident,EdgeHTML,Gecko,WebKit,Presto,
-=======
 ,Trident,Gecko,WebKit,KHTML,Presto
-Phrase,,,,,
-em,rowspan="9" 4.0,rowspan="10" 1.0,rowspan="10" ,rowspan="10" ,rowspan="10" 1.0
-strong,,,,,
-dfn,,,,,
-code,,,,,
-samp,,,,,
-kbd,,,,,
-var,,,,,
-cite,,,,,
-acronym,,,,,
-abbr,3.1,,,,
-Quotations,,,,,
-blockquote,4.0,1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-q,4.0,1.8<q> does not support nested quotes prior to Gecko 1.8.[1]group=note,,,
-Subscripts and superscripts,,,,,
-sub,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-sup,,,,,
-Lines and paragraphs,,,,,
-p,rowspan="2" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
-pre,,,,,
-br,5.0,,,,
-Marking document changes,,,,,
-ins,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-del,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Basic structure,,,,,
+form,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+fieldset,,,,,
+legend,,,,,
+Form controls and labels,,,,,
+button,"4.0Prior to Internet Explorer 8.0 (trident 4.0), and in earlier compatibility modes, the innerText is submitted instead of the value attribute.[3]group=note",rowspan="4" 1.0,rowspan="4" ,rowspan="3" ,rowspan="4" 1.0
+textarea,rowspan="3" 4.0,,,,
+input,,,,,
+label,3.4.2<label> was focusable prior to KHTML 3.4.2.date=August 2010group=note,,,,
+List boxes (combo boxes),,,,,
+select,rowspan="3" 4.0,rowspan="3" 1.0,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
+optgroup,,,,,
+option,,,,,

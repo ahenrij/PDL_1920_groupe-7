@@ -1,22 +1,7 @@
-<<<<<<< HEAD
-Kernel Name,"Container (no resource management, no security)",Container (no resource management),Container (resource management),Paravirtualization,Full virtualization,User-space execution,Kernel as Library,Kernel as Kernel Driver,Hypervisor-Enforced Kernel Partitioning
-Linux,chroot,colspan="2" LXC,"Virtio, Hyper-V (guest only), Xen (guest only), VMI (guest only), kvm-lite, lguest",KVM,UML,(LKL),(coLinux),,
-DragonFly BSD kernel,chroot,colspan="2" jail,,,vkernel,,,,
-FreeBSD kernel,chroot,colspan="2" jail,"Virtio, Xen (guest only)",BHyVe (KVM),,,,,
-NetBSD kernel,chroot,(sysjail (discontinued)),,Virtio and Xen,,,Rump kernel,,
-Solaris kernel,chroot,colspan="2" Solaris Containers / Zones,,,,,,,
-Windows NT kernel,"colspan="3" AppContainers, Job Objects, Windows Server Containers",colspan="2" Hyper-V,colspan="2" Project Drawbridge,,"Virtual Secure Mode, Device Guard, Credential Guard[14]",,,,
-XNU,chroot,,,,,,,,
-=======
-Kernel Name,a.out,ECOFF,ELF,FDPIC ELF binaries (mmu less),flat binaries (superH),HUNK,Mach-O,"Misc (wrapper based, like interpreters)",PE,"SOM (PA-RISC, HP-UX)",NLM,PEF,DOS COM,MZ,LE,LX,NE
-Amiga Exec,,,,,,,,,,,,,,,,,
-DragonFly BSD kernel,,,,,,,,,,,,,,,,,
-HP-UX kernel,,,,,,,,,,,,,,,,,
-Linux kernel,,,,,,,,,,! -->binfmt_misc,! --> and run them using Wine,,,,,,
-MINIX 3 kernel,,,,,,,,,,,,,,,,,
-NetBSD kernel,,,,,,,,,,,,,,,,,
-ReactOS kernel,,,,,,,,,,,,,,,,,
-Solaris kernel,,,,,,,,,,,,,,,,,
-Windows NT kernel,,,Yes with WSL,,,,,,,,,,Yes on x86,Yes on x86,,,Yes on x86
-XNU,,,,,,,,,,,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Kernel Name,TCP,UDP,SCTP,DCCP
+DragonFly BSD kernel,,,,
+FreeBSD kernel,,,,
+Linux kernel,,,,
+Solaris kernel,,,,
+Windows NT kernel,,,,
+XNU,,,,

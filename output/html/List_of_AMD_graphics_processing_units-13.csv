@@ -1,14 +1,15 @@
-<<<<<<< HEAD
-Model,Released,Code name,Fab (nm),Core Clock (MHz),Core config1,Fillrate,,Shared Memory,,,Processing power (GFLOPS),Max. Combined TDP2 (Watts),Fusion_APU
-,,,,,,Pixel (GP/s),Texture (GT/s),Bandwidth (GB/s),Bus type,Bus width (bit),,,
-Radeon HD 6380G,"June 14, 2011",WinterPark,32,400,160:8:4:2,1.6,3.2,17.06,DDR3-1333,128,128,35,E2-3000M
-Radeon HD 6480G,,BeaverCreek,,444,240:12:4:3,1.77,3.55,,,,213.1,35 - 45,A4-3300M A4-3310MX
-Radeon HD 6520G,,,,400,320:16:8:4,3.2,6.4,,,,256,,A6-3400M A6-3410MX A6-3420M
-Radeon HD 6620G,,,,444,400:20:8:5,3.55,8.88,25.6,DDR3-1600,,355.2,,A8-3500M A8-3510MX A8-3530MX
-=======
-Model,Launch,Fab (nm),Bus interface,Memory,,
-,,,,Size (KiB),Bus type,Bus width (bit)
-Wonder MDA/CGA,1986,1000,PC/XT,64,DRAM,8
-Wonder EGA,1987,,PC/XT,256,,
-Wonder VGA,1987,"1000, 800","PC/XT, ISA","256, 512 1024",,"8, 16"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus inter- face,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct X,OpenGL,OpenCL,Vulkan,,
+FirePro S4000x[378][379],"August 7, 2014",GCN 1st Gen,Venus XT,28,PCIe 3.0 x16,950,1200,640:40:16:10,11.6,29,2,72,GDDR5,256,992,62,11.1 12.0,4.5,1.2,1.0,<45,"Type A MXM form factor, No physical display outputs,"
+FirePro S7000[380],"August 27, 2012",,Pitcairn XT,,,950,,1280:80:32:20,30.4,76,4,153.6,,,2432,152,,,,,<150,One DP
+FirePro S7100X[381][382][383][384],"May 25, 2016",GCN 3rd gen,Amethyst XT,,,723,1050,2048:128:32:32,23.14,92.5,8,160,,,2961,TBA,11.2 12.0,,2.0,1.1,100,"For Blade Servers, MXM Module 3.1"
+FirePro S7150[385][386][387][388],"February 1, 2016",,Tonga PRO GL,,,1050,1250,1792:112:32:28,33.6,117.6,,,,,3763,250,,,,,150,"ECC RAM, two Slots"
+FirePro S7150 X2[385][387][389][390],,,2× Tonga PRO GL,,,,,2× 1792:112:32:28,,,16,2× 160,,,7540,500,,,,,265,"ECC RAM, no physical display outputs"
+FirePro S9000[391],"August 27, 2012",GCN 1st gen,Tahiti PRO GL,,,900,1375,1792:112:32:28,28.8,100.8,6,264,,384,3225.6,806.4,11.1 12.0,,1.2,1.0,<225,"ECC RAM, One DP"
+FirePro S9050[392][393],"August 6, 2014",,,,,,,,,,12,,,,,,,,,,,
+FirePro S9100[394],"October 2, 2014",GCN 2nd gen,Hawaii Pro GL,,,824,1250,2560:160:64:40,52.74,131.8,,320,,512,4219,2109,,,2.0,,,"ECC RAM, No physical display outputs"
+FirePro S9150[395][396][397],"August 6, 2014",,Hawaii XT GL,,,900,,2816:176:64:44,57.6,158.4,16,,,,5070,2530,11.2 12.0,,,,<235,
+FirePro S9170[398][399],"July 8, 2015",,Grenada XT GL,,,930,1375,,59.52,163.68,32,,,,5240,2620,,,,,<275,"ECC RAM, Full Throughput double precision, no physical display outputs"
+FirePro S9300 x2[400][401][402][403][404],"March 31, 2016",GCN 3rd gen,2× Capsaicin XT,,,850,2x 500,2× 4096:256:64:64,54.4,217.6,2× 4,2× 512,HBM,2x 4096,13900,868,,,,1.1,300,"Non-ECC RAM, half-precision (FP16) support, no physical display outputs"
+FirePro S10000[405],"November 12, 2012",GCN 1st gen,2× Zaphod (Tahiti Pro GL),,,825,1250,2× 1792:112:32:28,52.8,184.8,2× 3,2× 240,GDDR5,384,5913.6,1478.4,11.1 12.0,,1.2,1.0,<375,"ECC RAM, 4x DP, 1x DVI-I"
+FirePro S10000 passive[406],,,2× Tahiti PRO GL,,,,,,,,,,,,,,,,,,,"ECC RAM, 1x Mini DP, 1x DVI-I"

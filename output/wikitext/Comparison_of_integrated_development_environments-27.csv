@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,Profiler,Notes
-Visual Studio Code (using the Julia extension),MIT License,,,,FreeBSD[30],,,License is for the extension; and Microsoft's source code (only).
-Emacs / spacemacs,"portions in GPL v2, LGPL, BSD and public domain",,,,FreeBSD,,,"ESS extension support for emacs. vi support also available, e.g. in spacemacs (useful for pair programming )."
-=======
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release
-Eclipse w/ AonixADT[1],EPL,,,,"FreeBSD, JVM, Solaris",,,,,,,,,,December 2009
-GNAT Programming Studio,GPL,,,,"DragonFly BSD, FreeBSD, NetBSD, OpenBSD, Solaris",,,,,,,,,,June 2014
-SlickEdit,,,,,"Solaris, Solaris SPARC, AIX, HP-UX",,,,,,,,,,2018
-Understand,,,,,Solaris,,,,,,,,,,December 2015
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+IDE,License,Written in Java only,Windows,Linux,macOS,Other platforms,GUI builder
+Eclipse JDT,EPL,,,,,"FreeBSD, JVM, Solaris",
+IntelliJ IDEA,"ASLv2, proprietary",,,,,"FreeBSD, OpenBSD, Solaris",
+NetBeans,"CDDL, GPL2",,,,,"OpenBSD, Solaris",
+SlickEdit,,,,,,"Solaris, Solaris SPARC, AIX, HP-UX",

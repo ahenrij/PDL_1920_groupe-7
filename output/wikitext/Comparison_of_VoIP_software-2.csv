@@ -1,23 +1,5 @@
-<<<<<<< HEAD
-Client name,Encryption protocols
-Google Hangouts[34],SRTP[55]
-Skype[34],A custom protocol
-=======
-Client name,Development status,Open source client,End-to-end authentication[33],Encryption protocols,,,,Forward secrecy,Multiple encryption,Encrypted group calling,"Proxy, Tor"
-,,,,ZRTP,ECDH,DTLS,SRTP,,,,
-FaceTime,,,,,,,,,,,
-Google Duo,,,,,,,,,,,
-Jitsi[35],,,,,,,,,,,
-Line[36][37],,,,,,,,,,,
-Linphone[35],,,,,,,,,,,
-PGPfone,Abandonware,Viewable source[38],,,,,,,,,
-Signal,,,,,,,,,,,
-Silent Phone,,Viewable source[40],,,,,,,,,
-"Skype (opt-in per conversation, one pair of devices per conversation)[41]",,,,,,,,,,,
-Telegram,,,,,,,,,,,
-Threema,,Partially[45][46],,,,,,Partially[48][47],,,
-Viber[21],,,,,,,,,,,
-WhatsApp,,Partially[45][49],,,,,,,,,
-Wire,,,,,,,,,,,
-Zfone,Abandonware,Viewable source[52],,,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Program,Operating systems,License,"Protocols, based on, compatible with",Encryption,Other abilities,Key and target markets,Latest release
+Tapioca,Linux,GPL,Telepathy (software),,,,0.3.9; 20060612
+"Telepathy, Farstream","Linux, macOS, Windows",LGPL,"SIP, XMPP (Jingle), ICE (STUN/TURN), UPnP",,"Multi-user A/V conferencing, IM, collaborative applications","Mobile devices (Maemo, Meego), Linux desktop or embedded",spec 0.27.2; 2013924
+OPAL,"Windows, Linux (including embedded variants), macOS",MPL,"SIP, H.323, IAX2, CAPI, VXML",,"Multi-user A/V conferencing, IM, IVR","Softphones, softswitches, telephony application servers",3.14.3; 20141010
+GNU oSIP,"Linux, Windows, macOS, Android, iPhone, BlackBerry",LGPL,"SIP, SDP",,"Multi-user A/V conferencing, IM, IVR","Softphones, embedded and mobile devices, telephony application servers",4.1.0; 20131218

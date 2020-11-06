@@ -1,25 +1,5 @@
-<<<<<<< HEAD
-Model,Launch,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,,API compliance,
-,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
-3D Rage,April 1996[1],500,PCI,40,40,1:0:1:1,40,40,40,0,2,0.32,EDO,64,5.0,None2
-3D Rage II,September 1996,,"AGP 1x (Rage IIc only), PCI",60,83 (66 MHz with EDO),,60,60,60,,"2, 4, 8",0.664,"EDO, SGRAM, SDR",,,
-Rage Pro,March 1997,350,"AGP 1x, AGP 2x, PCI",75,75,,75,75,75,,"4, 8, 16",0.6,,,6.0,1.1
-Rage XL[2][3][4][5],August 1998,250,"AGP 2x, PCI",83,125,,83,83,83,,8,1.0,SDR,,,
-Rage 128 VR,,,,80,120,2:0:2:2,160,160,160,,"8, 32",0.96,,,,1.2
-Rage 128 GL,,,,103,103,,206,206,206,,"16, 32",1.648,"SGRAM, SDR",128,,
-Rage 128 Pro,August 1999,,"AGP 4x, PCI",125,143,,250,250,250,,,2.288,,,,
-Rage 128 Ultra,,,,130,130,,260,260,260,,"16, 32, 64",2.088,SDR,,,
-Rage Fury MAXX,October 1999,,AGP 4x,125,143,2:0:2:2 x2,500,500,500,,32 x2,4.576,,128 x2,,
-=======
-Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
-Mobility Radeon X1300,"January 19, 2006",M52,RV515,90,PCIe x16,350,250,2:4:4:4,1.4,1.4,128 + shared,8,DDR DDR2,128,9.0c,2.0,
-Mobility Radeon X1350,"September 18, 2006",M62,,,,470,350,,1.88,1.88,,11.2,DDR2 GDDR3,,,,
-Mobility Radeon X1400,"January 19, 2006",M54,,,,445,250,,1.78,1.78,,8,DDR DDR2,,,,
-Mobility Radeon X1450,"September 18, 2006",M64,,,,550,450,,2.2,2.2,,14.4,DDR2 GDDR3,,,,
-Mobility Radeon X1600,"February 1, 2006",M56,RV530,,,425 450,375 470,5:12:4:4,1.7 1.8,1.7 1.8,256,12.0 15.04,DDR2 GDDR3,,,,
-Mobility Radeon X1700,,M66,RV535,,,475,400 550,,1.9,1.9,,11.2 17.6,,,,,strained silicon
-Mobility Radeon X1800,"March 1, 2006",M58,R520,,,450,500,8:12:12:12,5.4,5.4,,32,GDDR3,256,,,
-Mobility Radeon X1800 XT,,M58,,,,550,650,8:16:16:16,8.8,8.8,,41.6,,,,,
-Mobility Radeon X1900,"January 11, 2007",M59,RV570,80,,400,480,8:36:12:12,4.8,4.8,,30.72,,,,,PowerPlay 6.0
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Radeon Xpress X200,"Nov. 8, 2004",RS480 (metallo),130,HT,300,"200-400 (DDR), 200 (sideport)",4:2:2:2,600,600,600,0,16-128 system + 16 sideport,1.6-6.4 system + 0.8 sideport,DDR,"64, 128"
+Radeon Xpress 1100 (originally Xpress 200),2005,RS482 (grayskull),110,HT,300,"200-400 (DDR), 400-800 (DDR2)",,,,,,16-128 system,1.6-12.8 system,"DDR, DDR2",
+Radeon Xpress 1150 (originally Xpress 200 for Intel),"March 11, 2005 (Intel), May 23, 2006 (AMD)","RC400, RC410, RS400, RS415, RS485",,"HT, FSB",400,,,800,800,800,,,1.6-12.8,,

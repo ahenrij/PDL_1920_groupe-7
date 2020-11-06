@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Audio player,AVI,ASF,QuickTime,Ogg,OGM,Matroska,MP4,MPEG-21,NUT,FLV
 AIMP,No,Yes,No,Yes,No,No,Partial,No,No,No
 Amarok,Yes,Yes,Yes,Yes,Basic,Basic,Yes,?,?,Yes
@@ -23,33 +22,3 @@ Winamp,Yes,Yes,Yes[a],Yes,Yes,Yes,Yes,?,?,Yes
 XMMS,No,No,No,Vorbis only,No,No,No,?,?,?
 Zinf,No,No,No,Vorbis only,No,No,No,?,?,?
 Audio player,AVI,ASF,QuickTime,Ogg,OGM,Matroska,MP4,MPEG-21,NUT,FLV
-=======
-Audio player,"asx, wax, wvx",M3U,pls,XSPF,CUE
-AIMP,Yes,Yes,Yes,Yes,Yes
-Amarok,Yes,Yes,Yes,Yes,Yes
-Audacious,Partial,Yes,Yes,Yes,Yes
-Audion,?,?,?,?,?
-Clementine,Yes,Yes,Yes,Yes,Yes
-cmus,No,Yes,Yes,No,?
-Cog,?,?,?,?,?
-Exaile,Yes,Yes,Yes,Yes,?
-foobar2000,Yes,Yes,Yes,Yes,Yes
-iTunes,No,Yes,?,?,No
-JRiver Media Center,Yes,Yes,Yes,Yes,Yes
-JuK,?,?,?,?,?
-MediaMonkey,?,Yes,?,No,?
-MPXPLAY,?,Yes,Yes,?,Yes
-MusicBee,Yes,Yes,Yes,Yes,Yes
-Musicmatch Jukebox,?,Yes,?,?,?
-musikCube,?,?,?,?,?
-Quod Libet,Partial,Yes,Yes,No,?
-Rhapsody,?,?,?,?,?
-Rhythmbox,?,?,Yes,?,No
-Sayonara Player,?,Yes,?,?,?
-Sonique,?,Yes,Yes,?,?
-Spotify[25],No,No,No,No,No
-Winamp,Yes,Yes,Yes,Yes,?
-XMMS,?,Yes,Yes,?,?
-Zinf,?,?,?,No,?
-Audio player,asx/wax/wvx,M3U,pls,XSPF,CUE
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

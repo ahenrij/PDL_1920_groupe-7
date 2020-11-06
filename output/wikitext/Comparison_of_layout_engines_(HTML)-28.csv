@@ -1,25 +1,10 @@
-<<<<<<< HEAD
-,Trident,Gecko,WebKit,KHTML,Presto
-Basic structure,,,,,
-html,5.0,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" 1.0
-head,rowspan="2" 4.0,,,,
-body,,,,,
-Metadata,,,,,
-title,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-meta,,,,,
-Headings,,,,,
-h1,rowspan="6" 4.0,rowspan="6" 1.0,rowspan="6" ,rowspan="6" ,rowspan="6" 1.0
-h2,,,,,
-h3,,,,,
-h4,,,,,
-h5,,,,,
-h6,,,,,
-Grouping elements,,,,,
-div,rowspan="2" 4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-span,,,,,
-=======
-Trident,edgeHTML,Gecko,WebKit,Presto
-Ogg Theora,"Manual installGoogle released a WebM component for Media Foundation to allow the playback of WebM files in IE9 through the standard HTML5 <video> tag.[300] Xiph.org distributes OpenCodecs package, which amends Google's VP8 decoder with DirectShow-based codecs for Ogg Theora and Ogg Vorbis. VLC media player comes with "Web plugin" that uses VLC for playing multimedia from <video> and <audio> tags, enabling support for all formats VLC supports.group=notename=ie-codecs",,1.9.1[301],"WebKit on macOS previously used QuickTime, and supported whatever formats that does.[302] By default, this includes H.264, MP3, AAC and WAV PCM, but not Ogg Theora or Vorbis. These are supported only if installed as third-party codecs, such as XiphQT. However, this relied on QuickTime 7 (not QuickTime X) to play these formats, and since Safari 12 and later versions of WebKit2, Apple officially dropped support for their QuickTime plugin (since it was developed for NPAPI, not HTML5). Google Chrome supports Theora, Vorbis, WebM, and MP3.[303] Chromium can be compiled to support anything that FFmpeg supports, and may or may not support patented formats such as H.264 and MP3.[304] Origyn Web Browser for MorphOS uses also FFmpeg for playing HTML5 media content.[305][306]group=notename=webkit-codecs"
-H.264,5.0[307],,33.0via OpenH264[308],Depends (525)[309][310]
-WebM VP8,Manual install[312],,2.0[314][315],Depends (534)[316]
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Trident,Gecko,WebKit,Presto
+Microdata,,16.0[196],,
+HTML5 Tokenizer,rowspan="3" 6.0[199],rowspan="3" 2.0[200],,rowspan="3" 2.10[202]
+HTML5 Tree Builder,,,,
+HTML5 Fragment Parser,,,,
+<a rel="noreferrer">,,33.0[203],,
+window.onhashchange,4.0[205],1.9.2[206],528[207],2.6[208]
+element.classList,,1.9.2[209],,2.8[97]
+dir="auto",,20.0[211],528+[212],
+! Trident,Gecko,WebKit,Presto,

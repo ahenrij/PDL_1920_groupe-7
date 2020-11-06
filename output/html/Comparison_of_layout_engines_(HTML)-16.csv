@@ -1,9 +1,9 @@
-<<<<<<< HEAD
-,Trident,Gecko,WebKit,KHTML,Presto
-script,<3.1[IE 5.0],1.0,Yes,Yes,1.0
-noscript,Incorrect[note 6],,,,
-=======
-,Trident,EdgeHTML,Gecko,WebKit,Presto
-<track>,6.0[t 35],12,,,
-<a ping>,No,No,Depends[g 73][h],Depends[w 59][i],
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Value,Meaning
+Yes,Fully supported
+No,Has never been supported
+Partial,Only some values are supported
+Incorrect,Not implemented correctly in all cases
+Experimental,May be incomplete or buggy
+Nightly build,Currently in development; full support is expected
+Depends,Only supported for the specified conditions
+Dropped,No longer supported

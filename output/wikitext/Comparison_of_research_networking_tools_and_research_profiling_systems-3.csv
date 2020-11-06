@@ -1,60 +1,10 @@
-<<<<<<< HEAD
-Research Networking Tool,Thesaurus/Controlled Vocabulary Used,Ontology/Ontologies Supported,Automatic Author Disambiguation
-Academic Room,unknown,unknown,
-Activity Insight,,"Fully customizable data collection screens; campus, college and department-defined ontologies",
-C-IKNOW,Not applicable,Uses elements of FOAF and Dublin Core in RDF; uses Pellet reasoning engine,
-PROFILES by Mentis® (formerly Collaborative Partnership / Profile System),,"Dublin Core, Social Media and compatible with VIVO and other popular ontologies",
-Community Academic Profiles - CAP,MeSH,Unknown,
-Converis,In some fields,"CASRAI, VIVO",
-CurvitaTM Profile Manager,Unknown,Unknown,
-CUSP - Columbia University Scientific Profiles,Unknown,Unknown,
-Digital Vita,Unknown,Unknown,
-Elsevier's Pure (now integrated with SciVal Experts),The "Elsevier Fingerprinting Engine" uses ten thesauri including MeSH to match and identify key concepts for an individual or group of people. Thesauri updates and expansion are ongoing.,Maps to VIVO ontology,
-Elsevier's SciVal,The "Elsevier Fingerprinting Engine" uses ten thesauri including MeSH to match and identify key concepts for an individual or group of people. Thesauri updates and expansion are ongoing.,Maps to VIVO ontology,
-Epernicus Solutions & Epernicus Network,Unknown,Unknown,
-ERIM Member Profile System (ERIM MIS),Unknown,Unknown,
-Esploro,"ProQuest thesaurus, ERA FOR, PQTD, and more, All thesauri are regularly updated.",Plans to implement the VIVO ontology,
-EUREKA!TM Enhancing Student Research,Unknown,Unknown,
-Expertise @ Maryland,Unknown,Unknown,
-Faculty Profile System,Unknown,Unknown,
-Faculty Research Information Profile (FRIP),N/A,N/A,N/A
-Faculty Scholarly Productivity Index,Unknown,Unknown,Unknown
-GENIUS,Unknown,Unknown,
-Google,None (Google uses generic keywords),Unknown,
-HUBzero,Unknown,Unknown,
-iamResearcher,Unknown,Unknown,
-iAMscientist,Unknown,Unknown,
-i2iConnect,Unknown,Unknown,
-InCites,In some fields,Unknown,
-INDURE,Unknown,Unknown,N/A
-LatticeGrid,MeSH,Uses elements of FOAF and other ontologies,
-Lattes Database,Unknown,Unknown,Unknown
-LinkedIn,None,Unknown,
-Life Science Network,Unknown,Unknown,
-Loki,Unknown,Unknown,
-Lyterati,,Fully customizable ontology that maps to VIVO,
-McCormick Collaboration Visualization Tool,None,Unknown,
-MizzouLinks,Unknown,Unknown,
-MyScienceWork,Unknown,Unknown,
-ORCID (Open Researcher and Contributor ID),Unknown,Unknown,
-OSU:pro,Unknown,Unknown,Unknown
-Pivot,Unknown,Unknown,
-Profiles,"MeSH, others are being developed to go beyond the life and biomedical sciences",VIVO RDF ontology with additional Profiles RDF classes and properties,
-ReachNC,Scopus taxonomy uses MeSH and general keywords,Maps to VIVO ontology,
-Research Accelerator,Unknown,Unknown,
-ResearcherID,Unknown,Unknown,
-SciENcv,No thesaurus used,Unknown,
-Symplectic Elements,"MeSH, Fields of Research, ScienceMetrix.","Supports mapping of publication, person and grants data to the VIVO ontology via their open source VIVO Harvester Extension, as well as Harvard Catalyst's Profiles RNS.",
-VIVO,"VIVO uses several thesauri that are available through Semantic Web, including MeSH",The VIVO Ontology was developed and supported by NIH-funded efforts and continues to be developed and built by its open source community at GitHub and in collaboration with the eagle-i project.,
-Yaffle,Unknown,Unknown,Unknown
-=======
 Research Networking Tool,Link to Product Page,Developer/Owner,Open Source,Adopters
 Activity Insight,Activity Insight[6],Digital Measures[7],,Hundreds of major research institutions around the world
 C-IKNOW[8][9],C-IKNOW,Science of Networks in Communities (SONIC) - Northwestern University,,"National Cancer Institute, National Science Foundation"
 PROFILES by Mentis (formerly Collaborative Partnership / Profile System),PROFILES by Mentis][10],"Inknowledge, Inc (previously University of Texas at Arlington)",,"UT Arlington, UT Pan American, University of North Texas Health Science Center, UT El Paso, UT San Antonio, UT Tyler, UT Health Science Center, University of North Texas (formerly), UT Dallas, UT Health Center at Tyler, Texas Christian University, Gulf Coast Consortia: Rice University, Baylor College of Medicine and several others)"
 Community Academic Profiles - CAP,Community Academic Profiles,Stanford University,,Stanford University
 Converis,Converis,Clarivate Analytics,,"Several universities, governments and funders across North and South America, Europe, Middle East, North Africa, Sub Saharan Africa and Asia."
-CurvitaTM Profile Manager,Curvita Profile Manager,SciMed Solutions,,"University of North Carolina, University of Virginia, Duke University"
+Curvita Profile Manager,Curvita Profile Manager,SciMed Solutions,,"University of North Carolina, University of Virginia, Duke University"
 CUSP - Columbia University Scientific Profiles,CUSP,Columbia University,,Columbia University
 Digital Vita,DigitalVita,Center for Dental Informatics - University of Pittsburgh,,"University of Pittsburgh, Pitt Health Sciences Center"
 Dimensions,Dimensions,Digital Science,No,"University of Michigan, University of Massachusetts - Lowell, University of California San Diego. See case studies."
@@ -64,7 +14,7 @@ Epernicus Solutions & Epernicus Network,Epernicus,Epernicus,,"Harvard, MIT, Indi
 Epistemio,Epistemio,Epistemio,,N/A (platform is directed toward individual researcher use)
 ERIM Member Profile System (ERIM MIS),People ERIM People profile system,"Erasmus Research Institute of Management, Erasmus University Rotterdam, Netherlands",,Erasmus University
 Esploro,Esploro,Ex Libris,,> 10 in early adopter program; Ex-Libris has a large presence in the higher Education community
-EUREKA!TM Enhancing Student Research,EUREKA,University of Texas at Austin (UTA),,University of Texas at Austin
+EUREKA! Enhancing Student Research,EUREKA,University of Texas at Austin (UTA),,University of Texas at Austin
 Expertise @ Maryland,UM Experts,University of Maryland,,University of Maryland College Park
 Faculty Profile System,UC Irvine Faculty Profile System,University of California Irvine,,UC Irvine
 Faculty Profiles System,Stony Brook University Faculty Profiles System,Stony Brook University,,Stony Brook University
@@ -105,4 +55,3 @@ UNIWeb,UNIWeb,Proximify,,"University of Ottawa, McGill University, Dalhousie Uni
 VIVO[1][15],VIVO,Duraspace,,"Cornell University, University of Florida, Washington University in St. Louis, Weill Cornell Medical College, Indiana University, Ponce School of Medicine, Scripps Research Institute, Duke University, University of Colorado at Boulder, Northwestern University, University of Nebraska, University of Melbourne, Griffith University, Chinese Academy of Sciences, etc. There are currently over 140 VIVO implementations in the United States and international VIVO projects in over 25 countries.[17]"
 WorkWeb,WebWork at archive.org,Columbia University,,Columbia University
 Yaffle[18][19],Yaffle,Memorial University of Newfoundland,,Memorial University of Newfoundland
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

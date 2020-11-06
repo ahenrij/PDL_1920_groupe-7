@@ -1,39 +1,17 @@
-<<<<<<< HEAD
-,Flat file,MySQL,MySQLi,PostgreSQL,MSSQL,Oracle,SQLite,Firebird,Apache Derby,MongoDB
-Apache OFBiz,No,Yes,No,Yes,Yes,Yes,No[20],Yes,Yes,No
-Batavi,No,Yes,No,No,No,No,No,No,No,No
-Bigcommerce,No,Yes,No,Yes,No,No,No,No,No,No
-Drupal Commerce,No,Yes,Yes,Yes,No,No,Yes,No,No,discontinued[21]
-KonaKart,No,Yes,No,Yes,Yes,Yes,No,No,No,No
-Magento,No,Yes,Yes,No,No,No,No,No,No,No
-nopCommerce,No,No,No,No,Yes,No,No,No,No,No
-OpenCart,No,Yes,Yes,No,No,No,No,No,No,No
-osCommerce,No,Yes,No,No,No,No,No,No,No,No
-pimcore,No,Yes,No,No,No,No,No,No,No,No
-PrestaShop,No,Yes,Yes,No,No,No,No,No,No,No
-Shopify,No,Yes,Yes,No,No,No,No,No,No,No
-Spree Commerce,No,Yes,Yes,Yes,No,No,Yes,No,No,No
-SupaDupa,No,Yes,Yes,No,No,No,No,No,No,No
-WooCommerce,No,Yes,Yes,No[22],No,No,No,No,No,No
-X-Cart,No,Yes,Yes,Yes,No,No,No,No,No,No
-Zen Cart,No,Yes,Yes,No,No,No,No,No,No,No
-,Flat file,MySQL,MySQLi,PostgreSQL,MSSQL,Oracle,SQLite,Firebird,Apache Derby,MongoDB
-=======
-,Guest account,Customer testimonials,Featured products,"Glossary, tool tip words",Image enlarge,Mini cart,Multiple addresses,Newest products,Newsletter,News,Next-previous product links,Polls,Popular products,Printing-friendly
-Apache OFBiz,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Batavi,?,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,No
-Bigcommerce,Yes,Add-on,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,3rd party,Yes,No
-Drupal Commerce,Yes,Yes,Yes,Add-on,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Add-on
-KonaKart,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
-nopCommerce,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No
-Magento,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No
-osCommerce,Add-on,Add-on,Add-on,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Add-on,Yes,Add-on
-OpenCart,Yes,Yes,Yes,No,Yes,3rd party,Yes,Yes,Yes,Add-on,3rd party,No,Yes,Yes
-pimcore,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Shopify,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-SupaDupa,?,No,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,No,Yes,Yes
-WooCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Zen Cart,Add-on[24],Add-on[25],Yes,No,Yes,No,Add-on[26],Yes,Yes,No,Yes,No,Yes,Yes
-,Guest account,Customer testimonials,Featured products,"Glossary, tool tip words",Image enlarge,Mini cart,Multiple addresses,Newest products,Newsletter,News,Next-previous product links,Polls,Popular products,Printing-friendly
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
+Apache OFBiz,Yes,Yes,Yes,No
+Batavi,Yes,No,Yes,No
+Bigcommerce,Yes,Yes,Yes,No
+Drupal Commerce,Yes,add-on,Yes,No
+KonaKart,Yes,No,Yes,No
+Magento,Yes,Yes,enterprise,No
+Miva Merchant,No,Yes,No,Yes
+nopCommerce,Yes,Yes,Yes,No
+osCommerce,Yes,No,No,No
+pimcore,Yes,No,No,No
+PrestaShop,Yes,Yes,No,No
+Shopify,Yes,Yes,Yes,No
+SupaDupa,Yes,No,No,No
+WooCommerce,No,add-on,No,No
+Zen Cart,Yes,add-on,Yes,No
+,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified

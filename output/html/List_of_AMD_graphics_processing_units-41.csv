@@ -1,35 +1,22 @@
-<<<<<<< HEAD
-Model (Codename),Launch,Architecture (Fab),Transistors Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TDP (W),Bus interface,Release Price (USD)
-,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width (bit),Size (GiB),Clock (MT/s),Band- width (GB/s),,,
-Radeon Pro WX 2100 (Mobile) (Polaris 12)[333],March 2017,GCN 4th gen (14 nm)[334],2.2×109 101 mm2,512:32:16:8,?,?,?,1250,78 1/16 SP,GDDR5 64-bit,2,6000,48,35,PCIe 3.0 ×16,$ 149
-Radeon Pro WX 3100 (Mobile) (Polaris 12)[335][336],March 2017,,,512:32:16:8,?,?,?,1250,78 1/16 SP,GDDR5 128-bit,4,6000,96,50,,$ 199
-Radeon Pro WX 4130 Mobile (Polaris 11)[337],March 2017,,3.0×109 123 mm2,640:40:16:10,1000 1050,16.85,42.12,1348,84.24 1/16 SP,GDDR5 128-bit,4,6000,96,50,,Unknown
-Radeon Pro WX 4150 Mobile (Polaris 11)[338],March 2017,,,896:56:16:14,1000 1050,16.85,58.97,1887,118 1/16 SP,GDDR5 128-bit,4,6000,96,50,,Unknown
-Radeon Pro WX 4170 Mobile (Polaris 11)[339],March 2017,,,1024:64:16:16,1000 1050,16.85,67.39,2157,135 1/16 SP,GDDR5 128-bit,4,7000,112,50,,$ 399
-Radeon Pro WX 7100 Mobile (Polaris 10)[340],March 2017,,5.7×109 232 mm2,2304:144:32:36,1188,39.78,179.0,5728,358 1/16 SP,GDDR5 256-bit,8,5000,160,130,,$ 799
-=======
-Model[144],Launch,Architecture Fab,Core,,Fillrate[a][b],,Processing power[c] (GFLOPS),Memory,,,,TDP (Watts),Bus interface
-,,,Config[d],Clock (MHz),Pixel (GP/s),Texture (GT/s),,Size (MiB),Bus type & width (bit),Clock (MHz),Bandwidth (GB/s),,
-Radeon HD 6330M (Robson LP)[145],November 2010,TeraScale 2 40 nm,80:8:4,500,2.0,4.0,80,1024,DDR3 64-bit,800,12.8,7,PCIe 2.1 x16
-Radeon HD 6350M (Robson Pro)[145],November 2010,,,500,2.0,4.0,80,1024,DDR3 64-bit,800 900,12.8 14.4,7,
-Radeon HD 6370M (Robson XT)[145],November 2010,,,750,3.0,6.0,120,1024,DDR3 64-bit,900,14.4,11,
-Radeon HD 6430M (Seymour LP)[146],January 2011,TeraScale 2 40 nm,160:8:4,480,1.92,3.84,153.6,1024,DDR3 64-bit,800,12.8,Unknown,PCIe 2.1 x16
-Radeon HD 6450M (Seymour Pro)[146],January 2011,,,600,2.4,4.8,192,1024,DDR3 64-bit,800,12.8,Unknown,
-Radeon HD 6470M (Seymour XT)[146],January 2011,,,700 750,2.8 3.0,5.6 6.0,224 240,1024,DDR3 64-bit,800 800,12.8,Unknown,
-Radeon HD 6490M (Seymour XT)[146],January 2011,,,800,3.2,6.4,256,512,GDDR5 64-bit,800,25.6,Unknown,
-Radeon HD 6530M (Capilano Pro)[147],November 2010,TeraScale 2 40 nm,400:20:8,500,4.0,10.0,400,1024,DDR3 128-bit,900,28.8,26,PCIe 2.1 x16
-Radeon HD 6550M (Capilano Pro)[147],November 2010,,,600,4.8,12.0,480,1024,DDR3 128-bit,900,28.8,26,
-Radeon HD 6570M (Capilano XT)[147],November 2010,,,650,5.2,13.0,520,1024,DDR3 64-bit GDDR5 128-bit,900,28.8 57.6,30,
-Radeon HD 6630M (Whistler LP)[148],January 2011,TeraScale 2 40 nm,480:24:8,485,3.88,11.64,465.6,256(mac) 1024,GDDR5 128-bit(mac) DDR3,800,51.2 (mac) 25.6,Unknown,PCIe 2.1 x16
-Radeon HD 6650M (Whistler Pro)[148],January 2011,,,600,4.8,14.4,576,1024,DDR3 128-bit,900,28.8,Unknown,
-Radeon HD 6730M (Whistler XT)[148],January 2011,,,725,5.8,17.4,696,1024,DDR3 128-bit,800,25.6,Unknown,
-Radeon HD 6750M (Whistler Pro)[148],January 2011,,,600,4.8,14.4,576,256 512 1024,GDDR5 128-bit,800 900,51.2 57.6,Unknown,
-Radeon HD 6770M (Whistler XT)[148],January 2011,,,725,5.8,17.4,696,1024,GDDR5 128-bit,900,57.6,Unknown,
-Radeon HD 6830M (Granville Pro)[149],January 2011,TeraScale 2 40 nm,800:40:16,575,9.2,23.0,920,2048,DDR3 128-bit,800,25.6,39,PCIe 2.1 x16
-Radeon HD 6850M (Granville XT)[149],January 2011,,,675,10.8,27.0,1080,2048,DDR3 128-bit,800,25.6,50,
-Radeon HD 6850M (Granville Pro)[149],January 2011,,,575,9.2,23.0,920,1024,GDDR5 128-bit,800,57.6,39,
-Radeon HD 6870M (Granville XT)[149],January 2011,,,675,10.8,27,1080,1024,GDDR5 128-bit,1000,64,50,
-Radeon HD 6950M (Blackcomb Pro)[150],January 2011,TeraScale 2 40 nm,960:48:32,580,18.56,27.84,1113.6,2048,GDDR5 256-bit,900,115.2,50,PCIe 2.1 x16
-Radeon HD 6970M (Blackcomb XT)[150],January 2011,,,680,21.76,32.64,1305.6,2048,GDDR5 256-bit,900,115.2,75,
-Radeon HD 6990M (Blackcomb XTX)[151],July 2011,TeraScale 2 40 nm,1120:56:32,715,22.88,40.04,1601.6,2048,GDDR5 256-bit,900,115.2,75,PCIe 2.1 x16
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b],,Processing power[c] (GFLOPS),Memory,,,,Bus interface,Notes
+,,,Config[d] (CU),Clock (MHz),Texture (GT/s),Pixel (GP/s),,Size (MB),Bus type & width (bit),Clock (MHz),Band- width (GB/s),,
+FirePro M5725 [311] (M96 GL),2009-01-01,Terascale 2 (55 nm),320:32:8 (3),680,21.6,5.4,432,256,GDDR3 128-bit,800,25.6,PCIe 2.0 x16,
+FirePro M5800 [312] (Madison XT GL),2010-03-01,Terascale 2 (40 nm),400:20:8 (5),650,13,5.2,520,1024,GDDR5 128-bit,800,25.6,PCIe 2.0 x16,HP EliteBook 8540w
+FirePro M3900 [313] (Seymour XT),2011-04-13,,160:8:4 (2),700,6.0,3.0,224,1024,DDR3 64-bit,900,14.4,PCIe 2.1 x16,HP Elitebook 8460w
+FirePro M5950 [314] (Whistler XT),2011-01-04,,480:24:8 (6),725,17.4,5.8,696,1024,GDDR5 128-bit,900,57.6,PCIe 2.1 x16,"Dell Precision M4600, HP EliteBook 8560w"
+FirePro M7740 [315] (M97XT GL),2009-08-04,Terascale 1 (40 nm),640:32:16 (8),650,20.8,10.4,832,1024,GDDR5 128-bit,1000,64,PCIe 2.0 x16,Dell Precision M6400 and M6500
+FirePro M7820 [316] (Juniper XT),2010-05-01,Terascale 2 (40 nm),800:40:16 (10),700,28,11.2,1120,1024,GDDR5 128-bit,1000,64,PCIe 2.0 x16,"Dell Precision M6500, HP EliteBook 8740w"
+FirePro M8900 [317] (Blackcomb XT GL),2011-04-12,,960:48:32 (12),680,32.64,21.76,1310,2048,GDDR5 256-bit,900,115.2,PCIe 2.1 x16,Dell Precision M6600
+FirePro M2000 [318] (Turks GL),2012-07-01,,480:24:8 (6),500,12,4,480,1024,GDDR5 64-bit,800,25.6,PCIe 2.1 x16,HP EliteBook 8470w
+FirePro M4000 [319] (Chelsea XT GL),2012-06-27,GCN 1st gen (28 nm),512:32:16 (8),600,19.2,9.6,614,2048,GDDR5 128-bit,1000,51.2,PCIe 2.1 x16,"HP EliteBook 8570w, HP EliteBook 8770w, Dell Precision M4700 (e.g. Consumer HD7700M Serie DevID 682D)"
+FirePro M6000 [320] (Heathrow XT GL),2012-06-27,,640:40:16 (10),800,30,12,960,2048,GDDR5 128-bit,1000,64,PCIe 3.0 x16,Dell Precision M6700
+FirePro M4100 [321] (Mars),2013-10-16,,384:24:8 (6),670,16.1,5.4,514,2048,GDDR5 128-bit,1000,64,PCIe 3.0 x16,HP ZBook 14
+FirePro W4170M [322] (Mars XTX),2014-04-28,,384:24:8 (6),825,19.8,6.6,691.2,2048,GDDR5 128-bit,1125,72,PCIe 3.0 x16,"Dell Precision M2800, HP ZBook 15u G2"
+FirePro W4190M [323] (Opal),2015-11-12,,384:24:8 (6),825,19.8,6.6,634,2048,GDDR5 128-bit,900,72,PCIe 3.0 x16,"HP ZBook 15u G3, MXM-3-A, OpenGL 4.6, OpenCL 2.0, TDP 25W [324]"
+FirePro M5100 [325] (Venus XT),2013-10-16,,640:40:16 (10),775,31,12.4,992,2048,GDDR5 128-bit,1125,72,PCIe 3.0 x16,"Dell Precision M4800, Panasonic Toughbook 54, HP ZBook 15 G2 (e.g. R9 M200X Serie DevID 6821)"
+FirePro W5130M [326] (Tropo LE),2015-10-02,,512:32:16 (8),up to 925,28.8,14.4,up to 950,up to 2048,GDDR5 128-bit,1000,64,PCIe 3.0 x16,"Dell Precision 3510 (e.g. Consumer R7 M465X DevID 682B) MXM-3-A, DirectX 12.0 (feature level 11_1), OpenGL 4.6, OpenCL 2.0, Vulkan 1.0, TDP 35W [327]"
+FirePro W5170M [328] (Tropo XT),2014-08-25,,640:40:16 (10),up to 925,36.0,14.4,up to 1180,up to 2048,GDDR5 128-bit,1125,72,PCIe 3.0 x16,"Dell Precision 7510, Dell Precision 7710, HP ZBook 15 G3 (e.g. Consumer R9 M375X DevID 6820 REV 083) MXM-3-A, DirectX 12.0 (feature level 11_1), OpenGL 4.6, OpenCL 2.0, Vulkan 1.0, TDP 45W [329]"
+FirePro M6100 [330] (Saturn XT GL),2013-10-16,GCN 2nd gen (28 nm),768: 48:16 (12),up to 1100,51.6,17.2,1651.2,2048,GDDR5 128-bit,1375/1500,88/96,PCIe 3.0 x16,"Dell Precision M6600 / M6800, HP Zbook 17 G2"
+FirePro W6150M [331] (Saturn XT GL),2015-11-12,,768:48:16 (12),1075,51.6,17.2,1651,4096,GDDR5 128-bit,1375,88,PCIe 3.0 x16,"HP Zbook 17 G3, MXM-3-B, OpenGL 4.6, OpenCL 2.0, TDP 100W [332]"
+FirePro W6170M [333] (Saturn XT GL),2014-08-25,,768:48:16 (12),1075,51.6,17.2,1651,4096,GDDR5 128-bit,1375,88,PCIe 3.0 x16,HP ZBook 17 G2
+FirePro W7170M [334] (Amethyst XT),2015-10-02,GCN 3rd gen (28 nm),2048:128:32 (32),723,92.5,23.1,2960,4096,GDDR5 256-bit,1250,160,PCIe 3.0 x16,"Dell Precision 7710, MXM-3-B, DirectX 12.0 (feature level 11_1), OpenGL 4.6, OpenCL 2.0, Vulkan 1.0, TDP 100W [335]"

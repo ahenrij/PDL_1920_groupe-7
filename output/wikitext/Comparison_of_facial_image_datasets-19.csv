@@ -1,10 +1,3 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
 Numenta Anomaly Benchmark (NAB),"Data are ordered, timestamped, single-valued metrics. All data files contain anomalies, unless otherwise noted.",None,50+ files,Comma separated values,Anomaly detection,2016 (continually updated),[414],Numenta
 "On the Evaluation of Unsupervised Outlier Detection: Measures, Datasets, and an Empirical Study","Most data files are adapted from UCI Machine Learning Repository data, some are collected from the literature.","treated for missing values, numerical attributes only, different percentages of anomalies, labels",1000+ files,ARFF,Anomaly detection,2016 (possibly updated with new datasets and/or results),[415],Campos et al.
-=======
-TV Human Interaction Dataset,"Videos from 20 different TV shows for prediction social actions: handshake, high five, hug, kiss and none.",None.,"6,766 video clips",video clips,Action prediction,2013,[41],"Patron-Perez, A. et al."
-Berkeley Multimodal Human Action Database (MHAD),Recordings of a single person performing 12 actions,MoCap pre-processing,660 action samples,"8 PhaseSpace Motion Capture, 2 Stereo Cameras, 4 Quad Cameras, 6 accelerometers, 4 microphones",Action classification,2013,[42],"Ofli, F. et al."
-THUMOS Dataset,Large video dataset for action classification.,Actions classified and labeled.,45M frames of video,"Video, images, text","Classification, action detection",2013,[43][44],Y. Jiang et al.
-MEXAction2,Video dataset for action localization and spotting,Actions classified and labeled.,1000,Video,Action detection,2014,[45],Stoian et al.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

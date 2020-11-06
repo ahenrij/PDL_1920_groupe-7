@@ -1,9 +1,9 @@
-YouTube Downloader,MP3,MPEG4,WMV,AVI,FLV,Ogg Theora,Ogg Vorbis,Matroska,3GP,SWF,Special device profiles (e.g. iPhone),M4A,WebM
-4KDownload,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,?,?
-ClipGrab,Yes,Yes,Yes,No,No,Yes,Yes,No,No,No,No,?,?
-Airy,Yes,Yes,No,No,No,No,No,No,No,No,No,?,?
-Free Studio,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,?,?
-JDownloader,Yes,Yes,No,No,Yes,No,No,No,No,No,No,?,?
-Video DownloadHelper,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?
-Freemake Video Downloader,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-NewPipe,No,Yes,No,No,No,Yes,Yes,Yes,No,No,No,Yes,Yes
+YouTube Downloader,License,Integrated browser,Playlists (and channels),"Show lists, artist playlists and charts",Multi- threaded downloads,Resumable downloads,User-specified maximum download speed,Private videos,Embedded videos,Available as a browser extension,Extraction of original audio (served by YouTube),Download in high definition,Batch download
+4KDownload[1],Freeware,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+ClipGrab[2],Open Source,Yes,No,No,Yes,No,No,No,No,No,Yes,Yes,No
+Airy[3],Shareware,No,No,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes
+Free Studio[4][5][6],Freeware (Crippleware[a]),No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes
+JDownloader[7],Open Source,No,Yes,?,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+Freemake Video Downloader[8],Freeware (Crippleware[a]),No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+NewPipe[9],Open Source,Yes,No,No,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes
+youtube-dl[10],Open Source (Unlicense),No,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes

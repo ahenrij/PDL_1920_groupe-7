@@ -1,10 +1,4 @@
 ,Trident,Gecko,WebKit,KHTML,Presto,Prince XML,Antenna House
-<<<<<<< HEAD
-XML Signature[42],rowspan="3" ,,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" ,rowspan="3" 
-XML Encryption[44],rowspan="2" ,,,,,,
-XML Key Management[45],,,,,,,
-=======
 XLink[15],5.0,"Gecko, as of version 1.8, only supports simple XLinks, and only for SVG and MathML.[16][17]group=note",,,,Prince XML supports only simple XLinks.[19]group=note,
 XML Base[21],,1.0,,,,6.0,
 XPointer[24],,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

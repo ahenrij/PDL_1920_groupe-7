@@ -1,23 +1,25 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
-<<<<<<< HEAD
-Basic structure,,,,,
-form,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-fieldset,,,,,
-legend,,,,,
-Form controls and labels,,,,,
-button,<3.1[IE 4.0] [note 3],1.0,Yes,Yes,1.0
-textarea,<3.1[IE 4.0],,,,
-input,,,,,
-label,,,,3.4.2[note 4],
-List boxes (combo boxes),,,,,
-select,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-optgroup,,,,,
-option,,,,,
-=======
-Frame layout,,,,,
-frameset,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-frame,,,,,
-noframes,,,,,
-Inline frames,,,,,
-iframe,<3.1[IE 4.0],1.0,Yes,Yes,1.0
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Phrase,,,,,
+em,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+strong,,,,,
+dfn,,,,,
+code,,,,,
+samp,,,,,
+kbd,,,,,
+var,,,,,
+cite,,,,,
+acronym,,,,,
+abbr,3.1,,,,
+Quotations,,,,,
+blockquote,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+q,4.0,1.8[note 1],,,
+Subscripts and superscripts,,,,,
+sub,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+sup,,,,,
+Lines and paragraphs,,,,,
+p,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+pre,,,,,
+br,<3.1[IE 5.0],,,,
+Marking document changes,,,,,
+ins,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+del,,,,,

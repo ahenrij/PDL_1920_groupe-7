@@ -1,33 +1,10 @@
-<<<<<<< HEAD
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
-Quadro NVS 110M,G72M,90,PCIe 1.0 ×16,300,300,600,3:4:4:2,0.6,1.2,Up to 512,4.8,DDR,64,,9.0c,2.1,10,
-Quadro NVS 120M,G72GLM,,,450,450,700,,0.9,1.8,,5.6,DDR2,,,9.0c,2.1,,
-Quadro NVS 130M,G86M,80,PCIe 2.0 ×16,400?,800?,,8:4:4,1.6?,1.6?,Up to 256,6.4?,,,19.2,10.0,3.3,,
-Quadro NVS 135M,,,,400,800,1188,16:8:4,1.6,3.2,,9.504,GDDR3,,38.4,,,,
-Quadro NVS 140M,,,,,,1200,16:8:4,,,Up to 512,9.6,,,38.4,,,,
-Quadro NVS 150M,G98M,65,,530,1300,1400,8:4:4,2.12,2.12,Up to 256,11.2,,,31.2,,,,
-Quadro NVS 160M,,,,580,1450,,8:8:4,,4.24,256,,,,34.8,,,12,
-Quadro NVS 300M,G72GLM,90,PCIe 1.0 ×16,450,450,1000,3:4:4:2,0.9,1.8,Up to 512,8,DDR2,,,9.0c,2.1,16,
-Quadro NVS 320M,G84M,65,PCIe 2.0 ×16,575,1150,1400,32:16:8,4.6,9.2,,22.4,GDDR3,128,110.4,10.0,3.3,20,
-Quadro NVS 510M,G72GLM,90,PCIe 1.0 ×16,500,500,1200,8:24:24:16,8,12,Up to 1024,38.4,,256,,9.0c,2.1,45?,based on Go 7900 GTX
-=======
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
-GeForce 710M,January 2013,GF117,28,PCIe 2.0 ×16,96:16:4,800,1600,1800,3.2,12.8,1024 2048,14.4,DDR3,64,12,4.5,307.2,12,OEM. About 115% of Mobile 620 & Desktop 530date=June 2015
-GeForce GT 720M,"April 1, 2013",,,,,938,1876,2000,3.8,15.0,2048,16.0,,,,,360.19,?,OEM. About 130% of Mobile 625/630 & Desktop 620date=June 2015
-GeForce GT 720M,"December 25, 2013",GK208,,PCIe 2.0 x8,192:16:8,719,,,3.032,12.13,,12.8,,,,,291,22,"Kepler, similar to 730M with half of the cores disabled"
-GeForce GT 730M,January 2013,GK208,,PCIe 3.0 ×8,384:32:8 (2 SMX),719,,,5.8,23.0,,16.0,,128,,,552.2,33,"Kepler, similar to Desktop GT640"
-GeForce GT 735M,"April 1, 2013",,,,,889,,,7.11,28.4,,,,64,,,682.8,?,"Kepler, similar to Desktop GT640"
-GeForce GT 740M,,,,,,980,,1800,7.84,31.4,,14.4,,,,,752.6,,"Kepler, similar to Desktop GT640."
-GeForce GT 740M,,GK107,,PCIe 3.0 ×16,384:32:16 (2 SMX),810[140],,1800 5000,12.96,25.92,2048[140],28.8 80,DDR3 GDDR5[140],128,,,622.1,45,about 76% of Desktop GTX650date=June 2015
-GeForce GT 745M,,,,,,837,,2000 5000,13.4,26.8,2048,32 80,DDR3 GDDR5,,,,642.8,,about 79% of Desktop GTX650date=June 2015
-GeForce GT 750M,,,,,,967,,,15.5,30.9,,,,,,,742.7,50,about 91% of Desktop GTX650date=June 2015
-GeForce GT 755M[141],?,,,,,1020,,5400,15.7,31.4,,86.4,GDDR5,,,,783,,about 93% of Desktop GTX650date=June 2015
-GeForce GTX 760M,May 2013,GK106,,,768:64:16 (4 SMX),719,,4000,10.5,42.1,,64,,,,,1104,55,about 71% of Desktop GTX 650Tidate=June 2015
-GeForce GTX 765M,,,,,,863,,,13.6,54.4,,,,,,,1326,65,about 92% of Desktop GTX 650Tidate=June 2015
-GeForce GTX 770M,,,,,960:80:24 (5 SMX),797,,,19.5,64.9,3072,96,,192,,,1530,75,about 83% of Desktop GTX660date=June 2015
-GeForce GTX 780M,,GK104,,,1536:128:32 (8 SMX),,5000,26.3,105.3,4096,160,256,,2448,,,122,about 78% of Desktop GTX770date=June 2015,
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Core (MHz),Shader (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[200][201],,Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro FX 380,G96,65,PCIe 2.0 ×16,450,1100,1400,16:8:8,3.6,3.6,256,22.4,GDDR3,128,52.8,-,10.0,3.3,34,"Two Dual Link DVI, no DisplayPort"
+Quadro FX 380 LP,GT218GL,40,,589,1402,1600,16:8:4,2.356,4.712,512,12.8,,64,67.296,,10.1,,28,"DisplayPort, Dual Link DVI"
+Quadro FX 580,G96,65,,450,1125,,32:16:8,3.6,7.2,,25.6,,128,108,,10.0,,40,"Dual DisplayPort, Dual Link DVI"
+Quadro FX 1800,G100GL-U(G94),,,550,1375,,64:32:12,6.6,17.6,768,38.4,,192,264,,,,59,"Stereo DP Dual Link DVI, Dual DisplayPort, SLI"
+Quadro FX 3800,GT200GL,55,,602,1204,,192:64:16,9.632,38.528,1024,51.2,,256,693.504,86.688,,,108,
+Quadro FX 4800,,,,,,,192:64:24,14.448,38.528,1536,76.8,,384,,,,,150,
+Quadro FX 5800,,,,648,1296,,240:80:32,20.736,51.840,4096,102.4,,512,933.12,116.64,10.1,,189,
+Quadro CX[202],,,,602,1204,,192:64:24,14.448,38.528,1536,76.8,,384,693.504,86.688,10.0,,150,"Display Port and dual-link DVI Output, optimised for Adobe Creative Suite 4"

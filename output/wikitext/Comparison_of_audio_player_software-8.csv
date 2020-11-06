@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-Audio player,AVI,ASF,QuickTime,Ogg,OGM,Matroska,MP4,MPEG-21,NUT,FLV
-AIMP,,,,,,,Partial,,,
-Amarok,,,,,Basic,Basic,,,,
-Audacious,,,,,,,,,,Audio only
-Audion,,,,,,,,,,
-cmus,,,,Vorbis only,,Basic,,,,
-Cog,,,,,,,,,,
-foobar2000,name=plugin,,,,,,,,,Audio only
-JuK,,,,Vorbis only,,,,,,
-JRiver Media Center,,,,,,,,,,
-MediaMonkey,,,,Vorbis only,,,,,,
-MOC,,,,,,,,,,
-MPXPLAY,,,,,,,,,,
-MusicBee,,,,Vorbis only,,,AAC only,,,
-Musicmatch Jukebox,,,,,,,,,,
-musikCube,,,,Vorbis only,,,,,,
-Rhapsody,,,,,,,,,,
-Rhythmbox,,,,Vorbis only,,,name=through_gstreamer,,,
-Sayonara Player,,,,Vorbis only,,,,,,
-Sonique,name=autodl,,,,,,,,,
-Winamp,,,name=plugin,,,,,,,
-XMMS,,,,Vorbis only,,,,,,
-Zinf,,,,Vorbis only,,,,,,
-Audio player,AVI,ASF,QuickTime,Ogg,OGM,Matroska,MP4,MPEG-21,NUT,FLV
-=======
 Name,Author,First public release,Latest stable version,Cost,Software license,Based framework,Written in
 AIMP,AIMP DevTeam,2006-08-08,,,,BASS audio library (decoder),Delphi
 Amarok,Mark Kretschmann,2003-06-01,,,GPLv2,"via Phonon: GStreamer, xine, MPlayer, VLC, DirectShow, QuickTime",C++
@@ -66,4 +40,3 @@ Winamp,Nullsoft,"April 21, 1997",,,,Wasabi,C/C++
 XMMS,XMMS Team,1997-11-01,,,GPL,original,C
 XMPlay,Un4seen Developments,1998,3.8 (20131223),,,BASS audio library,
 Name,Author,First public release,Stable version,Cost,Software license,Based framework,Written in
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

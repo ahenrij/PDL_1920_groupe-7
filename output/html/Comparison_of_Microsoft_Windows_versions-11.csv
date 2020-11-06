@@ -1,22 +1,4 @@
-<<<<<<< HEAD
-Name,Release date,Latest version,Status support,Codename,OS required,Architecture,Editions,Target market
-Windows 1.0,1985-11-20,1.04 (1987-04-08),Unsupported (2001-12-31),Interface Manager,DOS 2.0 or higher,16-bit,,Desktops
-Windows 2.0,1987-09-08,2.03 (1987-12-09),Unsupported (2001-12-31),,DOS 3.0 or higher,16-bit,,Desktops
-Windows 2.1x,1988-05-27,2.11 (1989-03-13),Unsupported (2001-12-31),,DOS 3.0 or higher,16-bit,,Desktops
-Windows 3.0,1990-05-22,3.0a with Multimedia Extensions (1991-10-20),Unsupported (2001-12-31),,DOS 3.1 or higher,16-bit,Windows 3.0 Windows 3.0a Windows 3.0a with Multimedia Extensions,Desktops
-Windows 3.1x,1992-04-06,3.11 (1993-12-31),Unsupported (2001-12-31),3.1 for Workgroups: Kato 3.11: Snowball (LB) 3.11 for Workgroups: Sparta,DOS 3.3 or higher,16-bit*,Windows 3.1 Windows for Workgroups 3.1 Windows 3.11 Windows for Workgroups 3.11 Windows 3.2 (Simplified Chinese only),Desktops
-=======
-,Resource access control,Subsystem isolation mechanisms,Integrated firewall,Encrypted file systems,Defender,Windows Hello
-Windows 2000,ACLs,,"TCP/IP Filtering, IPSec",Yes (NTFS only),No,No
-Windows XP,ACLs,"Win32 WindowStation, Desktop, Job objects","Windows Firewall (from SP2), TCP/IP Filtering, IPSec",Yes (NTFS only),Optional,No
-Windows Server 2003,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Optional,No
-Windows Vista,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
-Windows Server 2008,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
-Windows 7,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
-Windows Server 2012,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
-Windows 8,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
-Windows Server 2012 R2,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
-Windows 8.1,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,No
-Windows 10,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,Yes
-Windows Server 2016,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",Yes,Yes,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,CPU,RAM,Free disk space
+Windows 95,386,4 MB,120 MB
+Windows 98,486 DX2 66 MHz,16 MB,300 MB
+Windows Me (Millennium Edition),Pentium 150 MHz,32 MB,400 MB

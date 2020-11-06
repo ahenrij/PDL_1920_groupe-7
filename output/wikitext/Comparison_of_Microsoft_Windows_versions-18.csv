@@ -1,32 +1,13 @@
-<<<<<<< HEAD
-Name,Release date,RTM build,Latest version,Status support,Codename,MS-DOS version,Kernel type,Architecture,Editions,Target market
-Windows 95,1995-08-15,950,4.00.950C OSR2.5 (1997-11-26),Unsupported (2001-12-31),Chicago,"MS-DOS 7.0, MS-DOS 7.1 (OSR2.x)",Monolithic,Hybrid 16/32-bit,"Retail, OSR1, OSR2, OSR2.1, OSR2.5",Desktops
-Windows 98,1998-05-15,1998,4.10.1998,Unsupported (2006-07-11),Memphis,MS-DOS 7.1,Monolithic,Hybrid 16/32-bit,,Desktops
-Windows 98 SE,1999-05-05,2222,4.10.2222A (2000-02-25),Unsupported (2006-07-11),,MS-DOS 7.1,Monolithic,Hybrid 16/32-bit,,Desktops
-Windows Me,2000-06-19,3000,4.90.3000 (2000-09-14),Unsupported (2006-07-11),Millennium,MS-DOS 8.0,Monolithic,Hybrid 16/32-bit,,Desktops
-=======
-Version,Shell,Visual styles,Browser,Web server,Windows Media Player,Command-line interpreter
-Windows 1.0,MS-DOS executive,(Unnamed),,,,
-Windows 2.0,MS-DOS executive,(Unnamed),,,,
-Windows 3.0,Program Manager,(Unnamed),,,3.0 (Multimedia Extension edition only),
-Windows 3.1x,Program Manager,(Unnamed),,,3.1,
-Windows 95,Windows shell,Classic,Internet Explorer 1 in OEM RTM Internet Explorer 2 in OSR1 Internet Explorer 3 in OSR2 and OSR2.1 Internet Explorer 4 in OSR2.5,,4.0,COMMAND.COM
-Windows NT 4.0,Windows shell,Classic,Internet Explorer 2 Internet Explorer 3 (in some localized editions),PWS,4.0,"COMMAND.COM, CMD.EXE"
-Windows 98,Windows shell,Classic,Internet Explorer 4.01,PWS,4.0,COMMAND.COM
-Windows 98 SE,Windows shell,Classic,Internet Explorer 5,PWS,4.0,COMMAND.COM
-Windows 2000,Windows shell,Classic,Internet Explorer 5.01,IIS 5.0,5.0 and 6.4 (side by side),"COMMAND.COM, CMD.EXE"
-Windows Me,Windows shell,Classic,Internet Explorer 5.5,,6.4 and 7.0 (side by side),COMMAND.COM
-Windows XP,Windows shell,"Luna (default), Classic",Internet Explorer 6,IIS 5.1,"5.1, 6.4 and 8 (in RTM) 5.1, 6.4 and 9 (in SP2)","COMMAND.COM, CMD.EXE, PowerShell (optional)"
-Windows Server 2003,Windows shell,"Classic (default), Luna",Internet Explorer 6,IIS 6.0,"9 (in RTM), 10 (in SP1)","COMMAND.COM, CMD.EXE, PowerShell (optional)"
-Windows Vista,Windows shell,"Aero (default), Classic",Internet Explorer 7,IIS 7,11,"COMMAND.COM, CMD.EXE, PowerShell (optional)"
-Windows Server 2008,"Windows shell, Server Core","Classic (default), Aero (via "Desktop Experience")",Internet Explorer 7,IIS 7,11 (enabled by installing "Desktop Experience"),"COMMAND.COM, CMD.EXE, PowerShell (optional)"
-Windows 7,Windows shell,"Aero (default), Classic",Internet Explorer 8,IIS 7.5,12,"COMMAND.COM, CMD.EXE, PowerShell v2.0"
-Windows Server 2008 R2,"Windows shell, Server Core","Classic (default), Aero (via "Desktop Experience")",Internet Explorer 8,IIS 7.5,12 (via "Desktop Experience"),"CMD.EXE, PowerShell v2.0"
-Windows Server 2012,"Windows shell, Server Core",Metro,Internet Explorer 10,IIS 8,12 (via "Desktop Experience"),"CMD.EXE, PowerShell v3.0"
-Windows 8,Windows shell,Metro,Internet Explorer 10,IIS 8,12,"COMMAND.COM, CMD.EXE, PowerShell v3.0"
-Windows Server 2012 R2,"Windows shell, Windows server core",Metro,Internet Explorer 11,IIS 8.5,12 (via "Desktop Experience"),"CMD.EXE, PowerShell v4.0"
-Windows 8.1,Windows shell,Metro,Internet Explorer 11,IIS 8.5,12,"COMMAND.COM, CMD.EXE, PowerShell v4.0"
-Windows 10,Windows shell,Metro,Internet Explorer 11 Microsoft Edge 12-13,IIS 10.0,12,"COMMAND.COM, CMD.EXE, PowerShell v5.0"
-Windows Server 2016,"Windows shell, Windows server core",Metro,Internet Explorer 11 Microsoft Edge 13,IIS 10.0,12 (via "Desktop Experience"),"CMD.EXE, PowerShell v5.0"
-Windows Server 2019,"Windows shell, Windows server core",Metro,Internet Explorer 11 Microsoft Edge 13,IIS 10.0,12 (via "Desktop Experience"),"CMD.EXE, PowerShell v5.0"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Resource access control,Subsystem isolation mechanisms,Integrated firewall,Encrypted file systems,Defender,Windows Hello
+Windows 2000,ACLs,,"TCP/IP Filtering, IPSec",,,
+Windows XP,ACLs,"Win32 WindowStation, Desktop, Job objects","Windows Firewall (from SP2), TCP/IP Filtering, IPSec",,,
+Windows Server 2003,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
+Windows Vista,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
+Windows Server 2008,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
+Windows 7,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
+Windows Server 2012,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
+Windows 8,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
+Windows Server 2012 R2,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
+Windows 8.1,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
+Windows 10,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,
+Windows Server 2016,"ACLs, Privileges, RBAC","Win32 WindowStation, Desktop, Job objects","Windows Firewall, TCP/IP Filtering, IPSec",,,

@@ -1,8 +1,31 @@
-<<<<<<< HEAD
-Definition,"find_character(string,char) returns integer"
-Description,"Returns the position of the start of the first occurrence of the character char in string. If the character is not found most of these routines return an invalid index value – -1 where indexes are 0-based, 0 where they are 1-based – or some value to be interpreted as Boolean FALSE. This can be accomplished as a special case of #Find, with a string of one character; but it may be simpler or more efficient in many languages to locate just one character. Also, in many languages, characters and strings are different types, so it is convenient to have such a function."
-Related,find
-=======
-Definition,"left(string,n) returns string"
-Description,"Returns the left n part of a string. If n is greater than the length of the string then most implementations return the whole string (exceptions exist – see code examples). Note that for variable-length encodings such as UTF-8, UTF-16 or Shift-JIS, it can be necessary to remove string positions at the end, in order to avoid invalid strings."
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Format,Languages,Format string syntax
+"associate(file, string); putf(file, $formatstring$, items)",ALGOL 68,ALGOL
+"Format(item, formatstring)",VB,
+"sprintf(formatstring, items)","Perl, PHP, Raku, Ruby",C
+item.fmt(formatstring),Raku,C
+"io_lib:format(formatstring, items)",Erlang,
+"sprintf(outputstring, formatstring, items)",C,C
+"std.string.format(formatstring, items)",D,C
+"Format(formatstring, items)",Object Pascal (Delphi),
+"fmt.Sprintf(formatstring, items)",Go,C
+printf -v outputstring formatstring items,Bash shell,C
+formatstring % (items),"Python, Ruby",C
+formatstring.format(items),Python,.NET
+Printf.sprintf formatstring[19] items,"OCaml, F#",C
+Text.Printf.printf formatstring items,Haskell (GHC),C
+formatstring printf: items,Smalltalk,C
+"String.format(formatstring, items)",Java,C
+"String.Format(formatstring, items)","VB .NET, C#, F#",.NET
+(format formatstring items),Scheme (SRFI 28),Lisp
+(format nil formatstring items),Common Lisp,Lisp
+(format formatstring items),Clojure,Lisp
+formatstring -f items,Windows PowerShell,.NET
+"[NSString stringWithFormat:formatstring, items]",Objective-C (NSString * only),C
+"String(format:formatstring, items)",Swift (Foundation),C
+"string.format(formatstring, items) (formatstring):format(items)",Lua,C
+"WRITE (outputstring, formatstring) items",Fortran,Fortran
+put string(string) edit(items)(format),PL/I,PL/I (similar to Fortran)
+"String.format(formatstring, items)",Cobra,.NET
+format formatstring items,Tcl,C
+formatnumbers ? items or formatstring ?FMT items,APL,APL
+"format!(formatstring, items)",Rust[20],Python

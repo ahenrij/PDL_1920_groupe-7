@@ -1,19 +1,14 @@
-<<<<<<< HEAD
-Model (codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TBP,Bus interface
-,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Size (GB),Bandwidth (GB/s),Bus type & width,Clock (MT/s),,
-Radeon RX 5300[114] (Navi 14 XL),"August 28th, 2020",RDNA 1.0 TSMC 7FF,6.4×109 158 mm2,1408:88:32 22 CU,1327 1645,116.8 144.8,42.46 52.64,"7,474 9,265","3,737 4632",233.5 289.5,3,168,GDDR6 96-bit,14000,100 W,PCIe 4.0 ×8 (with x16 connector)[115]
-Radeon RX 5300 XT[116] (Navi 14 XL),"October 7, 2019[117]",,,,1670 1845,146.7 162.4,53.44 59.04,"9,405 10,390","4,703 5,196",293.9 324.7,4,112,GDDR5 128-bit,14000,100 W,
-Radeon RX 5500[118] (Navi 14 XT),,,,,1670 1845,146.7 162.4,53.44 59.04,"9,405 10,390","4,703 5,196",293.9 324.7,,224,GDDR6 128-bit,14000,150 W[119],
-Radeon RX 5500 XT[120] (Navi 14 XTX),"December 12, 2019 $169 USD (4GB) $199 USD (8GB)",,,,1717 1845,151.1 162.4,54.94 59.04,"9,670 10,390","4,835 5,196",302.2 324.7,,,,,130 W[121],
-,,,,,,,,,,,8,,,,,
-Radeon RX 5600[122] (Navi 10 XE),"January 21, 2020 $200/$279 USD (XT)",,10.3×109 251 mm2,2048:128:64 32 CU,1375 1560,176 199.7,88 99.84,"11,264 12,780","5,632 6,390",352 399.4,6,288,GDDR6 192-bit,12000,150 W,PCIe 4.0 ×16
-Radeon RX 5600 XT[123] (Navi 10 XLE),,,,2304:144:64 36 CU,1375 1750[124],198 252,88 112,"12,675 16,131","6,337 8,066",396 504,,288- 336[125],,12000- 14000[125],150-160 W[125],
-Radeon RX 5700[126][127][128][129][130] (Navi 10 XL),"July 7, 2019 $349 USD $399 USD (XT) $449 USD (50th)",,,,1465 1725,211 248.4,93.8 110.4,"13,501 15,900","6,751 7,949",421.9 496.8,8,448,GDDR6 256-bit,14000,180 W,
-Radeon RX 5700 XT[131][126][128][129][132] (Navi 10 XT),,,,2560:160:64 40 CU,1605 1905,256.8 304.8,102.7 121.9,"16,435 19,510","8,218 9,754",513.6 609.6,,,,,225 W,
-Radeon RX 5700 XT 50th Anniversary Edition[133][134][129][135] (Navi 10 XTX),,,,,1680 1980,268.8 316.8,107.5 126.7,"17,203 20,276","8,602 10,138",537.6 633.6,,,,,235 W,
-=======
-Model (Codename),Release Date,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,,Memory,,,,TDP,Bus interface
-,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Half,Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,
-Radeon Vega Pro 16 (Vega 12 XLA) [358][359],November 2018,GCN 5th gen 14 nm,Unknown,1024:64:32 16 CU,300 1190,76.16,38.08,?,2437,152.3,HBM2 1024-bit,4,2400,307.2,50 W,PCIe 3.0 ×16
-Radeon Vega Pro 20 (Vega 12 XTA) [358][360],November 2018,,Unknown,1280:80:32 20 CU,308 1190,95.20,38.08,?,3047,190.4,,,,,50 W,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b],,Processing power[c] (GFLOPS),Memory,,,,Bus interface,Notes
+,,,Config,Clock (MHz),Texture (GT/s),Pixel (GP/s),,Size (MB),Bus type & width (bit),Clock (MHz),Band- width (GB/s),,
+Mobility FireGL 7800 [299] (M7-GL),2001-09-29,R100 (150 nm),0:2:2:2[d],280,0.56,0.56,Unknown,64,DDR 128-bit,200,6.4,AGP,27 Watt TDP
+Mobility FireGL 9000 [300] (M7-GL),2002-01-01,R200 (150 nm),1:4:4:4[d],250,1.0,1.0,Unknown,64,DDR 128-bit,200,6.4,AGP 4x,
+Mobility FireGL T2 [301] (M7-GL),2003-11-01,R300 (130 nm),2:4:4:4[d],320,1.28,1.28,Unknown,128,DDR 128-bit,200,6.5,AGP 4x,
+Mobility FireGL T2e [302] (M7-GL),2004-08-01,R300 (130 nm),2:4:4:4[d],450,1.8,1.8,Unknown,128,DDR 128-bit,225,7.2,AGP,
+Mobility FireGL V3100 [303] (M7-GL),2004-06-01,R300 (110 nm),2:4:4:4[d],350,1.4,1.4,Unknown,128,DDR 128-bit,200,6.4,PCIe x16,
+Mobility FireGL V3200 [304] (M7-GL),2004-06-01,R300 (130 nm),2:4:4:4[d],400,1.6,1.6,Unknown,128,DDR2 128-bit,250,12.8,PCIe x16,
+Mobility FireGL V5000 [305] (M7-GL),2005-02-03,R420 (110 nm),6:8:8:8[d],350,2.8,2.8,Unknown,128,GDDR3 128-bit,425,13.6,PCIe x16,
+Mobility FireGL V5200 [306] (M7-GL),2006-02-01,R520 (90 nm),5:12:12:12[d],425,5.1,5.1,Unknown,256,GDDR3 128-bit,475,15.2,PCIe x16,
+Mobility FireGL V5250 [307] (M7-GL),2007-01-01,R520 (90 nm),5:12:12:12[d],450,5.4,5.4,Unknown,256,GDDR3 128-bit,350,11.2,PCIe x16,
+Mobility FireGL V5600 [308] (M7-GL),2007-05-14,TeraScale 1 (65 nm),120:8:4[e],500,4.0,2.0,120.0,256,GDDR3 128-bit,400,12.8,PCIe 2.0 x16,
+Mobility FireGL V5700 [309] (M7-GL),2008-01-07,Terascale 2 (55 nm),120:8:4[e],600,4.8,2.4,144,512,GDDR3 128-bit,700,22.4,PCIe 2.0 x16,in Lenovo ThinkPad W500
+Mobility FireGL V5725 [310] (M7-GL),2009-01-01,Terascale 2 (55 nm),120:8:4[e],680,5.44,2.72,163.2,256,GDDR3 128-bit,800,25.6,PCIe 2.0 x16,

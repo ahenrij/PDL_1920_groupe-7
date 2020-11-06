@@ -1,41 +1,21 @@
-<<<<<<< HEAD
-Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,RTF,HTML,Word .doc,OOXML .docx,Other
-CorelDRAW,,,,,,,,,"PSD, AI, SWF, WPD"
-Fatpaint,,,,,,,,,"JPG, PNG"
-Flare,,,,,,,,,"XLS, Adobe Framemaker, Adobe RoboHelp, Microsoft Compiled HTML Help, DITA"
-FrameMaker,,,,,,,,,WPD
-InDesign,,,,,,,,,"PSD, AI, SWF, WPD, XLS"
-InPage,,,,,,,,,
-iStudio Publisher,,,,,,,,,"PSD, AI"
-LyX,,,,,,,,,
-Microsoft Publisher,,,,,,,,,
-OpenOffice.org,,,,,,,,,"PSD, WPD, XLS"
-PageMaker*,,,,,,,,,
-PagePlus,,,,,,,,,
-Pages,,,,,,,,,
-QuarkXPress,,,,,,,,,"PSD, AI, SWF, XLS, JPG, PNG PDF"
-Scribus,,,,,,,,,List
-The Print Shop,,,,,,,,,
-Ventura*,,,,,,,,,"PSD, AI, WPD"
-Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,RTF,HTML,Word .doc,OOXML .docx,Other
-=======
-Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,HTML,Other
-CorelDRAW,,,,,,"PSD, AI, SWF, WPD"
-Fatpaint,,,,,,"JPG, PNG"
-Flare,,,,,,"DOC, EPUB, HTML5"
-FrameMaker,,,,,,"DOC, WPD"
-InDesign,,,,,,"EPUB, SWF, XML, RTF"
-InPage,,,,,,GIF
-iStudio Publisher,,,,,,"EPUB, RTF"
-LyX,,,,,,"PS, ODF"
-Microsoft Publisher,,,,,,"JPG, PNG, TIFF"
-OpenOffice.org,,,,,,RTF
-PageMaker*,with Distiller,,,,,
+Desktop publishing software,Windows,Mac OS (X),Linux,BSD,UNIX,Other
+CorelDRAW,,supported versions<11,,,,
+Fatpaint,,,,,,
+Flare,,,,,,
+FrameMaker,,supported versions<7,,,supported versions<8,
+InDesign,,,,,,
+InPage,,,,,,
+iStudio Publisher,,,,,,
+LyX,,,,,,OS/2
+Microsoft Publisher,,,,,,
+OpenOffice.org,,,,,,
+PageMaker*,,,,,,
 PagePlus,,,,,,
-Pages,,,,,,"EPUB, RTF"
-QuarkXPress,,,,,,"EPUB, Kindle, iOS, HTML5"
-Scribus,,,,,,List
+Pages,,,,,,
+PageStream,,,,,,"AmigaOS, MorphOS"
+QuarkXPress,,,,,,
+"Ready,Set,Go!",,,,,,
+Scribus,,,,,,"OS/2 Warp 4, ArcaOS, eComStation, OpenIndiana, Solaris, Haiku"
 The Print Shop,,,,,,
-Ventura*,,,,,,"RTF, PSD, AI, WPD"
-Desktop publishing software,PDF,EPS,SVG,TeX/LaTeX,HTML,Other
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Ventura*,,,,,,
+Desktop publishing software,Windows,Mac OS (X),Linux,BSD,UNIX,Other

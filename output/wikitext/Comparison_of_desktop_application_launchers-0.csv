@@ -1,22 +1,2 @@
-<<<<<<< HEAD
-,Creator,Latest stable version,Release date,OS,Software license,Open source,Programming language,Plugin support
-9menu,Arnold Robbins,1.8,20040601,Linux,GPL,,C,
-Avant Window Navigator,Neil J. Patel,0.4.2 [2],20131127,Linux,GPL,,C,
-dmenu,dwm developers,4.5[3],20111219,Linux,MIT License,,C,
-GNOME Do,GNOME Do Developers,0.95.1[4],20140123,Linux,GPL,,C#,
-LXPanel,LXDE Developers,0.10.0[5],"February 26, 2019[6]",Linux,GPL,,C,
-Katapult,TDE Developers,R14.0.6[8],20190305,Linux with TDE,GPL,,C++,
-rlaunch,Mykolas Peteraitis,1.3.5[9],20200216,Linux,MIT License,,Rust,
-rofi,Dave Davenport,1.5.4[10],20191026,Linux,MIT/X11 License,,C,
-Unity Dash,Canonical Ltd.,7.3.0[11],20140619,Ubuntu,GPLv3,,Vala,
-=======
-,Creator,Latest stable version,Release date,Software license,Open source,Programming language,Plugin support
-Appetizer,Laurent Cozic,1.4.6.494,20100213,GPL,,"C++, wxWidgets",
-ASuite,SalvadorSoftware,1.5.1.2,20080524,GPL,,Delphi,
-Classic Shell,Ivo Beltchev,4.3.1,2017812,MIT,,C++,
-Keypirinha,Jean-Charles Lefebvre,2.2.4,20190818,Freeware,,C++,
-LiberKey,Captel SARL,5.8.1129,20151130,Proprietary,,,
-PortableApps.com Platform,"Rare Ideas, LLC",15.0.2,2018517,GPL,,Delphi,
-SliderDock,Dimitri Roozendaal,1.21,20101011,Creative Commons,,,
-Wox,Many,1.3.524,2018225,MIT,,C#,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Creator,Latest stable version,Release date,OS,Software license,Open source,Programming language,Plugin support,Runs on macOS Catalina
+Launchy,Josh Karlin,2.5.0,2010044,"Microsoft Windows, Linux, macOS",GPL,,C++ (Qt),,

@@ -1,53 +1,73 @@
-<<<<<<< HEAD
-English,Malaysian,Indonesian
-(fruit) jam,zsmjem,idselai
-Japan,zsmJepun from Portuguese ptJapão,"idJepang, idJepun (archaic)"
-Jordan (country),zsmJordan,idYordania from Dutch nlJordanië
-journalist,zsmwartawan,"idwartawan, idjurnalis"
-July,zsmJulai,idJuli from Dutch nljuli
-June,zsmJun,idJuni from Dutch nljuni
-=======
-English,Standard Malay (Malaysian),Indonesian
-abolition,zsmpemansuhan,"1. idabolisi, 2. idpenghapusan"
-abortion,zsmpengguguran,"1. idaborsi, 2. idpengguguran (of a fetus)"
-abroad,zsmluar negara,idluar negeri
-accessibility,"1. zsmkebolehcapaian, 2. zsmketercapaian","1. idketerjangkauan, 2. idketercapaian, idaksesibilitas"
-"account (bank, bills)",zsmakaun,"1. idrekening (from Dutch – used in banks and hotels), 2. idakun (used for all meanings of account apart from bank account)"
-accountability,"zsmkebertanggungjawapan, zsmakauntabliti","idakuntabilitas, idpertanggungjawaban"
+English,Standard Malay,Indonesian
+account,zsmakaun,idakun
+accountability,zsmakauntabliti,idakuntabilitas
 accountant,zsmakauntan,idakuntan
-accounting,zsmperakaunan,idakuntansi
-accurate,zsmtepat,"1. idtepat, 2. idakurat (influenced by Dutch nlaccuraat)"
-administration,zsmpentadbiran,idadministrasi (From Dutch pronunciation of nladministratie)
-after,"1. zsmselepas, 2. zsmsetelah","1. idsetelah (also used in Malay to indicate consecutive actions), 2. idsesudah, idselepas"
-afternoon,zsmpetang,"1. idsore, 2. idpetang"
-agent,"1. zsmejen, 2. zsmagen",idagen
-air force,zsmtentera udara,idangkatan udara
-airport,zsmlapangan terbang ('airfield' in Indonesian; similar to Dutch vliegveld),"idbandar udara (loan translation of the English term, commonly abbreviated as bandara), idlapangan terbang"
-Alexandria,zsmIskandariah,"idAlexandria, idIskandariyah"
-Algeria,zsmAlgeria,idAljazair (from Arabic: aral-Jaz?'ir ar???????)
-Algiers,zsmAlgiers,idAljir (from Algerian Arabic: ardzayr ar??????????)
-alliance,"zsmperikatan, zsmpersekutuan, zsmpakatan","idaliansi (influenced by Dutch nlalliantie), idpersekutuan"
-alloy,"zsmpancalogam, zsmaloi","idlogam paduan, idlogam campuran, idaloi"
-apartment,"zsmpangsapuri, zsmrumah pangsa, zsmrumah kondo (only for 'condominium')","idapartemen (influenced by Dutch nlappartement), idrumah susun (idrusun) (public housing for poor families), idkondominium"
-application (software),"zsmperisian penggunaan, zsmaplikasi","idperangkat lunak, idaplikasi"
-architect,zsmarkitek,idarsitek (from pronunciation of Dutch nlarchitect)
-architecture,zsmseni bina,idarsitektur (influenced by Dutch nlarchitectuur)
-archive,zsmarkib,idarsip (from Dutch nlarchief)
-area,zsmkawasan,"iddaerah, idarea, idkawasan"
-armed forces,zsmtentera,"idtentara, idangkatan bersenjata"
-army,zsmtentera darat,idangkatan darat
-assembly,"zsmmajlis, zsmperhimpunan (from the root verb 'zsmhimpun' meaning 'to gather/assemble')","idmajelis, idhimpunan, idperhimpunan"
-assets,zsmaset,"idharta, idaset, idaktiva (from Dutch nlactiva)"
-association,zsmpersatuan,"idasosiasi (from Dutch nlassociatie), idpersatuan, idperkumpulan"
-assumption,"zsmandaian, zsmanggapan","idasumsi, idanggapan, iddugaan"
-astronaut,zsmangkasawan,"idastronaut, idantariksawan"
-Athens,zsmAthens,idAthena (influenced by Dutch nlAthene or from native Greek elAthina)
-athletics (sport),zsmolahraga ('sport' in Indonesian),idatletik
-auction,zsmlelong from Portuguese ptleilão,idlelang also from Portuguese ptleilão
-August,zsmOgos,idAgustus from Dutch idaugustus
-auntie,"zsmmakcik (also used in Riau Malay dialect in Indonesia), zsmemak saudara, zsmibu saudara","idbibi, idtante from Dutch"
-autobiography,zsmautobiografi,"idautobiografi, idotobiografi is a nonstandard spelling"
-automatic,zsmautomatik (formerly zsmotomatik),idotomatis (derived from Dutch pronunciation of nlautomatisch)
-autonomy,zsmautonomi,idotonomi (self-governing)
-awkward,"zsmjanggal, zsmkekok (of gesture)","idaneh, idjanggal, idcanggung, idkikuk (of gesture)"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+amateur,zsmamatur,idamatir
+architect,zsmarkitek,idarsitek
+armed forces,zsmtentera,idtentara
+auction,zsmlelong,idlelang
+autonomy,zsmautonomi,idotonomi
+balcony,zsmbalkoni,idbalkon
+bell,zsmloceng,idlonceng
+because (grammatical conjunction),zsmkerana,idkarena
+biome,zsmbiom,idbioma
+bridge,zsmjambatan,idjembatan
+"broken, damaged",zsmrosak,idrusak
+business,zsmbisnes,idbisnis
+bus,zsmbas,idbus
+cancer (diseases),zsmkanser,idkanker
+case (legal),zsmkes,idkasus
+cement,zsmsimen,idsemen
+civil,zsmsivil,idsipil
+community,zsmkomuniti,idkomunitas
+concert,zsmkonsert,idkonser
+counter,zsmkaunter,idkonter
+December,zsmDisember,idDesember
+dialect,zsmloghat,idlogat
+different,zsmbeza,idbeda
+doctor (medical practitioner),zsmdoktor,iddokter
+eight,zsmlapan,iddelapan
+Europe,zsmEropah,idEropa
+export,zsmeksport,idekspor
+faculty,zsmfakulti,idfakultas
+finance,zsmkewangan,idkeuangan
+garage,zsmgaraj,idgarasi
+dialect,zsmloghat,idlogat
+gonorrhea,zsmgonorea,idgonore
+immigration,zsmimigresen,idimigrasi
+mathematics,zsmmatematik,idmatematika
+magistrate,zsmmajistret,idmagistrat
+meaning,zsmerti,idarti
+medication,zsmubat,idobat
+minute,zsmminit,idmenit
+money,zsmwang,iduang
+music,zsmmuzik,idmusik
+"namely, e.g.",zsmiaitu,idyaitu
+news,zsmkhabar,idkabar
+newspaper,zsmsurat khabar,idsurat kabar
+number,zsmnombor,idnomor
+official (adj.),zsmrasmi,idresmi
+official position,zsmjawatan,idjabatan
+parliament,zsmparlimen,idparlemen
+party (political),zsmparti,idpartai
+passport,zsmpasport,idpaspor
+phase,zsmfasa,idfase
+physics,zsmfizik,idfisika
+popular,zsmpopular,idpopuler
+prototype,zsmprototaip,idprototipe
+sauce,zsmsos,idsaus
+sausage,zsmsosej,idsosis
+scenario,zsmsenario,idskenario
+scheme,zsmskim,idskema
+secret,zsmrahsia,idrahasia
+snow,zsmsalji,idsalju
+sputum,zsmkahak,iddahak
+station,zsmstesen,idstasiun
+taxi,zsmteksi,idtaksi
+tempo,zsmtempoh,idtempo
+thin,zsmnipis,idtipis
+Thursday,zsmKhamis,idKamis
+"truck, lorry",zsmtrak,idtruk
+university,zsmuniversiti,iduniversitas
+want,zsmmahu,idmau
+zone,zsmzon,idzona

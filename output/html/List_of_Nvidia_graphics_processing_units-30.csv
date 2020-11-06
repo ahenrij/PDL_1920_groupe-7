@@ -1,22 +1,13 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Bus interface,L2 Cache(MB),Core config,Clock speeds,,Memory (MT/s),Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS),,,,TBP (Watts)
-,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),DirectX,OpenGL,OpenCL,Vulkan,Single precision,Double precision,Half precision,
-GeForce GTX 1650 (Laptop),"April 23, 2019",TU117,TSMC 12FFN,4.7,200,PCIe 3.0 x16,1.0,1024:64:32,1395,1560,8000,49.92,99.84,2-4,128,GDDR5,128,12 (12_1),4.6,1.2,1.1 (1.2 via driver),3195,99.84[176],6390,50
-GeForce GTX 1650 Max-Q,,TU117(N18P-G0-MP-A1),,,,,,,1020,1245,,39.84,79.68,,112,,,,,,,2550,79.68[177],5100,30
-GeForce GTX 1650 Ti Max-Q,"April 2, 2020",TU117,,,,,,,?,1200,12000,38.4,76.8,4,192,GDDR6,,,,,,2458,76.8,4915,35
-GeForce GTX 1650 Ti,,TU117(N18P-G62-A1),,,,,,,1350,1485,,47.52,95.04,,,,,,,,,3041,95.04,6083,55
-GeForce GTX 1660 (Laptop),?,TU116,,6.6,284,,1.5,1408:88:48,1455,1599,16000,76.32,127.2,6,384,,192,,,,,4070,127.2[178],8141,?
-GeForce GTX 1660 Ti Max-Q,"April 23, 2019",,,,,,,1536:96:46,1140,1335,12000,64.08,128.2,,288,,,,,,,4101,128.2[179],8202,60
-GeForce GTX 1660 Ti (Laptop)[180],,,,,,,,1536:96:46,1455,1590,,76.32,152.6,,288,,,,,,,4884,152.6[181],9769,80
-=======
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[198][199],,Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
-Quadro FX 380,G96,65,PCIe 2.0 ×16,450,1100,1400,16:8:8,3.6,3.6,256,22.4,GDDR3,128,52.8,-,10.0,3.3,34,"Two Dual Link DVI, no DisplayPort"
-Quadro FX 380 LP,GT218GL,40,,589,1402,1600,16:8:4,2.356,4.712,512,12.8,,64,67.296,,10.1,,28,"DisplayPort, Dual Link DVI"
-Quadro FX 580,G96,65,,450,1125,,32:16:8,3.6,7.2,,25.6,,128,108,,10.0,,40,"Dual DisplayPort, Dual Link DVI"
-Quadro FX 1800,G100GL-U(G94),,,550,1375,,64:32:12,6.6,17.6,768,38.4,,192,264,,,,59,"Stereo DP Dual Link DVI, Dual DisplayPort, SLI"
-Quadro FX 3800,GT200GL,55,,602,1204,,192:64:16,9.632,38.528,1024,51.2,,256,693.504,86.688,,,108,
-Quadro FX 4800,,,,,,,192:64:24,14.448,38.528,1536,76.8,,384,,,,,150,
-Quadro FX 5800,,,,648,1296,,240:80:32,20.736,51.840,4096,102.4,,512,933.12,116.64,10.1,,189,
-Quadro CX[200],,,,602,1204,,192:64:24,14.448,38.528,1536,76.8,,384,693.504,86.688,10.0,,150,"Display Port and dual-link DVI Output, optimised for Adobe Creative Suite 4"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Features,,,,,,,
+,Scalable Link Interface (SLI),PureVideo 2 with VP2 Engine: (BSP and 240 AES),PureVideo 4 with VP4 Engine,,,,,
+GeForce 210,No,No,Yes,,,,,
+GeForce GT 220,,,,,,,,
+GeForce GT 240,,,,,,,,
+GeForce GTS 250,Yes 3-Way (4-way for EVGA 285 Classified),Yes,No,,,,,
+GeForce GTX 260,,,,,,,,
+GeForce GTX 260 Core 216,,,,,,,,
+GeForce GTX 260 Core 216 (55 nm),,,,,,,,
+GeForce GTX 275,,,,,,,,
+GeForce GTX 280,,,,,,,,
+GeForce GTX 285,,,,,,,,
+GeForce GTX 295,Yes,,,,,,,

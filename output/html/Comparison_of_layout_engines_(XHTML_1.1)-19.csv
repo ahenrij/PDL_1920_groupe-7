@@ -1,12 +1,5 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-<<<<<<< HEAD
-del,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-ins,,,,,,,
-=======
-dl,<3.1[IE 1] [7],Yes,Yes,Yes,Yes,Yes,Yes
-dt,,,,,,,
-dd,,,,,,,
-ol,,,,,,,
-ul,,,,,,,
-li,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+body,<3.1[IE 1.0] [1],Yes,Yes,Yes,Yes,Yes,Yes
+head,,,,,,,
+html,<3.1[IE 1.0] [2],,,,,,
+title,<3.1[IE 1.0] [3],,,,,,

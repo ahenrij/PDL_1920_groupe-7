@@ -1,78 +1,44 @@
-<<<<<<< HEAD
-,string to integer,string to long integer,string to floating point,integer to string,floating point to string
-Ada[1],Integer'Value (string_expression),Long_Integer'Value (string_expression),Float'Value (string_expression),Integer'Image (integer_expression),Float'Image (float_expression)
-"ALGOL 68 with general, and then specific formats","With prior declarations and association of: string buf := "12345678.9012e34 "; file proxy; associate(proxy, buf);",,,,
-,"get(proxy, ivar);","get(proxy, livar);","get(proxy, rvar);","put(proxy, ival);","put(proxy, rval);"
-,"getf(proxy, ($g$, ivar)); or getf(proxy, ($dddd$, ivar));","getf(proxy, ($g$, livar)); or getf(proxy, ($8d$, livar));","getf(proxy, ($g$, rvar)); or getf(proxy, ($8d.4dE2d$, rvar));","putf(proxy, ($g$, ival)); or putf(proxy, ($4d$, ival));","putf(proxy, ($g(width, places, exp)$, rval)); or putf(proxy, ($8d.4dE2d$, rval));"
-APL,?string_expression,?string_expression,?string_expression,?integer_expression,?float_expression
-C (C99),integer = atoi(string);,long = atol(string);,float = atof(string);,"sprintf(string, "%i", integer);","sprintf(string, "%f", float);"
-Objective-C,integer = [string intValue];,long = [string longLongValue];,float = [string doubleValue];,"string = [NSString stringWithFormat:@"%i", integer];","string = [NSString stringWithFormat:@"%f", float];"
-C++ (STL),«std::»istringstream(string) >> number;,,,«std::»ostringstream o; o << number; string = o.str();,
-C++11,integer = «std::»stoi(string);,long = «std::»stol(string);,float = «std::»stof(string); double = «std::»stod(string);,string = «std::»to_string(number);,
-C#,integer = int.Parse(string);,long = long.Parse(string);,float = float.Parse(string); double = double.Parse(string);,string = number.ToString();,
-D,integer = std.conv.to!int(string),long = std.conv.to!long(string),float = std.conv.to!float(string) double = std.conv.to!double(string),string = std.conv.to!string(number),
-Java,integer = Integer.parseInt(string);,long = Long.parseLong(string);,float = Float.parseFloat(string); double = Double.parseDouble(string);,string = Integer.toString(integer); string = String.valueOf(integer);,string = Float.toString(float); string = Double.toString(double);
-JavaScript[a],integer = parseInt(string);,,float = parseFloat(string); float = new Number (string); float = Number (string); float = +string;,string = number.toString (); string = String (number); string = number+""; string = `${number}`,
-Go,"integer, error = strconv.Atoi(string) integer, error = strconv.ParseInt(string, 10, 0)","long, error = strconv.ParseInt(string, 10, 64)","float, error = strconv.ParseFloat(string, 64)","string = strconv.Itoa(integer) string = strconv.FormatInt(integer, 10) string = fmt.Sprint(integer)",string = strconv.FormatFloat(float) string = fmt.Sprint(float)
-Rust[d],string.parse::<i32>() i32::from_str(string),string.parse::<i64>() i64::from_str(string),string.parse::<f64>() f64::from_str(string),integer.to_string(),float.to_string()
-Common Lisp,(setf integer (parse-integer string)),,(setf float (read-from-string string)),(setf string (princ-to-string number)),
-Scheme,(define number (string->number string)),,,(define string (number->string number)),
-ISLISP,(setf integer (convert string <integer>)),,(setf float (convert string <float>)),(setf string (convert number <string>)),
-Pascal,integer := StrToInt(string);,,float := StrToFloat(string);,string := IntToStr(integer);,string := FloatToStr(float);
-Visual Basic,integer = CInt(string),long = CLng(string),float = CSng(string) double = CDbl(string),string = CStr(number),
-Visual Basic .NET (can use both VB syntax above and .NET methods shown right),integer = Integer.Parse(string),long = Long.Parse(string),float = Single.Parse(string) double = Double.Parse(string),string = number.ToString(),
-Xojo,integer = Val(string),long = Val(string),double = Val(string) double = CDbl(string),string = CStr(number) or string = Str(number),
-Python,integer = int(string),long = long(string),float = float(string),string = str(number),
-S-Lang,integer = atoi(string);,long = atol(string);,float = atof(string);,string = string(number);,
-Fortran,"READ(string,format) number",,,"WRITE(string,format) number",
-PHP,integer = intval(string); or integer = (int)string;,,float = floatval(string); float = (float)string;,string = "$number"; or string = strval(number); or string = (string)number;,
-Perl[b],number = 0 + string;,,,string = "number";,
-Raku,number = +string;,,,string = ~number;,
-Ruby,integer = string.to_i or integer = Integer(string),,float = string.to_f float = Float(string),string = number.to_s,
-Scala,integer = string.toInt,long = string.toLong,float = string.toFloat double = string.toDouble,string = number.toString,
-Smalltalk,integer := Integer readFrom: string,,float := Float readFrom: string,string := number asString,
-Windows PowerShell,integer = [int]string,long = [long]string,float = [float]string,string = [string]number; or string = "number"; or string = (number).ToString(),
-OCaml,let integer = int_of_string string,,let float = float_of_string string,let string = string_of_int integer,let string = string_of_float float
-F#,let integer = int string,let integer = int64 string,let float = float string,let string = string number,
-Standard ML,val integer = Int.fromString string,,val float = Real.fromString string,val string = Int.toString integer,val string = Real.toString float
-Haskell (GHC),number = read string,,,string = show number,
-COBOL,MOVE «FUNCTION» NUMVAL(string)[c] TO number,,,MOVE number TO numeric-edited,
-=======
-,fixed size array,,dynamic size array,
-,one-dimensional array,multi-dimensional array,one-dimensional array,multi-dimensional array
-Ada[1],array (<first> .. <last>) of <type> or array (<discrete_type>) of <type>,"array (<first1> .. <last1>, <first2> .. <last2>, ...) of <type> or array (<discrete_type1>, <discrete_type2>, ...) of <type>",array (<discrete_type> range <>) of <type>,"array (<discrete_type1> range <>, <discrete_type2> range <>, ...) of <type>"
-ALGOL 68,[first:last]«modename» or simply: [size]«modename»,"[first1:last1, first2:last2]«modename» or [first1:last1][first2:last2]«modename» etc.",flex[first:last]«modename» or simply: flex[size]«modename»,"flex[first1:last1, first2:last2]«modename» or flex[first1:last1]flex[first2:last2]«modename» etc."
-C (C99),type name[size][a],type name[size1][size2][a],type *name or within a block: int n = ...; type name[n],
-C++ (STL),"«std::»array<type, size>(C++11)",,«std::»vector<type>,
-C#,type[],"type[,,...]",System.Collections.ArrayList or System.Collections.Generic.List<type>,
-Java,type[][b],type[][]...[b],ArrayList or ArrayList<type>,
-D,type[size],type[size1][size2],type[],
-Go,[size]type,[size1][size2]...type,[]type,[][]type
-Rust,[type; size],[[type; size1]; size2],Vec<type>,Vec<Vec<type>>
-Swift,,,[type] or Array<type>,[[type]] or Array<Array<type>>
-Objective-C,NSArray,,NSMutableArray,
-JavaScript,N/A,N/A,Array[d],
-Common Lisp,(simple-array type (dimension)),(simple-array type (dimension1 dimension2)),(array type (dimension)),(array type (dimension1 dimension2))
-Scheme,,,,
-ISLISP,,,,
-Pascal,array[first..last] of type[c],"array[first1..last1] of array[first2..last2] ... of type [c] or array[first1..last1, first2..last2, ...] of type [c]",N/A,N/A
-Object Pascal (Delphi),,,array of type,array of array ... of type
-Visual Basic,,,,
-Visual Basic .NET,type(),"type(,,...)",System.Collections.ArrayList or System.Collections.Generic.List(Of type),
-Python,,,list,
-S-Lang,,,,
-Fortran,type :: name(size),"type :: name(size1, size2,...)","type, ALLOCATABLE :: name(:)","type, ALLOCATABLE :: name(:,:,...)"
-PHP,,,array,
-Perl,,,,
-Raku,,,Array[type] or Array of type,
-Ruby,,,Array,
-Scala,Array[type],Array[...[Array[type]]...],ArrayBuffer[type],
-Seed7,array type or array [idxType] type,array array type or array [idxType] array [idxType] type,array type or array [idxType] type,array array type or array [idxType] array [idxType] type
-Smalltalk,Array,,OrderedCollection,
-Windows PowerShell,type[],"type[,,...]",,
-OCaml,type array,type array ... array,,
-F#,type [] or type array,"type [,,...]",System.Collections.ArrayList or System.Collections.Generic.List<type>,
-Standard ML,type vector or type array,,,
-Haskell (GHC),,,,
-COBOL,level-number type OCCURS size «TIMES».,one-dimensional array definition...,level-number type OCCURS min-size TO max-size «TIMES» DEPENDING «ON» size.[e],N/A
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,8 bit (byte),,16 bit (short integer),,32 bit,,64 bit (long integer),,Word size,,Arbitrarily precise (bignum)
+,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,
+Ada[1],range -2**7 .. 2**7 - 1[j],range 0 .. 2**8 - 1[j] or mod 2**8[k],range -2**15 .. 2**15 - 1[j],range 0 .. 2**16 - 1[j] or mod 2**16[k],range -2**31 .. 2**31 - 1[j],range 0 .. 2**32 - 1[j] or mod 2**32[k],range -2**63 .. 2**63 - 1[j],mod 2**64[k],Integer[j],range 0 .. 2**Integer'Size - 1[j] or mod Integer'Size[k],N/A
+ALGOL 68 (variable-width),short short int[c],N/A,short int[c],N/A,int[c],N/A,long int[c],N/A,int[c],N/A,long long int [a][g]
+,,,,,,,,,bytes & bits,,
+C (C99 fixed-width),int8_t,uint8_t,int16_t,uint16_t,int32_t,uint32_t,int64_t,uint64_t,intptr_t[c],size_t[c],N/A
+C++ (C++11 fixed-width),,,,,,,,,,,
+C (C99 variable-width),signed char,unsigned char,short[c],unsigned short[c],long[c],unsigned long[c],long long[c],unsigned long long[c],int[c],unsigned int[c],
+C++ (C++11 variable-width),,,,,,,,,,,
+Objective-C (Cocoa),signed char or int8_t,unsigned char or uint8_t,short or int16_t,unsigned short or uint16_t,int or int32_t,unsigned int or uint32_t,long long or int64_t,unsigned long long or uint64_t,NSInteger or long,NSUInteger or unsigned long,
+C#,sbyte,byte,short,ushort,int,uint,long,ulong,IntPtr,UIntPtr,System.Numerics.BigInteger (.NET 4.0)
+Java,byte,N/A,,char[b],,N/A,,N/A,N/A,N/A,java.math.BigInteger
+Go,int8,uint8 or byte,int16,uint16,int32,uint32,int64,uint64,int,uint,big.Int
+Rust,i8,u8,i16,u16,i32,u32,i64,u64,isize,usize,N/A
+Swift,Int8,UInt8,Int16,UInt16,Int32,UInt32,Int64,UInt64,Int,UInt,
+D,byte,ubyte,short,ushort,int,uint,long,ulong,N/A,N/A,BigInt
+Common Lisp[2],(signed-byte 8),(unsigned-byte 8),(signed-byte 16),(unsigned-byte 16),(signed-byte 32),(unsigned-byte 32),(signed-byte 64),(unsigned-byte 64),,,bignum
+Scheme,,,,,,,,,,,
+ISLISP[3],,,,,,,,,,,bignum
+Pascal (FPC),shortint,byte,smallint,word,longint,longword,int64,qword,integer,cardinal,N/A
+Visual Basic,N/A,Byte,Integer,N/A,Long,N/A,N/A,,N/A,,N/A
+Visual Basic .NET,SByte,,Short,UShort,Integer,UInteger,Long,ULong,,System.Numerics.BigInteger (.NET 4.0),
+FreeBasic,Byte or Integer<8>,UByte or UInteger<8>,Short or Integer<16>,UShort or UInteger<16>,Long or Integer<32>,ULong or UInteger<32>,LongInt or Integer<64>,ULongInt or UInteger<64>,Integer,UInteger,N/A
+Python 2.x,N/A,,N/A,,N/A,,N/A,,int,N/A,long
+Python 3.x,N/A,,N/A,,N/A,,N/A,,N/A,,int
+S-Lang,N/A,,N/A,,N/A,,N/A,,N/A,,N/A
+Fortran,INTEGER(KIND = n)[f],N/A,INTEGER(KIND = n)[f],N/A,INTEGER(KIND = n)[f],N/A,INTEGER(KIND = n)[f],N/A,,,
+PHP,N/A,,N/A,,int [m],N/A,int [m],N/A,N/A,,[e]
+Perl 5,N/A[d],,N/A[d],,N/A[d],,N/A[d],,N/A[d],,Math::BigInt
+Raku,int8,uint8,int16,uint16,int32,uint32,int64,uint64,Int,N/A,
+Ruby,N/A,,N/A,,N/A,,N/A,,Fixnum,N/A,Bignum
+Erlang[n],N/A,,N/A,,N/A,,N/A,,integer(),N/A,integer()[o]
+Scala,Byte,N/A,Short,Char[l],Int,N/A,Long,N/A,N/A,N/A,scala.math.BigInt
+Seed7,N/A,N/A,N/A,N/A,N/A,N/A,integer,N/A,N/A,N/A,bigInteger
+Smalltalk,N/A,,N/A,,N/A,,N/A,,SmallInteger[i],N/A,LargeInteger[i]
+Windows PowerShell,N/A,,N/A,,N/A,,N/A,,N/A,,N/A
+OCaml,N/A,,N/A,,int32,N/A,int64,N/A,int or nativeint,,open Big_int;; big_int
+F#,sbyte,byte,int16,uint16,int32 or int,uint32,,uint64,nativeint,unativeint,bigint
+Standard ML,N/A,Word8.word,N/A,,Int32.int,Word32.word,Int64.int,Word64.word,int,word,LargeInt.int or IntInf.int
+Haskell (GHC),«import Int» Int8,«import Word» Word8,«import Int» Int16,«import Word» Word16,«import Int» Int32,«import Word» Word32,«import Int» Int64,«import Word» Word64,Int,«import Word» Word,Integer
+Eiffel,INTEGER_8,NATURAL_8,INTEGER_16,NATURAL_16,INTEGER_32,NATURAL_32,INTEGER_64,NATURAL_64,INTEGER,NATURAL,N/A
+COBOL[h],BINARY-CHAR «SIGNED»,BINARY-CHAR UNSIGNED,BINARY-SHORT «SIGNED»,BINARY-SHORT UNSIGNED,BINARY-LONG «SIGNED»,BINARY-LONG UNSIGNED,BINARY-DOUBLE «SIGNED»,BINARY-DOUBLE UNSIGNED,N/A,N/A,N/A
+Mathematica,N/A,,N/A,,N/A,,N/A,,N/A,,Integer
+Wolfram Language,N/A,,N/A,,N/A,,N/A,,N/A,,Integer

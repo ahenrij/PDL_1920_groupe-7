@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Manager,Copy Music,Copy Videos,Copy Smart Playlists,Copy Album Artwork,Extract DRM-Free Music,Extract DRM-Free Videos,Extract Playcounts,Extract Playlists,Copy Content to iPod
 Amarok,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,No
 Banshee,Yes,?,Yes,Yes,Yes,No,Yes,?,Yes
@@ -14,20 +13,3 @@ Senuti,Yes,Yes,No,No,Yes,Yes,Yes,?,?
 Winamp native,Yes,Yes,No,Yes,Yes,Yes,?,Yes,Yes
 XPlay,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
 Manager,Copy Music,Copy Videos,Copy Smart Playlists,Copy Album Artwork,Extract DRM-Free Music,Extract DRM-Free Videos,Extract Playcounts,Extract Playlists,Copy Content to iPod
-=======
-Manager,iPod touch/iPhone Firmware up to 1.1.4,iPod touch/ iPhone FW 2.x,iPod touch/ iPhone FW 3.0,iPod touch/ iPhone FW 3.1,iPod touch/iPhone FW 4.0.2,iPod touch/iPhone FW 5.0.x
-Amarok,Yes,No,Yes,Yes,"Yes, Read-only","Yes, Read-only"
-Banshee,Yes,Yes,Yes,Yes,"Yes, Read-only","Yes, Read-only"
-Clementine,"Yes, limited","Yes, limited","Yes, limited","Yes, limited",No,No
-EphPod,No,No,No,No,No,No
-gtkpod,Yes,Yes,Yes,Yes,?,?
-iRip,Yes,Yes,Yes,Yes,Yes,"Yes, Read-only"
-iTunes,Yes,Yes,Yes,Yes,Yes,Yes
-JRiver Media Center,No,No,No,No,No,No
-MediaMonkey,Yes,Yes,Yes,Yes,Yes,Yes
-Rhythmbox,Yes,Yes,Yes,Yes,Yes,No
-Senuti,Yes,Yes,No,No,No,?
-Winamp native,No,No,No,No,No,No
-XPlay,Yes,"Yes, Read only","Yes, Read only","Yes, Read only","Yes, Read only","Yes, Read only"
-Manager,iPod touch/iPhone Firmware up to 1.1.4,iPod touch/iPhone FW 2.x,iPod touch/iPhone FW 3.0,iPod touch/iPhone FW 3.1,iPod touch/iPhone FW 4.0.2,iPod touch/iPhone FW 5.0.x
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

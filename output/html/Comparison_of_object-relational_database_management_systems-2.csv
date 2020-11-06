@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Name,Vendor,License,OS,Notes
 Adaptive Server Enterprise,SAP,Proprietary,Cross-platform,
 CUBRID,NHN Corporation,GPL/BSD,"Linux, Windows",
@@ -15,12 +14,3 @@ VMDS (Version Managed Data Store),"GE Energy, a division of General Electric",Pr
 WakandaDB,4th Dimension,AGPLv3 or proprietary,"Windows, Linux, macOS",Based on REST and server-side JavaScript
 XDB Enterprise Server,Micro Focus,Proprietary,"DOS, Windows NT, OS/2",
 Zope Object Database,Zope Corporation,Zope Public License,Cross-platform,"For Python, also included in Zope web application server"
-=======
-,Type,Method,Type inheritance,Table inheritance
-CUBRID,Yes,Yes,Yes,Yes
-Oracle,Yes,Yes[Note 1],Yes,Yes
-OpenLink Virtuoso,Yes,Yes,Yes,Yes
-PostgreSQL,Yes,Yes,Yes,Yes
-Informix,Yes,Yes,Yes,Yes
-WakandaDB,Yes,Yes,Yes,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

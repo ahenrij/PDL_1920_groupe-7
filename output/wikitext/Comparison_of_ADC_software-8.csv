@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ADC client,Windows,Linux,OS X,BSD,Haiku
 AirDC++,,,,,
 AirDC++ Web Client,,,No installable package[8],,
@@ -13,19 +12,3 @@ TKDC++,,,,,
 StrongDC++,,,,,
 ncdc,,,,,
 ADC client,Windows,Linux,OS X,BSD,Haiku
-=======
-ADC client,GUI,CLI,WebUI,Programming language,Based on
-AirDC++,,,,C++,StrongDC++
-AirDC++ Web Client,,,,"C++, TypeScript",AirDC++
-ApexDC++,,,,"C++, Lua",StrongDC++
-DC++,,,,C++,
-Jucy,,,,Java,
-LinuxDC++,,,,C++,DC++
-EiskaltDC++,,,,"C++, Lua",DC++
-FlylinkDC++,,,,C++,"StrongDC++, DC++, ApexDC speed mode"
-RSX++,,,,"C++, Lua",StrongDC++
-TKDC++,,,,"C++, Lua","StrongDC++, DC++"
-StrongDC++,,,,C++,DC++
-ncdc,,,,C,
-ADC client,GUI,CLI,WebUI,Programming language,Based on
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,20 +1,21 @@
 ,Google Play Music,YouTube Music,iBroadcast,iTunes Match,VOX Music Cloud
 Owner:,Google LLC,YouTube LLC (Google LLC),"iBroadcast Media, LLC",Apple Inc.,Coppertino Inc.
-Launch date:,2011-05-10 (beta)[9],2015-11-12,2012-06-15[10],2011-10-12,2015-04-15[11]
-Web player:,,,,,
-Windows player:,Chrome,Chrome,,,
-Android player:,,,,,
-iOS player:,,,,,
-Windows Phone player:,,,,,
-Other listening platforms:,"Android TV, Apple TV, other AirPlay, Chromecast, Sonos[15]","Amazon Alexa, Google Home, Sonos, Chromecast, Android TV, Android Auto",,"Apple TV, other AirPlay","macOS, Apple TV via AirPlay, Chromecast, Sonos[16]"
-Free space:Purchased music files from associated music store do not count toward space limits.,"50,000 files[17]","100,000 files[18]",no limit,None[19],
-Upload software:,"Windows, macOS, Linux,[20] any web browser[21]",Any web browser[18],"Windows, any web browser","Windows, macOS","VOX Player for Mac, any web browser"
-Filetypes uploaded:,MP3[22],AAC,"MP3, AAC, OGG, FLAC, PCM, MKA",MP3 and AAC,"FLAC, MP3, AAC, M4A, WAV, OGG, AIFF, WMA, APE, ALAC"
-Filetypes transcoded:,"Transcoded to 320 kbit/s MP3: AAC, ALAC, FLAC,Google Play Music transcoding of FLAC to MP3 only supported with 16 and 24-bit stereo or mono FLAC. WMA,Google Play Music only supports WMA transcoding on Windows with Music Manager. OGG[23]","Transcoded to 256 kbit/s AAC: FLAC, M4A, MP3, OGG, WMA[18]",,"Transcoded to 256 kbit/s AAC: ALAC, WAV, AIFF",None
-Maximum file size:,300 MB[24],,,200 MB or 2 hours[25],No limit
-Premium service name:,None,YouTube Music Premium YouTube Premium,None,iTunes Match[26],Loop Music Cloud Storage
-Premium service features:,Matching included in basic features[27],"Ads-free, background play, download music offline, use audio-only mode, travel with YouTube Music, shuffle downloads, Apple Carplay & Android Auto compatibility[28]",N/A,"Match/import up to 100,000 filesIn the United States and Australia, iTunes Match also gets you ad-free iTunes Radio listening.[29]",Unlimited storage and playback
-Premium annual cost:,,$119.88 (YouTube Music Premium) $143.88 (YouTube Premium),N/A,"$24.99 (US), £21.99 (UK), €24.99 (FR), $39.99 (AU)",$131.88
-Matchable file types:,"MP3, AAC, ALAC, FLAC, Ogg, WMA[23]",,"MP3, AAC, AIFF, ALAC, WAV[26]",No matching feature,
-Result for matched song:,320 kbit/s CBR MP3[30][31],,256 kbit/s AAC[26],No matching feature,
-Premium service countries:,63[32][33],94 (YouTube Music Premium)[34] 95 (YouTube Premium)[34],117[35],Worldwide,
+Launch date:,2011-05-10 (beta)[10],2015-11-12,2012-06-15[11],2011-10-12,2015-04-15[12]
+Currently Available:,,,,,
+Web Client:,,,,,
+Windows Client:,,,,,
+Android App:,,,,,
+iOS App:,,,,,
+Other listening platforms:,"Android TV, Apple TV, other AirPlay, Chromecast, Sonos[17]","Amazon Alexa, Google Home, Sonos, Chromecast, Android TV, Android Auto",,"Apple TV, other AirPlay","macOS, Apple TV via AirPlay, Chromecast, Sonos[18]"
+Upload software:,"Windows, macOS, Linux,[19] Web browser[20]",Web browser[21],"Windows, macOS, Linux, Web browser","Windows, macOS","VOX Player for Mac, Web browser"
+Music Format:,MP3[22],AAC[23],"AAC, FLAC, MKA, MP3, OGG, PCM","AAC, MP3","AAC, AIFF, ALAC, APE, FLAC, M4A, MP3, OGG, WAV, WMA"
+Filetypes matched:,"AAC, ALAC, FLAC, MP3, OGG, WMA[24]",None[25],None,"AAC, AIFF, ALAC, MP3, WAV",None
+Filetypes transcoded:,"AAC, ALAC, FLACGoogle Play Music transcoding of FLAC to MP3 only supported with 16 and 24-bit stereo or mono FLAC., OGG,[24] WMA,Google Play Music only supports WMA transcoding on Windows with Music Manager.","FLAC, M4A, MP3, OGG, WMA",,"AIFF, ALAC, WAV",None
+Maximum file size:,300 MB[26],300 MB,,200 MB or 2 hours[27],250 MB[28]
+Free Bitrate:,320 kbit/s[29][30],256 kbit/s[21],128 kbit/s[31],None,None
+Premium Bitrate:,320 kbit/s,256 kbit/s,320 kbit/s or Original[32],256 kbit/s,Original Quality
+Free Storage:Purchased music files from associated music store do not count toward space limits.,"50,000 files[33]","100,000 files[21]",Unlimited,None[34],None[35]
+Premium Storage:,"50,000 files","100,000 files",Unlimited,"100,000 filesIn the United States and Australia, iTunes Match also gets you ad-free iTunes Radio listening.[36]",Unlimited
+Premium service features:,"Unlimited, ad-free access to music catalog[37]","Ads-free, background play, download music offline, use audio-only mode, travel with YouTube Music, shuffle downloads, Apple Carplay & Android Auto compatibility[38]","Higher bitrate streaming, equalizer, Android Auto, Carplay",,
+Premium pricing:,$9.99 per month,$9.99 per month (YouTube Music Premium) $11.99 per month (YouTube Premium),"Free during Beta, $3.99 per month after launch[39]","Annual fee of $24.99 (US), £21.99 (UK), €24.99 (FR), $39.99 (AU) Included with $9.99 per month Apple Music subscription","$4.99 per month, $49.99 annually (VOX Premium)"
+Premium service countries:,63[40][41],94 (YouTube Music Premium)[42] 95 (YouTube Premium)[42],,117[43],Worldwide

@@ -1,38 +1,30 @@
-<<<<<<< HEAD
-Definition,"charAt(string,integer) returns character."
-Description,Returns character at index in the string.
-Equivalent,See substring of length 1 character.
-=======
-Format,Languages,Base index
-string[i],"ALGOL 68, APL, Julia, Pascal, Object Pascal (Delphi), Seed7",1
-string[i],"C, C++, C#, Cobra, D, FreeBASIC, Go, Python,[1] PHP, Ruby,[1] Windows PowerShell, JavaScript, Ya, APL",0
-string{i},PHP (deprecated in 5.3),0
-string(i),Ada,?1
-"Mid(string,i,1)",VB,1
-"MID$(string,i,1)",BASIC,1
-string.Chars(i),VB.NET,0
-string(i:i),Fortran,1
-string.charAt(i),"Java, JavaScript",0
-string.[i],"OCaml, F#",0
-string.chars().nth(i),Rust[2],0
-"string[i,1]",Pick Basic,1
-"String.sub (string, i)",Standard ML,0
-string,i,Haskell
-(string-ref string i),Scheme,0
-(char string i),Common Lisp,0
-(elt string i),ISLISP,0
-(get string i),Clojure,0
-"substr(string, i, 1)",Perl 5[1],0
-"substr(string, i, 1) string.substr(i, 1)",Raku[3],0
-"substr(string, i, 1)",PL/I,1
-string.at(i),C++ (STL) (w/ bounds checking),0
-"lists:nth(i, string)",Erlang,1
-[string characterAtIndex:i],Objective-C (NSString * only),0
-"string.sub(string, i, i) (string):sub(i, i)",Lua[1],1
-string at: i,Smalltalk (w/ bounds checking),1
-string index string i,Tcl,0
-"StringTake[string, {i}]","Mathematica, Wolfram Language[1]",1
-string@i,Eiffel,1
-string (i:1),COBOL,1
-i?string,APL,0 or 1
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Format,Languages
+IF string1<string2 THEN -1 ELSE ABS (string1>string2) FI,ALGOL 68
+"cmp(string1, string2)",Python 2
+(string1 > string2) - (string1 < string2),Python
+"strcmp(string1, string2)","C, PHP"
+"std.string.cmp(string1, string2)",D
+"StrComp(string1, string2)","VB, Object Pascal (Delphi)"
+string1 cmp string2,"Perl, Raku"
+string1 compare: string2,"Smalltalk (Squeak, Pharo)"
+string1 <=> string2,Ruby
+string1.compare(string2),"C++ (STL), Swift (Foundation)"
+"compare(string1, string2)","Rexx, Seed7"
+"CompareStr(string1, string2)","Pascal, Object Pascal (Delphi)"
+string1.compareTo(string2),"Cobra, Java"
+string1.CompareTo(string2),"VB .NET, C#, F#"
+(compare string1 string2),Clojure
+(string= string1 string2),Common Lisp
+(string-compare string1 string2 p< p= p>),Scheme (SRFI 13)
+(string= string1 string2),ISLISP
+compare string1 string2,OCaml
+"String.compare (string1, string2)",Standard ML [4]
+compare string1 string2,Haskell [5]
+"[string]::Compare(string1, string2)",Windows PowerShell
+[string1 compare:string2],Objective-C (NSString * only)
+"LLT(string1,string2) LLE(string1,string2) LGT(string1,string2) LGE(string1,string2)",Fortran [6]
+string1.localeCompare(string2),JavaScript
+"bytes.Compare([]byte(string1), []byte(string2))",Go
+string compare ?-nocase? ?-length int? string1 string2,Tcl
+"compare(string1,string2,count)",PL/I[7]
+string1.cmp(string2),Rust[8]

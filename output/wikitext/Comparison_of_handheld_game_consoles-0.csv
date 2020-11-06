@@ -1,39 +1,59 @@
-,Main processor,Clock speed,Main memory,Storage,Video memory
-Game Boy Micro,Sharp ARM7TDMI,16.78 MHz,"32 KB (32 KiB), 256 KB external",None,96 KB
-GPD Win,64-bit Intel Atom x7-Z8750,1.60–2.56GHz max (with Turbo Boost),4GB LPDDR3 RAM,64GB eMMC ROM MicroSD,Intel HD 405 integrated
-GPD Win 2,64-bit Intel Core M3-7Y30,1.00 GHz/2.60 GHz max (with Turbo Boost),8GB LPDDR3 RAM,128GB M.2 SSD MicroSD,Intel HD 615 integrated
-Gizmondo,32-bit ARM9 / 128-bit Nvidia GPU,400 MHz,64 MB (64 MiB),"64 MB flash (shared with program stack), SD slot",1204 KB
-PlayStation Portable,MIPS R4000 32-bit RISC,1 – 333 MHz (variable clock speed),32 MB EDRAM (8 MB reserved for kernel),"Memory Stick Duo slot, Universal Media Disc",2 MB EDRAM
-GCW Zero,32-bit Ingenic JZ4770 (MIPS),1000 MHz,512 MB DDR2,"internal 16GB microSD (replaceable), external microSD slot",?
-Nintendo DS,ARM9 and ARM7TDMI,67 MHz and 33 MHz,4 MB SRAM,None,656 KB
-N-Gage QD,ARM9,104 MHz,3.4 MB,"4 MB flash, MMC slot",N/A
-Timetop Gameking 1 & 2,65C02,6 MHz,Unknown,None,N/A
-GP2X,ARM920T(host) and ARM940T(video),"200 MHz default, overclockable in software (maximum varies)","64 MB SDRAM, 64 MB NAND flash memory","SD memory cards, NAND flash (SDHC supported in F200 model)","Depends on program used, no dedicated 3D"
-GP32,ARM920T,"22–133 MHz default,[22] overclockable in software (maximum varies)",8 MB SDRAM,SmartMedia 8–128 MB,?
-Dingoo A320,32-bit Ingenic jz4740 (MIPS R3000 Clone) with XBurst SIMD,336 MHz (Reliably clocks to 430 MHz),32 MB (32 MiB),"4 GB flash, miniSD slot",N/A
-Pandora,ARM Cortex-A8,"600 MHz + 430 MHz TMS320C64x+ Core (can be reliably overclocked to 900 MHz), 1 GHz model goes to 1.2 GHz",256 MB / Rebirth edition: 512 MB,"512 MB onboard Flash, 2 SDHC cards: up to 2 times 512 GB (SDXC cards work, but only at SDHC speed [2], so 1 TB is possible)",?
-Tapwave Zodiac,Motorola i. Mxi ARM9,200 MHz,32 MB or 128 MB,"32 MB or 128 MB (shared with program stack), 2 SD slots",8 MB
-N-Gage,ARM9,104 MHz,"3.4 MB, 32–128 MB external","4 MB flash, MMC slot",N/A
-Game Boy Advance SP,Sharp ARM7TDMI and Z80,16.78 MHz and 4.194 MHz,"32 KB, 256 KB external",None,96 KB
-Game Boy Advance,Sharp ARM7TDMI and Z80,16.78 MHz and 4.194 MHz,"32 KB, 256 KB external",None,96 KB
-Swan Crystal,SPGY-1002,3.072 MHz,512 KB,None,?
-WonderSwan Color,SPGY-1002,3.072 MHz,512 KB,None,?
-WonderSwan,SPGY-1002,3.072 MHz,512 KB,None,?
-Game Boy Color,LR35902,"4 MHz (single), 8 MHz (double)","32 KB, 128 KB external",None,16 KB
-Neo Geo Pocket Color,Toshiba TLCS900H,6.144 MHz,64 KB,None,12 KB
-Neo Geo Pocket,Toshiba TLCS900H,6.144 MHz,64 KB,None,12 KB
-Game.com,Sharp 8-bit CPU,?,?,None,?
-Game Boy Light,LR35902,4.194 MHz,8 KB,None,8 KB
-Game Boy Pocket,LR35902,4.194 MHz,8 KB,None,8 KB
-Sega Nomad,Motorola M68000 & Zilog Z80,7.67 MHz & 4 MHz,64 KB,None,64 KB
-Mega Duck/Cougar Boy,unknown VLSI processor,4.194304 MHz,16 KB,?,?
-Watara Supervision,8-bit 65C02 or M65C02 VLSI processor,4 MHz,Varied by model[23],?,?
-Atari Lynx II,Mikey & Suzy (2 16-bit custom CMOS chips),16 MHz & 16 MHz,"64 KB DRAM, 128–512 KB external",None,(uses main memory)
-Game Gear,Zilog Z80 (8-bit),3.58 MHz,8 KB,,16 KB
-TurboExpress,Hudson HuC6280 (8-bit),7.159090 MHz,8 KB,None,64 KB
-Game Boy,LR35902,4.194304 MHz,"8 KB internal, 256 KB – 8 MB external",None,8 KB
-Atari Lynx,Mikey & Suzy (2 16-bit custom CMOS chips),16 MHz & 16 MHz,"64 KB DRAM, 128–512 KB External",None,(uses main memory)
-Game Pocket Computer,N/A,N/A,N/A,N/A,N/A
-Microvision,Intel 8021/TI TMS1100 (on cartridge),100 kHz,"16 bytes, integrated into CPU",N/A,N/A
-Mi2,unknown 32-bit MIPS-based CPU,unknown,unknown,16 GB of Flash + SD-card slot,unknown
-Xperia PLAY,Qualcomm Snapdragon S2 MSM8255,1 GHz,512 MB,400 MB + microSD card slot,Adreno 205
+,Manufacturer,First public release date,Product line,Launch price (USD),Units sold
+Atari Lynx,Atari,19891011format=dmy[1],Atari Lynx,$189[1],3000000
+Atari Lynx II,Atari,1991,Atari Lynx,$179,500000[1]
+Dingoo A320,Dingoo Digital Technology,2009,Dingoo,$82.80,1000000
+Epoch Game Pocket Computer,Epoch Co.,1984,Epoch Game Pocket Computer,,
+Gamate,Bit Corporation,1990,Gamate,,
+GameKing,Timetop,2003,GameKing,$10–20 (depending on retailer's subsidies and special offers),
+GameKing II,Timetop,2004,GameKing,$15–30 (depending on retailer's subsidies and special offers),
+Game Boy,Nintendo,19890421format=dmy,Game Boy line,$89.99 [2],70000000date=March 2008
+Game Boy Advance,Nintendo,20010321format=dmy,Game Boy line,$100,37700000[3]
+Game Boy Advance SP,Nintendo,20030214format=dmy,Game Boy line,$99.99,43020000[3]
+Game Boy Advance SP (backlit model),Nintendo,20050913format=dmy,Game Boy line,$79,
+Game Boy Color,Nintendo,19981021format=dmy,Game Boy line,$69.99[2],48600000date=July 2011
+Game Boy Light,Nintendo,1997 (Japan only),Game Boy line,,
+Game Boy Micro,Nintendo,20050913format=dmy,Game Boy line,$99,2500000[1]
+Game Boy Pocket,Nintendo,1996,Game Boy line,$59[2]date=April 2008,
+Game.com,Tiger Electronics,199709[1],Game.com,$59–69[4],300000[1]
+GCW Zero,Game Consoles Worldwide,201303,GCW,$150,
+Gizmondo,Tiger Telematics,2005[1],Gizmondo,$229–400 (depending on advertising subsidies)[1],25000[1]
+GP2X,GamePark Holdings,20051109format=dmy,GP2X,$185,60000[5] (inc. GP2X F200 sales)
+GP2X F200,GamePark Holdings,20071030format=dmy[6],GP2X,$169[5],60000[5] (inc. original GP2X sales)
+GP2X Wiz,GamePark Holdings,20090513format=dmy,GP2X,$179,
+GP2X Caanoo,GamePark Holdings,20100816format=dmy[7],GP2X,$150,
+GP32,Game Park,20011123format=dmy,GP32,$239,30000[8]
+GPD Win,GamePad Digital,October 2016,GPD Win,$350–400[9],
+GPD Win 2,GamePad Digital,May 2018,GPD Win,"$649-899 (pre-order, and tentative release prices)",
+GPD XD,Gamepad Digital,2015,GPD XD,$194,
+GPD XD Plus,Gamepad Digital,2018,GPD XD,$207,
+Mega Duck/Cougar Boy,"Creatonic, Videojet, and Timlex",1993,Mega Duck/Cougar Boy,$50,
+Microvision,Milton Bradley Company,197910,Microvision,$49.99,
+Mi2,Planet interactive,200910,Pocket Dream Console,€70,
+Neo Geo Pocket,SNK Playmore,1998[1],Neo Geo,$69[1][10],
+Neo Geo Pocket Color,SNK Playmore,19990316format=dmy[1],Neo Geo,$69[10],
+Neo Geo X,SNK Playmore,20121218format=dmy[1],Neo Geo,$199,
+Nintendo DS,Nintendo,20041121format=dmy,Nintendo DS,$149.99,18820000[3]
+Nintendo DS Lite,Nintendo,20060302format=dmy,Nintendo DS,$129.99,"84,490,000[3]"
+Nintendo DSi,Nintendo,20081101format=dmy[11],Nintendo DS,$169[12],"16,430,000[13]"
+Nintendo 3DS,Nintendo,20110226format=dmy[14],Nintendo DS,$249.99[15],72890000 (as of June 2018)[16]
+Nintendo Switch,Nintendo,20170303format=dmy,Nintendo Switch,$299.99,"49570000 (as of March 31, 2020)[17]"
+Nintendo Switch Lite,Nintendo,20190920format=dmy,Nintendo Switch,$199.99,"6190000 (as of March 31, 2020)[17]"
+Nintendo 2DS,Nintendo,20131012format=dmy,Nintendo DS,$79.99,
+Nintendo 2DS XL,Nintendo,2017615,Nintendo DS,$149.99,
+N-Gage,Nokia,20031007format=dmy,N-Gage,$299[1],3000000[1]
+N-Gage QD,Nokia,20040727format=dmy,N-Gage,$0–245 (depending on cell provider subsidies),
+Pandora,OpenPandora,20100522format=dmy,Pandora,$349[18] (1st and 2nd batch) Rebirth edition: €370 (€440 incl. VAT),7500[19]
+PlayStation Portable,Sony Computer Entertainment,20041212format=dmy,PlayStation,$249.99,"51,260,000[1]"
+PlayStation Portable Slim and Lite,Sony Computer Entertainment,20070905format=dmy,PlayStation,$199.99,
+PlayStation Vita,Sony Computer Entertainment,20111217format=dmy,PlayStation,$299.99 Wi-Fi+3G $249.99 Wi-Fi Only,4000000 (as of 2015)
+PocketFami,GameTech,2004,PocketFami,$80,
+Sega Game Gear,Sega,19901006format=dmy,Sega Game Gear,$150[1],11000000[1]
+Sega Nomad,Sega,1995[1],Sega Nomad,$180[1],1000000[1]
+SwanCrystal,Bandai,20021116format=dmy,WonderSwan,$65,
+Tapwave Zodiac,Tapwave,20031101format=dmy,Tapwave Zodiac,$300–400 (depending on configuration),200000[1]
+TurboExpress,NEC,1990[1],TurboExpress,$349[1],1500000[1]
+VG Pocket,Pelican Accessories,200608,VG Pocket,$39.99,
+Watara Supervision,Watara,1992,Supervision,$50[20],
+WonderSwan,Bandai,19990304format=dmy[21],WonderSwan,,
+WonderSwan Color,Bandai,20001230format=dmy,WonderSwan,$65,
+Xperia PLAY,Sony Ericsson,201141,Xperia,,

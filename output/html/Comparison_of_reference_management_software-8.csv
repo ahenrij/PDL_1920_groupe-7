@@ -1,63 +1,30 @@
-<<<<<<< HEAD
-Software,BibTeX,Endnote/Refer/BibIX,Medline,MODS XML,RIS,Other
-Bebop,Yes,No,No,No,No,unAPI
-BibBase,Yes,No,No,No,No,none
-BibDesk,Yes,No,Yes,Yes,Yes,"Endnote XML, user customizable"
-Biblioscape,?,?,?,?,?,?
-BibSonomy,Yes,Yes,No,No,Yes,various [2]
-Bibus,Yes,Yes,Yes,No,Yes,SQLite
-Bookends,Yes,Yes,Yes,No,Yes,various user-customizable
-Citavi,Yes,Yes,Yes,Yes,Yes,various
-CiteULike,Yes,No,No,No,Yes,"COinS, Delicious"
-colwiz,Yes,Yes,No,Yes,Yes,"EndNote XML, CSL formatted HTML"
-EndNote,Yes,Yes,Yes,No,Yes,various[16]
-JabRef,Yes,Yes,No,Yes,Yes,"BibTeXML, DocBook, HTML, OpenDocument for OO.o, RTF, SQL database, user-customizable"
-KBibTeX,Yes,Yes,No,Depends[17],Yes,"PDF, PostScript, HTML, XML, RTF"
-Mendeley,Yes,Yes,No,No,Yes,Endnote XML
-Paperpile,Yes,No,No,No,Yes,none
-Pybliographer,Yes,Yes,Yes,No,No,Ovid
-Qiqqa,Yes,No,No,No,No,none
-ReadCube (now Papers),Yes,Yes,No,No,Yes,none
-refbase,Yes,Yes,No,Yes,Yes,"COinS, OpenDocument for OO.o, SRW XML via SRU, unAPI, Word XML"
-RefDB,Yes,Yes,No,Yes,Yes,"SRW XML via SRU web service, DocBook, TEI"
-Reference Manager,No,No,No,No,Yes,"MEDLARS, TSV, CSV, Reference Manager XML, user-customizable"
-Referencer,Yes,No,No,No,No,none
+Software,ArXiv,CiteSeer,IEEE Xplore,PubMed,Unpaywall[41],Other
+Bebop,No,No,No,No,No,No
+BibBase,No,No,No,No,No,"DBLP, Zotero, BibSonomy, Mendeley"
+BibDesk,Yes,Yes,No,Yes,No,"ACM portal, Jstor, DBLP, Google Scholar, Web of Science, any Z39.50 or Entrez, and others"
+Biblioscape,No,No,No,Yes,No,Import from integrated web browser
+BibSonomy,Yes,Yes,Yes,Yes,No,various[42]
+Bibus,No,No,No,Yes,No,none
+Bookends,Yes,No,No,Yes,No,"Web of Science, Amazon, Google Scholar, Z39.50"
+Citavi,Yes,Yes,Yes,Yes,No,"WorldCat/OCLC, Ovid, EBSCO, ProQuest, Web of Science, Z39.50 (4500+ online resources), SRU. Further catalogs are added upon request. Browser plugins (Firefox, Chrome, Internet Explorer) support DOI lookup, ISBN lookup, PubMed ID lookup, PMCID lookup, arXiv ID lookup, COinS and import from Wikipedia."
+CiteULike,Yes,Yes,Yes,Yes,No,various [4]
+colwiz,Yes,Yes,Yes,Yes,No,"Over 30 repositories, Import from integrated web browser"
+EndNote,Yes,No,Yes,Yes,No,various[43] any Z39.50
+JabRef,Yes,Yes,Yes,Yes,Yes[44],"ACM Portal, CrossRef, DBLP, DOAJ, DOI, GVK, Google Scholar, INSPIRE-HEP, Medline, MathSciNet, SAO/NASA Astrophysics Data System, Springer, and zbMATH"
+KBibTeX,Yes,Yes,Yes,Yes,No,"BibSonomy, CiteBase, CSB, DBLP, Google Scholar, ScienceDirect, INSPIRE-HEP, Z MATH, Z39.50"
+Mendeley,Yes,Yes,Yes,Yes,No,various [5]
+Paperpile,Yes,No,No,Yes,No,Google Scholar
+Pybliographer,No,No,No,Yes,No,none
+Qiqqa,Yes,No,Yes,Yes,No,"GoogleScholar, JSTOR"
+ReadCube (now Papers),Yes,No,Yes,Yes,No,"Microsoft Academic, Google Scholar"
+refbase,Yes,No,No,Yes,No,DOI lookup
+RefDB,Yes,No,No,Yes,No,any Z39.50
+Reference Manager,No,No,No,Yes,No,various[45]
+Referencer,?,?,?,?,No,?
 RefME,?,?,?,?,?,?
-RefWorks,Yes,Yes,No,Yes,Yes,"RIS, BibTeX, Tab delimited or XML metadata"
-SciRef,No,No,No,No,Yes,"Plain text, RTF"
-Sente,Yes,Yes,No,No,Yes,user-customizable
-Wikindx,Yes,Yes,No,Yes,Yes,"COinS, RTF, HTML, ADS, Word BIB"
-WizFolio,No,No,No,No,Yes,No
-Zotero,Yes,Yes,as of version 4.0[18],Yes,Yes,"COinS, CSV, Several RDF format standards, TEI, Wikipedia citation templates, Endnote XML, CSL JSON, Refer/BiblX, RefWorks tagged"
-=======
-Software,Developer,First public release,Latest stable release date,Latest stable version,Cost (USD),Free software,License,Notes
-Bebop,ALaRI Institute,2007-11-08,2009-11-10,1.1,Free,Yes,BSD,"web-based BibTeX front-end (Apache, PHP, MySQL)"
-BibBase,Christian Fritz,2005,2013-07,v3,Free,No,Proprietary,"centrally hosted website, intended for publication pages"
-BibDesk,BibDesk developers,2002-04,2019-06-03,1.7.1,Free,Yes,BSD,BibTeX front-end + repository; Cocoa-based; integration with Spotlight
-Biblioscape,CG Information,1997,2015-06-22,10.0.3.6,US$79-299[1],No,Proprietary,ODBC; web access in Pro ed; optional client/server; discontinued?
-BibSonomy,University of Kassel,2006-01,2018-07-30,3.8.13,Free,Yes,"AGPL, GPL, LGPL[2]",centrally hosted website
-Bibus,Bibus developers,2004-06-03,2013-05-23,1.5.1,Free,Yes,GNU GPL,discontinued?
-Bookends,Sonny Software,1988 (Mac) / 1983 (Apple II+),2020-07-04,13.4.3 [3],US$59.99[1],No,Proprietary,"Desktop & iOS synced via iCloud, integrated web search, PDF download, auto-completion, Word plugin, BibTex support, PDF annotations stored as notes"
-Citavi,Swiss Academic Software,2006-02-13,2020-07-28,6.5.0.0,US$70-949 / Free for projects up to 100 references[4],No,Proprietary,"data can be saved locally on the computer, or, for team access, in the Citavi Cloud or an intranet Microsoft SQL Server;[5] search databases from interface[6]"
-CiteULike,Oversity Limited,2004-11,Shut down in 2019-03-30[7],,Free,No,proprietary[8],centrally hosted website
-colwiz,colwiz Ltd,2011,2016-05-09,,Free / Online storage free up to 3 GB / Additional storage space available,No,Proprietary,"Desktop (Win, Mac, Linux) & Web components, iOS and Android"
-EndNote,Clarivate Analytics,1988,2019-06-11,X9.2,US$299.95[1],No,Proprietary,"The web version EndNote basic (formerly, EndNote Web) is free of charge"
-JabRef,JabRef developers,2003-11-29,2020-03-10,5.0,Free,Yes,MIT license,Java BibTeX and BibLaTeX manager
-KBibTeX,KBibTeX developers,2005-08,2018-06-21,0.8.1,Free,Yes,GNU GPL,"BibTeX front-end, using the KDE Software Compilation"
-Mendeley,Elsevier,2008-08,2018,1.19,Free / Online storage free up to 2 GB / Additional storage space available,No,proprietary (OS API clients exist),"Account required, Desktop & Web components, Windows, Linux, macOS, iPhone & iPad, Android"
-Paperpile,"Stefan Washietl, Gregorgy Jordan, Andreas Gruber",2013,Continually updated online,,"US$2.99/month for academics, 9.99/month otherwise",No,Proprietary,"web-application, integrates with Google Docs, collaboration & sharing features, currently only on Google Chrome"
-Pybliographer,pybliographer developers,1998-10-30 (0.2),2018-04-03,1.4.0,Free,Yes,GNU GPL,Python/GTK2
-Qiqqa,Qiqqa,2010-04,2016-09,v79,"Free, Freemium and Premium versions",No,Proprietary,Desktop; Tablet; Web; Intranet
-ReadCube Papers (now Papers),ReadCube,2011-10,2020-07-14,v.4.4.2,"US$ 3/month for students, 5/month academics",No,Proprietary,"Web-based, MacOS, Windows, iOS and Android apps. Microsoft Word and Google Docs add-in. Browser extension (Chrome, Firefox, Edge)"
-refbase,refbase developers,2003-06-03,2014-02-28,0.9.6,Free,Yes,GNU GPL,web-based for institutional repositories/self-archiving[9]
-RefDB,refdb developers,2001-04-25,2007-11-05,0.9.9,Free,Yes,GNU GPL,network-transparent; XML/SGML bibliographies
-Reference Manager,Thomson Reuters,1984,2010,12.0.3,"Not for sale anymore, sales ceased December 31, 2015",No,Proprietary,network version; built-in web publishing tool; discontinued
-Referencer,Referencer developers,2008-03-15,2014-02-27,1.2.2,Free,Yes,GNU GPL,BibTeX front-end
-RefME,RefME,2014,Shut down in 2017,,Free,No,Proprietary,"Web, iOS and Android; Chrome and Safari Extensions available; discontinued"
-RefWorks,Ex Libris / ProQuest,2001,2018,3,Institutional subscription,No,Proprietary,"web-based, browser-accessed, Word & Google Docs"
-SciRef,Scientific Programs,2012,2015-07-26,1.5,US$38.90 / Free trial version,No,Proprietary,
-Sente,"Third Street Software, Inc.",2004,Shut down in 2017,6.7.9,US$60–80[1] / Free for libraries up to 100 refs,No,Proprietary,"Desktop and iPad, centralized backup/synching; discontinued"
-Wikindx,Mark Grimshaw,2004-02,2020-07-21,6.3.7,Free,Yes,CC-BY-NC-SA,web-based
-WizFolio,WizPatent,2008-06,Shut down in 2017,Avatara,US$25 / Free Basic version,No,Proprietary,centrally hosted website; discontinued
-Zotero,Roy Rosenzweig Center for History and New Media at GMU,2006,2020-07-22,5.0.89 [10],Free / Online storage free up to 300 MB / Additional storage space available,Yes,AGPL,"Multi-platform desktop version with connectors for Firefox, Chrome and Safari. Web-based access to reference library also available through Zotero.org or through a personal cloud-based database folder on a user's computer (Google Drive, Dropbox, etc.)."
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+RefWorks,No,No,No,Yes,No,various
+SciRef,No,No,No,No,No,No
+Sente,Yes,Yes,Yes,Yes,No,"Z39.50, SRU, Web of Knowledge"
+Wikindx,No,No,No,Yes,No,via plug-ins
+WizFolio,Yes,No,Yes,Yes,No,various[46]
+Zotero,Yes,Yes,Yes,Yes,Yes[47],various[48]

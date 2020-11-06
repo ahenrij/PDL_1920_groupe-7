@@ -1,31 +1,15 @@
-<<<<<<< HEAD
-OLAP server,Real Time,Write-back,Partitioning,Usage Based Optimizations,Load Balancing and Clustering
-Apache Kylin,,,,,
-ClickHouse,,,,,
-Druid,,,,,
-Essbase,,,,,
-IBM Cognos BI,,,,,
-IBM Cognos TM1,,,,,
-icCube,,,,,
-Jedox OLAP Server,,,,,
-Kyvos,,,,,
-Microsoft Analysis Services,,,,,
-MicroStrategy Intelligence Server,,,,,
-Mondrian OLAP server,, Planned,,,
-Oracle Database OLAP Option,,,,,
-SAP NetWeaver BW,,,,,
-SAS OLAP Server,,,,,
-=======
-OLAP server,cubes,measures,dimensions,dimensions in cube,hierarchies in dimension,levels in hierarchy,dimension members
-Apache Kylin,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
-ClickHouse,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
-Druid,Unrestrictedname=fn0,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
-Essbase[35],Unrestricted,Unrestricted,Unrestricted,255,255,?,"20,000,000 (ASO), 1,000,000 (BSO)"
-IBM Cognos TM1,Unrestrictedname=fn0,Unrestricted,Unrestrictedname=fn0,256,Unrestrictedname=fn0,Unrestricted,Unrestricted
-icCube,"2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647"
-Jedox OLAP Server,2^{32} (32 bits),2^{32},2^{32} (32 bits),250,2^{32},2^{32},2^{32}
-Kyvos,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted,Unrestricted
-Microsoft Analysis Services[36],"2,147,483,647","2,147,483,647","2,147,483,647","2,147,483,647 (max. number of dimensions in a database)","2,147,483,647","2,147,483,647","2,147,483,647 (xOLAP) Unrestricted (In-memory)"
-MicroStrategy Intelligence Server,Unrestrictedname=fn0,Unrestrictedname=fn0,Unrestrictedname=fn0,?,Unrestrictedname=fn0,Unrestrictedname=fn0,Unrestrictedname=fn0
-SAS OLAP Server[37],Unrestrictedname=fn0,1024,128,?,128,19,"4,294,967,296"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+OLAP server,Issue Tracking System,Roadmap,Source code
+Apache Kylin,Jira,Apache Kylin Roadmap,Open
+ClickHouse,ClickHouse – Github Issues,ClickHouse Roadmap,Open
+Druid,Druid – Github Issues,,Open
+Essbase,myOracle Support,[6],Closed
+IBM Cognos TM1,IBM Service Request,,Closed
+icCube,YouTrack,,Closed
+Jedox OLAP Server,Mantis,Available upon request,Open
+Kyvos,Zendesk,Available upon request,Open
+Microsoft Analysis Services,Connect,-,Closed
+MicroStrategy Intelligence Server,MicroStrategy Resource Center,-,Closed
+Mondrian OLAP server,Jira,[7],Open
+Oracle Database OLAP Option,myOracle Support,,Closed
+SAP NetWeaver BW,OSS,(bD1lbiZjPTAwMSZkPW1pbg==)/render.asp?id=2270EAD629814D05A7ECECECECC8D002&fragID=&packageid=DEE98D07DF9FA9F1B3C7001A64D3F462,Closed
+SAS OLAP Server,Support,,Closed

@@ -1,21 +1,21 @@
-<<<<<<< HEAD
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
-Quadro2 Go[215],NV11GLM?,,AGP 4×,143,,130 360,2:0:4:2,0.286,0.592,32 64,2.9 5.8,SDR DDR,128,,7.0,1.2,,"First mobile Quadro based on the GeForce2 Go, Dynamic core clock 100–143 MHz, dynamic voltage 1.575V, graphics core listed as 64-bit and 128-bit for DDR and SDR SDRAM types respectively according to Nvidia[216][217]"
-Quadro4 500 Go GL[218][219],NV17 GLM,150,"AGP 4×,8×",?,,?,2:0:4:2,0.44,0.88,64,7.0,DDR,,,7.0,1.3,,"Based on the GeForce4 Go, dynamic core clock 66–220 MHz, core voltage 1.35 V, uses DDR SDRAM according to Nvidia brochures[217]"
-Quadro4 700 Go GL[218][220][221],NV28 GLM,150,,176,,200,4:2:4:4,0.704,0.704,,7.4?,,128?,,8.1,,,"Based on GeForce4 Go 4200, uses DDR according to Nvidia brochures"
-Quadro FX Go 700[222],NV31 GLM,130,AGP 8×,295?,,590?,4:3:4:4,1.18,1.18,128,9.44?,,128,,9.0,2.1?,,Based on the Geforce FX Go (FX 56XX)
-Quadro FX Go 1000[223],NV36 GLM,120,,,,570?,,,,,9.12?,,,,,,,Seems to be an overclocked Quadro FX 700 Go.
-Quadro FX Go 1400[223],NV41 GLM,130,PCIe,275,,590,12:5:12:12?,2.20,2.2,256,18.9?,,256,,,,,"Last chip designated as a Quadro FX Go, uses PCIe instead of AGP 8×. Core config has been mentioned as either 8:5:8:8 or 12:5:12:12 - the latter is likely since chip is derived from GeForce Go 6800."
-=======
 Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS),TBP (Watts),Notes
 ,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
-GeForce G 102M,"January 8, 2009",MCP79XT,65,Integrated (PCIe 1.0 ×16),16:8:4,450?,1000,800 (system memory),1.8,3.6,Up to 512 from system memory,6.4,DDR2,64,10.0,3.3,48,14,"PureVideo HD, CUDA, Hybrid SLI, based on GeForce 9400M G"
-GeForce G 103M,"January 1, 2009",N10M-GE2(G98),,PCIe 2.0 ×16,8:8:4,640,1600,1000,2.56,5.12,512,8,,,,,38,,"PureVideo HD, CUDA, Hybrid SLI, comparable to the GeForce 9300M GS"
-GeForce G 105M,"January 8, 2009",N10M-GE1(G98),,,,,,1000 1400,,,,8 11,GDDR2 GDDR3,,,,38,,
-GeForce G 110M,,N10M-GE1(G96b),55,,16:8:4,400,1000,1000 1400,1.6,3.2,1024,8 11,DDR2 GDDR3,,,,48,,"PureVideo HD, CUDA, Hybrid SLI"
-GeForce GT 120M,"February 11, 2009",N10P-GV1(G96b),,,32:16:8,500,1250,1000,4,8,,16,DDR2,128,,,110,23,"PureVideo HD, CUDA, Hybrid SLI, Comparable to the 9500M GT and 9600M GT DDR2 (500/1250/400)"
-GeForce GT 130M,"January 8, 2009",N10P-GE1(G96b),,,,600,1500,1000 1600,4.8,9.6,,16 25.6,DDR2 GDDR3,,,,144,,"PureVideo HD, CUDA, Hybrid SLI, comparable to the 9650M GT"
-GeForce GTS 150M,"March 3, 2009",N10E-GE1(G94b),,,64:32:16,400,1000,1600,6.4,12.8,,51.2,GDDR3,256,,,192,,"PureVideo HD, CUDA, Hybrid SLI"
-GeForce GTS 160M,,N10E-GS1(G94b),,,,600,1500,,9.6,19.2,,,,,,,288,60,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+GeForce 9100M G mGPU,2008,"MCP77MH, MCP79MH",65,Integrated (PCIe 2.0 ×16),8:8:4,450,1100,1066 (system memory),1.8,3.6,Up to 256 from system memory,17.056,DDR3,128,10.0,3.3,26.4,12,Similar to 8400M G
+GeForce 9200M GS,,NB9M-GE(G98),,PCIe 2.0 ×16,,550,1300,1400,2.2,4.4,256,11.2,DDR2/GDDR3,64,,,31.2,13,
+GeForce 9300M G,,NB9M-GE(G86),80,,16:8:4,400,800,1200,1.6,3.2,256/512,9.6,,,,,38.4,,
+GeForce 9300M GS,,NB9M-GE(G98),65,,8:8:4,550,1400,1400,2.2,4.4,,11.2,,,,,33.6,,
+GeForce 9400M G,"October 15, 2008",MCP79MX,,Integrated(PCIe 2.0 ×16),16:8:4,450,1100,800 1066 (system memory),1.8,3.6,Up to 256 from system memory,12.8 17.056,DDR2 DDR3,128,,,54,12,PureVideo HD with VP3. Known as the GeForce 9400M in Apple systems[126] and Nvidia ION based systems
+GeForce 9500M G,2008,NB9P(G96),,PCIe 2.0 ×16,16:8:8,500,1250,1600,4,4,512,25.6,DDR2 / GDDR3,,,,60,20,
+GeForce 9500M GS,,NB9P-GV(G96),80,PCIe ×16,32:16:8,475,950,1400,3.8,7.6,,22.4,,,,,91.2,,Rebranded 8600M GT
+GeForce 9600M GS,,NB9P-GE2(G96),65,PCIe 2.0 ×16,,430,1075,800 1600,3.44,6.88,1024,12.8 25.6,,,,,103.2,,
+GeForce 9600M GT,,NB9P-GS(G96),,,,500,1250,1600,4,8,512/1024,25.6,,,,,120,23,
+GeForce 9650M GS,,NB9P-GS1(G84),80,,,625,,,5,10,512,,GDDR3,,,,,29,Rebranded 8700M GT
+GeForce 9650M GT,,NB9P-GT(G96),65/55,,,550,1325,,4.4,8.8,1024,,,,,,127.2,23,
+GeForce 9700M GT,"July 29, 2008",NB9E-GE(G96),65,PCIe ×16,,625,1550,,5,10,512,,,,,,148.8,45,
+GeForce 9700M GTS,,NB9E-GS(G94),,PCIe 2.0 ×16,48:24:16,530,1325,,8.48,12.7,,51.2,,256,,,190.8,60,
+GeForce 9800M GS,2008,NB9E-GT(G94),,,64:32:16,,,,8.48,16.96,,,,,,,254,,Down Clocked 9800M GTS Via Firmware
+GeForce 9800M GTS,"July 29, 2008",,65/55,,64:32:16,600,1500,,9.6,19.2,512 / 1024,,,,,,288,75,
+GeForce 9800M GT,,NB9E-GT2(G92),,,96:48:16,500,1250,,8,24,512,,,,,,360,65,Rebranded 8800M GTX
+GeForce 9800M GTX,,NB9E-GTX(G92),65,,112:56:16,,,,,28,1024,,,,,,420,75,
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS),TBP (Watts),Notes
+,,,,,,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,,

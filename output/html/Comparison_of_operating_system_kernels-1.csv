@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-Kernel Name,NFS,AFS,CIFS,Coda,9P,Ceph
-DragonFly BSD kernel,Yes,No,Yes,No,No,No
-FreeBSD kernel,Yes,Yes,Yes,Yes,No,Yes
-Linux kernel,Yes,Yes,Yes,Yes,Yes,Yes
-Solaris kernel,Yes,Yes,Yes,No,No,No
-Windows NT kernel,Yes,Yes,Yes,No,No,No
-XNU,Yes,Yes,Yes,No,No,No
-=======
-Kernel name,ACL,SCO,LMP,HCI,L2CAP,BNEP,RFComm.,SDP,TCP,AVTCP,AVDTP,OBEX,CMTP,HIDP,HCRP,CAPI,PPP
-FreeBSD kernel,?,?,?,Yes,Yes,?,Yes,Yes,?,?,?,No,?,?,?,?,?
-Linux,?,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,Yes,Yes,?,?,?
-macOS XNU Kernel,?,?,?,?,Yes,?,Yes,Yes,?,?,?,No,?,?,?,?,?
-Kernel name,ACL,SCO,LMP,HCI,L2CAP,BNEP,RFComm.,SDP,TCP,AVTCP,AVDTP,OBEX,CMTP,HIDP,HCRP,CAPI,PPP
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Kernel name,Deflate,zlib,LZO,LZJB,gzip
+Linux,Yes,Yes,Yes,No,Yes
+Solaris kernel,?,?,?,Yes,Yes

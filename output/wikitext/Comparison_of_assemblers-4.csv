@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-Assembler,Developer,FOSS,License,Instruction set,Host platform,Development active
-ASM-One Macro Assembler,Rune Gram-Madsen,,,Motorola 680x0,Commodore Amiga,
-vasm,"Volker Barthelmann, Frank Wille",,,Motorola 680x0,various,
-rmac,"James Hammons, George Nakos, Landon Dyer",,,MOS Technology 6502,"Linux, Windows, macOS",
-=======
-Assembler,Developer,Operating system,FOSS,License,Development active
-Microsoft MACRO-80,Microsoft,"CP/M, ISIS-II, TRSDOS, TEKDOS, MSX-DOS",,Commercial,
-Zeus Assembler,Crystal Computing,,,Commercial,
-z80asm,,"Unix-like, Windows",,GNU GPLv3,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Assembler,Developer,FOSS,License,Instruction set,Host platform
+GNU Assembler,GNU Project,,,ARM,various
+vasm,,,,ARM,various

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 File manager,SMB/CIFS,WebDAV,NFS,AFP,FTP,FISH/SSH
 Altap Salamander,,,,,,
 Commander One,,,,,,
@@ -37,34 +36,3 @@ xplorer²,,,,,,
 XYplorer,,,,,,
 ZTreeWin,,,,,,
 File manager,SMB/CIFS,WebDAV,NFS,AFP,FTP,FISH/SSH
-=======
-File manager,DOS,OS/2 & eCS,Windows,Mac OS X,Linux,BSD,Unix,AmigaOS,OpenVMS
-Directory Opus,,,,,,,,,
-Dired,,,,,,,,,
-Dolphin,,,Needs KDE[25],,,,,,
-Double Commander,,,,,,,,,
-DOS Navigator,,,,,,,,,
-emelFM2,,,,,,,,,
-File Commander,,,,,,,,,
-fman,,,,,,,,,
-GNOME Commander,,,,,,,,,
-Konqueror,,,Needs KDE[25],,,,,,
-Krusader,,,,Needs X,,,,,
-Midnight Commander,,,,,,,,,
-muCommander,,,,,,,,,
-nnn,,,,,,,,,
-GNOME Files (Nautilus),,,,,,,,,
-Nemo,,,,,,,,,
-PathMinder,,,,,,,,,
-PCManFM,,Needs POSIX-compliant platform,Needs POSIX-compliant platform,Needs POSIX-compliant platform,,,,,
-Ranger,,,,,,,,,
-ROX-Filer,,,,,,,,,
-Thunar,,,,,,,,,
-Total Commander,,,,,,,,,
-Volkov Commander,,,,,,,,,
-Xandros File Manager,,,,,,,,,
-Xfe,,Needs X,Needs X,Needs X,,,,Needs X[29],
-Xfm,,Needs X,Needs X,Needs X,,,,,
-ZTreeWin,,,,,,,,,
-File manager,DOS,OS/2 & eCS,Windows,Mac OS X,Linux,BSD,Unix,AmigaOS,OpenVMS
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

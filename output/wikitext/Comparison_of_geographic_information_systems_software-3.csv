@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-Name,Language,WMS,WFS,GeoRSS,Other
-OpenLayers,JavaScript,,,,"support for navigation, icons, markers, and layer selection."
-Leaflet,JavaScript,,,,"support for navigation, icons, markers, layers, GeoJSON"
-MapDotNet,JavaScript/HTML5,,,,"digitizing, wkt rendering, draggable icons and content, geospatial queries (intersection, overlapping)"
-=======
 Name,Language,WMS,WFS,WFS-T,WCS,WMC,SLD,FES,Other
 ArcGIS Server,.NET/Java,,,,,,,,"SOAP, REST, KML"
 MapServer,C,,,,,,,,
@@ -12,4 +6,3 @@ GeoServer,Java,,,,,,,,
 MapDotNet,C#/.NET,,,,,,,,SOAP and REST feature and map services
 Manifold System,ASP C#,,,,,,,,client and server
 GeoMedia WebMap,ASP C#,,,,,,?,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

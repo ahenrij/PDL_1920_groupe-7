@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ,Creator,Language,First public release,Latest stable version,Source code availability,License,Notes
 ALGLIB[1],ALGLIB Project,"C++, C#, FreePascal, VBA",2006,3.12.0 / 08.2017,,GPL/commercial,General purpose numerical analysis library with C++ and C# interfaces.
 ATLAS,R. Clint Whaley et al.,C,2001,3.10.3 / 07.2016,,BSD,Automatically tuned implementation of BLAS. Also includes LU and Cholesky decompositions.
@@ -14,19 +13,3 @@ SciPy[5][6][7],Enthought,Python,2001,1.0.0 / 10.2017,,BSD,Based on Python
 Eigen,Benoît Jacob,C++,2008,3.3.7 / 12.2018,,MPL2,"Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms."
 Armadillo[8][9],NICTA,C++,2009,9.200 / 10.2018,,Apache License 2.0,C++ template library for linear algebra; includes various decompositions and factorisations; syntax (API) is similar to MATLAB.
 librsb,Michele Martone,"C, Fortran, M4",2011,1.2 / September 2016,,GPL,"High-performance multi-threaded primitives for large sparse matrices. Support operations for iterative solvers: multiplication, triangular solve, scaling, matrix I/O, matrix rendering. Many variants: e.g.: symmetric, hermitian, complex, quadruple precision."
-=======
-,Real,Complex,SPD,HPD,SY,HE,BND,TF,OF,EVP,SVD,GEVP,GSVD
-ALGLIB,,,,,,,,,,,,,
-ATLAS,,,,,,,,,,,,,
-Dlib,,,,,,,,,,,,,
-GNU Scientific Library,,,,,,,,,,,,,
-ILNumerics.Net,,,,,,,,,,,,,
-IMSL Numerical Libraries,,,,,,,,,,,,,
-LAPACK,,,,,,,,,,,,,
-MKL,,,,,,,,,,,,,
-NAG Numerical Library,,,,,,,,,,,,,
-NMath,,,,,,,,,,,,,
-SciPy (Python packages),,,,,,,,,,,,,
-Eigen,,,,,,,,,,,,,
-Armadillo,,,,,,,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

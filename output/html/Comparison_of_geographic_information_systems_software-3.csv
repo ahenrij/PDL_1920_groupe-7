@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-Name,Language,WMS-C,Other
-ArcGIS Server,.NET/Java,No,
-MapDotNet,C#/.NET,No,File-based and SQL Server
-=======
 GIS software,Free software,Open source,Windows,Mac OS X,Linux,BSD,Unix,Web,Other
 ArcGIS,Viewer(s),No,Yes,Yes,No,No,Yes,Yes,"Google Earth Plugin, KML, WMS"
 Autodesk,Viewer(s),No,Yes,No,Yes,No,No,Yes,No
@@ -44,4 +39,3 @@ TNTmips,Viewer(s),No,Yes,Yes,Yes,No,Yes,No,No
 TransModeler Caliper Software,No,No,Yes,No,No,No,No,No,No
 uDIG,Yes,Yes,Java,Java,Java,Java,Java,No,No
 GIS software,Free software,Open source,Windows,Mac OS X,Linux,BSD,Unix,Web,Other
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

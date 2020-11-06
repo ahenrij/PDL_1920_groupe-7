@@ -1,22 +1,9 @@
-<<<<<<< HEAD
-Spanish,Portuguese,Meaning
-Ella le dio un libro.,Ela deu-lhe um livro. Ela lhe deu um livro.,'She gave him/her a book.'
-Dígame dónde ha estado. Dime dónde has estado.,Diga-me por onde esteve. Diz-me onde estiveste.[126] Me diga por onde esteve. Me diz onde estiveste.,'Tell me where you've been.'
-Tómame una foto.,Tira-me uma foto. Me tira uma foto.,'Take a picture for me.'
-Quería verte. Te quería ver.,Queria ver-te. Queria te ver. Te queria ver.,'I wanted to see you.'
-No te he conseguido ver. No he conseguido verte. No conseguí verte.,Não consegui ver-te. Não consegui te ver. Não te consegui ver.,'I didn't manage to see you.'
-=======
-Classical Latin (spelling),Vulgar Latin (pronunciation),Spanish,,Portuguese,
-,,Spelling,Pronunciation,Spelling,Pronunciation
-a,/a/,a ~ á,/a/,a ~ á ~ â,/a/ ~ /?/1
-?,,,,,
-"e, ae",/?/,ie ~ ié,/je?/,e ~ é,/?/
-"?, oe",/e/,e ~ é,/e?/,e ~ ê,/e/
-i,,,,,
-?,/i/,i ~ í,/i/,i ~ í,/i/
-o,/?/,ue ~ ué,/we?/,o ~ ó,/?/
-?,/o/,o ~ ó,/o?/,o ~ ô,/o/
-u,,,,,
-?,/u/,u ~ ú,/u/,u ~ ú,/u/
-au,/aw/,o ~ ó,/o?/,ou,/ow/²
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Spelling,Pronunciation,,Notes
+,Spanish,Portuguese,
+b,[b ~ ?],[b ~ ?] (EP) [b] (BP),In Spanish and European Portuguese /b/ is lenited after a continuant.
+d,[d ~ ð],[d ~ ð] (EP) [d ~ d?] (BP),"In Spanish and European Portuguese /d/ is lenited after a continuant. In all Portuguese dialects, the consonants /t/ and /d/ have affricate allophones, happening when before a palatalizing /i/ ([d?i ~ d?i], [t?i ~ t?i], mainly in Brazil), or an elided /?/ ~ /e?/ ~ /?/ or unstressed /i/ before another (that actually becomes /?/ in Portugal), stressed one, leading to sandhi ([dVz] ? [dz], [dVs] ? [ts], [tVs] ? [ts], both in Brazil and Portugal)."
+t,[t],[t] (EP) [t ~ t?] (BP),
+g,[? ~ ?],[? ~ ?] (EP) [?] (BP),In Spanish and European Portuguese /?/ is lenited after a continuant.
+-l,[l],[?] (EP) [w] (BP),"In European Portuguese syllable-final /l/ is velarized [?] as in Catalan (see dark l), while in most Brazilian dialects and some rural European ones it is vocalized to [w]. Caipira rhoticizes to English-like ar, while portunhol da pampa velarizes it."
+"r-, -rr-",[r],[?],"In Portuguese, r- and -rr- have several possible pronunciations. In most dialects, it is a guttural r as in French ([?], [?] and [?] in Portugal and Brazil, [x], [?], [?], [h] and [?] in Brazil), while in rural northern Portugal and southern Brazil it is a trilled r [r] (like in Galician). In some southern and western Brazilian dialects word final -r may be a tap (as in Portugal and Galicia), though English-like [?], [?] or [?] is more common, while in northern and eastern dialects it is guttural. In Spanish, r- and -rr- have kept their original pronunciation as an alveolar trill [r]. Intervocalic -r- is an alveolar tap in both languages [?]."
+v,[b ~ ?],[v],"Originally, the letters ?b? and ?v? stood for distinct sounds pronounced [b] and [?], respectively, but the two eventually merged into a single phoneme in Spanish. In most varieties of Portuguese they remained separate phonemes, and the bilabial fricative [?] of Old Portuguese subsequently changed into the labiodental fricative [v], as in French and Italian."

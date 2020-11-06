@@ -1,20 +1,7 @@
-<<<<<<< HEAD
-Generics,Java,C#
-Implementation,Type erasure,Reification
-Runtime realization,No,Yes
-Type variance,Use-site,Declaration-site (only on interfaces)
-Reference type constraint,Yes; implicit,Yes
-Value/primitive type constraint,No,Yes
-Constructor constraint,No,Yes (only for parameterless constructor)
-Subtype constraint,Yes,Yes
-Supertype constraint,Yes,No
-Migration compatibility,Yes,No
-=======
-Reference types,Java,C#
-Garbage collection,Yes,Yes
-Weak references,Yes,Yes
-Reference queue (interaction with garbage collection),Yes,Yes
-Soft references,Yes,Yes[citation needed]
-Phantom references,Yes,No
-Proxy support,Yes; proxy generation,Yes; object contexts
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Functional programming,Java,C#
+Method references,Yes[10],Yes
+Closures,All lambdas do not introduce a new level of scope. All referenced variables must be effectively final,Yes
+Lambda expressions,Yes[76],Yes
+Expression trees,No,Yes
+Generic query language,No; but see 'Java Stream equivalent' (Monad)[77],Yes
+Tail recursion compiler optimizations,No[citation needed],Only on x64[78]

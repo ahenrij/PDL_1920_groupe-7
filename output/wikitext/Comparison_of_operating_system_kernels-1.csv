@@ -1,17 +1,10 @@
-<<<<<<< HEAD
-Kernel name,Intel,NVIDIA,AMD,ARM,Qualcomm,Imagination Technologies,Broadcom,VeriSilicon
-,Intel HD/Iris Graphics,GeForce/Quadro/Tesla,Radeon,Mali,Adreno,PowerVR,VideoCore4,Vivante
-Linux kernel,,,,,,2D only[36][37],,Etnaviv
-Windows NT kernel,,,,,"Windows RT, Windows Phone 8.x, Windows 10 Mobile",,,
-XNU,colspan=3 via I/O Kit (macOS only),,,via I/O Kit (iOS only),,,,
-=======
-Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
-FreeBSD kernel,,,,,,,,,,,,,,,
-Linux kernel,,,(Longene),,,,,,,,,,,,
-NetBSD kernel,,,,,,,,,,,,,,,
-OpenBSD kernel,,,,,,,,,,,,,,,
-Windows NT kernel,,,,,,,,,,,,,,,
-ReactOS kernel,,,,,,,,,,,,,,,
-XNU,,,,,,,,,,,,,,,
-Kernel name,Linux,Darwin,Windows NT,FreeBSD,NetBSD,Solaris,OSF/1,Amiga Unix,SunOS,BSD/OS,IBCS2 systems,IRIX,Ultrix,NDIS,SVR4
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Kernel,Acorn ADFS,Amiga FFS,BeFS,BFS,cramfs,EFS,ext2,ext3,ext4,F2FS,FAT,FreeVxFS,HFS,HFS+,HPFS,ISO 9660,JFFS,JFFS2,JFS,MINIX fs,NSS,NTFS,OCFS,QNX4 FS,System V FS,UDF,UFS,XFS,ZFS,ReiserFS,Reiser4,Btrfs,HAMMER,Tux3,exFAT,ReFS
+DragonFly BSD kernel,,,,,,,,,,,,,,,,,,,,,,limited write,,,,read only,,,,,,,,,,
+FreeBSD kernel,,,,,,,,,,,,,,,,,,,,,,limited write,,,,,,read only,,read only,,,,,,
+Linux kernel,Yes [24],,read only,,,read only,,,,,,read only,,limited write (only with empty journal),,,,,,,,Yes (Full R/W with additional userspace driver)[25],,Yes [24] [26],write support?,,Yes [24],, both FUSE and native,,,,,,,
+MINIX 3 kernel,,,,,,,,,,,"Tools available, cannot mount",,,,,,,,,,,,,,,,,,,,,,,,,
+NetWare kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ReactOS kernel,,,,,,,,,,,,,,,,,,,,,,Read only,,,,,,,,,,Yes [28],,,,
+Solaris kernel,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Windows NT kernel,,,,,,,Yes [29],Yes [30],Yes [30],,,,Yes [31],Yes [31],,,,,,,,,,,,,,,,,,Yes [28],,,,
+XNU,,,,,,,Yes [32],Yes [32],,,,,,,,,,,,,,Read-Only,,,,,,,read only,,,,,,,

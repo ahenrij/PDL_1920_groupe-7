@@ -1,25 +1,21 @@
-<<<<<<< HEAD
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
-Quadro FX 350,G72GL,90,PCIe ×16,550,550,810,3:4:4:2,1.1,1.1,128,6.48,DDR2,64,,,9.0c,2.1,21,
-Quadro FX 550,NV43GL,,,360,360,800,4:8:8:8,2.88,2.88,,12.8,GDDR3,128,,25,,,,
-Quadro FX 1500,G71,,,375,375,,7:20:20:16,6,7.5,256,40.0,,256,,65,,,,
-Quadro FX 3500,G71GL,,,470,470,1320,7:20:20:16,7.52,9.4,,42.2,,,,80,,,"Stereo display, SLI",
-Quadro FX 4500,G70,110,,,,1050,8:24:24:16,,11.28,512,33.6,,,,109,,,,
-Quadro FX 4500X2,,,,,,,2× 8:24:24:16,15.04,22.56,1024,,,,,145,,,"Stereo display, Genlock",
-Quadro FX 4500 SDI,,,,,,,8:24:24:16,7.52,11.28,512,,,,,116,,,,
-Quadro FX 5500,G71,90,,700,700,,,11.2,16.8,1024,,,,,96,,,"Stereo display, SLI, Genlock",
-Quadro FX 5500 SDI,,,,,,,,,,,,,,,104,,,,
-=======
-Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config[a],Bus interface,L2 Cache (MB),Clock Speeds,,,Memory,,,,Fillrate[b],,Processing power (GFLOPS)[b][c],,TDP (Watts),SLI support,Release price (USD)
-,,,,,,,,,Base (MHz),Boost (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)[d],Texture (GT/s)[e],Single precision,Double precision,,,MSRP
-GeForce GT 945A[60][61][62],"February, 2016",GM108,TSMC 28HP,Unknown,Unknown,512:24:8 (4),PCIe 3.0 ×8,?,1072,1176,1800,1 / 2,14.4,DDR3 / GDDR5,64,8.5 9.4,25.7 28.2,1?097.7 1?204.2,34.3 37.6,33,No,OEM
-GeForce GTX 950[63],"August 20, 2015",GM206-250,,2.94,227,768:48:32 (6),PCIe 3.0 ×16,1,1024,1188,6600,2,105.7,GDDR5,128,32.7 38.0,49.1 57.0,1?572.8 1?824.7,49.1 57.0,90 (75[f]),2-way SLI,$159
-GeForce GTX 950 (OEM)[65],Unknown,GM206,,,,1024:64:32 (8),,,935,Unknown,5000,,80.0,,,29.9,59.8,1?914.9 ?,59.8,Unknown,,OEM
-GeForce GTX 960[66],"January 22, 2015",GM206-300,,,,,,,1127,1178,7000,2 4[g],112.1,,,36.0 37.6,72.1 75.3,2?308.0 2?412.5,72.1 75.3,120,,$199
-GeForce GTX 960 (OEM)[68],Unknown,GM204,,5.2,398,1280:80:48 (10),,,924,Unknown,5000,3,120.0,,192,44.3,73.9,2?365.4 ?,73.9,Unknown,,OEM
-GeForce GTX 970[69],"September 18, 2014",GM204-200,,,,1664:104:56 (13),,1.75,1050,1178,7000,3.5 + 0.5[h],196.3 + 28.0[h],,224 + 32[h],58.8 65.9,109.2 122.5,3?494.4 3?920.3,109.2 122.5,145,4-way SLI,$329
-GeForce GTX 980[71],"September 18, 2014",GM204-400,,,,2048:128:64 (16),,2,1126,1216,,4,224.3,,256,72.0 77.8,144.1 155.6,4?612.0 4?980.7,144.1 155.6,165,,$549
-GeForce GTX 980 Ti[72],"June 1, 2015",GM200-310,,8,601,2816:176:96 (22),,3,1000,1075,,6,336.5,,384,96.0 103.2,176.0 189.2,5?632.0 6?054.4,176.0 189.2,250,,$649
-GeForce GTX TITAN X[73],"March 17, 2015",GM200-400,,,,3072:192:96 (24),,,,,,12,,,,,192.0 206.4,6?144.0 6?604.8,192.0 206.4,,,$999
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
+,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
+GeForce 4057,"September 16, 2011",GT216 GT218,40 nm,486 260,100 57,1,48:16:8 16:8:4,475 589,1100 1402,800 790,3.8 2.36,7.6 4.71,512 1024,12.6,DDR3,64,n/a[29],10.1,3.3,1.1,105.6 44.86,Unknown,30.5,OEM
+GeForce GT 420,"September 3, 2010",GF108,TSMC 40 nm,585,116,,48:4:4,700,1400,1800,2.8,2.8,512,28.8,GDDR3,128,,12 FL 11_1,4.6,,134.4,Unknown,50,
+GeForce GT 430,"October 11, 2010",GF108 GF108-300-A1,,,,2,96:16:4,,,1600 1800,,11.2,512,25.6 28.8,,,,,,1.2,268.8,Unknown,60,
+,,,,,,,,,,1800,,,512 1024 2048,28.8,,128,,,,1.1,268.8,Unknown,49,$79
+,,,,,,,,,,1300,,,,10.4,,64,,,,,,,,
+GeForce GT 440,"February 1, 2011",GF108,,,,,,810,1620,1800 3200,3.24,12.96,1024,28.8 51.2,GDDR3 GDDR5,128,,,,,311.04,Unknown,65,$100
+,"October 11, 2010",GF106,,1170,238,3,144:24:24,594,1189,1800,14.26,14.26,1536 3072,43.2,GDDR3,192,,,,,342.43,Unknown,56,OEM
+GeForce GTS 450,,,,,,,,790,1580,4000,18.96,18.96,1536,96,GDDR5,,,,,,455.04,Unknown,106,
+,"September 13, 2010 March 15, 2011",GF106-250 GF116-200,,,,4,192:32:16,783,1566,3608,12.53,25.06,512 1024,57.73,,128,,,,,601.34,Unknown,106,$129
+GeForce GTX 460 SE,"November 15, 2010",GF104-225-A1,,1950,332,6,288:48:32,650,1300,3400,20.8,31.2,1024,108.8,,256,,,,,748.8,Unknown,150,$160
+GeForce GTX 460,"October 11, 2010",GF104,,,,7,336:56:32,,,,,36.4,1024,108.8,,,,,,,873.6,Unknown,,OEM
+,"July 12, 2010",GF104-300-KB-A1,,,,,336:56:24,675,1350,3600,16.2,37.8,768,86.4,,192,,,,,907.2,Unknown,,$199
+,,,,,,,336:56:32,,,,21.6,,1024 2048,115.2,,256,,,,,,,160,$229
+,"September 24, 2011",GF114,,,,,336:56:24,778,1556,4008,18.67,43.57,1024,96.2,,192,,,,,1045.6,Unknown,,$199
+GeForce GTX 465,"May 31, 2010",GF100-030-A3,,3000[30],529,11,352:44:32,607,1215,3206,19.42,26.71,1024,102.6,,256,,,,1.2,855.36,106.92,2004,$279
+GeForce GTX 470,"March 26, 2010",GF100-275-A3,,,,14,448:56:40,,,3348,24.28,34,1280,133.9,,320,,,,,1088.64,136.08,2154,$349
+GeForce GTX 480,"March 26, 2010",GF100-375-A3,,,,15,480:60:48,700,1401,3696,33.60,42,1536,177.4,,384,,,,,1344.96,168.12,2504,$499
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
+,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,

@@ -1,10 +1,9 @@
-Service,Post via,,,,,,Read via,,,,,
-,Web,XMPP,E-Mail,SMS,API,Micropub,Web,XMPP,E-Mail,SMS,API,Feed
-Facebook,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes
-GNU social,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
-Loforo [12],Yes,No,No,Yes,Yes,No,Yes,No,No,No,Yes,Yes
-Twitter,Yes,No,No,Yes,Yes,No,Yes,No,?,Yes,Yes,Yes
-Mastodon,Yes,No,No,No,Yes,No,Yes,No,No,No,Yes,Yes
-Misskey,Yes,No,No,No,Yes,No,Yes,No,No,No,Yes,Yes
-micro.blog,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes
-Pleroma,Yes,No,No,No,Yes,No,Yes,No,No,No,Yes,Yes
+Service,Tagging[Note 1],Groups,Conversation[Note 2],Private[Note 3],Private following list,RSS,Atom,Bookmarklet
+Tumblr,Yes,No,No,Yes,Yes,Yes,No,?
+Facebook,Yes,Yes,Yes,Yes,?,Yes,No,?
+GNU social,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[8]
+Loforo [9],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[10]
+Twitter,Yes,No,Yes,Yes,Yes,No[11],No[11],No
+Mastodon,Yes,No,Yes,Yes,?,No,Yes,No
+Misskey,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+micro.blog,Yes,No,Yes,No,?,Yes,No,No

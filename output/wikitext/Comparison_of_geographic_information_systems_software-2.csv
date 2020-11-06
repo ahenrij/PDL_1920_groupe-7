@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 GIS software,Free software,Open source,Windows,Mac OS X,Linux,BSD,Unix,Web,Other
 ArcGIS,Viewer(s),,,,,,,,"Google Earth Plugin, KML, WMS"
 Autodesk,Viewer(s),,,,,,,,
@@ -40,8 +39,3 @@ TNTmips,Viewer(s),,,,,,,,
 TransModeler Caliper Software,,,,,,,,,
 uDIG,,,Java,Java,Java,Java,Java,,
 GIS software,Free software,Open source,Windows,Mac OS X,Linux,BSD,Unix,Web,Other
-=======
-Name,Language,WMS-C,Other
-ArcGIS Server,.NET/Java,,
-MapDotNet,C#/.NET,,File-based and SQL Server
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

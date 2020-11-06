@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-Project,Data Compression,Image Quality,Color Quality,File Transfer,Clipboard Transfer,Chat,Relay,HTTP Tunnel,Proxy
-2X Software,?,?,?,?,?,X,X,?,?
-=======
 Project,License,Date,Version,Protocol,Technology,Server,Client,Web Client,Multiple Sessions,Encryption,Authentication
 2X Software,Proprietary,"June 24, 2006",?,Proprietary,RDP,?,?,?,?,?,?
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

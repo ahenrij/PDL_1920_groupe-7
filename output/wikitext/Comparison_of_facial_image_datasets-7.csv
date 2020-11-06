@@ -1,19 +1,13 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Amazon reviews,US product reviews from Amazon.com.,None.,~ 82M,Text,"Classification, sentiment analysis",2015,[159],McAuley et al.
-OpinRank Review Dataset,Reviews of cars and hotels from Edmunds.com and TripAdvisor respectively.,None.,"42,230 / ~259,000 respectively",Text,"Sentiment analysis, clustering",2011,[160][161],K. Ganesan et al.
-MovieLens,"22,000,000 ratings and 580,000 tags applied to 33,000 movies by 240,000 users.",None.,~ 22M,Text,"Regression, clustering, classification",2016,[162],GroupLens Research
-Yahoo! Music User Ratings of Musical Artists,Over 10M ratings of artists by Yahoo users.,None described.,~ 10M,Text,"Clustering, regression",2004,[163][164],Yahoo!
-Car Evaluation Data Set,Car properties and their overall acceptability.,Six categorical features given.,1728,Text,Classification,1997,[165][166],M. Bohanec
-YouTube Comedy Slam Preference Dataset,User vote data for pairs of videos shown on YouTube. Users voted on funnier videos.,Video metadata given.,"1,138,562",Text,Classification,2012,[167][168],Google
-Skytrax User Reviews Dataset,"User reviews of airlines, airports, seats, and lounges from Skytrax.",Ratings are fine-grain and include many aspects of airport experience.,41396,Text,"Classification, regression",2015,[169],Q. Nguyen
-Teaching Assistant Evaluation Dataset,Teaching assistant reviews.,"Features of each instance such as class, class size, and instructor are given.",151,Text,Classification,1997,[170][171],W. Loh et al.
-=======
-Dow Jones Index,Weekly data of stocks from the first and second quarters of 2011.,Calculated values included such as percentage change and a lags.,750,Comma separated values,"Classification, regression, Time series",2014,[414][415],M. Brown et al.
-Statlog (Australian Credit Approval),Credit card applications either accepted or rejected and attributes about the application.,Attribute names are removed as well as identifying information. Factors have been relabeled.,690,Comma separated values,Classification,1987,[416][417],R. Quinlan
-eBay auction data,Auction data from various eBay.com objects over various length auctions,"Contains all bids, bidderID, bid times, and opening prices.",~ 550,Text,"Regression, classification",2012,[418][419],G. Shmueli et al.
-Statlog (German Credit Data),Binary credit classification into "good" or "bad" with many features,Various financial features of each person are given.,690,Text,Classification,1994,[420],H. Hofmann
-Bank Marketing Dataset,Data from a large marketing campaign carried out by a large bank .,Many attributes of the clients contacted are given. If the client subscribed to the bank is also given.,"45,211",Text,Classification,2012,[421][422],S. Moro et al.
-Istanbul Stock Exchange Dataset,Several stock indexes tracked for almost two years.,None.,536,Text,"Classification, regression",2013,[423][424],O. Akbilgic
-Default of Credit Card Clients,Credit default data for Taiwanese creditors.,Various features about each account are given.,"30,000",Text,Classification,2016,[425][426],I. Yeh
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+NYSK Dataset,English news articles about the case relating to allegations of sexual assault against the former IMF director Dominique Strauss-Kahn.,Filtered and presented in XML format.,"10,421","XML, text","Sentiment analysis, topic extraction",2013,[172],"Dermouche, M. et al."
+The Reuters Corpus Volume 1,Large corpus of Reuters news stories in English.,Fine-grain categorization and topic codes.,"810,000",Text,"Classification, clustering, summarization",2002,[173],Reuters
+The Reuters Corpus Volume 2,Large corpus of Reuters news stories in multiple languages.,Fine-grain categorization and topic codes.,"487,000",Text,"Classification, clustering, summarization",2005,[174],Reuters
+Thomson Reuters Text Research Collection,Large corpus of news stories.,Details not described.,"1,800,370",Text,"Classification, clustering, summarization",2009,[175],T. Rose et al.
+Saudi Newspapers Corpus,"31,030 Arabic newspaper articles.",Metadata extracted.,"31,030",JSON,"Summarization, clustering",2015,[176],M. Alhagri
+RE3D (Relationship and Entity Extraction Evaluation Dataset),Entity and Relation marked data from various news and government sources. Sponsored by Dstl,"Filtered, categorisation using Baleen types",not known,JSON,"Classification, Entity and Relation recognition",2017,[177],Dstl
+Examiner Spam Clickbait Catalogue,"Clickbait, spam, crowd-sourced headlines from 2010 to 2015",Publish date and headlines,"3,089,781",CSV,"Clustering, Events, Sentiment",2016,[178],R. Kulkarni
+ABC Australia News Corpus,Entire news corpus of ABC Australia from 2003 to 2019,Publish date and headlines,"1,186,018",CSV,"Clustering, Events, Sentiment",2020,[179],R. Kulkarni
+Worldwide News - Aggregate of 20K Feeds,One week snapshot of all online headlines in 20+ languages,"Publish time, URL and headlines","1,398,431",CSV,"Clustering, Events, Language Detection",2018,[180],R. Kulkarni
+Reuters News Wire Headline,11 Years of timestamped events published on the news-wire,"Publish time, Headline Text","16,121,310",CSV,"NLP, Computational Linguistics, Events",2018,[181],R. Kulkarni
+The Irish Times Ireland News Corpus,24 Years of Ireland News from 1996 to 2019,"Publish time, Headline Category and Text","1,484,340",CSV,"NLP, Computational Linguistics, Events",2020,[182],R. Kulkarni
+News Headlines Dataset for Sarcasm Detection,High quality dataset with Sarcastic and Non-sarcastic news headlines.,"Clean, normalized text","26,709",JSON,"NLP, Classification, Linguistics",2018,[183],Rishabh Misra

@@ -1,26 +1,16 @@
-Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-<<<<<<< HEAD
-Audio playback,"AAC LC/LTP 3GPP, HE-AACv1 (AAC+), HE-AACv2 (enhanced AAC+) AMR-NB, AMR-WB, MP3, MIDI (Type 0 and 1, DLS versions 1 and 2), Ogg Vorbis, PCM/WAVE, FLAC, WAVE, Opus[238]","AAC, protected AAC (from iTunes Store), HE-AAC, MP3, MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, WAV[239]","AAC, AAC+, eAAC+, AMR-NB, AMR-WB, MP3, Vorbis, WAV[240]","MP3, FLAC, AAC, eAAC, eAAC+, ALAC, AC3, DTS, Opus, Vorbis",?
-Video playback,"H.263, H.264 (up to Baseline Profile), H.265 HEVC, MPEG-4 SP, DivX, XviD, VP8, VP9[238] (WMV on 3rd party software like VLC media player)","H.264 (up to High Profile), MPEG-4, M-JPEG[239]","H.263, H.264, MPEG-4 Part 2[240]","MPEG-4, H264, H263,[241] although audio in recorded videos is out of sync[242]",?
-Wired video out,4K on 6+[243],"Up to 1080p via HDMI[244] or VGA,[245] 576p/480p via component[246] or composite;[247]",No,No[248],Yes
-Wired digital audio output,5+ USB Audio[249],7+: USB Audio[250],No,No,Yes
-Wireless video/audio streaming to set top boxes/TVs/speakers,"4.2+ Miracast,[251] but DLNA[252] only available on selected devices",AirPlay[253],DLNA[254],?,Yes
-Media player on-device playlist creation,Yes[255],Yes[60],?,Yes,Yes
-Media player video scrubbing,Yes,Yes,?,?,?
-Media player audio scrubbing,Yes,Yes,?,?,?
-Media player fine scrubbing,"No,[256] 3rd party software like VLC media player, basic fine scrubbing removed on 4+[257]",Yes[258],?,?,?
-Media player double speed playing,6+[259],Only Podcasts[260],?,?,?
-=======
-Camera focus at specified point,2.3+[269],Yes[60],?,1.0.4+[270],Yes
-Camera exposure metering from specified point,"No,[271] available on some phones.[272][273]",Yes[274],No,?,No
-On device picture info (including Exif data),Only date and location; more with 3rd party software[275],Only date and location; more with 3rd party software[276],No,?,Yes
-On device picture categorization,No[277] 3rd party software like TouchWiz[278],5+[279],No,?,No
-On device picture description and search,No[280],10+: Items/objects in picture;[281] 7+: Only date and location[282],No,?,No
-Turn off shutter sound,In silent mode[283],In silent mode[284],In silent mode,In silent mode[285],No
-Picture crop,Yes,5+[286],No,Yes,Yes
-Photo rotation,Yes,5+[286],No,Yes,Yes
-Photo red-eye reduction,2.3+[287],5+[286],No,No[288],No
-HDR photos option,"4.2+, some manufacturers earlier[289]",Yes[290],No,No[291],Yes
-Photo/video import from memory cards,Yes,With Camera Connection Kit[266],Yes,Yes,Yes
-Video trim,2.3+,Yes,No,?,No
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch,Plasma Mobile,PureOS,PostmarketOS,KaiOS
+Developed by,"Google, Open Handset Alliance",Apple Inc.,"Linux Foundation, Tizen Association, Samsung, Intel","Sailfish Alliance, Mer, Jolla and Sailfish community contributors",UBports and Ubuntu community contributors (previously Canonical Ltd.),KDE and Blue Systems,Purism,PostmarketOS community,"KaiOS Technologies Inc., Google[1][2]"
+Market share[3],86.1%,13.7%,Unknown,Unknown,Unknown,Unknown,Unknown,N/A,?
+Current version,11,14.1,4.0.0.7,3.3.0.16,16.04 OTA-11,5.16.4,9.0,alpha,2.6.0
+Development version,12,N/A,5.5 M1,Unknown,Unknown,Unknown,Unknown,N/A,
+Current version release dates,"September 8, 2020; 57 days ago (2020-09-08)","October 20, 2020; 15 days ago (2020-10-20)","November 16, 2018; 23 months ago (2018-11-16)","April 28, 2020; 6 months ago (2020-04-28)[4]","May 13, 2020; 5 months ago (2020-05-13)[5]","July 30, 2019; 15 months ago (2019-07-30)[6]",26 September 2019; 13 months ago (2019-09-26)[7],,
+License,"Base system is Free and open-source, but usually bundled with proprietary apps and drivers, which provide an increasing amount of the functionality.[8]",Proprietary,"Partial; both proprietary and open-source components, assorted licenses","Free and open-source, but the UI and the SDK are proprietary and closed source","Free and open-source, mainly the GPL[9]","Free and open-source, mainly the GPL","Free and open-source, mainly the GPL","Free and open-source, GPL",Proprietary except for open source kernel patches (formerly the MPL 2.0 B2G OS)
+OS family,Modified Linux kernel based,Darwin,Linux (based on Combination of Linux MeeGo and Samsung Bada),Linux,Linux (based on Ubuntu),Linux,Linux (based on Debian),Linux (based on Alpine Linux),Firefox OS / Open Web (based on Linux kernel)
+Supported CPU architecture,"ARM (32-bit ARMv7-A and 64-bit ARMv8-A only), x86, x86-64[10]",64-bit ARMv8-A only,"ARM, x86, x86-64","ARM, x86-64","ARM, x86-64","ARM, ?",Convergence operating system,"ARM, ARM64, x86, x86-64",ARM
+Programmed in,"C, C++, Java, Kotlin","C, C++, Objective-C, Swift","C++, Xamarin.Forms (.NET C#, F#, VB[11])","C++, QML, Python","Apps: HTML5, QML, Go, JavaScript, C++ System: C, C++, QML","C++, QML",,Python install tool and shell script packages,
+Public issues list,Yes[12],3rd party[13],Yes[14],Yes[15],Yes[16],Yes[17],Yes[18],Yes[19],No[citation needed]
+DRM-free[20],No[21] since Android 4.1[22] and Android 4.3[23] and more restrictions on Android 4.4[24],No – FairPlay,Yes,Yes,Yes,Yes[citation needed],Yes[citation needed],Yes,?
+Device independent system updates,Partial system updates since Oreo[25] 3rd party software like LineageOS[26],Yes[27],No,Yes,Yes[28],,,Yes.[29] Intended for use on old mobile devices,"For feature phones, not smart phones"
+Wireless system updates,Yes,5+[30],No,Yes,Yes,,,,
+GPU accelerated GUI,3+[31],Yes,?,Yes,Yes,,,,
+Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch,Plasma Mobile,PureOS,PostmarketOS,KaiOS

@@ -1,22 +1,14 @@
-<<<<<<< HEAD
-,Trident,EdgeHTML,Gecko,WebKit,Presto
-getElementsByClassName[183],5.0[184],12,1.9[185],525,2.1
-registerProtocolHandler,rowspan="2" ,rowspan="2" ,1.91=Limited to the feed protocol in 1.8; fully supported in 1.9.[186]date=May 2014,rowspan="2" ,rowspan="2" 2.10[188]
-registerContentHandler,1.81=Limited to feed MIME types in 1.8 and 1.9.[189],,,,
-Cross-document messaging,4.0,12,1.9[190],,2.0
-Drag-and-drop,6.0,12,1.9.1[98],,2.10.270[191]
-pushState() and replaceState(),6.0[192],12,2.0[193],528[194],2.9[195]
-! Trident,EdgeHTML,Gecko,WebKit,Presto,
-=======
-Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
-manifest,html,6.0[67],12,1.9,,2.6[68][69]
-sizes,link,,13,8.0 (only mobile)[70][71],,
-charset,meta,4.0[73],12,1.9.2,,2.5.24
-scoped,style,,,21.0[74],,rowspan="6" 
-async,script,6.0,12,1.9.2[76],,
-reversed,ol,,,18.0[78],,
-downloaddate=December 2014,"a,area",,13,20.0[80],,
-sandbox,iframe,6.0[81],12,17.0[82],533[83],
-seamless,iframe,,,,,
-Attribute,Element,Trident,EdgeHTML,Gecko,WebKit,Presto
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Element,Function,Supported first by,Deprecated in HTML version,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
+applet,Insert an applet,HotJava,4[6],"embed, object",4.0,1.7,,rowspan="6" ,1.0
+basefont,Sets font styles,Internet Explorer,4,CSS,3.0,,85,rowspan="4" ,
+center,Centers contents,Netscape[8],4,CSS,rowspan="3" 3.1,rowspan="3" ,rowspan="3" ,,
+dir,Directory list,?,4,"ul, ol",,,,,
+font,Applies font styles,Netscape,4,CSS,,,,,
+isindex[9],Adds a search field,?,4,input type="search",5.5,rowspan="2" 1.7,312,,
+listing,Displays preformatted text,IETF,2,"pre, samp, code, CSS",rowspan="3" 3.1,125,3.3,rowspan="3" ,
+menu,Menu list,?,4,"ul, ol",rowspan="2" ,rowspan="5" ,rowspan="5" ,,
+plaintext,"Designates that all HTML be ignored, and to display the page as is",?,3.2,The text/plain MIME type,,,,,
+s,Strike-through,?,4,"del, CSS",rowspan="3" 4.0,rowspan="4" 1.7,rowspan="4" 1.0,,
+strike,Strike-through,?,4,"del, CSS",,,,,
+u,Underline,?,4,CSS,,,,,
+xmp,"Similar to pre and plaintext, but ignores all HTML within and displays as is",?,2,"pre, samp, code",3.0,125,3.3,,

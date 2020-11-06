@@ -1,34 +1,5 @@
-<<<<<<< HEAD
-Model (Codename),Release Date,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TDP,Bus interface
-,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,
-Radeon Pro 555 (Polaris 21) [348][349][350][351],June 2017,GCN 4th gen 14 nm,3.0×109 123 mm2,768:48:16 12 CU,850,40.8,13.6,1306,1/16 SP,GDDR5 128-bit,2,5100,81.60,50 W,PCIe 3.0 ×16
-Radeon Pro 555X (Polaris 21) [348][349][350][352],July 2018,,,768:48:16 12 CU,907,43.54,14.51,1393,1/16 SP,GDDR5 128-bit,4,5100,81.60,50 W,
-Radeon Pro 560 (Polaris 21) [348][349][350][353],June 2017,,,1024:64:16 16 CU,907,58.05,14.51,1858,1/16 SP,GDDR5 128-bit,4,5080,81.28,50 W,
-Radeon Pro 560X (Polaris 21) [348][349][350][354],July 2018,,,1024:64:16 16 CU,1004,64.26,16.06,2056,1/16 SP,GDDR5 128-bit,4,5080,81.28,50 W,
-Radeon Pro 570 (Polaris 20) [348][349][350][355],June 2017,,5.7×109 232 mm2,1792:112:32 28 CU,1000,112,32,3584,1/16 SP,GDDR5 256-bit,4,6800,217.6,120 W,
-Radeon Pro 575 (Polaris 20) [348][349][350][356],June 2017,,,2048:128:32 32 CU,1100,140.8,35.2,4506,1/16 SP,GDDR5 256-bit,4,6800,217.6,120 W,
-Radeon Pro 580 (Polaris 20) [348][349][350][357],June 2017,,,2304:144:32 36 CU,1100 1200,172.8,38.4,5530,1/16 SP,GDDR5 256-bit,8,6800,217.0,150 W,
-=======
-Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b],,Processing power[c] (GFLOPS),Memory,,,,Bus interface,Notes
-,,,Config[d] (CU),Clock (MHz),Texture (GT/s),Pixel (GP/s),,Size (MB),Bus type & width (bit),Clock (MHz),Band- width (GB/s),,
-FirePro M5725 [308] (M96 GL),2009-01-01,Terascale 2 (55 nm),320:32:8 (3),680,21.6,5.4,432,256,GDDR3 128-bit,800,25.6,PCIe 2.0 x16,
-FirePro M5800 [309] (Madison XT GL),2010-03-01,Terascale 2 (40 nm),400:20:8 (5),650,13,5.2,520,1024,GDDR5 128-bit,800,25.6,PCIe 2.0 x16,HP EliteBook 8540w
-FirePro M3900 [310] (Seymour XT),2011-04-13,,160:8:4 (2),700,6.0,3.0,224,1024,DDR3 64-bit,900,14.4,PCIe 2.1 x16,HP Elitebook 8460w
-FirePro M5950 [311] (Whistler XT),2011-01-04,,480:24:8 (6),725,17.4,5.8,696,1024,GDDR5 128-bit,900,57.6,PCIe 2.1 x16,"Dell Precision M4600, HP EliteBook 8560w"
-FirePro M7740 [312] (M97XT GL),2009-08-04,Terascale 1 (40 nm),640:32:16 (8),650,20.8,10.4,832,1024,GDDR5 128-bit,1000,64,PCIe 2.0 x16,Dell Precision M6400 and M6500
-FirePro M7820 [313] (Juniper XT),2010-05-01,Terascale 2 (40 nm),800:40:16 (10),700,28,11.2,1120,1024,GDDR5 128-bit,1000,64,PCIe 2.0 x16,"Dell Precision M6500, HP EliteBook 8740w"
-FirePro M8900 [314] (Blackcomb XT GL),2011-04-12,,960:48:32 (12),680,32.64,21.76,1310,2048,GDDR5 256-bit,900,115.2,PCIe 2.1 x16,Dell Precision M6600
-FirePro M2000 [315] (Turks GL),2012-07-01,,480:24:8 (6),500,12,4,480,1024,GDDR5 64-bit,800,25.6,PCIe 2.1 x16,HP EliteBook 8470w
-FirePro M4000 [316] (Chelsea XT GL),2012-06-27,GCN 1st gen (28 nm),512:32:16 (8),600,19.2,9.6,614,2048,GDDR5 128-bit,1000,51.2,PCIe 2.1 x16,"HP EliteBook 8570w, HP EliteBook 8770w, Dell Precision M4700 (e.g. Consumer HD7700M Serie DevID 682D)"
-FirePro M6000 [317] (Heathrow XT GL),2012-06-27,,640:40:16 (10),800,30,12,960,2048,GDDR5 128-bit,1000,64,PCIe 3.0 x16,Dell Precision M6700
-FirePro M4100 [318] (Mars),2013-10-16,,384:24:8 (6),670,16.1,5.4,514,2048,GDDR5 128-bit,1000,64,PCIe 3.0 x16,HP ZBook 14
-FirePro W4170M [319] (Mars XTX),2014-04-28,,384:24:8 (6),825,19.8,6.6,691.2,2048,GDDR5 128-bit,1125,72,PCIe 3.0 x16,"Dell Precision M2800, HP ZBook 15u G2"
-FirePro W4190M [320] (Opal),2015-11-12,,384:24:8 (6),825,19.8,6.6,634,2048,GDDR5 128-bit,900,72,PCIe 3.0 x16,"HP ZBook 15u G3, MXM-3-A, OpenGL 4.6, OpenCL 2.0, TDP 25W [321]"
-FirePro M5100 [322] (Venus XT),2013-10-16,,640:40:16 (10),775,31,12.4,992,2048,GDDR5 128-bit,1125,72,PCIe 3.0 x16,"Dell Precision M4800, Panasonic Toughbook 54, HP ZBook 15 G2 (e.g. R9 M200X Serie DevID 6821)"
-FirePro W5130M [323] (Tropo LE),2015-10-02,,512:32:16 (8),up to 925,28.8,14.4,up to 950,up to 2048,GDDR5 128-bit,1000,64,PCIe 3.0 x16,"Dell Precision 3510 (e.g. Consumer R7 M465X DevID 682B) MXM-3-A, DirectX 12.0 (feature level 11_1), OpenGL 4.6, OpenCL 2.0, Vulkan 1.0, TDP 35W [324]"
-FirePro W5170M [325] (Tropo XT),2014-08-25,,640:40:16 (10),up to 925,36.0,14.4,up to 1180,up to 2048,GDDR5 128-bit,1125,72,PCIe 3.0 x16,"Dell Precision 7510, Dell Precision 7710, HP ZBook 15 G3 (e.g. Consumer R9 M375X DevID 6820 REV 083) MXM-3-A, DirectX 12.0 (feature level 11_1), OpenGL 4.6, OpenCL 2.0, Vulkan 1.0, TDP 45W [326]"
-FirePro M6100 [327] (Saturn XT GL),2013-10-16,GCN 2nd gen (28 nm),768: 48:16 (12),up to 1100,51.6,17.2,1651.2,2048,GDDR5 128-bit,1375/1500,88/96,PCIe 3.0 x16,"Dell Precision M6600 / M6800, HP Zbook 17 G2"
-FirePro W6150M [328] (Saturn XT GL),2015-11-12,,768:48:16 (12),1075,51.6,17.2,1651,4096,GDDR5 128-bit,1375,88,PCIe 3.0 x16,"HP Zbook 17 G3, MXM-3-B, OpenGL 4.6, OpenCL 2.0, TDP 100W [329]"
-FirePro W6170M [330] (Saturn XT GL),2014-08-25,,768:48:16 (12),1075,51.6,17.2,1651,4096,GDDR5 128-bit,1375,88,PCIe 3.0 x16,HP ZBook 17 G2
-FirePro W7170M [331] (Amethyst XT),2015-10-02,GCN 3rd gen (28 nm),2048:128:32 (32),723,92.5,23.1,2960,4096,GDDR5 256-bit,1250,160,PCIe 3.0 x16,"Dell Precision 7710, MXM-3-B, DirectX 12.0 (feature level 11_1), OpenGL 4.6, OpenCL 2.0, Vulkan 1.0, TDP 100W [332]"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
+Radeon Sky 500[407],April 2013,Pitcairn XT,28,PCIe 3.0 x16,950,1200,1280:80:32:20,30.4,76,4,153.6,GDDR5,256,2432,152,12.0,4.5,1.2,?,150,One DisplayPort
+Radeon Sky 700[408],,Tahiti PRO,,,900,1375,1792:112:32:28,28.8,100.8,6,264,,384,3225.6,806.4,,,,,225,
+Radeon Sky 900[409],,2× Tahiti PRO,,,825 950,1250,2× 1792:112:32:28,52.8,184.8,2× 3,2× 240,,2x 384,5913.6,1478.4,,,,,300,"Four Mini DisplayPort, One DVI-I"

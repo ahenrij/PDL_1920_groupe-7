@@ -1,85 +1,38 @@
-<<<<<<< HEAD
-! Single precision,Double precision,Other precision,Processor dependent
-Ada[1],Float,Long_Float,
-ALGOL 68,reala68[a],long reala68[a],"short real, long long real, etc.a68g[d]"
-C,floatlax floats[b],double,long doubleC-long-double[f]
-C++ (STL),,,
-Objective-C (Cocoa),,,
-C#,float,,rowspan=4 
-Java,,,
-Go,float32,float64,
-Rust,f32,f64,
-Swift,Float Float32,Double Float64,Float80Swift-long-double[g]
-D,float,double,
-Common Lisp,single-float,double-float,"float, short-float, long-float"
-Scheme,,,
-ISLISP,,,
-Pascal (Free Pascal),single,double,
-Visual Basic,Single,Double,rowspan=3 
-Visual Basic .NET,,,
-Xojo,,,
-Python,rowspan=2 ,float,
-JavaScript,Number[7],,
-S-Lang,,,
-Fortran,REAL(KIND = n)real inds[c],,
-PHP,,float,
-Perl,,,
-Raku,num32,num64,
-Ruby,,Float,rowspan=4 
-Scala,Float,Double,
-Seed7,,float,
-Smalltalk,Float,Double,
-Windows PowerShell,,,
-OCaml,,float,rowspan=3 
-F#,float32,,
-Standard ML,,,real
-Haskell (GHC),Float,Double,
-Eiffel,REAL_32,REAL_64,
-COBOL,FLOAT-BINARY-7Cobol_ieee[e],FLOAT-BINARY-34Cobol_ieee[e],"FLOAT-SHORT, FLOAT-LONG, FLOAT-EXTENDED"
-Mathematica,,,
-=======
-,8 bit (byte),,16 bit (short integer),,32 bit,,64 bit (long integer),,Word size,,Arbitrarily precise (bignum)
-,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,Signed,Unsigned,
-Ada[1],range -2**7 .. 2**7 - 1Ada_range[j],range 0 .. 2**8 - 1Ada_range[j] or mod 2**8Ada_mod[k],range -2**15 .. 2**15 - 1Ada_range[j],range 0 .. 2**16 - 1Ada_range[j] or mod 2**16Ada_mod[k],range -2**31 .. 2**31 - 1Ada_range[j],range 0 .. 2**32 - 1Ada_range[j] or mod 2**32Ada_mod[k],range -2**63 .. 2**63 - 1Ada_range[j],mod 2**64Ada_mod[k],IntegerAda_range[j],range 0 .. 2**Integer'<wbr/>Size - 1Ada_range[j] or mod Integer'<wbr/>SizeAda_mod[k],
-ALGOL 68 (variable-width),short short intCInt[c],rowspan=2 ,short intCInt[c],rowspan=2 ,intCInt[c],rowspan=2 ,long intCInt[c],rowspan=2 ,intCInt[c],,long long int a68[a]a68g[g]
-,,bytes & bits,,,,,,,,,
-C (C99 fixed-width),int8_t,uint8_t,int16_t,uint16_t,int32_t,uint32_t,int64_t,uint64_t,intptr_tCInt[c],size_tCInt[c],rowspan=5 
-C++ (C++11 fixed-width),,,,,,,,,,,
-C (C99 variable-width),signed char,unsigned char,shortCInt[c],unsigned shortCInt[c],longCInt[c],unsigned longCInt[c],long longCInt[c],unsigned long longCInt[c],intCInt[c],unsigned intCInt[c],
-C++ (C++11 variable-width),,,,,,,,,,,
-Objective-C (Cocoa),signed char or int8_t,unsigned char or uint8_t,short or int16_t,unsigned short or uint16_t,int or int32_t,unsigned int or uint32_t,long long or int64_t,unsigned long long or uint64_t,NSInteger or long,NSUInteger or unsigned long,
-C#,sbyte,byte,short,ushort,int,uint,long,ulong,IntPtr,UIntPtr,System.Numerics<wbr/>.BigInteger (.NET 4.0)
-Java,byte,,,charJava char[b],,,,,,,java.math<wbr/>.BigInteger
-Go,int8,uint8 or byte,int16,uint16,int32,uint32,int64,uint64,int,uint,big.Int
-Rust,i8,u8,i16,u16,i32,u32,i64,u64,isize,usize,
-Swift,Int8,UInt8,Int16,UInt16,Int32,UInt32,Int64,UInt64,Int,UInt,
-D,byte,ubyte,short,ushort,int,uint,long,ulong,,,BigInt
-Common Lisp[2],(signed-byte 8),(unsigned-byte 8),(signed-byte 16),(unsigned-byte 16),(signed-byte 32),(unsigned-byte 32),(signed-byte 64),(unsigned-byte 64),,,bignum
-Scheme,,,,,,,,,,,
-ISLISP[3],,,,,,,,,,,bignum
-Pascal (FPC),shortint,byte,smallint,word,longint,longword,int64,qword,integer,cardinal,
-Visual Basic,,Byte,Integer,,Long,,colspan=2 ,rowspan=2 colspan=2 ,rowspan=1 ,,
-Visual Basic .NET,SByte,,Short,UShort,Integer,UInteger,Long,ULong,System.Numerics<wbr/>.BigInteger (.NET 4.0),,
-FreeBasic,Byte or Integer<8>,UByte or UInteger<8>,Short or Integer<16>,UShort or UInteger<16>,Long or Integer<32>,ULong or UInteger<32>,LongInt or Integer<64>,ULongInt or UInteger<64>,Integer,UInteger,
-Python 2.x,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,int,,long,,,,
-Python 3.x,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,int,,,,,
-S-Lang,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,,,,,,
-Fortran,INTEGER<wbr/>(KIND = n)Kinds[f],,INTEGER<wbr/>(KIND = n)Kinds[f],,INTEGER<wbr/>(KIND = n)Kinds[f],,INTEGER<wbr/>(KIND = n)Kinds[f],,,,
-PHP,colspan=2 ,colspan=2 ,int PHP 32/64 bit long[m],,int PHP 32/64 bit long[m],,colspan=2 ,PHP bignum[e],,,
-Perl 5,colspan=2 scalars[d],colspan=2 scalars[d],colspan=2 scalars[d],colspan=2 scalars[d],colspan=2 scalars[d],Math::BigInt,,,,,
-Raku,int8,uint8,int16,uint16,int32,uint32,int64,uint64,Int,colspan=2 ,
-Ruby,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,Fixnum,,Bignum,,,,
-ErlangErlang_int[n],colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,integer(),,integer()Erlang_arb[o],,,,
-Scala,Byte,,Short,CharScala Char[l],Int,,Long,,,,scala.math.BigInt
-Seed7,,,,,,,integer,,,,bigInteger
-Smalltalk,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,SmallIntegerSmalltalk[i],,LargeIntegerSmalltalk[i],,,,
-Windows PowerShell,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,,,,,,
-OCaml,colspan=2 ,colspan=2 ,int32,,int64,,int or nativeint,,open Big_int;; big_int,,
-F#,sbyte,byte,int16,uint16,,int32 or int,uint32,uint64,nativeint,unativeint,bigint
-Standard ML,,Word8.word,colspan=2 ,Int32.int,Word32.word,Int64.int,Word64.word,int,word,LargeInt.int or IntInf.int,
-Haskell (GHC),«import Int» Int8,«import Word» Word8,«import Int» Int16,«import Word» Word16,«import Int» Int32,«import Word» Word32,«import Int» Int64,«import Word» Word64,Int,«import Word» Word,Integer
-Eiffel,INTEGER_8,NATURAL_8,INTEGER_16,NATURAL_16,INTEGER_32,NATURAL_32,INTEGER_64,NATURAL_64,INTEGER,NATURAL,
-COBOLCobol[h],BINARY-CHAR «SIGNED»,BINARY-CHAR UNSIGNED,BINARY-SHORT «SIGNED»,BINARY-SHORT UNSIGNED,BINARY-LONG «SIGNED»,BINARY-LONG UNSIGNED,BINARY-DOUBLE «SIGNED»,BINARY-DOUBLE UNSIGNED,,,
-Mathematica,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,Integer,,,,,
-Wolfram Language,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,colspan=2 ,Integer,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+! variable,constant,type synonym
+Ada[1],identifier : type« := initial_value»Ada declaration[e],identifier : constant type := final_value
+ALGOL 68,modename name« := initial_value»;,modename name = value;
+C (C99),type name« = initial_value»;,enum{ name = value };
+Objective-C,,
+C++,,const type name = value;
+C#,"type name1« = initial_value», name2« = initial_value», ... ; or var name = initial_value;","const type name = value, name = value, ... ; or readonly type name = value, name = value, ... ;"
+D,type name« = initial_value»; or auto name = value;,const type name = value; or immutable type name = value;
+Java,type name« = initial_value»;,final type name = value;
+JavaScript,var name« = initial_value»; or let name« = initial_value»; (since ECMAScript 2015),const name = value; (since ECMAScript 2015)
+Go,var name type« = initial_value» or name := initial_value,const name «type» = value
+RustRust declaration[f],let mut name«: type»« = initial_value»; static mut NAME: type = value;,let name«: type»« = initial_value»; const NAME: type = value; static NAME: type = value;
+Swift,var name« : type»« = initial_value»,let name «: type» = value
+Common Lisp,(defparameter name initial-value) or (defvar name initial-value),(defconstant name value)
+Scheme,(define name initial_value),
+ISLISP,(defglobal name initial_value) or (defdynamic name initial_value),(defconstant name value)
+PascalPascal's declarations[a],name: type« = initial_value»,name = value
+Visual Basic,Dim name «As type»,"See notes to left. Constants use the same syntax, and: use Const instead of Dim have a restriction to only certain primitive types Const name1 «As type» = value, name2 «As type» = value, ..."
+Visual Basic .NET[10],"The variable declaration syntax of VB.NET is surprisingly difficult to precisely describe. Given that there exist the identifier suffixes ("modifiers"): type_character, available as an alternative to an As clause for some primitive data types; nullable_specifier; and array_specifier; and that a modified_identifier is of the form identifier«type_character»«nullable_specifier»«array_specifier»; a modified_identifier_list is a comma-separated list of two or more occurrences of modified_identifier; and a declarator_list is a comma-separated list of declarators, which can be of the form identifier As object_creation_expression (object initializer declarator), modified_identifier« As non_array_type«array_rank_specifier»»« = initial_value» (single declarator), or modified_identifier_list« As «non_array_type««array_rank_specifier»» (multiple declarator); valid declaration statements are of the form <dl><dd>Dim declarator_list,</dd></dl> where, for the purpose of semantic analysis, to convert the declarator_list to a list of only single declarators: <dl> <dd>The As clauses of each multiple declarator is distributed over its modified_identifier_list</dd> <dd>The As New type... of each object initializer declarator is replaced with As type = New type...</dd> </dl> and for which, for each identifier, a type_character and As clause do not both appear; if an As clause is present, an array_rank_specifier does not appear both as a modification of the identifier and on the type of the As clause; an unmodified_type can be determined, by the rule that, if a type_character or As clause is present, unmodified_type is that specified by such construct, and that otherwise, either Option Infer must be on and the identifier must have an initializer, in which case unmodified_type is that of the initializer, or Option Strict must be off, in which case unmodified_type is Object; its final_type is its unmodified_type prepended before its modifiers; its final_type is a valid type; and if an initial_value is present, either Option Strict is on and initial_value has a widening conversion to final_type, or Option Strict is off and initial_value has a narrowing conversion to final_type. If Option Explicit is off, variables do not require explicit declaration; they are declared implicitly when used: name = initial_value",
+Xojo,Dim name «As type»« = initial_value»,
+Python,name = initial_value,rowspan=2 
+CoffeeScript,,
+S-Lang,name = initial_value;,
+Fortran,type name,"type, PARAMETER :: name = value"
+PHP,$name = initial_value;,"define("name", value); const name = value (5.3+)"
+Perl,«my» $name« = initial_value»;Perl's my keyword[c],use constant name => value;
+Raku,«my «type»» $name« = initial_value»;Perl's my keyword[c],«my «type»» constant name = value;
+Ruby,name = initial_value,Name = value
+Scala,var name«: type» = initial_value,val name«: type» = value
+Windows PowerShell,«[type] »$name = initial_value,
+Bash shell,name=initial_value,
+OCaml,let name« : type ref» = ref valueML ref[d],let name «: type» = value
+F#,let mutable name« : type» = value,
+Standard ML,val name« : type ref» = ref valueML ref[d],val name «: type» = value
+Haskell,,«name::type;» name = value
+Forth,VARIABLE name (in some systems use value VARIABLE name instead),value CONSTANT name
+COBOL,level-number name type clauses.,«0»1 name CONSTANT «AS» value.
+Mathematica,name=initial_value,

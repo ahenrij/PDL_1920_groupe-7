@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-Features:,"Configuration: GUI, text or both modes?","Remote Access: Web (HTTP), Telnet, SSH, RDP, Serial COM RS232, ...",Change rules without requiring restart?,Ability to centrally manage all firewalls together
-WinGate,GUI,Proprietary user interface,Yes,N/A
-ClearOS,both,"RS232, SSH, WebConfig,",Yes,Yes with ClearDNS
-Zeroshell,GUI,"SSH, Web (HTTPS), RS232",Yes,No
-pfSense,both,"SSH, Web (HTTP/HTTPS), RS232",Yes,No
-IPFire,both,"SSH, Web (HTTPS), RS232",Yes,No
-=======
-Can:,NAT[a],"NAT64, NPTv6",Intrusion Detection System (IDS)[b],Virtual Private Network (VPN)[c],Antivirus (AV),Packet capture,Profile selection[d]
-Vyatta,Yes (three NAT types),?,Yes (integrated Snort),Yes (IPsec and OpenVPN),"Yes (with clamav, Sophos Antivirus (optional))",Yes (with wireshark or tcpdump),?
-WinGate,Yes,?,Yes (with NetPatrol),Yes (proprietary),Yes (Kaspersky Labs),Yes (filtered capturing to pcap format),No
-pfSense,Yes,Yes (NPt),Yes (with Snort),"Yes (OpenVPN, IPsec, L2TP, IKEv2, Tinc, PPTP)",Yes (with squid and clamav),Yes (tcpdump),No
-IPFire,Yes,?,Yes (with Snort),"Yes (OpenVPN, IPsec, IKEv2)",Yes (with squid and clamav),Yes (tcpdump),No
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Can:,work at OSI Layer 4 (stateful firewall),work at OSI Layer 7 (application inspection),Change TTL? (Transparent to traceroute),Configure REJECT-with answer,DMZ (de-militarized zone),Filter according to time of day (quota),Redirect TCP/UDP ports (port forwarding),Redirect IP addresses (forwarding),Filter according to User Authorization,Traffic rate-limit / QoS,Tarpit,Log
+Sidewinder,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+WinGate,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes
+Zeroshell,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+pfSense,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+IPFire,Yes,Yes,?,No,Yes,Yes,Yes,Yes,?,Yes,No,Yes

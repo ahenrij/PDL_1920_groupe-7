@@ -1,47 +1,25 @@
-<<<<<<< HEAD
-,object member,,,class member,namespace member
-,method,field,property,,
-ABAP Objects,x->method(«parameters»).[39],x->field,N/A,x=>field or x=>method(«parameters[39]»).,N/A
-C++ (STL),x.method(parameters) or ptr->method(parameters),x.field or ptr->field,,cls::member,ns::member
-Objective-C,[x method«:parameter «bar:parameter ...»»],x->field,x.property (2.0 only) or [x property],[cls method«:parameter «bar:parameter ...»»],
-Smalltalk,x method«:parameter «bar:parameter ...»»,N/A,,cls method«:parameter «bar:parameter ...»»,
-Swift,x.method(parameters),,x.property,cls.member,
-APL (Dyalog),left argument» x.method «right argument(s)»,x.field,x.property,cls.member,ns.member
-C#,x.method(parameters),,,,
-Java,,,N/A,,
-D,,,x.property,,
-Python,,,,,
-Visual Basic .NET,,,,,
-Xojo,,,,,
-Windows PowerShell,,,,[cls]::member,
-F#,,N/A,,cls.member,
-eC,x.method«(parameters)»,x.field,x.property,cls::member,ns::member
-Eiffel,x.method«(parameters)»,x.field,,{cls}.member,N/A
-Ruby,,N/A,x.property,cls.member,
-PHP,x->method(parameters),x->field,x->property,cls::member,ns\member
-Perl,x->method«(parameters)»,x->{field},,cls->method«(parameters)»,ns::member
-Raku,x.method«(parameters)» or x!method«(parameters)»,x.field or x!field,,cls.method«(parameters)» or cls!method«(parameters)»,ns::member
-OCaml,x#method «parameters»,N/A,,,
-JavaScript,x.method(parameters) x["method"](parameters),x.field x["field"],x.property x["property"],cls.member cls["member"],N/A
-COBOL,INVOKE x "method" «USING parameters» «RETURNING result» or x::"method"«(«parameters»)»,N/A,property OF x,INVOKE cls "method" «USING parameters» «RETURNING result» or cls::"method"«(«parameters»)» or property OF cls,N/A
-Cobra,x.method«(parameters)»,x.field,x.property,cls.member,ns.member
-=======
-,Precondition,Postcondition,Check,Invariant,Loop
-ABAP Objects,N/A,,,,
-C++ (STL),,,,,
-C#,Spec#: type foo( «parameters» ) requires expression { body },Spec#: type foo( «parameters» ) ensures expression { body },,,
-Java,N/A,,,,
-Objective-C,,,,,
-Visual Basic .NET,,,,,
-D,f in { asserts } body{ instructions },f out (result) { asserts } body{ instructions },assert(expression),invariant() { expression },
-Eiffel,f require tag: expression do end,f do ensure tag: expression end,f do check tag: expression end end,class X invariant tag: expression end,from instructions invariant tag: expression until expr loop instructions variant tag: expression end
-Python,N/A,,,,
-PHP,,,,,
-Perl,,,,,
-Raku,PRE { condition },POST { condition },,,
-Ruby,N/A,,,,
-Windows PowerShell,,,,,
-OCaml,,,,,
-F#,,,,,
-COBOL,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Get object type,Is instance of (includes subtypes),Upcasting,Downcasting,
+,,,,Runtime check,No check
+ABAP Objects,N/A[71],,=,?=,
+C++ (STL),typeid(x),dynamic_cast<type *>(&x) != nullptr,N/A[72],dynamic_cast<type*>(ptr),(type*) ptr or static_cast<type*>(ptr)
+C#,x.GetType(),x is type,,(type) x or x as type,
+D,typeid(x),,,cast(type) x,
+Delphi,,x is type,,x as type,
+eC,x._class,"eClass_IsDerived(x._class, type)",,,(type) x
+Java,x.getClass(),x instanceof class,,(type) x,
+Objective-C (Cocoa),[x class][73],[x isKindOfClass:[class class]],,,(type*) x
+Swift,x.dynamicType,x is type,,x as! type x as? type,
+JavaScript,x.constructor (If not rewritten.),x instanceof class,N/A[74],,
+Visual Basic .NET,x.GetType(),TypeOf x Is type,N/A[72],"CType(x, type) or TryCast(x, type)",
+Xojo,Introspection.GetType(x),x IsA type,N/A,"CType(x, type)",N/A
+Eiffel,x.generating_type,attached {TYPE} x,attached {TYPE} x as down_x,,
+Python,type(x),"isinstance(x, type)",N/A[74],,
+PHP,get_class(x),x instanceof class,,,
+Perl,ref(x),x->isa("class"),,,
+Raku,x.WHAT,x.isa(class),N/A[72],type(x) or x.type,
+Ruby,x.class,x.instance_of?(type) or x.kind_of?(type),N/A[74],,
+Smalltalk,x class,x isKindOf: class,,,
+Windows PowerShell,x.GetType(),x -is [type],N/A[72],[type]x or x -as [type],
+OCaml,N/A[75],,(x :> type),N/A,
+F#,x.GetType(),x :? type,,(x :?> type),
+COBOL,N/A,,x AS type[72],N/A,

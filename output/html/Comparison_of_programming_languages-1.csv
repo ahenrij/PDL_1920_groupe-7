@@ -1,61 +1,3 @@
-<<<<<<< HEAD
-Language,Failsafe I/O
-1C:Enterprise,Yes
-Ada,Yes (exceptions)
-ALGOL,Yes (exceptions or return value depending on function)
-AutoHotkey,No (global ErrorLevel must be explicitly checked)
-Bash,Optional[FSIO 1]
-Ballerina,Yes
-Bro,Yes
-C,No[FSIO 2]
-C++,Some (STL iostreams throw on failure but C APIs like stdio or POSIX do not)[FSIO 2]
-C#,Yes
-COBOL,No
-Common Lisp,Yes ("conditions and restarts" system)
-Curry,Yes
-D,Yes (throwing on failure) [FSIO 3]
-Eiffel,No – It actually depends on the library and it is not defined by the language
-Erlang,Yes
-Fortran,Yes
-GLBasic,No – Will generally cause program to crash
-Go,Yes (unless result explicitly ignored)
-Gosu,Yes
-Harbour,Yes
-Haskell,Yes
-ISLISP,Yes
-Java,Yes
-Julia,Yes
-Kotlin,Yes
-LabVIEW,Yes
-Lua,No (some functions do not warn or throw exceptions)
-Mathematica,Yes
-Object Pascal,Some
-Objective-C,Yes (exceptions)
-OCaml,Yes (exceptions)
-OpenLisp,Yes
-Perl,No[FSIO 4]
-PHP,Yes
-Python,Yes
-Raku,Yes
-Rebol,Yes
-Rexx,Yes (with optional signal on... trap handling)
-RPG,No
-Ruby,Yes
-Rust,Yes (unless result explicitly ignored)
-S,Unknown
-Smalltalk,Yes
-Scala,Yes[FSIO 5]
-Standard ML,Yes[citation needed]
-Swift ? 2.0,Yes (exceptions)
-Tcl,Yes
-Visual Basic,Yes
-Visual Basic .NET,Yes
-Visual Prolog,Yes
-Wolfram Language,Yes
-Xojo,Yes
-XPath/XQuery,Yes (exceptions)
-Language,Failsafe I/O
-=======
 Language,Intended use,Imperative,Object-oriented,Functional,Procedural,Generic,Reflective,Event-driven,Other paradigm(s),Standardized?
 1C:Enterprise,"Application, RAD, business, general, web, mobile",Yes,,Yes,Yes,Yes,Yes,Yes,"Object-based, Prototype-based programming",No
 ActionScript 3.0,"Application, client-side, web",Yes,Yes,Yes,,,,Yes,,"1996, ECMA"
@@ -169,7 +111,7 @@ Rebol,Distributed,Yes,Yes,Yes,Yes,,Yes,Yes,dialected,No
 REXX,Scripting,Yes,Yes (NetRexx and Object REXX dialects),No,Yes,,No,No,,1996 (ANSI X3.274-1996)
 RPG,"Application, system",Yes,,,Yes,,,,,No
 Ruby,"Application, scripting, web",Yes,Yes,Yes,,,Yes,,aspect-oriented,"2011(JIS X 3017), 2012(ISO/IEC 30170)"
-Rust,"Application, system",Yes,Yes[39],Yes,Yes,Yes,,Yes,concurrent,No
+Rust,"Application, server-side, system, web",Yes,Yes[39],Yes,Yes,Yes,,Yes,concurrent,No
 S,"Application, statistics",Yes,Yes,Yes,Yes,,,,,No
 S-Lang,"Application, numerical, scripting",Yes,,,Yes,,,,,No
 Scala,"Application, distributed, web",Yes,Yes,Yes,,Yes,Yes,Yes,,De facto standard via Scala Language Specification (SLS)
@@ -191,4 +133,3 @@ XL,,Yes,Yes,,,,,,concept programming,No
 Xojo,"Application, RAD, general, web",Yes,Yes,,Yes,,Yes,Yes,,No
 XPath/XQuery,"Databases, data processing, scripting",,,Yes,,,,,tree-oriented,"W3C 1999 XPath 1, 2010 XQuery 1, 2014 XPath/XQuery 3.0"
 Zsh,"Shell, scripting",Yes,,,Yes,,,,loadable modules,No
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

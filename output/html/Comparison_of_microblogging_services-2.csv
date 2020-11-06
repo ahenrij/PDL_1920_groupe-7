@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-Service,Tagging[Note 1],Groups,Conversation[Note 2],Private[Note 3],Private following list,RSS,Atom,Bookmarklet
-Tumblr,Yes,No,No,Yes,Yes,Yes,No,?
-Facebook,Yes,Yes,Yes,Yes,?,Yes,No,?
-GNU social,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[8]
-Loforo [9],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[10]
-Twitter,Yes,No,Yes,Yes,Yes,No[11],No[11],No
-Mastodon,Yes,No,Yes,Yes,?,No,Yes,No
-Misskey,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
-micro.blog,Yes,No,Yes,No,?,Yes,No,No
-=======
 Service,Owner,Launched,Primary service,Software license,Content license,Multilingual,Ad-free
 GNU social,Open source,2010,Microblogging,AGPLv3,CC-BY 3.0,Yes,Yes
 Diaspora,Open source,2010-11,social network,AGPLv3,AGPLv3,Yes,Yes
@@ -26,4 +15,3 @@ Pleroma,Open source,2017,microblogging,AGPLv3,own TOS,Yes,Yes
 Twister,Open source,2013,microblogging,MIT and BSD licenses,own TOS,Yes,Yes
 Twtxt,Open source,2016,microblogging,MIT,own TOS,Yes,Yes
 Tumblr,Automattic,2007,microblogging,proprietary,own TOS,Yes,No
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

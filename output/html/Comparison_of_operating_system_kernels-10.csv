@@ -1,13 +1,7 @@
-<<<<<<< HEAD
-Kernel name,DES,AES,Blowfish,Triple DES,Serpent,Twofish,CAST-128,DES-X,IDEA,RC2,RC5,SEED,Skipjack,TEA,XTEA,CAST-256,RC4,Camellia,Anubis,KHAZAD,Salsa20,FCrypt
-DragonFly BSD kernel,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No,No,No,Yes,Yes,No,No,No,No
-FreeBSD kernel,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,No,No,No,Yes,No,No,Yes,Yes,Yes,No,No,No,No
-Linux,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Windows NT kernel,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,No,No
-macOS XNU Kernel,Yes,Yes,Yes,?,?,?,Yes,?,?,Yes,Yes,?,?,?,?,Yes,Yes,?,?,?,?,?
-Kernel name,DES,AES,Blowfish,Triple DES,Serpent,Twofish,CAST-128,DES-X,IDEA,RC2,RC5,SEED,Skipjack,TEA,XTEA,CAST-256,RC4,Camellia,Anubis,KHAZAD,Salsa20,FCrypt
-=======
-Kernel name,Deflate,zlib,LZO,LZJB,gzip
-Linux,Yes,Yes,Yes,No,Yes
-Solaris kernel,?,?,?,Yes,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Kernel Name,HTTP,FTP,NFS,CIFS,Name server,Transport-layer load balancer,Application-layer load balancer,9P,TLS proxy,WAF,Memcached server
+Linux kernel,(TUX web server patch),(TUX web server patch),knfsd,(CIFSD available),?,IP Virtual Server,(KTCPVS),(patch available),SOL_TLS[15],(Tempesta FW)[16],(kmemcached)
+DragonFly BSD kernel,No,No,Yes,Yes,?,?,?,No,No,?,?
+FreeBSD kernel,No,No,Yes,No,No,Yes,No,No,No,?,?
+Solaris kernel,?,?,Yes,Yes[17],?,Yes[18],Yes[18],?,KSSL,?,?
+Windows NT kernel,HTTP.sys,?,?,Yes,?,Yes,Yes,No,?,?,?
+XNU,No,No,Yes,No,No,No,No,No,No,?,?

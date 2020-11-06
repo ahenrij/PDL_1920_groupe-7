@@ -1,78 +1,34 @@
-<<<<<<< HEAD
-,Single precision,Double precision,Other precision,Processor dependent
-Ada[1],Float,Long_Float,N/A,
-ALGOL 68,real[a],long real[a],"short real, long long real, etc.[d]",
-C,float[b],double,long double[f],
-C++ (STL),,,,
-Objective-C (Cocoa),,,,CGFloat
-C#,float,,N/A,
-Java,,,,
-Go,float32,float64,,
-Rust,f32,f64,,
-Swift,Float Float32,Double Float64,Float80[g],CGFloat
-D,float,double,,real
-Common Lisp,single-float,double-float,"float, short-float, long-float",
-Scheme,,,,
+,Simple composite types,,Algebraic data types,Unions
+,Records,Tuple expression,,
+Ada[1],type identifier is «abstract» «tagged» «limited» [record fieldname1 : type; fieldname2 : type; ... end record |null record],N/A,"Any combination of records, unions and enumerations (as well as references to those, enabling recursive types).",type identifier (variation : discrete_type) is record case variation is when choice_list1 => fieldname1 : type; ... when choice_list2 => fieldname2 : type; ... ...end case;end record
+ALGOL 68,"struct (modename «fieldname», ...);",Required types and operators can be user defined,,"union (modename, ...);"
+C (C99),struct «name» {type name;...};,N/A,N/A,union {type name;...};
+Objective-C,,,,
+C++,struct «name» {type name;...};[b],«std::»tuple<type1..typen>,,
+C#,struct name {type name;...},"(val1, val2, ... )",,N/A
+Java,N/A[a],,,
+JavaScript,,N/A,,
+D,struct name {type name;...},,"std.variant.Algebraic!(type,...)",union {type name;...}
+Go,struct { «name» type ...},,,
+Rust,"struct name {name: type, ...}","(val1, val2, ... )","enum name { Foo(types), ...}","union name {name: type, ...}"
+Swift,struct name { var name «: type» ...},"(«name1:» val1, «name2:» val2, «name3:» val3, ... )",enum name { case Foo«(types)» case Bar «(types)» ... },
+Common Lisp,(defstruct name slot-name (slot-name initial-value) (slot-name initial-value :type type) ...),(cons val1 val2)[c],,
+Scheme,N/A,,,
 ISLISP,,,,
-Pascal (Free Pascal),single,double,,real
-Visual Basic,Single,Double,N/A,
-Visual Basic .NET,,,,
-Xojo,,,,
-Python,N/A,float,,
-JavaScript,,Number[7],N/A,
-S-Lang,,,,
-Fortran,REAL(KIND = n)[c],,,
-PHP,,float,,
-Perl,,,,
-Raku,num32,num64,,Num
-Ruby,N/A,Float,N/A,
-Scala,Float,Double,,
-Seed7,N/A,float,,
-Smalltalk,Float,Double,,
+Pascal,record name: type; ...end,N/A,N/A,record case type of value: (types); ...end
+Visual Basic,,,,
+Visual Basic .NET,Structure name Dim name As type ... End Structure,"(val1, val2, ... )",,
+Python,N/A[a],"«(»val1, val2, val3, ... «)»",,N/A
+S-Lang,"struct {name [=value], ...}",,,
+Fortran,TYPE name type :: name ... END TYPE,,,
+PHP,N/A[a],,,
+Perl,N/A[d],,,N/A
+Raku,N/A[a],,,
+Ruby,OpenStruct.new({:name => value}),,,
+Scala,"case class name(«var» name: type, ...)","(val1, val2, val3, ... )",abstract class name case class Foo(«parameters») extends name case class Bar(«parameters») extends name ... or abstract class name case object Foo extends name case object Bar extends name ... or combination of case classes and case objects,
 Windows PowerShell,,,,
-OCaml,N/A,float,N/A,
-F#,float32,,,
-Standard ML,N/A,,,real
-Haskell (GHC),Float,Double,,
-Eiffel,REAL_32,REAL_64,,
-COBOL,FLOAT-BINARY-7[e],FLOAT-BINARY-34[e],"FLOAT-SHORT, FLOAT-LONG, FLOAT-EXTENDED",
-Mathematica,N/A,N/A,,Real
-=======
-,exit block(break),continue,label,branch (goto),return value from generator
-Ada[1],exit «loop_name» «when condition»,N/A,label:,goto label,N/A
-ALGOL 68,value exit; ...,do statements; skip exit; label: statements od,label: ...,go to label; ... goto label; ... label; ...,yield(value) (Callback)[13]
-APL,:Leave,:Continue,label:,?label or :GoTo label,N/A
-C (C99),break;,continue;,label:,goto label;,N/A
-Objective-C,,,,,
-C++ (STL),,,,,
-D,,,,,
-C#,,,,,yield return value;
-Java,break «label»;,continue «label»;,,N/A,
-JavaScript,,,,,yield value«;»
-PHP,break «levels»;,continue «levels»;,,goto label;,yield «key =>» value;
-Perl,last «label»;,next «label»;,,,
-Raku,,,,,
-Go,break «label»,continue «label»,,goto label,
-Swift,break «label»,continue «label»,,N/A,
-Bash shell,break «levels»,continue «levels»,N/A,N/A,N/A
-Common Lisp,(return) or (return-from block) or (loop-finish),,(tagbody tag ... tag ...),(go tag),
-Scheme,,,,,
-ISLISP,(return-from block),,(tagbody tag ... tag ...),(go tag),
-Pascal(ISO),N/A,,label:[a],goto label;,N/A
-Pascal(FPC),break;,continue;,,,
-Visual Basic,"Exit blockAlternatively, for methods, Return",N/A,label:,GoTo label,
-Xojo,,Continue block,,,
-Visual Basic .NET,,,,,Yield value
-Python,break,continue,N/A,,yield value
-RPG IV,LEAVE;,ITER;,,,
-S-Lang,break;,continue;,,,
-Fortran,EXIT,CYCLE,label[b],GOTO label,N/A
-Ruby,break,next,,,
-Windows PowerShell,break «label»,continue,,,
-OCaml,N/A,,,,
-F#,,,,,
-Standard ML,,,,,
-Haskell (GHC),,,,,
-COBOL,EXIT PERFORM or EXIT PARAGRAPH or EXIT SECTION or EXIT.,EXIT PERFORM CYCLE,label «SECTION».,GO TO label,N/A
-Ya,break «from where»; f.e. break for switch;,continue «to where»; f.e. continue for switch;,:label,goto :label;,N/A
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+OCaml,type name = {«mutable» name : type;...},"«(»val1, val2, val3, ... «)»",type name = Foo «of type» | Bar «of type» | ...,N/A
+F#,,,,
+Standard ML,"type name = {name : type,...}","(val1, val2, val3, ... )",datatype name = Foo «of type» | Bar «of type» | ...,
+Haskell,"data Name = Constr {name :: type,...}",,data Name = Foo «types» | Bar «types» | ...,
+COBOL,level-number name type clauses. level-number+n name type clauses. ...,N/A,N/A,name REDEFINES variable type.

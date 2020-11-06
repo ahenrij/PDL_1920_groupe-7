@@ -1,83 +1,40 @@
-<<<<<<< HEAD
-! calling a function,basic/void function,value-returning function,required main function
-Ada[1],foo «(parameters)»,procedure foo «(parameters)» is begin statements end foo,function foo «(parameters)» return type is begin statements end foo
-ALGOL 68,foo«(parameters)»;,proc foo = «(parameters)» void: ( instructions );,proc foo = «(parameters)» rettype: ( instructions ...; retvalue );
-APL,«parameters» foo parameters,foo?{ statements },foo?{ statements }
-C (C99),foo(«parameters»),void foo(«parameters») { instructions },type foo(«parameters») { instructions ... return value; }
-Objective-C,,,
-C++ (STL),,,
-Java,,,
-D,,,
-C#,,"Same as above; alternatively, if only one statement: void foo(«parameters») => statement;","Same as above; alternatively, if simple enough to be an expression: void foo(«parameters») => expression;"
-JavaScript,,"function foo(«parameters») { instructions } or var foo = function («parameters») {instructions } or var foo = new Function («"parameter", ... ,"last parameter"» "instructions");",function foo(«parameters») { instructions ... return value; }
-Go,,func foo(«parameters») { instructions },func foo(«parameters») type { instructions ... return value }
-Swift,,func foo(«parameters») { instructions },func foo(«parameters») -> type { instructions ... return value }
-Common Lisp,(foo «parameters»),(defun foo («parameters»)<dl><dd>instructions)</dd></dl> or (setf (symbol-function 'symbol)<dl><dd>function)</dd></dl>,(defun foo («parameters»)<dl><dd>...</dd><dd>value)</dd></dl>
-Scheme,,(define (foo parameters) instructions) or (define foo (lambda (parameters) instructions)),(define (foo parameters) instructions... return_value) or (define foo (lambda (parameters) instructions... return_value))
-ISLISP,,(defun foo («parameters»)<dl><dd>instructions)</dd></dl>,(defun foo («parameters»)<dl><dd>...</dd><dd>value)</dd></dl>
-Pascal,foo«(parameters)»,procedure foo«(parameters)»; «forward;»forward declaration[a] «label<dl><dd>label declarations»</dd></dl> «const<dl><dd>constant declarations»</dd></dl> «type<dl><dd>type declarations»</dd></dl> «var<dl><dd>variable declarations»</dd></dl> «local function declarations» begin<dl><dd>instructions</dd></dl>end;,function foo«(parameters)»: type; «forward;»forward declaration[a] «label<dl><dd>label declarations»</dd></dl> «const<dl><dd>constant declarations»</dd></dl> «type<dl><dd>type declarations»</dd></dl> «var<dl><dd>variable declarations»</dd></dl> «local function declarations» begin<dl><dd> instructions; foo := value</dd></dl>end;
-Visual Basic,Foo(«parameters»),Sub Foo«(parameters)»<dl><dd> instructions </dd></dl> End Sub,Function Foo«(parameters)»« As type»<dl><dd>instructions Foo = value</dd></dl>End Function
-Visual Basic .NET,,,"Same as above; alternatively: Function Foo«(parameters)»« As type»<dl><dd>instructions Return value</dd></dl>End Function The As clause is not required if Option Strict is off. A type character may be used instead of the As clause. If control exits the function without a return value having been explicitly specified, the function returns the default value for the return type."
+! if,else if,select case,conditional expression
+Ada[1],if condition then <dl><dd>statements</dd></dl> «else <dl><dd>statements»</dd></dl> end if,if condition1 then <dl><dd>statements</dd></dl> elsif condition2 then <dl><dd>statements</dd></dl>... «else <dl><dd>statements»</dd></dl> end if,case expression is<dl><dd>when value_list1 => statements</dd><dd>when value_list2 => statements</dd></dl>...<dl><dd>«when others => statements» </dd></dl>end case
+Seed7,if condition then <dl><dd>statements</dd></dl> «else <dl><dd>statements»</dd></dl> end if,if condition1 then <dl><dd>statements</dd></dl> elsif condition2 then <dl><dd>statements</dd></dl>... «else <dl><dd>statements»</dd></dl> end if,case expression of when set1 : statements ... «otherwise: statements» end case
+Modula-2,if condition then <dl><dd>statements</dd></dl> «else <dl><dd>statements»</dd></dl> end,if condition1 then <dl><dd>statements</dd></dl> elsif condition2 then <dl><dd>statements</dd></dl>... «else <dl><dd>statements»</dd></dl> end,case expression of caseLabelList : statements | ... «else statements» end
+ALGOL 68,if condition then statements «else statements» fi,if condition then statements elif condition then statements fi,"case switch in statements, statements«,... out statements» esac"
+ALGOL 68 (brief form),statements «| statements» ),statements |: condition | statements ),"statements,... «| statements» )"
+APL,:If condition <dl><dd>instructions</dd></dl> «:Else <dl><dd>instructions»</dd></dl>:EndIf,:If condition <dl><dd>instructions</dd></dl> :ElseIf condition <dl><dd>instructions</dd></dl> ... «:Else <dl><dd>instructions»</dd></dl> :EndIf,:Select expression :Case case1 <dl><dd>instructions</dd></dl> ... «:Else<dl><dd>instructions»</dd></dl>:EndSelect
+C (C99) and: Objective-C C++ (STL) D Java JavaScript PHP,if (condition) instructions «else instructions» instructions can be a single statement or a block in the form of: { statements },if (condition) instructions else if (condition) instructions ... «else instructions» if (condition) instructions else { if (condition) instructions },switch (variable) {<dl><dd>case case1: instructions «break;» ... «default: instructions»</dd></dl>}
+C#,if (condition) instructions «else instructions» instructions can be a single statement or a block in the form of: { statements },if (condition) instructions «else instructions» if (condition) instructions else if (condition) instructions ... «else instructions»,"All non-empty cases must end with a break or goto case statement (that is, they are not allowed to fall-through to the next case). The default case is not required to come last."
+Windows PowerShell,if (condition) instructions «else instructions»,if (condition) { instructions } elseif (condition) { instructions } ... «else { instructions }»,switch (variable) { case1 { instructions «break;» } ... «default { instructions }»}
+Go,if condition {instructions} «else {instructions}»,if condition {instructions} else if condition {instructions} ... «else {instructions}» or switch {<dl><dd>case condition: instructions ... «default: instructions»</dd></dl>},switch variable {<dl><dd>case case1: instructions ... «default: instructions»</dd></dl>}
+Swift,if condition {instructions} «else {instructions}»,if condition {instructions} else if condition {instructions} ... «else {instructions}»,switch variable {<dl><dd>case case1: instructions ... «default: instructions»</dd></dl>}
+Perl,if (condition) {instructions} «else {instructions}» or unless (notcondition) {instructions} «else {instructions}»,if (condition) {instructions} elsif (condition) {instructions} ... «else {instructions}» or unless (notcondition) {instructions} elsif (condition) {instructions} ... «else {instructions}»,use feature "switch"; ... given (variable) {<dl><dd>when (case1) { instructions } ... «default { instructions }»</dd></dl>}
+Raku,if condition {instructions} «else {instructions}» or unless notcondition {instructions},if condition {instructions} elsif condition {instructions} ... «else {instructions},given variable {<dl><dd>when case1 { instructions } ... «default { instructions }»</dd></dl>}
+Ruby,if condition <dl><dd>instructions</dd></dl> «else <dl><dd>instructions»</dd></dl>,if condition <dl><dd>instructions</dd></dl> elsif condition <dl><dd>instructions</dd></dl> ... «else <dl><dd>instructions»</dd></dl> end,case variable when case1 <dl><dd>instructions</dd></dl> ... «else<dl><dd>instructions»</dd></dl>end
+Scala,if (condition) {instructions} «else {instructions}»,if (condition) {instructions} else if (condition) {instructions} ... «else {instructions}»,expression match {<dl><dd>case pattern1 => expression case pattern2 => expression ... «case _ => expression»</dd></dl>pattern matching[b]
+Smalltalk,condition ifTrue: <dl><dd>trueBlock</dd></dl> «ifFalse: <dl><dd>falseBlock»</dd></dl> end,,
+Common Lisp,(when condition <dl><dd>instructions)</dd></dl> or (unless condition <dl><dd>instructions)</dd></dl> or (if condition <dl><dd>(progn instructions)</dd><dd>«(progn instructions)»)</dd></dl>,(cond (condition1 instructions) <dl><dd>(condition2 instructions)</dd><dd>...</dd><dd>«(t instructions)»)</dd></dl>,(case expression<dl><dd>(case1 instructions)</dd><dd>(case2 instructions)</dd><dd>...</dd><dd>«(otherwise instructions)»)</dd></dl>
+Scheme,(when conditioninstructions) or (if condition (begin instructions) «(begin instructions)»),(cond (condition1 instructions) (condition2 instructions) ... «(else instructions)»),(case (variable) ((case1) instructions) ((case2) instructions) ... «(else instructions)»)
+ISLISP,(if condition <dl><dd>(progn instructions)</dd><dd>«(progn instructions)»)</dd></dl>,(cond (condition1 instructions) <dl><dd>(condition2 instructions)</dd><dd>...</dd><dd>«(t instructions)»)</dd></dl>,(case expression<dl><dd>(case1 instructions)</dd><dd>(case2 instructions)</dd><dd>...</dd><dd>«(t instructions)»)</dd></dl>
+Pascal,if condition then begin <dl><dd>instructions</dd></dl> end «else begin<dl><dd>instructions</dd></dl>end»pascal semicolon[c],if condition then begin <dl><dd>instructions</dd></dl> end else if condition then begin<dl><dd>instructions</dd></dl> end ... «else begin<dl><dd>instructions</dd></dl> end»pascal semicolon[c],case variable of <dl><dd>case1: instructions ... «else: instructions»</dd></dl>endpascal semicolon[c]
+Visual Basic,If condition Then <dl><dd>instructions</dd></dl> «Else <dl><dd>instructions»</dd></dl>End If Single-line: If we let instructions be: statement : statement : ... If condition Then instructions« Else instructions»,If condition Then<dl><dd>instructions</dd></dl> ElseIf condition Then<dl><dd>instructions</dd></dl> ... «Else <dl><dd>instructions»</dd></dl>End If Single-line: See note about C-like languages; the Else clause of a single-line If statement can contain another single-line If statement.,Select« Case» variable<dl><dd>Case case_pattern</dd>1<dl><dd>instructions</dd></dl><dd>...</dd><dd>«Case Else<dl><dd>instructions»</dd></dl></dd></dl>End Select
+Visual Basic .NET,,,
 Xojo,,,
-Python,foo(«parameters»),def foo(«parameters»): Tab instructions,def foo(«parameters»): Tab instructions Tab return value
-S-Lang,foo(«parameters» «;qualifiers»),define foo («parameters») { instructions },define foo («parameters») { instructions ... return value; }
-Fortran,foo («arguments») CALL sub_foo («arguments»)Fortran arguments[c],SUBROUTINE sub_foo («arguments») <dl><dd> instructions </dd></dl> END SUBROUTINEFortran arguments[c],type FUNCTION foo («arguments») <dl><dd> instructions ... foo = value </dd></dl> END FUNCTIONFortran arguments[c]
-Forth,«parameters» FOO,: FOO « stack effect comment: ( before -- ) » <dl><dd> instructions </dd></dl> ;,: FOO « stack effect comment: ( before -- after ) » <dl><dd> instructions </dd></dl> ;
-PHP,foo(«parameters»),function foo(«parameters») { instructions },function foo(«parameters») { instructions ... return value; }
-Perl,foo(«parameters») or &foo«(parameters)»,sub foo { «my (parameters) = @_;» instructions },sub foo { «my (parameters) = @_;» instructions... «return» value; }
-Raku,foo(«parameters») or &foo«(parameters)»,«multi »sub foo(parameters) { instructions },«our «type» »«multi »sub foo(parameters) { instructions... «return» value; }
-Ruby,foo«(parameters)»,def foo«(parameters)» <dl><dd>instructions </dd></dl> end,def foo«(parameters)» <dl><dd>instructions «return» value </dd></dl> end
-Rust,foo(«parameters»),fn foo(«parameters») { instructions },fn foo(«parameters») -> type { instructions }
-Scala,foo«(parameters)»,def foo«(parameters)»«: Unit =» { instructions },def foo«(parameters)»«: type» = { instructions ... «return» value }
-Windows PowerShell,foo «parameters»,function foo { instructions }; or function foo { «param(parameters)» instructions },function foo «(parameters)» { instructions … return value }; or function foo { «param(parameters)» instructions … return value }
-Bash shell,foo «parameters»,<poem>function foo { 4instructions  or foo () { 4instructions </poem>,<poem>function foo { 4instructions 4return «exit_code»  or foo () { 4instructions 4return «exit_code» </poem>
-,,"parameters $n ($1, $2, $3, ...) $@ (all parameters) $# (the number of parameters) $0 (this function name)",
-OCaml,foo parameters,let «rec» foo parameters = instructions,let «rec» foo parameters = instructions... return_value
-F#,,,
-Standard ML,,fun foo parameters = ( instructions ),fun foo parameters = ( instructions... return_value )
-Haskell,,foo parameters = do Tab instructions,foo parameters = return_value or foo parameters = do Tab instructions Tab return value
-Eiffel,foo («parameters»),foo («parameters») <dl><dd>require <dl><dd>preconditions</dd></dl> do <dl><dd>instructions</dd></dl> ensure <dl><dd>postconditions</dd></dl> end</dd></dl>,foo («parameters»): type <dl><dd>require <dl><dd>preconditions</dd></dl> do <dl><dd>instructions</dd><dd>Result := value</dd></dl> ensure <dl><dd>postconditions</dd></dl> end</dd></dl>
-CoffeeScript,foo(),foo = ->,foo = -> value
-,foo parameters,foo = () ->,foo = ( parameters ) -> value
-COBOL,CALL "foo" «USING parameters» <dl><dd> «exception-handling» </dd></dl> «END-CALL»COBOL calling programs[d],«IDENTIFICATION DIVISION.» PROGRAM-ID. foo. «other divisions...» PROCEDURE DIVISION «USING parameters». <dl><dd> instructions.</dd></dl>,«IDENTIFICATION DIVISION.» PROGRAM-ID/FUNCTION-ID. foo. «other divisions...» DATA DIVISION. «other sections...» LINKAGE SECTION. «parameter definitions...» variable-to-return definition «other sections...» PROCEDURE DIVISION «USING parameters» RETURNING variable-to-return. <dl><dd> instructions.</dd></dl>
-,«FUNCTION» foo«(«parameters»)»,,
-=======
-,read from,write to,
-,stdin,stdout,stderr
-Ada[1],Get (x),Put (x),"Put (Standard_Error, x)"
-ALGOL 68,"readf(($format$, x)); or getf(stand in, ($format$, x));","printf(($format$, x)); or putf(stand out, ($format$, x));","putf(stand error, ($format$, x));ALGOL Unformatted[a]"
-APL,x??,??x,??x
-C (C99),"scanf(format, &x); or fscanf(stdin, format, &x); more c input[b]","printf( format, x); or fprintf(stdout, format, x); more c output[c]","fprintf(stderr, format, x );more c error output[d]"
-Objective-C,data = [[NSFileHandle fileHandleWithStandardInput] readDataToEndOfFile];,[[NSFileHandle fileHandleWithStandardOutput] writeData:data];,[[NSFileHandle fileHandleWithStandardError] writeData:data];
-C++,"«std::»cin >> x; or «std::»getline(«std::»cin, str);",«std::»cout << x;,«std::»cerr << x; or «std::»clog << x;
-C#,x = Console.Read(); orx = Console.ReadLine();,"Console.Write(«format, »x); or Console.WriteLine(«format, »x);","Console.Error<wbr/>.Write(«format, »x); or Console.Error<wbr/>.WriteLine(«format, »x);"
-D,x = std.stdio.readln(),"std.stdio.write(x) or std.stdio.writeln(x) or std.stdio.writef(format, x) or std.stdio.writefln(format, x)","stderr.write(x) or stderr.writeln(x) or std.stdio<wbr/>.writef(stderr, format, x) or std.stdio<wbr/>.writefln(stderr, format, x)"
-Java,x = System.in.read(); or x = new Scanner(System.in)<wbr/>.nextInt(); or x = new Scanner(System.in)<wbr/>.nextLine();,"System.out.print(x); or System.out.printf(format, x); or System.out.println(x);","System.err.print(x); or System.err.printf(format, x); or System.err.println(x);"
-Go,"fmt.Scan(&x) or fmt.Scanf(format, &x) or x = bufio.NewReader(os.Stdin)<wbr/>.ReadString('\n')","fmt.Println(x) or fmt.Printf(format, x)","fmt.Fprintln(os.Stderr, x) or fmt.Fprintf(os.Stderr, format, x)"
-Swift,x = readLine() (2.x),print(x) (2.x) println(x) (1.x),
-JavaScript Web Browser implementation,,document.write(x),
-JavaScript Active Server Pages,,Response.Write(x),
-JavaScript Windows Script Host,x = WScript.StdIn.Read(chars) or x = WScript.StdIn.ReadLine(),WScript.Echo(x) or WScript.StdOut.Write(x) or WScript.StdOut.WriteLine(x),WScript.StdErr.Write(x) or WScript.StdErr.WriteLine(x)
-Common Lisp,(setf x (read-line)),(princ x) or (format t format x),(princ x *error-output*) or (format *error-output* format x)
-Scheme (R6RS),(define x (read-line)),(display x) or (format #t format x),(display x (current-error-port)) or (format (current-error-port) format x)
-ISLISP,(setf x (read-line)),(format (standard-output) format x),(format (error-output) format x)
-Pascal,read(x); or readln(x);,write(x); or writeln(x);,"write(stderr, x); or writeln(stderr, x);"
-Visual Basic,"Input« prompt,» x",Print x or ? x,
-Visual Basic .NET,x = Console.Read() or x = Console.ReadLine(),"Console.Write(«format, »x) or Console.WriteLine(«format, »x)","Console.Error<wbr/>.Write(«format, »x) or Console.Error<wbr/>.WriteLine(«format, »x)"
-Xojo,x = StandardInputStream.Read() or x = StandardInputStreame.ReadLine(),StandardOutputStream.Write(x) or StandardOutputStream.WriteLine(x),StdErr.Write(x) or StdErr.WriteLine(x)
-Python 2.x,x = raw_input(«prompt»),print x or sys.stdout.write(x),"print >> sys.stderr, x or sys.stderr.write(x)"
-Python 3.x,x = input(«prompt»),"print(x«, end=""»)","print(x«, end=""», file=sys.stderr)"
-S-Lang,"fgets (&x, stdin)","fputs (x, stdout)","fputs (x, stderr)"
-Fortran,"READ(*,format) variable names or READ(INPUT_UNIT,format) variable namesFortran standard units[e]","WRITE(*,format) expressions or WRITE(OUTPUT_UNIT,format) expressionsFortran standard units[e]","WRITE(ERROR_UNIT,format) expressionsFortran standard units[e]"
-Forth,buffer length ACCEPT ( # chars read ) KEY ( char ),buffer length TYPE char EMIT,
-PHP,"$x = fgets(STDIN); or $x = fscanf(STDIN, format);","print x; or echo x; or printf(format, x);","fprintf(STDERR, format, x);"
-Perl,$x = <>; or $x = <STDIN>;,"print x; or printf format, x;","print STDERR x; or printf STDERR format, x;"
-Raku,$x = $*IN.get;,x.print or x.say,x.note or $*ERR.print(x) or $*ERR.say(x)
-Ruby,x = gets,"puts x or printf(format, x)","$stderr.puts(x) or $stderr.printf(format, x)"
-Windows PowerShell,$x = Read-Host«« -Prompt» text»; or $x = [Console]::Read(); or $x = [Console]::ReadLine(),x; or Write-Output x; or echo x,Write-Error x
-OCaml,let x = read_int () or let str = read_line () or Scanf.scanf format (fun x ... -> ...),print_int x or print_endline str or Printf.printf format x ...,prerr_int x or prerr_endline str or Printf.eprintf format x ...
-F#,let x = System.Console<wbr/>.ReadLine(),printf format x ... or printfn format x ...,eprintf format x ... or eprintfn format x ...
-Standard ML,val str = TextIO.inputLIne TextIO.stdIn,print str,"TextIO.output (TextIO.stdErr, str)"
-Haskell (GHC),x <- readLn or str <- getLine,print x or putStrLn str,hPrint stderr x or hPutStrLn stderr str
-COBOL,ACCEPT x,DISPLAY x,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Python python indent[a],if condition : Tab instructions «else: Tab instructions»,if condition : Tab instructions elif condition : Tab instructions ... «else: Tab instructions»,
+S-Lang,if (condition) { instructions } «else { instructions }»,if (condition) { instructions } else if (condition) { instructions } ... «else { instructions }»,switch (variable) { case case1: instructions } { case case2: instructions } ...
+Fortran,IF (condition) THEN <dl><dd> instructions </dd></dl> ELSE <dl><dd> instructions </dd></dl> ENDIF,IF (condition) THEN <dl><dd> instructions </dd></dl> ELSEIF (condition) THEN <dl><dd> instructions </dd></dl> ... ELSE <dl><dd> instructions </dd></dl> ENDIF,SELECT CASE(variable)<dl><dd> CASE (case1) <dl><dd> instructions </dd></dl> ... CASE DEFAULT <dl><dd> instructions </dd></dl> </dd></dl> END SELECT
+Forth,condition IF instructions « ELSE instructions» THEN,condition IF instructions ELSE condition IF instructions THEN THEN,value CASE case OF instructions ENDOF case OF instructions ENDOF default instructions ENDCASE
+OCaml,if condition then begin instructions end «else begin instructions end»,if condition then begin instructions end else if condition then begin instructions end ... «else begin instructions end»,match value with <dl><dd>pattern1 -> expression  pattern2 -> expression ... « _ -> expression»pattern matching[b]</dd></dl>
+F#,Lightweight syntax mode: Either on a single line or with indentation as shown below: if condition then Tab instructions «else Tab instructions» Verbose syntax mode: Same as Standard ML (below).,Lightweight syntax mode: Either on a single line or with indentation as shown below: if condition then Tab instructions elif condition then Tab instructions ... «else Tab instructions» Verbose syntax mode: Same as Standard ML (below).,
+Standard ML,if condition then «(»instructions «)» else «(» instructions «)»,if condition then «(»instructions «)» else if condition then «(» instructions «)» ... else «(» instructions «)»,pattern2 => expression ... « _ => expression»pattern matching[b]</dd></dl>
+Haskell (GHC),if condition then expression else expression or when condition (do instructions) or unless notcondition (do instructions),condition = expression <dl><dd>| condition = expression | otherwise = expression</dd></dl>,case value of {<dl><dd>pattern1 -> expression; pattern2 ->expression; ... «_ -> expression»</dd></dl>pattern matching[b]
+Bash shell,<poem>if condition-command; then 4expression «else 4expression» fi</poem>,<poem>if condition-command; then 4expression elif condition-command; then 4expression «else 4expression» fi</poem>,<poem>case "$variable" in "$condition1" ) 4command... "$condition2" ) 4command... esac</poem>
+CoffeeScript,if condition then expression «else expression»,if condition then expression else if condition then expression «else expression»,switch expression <dl><dd>when condition then expression</dd></dl> <dl><dd>else expression</dd></dl>
+,if condition <dl><dd>expression</dd></dl> «else <dl><dd>expression»</dd></dl>,if condition <dl><dd>expression</dd></dl> else if condition <dl><dd>expression</dd></dl> «else <dl><dd>expression»</dd></dl>,
+,expression if condition,unless condition <dl><dd>expression</dd></dl> else unless condition <dl><dd>expression</dd></dl> «else <dl><dd>expression»</dd></dl>,switch expression <dl><dd>when condition <dl><dd>expression</dd></dl> «else <dl><dd>expression»</dd></dl></dd></dl>
+,unless condition <dl><dd>expression</dd></dl> «else <dl><dd>expression»</dd></dl>,,
+,expression unless condition,,
+COBOL,IF condition «THEN» <dl><dd> expression </dd></dl> «ELSE <dl><dd> expression». </dd></dl>COBOL END-IF[d],,EVALUATE expression «ALSO expression...» <dl><dd> WHEN case-or-condition «ALSO case-or-condition...» <dl><dd> expression </dd></dl></dd></dl> <dl><dd> ... </dd></dl> <dl><dd>«WHEN OTHER <dl><dd> expression» </dd></dl></dd></dl> END-EVALUATE
+! if,else if,select case,conditional expression

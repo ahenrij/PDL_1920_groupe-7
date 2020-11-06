@@ -1,26 +1,34 @@
-<<<<<<< HEAD
-Definition,"charAt(string,integer) returns character."
-Description,Returns character at index in the string.
-Equivalent,See substring of length 1 character.
-=======
 Format,Languages
-string1 & string2,"Ada, FreeBASIC, Seed7, BASIC, VB, VB .NET, COBOL (between literals only)"
-"strcat(string1, string2)","C, C++ (char * only)[11]"
-string1 . string2,"Perl, PHP"
-string1 + string2,"ALGOL 68, C++ (STL), C#, Cobra, FreeBASIC, Go, Pascal, Object Pascal (Delphi), Java, JavaScript, Windows PowerShell, Python, Ruby, Rust,[12] F#, Swift, Turing, VB, Ya"
-string1 ~ string2,"D, Raku"
-(string-append string1 string2),"Scheme, ISLISP"
-(concatenate 'string string1 string2),Common Lisp
-(str string1 string2),Clojure
-string1 || string2,"Rexx, SQL, PL/I"
-string1 // string2,Fortran
-string1 ++ string2,"Erlang, Haskell"
-string1 ^ string2,"OCaml, Standard ML, F#"
-[string1 stringByAppendingString:string2],Objective-C (NSString * only)
-string1 .. string2,Lua
-"string1 , string2","Smalltalk, APL"
-string1 string2,SNOBOL
-string1string2,Bash shell
-string1 <> string2,Mathematica
-concat string1 string2,Tcl
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+string (string'First .. string'First + n - 1),Ada
+"substr(string, 0, n)","AWK (changes string), Perl, PHP, Raku"
+"LEFT$(string,n)","BASIC, VB"
+"left(string,n)","VB, FreeBASIC, Ingres, Pick Basic"
+"strncpy(string2, string, n)",C standard library
+"string.substr(0,n)","C++ (STL), Raku"
+[string substringToIndex:n],Objective-C (NSString * only)
+(apply str (take n string)),Clojure
+string[0 .. n],D[22]
+"string:substr(string, start, length)",Erlang
+(subseq string 0 n),Common Lisp
+string[:n],"Cobra, Go, Python"
+"left(string,n «,padchar»)","Rexx, Erlang"
+"string[0, n] string[0..n - 1]",Ruby
+"string[1, n]",Pick Basic
+string[ .. n],Seed7
+"string.Substring(0,n)","VB .NET, C#, Windows PowerShell, F#"
+"leftstr(string, n)","Pascal, Object Pascal (Delphi)"
+"copy (string,1,n)",Turbo Pascal
+"string.substring(0,n)","Java,[23] JavaScript"
+(string-take string n),Scheme (SRFI 13)
+take n string,Haskell
+"String.extract (string, n, NONE)",Standard ML
+String.sub string 0 n,OCaml[24]
+string.[..n],F#
+"string.sub(string, 1, n) (string):sub(1, n)",Lua
+string first: n,"Smalltalk (Squeak, Pharo)"
+string(:n),Fortran
+"StringTake[string, n]",Mathematica[25]
+string («FUNCTION» LENGTH(string) - n:n),COBOL
+"string.substring(0, n)",Cobra
+n?string.,APL
+string[0..n] string[..n] string.get(0..n) string.get(..n),Rust[26]

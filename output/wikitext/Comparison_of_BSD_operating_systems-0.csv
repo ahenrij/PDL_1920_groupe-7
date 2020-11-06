@@ -3,7 +3,7 @@ Name,Primary developers,First public release,Based on,Latest stable version,,Cos
 FreeBSD,The FreeBSD Project,1993-12iso,"386BSD, 4.4BSD-Lite",12.1,2019-11-04[36]iso,Free,Simplified BSD,"Server, Workstation, Network Appliance, Embedded",Aims to be usable for any purpose.
 OpenBSD,The OpenBSD Project,1996-09iso,NetBSD 1.0,6.7,2020-05-19,Free,ISC,"Server, Workstation, Network Appliance, Embedded","Aims for maximum correctness in code, bringing simplicity and security."
 NetBSD,The NetBSD Project,1993-05iso,"386BSD, 4.4BSD-Lite",9.0,2020-02-14iso,Free,Simplified BSD,"Server, Workstation, Network Appliance, Embedded",Aims for maximum portability.
-DragonFly BSD,Matt Dillon,2004-07-12iso,FreeBSD 4.8,5.8.1,2020-05-06[37]iso,Free,Modified BSD,"Server, Workstation, Network Appliance, Embedded",Aims for maximum scalability.
+DragonFly BSD,Matt Dillon,2004-07-12iso,FreeBSD 4.8,5.8.3,2020-09-24[37]iso,Free,Modified BSD,"Server, Workstation, Network Appliance, Embedded",Aims for maximum scalability.
 386BSDgroup=Notea1,William and Lynne Jolitz,1992-03iso,4.3BSD Net/2,1.0,1994-11iso,Free,BSD,Open source general purpose,Historical
 BSD/OS (BSD/386)group=Notea1,"BSDi, Wind River Systems",1993-03iso,"4.3BSD Net/2, 4.4BSD",5.1,2003-10iso,,Proprietary,General purpose,Historical
 SunOSgroup=Notea1group=Notea2,Sun Microsystems,1982iso,"4.xBSD, UNIX System V[38]",4.1.4,1994-11iso,Included in hardware and support charges,Proprietary,"Server, Workstation",Historical (Solaris is a different code base)
@@ -11,7 +11,7 @@ Ultrixgroup=Notea1,Digital Equipment Corporation,1984iso,"4.2BSD, SVR2",4.5,1995
 RISCiX,Acorn Computers,1988,"4.3 BSD, Unix System V",1.31c,1993-09-07,Cost £1000 GBP (Approx $1400),Proprietary,Workstation,Historical (ran on Archimedes and R series Workstations)
 "Tru64 UNIX (DEC OSF/1, Digital UNIX)","DEC, Compaq, HP",1993iso,"4.3BSD, 4.4BSD, Mach 2.5, UNIX System V",5.1B-6,2010-10iso,Cost $99 (non-commercial),Proprietary,General Purpose,Only runs on HP Alpha systems or emulators.
 macOS,Apple Inc.,2001-03-24iso,Darwin,10.15.6 "Catalina",2020-07-15iso,Client: Free Server (add-on application): $19.99,Open source core system (see Darwin) with proprietary higher level API layers locking to Apple hardware,"Workstation, Home Desktop, Server",Locked to Apple hardware use only
-iOS,Apple Inc.,2007-06iso,Darwin,13.6,2020-07-15iso,Free,Open source core system (see Darwin) with proprietary higher level API layers locking to Apple hardware,Embedded mobile device,"Ships with Apple iPhone, iPad, iPod Touch, Apple TV, Apple Watch"
+iOS,Apple Inc.,2007-06iso,Darwin,13.6,2020-07-15iso,"Included with hardware, No-charge Updates",Open source core system (see Darwin) with proprietary higher level API layers locking to Apple hardware,Embedded mobile device,"Ships with Apple iPhone, iPad, iPod Touch, Apple TV, Apple Watch"
 Darwin,Apple Inc.,2001-03iso,"NeXTSTEP, FreeBSD, classic Mac OS",19.3.0,2020-01-28iso,Free,"APSL, GPL and others","Workstation, Home Desktop, Server",The kernel and certain userland components of macOS and iOS
 TrueOS,"iXsystems, Inc.",2006-04-29iso,FreeBSD,18.12,2018-12-15iso,Free,BSD,Server,Easy to use while maintaining full use of FreeBSD base
 GhostBSD,Eric Turgeon,2009-11iso,FreeBSD,20.01,2020-1-22iso,Free,BSD,"Desktop, Workstation","Easy to use, full FreeBSD w/ GNOME, Mate, Xfce, LXDE or Openbox."

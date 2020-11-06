@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 BitTorrent client,GUI,Remote,CLI,Other,Programming language,Based on,IPv6,?TP
 BitComet,,,,,C++,-,,
 BitLord,,,,,"Python, C++",libtorrent (Rasterbar),,
@@ -25,32 +24,3 @@ Tribler,,,,,"Python, C++",libtorrent (Rasterbar),,
 Vuze (formerly Azureus),,,,"Telnet, XML over HTTP remote control API","Java, SWT",-,,
 Xunlei,,,,remote control over internet[33],C++,-,,
 BitTorrent client,GUI,Web,CLI,Other,Programming language,Based on,IPv6,?TP
-=======
-BitTorrent client,Known unpatched vulnerabilities,,,,,
-,Secunia,,,,,SecurityFocus
-,Extremely critical (number / oldest),Highly critical (number / oldest),Moderately critical (number / oldest),Less critical (number / oldest),Not critical (number / oldest),Total (number / oldest)
-BitComet,0,0,0,0,0,0
-BitLord,0,0,0,0,0, Unknown
-BitTorrent,0,0,0,0,0,0
-BitTorrent DNA,0,0,0,0,0,0
-Deluge,0,0,0,0,0,0
-FlashGet,0,0,0,0,0, 1 df=yes2008813br=yes
-Free Download Manager,0,0,0,0,0,0
-FrostWire,0,0,0,0,0, Unknown
-KTorrent,0,0,0,0,0,0
-Libtorrent (Rasterbar),0,0,0,0,0,0
-LimeWire,0,0,0,0,0,0
-Miro,0,0,0,0,0, 1 df=yes2008226br=yes
-MLDonkey,0,0,0,0, 1 df=yes2003115br=yes, 1 df=yes2009223br=yes
-?Torrent for Mac,0,0,0,0,0,0
-?Torrent for Windows,0,0,0,0,0,0
-Opera 12,0,0,0,0,0,0
-Shareaza,0,0,0,0,0,0
-Tixati,0,0,0,0,0, Unknown
-Transmission,0,0,0,0,0,0
-Vuze (formerly Azureus),0,0,0,0,0, 1 df=yes2006622br=yes
-Xunlei,0, 2 df=yes2007928br=yes,0,0,0, 1 df=yes20071117br=yes
-BitTorrent client,Extremely critical (number / oldest),Highly critical (number / oldest),Moderately critical (number / oldest),Less critical (number / oldest),Not critical (number / oldest),Total (number / oldest)
-,Secunia,,,,,SecurityFocus
-,Known unpatched vulnerabilities,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

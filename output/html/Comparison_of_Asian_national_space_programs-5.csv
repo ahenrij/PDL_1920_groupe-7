@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-Country,Program,,First successful human spaceflight,,Status
-,Name,Period,Year,Spacecraft,
-China,Project 714,1968-72,N/A,Shuguang-1,Cancelled
-,Project 873,1978-80,N/A,Piloted FSW satellite,Cancelled
-,Project 921/Shenzhou,1992-present,2003,Shenzhou 5,Ongoing
-India,Indian Human Spaceflight Programme,2007-present,2021 (Planned) Before August 2022 (Scheduled),Gaganyaan,Ongoing
-=======
-Country,Year,Mission
-Japan,1970,Lambda-4S/Ohsumi
-China,1970,Long March 1/Dong Fang Hong I
-India,1980,SLV/Rohini D1
-Israel,1988,Shavit/Ofeq 1
-Iran,2009,Safir-1/Omid
-North Korea,2012,Unha-3/Kwangmy?ngs?ng-3 Unit 2
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Nation,Multi-satellite simultaneous launches,Launch of foreign satellite,Geostationary launches,Atmos- pheric reentry,Rendezvous dockings in orbit,Satellite navigation system,Data relay satellites,Martian missions,Solar Space Missions,Space observatories
+China,1981 (FB-1)[93] 3 Sats,1990 CZ-2E science satellite,1984 Dong Fang Hong 02 (by CZ-3),1975 FSW-0,2011 Tiangong 1,2000 Beidou,2008 Tianlian I,2011 Yinghuo-1 (Failure),(planned) Solar Space Telescope,2017 Space Hard X-Ray Modulation Telescope
+India,1999 (PSLV-CA C2) 3 Sats,1999 PSLV-C2 Kitsat-3 DLR-Tubsat,2001 Kalpana-1 (by PSLV),2007 SRE-1,SPADEX (planned),2013 IRNSS[94],IDRSS (Planned),2013 Mangalyaan[90] (orbiter),2021 (planned) Aditya-L1,2015 Astrosat
+Japan,1986 (H-I H15F)[95] 3 Sats,2002 H-IIA FedSat,1977 ETS-II[96] (by N-I),1994 OREX,1997 ETS-VII[97],2010 QZSS[98],2002 Kodama,1998 Nozomi (orbiter) (Failure),1975 Taiyo[99],1979 Hakucho

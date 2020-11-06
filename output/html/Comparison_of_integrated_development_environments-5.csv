@@ -1,16 +1,14 @@
-<<<<<<< HEAD
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,Profiler,Notes
-Visual Studio Code (using the Julia extension),MIT License,Yes,Yes,Yes,FreeBSD[33],?[34],?,License is for the extension; and Microsoft's source code (only).
-Emacs / spacemacs,"portions in GPL v2, LGPL, BSD and public domain",Yes,Yes,Yes,FreeBSD,Yes,Yes,"ESS extension support for emacs. vi support also available, e.g. in spacemacs (useful for pair programming )."
-=======
-IDE,License,Developer,Latest stable release,Windows,Linux,macOS,Other platforms
-Microsoft Visual Studio,Proprietary Community Edition: Freeware,Microsoft,"16.0.2 / April 18, 2019",Yes,No,Yes,
-MonoDevelop,LGPL,Xamarin and the Mono community,"6.1.2.44 / November 11, 2016",Yes,Yes,Yes,"FreeBSD, OpenBSD, Solaris"
-SharpDevelop,LGPL,IC#Code Team,"5.1 / April 14, 2016",Yes,No,No,
-SlickEdit,Proprietary,SlickEdit,October 2016,Yes,Yes,Yes,"Solaris, Solaris SPARC, AIX, HP-UX"
-Understand,Proprietary,SciTools,"814 / December 4, 2015",Yes,Yes,Yes,Solaris
-Visual Studio Code,source code(MIT License) - binary(Proprietary),Microsoft,"1.49.0 / September 10, 2020",Yes,Yes,Yes,
-Xamarin Studio,source code(MIT License) - binary(Proprietary),Microsoft,December 2016,Yes,Yes,Yes,
-Eclipse,EPL,Eclipse Foundation,"4.7 / June 28, 2017",Yes,Yes,Yes,
-Rider,Proprietary,JetBrains,"2019.3 / December 11, 2019",Yes,Yes,Yes,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+IDE,Developer,Latest stable release,Windows,Linux,macOS,Other platforms,Mobiles,Debugger,GUI builder,License,Autocomplete
+CodeTyphon,PilotLogic,2020-01-08 Ver 7.00,Yes,Yes,Yes,"AmigaOS, Android, FreeBSD, Game Boy Advance, Haiku, AIX, iOS, MorphOS, DOS, NetBSD, Nintendo DS, Nintendo Wii, OpenBSD, DragonFly, OpenIndiana, OS/2, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental), JavaScript transpiler, Embedded systems.",Yes,Yes,Yes,GPL; LGPL with static linking exception,Yes
+Delphi,Embarcadero Technologies,Delphi 10.3 (Rio) / November 21 2018,Yes,No,No,"cross-compile to macOS, Android, iOS Linux[36]",Yes,Yes,Yes,Proprietary,Yes
+Free Pascal IDE,Volunteers,"3.2.0 / June 19, 2020",Yes,Yes,Yes,"AmigaOS, Android, FreeBSD, Game Boy Advance, Haiku, AIX, iOS, MorphOS, DOS, NetBSD, Nintendo DS, Nintendo Wii, OpenBSD, OS/2, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental), JavaScript transpiler, Embedded systems.",Yes,Yes,No,GPL; LGPL with static linking exception,No
+KDevelop,KDevelop Team,"5.5.1 (May 5, 2020; 6 months ago (2020-05-05)) [±] (only 3.x supports Pascal)",Yes,Yes,Yes,"FreeBSD, OpenBSD, NetBSD, Solaris, other Unix",No,No,No,GPL,
+Lazarus,Volunteers,"2.0.10 / July 11, 2020",Yes,Yes,Yes,See Free Pascal,Yes,Yes,Yes,GPL; LGPL with static linking exception,Yes
+MIDletPascal,Code Research Laboratories,"3.5 / February 2, 2013",Yes,No,No,cross-compile from Windows to Java ME,Yes,No,No,GPL,
+Morfik,Morfik Technology Pty Ltd.,2.0.5.27,Yes,Yes,Yes,compiles to HTML+CSS+XML+JavaScript (web apps),Yes,Yes,Yes,Proprietary,
+MSEide,Martin Schreiber,4.6 / 2017-11-24,Yes,Yes,No,FreeBSD,Yes,Yes,Yes,GPL; LGPL with static linking exception for the library MSEgui,
+Understand,SciTools,4.0 / April 2015,Yes,Yes,Yes,Solaris,Yes,No,Yes,Proprietary,
+Visual Studio via Oxygene,RemObjects Software,10.0 / August 2018,Yes and additional Water IDE,No,Yes via Fire IDE,"JVM, .NET, Mono, Cocoa, Cocoa Touch, Android, iOS, WebAssembly, cross compile to Linux",Yes,Yes,Yes,Proprietary; free compiler,Yes
+PocketStudio,winsoft,3.0,No,No,No,Palm OS,Yes,Yes,Yes,Proprietary,
+Dev-Pascal,Bloodshed Software,1.9.2 (using FPC 1.9.2 from 2005),Yes,No,No,,No,Yes,No,GPL,
+PascalABC.NET,Volunteers,"3.4 / Jule 27, 2018",Yes,Yes,Yes,compiles to CLR,No,Yes,Yes,LGPL,Yes

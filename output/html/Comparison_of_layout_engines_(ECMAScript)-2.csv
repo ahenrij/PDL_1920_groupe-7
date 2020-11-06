@@ -1,65 +1,18 @@
-<<<<<<< HEAD
-Array object,Trident,Gecko,WebKit,Presto,Blink
-Called as function,,,,,
-"Array([item1 [, item2 [, ...]]])",Yes,Yes,Yes,Yes,Yes
-Called as constructor,,,,,
-"new Array([item1, item2 [, ...]])",4.0,1.0,Yes,1.0,Yes
-new Array(len),4.0,1.0,Yes,1.0,Yes
-Properties,,,,,
-prototype,4.0,1.0,Yes,1.0,Yes
-Properties of prototype,,,,,
-constructor,4.0,1.0,Yes,1.0,Yes
-toString(),4.0,1.0,Yes,1.0,Yes
-toLocaleString(),5.5,1.0,Yes,1.0,Yes
-"concat([item1 [, item2 [,...]]])",4.0,1.0,Yes,1.0,Yes
-join(separator),4.0,1.0,Yes,1.0,Yes
-pop(),5.5,1.0,Yes,1.0,Yes
-"push([item1 [, item2 [,...]]])",5.5,1.0,Yes,1.0,Yes
-reverse(),4.0,1.0,Yes,1.0,Yes
-shift(),5.5,1.0,Yes,1.0,Yes
-"slice(start, end)",4.0,1.0,Yes,1.0,Yes
-sort(comparefn),4.0,1.0,Yes,1.0,Yes
-"splice(start, deleteCount [, item1 [, item2 [, ...]]])",5.5,1.0,Yes,1.0,Yes
-"unshift([item1 [, item2 [, ...]]])",5.5,1.0,Yes,1.0,Yes
-"indexOf(searchElement[, fromIndex])",9.0[2],1.8,522,2.1,Yes
-"lastIndexOf(searchElement[, fromIndex])",,1.8,522,2.1,Yes
-"filter(callback[, thisObject])",,1.8,522,2.1,Yes
-"forEach(callback[, thisObject])",,1.8,522,2.1,Yes
-"every(callback[, thisObject])",,1.8,522,2.1,Yes
-"map(callback[, thisObject])",,1.8,522,2.1,Yes
-"some(callback[, thisObject])",,1.8,522,2.1,Yes
-"reduce(callback[, initialValue])",,1.9,528,2.5.22,Yes
-"reduceRight(callback[, initialValue])",,1.9,528,2.5.22,Yes
-Properties of instances,,,,,
-length,4.0,1.0,Yes,1.0,Yes
-=======
-Math object,Trident,Gecko,WebKit,Presto
-Value properties,,,,
-E,3.0,1.0,Yes,1.0
-LN10,3.0,1.0,Yes,1.0
-LN2,3.0,1.0,Yes,1.0
-LOG2E,3.0,1.0,Yes,1.0
-LOG10E,3.0,1.0,Yes,1.0
-PI,Yes,Yes,Yes,Yes
-SQRT1_2,3.0,1.0,Yes,1.0
-SQRT2,Yes,Yes,Yes,Yes
-Function properties,,,,
-abs(x),3.0,1.0,Yes,1.0
-acos(x),3.0,1.0,Yes,1.0
-asin(x),3.0,1.0,Yes,1.0
-atan(x),3.0,1.0,Yes,1.0
-"atan2(y, x)",3.0,1.0,Yes,1.0
-ceil(x),3.0,1.0,Yes,1.0
-cos(x),3.0,1.0,Yes,1.0
-exp(x),3.0,1.0,Yes,1.0
-floor(x),3.0,1.0,Yes,1.0
-log(x),3.0,1.0,Yes,1.0
-"max([value1 [, value2 [, ...]]])",3.0,1.0,Yes,1.0
-"min([value1 [, value2 [, ...]]])",3.0,1.0,Yes,1.0
-"pow(x, y)",3.0,1.0,Yes,1.0
-random(),3.0,1.0,Yes,1.0
-round(x),3.0,1.0,Yes,1.0
-sin(x),3.0,1.0,Yes,1.0
-sqrt(x),3.0,1.0,Yes,1.0
-tan(x),3.0,1.0,Yes,1.0
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+RegExp object,Trident,Gecko,WebKit,Presto
+Called as function,,,,
+"RegExp (pattern, flags)",?,?,?,?
+Called as constructor,,,,
+"new RegExp (pattern, flags)",4.0,1.0,Yes,1.0
+Properties,,,,
+prototype,4.0,1.0,Yes,1.0
+Properties of prototype,,,,
+constructor,4.0,1.0,Yes,1.0
+exec(string),4.0,1.0,Yes,1.0
+test(string),4.0,1.0,Yes,1.0
+toString(),4.0,1.0,Yes,1.0
+Properties of instances,,,,
+source,4.0,1.0,Yes,1.0
+global,4.0,1.0,Yes,1.0
+ignoreCase,5.5,1.0,Yes,1.0
+multiline,5.5,1.0,Yes,1.0
+lastIndex,4.0,1.0,Yes,1.0

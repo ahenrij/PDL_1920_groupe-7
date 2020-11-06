@@ -1,24 +1,6 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-TV Human Interaction Dataset,"Videos from 20 different TV shows for prediction social actions: handshake, high five, hug, kiss and none.",None.,"6,766 video clips",video clips,Action prediction,2013,[45],"Patron-Perez, A. et al."
-Berkeley Multimodal Human Action Database (MHAD),Recordings of a single person performing 12 actions,MoCap pre-processing,660 action samples,"8 PhaseSpace Motion Capture, 2 Stereo Cameras, 4 Quad Cameras, 6 accelerometers, 4 microphones",Action classification,2013,[46],"Ofli, F. et al."
-THUMOS Dataset,Large video dataset for action classification.,Actions classified and labeled.,45M frames of video,"Video, images, text","Classification, action detection",2013,[47][48],Y. Jiang et al.
-MEXAction2,Video dataset for action localization and spotting,Actions classified and labeled.,1000,Video,Action detection,2014,[49],Stoian et al.
-=======
-EEG Database,Study to examine EEG correlates of genetic predisposition to alcoholism.,Measurements from 64 electrodes placed on the scalp sampled at 256 Hz (3.9 ms epoch) for 1 second.,122,Text,Classification,1999,[349],H. Begleiter
-P300 Interface Dataset,Data from nine subjects collected using P300-based brain-computer interface for disabled subjects.,Split into four sessions for each subject. MATLAB code given.,"1,224",Text,Classification,2008,[350][351],U. Hoffman et al.
-Heart Disease Data Set,Attributed of patients with and without heart disease.,75 attributes given for each patient with some missing values.,303,Text,Classification,1988,[352][353],A. Janosi et al.
-Breast Cancer Wisconsin (Diagnostic) Dataset,Dataset of features of breast masses. Diagnoses by physician is given.,10 features for each sample are given.,569,Text,Classification,1995,[354][355],W. Wolberg et al.
-National Survey on Drug Use and Health,Large scale survey on health and drug use in the United States.,None.,"55,268",Text,"Classification, regression",2012,[356],United States Department of Health and Human Services
-Lung Cancer Dataset,Lung cancer dataset without attribute definitions,56 features are given for each case,32,Text,Classification,1992,[357][358],Z. Hong et al.
-Arrhythmia Dataset,"Data for a group of patients, of which some have cardiac arrhythmia.",276 features for each instance.,452,Text,Classification,1998,[359][360],H. Altay et al.
-Diabetes 130-US hospitals for years 1999–2008 Dataset,9 years of readmission data across 130 US hospitals for patients with diabetes.,Many features of each readmission are given.,"100,000",Text,"Classification, clustering",2014,[361][362],J. Clore et al.
-Diabetic Retinopathy Debrecen Dataset,Features extracted from images of eyes with and without diabetic retinopathy.,Features extracted and conditions diagnosed.,1151,Text,Classification,2014,[363][364],B. Antal et al.
-Diabetic Retinopathy Messidor Dataset,Methods to evaluate segmentation and indexing techniques in the field of retinal ophthalmology (MESSIDOR),Features retinopathy grade and risk of macular edema,1200,"Images, Text","Classification, Segmentation",2008,[365][366],Messidor Project
-Liver Disorders Dataset,Data for people with liver disorders.,Seven biological features given for each patient.,345,Text,Classification,1990,[367][368],Bupa Medical Research Ltd.
-Thyroid Disease Dataset,10 databases of thyroid disease patient data.,None.,7200,Text,Classification,1987,[369][370],R. Quinlan
-Mesothelioma Dataset,Mesothelioma patient data.,"Large number of features, including asbestos exposure, are given.",324,Text,Classification,2016,[371][372],A. Tanrikulu et al.
-Parkinson's Vision-Based Pose Estimation Dataset,2D human pose estimates of Parkinson's patients performing a variety of tasks.,Camera shake has been removed from trajectories.,134,Text,"Classification, regression",2017,[373][374][375],M. Li et al.
-KEGG Metabolic Reaction Network (Undirected) Dataset,Network of metabolic pathways. A reaction network and a relation network are given.,Detailed features for each network node and pathway are given.,"65,554",Text,"Classification, clustering, regression",2011,[376],M. Naeem et al.
-Modified Human Sperm Morphology Analysis Dataset (MHSMA),"Human sperm images from 235 patients with male factor infertility, labeled for normal or abnormal sperm acrosome, head, vacuole, and tail.","Cropped around single sperm head. Magnification normalized. Training, validation, and test set splits created.","1,540",.npy files,Classification,2019,[377][378],S. Javadi and S.A. Mirroshandel
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+UrbanSound,"Labeled sound recordings of sounds like air conditioners, car horns and children playing.",Sorted into folders by class of events as well as metadata in a JSON file and annotations in a CSV file.,"1,059",Sound (WAV),Classification,2014,[268][269],J. Salamon et al.
+AudioSet,"10-second sound snippets from YouTube videos, and an ontology of over 500 labels.",128-d PCA'd VGG-ish features every 1 second.,"2,084,320",Text (CSV) and TensorFlow Record files,Classification,2017,[270],"J. Gemmeke et al., Google"
+Bird Audio Detection challenge,"Audio from environmental monitoring stations, plus crowdsourced recordings",,"17,000+",,Classification,2016 (2018),[271][272],Queen Mary University and IEEE Signal Processing Society
+WSJ0 Hipster Ambient Mixtures,Audio from WSJ0 mixed with noise recorded in the San Francisco Bay Area,Noise clips matched to WSJ0 clips,"28,000",Sound (WAV),Audio source separation,2019,[273],"Wichern, G., et al., Whisper and MERL"
+Clotho,"4,981 audio samples of 15 to 30 seconds long, each audio sample having five different captions of eight to 20 words long.",,"24,905",Sound (WAV) and text (CSV),Automated audio captioning,2020,[274][275],"K. Drossos, S. Lipping, and T. Virtanen"

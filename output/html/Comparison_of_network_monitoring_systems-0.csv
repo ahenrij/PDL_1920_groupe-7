@@ -24,14 +24,12 @@ Octopussy,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,Full control,No,Yes,"Perl, ASP
 op5 Monitor,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Via plugin,"C, PHP","Flat file, SQL","Limited free, Commercial",Yes,Yes,Yes,Monthly,7.3.0
 OpenKBM,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Unknown,Proprietary with JDBC support,Commercial,Yes,Yes,Yes,Unknown,Unknown
 OpenNMS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Full Control,Yes,Yes,Java,"JRobin / RRDTool / Apache Cassandra, PostgreSQL",AGPLv3,Yes,Yes,Yes,2019-09-26,25.0.0
-Opmantek NMIS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Full Control,No,Yes,Yes,Yes,Perl,"MongoDB, RRDtool","GPL, Commercial",Yes,Yes,Yes,2020-06,8.7.0 9.1.0
 OPNET's AppResponse Xpert,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,"Viewing, Acknowledging, Reporting",Yes,No,Unknown,Unknown,Commercial,Yes,Yes,Unknown,Unknown,Unknown
 Opsview,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,No,"Perl, C, ExtJS",SQL,Commercial,Yes,Yes,No,2019-08-07,6.2
 OSI NetExpert,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,"Java, C++",Oracle,Commercial,Yes,Yes,Yes,2013-04,10.0
 PA Server Monitor,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,"Viewing, Reporting",Yes,Yes,C++,"SQLite, Microsoft SQL Server",Commercial,Yes,Yes,No,2014-07,5.5
 PacketTrap,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,"Viewing, Reporting",Yes,Yes,Unknown,SQL,Commercial,Yes,Yes,Yes,Unknown,Unknown
 Pandora FMS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,"Perl, PHP, C++, JavaScript","MySQL, Oracle","GPLv2, Commercial",Yes,Yes,Yes,2017-07,7.0 NG 707
-PathSolutions TotalView,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Windows,SQLite,Commercial,Yes,Yes,No,2018-06-01,9.01
 Performance Co-Pilot,No,Yes,Yes,No,Yes,"Optional, Limited",Yes,Yes,Yes,Yes,No,Viewing,Yes,Yes,"C Perl, Python, POSIX, MinGW",Flat file,"GPL, LGPL",No,Yes,Yes,2016-11-15,3.11.6
 PRTG,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Windows,Flat file,"Limited free, Commercial",Yes,Yes,Yes,2019-05-15,19.2.50
 ScienceLogic,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Full Control,Yes,Yes,Python,MySQL,Commercial,Yes,Yes,Yes,Unknown,Unknown

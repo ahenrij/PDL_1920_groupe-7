@@ -1,19 +1,15 @@
-Client,Creator,First public release date,Latest stable version,Software license,Copy files over 2 GB[1]
-ALFTP,ESTsoft,2000,"5.31 February 1, 2012; 8 years ago (2012-02-01)",Proprietary,?
-<<<<<<< HEAD
-ExpanDrive (Mac),"ExpanDrive, Inc",2008,"macOS: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[7]) [±] Windows: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[8]) [±] Linux: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[9]) [±]",Proprietary,Yes
-ExpanDrive (Windows) (formerly SFTPDrive),"ExpanDrive, Inc",2005,"macOS: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[10]) [±] Windows: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[11]) [±] Linux: 7.6.0 (September 29, 2020; 7 days ago (2020-09-29)[12]) [±]",Proprietary,Yes
-ForkLift,"BinaryNights, LLC",2007,"3.4.2 August 26, 2020; 41 days ago (2020-08-26)",Proprietary,Yes
-=======
-ExpanDrive (Mac),"ExpanDrive, Inc",2008,"macOS: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[7]) [±] Windows: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[8]) [±] Linux: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[9]) [±]",Proprietary,Yes
-ExpanDrive (Windows) (formerly SFTPDrive),"ExpanDrive, Inc",2005,"macOS: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[10]) [±] Windows: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[11]) [±] Linux: 7.6.0 (September 29, 2020; 5 days ago (2020-09-29)[12]) [±]",Proprietary,Yes
-ForkLift,"BinaryNights, LLC",2007,"3.4.2 August 26, 2020; 39 days ago (2020-08-26)",Proprietary,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
-FTP Commander,Internetsoft Corporation,1997,"9.21 November 8, 2010; 9 years ago (2010-11-08)",Proprietary,Yes
-FTP Explorer,FTPx Corp.,"October, 1996",1.0.1.53; January 2012,Proprietary,?
-Interarchy,Nolobe Software Pty Ltd,1993 (as Anarchie),"10.0.6 August 18, 2014; 6 years ago (2014-08-18)",Proprietary,Yes
-Steed,"French Fry, SAS",2012,"1.2.1.1169 June 27, 2017; 3 years ago (2017-06-27)",Proprietary,Yes
-Transmit,"Panic, Inc.",1998,"5.6.4 April 20, 2020; 5 months ago (2020-04-20)",Proprietary,Yes
-WISE-FTP,AceBIT,1998,"7.0 (Build 7.0.4) March 16, 2012; 8 years ago (2012-03-16)",Proprietary,?
-edtFTPj,Bruce P. Blackshaw,2000,"2.3.0 August 26, 2011; 9 years ago (2011-08-26)",Proprietary,Yes
-edtFTPnet,Bruce P. Blackshaw,2003,"2.2.1 August 26, 2011; 9 years ago (2011-08-26)",Proprietary,Yes
+Client,Creator,First public release date,Latest stable version,Software license,Copy files over 2 GB limit[1],Interface
+cURL,Daniel Stenberg,1998,7.73.0 (14 October 2020; 16 days ago (2020-10-14)[2]) [±],MIT,Yes,CLI
+Cyberduck,David V. Kocher,2001,"7.2.5 January 1, 2020; 9 months ago (2020-01-01)",GPL,Yes,GUI and CLI
+FAR Manager,Eugene Roshal / FAR Group,1996,3.0 build 5555 (8 February 2020; 8 months ago (2020-02-08)) [±],BSD,Yes,TUI
+*FileZilla,Community,2001 (January),3.49.1 (15 July 2020; 3 months ago (2020-07-15)) [±][3],GPL,Yes,GUI
+FireFTP,Mime ?uvalo,2004 (September),"2.0.32 (February 1, 2019; 20 months ago (2019-02-01)) [±]","MPL 1.1, Charityware",Yes (since version 2.0.5),"Waterfox, Firefox pre-version 57 addon"
+Fugu,University of Michigan Research Systems Unix Group,2003,"1.2.0 May 2, 2005; 15 years ago (2005-05-02)",BSD,?,GUI
+gFTP,Brian Masney,1998,"2.0.19 November 30, 2008; 11 years ago (2008-11-30)",GPL,Yes,GTK+
+lftp,Alexander V. Lukyanov,1996 (August),"4.9.1 (January 15, 2020; 9 months ago (2020-01-15)[4]) [±]",GPL,Yes,CLI
+Macfusion,Michael Gorbach,0 ?,2.0.4,BSD,?,GUI
+NcFTP,NcFTP Software Inc.,1991,"3.2.6 November 27, 2016; 3 years ago (2016-11-27)",Clarified Artistic License,Yes,CLI
+net2ftp,David C. Gartner,2003 (January),"0.98 March 1, 2013; 7 years ago (2013-03-01)",GPL,?,Web application
+Rclone,Nick Craig-Wood,2014 (July),"1.53.2 October 26, 2020; 4 days ago (2020-10-26)",MIT,Yes,CLI
+tnftp,Luke Mewburn,1999,"20151004 October 4, 2015; 5 years ago (2015-10-04)",BSD,Yes,CLI
+WinSCP,Martin P?ikryl,2000,"5.17.8[5] (October 15, 2020; 15 days ago (2020-10-15)) [±]",GPL,Yes,GUI and CLI

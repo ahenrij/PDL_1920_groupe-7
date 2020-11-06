@@ -1,23 +1,14 @@
-,Trident,EdgeHTML,Gecko,WebKit,Presto
-<<<<<<< HEAD
-main element[30],No,12,21.0[g 76],Yes[w 60],No
-template element[31],No,13,No,Yes[w 61],No
-Selectors API[32],4.0[t 36],12,1.9.1[g 77],525[w 62],2.2[p 20]
-Web Storage[33],4.0,12,1.9.1[g 78],525,2.5[p 21]
-Indexed Database API[34],5.0[t 37],12,16.0[g 79],Partial,No
-Web SQL Database (obsolete)[35],No,No,No[g 80],Yes[w 63],2.5[p 21]
-File API[36],5.0,12,Yes[g 81],Yes[w 64][w 65],2.8[p 22]
-File API: Writer[37],5.0,No,No[g 82],Partial[w 66],No
-File API: Directories and System[38],No,No,No[g 83],Yes[w 67],
-Media Capture API[39],,,2.0[j],No,2.10[p 23]
-Server-sent events[40],,,6.0[g 85],Yes[w 68],2.7[p 24][p 25]
-WebSocket[41],6.0[t 38],12,11.0[g 86],533,2.11[k]
-Web Workers[42][43],6.0[t 39],12,1.9.1[g 87],Yes,2.6[p 8][p 9]
-Geolocation API[44],5.0[t 40],12,1.9.1[g 88],533[w 69],2.6[l]
-Offline Web applications[45],6.0[t 41],12,1.9.1[g 89],Yes,2.6[p 8][p 9]
-Web Notifications[46],No,No,22.0[47][48],only in Chrome[49],25[p 31]
-,Trident,EdgeHTML,Gecko,WebKit,Presto
-=======
-<track>,6.0[t 35],12,,,
-<a ping>,No,No,Depends[g 73][h],Depends[w 59][i],
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Tag,Function,Introduced by,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
+bgsound,Used to add sound to the background of a website,Internet Explorer,audio,<3.1[IE 3.0],No,No,No,Dropped[11]
+blink,Used to display a blinking text,Netscape,"Javascript, CSS",No,Dropped[12],Yes,No,1.0
+bq,Used to display a blockquote,"WebTV, HTML 3.0",blockquote,No,No,No,No,Dropped[13]
+comment,Used to allow the addition of comments to HTML documents,"Internet Explorer, WebTV",<!-- ... -->,3.1,No,No,No,No
+ilayer,Inline layers,Netscape (4 only),iframe,No,No,No,Partial,No
+image,Synonym of img,?,img,3.1,Yes,Yes,Yes,Yes
+layer,Used to create multiple layers of text and images which lay on top of each other in a given order,Netscape (4 only),"CSS, AJAX",No,No,No,Partial,No
+marquee,"Used to display a scrolling, marquee-like text.","Internet Explorer, WebTV","JavaScript, CSS3",3.1,1.7,125,3.3,1.0
+nobr,Prevents any line breaks from occurring within the flow of a text,Netscape[14][15],CSS,3.1,Yes,Yes,Yes,Yes
+noembed,Displays an alternative text for browsers which do not recognize the embed tag,Netscape,Child elements of object used as fallback,,,,,
+spacer,Adds whitespace in a layout,Netscape,CSS,No,Dropped[16],No,No,No
+wbr,Placed inside a nobr element to add a line break,Netscape[14][15],Unicode character zero-width space (U+200B),Dropped[note 10],1.7,Yes,3.1,No
+xml[18],"Includes XML data, either inline or from an URL, in an HTML page",Internet Explorer,"AJAX, possibly XML namespaces",3.1,No,No,No,No

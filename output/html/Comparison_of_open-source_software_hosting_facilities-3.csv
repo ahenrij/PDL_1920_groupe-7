@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-Name,CVS,Git,Hg,SVN,BZR,TFVC,Arch,Perforce,Fossil
-Assembla,No,Yes,No,Yes,No,No,No,Yes,No
-Azure DevOps Services,No,Yes,No,No,No,Yes,No,No,No
-Bitbucket,No,Yes,Until Feb 2020[c],No,No,No,No,No,No
-Buddy,No,Yes,No,No,No,No,No,No,No
-CloudForge,No,Yes,No,Yes,No,No,No,No,No
-GForge,Yes,Yes,No,Yes,No,No,No,No,No
-Gitea,No,Yes,No,No,No,No,No,No,No
-GitHub,No,Yes,No,Partial[38],No,No,No,No,No
-GitLab,No,Yes,No,No,No,No,No,No,No
-GNU Savannah,Yes,Yes,Yes,Yes,Yes[39],No,Yes,No,No
-java.net,No,Yes[40],Yes[40],Yes[40],No,No,No,No,No
-Kallithea,No,Yes,Yes,No,No,No,No,No,No
-Launchpad,Import only,Yes[14][41],Import only[42],Import only,Yes,No,No,No,Unknown
-OSDN,Yes,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-Ourproject.org,Yes,No,No,Yes,No,No,No,Unknown,Unknown
-OW2 Consortium,Yes,No,No,Yes,No,No,No,Unknown,Unknown
-Helix TeamHub,No,Yes,Yes,Yes,No,No,No,Yes,No
-Phabricator,No,Yes,Yes,Yes,No,No,No,No,No
-RhodeCode,No,Yes,Yes,Yes,No,No,No,No,No
-SEUL.org,Yes,No,No,Yes,No,No,No,Unknown,Unknown
-SourceForge,Dropped[43],Yes,Yes,Yes,Dropped[44],No,No,Unknown,No[45]
-Sourcehut,No,Yes,Yes,No,No,No,No,Unknown,Unknown
-Name,CVS,Git,Hg,SVN,BZR,TFVC,Arch,Perforce,Fossil
-=======
 Name,Manager,Established,Server side: all free software,Client side: all-free JS code,Developed or used CDE,Require free software on registration,Ad-free,Notes
 Assembla,"Assembla, Inc",2005,No,Unknown,Unknown,No,Yes,
 Azure DevOps Services,Microsoft,2012[1],No,No,Azure DevOps Services Microsoft Visual Studio,No,Yes,Most features are free for open source projects or teams of 5 members or less[2]
@@ -31,9 +5,9 @@ Bitbucket,Atlassian,2008,No,No,"Atlassian BitBucket Server, JIRA and Confluence"
 Buddy,"Buddy, LLC.",2015,No,No,Unknown,No,Yes,Cloud version free for 1 project with no limit on size. Self-hosted version free up to 10 users with Fair Source license[4] applied.
 CloudForge,CollabNet,2012,No,Unknown,Unknown,No,Yes,
 Gitea,Gitea organization (open source community)[5],2016,Yes,Yes,Unknown,No,Yes,"Gitea is an open-source software tool funded on Open Collective that is designed for self-hosting, but also provides a free first-party instance."
-GForge,"The GForge Group,Inc. [6]",2006,Partial,Yes,Cloud version – free up to 5 users. On-premises version - free up to 5 users.,No,Yes,GForge is free for open source projects.
+GForge,"The GForge Group,Inc.[6]",2006,Partial,Yes,Cloud version – free up to 5 users. On-premises version - free up to 5 users.,No,Yes,GForge is free for open source projects.
 GitHub,"Microsoft/GitHub, Inc",2008-04,No,No,Unknown,No,Yes,"Denies Service to Crimea, Cuba, Iran, North Korea, Sudan, Syria[7] List of government takedown requests: [1]"
-GitLab,GitLab Inc.,2011-09[8],Partial[9],Yes[10],GitLab Community Edition (CE) — free software GitLab Enterprise Edition (EE) — proprietary,No,Yes,"Denies Service to Crimea, Cuba, Iran, North Korea, Sudan, Syria[11]"
+GitLab,GitLab Inc.,2011-09[8],Partial[9],Yes[10],GitLab Community Edition (CE) — free software GitLab Enterprise Edition (EE) — proprietary,No,Yes,"gitlab.com denies Service to Crimea, Cuba, Iran, North Korea, Sudan, Syria[11]"
 GNU Savannah,Savannah Administration,2001-01,Yes,Yes,Savane,Yes,Yes,"Project by the Free Software Foundation and projects with a GPL compatible license. Staff must approve requests for project approval, deletion, and so forth, which can take time if staffing levels are low. Code access review[12]"
 Helix TeamHub,Perforce Software,1995,No,No,Cloud version – free up to 5 users. On-premises version requires a license.,No,Yes,Free cloud version has no limits on projects within 5gb storage limit. On-premises version has DevOps pipeline technology and free replicas.
 Launchpad,Canonical,2004,Yes,No,Launchpad,No,Yes,Supports Bazaar and Git for version-controlled repository hosting.[13][14]
@@ -45,4 +19,3 @@ Rosetta Code,Unknown,2007,Unknown,Unknown,Unknown,Yes,Yes,Programming chrestomat
 SEUL,Unknown,1997-05,Unknown,No,Unknown,No,Yes,
 SourceForge,BizX LLC,1999-11,Yes[16][17],Yes,Apache Allura,No,No,"For open-source projects only.[18] Denies service when accessed from Cuba, Iran, North Korea, Sudan, Syria[19]"
 Name,Manager,Established,Server side: all free software,Client side: all-free JS code,Developed or used CDE,Require free software on registration,Ad-free,Notes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

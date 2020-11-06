@@ -10,5 +10,5 @@ InnoDB,Oracle,GPL,Yes,Yes
 MyISAM,Oracle,GPL,No,No
 MyRocks,Facebook,GPLv2,Yes,Yes
 NDB,Oracle,GPLv2,Yes,Yes
-TokuDB,TokuTek,Modified GPL,Yes,Yes
+TokuDB,TokuTek,Modified GPL,Yes,No
 XtraDB,Percona,GPL,Yes,Yes

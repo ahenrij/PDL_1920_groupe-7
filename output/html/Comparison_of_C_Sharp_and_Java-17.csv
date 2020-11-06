@@ -1,29 +1,17 @@
-<<<<<<< HEAD
-Java,C#
-"// Is valid, as numbers is an object of type short[]
- short[] numbers = new short[100];
-
- // Is valid, but it isn't clear code
- double values[] = new double[100];","// Is valid, as numbers is an object of type short[]
- short[] numbers = new short[100];
-
- // Won't compile!
- double values[] = new double[100];"
-=======
-Arrays and Collections,Java,C#
-Abstract data types,Yes,Yes
-"One-dimensional, zero-based index arrays",Yes,Yes
-"Multidimensional arrays, rectangular (single array)",No,Yes
-"Multidimensional arrays, jagged (arrays of arrays)",Yes,Yes
-Non-zero based arrays,No,Some
-Unified arrays and collections,No,Yes
-Maps/dictionaries,Yes,Yes
-Sorted dictionaries,Yes,Yes[30]
-Sets,Yes,Yes
-Sorted sets,Yes,Yes[31]
-Lists/vectors,Yes,Yes
-Queues/stacks,Yes,Yes
-Priority queue,Yes,Yes[32][33]
-Bags/multisets,Third-party library,Yes
-Concurrency optimized collections,Yes,Yes[34]
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Methods and properties,Java,C#
+Static imports,Yes,Yes[53]
+Virtual methods,Virtual by default,Non-Virtual by default
+Abstract,Yes,Yes
+Sealing,Yes,Yes
+Explicit interface implementation,Default methods,Yes[54]
+Value (input) parameters,Yes,Yes
+Reference (input/output) parameters,No,Yes
+Output (output) parameters,No,Yes
+Constant (immutable) parameters,Yes; final parameters,Yes[55]
+Variadic methods,Yes,Yes
+Optional arguments,No;[56] Instead method overloading or varargs,Yes
+Named arguments,No,Yes
+Generator methods,No,Yes
+Extension/default methods,Yes,Yes
+Conditional methods,No,Yes
+Partial methods,No,Yes

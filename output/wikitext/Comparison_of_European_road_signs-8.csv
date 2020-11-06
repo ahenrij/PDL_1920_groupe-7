@@ -1,17 +1,25 @@
-<<<<<<< HEAD
-,Austriasize=30px Austria,Belgiumsize=30px Belgium,Czech Republicsize=30px Czechia,Denmarksize=30px Denmark,Estoniasize=30px Estonia,Finlandsize=30px Finland,Francesize=30px France,Germanysize=30px Germany,Greecesize=30px Greece,Hungarysize=30px Hungary,Icelandsize=30px Iceland,Irelandsize=30px Ireland,Italysize=30px Italy,Luxembourgsize=30px Luxembourg,Moldovasize=30px Moldova,Netherlandssize=30px Netherlands,Norwaysize=30px Norway,Polandsize=30px Poland,Portugalsize=30px Portugal,Romaniasize=30px Romania,Russiasize=30px Russia Belarussize=30px Belarus,Slovakiasize=30px Slovakia,Sloveniasize=30px Slovenia,Spainsize=30px Spain,Swedensize=30px Sweden,Switzerlandsize=25px Switzerland Liechtensteinsize=30px Liechtenstein,Turkeysize=30px Turkey,Ukrainesize=30px Ukraine,UKsize=30px UK,Ålandsize=30px Åland [17]
-Give Way / Yield,,,,,,,,,,,,or,,,,,,,,,,,,,,,,,or (Wales),
-Stop,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Priority road,,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,NOT USED,
-End of priority road,,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,NOT USED,
-Give way to oncoming traffic,,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,,
-Priority over oncoming vehicles,,,,,,,,,,,,NOT USED,,,,,,,,,,,,,,,,,,
-,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Moldova,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
-=======
-,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
-Customs,,,,NOT USED,,,,,,or,NOT USED,NOT USED,,,or,,,,,,,,,or,or,,,NOT USED,Customs is written under the line in a suitable language
-Police,NOT USED,NOT USED,,NOT USED,,,or,,NOT USED,,NOT USED,NOT USED,,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,,NOT USED,,,,NOT USED,or,NOT USED,NOT USED,,
-Toll,NOT USED,or,NOT USED,NOT USED,NOT USED,NOT USED,,or,,,,NOT USED,,NOT USED,NOT USED,or,,,,NOT USED,NOT USED,,or,,NOT USED,NOT USED,NOT USED,(road charge),NOT USED
-Other Control,NOT USED,NOT USED,,,,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,NOT USED,,,or,NOT USED,NOT USED,,DEFUNCT,NOT USED,,,NOT USED,NOT USED,,NOT USED,Same as "police" but with suitable text
-,Austria,Belgium,Czechia,Denmark,Estonia,Finland,France,Germany,Greece,Hungary,Iceland,Ireland,Italy,Luxembourg,Netherlands,Norway,Poland,Portugal,Romania,Russia Belarus,Slovakia,Slovenia,Spain,Sweden,Switzerland Liechtenstein,Turkey,Ukraine,UK,Åland
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Country,Motorways,Expressways,Primary roads,,Secondary roads,Regional destinations,Local destinations,Tourist signs,Temporary Detour
+,,,outside urban area,,,,,,
+Austria,Salzburg,Wien,Villach,,n/a,Salzkammergut[2],,,Umleitung
+Bulgaria,????? Yambol,???? Ruse,????????? Pavlikeni,,???? Byala,,?????? Centre,???? Etar,????? Varna
+Czechia,BRNO,PRAHA,VYŠKOV,,n/a,SLOVANY,Letišt?,Hrad Bouzov,PRAHA
+Denmark,Aarhus,n/a,Skanderborg,,n/a,,Stadion,Himmelbjerget,Nakskov
+Finland,HELSINKI HELSINGFORS,LAPPEENRANTA,PORVOO BORGÅ,,n/a,KYMINLINNA,Kirjasto,Hiidenkivi,TURKU
+France,PARIS,MARSEILLE,BEAUVAIS[3],TOULON,LA CHAPPELLE,n/a,Gare S.N.C.F.,PARC NATUREL,Déviation
+Germany,Hamburg,Freiburg,Lübeck,,n/a,,Bahnhof,Burg Eltz,Umleitung
+Greece,??????????? Thessaloniki,????? Patra,????? ??????,,n/a,,??????,???????? Akropolis,
+Ireland,Áth Cliath DUBLIN,n/a,Tulach Mhór TULLAMORE[4],,Seantrabh SANTRY[5],n/a,Guaire GOREY[5],HEYWOOD,
+Italy,VENEZIA,UDINE,BERGOSOLE,,n/a,,aeroporto,Colfosco,deviazione
+Liechtenstein,(CH) St. Gallen,(CH) Chur,Schaan,,Vaduz,n/a,Bahnhof,Burg,Umleitung
+Lithuania,KLAIP?DA,KAUNAS,VILNIUS,,n/a,,CENTRAS,,Apylanka
+Netherlands,Amsterdam,Den Haag,Woerden,,n/a,,Centrum,,OMLEIDING Volg A[6]
+Norway,Nannestad,Lillestrøm,Trondheim,,n/a,,Sykehus,Kvitsand,
+Poland,Wroc?aw,Pozna?,Opole,,n/a,,Stacja,Kraków,Objazd
+Portugal,Lisboa,n/a,Portalegre,,Póvoa de Varzim,ALGARVE[7],centro,castelo,Desvio
+Romania,Bucure?ti,n/a,Pite?ti,,n/a,n/a,Centru,Castelul Bran,Ocolire
+Slovakia,Košice,Nitra,Bratislava,,,,Centrum,Hrad,obchádzka
+Sweden,GÖTEBORG,STOCKHOLM,FALUN,,n/a,NORRMALM,Vårdcentral,Långe Erik,
+Switzerland,Basel,Chiasso,Moudon,,Ftan,n/a,Gare CFF,Castello,Umleitung Déviation Deviazione
+Spain,Villalba[8],Córdoba[9],Oviedo[10],PINTO[11],BADAJOZ,n/a,centro,Navacerrada,DESVÍO
+UK,Nottingham M1,n/a,Holyhead A55,,Aylesbury,The NORTH[12],Village Hall,Thorpe Park,Diversion
+Åland,n/a,n/a,LÅNGNÄS,,n/a,KLINTEN,Centralsjukhuset,Bomarsund,KATTBY

@@ -1,48 +1,18 @@
-<<<<<<< HEAD
-Implementation,secp160k1 (15)[68],secp160r1 (16)[68],secp160r2 (17)[68],secp192k1 (18)[68],secp192r1 prime192v1 NIST P-192 (19)[68],secp224k1 (20)[68],secp224r1 NIST P-244 (21)[68],secp256k1 (22)[68],secp256r1 prime256v1 NIST P-256 (23)[68],secp384r1 NIST P-384 (24)[68],secp521r1 NIST P-521 (25)[68],arbitrary prime curves (0xFF01)[68][145],arbitrary char2 curves (0xFF02)[68][145]
-Botan,No,No,No,No,No,No,No,No,,,,No,No
-BoringSSL,No,No,No,No,No,No,Yes,No,,,Yes (disabled by default),No,No
-GnuTLS,No,No,No,No,Yes,No,Yes,No,,,,No,No
-JSSE,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,No,No
-LibreSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,No,No
-MatrixSSL,No,No,No,No,Yes,No,Yes,No,,,,No,No
-Mbed TLS,No,No,No,Yes,Yes,Yes,Yes,,,,,No,No
-NSS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,No,No
-OpenSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,No,No
-RSA BSAFE,No,No,No,No,Yes,No,Yes,No,,,,No,No
-"SChannel Vista/2008, 7/2008R2, 8/2012, 8.1/2012R2, 10",No,No,No,No,No,No,No,No,,,,No,No
-Secure Transport,No,No,No,No,Yes,No,No,No,,,,No,No
-wolfSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,No,No
-Erlang/OTP SSL application,Yes,Yes,Yes,Yes,Yes,Yes,Yes,,,,,No,No
-Implementation,secp160k1 (15),secp160r1 (16),secp160r2 (17),secp192k1 (18),secp192r1 prime192v1 NIST P-192 (19),secp224k1 (20),secp224r1 NIST P-244 (21),secp256k1 (22),secp256r1 prime256v1 NIST P-256 (23),secp384r1 NIST P-384 (24),secp521r1 NIST P-521 (25),arbitrary prime curves (0xFF01),arbitrary char2 curves (0xFF02)
-=======
-Implementation,Block cipher with mode of operation,,,,Stream cipher,
-,IDEA CBC group="n"name="removal_from_tls1.2"IDEA and DES have been removed from TLS 1.2.[133](insecure)[134],DES CBC (insecure) [135],"DES-40 CBC (EXPORT, insecure) [136]","RC2-40 CBC (EXPORT, insecure) [136]",RC4-128 (insecure) [137],"RC4-40 (EXPORT, insecure) [138][136]"
-Botan,No,No,No,No,No[139],No
-BoringSSL,No,No,No,No,Disabled by default at compile time,No
-cryptlib,No,Disabled by default at compile time,No,No,Disabled by default at compile time,No
-GnuTLS,No,No,No,No,Disabled by default[19],No
-JSSE,No,Disabled by default,Disabled by default,No,Disabled by default,Disabled by default [140]
-LibreSSL,Yes,Yes,No[23],No[23],Yes,No[23]
-MatrixSSL,Yes,No,No,No,Disabled by default,No
-Mbed TLS,No,Disabled by default at compile time,No,No,Disabled by default at compile time[26],No
-NSS,Yes,Disabled by default,Disabled by default,Disabled by default,Lowest priority[141][142],Disabled by default
-OpenSSL,Disabled by default[32],Disabled by default,No[32],No[32],Disabled by default,No[32]
-RSA BSAFE Micro-Edition Suite,No,No,No,No,Disabled by default,No
-RSA BSAFE SSL-J,No,Disabled by default,Disabled by default,No,Disabled by default,Disabled by default
-SChannel XP/2003,No,Yes,Yes,Yes,Yes,Yes
-SChannel Vista/2008,No,Disabled by default,Disabled by default,Disabled by default,Yes,Disabled by default
-SChannel 7/2008R2,No,Disabled by default,Disabled by default,Disabled by default,Lowest priority will be disabled soon[143],Disabled by default
-SChannel 8/2012,No,Disabled by default,Disabled by default,Disabled by default,Only as fallback,Disabled by default
-SChannel 8.1/2012R2,No,Disabled by default,Disabled by default,Disabled by default,Disabled by default[143],Disabled by default
-Schannel 10[132],No,Disabled by default,Disabled by default,Disabled by default,Disabled by default[143],Disabled by default
-Secure Transport OS X 10.6,Yes,Yes,Yes,Yes,Yes,Yes
-Secure Transport OS X 10.7,Yes,,,,Yes,
-Secure Transport OS X 10.8-10.9,Yes,Disabled by default,Disabled by default,Disabled by default,Yes,Disabled by default
-Secure Transport OS X 10.10-10.11,Yes,Disabled by default,Disabled by default,Disabled by default,Lowest priority,Disabled by default
-Secure Transport macOS 10.12,Yes,Disabled by default,Disabled by default,Disabled by default,Disabled by default,Disabled by default
-wolfSSL,Disabled by default[144],No,No,No,Disabled by default,No
-Erlang/OTP SSL application,no,Disabled by default,no,no,Disabled by default,no
-Implementation,Block cipher with mode of operation,,,,Stream cipher,
-,IDEA CBC [135](insecure)[134],DES CBC (insecure) [135],"DES-40 CBC (EXPORT, insecure) [136]","RC2-40 CBC (EXPORT, insecure) [136]",RC4-128 (insecure) [137],"RC4-40 (EXPORT, insecure) [138][136]"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT[69],GOST R 34.11-94[69]
+Botan,No,Yes,Yes,,No,No
+cryptlib,Yes,Yes,Yes,,No,No
+GnuTLS,Yes,Yes,Yes,,No,No
+JSSE,Yes,Yes,Yes,,No[70],No[70]
+LibreSSL,Yes,Yes,Yes,,Yes[71],Yes[71]
+MatrixSSL,Yes,Yes,Yes,,No,No
+Mbed TLS,Yes,Yes,Yes,,No,No
+NSS,Yes,Yes,Yes,,No[73][74],No[73][74]
+OpenSSL,Yes,Yes,Yes,,Yes[75],Yes[75]
+RSA BSAFE,Yes,Yes,Yes,,No,No
+"SChannel XP/2003, Vista/2008",Yes,Yes,"XP SP3, 2003 SP2 via hotfix[164]",,No[76],No[76]
+"SChannel 7/2008R2, 8/2012, 8.1/2012R2",Yes,Yes,Yes,except ECDHE_RSA[78][79][80],No[76],No[76]
+SChannel 10,Yes,Yes,Yes,,No[76],No[76]
+Secure Transport,Yes,Yes,Yes,,No,No
+wolfSSL,Yes,Yes,Yes,,No,No
+Erlang/OTP SSL application,Yes,Yes,Yes,,No,No
+Implementation,HMAC-MD5,HMAC-SHA1,HMAC-SHA256/384,AEAD,GOST 28147-89 IMIT,GOST R 34.11-94

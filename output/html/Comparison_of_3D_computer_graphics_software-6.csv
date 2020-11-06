@@ -1,6 +1,7 @@
-Application,Latest release date and version,Developed by,Platforms,Mainly Used For,License
-Bryce,2010-12-23 7.1.0.109,DAZ 3D,"Microsoft Windows (32-bit), Mac OS X (10.7 and above)","Animation, Landscape Modeling, Fractal Geometry",Proprietary
-Sculptris,2011-07-22 v Alpha 6,Pixologic,"Mac OS X, Microsoft Windows","Sculpting, Texturing",Proprietary
-Softimage,2014-04-14 "2015" (Final Release),Autodesk,"Microsoft Windows, Linux","Modeling, Animation, Video Game Creation, Lighting, Rendering, Visual 3d Effects",Proprietary
-SketchUp Make,2017-11-14 [5] v 18.0.16975 (Win64) v 18.0.16976 (Mac64),Trimble Navigation,"Mac OS X, Microsoft Windows","Modeling, Computer Aided Design",Proprietary
-trueSpace,2009-05-25 v 7.61,Caligari Corporation,"Microsoft Windows, AmigaOS","Animation, Modeling",Proprietary
+Application,Hard surface Modeling,,Sculpt Modeling,,,,Non-destructive Modeling,,
+,Polygon Modeling,Subdivision Modeling,Base-mesh Creation,Sculpting,Hand Retopology,Automatic Retopology,Boolean,Bevel,Procedural
+Maya,Yes,Yes,(SOuP BMesh),Yes,Yes,2020 and later,Yes,Yes,Yes
+3ds Max,Yes,Yes,(Form),Paint Deform,Yes,No,Yes,Yes,Yes
+Blender,Yes,Yes,Skin Modifier,Yes,Yes,2.81 and later,Yes,Yes,stack only
+ZBrush,ZModeler,ZModeler,ZSphere and ZSketch,Yes,Yes,ZRemesher,4R8 and later,?,No
+Curvy 3D,No,No,sketch-based,Yes,?,?,?,?,No

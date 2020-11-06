@@ -1,36 +1,9 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS),TBP (Watts),Notes
-,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
-GeForce 9100M G mGPU,2008,"MCP77MH, MCP79MH",65,Integrated (PCIe 2.0 ×16),8:8:4,450,1100,1066 (system memory),1.8,3.6,Up to 256 from system memory,17.056,DDR3,128,10.0,3.3,26.4,12,Similar to 8400M G
-GeForce 9200M GS,,NB9M-GE(G98),,PCIe 2.0 ×16,,550,1300,1400,2.2,4.4,256,11.2,DDR2/GDDR3,64,,,31.2,13,
-GeForce 9300M G,,NB9M-GE(G86),80,,16:8:4,400,800,1200,1.6,3.2,256/512,9.6,,,,,38.4,,
-GeForce 9300M GS,,NB9M-GE(G98),65,,8:8:4,550,1400,1400,2.2,4.4,,11.2,,,,,33.6,,
-GeForce 9400M G,"October 15, 2008",MCP79MX,,Integrated(PCIe 2.0 ×16),16:8:4,450,1100,800 1066 (system memory),1.8,3.6,Up to 256 from system memory,12.8 17.056,DDR2 DDR3,128,,,54,12,PureVideo HD with VP3. Known as the GeForce 9400M in Apple systems[126] and Nvidia ION based systems
-GeForce 9500M G,2008,NB9P(G96),,PCIe 2.0 ×16,16:8:8,500,1250,1600,4,4,512,25.6,DDR2 / GDDR3,,,,60,20,
-GeForce 9500M GS,,NB9P-GV(G96),80,PCIe ×16,32:16:8,475,950,1400,3.8,7.6,,22.4,,,,,91.2,,Rebranded 8600M GT
-GeForce 9600M GS,,NB9P-GE2(G96),65,PCIe 2.0 ×16,,430,1075,800 1600,3.44,6.88,1024,12.8 25.6,,,,,103.2,,
-GeForce 9600M GT,,NB9P-GS(G96),,,,500,1250,1600,4,8,512/1024,25.6,,,,,120,23,
-GeForce 9650M GS,,NB9P-GS1(G84),80,,,625,,,5,10,512,,GDDR3,,,,,29,Rebranded 8700M GT
-GeForce 9650M GT,,NB9P-GT(G96),65/55,,,550,1325,,4.4,8.8,1024,,,,,,127.2,23,
-GeForce 9700M GT,"July 29, 2008",NB9E-GE(G96),65,PCIe ×16,,625,1550,,5,10,512,,,,,,148.8,45,
-GeForce 9700M GTS,,NB9E-GS(G94),,PCIe 2.0 ×16,48:24:16,530,1325,,8.48,12.7,,51.2,,256,,,190.8,60,
-GeForce 9800M GS,2008,NB9E-GT(G94),,,64:32:16,,,,8.48,16.96,,,,,,,254,,Down Clocked 9800M GTS Via Firmware
-GeForce 9800M GTS,"July 29, 2008",,65/55,,64:32:16,600,1500,,9.6,19.2,512 / 1024,,,,,,288,75,
-GeForce 9800M GT,,NB9E-GT2(G92),,,96:48:16,500,1250,,8,24,512,,,,,,360,65,Rebranded 8800M GTX
-GeForce 9800M GTX,,NB9E-GTX(G92),65,,112:56:16,,,,,28,1024,,,,,,420,75,
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS),TBP (Watts),Notes
-,,,,,,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,,
-=======
-Model,Code name[174],Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate[210],,Memory,,,,Processing power (GFLOPS)[198][199],,Supported API version,,,,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
-Quadro P400,GP107-825,14,PCIe 3.0 ×16,1228,1252,1752 (7008),256:16:16:2,17.1,17.1,2,32,GDDR5,64,641,20.0,12.1,4.6,1.1,1.2,6.1,30,Three Mini-DisplayPort 1.4
-Quadro P600,GP107-850,,,1329,1557,1003 (4012),384:24:16:3,21.7,32.5,,64,,128,1195,37.3,,,,,,40,Four Mini-DisplayPort 1.4
-Quadro P620,GP107-855,,,1266,1354,1003 (4012),512:32:16:4,23.3,46.6,,,,,1490,46.6,,,,,,,
-Quadro P1000,GP107-860,,,,1481,1752 (7008),640:40:32:5,43.3,54.2,4,82,,,1894,59.2,,,,,,47,
-Quadro P2000,GP106-875,16,,1076,1480,2002 (8008),1024:64:40:8,54.8,87.7,5,140,,160,3010,93.8,,,,,,75,Four DisplayPort 1.4
-Quadro P2200,GP106-880-K1-A1[211],,,1000,1493,1251 (1008),1280:80:40:9,59.7,119.4,5,200,GDDR5X,,3822,121.3,,,,,,,
-Quadro P4000,GP104-850-A1,,,1202,1480,1502 (6008),1792:112:64:14,78.5,137.4,8,243,GDDR5,256,5300,165.6,,,,,,105,
-Quadro P5000,GP104-875-A1,,,1607,1733,1126 (9008),2560:160:64:20,102.8,257.1,16,288,GDDR5X,,8873,277.3,,,,,,180,"Four DisplayPort 1.4, One DVI-D"
-Quadro P6000,GP102-875-A1,,,1506,1645,1126 (9008),3840:240:96:30,136.0,340.0,24,432,,384,10882 (11758),~340,,,,,,250,
-Quadro GP100,GP100,,,1304,1442,703 (1406),3584:224:96:28,138.4,323,16,720,HBM2,4096,10336,5168,,,,,6,235,NVLINK support
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
+Quadro 500M,GF108,40,PCIe 2.0 ×16,700,1400,1800,96:16:4,2.8,11.2,1024,28.8,DDR3,128,268.8,11.0,4.5,35,
+Quadro 1000M,,,,,,,,,,2048,,,,,,,45,Dell Precision M4600
+Quadro 2000M,GF106,,,550,1100,,192:32:16,8.8,17.6,,,,,422.4,,,55,Dell Precision M4600
+Quadro 3000M,GF104,,,450,900,2500,240:40:32,14.4,18,,80,GDDR5,256,432,,,75,Dell Precision M6600
+Quadro 4000M,,,,475,950,,336:56:32,15.2,26.6,,,,,638.4,,,100,Dell Precision M6600
+Quadro 5000M,GF100,,,405,810,2400,320:40:32,12.96,16.2,,76.8,,,518.4,,,,Dell Precision M6500
+Quadro 5010M,GF110,,,450,900,2600,384:48:32,14.4,21.6,4096,83.2,,,691.2,,,,Dell Precision M6600

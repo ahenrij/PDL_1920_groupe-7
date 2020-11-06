@@ -1,24 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-UrbanSound,"Labeled sound recordings of sounds like air conditioners, car horns and children playing.",Sorted into folders by class of events as well as metadata in a JSON file and annotations in a CSV file.,"1,059",Sound (WAV),Classification,2014,[268][269],J. Salamon et al.
-AudioSet,"10-second sound snippets from YouTube videos, and an ontology of over 500 labels.",128-d PCA'd VGG-ish features every 1 second.,"2,084,320",Text (CSV) and TensorFlow Record files,Classification,2017,[270],"J. Gemmeke et al., Google"
-Bird Audio Detection challenge,"Audio from environmental monitoring stations, plus crowdsourced recordings",,"17,000+",,Classification,2016 (2018),[271][272],Queen Mary University and IEEE Signal Processing Society
-WSJ0 Hipster Ambient Mixtures,Audio from WSJ0 mixed with noise recorded in the San Francisco Bay Area,Noise clips matched to WSJ0 clips,"28,000",Sound (WAV),Audio source separation,2019,[273],"Wichern, G., et al., Whisper and MERL"
-Clotho,"4,981 audio samples of 15 to 30 seconds long, each audio sample having five different captions of eight to 20 words long.",,"24,905",Sound (WAV) and text (CSV),Automated audio captioning,2020,[274][275],"K. Drossos, S. Lipping, and T. Virtanen"
-=======
-Housing Data Set,Median home values of Boston with associated home and neighborhood attributes.,None.,506,Text,Regression,1993,[462],D. Harrison et al.
-The Getty Vocabularies,"structured terminology for art and other material culture, archival materials, visual surrogates, and bibliographic materials.",None.,large,Text,Classification,2015,[463],Getty Center
-Yahoo! Front Page Today Module User Click Log,User click log for news articles displayed in the Featured Tab of the Today Module on Yahoo! Front Page.,Conjoint analysis with a bilinear model.,"45,811,883 user visits",Text,"Regression, clustering",2009,[464][465],Chu et al.
-British Oceanographic Data Centre,"Biological, chemical, physical and geophysical data for oceans. 22K variables tracked.",Various.,"22K variables, many instances",Text,"Regression, clustering",2015,[466],British Oceanographic Data Centre
-Congressional Voting Records Dataset,Voting data for all USA representatives on 16 issues.,"Beyond the raw voting data, various other features are provided.",435,Text,Classification,1987,[467],J. Schlimmer
-Entree Chicago Recommendation Dataset,Record of user interactions with Entree Chicago recommendation system.,Details of each users usage of the app are recorded in detail.,"50,672",Text,"Regression, recommendation",2000,[468],R. Burke
-Insurance Company Benchmark (COIL 2000),Information on customers of an insurance company.,Many features of each customer and the services they use.,"9,000",Text,"Regression, classification",2000,[469][470],P. van der Putten
-Nursery Dataset,Data from applicants to nursery schools.,Data about applicant's family and various other factors included.,"12,960",Text,Classification,1997,[471][472],V. Rajkovic et al.
-University Dataset,Data describing attributed of a large number of universities.,None.,285,Text,"Clustering, classification",1988,[473],S. Sounders et al.
-Blood Transfusion Service Center Dataset,"Data from blood transfusion service center. Gives data on donors return rate, frequency, etc.",None.,748,Text,Classification,2008,[474][475],I. Yeh
-Record Linkage Comparison Patterns Dataset,Large dataset of records. Task is to link relevant records together.,Blocking procedure applied to select only certain record pairs.,"5,749,132",Text,Classification,2011,[476][477],University of Mainz
-Nomao Dataset,Nomao collects data about places from many different sources. Task is to detect items that describe the same place.,Duplicates labeled.,"34,465",Text,Classification,2012,[478][479],Nomao Labs
-Movie Dataset,"Data for 10,000 movies.",Several features for each movie are given.,"10,000",Text,"Clustering, classification",1999,[480],G. Wiederhold
-Open University Learning Analytics Dataset,Information about students and their interactions with a virtual learning environment.,None.,"~ 30,000",Text,"Classification, clustering, regression",2015,[481][482],J. Kuzilek et al.
-Mobile phone records,Telecommunications activity and interactions,Aggregation per geographical grid cells and every 15 minutes.,large,Text,"Classification, Clustering, Regression",2015,[483],G. Barlacchi et al.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Adult Dataset,Census data from 1994 containing demographic features of adults and their income.,Cleaned and anonymized.,"48,842",Comma separated values,Classification,1996,[438],United States Census Bureau
+Census-Income (KDD),Weighted census data from the 1994 and 1995 Current Population Surveys.,Split into training and test sets.,"299,285",Comma separated values,Classification,2000,[439][440],United States Census Bureau
+IPUMS Census Database,Census data from the Los Angeles and Long Beach areas.,None,"256,932",Text,"Classification, regression",1999,[441],IPUMS
+US Census Data 1990,Partial data from 1990 US census.,Results randomized and useful attributes selected.,"2,458,285",Text,"Classification, regression",1990,[442],United States Census Bureau

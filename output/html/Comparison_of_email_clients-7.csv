@@ -1,99 +1,53 @@
-<<<<<<< HEAD
-Client,Regular,,MSN (NTLM) browser login,Compuserve (RPA),MD5 APOP [Note 1],CRAM-HMAC [Note 2],,,DIGEST-MD5,SCRAM,with hardware token PKCS#11,Biometric,SMTP Auth [Note 3],X.509 Client certificate,OAuth
-,LOGIN,PLAIN,,,,MD5,SHA1,RIPEMD,,,,,,,
-Alpine,Yes,Yes,No,No,No,Yes,No,No,No,?,No,No,Yes,No,?
-Apple Mail,Yes,Yes,No,No,?,?,?,?,?,?,?,Yes,Yes,Yes,Yes [Note 4]
-Becky! Internet Mail,Yes,Yes,Yes,?,Yes,Yes,?,?,?,?,?,?,Yes,Yes,?
-Citadel,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Claws Mail,Yes,Yes,?,?,Yes,Yes,?,?,Yes,Yes,No,?,Yes,No,?
-Cone,Yes,Yes,No,No,No,Yes,Yes,No,No,?,No,No,Yes,Yes,?
-Courier,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,?,No,No,Yes,Yes,?
-Elm,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-eM Client,Yes,Yes,Yes,No,No,Yes,No,No,Yes,?,No,No,Yes,No,Yes
-EmailTray,Yes,Yes,?,?,Yes,Yes,Yes,No,?,?,No,No,Yes,No,?
-Eudora,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,?,No,No,No,?,?
-Evolution,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,?,No,No,Yes,No,?
-Gnus,Yes,Yes,?,?,Yes,Yes,Yes,?,Yes,?,?,?,Yes,?,?
-GroupWise,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Hiri,Yes,Yes,Yes,No,No,No,No,No,No,?,No,No,No,No,Yes
-i.Scribe / InScribe,Yes,Yes,Yes,No,Yes,No,No,No,No,?,No,No,Yes,No,Yes
-IBM Lotus Notes,Yes,?,Yes,No,No,No,?,?,?,?,Yes,No,Yes,?,?
-KMail,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,?,No,No,Yes,Yes,?
-Mailpile,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Microsoft Entourage,Yes,No,Yes,?,?,Yes,?,?,?,?,Yes,?,Yes,Yes,?
-Microsoft Office Outlook,Yes,No,Yes,No,No,No,No,No,No,?,No,No,Yes,No,?
-Mozilla Mail & Newsgroups,Yes,?,?,Yes,?,Yes,?,?,?,?,?,?,?,?,?
-Mozilla Thunderbird,Yes,Yes,Yes,No,Yes,Yes,No,No,No[27],?,Yes,No,Yes,Yes,Yes
-Mulberry,Yes,Yes,Yes,No,No,Yes,No,No,Yes,?,No,No,Yes,Yes,?
-Mutt,Yes,Yes,Yes,?,Yes,Yes,No,No,Yes,?,No,No,1.5.15,Yes,1.10.1
-Netscape Messenger,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Netscape Messenger 9,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-nmh / MH,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Opera Mail,Yes,Yes,No,No,Yes,Yes,No,?,?,?,No,No,Yes,Yes,?
-Outlook Express,Yes,No,Yes,No,No,No,No,No,No,?,No,No,Yes,No,?
-Pegasus Mail,Yes,?,No,No,Yes,No,No,No,No,?,No,No,Yes,Yes,?
-Pine,Yes,Yes,No,No,No,Yes,No,No,No,?,No,No,Yes,No,?
-Pocomail,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-RoundCube,Yes,Yes,?,?,Yes,Yes,Yes,?,Yes,?,Yes,?,Yes,?,?
-SeaMonkey Mail & Newsgroups,Yes,Yes,Yes,No,Yes,Yes,No,No,No[27],?,Yes,No,Yes,Yes,?
-SquirrelMail,Yes,Yes,?,?,Yes,Yes,Yes,?,Yes,?,Yes,?,Yes,?,?
-Sylpheed,Yes,Yes,No,No,Yes,Yes,No,No,No,?,No,No,Yes,No,No
-The Bat!,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,?,Yes [Note 5],Yes [Note 5],Yes,No,Yes
-Trojitá,Yes,No,No,No,No,No,No,No,No,?,No,No,Yes,No,?
-Turnpike,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Windows Live Mail,Yes,No,Yes,No,Yes,No,No,No,No,?,No,No,No,No,No
-Windows Mail,?,?,?,?,?,?,?,?,?,?,?,?,?,?,Yes [Note 6]
-YAM,Yes,Yes,?,?,Yes,Yes,?,?,?,?,?,?,Yes,AmiSSL,?
-Zimbra,Yes,Yes,?,?,Yes,Yes,?,?,?,?,Yes,?,Yes [Note 7],?,?
-Client,Regular,,MSN (NTLM) browser login,Compuserve (RPA),MD5 APOP [Note 1],CRAM-HMAC [Note 2],,,DIGEST-MD5,SCRAM,with hardware token PKCS#11,Biometric,SMTP Auth [Note 3],SSL/TLS Client Certificate,OAUTH
-,LOGIN,PLAIN,,,,MD5,SHA1,RIPEMD,,,,,,,
-=======
-Client,Label messages,,,,Reformat received messages,,Bi-directional text support,Composing messages,,,Native images preview,,,,,Postpone / scheduled message sending,Native documents preview,,,,,,
-,with colors,with flag,antidelete,add note,"edit headers (e.g., Subject)",forced recode [Note 1],,Spell checking,Signatures,Bottom-posts replies,jpeg,gif,bmp,png,others,,txt,pdf,doc,xls,odt,ods,others
-Alpine,Yes,Yes,?,?,?,?,?,Yes,Yes,?,?,?,?,?,?,Yes,Yes,?,?,?,?,?,?
-Becky! Internet Mail,Yes,Yes,?,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
-Citadel,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Claws Mail,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,with a plugin,?,?,?,?,?
-Cone,Yes,Yes,Yes,No,?,?,?,Yes,No,?,No,No,No,No,No,?,?,?,?,?,?,?,?
-Courier,Yes,Yes,No,No,Yes,?,?,Yes,Yes,?,No,No,No,No,No,Yes,?,No,No,No,No,No,?
-Elm,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-eM Client,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?
-EmailTray,Yes,No,No,No,No,No,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,No,Yes,Yes,Yes,Yes,No,No,?
-Eudora,Yes,Yes,No,No,Yes,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,QuickTime,Yes,?,?,?,?,?,?,?
-Evolution,Yes,Yes,?,?,No,?,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
-Gnus,Yes,Yes,Yes,?,?,?,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,XPM,Yes,?,?,?,?,?,?,?
-GroupWise,Yes,Yes,Yes,Yes,Yes,?,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
-Hiri,Yes,Yes,No,Yes,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,No
-i.Scribe / InScribe,Yes,No,No,Yes,No,No,No,Yes [Note 2],Yes,Yes,Yes [Note 3],Yes,Yes,Yes [Note 4],"ICO, TIFF",Yes,No,No,No,No,No,No,No
-HCL Notes,Yes,Yes,?,?,Yes,?,?,Yes,Yes,?,Yes,Yes,Yes,No,"CGM, Lotus PIC, PCX, TIFF",?,Yes,Yes,Yes,Yes,?,?,?
-KMail,Yes[32],Yes,No,Yes,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
-Mailbird,Yes,Yes,?,Yes,?,?,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,No,No,?
-Mailpile,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Microsoft Entourage,Yes,Yes,?,Yes[Note 5],?,?,?,Yes,Yes,?,Yes,Yes,?,Yes,?,?,?,Yes,?,?,?,?,?
-Microsoft Office Outlook,Yes,Yes,No,Yes,Yes,?,?,Yes,Yes,No,Yes,Yes,Yes,Yes,?,Yes,Yes,with a plugin,Yes,Yes,2010,2010,PowerPoint
-Mozilla Mail & Newsgroups,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Mozilla Thunderbird,Yes,Yes,?,?,with a plugin[33],?,?,Yes,Yes,Yes [Note 6],Yes,Yes,Yes,Yes,ICO,Yes [Note 7],Yes,Yes,No,No,No,No,No
-Mulberry,?,Yes,?,?,?,?,?,Yes,Yes,?,No,No,No,No,No,?,?,?,?,?,?,?,?
-Mutt,Yes,Yes,No,No,Yes,?,?,Yes,Yes,?,No,No,No,No,No,postpone,?,?,?,?,?,?,?
-Netscape Messenger,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Netscape Messenger 9,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-nmh / MH,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-Opera Mail,Yes,Yes,No,No,?,?,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,"APNG, ICO, SVG, WBMP, XBM, WebP",No,No,No,No,No,No,No,No
-Outlook Express,No,Yes,No,No,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,"ICO, art",?,?,?,?,?,?,?,?
-Pegasus Mail,Yes,Yes,Yes,Yes,in index,No,No,Yes,Yes,No [Note 8],Yes,Yes,Yes,Yes,TIFF,N/A,Yes,No,No,No,No,No,"RTF, HTML"
-Pine,Yes,Yes,?,?,No,with a patch [Note 9],?,Yes [Note 10],Yes,?,No,No,No,No,No,?,?,?,?,?,?,?,?
-Pocomail,Yes,Yes,?,Yes,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
-RoundCube,Yes,Yes,Yes,Yes,?,?,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,Yes,Yes,Yes,Yes,Yes,Yes,?
-SeaMonkey Mail & Newsgroups,Yes,Yes,No,No,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
-SquirrelMail,Yes,Yes,Yes,Yes,?,?,Yes,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,Yes,Yes,Yes,Yes,Yes,Yes,?
-Sylpheed,Yes,Yes,No,No,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,Yes,No,No,No,No,No,?
-The Bat!,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,"ICO, emf",Yes,Yes,No,No,No,No,No,No
-Trojitá,No,Yes,?,?,No,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes
-Turnpike,Yes,?,?,No,?,?,?,Yes,Yes,?,Yes,Yes,Yes,No,?,?,?,?,?,?,?,?,?
-Windows Live Mail,No,Yes,No,No,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
-Windows Mail,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?
-YAM,No,No,No,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Zimbra,Yes,Yes,Yes,Yes,?,?,?,Yes,Yes,?,Yes,Yes,Yes,Yes,?,?,?,?,?,?,?,?,?
-Client,Label messages,,,,Reformat received messages,,Bi-directional text support,Composing messages,,,Native images preview,,,,,Postpone/?scheduled message sending,Native documents preview,,,,,,
-,with colors,with flag,antidelete,add note,"edit headers (e.g., Subject)",forced recode [Note 1],,Spell checking,Signatures,Bottom-posts replies,jpeg,gif,bmp,png,others,,txt,pdf,doc,xls,odt,ods,others
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Client,Microsoft Windows,macOS,Linux,BSD,Unix,DOS,Other
+Alpine,Yes,Yes,Yes,Yes,Yes,No,No
+Apple Mail,No,Yes,No,No,No,No,No
+Balsa,No,No,Yes,Yes,No,No,No
+Becky! Internet Mail,Yes,No,No,No,No,No,No
+Citadel,No,Yes,Yes,Yes,Yes,No,No
+Claws Mail,Yes,Yes,Yes,Yes,Yes,No,No
+Cone,No,Yes,Yes,Yes,Yes,No,No
+Courier,Yes,No,No,No,No,No,No
+Elm,No,Yes,Yes,Yes,Yes,No,No
+eM Client,Yes,Yes,No,No,No,No,No
+EmailTray,Yes,No,No,No,No,No,No
+Eudora,Yes,Yes,No,No,No,No,No
+Evolution,No [Note 1],No,Yes,Yes,Yes,No,No
+Forté Agent,Yes,No,No,No,No,No,No
+Geary,No,No,Yes,Yes,Yes,No,No
+Gnus,Yes,Yes,Yes,Yes,Yes,Yes,No
+GroupWise,Yes,Yes,Yes,Yes,No,No,No
+Hiri,Yes,Yes,Yes,No,Yes,No,No
+i.Scribe / InScribe,Yes,Yes,Yes,No,No,No,No
+IBM Lotus Notes,Yes,Yes,Yes,No,Yes,No,No
+IMP,Yes,Yes,Yes,Yes,Yes,No,No
+KMail,No,Yes,Yes,Yes,Yes,No,No
+Mailbird,Yes,No,No,No,No,No,No
+Mailpile,Yes [Note 2],Yes [Note 2],Yes,Yes [Note 3],Yes [Note 3],No [Note 4],No [Note 4]
+mailx,No,No,Yes,Yes,Yes,No,No
+Microsoft Entourage,No,Terminated (2008),No,No,No,No,No
+Microsoft Office Outlook,Yes,Yes,No,No,No,No,No
+Mozilla Mail & Newsgroups,Terminated (1.7.13),,,,,No,No
+Mozilla Thunderbird,Yes,Yes,Yes,Yes,Yes,No,No
+Mulberry,Yes,Yes,Yes,Yes,Yes,No,No
+Mutt,Yes,Yes,Yes,Yes,Yes,Yes[23],No
+Netscape Messenger,Terminated (4.80),,,,,No,No
+Netscape Messenger 9,Terminated (9.0a1),,,,,No,No
+nmh / MH,No,Yes,Yes,Yes,Yes,No,No
+Opera Mail,Yes,Yes,Yes,Yes,?,No,No
+Outlook Express,Included (up to XP),No,No,No,No,No,No
+Pegasus Mail,Yes,No,No,No,No,Yes,NetWare NLM
+Pine,Yes,Yes,Yes,Yes,Yes,Terminated (3.96)[24],No
+Pocomail,Yes,No,No,No,No,No,No
+RoundCube,Yes,Yes,Yes,Yes,Yes,No,No
+SeaMonkey Mail & Newsgroups,Yes,Yes,Yes,Yes,Yes,No,No
+Spicebird,Yes,planned,Yes,Yes,No,No,No
+SquirrelMail,Yes,Yes,Yes,Yes,Yes,No,No
+Sylpheed,Yes,Yes,Yes,Yes,Yes,No,No
+The Bat!,Yes,No,No,No,No,No,No
+Trojitá,Yes,Yes,Yes,Yes,Yes,No,MeeGo
+Turnpike,Yes,No,No,No,No,No,No
+Windows Live Mail,Yes,No,No,No,No,No,No
+Windows Mail,Included (Vista),No,No,No,No,No,No
+YAM,No,No,No,No,No,No,AmigaOS AROS MorphOS
+Zimbra,Yes,Yes,Yes,Yes,Yes,No,No
+Client,Microsoft Windows,macOS,Linux,BSD,Unix,DOS,Other

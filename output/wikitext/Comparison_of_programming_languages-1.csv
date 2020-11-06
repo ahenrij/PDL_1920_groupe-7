@@ -111,7 +111,7 @@ Rebol,Distributed,,,,,,,,dialected,
 REXX,Scripting,,,,,,,,,1996 (ANSI X3.274-1996)
 RPG,"Application, system",,,,,,,,,
 Ruby,"Application, scripting, web",,,,,,,,aspect-oriented,"2011(JIS X 3017), 2012(ISO/IEC 30170)"
-Rust,"Application, system",,,,,,,,concurrent,
+Rust,"Application, server-side, system, web",,,,,,,,concurrent,
 S,"Application, statistics",,,,,,,,,
 S-Lang,"Application, numerical, scripting",,,,,,,,,
 Scala,"Application, distributed, web",,,,,,,,,De facto standard via Scala Language Specification (SLS)

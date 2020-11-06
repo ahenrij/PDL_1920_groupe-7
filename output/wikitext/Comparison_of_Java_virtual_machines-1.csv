@@ -1,35 +1,15 @@
-<<<<<<< HEAD
-JVM,Status,Latest supported Java version,Supported class libraries,,,Performance,,
-,,,GNU Classpath,OpenJDK,Other,Interpretation,AOT,JIT
-GCJ,No longer maintained or distributed by GNU as of GCC 7 [14],,,,,,,
-"HotSpot, OpenJDK edition",Reference implementation.,1.8,,,,,,
-"HotSpot, Oracle JDK edition",Reference implementation.,1.8,,,,,,
-"HotSpot, Java SE embedded edition",,,,,,,,
-"HotSpot, Zero port",Interpreter-only port of OpenJDK using almost no assembly language and designed to be very portable.,1.7,,,,,,
-IKVM.NET,,,,,,Whatever the .NET runtime uses,,
-JAmiga,,1.4[15],,,,,,
-JamVM,,1.8[18],,,,,,
-Jato VM,,1.6[20],,,,,,
-JC virtual machine,Translates Java to C and compiles it with a C compiler.,1.4[22],,,,,,
-Jikes RVM,,1.6[25],,Port[27][28],Apache Harmony[26],,,
-Kaffe,,1.4[11],,,,,,
-Mysaifu JVM,,,,,,,,
-SableVM,Unmaintained,1.4,,,,,,
-=======
-Name,Creator,First public release,Latest stable version,Latest release date,"Cost, availability",License
-Eclipse OpenJ9 (formerly IBM J9),IBM,"14 October 2001 Unrelated to [IBM's] Jikes RVM? If not completely, may share same start date. -->",0.8.0,15 March 2018[1],,Apache License 2.0 Eclipse Public License 2.0
-GCJ,GNU,6 September 1998,6.4 (Terminal),4 July 2017,,"GPL version 2 or later, with the "libgcc exception"[2]"
-"HotSpot, OpenJDK edition","Sun Microsystems, Oracle",27 April 1999,,21 September 2017,,GPL version 2 only
-"HotSpot, Oracle JDK edition","Sun Microsystems, Oracle",27 April 1999,,September 2017,,
-"HotSpot, Java SE embedded edition","Sun Microsystems, Oracle",27 April 1999,,,Commercial,
-"HotSpot, Zero port",Gary Benson[4],,,,,GPL version 2 only
-IKVM.NET,Jeroen Frijters,28 June 2004,7.0.4335.0,5 December 2011,,zlib License[5]
-JAmiga,"Peter Werno, Joakim Nordström",19 May 2005[6],1.2,6 January 2014,,GPL version 2 or later
-JamVM,Robert Lougher,13 March 2003,2.0.0,30 July 2014,,GPL version 2 or later
-Jato VM,Pekka Enberg and contributors[7],,0.3[8],4 January 2012[8],,GPL version 2 only[7]
-JC virtual machine,Archie L. Cobbs,,1.4.7,13 November 2005,,LGPL version 2.1 or later
-Jikes RVM,IBM,14 October 2001,3.1.4[9],18 February 2016[9],,Eclipse Public License version 1.0[10]
-Kaffe,Transvirtual Technologies,1996,1.1.9,22 February 2008,,GPL version 2 or later[11]
-Mysaifu JVM,,16 April 2005[12],0.4.8[12],5 March 2010[12],,GPL version 2 only[12]
-SableVM,Sable Research Group,,1.13,30 March 2007[13],,LGPL version 2.1 or later
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+JVM,Windows,Linux,FreeBSD,NetBSD,OpenBSD,Solaris,OpenSolaris,Darwin,macOS,iOS,BeOS,Haiku,AIX,IRIX,OS/2,Windows Mobile,AmigaOS,Other
+GCJ,,,,,,,,,,,,,,,,,,"DEC OSF 4.0f and 5.1, Hitachi SH-3/4 micro-controller[32]"
+"HotSpot, OpenJDK edition",,,Port[44],Port[44],Port[44],,,,,,,Port[47],Port[36],,Port[48],,,
+"HotSpot, Oracle JDK edition",,,,,,,,,,,,,,,,,,
+"HotSpot, Java SE embedded edition",,,,,,,,,,,,,,,,,,
+"HotSpot, Zero port",,,,,,,,,,,,,,,,,,
+IKVM.NET,Any operating system with a .NET framework,,,,,,,,,,,,,,,,,
+JAmiga,,,,,,,,,,,,,,,,,,
+JamVM,,,,,,,,,,On Jailbroken iPhone[19],,,,,,,,kFreeBSD
+Jato VM,,,,,,,,Under development[39],,,,,,,,,,
+JC virtual machine,,,,,,,,,,,,,,,,,,
+Jikes RVM,,,,,,,,,,,,,,,,,,
+Kaffe,Using Cygwin[11],,,,,,,,,,,,,,,,,Many others[11]
+Mysaifu JVM,,,,,,,,,,,,,,,,,,
+SableVM,Using Cygwin[42],,,,,,,,,,,,,,,,,

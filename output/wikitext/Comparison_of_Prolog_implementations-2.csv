@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Name,Type checker,Determinacy checker,Call-pattern checker
 Ciao,,,
 GNU Prolog,,,
@@ -8,15 +7,3 @@ SWI-Prolog,,,
 Visual Prolog,,,
 XSB,,,
 YAP-Prolog,,,
-=======
-Name,Tail-Call Optimization,Choice Point Elimination,Environment Trimming,Just-in-Time Indexing
-Ciao,Yes,Yes,Yes,?
-ECLiPSe,Yes,Yes,Yes,multi-argument (compile time)
-GNU Prolog,Yes,Yes,Yes,?
-Jekejeke Prolog,Yes (runtime),Yes (runtime),Yes (runtime),Yes
-SICStus Prolog,Yes,Yes,Yes,
-SWI-Prolog,Yes,Yes,Yes,Yes
-Visual Prolog,Yes (compile time),Yes (compile time),,N/A (compile time)
-XSB,Yes,Yes,Yes,?
-YAP-Prolog,Yes,Yes,Yes,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

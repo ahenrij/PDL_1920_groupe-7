@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Chart type / Framework,,Adobe Flex built-in charts,Axiis,BirdEye,Flare,Flexmonster,IBM ILOG Elixir,Kap IT Labs,yFiles,amCharts,AnyChart,LiveGap Chart
 Cost,,,,,,,",",,,,
 License,,MPL,MIT,MIT,BSD,,,,,,,
@@ -38,15 +37,3 @@ Dependency graphs,,,,,,,,,,,,
 Nomograms,Smith chart,,,,,,,,,,,
 Organizational charts,,,,,,,,,,,,
 Flow charts,,,,,,,,,,,,
-=======
-Feature / Framework,Adobe Flex built-in charts,Axiis,BirdEye,Flare,Flexmonster,IBM ILOG Elixir,Kap IT Labs,yFiles,amCharts
-3D charts,,,,,,,,,
-"Rotate, zoom chart in 3D",,,,,,,,,
-Show-up & other animation effects,,,,,,,,,
-Interactive legend,Via customization,,,,,Via customization,,,
-Show total values over the bars,,,,,,,,,
-String formater for labels,,,,,,,,,
-Ability to define custom color for each bar (chart item),,,,,,,,,
-Combined charts,,,,,,,,,
-Multiple axis,,,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

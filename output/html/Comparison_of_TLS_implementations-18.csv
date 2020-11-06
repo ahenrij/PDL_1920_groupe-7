@@ -1,36 +1,17 @@
-<<<<<<< HEAD
-Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine
-Botan,No,No,No,No,Partial
-cryptlib,No,No,No,No,No
-GnuTLS,Yes,No,No,No,No
-JSSE,No,No,Yes,No,No
-LibreSSL,No,No,No,No,No[223]
-MatrixSSL,No,No,No,Yes,Yes
-Mbed TLS,No,No,No,No,No
-NSS,No,No,No,No,No
-OpenSSL,Yes,Yes,No,No,Yes
-RSA BSAFE,No,No,No,No,No
-SChannel,No,No,Yes,No,No
-Secure Transport,No,No,No,Yes,No
-wolfSSL,Yes,Yes,Partial,No,No
-Erlang/OTP SSL application,No,No,No,No,Yes
-Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine
-=======
-Implementation,Application-defined,PKIX path validation[107],CRL[108],OCSP[109],DANE (DNSSEC)[110],Trust on First Use (TOFU),CAA[111],CT[112]
-Botan,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-Bouncy Castle,Yes,Yes,Yes,Yes,Yes,No,Unknown,Unknown
-cryptlib,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-GnuTLS,Yes,Yes,Yes,Yes,Yes,Yes,Unknown,Unknown
-JSSE,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-LibreSSL,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-MatrixSSL,Yes,Yes,Yes,Yes[113],No,No,Unknown,Unknown
-Mbed TLS,Yes,Yes,Yes,No[114],No,No,Unknown,Unknown
-NSS,Yes,Yes,Yes,Yes,No[115],No,Unknown,Unknown
-OpenSSL,Yes,Yes,Yes,Yes,Yes,No,Unknown,Yes
-RSA BSAFE,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-SChannel,Unknown,Yes,Yes[116],Yes[116],No,No,Unknown,Unknown
-Secure Transport,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-wolfSSL,Yes,Yes,Yes,Yes,No,No,Unknown,Unknown
-Erlang/OTP SSL application,Yes,Yes,Yes,No,No,No,Unknown,Unknown
-Implementation,Application-defined,PKIX path validation,CRL,OCSP,DANE (DNSSEC),Trust on First Use (TOFU),CAA,CT
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Implementation,PKCS #11 device,Intel AES-NI,VIA PadLock,ARMv8-A,Intel SGX,Intel QAT,Intel SHA
+Botan,Yes[208],Yes,No,Yes,No,No,
+cryptlib,Yes,Yes,Yes,No,,No,
+Crypto++,,Yes,,,,No,Yes
+GnuTLS,Yes,Yes,Yes,Yes[209],No,No,
+JSSE,Yes,Yes[210],No,No,,No,
+LibreSSL,No,Yes,Yes,No,,No,
+MatrixSSL,Yes,Yes,No,Yes,,No,
+Mbed TLS,Yes,Yes[211],Yes,No,,No,
+NSS,Yes[212],Yes[213],No[214],No,,No,
+OpenSSL,Yes[215],Yes,Yes,Yes[216],,No,Yes
+RSA BSAFE Micro Edition Suite,Yes,Yes,No,Yes,No,No,Yes
+RSA BSAFE SSL-J [a][b],Yes,Yes,No,Yes,No,No,Yes
+SChannel,No,Yes,No,No,,No,
+Secure Transport,No,Yes[219][220],No,Yes,,No,
+wolfSSL,Yes,Yes,No,Yes,Yes,Yes[221],
+Implementation,PKCS #11 device,Intel AES-NI,VIA PadLock,ARMv8-A,Intel SGX,Intel QAT,Intel SHA

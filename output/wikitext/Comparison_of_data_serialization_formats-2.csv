@@ -1,60 +1,134 @@
-<<<<<<< HEAD
-Name,Creator-maintainer,Based on,Standardized?,Specification,Binary?,Human-readable?,Supports references?stdrefse,Schema-IDL?,Standard APIs,Supports Zero-copy operations
-Apache Avro,Apache Software Foundation,,,Apache Avro™ Specification,,avrojsonj,,,"C, C#, C++, Java, PHP, Python, Ruby",
-Apache Parquet,Apache Software Foundation,,,Apache Parquet[1],,,,,"Java, Python, C++",
-ASN.1,"ISO, IEC, ITU-T",,,ISO/IEC 8824; X.680 series of ITU-T Recommendations,",",asn1refsf,,,
-Bencode,"Bram Cohen (creator) BitTorrent, Inc. (maintainer)",, De facto standard via BitTorrent Enhancement Proposal (BEP),Part of BitTorrent protocol specification,Partially (numbers and delimiters are ASCII),,,,,
-Binn,Bernardo Ramos,,,Binn Specification,,,,,,
-BSON,MongoDB,JSON,,BSON Specification,,,,,,
-CBOR,"Carsten Bormann, P. Hoffman",JSON (loosely),,RFC 7049,,,,,,
-Comma-separated values (CSV),RFC author: Yakov Shafranovich,,,RFC 4180 (among others),,,,,,
-Common Data Representation (CDR),Object Management Group,,,General Inter-ORB Protocol,,,,,"ADA, C, C++, Java, Cobol, Lisp, Python, Ruby, Smalltalk",
-D-Bus Message Protocol,freedesktop.org,,,D-Bus Specification,,,,,,
-Extensible Data Notation (EDN),Cognitect,JSON (loosely),,EDN Specification,,,,,,
-Efficient XML Interchange (EXI),W3C,"XML, Efficient XML",,Efficient XML Interchange (EXI) Format 1.0,,,",,",
-FlatBuffers,Google,,,flatbuffers github page Specification,,,,,"C++, Java, C#, Go, Python, Rust, JavaScript, PHP, C, Dart, Lua, TypeScript",
-Fast Infoset,"ISO, IEC, ITU-T",XML,,ITU-T X.891 and ISO/IEC 24824-1:2007,,,",,",
-FHIR,Health Level 7,REST basics,,Fast Healthcare Interoperability Resources,,,,,"Hapi for FHIR[1] JSON, XML, Turtle",
-Ion,Amazon,JSON,,The Amazon Ion Specification,,,,,,
-Java serialization,Oracle Corporation,,,Java Object Serialization,,,,,,
-JSON,Douglas Crockford,JavaScript syntax,,"STD 90/RFC 8259 (ancillary: RFC 6901, RFC 6902), ECMA-404, ISO/IEC 21778:2017",",,",",",
-MessagePack,Sadayuki Furuhashi,JSON (loosely),,MessagePack format specification,,,,,,
-Netstrings,Dan Bernstein,,,netstrings.txt,Partially (delimiters are ASCII),,,,,
-OGDL,Rolf Veen,,,Specification,,,,,,
-OPC-UA Binary,OPC Foundation,,,opcfoundation.org,,,,,,
-OpenDDL,Eric Lengyel,"C, PHP",,OpenDDL.org,,,,,,
-PHP serialization format,PHP Group,,,,,,,,,
-Pickle (Python),Guido van Rossum,Python, De facto standard via Python Enhancement Proposals (PEPs),[3] PEP 3154 -- Pickle protocol version 4,,,,,,
-Property list,NeXT (creator) Apple (maintainer),,,Public DTD for XML format,plbina,pltxtb,,,"Cocoa, CoreFoundation, OpenStep, GnuStep",
-Protocol Buffers (protobuf),Google,,,Developer Guide: Encoding,,pbtextformatd,,,"C++, Java, C#, Python, Go, Ruby, Objective-C, C, Dart, Perl, PHP, R, Rust, Scala, Swift, Julia, Erlang, D, Haskell, Action Script, Delphi, Elixir, Elm, Erlang, GopherJS, Haskell, Haxe, JavaScript, Kotlin, Lua, Matlab, Mercurt, OCaml, Prolog, Solidity, Typescript, Vala, Visual Basic",
-Ethereum Recursive Length Prefix (RLP),Ethereum,,,Specification,,,,,"Erlang, Go, Java, Javascript, Kotlin, Objective-C, Python, Swift, PHP",
-S-expressions,John McCarthy (original) Ron Rivest (internet draft),"Lisp, Netstrings",,"S-Expressions" Internet Draft,,,,,,
-Smile,Tatu Saloranta,JSON,,Smile Format Specification,,,,",",
-SOAP,W3C,XML,,W3C Recommendations: SOAP/1.1 SOAP/1.2,"Efficient XML Interchange, Binary XML, Fast Infoset, MTOM, XSD base64 data)",,",",",
-Structured Data eXchange Formats,Max Wildgrube,,,RFC 3072,,,,,,
-Apache Thrift,Facebook (creator) Apache (maintainer),,,Original whitepaper,,thrifttxtc,,,"C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, JavaScript, Node.js, Smalltalk, OCaml, Delphi and other languages[2]",
-UBJSON,"The Buzz Media, LLC","JSON, BSON",,[5],,,,,,
-eXternal Data Representation (XDR),Sun Microsystems (creator) IETF (maintainer),,,STD 67/RFC 4506,,,,,,
-XML,W3C,SGML,,W3C Recommendations: 1.0 (Fifth Edition) 1.1 (Second Edition),"Efficient XML Interchange, Binary XML, Fast Infoset, XSD base64 data)",,",",",
-XML-RPC,Dave Winer[3],XML,,XML-RPC Specification,,,,,,
-YAML,"Clark Evans, Ingy döt Net, and Oren Ben-Kiki","C, Java, Perl, Python, Ruby, Email, HTML, MIME, URI, XML, SAX, SOAP, JSON[4]",,Version 1.2,,,,",,
-Name,Creator-maintainer,Based on,Standardized?,Specification,Binary?,Human-readable?,Supports references?stdrefse,Schema-IDL?,Standard APIs,Supports Zero-copy operations
-=======
-Format,Null,Booleans,Integer,Floating-point,String,Array,Associative array/Object
-"ASN.1 (BER, PER or OER encoding)",NULL type,BOOLEAN: BER: as 1 byte in binary form; PER: as 1 bit; OER: as 1 byte,"INTEGER: BER: variable-length big-endian binary representation (up to 2^(2^1024) bits); PER Unaligned: a fixed number of bits if the integer type has a finite range; a variable number of bits otherwise; PER Aligned: a fixed number of bits if the integer type has a finite range and the size of the range is less than 65536; a variable number of octets otherwise; OER: one, two, or four octets (either signed or unsigned) if the integer type has a finite range that fits in that number of octets; a variable number of octets otherwise","REAL: base-10 real values are represented as character strings in ISO 6093 format; binary real values are represented in a binary format that includes the mantissa, the base (2, 8, or 16), and the exponent; the special values NaN, -INF, +INF, and negative zero are also supported","Multiple valid types (VisibleString, PrintableString, GeneralString, UniversalString, UTF8String)",data specifications SET OF (unordered) and SEQUENCE OF (guaranteed order),user definable type
-Binn,\x00,True: \x01 False: \x02,big-endian 2's complement signed and unsigned 8/16/32/64 bits,single: big-endian binary32 double: big-endian binary64,"UTF-8 encoded, null terminated, preceded by int8 or int32 string length in bytes",Typecode (one byte) + 1-4 bytes size + 1-4 bytes items count + list items,Typecode (one byte) + 1-4 bytes size + 1-4 bytes items count + key/value pairs
-BSON,\x0A (1 byte),True: \x08\x01 False: \x08\x00 (2 bytes),int32: 32-bit little-endian 2's complement or int64: 64-bit little-endian 2's complement,double: little-endian binary64,"UTF-8 encoded, preceded by int32 encoded string length in bytes",BSON embedded document with numeric keys,BSON embedded document
-Concise Binary Object Representation (CBOR),\xf6 (1 byte),True: \xf5 False: \xf4 (1 byte),"Small positive/negative \x00-\x17 & \x20-\x37 (1 byte) 8-bit: positive \x18, negative \x38 (+1 byte) 16-bit: positive \x19, negative \x39 (+2 bytes) 32-bit: positive \x1A, negative \x3A (+4 bytes) 64-bit: positive \x1B, negative \x3B (+8 bytes) Negative x encoded as (-x-1)",IEEE half/single/double \xf9 - \xfb (+2-8 bytes) Decimals and bigfloats (4+ bytes) encoded as \xc4 tag + 2-item array of integer mantissa & exponent,Length and content (1-9 bytes overhead) Bytestring \x40 - \x5f UTF-8 \x60 - \x7f Indefinite partial strings \x5f and \x7f stitched together until \xff.,Length and items \x80 - \x9e Indefinite list \x9f terminated by \xff entry.,Length (in pairs) and items \xa0 - \xbe Indefinite map \xbf terminated by \xff key.
-"Efficient XML Interchange (EXI)group=binary Any XML based representation can be compressed, or generated as, using EXI - Efficient XML Interchange, which is a "Schema Informed" (as opposed to schema-required, or schema-less) binary compression standard for XML. (Unpreserved lexical values format)",xsi:nil is not allowed in binary context,1-2 bit integer interpreted as boolean.,"Boolean sign, plus arbitrary length 7-bit octets, parsed until most-significant bit is 0, in little-endian. The schema can set the zero-point to any arbitrary number. Unsigned skips the boolean flag.","Float: integer mantissa and integer exponent. Decimal: boolean sign, integer whole value, integer fractional",Length prefixed Integer-encoded Unicode. Integers may represent enumerations or string table entries instead.,Length prefixed set of items.,Not in protocol.
-FlatBuffers,Encoded as absence of field in parent object,True: one byte \x01 False: \x00,little-endian 2's complement signed and unsigned 8/16/32/64 bits,floats: little-endian binary32 doubles: little-endian binary64,"UTF-8 encoded, preceded by 32 bit integer length of string in bytes","Vectors of any other type, preceded by 32 bit integer length of number of elements",Tables (schema defined types) or Vectors sorted by key (maps / dictionaries)
-Ion[17],"\x0fgroup=binary All basic Ion types have a null variant, as its 0xXf tag. Any tag beginning with 0x0X other than 0x0f defines ignored padding.",True: \x11 False: \x10,"positive \x2x, negative \x3x Zero is always encoded in tag byte BigInts over 13 bytes (104 bits) have 1+ byte overhead for length",\x44 (32-bit float) \x48 (64-bit float) Zero is always encoded in tag byte,UTF-8: \x8x Other strings: \x9x Arbitrary length and overhead,\xbx Arbitrary length and overhead. Length in octets.,Structs (numbered fields): \xdx Annotations (named fields): \xex
-MessagePack,\xc0,True: \xc3 False: \xc2,Single byte "fixnum" (values -32..127) or typecode (one byte) + big-endian (u)int8/16/32/64,Typecode (one byte) + IEEE single/double,Typecode + up to 15 bytes or typecode + length as uint8/16/32 + bytes; encoding is unspecified[18],As "fixarray" (single-byte prefix + up to 15 array items) or typecode (one byte) + 2–4 bytes length + array items,As "fixmap" (single-byte prefix + up to 15 key-value pairs) or typecode (one byte) + 2–4 bytes length + key-value pairs
-Netstringsgroup=binary Interpretation of Netstrings is entirely application- or schema-dependent,Not in protocol.,Not in protocol.,Not in protocol.,"Length encoded as an ASCII string + ':' + data + ',' Length counts only octets between ':' and ','",Not in protocol.,Not in protocol.,Not in protocol.
-OGDL Binary,,,,,,,
-Property list (binary format),,,,,,,
-Protocol Buffers,,,Variable encoding length signed 32-bit: varint encoding of "ZigZag"-encoded value (n << 1) XOR (n >> 31) Variable encoding length signed 64-bit: varint encoding of "ZigZag"-encoded (n << 1) XOR (n >> 63) Constant encoding length 32-bit: 32 bits in little-endian 2's complement Constant encoding length 64-bit: 64 bits in little-endian 2's complement,floats: little-endian binary32 doubles: little-endian binary64,"UTF-8 encoded, preceded by varint-encoded integer length of string in bytes","Repeated value with the same tag or, for varint-encoded integers only, values packed contiguously and prefixed by tag and total byte length",
-Recursive Length Prefix,Not in protocol. \x80 (zero-length string) often used,Not in protocol. Integer 0/1 often used.,"0 - 127: \x00 - \x7f Other values: Strings of big-endian encoded bytes, of arbitrary length, beginning with \x80 - \xbf",Integer encodings may be interpreted as IEEE float.,"Length prefixed, up to 55 bytes: \x80 - \xb7 followed by data. 56+ bytes: \xb8 - \xbf followed by 1-8 byte integer length of string followed by data.","Length prefixed, up to 55 bytes: \xc0 - \xf7 followed by data. 56+ bytes: \xf8 - \xff followed by 1-8 byte integer length of data followed by data. Length is always in bytes, not in list items.",Not in protocol. May be encoded as lists of key/value pair lists or other formats.
-Smile,\x21,True: \x23 False: \x22,"Single byte "small" (values -16..15 encoded using \xc0 - \xdf), zigzag-encoded varints (1–11 data bytes), or BigInteger","IEEE single/double, BigDecimal","Length-prefixed "short" Strings (up to 64 bytes), marker-terminated "long" Strings and (optional) back-references",Arbitrary-length heterogenous arrays with end-marker,Arbitrary-length key/value pairs with end-marker
-Structured Data eXchange Formats (SDXF),,,big-endian signed 24-bit or 32-bit integer,big-endian IEEE double,either UTF-8 or ISO 8859-1 encoded,"list of elements with identical ID and size, preceded by array header with int16 length",chunks can contain other chunks to arbitrary depth
-Thrift,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Format,Null,Boolean true,Boolean false,Integer,Floating-point,String,Array,Associative array/Object
+ASN.1 (XML Encoding Rules),<foo />,<foo>true</foo>,<foo>false</foo>,<foo>685230</foo>,<foo>6.8523015e+5</foo>,<foo>A to Z</foo>,"<SeqOfUnrelatedDatatypes>
+    <isMarried>true</isMarried>
+    <hobby />
+    <velocity>-42.1e7</velocity>
+    <bookname>A to Z</bookname>
+    <bookname>We said, "no".</bookname>
+</SeqOfUnrelatedDatatypes>",An object (the key is a field name): <syntaxhighlight lang="xml"><person>
+   <isMarried>true</isMarried>
+   <hobby />
+   <height>1.85</height>
+   <name>Bob Peterson</name>
+ </person> A data mapping (the key is a data value): <competition>
+    <measurement>
+        <name>John</name>
+        <height>3.14</height>
+    </measurement>
+    <measurement>
+        <name>Jane</name>
+        <height>2.718</height>
+    </measurement>
+</competition> guessa
+CSVcsvguessb,nullguessa (or an empty element in the row)guessa,1guessa trueguessa,0guessa falseguessa,685230 -685230guessa,6.8523015e+5guessa,"A to Z "We said, ""no""."","true,,-42.1e7,"A to Z"","42,1
+A to Z,1,2,3"
+Format,Null,Boolean true,Boolean false,Integer,Floating-point,String,Array,Associative array/Object
+Ion,null null.null null.bool null.int null.float null.decimal null.timestamp null.string null.symbol null.blob null.clob null.struct null.list null.sexp,true,false,685230 -685230 0xA74AE 0b111010010101110,6.8523015e5,"A to Z" ''' A to Z ''',"[true, null, -42.1e7, "A to Z"]","{'42': true, 'A to Z': [1, 2, 3]}"
+Netstringsnetguessc,"0:,guessa 4:null,guessa","1:1,guessa 4:true,guessa","1:0,guessa 5:false,guessa","6:685230,guessa","9:6.8523e+5,guessa","6:A to Z,","29:4:true,0:,7:-42.1e7,6:A to Z,,","41:9:2:42,1:1,,25:6:A to Z,12:1:1,1:2,1:3,,,,guessa"
+JSON,null,true,false,685230 -685230,6.8523015e+5,"A to Z","[true, null, -42.1e7, "A to Z"]","{"42": true, "A to Z": [1, 2, 3]}"
+OGDLdate=September 2009,nullguessa,trueguessa,falseguessa,685230guessa,6.8523015e+5guessa,"A to Z" 'A to Z' NoSpaces,"true
+null
+-42.1e7
+"A to Z" (true, null, -42.1e7, "A to Z")","42
+  true
+"A to Z"
+  1
+  2
+  3 42
+  true
+"A to Z", (1, 2, 3)"
+Format,Null,Boolean true,Boolean false,Integer,Floating-point,String,Array,Associative array/Object
+OpenDDL,ref {null},bool {true},bool {false},int32 {685230} int32 {0x74AE} int32 {0b111010010101110},float {6.8523015e+5},string {"A to Z"},"Homogeneous array: int32 {1, 2, 3, 4, 5} Heterogeneous array: array
+{
+    bool {true}
+    ref {null}
+    float {-42.1e7}
+    string {"A to Z"}
+}","dict
+{
+    value (key = "42") {bool {true}}
+    value (key = "A to Z") {int32 {1, 2, 3}}
+}"
+PHP serialization format,N;,b:1;,b:0;,i:685230; i:-685230;,d:685230.15;phpfloatd d:INF; d:-INF; d:NAN;,s:6:"A to Z";,a:4:{i:0;b:1;i:1;N;i:2;d:-421000000;i:3;s:6:"A to Z";},Associative array: a:2:{i:42;b:1;s:6:"A to Z";a:3:{i:0;i:1;i:1;i:2;i:2;i:3; Object: O:8:"stdClass":2:{s:4:"John";d:3.14;s:4:"Jane";d:2.718;phpfloatd
+Pickle (Python),N.,I01\n.,I00\n.,I685230\n.,F685230.15\n.,S'A to Z'\n.,(lI01\na(laF-421000000.0\naS'A to Z'\na.,(dI42\nI01\nsS'A to Z'\n(lI1\naI2\naI3\nas.
+Property list (plain text format)[10],,<*BY>,<*BN>,<*I685230>,<*R6.8523015e+5>,"A to Z","( <*BY>, <*R-42.1e7>, "A to Z" )","{
+    "42" = <*BY>;
+    "A to Z" = ( <*I1>, <*I2>, <*I3> );
+}"
+Property list (XML format)[11][12],,<true />,<false />,<integer>685230</integer>,<real>6.8523015e+5</real>,<string>A to Z</string>,<array>
+    <true />
+    <real>-42.1e7</real>
+    <string>A to Z</string>
+</array>,<dict>
+    <key>42</key>
+    <true />
+    <key>A to Z</key>
+    <array>
+        <integer>1</integer>
+        <integer>2</integer>
+        <integer>3</integer>
+    </array>
+</dict>
+Protocol Buffers,,true,false,685230 -685230,20.0855369,"A to Z" "sdfff2 \000\001\002\377\376\375" "q\tqq<>q2&\001\377",field1: "value1"
+field1: "value2"
+field1: "value3
+ anotherfield {
+  foo: 123
+  bar: 456
+}
+anotherfield {
+  foo: 222
+  bar: 333
+},thing1: "blahblah"
+thing2: 18923743
+thing3: -44
+thing4 {
+  submessage_field1: "foo"
+  submessage_field2: false
+}
+enumeratedThing: SomeEnumeratedValue
+thing5: 123.456
+[extensionFieldFoo]: "etc"
+[extensionFieldThatIsAnEnum]: EnumValue
+Format,Null,Boolean true,Boolean false,Integer,Floating-point,String,Array,Associative array/Object
+S-expressions,NIL nil,T #tlispstdf true,NIL #flispstdf false,685230,6.8523015e+5,YWJj|,(T NIL -42.1e7 "A to Z"),((42 T) ("A to Z" (1 2 3)))
+YAML,~ null Null NULL[13],y Y yes Yes YES on On ON true True TRUE[14],n N no No NO off Off OFF false False FALSE[14],685230 +685_230 -685230 02472256 0x_0A_74_AE 0b1010_0111_0100_1010_1110 190:20:30[15],6.8523015e+5 685.230_15e+03 685_230.15 190:20:30.15 .inf -.inf .Inf .INF .NaN .nan .NAN[16],A to Z "A to Z" 'A to Z',"[y, ~, -42.1e7, "A to Z"] - y
+-
+- -42.1e7
+- A to Z","{"John":3.14, "Jane":2.718} 42: y
+A to Z: [1, 2, 3]"
+XMLxmlguesse and SOAP,<null />guessa,true,false,685230,6.8523015e+5,A to Z,<item>true</item>
+<item xsi:nil="true"/>
+<item>-42.1e7</item>
+<item>A to Z<item>,<map>
+  <entry key="42">true</entry>
+  <entry key="A to Z">
+    <item val="1"/>
+    <item val="2"/>
+    <item val="3"/>
+  </entry>
+</map>
+XML-RPC,,<value><boolean>1</boolean></value>,<value><boolean>0</boolean></value>,<value><int>685230</int></value>,<value><double>6.8523015e+5</double></value>,<value><string>A to Z</string></value>,<value><array>
+  <data>
+  <value><boolean>1</boolean></value>
+  <value><double>-42.1e7</double></value>
+  <value><string>A to Z</string></value>
+  </data>
+  </array></value>,<value><struct>
+  <member>
+    <name>42</name>
+    <value><boolean>1</boolean></value>
+    </member>
+  <member>
+    <name>A to Z</name>
+    <value>
+      <array>
+        <data>
+          <value><int>1</int></value>
+          <value><int>2</int></value>
+          <value><int>3</int></value>
+          </data>
+        </array>
+      </value>
+    </member>
+</struct>

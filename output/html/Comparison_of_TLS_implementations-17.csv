@@ -1,32 +1,14 @@
-<<<<<<< HEAD
-Implementation,brainpoolP256r1 (26)[152],brainpoolP384r1 (27)[152],brainpoolP512r1 (28)[152],X25519 [153],Curve448 Ed448-Goldilocks [154],M221 Curve2213 [155],E222 [155],Curve1174 [155],E382 [155],M383 [155],Curve383187 [155],Curve41417 Curve3617 [155],M511 Curve511187 [155],E521 [155]
-Botan,Yes[156],Yes[156],Yes[156],Yes[125],No,No,No,No,No,No,No,No,No,No
-BoringSSL,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No
-GnuTLS,No,No,No,Yes[157],No,No,No,No,No,No,No,No,No,No
-JSSE,No,No,No,Yes (JDK 13+)[158],No,No,No,No,No,No,No,No,No,No
-LibreSSL,Yes[41],Yes[41],Yes[41],Yes[159],No,No,No,No,No,No,No,No,No,No
-MatrixSSL,Yes,Yes,Yes,TLS 1.3 only[160],No,No,No,No,No,No,No,No,No,No
-Mbed TLS,Yes[161],Yes[161],Yes[161],Primitive only[162],Primitive only[163],No,No,No,No,No,No,No,No,No
-NSS,No[164],No[164],No[164],Yes[165],No,No,No,No,No,No,No,No,No,No
-OpenSSL,Yes[52],Yes[52],Yes[52],Yes[166][167],Yes[168][169],No,No,No,No,No,No,No,No,No
-RSA BSAFE,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-"SChannel Vista/2008, 7/2008R2, 8/2012, 8.1/2012R2, 10",No,No,No,No,No,No,No,No,No,No,No,No,No,No
-Secure Transport,No,No,No,No,No,No,No,No,No,No,No,No,No,No
-wolfSSL,Yes,Yes,Yes,Yes[170],No,No,No,No,No,No,No,No,No,No
-Erlang/OTP SSL application,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No
-Implementation,brainpoolP256r1 (26),brainpoolP384r1 (27),brainpoolP512r1 (28),Curve25519,Curve448 Ed448-Goldilocks,M221 Curve2213,E222,Curve1174,E382,M383,Curve383187,Curve41417 Curve3617,M511 Curve511187,E521
-=======
-Implementation,Platform requirements,Network requirements,Thread safety,Random seed,Able to cross-compile,No OS (bare metal),Supported operating systems
-Botan,C++11,None,Thread-safe,Platform-dependent,Yes,,"Windows, Linux, macOS, Android, iOS, FreeBSD, OpenBSD, Solaris, AIX, HP-UX, QNX, BeOS, IncludeOS"
-cryptlib,C89,POSIX send() and recv(). API to supply your own replacement,Thread-safe,"Platform-dependent, including hardware sources",Yes,Yes,"AMX, BeOS, ChorusOS, DOS, eCos, FreeRTOS/OpenRTOS, uItron, MVS, OS/2, Palm OS, QNX Neutrino, RTEMS, Tandem NonStop, ThreadX, uC/OS II, Unix (AIX, FreeBSD, HPUX, Linux, OS X, Solaris, etc.), VDK, VM/CMS, VxWorks, Win16, Win32, Win64, WinCE/PocketPC/etc, XMK"
-GnuTLS,C89,POSIX send() and recv(). API to supply your own replacement.,"Thread-safe, needs custom mutex hooks if neither POSIX nor Windows threads are available.",Platform dependent,Yes,No,"Generally any POSIX platforms or Windows, commonly tested platforms include GNU/Linux, Win32/64, OS X, Solaris, OpenWRT, FreeBSD, NetBSD, OpenBSD."
-JSSE,Java,Java SE network components,Thread-safe,Depends on java.security.SecureRandom,Yes,,"Java based, platform-independent"
-MatrixSSL,C89,None,Thread-safe,Platform dependent,Yes,Yes,All
-Mbed TLS,C89,POSIX read() and write(). API to supply your own replacement.,Threading layer available (POSIX or own hooks),Random seed set through entropy pool,Yes,Yes,"Known to work on: Win32/64, Linux, OS X, Solaris, FreeBSD, NetBSD, OpenBSD, OpenWRT, iPhone (iOS), Xbox, Android, SeggerOS"
-NSS,"C89, NSPR[228]",NSPR[228] PR_Send() and PR_Recv(). API to supply your own replacement.,Thread-safe,Platform dependent[229],Yes (but cumbersome),No,"AIX, Android, FreeBSD, NetBSD, OpenBSD, BeOS, HP-UX, IRIX, Linux, OS X, OS/2, Solaris, OpenVMS, Amiga DE, Windows, WinCE, Sony PlayStation"
-OpenSSL,C89,None,Thread-safe,Platform dependent,Yes,No,"Unix, DOS (with djgpp), Windows, OpenVMS, MacOS, NetWare, eCos"
-RSA BSAFE Micro Edition Suite,C89,None,Thread-safe,Platform dependent,Yes,No,"FreeBSD, Linux, macOS, Microsoft Windows, Android, iOS, AIX, Solaris"
-RSA BSAFE SSL-J,Java,Java SE network components,Thread-safe,Depends on java.security.SecureRandom,Yes,No,"FreeBSD, Linux, macOS, Microsoft Windows, Android, AIX, Solaris"
-wolfSSL,C89,POSIX send() and recv(). API to supply your own replacement.,"Thread-safe, needs mutex hooks if PThreads or WinThreads not available, can be turned off",Random seed set through wolfCrypt,Yes,Yes,"Win32/64, Linux, OS X, Solaris, ThreadX, VxWorks, FreeBSD, NetBSD, OpenBSD, embedded Linux, Yocto Project, OpenEmbedded, WinCE, Haiku, OpenWRT, iPhone (iOS), Android, Nintendo Wii and Gamecube through DevKitPro, QNX, MontaVista, NonStop, TRON/ITRON/µITRON, Micrium µC/OS-III, FreeRTOS, SafeRTOS, NXP/Freescale MQX, Nucleus, TinyOS, HP/UX, AIX, ARC MQX, Keil RTX, TI-RTOS, uTasker, embOS, INtime, Mbed, uT-Kernel, RIOT, CMSIS-RTOS, FROSTED, Green Hills INTEGRITY, TOPPERS, PetaLinux, Apache mynewt"
-Implementation,Platform requirements,Network requirements,Thread safety,Random seed,Able to cross-compile,No OS (bare metal),Supported operating systems
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Implementation,Namespace,Build tools,API manual,Crypto back-end,OpenSSL compatibility Layer[clarify]
+Botan,Botan::TLS,Makefile,Sphinx,Included (pluggable),No
+Bouncy Castle,org.bouncycastle,Java Development Environment,Programmers reference manual (PDF),Included (pluggable),No
+cryptlib,crypt*,"makefile, MSVC project workspaces","Programmers reference manual (PDF), architecture design manual (PDF)",Included (monolithic),No
+GnuTLS,gnutls_*,"Autoconf, automake, libtool","Manual and API reference (HTML, PDF)","External, libnettle",Yes (limited)
+JSSE,javax.net.ssl sun.security.ssl,Makefile,API Reference (HTML) + JSSE Reference Guide,"Java Cryptography Architecture, Java Cryptography Extension",No
+MatrixSSL,matrixSsl_* ps*,"Makefile, MSVC project workspaces, Xcode projects for OS X and iOS","API Reference (PDF), Integration Guide",Included (pluggable),"Yes (Subset: SSL_read, SSL_write, etc.)"
+Mbed TLS,mbedtls_ssl_* mbedtls_sha1_* mbedtls_md5_* mbedtls_x509* ...,"Makefile, CMake, MSVC project workspaces, yotta",API Reference + High Level and Module Level Documentation (HTML),Included (monolithic),No
+NSS,CERT_* SEC_* SECKEY_* NSS_* PK11_* SSL_* ...,Makefile,Manual (HTML),"Included, PKCS#11 based[225]",Yes (separate package called nss_compat_ossl[226])
+OpenSSL,SSL_* SHA1_* MD5_* EVP_* ...,Makefile,Man pages,Included (monolithic),N/A
+RSA BSAFE Micro-Edition Suite,R_*,Makefile,Developer's guide,Included,No
+RSA BSAFE SSL-J,com.rsa.asn1[a] com.rsa.certj[b] com.rsa.jcp[c] com.rsa.jsafe[d] com.rsa.ssl[e] com.rsa.jsse[f],Java classloader,"Javadoc, Developer's guide (HTML)",Included,No
+wolfSSL,wolfSSL_* CyaSSL_* SSL_*,"Autoconf, automake, libtool, MSVC project workspaces, XCode projects, CodeWarrior projects, MPLAB X projects, Keil, IAR, Clang, GCC, e2Studio","Manual and API Reference (HTML, PDF)",Included (monolithic),Yes (about 10% of API)
+Implementation,Namespace,Build tools,API manual,Crypto back-end,OpenSSL compatibility layer

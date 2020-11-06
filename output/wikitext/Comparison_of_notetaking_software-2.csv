@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Name,Developer(s),License,Platforms
 AllMyNotes Organizer,Vladonai Software,"Proprietary, Freemium",Microsoft Windows
 BasKet Note Pads,KDE,Open source (GPL),Unix-like (KDE)
@@ -33,35 +32,3 @@ Whizfolders,AvniTech Solutions,"Proprietary, Commercial",Microsoft Windows
 Microsoft Windows Journal,Microsoft,"Proprietary, Commercial","Microsoft Windows XP Tablet PC edition, Microsoft Windows Vista, Microsoft Windows 7/8/10 (included with OSoperating system)"
 Zim,Jaap Karssenberg,Open source (GPL),"Cross-platform (Python, GTK+)"
 ZOHO Notebook,ZOHO Corporation,"Proprietary, Commercial, Freemium",Self-hosted. SaaS.
-=======
-Name,Drawing atop text [unclear],"Text box, flow diagram [unclear]",Text and paragraph formatting,Insert hyperlink [unclear],Insert image,Resize image,Insert table,Insert audio,Insert video,Insert SWF,Attachment [unclear],Other objects,Remarks / other features
-AllMyNotes Organizer,,,,,,,,,,,,"Alarms, check-boxes, bullets, phones, advanced links, autosaving; last cursor position memory,passwords on tree folders,failure-resistant self-healing DB engine",
-BasKet Note Pads,,,,,,?,,,,,,"tags (check boxes, etc.)","Adding, managing notes by category, autosave"
-CintaNotes,,,,,,?,,,,,,Links to notes,"Tagging and searching for tags, tag hierarchy"
-ConnectedText,,,,,,?,,,,,,Scripting of pages with Python and other scripting languages.,"LaTex, Scripts, RSS Feeds, Transclusion, Directed Graphs and Flowcharts by GraphViz, many other features."
-Day One,,,,,,?,,,,,,"tags, bullets, numbering, line, programming code snippets","editable note metadata (date/time, location, weather, motion activity, music playing, step count)"
-Evernote,,,,,,,,,,,,"Check-box, line, tags","Business and personal notes integrated in same client; businesses have control over business notes, but cannot see personal notes"
-Gnote,,,,,,,,,,,,,Port of Tomboy to C++; wiki-style linked notes
-Google Keep,,,,,,?,,,,,,Google Calendar reminders,Notes can be shared with other Google Keep users.
-IPython Notebook,,,,,,?,,,,,,,"Part of IPython shell; allows for programming code, output and annotation to be combined in single interactive environment"
-KeyNote NF,,,,,,,,,,,,OLE objects; "virtual nodes" which integrate and edit the content of external plain-text or rich-text files; internal links; mirror nodes.,Text processing; tree numbering and sorting; custom tree icons; node checkboxes; checkbox filtering; search filtering; reminder alarms; compressed or encrypted notebooks; auto-minimize and/or auto-lock when idle; quick access key for fast notes; additional scratchpad; autosave of up to 9 previous file versions; automatic clipboard capturing; read-only notebooks or notes; macros; templates; text shortcuts; plug-ins; bookmarks; custom keyboard shortcuts; program can be made portable through "Options" setting
-Memonic,,,,,,?,,,,,,,
-Microsoft OneNote,,,,,,,,,,,,"OLE, bullets, line, flags, formulas",No local storage of notebooks on Mac or versions past Office 2016[18]
-MyInfo,,,,,,,,,,,,"OLE, bullets, numbering, page breaks, advanced links",Tags; filters; calendar; reminders
-MyNotex,,,,,,?,,,,,,,Activity lists; tags; notes management by subject; encryption with AES or GPG; multilingual
-Notational Velocity,,,,,,?,,,,,,,Instant open and searching
-Okular,,,,,,,,,,,,,
-Open-Sankoré,,,,,,,,,,,,"plug-ins, web pages, applications",Annotate live desktop applications and web pages; autosave; plug-in system; audio recording
-Org-mode (Emacs),,,,,,?,,,,,,"Advanced linking,date=August 2014 bullets, tags, checkboxes, full spreadsheet, embedding of programming code, formulas, markup","Major mode of Emacs; uses plain-text; includes ToDos, spreadsheet, deadlines, encryption, reminders, agenda, calendar"
-Outline,,,,,,,,,,,,Tags,"Password protection, insert web pages, local storage, MS OneNote compatibility, text highlighting, bulleted and numbered lists, free placement of notes on a page"
-PDF Studio,,,,,,,,,,,,,
-Personal Knowbase,,,,,,,,,,,,,Passwords; portabledate=August 2014
-Qiqqa,,,,,,,,,,,,"PDF, brainstorm, citations",
-TagSpaces,,,,,,,,,,,,"Tags, plugins","Plugins, you can present your local images, videos and music to your TV via ChromeCast. You can create a personal "wiki" for tracking of your projects, ideas or memories."
-Simplenote,,,,,,?,,,,,,,
-TiddlyWiki,,,,,,,,,,,,"HTML, LaTeX, markdown plugins",Plugins; user scripts
-Tomboy,,,,,,,,,,,,"Note Links, highlighting, fixed-width",Reminders; to do-lists; formulas in LaTeX
-Microsoft Windows Journal,,,,,,,,,,,,,
-Zim,,,,,,,,,,,,"Plugins; Versioning; LaTeX integration (formulas, export); HTML export (including slideshow); GNOME's Zeitgeist integration; Lilypond music sheet integration",ASCII diagram drawing; Tags; Tasks; Table of Content navigation; SQLite3 search indexing; Autosaving; Last cursor position memory; Tabbed multi-documents
-Name,Drawing atop text,"Text box, flow diagram",Text and paragraph formatting,Insert hyperlink,Insert image,Resize image,Insert table,Insert audio,Insert video,Insert SWF,Attachment,Other objects,Remarks / other features
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

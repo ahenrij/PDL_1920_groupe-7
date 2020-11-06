@@ -1,29 +1,14 @@
-<<<<<<< HEAD
-Model,Launch,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,,API compliance,
-,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
-3D Rage,April 1996[13],500,PCI,40,40,1:0:1:1,40,40,40,0,2,0.32,EDO,64,5.0,None2
-3D Rage II,September 1996,,"AGP 1x (Rage IIc only), PCI",60,83 (66 MHz with EDO),,60,60,60,,"2, 4, 8",0.664,"EDO, SGRAM, SDR",,,
-Rage Pro,March 1997,350,"AGP 1x, AGP 2x, PCI",75,75,,75,75,75,,"4, 8, 16",0.6,,,6.0,1.1
-Rage XL[14][15][16][17],August 1998,250,"AGP 2x, PCI",83,125,,83,83,83,,8,1.0,SDR,,,
-Rage 128 VR,,,,80,120,2:0:2:2,160,160,160,,"8, 32",0.96,,,,1.2
-Rage 128 GL,,,,103,103,,206,206,206,,"16, 32",1.648,"SGRAM, SDR",128,,
-Rage 128 Pro,August 1999,,"AGP 4x, PCI",125,143,,250,250,250,,,2.288,,,,
-Rage 128 Ultra,,,,130,130,,260,260,260,,"16, 32, 64",2.088,SDR,,,
-Rage Fury MAXX,October 1999,,AGP 4x,125,143,2:0:2:2 x2,500,500,500,,32 x2,4.576,,128 x2,,
-=======
-Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
-,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),
-Radeon R5 M330[155] (Exo Pro),2015,GCN 1st gen (28 nm),320:20:8,Unknown 1030,8.2,20.6,659.2,DDR3 64-bit,2 4,1000,14.4 16,18 W
-Radeon R5 M335[155] (Exo Pro),2015,,320:20:8,Unknown 1070,8.6,21.4,684.8,DDR3 64-bit,2 4,1100,17.6,Unknown
-Radeon R7 M360[156] (Meso XT),2015,,384:24:8,Unknown 1125,9,27,864,DDR3 64-bit,2 4,1000,16,Unknown
-Radeon R9 M365X[157] (Strato Pro),2015,,640:40:16,Unknown 925,14.8,37,1184,GDDR5 128-bit,4,1125,72,50 W
-Radeon R9 M370X[157] (Strato Pro),May 2015,,640:40:16,800,12.8,32,1024,GDDR5 128-bit,2,1125,72,40–45 W
-Radeon R9 M375[157] (Strato Pro),2015,,640:40:16,Unknown 1015,16.2,40.6,1299.2,GDDR5 128-bit,4,1100,35.2,Unknown
-Radeon R9 M375X[157] (Strato Pro),2015,,640:40:16,Unknown 1015,16.2,40.6,1299.2,GDDR5 128-bit,4,1125,72,Unknown
-Radeon R9 M380[157] (Strato Pro),2015,,640:40:16,Unknown 900,14.4,36,1152,GDDR5 128-bit,4,1500,96,Unknown
-Radeon R9 M385X[157] (Strato),2015,GCN 2nd gen (28 nm),896:56:16,Unknown 1100,17.6,61.6,1971.2,GDDR5 128-bit,4,1500,96,~75 W
-Radeon R9 M390[157] (Pitcairn),June 2015,GCN 1st gen (28 nm),1024:64:32,Unknown 958,30.7,61.3,1962,GDDR5 256-bit,2,1365,174.7,~100 W
-Radeon R9 M390X[157] (Amethyst XT),2015,GCN 3rd gen (28 nm),2048:128:32,Unknown 723,23.1,92.5,2961.4,GDDR5 256-bit,4,1250,160,125 W
-Radeon R9 M395[157] (Amethyst Pro),2015,,1792:112:32,Unknown 834,26.6,93.4,2989.0,GDDR5 256-bit,2,1365,174.7,125 W
-Radeon R9 M395X[157] Amethyst XT),2015,,2048:128:32,Unknown 909,29.1,116.3,3723.3,GDDR5 256-bit,4,1365,174.7,125 W
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model[139],Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Processing power (GFLOPS),TDP (Watts),Notes
+,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
+Mobility Radeon HD 3100,"August 1, 2008",RS780MC,RV620,55,PCIe x16 1.1,300,800 (system memory),40:4:4,1.2,1.2,up to 512 from system memory,6.4/12.8,DDR2,64/128,10.1,2.0 (3.3),24,,"UVD, PowerPlay 7.0"
+Mobility Radeon HD 3200,"June 4, 2008",RS780MC,,,,500,800 (system memory),,2,2,,6.4/12.8,,,,,40,,
+Mobility Radeon HD 3410,"July 25, 2008",M82-MPE,,,,400,400,,1.6,1.6,"256, 512",6.4,,64,,,32,,
+Mobility Radeon HD 3430,,M82-SE,,,PCIe x16 2.0,450,400,,1.8,1.8,256,6.4,,,,,36,,
+Mobility Radeon HD 3450,"January 7, 2008",M82,,,,500,400 700,,2,2,,6.4 11.2,DDR2 GDDR3,,,,40,,
+Mobility Radeon HD 3470,,M82-XT,,,,680,400 800,,2.72,2.72,,6.4 12.8,,,,,54.4,,
+Mobility Radeon HD 3650,,M86,RV635,,,500,500 700,120:8:4,2,4,512 1024,16.0 22.4,DDR2 GDDR3 GDDR4,128,,3.3,120,,
+Mobility Radeon HD 3670,,M86-XT,,,,680,800,,2.72,5.44,,25.6,,,,2.0 (3.3),163.2,30,"UVD, PowerPlay 7.0"
+Mobility Radeon HD 3850,"June 4, 2008",M88-L/M88-LP,RV670,,,580,750,320:16:16,9.28,9.28,512,48.0,GDDR3,256,,,371.2,,
+Mobility Radeon HD 3870,,M88-LXT,,,,660,850,,10.56,10.56,,54.4,,,,,422.4,55,
+Mobility Radeon HD 3850 X2,"June 5, 2008",2x M88-L/M88-LP,R680,,,580,750,2x [320:16:16],2x 9.28,2x 9.28,2x 512,2x 48.0,,2x 256,,,2x 371.2,,
+Mobility Radeon HD 3870 X2,"September 1, 2008",2x M88-LXT,,,,660,850,,2x 10.56,2x 10.56,,2x 54.4,,,,,2x 422.4,110,

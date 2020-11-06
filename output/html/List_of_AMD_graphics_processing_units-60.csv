@@ -1,15 +1,11 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,TDP (Watts),Notes
-,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,,
-FirePro RG220[373],May 2010,RV711,55,PCIe 2.0 x16,500,800,80(16×5):8:4:1,2.0,4.0,512,12.8,"GDDR3 for GPU, RDRAM for PCoIP",64,80,No,10.1,3.3,1.0,35,Dual Ethernet ports plus DMS-59 for dual DVI-D output (no VGA host output)
-FirePro R5000[374],"February 25, 2013",Pitcairn LE GL (GCN 1st gen),28,PCIe 3.0 x16,825,,768:48:32:12,26.4,39.6,2048,102.4,GDDR5,256,1267.2,79.2,11.1,4.5,1.2,<150,Ethernet port plus Two Mini DisplayPort w/ Tera2 PCoIP
-=======
-Model (Codename),Launch,Architecture (Fab),Transistors Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TDP (W),Bus interface,Release Price (USD)
-,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width (bit),Size (GiB),Clock (MT/s),Band- width (GB/s),,,
-Radeon Pro WX 2100 (Mobile) (Polaris 12)[333],March 2017,GCN 4th gen (14 nm)[334],2.2×109 101 mm2,512:32:16:8,?,?,?,1250,78 1/16 SP,GDDR5 64-bit,2,6000,48,35,PCIe 3.0 ×16,$ 149
-Radeon Pro WX 3100 (Mobile) (Polaris 12)[335][336],March 2017,,,512:32:16:8,?,?,?,1250,78 1/16 SP,GDDR5 128-bit,4,6000,96,50,,$ 199
-Radeon Pro WX 4130 Mobile (Polaris 11)[337],March 2017,,3.0×109 123 mm2,640:40:16:10,1000 1050,16.85,42.12,1348,84.24 1/16 SP,GDDR5 128-bit,4,6000,96,50,,Unknown
-Radeon Pro WX 4150 Mobile (Polaris 11)[338],March 2017,,,896:56:16:14,1000 1050,16.85,58.97,1887,118 1/16 SP,GDDR5 128-bit,4,6000,96,50,,Unknown
-Radeon Pro WX 4170 Mobile (Polaris 11)[339],March 2017,,,1024:64:16:16,1000 1050,16.85,67.39,2157,135 1/16 SP,GDDR5 128-bit,4,7000,112,50,,$ 399
-Radeon Pro WX 7100 Mobile (Polaris 10)[340],March 2017,,5.7×109 232 mm2,2304:144:32:36,1188,39.78,179.0,5728,358 1/16 SP,GDDR5 256-bit,8,5000,160,130,,$ 799
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,,API compliance,
+,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+3D Rage,April 1996[13],500,PCI,40,40,1:0:1:1,40,40,40,0,2,0.32,EDO,64,5.0,None2
+3D Rage II,September 1996,,"AGP 1x (Rage IIc only), PCI",60,83 (66 MHz with EDO),,60,60,60,,"2, 4, 8",0.664,"EDO, SGRAM, SDR",,,
+Rage Pro,March 1997,350,"AGP 1x, AGP 2x, PCI",75,75,,75,75,75,,"4, 8, 16",0.6,,,6.0,1.1
+Rage XL[14][15][16][17],August 1998,250,"AGP 2x, PCI",83,125,,83,83,83,,8,1.0,SDR,,,
+Rage 128 VR,,,,80,120,2:0:2:2,160,160,160,,"8, 32",0.96,,,,1.2
+Rage 128 GL,,,,103,103,,206,206,206,,"16, 32",1.648,"SGRAM, SDR",128,,
+Rage 128 Pro,August 1999,,"AGP 4x, PCI",125,143,,250,250,250,,,2.288,,,,
+Rage 128 Ultra,,,,130,130,,260,260,260,,"16, 32, 64",2.088,SDR,,,
+Rage Fury MAXX,October 1999,,AGP 4x,125,143,2:0:2:2 x2,500,500,500,,32 x2,4.576,,128 x2,,

@@ -1,13 +1,14 @@
-<<<<<<< HEAD
-IDE,Developer,Latest stable release,Platform,License
-Aptana Studio with integrated RadRails plugin (Eclipse),"Aptana, Inc.","3.5.0 / December 27, 2013","Windows, Linux, macOS, FreeBSD, JVM, Solaris","GPL, proprietary"
-Eclipse DLTK Ruby Plugin,Eclipse Foundation,"5.0.0 / June 6, 2013",x86,EPL
-eric,Detlev Offenbach,"6.1.4 / April 9, 2016",Cross-platform,GPLv3 "or later"
-Komodo IDE / Edit,ActiveState,"9.0.1 / April 19, 2015",Cross-platform,
-NetBeans,Thomas Enebo (JRuby co-lead),,Cross-platform,CDDL and GPL
-RubyMine (IntelliJ IDEA),JetBrains,"2018.3.5 (build 183.5912.16) / Feb 27, 2019[38]","Windows, Linux, macOS, FreeBSD, OpenBSD, Solaris",
-SlickEdit,SlickEdit,October 2016,"Windows, Linux, macOS, AIX, Solaris, HP-UX",
-=======
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Toolchain,Profiler,Code coverage,Autocomplete,Static code analysis,GUI-based design,Class browser,Latest stable release
-EiffelStudio,GPL and commercial,,,,"FreeBSD, OpenVMS, Solaris, VxWorks, other Unix",,,,,Automatic testing framework,,Metrics tool,BON / UML class diagramming,Multi-view,V7.1 June 2012
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+IDE,Developer,Latest stable release,Windows,Linux,macOS,Other platforms,Mobiles,Debugger,GUI builder,License,Autocomplete
+CodeTyphon,PilotLogic,2020-01-08 Ver 7.00,,,,"AmigaOS, Android, FreeBSD, Game Boy Advance, Haiku, AIX, iOS, MorphOS, DOS, NetBSD, Nintendo DS, Nintendo Wii, OpenBSD, DragonFly, OpenIndiana, OS/2, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental), JavaScript transpiler, Embedded systems.",,,,GPL; LGPL with static linking exception,
+Delphi,Embarcadero Technologies,Delphi 10.3 (Rio) / November 21 2018,,,,"cross-compile to macOS, Android, iOS Linux[33]",,,,,
+Free Pascal IDE,Volunteers,"3.2.0 / June 19, 2020",,,,"AmigaOS, Android, FreeBSD, Game Boy Advance, Haiku, AIX, iOS, MorphOS, DOS, NetBSD, Nintendo DS, Nintendo Wii, OpenBSD, OS/2, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental), JavaScript transpiler, Embedded systems.",,,,GPL; LGPL with static linking exception,
+KDevelop,KDevelop Team,,,,,"FreeBSD, OpenBSD, NetBSD, Solaris, other Unix",,,,GPL,
+Lazarus,Volunteers,"2.0.10 / July 11, 2020",,,,See Free Pascal,,,,GPL; LGPL with static linking exception,
+MIDletPascal,Code Research Laboratories,"3.5 / February 2, 2013",,,,cross-compile from Windows to Java ME,,,,GPL,
+Morfik,Morfik Technology Pty Ltd.,2.0.5.27,,,,compiles to HTML+CSS+XML+JavaScript (web apps),,,,,
+MSEide,Martin Schreiber,4.6 / 2017-11-24,,,,FreeBSD,,,,GPL; LGPL with static linking exception for the library MSEgui,
+Understand,SciTools,4.0 / April 2015,,,,Solaris,,,,,
+Visual Studio via Oxygene,RemObjects Software,10.0 / August 2018,,,,"JVM, .NET, Mono, Cocoa, Cocoa Touch, Android, iOS, WebAssembly, cross compile to Linux",,,,,
+PocketStudio,winsoft,3.0,,,,Palm OS,,,,,
+Dev-Pascal,Bloodshed Software,1.9.2 (using FPC 1.9.2 from 2005),,,,,,,,GPL,
+PascalABC.NET,Volunteers,"3.4 / Jule 27, 2018",,,,compiles to CLR,,,,LGPL,

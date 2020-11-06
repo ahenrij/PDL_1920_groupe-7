@@ -1,55 +1,24 @@
-<<<<<<< HEAD
-Audio player,"asx, wax, wvx",M3U,pls,XSPF,CUE
-AIMP,Yes,Yes,Yes,Yes,Yes
-Amarok,Yes,Yes,Yes,Yes,Yes
-Audacious,Partial,Yes,Yes,Yes,Yes
-Audion,?,?,?,?,?
-Clementine,Yes,Yes,Yes,Yes,Yes
-cmus,No,Yes,Yes,No,?
-Cog,?,?,?,?,?
-Exaile,Yes,Yes,Yes,Yes,?
-foobar2000,Yes,Yes,Yes,Yes,Yes
-iTunes,No,Yes,?,?,No
-JRiver Media Center,Yes,Yes,Yes,Yes,Yes
-JuK,?,?,?,?,?
-MediaMonkey,?,Yes,?,No,?
-MPXPLAY,?,Yes,Yes,?,Yes
-MusicBee,Yes,Yes,Yes,Yes,Yes
-Musicmatch Jukebox,?,Yes,?,?,?
-musikCube,?,?,?,?,?
-Quod Libet,Partial,Yes,Yes,No,?
-Rhapsody,?,?,?,?,?
-Rhythmbox,?,?,Yes,?,No
-Sayonara Player,?,Yes,?,?,?
-Sonique,?,Yes,Yes,?,?
-Spotify[25],No,No,No,No,No
-Winamp,Yes,Yes,Yes,Yes,?
-XMMS,?,Yes,Yes,?,?
-Zinf,?,?,?,No,?
-Audio player,asx/wax/wvx,M3U,pls,XSPF,CUE
-=======
-Audio player,AVI,ASF,QuickTime,Ogg,OGM,Matroska,MP4,MPEG-21,NUT,FLV
-AIMP,No,Yes,No,Yes,No,No,Partial,No,No,No
-Amarok,Yes,Yes,Yes,Yes,Basic,Basic,Yes,?,?,Yes
-Audacious,No,Yes,No,Yes,No,No,Yes,No,No,Audio only
-Audion,No,No,No,No,No,No,No,?,?,?
-cmus,No,No,No,Vorbis only,No,Basic,Yes,?,?,?
-Cog,No,No,No,Yes,No,No,Partial,?,?,?
-foobar2000,Partial[a],Yes,No,Yes,No,Yes[containernotes 1],Yes,?,?,Audio only
-JuK,No,No,No,Vorbis only,No,No,No,?,?,?
-JRiver Media Center,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes
-MediaMonkey,No,No,No,Vorbis only,No,No,No,?,?,?
-MOC,Yes,?,?,Yes,?,Yes,Yes,?,?,Yes
-MPXPLAY,Yes,Yes,No,Yes,?,?,Yes,?,?,?
-MusicBee,No,No,No,Vorbis only,No,No,AAC only,No,No,No
-Musicmatch Jukebox,No,No,No,No,No,No,No,?,?,?
-musikCube,No,No,No,Vorbis only,No,No,No,?,?,?
-Rhapsody,No,No,No,No,No,No,No,?,?,?
-Rhythmbox,No,Yes,No,Vorbis only,No,No,Yes[f],?,?,?
-Sayonara Player,No,?,No,Vorbis only,?,?,?,?,?,?
-Sonique,No[g],No,No,Yes,No,No,No,?,?,?
-Winamp,Yes,Yes,Yes[a],Yes,Yes,Yes,Yes,?,?,Yes
-XMMS,No,No,No,Vorbis only,No,No,No,?,?,?
-Zinf,No,No,No,Vorbis only,No,No,No,?,?,?
-Audio player,AVI,ASF,QuickTime,Ogg,OGM,Matroska,MP4,MPEG-21,NUT,FLV
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Audio player,Audio,,
+,CD,DVD-Audio,HDCD
+AIMP,Yes,No,No
+Amarok,Partial,No,No
+aTunes,No,No,No
+Audacious,Yes,No,No
+Audion,Yes,No,No
+cmus,No,No,No
+Cog,No,No,No
+foobar2000,Yes,Yes (plugin)[opticalmedianotes 1],Yes (plugin)[opticalmedianotes 2]
+JuK,Yes[opticalmedianotes 3],No,No
+JRiver Media Center,Yes,Yes[opticalmedianotes 4],Yes
+MediaMonkey,Yes,No,No
+MusicBee,Yes,Yes,Yes
+Musicmatch Jukebox,Yes,No,No
+musikCube,Yes,No,No
+Rhapsody,Yes,No,No
+Rhythmbox,Yes,No,No
+Sonique,Yes,No,No
+Winamp,Yes,No,No
+XMMS,Yes,No,No
+Zinf,Yes,No,No
+Audio player,CD,DVD-Audio,HDCD
+,Audio,,

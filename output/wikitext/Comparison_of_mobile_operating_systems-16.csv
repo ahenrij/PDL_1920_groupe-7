@@ -1,28 +1,22 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-<<<<<<< HEAD
-Proxy server,"3.1+[334] but only global, not per connection[335] and only works for the browser[336] 3rd party apps available[337]",,,,
-On-device encryption,3+[339] but insecure on Qualcomm devices[340],,,3.3.0+[343],
-External storage encryption,6+,External storage not available,,,
-Zero knowledge encryption[344],"No, data is accessible by Google[345] and shared with the American PRISM surveillance program.[346]",",?,?,
-Privacy of synchronization[348],,When synchronizing locally and not using iCloud,?,?,?
-Sync to cloud communication encryption,2.3.4+[350],,?,?,?
-Wireless anti-tracking[352],Developer Options (9+)[353],8+[354],,?,
-Remote device location tracking,,,?,?,
-Remote device locking and/or data wipe,2.2+[357],,?,?,
-End-to-end encrypted push notifications,"Possible, notifications are handled by the app that can decrypt it[109]","Possible since iOS 7, where the app can handle the notification and decrypt it[358]",?,?,
-SSH Client,,,?,,
-VPN,,,?,,
-OpenVPN,",,?,,
-WPA PEAP,,,?,In developer mode[367],
-=======
-Non-English languages support,Partial[202],,Limited (Search is not diacritical mark-insensitive),,
-Underlining spell checker,2.3+[206][207],,,?,
-Built-in system-wide dictionary,Built into keyboard app. Available on every device.[209],5+[210],,,
-Autoexpanding text replacements,,5+[211],?,?,?
-Keyboard next word prediction,",8+[214],,,
-Keyboard cursor controller,Google Keyboard;[215];[216],12+;[217] 9-11: Only on devices with 3D Touch;[218],,,
-Optical character recognition input method,,11+: Notes app;[220] 8+: Only for inputting credit card details[221],,,
-Third party input methods,,8+,?,?,?
-Gesture text input,4+[223],13+;[224] 8+: 3rd party software like SwiftKey,?,,
-Emoji support,4.4+[226],,?,2.2.0+[228] 3rd party software[229],
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+While-in-use permissions,10+,11+: Location only[32],,,
+Per-app Internet access,",7+: Cellular only;[35] 3rd party software on jailbroken devices[36],,,
+Per-app identity access,8+[37],6+[38][39],,,
+Per-app user data access,6+[40],6+[41],,,
+Per-app background execution,",7+[44],,,Background execution not allowed
+Per-app notifications,4.1+[45],5+[46][47],,,
+Per-app location access,6+[40],4+[48],,,
+Per-app camera access,6+[40],8+[49],,,
+Per-app microphone access,6+[40],7+[50],,,
+Per-app shared files access,6+[40],8+[51],,,
+Per-app network data usage auditing,4+[52],,?,,
+Fine grained storage usage,,5+[56],?,,
+Parental controls,4.3+ or 3rd party software[57],,?,,
+Screen orientation lock,,,?,1.0.4+[61],
+File manager,6.0+[62],11+[63],,,
+File manager write access to external storage,6+ Or 3rd party software like LineageOS,13+,,,
+Multi-user,"4.2+, including phones 5+[66][67]",9.3+: Education use only on iPad[68],,,
+Guest mode,5+[69],6+[70],,,
+Guided Access,,,,,
+Do not disturb mode,5+[72],6+[73],,,
+App groups,,4+[74],?,1.0.7+[75],

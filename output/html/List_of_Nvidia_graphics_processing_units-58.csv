@@ -1,45 +1,10 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config[b],Bus interface,L2 Cache (MB),Clock speeds,,,Memory,,,,Fillrate[c],,Processing power (GFLOPS)[c][d],,,TDP (Watts),SLI support,Release price (USD),
-,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)[e][f],Texture (GT/s)[g],Single precision,Double precision,Half precision,,,MSRP,Founders Edition
-GeForce GT 1030[79][80],"March 12, 2018",GP108-310-A1,Samsung 14LPP,1.8,74,384:24:16 (3) (1),PCIe 3.0 x4[81][82],?,1152,1379,2100,2,16.8,DDR4,64,18.4 22.0,27.6 33.0,884.7 1?059.0,27.6 33.0,13.8 16.5,20,No,$79,N/A
-,"May 17, 2017",GP108-300-A1,,,,,,.5,1227,1468,6000,,48.0,GDDR5,,19.6 23.4,29.4 35.2,942.3 1?127.4,29.4 35.2,14.7 17.6,30,,$70,
-GeForce GTX 1050[83],"October 25, 2016",GP107-300-A1,,3.3,132,640:40:32 (5) (2),PCIe 3.0 x16,1,1354,1455,7000,,112.0,,128,43.3 46.6,54.1 58.8,1?733.1 1?862.4,54.1 58.2,27.0 29.1,75 (Retail up to 120),,$109,
-,"May 21, 2018",GP107-301-A1,,,,768:48:24 (6) (2),,.75,1392,1518,,3,84.0,,96,33.4 36.4,66.8 72.9,2?138.1 2?331.6,66.8 72.9,33.4 36.4,,,Unknown,
-GeForce GTX 1050 Ti[83],"October 25, 2016",GP107-400-A1,,,,768:48:32 (6) (2),,1,1290,1392,,4,112.0,,128,41.2 44.5,61.9 66.8,1?981.4 2?138.1,61.9 66.8,30.9 33.4,,,$139,
-GeForce GTX 1060 [84][85][86][87],"December 25, 2016",GP104-140-A1,TSMC 16FF,7.2,314,1152:72:48 (9) (2),,1.5?,1506,1708,8000,3,192.0,,192,72.2 81.9,108.4 122.9,3?469.8 3?935.2,108.4 122.9,54.2 61.4,120 (Retail up to 200),,$199,
-,"August 18, 2016",GP106-300-A1,,4.4,200,,,1.5,,,,,,,,,,,,,,,,
-,"December 26, 2017",GP106-350-K3-A1,,,,1280:80:40 (10) (2),,1.25,,,,5,160.0,,160,60.2 68.3,120.4 136.7,3?855.3 4?375.0,120.4 136.7,60.2 68.3,,,OEM,
-,"March 8, 2018",GP104-150-A1,,7.2,314,1280:80:48 (10) (2),,1.5,,,,6,192.0,,192,72.2 82.0,,,,,,,Unknown,
-,"December, 2018",GP104-150-KA-A1,,,,,,,,,,,,GDDR5X,,,,,,,,,,
-,"July 19, 2016",GP106-400-A1,,4.4,200,,,1.5?,,,,,,GDDR5,,,,,,,,,$249,$299
-,"April 20, 2017",GP106-410-A1,,,,,,,,,9000,,216.0,,,,,,,,,,$299,N/A
-GeForce GTX 1070[88][89],"June 10, 2016 / Dec. 2018",GP104-200-A1,,7.2,314,1920:120:64 (15) (3),,2,,1683,8000,8,256.0,GDDR5 / GDDR5X,256,96.3 107.7,180.7 201.9,5?783.0 6?462.7,180.7 201.9,90.3 100.9,150 (Retail up to 250),4-way SLI or 2-way SLI HB[90][91],$379,$449 ($399)[92]
-GeForce GTX 1070 Ti[88],"November 2, 2017",GP104-300-A1,,,,2432:152:64 (19) (4),,,1607,,,,,GDDR5,,102.8 107.7,244 256,7?816.4 8?186.1,244.2 255.8,122.1 127.9,180 (Retail up to 300),,$449,
-GeForce GTX 1080[93],"May 27, 2016",GP104-400-A1,,,,2560:160:64 (20) (4),,,,1733,10000,,320.0,GDDR5X,,102.8 110.9,257.1 277.2,8?227.8 8?872.9,257.1 277.2,128.5 138.6,,,$599 ($499)[92],$699 ($549)[92]
-,"April 20, 2017",GP104-410-A1,,,,,,,,,11000,,352.0,,,,,,,,,,,
-GeForce GTX 1080 Ti[94],"March 5, 2017",GP102-350-K1-A1,,12,471,3584:224:88 (28) (6),,2.75,1480,1582,,11,484.0,,352,130.2 139.2,331.5 354.3,10?608.6 11?339.7,331.5 354.3,165.7 177.1,250,,$699,
-Nvidia TITAN X[95],"August 2, 2016",GP102-400-A1,,,,3584:224:96 (28) (6),,3,1417,1531,10000,12,480.0,,384,136.0 146.9,317.4 342.9,10?157.0 10?974.2,317.4 342.9,158.7 171.4,,,$1200,N/A
-Nvidia TITAN Xp[96],"April 6, 2017",GP102-450-A1,,,,3840:240:96 (30) (6),,,1405,1480,11400,,547.7,,,134.8 142.0,337.2 355.2,10?790.4 11?366.4,337.2 355.2,168.6 177.6,,,,
-=======
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS),TBP (Watts),Notes
-,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
-GeForce 9100M G mGPU,2008,"MCP77MH, MCP79MH",65,Integrated (PCIe 2.0 ×16),8:8:4,450,1100,1066 (system memory),1.8,3.6,Up to 256 from system memory,17.056,DDR3,128,10.0,3.3,26.4,12,Similar to 8400M G
-GeForce 9200M GS,,NB9M-GE(G98),,PCIe 2.0 ×16,,550,1300,1400,2.2,4.4,256,11.2,DDR2/GDDR3,64,,,31.2,13,
-GeForce 9300M G,,NB9M-GE(G86),80,,16:8:4,400,800,1200,1.6,3.2,256/512,9.6,,,,,38.4,,
-GeForce 9300M GS,,NB9M-GE(G98),65,,8:8:4,550,1400,1400,2.2,4.4,,11.2,,,,,33.6,,
-GeForce 9400M G,"October 15, 2008",MCP79MX,,Integrated(PCIe 2.0 ×16),16:8:4,450,1100,800 1066 (system memory),1.8,3.6,Up to 256 from system memory,12.8 17.056,DDR2 DDR3,128,,,54,12,PureVideo HD with VP3. Known as the GeForce 9400M in Apple systems[125] and Nvidia ION based systems
-GeForce 9500M G,2008,NB9P(G96),,PCIe 2.0 ×16,16:8:8,500,1250,1600,4,4,512,25.6,DDR2 / GDDR3,,,,60,20,
-GeForce 9500M GS,,NB9P-GV(G96),80,PCIe ×16,32:16:8,475,950,1400,3.8,7.6,,22.4,,,,,91.2,,Rebranded 8600M GT
-GeForce 9600M GS,,NB9P-GE2(G96),65,PCIe 2.0 ×16,,430,1075,800 1600,3.44,6.88,1024,12.8 25.6,,,,,103.2,,
-GeForce 9600M GT,,NB9P-GS(G96),,,,500,1250,1600,4,8,512/1024,25.6,,,,,120,23,
-GeForce 9650M GS,,NB9P-GS1(G84),80,,,625,,,5,10,512,,GDDR3,,,,,29,Rebranded 8700M GT
-GeForce 9650M GT,,NB9P-GT(G96),65/55,,,550,1325,,4.4,8.8,1024,,,,,,127.2,23,
-GeForce 9700M GT,"July 29, 2008",NB9E-GE(G96),65,PCIe ×16,,625,1550,,5,10,512,,,,,,148.8,45,
-GeForce 9700M GTS,,NB9E-GS(G94),,PCIe 2.0 ×16,48:24:16,530,1325,,8.48,12.7,,51.2,,256,,,190.8,60,
-GeForce 9800M GS,2008,NB9E-GT(G94),,,64:32:16,,,,8.48,16.96,,,,,,,254,,Down Clocked 9800M GTS Via Firmware
-GeForce 9800M GTS,"July 29, 2008",,65/55,,64:32:16,600,1500,,9.6,19.2,512 / 1024,,,,,,288,75,
-GeForce 9800M GT,,NB9E-GT2(G92),,,96:48:16,500,1250,,8,24,512,,,,,,360,65,Rebranded 8800M GTX
-GeForce 9800M GTX,,NB9E-GTX(G92),65,,112:56:16,,,,,28,1024,,,,,,420,75,
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS),TBP (Watts),Notes
-,,,,,,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[200][201],,Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro FX 380,G96,65,PCIe 2.0 ×16,450,1100,1400,16:8:8,3.6,3.6,256,22.4,GDDR3,128,52.8,-,10.0,3.3,34,"Two Dual Link DVI, no DisplayPort"
+Quadro FX 380 LP,GT218GL,40,,589,1402,1600,16:8:4,2.356,4.712,512,12.8,,64,67.296,,10.1,,28,"DisplayPort, Dual Link DVI"
+Quadro FX 580,G96,65,,450,1125,,32:16:8,3.6,7.2,,25.6,,128,108,,10.0,,40,"Dual DisplayPort, Dual Link DVI"
+Quadro FX 1800,G100GL-U(G94),,,550,1375,,64:32:12,6.6,17.6,768,38.4,,192,264,,,,59,"Stereo DP Dual Link DVI, Dual DisplayPort, SLI"
+Quadro FX 3800,GT200GL,55,,602,1204,,192:64:16,9.632,38.528,1024,51.2,,256,693.504,86.688,,,108,
+Quadro FX 4800,,,,,,,192:64:24,14.448,38.528,1536,76.8,,384,,,,,150,
+Quadro FX 5800,,,,648,1296,,240:80:32,20.736,51.840,4096,102.4,,512,933.12,116.64,10.1,,189,
+Quadro CX[202],,,,602,1204,,192:64:24,14.448,38.528,1536,76.8,,384,693.504,86.688,10.0,,150,"Display Port and dual-link DVI Output, optimised for Adobe Creative Suite 4"

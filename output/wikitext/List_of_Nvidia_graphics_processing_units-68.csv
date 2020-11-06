@@ -1,33 +1,12 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm)[2],Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TDP (Watts),Comments
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,,
-GeForce 9300 mGPU,October 2008,MCP7A-S,65 nm,282,162,PCIe 2.0 ×16,16:8:4,450,1200,400 666,1.8,3.6,Up to 512 from system memory,6.4/12.8 10.664/21.328,DDR2 DDR3,64 128,10.0,3.3,57.6,,based on 8400 GS
-GeForce 9400 mGPU,,MCP7A-U,,,,,,580,1400,,2.32,4.64,,,,,,,67.2,12,
-GeForce 9300 GE[18],June 2008,G98,TSMC 65 nm,210,86,,8:8:4,540,1300,500,2.16,4.32,256,8.0,DDR2,64,,,20.8,25,
-GeForce 9300 GS[18],,,,,,,,567,1400,,2.268,4.536,,,,,,,22.4,,
-GeForce 9400 GT,"August 27, 2008",G96-200-c1 G96a G96b,TSMC 55 nm,314,144,PCIe 2.0 ×16 PCI,16:8:4,550,,400 800,2.2,4.4,256 512 1024,12.8 25.6,DDR2 GDDR3,128,,,44.8,50,
-GeForce 9500 GT,"July 29, 2008",G96-300-C1,UMC 65 nm,,,,32:16:8,,,500 800,4.4,8.8,,16.0 25.6,DDR2 GDDR3,,,,89.6,,
-GeForce 9600 GS,,G94a,TSMC 65 nm,505,240,,48:24:12,500,1250,500,6,12,768,24.0,DDR2,192,,,120,,OEM
-GeForce 9600 GSO,May 2008,G92-150-A2,,754,324,PCIe 2.0 ×16,96:48:12,550,1375,800,6.6,26.4,384 768 1536,38.4,GDDR3,,,,264,84,
-GeForce 9600 GSO 512,October 2008,G94a G94b,TSMC 65 nm TSMC 55 nm,505,240 196?date=September 2012,,48:24:16,650,1625,900,10.4,15.6,512,57.6,,256,,,156,90,
-GeForce 9600 GT Green Edition,2009,G94b,TSMC 55 nm,,196?date=September 2012,,64:32:16,600 625,1500 1625,700/900 900date=September 2012,9.6 10.0,19.2 20.0,512 1024,44.8/57.6 57.6date=September 2012,,,,,192 208,59,Core Voltage = 1.00v
-GeForce 9600 GT,"February 21, 2008",G94-300-A1,TSMC 65 nm,,240 196?date=September 2012,,,650,1625,900,10.4,20.8,,57.6,,,,,208,95,
-GeForce 9800 GT Green Edition,2009,G92a2 G92b,TSMC/UMC 65 nm TSMC/UMC 55 nm,754,324 260,,112:56:16,550,1375,700 800 900,8.8,30.8,,44.8 51.2 57.6,,,,,308,75,Core Voltage = 1.00v
-GeForce 9800 GT,July 2008,G92a G92b,UMC 55 nm,,,,,600,1500,900,9.6,33.6,,57.6,,,,,336,125 105,
-GeForce 9800 GTX,"April 1, 2008",G92-420-A2,TSMC 65 nm,,324,,128:64:16,675,1688,1100,10.8,43.2,512,70.4,,,,,432,140,
-GeForce 9800 GTX+,"July 16, 2008",G92b,TSMC 55 nm,,260,,,738,1836,1100,11.808,47.232,512 1024,,,,,,470,141,
-GeForce 9800 GX2,"March 18, 2008",2× G92,TSMC/UMC 65 nm,2× 754,2× 324,,2× 128:64:16,600,1500,1000,2× 9.6,2× 38.4,2× 512,2× 64.0,,2× 256,,,2× 384,197,
-Model,Launch,Codename,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Comments
-=======
-Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus interface,L2 Cache (MB),Clock Speeds,,,Memory,,,,Fillratename=PerfValues,,Processing power (GFLOPS)name=PerfValuesname=ProcessingPower,,TDP (Watts),SLI support,Release price (USD)
-,,,,,,,,,Base (MHz),Boost (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)name=PixelFillrate,Texture (GT/s)name=TextureFillrate,Single precision,Double precision,,,MSRP
-GeForce GT 945A[60][61][62],"February, 2016",GM108,TSMC 28HP,,,512:24:8 (4),PCIe 3.0 ×8,?,1072,1176,1800,1 / 2,14.4,DDR3 / GDDR5,64,8.5 9.4,25.7 28.2,1?097.7 1?204.2,34.3 37.6,33,rowspan=1 ,OEM
-GeForce GTX 950[63],"August 20, 2015",GM206-250,,2.94,227,768:48:32 (6),PCIe 3.0 ×16,1,1024,1188,6600,2,105.7,GDDR5,128,32.7 38.0,49.1 57.0,1?572.8 1?824.7,49.1 57.0,90 (75name=GTX950NPCSome GTX950 cards were released without power connector powered only by PCIe slot. These had limited power consumption and TPD to 75W.[64] ),2-way SLI,$159
-GeForce GTX 950 (OEM)[65],,GM206,,,,1024:64:32 (8),,,935,,5000,,80.0,,,29.9,59.8,1?914.9 ?,59.8,,,OEM
-GeForce GTX 960[66],"January 22, 2015",GM206-300,,,,,,,1127,1178,7000,"2 4name=GTX9604GB Some manufacturers produced 4 GB versions of GTX 960. These were often criticized as useless move, as titles that would use so much VRAM and actually gain advantage over 2 GB versions, would already run too slow on those resolutions and settings, as GTX960 didn't have enough compute power and memory bandwidth to handle it.[67] ",112.1,,,36.0 37.6,72.1 75.3,2?308.0 2?412.5,72.1 75.3,120,,$199
-GeForce GTX 960 (OEM)[68],,GM204,,5.2,398,1280:80:48 (10),,,924,,5000,3,120.0,,192,44.3,73.9,2?365.4 ?,73.9,,,OEM
-GeForce GTX 970[69],"September 18, 2014",GM204-200,,,,1664:104:56 (13),,1.75,1050,1178,7000,"3.5 + 0.5name=GTX960MemoryMessFor accessing its memory, the GTX 970 stripes data across 7 of its 8 32-bit physical memory lanes, at 196 GB/s. The last 1/8 of its memory (0.5 GiB on a 4 GiB card) is accessed on a non-interleaved solitary 32-bit connection at 28 GB/s, one seventh the speed of the rest of the memory space. Because this smaller memory pool uses the same connection as the 7th lane to the larger main pool, it contends with accesses to the larger block reducing the effective memory bandwidth not adding to it as an independent connection could.[70]",196.3 + 28.0name=GTX960MemoryMess,,224 + 32name=GTX960MemoryMess,58.8 65.9,109.2 122.5,3?494.4 3?920.3,109.2 122.5,145,4-way SLI,$329
-GeForce GTX 980[71],"September 18, 2014",GM204-400,,,,2048:128:64 (16),,2,1126,1216,,4,224.3,,256,72.0 77.8,144.1 155.6,4?612.0 4?980.7,144.1 155.6,165,,$549
-GeForce GTX 980 Ti[72],"June 1, 2015",GM200-310,,8,601,2816:176:96 (22),,3,1000,1075,,6,336.5,,384,96.0 103.2,176.0 189.2,5?632.0 6?054.4,176.0 189.2,250,,$649
-GeForce GTX TITAN X[73],"March 17, 2015",GM200-400,,,,3072:192:96 (24),,,,,,12,,,,,192.0 206.4,6?144.0 6?604.8,192.0 206.4,,,$999
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1*,Fillrate,,Memory,,,,Processing power (GFLOPS)[200][201],,Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro FX 500,NV34GL,150,AGP 8×,270,270,480,1:4:4:4,1.08,1.08,128,7.687,DDR,128,,,9.0,2.0,,Stereo display
+Quadro FX 600,NV34GL,,PCI,350,350,800,,1,1,256,7.8,,,,,,,,
+Quadro FX 700,NV35GL,,AGP 8×,275,275,550,3:4:4:4,1.1,1.1,128,8.8,,,,,,,,
+Quadro FX 1000,NV30GL,130,,300,300,600,2:4:8:4,1.2,2.4,,9.6,DDR2,,,,,,,
+Quadro FX 1100,NV36GL,,,425,425,648,3:4:4:4,1.7,1.7,,10.1,,,,,,,,
+Quadro FX 2000,NV30GL,,,400,400,800,2:4:8:4,1.6,3.2,,12.8,,,,,,,,
+Quadro FX 3000,NV35GL,,,,,850,3:4:8:4,,,256,27.2,DDR,256,,,,,,
+Quadro FX 3000G,,,,,,,,,,,27.2,,,,"Stereo display, Genlock",,,,
+Quadro FX 4000,NV40GL,,,375,375,1000,5:12:12:8,3,4.5,,32.0,GDDR3,,,9.0c,2.1,142,Stereo display,
+Quadro FX 4000 SDI,,,,,,,,,,,,,,,,,,"Stereo display, Genlock",

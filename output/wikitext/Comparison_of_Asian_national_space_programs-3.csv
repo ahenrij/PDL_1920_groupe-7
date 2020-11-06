@@ -1,25 +1,9 @@
-<<<<<<< HEAD
-Country,Program,,First successful human spaceflight,,Status
-,Name,Period,Year,Spacecraft,
-China,Project 714,1968-72,,Shuguang-1,Cancelled
-,Project 873,1978-80,,Piloted FSW satellite,Cancelled
-,Project 921/Shenzhou,1992-present,2003,Shenzhou 5,Ongoing
-India,Indian Human Spaceflight Programme,2007-present,2021 (Planned) Before August 2022 (Scheduled),Gaganyaan,Ongoing
-=======
-Country,Program,Agency engaged,First orbital crewed launch,,,,
-,,,Spacecraft,Term(s) for space traveler,First human(s) launched,Date,Launch system
-,Project 714 (1968–72),Chinese space program,Shuguang spacecraft (Intended),??? (in Chinese) y?hángyuán ??? (in Chinese) hángti?nyuán,,,Long March 2A (Intended)
-,Project 863 (1976–80),Chinese space program,Piloted FSW spacecraft (Intended),,,,Long March 2 (Intended)
-,HOPE-X (late 1980s-2003),National Space Development Agency of Japan,HOPE-X spaceplane (Intended),????? (in Japanese) uch?hik?shi or ??????? astoronoto,,,H-IIA (Intended)
-Ba'athist Iraq,... (1989-2001),"Space Research Center, Baghdad",,??? ???? (in Arabic) rajul fa??? ???? ???? (in Arabic) r??id fa??? ???? ????? (in Arabic) mall?? fa???iy,,,Tammouz 2 or 3 (Intended)
-,Project 921 (1992–present),China National Space Administration,Shenzhou spacecraft and Tiangong space laboratory,??? (in Chinese) y?hángyuán ??? (in Chinese) hángti?nyuán taikonaut("???" tàik?ng rén),??? (Yang Liwei),2003-10-15,"Long March 2F, Long March 3"
-,Project 869 (1990s),China National Space Administration,Tianjiao-1 or Chang Cheng-1 (Great Wall-1) winged spaceplanes (Intended),??? (in Chinese) y?hángyuán ??? (in Chinese) hángti?nyuán taikonaut("???" tàik?ng rén),,,869 reusable shuttle system (Intended)
-,"Kankoh-maru (1993-1997,2005)","Japanese Rocket Societyja3=????????vertical-align=sup, Kawasaki Heavy Industries and Mitsubishi Heavy Industries",Kankoh-maru reusable shuttle system (Intended),????? (in Japanese) uch?hik?shi or ??????? astoronoto,,,Kankoh-maru reusable shuttle system (Intended)
-,... (2001-2003),National Space Development Agency of Japan,Fuji spacecraft (Intended),????? (in Japanese) uch?hik?shi or ??????? astoronoto,,,H-IIA (Intended)
-,Project 921-2 (2020–present),China National Space Administration,"X-11 reused spacecraft, Tianzhou non-reentry and Shenzhou Cargo reentry cargo spacecrafts and permanent modular Chinese Space Station",??? (in Chinese) y?hángyuán ??? (in Chinese) hángti?nyuán taikonaut("???" tàik?ng rén),TBD,TBD,"Long March 3, Long March 5"
-,Indian Human Spaceflight Programme (2007–present),Human Space Flight Centre (ISRO),Gaganyaan spacecraft and small space laboratory,Vyomanaut/Gaganaut,TBA,December 2021 (Planned) Before 2022-08-15 (Scheduled),GSLV Mk III
-,Project 921-3 (2000s–present),China National Space Administration,Shenlong spaceplane,??? (in Chinese) y?hángyuán ??? (in Chinese) hángti?nyuán taikonaut("???" tàik?ng rén),TBD,TBD,921-3 RLV (or Tengyun either HTS maglev launch assist) reusable shuttle system
-,... (2008–present),Japan Aerospace Exploration Agency,HTV-based spacecraft and small space laboratory,????? (in Japanese) uch?hik?shi or ??????? astoronoto,TBD,TBD,H-IIB
-,"Iranian human spaceflight program (2005-2017, on hold)",Iranian Space Agency,Class E Kavoshgar spacecraft and small space laboratory,,TBD,TBD,TBD
-,DPRK space program (2010s-present),National Aerospace Development Administration,Spacecraft and small space laboratory,,TBD,TBD,"Unha 9, 20"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,2011[164],2012[165],2013[166],2014[167],2015[168],2016[169],2017[170],2018[171],2019[172],Total
+,19,19,15,16,19,22,18,39,34,201
+,3,2,4,5,5,7,5,7,6,44
+,3,2,3,4,4,4,7,6,2,35
+,1,3,1,-,1,-,1,-,3,10
+,-,2,-,-,-,1,-,-,-,3
+,-,-,-,1,-,1,-,-,-,2
+,-,-,1,-,-,-,-,-,-,1
+Total,26,28,24,26,29,35,31,52,45,296

@@ -1,5 +1,6 @@
 Client,Developer,First public release,Monthly active users,Registration requirement,License,Operating system,,,,,,E2EE 2-user chat,E2EE group chat,File transfer,Voice recording,Client,Voice chat,Video chat,Read receipts,Editing sent messages,Deleting sent messages,Custom emoji,Stickers,Self-destructing messages,Lock screen,Screenshot protection (Android only)[1],App screenshot notification,User screenshot notification[2],Local encrypted,Themes / skins,Plugins,Peer-to-peer text chat,Open source servers,Federated servers,Privacy law compliant,Client
 ,,,,,,Windows,macOS,Linux,Web,Android,iOS,,,,,,,,,,,,,,,,,,,,,,,,,
+ADAMANT Messenger,ADAMANT TECH LABS,"September 2, 2017; 3 years ago",,Nothing required,GPLv3,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,ADAMANT Messenger,No,No,No,No,No,No,No,No,No,No,No,No,?,N/A,No,N/A,Yes,Yes,,ADAMANT Messenger
 Discord,Discord Inc.,"March 6, 2015; 5 years ago (2015-03-06)",250 million (2019)[2],Email,Proprietary Freeware,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Discord,Yes,Yes,No,Yes,Yes,Yes,No,No,No,No,No,No,?,No,No,No,No,No,No,Discord
 eBuddy,Paulo Taylor,"March 9, 2003; 17 years ago (2003-03-09)",,Phone number,Proprietary Freeware,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,eBuddy,Yes,Yes,Yes,No,Partial,No,No,Yes,Yes,?,?,?,?,Yes,No,No,No,No,No,eBuddy
 Facebook Messenger,"Facebook, Inc.","August 9, 2011; 9 years ago (2011-08-09)",1300 million (2019)[2],Facebook account,Proprietary Freeware,Yes,Yes,No,Yes,Yes,Yes,Optional,No,Yes,Yes,Facebook Messenger,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,?,?,?,?,Yes,Yes,No,No,No,No,Facebook Messenger
@@ -7,18 +8,13 @@ FireChat,Open Garden,March 2014; 6 years ago (2014-03),,Email,Proprietary Freewa
 Gadu-Gadu,?ukasz Foltyn / GG Network S.A.,"August 15, 2000; 20 years ago (2000-08-15)",,Email,Proprietary Freeware,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Gadu-Gadu,Yes,,,,,No,,,,?,?,?,?,,No,No,No,,,Gadu-Gadu
 Gajim,Yann Le Boulanger,"May 21, 2004; 16 years ago (2004-05-21)",,Email,GPL,Yes,No,Yes,No,No,No,Optional,Plug-in,Yes,No,Gajim,Yes,Yes,,Yes,,Yes,,No,,?,?,?,?,Yes,Yes,No,Yes,Yes,No,Gajim
 ICQ,Mail.Ru,November 1996; 23 years ago (1996-11),,Phone number,Proprietary Freemium adware,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,ICQ,Yes,Yes,,,,Yes,,,,?,?,?,?,Yes,Yes,No,,,,ICQ
-Jami,Savoir-faire Linux Inc.,2014; 6 years ago (2014),,N/A,GPLv3,Yes,Yes,Yes,No,Yes,Yes,Yes[3],No groupchat,Yes,Yes,Jami,Yes,Yes,No,No,Partial,No,No,No,No,?,?,?,?,Yes,No,Yes,N/A,N/A,Yes,Jami
+Jami,Savoir-faire Linux Inc.,2014; 6 years ago (2014),,N/A,GPLv3,Yes,Yes,Yes,No,Yes,Yes,Yes[3],No groupchat,Yes,Yes,Jami,Yes,Yes,No,No,Partial,No,No,No,No,?,?,?,?,Yes,No,Yes,Yes,N/A,Yes,Jami
 Jitsi,Emil Ivov,2003; 17 years ago (2003),,,LGPL,Yes,Yes,Yes,Yes,Yes,Yes,Optional,,Yes,Yes,Jitsi,Yes,Yes,,,,Yes,,No,No,?,?,?,?,,Yes,No,Yes,Yes,No,Jitsi
 Kadu,Kadu Team,August 2001; 19 years ago (2001-08),,,GPLv2,Yes,Yes,Yes,No,No,No,No,No,Yes,No,Kadu,Yes,No,,,,Yes,,,,?,?,?,?,Yes,Yes,No,,,No,Kadu
 KakaoTalk,Kakao Corp.,"March 18, 2010; 10 years ago (2010-03-18)",49 million (2018)[4],,Proprietary Freeware,Yes,Yes,No,No,Yes,Yes,Optional,Optional,Yes,,KakaoTalk,,,,,,No,,,,?,?,?,?,,,No,No,No,No,KakaoTalk
 Keybase,Keybase,"February 8, 2017; 3 years ago",,Nothing required,New BSD License,Yes,Yes,Yes,"No, partial",Yes,Yes,Yes,Yes,Yes,No,Keybase,No,No,Yes,Yes,Yes,Yes,No,Yes,,"Yes, on by default but optional",No,No,?,"Yes, only 2 official skins",No,No,No,No,Yes,Keybase
-<<<<<<< HEAD
 Kik Messenger,Medialab,October 2010; 10 years ago (2010-10),15 million (2017)[5],Email,Proprietary Freemium adware,No,No,No,No,Yes,Yes,No,No,Yes,,Kik Messenger,,,,,,Yes,,,,?,?,?,?,Yes,,No,No,No,,Kik Messenger
 Line,LINE Corporation,March 2012; 8 years ago (March 2012),700 million (2017),Phone number,Proprietary Freemium,Yes,Yes,No,No,Yes,Yes,Partial,Yes[6],Yes,Yes,Line,Yes,Yes,Yes,No,Partial,No,Yes,No,No,?,?,?,?,Yes,Yes,No,No,No,No,Line
-=======
-Kik Messenger,Medialab,October 2010; 9 years ago (2010-10),15 million (2017)[5],Email,Proprietary Freemium adware,No,No,No,No,Yes,Yes,No,No,Yes,,Kik Messenger,,,,,,Yes,,,,?,?,?,?,Yes,,No,No,No,,Kik Messenger
-Line,LINE Corporation,March 2012; 8 years ago (March 2012),203 million (2018)[4],Phone number,Proprietary Freemium,Yes,Yes,No,No,Yes,Yes,Partial,Yes[6],Yes,Yes,Line,Yes,Yes,Yes,No,Partial,No,Yes,No,No,?,?,?,?,Yes,Yes,No,No,No,No,Line
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 Mattermost,Mattermost Inc,2015,,,AGPLv3,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Plug-in,Mattermost,Plug-in,Plug-in,No,Yes,Yes,Yes,No,No,No,?,?,?,?,Yes,Yes,No,Yes,No,Yes,Mattermost
 MCabber,Mikael Berthe,"June 7, 2005; 15 years ago (2005-06-07)",,,GPL,No,Yes,Yes,No,No,No,No,No,No,No,MCabber,No,No,,,,No,,,,?,?,?,?,,,No,,,No,MCabber
 Messages,Apple Inc.,"July 25, 2012; 8 years ago (2012-07-25)",,,Part of macOS and iOS,No,Yes,No,No,No,Yes,Optional,Optional,Yes,,Messages,Yes,Yes,,,,No,,No,No,?,?,?,?,No,No,No,N/A,N/A,,Messages
@@ -29,7 +25,7 @@ Pidgin,Mark Spencer,November 1998; 21 years ago (1998-11),,,GPL,Yes,Yes,Yes,No,N
 Psi,Psi and Psi+ developers,2001; 19 years ago (2001),,,GPL,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Psi,Partial,Partial,,Yes,,Yes,,,,?,?,?,?,Yes,Yes,No,,,,Psi
 RetroShare,"Cyril Soler, Gioacchino Mazzurco",2006; 14 years ago (2006),,,GPL,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,,RetroShare,,,,,,No,,,,?,?,?,?,,,Yes,N/A,N/A,,RetroShare
 Ricochet,Invisible.im,June 2014; 6 years ago (2014-06),,,BSD,Yes,Yes,Yes,No,No,No,Yes,,,,Ricochet,,,,,,No,,,,?,?,?,?,,,Yes,N/A,N/A,,Ricochet
-Element,New Vector Limited,July 2016; 4 years ago (2016-07),,N/A,Apache License,Yes,Yes,Yes,Yes,Yes,Yes,Optional,Optional,Yes,No,Element,Yes,Yes,Yes,Partial,Yes,Yes,Yes,No,No,?,?,?,?,Yes,Yes,No,Yes,Yes,,Element
+Element,New Vector Limited,July 2016; 4 years ago (2016-07),,N/A,Apache License,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Element,Yes,Yes,Yes,Partial,Yes,Yes,Yes,No,No,?,?,?,?,Yes,Yes,No,Yes,Yes,,Element
 Sicher,SHAPE GmbH,June 2014; 6 years ago (2014-06),,Phone number,Proprietary Freeware,No,No,No,No,Yes,Yes,Yes,Yes,Yes,,Sicher,,,,,,No,,Yes,,?,?,?,?,,,No,No,No,,Sicher
 Signal,Signal Messenger,July 2014; 6 years ago (2014-07),,Phone number,GPLv3,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Signal,Yes,Yes,Yes,No,Partial,No,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,No,No,Yes[7],No,Yes,Signal
 Silent Phone,Silent Circle,"January 16, 2013; 7 years ago (2013-01-16)",,N/A,Proprietary commercial software,No,No,No,No,Yes,Yes,Yes,Yes[8],Yes,,Silent Phone,,,,,,No,,Yes,Yes,?,?,?,?,,,No,No,No,,Silent Phone

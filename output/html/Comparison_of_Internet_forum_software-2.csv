@@ -1,17 +1,21 @@
-,Flat,Threaded,User selectable themes,Unread message tracking,WYSIWYG Editor,"Export, portability",Email / NNTP interface,Languages,SSO
-bbPress,Yes[26],,,,,No[27],Plugin[28][29],Yes[30],
-Beehive Forum,Yes[26],Yes[26],Partial[26],Full[26],Yes[26] (using TinyMCE),Partial[31],,,
-Discourse,Yes,No[32],Yes[33],Full,Real-time side-by-side preview,Full[34],Partial[35],Yes[36][37],"OAuth2,[38] Custom[39]"
-Discuz!,,,Yes[40],,,,,,
-FluxBB,Yes[26],No[26],Partial[26],Session[26],No[26],,,Yes[41],
-FUDforum,Yes[26],Yes[26],Yes[26],Full[26],Yes[26],Partial[42],Yes[43],Yes[44],
-Invision Power Board,Yes[26],,Yes[26],Full[26],Yes[26],,No[45],,No[46]
-MyBB[47],Yes[26],Yes[26],Yes[26],Full[26],Yes[26],No[48],No[49][50],Yes[51],
-Phorum,Yes[26],Yes[26],Yes[26],Full[26],Yes[26],Plugin[52],,No[53],
-phpBB[54],Yes[26],No[26],Yes[26],Full[26],No[26],No[55],No[56][57],Yes[58],"Yes (LDAP, OAuth)[59]"
-PunBB[60],Yes[26],,Yes[26],Session[26],,,,No[61][62],
-Simple Machines Forum,Yes[26],No[26],Yes[26],Full[26],Yes[26],Partial [63],No[64],Yes[65],
-Thredded,Yes[19],No[19],Yes[19],Full[19],No[19],No[19],Read-only[19],Yes[19],Custom[19]
-Vanilla Forums,Yes[26],,Yes[26],Yes[26],Plugin[26],Plugin [66][67],,Yes[68],Yes[69]
-vBulletin[70],Yes[26],No,Yes[26],Full[26],Yes[26],Plugin[71][72],,No[73],
-XenForo,Yes[26],Yes,Yes[26],Full[26],Yes[26],Yes[74],,Yes[75],Yes[76]
+,MySQL,PostgreSQL,MSSQL,Oracle,SQLite,Firebird,Flat file
+bbPress[2],Yes,No,No,No,No,No,No
+Beehive Forum,Yes,No,No,No,No,No,No
+Discourse,No,Yes,No,No,No,No,No
+Discuz!,Yes,Yes,No,No,No,No,No
+FluxBB,Yes,Yes,No,No,SQLite 2[85],No,No
+FUDforum,Yes,Yes,Yes,Yes,Yes,Yes,No
+Iko,Yes,No,No,No,No,No,No
+Ikonboard,Yes,Yes,No,Yes,No,No,Yes
+Invision Power Board,Yes,No,Discontinued [86],No,No,No,No
+kusaba,Yes,No,No,No,No,No,No
+MyBB[47],Yes,Yes,No,No,Yes,No,No
+Phorum,Yes,No,No,No,No,No,No
+phpBB[54],Yes,v8.2 or newer[87][88],Yes,Yes,Yes,Discontinued,No
+PunBB[60],Yes,Yes,No,No,Yes,No,No
+Simple Machines Forum,Yes,Yes,No,No,Yes,No,No
+Syndie,Yes (HSQLDB),No,No,No,No,No,No
+Thredded[19],Yes,Yes,No,No,Yes,No,No
+Vanilla Forums,Yes,No,No,No,No,No,No
+vBulletin[70],Yes,No,No,No,No,No,No
+XenForo,Yes,No,No,No,No,No,No

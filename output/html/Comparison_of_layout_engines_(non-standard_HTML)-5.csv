@@ -1,14 +1,14 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
-<<<<<<< HEAD
-<link rel="style" … />,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-style,6.0[note 5],,,,
-=======
-Font styles,,,,,
-b,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-i,,,,,
-big,,,,,
-small,,,,,
-tt,,,,,
-Horizontal rules,,,,,
-hr,<3.1[IE 4.0],1.0,Yes,Yes,1.0
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Basic table elements,,,,,
+table,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+caption,,,,,
+tr,,,,,
+th,,,,,
+td,,,,,
+Row groups,,,,,
+thead,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+tbody,,,,,
+tfoot,,,,,
+Column groups,,,,,
+colgroup,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+col,,,,,

@@ -1,34 +1,13 @@
-<<<<<<< HEAD
-,Source code provided,Ajax use,Digital downloads,eBay listing integration,eBay order import,Multiple skins,Point of sale order management,Subscriptions,Taxation,Template engine
-Apache OFBiz,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Bigcommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
-Drupal Commerce,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes
-nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Magento,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-pimcore,Yes,Yes,Yes,No,No,3rd party,Yes,Yes,Yes,Yes
-OpenCart,Yes,Yes,Yes,Add-on,Add-on,Yes,No,Yes,Yes,Yes
-osCommerce,Yes,Yes,Yes,3rd party,3rd party,Yes,Yes,Yes,Yes,Yes
-PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Shopify,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
-SupaDupa,No,Yes,No,No,No,Yes,Yes,No,Yes,Yes
-WooCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Zen Cart,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes
-,Source code provided,Ajax use,Digital downloads,eBay listing integration,eBay order import,Multiple skins,Point of sale order management,Subscriptions,Taxation,Template engine
-=======
-,Product image attaching,Product rating,Product reviews,Quotes,Reordering,Returns,Searching,Search as user types,Search cloud,"Site map, viewable",Social bookmarking,Tell friends,Wish list
-Apache OFBiz,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
-Batavi,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes
-Bigcommerce,Yes,3rd party,3rd party,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
-Drupal Commerce,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-KonaKart,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes
-nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Magento,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-osCommerce,No,Yes,Yes,No,No,No,Yes,Add-on,No,No,Yes,Yes,No
-pimcore,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-PrestaShop,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Shopify,Yes,Yes,Yes,Yes,Yes,Yes,Yes,3rd party,3rd party,Yes,Yes,Yes,Yes
-SupaDupa,Yes,No,No,Yes,Yes,No,Yes,Yes,No,Yes,No,Yes,No
-WooCommerce,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Zen Cart,Yes,Yes,Yes,Yes,No,Add-on[27],Yes,3rd party[28],No,Yes,Add-on[29],Yes,Add-on[30]
-,Product image attaching,Product rating,Product reviews,Quotes,Reordering,Returns,Searching,Search as user types,Search cloud,"Site map, viewable",Social bookmarking,Tell friends,Wish list
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS
+Apache OFBiz,No,No,Yes,Yes,Yes,Yes
+Batavi,No,No,No,No,No,No
+Bigcommerce,Yes,Yes,No,Yes,Yes,Yes
+KonaKart,No,No,No,Yes,Yes,Yes
+Magento,No,No,Yes,Yes,Yes,Yes
+nopCommerce,No,No,No,Yes,Yes,Yes
+osCommerce,No,No,No,No,No,No
+PrestaShop,webservice,No,No,Yes,Yes,Yes
+Shopify,No,No,No,No,No,No
+WooCommerce,Yes,Yes,No,No,Yes,No
+Zen Cart,No,No,add-on,add-on,add-on,add-on
+,Australia Post,Canada Post,DHL,FedEx,United States Postal Service,UPS

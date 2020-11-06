@@ -1,30 +1,10 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Transistors (billion),Die size (mm2),Bus interface,Core config,Clock speeds,,,Fillrate,,Memory,,,,Supported API version,,,,Processing power (GFLOPS),,,TBP (Watts),SLI support
-,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),DirectX,OpenGL,OpenCL,Vulkan,Single precision (Boost),Double precision,Half precision,,
-GeForce MX110[166][167],November 2017,GM108,28,,,64,256:16:8,965,993,,7.944,23.83,?2,(variable),GDDR5/DDR3,64,12,4.5,1.0,1.2,762.6,23.83,,30,No
-GeForce MX130[166][168][169],November 2017,,,,,,384:24:8,1122,1242,,9.936,29.81,,,,,,,1.2,1.0,762.6,29.81,,30,No
-GeForce MX150[170],Mid 2017,GP108 (N17S-G1-A1),14,1.8,70,PCIe 3.0 x4,384:24:16[171][172],1468,1532,6008,23.5,35.2,2,48,GDDR5,64,12 (12_1),,1.2,1.0 (1.2 via driver),1127 (1177),18,9,25,rowspan=6 
-,?,GP108 (N17S-LG-A1),,,,,,937,1038,5012,15,22.5,,40,,,,,,,720 (797),11,6,10,
-GeForce GTX 1050 (Notebook)[173][174],"January 3, 2017",GP107(N17P-G0-A1),,3.3,135,PCIe 3.0 x16,640:40:16,1354,1493,7000,21.7,54.2,4,112,,128,,,,,1733 (1911),27,14,53,
-GeForce GTX 1050 Ti (Notebook)[173],,GP107(N17P-G1-A1),,,,,768:48:32,1493,1620,,47.8,71.7,,,,,,,,,2293 (2488),36,18,64,
-GeForce GTX 1060 (Notebook)[173],"August 16, 2016",GP106,16,4.4,200,,1280:80:48,1404,1670,8000,67.4,112,6,192,,192,,,,,3594 (4275),112,56,80,
-GeForce GTX 1060 Max-Q,May 2017,,,,,,,1063,1480,,71.04,118.4,,,,,,,,,3789,118.4,59.20,,
-,,GP106B,,,,,,1265,,,,,,,,,,,,,,,,,
-GeForce GTX 1070 (Notebook)[173],"August 16, 2016",GP104/GP104B[175],,7.2,314,,2048:128:64,1442,1645,,92.3,185,8,256,,256,,,,,5906 (6738),185,92,115,rowspan=1 
-GeForce GTX 1070 Max-Q,May 2017,,,,,,,1101,1379,,88.26,176.5,,,,,,,,,5648,176.5,88.26,?,rowspan=1 
-GeForce GTX 1080 (Notebook)[173],"August 16, 2016",,,,,,2560:160:64,1556,1733,10000,99.6,249,,320,GDDR5X,,,,,,7967 (8873),249,124,150,rowspan=1 
-GeForce GTX 1080 Max-Q,May 2017,,,,,,,1101,1468,,93.95,234.9,,,,,,,,,7516,234.9,117.4,?,rowspan=1 
-=======
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config12,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
-Quadro NVS 110M,G72M,90,PCIe 1.0 ×16,300,300,600,3:4:4:2,0.6,1.2,Up to 512,4.8,DDR,64,,9.0c,2.1,10,
-Quadro NVS 120M,G72GLM,,,450,450,700,,0.9,1.8,,5.6,DDR2,,,9.0c,2.1,,
-Quadro NVS 130M,G86M,80,PCIe 2.0 ×16,400?,800?,,8:4:4,1.6?,1.6?,Up to 256,6.4?,,,19.2,10.0,3.3,,
-Quadro NVS 135M,,,,400,800,1188,16:8:4,1.6,3.2,,9.504,GDDR3,,38.4,,,,
-Quadro NVS 140M,,,,,,1200,16:8:4,,,Up to 512,9.6,,,38.4,,,,
-Quadro NVS 150M,G98M,65,,530,1300,1400,8:4:4,2.12,2.12,Up to 256,11.2,,,31.2,,,,
-Quadro NVS 160M,,,,580,1450,,8:8:4,,4.24,256,,,,34.8,,,12,
-Quadro NVS 300M,G72GLM,90,PCIe 1.0 ×16,450,450,1000,3:4:4:2,0.9,1.8,Up to 512,8,DDR2,,,9.0c,2.1,16,
-Quadro NVS 320M,G84M,65,PCIe 2.0 ×16,575,1150,1400,32:16:8,4.6,9.2,,22.4,GDDR3,128,110.4,10.0,3.3,20,
-Quadro NVS 510M,G72GLM,90,PCIe 1.0 ×16,500,500,1200,8:24:24:16,8,12,Up to 1024,38.4,,256,,9.0c,2.1,45?,based on Go 7900 GTX
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[200][201],,Supported API version,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
+Quadro FX 370,G84,80,PCIe ×16,360,720,1000,16:8:4,1.44,2.88,256,6.4,DDR2,64,34.56,-,10.0,3.3,35,
+Quadro FX 370 LP,G86,,,540,1080,,8:8:4,2.16,4.32,,8,,,25.92,,,,25,DMS-59 for two Single Link DVI
+Quadro FX 470,MCP7A-U,65,PCIe 2.0 ×16 (Integrated),580,1400,800 (system memory),16:8:4,2.32,4.64,Up to 256MB from system memory.,12.8,,128,67.2,,,,30,based on GeForce 9400 mGPU
+Quadro FX 570,G84GL,80,PCIe ×16,460,920,800,16:8:8,3.68,3.68,256,,,,44.1,,,,38,
+Quadro FX 1700,G84GL,,,,,,32:16:8,,7.36,,,,,88.32,,,,42,
+Quadro FX 3700,G92,65,PCIe 2.0 ×16,500,1250,1600,112:56:16,8,28,,51.2,GDDR3,256,420,,,,78,"Stereo display, SLI"
+Quadro FX 4700X2,2× G92,,,,,,2× 128:64:16,2× 8,2× 32,2× 1024,2× 51.2,,2× 256,2× 480,,,,226,
+Quadro VX 200,G92,,,450,1125,,112:56:16,8,28,512,51.2,,256,420,,,,75,"2× Dual-link DVI, S-Video, optimised for Autodesk AutoCAD"

@@ -1,30 +1,10 @@
-<<<<<<< HEAD
-Arrays and Collections,Java,C#
-Abstract data types,,
-"One-dimensional, zero-based index arrays",,
-"Multidimensional arrays, rectangular (single array)",,
-"Multidimensional arrays, jagged (arrays of arrays)",,
-Non-zero based arrays,,
-Unified arrays and collections,,
-Maps/dictionaries,,
-Sorted dictionaries,,
-Sets,,
-Sorted sets,,
-Lists/vectors,,
-Queues/stacks,,
-Priority queue,,
-Bags/multisets,Third-party librarystyle=background: #8CF;,
-Concurrency optimized collections,,
-=======
-Fields and initialization,Java,C#
-Fields,,
-Constants,,
-Static (class) constructors,,
-Instance constructors,,
-Finalizers/destructors,,
-Instance initializers,,
-Object initialization,Bottom-up (fields and constructors),Top-down (fields); bottom-up (constructors)
-Object initializers,,
-Collection initializers,,
-Array initializers,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Generics,Java,C#
+Implementation,Type erasure,Reification
+Runtime realization,,
+Type variance,Use-site,Declaration-site (only on interfaces)
+Reference type constraint,,
+Value/primitive type constraint,,
+Constructor constraint,,
+Subtype constraint,,
+Supertype constraint,,
+Migration compatibility,,

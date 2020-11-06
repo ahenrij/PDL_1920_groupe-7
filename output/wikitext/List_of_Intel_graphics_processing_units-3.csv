@@ -1,25 +1,4 @@
-<<<<<<< HEAD
-Name,Release year,Market,Processor,,Device ID,Core config1,Clock rate,,API support[64][13][32][49][50],,,,Memory bandwidth (GB/s)
-,,,Code name,Model,,,Min (MHz),Max (MHz),Direct3D,OpenGL,OpenCL,Vulkan,
-UHD Graphics,2019,Mobile,Ice Lake,Core i3-1000G1 Core i3-1005G1,8A58,256:32:4 (GT1),300,900,12 FL12_1,4.6Windows 4.6Linux ES 3.2Linux,2.1Windows 2.1Linux,1.2Windows 1.2Linux,59.7
-,,,,Core i5-1035G1,8A56,,,1050,,,,,
-Iris Plus Graphics,,,,Core i3-1000G4,8A5C,384:48:6 (GT1.5),,900,,,,,
-,,,,Core i5-1030G4,,,,1050,,,,,
-,,,,Core i5-1035G4,8A5A,,,,,,,,
-,,,,Core i5-1030G7 Core i5-1030NG7,8A51,512:64:8 (GT2),,1050,,,,,
-,,,,Core i7-1060G7 Core i7-1060NG7,,,,1100,,,,,
-,,,,Core i5-1035G7,8A52,,,1050,,,,,
-,,,,Core i7-1065G7,,,,1100,,,,,
-,,,,Core i5-1038G7,8A53,,,1050,,,,,
-,,,,Core i7-1068G7,,,,1100,,,,,
-=======
-Graphics,Launch,Market,Processor,Code name,Device id.[3],Core clock (MHz),Execution units,API support[13],,,Memory bandwidth (GB/s),DVMT (MB),QSV
-,,,,,,,,Direct3D,OpenGL,OpenCL,,,
-HD Graphics,2011,Mobile,Celeron B7x0 Celeron 7x7 Celeron 8x7 Celeron B8xx Pentium B9x0 Pentium 9x7,Sandy Bridge,010A,350–1150,6 (GT1),10.1 FL10_1,3.1Windows 3.3macOS[24] 3.3Linux ES 3.0Linux,rowspan=7 ,21.3,1720,rowspan=2 
-,,Desktop,Celeron G4x0 Celeron G5x0 Celeron G530T Pentium G6xx Pentium G6x0T Pentium G8x0,,,650–1100,,,,,,,
-HD Graphics 2000,,Desktop,Core i3-2102 Core i3-21x0 Core i3-21x0T Core i5-2xx0 Core i5-2x00S Core i5-2xx0T Core i7-2600 Core i7-2600S,,0102,650–1350,,,,Yes,,,
-,,Workstation,Xeon E3-1260L,,,,,,,,,,
-HD Graphics 3000,,Mobile,Core i3-23x0E Core i3-23xxM Core i5-251xE Core i5-2xxxM Core i7-2xxxQM Core i7-271xQE Core i7-29x0XM,,0116 0126,650–1300,12 (GT2),,,,,,
-,,Desktop,Core i3-21x5 Core i5-2405S Core i5-2500K Core i7-2x00K,,0112 0122,850–1350,,,,,,,
-HD Graphics P3000,,Workstation,Xeon E3-12x5,,,850–1350,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Codec used to encode the video,Technique employed
+MPEG-2 Part 2,"VLD, iDCT, and MC"
+VC-1,"VLD, iMDCT, MC, and LF"
+H.264/MPEG-4 AVC,"VLD, iMDCT, MC, and LF"

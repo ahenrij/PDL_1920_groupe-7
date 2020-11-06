@@ -1,64 +1,16 @@
-<<<<<<< HEAD
-Name,Windows,Mac OS X,Linux,Unix,BSD,Other
-3ds Max,Yes,No,No,No,No,No
-AC3D,Yes,Yes,Yes,No,No,No
-Art of Illusion,Yes,Yes,Yes,Yes,No,Anything with Java support
-AutoCAD,Yes,No,No,No,No,No
-Blender,Yes,Yes,Yes,Yes,Yes,"Solaris, AmigaOS 4, MorphOS"
-Carrara,Yes,Yes,No,No,No,No
-Cheetah 3D,No,Yes,No,No,No,No
-Cinema 4D,Yes,Yes,No,No,No,Amiga OS
-Clara.io,Yes,Yes,Yes,Yes,Yes,"Chrome OS, Android"
-DesignSpark Mechanical,Yes,No,No,No,No,No
-Electric Image Animation System,Yes,Yes,No,No,No,No
-form-Z,Yes,Yes,No,No,No,No
-HiCAD,Yes,No,No,No,No,No
-Houdini,Yes,Yes,Yes,No,No,No
-IClone,Yes,No,No,No,No,No
-LightWave 3D,Yes,Yes,No,No,No,AmigaOS
-MakeHuman,Yes,Yes,Yes,No,No,No
-Massive,Yes,No,Yes,No,No,No
-Maya,Yes,Yes,Yes,No,No,No
-Metasequoia,Yes,No,No,No,No,No
-Modo,Yes,Yes,Yes,No,No,No
-POV-Ray,Yes,Yes,Yes,No,No,"Amiga OS, Atari TOS"
-Remo 3D,Yes,No,Yes,No,No,No
-Shade,Yes,Yes,No,No,No,No
-Silo,Yes,Yes,Yes,No,No,No
-SketchUp Make,Yes,Yes,No,No,No,No
-SketchUp Pro,Yes,Yes,No,No,No,No
-Softimage,Yes,No,Yes,No,No,No
-Solid Edge,Yes,No,No,No,No,No
-solidThinking,Yes,Yes,No,No,No,No
-solidWorks,Yes,No,No,No,No,No
-SpaceClaim,Yes,No,No,No,No,No
-trueSpace,Yes,No,No,No,No,Amiga OS
-Verto Studio 3D,No,Yes,No,No,No,iOS
-E-on Vue,Yes,Yes,No,No,No,No
-Wings 3D,Yes,Yes,Yes,No,No,No
-ZBrush,Yes,Yes,No,No,No,No
-=======
-,Modeling,3D Painting,Animation,Rendering,3D Tracking,Compositing
-3ds Max,Yes,Yes,Yes,Yes,No,Some
-AC3D,Yes,?,?,No,No,No
-Blender,Yes,Yes,Yes,Yes,Yes,Yes
-Electric Image Animation System,dropped[6],?,Yes,Yes,No,?
-Cinema 4D,Yes,Yes,Yes,Yes,R16 or later,No
-Clara.io,Yes,?,Yes,Yes,No,?
-Cobalt,Yes,?,Yes,Yes,No,?
-HiCAD,Yes,Yes,Yes,Yes,No,No
-Houdini,Yes,No,Yes,Yes,No,Yes
-IClone,Yes,?,Yes,Yes,?,?
-Lightwave 3D,Yes,No,Yes,Yes,No,Yes
-MakeHuman,parameter-based,No,No,No,No,No
-Maya,Yes,Yes,Yes,Yes,dropped (Maya Live),"dropped (Maya Composer, Maya Fusion, and Maya Composite)"
-Metasequoia,Yes,No,No,Yes,No,No
-Modo,Yes,Yes,Yes,Yes,No,No
-Remo 3D,Yes,No,Yes,Yes,No,No
-Shade,Yes,No,Yes,Yes,No,No
-Softimage,Yes,3.7 or later,Yes,Yes,No,Yes
-Solid Edge,Yes,?,Yes,Yes,No,?
-SketchUp Make,Yes[7][8],?,Yes[7],Yes[7],No,No
-SketchUp Pro,Yes[7][8],?,Yes[7],Yes[7],No,No
-Wings3D,Yes,?,No,Yes,No,?
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Application,Alembic Importer,USD Importer,Rendering Engine,Volume Rendering for clouds,Interactive Rendering,Isolating light contribution,Light Lister,IES Light,Physical Sun & Sky,Sun Positioning by location and times,Light Portal,Shadow Catcher,IBL and Environment texture,,,Highlight Placement,Light Layers
+,,,,,,,,,,,,,Lat Long,sIBL,Light Extraction[18],,
+Maya,Yes,(USD for Maya),Maya Hardware 2.0,?,Yes,No[19],Light Editor,?,?,?,?,?,Yes,?,?,(Place Highlight Tool for Maya),No
+,,,Maya Software,?,?,Light Linking,,No,?,?,?,?,Env Sphere,?,?,,No
+,,,Arnold,Yes,Yes,Light Linking,,Ai Photometric Light,Yes,?,Yes,Yes,Yes,?,?,,No
+3ds Max,Yes,No,Quicksilver,?,Yes,No[20],Light Lister,?,?,?,?,?,?,?,?,Place Highlight,No
+,,,Scanline,?,?,Light Exclude/Include,,?,?,?,?,Yes,?,sIBL-GUI software,?,,No
+,,,ART,?,?,?,,Yes,?,?,?,?,?,?,?,,No
+,,,Arnold,Yes,Yes,Light Group[21],,Ai Photometric Light,Yes,Sun Positioner[22],Yes,Yes,Yes,?,?,,No
+Blender,2.78 and later,No,Workbench,Some,Yes,View Layers[23],Property Chart Addon / Gaffer addon,No,?,Sun Position addon,No,?,Yes,?,?,Look At Gizmo (with Ctrl key),No
+,,,EEVEE,Some,Yes,,,No,Yes,,No,Shader Node[24],Yes,?,?,,No
+,,,Cycles,Yes,Yes,,,2.80 and later[25],Yes,,from 2.75,from 2.79,Yes,sIBL_GUI for Blender addon/ Add Environment nodes addon,?,,No
+MODO,Yes,14.1 and later,MODO Renderer,Yes,Yes,Light Linking[26],?,Photometric Light,Directional Light[27],,Portal,Shadow Catcher,Yes,mm_sIBLToModoEnvironment script,?,?,No
+LightWave,11.6 and later,No,LightWave Renderer,Yes,Yes,?,?,Photometric Light,Yes,Yes,Yes,Yes,Yes,"original loader script, where most sIBL features were invented[28]",?,?,No
+Houdini,Yes,Solaris,Mantra (PT) / Karma,Yes,Yes,Light categories,Light bank,Yes,?,?,?,Shadow Matte,Yes,?,?,Solaris,?
+Cinema 4D,Yes,R23 and later,CineRender,?,Yes,Exclude/Include,?,Yes,?,?,?,from R18,Yes,?,?,?,?

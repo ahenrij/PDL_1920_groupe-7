@@ -1,32 +1,9 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
-GeForce 4057,"September 16, 2011",GT216 GT218,40 nm,486 260,100 57,1,48:16:8 16:8:4,475 589,1100 1402,800 790,3.8 2.36,7.6 4.71,512 1024,12.6,DDR3,64,n/a[29],10.1,3.3,1.1,105.6 44.86,Unknown,30.5,OEM
-GeForce GT 420,"September 3, 2010",GF108,TSMC 40 nm,585,116,,48:4:4,700,1400,1800,2.8,2.8,512,28.8,GDDR3,128,,12 FL 11_1,4.6,,134.4,Unknown,50,
-GeForce GT 430,"October 11, 2010",GF108 GF108-300-A1,,,,2,96:16:4,,,1600 1800,,11.2,512,25.6 28.8,,,,,,1.2,268.8,Unknown,60,
-,,,,,,,,,,1800,,,512 1024 2048,28.8,,128,,,,1.1,268.8,Unknown,49,$79
-,,,,,,,,,,1300,,,,10.4,,64,,,,,,,,
-GeForce GT 440,"February 1, 2011",GF108,,,,,,810,1620,1800 3200,3.24,12.96,1024,28.8 51.2,GDDR3 GDDR5,128,,,,,311.04,Unknown,65,$100
-,"October 11, 2010",GF106,,1170,238,3,144:24:24,594,1189,1800,14.26,14.26,1536 3072,43.2,GDDR3,192,,,,,342.43,Unknown,56,OEM
-GeForce GTS 450,,,,,,,,790,1580,4000,18.96,18.96,1536,96,GDDR5,,,,,,455.04,Unknown,106,
-,"September 13, 2010 March 15, 2011",GF106-250 GF116-200,,,,4,192:32:16,783,1566,3608,12.53,25.06,512 1024,57.73,,128,,,,,601.34,Unknown,106,$129
-GeForce GTX 460 SE,"November 15, 2010",GF104-225-A1,,1950,332,6,288:48:32,650,1300,3400,20.8,31.2,1024,108.8,,256,,,,,748.8,Unknown,150,$160
-GeForce GTX 460,"October 11, 2010",GF104,,,,7,336:56:32,,,,,36.4,1024,108.8,,,,,,,873.6,Unknown,,OEM
-,"July 12, 2010",GF104-300-KB-A1,,,,,336:56:24,675,1350,3600,16.2,37.8,768,86.4,,192,,,,,907.2,Unknown,,$199
-,,,,,,,336:56:32,,,,21.6,,1024 2048,115.2,,256,,,,,,,160,$229
-,"September 24, 2011",GF114,,,,,336:56:24,778,1556,4008,18.67,43.57,1024,96.2,,192,,,,,1045.6,Unknown,,$199
-GeForce GTX 465,"May 31, 2010",GF100-030-A3,,3000[30],529,11,352:44:32,607,1215,3206,19.42,26.71,1024,102.6,,256,,,,1.2,855.36,106.92,2004,$279
-GeForce GTX 470,"March 26, 2010",GF100-275-A3,,,,14,448:56:40,,,3348,24.28,34,1280,133.9,,320,,,,,1088.64,136.08,2154,$349
-GeForce GTX 480,"March 26, 2010",GF100-375-A3,,,,15,480:60:48,700,1401,3696,33.60,42,1536,177.4,,384,,,,,1344.96,168.12,2504,$499
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
-=======
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,
-NVS 2100M,GT218M,40,PCIe 2.0 ×16,535,1230,1600,16:8:4,2.14,4.28,Up to 512,12.8,GDDR3,64,59.04,10.1,3.3,14,
-NVS 3100M,,,,600,1470,,,2.4,4.8,,,,,70.56,,,,based on G210M/310M
-NVS 4200M,GF119,,,810,1620,,48:8:4,3.24,6.48,Up to 1024,,,,155.52,11,4.5,,based on GT 520M
-NVS 5100M,GT216M,,,550,1210,,48:16:8,4.4,8.8,,25.6,,128,174.24,10.1,3.3,35,
-NVS 5200M,GF108,40/28,,625,1250,1800,96:16:4,2.5,10,,14.4,,64,240,11,4.5,,
-NVS 5400M,,,,660,1320,,,2.64,10.56,,28.8,,128,253.44,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,Nvidia Optimus technology,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,,,
+Quadro K510M,GK208,28,PCIe 3.0 ×8,850,850,1200 (2400),192:16:8 (1 SMX),6.8,13.6,1024,19.2,GDDR5,64,326.4,11.0,4.5,Yes,30,
+Quadro K610M,GK208,,PCIe 3.0 ×16,980,980,1300 (2600),192:16:8 (1 SMX),7.84,15.68,,20.8,,,376.32,,,,,
+Quadro K1100M,GK107,,,716,716,1400 (2800),384:32:16 (2 SMX),11.45,22.91,2048,44.8,,128,549.89,,,,45,Dell Precision M3800 and M4800
+Quadro K2100M,GK106,,,654,654,1500 (3000),576:48:16 (3 SMX),10.46,31.39,,48.0,,,753.41,,,,55,Dell Precision M4800
+Quadro K3100M,GK104,,,680,680,800 (3200),768:64:32 (4 SMX),21.76,43.52,4096,102.4,,256,1044.48,,,,75,Dell Precision M6800
+Quadro K4100M,,,,706,706,,1152:96:32 (6 SMX),22.59,67.77,,,,,1626.624,,,,100,Dell Precision M6800
+Quadro K5100M,,,,771,771,900 (3600),1536:128:32 (8 SMX),24.67,98.68,8192,115.2,,,2368.51,,,,,Dell Precision M6800

@@ -1,89 +1,15 @@
-<<<<<<< HEAD
-Math object,Trident,Gecko,WebKit,Presto
-Value properties,,,,
-E,3.0,1.0,Yes,1.0
-LN10,3.0,1.0,Yes,1.0
-LN2,3.0,1.0,Yes,1.0
-LOG2E,3.0,1.0,Yes,1.0
-LOG10E,3.0,1.0,Yes,1.0
-PI,Yes,Yes,Yes,Yes
-SQRT1_2,3.0,1.0,Yes,1.0
-SQRT2,Yes,Yes,Yes,Yes
-Function properties,,,,
-abs(x),3.0,1.0,Yes,1.0
-acos(x),3.0,1.0,Yes,1.0
-asin(x),3.0,1.0,Yes,1.0
-atan(x),3.0,1.0,Yes,1.0
-"atan2(y, x)",3.0,1.0,Yes,1.0
-ceil(x),3.0,1.0,Yes,1.0
-cos(x),3.0,1.0,Yes,1.0
-exp(x),3.0,1.0,Yes,1.0
-floor(x),3.0,1.0,Yes,1.0
-log(x),3.0,1.0,Yes,1.0
-"max([value1 [, value2 [, ...]]])",3.0,1.0,Yes,1.0
-"min([value1 [, value2 [, ...]]])",3.0,1.0,Yes,1.0
-"pow(x, y)",3.0,1.0,Yes,1.0
-random(),3.0,1.0,Yes,1.0
-round(x),3.0,1.0,Yes,1.0
-sin(x),3.0,1.0,Yes,1.0
-sqrt(x),3.0,1.0,Yes,1.0
-tan(x),3.0,1.0,Yes,1.0
-=======
-Date object,Trident,Gecko,WebKit,Presto
-Called as function,,,,
-"Date ([year [, month [, date [, hours [, minutes [, seconds [, ms ]]]]]]])",?,?,?,?
-Called as constructor,,,,
-"new Date (year, month [, date [, hours [, minutes [, seconds [, ms ]]]]])",4.0,1.0,Yes,1.0
-new Date (value),4.0,1.0,Yes,1.0
-new Date (),4.0,1.0,Yes,1.0
-Properties,,,,
-prototype,4.0,1.0,Yes,1.0
-parse(string),3.0,1.0,Yes,1.0
-"UTC (year, month [, date [, hours [, minutes [, seconds [, ms ]]]]])",3.0,1.0,Yes,1.0
-Properties of prototype,,,,
-constructor,4.0,1.0,Yes,1.0
-toString(),4.0,1.0,Yes,1.0
-toDateString(),4.0,1.0,Yes,1.0
-toTimeString(),4.0,1.0,Yes,1.0
-toLocaleString(),4.0,1.0,Yes,1.0
-toLocaleDateString(),4.0,1.0,Yes,1.0
-toLocaleTimeString(),4.0,1.0,Yes,1.0
-valueOf(),4.0,1.0,Yes,1.0
-getTime(),3.0,1.0,Yes,1.0
-getFullYear(),4.0,1.0,Yes,1.0
-getMonth(),3.0,1.0,Yes,1.0
-getUTCMonth(),4.0,1.0,Yes,1.0
-getDate(),3.0,1.0,Yes,1.0
-getUTCDate(),4.0,1.0,Yes,1.0
-getDay(),3.0,1.0,Yes,1.0
-getUTCDay(),4.0,1.0,Yes,1.0
-getHours(),3.0,1.0,Yes,1.0
-getUTCHours(),4.0,1.0,Yes,1.0
-getMinutes(),3.0,1.0,Yes,1.0
-getUTCMinutes(),4.0,1.0,Yes,1.0
-getSeconds(),3.0,1.0,Yes,1.0
-getUTCSeconds(),4.0,1.0,Yes,1.0
-getMilliseconds(),4.0,1.0,Yes,1.0
-getUTCMilliseconds(),4.0,1.0,Yes,1.0
-getTimezoneOffset(),4.0,1.0,Yes,1.0
-setTime(time),3.0,1.0,Yes,1.0
-setMilliseconds(ms),4.0,1.0,Yes,1.0
-setUTCMilliseconds(ms),4.0,1.0,Yes,1.0
-"setSeconds(sec [, ms])",3.0,1.0,Yes,1.0
-"setUTCSeconds(sec [, ms])",4.0,1.0,Yes,1.0
-"setMinutes(min [, sec [, ms]])",3.0,1.0,Yes,1.0
-"setUTCMinutes(min [, sec [, ms]])",4.0,1.0,Yes,1.0
-"setHours(hour [, min [, sec [, ms]]])",4.0,1.0,Yes,1.0
-"setUTCHours(hour [, min [, sec [, ms]]])",4.0,1.0,Yes,1.0
-setDate(date),4.0,1.0,Yes,1.0
-setUTCDate(date),4.0,1.0,Yes,1.0
-"setMonth(month [, date])",3.0,1.0,Yes,1.0
-"setUTCMonth(month [, date])",4.0,1.0,Yes,1.0
-"setFullYear(year [, month [, date]])",4.0,1.0,Yes,1.0
-"setUTCFullYear(year [, month [, date]])",4.0,1.0,Yes,1.0
-toUTCString(),4.0,1.0,Yes,1.0
-Additional properties of prototype,,,,
-getYear(),3.0,1.0,Yes,1.0
-setYear(year),3.0,1.0,Yes,1.0
-toGMTString(),4.0,1.0,Yes,1.0
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Object object,Trident,Gecko,WebKit,Presto,Blink
+Called as function,,,,,
+Object([value]),Yes,Yes,Yes,Yes,Yes
+Called as constructor,,,,,
+new Object([value]),4.0,Yes,Yes,Yes,Yes
+Properties,,,,,
+prototype,4.0,Yes,Yes,Yes,Yes
+Properties of prototype,,,,,
+constructor,4.0,Yes,Yes,Yes,Yes
+toString(),4.0,Yes,Yes,Yes,Yes
+toLocaleString(),4.0,Yes,Yes,Yes,Yes
+valueOf(),4.0,Yes,Yes,Yes,Yes
+hasOwnProperty(V),5.5,Yes,3,Yes,Yes
+isPrototypeOf(V),5.5,Yes,3,Yes,Yes
+propertyIsEnumerable(V),5.5,Yes,3,Yes,Yes

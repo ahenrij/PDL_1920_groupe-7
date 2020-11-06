@@ -1,19 +1,2 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Zero Resource Speech Challenge 2015,"Spontaneous speech (English), Read speech (Xitsonga).",raw wav,"English: 5h, 12 speakers; Xitsonga: 2h30; 24 speakers",sound,Unsupervised discovery of speech features/subword units/word units,2015,[244][245],Versteegh et al.
-Parkinson Speech Dataset,Multiple recordings of people with and without Parkinson's Disease.,"Voice features extracted, disease scored by physician using unified Parkinson's disease rating scale","1,040",Text,"Classification, regression",2013,[246][247],B. E. Sakar et al.
-Spoken Arabic Digits,Spoken Arabic digits from 44 male and 44 female.,Time-series of mel-frequency cepstrum coefficients.,"8,800",Text,Classification,2010,[248][249],M. Bedda et al.
-ISOLET Dataset,Spoken letter names.,Features extracted from sounds.,7797,Text,Classification,1994,[250][251],R. Cole et al.
-Japanese Vowels Dataset,Nine male speakers uttered two Japanese vowels successively.,Applied 12-degree linear prediction analysis to it to obtain a discrete-time series with 12 cepstrum coefficients.,640,Text,Classification,1999,[252][253],M. Kudo et al.
-Parkinson's Telemonitoring Dataset,Multiple recordings of people with and without Parkinson's Disease.,Sound features extracted.,5875,Text,Classification,2009,[254][255],A. Tsanas et al.
-TIMIT,"Recordings of 630 speakers of eight major dialects of American English, each reading ten phonetically rich sentences.",Speech is lexically and phonemically transcribed.,6300,Text,"Speech recognition, classification.",1986,[256][257],J. Garofolo et al.
-Arabic Speech Corpus,"A single-speaker, Modern Standard Arabic (MSA) speech corpus with phonetic and orthographic transcripts aligned to phoneme level",Speech is orthographically and phonetically transcribed with stress marks.,~1900,"Text, WAV","Speech Synthesis, Speech Recognition, Corpus Alignment, Speech Therapy, Education.",2016,[258],N. Halabi
-Common Voice,A public domain database of crowdsourced data across a wide range of dialects.,Validation by other users,"English: 1,118 hours",MP3 with corresponding text files,Speech recognition,June 2017 (December 2019),[259],Mozilla
-=======
-NPS Chat Corpus,Posts from age-specific online chat rooms.,"Hand privacy masked, tagged for part of speech and dialogue-act.","~ 500,000",XML,"NLP, programming, linguistics",2007,[205],"Forsyth, E., Lin, J., & Martell, C."
-Twitter Triple Corpus,A-B-A triples extracted from Twitter.,,"4,232",Text,NLP,2016,[206],"Sordini, A. et al."
-UseNet Corpus,UseNet forum postings.,"Anonymized e-mails and URLs. Omitted documents with lengths <500 words or >500,000 words, or that were <90% English.",7 billion,Text,,2011,[207],"Shaoul, C., & Westbury C."
-NUS SMS Corpus,"SMS messages collected between two users, with timing analysis.",,"~ 10,000",XML,NLP,2011,[208],"KAN, M"
-Reddit All Comments Corpus,All Reddit comments (as of 2015).,,~ 1.7 billion,JSON,"NLP, research",2015,[209],Stuck_In_the_Matrix
-Ubuntu Dialogue Corpus,Dialogues extracted from Ubuntu chat stream on IRC.,,,CSV,Dialogue Systems Research,2015,[210],"Lowe, R. et al."
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Tox21 Dataset,Prediction of outcome of biological assays.,Chemical descriptors of molecules are given.,12707,Text,Classification,2016,[413],A. Mayr et al.

@@ -1,51 +1,25 @@
-<<<<<<< HEAD
-Shell,Pipes,Command substitution,Process substitution,Subshells,TCP/UDP connections as streams,Keystroke stacking
-Bourne shell,bytes concurrent,,,,,
-POSIX shell,bytes concurrent,,,,,
-bash (v4.0),bytes concurrent,,Yes (if system supports /dev/fd/n or named pipes),,Yes (client only),
-csh,bytes concurrent,,,,,
-tcsh,bytes concurrent,,,,,
-Hamilton C shell,bytes concurrent,,,,,?
-Scsh,text,?,?,?,,
-ksh (ksh93t+),bytes (may contain serialized objects if print -C is used) concurrent,Yes ($(...) and ${<space>...;),Yes (if system supports /dev/fd/n),,"Yes (and SCTP support, client only)",
-pdksh,bytes concurrent,,,,,
-zsh,bytes concurrent,,,,"Yes (client and server, but only TCP)",
-ash,bytes concurrent,,,,,
+Shell,String processing,Alternation (Brace expansion),Pattern matching (regular expressions built-in),Pattern matching (filename globbing),Globbing qualifiers (filename generation based on file attributes),Recursive globbing (generating files from any level of subdirectories)
+Bourne shell 1977 version,?,,,"Yes (*, ?, [...])",,
+Bourne shell recent version,,,,"Yes (*, ?, [...])",,
+POSIX shell,,,,"Yes (*, ?, [...])",,
+bash (v4.0),,,,"Yes (*, ?, [...], {...)",,**/...)
+csh,Yes (:s and other editing operators),,,,,
+tcsh,Yes (:s and other editing operators),,,,,
+Hamilton C shell,"Yes (:s and other editing operators + substr, strlen, strindex, printf, reverse, upper, lower, concat and other builtin functions)",,,,,Yes (via indefinite directory "..." wildcard[64])
+Scsh,?,?,,,,
+ksh (ksh93t+),",,,"Yes (*, ?, [...])",,"set -G, no following of symlinks)"
+pdksh,?,,,,,
+zsh,",,,"Yes (*, ?, [...], extended globbing[66])",,**/... or ***/... to follow symlinks)
+ash,?,?,,,,
 CCP,,,,,,
-COMMAND.COM,text sequential temporary files,,,COMMAND.COM /T),,
-OS/2 CMD.EXE,text concurrent,,,?,,
-Windows CMD.EXE,text concurrent,Yes (via FOR /F command),,Yes (Backtick: ` in FOR /F usebackq),,
-4DOS,text sequential temporary files,Yes (via FOR /F command),?,"%@EXECSTR[] and %@EXEC[], or via SET /M, ESET /M and UNSET /M and %@MASTER[...])",,KEYSTACK and KSTACK)[70]
-4OS2,text concurrent,?,?,?,,KEYSTACK)
-TCC (formerly 4NT),text concurrent,Yes (via FOR /F command),?,%@EXECSTR[] and %@EXEC[]),"FTP, TFTP, FTPS, SFTP, HTTP, HTTPS and IFTP, client only)",KEYSTACK)
-PowerShell,objects concurrent,,,,,?
-rc,text concurrent,,Yes (via: <{cmd if system supports /dev/fd/n),,,?
-BeanShell,not supported,?,?,?,,?
-VMS DCL,text (via PIPE command),,,Yes (spawn),Yes (server TCP only),
-fish,bytes concurrent,...),No (broken)[71],,,
-=======
-Shell,Secure (password) prompt,Encrypted variables/ parameters,File/directory passwords,Execute permission,Untrusted script blocking,Restricted shell subset,Safe data subset
-Bourne shell,via stty[72],,?,,,,
-POSIX shell,via stty[72],,?,,,,
-bash (v4.0),read -s,,?,,,,
-csh,via stty[72],,?,,,,
-tcsh,via stty[72],,?,,,,
-Hamilton C shell,,,,,,,
-Scsh,via stty[72],,?,,,,
-ksh (ksh93t+),via stty[72],,?,,,,
-pdksh,via stty[72],,?,,,,
-zsh,read -s,,?,,,,
-ash,via stty[72],,?,,,,
-CCP,,,,,,,
-COMMAND.COM,",,\dirname;dirpwd\filename;filepwd syntax)[74],",,,
-OS/2 CMD.EXE,,,,,,,
-Windows CMD.EXE,,,,,,,
-4DOS,INPUT /P or INKEY /P)[76],,\dirname;;dirpwd\filename;;filepwd syntax)[74],",,,
-4OS2,?,,,,,,
-TCC (formerly 4NT),"INPUT /P, INKEY /P or QUERYBOX /P)[76]",,,,,,
-PowerShell,,,,,,,
-rc,via stty[72],,?,,,,
-BeanShell,?,?,?,?,?,?,?
-VMS DCL,,,,,,,
-fish,read -s,,?,,, Yes (via fish -l),?
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+COMMAND.COM,,,,"Yes (*, ?)",,
+OS/2 CMD.EXE,,,,"Yes (*, ?)",DIR /A:... command),
+Windows CMD.EXE,FOR /F and SET /A),,No[67],"Yes (*, ?)",DIR /A:... command),"FOR /R command, or, where available, indirectly via /S subdir option)"
+4DOS,"%@...[], extended environment variable processing, various string commands and FOR /F and SET /A)",,,"Yes (*, ?, [...], extended wildcards, SELECT popup command)","/A:... attribute and /I"..." description options and /[S...] size, /[T...] time, /[D...] date, and /[!...] file exclusion ranges)","FOR /R command, or indirectly via GLOBAL command or, where available, /S subdir option)"
+4OS2,?,,,?,?,?
+TCC (formerly 4NT),"%@...[], extended environment variable processing, various string commands and FOR /F and SET /A)",,,"Yes (*, ?, [...], extended wildcards, SELECT popup command)","/A:... attribute and /I"..." description options and /[S...] size, /[T...] time, /[D...] date, /[O...] owner, and /[!...] file exclusion ranges)","FOR /R command, or indirectly via GLOBAL command or, where available, /S subdir option)"
+PowerShell,"Yes (Concat/Substring/Insert/Remove/Replace, ToLower/ToUpper, Trim/TrimStart/TrimEnd, Compare, Contains/StartsWith/EndWith, Format, IndexOf/LastIndexOf, Pad/PadLeft/PadRight, Split/Join, regular expression functions and other .NET string functions)",,Yes (full regex support)[68],"Yes (*, ?, [...])",?,?
+rc,?,?,,,,
+BeanShell,?,?,,?,?,?
+VMS DCL,,,,,,[SUBDIR...])
+fish,Yes (builtin string function),Yes,yes (via builtin string match and string replace functions),"Yes (*, ?, {...)",,**/...)

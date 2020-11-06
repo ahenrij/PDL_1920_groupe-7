@@ -1,139 +1,103 @@
-<<<<<<< HEAD
-File system,Maximum filename length,"Allowable characters in directory entriesname=note-25 These are the restrictions imposed by the on-disk directory entry structures themselves. Particular Installable File System drivers may place restrictions of their own on file and directory names; operating systems may also place restrictions of their own, across all filesystems. DOS, Windows, and OS/2 allow only the following characters from the current 8-bit OEM codepage in SFNs: A-Z, 0-9, characters ! # $ % & ' ( ) - @ ^ _ ` {  ~, as well as 0x80-0xFF and 0x20 (SPACE). Specifically, lowercase letters a-z, characters " * / : < > ? \  + , . ; = [ ], control codes 0x00-0x1F, 0x7F and in some cases also 0xE5 are not allowed.) In LFNs, any UCS-2 Unicode except \ / : ? * " &gt; &lt;  and NUL are allowed in file and directory names across all filesystems. Unix-like systems disallow the characters / and NUL in file and directory names across all filesystems.",Maximum pathname length,Maximum file size,"Maximum volume sizename=note-4 For filesystems that have variable allocation unit (block/cluster) sizes, a range of size are given, indicating the maximum volume sizes for the minimum and the maximum possible allocation unit sizes of the filesystem (e.g. 512 bytes and 128 KiB for FAT — which is the cluster size range allowed by the on-disk data structures, although some Installable File System drivers and operating systems do not support cluster sizes larger than 32 KiB).",Max number of files
-BeeGFS,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,16 EiB,16 EiB,
-CP/M file system,8.3,"ASCII except for &lt; &gt; . , ; : = ? * [ ]",No directory hierarchy (but accessibility of files depends on user areas via USER command since CP/M 2.2),32 MiB,512 MiB,
-IBM SFS,8.8,,,Non-hierarchical[8],data-sort-type="number" data-sort-value="0" ,
-DECtape,6.3,"A–Z, 0–9",DTxN:FILNAM.EXT = 15,"369,280 bytes (577 * 640)","369,920 bytes (578 * 640)",
-Elektronika BK tape format,16 bytes,,No directory hierarchy,64 KiB,Not limited. Approx. 800KB (one side) for 90 min cassette,
-MicroDOS file system,14 bytes,,,16 MiB,32 MiB,
-Level-D,6.3,"A–Z, 0–9","DEVICE:FILNAM.EXT[PROJCT,PROGRM] = 7 + 10 + 15 = 32; + 5*7 for SFDs = 67","34,359,738,368 words (2**35-1); 206,158,430,208 SIXBIT bytes",Approx 12 GB (64 * 178 MB),
-RT-11,6.3,"A–Z, 0–9, $",0 (no directory hierarchy),"33,554,432 bytes (65536 * 512)","33,554,432 bytes",
-Version 6 Unix file system (V6FS),14 bytes,"Any byte except NUL and /name=note-26 In these filesystems the directory entries named "." and ".." have special status. Directory entries with these names are not prohibited, and indeed exist as normal directory entries in the on-disk data structures. However, they are mandatory directory entries, with mandatory values, that are automatically created in each directory when it is created; and directories without them are considered corrupt.","No limit definedname=note-12 The on-disk structures have no inherent limit. Particular Installable File System drivers and operating systems may impose limits of their own, however. Limited by its Current Directory Structure (CDS), DOS does not support more than 32 directory levels (except for DR DOS 3.31-6.0) or full pathnames longer than 66 bytes for FAT, or 255 characters for LFNs. Windows NT does not support full pathnames longer than 32,767 bytes for NTFS. Older POSIX APIs which rely on the PATH_MAX constant have a limit of 4,096 bytes on Linux but this can be worked around. Linux itself has no hard path length limits. [9][10]","16 MiBname=note-57 The file size in the inode is 1 8-bit byte followed by 1 16-bit word, for 24 bits. The actual maximum was 8,847,360 bytes, with 7 singly-indirect blocks and 1 doubly-indirect block; PWB/UNIX 1.0's variant had 8 singly-indirect blocks, making the maximum 524,288 bytes or half a MiB.",32 MiB,
-Disk Operating System (GEC DOS),,,,"data-sort-type="number" data-sort-value="0" ,data-sort-type="number" data-sort-value="0" ,
-GEC DOS filing system extended,8 bytes,"A–Z, 0–9. Period was directory separator",,"data-sort-type="number" data-sort-value="0" ,data-sort-type="number" data-sort-value="0" ,
-CBM DOS,16 bytes,Any byte except NUL,0 (no directory hierarchy),16 MiB,16 MiB,
-Version 7 Unix file system (V7FS),14 bytes,Any byte except NUL or /name=note-26,No limit definedname=note-12,"1 GiBname=note-58 The actual maximum was 1,082,201,088 bytes, with 10 direct blocks, 1 singly-indirect block, 1 doubly-indirect block, and 1 triply-indirect block. The 4.0BSD and 4.1BSD versions, and the System V version, used 1,024-byte blocks rather than 512-byte blocks, making the maximum 4,311,812,608 bytes or approximately 4 GiB.",2 TiB,
-exFAT,255 UTF-16 characters,,"32,760 Unicode characters with each path component no more than 255 characters[11]",16 EiB[11],64 ZiB (276 bytes),
-FAT (8-bit),6.3 (binary files) / 9 characters (ASCII files),ASCII (0x00 and 0xFF not allowed in first character),No directory hierarchy,data-sort-type="number" data-sort-value="0" ,data-sort-type="number" data-sort-value="0" ,
-FAT12/FAT16,"8.3 (255 UCS-2 characters with LFN)name=note-24 Depends on whether the FAT12, FAT16, and FAT32 implementation has support for LFNs. Where it does not, as in OS/2, DOS, Windows 95, Windows 98 in DOS-only mode and the Linux "msdos" driver, file names are limited to 8.3 format of 8-bit OEM characters (space padded in both the basename and extension parts) and may not contain NUL (end-of-directory marker) or character 5 (replacement for character 229 which itself is used as deleted-file marker). Short names also must not contain lowercase letters. A few special device names (CON, NUL, AUX, PRN, LPT1, COM1, etc.) should be avoided, as some operating systems (notably DOS, OS/2 and Windows) reserve them.",name=note-25name=note-26,No limit definedname=note-12,"32 MiB (4 GiB)name="note-fsize"On-disk structures would support up to 4 GiB, but practical file size is limited by volume size.",1 MiB to 32 MiB,
-FAT16B/FAT16X,8.3 (255 UCS-2 characters with LFN)name=note-24,name=note-25name=note-24name=note-26,No limit definedname=note-12,2 (4) GiBname="note-fsize",16 MiB to 2 (4) GiB,
-FAT32/FAT32X,8.3 (255 UCS-2 characters with LFN)name=note-24,name=note-25name=note-24name=note-26,"32,760 Unicode characters with each path component no more than 255 characters[11]",4 GiB[11],"512 MiB to 16 TiBWhile FAT32 partitions this large work fine once created, some software won't allow creation of FAT32 partitions larger than 32 GiB. This includes, notoriously, the Windows XP installation program and the Disk Management console in Windows 2000, XP, 2003 and Vista. Use FDISK from a Windows ME Emergency Boot Disk to avoid.[12]",
-FATX,42 bytesname=note-24,ASCII. Unicode not permitted.,No limit definedname=note-12,2 GiB,16 MiB to 2 GiB,
-Fossil,,,,data-sort-type="number" data-sort-value="0" ,data-sort-type="number" data-sort-value="0" ,
-GEMDOS,8.3,[ ] ( ) _[13],,,,
-APFS,255 UTF-8 characters,Unicode 9.0 encoded in UTF-8 [14],,8 EiB,data-sort-type="number" data-sort-value="0" ,263 [15]
-F2FS,255 bytes,"Any byte except NUL, /name=note-26",No limit definedname=note-12,3.94 TiB,16 TiB,
-MFS,255 bytes,Any byte except :,No path (flat filesystem),256 MiB,256 MiB,
-HFS,31 bytes,Any byte except :,Unlimited,2 GiB,2 TiB,
-HPFS,255 bytes,"Any byte except NULname=note-27 The "." and ".." directory entries in HPFS that are seen by applications programs are a partial fiction created by the Installable File System drivers. The on-disk data structure for a directory does not contain entries by those names, but instead contains a special "start" entry. Whilst on-disk directory entries by those names are not physically prohibited, they cannot be created in normal operation, and a directory containing such entries is corrupt.",No limit definedname=note-12,2 GiB,"2 TiBname=note-13 This is the limit of the on-disk structures. The HPFS Installable File System driver for OS/2 uses the top 5 bits of the volume sector number for its own use, limiting the volume size that it can handle to 64 GiB.",
-NTFS,255 characters,In Win32 namespace: any UTF-16 code unit (case-insensitive) except /\:*"?<>| as well as NUL In POSIX namespace: any UTF-16 code unit (case-sensitive) except / as well as NUL[16],"32,767 Unicode characters with each path component (directory or filename) up to 255 characters longname=note-12","16 EiBname=note-55 This is the limit of the on-disk structures. The NTFS driver for Windows NT limits the volume size that it can handle to 256 TiB and the file size to 16 TiB respectively; in Windows 10 version 1709, the limit is 8 PiB when using 2 MiB cluster size.",16 EiBname=note-55,232
-ReFS,255 UTF-16 characters[17],"Any Unicode except NUL, /[17]","32,767 Unicode characters with each path component (directory or filename) up to 255 characters long[17]",16 EiB[17][18],1 YiB[17],
-HFS Plus,"255 UTF-16 charactersname=note-1 The "classic" Mac OS provides two sets of functions to retrieve file names from an HFS Plus volume, one of them returning the full Unicode names, the other shortened names fitting in the older 31 byte limit to accommodate older applications.",Any valid Unicodename=note-26name=note-2 HFS Plus mandates support for an escape sequence to allow arbitrary Unicode. Users of older software might see the escape sequences instead of the desired characters.,Unlimited,slightly less than 8 EiB,slightly less than 8 EiB[19][20],
-FFS,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,4 GiB,256 TiB,
-HAMMER,255 bytes[21],Any byte except NULname=note-26,,data-sort-type="number" data-sort-value="0" ,1 EiB[22],
-UFS1,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,16 GiB to 256 TiB,16 EiB,"Subdirectory per directory is 32,767[23]"
-UFS2,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,512 GiB to 32 PiB,512 ZiB[24] (279 bytes),"Subdirectory per directory is 32,767[23]"
-ext,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,2 GiB,2 GiB,
-Xiafs,248 bytes,Any byte except NULname=note-26,No limit definedname=note-12,64 MiB,2 GiB,
-ext2,255 bytes,"Any byte except NUL, /name=note-26",No limit definedname=note-12,16 GiB to 2 TiBname=note-4,2 TiB to 32 TiB,
-ext3,255 bytes,"Any byte except NUL, /name=note-26",No limit definedname=note-12,16 GiB to 2 TiBname=note-4,2 TiB to 32 TiB,
-ext4,255 bytes[25],"Any byte except NUL, /name=note-26",No limit definedname=note-12,16 GiB to 16 TiBname=note-4[26],1 EiB,232
-NOVA,255 bytes,"Any byte except NUL, /name=note-26",No limit definedname=note-12,16 EiB,16 EiB,
-Lustre,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,16 EiB on ZFS,16 EiB,
-GPFS,255 UTF-8 codepoints,Any byte except NULname=note-26,No limit definedname=note-12,No limit found,299 bytes (2 PiB tested),
-GFS,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,2 TiB to 8 EiBname=note-63 Depends on kernel version and arch. For 2.4 kernels the max is 2 TiB. For 32-bit 2.6 kernels it is 16 TiB. For 64-bit 2.6 kernels it is 8 EiB.,2 TiB to 8 EiBname=note-63,
-NILFS,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,8 EiB,8 EiB,
-ReiserFS,"4,032 bytes/255 characters",Any byte except NUL or '/'name=note-26,No limit definedname=note-12,"8 TiBReiserFS has a theoretical maximum file size of 1 EiB, but "page cache limits this to 8 Ti on architectures with 32 bit int"[27] (v3.6), 4 GiB (v3.5)",16 TiB,
-Reiser4,"3,976 bytes",Any byte except / and NUL,No limit definedname=note-12,8 TiB on x86,data-sort-type="number" data-sort-value="0" ,
-OCFS,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,8 TiB,8 TiB,
-OCFS2,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,4 PiB,4 PiB,
-XFS,255 bytesNote that the filename can be much longer XFS#Extended attributes,Any byte except NULname=note-26,No limit definedname=note-12,"8 EiBname=note-9 XFS has a limitation under Linux 2.4 of 64 TiB file size, but Linux 2.4 only supports a maximum block size of 2 TiB. This limitation is not present under IRIX.",8 EiBname=note-9,
-JFS1,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,8 EiB,512 TiB to 4 PiB,
-JFS,255 bytes,Any Unicode except NUL,No limit definedname=note-12,4 PiB,32 PiB,
-QFS,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,"16 EiBname=note-72 QFS allows files to exceed the size of disk when used with its integrated HSM, as only part of the file need reside on disk at any one time.",4 PiBname=note-72,
-BFS,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,"12,288 bytes to 260 GiBname=note-3 Varies wildly according to block size and fragmentation of block allocation groups.",256 PiB to 2 EiB,Unlimited
-AdvFS,255 characters,Any byte except NULname=note-26,No limit definedname=note-12,16 TiB,16 TiB,
-NSS,256 characters,"Depends on namespace usedname=note-28 NSS allows files to have multiple names, in separate namespaces.",Only limited by client,8 TiB,8 TiB,
-NWFS,"80 bytesname=note-52 Some namespaces had lower name length limits. "LONG" had an 80-byte limit, "NWFS" 80 bytes, "NFS" 40 bytes and "DOS" imposed 8.3 filename.",Depends on namespace usedname=note-28,No limit definedname=note-12,4 GiB,1 TiB,
-ODS-5,236 bytesname=note-15 Maximum combined filename/filetype length is 236 bytes; each component has an individual maximum length of 255 bytes.,,"4,096 bytesname=note-16 Maximum pathname length is 4,096 bytes, but quoted limits on individual components add up to 1,664 bytes.",1 TiB,1 TiB,
-VxFS,255 bytes,Any byte except NULname=note-26,No limit definedname=note-12,16 EiB,data-sort-type="number" data-sort-value="0" ,
-UDF,255 bytes,Any Unicode except NUL,"1,023 bytesname=note-43 This restriction might be lifted in newer versions.",16 EiB,512 MiB to 16 TiB,
-ZFS,255 bytes,Any Unicode except NUL,No limit definedname=note-12,16 EiB,256 ZiB (278 bytes),2128
-Btrfs,255 bytes,Any byte except '/' and NUL,No limit defined,16 EiB,16 EiB,264
-Minix V1 FS,"14 or 30 bytes, set at filesystem creation time",Any byte except NULname=note-26,No limit definedname=note-12,"256.5 MiB name=note-file-size-vs-filesystem-size Sparse files can be larger than the file system size, even though they can't contain more data.",64 MiB,
-Minix V2 FS,"14 or 30 bytes, set at filesystem creation time",Any byte except NULname=note-26,No limit definedname=note-12,2 GiB name=note-file-size-vs-filesystem-size,1 GiB,
-Minix V3 FS,60 bytes,Any byte except NULname=note-26,No limit definedname=note-12,2 GiB,4 GiB,
-VMFS2,128,Any byte except NUL or /name=note-26,"2,048",4 TiBname=note-74 Maximum file size on a VMFS volume depends on the block size for that VMFS volume. The figures here are obtained by using the maximum block size.,64 TiB,
-VMFS3,128,Any byte except NUL or /name=note-26,"2,048",2 TiBname=note-74,64 TiB,
-ISO 9660:1988,"Level 1: 8.3, Level 2 & 3: ~ 180",Depends on LevelISO 9660#Restrictions,~ 180 bytes?,"4 GiB (Level 1 & 2) to 8 TiB (Level 3)Through the use of multi-extents, a file can consist of multiple segments, each up to 4 GiB in size. See ISO 9660#The 2 GiB (or 4 GiB depending on implementation) file size limit",8 TiBAssuming the typical 2048 Byte sector size. The volume size is specified as a 32 bit value identifying the number of sectors on the volume.,
-Joliet ("CDFS"),64 Unicode characters,"All UCS-2 code except *, /, \, :, ;, and ?[28]",,same as ISO 9660:1988,same as ISO 9660:1988,
-Rock Ridge,255 bytes,Any byte except NUL or /name=note-26,No limit definedname=note-12,same as ISO 9660:1988,same as ISO 9660:1988,
-UniFS,No limit defined (depends on client),,No limit defined (depends on client),Available cache space at time of write (depends on platform),No limit defined,No limit defined
-ISO 9660:1999,,,,data-sort-type="number" data-sort-value="0" ,data-sort-type="number" data-sort-value="0" ,
-High Sierra Format,,,,data-sort-type="number" data-sort-value="0" ,data-sort-type="number" data-sort-value="0" ,
-SquashFS,256 bytes,,No limit defined,16 EiB,16 EiB,
-File system,Maximum filename length,Allowable characters in directory entriesname=note-25,Maximum pathname length,Maximum file size,Maximum volume sizename=note-4,Max number of files
-=======
-File system,Stores file owner,POSIX file permissions,Creation timestamps,Last access/ read timestamps,Last metadata change timestamps,Last archive timestamps,Access control lists,Security/ MAC labels,Extended attributes/ Alternate data streams/ forks,Checksum/ ECC
-BeeGFS,,,,,,,,,,
-CP/M file system,,,Implemented in later versions as an extension,,,,,,,
-DECtape[29],,,,,,,,,,
-Elektronika BK tape format,,,,,,,,,,
-Level-D,,,,,,,,,,
-RT-11[30],,,,,,,,,,
-Version 6 Unix file system (V6FS)[31],,,,,,,,,,
-Version 7 Unix file system (V7FS)[32],,,,,,,,,,
-exFAT,,,,,,,,,,
-FAT12/FAT16/FAT32,,,,,"name=fat-ctime Some FAT implementations, such as in Linux, show file modification timestamp (mtime) in the metadata change timestamp (ctime) field. This timestamp is however, not updated on file metadata change.",,,,name=note-22 Particular Installable File System drivers and operating systems may not support extended attributes on FAT12 and FAT16. The OS/2 and Windows NT filesystem drivers for FAT12 and FAT16 support extended attributes (using a "EA DATA. SF" pseudo-file to reserve the clusters allocated to them). Other filesystem drivers for other operating systems do not.,
-HPFS,"name=note-14 The f-node contains a field for a user identifier. This is not used except by OS/2 Warp Server, however.",,,,,,,,,
-NTFS,,"name=note-5 NTFS access control lists can express any access policy possible using simple POSIX file permissions (and far more), but use of a POSIX-like interface is not supported without an add-on such as Services for UNIX or Cygwin.",,,,,,"As of Vista, NTFS has support for Mandatory Labels, which are used to enforce Mandatory Integrity Control.[33]",,Windows can run the checksum to even restore data or fix a corrupt file on hdd and also repair any bad sectors if any. Windows Error Checking tool can do most of these tasks as on from Windows 7 onwards.[34]
-ReFS,,,,,,,,,"Initially, ReFS lacked support for ADS, but Server 2012 R2 and up add support for ADS on ReFS",Data checksums not enabled by default
-HFS,,,,,,,,,,
-HFS Plus,,,,,,,,,,
-FFS,,,,,,,,,,
-UFS1,,,,,,,name=note-33 Access-control lists and MAC labels are layered on top of extended attributes.,name=note-33,"name=note-32 Some operating systems implemented extended attributes as a layer over UFS1 with a parallel backing file (e.g., FreeBSD 4.x).",
-UFS2,,,,,,,name=note-33,name=note-33,,
-HAMMER,,,,,,,,,,
-LFS,,,,,,,,,,
-ext,,,,,,,,,,
-Xiafs,,,,,,,,,,
-ext2,,,,,,,"name=note-23 Some Installable File System drivers and operating systems may not support extended attributes, access control lists or security labels on these filesystems. Linux kernels prior to 2.6.x may either be missing support for these altogether or require a patch.",name=note-23,,
-ext3,,,,,,,name=note-23,name=note-23,,
-ext4,,,,,,,name=note-23,name=note-23,, Journal and metadata only[35]
-NOVA,,,,,,,,,,
-Lustre,,,,,,,,,,
-F2FS,,,,,,,name=note-23,name=note-23,,
-GPFS,,,,,,,,,,
-GFS,,,,,,,name=note-23,name=note-23,,
-NILFS,,,,,,,,,,
-ReiserFS,,,,,,,name=note-23,name=note-23,,
-Reiser4,,,,,,,,,,
-OCFS,,,,,,,,,,
-OCFS2,,,,,,,,,,
-XFS,,,"name=note-35 Creation time stored since June 2015, xfsprogs version 3.2.3",,,,,name=note-23,,"name=note-34 Metadata checksums stored since June 2015, xfsprogs version 3.2.3"
-JFS,,,,,,,,,,
-QFS,,,,,,,,,,
-BFS,,,,,,,,,,
-AdvFS,,,,,,,,,,
-NSS,,,"name=note-31 The local time, time zone/UTC offset, and date are derived from the time settings of the reference/single timesync source in the NDS tree.",name=note-31,,name=note-31,,,"name=note-19 Novell calls this feature "multiple data streams". Published specifications say that NWFS allows for 16 attributes and 10 data streams, and NSS allows for unlimited quantities of both.name=note-29 Some file and directory metadata is stored on the NetWare server irrespective of whether Directory Services is installed or not, like date/time of creation, file size, purge status, etc; and some file and directory metadata is stored in NDS/eDirectory, like file/object permissions, ownership, etc.",
-NWFS,,,name=note-31,name=note-31,,name=note-31,,,name=note-19name=note-29,
-ODS-5,,,,,,,,,"name=note-17 Record Management Services (RMS) attributes include record type and size, among many others.",
-APFS,,,,,,,,,,
-VxFS,,,,,,,,,name=note-23,
-UDF,,,,,,,,,,
-Fossil,,"name=note-61 File permission in 9P are a variation of the traditional Unix permissions with some minor changes, e.g. the suid bit is replaced by a new 'exclusive access' bit.",,,,,,,,
-ZFS,,,,,,,,"name=note-69 Supported on FreeBSD and Linux implementations, support may not be available on all operating systems.","name=note-60 Solaris "extended attributes" are really full-blown alternate data streams, in both the Solaris UFS and ZFS.",
-Btrfs,,,,,,,,,, disabling copy-on-write (COW) to prevent fragmentation also disables checksumming
-Minix V1,,,,,,,,,,
-Minix V2,,,,,,,,,,
-Minix V3,,,,,,,,,,
-VMFS2,,,,,,,,,,
-VMFS3,,,,,,,,,,
-ISO 9660:1988,,,,,,,,,,
-Rock Ridge,,,,"Access times are preserved from the original file system at creation time, but Rock Ridge file systems themselves are read-only.",,,"libburnia can back up and restore ACLs with file system creation and extraction programs, but no kernel support exists.","name=note-78libburnia can back up and restore extended attributes and MAC labels with file system creation and extraction programs, but no kernel support exists.",name=note-78,
-Joliet ("CDFS"),,,,,,,,,,
-ISO 9660:1999,,,,,,,,,,
-High Sierra,,,,,,,,,,
-SquashFS,,,,,,,,,,
-File system,Stores file owner,POSIX file permissions,Creation timestamps,Last access/read timestamps,Last metadata change timestamps,Last archive timestamps,Access control lists,Security/ MAC labels,Extended attributes/ Alternate data streams/ forks,Checksum/ ECC
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+File system,Creator,Year of introduction,Original operating system
+DECtape,DEC,1964,PDP-6 Monitor
+OS/3x0 FS,IBM,1964,OS/360
+Level-D,DEC,1968,TOPS-10
+George 3,ICT (later ICL),1968,George 3
+Version 6 Unix file system (V6FS),Bell Labs,1972,Version 6 Unix
+RT-11 file system,DEC,1973,RT-11
+Disk Operating System (GEC DOS),GEC,1973,Core Operating System
+CP/M file system,Digital Research (Gary Kildall),1974,CP/M[1][2]
+ODS-1,DEC,1975,RSX-11
+GEC DOS filing system extended,GEC,1977,OS4000
+FAT (8-bit),Microsoft (Marc McDonald) for NCR,1977,Microsoft Standalone Disk BASIC-80 (later Microsoft Standalone Disk BASIC-86)
+DOS 3.x,Apple,1978,Apple DOS
+UCSD p-System,UCSD,1978,UCSD p-System
+CBM DOS,Commodore,1978,Commodore BASIC
+Atari DOS,Atari,1979,Atari 8-bit
+Version 7 Unix file system (V7FS),Bell Labs,1979,Version 7 Unix
+ODS-2,DEC,1979,OpenVMS
+FAT12,Seattle Computer Products (Tim Paterson),1980,QDOS/86-DOS (later IBM PC DOS 1.0)
+ProDOS,Apple,1980,Apple SOS (later ProDOS 8)
+DFS,Acorn Computers Ltd,1982,Acorn BBC Micro MOS
+ADFS,Acorn Computers Ltd,1983,Acorn Electron (later Arthur/RISC OS)
+FFS,Kirk McKusick,1983,4.2BSD
+FAT16,"IBM, Microsoft",1984,"PC DOS 3.0, MS-DOS 3.0"
+MFS,Apple,1984,System 1
+Elektronika BK tape format,NPO "Scientific centre" (now Sitronics),1985,"Vilnius Basic, BK monitor program"
+HFS,Apple,1985,System 2.1
+Amiga OFS54,Metacomco for Commodore,1985,Amiga OS
+GEMDOS,Digital Research,1985,Atari TOS
+NWFS,Novell,1985,NetWare 286
+High Sierra,Ecma International,1986,MSCDEX for MS-DOS 3.1/3.2[3]
+FAT16B,Compaq,1987,Compaq MS-DOS 3.31
+Minix V1 FS,Andrew S. Tanenbaum,1987,MINIX 1.0
+Amiga FFS,Commodore,1988,Amiga OS 1.3
+ISO 9660:1988,"Ecma International, ISO",1988,"MS-DOS, "classic" Mac OS, and AmigaOS"
+HPFS,IBM & Microsoft,1989,OS/2 1.2
+Rock Ridge,IEEE,1990sortable=yes,Unix
+JFS1,IBM,1990,"AIXname=note-11 IBM introduced JFS with the initial release of AIX Version 3.1 in 1990. This file system now called JFS1. The new JFS, on which the Linux port was based, was first shipped in OS/2 Warp Server for e-Business in 1999. The same sourcebase was also used for release JFS2 on AIX 5L."
+VxFS,VERITAS,1991,SVR4.0
+ext,Rémy Card,1992,Linux
+AdvFS,DEC,1993[4],Digital Unix
+NTFS,"Microsoft (Gary Kimura, Tom Miller)",1993,Windows NT 3.1
+LFS,Margo Seltzer,1993,Berkeley Sprite
+ext2,Rémy Card,1993,"Linux, Hurd"
+Xiafs,Q. Frank Xia,1993,Linux
+UFS1,Kirk McKusick,1994,4.4BSD
+XFS,SGI,1994,IRIX
+HFS,IBM,1994,MVS/ESA (now z/OS)
+FAT16X,Microsoft,1995,MS-DOS 7.0 / Windows 95
+Joliet ("CDFS"),Microsoft,1995,"Microsoft Windows, Linux, "classic" Mac OS, and FreeBSD"
+UDF,ISO/ECMA/OSTA,1995,
+"FAT32, FAT32X",Microsoft,1996,MS-DOS 7.10 / Windows 95 OSR2name=note-10 Microsoft first introduced FAT32 in MS-DOS 7.1 / Windows 95 OSR2 (OEM Service Release 2) and then later in Windows 98. NT-based Windows did not have any support for FAT32 up to Windows NT4; Windows 2000 was the first NT-based Windows OS that received the ability to work with it.
+QFS,Sun Microsystems,1996,Solaris
+GPFS,IBM,1996,"AIX, Linux"
+Be File System,"Be Inc. (D. Giampaolo, Cyril Meurillon)",1996,BeOS
+Minix V2 FS,Andrew S. Tanenbaum,1997,MINIX 2.0
+HFS Plus,Apple,1998,Mac OS 8.1
+NSS,Novell,1998,NetWare 5
+PolyServe File System (PSFS),PolyServe,1998,"Windows, Linux"
+ODS-5,DEC,1998,OpenVMS 7.2
+WAFL,NetApp,1998,Data ONTAP
+ext3,Stephen Tweedie,1999,Linux
+ISO 9660:1999,"Ecma International, ISO",1999,"Microsoft Windows, Linux, "classic" Mac OS, FreeBSD, and AmigaOS"
+JFS,IBM,1999,OS/2 Warp Server for e-business
+GFS,Sistina (Red Hat),2000,Linux
+ReiserFS,Namesys,2001,Linux
+zFS,IBM,2001,z/OS (backported to OS/390)
+FATX,Microsoft,2002,Xbox
+UFS2,Kirk McKusick,2002,FreeBSD 5.0
+OCFS,Oracle Corporation,2002,Linux
+SquashFS,"Phillip Lougher, Robert Lougher",2002,Linux
+VMFS2,VMware,2002,VMware ESX Server 2.0
+Lustre,Cluster File Systems[5],2002,Linux
+Fossil,Bell Labs,2003,Plan 9 version 4
+Google File System,Google,2003,Linux
+ZFS,Sun Microsystems,2004,Solaris
+Reiser4,Namesys,2004,Linux
+Non-Volatile File System,"Palm, Inc.",2004,Palm OS Garnet
+BeeGFS,Fraunhofer/ ThinkParQ,2005,Linux
+GlusterFS,Gluster Inc.,2005,Linux
+Minix V3 FS,Andrew S. Tanenbaum,2005,MINIX 3
+OCFS2,Oracle Corporation,2005,Linux
+NILFS,NTT,2005,Linux
+VMFS3,VMware,2005,VMware ESX Server 3.0
+GFS2,Red Hat,2006,Linux
+ext4,various,2006,Linux
+exFAT,Microsoft,2006,Windows CE 6.0
+Btrfs,Oracle Corporation,2007,Linux
+JXFS,Hyperion Entertainment,2008,AmigaOS 4.1
+HAMMER,Matthew Dillon,2008,DragonFly BSD 2.0
+LSFS,StarWind Software,2009,"Linux, FreeBSD, Windows"
+UniFS,Nasuni,2009,Cloud
+CASL,Nimble Storage,2010,Linux
+OrangeFS,Omnibond and others,2011,Linux
+VMFS5,VMware,2011,vSphere 5.0+
+CHFS,University of Szeged,2011,NetBSD 6.0+
+ReFS,Microsoft,2012,Windows Server 2012
+F2FS,Samsung Electronics,2012,Linux
+bcachefs,Kent Overstreet,2015,Linux
+APFS,Apple,2016,"macOS High Sierra, iOS 10.3"
+NOVA,"UC, San Diego",2017,Linux
+HAMMER2,Matthew Dillon[6],2017,DragonFly BSD 5.0
+EROFS,Huawei[7],2018,Android

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Format,Languages
 "std.string.join(array_of_strings, separator)",D
 "string:join(list_of_strings, separator)",Erlang
@@ -24,7 +23,3 @@ Data.List.intercalate separator list_of_strings,Haskell (GHC 6.8+)
 "array_of_strings.join(separator«, final_separator»)",Cobra
 sequence_of_strings.joinWithSeparator(separator),Swift 2.x
 "1??separator,¨list_of_strings",APL
-=======
-Definition,<string>.rpartition(separator) Searches for the separator from right-to-left within the string then returns the sub-string before the separator; the separator; then the sub-string after the separator.
-Description,Splits the given string by the right-most separator and returns the three substrings that together make the original.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

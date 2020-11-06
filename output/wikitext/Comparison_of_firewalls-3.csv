@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-Features:,"Configuration: GUI, text or both modes?","Remote Access: Web (HTTP), Telnet, SSH, RDP, Serial COM RS232, ...",Change rules without requiring restart?,Ability to centrally manage all firewalls together
-WinGate,GUI,Proprietary user interface,,
-ClearOS,both,"RS232, SSH, WebConfig,",,
-Zeroshell,GUI,"SSH, Web (HTTPS), RS232",,
-pfSense,both,"SSH, Web (HTTP/HTTPS), RS232",,
-IPFire,both,"SSH, Web (HTTPS), RS232",,
-=======
 Can Target:,Changing default policy to accept/reject (by issuing a single rule),IP destination address(es),IP source address(es),TCP/UDP destination port(s),TCP/UDP source port(s),Ethernet MAC destination address,Ethernet MAC source address,Inbound firewall (ingress),Outbound firewall (egress)
 Trend Micro Internet Security,,,,,,,,,
 Vyatta,,,,,,,,,
@@ -17,4 +9,3 @@ Zeroshell,,,,,,,,,
 Zorp,,,,,,,,,
 pfSense,,,,,,,,,
 IPFire,,,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

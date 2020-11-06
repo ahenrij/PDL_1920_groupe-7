@@ -1,25 +1,15 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-<<<<<<< HEAD
-"Cut, copy, and paste",Yes[93],3+[94],Yes[95],Yes,Yes
-Multi-Device clipboard,No,10+[96],No,No,No
-Undo,No[97],3+[98],No,No[99],Yes
-Custom home and lock screen wallpaper,Yes,4+[60],Yes,Yes (incl. Ambience),Yes
-Desktop sync,"No,[100] but available using the vendor's companion/PC suite application such as Samsung Smart Switch & HTC Sense[101]",Yes,Yes,?,Yes
-Local full backup,"Yes, via external computer[102]","Yes, using external computer or iCloud[103]",No[104],Yes,Yes
-Core data missing sync,"Bookmarks[105] (before 4), SMSs and Settings[106]",,?,?,?
-Notification center,Yes,5+[107],2+[108],Yes,Yes
-Push notifications,Yes[109],Yes (Apple Push Notification Service),2+[110],Yes,Yes
-Screenshot,"4+ also available on earlier versions with customized firmware, such as Cyanogen Mod and on older Samsung Galaxy smartphones[111]",Yes[60][112],Yes,2.0.2+[113],Yes
-iCalendar import,"No,[114] but 3rd party app available[115]",Yes[116],?,1.1.6+[117],No
-Text/document support (read only; creating using third party apps),"Microsoft Office, PDF, TXT/RTF","Microsoft Office,[118][119][120] iWork, PDF, Images, TXT/RTF, VCF","Read only: text files, PDF, HTML, Multiple office formats","Microsoft Office, OpenDocument, PDF, Text",Yes
-Printer support,4.4+ using Google Cloud Print[121] but not over USB unless proprietary vendor solutions such as HP Print Service are used[122],Yes (AirPrint)[123],No,"yes, cups package is available",Beta
-Show remembered Wi-Fi connections,Yes,"No, 3rd party software on jailbroken devices[124]",?,Yes,Yes
-=======
-Non-intrusive incoming calls,5+[386] or 3rd party software[387],14+[388],No,No[389],?
-Non-intrusive notifications,Yes[390],5+[107],?,?,?
-Move apps to external storage,2.2+[391],External storage not allowed for apps,No,No,No
-Remote Frame Buffer (RFB) protocol,Yes[392],3rd party software[393],?,?,?
-Screencast on device,"No,[394] 3rd party software like LineageOS ScreenCast,[395] AOKP or OmniROM[396]",9+[397],No,No,Yes
-Screencast over USB,"4.4+ over USB,[121] for prior versions root required for 3rd party app[398]",8+: on OS X[399],No,?,No
-Screen share,On select devices using vendor's implementation[400][401][402],3rd party software[403],No,No,No
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Proxy server,"3.1+[335] but only global, not per connection[336] and only works for the browser[337] 3rd party apps available[338]",Yes,Yes,Yes[339],No
+On-device encryption,3+[340] but insecure on Qualcomm devices[341],Yes[342] (3rd party software may attempt brute-force attacks on password[343]),No,3.3.0+[344],No
+External storage encryption,6+,External storage not available,No,Yes,No
+Zero knowledge encryption[345],"No, data is accessible by Google[346] and shared with the American PRISM surveillance program.[347]","No, data stored on iCloud is accessible by Apple[348] and shared with the American PRISM surveillance program.[347]",?,?,No
+Privacy of synchronization[349],3rd party software like ownCloud[350],When synchronizing locally and not using iCloud,?,?,?
+Sync to cloud communication encryption,2.3.4+[351],Yes[352],?,?,?
+Wireless anti-tracking[353],Developer Options (9+)[354],8+[355],No,?,No
+Remote device location tracking,Yes[356],Yes[357],?,?,No
+Remote device locking and/or data wipe,2.2+[358],Yes[357],?,?,No
+End-to-end encrypted push notifications,"Possible, notifications are handled by the app that can decrypt it[109]","Possible since iOS 7, where the app can handle the notification and decrypt it[359]",?,?,Yes
+SSH Client,Yes,Yes[360][361],?,Yes,Yes
+VPN,Yes[362],Yes[363],?,Yes,Yes
+OpenVPN,"No, but possible with 3rd party firmware[364]",Yes[365],?,Yes,Yes
+WPA PEAP,Yes[366],Yes[367],?,In developer mode[368],Yes

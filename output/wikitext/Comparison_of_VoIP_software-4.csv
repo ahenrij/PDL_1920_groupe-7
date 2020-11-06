@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-Client name,Development status,Open source client,End-to-end authentication[33],Encryption protocols,,,,Forward secrecy,Multiple encryption,Encrypted group calling,"Proxy, Tor"
-,,,,ZRTP,ECDH,DTLS,SRTP,,,,
-FaceTime,,,,,,,,,,,
-Google Duo,,,,,,,,,,,
-Jitsi[35],,,,,,,,,,,
-Line[36][37],,,,,,,,,,,
-Linphone[35],,,,,,,,,,,
-PGPfone,Abandonware,Viewable source[38],,,,,,,,,
-Signal,,,,,,,,,,,
-Silent Phone,,Viewable source[40],,,,,,,,,
-"Skype (opt-in per conversation, one pair of devices per conversation)[41]",,,,,,,,,,,
-Telegram,,,,,,,,,,,
-Threema,,Partially[45][46],,,,,,Partially[48][47],,,
-Viber[21],,,,,,,,,,,
-WhatsApp,,Partially[45][49],,,,,,,,,
-Wire,,,,,,,,,,,
-Zfone,Abandonware,Viewable source[52],,,,,,,,,
-=======
 Program,Operating systems,License,"Protocols, based on, compatible with",Encryption,Other abilities,Key and target markets,Latest release
 3CX Phone System,"Windows, Linux",,SIP,"TLS, SRTP","Voice and video IP telephony and conferencing, voice mail and instant messaging","< 50,000 users",16.2; 20190705
 AS5300,"Linux, Windows Server 2003",,"SIP, UNIStim, MLPP","SSL, TLS, SRTP, SDESC","Voice and Video IP telephony, Voice and Video conferencing, voice mail and instant messaging","1,000 - 25,000 users",1.0; 200801
@@ -38,10 +19,9 @@ MediaCore SBC,Linux,,"H.323, SIP, SMPP","SSL, TLS, HTTPS","Dynamic routing mecha
 Murmur,"Linux, BSD, macOS, Windows","BSD, GPL","CELT, Speex, Opus",TLS,"Chat with (limited) embedded HTML, ACLs for user management, Customizable In-Game Overlay, Directional Audio, Plugin Support, Nested Channels",Individuals to Small and medium enterprise (25-5000 users),1.2.17; 20160924
 Mysipswitch,Linux,BSD,"SIP, Ajax",SSL,SIP proxy server which allows the use of multiple SIP accounts with a single SIP login,Individuals,200708
 Objectworld UC Server,Windows XP-2003-2008,,SIP,,"IP PBX, personal assistants, IVR, automated phone provisioning, fax server, unified messaging, Outlook, Exchange and Lotus Domino-Notes integration, conferencing, outbound dialing",Small and medium enterprise (25-2000 users),4.4.2; 200905
-"Kamailio, OpenSIPS (formerly named OpenSER)","Linux, BSD, Solaris",GPL,"SIP, XMPP","TLS, SRTP","SIP registrar-proxy, authentication, Diameter, RADIUS, ENUM, least-cost-routing, many others",SIP Service Providers,
+"Kamailio, OpenSIPS (formerly named OpenSER)","Linux, BSD, Solaris",GPL,"SIP, XMPP","TLS, SRTP","SIP registrar-proxy, authentication, Diameter, RADIUS, ENUM, least-cost-routing, many others",SIP Service Providers,5.2.8; 202010
 Pbxnsip,"Linux, BSD, macOS, Windows",,SIP,SRTP,"IP PBX, presence indication, IVR, automated phone provisioning, fax server, unified messaging, Outlook, Exchange integration, conferencing, outbound dialing",Small and medium enterprise (25-256 users),3.3.1.3177; 200904
 SIP Express Router (SER),"Linux, BSD, Solaris",GPL,SIP,,"SIP Registrar/Proxy, Authentication, Diameter, RADIUS, ENUM, many others",SIP Service Providers,2.0.0 Ottendorf
 sipXecs IP PBX,Linux,AGPL,"Native SIP call control, XMPP","TLS, SRTP","Full redundancy (HA), instant messaging, voicemail, user portal, admin GUI, plug & play management including phones and gateways, fully featured","Enterprises between 10 and 10,000 users, multi-site",14.04.2; 201407
 vzRoom,Windows,,SIP,"SSL, TLS, AES","Instant messaging-chat, VoIP, video, sharing (desktop, video, file), whiteboard, scheduler, recording","Individual to small and medium enterprise (2-1,000 users)",0.8.8.735; 201011
 Yate,"BSD, Linux, macOS, Windows",GPL,"SIP, IAX, H.323, ISDN, XMPP (Jabber), Jingle (Google Talk), MGCP, SS7 over IP, Cisco SLT (Signalling Link Transport) (SS7 MTP2 backhaul over IP), SCTP, SCCP, TCAP, MAP CAMEL","SSL, TLS, SRTP","Voice, video, file transfer, data, H323 to SIP signalling proxy, instant messaging, IVR, PC2Phone and Phone2PC gateway, SCCP — GTT routing between networks, Secure Unified Communications, SIP registrar-proxy, SIP SBC (session border controller), USSD, voicemail, VoIP, VoIP to PSTN gateway, conference server (max 200 voice channels per conference), call centre server, prepaid and postpaid cards",Deployed on home servers and large networks with millions of users,5.5; 201505
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

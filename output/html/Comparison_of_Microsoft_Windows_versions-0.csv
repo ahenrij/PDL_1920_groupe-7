@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-Name,Release date,RTM build,Latest version,Status support,Codename,MS-DOS version,Kernel type,Architecture,Editions,Target market
-Windows 95,1995-08-15,950,4.00.950C OSR2.5 (1997-11-26),Unsupported (2001-12-31),Chicago,"MS-DOS 7.0, MS-DOS 7.1 (OSR2.x)",Monolithic,Hybrid 16/32-bit,"Retail, OSR1, OSR2, OSR2.1, OSR2.5",Desktops
-Windows 98,1998-05-15,1998,4.10.1998,Unsupported (2006-07-11),Memphis,MS-DOS 7.1,Monolithic,Hybrid 16/32-bit,,Desktops
-Windows 98 SE,1999-05-05,2222,4.10.2222A (2000-02-25),Unsupported (2006-07-11),,MS-DOS 7.1,Monolithic,Hybrid 16/32-bit,,Desktops
-Windows Me,2000-06-19,3000,4.90.3000 (2000-09-14),Unsupported (2006-07-11),Millennium,MS-DOS 8.0,Monolithic,Hybrid 16/32-bit,,Desktops
-=======
-,Release date,RTM build,Current version,Status support,Codename,Based on (kernel),Kernel type,Operating environments,Editions,Purpose,Short description
-Windows CE 1.0,1996-11,,,,"Pegasus, Alder",CE 1.0,,,,Embedded,first release of Microsoft's Windows CE line for minimalistic computers and embedded systems
-Windows CE 2.0,1997-11,,,,"Mercury, Apollo",CE 2.0,,,"2.1, 2.11",Embedded,
-Windows CE 3.0,2000-04,,,Unsupported (2007-10-09),"Cedar, Galileo, Rapier, Merlin, Stinger",CE 3.0,Embedded kernel,,,Embedded,
-Windows CE 4.0,2002-01-07,,,,Talisker,CE 4.0,,,"4.1, 4.2",Embedded,
-Windows CE 5.0,2004-07-09,,5.0 (2004-07-09),Unsupported (2014-10-14),Macallan,CE 5.0,Embedded kernel,,,Embedded,
-Windows Embedded CE 6.0,2006-11-01,,,Unsupported (2018-04-10),Yamazaki,CE 6.0,Hybrid kernel,,,,
-Windows Embedded Compact 7,2011-03-01,?,?,Supported (2021-04-13),Chelan,CE 7.0,Hybrid,"? Standard, POSReady",,,
-Windows Embedded Compact 2013,2013-08-11,,Update 17 (2017-11-15),Supported (2023-10-10),N/A,CE 8.0,,,"Standard Industry (8.0, 8.1) Handheld",Embedded,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Name,Release date,RTM build,Current version,Status support,Codename,Based on (kernel),Supported architectures
+Windows Pocket PC 2000,2000-04-19,,,Unsupported (2007-09-10),Raiper,CE 3.0,
+Windows Pocket PC 2002,2001-10-01,,,Unsupported (2008-10-14),Merlin,CE 3.0,
+Windows Mobile 2003,2003-06-23,,,,Ozone,CE 4.20,
+Windows Mobile 5.0,2005-05-9/12,,,,Magneto,CE 5.0,
+Windows Mobile 6.0,2007-02-12,,,,Crossbow,CE 5.2,
+Windows Mobile 6.1,2008-04-01,,,,,,
+Windows Mobile 6.5,2009-05-18,,,,,,

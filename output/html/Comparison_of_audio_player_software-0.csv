@@ -1,49 +1,29 @@
-<<<<<<< HEAD
-Audio player,HTTP,"RTSP (RTSPU, RTSPT)","MMS (MMSU, MMST)",Podcasting,Other
-AIMP,Yes,No,Yes,No,No
-Amarok,Yes,Yes,Yes,Yes,UPNP
-Audacious,Yes,No,Yes,No,?
-Audion,Yes,No,No,No,?
-cmus,Yes,No,No,No,?
-Cog,No,No,No,No,?
-foobar2000,Yes,Partial[protocolnotes 1],Yes,Partial[protocolnotes 2],?
-JuK,?,?,?,?,?
-JRiver Media Center,Yes,Yes,Yes,Yes,?
-MediaMonkey,Yes,No,No,Yes[protocolnotes 3],?
-MusicBee,Yes,?,?,Yes,?
-Musicmatch Jukebox,Yes,?,?,?,?
-musikCube,Yes,No,No,?,?
-Music Player Daemon,Yes[22],Yes[23],Yes[24],Yes,Music Player Daemon
-Rhapsody,Yes,Yes,Yes,Yes,?
-Rhythmbox,Yes,Yes,No,Partial[protocolnotes 4],UPNP
-Sayonara Player,Yes,?,?,?,?
-Sonique,Yes,?,?,?,?
-XMMS,Yes,?,?,?,?
-Zinf,Yes,Yes,No,No,?
-Audio player,HTTP,"RTSP (RTSPU, RTSPT)","MMS (MMSU, MMST)",Podcasting,Other
-=======
-Audio player,Audio,,
-,CD,DVD-Audio,HDCD
-AIMP,Yes,No,No
-Amarok,Partial,No,No
-aTunes,No,No,No
-Audacious,Yes,No,No
-Audion,Yes,No,No
-cmus,No,No,No
-Cog,No,No,No
-foobar2000,Yes,Yes (plugin)[opticalmedianotes 1],Yes (plugin)[opticalmedianotes 2]
-JuK,Yes[opticalmedianotes 3],No,No
-JRiver Media Center,Yes,Yes[opticalmedianotes 4],Yes
-MediaMonkey,Yes,No,No
-MusicBee,Yes,Yes,Yes
-Musicmatch Jukebox,Yes,No,No
-musikCube,Yes,No,No
-Rhapsody,Yes,No,No
-Rhythmbox,Yes,No,No
-Sonique,Yes,No,No
-Winamp,Yes,No,No
-XMMS,Yes,No,No
-Zinf,Yes,No,No
-Audio player,CD,DVD-Audio,HDCD
-,Audio,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Audio player,ReplayGain,Tag mass,Tag flexible[featurenotes 5],Time stretch,Pitch shift,A-B repeat,Bookmark,Auto resume,Shutdown on play complete,Archive ability
+AIMP,Yes,Yes[featurenotes 6],Yes,Yes,Yes,Yes,Yes,Yes,Yes,No
+Amarok,Yes,Yes,Yes,No,No,Yes[featurenotes 7],Yes,Yes,No,No
+Audacious,Yes,No,No,Yes,Yes,Yes,No,Yes,No,No
+Audion,?,?,?,?,?,?,?,?,?,?
+cmus,Yes,No,No,No,No,No,No,Yes,No,No
+Cog,?,?,?,?,?,?,?,?,?,?
+Clementine,Yes,Yes,No,No,No,?,No,No,No,No
+Exaile,Yes,Yes,Yes[18],No,No,Yes[a],Yes[a],Yes,Yes[a],No
+foobar2000,Yes,Yes,Yes,Yes[a],Yes[a],Yes[a],Partial[a],Yes,Partial[a],Yes
+iTunes,Yes,Yes,No,No,No,No,Yes,Yes,No,No
+JRiver Media Center,Yes,Yes,Yes,Yes,Yes,Yes[featurenotes 8],Yes,Yes,Yes,No
+JuK,?,?,?,?,?,?,?,?,?,?
+MediaMonkey,Yes,Yes,Yes,Partial[a],Partial[a],Partial[a],Partial[a],Yes,Yes,?
+MPXPLAY,?,?,?,?,?,?,?,?,?,?
+MusicBee,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes
+Musicmatch Jukebox,?,Partial[featurenotes 9],?,No,No,?,?,?,?,?
+musikCube,?,?,?,?,?,?,?,?,?,?
+Quod Libet,Yes,Yes,Yes,Partial[featurenotes 10],Partial[featurenotes 10],No,Yes,Yes,No,No
+Rhapsody,?,?,?,?,?,?,?,?,?,?
+Rhythmbox,Yes,Yes,No,No,No,No,No,Yes,No,No
+Sayonara Player,Yes,Yes,No,No,No,?,Yes,Yes,?,?
+Sonique,No,No,?,Yes,Yes,No,No,No,No,?
+Spotify,No,No,No,No,No,No,No,Yes,No,No
+Winamp,Yes,Yes,?,No,Yes,?,Yes,?,No,?
+XMMS,Partial,Yes,?,No,No,No,No,Yes,No,No
+XMPlay,Yes,No,No,No,No,No,Yes,Yes,No,Yes
+Zinf,?,?,?,?,?,?,?,?,No,?
+Audio player,ReplayGain,Tag mass,Tag flexible,Time stretch,Pitch shift,A-B repeat,Bookmark,Auto resume,Shutdown on play complete,Archive ability

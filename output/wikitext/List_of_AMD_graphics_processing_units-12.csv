@@ -1,29 +1,5 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
-Radeon X700,March 2005,RV410 (alto),110,400,350,8:6:8:8,3200,3200,3200,600,"128, 256",11.2,DDR,128
-Radeon X700 Pro,"March 1, 2005",,,425,432,,3400,3400,3400,637.5,,13.824,GDDR3,
-Radeon X800 SE,Oct. 2004,R420 (loki),130,,400,,,6800,,,256,25.6,,256
-Radeon X800 GT,"Dec. 6, 2005",,,475,490,8:6:8:16,3800,7600,3800,712.5,,31.36,,
-Radeon X800,Dec. 2004,R430,110,400,350,12:6:12:16,4800,6400,4800,600,,22.4,,
-Radeon X800 GTO,"Dec. 6, 2005",R420 (loki),130,,490,,,,,,,31.36,,
-Radeon X800 Pro,"May 5, 2004",,,475,450,,5700,7600,5700,712.5,,28.8,,
-Radeon X800 XL,"Feb. 2, 2005",R430,110,400,490,16:6:16:16,6400,6400,6400,600,,31.36,,
-Radeon X800 XT,"May 4, 2004",R420 (loki),130,500,500,,8000,8000,8000,750,,32,,
-Radeon X800 XT PE,,,,520,560,,8320,8320,8320,780,,35.84,,
-Radeon X850 Pro,"Feb. 28, 2005",R481,,507,520,,6084,8112,6084,760.5,,33.28,,
-Radeon X850 XT,,,,520,540,,8320,8320,8320,780,,34.56,,
-Radeon X850 XT PE,,,,540,590,,8640,8640,8640,810,,37.76,,
-=======
-Model,Launch,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,,API compliance,
-,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
-3D Rage,April 1996[1],500,PCI,40,40,1:0:1:1,40,40,40,0,2,0.32,EDO,64,5.0,None2
-3D Rage II,September 1996,,"AGP 1x (Rage IIc only), PCI",60,83 (66 MHz with EDO),,60,60,60,,"2, 4, 8",0.664,"EDO, SGRAM, SDR",,,
-Rage Pro,March 1997,350,"AGP 1x, AGP 2x, PCI",75,75,,75,75,75,,"4, 8, 16",0.6,,,6.0,1.1
-Rage XL[2][3][4][5],August 1998,250,"AGP 2x, PCI",83,125,,83,83,83,,8,1.0,SDR,,,
-Rage 128 VR,,,,80,120,2:0:2:2,160,160,160,,"8, 32",0.96,,,,1.2
-Rage 128 GL,,,,103,103,,206,206,206,,"16, 32",1.648,"SGRAM, SDR",128,,
-Rage 128 Pro,August 1999,,"AGP 4x, PCI",125,143,,250,250,250,,,2.288,,,,
-Rage 128 Ultra,,,,130,130,,260,260,260,,"16, 32, 64",2.088,SDR,,,
-Rage Fury MAXX,October 1999,,AGP 4x,125,143,2:0:2:2 x2,500,500,500,,32 x2,4.576,,128 x2,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
+Radeon Sky 500[126],April 2013,Pitcairn XT,28,PCIe 3.0 x16,950,1200,1280:80:32:20,30.4,76,4,153.6,GDDR5,256,2432,152,12.0,4.5,1.2,rowspan=3 ,150,One DisplayPort
+Radeon Sky 700[127],,Tahiti PRO,,,900,1375,1792:112:32:28,28.8,100.8,6,264,,384,3225.6,806.4,,,,225,,
+Radeon Sky 900[128],,2× Tahiti PRO,,,825 950,1250,2× 1792:112:32:28,52.8,184.8,2× 3,2× 240,,2x 384,5913.6,1478.4,,,,300,"Four Mini DisplayPort, One DVI-I",

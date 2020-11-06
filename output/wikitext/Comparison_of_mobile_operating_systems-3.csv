@@ -1,31 +1,13 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-<<<<<<< HEAD
-Default web browser/engine,Blink,WebKit,WebKit,Gecko[125],Qt WebEngine (based on Blink)
-Major web browser available,"Chrome for Android, Opera, Firefox, Microsoft Edge","Safari, Chrome for iOS, Opera Touch, Firefox, Microsoft Edge",Tizen Browser (Based on UC Browser),"Sailfish Browser (Firefox), Webcat (WebKit), Web Pirate (WebKit), others via Android (Firefox, Chrome, Opera)",Morph Browser
-Browser extensions,,8+[128],,,
-Browser direct Internet connection (increased resilience to outages),,,,?,?
-Browser undo close tab,Google Chrome for Android[129],8+[130],,,
-Browser keeps windows open on shutdown or crash,2.3+ Google Chrome[131] but not on the deprecated AOSP browser[132],,,,
-Browser keeps windows open when cleaning cookies,,3rd party software[133],?,,
-Browser search engine options,Many[134],"Bing, Google, Yahoo! Search, DuckDuckGo","Bing, Google, Yahoo! Search","Bing, Google, Yahoo, Yandex. Baidu, DuckDuckGo, StartPage, Searx, ixquick, Swisscows, Qwant, Seznam, Hulbee via openrepos[135]","Baidu, Bing, DuckDuckGo, Ecosia, Google, lilo, Peekier, Qwant, Wikipedia, Yahoo[136]"
-Browser find on page,1.5+[137],,,1.1.2+[139],
-Browser–email save images,,,?,,
-Browser–email save PDFs,,,,,
-Browser save audio/video,"Yes, but only links, not embedded media",13+;[141] 5+: 3rd party software[142],,,
-Browser save page,",6+: Offline Reading List;[144] 3rd party software[145],,?,
-Browser save any file,",13+;[141] 5+: When an app that can handle/open the filetype is installed (excluding audio/video – requires 3rd party software[146]);[147],?,,
-Browser force enable zoom,",,?,?,?
-Browser text reflow[150],",5+: Only on pages with reader mode available[153][154] 3rd party browsers on prior versions[155],,,
-Browser Reader Mode,",5+[153][154],,,
-Browser open PDFs without storing,,,,,
-Browser file upload,2.2+[160],9+; 6–8: Limited,,1.0.7+[161],
-Browser form navigation,Next button[162],"Previous, Next, AutoFill, and Done buttons[163]",?,?,?
-Browser private browsing mode,3.0+ with AOSP browser[164] or with Chrome for Android,5+[165],,1.1.6+[166],
-Offline web apps,,,,?,
-HTTP Live Streaming,3+[171],3+[172],,,
-WebRTC,,11+[175],,,
-=======
-Bluetooth keyboard,2.3+;[261] previous versions via 3rd party software[262],,,,
-USB keyboard,3.1+[261],With Camera Connection Kit[266],,?,
-Interchangeable external memory cards,,Only for photo/video import with an optional accessory,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Camera focus at specified point,2.3+[269],,?,1.0.4+[270],
+Camera exposure metering from specified point,",,,?,
+On device picture info (including Exif data),Only date and location; more with 3rd party software[275],Only date and location; more with 3rd party software[276],,?,
+On device picture categorization,,5+[279],,?,
+On device picture description and search,,10+: Items/objects in picture;[281] 7+: Only date and location[282],,?,
+Turn off shutter sound,In silent mode[283],In silent mode[284],In silent mode,In silent mode[285],
+Picture crop,,5+[286],,,
+Photo rotation,,5+[286],,,
+Photo red-eye reduction,2.3+[287],5+[286],,,
+HDR photos option,"4.2+, some manufacturers earlier[289]",,,,
+Photo/video import from memory cards,,With Camera Connection Kit[266],,,
+Video trim,2.3+,,,?,

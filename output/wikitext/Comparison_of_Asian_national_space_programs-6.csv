@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-Country,Spacecraft,Year launched
-Japan,Kibo,2008
-China,Tiangong 1,2011
-India,Indian Space Station,~2030 (Proposed)
-=======
-Country,Spacecraft,Year
-,Kibo,2009
-,Tiangong 2,2016
-,Indian Space Station,~2030(Proposed)
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+No.,Country,Spacecraft,Year
+1,,Chang'e 3/Yutu,2013
+TBD,,Beresheet,2019 (Failed)
+TBD,,Chandrayaan-2/Pragyan,2019 (Failed)
+,,Chandrayaan-3,2021 (Planned)
+TBD,,Lunar Polar Exploration Mission,2024 (Planned)

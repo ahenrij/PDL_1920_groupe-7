@@ -1,21 +1,8 @@
-<<<<<<< HEAD
-Model,Archi- tecture,Chips,Thread processors (total),Bus interface,Memory,,TDP (Watts)
-,,,,,Bus type,Size (GB),
-GRID K1[228],Kepler,4× GK107,4× 192,PCIe 3.0 ×16,DDR3,4× 4GB,130
-GRID K2[229],,2× GK104-895,2× 1536,,GDDR5,2× 4GB,225
-GRID K340,,4× GK107,4× 384,,,4× 1GB,
-GRID K520,,2× GK104,2× 1536,,,2× 4GB,
-=======
-Model,Code name[174],Fab (nm),Bus interface,Core clock (MHz),Boost clock (MHz),Memory clock (MHz),Core config1,Fillrate[210],,Memory,,,,Processing power (GFLOPS)[198][199],,Supported API version,,,,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,Vulkan,OpenCL,CUDA,,
-Quadro P400,GP107-825,14,PCIe 3.0 ×16,1228,1252,1752 (7008),256:16:16:2,17.1,17.1,2,32,GDDR5,64,641,20.0,12.1,4.6,1.1,1.2,6.1,30,Three Mini-DisplayPort 1.4
-Quadro P600,GP107-850,,,1329,1557,1003 (4012),384:24:16:3,21.7,32.5,,64,,128,1195,37.3,,,,,,40,Four Mini-DisplayPort 1.4
-Quadro P620,GP107-855,,,1266,1354,1003 (4012),512:32:16:4,23.3,46.6,,,,,1490,46.6,,,,,,,
-Quadro P1000,GP107-860,,,,1481,1752 (7008),640:40:32:5,43.3,54.2,4,82,,,1894,59.2,,,,,,47,
-Quadro P2000,GP106-875,16,,1076,1480,2002 (8008),1024:64:40:8,54.8,87.7,5,140,,160,3010,93.8,,,,,,75,Four DisplayPort 1.4
-Quadro P2200,GP106-880-K1-A1[211],,,1000,1493,1251 (1008),1280:80:40:9,59.7,119.4,5,200,GDDR5X,,3822,121.3,,,,,,,
-Quadro P4000,GP104-850-A1,,,1202,1480,1502 (6008),1792:112:64:14,78.5,137.4,8,243,GDDR5,256,5300,165.6,,,,,,105,
-Quadro P5000,GP104-875-A1,,,1607,1733,1126 (9008),2560:160:64:20,102.8,257.1,16,288,GDDR5X,,8873,277.3,,,,,,180,"Four DisplayPort 1.4, One DVI-D"
-Quadro P6000,GP102-875-A1,,,1506,1645,1126 (9008),3840:240:96:30,136.0,340.0,24,432,,384,10882 (11758),~340,,,,,,250,
-Quadro GP100,GP100,,,1304,1442,703 (1406),3584:224:96:28,138.4,323,16,720,HBM2,4096,10336,5168,,,,,6,235,NVLINK support
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core config[a],Bus interface,L2 Cache (MB),Clock speeds,,,Memory,,,,Fillrate[b],,Processing power (GFLOPS)[b],,,TDP (Watts),NVLink support,Release price (USD)
+,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)[c],Texture (GT/s)[d],Single precision,Double precision,Half precision,,,
+GeForce GTX 1650[100],"April 23, 2019",TU117-300-A1,TSMC 12FFN,4.7,200,896:56:32:1792:0 (14) (2),PCIe 3.0 x16,1,1485,1665,8000,4,128.0,GDDR5,128,47.52,83.16,2?661.00 2?984.00,83.16 93.24,5?322.00 5?967.00,75,No,$149
+,"April 3, 2020[101]",TU117,,,,,,,1410,1590,12000,,192.0,GDDR6,,45.12,78.96,2?526.72 2?849.28,78.96 89.04,5?053.44 5?698.56,,,
+GeForce GTX 1650 Super[102],"November 22, 2019[103]",TU116-250-KA-A1[104],,6.6,284,1280:80:32:2560:0 (20) (3),,1.5,1530,1725,,,,,,48.96,122.40,3?916.80 4?416.00,122.40 138.00,7?833.60 8?832.00,100,,$159
+GeForce GTX 1660[105],"March 14, 2019",TU116-300-A1,,,,1408:88:48:2816:0 (22) (3),,,,1785,8000,6,,GDDR5,192,73.44,134.64,4?308.00 5?027.00,134.64 157.08,8?616.00 10?053.00,120,,$219
+GeForce GTX 1660 Super[106],"October 29, 2019",TU116-300-A1,,,,,,,,,14000,,336.0,GDDR6,,,,,,,125,,$229
+GeForce GTX 1660 Ti[107],"February 21, 2019",TU116-400-A1,,,,1536:96:48:3072:0 (24) (3),,,1500,1770,12000,,288.0,,,72.00,144.00,4?608.00 5?437.44,144.00 169.92,9?216.00 10?874.88,120,,$279

@@ -1,65 +1,38 @@
-<<<<<<< HEAD
-,Argument values,Argument counts,Program name / Script name
-Ada[1],Argument (n),Argument_Count,Command_Name
-C (C99),argv[n],argc,first argument
-Objective-C,,,
-C++,,,
-C#,args[n],args.Length,Assembly.GetEntryAssembly()<wbr/>.Location;
-Java,,args.length,
-D,,,first argument
-JavaScript Windows Script Host implementation,WScript.Arguments(n),WScript.Arguments.length,WScript.ScriptName or WScript.ScriptFullName
-Go,os.Args[n],len(os.Args),first argument
-RustRust args[a],std::env::args().nth(n) std::env::args_os().nth(n),std::env::args().count() std::env::args_os().count(),std::env::args().next() std::env::args_os().next()
-Swift,Process.arguments[n] or Process.unsafeArgv[n],Process.arguments.count or Process.argc,first argument
-Common Lisp,,,
-Scheme (R6RS),(list-ref (command-line) n),(length (command-line)),first argument
+! Single precision,Double precision,Other precision,Processor dependent
+Ada[1],Float,Long_Float,
+ALGOL 68,reala68[a],long reala68[a],"short real, long long real, etc.a68g[d]"
+C,floatlax floats[b],double,long doubleC-long-double[f]
+C++ (STL),,,
+Objective-C (Cocoa),,,
+C#,float,,rowspan=4 
+Java,,,
+Go,float32,float64,
+Rust,f32,f64,
+Swift,Float Float32,Double Float64,Float80Swift-long-double[g]
+D,float,double,
+Common Lisp,single-float,double-float,"float, short-float, long-float"
+Scheme,,,
 ISLISP,,,
-Pascal,ParamStr(n),ParamCount,first argument
-Visual Basic,Commandunseparated[b],,App.Path
-Visual Basic .NET,CmdArgs(n),CmdArgs.Length,[Assembly].GetEntryAssembly().Location
-Xojo,System.CommandLine,(string parsing),Application.ExecutableFile.Name
-Python,sys.argv[n],len(sys.argv),first argument
-S-Lang,__argv[n],__argc,first argument
-Fortran,"DO i = 1,argc<dl><dd> CALL GET_COMMAND_ARGUMENT (i,argv(i)) </dd></dl> ENDDO",argc = COMMAND_ARGUMENT_COUNT (),"CALL GET_COMMAND_ARGUMENT (0,progname)"
-PHP,$argv[n],$argc,first argument
-Bash shell,"$n ($1, $2, $3, ...) $@ (all arguments)",$#,$0
-Perl,$ARGV[n],scalar(@ARGV),$0
-Raku,@*ARGS[n],@*ARGS.elems,$PROGRAM_NAME
-Ruby,ARGV[n],ARGV.size,$0
-Windows PowerShell,$args[n],$args.Length,$MyInvocation.MyCommand<wbr/>.Name
-OCaml,Sys.argv.(n),Array.length Sys.argv,first argument
-F#,args.[n],args.Length,Assembly.GetEntryAssembly()<wbr/>.Location
-Standard ML,"List.nth (CommandLine<wbr/>.arguments (), n)",length (CommandLine<wbr/>.arguments ()),CommandLine.name ()
-Haskell (GHC),lang=haskelldo { args <- System.getArgs; return length args !! n ,lang=haskelldo { args <- System.getArgs; return length args ,System.getProgName
-COBOL,COBOL Arguments[c],,
-=======
-!Shell command,Execute program,Replace current program with new executed program
-Ada[1],Not part of the language standard. Commonly done by compiler provided packages or by interfacing to C or POSIX.[15],
-C,system("command");,
-C++,,
-Objective-C,,[NSTask launchedTaskWithLaunchPath:(NSString *)path arguments:(NSArray *)arguments];
-C#,,"System.Diagnostics<wbr/>.Process.Start(path, argstring);"
-F#,,
-Go,,"exec.Run(path, argv, envv, dir, exec.DevNull, exec.DevNull, exec.DevNull)"
-Visual Basic,"Interaction.Shell(command «, WindowStyle» «, isWaitOnReturn»)",
-Visual Basic .NET,"Microsoft.VisualBasic<wbr/>.Interaction.Shell(command «, WindowStyle» «, isWaitOnReturn»)","System.Diagnostics<wbr/>.Process.Start(path, argstring)"
-Xojo,"Shell.Execute(command «, Parameters»)","FolderItem.Launch(parameters, activate)"
-D,std.process.system("command");,
-Java,,Runtime.exec(command); or new ProcessBuilder(command).start();
-JavaScript Windows Script Host implementation,"WScript.CreateObject ("WScript.Shell").Run(command «, WindowStyle» «, isWaitOnReturn»);",WshShell.Exec(command)
-Common Lisp,(uiop:run-program command),
-Scheme,(system command),
-ISLISP,,
-Pascal,system(command);,
-OCaml,"Sys.command command, Unix.open_process_full command env (stdout, stdin, stderr),...","Unix.create_process prog args new_stdin new_stdout new_stderr, ..."
-Standard ML,OS.Process.system command,"Unix.execute (path, args)"
-Haskell (GHC),System.system command,System.Process<wbr/>.runProcess path args ...
-Perl,system(command) or $output = `command` or $output = qx(command),
-Ruby,system(command) or output = `command`,
-PHP,system(command) or $output = `command` or exec(command) or passthru(command),
-Python,os.system(command) or subprocess.Popen(command),"subprocess.call(["program", "arg1", "arg2", …])"
-S-Lang,system(command),
-Fortran,"CALL EXECUTE_COMMAND_LINE (COMMAND «, WAIT» «, EXITSTAT» «, CMDSTAT» «, CMDMSG») Fortran 2008[a]",
-Windows PowerShell,[Diagnostics.Process]::Start(command),«Invoke-Item »program arg1 arg2 …
-Bash shell,output=`command` or output=$(command),program arg1 arg2 …
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Pascal (Free Pascal),single,double,
+Visual Basic,Single,Double,rowspan=3 
+Visual Basic .NET,,,
+Xojo,,,
+Python,rowspan=2 ,float,
+JavaScript,Number[7],,
+S-Lang,,,
+Fortran,REAL(KIND = n)real inds[c],,
+PHP,,float,
+Perl,,,
+Raku,num32,num64,
+Ruby,,Float,rowspan=4 
+Scala,Float,Double,
+Seed7,,float,
+Smalltalk,Float,Double,
+Windows PowerShell,,,
+OCaml,,float,rowspan=3 
+F#,float32,,
+Standard ML,,,real
+Haskell (GHC),Float,Double,
+Eiffel,REAL_32,REAL_64,
+COBOL,FLOAT-BINARY-7Cobol_ieee[e],FLOAT-BINARY-34Cobol_ieee[e],"FLOAT-SHORT, FLOAT-LONG, FLOAT-EXTENDED"
+Mathematica,,,

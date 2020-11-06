@@ -1,35 +1,17 @@
-<<<<<<< HEAD
-Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine
-Botan,,,,,
-cryptlib,,,,,
-GnuTLS,,,,,
-JSSE,,,,,
-LibreSSL,,,,,
-MatrixSSL,,,,,
-Mbed TLS,,,,,
-NSS,,,,,
-OpenSSL,,,,,
-RSA BSAFE,,,,,
-SChannel,,,,,
-Secure Transport,,,,,
-wolfSSL,,,,,
-Erlang/OTP SSL application,,,,,
-Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine
-=======
-Implementation,TPM support,Hardware token support,Objects identified via
-Botan,,PKCS11,
-cryptlib,,PKCS11,User-defined label
-GnuTLS,,PKCS11,RFC 7512 PKCS #11 URLs[218]
-JSSE,,"PKCS11 Java Cryptography Architecture, Java Cryptography Extension",
-LibreSSL,,PKCS11 (via 3rd party module),Custom method
-MatrixSSL,,PKCS11,
-Mbed TLS,,PKCS11 (via libpkcs11-helper) or standard hooks,Custom method
-NSS,,PKCS11,
-OpenSSL,,PKCS11 (via 3rd party module)[219],RFC 7512 PKCS #11 URLs[218]
-RSA BSAFE Micro-Edition Suite,,PKCS11 (via 3rd party module),User-defined label
-RSA BSAFE SSL-J,,,
-SChannel,,Microsoft CryptoAPI,"UUID, User-defined label"
-Secure Transport,,,
-wolfSSL,,PKCS11,
-Implementation,TPM support,Hardware token support,Objects identified via
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Implementation,Application-defined,PKIX path validation[94],CRL[95],OCSP[96],DANE (DNSSEC)[97],Trust on First Use (TOFU),CT[98]
+Botan,,,,,,,
+Bouncy Castle,,,,,,,
+cryptlib,,,,,,,
+GnuTLS,,,,,,,
+JSSE,,,,,,,
+LibreSSL,,,,,,,
+MatrixSSL,,,,,,,
+Mbed TLS,,,,,,,
+NSS,,,,,,,
+OpenSSL,,,,,,,
+RSA BSAFE,,,,,,,
+SChannel,,,,,,,
+Secure Transport,,,,,,,
+wolfSSL,,,,,,,
+Erlang/OTP SSL application,,,,,,,
+Implementation,Application-defined,PKIX path validation,CRL,OCSP,DANE (DNSSEC),Trust on First Use (TOFU),CT

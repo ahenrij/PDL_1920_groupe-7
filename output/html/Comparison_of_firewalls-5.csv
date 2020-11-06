@@ -1,19 +1,23 @@
-<<<<<<< HEAD
-Can:,NAT[a],"NAT64, NPTv6",Intrusion Detection System (IDS)[b],Virtual Private Network (VPN)[c],Antivirus (AV),Packet capture,Profile selection[d]
-Vyatta,Yes (three NAT types),?,Yes (integrated Snort),Yes (IPsec and OpenVPN),"Yes (with clamav, Sophos Antivirus (optional))",Yes (with wireshark or tcpdump),?
-WinGate,Yes,?,Yes (with NetPatrol),Yes (proprietary),Yes (Kaspersky Labs),Yes (filtered capturing to pcap format),No
-pfSense,Yes,Yes (NPt),Yes (with Snort),"Yes (OpenVPN, IPsec, L2TP, IKEv2, Tinc, PPTP)",Yes (with squid and clamav),Yes (tcpdump),No
-IPFire,Yes,?,Yes (with Snort),"Yes (OpenVPN, IPsec, IKEv2)",Yes (with squid and clamav),Yes (tcpdump),No
-=======
-Can Target:,Changing default policy to accept/reject (by issuing a single rule),IP destination address(es),IP source address(es),TCP/UDP destination port(s),TCP/UDP source port(s),Ethernet MAC destination address,Ethernet MAC source address,Inbound firewall (ingress),Outbound firewall (egress)
-Trend Micro Internet Security,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes
-Vyatta,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes
-Windows XP Firewall,No,No,Yes,Partial[a],No,No,No,Yes,No
-Windows Vista Firewall,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes
-Windows 7 / Windows 2008 R2 Firewall,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes
-WinGate,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes
-Zeroshell,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Zorp,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
-pfSense,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes
-IPFire,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Firewall,License,Cost and usage limits,OS
+Avast Internet Security,Proprietary,Paid,Microsoft Windows
+Comodo Internet Security,Proprietary,Free,"Windows 10/8.1/8/7/Vista x86/x64, XP x86"
+Intego VirusBarrier,Proprietary,Paid,Mac OS X 10.5 or later; on an Xserve
+Kaspersky Internet Security,Proprietary,Paid / 30 day trial,Windows unknown versions x86/x64
+Lavasoft Personal Firewall,Proprietary,Paid,Windows unknown versions x86/x64
+Microsoft Forefront Threat Management Gateway,Proprietary,Discontinued,Windows unknown versions x64
+NetLimiter,Proprietary,Paid,"Windows 10, 8, 7 x64"
+Norton 360,Proprietary,Paid,Windows unknown versions x86/x64
+Online Armor Personal Firewall,Proprietary,Discontinued,Windows unknown versions x86/x64
+Outpost Firewall Pro,Proprietary,Discontinued,"Windows 10, 8, 7, Vista, XP x86/x64"
+PC Tools Firewall Plus,Proprietary,Discontinued,Windows unknown versions x86/x64
+Sygate Personal Firewall,Proprietary,Discontinued,Windows unknown versions x86
+Windows Firewall,Proprietary,Included with Windows XP SP2 and later,Windows versions x86/x64
+ZoneAlarm,Proprietary,Free / Paid,"Windows 10/8.1/8/7/Vista x86/x64, XP x86"
+Netfilter/iptables,GPL,Free,Linux kernel module
+nftables,GPL,Free,Linux kernel (>=3.13) module
+Shorewall,GPL,Free,Linux-based appliance
+PeerBlock,GPL,Free,"Windows 8/8.1, 7, Vista x86/x64"
+NPF,BSD,Free,NetBSD kernel module
+PF,BSD,Free,*BSD kernel module
+ipfirewall,BSD,Free,*BSD package
+IPFilter,GPLv2,Free,Package for multiple UNIX-like operating systems

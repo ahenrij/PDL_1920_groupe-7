@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-Codec,Windows,macOS,Linux,BSD,Unix,Palm OS,Symbian OS,Rockbox,iOS,Android[43],Chromium[44]
-AAC,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-AC-3,Yes,?,Yes,?,?,?,?,?,Yes,?,?
-ALAC,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,No
-ALS,?,?,?,?,?,?,?,?,?,?,?
-aptX,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No
-CELT,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,No
-E-AC3,Yes,?,?,?,?,?,?,?,Yes,?,?
-FLAC,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Monkey's Audio,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,No,No
-MP3,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Musepack,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
-Opus,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes
-RealAudio[45],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
-Speex,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No
-Vorbis,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes
-True Audio (TTA),Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,Yes
-WavPack,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,No,No
-WMA[45],Yes,Yes[46],Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,No
-=======
 Audio compression format,Algorithm,Sample rate,Bit rate,Latency,CBR,VBR,Stereo,Multichannel
 AAC,"MDCT, Hybrid Subband (AAC-HE)",8–192 kHz[50],8–529 kbit/s (stereo),20–405 ms[51],Yes,Yes,"Yes: Dual, Mid/Side, Intensity, Parametric",Yes: Up to 48 channels
 AC3,MDCT,"32, 44.1, 48 kHz",32–640 kbit/s,40.6 ms,Yes,No,Yes,Yes: Up to 6 channels
@@ -57,4 +36,3 @@ Vorbis (Ogg),MDCT,8–192 kHz,45-500 kbit/s (32-500 kbit/s for aoTuV tunings),>100
 WavPack Lossy,"Prediction, Quantization",1 Hz to 16.777216 MHz,196 kbit/s and up in lossy mode (for CD audio),3523.8 ms,Yes,Yes,Yes,Yes: Up to 256 channels
 Windows Media Audio Standard,MDCT,"8, 11.025, 16, 22.05, 32, 44.1, 48 kHz",8–768 kbit/s,>100 ms,Yes,Yes,Yes,No
 Windows Media Audio Pro,MDCT,"8, 11.025, 16, 22.05, 32, 44.1, 48, 88.2, 96 kHz",4–768 kbit/s,>100 ms,Yes,Yes,Yes,"Yes: At least 8 channels, expandable"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

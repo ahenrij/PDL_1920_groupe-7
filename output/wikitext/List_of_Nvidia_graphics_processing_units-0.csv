@@ -1,34 +1,11 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS),TBP (Watts),Notes
-,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,,
-GeForce G 102M,"January 8, 2009",MCP79XT,65,Integrated (PCIe 1.0 ×16),16:8:4,450?,1000,800 (system memory),1.8,3.6,Up to 512 from system memory,6.4,DDR2,64,10.0,3.3,48,14,"PureVideo HD, CUDA, Hybrid SLI, based on GeForce 9400M G"
-GeForce G 103M,"January 1, 2009",N10M-GE2(G98),,PCIe 2.0 ×16,8:8:4,640,1600,1000,2.56,5.12,512,8,,,,,38,,"PureVideo HD, CUDA, Hybrid SLI, comparable to the GeForce 9300M GS"
-GeForce G 105M,"January 8, 2009",N10M-GE1(G98),,,,,,1000 1400,,,,8 11,GDDR2 GDDR3,,,,38,,
-GeForce G 110M,,N10M-GE1(G96b),55,,16:8:4,400,1000,1000 1400,1.6,3.2,1024,8 11,DDR2 GDDR3,,,,48,,"PureVideo HD, CUDA, Hybrid SLI"
-GeForce GT 120M,"February 11, 2009",N10P-GV1(G96b),,,32:16:8,500,1250,1000,4,8,,16,DDR2,128,,,110,23,"PureVideo HD, CUDA, Hybrid SLI, Comparable to the 9500M GT and 9600M GT DDR2 (500/1250/400)"
-GeForce GT 130M,"January 8, 2009",N10P-GE1(G96b),,,,600,1500,1000 1600,4.8,9.6,,16 25.6,DDR2 GDDR3,,,,144,,"PureVideo HD, CUDA, Hybrid SLI, comparable to the 9650M GT"
-GeForce GTS 150M,"March 3, 2009",N10E-GE1(G94b),,,64:32:16,400,1000,1600,6.4,12.8,,51.2,GDDR3,256,,,192,,"PureVideo HD, CUDA, Hybrid SLI"
-GeForce GTS 160M,,N10E-GS1(G94b),,,,600,1500,,9.6,19.2,,,,,,,288,60,
-=======
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
-GeForce 4057,"September 16, 2011",GT216 GT218,40 nm,486 260,100 57,1,48:16:8 16:8:4,475 589,1100 1402,800 790,3.8 2.36,7.6 4.71,512 1024,12.6,DDR3,64,n/a[28],10.1,3.3,1.1,105.6 44.86,,30.5,OEM
-GeForce GT 420,"September 3, 2010",GF108,TSMC 40 nm,585,116,,48:4:4,700,1400,1800,2.8,2.8,512,28.8,GDDR3,128,,12 FL 11_1,4.6,,134.4,,50,
-GeForce GT 430,"October 11, 2010",GF108 GF108-300-A1,,,,2,96:16:4,,,1600 1800,,11.2,512,25.6 28.8,,,,,,1.2,268.8,,60,
-,,,,,,,,,,1800,,,512 1024 2048,28.8,,128,,,,1.1,268.8,Unknown,49,$79
-,,,,,,,,,,1300,,,,10.4,,64,,,,,,,,
-GeForce GT 440,"February 1, 2011",GF108,,,,,,810,1620,1800 3200,3.24,12.96,1024,28.8 51.2,GDDR3 GDDR5,128,,,,,311.04,,65,$100
-,"October 11, 2010",GF106,,1170,238,3,144:24:24,594,1189,1800,14.26,14.26,1536 3072,43.2,GDDR3,192,,,,,342.43,,56,OEM
-GeForce GTS 450,,,,,,,,790,1580,4000,18.96,18.96,1536,96,GDDR5,,,,,,455.04,,106,
-,"September 13, 2010 March 15, 2011",GF106-250 GF116-200,,,,4,192:32:16,783,1566,3608,12.53,25.06,512 1024,57.73,,128,,,,,601.34,,106,$129
-GeForce GTX 460 SE,"November 15, 2010",GF104-225-A1,,1950,332,6,288:48:32,650,1300,3400,20.8,31.2,1024,108.8,,256,,,,,748.8,,150,$160
-GeForce GTX 460,"October 11, 2010",GF104,,,,7,336:56:32,,,,,36.4,1024,108.8,,,,,,,873.6,,,OEM
-,"July 12, 2010",GF104-300-KB-A1,,,,,336:56:24,675,1350,3600,16.2,37.8,768,86.4,,192,,,,,907.2,Unknown,,$199
-,,,,,,,336:56:32,,,,21.6,,1024 2048,115.2,,256,,,,,,,160,$229
-,"September 24, 2011",GF114,,,,,336:56:24,778,1556,4008,18.67,43.57,1024,96.2,,192,,,,,1045.6,,,$199
-GeForce GTX 465,"May 31, 2010",GF100-030-A3,,3000[29],529,11,352:44:32,607,1215,3206,19.42,26.71,1024,102.6,,256,,,,1.2,855.36,106.92,2004,$279
-GeForce GTX 470,"March 26, 2010",GF100-275-A3,,,,14,448:56:40,,,3348,24.28,34,1280,133.9,,320,,,,,1088.64,136.08,2154,$349
-GeForce GTX 480,"March 26, 2010",GF100-375-A3,,,,15,480:60:48,700,1401,3696,33.60,42,1536,177.4,,384,,,,,1344.96,168.12,2504,$499
-Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),SM count,"Core config1,3",Clock rate,,,Fillrate,,Memory configuration,,,,Supported API version,,,,Processing power (GFLOPS)2,,TDP (Watts)4,Release Price (USD)
-,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),DRAM type,Bus width (bit),Vulkan,Direct3D,OpenGL,OpenCL5,Single precision,Double precision,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus interface,L2 Cache(MB),Clock speeds,,,Memory,,,,Fillratename=PerfValues,,Processing power (GFLOPS)name=PerfValues,,,,Ray-tracing Performance,,TDP (Watts),NVLink support,Release price (USD),
+,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)name=PixelFillrate,Texture (GT/s)name=TextureFillrate,Single precision,Double precision,Half precision,Tensor compute (FP16),Rays/s (Billions),RTX OPS/s (Trillions),,,MSRP,Founders Edition
+GeForce RTX 2060[108],"January 15, 2019",TU106-200-KA-A1,TSMC 12FFN,10.8,445,1920:120:48:240:30 (30) (3),PCIe 3.0 x16,3,1365,1680,14000,6,336.0,GDDR6,192,65.52 80.64,163.80 201.60,5?241.60 6?451.20,163.80 201.60,10?483.20 12?902.40,41?932.80 51?609.60,5,37,160,rowspan="4" ,$349,
+,"January 10, 2020",TU104-150-KC-A1[109],,13.6,545,,,,,,,,,,,,,,,,,,,,$299,,
+GeForce RTX 2060 Super[110][111],"July 9, 2019",TU106-410-A1,,10.8,445,2176:136:64:272:34 (34) (3),,4,1470,1650,,8,448.0,,256,94.08 105.60,199.92 224.40,6?400.00 7?180.00,199.00 224.00,12?800.00 14?360.00,51?200.00 57?440.00,6,41,175,$399,,
+GeForce RTX 2070[112][113],"October 17, 2018",TU106-400-A1,,,,2304:144:64:288:36 (36) (3),,,1410,1620,,,,,,90.24 103.68,203.04 233.28,6?497.28 7?464.96,203.04 233.28,12?994.56 14?929.92,51?978.24 59?719.68,,42,,$499,$599,
+GeForce RTX 2070 Super[110][114],"July 9, 2019",TU104-410-A1,,13.6,545,2560:160:64:320:40 (40) (5),,,1605,1770,,,,,,102.70 113.28,256.80 283.20,8?220.00 9?060.00,256.80 283.20,16?440.00 18?120.00,65?760.00 72?480.00,7,52,215,,2-way NVLink,$499
+GeForce RTX 2080[115][116],"September 20, 2018",TU104-400-A1,,,,2944:184:64:368:46 (46) (6),,,1515,1710,,,,,,96.96 109.44,278.76 314.64,8?920.32 10?068.48,278.76 314.64,17?840.64 20?136.96,71?362.56 80?547.84,8,57,,$699,,$799
+GeForce RTX 2080 Super[110][117],"July 23, 2019",TU104-450-A1,,,,3072:192:64:384:48 (48) (6),,,1650,1815,15500,,496.0,,,105.60 116.16,316.80 348.48,10?140.00 11?150.00,316.80 348.50,20?280.00 22?300.00,81?120.00 89?200.00,,63,250,,,$699
+GeForce RTX 2080 Ti[118],"September 27, 2018",TU102-300-K1-A1,,18.6,754,4352:272:88:544:68 (68) (6),,5.5,1350,1545,14000,11,616.0,,352,118.80 135.96,367.20 420.24,11?750.40 13?447.68,367.20 420.24,23?500.80 26?895.36,94?003.20 107?581.44,10,76,,$999,,$1199
+Nvidia TITAN RTX[119],"December 18, 2018",TU102-400-A1,,,,4608:288:96:576:72 (72) (6),,6,,1770name=TitanRTXBoost,,24,672.0,,384,129.60 169.92,388.80 509.76,12?441.60 16?312.32,388.80 509.76,24?883.20 32?624.64,99?532.80 130?498.56,11,84,,,,"$2,499"

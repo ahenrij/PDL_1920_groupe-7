@@ -1,31 +1,16 @@
-<<<<<<< HEAD
-,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS
-Apache OFBiz,No,No,No,No,No,No,No
-Batavi,No,No,No,No,No,No,No
-Bigcommerce,Yes,Yes,No,Yes,No,Yes,Yes
-KonaKart,No,No,No,Yes,No,Yes,Yes
-Magento,No,No,No,No,No,No,No
-nopCommerce,No,No,No,No,No,No,No
-osCommerce,No,No,No,No,No,No,No
-PrestaShop,webservice,No,No,No,No,No,No
-Shopify,No,No,No,No,No,No,No
-WooCommerce,Yes,Yes,No,No,No,Yes,No
-Zen Cart,No,No,No,Yes,Yes,Yes,Yes
-,Australia Post,Canada Post,DHL,FedEx,OnTrac,United States Postal Service,UPS
-=======
-,Authorize.Net AIM,Authorize.Net SIM,Barclaycard CPI,Barclaycard MPI,HSBC API,HSBC CPI,PayPal Standard
-Apache OFBiz,Yes,No,No,No,No,No,Yes
-Batavi,No,No,No,No,No,No,No
-Bigcommerce,Yes,Yes,No,No,No,No,Yes
-Drupal Commerce,Yes,No,No,No,No,No,Yes
-KonaKart,Yes,Yes,No,No,No,No,Yes
-Magento,Yes,3rd party,Yes,Yes,Yes,Yes,Yes
-nopCommerce,Yes,Yes,No,No,No,No,Yes
-osCommerce,Yes,Yes,No,No,No,No,Yes
-pimcore,No,No,No,No,No,No,No
-PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-Shopify,Yes,Yes,No,Yes,No,No,Yes
-WooCommerce,Yes,Yes,No,No,No,No,Yes
-Zen Cart,Yes,Yes,No,No,No,No,Yes
-,Authorize.Net AIM,Authorize.Net SIM,Barclaycard CPI,Barclaycard MPI,HSBC API,HSBC CPI,PayPal Standard
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Multiple store fronts,Affiliates,API (remote management functions),Minimum orders,Multiple vendor support,Out-of-the-box shopping cart
+Apache OFBiz,Yes,Yes,Yes,Yes,No,Yes
+Batavi,No,No,No,Yes,Yes,Yes
+Bigcommerce,No,3rd party,Yes,Yes,Yes,Yes
+Drupal Commerce,Yes,Yes,Yes,Yes,Yes,Yes
+KonaKart,No,No,Yes,Yes,Yes,Yes
+Magento,Yes,3rd party,Yes,Yes,Yes,Yes
+nopCommerce,Yes,Yes,Yes,Yes,Yes,Yes
+osCommerce,No,No,No,Yes,No,Yes
+pimcore,Yes,Yes,Yes,Yes,Yes,No
+PrestaShop,Yes,Yes,Yes,Yes,Yes,Yes
+Shopify,No,Yes,Yes,Yes,Yes,Yes
+SupaDupa,No,No,No,No,No,Yes
+WooCommerce,No,Yes,Yes,No,Yes,No
+Zen Cart,add-on,3rd party,No,add-on,No,Yes
+,Multiple store fronts,Affiliates,API (remote management functions),Minimum orders,Multiple vendor support,Out-of-the-box shopping cart

@@ -1,17 +1,10 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Graphics core,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core clock2 (MHz),Core config1,Fillrate,,,Memory3,,,,,Processing power (GFLOPS),Features / Notes
-,,,,,,,,,,Pixel (GP/s),Texture (GT/s),FP32 (GP/s),Size (MB),Bandwidth (GB/s),Bus type,Effective clock (MHz),Bus width (bit),,
-Radeon 3000 Graphics (760G Chipset),2009,RS780L[12],RV610,55,205,~73 (~9 × 8.05),HT 3.0,350,40:4:4,1.4,1.4,0.7,Up to 512 system,20.8 (system),HT (system),N/A,N/A,28,AVIVO
-Radeon 3100 Graphics (780V Chipset),2008 Jan 23 (China) Mar 4 (Worldwide),RS780C,,,,,,,,,,,,,,,,,
-Radeon HD 3200 Graphics (780G Chipset),,RS780,,,,,,500,,2,2,1,Up to 512 system + optional 128 sideport,20.8 (system) + 2.6 (sideport),HT (system) + DDR2-1066 DDR3-1333 (sideport),1333 (sideport),16 (sideport),40,"UVD+, 8x AA (wide-tent CFAA)"
-Radeon HD 3300 Graphics (790GX Chipset),Jul 2008,RS780D,,,,,,700,,2.8,2.8,1.4,Up to 512 system + 128 sideport,,HT (system) + DDR3-1333 (sideport),,,56,"UVD+, PowerPlay"
-=======
-Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
-,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
-FirePro W2100[78],"August 13, 2014",GCN 1st gen,Oland XT,28,PCIe 3.0 x8,630,900,320:20:8:5,5.04,12.6,2,28.8,DDR3,128,403.2,25.5,11.2a/12.0,4.5,2.0 (new),1.0,<26,Two Standard DisplayPort DP 1.2a outputs
-FirePro W4100[79],,,Cape Verde,,PCIe 3.0 x16,630,1125,512:32:16:8,10.08,20.16,,72,GDDR5,,645.1,40.3,,,,,<50,Four Standard Mini-DP 1.2a outputs
-FirePro W5100[80],,GCN 2nd gen,Bonaire Pro,,,930,1500,768:48:16:12,14.88,44.64,4,96,,,1430,89.2,11.2b/12.0,,2.0,,<75,"DirectGMA, GeometryBoost, 4 DP 1.2a, including Adaptive-Sync and HBR2"
-FirePro W7100[81],,GCN 3rd gen,Tonga Pro GL,,,920,1400,1792:112:32:28,29.4,103,8,160,,256,3297,206,,,,1.1,<150,
-FirePro W8100[82],"June 26, 2014",GCN 2nd gen,Hawaii Pro GL,,,824,1250,2560:160:64:40,52.7,145,,320,,512,4218.9,2109.45,,,,1.0,220,"ECC RAM, 4 DP + SDI-Link"
-FirePro W9100[83],"March 26, 2014",,Hawaii XT,,,930,1250,2816:176:64:44,59.5,163.7,16 32,320,,,5237.8,2618.9,,,2.0[84],,275,"ECC RAM, Six Mini DP + SDI-Link"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Hardware T&L,Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
+Rage LT (Rage II),Nov 1996,500,PCI,60,66,No,0:1:1:1,0.06,0.06,4,0.53,"EDO, SDR, SGR",64,5,N/A,
+Rage LT Pro (Rage Pro),Nov 1997,350,"AGP, PCI",75,100,,,0.075,0.075,8,0.80,,,6,1.1,Motion Compensation
+Rage Mobility M/P (Rage Pro),Nov 1998,250,,90,,,,0.18,0.18,,,"SDR, SGR",,,,"M had 4 MB of integrated SDRAM, P had none. IDCT, Motion Compensation."
+Rage Mobility M1 (Rage Pro),Feb 1999,,,90,90,,,,,,0.72,SDR,,6,1.2,"M1 had 8 MB of integrated SDRAM, P had none. IDCT, Motion Compensation."
+Rage 128 GL,Aug 1998,,,103,103,,0:2:2:2,0.206,0.206,32,1.65,,128,,,
+Rage Mobility 128 (Rage 128 Pro),Oct 1999,,,105,105,,,0.21,0.21,16,2.28,,,,,"IDCT, Motion Compensation"
+Rage Mobility M3 (AGP 4x) (Rage 128 Pro),,,,,,,,,,,2.28,,,,,"M3 had 8 MB of integrated SDRAM, IDCT, Motion Compensation."
+Rage Mobility M4 (AGP 4x) (Rage 128 Pro),,,,,,,,,,32,2.28,,,,,"M4 had 16 MB of integrated SDRAM, IDCT, Motion Compensation."

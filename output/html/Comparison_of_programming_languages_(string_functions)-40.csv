@@ -1,21 +1,27 @@
-<<<<<<< HEAD
 Format,Languages
-string1 == string2,"Python, C++ (STL), C#, Cobra, Go, JavaScript (similarity), PHP (similarity), Ruby, Rust,[9] Erlang, Haskell, Lua, D, Mathematica, Swift, Ya"
-string1 === string2,"JavaScript, PHP"
-string1 == string2 or string1 .EQ. string2,Fortran
-"strcmp(string1, string2) == 0",C
-(string=? string1 string2),Scheme
-(string= string1 string2),"Common Lisp, ISLISP"
-string1 = string2,"ALGOL 68, Ada, Object Pascal (Delphi), OCaml, Pascal, Rexx, Seed7, Standard ML, BASIC, VB, VB .NET, F#, Smalltalk, PL/I, COBOL"
-"test string1 = string2, or [ string1 = string2 ]",Bourne Shell
-string1 eq string2,"Perl, Raku"
-string1.equals(string2),"Cobra, Java"
-string1.Equals(string2),C#
-"string1 -eq string2, or [string]::Equals(string1, string2)",Windows PowerShell
-"[string1 isEqualToString:string2], or [string1 isEqual:string2]",Objective-C (NSString * only)
-string1 ? string2,APL
-string1.eq(string2),Rust[9]
-=======
-Definition,"right(string,n) returns string"
-Description,Returns the right n part of a string. If n is greater than the length of the string then most implementations return the whole string (exceptions exist – see code examples).
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+"changestr(find, string, replace)",Rexx
+"std.string.replace(string, find, replace)",D
+"Replace(string, find, replace)",VB
+"replace(string, find, replace)",Seed7
+"change(string, find, replace)",Pick Basic
+"string.Replace(find, replace)","C#, F#, VB .NET"
+"str_replace(find, replace, string)",PHP
+"re:replace(string, find, replace, «{return, list}»)",Erlang
+"string.replace(find, replace)","Cobra, Java (1.5+), Python, Rust[35]"
+"string.replaceAll(find_regex, replace)[36]",Java
+"string.gsub(find, replace)",Ruby
+string =~ s/find_regex/replace/g[36],Perl 5
+"string.subst(find, replace, :g)",Raku
+"string.replace(find, replace, "g") [37] or string.replace(/find_regex/g, replace)[36]",JavaScript
+echo "string" | sed 's/find_regex/replace/g'[36],Unix
+"string.replace(find, replace), or string -replace find_regex, replace[36]",Windows PowerShell
+Str.global_replace (Str.regexp_string find) replace string,OCaml
+[string stringByReplacingOccurrencesOfString:find withString:replace],Objective-C (NSString * only)
+"string.stringByReplacingOccurrencesOfString(find, withString:replace)",Swift (Foundation)
+"string.gsub(string, find, replace) (string):gsub(find, replace)",Lua
+string copyReplaceAll: find with: replace,"Smalltalk (Squeak, Pharo)"
+string map {find replace} string,Tcl
+"StringReplace[string, find -> replace]",Mathematica
+"strings.Replace(string, find, replace, -1)",Go
+INSPECT string REPLACING ALL/LEADING/FIRST find BY replace,COBOL
+find_regex ?R replace_regex ? string,APL

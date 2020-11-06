@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ,Creator,Latest release date,Current stable version,Programming language,License
 bbPress[1],WordPress Foundation,2020-04-29,5.4.1,PHP[2],GPL[3]
 Beehive Forum[4],Project Beehive Forum Developers,2016-11-05,1.5.2,PHP,GPL
@@ -19,26 +18,3 @@ Vanilla Forums[20],Vanilla Forums,2019-07-09,3.1,PHP,Proprietary/GPL[21]
 vBulletin[22],vBulletin Solutions Inc.,2020-01-08,5.5.6,PHP[23],Proprietary[24]
 XenForo,"XenForo Limited, Kier Darby, Mike Sullivan.",2020-01-27,2.1.7,PHP[25],Proprietary
 ,Creator,Latest release date,Current stable version,Programming language,License
-=======
-,MySQL,PostgreSQL,MSSQL,Oracle,SQLite,Firebird,Flat file
-bbPress[2],Yes,No,No,No,No,No,No
-Beehive Forum,Yes,No,No,No,No,No,No
-Discourse,No,Yes,No,No,No,No,No
-Discuz!,Yes,Yes,No,No,No,No,No
-FluxBB,Yes,Yes,No,No,SQLite 2[85],No,No
-FUDforum,Yes,Yes,Yes,Yes,Yes,Yes,No
-Iko,Yes,No,No,No,No,No,No
-Ikonboard,Yes,Yes,No,Yes,No,No,Yes
-Invision Power Board,Yes,No,Discontinued [86],No,No,No,No
-kusaba,Yes,No,No,No,No,No,No
-MyBB[47],Yes,Yes,No,No,Yes,No,No
-Phorum,Yes,No,No,No,No,No,No
-phpBB[54],Yes,v8.2 or newer[87][88],Yes,Yes,Yes,Discontinued,No
-PunBB[60],Yes,Yes,No,No,Yes,No,No
-Simple Machines Forum,Yes,Yes,No,No,Yes,No,No
-Syndie,Yes (HSQLDB),No,No,No,No,No,No
-Thredded[19],Yes,Yes,No,No,Yes,No,No
-Vanilla Forums,Yes,No,No,No,No,No,No
-vBulletin[70],Yes,No,No,No,No,No,No
-XenForo,Yes,No,No,No,No,No,No
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

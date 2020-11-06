@@ -1,13 +1,9 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Concrete Compressive Strength Dataset,Dataset of concrete properties and compressive strength.,Nine features are given for each sample.,1030,Text,Regression,2007,[347][348],I. Yeh
-Concrete Slump Test Dataset,Concrete slump flow given in terms of properties.,"Features of concrete given such as fly ash, water, etc.",103,Text,Regression,2009,[349][350],I. Yeh
-Musk Dataset,"Predict if a molecule, given the features, will be a musk or a non-musk.",168 features given for each molecule.,6598,Text,Classification,1994,[351],Arris Pharmaceutical Corp.
-Steel Plates Faults Dataset,Steel plates of 7 different types.,27 features given for each sample.,1941,Text,Classification,2010,[352],Semeion Research Center
-=======
-UrbanSound,"Labeled sound recordings of sounds like air conditioners, car horns and children playing.",Sorted into folders by class of events as well as metadata in a JSON file and annotations in a CSV file.,"1,059",Sound (WAV),Classification,2014,[264][265],J. Salamon et al.
-AudioSet,"10-second sound snippets from YouTube videos, and an ontology of over 500 labels.",128-d PCA'd VGG-ish features every 1 second.,"2,084,320",Text (CSV) and TensorFlow Record files,Classification,2017,[266],"J. Gemmeke et al., Google"
-Bird Audio Detection challenge,"Audio from environmental monitoring stations, plus crowdsourced recordings",,"17,000+",,Classification,2016 (2018),[267][268],Queen Mary University and IEEE Signal Processing Society
-WSJ0 Hipster Ambient Mixtures,Audio from WSJ0 mixed with noise recorded in the San Francisco Bay Area,Noise clips matched to WSJ0 clips,"28,000",Sound (WAV),Audio source separation,2019,[269],"Wichern, G., et al., Whisper and MERL"
-Clotho,"4,981 audio samples of 15 to 30 seconds long, each audio sample having five different captions of eight to 20 words long.",,"24,905",Sound (WAV) and text (CSV),Automated audio captioning,2020,[270][271],"K. Drossos, S. Lipping, and T. Virtanen"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Webpages from Common Crawl 2012,Large collection of webpages and how they are connected via hyperlinks,None.,3.5B,Text,"clustering, classification",2013,[448],V. Granville
+Internet Advertisements Dataset,Dataset for predicting if a given image is an advertisement or not.,Features encode geometry of ads and phrases occurring in the URL.,3279,Text,Classification,1998,[449][450],N. Kushmerick
+Internet Usage Dataset,General demographics of internet users.,None.,"10,104",Text,"Classification, clustering",1999,[451],D. Cook
+URL Dataset,120 days of URL data from a large conference.,Many features of each URL are given.,"2,396,130",Text,Classification,2009,[452][453],J. Ma
+Phishing Websites Dataset,Dataset of phishing websites.,Many features of each site are given.,2456,Text,Classification,2015,[454],R. Mustafa et al.
+Online Retail Dataset,Online transactions for a UK online retailer.,Details of each transaction given.,"541,909",Text,"Classification, clustering",2015,[455],D. Chen
+Freebase Simple Topic Dump,Freebase is an online effort to structure all human knowledge.,Topics from Freebase have been extracted.,large,Text,"Classification, clustering",2011,[456][457],Freebase
+Farm Ads Dataset,The text of farm ads from websites. Binary approval or disapproval by content owners is given.,SVMlight sparse vectors of text words in ads calculated.,4143,Text,Classification,2011,[458][459],C. Masterharm et al.

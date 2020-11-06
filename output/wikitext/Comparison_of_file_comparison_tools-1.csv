@@ -1,57 +1,27 @@
-<<<<<<< HEAD
-Name,ZIP support,FTP support,SFTP support,Version control browsing,Patch creation,Patch application,Patch preview,Unicode support,XML-aware
-Beyond Compare,,,,SVN,,,,,
-Compare++,,,,"SVN, CVS, Git, Microsoft TFS, Perforce, VSS using command line",,,,,
-diff,,,,,,,,,
-diff3,,,,,,,,,
-Eclipse (compare),,,,",,,,,
-Ediff,,,,"RCS, CVS, SVN, Mercurial, git (anything supported by Emacs' VC-mode)[31]",,,,,
-ExamDiff Pro,,,,,normal diff only,,,,
-Far Manager (compare),,,,,,,,,
-fc,,,,,,,,,
-FileMerge (aka opendiff),,supported by OS,,,,,,,
-Guiffy SureMerge,,,,,,,,,
-IntelliJ IDEA (compare),,,,,,,,,
-jEdit JDiff plugin,,,,,,,,,
-Kompare,,,,,,,,,
-Lazarus Diff,,,,,,,,,
-Meld,,,,"CVS, Subversion, Git, Mercurial, Baazar",,,,,
-Notepad++ (compare),,Yes[35],,"Git, Subversion (compare against base)",,,,,
-Perforce P4Merge,,,,,,,,,
-Pretty Diff,,,,,,,,,
-Tkdiff,,,,"CVS, RCS, Subversion",,,,,
-Total Commander (compare),,,,,,,,,
-vimdiff,,,,,,,,,
-WinDiff,,,,,,,,,
-WinMerge,,,," Mercurial,[36] Subversion,[37] Visual Source Safe, Rational ClearCase[38]",,,,,
-UCC,,,,,,,,,
-Name,ZIP support,FTP support,SFTP support,Version control browsing,Patch creation,Patch application,Patch preview,Unicode support,XML-aware
-=======
-Name,Filename casing,CRC,Filedate,Daylight saving,Character casing
-Beyond Compare,,,,,
-Compare++,,,,,
-diff,,,,,
-diff3,,,,,
-Eclipse (compare),,,,,
-Ediff,,,,,
-ExamDiff Pro,,,,,
-Far Manager (compare),,,,,
-fc,,,,,
-FileMerge (aka opendiff),,,,,
-Guiffy SureMerge,filesystem dependent,,,,
-IntelliJ IDEA (compare),,,,,
-jEdit JDiff plugin,,,,,
-Kompare,,,,,
-Lazarus Diff,,,,,
-Meld,,,,,
-Notepad++ (compare),,,,,
-Perforce P4Merge,,,,,
-Pretty Diff,,,,,
-Tkdiff,,,,,
-Total Commander (compare),,,,,
-vimdiff,,,,,
-WinDiff,,,when different,,
-WinMerge,,,,,
-UCC,,,,,
-Name,Filename casing,CRC,Filedate,Daylight saving,Character casing
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Name,GUI,CLI,Scripting,Horizontal / vertical,Syntax highlighting,Reports
+Beyond Compare,,,,Both,,"XML, HTML, CSV, Text, Unix Patch"
+Compare++,,,,Both,,"HTML, Text(combined or side-by-side) "
+diff,,,,Horizontal,,
+diff3,,,,Horizontal,,
+Eclipse (compare),,,,Vertical,,
+Ediff,,,elisp,Both,,
+ExamDiff Pro,,,,optional,,"UNIX, HTML, Diff"
+Far Manager (compare),,,,,,
+fc,,,,Horizontal,,
+FileMerge (aka opendiff),,,,Vertical,,
+Guiffy SureMerge,,,Java API,Both,,"HTML, Text, Unix Patch"
+IntelliJ IDEA (compare),,,,Vertical,,
+jEdit JDiff plugin,,,,Both,,
+Kompare,,,,Vertical,,
+Lazarus Diff,,,,,,
+Meld,,,,Horizontal,,
+Notepad++ (compare),,,,Both,,
+Perforce P4Merge,,,,Vertical,,
+Pretty Diff,,,JavaScript,Both,, XHTML
+Tkdiff,,,,,,
+Total Commander (compare),,,,Both,,
+vimdiff,,,vim script,Both,,HTML
+WinDiff,,,,Horizontal,,Text
+WinMerge,,,,Both,,"CSV, Tab-delimited, HTML, XML"
+UCC,,,,Vertical,,"Text, CSV"
+Name,GUI,CLI,Scripting,Horizontal / vertical,Syntax highlighting,Reports

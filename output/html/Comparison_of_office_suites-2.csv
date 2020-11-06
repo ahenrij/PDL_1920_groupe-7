@@ -1,57 +1,26 @@
-<<<<<<< HEAD
-Office suite,Windows,Mac OS,GNU/Linux,BSD,Unix,Android,iOS
-Ability Office,Yes,No,No,No,No,No,No
-Apache OpenOffice,Yes,Yes,Yes,Yes,Yes,No,No
-Breadbox Office,"DOS, Windows",No,No,No,No,No,No
-Calligra Suite,Yes,Yes,Yes,Yes,Yes,No,No
-Feng Office Community Edition,Fully online,Fully online,Fully online,Fully online,Fully online,No,No
-Gobe Productive,Yes,No,No,No,No,No,No
-Google Apps for Work,Fully online,Fully online,Fully online,Fully online,Fully online,Fully online,Fully online
-iWork,Fully online (iCloud version),Yes,Fully online (iCloud version),Fully online (iCloud version),Fully online (iCloud version),No,Yes
-LibreOffice,Yes,Yes,Yes,Yes,Yes,Beta,No
-Lotus SmartSuite,Yes,No,Some (with Wine),No,No,No,No
-MarinerPak,No,Yes,No,No,No,No,Calc only
-Microsoft Office,Yes,"Partial (not all features available, e.g. Project, Visio, Access)",Some (with Wine),No,No,Yes,Yes
-Microsoft Works,Yes,Dropped (4.0; Classic only),Some (with Wine),No,No,No,No
-MobiSystems OfficeSuite,Yes,No,No,No,No,No,No
-NeoOffice,No,Mac OS X v10.3 or above,No,No,No,No,No
-ONLYOFFICE,Yes,Yes,Yes,Online version,Online version,Yes,Yes
-SoftMaker Office,Yes,Yes,Yes,Dropped (2006),No,Yes,No
-StarOffice,Yes,Yes (Intel only),Yes,Yes,Yes,No,No
-TeXmacs,Yes,Yes,Yes,Yes,Yes,No,No
-TeamLab,Fully online,Fully online,Fully online,Fully online,Fully online,No,No
-ThinkFree Office,Fully online,Fully online,Fully online,Fully online,Fully online,No,No
-Tiki Wiki CMS Groupware,Fully online,Fully online,Fully online,Fully online,Fully online,No,No
-WordPerfect Office,Yes,No,Some (Ver. 2000),No,No,No,No
-WPS Office (Kingsoft Office),Yes,Yes,Yes,No,No,Yes,Yes
-Zoho Office Suite,Fully online,Fully online,Fully online,Fully online,Fully online,No,No
-Office suite,Windows,Mac OS,GNU/Linux,BSD,Unix,Android,iOS
-=======
-Software Name,E-mail client,HTML editor,Collaborative software,Online editing
-Ability Office,No,No,No,No
-Apache OpenOffice,No,OpenOffice Writer[25],No,With free plugins
-Breadbox Office,Yes,Yes,No,No
-Calligra Suite,Kontact[2],"Kate,[2] Quanta+[2]",No,No
-Feng Office Community Edition,beta,No,Yes,Yes
-GobeProductive,No,Yes,No,No
-Google Apps for Work,Gmail,Google Sites,Yes,Fully online
-iWork,Mail,No,Yes,iCloud
-LibreOffice,Can interface with email clients and Mail Merge Wizard can send email directly from LibreOffice[26],LibreOffice Writer,LibreOffice Calc,Currently via free plugins; LibreOffice Online under development.[27]
-Lotus SmartSuite,No,Lotus FastSite,Yes,No
-MarinerPak,No,No,No,No
-Microsoft Office,Microsoft Outlook (Not included in Microsoft Office 2013 or 2016 Home & Student)[28][29],"Microsoft SharePoint Designer. Versions after Office 2000 Premium and Developer contain Microsoft FrontPage, the full-blown web page editor. Microsoft Word can read and write HTML starting with a free special upgrade for Word 6.0",Microsoft SharePoint (Available for separate subscription)[30],Office Online
-Microsoft Works,No,No,No,Microsoft Office Live
-MobiSystems OfficeSuite,"OfficeSuite Mail for Windows, AquaMail for Android",No,No,No
-NeoOffice,No,NeoOffice Writer[25],No,No
-ONLYOFFICE,Yes,No,Yes,Fully online
-SoftMaker Office,a bundled Mozilla Thunderbird,No,No,No
-StarOffice,No,StarWriter[25],No,With free plugins
-TeXmacs,allows to read emails,Yes,under development,No
-TeamLab,No,Yes,Yes,Yes
-ThinkFree Office,No,Note,No,ThinkFree.com
-Tiki Wiki CMS Groupware,Tiki Webmail,WYSIWYG editor via CKEditor,Yes,Fully online
-WordPerfect Office,has mail merge capabilities[31],No,No,Yes
-WPS Office (Kingsoft Office),available in Android,Yes,Yes,Yes
-Zoho Office Suite,Zoho Mail,Zoho Writer,Yes,Yes
-Software Name,E-mail client,HTML editor,Collaborative software,Online editing
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Word processing Software,Spreadsheet Software,Presentation Software,Notetaking software,Diagramming software,Raster graphics editor,Vector graphics editor,Image viewer,Formula editor,Database management software,Project management software,Desktop publishing software,Communication,Calendaring software,File hosting service
+Ability Office,Ability Write,Ability Spreadsheet,Ability Presentation,No,Ability Draw,Ability Photopaint,Ability Draw,Ability Photoalbum,No,Ability Database,No,No,No,No,No
+Apache OpenOffice,OpenOffice Writer,OpenOffice Calc,OpenOffice Impress,No,OpenOffice Draw,No,OpenOffice Draw,No,OpenOffice Math,OpenOffice Base,Import/Export capabilities with ProjectLibre and others[22],OpenOffice Draw,No,No,No
+Breadbox Office,Writer,Spreadsheet,No,No,No,Artist,Artist,No,No,Geofile,No,No,No,No,No
+Calligra Suite,Calligra Words,Calligra Sheets,Calligra Stage,Braindump,Calligra Flow,Krita,Karbon,Gwenview / Digikam[2],KFormula,Kexi,Calligra Plan,Calligra Words,No,No,No
+Feng Office Community Edition,Yes,No,Yes,Yes,No,No,No,Yes,No,No,Yes,No,No,No,No
+GobeProductive,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,No,No
+G Suite,Google Docs,Google Sheets,Google Slides,Google Keep,Google Drawings,Google Drawings,Google Drawings,Google Photos,No,Google Fusion Tables,No,No,Hangouts Chat/Meet,Google Calendar,Google Drive
+iWork,Pages,Numbers,Keynote,Notes,No,No,No,No,Yes,No,No,Pages,No,No,iCloud
+LibreOffice,LibreOffice Writer,LibreOffice Calc,LibreOffice Impress,No,LibreOffice Draw,LibreOffice Draw[23],LibreOffice Draw,LibreOffice Draw[23],LibreOffice Math,LibreOffice Base,Import/Export capabilities with ProjectLibre and others[22],LibreOffice Draw,No,No,No
+Lotus SmartSuite,Lotus Word Pro,Lotus 1-2-3,Lotus Freelance Graphics,No,Lotus Freelance Graphics,No,No,No,built in,Lotus Approach,Lotus Organizer,No,No,No,No
+MarinerPak,Mariner Write,Mariner Calc,No,No,No,No,No,No,No,No,No,No,No,No,No
+Microsoft Office,Microsoft Word,Microsoft Excel,Microsoft PowerPoint,Microsoft OneNote,Microsoft Visio (Viewer; Separate product purchase required),No,Microsoft Visio (Viewer; Separate product purchase required),Microsoft Office Picture Manager (Discontinued as of 2011; Word and PowerPoint have some functionality)[24],Equation Editor,Microsoft Access (Professional and Professional Plus),Microsoft Project (Separate product purchase required),"Microsoft Publisher (Standard, Professional and Professional Plus)",Microsoft Teams,Microsoft Outlook,OneDrive
+Microsoft Works (Discontinued in 2009),Microsoft Works Word Processor,Microsoft Works Spreadsheet,Microsoft Office PowerPoint (Viewer),No,No,No,No,No,No,Microsoft Works Database,No,No,No,No,No
+MobiSystems OfficeSuite,Word Module,Spreadsheet Module,Presentation Module,No,No,No,No,No,No,No,No,No,No,No,No
+NeoOffice,NeoOffice Writer,NeoOffice Calc,NeoOffice Impress,No,NeoOffice Draw,No,NeoOffice Draw,No,NeoOffice Math,NeoOffice Base,No,NeoOffice Draw,No,No,No
+SoftMaker Office,Textmaker,PlanMaker,Presentations,No,No,No,No,No,Yes,DataMaker (Discontinued as of 1999),No,Yes,No,No,No
+StarOffice,StarWriter,StarCalc,StarImpress,No,StarDraw,No,StarDraw,No,StarMath,StarBase,No,StarDraw,No,No,No
+TeamLab,Yes,Yes,Yes,No,No,No,No,No,No,Yes,Yes,No,No,No,No
+TeXmacs,Yes,Yes,Yes,No,No,No,Yes,No,High quality maths typesetting,No,No,under development,No,No,No
+ThinkFree Office,Write,Calc,Show,No,No,No,No,No,No,No,No,No,No,No,No
+Tiki Wiki CMS Groupware,Tiki Wiki,Tiki Spreadsheet,Tiki Slideshow with S5 format,Tiki Notepad,Tiki Draw via SVG-edit,Tiki Draw via SVG-edit,Tiki Draw via SVG-edit,Tiki File Gallery,No,Tiki Trackers,"Tiki Trackers, Tiki Wiki and Tiki Task",No,No,No,No
+WordPerfect Office,WordPerfect,Quattro Pro,Corel Presentations,WordPerfect Lightning,Corel Presentations,Corel Paint Shop Pro,Corel Draw,No,Equation Editor,Paradox (in Professional version only),Yes,Yes,No,No,No
+WPS Office (Kingsoft Office),WPS Writer Support More than 200 Language Typesetting,WPS Spreadsheets Support More than 200 Functions,WPS Presentation,No,No,No,No,No,Equation Editor (Currently unavailable for Linux),No,No,No,No,No,No
+Zoho Office Suite,Zoho Writer,Zoho Sheet,Zoho Show,Zoho Notebook,No,No,No,No,No,Zoho Reports,Zoho Projects,No,No,No,No
+,Word processing Software,Spreadsheet Software,Presentation Software,Notetaking software,Diagramming software,Raster graphics editor,Vector graphics editor,Image viewer,Formula editor,Database management software,Project management software,Desktop publishing software,Communication,Calendaring software,File hosting service

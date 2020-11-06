@@ -1,25 +1,11 @@
-<<<<<<< HEAD
-Model,Launch,Micro-archi-tecture,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
-,,,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
-FirePro 3D V3700[218],"August 8, 2008",Terascale 1,RV620 PRO[219],55,181,67,PCIe 2.0 x16,800,950,40(8×5):4:4:2,3.2,3.2,256,15.2,GDDR3,64,64,-,10.1,3.3 SM4.1,APP Stream only,N/A,32,"UVD+, PowerPlay"
-FirePro 3D V3750[220],"September 11, 2008",,RV730 PRO,,514,146,,550,750,320(64×5):32:8:4,4.4,17.6,,24,,128,352,,,3.3,1.0,,48,
-"FirePro 3D V3800,[221][222]","April 26, 2010",TeraScale 2,Redwood Pro GL (RV830),40,627,104,PCIe 2.1 x16,650,900,400(80×5):20:8:5,5.2,13,512,14.4,,64,520,?,11.0,4.3 SM5.0,1.2,,43,"UVD2, PowerPlay, Eyefinity"
-"FirePro 3D V4800,[223][224]",,,Redwood XT GL (RV830),,672,,,775,9002,,6.2,15.5,1024,57.6,GDDR52,128,620,,,4.3,,,69,
-FirePro 3D V5700[225],"August 8, 2008",TeraScale 1,RV730 XT,55,514,146,PCIe 2.0 x16,700,900,320(64×5):32:8:4,5.6,22.4,512,28.8,GDDR3,,448,-,10.1,3.3,1.0,,58,"UVD2, PowerPlay"
-"FirePro 3D V5800,[221][226]","April 26, 2010",TeraScale 2,Juniper XT GL (RV840),40,1040,166,PCIe 2.1 x16,,10002,800(160×5):40:16:10,11.2,28,1024,64,GDDR52,,1120,-,11.0,4.3,1.2,,74,"UVD2, PowerPlay, Eyefinity"
-FirePro 3D V7750[227],"March 27, 2009",TeraScale 1,RV730 XTX,55,514,146,PCIe 2.0 x16,800,900,320(64×5):32:8:4,6.4,25.6,,28.8,GDDR3,,512,-,10.1,3.3,1.0,,76,"UVD2, PowerPlay"
-"FirePro 3D V7800,[223][228]","April 26, 2010",TeraScale 2,Cypress Pro GL (RV870),40,2154,334,PCIe 2.1 x16,700,10002,1440(288×5):72:32:18,22.4,50.4,2048,128,GDDR52,256,2016,403.2,11.0,4.3,1.2,,138,"UVD2, PowerPlay, Eyefinity"
-FirePro 3D V8700[229],"September 11, 2008",TeraScale 1,RV770 XT,55,956,256,,750,8502,800(160×5):40:16:10,12,30,1024,108.8,,,1200,240,10.1,3.3,1.0,,151,"UVD2, PowerPlay"
-FirePro 3D V8750[230],"July 28, 2009",,,,,,,,9002,,,,2048,115.2,,,,240,,,,,154,
-FirePro 3D V8800[231],"April 7, 2010",TeraScale 2,Cypress XT GL (RV870),40,2154,334,,825,11502,1600(320×5):80:32:20,26.4,66,,147.2,,,2640,528,11.0,4.3,1.2,,208,"UVD2, PowerPlay, Eyefinity"
-FirePro 3D V9800[232],"September 9, 2010",,,,,,,850,,,27.2,68,4096,,,,2720,544,,,,,225,
-=======
-Model,Launch,Codename,Architecture,Fab (nm),Core Clock (MHz),,Config core[a],Fillrate,,Shared Memory,,,Processing power (GFLOPS),API compliance (version),,,TDP (W)[b],APU
-,,,,,Base,Turbo,,Texture (GT/s),Pixel (GP/s),Bus width (bit),Bus type,Bandwidth (GB/s),,Direct3D,OpenGL[c],OpenCL,,
-Radeon HD 7310[28],"June 6, 2012",Ontario,TeraScale 2,40,500,N/A,80:8:4,4.00,2.00,64,DDR3-1066,8.53,80,11.3 (11_0),4.5,1.2,18,E2-1200
-Radeon HD 7340[28],,,,,523,680,,5.44,2.72,,DDR3-1333,10.66,83.6–108.8,,,,,E2-1800
-Radeon HD 7480D,"June 1, 2012",Scrapper,TeraScale 3,32,723,N/A,128:8:4,11.6,2.9,128,DDR3-1600,25.6,185,,,,65,"A4-4000, A4-5300"
-Radeon HD 7540D,,,,,760,,192:12:4,Unknown,,,DDR3-1866,29.9,292,,,,,A6-5400K
-Radeon HD 7560D,,Devastator,,,,,256:16:4,,389,,,,65–100,,,,"A8-5500, A8-5600K",
-Radeon HD 7660D,,,,,760,800,384:24:8,16.2,2.7,,,,,,,,584–614,"A10-5700 (760 MHz), A10-5800K (800 MHz)"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
+,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
+Mobility Radeon X1300,"January 19, 2006",M52,RV515,90,PCIe x16,350,250,2:4:4:4,1.4,1.4,128 + shared,8,DDR DDR2,128,9.0c,2.0,
+Mobility Radeon X1350,"September 18, 2006",M62,,,,470,350,,1.88,1.88,,11.2,DDR2 GDDR3,,,,
+Mobility Radeon X1400,"January 19, 2006",M54,,,,445,250,,1.78,1.78,,8,DDR DDR2,,,,
+Mobility Radeon X1450,"September 18, 2006",M64,,,,550,450,,2.2,2.2,,14.4,DDR2 GDDR3,,,,
+Mobility Radeon X1600,"February 1, 2006",M56,RV530,,,425 450,375 470,5:12:4:4,1.7 1.8,1.7 1.8,256,12.0 15.04,DDR2 GDDR3,,,,
+Mobility Radeon X1700,,M66,RV535,,,475,400 550,,1.9,1.9,,11.2 17.6,,,,,strained silicon
+Mobility Radeon X1800,"March 1, 2006",M58,R520,,,450,500,8:12:12:12,5.4,5.4,,32,GDDR3,256,,,
+Mobility Radeon X1800 XT,,M58,,,,550,650,8:16:16:16,8.8,8.8,,41.6,,,,,
+Mobility Radeon X1900,"January 11, 2007",M59,RV570,80,,400,480,8:36:12:12,4.8,4.8,,30.72,,,,,PowerPlay 6.0

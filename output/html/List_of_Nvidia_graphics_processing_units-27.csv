@@ -1,36 +1,8 @@
-<<<<<<< HEAD
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power[199][200] (GFLOPS),,Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
-Quadro,NV10GL,220,AGP 4×,135,135,166,0:4:4:4,0.54,0.54,64,2.66,SDR,128,,,7,1.2,,
-Quadro DDR,,,,135,135,333,,,,,5.312,DDR,,,,,,,
-Quadro2 MXR,NV11GL,180,,200,175,183,0:2:4:2,0.4,0.4,,2.93,SDR,,,,,,,
-Quadro2 EX,,,,175,,166,,0.35,0.35,,2.7,,,,,,,,
-Quadro2 PRO,NV15GL,150,,250,250,400,0:4:8:4,1,2,,6.4,DDR,,,,,,,
-Quadro DCC,NV20GL,180,,200,200,460,1:4:8:4,.8,1.6,128,7.4,,,,8,1.4,,,
-Quadro4 380XGL,NV18GL,150,AGP 8×,275,275,513,0:2:4:2,.55,1.1,,8.2,,,,7,,,,
-Quadro4 500XGL,NV17GL,,AGP 4×,250,250,166,,.5,1,,2.7,SDR,,,,,,,
-Quadro4 550XGL,,,,270,270,400,,.59,1.08,64,6.4,DDR,,,,,,,
-Quadro4 580XGL,NV18GL,,AGP 8×,300,300,,,1.2,1.2,,,,,,,,,,
-Quadro4 700XGL,NV25,,AGP 4×,275,275,550,2:4:8:4,1.1,2.2,,8.8,,,,8,,,,
-Quadro4 750XGL,,,,,,,,,,128,,,,,,1.5,Stereo display,,
-Quadro4 900XGL,,,,300,300,650,,1.2,2.4,,10.4,,,,,1.4,,,
-Quadro4 980XGL,NV28GL,,AGP 8×,,,,,,,,,,,,,,,,
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,TBP (Watts),Features
-,,,,,,,,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,,
-=======
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
-GeForce 920M,"March 12, 2015",GK208,28,PCIe 3.0 ×16,384:32:8 (2 SMX),954,Unknown,1800,7.6,30.5,2,14.4,DDR3,64,12 (11_0),4.5,1.2,733,33,
-GeForce 930M,,GM108,,,384:24:8 (3 SMM),928,941,,7.4,22.3,,,,,,,,713,29[155],
-GeForce 940M,,,,,,1072,1176,2000,8.6,25.7,,16,,,,,,823,36[156],
-GeForce 940MX[157],"June 28, 2016",GM107,,,512:32:8 (4 SMM),795,861,5000,6.9,27.6,,40,GDDR5,,,,,882,23,
-GeForce GTX 950M,"March 12, 2015",,,,640:40:16 (5 SMM),914,Unknown,,14.6,36.6,"2, 4",80,,128,,,,1170,Unknown,Similar core config to GTX 750 Ti (GM107-400-A2)
-,,,,,,,,2000,,,,32,DDR3,,,,,,55[158],
-GeForce GTX 960M,,,,,,1097,1176,5000,17.5,43.8,,80,GDDR5,,,,,1403,65[159],
-GeForce GTX 965M[160],"January 5, 2015",GM204,,,1024:64:32 (8 SMM),944,Unknown,,30.2,60.4,,,,,12 (12_1),,,1933,60[161],Similar core config to GTX 960 (GM206-300)
-GeForce GTX 970M[162],"October 7, 2014",,,,1280:80:48 (10 SMM),,993,,44.4,73.9,"3, 6",120,,192,,,,2365,75,Similar core config to GTX 960 OEM (GM204)
-GeForce GTX 980M[163],,,,,1536:96:64 (12 SMM),1038,1127,,66.4,99.6,"4, 8",160,,256,,,,3189,100,Similar core config to GTX 970 (GM204-200) with one SMM disabled
-GeForce GTX 980[164],"September 22, 2015",,,,2048:128:64 (16 SMM),1064,Unknown,7010,68.1,136.2,8,224,,,,,,4358,"165, oc to 200",Similar to Desktop GTX 980
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),Supported API version,,TBP (Watts)
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,
+Quadro FX 370M,G98M,65,PCIe 1.0 ×16,550,1400,1200,8:4:4,2.2,2.2,256,9.6,GDDR3,64,33.6,10.0,3.3,20
+Quadro FX 570M,G84M,80,,475,950,1400,32:16:8,3.8,7.6,512,22.4,,128,91.2,,,45
+Quadro FX 770M,G96M,65,,500,1250,1600,,4,8,,25.6,,,119.0,,,35
+Quadro FX 1700M,,,,625,1550,,,5,10,,,,,148.8,,,50
+Quadro FX 2700M,G94M,,,530,1325,,48:24:16,8.48,12.72,,51.2,,256,190.8,,,65
+Quadro FX 3700M,G92M,,,,1375,,128:64:16,8.8,35.2,1024,,,,528,,,75

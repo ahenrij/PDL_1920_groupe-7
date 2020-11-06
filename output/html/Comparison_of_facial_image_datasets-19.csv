@@ -1,19 +1,6 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-NPS Chat Corpus,Posts from age-specific online chat rooms.,"Hand privacy masked, tagged for part of speech and dialogue-act.","~ 500,000",XML,"NLP, programming, linguistics",2007,[209],"Forsyth, E., Lin, J., & Martell, C."
-Twitter Triple Corpus,A-B-A triples extracted from Twitter.,,"4,232",Text,NLP,2016,[210],"Sordini, A. et al."
-UseNet Corpus,UseNet forum postings.,"Anonymized e-mails and URLs. Omitted documents with lengths <500 words or >500,000 words, or that were <90% English.",7 billion,Text,,2011,[211],"Shaoul, C., & Westbury C."
-NUS SMS Corpus,"SMS messages collected between two users, with timing analysis.",,"~ 10,000",XML,NLP,2011,[212],"KAN, M"
-Reddit All Comments Corpus,All Reddit comments (as of 2015).,,~ 1.7 billion,JSON,"NLP, research",2015,[213],Stuck_In_the_Matrix
-Ubuntu Dialogue Corpus,Dialogues extracted from Ubuntu chat stream on IRC.,,,CSV,Dialogue Systems Research,2015,[214],"Lowe, R. et al."
-=======
-Yacht Hydrodynamics Dataset,Yacht performance based on dimensions.,Six features are given for each yacht.,308,Text,Regression,2013,[322][323],R. Lopez
-Robot Execution Failures Dataset,5 data sets that center around robotic failure to execute common tasks.,Integer valued features such as torque and other sensor measurements.,463,Text,Classification,1999,[324],L. Seabra et al.
-Pittsburgh Bridges Dataset,Design description is given in terms of several properties of various bridges.,Various bridge features are given.,108,Text,Classification,1990,[325][326],Y. Reich et al.
-Automobile Dataset,"Data about automobiles, their insurance risk, and their normalized losses.",Car features extracted.,205,Text,Regression,1987,[327][328],J. Schimmer et al.
-Auto MPG Dataset,MPG data for cars.,Eight features of each car given.,398,Text,Regression,1993,[329],Carnegie Mellon University
-Energy Efficiency Dataset,Heating and cooling requirements given as a function of building parameters.,Building parameters given.,768,Text,"Classification, regression",2012,[330][331],A. Xifara et al.
-Airfoil Self-Noise Dataset,A series of aerodynamic and acoustic tests of two and three-dimensional airfoil blade sections.,"Data about frequency, angle of attack, etc., are given.",1503,Text,Regression,2014,[332],R. Lopez
-Challenger USA Space Shuttle O-Ring Dataset,Attempt to predict O-ring problems given past Challenger data.,"Several features of each flight, such as launch temperature, are given.",23,Text,Regression,1993,[333][334],D. Draper et al.
-Statlog (Shuttle) Dataset,NASA space shuttle datasets.,Nine features given.,"58,000",Text,Classification,2002,[335],NASA
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Enron Email Dataset,Emails from employees at Enron organized into folders.,"Attachments removed, invalid email addresses converted to user@enron.com or no_address@enron.com.","~ 500,000",Text,"Network analysis, sentiment analysis",2004 (2015),[184][185],"Klimt, B. and Y. Yang"
+Ling-Spam Dataset,Corpus containing both legitimate and spam emails.,Four version of the corpus involving whether or not a lemmatiser or stop-list was enabled.,"2,412 Ham 481 Spam",Text,Classification,2000,[186][187],"Androutsopoulos, J. et al."
+SMS Spam Collection Dataset,Collected SMS spam messages.,None.,"5,574",Text,Classification,2011,[188][189],T. Almeida et al.
+Twenty Newsgroups Dataset,Messages from 20 different newsgroups.,None.,"20,000",Text,Natural language processing,1999,[190],T. Mitchell et al.
+Spambase Dataset,Spam emails.,Many text features extracted.,"4,601",Text,"Spam detection, classification",1999,[191],M. Hopkins et al.

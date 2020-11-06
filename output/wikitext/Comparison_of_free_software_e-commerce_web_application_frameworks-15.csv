@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-|,Skrill,Stripe,PayPal Pro,PayPal Payflow Link,PayPal Payflow Pro,Sage Pay Form,Sage Pay Direct,USAePay,WorldPay,Offline processing,Offline methods
-| Apache OFBiz,,,,,,,,,,,
-| Batavi,,,,,,,,,,,
-| Bigcommerce,,,,,,,,,,,
-| Drupal Commerce,,,,,,,,,,,
-| KonaKart,,,,,,,,,,,
-| Magento,,,,,,,,3rd party,,,
-| nopCommerce,,,,,,,,3rd party,,,
-| osCommerce,,,,,,,,,,,
-| pimcore,,,,,,,,,,,
-| PrestaShop,,,,,,,,,,,
-| Shopify,,,,,,,,,,,
-| WooCommerce,,,,,,,,,,,
-| Zen Cart,,,,,add-on,,,,,add-on,
-!Skrill,Stripe,PayPal Pro,PayPal Payflow Link,PayPal Payflow Pro,Sage Pay Form,Sage Pay Direct,USAePay,WorldPay,Offline processing,Offline methods,
-=======
 |,Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified
 | Apache OFBiz,,,,
 | Batavi,,,,
@@ -32,4 +15,3 @@
 | WooCommerce,,add-on,,
 | Zen Cart,,add-on,,
 !Access control list,Form CAPTCHA,Staff action logging,PA/DSS certified,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

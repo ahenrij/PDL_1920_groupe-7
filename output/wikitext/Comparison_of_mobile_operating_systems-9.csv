@@ -1,22 +1,11 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-<<<<<<< HEAD
-"Cut, copy, and paste",,3+[94],,,
-Multi-Device clipboard,,10+[96],,,
-Undo,,3+[98],,,
-Custom home and lock screen wallpaper,,4+[60],,,
-Desktop sync,",,,?,
-Local full backup,","Yes, using external computer or iCloud[103]",,,
-Core data missing sync,"Bookmarks[105] (before 4), SMSs and Settings[106]",,?,?,?
-Notification center,,5+[107],2+[108],,
-Push notifications,,Yes (Apple Push Notification Service),2+[110],,
-Screenshot,"4+ also available on earlier versions with customized firmware, such as Cyanogen Mod and on older Samsung Galaxy smartphones[111]",,,2.0.2+[113],
-iCalendar import,",,?,1.1.6+[117],
-Text/document support (read only; creating using third party apps),"Microsoft Office, PDF, TXT/RTF","Microsoft Office,[118][119][120] iWork, PDF, Images, TXT/RTF, VCF","Read only: text files, PDF, HTML, Multiple office formats","Microsoft Office, OpenDocument, PDF, Text",
-Printer support,4.4+ using Google Cloud Print[121] but not over USB unless proprietary vendor solutions such as HP Print Service are used[122],Yes (AirPrint)[123],,"yes, cups package is available",
-Show remembered Wi-Fi connections,,"No, 3rd party software on jailbroken devices[124]",?,,
-=======
-System wide base text size,,,?,2.1.0+: Set text size[79],?
-Monaural output,,,,,
-Always visible scrollbar,,,,,
-Reduced Animations,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Non-English languages support,Partial[202],,Limited (Search is not diacritical mark-insensitive),,
+Underlining spell checker,2.3+[206][207],,,?,
+Built-in system-wide dictionary,Built into keyboard app. Available on every device.[209],5+[210],,,
+Autoexpanding text replacements,,5+[211],?,?,?
+Keyboard next word prediction,",8+[214],,,
+Keyboard cursor controller,Google Keyboard;[215][216],12+;[217] 9-11: Only on devices with 3D Touch;[218],,,
+Optical character recognition input method,,11+: Notes app;[220] 8+: Only for inputting credit card details[221],,,
+Third party input methods,,8+,?,?,?
+Gesture text input,4+[223],13+;[224] 8+: 3rd party software like SwiftKey,?,,
+Emoji support,4.4+[226],,?,2.2.0+[228] 3rd party software[229],

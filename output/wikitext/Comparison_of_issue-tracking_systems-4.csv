@@ -1,40 +1,3 @@
-<<<<<<< HEAD
-System,Git,Mercurial,Bazaar,Monotone,Darcs,CVS,Subversion,Perforce,AccuRev,ClearCase,Others
-Apache Bloodhound,,,,,,,,,,,
-Assembla Tickets,,,,,,,,,,,
-Axosoft,,,,,,,,,,,"
-Bugzilla,,,,,,,,,,,
-Debbugs,,,,,,,,,,,
-Faveo Helpdesk,,,,,,,,,,,
-FogBugz,,,,,,,,,,,2[77]
-Fossil,,,,,,,,,,,1[78]
-FusionForge,,,,,,,,,,,
-GNATS,,,,,,,,,,,
-HP Application Lifecycle Management,,,,,,,,,,,
-IBM Rational ClearQuest,,,,,,,,,,,
-Jira,,,,,,,,,,,
-MantisBT,,,,,,,,,,,
-Microsoft Dynamics CRM,,,,,,,,,,,
-org-mode,,,,,,,,,,,
-OTRS,,,,,,,,,,,
-Phabricator,,,,,,,,,,,
-Pivotal Tracker,,,,,,,,,,,
-Redmine,,,,,,,,,,,
-Request Tracker,,,,,,,,,,,
-Roundup,,,,,,,,,,,
-StarTeam,,,,,,,,,,,
-Supportworks,,,,,,,,,,,
-SysAid,,,,,,,,,,,
-Team Foundation Server,,,,,,,,,,,
-TestTrack,,,,,,,,,,,"
-Trac,,,,,,,,,,,
-TrackerSuite.Net,,,,,,,,,,,
-Tuleap,,,,,,,,,,,
-Twproject,,,,,,,,,,,
-Wrike,,,,,,,,,,,
-YouTrack,,,,,,,,,,,3[88][89]
-System,Git,Mercurial,Bazaar,Monotone,Darcs,CVS,Subversion,Perforce,AccuRev,ClearCase,Others
-=======
 System,Creator,License,Implementation language(s),Back end,Launch date,Refs
 Apache Bloodhound,Apache Software Foundation,Apache License,Python,"MySQL, PostgreSQL, SQLite",2012,[1]
 Assembla Tickets,Assembla,"Proprietary, hosted. Available for free for open source projects",Ruby,MySQL,2008,
@@ -48,8 +11,6 @@ FusionForge,Various (open source contributors),GPLv2,PHP,PostgreSQL,2009-02,
 GLPI,INDEPNET,GPLv2,PHP,MySQL,2003-11-17,
 GNATS,Free Software Foundation,GPL,"C, Web Front-end In Perl",Text files with custom daemon/search engine,1992,
 HP Quality Center,"Hewlett-Packard, formerly Mercury Interactive",Proprietary,".NET (client), Java (server)","Oracle, SQL Server",1995,
-IBM Rational ClearQuest,Rational Software,Proprietary,kernel: executables for several platforms; hooks: Perl and Visual Basic,"IBM DB2, Oracle, SQL Server, Access, Sybase ASA",1998,
-IBM Rational Team Concert,Rational Software,Proprietary,kernel: Java; API: Java,"IBM DB2, Oracle, SQL Server, Apache Derby",2008,
 Jira,Atlassian,Proprietary. Free community licenses for open source and academic projects,Java,"MySQL, PostgreSQL, Oracle, SQL Server",2002,
 Launchpad,Canonical Ltd.,AGPL,"JavaScript, Python",PostgreSQL,2004-01,
 MantisBT,Various (open source contributors),GPL,PHP,"ADOdb (MySQL, PostgreSQL, SQL Server, etc.)",2000,
@@ -75,4 +36,3 @@ Twproject,Open Lab,"Proprietary, some parts LGPL",Java,all relational (uses Hibe
 Wrike,"Wrike, Inc.","Proprietary, hosted",Java,PostgreSQL,2006,
 YouTrack,JetBrains s.r.o.,"Proprietary, stand-alone and hosted, free version, free for open source projects",Java,JavaScript and Kotlin,2009,
 System,Creator,License,Implementation language(s),Back end,Launch date,Refs
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

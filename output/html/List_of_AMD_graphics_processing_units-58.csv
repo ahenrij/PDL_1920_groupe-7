@@ -1,43 +1,16 @@
-<<<<<<< HEAD
-Model[144],Launch,Architecture Fab,Core,,Fillrate[a][b],,Processing power[c] (GFLOPS),Memory,,,,TDP (Watts),Bus interface
-,,,Config[d],Clock (MHz),Pixel (GP/s),Texture (GT/s),,Size (MiB),Bus type & width (bit),Clock (MHz),Bandwidth (GB/s),,
-Radeon HD 6330M (Robson LP)[145],November 2010,TeraScale 2 40 nm,80:8:4,500,2.0,4.0,80,1024,DDR3 64-bit,800,12.8,7,PCIe 2.1 x16
-Radeon HD 6350M (Robson Pro)[145],November 2010,,,500,2.0,4.0,80,1024,DDR3 64-bit,800 900,12.8 14.4,7,
-Radeon HD 6370M (Robson XT)[145],November 2010,,,750,3.0,6.0,120,1024,DDR3 64-bit,900,14.4,11,
-Radeon HD 6430M (Seymour LP)[146],January 2011,TeraScale 2 40 nm,160:8:4,480,1.92,3.84,153.6,1024,DDR3 64-bit,800,12.8,Unknown,PCIe 2.1 x16
-Radeon HD 6450M (Seymour Pro)[146],January 2011,,,600,2.4,4.8,192,1024,DDR3 64-bit,800,12.8,Unknown,
-Radeon HD 6470M (Seymour XT)[146],January 2011,,,700 750,2.8 3.0,5.6 6.0,224 240,1024,DDR3 64-bit,800 800,12.8,Unknown,
-Radeon HD 6490M (Seymour XT)[146],January 2011,,,800,3.2,6.4,256,512,GDDR5 64-bit,800,25.6,Unknown,
-Radeon HD 6530M (Capilano Pro)[147],November 2010,TeraScale 2 40 nm,400:20:8,500,4.0,10.0,400,1024,DDR3 128-bit,900,28.8,26,PCIe 2.1 x16
-Radeon HD 6550M (Capilano Pro)[147],November 2010,,,600,4.8,12.0,480,1024,DDR3 128-bit,900,28.8,26,
-Radeon HD 6570M (Capilano XT)[147],November 2010,,,650,5.2,13.0,520,1024,DDR3 64-bit GDDR5 128-bit,900,28.8 57.6,30,
-Radeon HD 6630M (Whistler LP)[148],January 2011,TeraScale 2 40 nm,480:24:8,485,3.88,11.64,465.6,256(mac) 1024,GDDR5 128-bit(mac) DDR3,800,51.2 (mac) 25.6,Unknown,PCIe 2.1 x16
-Radeon HD 6650M (Whistler Pro)[148],January 2011,,,600,4.8,14.4,576,1024,DDR3 128-bit,900,28.8,Unknown,
-Radeon HD 6730M (Whistler XT)[148],January 2011,,,725,5.8,17.4,696,1024,DDR3 128-bit,800,25.6,Unknown,
-Radeon HD 6750M (Whistler Pro)[148],January 2011,,,600,4.8,14.4,576,256 512 1024,GDDR5 128-bit,800 900,51.2 57.6,Unknown,
-Radeon HD 6770M (Whistler XT)[148],January 2011,,,725,5.8,17.4,696,1024,GDDR5 128-bit,900,57.6,Unknown,
-Radeon HD 6830M (Granville Pro)[149],January 2011,TeraScale 2 40 nm,800:40:16,575,9.2,23.0,920,2048,DDR3 128-bit,800,25.6,39,PCIe 2.1 x16
-Radeon HD 6850M (Granville XT)[149],January 2011,,,675,10.8,27.0,1080,2048,DDR3 128-bit,800,25.6,50,
-Radeon HD 6850M (Granville Pro)[149],January 2011,,,575,9.2,23.0,920,1024,GDDR5 128-bit,800,57.6,39,
-Radeon HD 6870M (Granville XT)[149],January 2011,,,675,10.8,27,1080,1024,GDDR5 128-bit,1000,64,50,
-Radeon HD 6950M (Blackcomb Pro)[150],January 2011,TeraScale 2 40 nm,960:48:32,580,18.56,27.84,1113.6,2048,GDDR5 256-bit,900,115.2,50,PCIe 2.1 x16
-Radeon HD 6970M (Blackcomb XT)[150],January 2011,,,680,21.76,32.64,1305.6,2048,GDDR5 256-bit,900,115.2,75,
-Radeon HD 6990M (Blackcomb XTX)[151],July 2011,TeraScale 2 40 nm,1120:56:32,715,22.88,40.04,1601.6,2048,GDDR5 256-bit,900,115.2,75,PCIe 2.1 x16
-=======
-Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
-,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MHz),Band- width (GB/s),
-Radeon R5 M420[158] (Jet Pro),15 May 2016,GCN 1st gen (28 nm),320:20:8,780 855,15.6 17.1,6.24 6.84,499 547,DDR3 64-bit,2,1000,16.0,~20 W
-Radeon R5 M430[159] (Exo Pro),15 May 2016,,320:20:8,1030 ?,20.6,8.2,659.2 659.2,DDR3 64-bit,2,1000,14.4,18 W
-Radeon R7 M435[160] (Jet Pro),15 May 2016,,320:20:8,780 855,15.6 17.1,6.24 6.84,499 547,GDDR5 64-bit,4,1000,32,~20 W
-Radeon R7 M440[161] (Meso Pro),15 May 2016,,320:20:8,1021 ?,20.4,8.17,653 653,DDR3 64-bit,4,1000,16,~20 W
-Radeon R7 M445[162] (Meso Pro),14 May 2016,,320:20:8,780 920,15.6 18.4,6.24 7.36,499 589,GDDR5 64-bit,4,1000,32,~20 W
-Radeon R7 M460[163][164] (Meso XT),April 2016,,384:24:8,1100 1125,26.4 27.0,8.8 9.00,844 864,DDR3 64-bit,2,900,14.4,Unknown
-Radeon RX 460[165] (Baffin),August 2016,GCN 4th gen (14 nm),896:56:16,Unknown,Unknown,Unknown,Unknown,GDDR5 128-bit,2,1750,112,35 W?
-Radeon R7 M465[166][167] (Litho XT),May 2016,GCN 1st gen (28 nm),384:24:8,825 960,19.8 23.0,6.6 7.68,634 737,GDDR5 128-bit,4,1150,32,Unknown
-Radeon R7 M465X[168] (Tropo XT),May 2016,,512:32:16,900 925,28.8 29.6,14.4 14.80,921 947,GDDR5 128-bit,4,1125,72,Unknown
-Radeon R9 M470[169] (Strato Pro),May 2016,GCN 2nd gen (28 nm),768:48:16,900 1000,43.2 48.0,14.4 16.00,1382 1536,GDDR5 128-bit,4,1500,96,~75 W
-Radeon R9 M470X[170] (Strato XT),May 2016,,896:56:16,1000 1100,56.0 61.6,16.00 17.60,1792 1971,GDDR5 128-bit,4,1500,96,~75 W
-Radeon RX 470[171] (Ellesmere Pro),August 2016,GCN 4th gen (14 nm),2048:128:32,Unknown,Unknown,Unknown,Unknown,GDDR5 256-bit,4,1650,211,85 W?
-Radeon RX 480M (Baffin),TBA,,1024:xx:xx,Unknown,Unknown,Unknown,Unknown,GDDR5 128-bit,Unknown,Unknown,Unknown,35 W
-Radeon R9 M485X[172] (Antigua XT),May 2016,GCN 3rd gen (28 nm),2048:128:32,723,92.5,23.14,2961,GDDR5 256-bit,8,1250,160,~100 W
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model (Codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TBP (W),Bus interface
+,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,
+Radeon 520[83],"April 18, 2017 OEM",GCN 1st gen 28 nm,Unknown,320:20:4 5 CU,1030,20.6,4.1,659,Unknown,GDDR5 64-bit,1 2,4500,48,Unknown,Unknown
+Radeon 530[84],"April 18, 2017 OEM",GCN 3rd gen 28 nm,? 125 mm2,320:20:8 384:24:8 6/5 CU,1024,24.6,8.2,655 786,Unknown,GDDR5 64-bit,1 2 4[85],,,Unknown,Unknown
+,,,,,,,,,,DDR3,,Unknown,Unknown,,
+Radeon RX 540 (Lexa)[86][87],"April 18, 2017 OEM",GCN 4th gen Samsung/GloFo 14LPP[88][f],2.2×109 101 mm2,512:32:16 8 CU,1219,39,19.5,1248,78,GDDR5 128-bit,2 4,6000,96,Unknown,PCIe 3.0 x8
+Radeon RX 550 (Lexa)[89][90],"April 20, 2017 $79 USD",,,640:40:16 10 CU,1100[91] 1183,35.2 37.9,17.6 18.9,1126 1211,70.4 75.7,,,7000,112,50,
+Radeon 550X (Lexa)[92],"April 11, 2018 OEM",,,640:40:16 10 CU,1287,51.48,20.6,1647,103,GDDR5 64-bit,,7000,56,50,
+Radeon RX 550X (Lexa)[93],"April 3, 2018 $79 USD",,,512:40:16 640:40:16 8/10 CU,1287,51.48,20.6,1318 1647,82.4 103,GDDR5 128-bit,,7000,112,50,
+Radeon RX 560D[94][95][96],July 2017 Only available in China and through OEMs,,3.0×109 123 mm2,896:56:16 14 CU,1090 1175,61.0 65.8,"17,4 18.8",1953 2106,"122,0 131.6",,,6000,96,65,
+Radeon RX 560[g] (Baffin)[94],October 2017 $99 USD,,,896:56:16 14 CU,1090 1175,61.0 65.8,17.4 18.8,1953 2106,122.0 131.6,,,7000,112,60-80,
+Radeon RX 560[g] (Baffin)[97][90],May 2017 $99 USD,,,1024:64:16 16 CU,1175 1275,75.2 81.6,18.8 20.4,2406 2611,150.4 163.2,,,7000,112,60–80,
+Radeon RX 570 (Polaris20 XL)[98][90],"April 18, 2017 $169 USD",,5.7×109 232 mm2,2048:128:32 32 CU,1168 1244,149.5 159.2,37.4 39.8,4784 5095,299.0 318.4,GDDR5 256-bit,4 8,7000,224,150,PCIe 3.0 x16
+Radeon RX 580 (Polaris20 XT)[99][90],"April 18, 2017 $199 USD (4 GB) $229 USD (8 GB)",,,2304:144:32 36 CU,1257 1340,181.0 193.0,40.2 42.9,5792 6175,362.0 385.9,,,8000,256,185,
+Radeon RX 590 GME[100][101],"March 9, 2020 Only available in China",Unknown,,2304:144:32 36 CU,1257 1380,181.0 198.7,40.2 44.2,5792 6359,362.0 397.4,,8,8000,256,Unknown,
+Radeon RX 590 (Polaris30 XT)[102],"November 15, 2018 $279 USD",GCN 4th gen Samsung/GloFo 12LP (14LP+)[h],,2304:144:32 36 CU,1469 1545,211.5 222.5,47.0 49.4,6769 7120,423.0 444.9,,,8000,256,225,

@@ -1,44 +1,61 @@
-<<<<<<< HEAD
-,Trident,Gecko,WebKit,Presto[p 32]
-Error state,,,,
-MediaError,5.0 [t 43],1.9.1,?,2.5
-Network state,,,,
-src,5.0[t 1],1.9.1,?,2.5
-currentSrc,,,,
-networkState,,,,
-preload,,2.0[note 11][g 90],,No
-buffered,,2.0[g 95],,
-load(),,1.9.1,,2.5
-canPlayType(),,,533[w 72],
-Ready state,,,,
-readyState,5.0[t 1],1.9.1,?,2.5
-seeking,,,,
-Playback state,,,,
-currentTime,5.0[t 1],1.9.1,?,2.5
-startTime,,No,,
-duration,,1.9.1,,
-paused,,,,
-defaultPlaybackRate,,20.0[g 96],,No
-playbackRate,,,,
-played,,15.0[g 97],,
-seekable,,8.0[g 98],,
-ended,,1.9.1,,2.5
-autoplay,,,,
-loop,,11.0[g 91],,
-play(),,1.9.1,,
-pause(),,,,
-Controls,,,,
-controls,5.0[t 1],1.9.1,?,2.5
-volume,,,,
-muted,,,,
-=======
-,Trident,Gecko,WebKit,KHTML,Presto
-Unordered and ordered lists,,,,,
-ul,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-ol,,,,,
-li,,,,,
-Definition lists,,,,,
-dl,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-dt,,,,,
-dd,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Trident[t 49],Gecko[g 110],WebKit[w 82],Presto[p 38][p 39]
+The canvas state,,,,
+save,5.0,1.8,Yes,2.0
+restore,,,,
+Transformations,,,,
+scale,5.0,1.8,Yes,2.0
+rotate,,,,
+translate,,,,
+transform,,,,2.6[note 16][p 40][p 41][p 42]
+setTransform,,,,2.6[note 16]
+Compositing,,,,
+globalAlpha,5.0,1.8,Yes,2.0
+globalCompositeOperation,,,,
+Colors and styles,,,,
+strokeStyle,5.0,1.8,Yes,2.0
+fillStyle,,,,
+createLinearGradient,,,,
+createRadialGradient,,,,
+createPattern,,,,
+Line styles,,,,
+lineWidth,5.0,1.8,Yes,2.0
+lineCap,,,,
+lineJoin,,,,
+miterLimit,,,,
+Shadows,,,,
+shadowOffsetX,5.0,1.9.1[g 111],Yes,2.4[note 17]
+shadowOffsetY,,,,
+shadowBlur,,,,
+shadowColor,,,,
+Simple shapes,,,,
+clearRect,5.0,1.8,Yes,2.0
+fillRect,,,,
+strokeRect,,,,
+Complex shapes,,,,
+beginPath,5.0,1.8,Yes,2.0
+closePath,,,,
+moveTo,,,,
+lineTo,,,,
+quadraticCurveTo,,1.8.1[note 18],,
+bezierCurveTo,,1.8,,
+arcTo,,1.8.1[g 112],,
+rect,,1.8,,
+arc,,,,
+fill,,,,
+stroke,,,,
+clip,,,,
+isPointInPath,,,,
+Focus management,,,,
+drawFocusRing,No,28.0[g 113],No,No
+Text,,,,
+font,5.0,1.9.1[note 19],Yes,No
+textAlign,,,,2.6
+textBaseline,,,,
+fillText,,,,
+strokeText,,,,
+measureText,,,,
+Images,,,,
+drawImage,5.0,1.8,Yes,2.0
+createImageData,,1.9.1[g 115][g 116],,2.7[p 43]
+getImageData,,1.9[g 116],,2.6[note 16]
+putImageData,,2.0[g 117][g 116],,

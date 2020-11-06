@@ -1,27 +1,14 @@
 ,Trident,Gecko,WebKit,KHTML,Presto
-<<<<<<< HEAD
-Frame layout,,,,,
-frameset,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-frame,,,,,
-noframes,,,,,
-Inline frames,,,,,
-iframe,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-=======
 Basic structure,,,,,
-html,<3.1[IE 5.0],Yes,Yes,Yes,1.0
-head,<3.1[IE 4.0],,,,
-body,,,,,
-Metadata,,,,,
-title,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-meta,,,,,
-Headings,,,,,
-h1,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-h2,,,,,
-h3,,,,,
-h4,,,,,
-h5,,,,,
-h6,,,,,
-Grouping elements,,,,,
-div,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-span,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+form,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+fieldset,,,,,
+legend,,,,,
+Form controls and labels,,,,,
+button,<3.1[IE 4.0] [note 3],1.0,Yes,Yes,1.0
+textarea,<3.1[IE 4.0],,,,
+input,,,,,
+label,,,,3.4.2[note 4],
+List boxes (combo boxes),,,,,
+select,<3.1[IE 4.0],1.0,Yes,Yes,1.0
+optgroup,,,,,
+option,,,,,

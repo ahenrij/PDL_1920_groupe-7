@@ -1,17 +1,17 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Webpages from Common Crawl 2012,Large collection of webpages and how they are connected via hyperlinks,None.,3.5B,Text,"clustering, classification",2013,[448],V. Granville
-Internet Advertisements Dataset,Dataset for predicting if a given image is an advertisement or not.,Features encode geometry of ads and phrases occurring in the URL.,3279,Text,Classification,1998,[449][450],N. Kushmerick
-Internet Usage Dataset,General demographics of internet users.,None.,"10,104",Text,"Classification, clustering",1999,[451],D. Cook
-URL Dataset,120 days of URL data from a large conference.,Many features of each URL are given.,"2,396,130",Text,Classification,2009,[452][453],J. Ma
-Phishing Websites Dataset,Dataset of phishing websites.,Many features of each site are given.,2456,Text,Classification,2015,[454],R. Mustafa et al.
-Online Retail Dataset,Online transactions for a UK online retailer.,Details of each transaction given.,"541,909",Text,"Classification, clustering",2015,[455],D. Chen
-Freebase Simple Topic Dump,Freebase is an online effort to structure all human knowledge.,Topics from Freebase have been extracted.,large,Text,"Classification, clustering",2011,[456][457],Freebase
-Farm Ads Dataset,The text of farm ads from websites. Binary approval or disapproval by content owners is given.,SVMlight sparse vectors of text words in ads calculated.,4143,Text,Classification,2011,[458][459],C. Masterharm et al.
-=======
-Geographical Original of Music Data Set,Audio features of music samples from different locations.,Audio features extracted using MARSYAS software.,"1,059",Text,"Geographical classification, clustering",2014,[256][257],F. Zhou et al.
-Million Song Dataset,Audio features from one million different songs.,Audio features extracted.,1M,Text,"Classification, clustering",2011,[258][259],T. Bertin-Mahieux et al.
-MUSDB18,Multi-track popular music recordings,Raw audio,150,"MP4, WAV",Source Separation,2017,[260],Z. Rafii et. al.
-Free Music Archive,"Audio under Creative Commons from 100k songs (343 days, 1TiB) with a hierarchy of 161 genres, metadata, user data, free-form text.",Raw audio and audio features.,"106,574","Text, MP3","Classification, recommendation",2017,[261],M. Defferrard et al.
-Bach Choral Harmony Dataset,Bach chorale chords.,Audio features extracted.,5665,Text,Classification,2014,[262][263],D. Radicioni et al.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Wearable Computing: Classification of Body Postures and Movements (PUC-Rio),People performing five standard actions while wearing motion trackers.,None.,"165,632",Text,Classification,2013,[288][289],Pontifical Catholic University of Rio de Janeiro
+Gesture Phase Segmentation Dataset,Features extracted from video of people doing various gestures.,Features extracted aim at studying gesture phase segmentation.,9900,Text,"Classification, clustering",2014,[290][291],R. Madeo et a
+Vicon Physical Action Data Set Dataset,10 normal and 10 aggressive physical actions that measure the human activity tracked by a 3D tracker.,Many parameters recorded by 3D tracker.,3000,Text,Classification,2011,[292][293],T. Theodoridis
+Daily and Sports Activities Dataset,Motor sensor data for 19 daily and sports activities.,"Many sensors given, no preprocessing done on signals.",9120,Text,Classification,2013,[294][295],B. Barshan et al.
+Human Activity Recognition Using Smartphones Dataset,Gyroscope and accelerometer data from people wearing smartphones and performing normal actions.,"Actions performed are labeled, all signals preprocessed for noise.","10,299",Text,Classification,2012,[296][297],J. Reyes-Ortiz et al.
+Australian Sign Language Signs,Australian sign language signs captured by motion-tracking gloves.,None.,2565,Text,Classification,2002,[298][299],M. Kadous
+Weight Lifting Exercises monitored with Inertial Measurement Units,Five variations of the biceps curl exercise monitored with IMUs.,Some statistics calculated from raw data.,"39,242",Text,Classification,2013,[300][301],W. Ugulino et al.
+sEMG for Basic Hand movements Dataset,Two databases of surface electromyographic signals of 6 hand movements.,None.,3000,Text,Classification,2014,[302][303],C. Sapsanis et al.
+REALDISP Activity Recognition Dataset,Evaluate techniques dealing with the effects of sensor displacement in wearable activity recognition.,None.,1419,Text,Classification,2014,[303][304],O. Banos et al.
+Heterogeneity Activity Recognition Dataset,Data from multiple different smart devices for humans performing various activities.,None.,"43,930,257",Text,"Classification, clustering",2015,[305][306],A. Stisen et al.
+Indoor User Movement Prediction from RSS Data,Temporal wireless network data that can be used to track the movement of people in an office.,None.,"13,197",Text,Classification,2016,[307][308],D. Bacciu
+PAMAP2 Physical Activity Monitoring Dataset,18 different types of physical activities performed by 9 subjects wearing 3 IMUs.,None.,"3,850,505",Text,Classification,2012,[309],A. Reiss
+OPPORTUNITY Activity Recognition Dataset,"Human Activity Recognition from wearable, object, and ambient sensors is a dataset devised to benchmark human activity recognition algorithms.",None.,2551,Text,Classification,2012,[310][311],D. Roggen et al.
+Real World Activity Recognition Dataset,Human Activity Recognition from wearable devices. Distinguishes between seven on-body device positions and comprises six different kinds of sensors.,None.,"3,150,000 (per sensor)",Text,Classification,2016,[312],T. Sztyler et al.
+Toronto Rehab Stroke Pose Dataset,3D human pose estimates (Kinect) of stroke patients and healthy participants performing a set of tasks using a stroke rehabilitation robot.,None.,10 healthy person and 9 stroke survivors (3500-6000 frames per person),CSV,Classification,2017,[313][314][315],E. Dolatabadi et al.
+Corpus of Social Touch (CoST),"7805 gesture captures of 14 different social touch gestures performed by 31 subjects. The gestures were performed in three variations: gentle, normal and rough, on a pressure sensor grid wrapped around a mannequin arm.",Touch gestures performed are segmented and labeled.,7805 gesture captures,CSV,Classification,2016,[316][317],M. Jung et al.

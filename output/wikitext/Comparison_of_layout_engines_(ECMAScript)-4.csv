@@ -1,41 +1,18 @@
-<<<<<<< HEAD
-NativeError object,Trident,Gecko,WebKit,Presto
+RegExp object,Trident,Gecko,WebKit,Presto
 Called as function,,,,
-EvalError (message),?,1.0,,?
-RangeError (message),?,1.0,,?
-ReferenceError (message),?,1.0,,?
-SyntaxError (message),?,1.0,,?
-TypeError (message),?,1.0,,?
-URIError (message),?,1.0,,?
+"RegExp (pattern, flags)",?,?,?,?
 Called as constructor,,,,
-new EvalError (message),?,1.0,,?
-new RangeError (message),?,1.0,,?
-new ReferenceError (message),?,1.0,,?
-new SyntaxError (message),?,1.0,,?
-new TypeError (message),?,1.0,,?
-new URIError (message),?,1.0,,?
+"new RegExp (pattern, flags)",4.0,1.0,,1.0
 Properties,,,,
-prototype,?,1.0,?,?
+prototype,4.0,1.0,,1.0
 Properties of prototype,,,,
-constructor,?,1.0,?,?
-name,?,1.0,,?
-message,?,1.0,,?
-=======
-Function object,Trident,Gecko,WebKit,Presto,Blink
-Called as function,,,,,
-"Function(p1 [, p2 [, ...,] body])",?,,,?,
-Called as constructor,,,,,
-"new Function(p1 [, p2 [, ...,] body])",4.0,1.0,,1.0,
-Properties,,,,,
-length,?,1.0,,,
-prototype,4.0,1.0,,1.0,
-Properties of prototype,,,,,
-length,?,1.0,,?,
-constructor,4.0,1.0,,1.0,
-toString(),4.0,1.0,,1.0,
-"apply(thisArg, argArray)",4.0,1.0,,1.0,
-"call(thisArg [, arg1 [, arg2 [, ...]]])",4.0,1.0,,1.0,
-Properties of instances,,,,,
-length,4.0,1.0,,1.0,
-prototype,4.0,1.0,,1.0,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+constructor,4.0,1.0,,1.0
+exec(string),4.0,1.0,,1.0
+test(string),4.0,1.0,,1.0
+toString(),4.0,1.0,,1.0
+Properties of instances,,,,
+source,4.0,1.0,,1.0
+global,4.0,1.0,,1.0
+ignoreCase,5.5,1.0,,1.0
+multiline,5.5,1.0,,1.0
+lastIndex,4.0,1.0,,1.0

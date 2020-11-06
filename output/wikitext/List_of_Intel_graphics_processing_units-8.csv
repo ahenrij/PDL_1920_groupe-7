@@ -1,19 +1,43 @@
-<<<<<<< HEAD
-Graphics,Launch,Market,Chipset,Code name,Device id.[3],Core render clock (MHz),Pixel pipelines,Shader model (vertex/pixel),API support[4],,,Memory bandwidth (GB/s),DVMT (MiB),Hardware acceleration,,
-,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2,VC-1,AVC
-Extreme Graphics,2002,Desktop,845G 845GL 845GV,Brookdale,2562,200,2,3.0 (SW) / No,"6.0 (full) 9.0 (some features, no hardware shaders)",1.3 ES 1.1Linux,rowspan=6 ,2.1,64,MC,rowspan=6 ,rowspan=6 
-,2001,Mobile,830M 830MG,Almador,3577,166[5],,,,,1,,,,,
-Extreme Graphics 2,2003,Desktop,865G 865GV,Springdale,2572,266,,,,,6.4,,,,,
-,,Mobile,852GM 852GME 852GMV,Montara,3582,133–266,,,,,2.1–2.7,,,,,
-,,,854,,358E,,,,,,,,,,,
-,,,855GM 855GME,,3582,,,,,,,,,,,
-=======
-Graphics,Launch,Market,Chipset,Code name,Device id.[3],RAMDAC clock (MHz),Pixel pipelines,Shader model (vertex/pixel),API support,,,Memory bandwidth (GB/s),DVMT (MB),Hardware acceleration,,
-,,,,,,,,,Direct3D,OpenGL,OpenCL,,,MPEG-2,VC-1,AVC
-i740,1998,Desktop,stand-alone,Auburn,7800,220,1,3.0 (SW) / No,5.0,1.1,rowspan=6 ,0.8,2–8,Optional external MPEG-2 decoder via Video Module Interface,rowspan=6 ,rowspan=6 
-752,1999,,,Portola,1240,250,,,"6.0 (full) 8.0 (some features, no hardware shaders)",,0.8(PC100)–1.067(PC133) 1.067(AGP 4× for AIMM),8–16,MC,,,
-3D graphics with Direct AGP,,,810,Whitney,7121,230,,,,,,32,,,,
-,,,810-DC100,,7123,,,,,,,,,,,
-,,,810E 810E2,,7125,,,,,,,,,,,
-,2000,,815 815E 815G 815EG,Solano,1132,,,,"6.0 (full) 9.0 (some features, no hardware shaders)",,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Graphics,Launch,Market,Processor,Code name,Device ID[3],Clock rate (MHz),Core config1,API support[13][32][48][49][50],,,,eDRAM (MiB),Memory bandwidth (GB/s)
+,,,,,,,,Direct3D,OpenGL,OpenCL,Vulkan,,
+HD Graphics,2015,Ultramobile,Atom x5-Z8300,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,200-500,96:12:2,11.2,4.3Windows 4.6Linux ES 3.2Linux,2.0Windows 1.2Linux,1.1Linux,-,12.8
+,,,Atom x5-Z8500,,,200-600,,,,,,,25.6
+,,,Atom x5-E8000 Celeron N3000 Celeron N3050,,,320-600,,,,,,,
+,,,Celeron N3150,,,320-640,,,,,,,
+,,,Atom x7-Z8700,,,200-600,128:16:2,,,,,,
+,,,Pentium N3700,,,400-700,,,,,,,
+HD Graphics 400,2016,,Atom x5-Z8350[51],,,200-500,96:12:2,,,,,,
+,,,Celeron N3010 Celeron N3060,,,320-600,,,,,,,
+,,,Celeron N3160,,,320-640,,,,,,,
+,,,Celeron J3060 Celeron J3160,,,320-700,,,,,,,
+HD Graphics 405,,,Pentium N3710,,,400-700,128:16:2,,,,,,
+,,,Pentium J3710,,,400-740,144:18:2,,,,,,
+HD Graphics,2015,Mobile,Celeron 3205U Celeron 3755U Pentium 3805U,Broadwell (Gen8),1606,100–800,96:12:2 (GT1),12 FL11_1,4.4Windows 4.1macOS 4.6Linux ES 3.2Linux,2.0Windows 1.2macOS 2.1Linux,1.1Linux,-,25.6
+,,,Celeron 3215U Celeron 3765U Pentium 3825U,,,300–850,,,,,,,
+HD Graphics 5300,2014,Ultramobile,Core M-5Y10 Core M-5Y10a,,161E,100–800,192:24:3 (GT2),,,,,,
+,,,Core M-5Y10c,,,300–800,,,,,,,
+,,,Core M-5Y70,,,100–850,,,,,,,
+,,,Core M-5Y31,,,300–850,,,,,,,
+,,,Core M-5Y51 Core M-5Y71,,,300–900,,,,,,,
+HD Graphics 5500,2015,Mobile,Core i3-5005U Core i3-5015U,,1616,300–850,184:23:3 (GT2),,,,,,
+,,,Core i3-5010U Core i3-5020U,,,300–900,,,,,,,
+,,,Core i5-5200U Core i5-5300U,,,,192:24:3 (GT2),,,,,,
+,,,Core i7-5500U Core i7-5600U,,,300–950,,,,,,,
+HD Graphics 5600,,Mobile,Core i7-5700EQ,,1612,300–1000,,,,,,,
+,,,Core i7-5700HQ,,,300–1050,,,,,,,
+HD Graphics P5700,,Mobile,Xeon E3-1258L v4,,?,700-1000,,,,,,,
+HD Graphics 6000,,Mobile,Core i5-5250U,,1626,300–950,384:48:6 (GT3),,,,,,
+,,,Core i5-5350U Core i7-5550U Core i7-5650U,,,300–1000,,,,,,,
+Iris Graphics 6100,,Mobile,Core i3-5157U,,162B,300–1000,,,,,,,
+,,,Core i5-5257U,,,300–1050,,,,,,,
+,,,Core i5-5287U Core i7-5557U,,,300–1100,,,,,,,
+Iris Pro Graphics 6200,,Desktop,Core i5-5575R,,1622,300–1050,,,,,,128,
+,,,Core i5-5675C Core i5-5675R,,,300–1100,,,,,,,
+,,,Core i7-5775C Core i7-5775R,,,300–1150,,,,,,,
+,,Mobile,Core i7-5850EQ,,,300–1000,,,,,,,
+,,,Core i5-5350H,,,300–1050,,,,,,,
+,,,Core i7-5750HQ Core i7-5850HQ,,,300–1100,,,,,,,
+,,,Core i7-5950HQ,,,300–1150,,,,,,,
+Iris Pro Graphics P6300,,Workstation,Xeon E3-1278L v4,,162A,800–1000,,,,,,,
+,,,Xeon E3-1265L v4,,,300–1050,,,,,,,
+,,,Xeon E3-1285 v4 Xeon E3-1285L v4,,,300–1150,,,,,,,

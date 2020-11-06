@@ -1,26 +1,5 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Forest Fires Dataset,Forest fires and their properties.,13 features of each fire are extracted.,517,Text,Regression,2008,[388][389],P. Cortez et al.
-Iris Dataset,Three types of iris plants are described by 4 different attributes.,None.,150,Text,Classification,1936,[390][391],R. Fisher
-Plant Species Leaves Dataset,Sixteen samples of leaf each of one-hundred plant species.,"Shape descriptor, fine-scale margin, and texture histograms are given.",1600,Text,Classification,2012,[392][393],J. Cope et al.
-Mushroom Dataset,Mushroom attributes and classification.,Many properties of each mushroom are given.,8124,Text,Classification,1987,[394],J. Schlimmer
-Soybean Dataset,Database of diseased soybean plants.,35 features for each plant are given. Plants are classified into 19 categories.,307,Text,Classification,1988,[395],R. Michalski et al.
-Seeds Dataset,Measurements of geometrical properties of kernels belonging to three different varieties of wheat.,None.,210,Text,"Classification, clustering",2012,[396][397],Charytanowicz et al.
-Covertype Dataset,Data for predicting forest cover type strictly from cartographic variables.,Many geographical features given.,"581,012",Text,Classification,1998,[398][399],J. Blackard et al.
-Abscisic Acid Signaling Network Dataset,Data for a plant signaling network. Goal is to determine set of rules that governs the network.,None.,300,Text,Causal-discovery,2008,[400],J. Jenkens et al.
-Folio Dataset,20 photos of leaves for each of 32 species.,None.,637,"Images, text","Classification, clustering",2015,[401][402],T. Munisami et al.
-Oxford Flower Dataset,17 category dataset of flowers.,"Train/test splits, labeled images,",1360,"Images, text",Classification,2006,[138][403],M-E Nilsback et al.
-Plant Seedlings Dataset,12 category dataset of plant seedlings.,"Labelled images, segmented images,",5544,Images,"Classification, detection",2017,[404],Giselsson et al.
-Fruits 360 dataset,Database with images of 120 fruits and vegetables.,"100x100 pixels, White background.",82213,Images (jpg),Classification,2017-2019,[405][406],"Mihai Oltean, Horea Muresan"
-=======
-Aerial Image Segmentation Dataset,80 high-resolution aerial images with spatial resolution ranging from 0.3 to 1.0.,Images manually segmented.,80,Images,"Aerial Classification, object detection",2013,[107][108],J. Yuan et al.
-KIT AIS Data Set,Multiple labeled training and evaluation datasets of aerial images of crowds.,Images manually labeled to show paths of individuals through crowds.,~ 150,Images with paths,"People tracking, aerial tracking",2012,[109][110],M. Butenuth et al.
-Wilt Dataset,Remote sensing data of diseased trees and other land cover.,Various features extracted.,4899,Images,"Classification, aerial object detection",2014,[111][112],B. Johnson
-MASATI dataset,"Maritime scenes of optical aerial images from the visible spectrum. It contains color images in dynamic marine environments, each image may contain one or multiple targets in different weather and illumination conditions.",Object bounding boxes and labeling.,7389,Images,"Classification, aerial object detection",2018,[113][114],A.-J. Gallego et al.
-Forest Type Mapping Dataset,Satellite imagery of forests in Japan.,Image wavelength bands extracted.,326,Text,Classification,2015,[115][116],B. Johnson
-Overhead Imagery Research Data Set,Annotated overhead imagery. Images with multiple objects.,Over 30 annotations and over 60 statistics that describe the target within the context of the image.,1000,"Images, text",Classification,2009,[117][118],F. Tanner et al.
-SpaceNet,SpaceNet is a corpus of commercial satellite imagery and labeled training data.,GeoTiff and GeoJSON files containing building footprints.,>17533,Images,"Classification, Object Identification",2017,[119][120][121],"DigitalGlobe, Inc."
-UC Merced Land Use Dataset,These images were manually extracted from large images from the USGS National Map Urban Area Imagery collection for various urban areas around the US.,This is a 21 class land use image dataset meant for research purposes. There are 100 images for each class.,"2,100","Image chips of 256x256, 30 cm (1 foot) GSD",Land cover classification,2010,[122],Yi Yang and Shawn Newsam
-SAT-4 Airborne Dataset,Images were extracted from the National Agriculture Imagery Program (NAIP) dataset.,"SAT-4 has four broad land cover classes, includes barren land, trees, grassland and a class that consists of all land cover classes other than the above three.","500,000",Images,Classification,2015,[123][124],S. Basu et al.
-SAT-6 Airborne Dataset,Images were extracted from the National Agriculture Imagery Program (NAIP) dataset.,"SAT-6 has six broad land cover classes, includes barren land, trees, grassland, roads, buildings and water bodies.","405,000",Images,Classification,2015,[123][124],S. Basu et al.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+TV Human Interaction Dataset,"Videos from 20 different TV shows for prediction social actions: handshake, high five, hug, kiss and none.",None.,"6,766 video clips",video clips,Action prediction,2013,[45],"Patron-Perez, A. et al."
+Berkeley Multimodal Human Action Database (MHAD),Recordings of a single person performing 12 actions,MoCap pre-processing,660 action samples,"8 PhaseSpace Motion Capture, 2 Stereo Cameras, 4 Quad Cameras, 6 accelerometers, 4 microphones",Action classification,2013,[46],"Ofli, F. et al."
+THUMOS Dataset,Large video dataset for action classification.,Actions classified and labeled.,45M frames of video,"Video, images, text","Classification, action detection",2013,[47][48],Y. Jiang et al.
+MEXAction2,Video dataset for action localization and spotting,Actions classified and labeled.,1000,Video,Action detection,2014,[49],Stoian et al.

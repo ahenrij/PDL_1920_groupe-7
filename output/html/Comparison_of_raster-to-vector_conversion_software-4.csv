@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ,Scanner support,Freehand sketch,Raster filters,Change color depth,Image resize,Rotate,Crop,Raster shapes
 Easy Trace,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 Graphic Tracer Professional,Yes,Yes,N/A,N/A,Yes,Yes,No,N/A
@@ -9,14 +8,3 @@ Scan2CAD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
 WinTopo Pro,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
 AutoTrace,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
 ,Scanner Support,Freehand sketch,Raster Filters,Change color depth,Image resize,Rotate,Crop,Raster Shapes
-=======
-NAME,Export universal DXF,inside AutoCAD application available,Curve recognition,Circle recognition,Arc recognition,Orthogonal line detection,Corner detection,Line connection
-Easy Trace,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
-Graphic Tracer Professional,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
-Illustrator,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
-Potrace,Yes,No,No,?,?,?,Yes,?
-ImageTracer,No,No,Yes,No,Yes,Yes,Yes,Yes
-Scan2CAD,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-WinTopo Pro,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
-,Export universal DXF,inside AutoCAD application available,Curve recognition,Circle recognition,Arc recognition,Orthogonal line detection,Corner detection,Line connection
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

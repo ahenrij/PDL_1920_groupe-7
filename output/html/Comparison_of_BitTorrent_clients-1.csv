@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-BitTorrent library,Linux/Unix,Windows,OS X,API,Programming language
-libtorrent (Rasterbar),Yes,Yes,Yes,Yes,C++
-MonoTorrent,Yes,Yes,Yes,Yes,C#
-rTorrent (libTorrent Rakshasa),Yes,No,Yes,Yes,C++
-BitTorrent library,Linux/Unix,Windows,OS X,API,Programming language
-=======
 BitTorrent client,Cache [Note 16],Hash Web seeding,HTTP Web seeding,Broad-catching (RSS),Prioritization,Selective downloads,Sequential downloading,SOCKS,Tracker exchange [67],Remote control via web,Search engine,Auto updates,Reviews and Comments,Notes
 BitComet,Yes,No,Yes[68],Beta,Yes,Yes,Yes[Note 17],Yes,No,Yes,Built-in Web browser,Yes,No,Portable version available
 BitLord,Yes,No,Partial [Note 18][Note 19],Yes,Yes,Yes,No,Yes,No,No,Built-in Web browser,Yes,No,
@@ -28,4 +21,3 @@ Tribler,Yes,No,No,Yes,Yes,Yes,No,No,No,Partial,Yes (DHT)[75],Yes,No,Fully distri
 Vuze (formerly Azureus),Yes,,Yes[77],Yes,Yes,Yes,in paid version [78],Yes,No,Plugin[Note 29],Yes,Yes,Yes[79],The only client to bridge between i2p and the clearnet.
 Xunlei,Yes,No,,Yes,Yes,Yes,Yes,,,Yes,No,Yes,No,
 BitTorrent client,Cache,Hash Web seeding,HTTP Web seeding,Broad-catching (RSS),Prioritization,Selective downloads,Sequential downloading,SOCKS,Tracker exchange,Remote control via web,Search engine,Auto updates,Reviews and Comments,Notes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

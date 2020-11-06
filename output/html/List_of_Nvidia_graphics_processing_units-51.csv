@@ -1,74 +1,19 @@
-<<<<<<< HEAD
-Model,Micro- architecture,Launch,Chips,Core clock (MHz),Shaders,,,Memory,,,,,Processing power (GFLOPS)[e],,,CUDA compute ability[f],TDP (watts),"Notes, form_factor"
-,,,,,Cuda cores (total),Base clock (MHz),Max boost clock (MHz)[g],Bus type,Bus width (bit),Size (GB),Clock (MT/s),Bandwidth (GB/s),Single precision (MAD+MUL),Single precision (MAD or FMA),Double precision (FMA),,,
-Units,,,,,,MHz,MHz,,,,,,,,,,W,
-C870 GPU Computing Module[h],Tesla,"May 2, 2007",1× G80,600,128,1350,N/A,GDDR3,384,1.5,1600,76.8,518.4,345.6,No,1.0,170.9,"Internal PCIe GPU (full-height, dual-slot)"
-D870 Deskside Computer[h],,"May 2, 2007",2× G80,600,256,1350,N/A,GDDR3,2× 384,2× 1.5,1600,2× 76.8,1036.8,691.2,No,1.0,520,Deskside or 3U rack-mount external GPUs
-S870 GPU Computing Server[h],,"May 2, 2007",4× G80,600,512,1350,N/A,GDDR3,4× 384,4× 1.5,1600,4× 76.8,2073.6,1382.4,No,1.0,,"1U rack-mount external GPUs, connect via 2× PCIe (×16)"
-C1060 GPU Computing Module[i],,"April 9, 2009",1× GT200,602,240,1296[232],N/A,GDDR3,512,4,1600,102.4,933.12,622.08,77.76,1.3,187.8,"Internal PCIe GPU (full-height, dual-slot)"
-S1070 GPU Computing Server "400 configuration"[i],,"June 1, 2008",4× GT200,602,960,1296,N/A,GDDR3,4× 512,4× 4,1538.4,4× 98.5,3732.5,2488.3,311.0,1.3,800,"1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)"
-S1070 GPU Computing Server "500 configuration"[i],,,,,,1440,N/A,,,,,,4147.2,2764.8,345.6,,,
-S1075 GPU Computing Server[i][233],,"June 1, 2008",4× GT200,602,960,1440,N/A,GDDR3,4× 512,4× 4,1538.4,4× 98.5,4147.2,2764.8,345.6,1.3,,"1U rack-mount external GPUs, connect via 1× PCIe (×8 or ×16)"
-Quadro Plex 2200 D2 Visual Computing System[j],,,2× GT200GL,648,480,1296,N/A,GDDR3,2× 512,2× 4,1600,2× 102.4,1866.2,1244.2,155.5,1.3,,Deskside or 3U rack-mount external GPUs with 4 dual-link DVI outputs
-Quadro Plex 2200 S4 Visual Computing System[j],,,4× GT200GL,648,960,1296,N/A,GDDR3,4× 512,4× 4,1600,4× 102.4,3732.5,2488.3,311.0,1.3,1200,"1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)"
-C2050 GPU Computing Module[234],Fermi,"July 25, 2011",1× GF100,575,448,1150,N/A,GDDR5,384,3[k],3000,144,No,1030.4,515.2,2.0,247,"Internal PCIe GPU (full-height, dual-slot)"
-M2050 GPU Computing Module[235],,"July 25, 2011",,,,,N/A,,,,3092,148.4,No,,,,225,
-C2070 GPU Computing Module[234],,"July 25, 2011",1× GF100,575,448,1150,N/A,GDDR5,384,6[k],3000,144,No,1030.4,515.2,2.0,247,"Internal PCIe GPU (full-height, dual-slot)"
-C2075 GPU Computing Module[236],,"July 25, 2011",,,,,N/A,,,,3000,144,No,,,,225,
-M2070/M2070Q GPU Computing Module[237],,"July 25, 2011",,,,,N/A,,,,3132,150.336,No,,,,225,
-M2090 GPU Computing Module[238],,"July 25, 2011",1× GF110,650,512,1300,N/A,GDDR5,384,6[k],3700,177.6,No,1331.2,665.6,2.0,225,"Internal PCIe GPU (full-height, dual-slot)"
-S2050 GPU Computing Server,,"July 25, 2011",4× GF100,575,1792,1150,N/A,GDDR5,4× 384,4× 3[k],3,4× 148.4,No,4121.6,2060.8,2.0,900,"1U rack-mount external GPUs, connect via 2× PCIe (×8 or ×16)"
-S2070 GPU Computing Server,,,,,,,N/A,,,4× 6[k],,,No,,,,,
-K10 GPU accelerator[239],Kepler,"May 1, 2012",2× GK104,N/A,3072,745,?,GDDR5,2× 256,2× 4,5000,2× 160,No,4577,190.7,3.0,225,"Internal PCIe GPU (full-height, dual-slot)"
-K20 GPU accelerator[240][241],,"November 12, 2012",1× GK110,N/A,2496,706,758,GDDR5,320,5,5200,208,No,3524,1175,3.5,225,"Internal PCIe GPU (full-height, dual-slot)"
-K20X GPU accelerator[242],,"November 12, 2012",1× GK110,N/A,2688,732,?,GDDR5,384,6,5200,250,No,3935,1312,3.5,235,"Internal PCIe GPU (full-height, dual-slot)"
-K40 GPU accelerator[243],,"October 8, 2013",1× GK110B,N/A,2880,745,875,GDDR5,384,12[k],6000,288,No,4291–5040,1430–1680,3.5,235,"Internal PCIe GPU (full-height, dual-slot)"
-K80 GPU accelerator[244],,"November 17, 2014",2× GK210,N/A,4992,560,875,GDDR5,2× 384,2× 12,5000,2× 240,No,5591–8736,1864–2912,3.7,300,"Internal PCIe GPU (full-height, dual-slot)"
-M4 GPU accelerator[245][246],Maxwell,"November 10, 2015",1× GM206,N/A,1024,872,1072,GDDR5,128,4,5500,88,No,1786–2195,55.81–68.61,5.2,50–75,"Internal PCIe GPU (half-height, single-slot)"
-M6 GPU accelerator[247],,"August 30, 2015",1× GM204-995-A1,N/A,1536,722,1051,GDDR5,256,8,4600,147.2,No,2218–3229,69.3–100.9,5.2,75–100,Internal MXM GPU
-M10 GPU accelerator[248],,,4× GM107,N/A,2560,1033,?,GDDR5,4× 128,4× 8,5188,4× 83,No,5289,165.3,5.2,225,"Internal PCIe GPU (full-height, dual-slot)"
-M40 GPU accelerator[246][249],,"November 10, 2015",1× GM200,N/A,3072,948,1114,GDDR5,384,12,6000,288,No,5825–6844,182.0–213.9,5.2,250,"Internal PCIe GPU (full-height, dual-slot)"
-M60 GPU accelerator[250],,"August 30, 2015",2× GM204-895-A1,N/A,4096,899,1178,GDDR5,2× 256,2× 8,5000,2× 160,No,7365–9650,230.1–301.6,5.2,225–300,"Internal PCIe GPU (full-height, dual-slot)"
-P4 GPU accelerator[251],Pascal,"September 13, 2016",1× GP104,N/A,2560,810,1063,GDDR5,256,8,6000,192.0,No,4147–5443,129.6–170.1,6.1,50-75,PCIe card
-P6 GPU accelerator[252][253],,"March 24, 2017",1× GP104-995-A1,N/A,2048,1012,1506,GDDR5,256,16,3003,192.2,No,6169,192.8,6.1,90,MXM card
-P40 GPU accelerator[251],,"September 13, 2016",1× GP102,N/A,3840,1303,1531,GDDR5,384,24,7200,345.6,No,10007–11758,312.7–367.4,6.1,250,PCIe card
-P100 GPU accelerator (mezzanine)[254][255],,"April 5, 2016",1× GP100-890-A1,N/A,3584,1328,1480,HBM2,4096,16,1430,732,No,9519–10609,4760–5304,6.0,300,NVLink card
-P100 GPU accelerator (16 GB card)[256],,"June 20, 2016",1× GP100,N/A,,1126,1303,,,,,,No,8071?9340,4036?4670,,250,PCIe card
-P100 GPU accelerator (12 GB card)[256],,"June 20, 2016",,N/A,,,,,3072,12,,549,No,8071?9340,4036?4670,,,
-V100 GPU accelerator (mezzanine)[257][258][259],Volta,,1× GV100-895-A1,N/A,5120,Unknown,1455,HBM2,4096,16 or 32,1750,900,No,14899,7450,7.0,300,NVlink card
-V100 GPU accelerator (PCIe card)[257][258][259],,"June 21, 2017",1× GV100,N/A,,Unknown,1370,,,,,,No,14028,7014,,250,PCIe card
-T4 GPU accelerator (PCIe card)[260][261],Turing,"September 12, 2018",1× TU104-895-A1,N/A,2560,585,1590,GDDR6,256,16,Unknown,320,No,8100,Unknown,7.5,70,PCIe card
-Model,Micro- architecture,Launch,Chips,Core clock (MHz),Shaders,,,Memory,,,,,Processing power (GFLOPS)[e],,,CUDA compute ability,TDP (watts),"Notes, form factor"
-,,,,,Cuda cores (total),Base clock (MHz),Max boost clock (MHz)[g],Bus type,Bus width (bit),Size (GB),Clock (MT/s),Bandwidth (total) (GB/s),Single precision (MAD+MUL),Single precision (MAD or FMA),Double precision (FMA),,,
-=======
-Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
-GeForce 7025 + nForce 630a,July 2007,MCP68S,TSMC 110 nm,HyperTransport,425,266 400[citation needed],2:1:2:2,850,850,850,106.25,Up to 256 system RAM,8.528 12.8[citation needed],DDR2,128
-GeForce 7050PV + nForce 630a,,MCP67QV,,,,266 400[citation needed],,,,,,,8.528 12.8[citation needed],,
-GeForce 7050 + nForce 610i/630i,,MCP73,TSMC 90 nm,HyperTransport/FSB,500,333,,1000,1000,1000,125,,5.336,,64
-GeForce 7100 + nForce 630i,,MCP76,,FSB,600,400,,1200,1200,1200,150,,6.4,,
-GeForce 7150 + nForce 630i,,,,,630,,,1260,1260,1260,157.5,,,,
-GeForce 7100 GS,"August 8, 2006",NV44,TSMC 110 nm,PCIe ×16,350,300,4:3:4:2,1400,700,1400,262.5,128 256,4.8,,
-GeForce 7200 GS,"January 18, 2006",G72,TSMC 90 nm,AGP 8× PCIe ×16,450,400,2:2:4:2,1800,900,1800,337.5,,6.4,,
-GeForce 7300 SE,"March 22, 2006",,,PCIe ×16,350,333,4:3:4:2,,,,,128,5.328,,
-GeForce 7300 LE,,,,,,,,,,,,,,,
-GeForce 7300 GS,"January 18, 2006",,,AGP 8× PCIe ×16,550,400,,2200,1100,2200,412.5,128 256,6.4,,
-GeForce 7300 GT,"May 15, 2006",G73,,,350,325,8:5:8:4,2800,1400,2800,437.5,,10.4,,128
-GeForce 7500 LE,2006,G72,,,263 324,275,4:3:4:2,900 1100,900 1100,2200,412.5,64 128 256,2.6 6.8,,32 64
-GeForce 7600 GS,"March 22, 2006 (PCIe) July 1, 2006 (AGP)",G73,,,400,400,12:5:12:8,4800,3200,4800,500,256,12.8,,128
-GeForce 7600 GT,"March 9, 2006 (PCIe) July 15, 2006 (AGP)",,,,560,700,,6720,4480,6720,700,,22.4,GDDR3,
-GeForce 7600 GT 80 nm,"January 8, 2007",G73-B1,TSMC 80 nm,,,,,,,,,,22.4,,
-GeForce 7650 GS,"March 22, 2006",G73,,PCIe ×16,450,400,,5400,3600,5400,562.5,,12.7,DDR2,
-GeForce 7800 GS,"February 2, 2006",G70,TSMC 110 nm,AGP 8×,375,600,16:8:16:8,6000,3000,6000,750,,38.4,GDDR3,256
-GeForce 7800 GT,"August 11, 2005",,,PCIe ×16,400,500,20:7:20:16,8000,6400,8000,700,,32,,
-GeForce 7800 GTX,"June 22, 2005 (256 MB) November 14, 2005 (512 MB)",,,,430 (256 MB) 550 (512 MB),600 (256 MB) 850 (512 MB),24:8:24:16,10320 (256 MB) 13200 (512 MB),6880 (256 MB) 8800 (512 MB),10320 (256 MB) 13200 (512 MB),860 (256 MB) 1100 (512 MB),256 512,38.4 (256 MB) 54.4 (512 MB),,
-GeForce 7900 GS,"May 2006 (PCIe) April 2, 2007 (AGP)",G71,TSMC 90 nm,AGP 8× PCIe ×16,450,660,20:7:20:16,9000,7200,9000,787.5,256,42.24,,
-GeForce 7900 GT,"March 9, 2006",,,PCIe ×16,,,24:8:24:16,10800,,10800,900,,,,
-GeForce 7900 GTO,"October 1, 2006",,,,650,,,15600,10400,15600,1300,512,,,
-GeForce 7900 GTX,"March 9, 2006",,,,,800,,,,,,,51.2,,
-GeForce 7900 GX2,,2× G71,,,500,600,2× 24:8:24:16,24000,16000,24000,2000,2× 512,2x 38.4,,
-GeForce 7950 GT,"September 6, 2006 (PCIe) April 2, 2007 (AGP)",G71,,AGP 8× PCIe ×16,550,700,24:8:24:16,13200,8800,13200,1100,512,44.8,,
-GeForce 7950 GX2,"June 5, 2006",2× G71,,PCIe ×16,500,600,2× 24:8:24:16,24000,16000,24000,2000,2× 512,2x 38.4,,
-Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm)[2],Transistors (million),Die size (mm2),Bus interface,Core config1,Clock rate,,,Fillrate,,Memory,,,,Supported API version,,Processing power (GFLOPS)2,TDP (Watts),Comments
+,,,,,,,,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Single precision,,
+GeForce 9300 mGPU,October 2008,MCP7A-S,65 nm,282,162,PCIe 2.0 ×16,16:8:4,450,1200,400 666,1.8,3.6,Up to 512 from system memory,6.4/12.8 10.664/21.328,DDR2 DDR3,64 128,10.0,3.3,57.6,Unknown,based on 8400 GS
+GeForce 9400 mGPU,,MCP7A-U,,,,,,580,1400,,2.32,4.64,,,,,,,67.2,12,
+GeForce 9300 GE[18],June 2008,G98,TSMC 65 nm,210,86,,8:8:4,540,1300,500,2.16,4.32,256,8.0,DDR2,64,,,20.8,25,
+GeForce 9300 GS[18],,,,,,,,567,1400,,2.268,4.536,,,,,,,22.4,,
+GeForce 9400 GT,"August 27, 2008",G96-200-c1 G96a G96b,TSMC 55 nm,314,144,PCIe 2.0 ×16 PCI,16:8:4,550,,400 800,2.2,4.4,256 512 1024,12.8 25.6,DDR2 GDDR3,128,,,44.8,50,
+GeForce 9500 GT,"July 29, 2008",G96-300-C1,UMC 65 nm,,,,32:16:8,,,500 800,4.4,8.8,,16.0 25.6,DDR2 GDDR3,,,,89.6,,
+GeForce 9600 GS,,G94a,TSMC 65 nm,505,240,,48:24:12,500,1250,500,6,12,768,24.0,DDR2,192,,,120,Unknown,OEM
+GeForce 9600 GSO,May 2008,G92-150-A2,,754,324,PCIe 2.0 ×16,96:48:12,550,1375,800,6.6,26.4,384 768 1536,38.4,GDDR3,,,,264,84,
+GeForce 9600 GSO 512,October 2008,G94a G94b,TSMC 65 nm TSMC 55 nm,505,240 196?[citation needed],,48:24:16,650,1625,900,10.4,15.6,512,57.6,,256,,,156,90,
+GeForce 9600 GT Green Edition,2009,G94b,TSMC 55 nm,,196?[citation needed],,64:32:16,600 625,1500 1625,700/900 900[citation needed],9.6 10.0,19.2 20.0,512 1024,44.8/57.6 57.6[citation needed],,,,,192 208,59,Core Voltage = 1.00v
+GeForce 9600 GT,"February 21, 2008",G94-300-A1,TSMC 65 nm,,240 196?[citation needed],,,650,1625,900,10.4,20.8,,57.6,,,,,208,95,
+GeForce 9800 GT Green Edition,2009,G92a2 G92b,TSMC/UMC 65 nm TSMC/UMC 55 nm,754,324 260,,112:56:16,550,1375,700 800 900,8.8,30.8,,44.8 51.2 57.6,,,,,308,75,Core Voltage = 1.00v
+GeForce 9800 GT,July 2008,G92a G92b,UMC 55 nm,,,,,600,1500,900,9.6,33.6,,57.6,,,,,336,125 105,
+GeForce 9800 GTX,"April 1, 2008",G92-420-A2,TSMC 65 nm,,324,,128:64:16,675,1688,1100,10.8,43.2,512,70.4,,,,,432,140,
+GeForce 9800 GTX+,"July 16, 2008",G92b,TSMC 55 nm,,260,,,738,1836,1100,11.808,47.232,512 1024,,,,,,470,141,
+GeForce 9800 GX2,"March 18, 2008",2× G92,TSMC/UMC 65 nm,2× 754,2× 324,,2× 128:64:16,600,1500,1000,2× 9.6,2× 38.4,2× 512,2× 64.0,,2× 256,,,2× 384,197,
+Model,Launch,Codename,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core config1,Core (MHz),Shader (MHz),Memory (MHz),Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,Processing power (GFLOPS)2,TDP (Watts),Comments

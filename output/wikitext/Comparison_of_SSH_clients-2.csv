@@ -1,33 +1,19 @@
-<<<<<<< HEAD
-Name,User interface,SSH1,SSH2,Additional protocols,,Port forwarding and Tunneling,,,Session multiplexing group=Notemux,Kerberos,IPv6,Terminal,SFTP/SCP,Proxy clientgroup=NoteconnectViaProxy
-,,,,TELNET,rlogin,Port forwarding,SOCKS group=NoteSOCKS,VPN group=NoteVPN,,,,,,
-AbsoluteTelnet,"GUI (multi-session, single-window)",,,,,,,,,,,,,"SOCKS 4, 5; HTTP"
-Bitvise SSH Client,GUI or command line,,,,,,,,,,,,,"SOCKS 4, 5"
-Dropbear,command line,,,,,,,,,,,,,
-lsh,command line,,,,,,,,,,,,,
-OpenSSH (OpenBSD Secure Shell),command line,group=Noteopenssh-drops-ssh1,,,,,,,,,,,, ProxyCommand 
-PuTTY,GUI or command line,,,,,,,,,group=Noteputty_kerberos,,,group=Notescp_bin,"SOCKS 4, 5; HTTP; Telnet; Local"
-SecureCRT,GUI,,,,,,,,,,,,,"SOCKS 4, 5; HTTP; Telnet; Generic"
-SmartFTP,"GUI (multi-session, single-window)",,,,,,,,,,,,,"SOCKS 4, 5; HTTP"
-Tera Term,GUI,,,,,,,,,,,,SCP,"SOCKS 4, 5; HTTP; Telnet"
-TN3270 Plus,GUI,,,,,,,,,,,,,SOCKS 4
-TtyEmulator,GUI or command line,,,,,,,,,,,,,"SOCKS 4,4a, 5; HTTP Local"
-WinSCP group=Notewinscp_contributions,GUI or command line,,,,,limitedgroup=Notewinscp_tunneling,,,,,,simple,,-->
-wolfSSH,command line,,,,,,,,,,,simple,,-->
-ZOC,TDI or command line,,,,,,,,,,,,SCP through terminalgroup=Notezoc_scp_through_terminal,SOCKS 4; 5; HTTP; Jumpserver
-Name,User interface,SSH1,SSH2,Additional protocols,,Tunneling,,,Session multiplexing group=Notemux,Kerberos,IPv6,Terminal,SFTP/SCP,Proxy clientgroup=NoteconnectViaProxy
-,,,,TELNET,rlogin,Port forwarding,SOCKS group=NoteSOCKS,VPN group=NoteVPN,,,,,,
-=======
-Name,Keyboard mapping,Session tabs,ZMODEM transfers,Find text in buffer,Mouse input supportgroup=Notemouse_input,Unicode support,URL hyperlinking,Public key authentication,Smart card support,Hardware encryption,FIPS 140-2 validation,Scripting,Shared Database,Auto-reconnect,CA Certificates
-AbsoluteTelnet,full,,,,,,,,,,,,,,
+Name,macOS,Windows,Cygwin,BSD,Linux,Solaris,Java,OpenVMS,z/OS,AIX,HP-UX,iOS,Android,Maemo,Windows Phone
+AbsoluteTelnet,,,,,,,,,,,,,,,
 Bitvise SSH Client,,,,,,,,,,,,,,,
-OpenSSH (OpenBSD Secure Shell),,,,,group=Noteopenssh_mouse_input,,not nativegroup=Noteopenssh_url_highlight,,group=Noteopenssh_smartcard,,group=Noteopenssh_fips,,,,group=NoteopensshCA
-PuTTY,,group=NoteputtyTabs,,,,,group=NoteputtyHyperlink,,group=NoteputtySmartcard,,,,,,group=NoteputtyCA
+ConnectBot,,,,,,,,,,,,,,,
+CRAX Commander,,,,,,,,,,,,,,,
+Dropbear,,,,,,,,,,,,group=Noteiosjailbreak,,,
+eSSH Client,,,,,,,,,,,,,,,
+lsh,,,,group=Notefreebsdonly,,,,,,,,,,,
+OpenSSH (OpenBSD Secure Shell),,group=Notewin32openssh,,,group=Noteopensshlinux,,,,,,,group=Noteiosjailbreak,,,
+PuTTY,,,,,,,,,,,,,,,
 SecureCRT,,,,,,,,,,,,,,,
-SmartFTP,,,,,,,,,,AES-NI,,,,,
+SmartFTP,,,,,,,,,,,,,,,
 Tera Term,,,,,,,,,,,,,,,
 TN3270 Plus,,,,,,,,,,,,,,,
 TtyEmulator,,,,,,,,,,,,,,,
+WinSCP,,,,,,,,,,,,group=Noteiosjailbreak,,,
 wolfSSH,,,,,,,,,,,,,,,
-ZOC,full,,,Alt+F,,UTF-8,,,pkcs#11,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+ZOC,,,,,,,,,,,,,,,
+Name,OS X,Windows,Cygwin,BSD,Linux,Solaris,Java,OpenVMS,z/OS,AIX,HP-UX,iOS,Android,Maemo,Windows Phone

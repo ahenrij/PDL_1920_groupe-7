@@ -1,41 +1,23 @@
-<<<<<<< HEAD
-Chip series,Micro-architecture,Fab,Supported APIs,,,,,AMD support,Year introduced,Introduced with
-,,,Rendering,,,Computing,,,,
-,,,Vulkan[7],OpenGL[8],Direct3D,HSA,OpenCL,,,
-Wonder,Fixed-pipeline[a],1000nm 800nm,N/A,N/A,N/A,N/A,N/A,Ended,1986,
-Mach,,800nm 600nm,,,,,,,1991,
-3D Rage,,500nm,,,5.0,,,,1996,3D Rage
-Rage Pro,,350nm,,1.1,6.0,,,,1997,Rage Pro
-Rage 128,,250nm,,1.2,,,,,1998,Rage 128GL/VR
-R100,,180nm 150nm,,1.3,7.0,,,,2000,"Original "ATI Radeon", as well as Radeon DDR, 7000, 7500, VE, and LE models"
-R200,Programmable pixel & vertex pipelines,150nm,,,8.1,,,,2001,"8500, 9000, 9200 and 9250"
-R300,,150nm 130nm 110nm,,2.0[b],9.0 11 (FL 9_2),,,,2002,"9500–9800, X300–X600, X1050"
-R420,,130nm 110nm,,,9.0b 11 (FL 9_2),,,,2004,X700–X850
-R520,,90nm 80nm,,,9.0c 11 (FL 9_3),,,,2005,X1300–X1950
-R600,TeraScale 1,80nm 65nm,,3.3,10.0 11 (FL 10_0),,ATI Stream,,2007,"HD 2000 series, HD 3410"
-RV670,,55nm,,,10.1 11 (FL 10_1),,ATI Stream APP[9],,2007,"HD 3450–3870, Mobility HD 2000 and 3000 series"
-RV770,,55nm 40nm,,,,,1.0,,2008,HD 4000 series
-Evergreen,TeraScale 2,40nm,,4.5 (Linux 4.2) [1][2][3][c],11 (FL 11_0),,1.2,,2009,HD 5000 series
-Northern Islands,TeraScale 2 TeraScale 3,,,,,,,,2010,"HD 6000 series, and IGP 7000 series"
-Southern Islands,GCN 1st gen,28nm,1.0,4.6 (Mesa 4.5),11 (FL 11_1) 12 (FL11_1),,1.2 2.0 possible,Current,2012,HD 7000 series
-Sea Islands,GCN 2nd gen,,1.1,,11 (FL 12_0) 12 (FL 12_0),,"2.0 (1.2 in MacOS, Linux) 2.1 Beta in Linux ROCm 2.2 possible",,2013,Radeon 200 series
-Volcanic Islands,GCN 3rd gen,,,,,,,,2014,Radeon 300 series
-Arctic Islands,GCN 4th gen,14nm,,,,,,,2016,Radeon 400 series
-Vega,GCN 5th gen,14nm 7nm,,,11 (FL 12_1) 12 (FL 12_1),,,,2017,Radeon Vega series
-Navi,RDNA 1st gen,7nm,,,,,,,2019,Radeon RX 5000 series
-=======
-Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b],,Processing power[c] (GFLOPS),Memory,,,,Bus interface,Notes
-,,,Config,Clock (MHz),Texture (GT/s),Pixel (GP/s),,Size (MB),Bus type & width (bit),Clock (MHz),Band- width (GB/s),,
-Mobility FireGL 7800 [296] (M7-GL),2001-09-29,R100 (150 nm),0:2:2:2[d],280,0.56,0.56,Unknown,64,DDR 128-bit,200,6.4,AGP,27 Watt TDP
-Mobility FireGL 9000 [297] (M7-GL),2002-01-01,R200 (150 nm),1:4:4:4[d],250,1.0,1.0,Unknown,64,DDR 128-bit,200,6.4,AGP 4x,
-Mobility FireGL T2 [298] (M7-GL),2003-11-01,R300 (130 nm),2:4:4:4[d],320,1.28,1.28,Unknown,128,DDR 128-bit,200,6.5,AGP 4x,
-Mobility FireGL T2e [299] (M7-GL),2004-08-01,R300 (130 nm),2:4:4:4[d],450,1.8,1.8,Unknown,128,DDR 128-bit,225,7.2,AGP,
-Mobility FireGL V3100 [300] (M7-GL),2004-06-01,R300 (110 nm),2:4:4:4[d],350,1.4,1.4,Unknown,128,DDR 128-bit,200,6.4,PCIe x16,
-Mobility FireGL V3200 [301] (M7-GL),2004-06-01,R300 (130 nm),2:4:4:4[d],400,1.6,1.6,Unknown,128,DDR2 128-bit,250,12.8,PCIe x16,
-Mobility FireGL V5000 [302] (M7-GL),2005-02-03,R420 (110 nm),6:8:8:8[d],350,2.8,2.8,Unknown,128,GDDR3 128-bit,425,13.6,PCIe x16,
-Mobility FireGL V5200 [303] (M7-GL),2006-02-01,R520 (90 nm),5:12:12:12[d],425,5.1,5.1,Unknown,256,GDDR3 128-bit,475,15.2,PCIe x16,
-Mobility FireGL V5250 [304] (M7-GL),2007-01-01,R520 (90 nm),5:12:12:12[d],450,5.4,5.4,Unknown,256,GDDR3 128-bit,350,11.2,PCIe x16,
-Mobility FireGL V5600 [305] (M7-GL),2007-05-14,TeraScale 1 (65 nm),120:8:4[e],500,4.0,2.0,120.0,256,GDDR3 128-bit,400,12.8,PCIe 2.0 x16,
-Mobility FireGL V5700 [306] (M7-GL),2008-01-07,Terascale 2 (55 nm),120:8:4[e],600,4.8,2.4,144,512,GDDR3 128-bit,700,22.4,PCIe 2.0 x16,in Lenovo ThinkPad W500
-Mobility FireGL V5725 [307] (M7-GL),2009-01-01,Terascale 2 (55 nm),120:8:4[e],680,5.44,2.72,163.2,256,GDDR3 128-bit,800,25.6,PCIe 2.0 x16,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
+,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
+Radeon 9500,"Oct. 24, 2002",R300 (Khan),150,AGP 8x,275,270,4:4:4:4,1100,1100,1100,275,"64, 128","8.64, 17.28",DDR,"128, 256"
+Radeon 9500 Pro,,,,,,,8:4:8:8,2200,2200,2200,,128,8.64,,128
+Radeon 9550,2004,RV350 (Shivah),130,,250,200,4:2:4:4,1000,1000,1000,125,"64, 128, 256",6.4,,
+Radeon 9550 SE,,,,,,,,,,,,,3.2,,64
+Radeon 9600,2003,,,,325,,,1300,1300,1300,162.5,"128, 256",6.4,,128
+Radeon 9600 Pro,"Mar. 6, 2003",,,,400,300,,1600,1600,1600,200,,9.6,,
+Radeon 9600 SE,2003,,,,325,200,,1300,1300,1300,162.5,"64, 128, 256",3.2,,64
+Radeon 9600 XT,"Sept. 30, 2003",RV360,,,500,300,,2000,2000,2000,250,"128, 256",9.6,,128
+Radeon 9600 TX,2003 (Medion OEM),R300 (Khan),150,,297,270,8:4:8:8,2376,2376,2376,287,128,8.6,,
+Radeon 9700 TX,2002 (Dell OEM),,,,263,263,,2104,2104,2104,275,,16.83,,256
+Radeon 9700,"Oct. 24, 2002",,,,275,270,,2200,2200,2200,,,17.28,,
+Radeon 9700 Pro,"July 18, 2002",,,,325,310,,2600,2600,2600,325,,19.84,,
+Radeon 9800,2003,R350,,,,,,,,,,,,,
+Radeon 9800 XL,,,,,350,,,2800,2800,2800,350,,,,
+Radeon 9800 XXL[19],"Oct. 1, 2003",R360,,,390,338,,3120,3120,3120,390,,21.60,,256[19]
+Radeon 9800 Pro,"Mar. 1, 2003[20]","R350, R360",,,380,"340, 350",,3040,3040,3040,380,"128, 256","21.76, 22.40","DDR, GDDR2",256
+Radeon 9800 SE[21],"Mar. 1, 2003[22]",R350,,,"325, 380[21]","270, 340[21]",4:4:4:4[22],"1300, 1520[21]","1300, 1520[21]","1300, 1520[21]","325, 380[21]",,"8.64, 21.76[21]",DDR,"128, 2562[21]"
+Radeon 9800 XT,"Sept. 9, 2003",R360,,,412,365,8:4:8:8,3296,3296,3296,412,256,23.36,,256
+Radeon X1050 AGP,"Dec. 7, 2006",RV350 (Shivah),130,,250,200,4:2:4:4,1000,1000,1000,125,"128, 256",6.4,,128
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
+,,,,,,,,Fillrate,,,,Memory,,,

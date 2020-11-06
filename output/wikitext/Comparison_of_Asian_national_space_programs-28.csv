@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-No.,Country,Spacecraft,Year,Type
-TBD,Japan,Mercury Magnetospheric Orbiter,2018 (en route),Orbiter
-=======
-Country,Uncrewed rendezvous,,crewed rendezvous,
-,Spacecraft involved,Year,Spacecraft involved,Year
-,ETS-VII,1997,,
-,Shenzhou 8 & Tiangong 1,2011,Shenzhou 9 & Tiangong 1,2012
-,SPADEX,2020 (Planned),,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Country,Satellite,Transponders,Mass,Power,Year launched
+,NIGCOMSAT 1R,28,5150kg,10.5 kW,2011
+,ST-2,51,5090kg,,2011
+,GSAT-16,48,3100kg,5.6 kW,2014
+,GSAT-11,40,5854kg,13.6 kW,2018

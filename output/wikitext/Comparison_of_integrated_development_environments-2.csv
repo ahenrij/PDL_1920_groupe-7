@@ -1,21 +1,11 @@
-<<<<<<< HEAD
-IDE,License,Windows,Linux,macOS,Other platforms,Debugger,GUI builder,Profiler,Static code analysis,MXML,Export to Mobile
-Adobe Animate Formerly Adobe Flash Professional,,,,,JVM,,,,,,
-Flash Builder,,,,,JVM,,,,,,
-FlashDevelop,MIT License,,,,,,,,,,
-IntelliJ IDEA,,,,,"FreeBSD, OpenBSD, Solaris",,,,,,
-Powerflasher FDT,,,,,JVM,,,,,,
-=======
-IDE,License,Windows,Linux,macOS,Developer,Other platforms,Latest stable release
-Basic4android,,,,,Anywhere Software,cross-compile from Windows to Android,2018-03-20
-FreeBASIC,GPL,,,,The FreeBASIC Development Team,"Windows, FreeBSD",2019-02-18
-Gambas,GPL,,,,Benoît Minisini,"FreeBSD, Cygwin",2019-11-19
-Microsoft Small Basic,,,,,Microsoft,,2015-10-01
-Microsoft Visual Studio,,,,,Microsoft,,2017-10-19
-MonoDevelop,LGPL,,,,Xamarin and the Mono community,"FreeBSD, OpenBSD, Solaris",2016-01-28
-PBASIC Stamp Editor,,,,,Parallax Inc,,2014-07-02[4]
-PureBasic,,,,,Fantaisie Software,AmigaOS,2020-03-30
-SharpDevelop,LGPL,,,,ICSharpCode Team,,2015-07-14
-SlickEdit,,,,,SlickEdit,"Solaris, Solaris SPARC, AIX, HP-UX",2018
-Xojo,,,,,"Xojo, Inc.",Web,2015-12-17
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+IDE,Widget toolkit,Platform,Compilers,Open Source,Made in D,Notes
+Visual Studio,Microsoft,Windows,"DMD, LDC (LLVM), GDC (GCC)",,,"Visual Studio extension. VisualD, wrote in D."
+NetBeans,Java Swing,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana, Java","DMD, LDC (LLVM), GDC (GCC)",,,"NetBeans module. NetBeans-D, under MIT License."
+SlickEdit,Qt,"Windows, Linux, MacOS, AIX, HP-UX, Solaris, Solaris SPARC",DMD,,,
+CodeLite,wxWidget,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,
+Xcode,Cocoa,macOS,"DMD, GDC (GCC)",,,"Xcode plugin. D for Xcode, under GPL v2."
+MonoDevelop,GTK#,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,"MonoDevelop extension. Mono-D, support VisualD projects and DUB, Can be installed on Xamarin Studio too, under Apache License."
+KDevelop,Qt,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,
+Geany,GTK+,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,Native support.
+Code::Blocks,wxWidget,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana","DMD, LDC (LLVM), GDC (GCC)",,,Includes partial support.
+Eclipse,SWT,"Windows, macOS, Linux, FreeBSD, Solaris, OpenIndiana, Java",DMD,,,Eclipse Plugin. DDT. Dropped.

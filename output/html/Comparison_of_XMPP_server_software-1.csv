@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-RFC,Description,Status,ejabberd,iChat Server,jabberd14,jabberd2,Metronome,MongooseIM,Openfire,Prosody,Sun Java System Instant Messaging Server,Tigase
-RFC 3920,XMPP Core,Obsolete,Yes[1],Unknown,Yes[2],Yes[3],Unknown,Yes[4],Yes[5],Yes,Unknown,Yes[6]
-RFC 3921,XMPP IM,Obsolete,Yes[1],Unknown,Yes[2],Yes[3],Unknown,Yes[4],Yes[5],Yes,Unknown,Yes[6]
-RFC 3922,XMPP CPIM,Final[7],Yes,Unknown,Unknown,Unknown,Unknown,Yes[4],Unknown,Unknown,Unknown,Unknown
-RFC 3923,XMPP E2E,Final[7],Yes,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-RFC 4854,XMPP URN,Informational[7],Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-RFC 4979,XMPP ENUM,Final[7],Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-RFC 5122,XMPP URI,Final[7],Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-RFC 6120,XMPP Core,Final[7],Yes[8],Yes,Unknown,Unknown,Yes,Yes[4],Yes/Partial [9],Yes,Unknown,Yes[6]
-RFC 6121,XMPP IM,Final[7],Yes[8],Yes,Unknown,Unknown,Yes,Yes[4],Yes/Partial [10],Yes,Unknown,Yes[6]
-RFC 6122,XMPP AF,Obsolete,Yes[8],Yes,Unknown,Unknown,Yes,Yes[4],Yes[11],Yes,Unknown,Yes[6]
-RFC 7395,XMPP WebSockets,Proposed,Yes[12],Unknown[13],Unknown,Unknown,Yes[14],Yes[4],Yes/Plugin[15],Yes[16],Unknown,Yes[6]
-RFC 7622,XMPP AF,Final[7],Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
-=======
 XEP,Description,Status,ejabberd,iChat Server,jabberd14,jabberd2,Metronome,Isode M-Link,MongooseIM,Openfire,Prosody,Tigase
 0004,Data forms,Final,Yes[8],Unknown,Unknown,No[17],Yes[18],Yes[19],Yes,Yes[5],Yes[20],Yes[6][21]
 0009,Jabber RPC,Final,Yes[8],Unknown,Unknown,No[17],Unknown,No,No,Unknown,Yes[20],Yes
@@ -153,4 +138,3 @@ XEP,Description,Status,ejabberd,iChat Server,jabberd14,jabberd2,Metronome,Isode 
 0375,XMPP Compliance Suites 2016,Retracted,Contrib,Unknown,Unknown,Unknown,Yes,Unknown,Unknown,Unknown,Unknown,Unknown
 0376,Pubsub Account Management,Deferred,Contrib,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown
 XEP,Description,Status,ejabberd,iChat Server,jabberd14,jabberd2,Metronome,Isode M-Link,MongooseIM,Openfire,Prosody,Tigase
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

@@ -1,21 +1,13 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Wearable Computing: Classification of Body Postures and Movements (PUC-Rio),People performing five standard actions while wearing motion trackers.,None.,"165,632",Text,Classification,2013,[288][289],Pontifical Catholic University of Rio de Janeiro
-Gesture Phase Segmentation Dataset,Features extracted from video of people doing various gestures.,Features extracted aim at studying gesture phase segmentation.,9900,Text,"Classification, clustering",2014,[290][291],R. Madeo et a
-Vicon Physical Action Data Set Dataset,10 normal and 10 aggressive physical actions that measure the human activity tracked by a 3D tracker.,Many parameters recorded by 3D tracker.,3000,Text,Classification,2011,[292][293],T. Theodoridis
-Daily and Sports Activities Dataset,Motor sensor data for 19 daily and sports activities.,"Many sensors given, no preprocessing done on signals.",9120,Text,Classification,2013,[294][295],B. Barshan et al.
-Human Activity Recognition Using Smartphones Dataset,Gyroscope and accelerometer data from people wearing smartphones and performing normal actions.,"Actions performed are labeled, all signals preprocessed for noise.","10,299",Text,Classification,2012,[296][297],J. Reyes-Ortiz et al.
-Australian Sign Language Signs,Australian sign language signs captured by motion-tracking gloves.,None.,2565,Text,Classification,2002,[298][299],M. Kadous
-Weight Lifting Exercises monitored with Inertial Measurement Units,Five variations of the biceps curl exercise monitored with IMUs.,Some statistics calculated from raw data.,"39,242",Text,Classification,2013,[300][301],W. Ugulino et al.
-sEMG for Basic Hand movements Dataset,Two databases of surface electromyographic signals of 6 hand movements.,None.,3000,Text,Classification,2014,[302][303],C. Sapsanis et al.
-REALDISP Activity Recognition Dataset,Evaluate techniques dealing with the effects of sensor displacement in wearable activity recognition.,None.,1419,Text,Classification,2014,[303][304],O. Banos et al.
-Heterogeneity Activity Recognition Dataset,Data from multiple different smart devices for humans performing various activities.,None.,"43,930,257",Text,"Classification, clustering",2015,[305][306],A. Stisen et al.
-Indoor User Movement Prediction from RSS Data,Temporal wireless network data that can be used to track the movement of people in an office.,None.,"13,197",Text,Classification,2016,[307][308],D. Bacciu
-PAMAP2 Physical Activity Monitoring Dataset,18 different types of physical activities performed by 9 subjects wearing 3 IMUs.,None.,"3,850,505",Text,Classification,2012,[309],A. Reiss
-OPPORTUNITY Activity Recognition Dataset,"Human Activity Recognition from wearable, object, and ambient sensors is a dataset devised to benchmark human activity recognition algorithms.",None.,2551,Text,Classification,2012,[310][311],D. Roggen et al.
-Real World Activity Recognition Dataset,Human Activity Recognition from wearable devices. Distinguishes between seven on-body device positions and comprises six different kinds of sensors.,None.,"3,150,000 (per sensor)",Text,Classification,2016,[312],T. Sztyler et al.
-Toronto Rehab Stroke Pose Dataset,3D human pose estimates (Kinect) of stroke patients and healthy participants performing a set of tasks using a stroke rehabilitation robot.,None.,10 healthy person and 9 stroke survivors (3500-6000 frames per person),CSV,Classification,2017,[313][314][315],E. Dolatabadi et al.
-Corpus of Social Touch (CoST),"7805 gesture captures of 14 different social touch gestures performed by 31 subjects. The gestures were performed in three variations: gentle, normal and rough, on a pressure sensor grid wrapped around a mannequin arm.",Touch gestures performed are segmented and labeled.,7805 gesture captures,CSV,Classification,2016,[316][317],M. Jung et al.
-=======
-DBpedia Neural Question Answering (DBNQA) Dataset,A large collection of Question to SPARQL specially design for Open Domain Neural Question Answering over DBpedia Knowledgebase.,This dataset contains a large collection of Open Neural SPARQL Templates and instances for training Neural SPARQL Machines; it was pre-processed by semi-automatic annotation tools as well as by three SPARQL experts.,"894,499",Question-query pairs,Question Answering,2018,[412][413],"Hartmann, Soru, and Marx et al."
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Forest Fires Dataset,Forest fires and their properties.,13 features of each fire are extracted.,517,Text,Regression,2008,[388][389],P. Cortez et al.
+Iris Dataset,Three types of iris plants are described by 4 different attributes.,None.,150,Text,Classification,1936,[390][391],R. Fisher
+Plant Species Leaves Dataset,Sixteen samples of leaf each of one-hundred plant species.,"Shape descriptor, fine-scale margin, and texture histograms are given.",1600,Text,Classification,2012,[392][393],J. Cope et al.
+Mushroom Dataset,Mushroom attributes and classification.,Many properties of each mushroom are given.,8124,Text,Classification,1987,[394],J. Schlimmer
+Soybean Dataset,Database of diseased soybean plants.,35 features for each plant are given. Plants are classified into 19 categories.,307,Text,Classification,1988,[395],R. Michalski et al.
+Seeds Dataset,Measurements of geometrical properties of kernels belonging to three different varieties of wheat.,None.,210,Text,"Classification, clustering",2012,[396][397],Charytanowicz et al.
+Covertype Dataset,Data for predicting forest cover type strictly from cartographic variables.,Many geographical features given.,"581,012",Text,Classification,1998,[398][399],J. Blackard et al.
+Abscisic Acid Signaling Network Dataset,Data for a plant signaling network. Goal is to determine set of rules that governs the network.,None.,300,Text,Causal-discovery,2008,[400],J. Jenkens et al.
+Folio Dataset,20 photos of leaves for each of 32 species.,None.,637,"Images, text","Classification, clustering",2015,[401][402],T. Munisami et al.
+Oxford Flower Dataset,17 category dataset of flowers.,"Train/test splits, labeled images,",1360,"Images, text",Classification,2006,[138][403],M-E Nilsback et al.
+Plant Seedlings Dataset,12 category dataset of plant seedlings.,"Labelled images, segmented images,",5544,Images,"Classification, detection",2017,[404],Giselsson et al.
+Fruits 360 dataset,Database with images of 120 fruits and vegetables.,"100x100 pixels, White background.",82213,Images (jpg),Classification,2017-2019,[405][406],"Mihai Oltean, Horea Muresan"

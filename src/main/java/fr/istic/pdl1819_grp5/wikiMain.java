@@ -41,7 +41,7 @@ public class wikiMain {
     public  void extracteurenmarche() throws  IOException{
 
         loggerstart();
-        WikipediaMatrix wiki = new WikipediaMatrix();
+        WikipediaMatrix wiki = new WikipediaMatrix(ExtractType.HTML);
         StatExtractor stat = new StatExtractor();
         Set<UrlMatrix> urlMatrixSet;
 

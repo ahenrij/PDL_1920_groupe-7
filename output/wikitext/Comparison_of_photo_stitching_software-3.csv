@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Name,Developer(s),Operating system(s),License,Price,WWW,Notes
 Panoweaver Standard / Professional,Easypano Holdings Inc.,Windows XP/7/8; Mac OS X 10.4 or later,Proprietary,Standard: $99 / Professional: $299,easypano.com,"Branding free, trial version works will be watermarked."
 WidsMob Panorama,WidsMob Technology Ltd.,Mac OS X 10.8 or later,Proprietary,$19.99,widsmob.com,"Branding free, trial version works will be watermarked."
@@ -45,45 +44,3 @@ StitchUp,Michel Mürner,Mac OS X,Proprietary,$6.99,www.stitchup.ch,
 Pano2VR / Pano2VR pro,Garden Gnome Software,Windows; Mac OS X; Linux,Proprietary,regular: €99; pro: €299 (+taxes),ggnome.com/pano2vr,Free trial version (watermarked)
 Lapentor,Starfruit JSC,Windows; Mac OS X; Linux,Proprietary,$15,http://lapentor.com/,Create beautiful & professional Virtual Tour
 Name,Developer(s),Operating system(s),License,Price,WWW,Notes
-=======
-Name,"Raster images (JPEG, TIFF, etc.)",Flash viewer,Java viewer,QTVR,HTML 5*,Notes
-Panoweaver Standard / Professional,,,,,,Includes free Flash and HTML5 viewer.
-Dermandar,,,,,,Includes free Flash and HTML5 viewer.
-i2Align Quickage Express / Pro,,,,,,
-Pixtra PanoStitcher,,,,,,Includes ActiveX viewer & export.
-Pixtra OmniStitcher,,,,,,Includes ActiveX viewer & export.
-QuickPHOTO,,,,,,
-PhotoFit Harmony / Premium,,,,,,
-PanoramaPlus X4,,,,,,Flickr export.
-PanoramaBuilder 7.0 / PanoramaBuilder 7.0 Pro,,,,,,(*) Planar viewer.
-360 Panorama Professional,,,,,,
-VRstitcher Fisheye Pro,,,,,,
-COOL 360[26],,,,,,Embedding of panoramas into executables (.exe) and Microsoft Office files. ActiveX viewer.
-PanaVue ImageAssembler Std. / Pro. / Ent.,,,,,,
-The Panorama Factory v5,,,,,,
-PixMaker Lite / Home / Business,,,,,,
-PTAssembler,,,,,,
-PTgui / PTgui Pro,,,,,,
-Autopano Pro / Giga / Server,,,,,,
-Autostitch,,,,,,
-Calico,,,,,,
-Hugin,,,,,,
-3DVista Stitcher 3.0,,,,,,
-D Joiner,,,,,,
-Panorama Maker 6,,,,,,
-Photovista Panorama,,,,,,IVR export.
-PanoramaStudio / pro[28],,,,,,
-Stitcher Unlimited 2009,,,,,,VRML export.
-ADG Panorama Tools / Pro,,,,,,
-Panorama Composer 3,,,,,,Includes ActiveX viewer & export.
-Image Composite Editor,,,,,,"Publish to Photosynth website, Silverlight based viewer."
-Panorama Perfect,,,,,,
-Photoshop,,,,,,
-AIPR Lite 1,,,,,,
-Gigapan Stitch 1.0,,,,,,3D viewer in stitcher / Publishing to gigapan.org 2D flash viewer / Embeddable flash viewer
-PanoramaMaker,,,,,,
-PanoEdit,,,,,,
-SharpStitch,,,,,,
-Pano2VR / Pano2VR pro,,,,,,
-Name,"Raster images (JPEG, TIFF, etc.)",Flash viewer,Java viewer,QTVR,HTML 5*,Notes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

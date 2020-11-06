@@ -1,29 +1,24 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit)
-Radeon X700,March 2005,RV410 (alto),110,400,350,8:6:8:8,3200,3200,3200,600,"128, 256",11.2,DDR,128
-Radeon X700 Pro,"March 1, 2005",,,425,432,,3400,3400,3400,637.5,,13.824,GDDR3,
-Radeon X800 SE,Oct. 2004,R420 (loki),130,,400,,,6800,,,256,25.6,,256
-Radeon X800 GT,"Dec. 6, 2005",,,475,490,8:6:8:16,3800,7600,3800,712.5,,31.36,,
-Radeon X800,Dec. 2004,R430,110,400,350,12:6:12:16,4800,6400,4800,600,,22.4,,
-Radeon X800 GTO,"Dec. 6, 2005",R420 (loki),130,,490,,,,,,,31.36,,
-Radeon X800 Pro,"May 5, 2004",,,475,450,,5700,7600,5700,712.5,,28.8,,
-Radeon X800 XL,"Feb. 2, 2005",R430,110,400,490,16:6:16:16,6400,6400,6400,600,,31.36,,
-Radeon X800 XT,"May 4, 2004",R420 (loki),130,500,500,,8000,8000,8000,750,,32,,
-Radeon X800 XT PE,,,,520,560,,8320,8320,8320,780,,35.84,,
-Radeon X850 Pro,"Feb. 28, 2005",R481,,507,520,,6084,8112,6084,760.5,,33.28,,
-Radeon X850 XT,,,,520,540,,8320,8320,8320,780,,34.56,,
-Radeon X850 XT PE,,,,540,590,,8640,8640,8640,810,,37.76,,
-=======
-Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
-Mobility Radeon X1300,"January 19, 2006",M52,RV515,90,PCIe x16,350,250,2:4:4:4,1.4,1.4,128 + shared,8,DDR DDR2,128,9.0c,2.0,
-Mobility Radeon X1350,"September 18, 2006",M62,,,,470,350,,1.88,1.88,,11.2,DDR2 GDDR3,,,,
-Mobility Radeon X1400,"January 19, 2006",M54,,,,445,250,,1.78,1.78,,8,DDR DDR2,,,,
-Mobility Radeon X1450,"September 18, 2006",M64,,,,550,450,,2.2,2.2,,14.4,DDR2 GDDR3,,,,
-Mobility Radeon X1600,"February 1, 2006",M56,RV530,,,425 450,375 470,5:12:4:4,1.7 1.8,1.7 1.8,256,12.0 15.04,DDR2 GDDR3,,,,
-Mobility Radeon X1700,,M66,RV535,,,475,400 550,,1.9,1.9,,11.2 17.6,,,,,strained silicon
-Mobility Radeon X1800,"March 1, 2006",M58,R520,,,450,500,8:12:12:12,5.4,5.4,,32,GDDR3,256,,,
-Mobility Radeon X1800 XT,,M58,,,,550,650,8:16:16:16,8.8,8.8,,41.6,,,,,
-Mobility Radeon X1900,"January 11, 2007",M59,RV570,80,,400,480,8:36:12:12,4.8,4.8,,30.72,,,,,PowerPlay 6.0
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,Memory,,,,API (version),
+,,,,,,,,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL
+All-in-Wonder Radeon,"Jul 31, 2000",R100,180,AGP 4x,166,332,2:1:6:2,332,996,41.5,32,5.312,DDR,128,7.0,1.4
+All-in-Wonder 7500,"Jan 22, 2002",RV200,150,,260,360,2:0:6:2,520,1560,0,64,11.52,,,,
+All-in-Wonder VE,"Dec 2, 2002",,,,250,500,,500,1500,,,8,,,,
+All-in-Wonder 8500,"Apr 4, 2002",R200,,,260,550,4:2:8:4,1100,2200,137.5,128,8.8,,,8.1,
+All-in-Wonder 8500 DV,"Aug 30, 2001",,,,230,380,,920,1840,115,64,6.08,,,,
+All-in-Wonder 9000 Pro,"Mar 31, 2003",RV250,,AGP 8x,275,550,4:1:4:4,1110,1110,68.75,"64, 128",8.8,,,,
+All-in-Wonder 9200,"Jan 26, 2004",,,,250,400,,1000,1000,62.5,128,6.4,,,,
+All-in-Wonder 9200 SE,N/A,,,,,332,,,,,,2.656,,64,,
+All-in-Wonder 9600,"Jan 26, 2004",RV350,130,,325,400,4:2:4:4,1300,1300,162.5,,6.4,,128,9.0,2.0
+All-in-Wonder 9600 Pro,"Aug 05, 2003",,,,400,650,,1600,1600,200,,10.4,,,,
+All-in-Wonder 9600 XT,"Jan 26, 2004",,,,525,,,2100,2100,262.5,,,,,,
+All-in-Wonder 9700 Pro,"Dec 30, 2002",R300,150,,325,620,8:4:8:8,2600,2600,325,,19.84,,256,,
+All-in-Wonder 9800 Pro,"Apr 7, 2003",R350,,,380,680,,3040,3040,380,,21.76,,,,
+All-in-Wonder 9800 SE,"Nov 1, 2003",,,,,,4:4:4:8,,1520,,,10.88,,128,,
+All-in-Wonder X600 Pro,"Sept 21, 2004",RV370,110,,400,600,4:2:4:4,1600,1600,200,256,9.6,,,,
+All-in-Wonder X800 GT,"Aug 8, 2005",R430,,PCI-E x16,490,980,8:6:8:16,6400,3200,600,128,31.36,GDDR3,256,9.0b,
+All-in-Wonder X800 XL,"Jul 5, 2005",,,PCI-E x16 AGP 8X,400,,16:6:16:16,,6400,,256,,,,,
+All-in-Wonder X800 XT,"Sept 9, 2004",R420,130,AGP 8x,500,1000,,8000,8000,750,,32,,,,
+All-in-Wonder 2006,"Dec 22, 2005",RV515,90,PCI-E x16,450,800,4:2:4:4,1800,1800,225,,12.8,DDR2,128,9.0c,
+All-in-Wonder X1800 XL,"Nov 21, 2005",R520,,,500,1000,16:8:16:16,8000,8000,1000,,32,GDDR3,256,,
+All-in-Wonder X1900,"Jan 24, 2006",R580,,,,960,48:8:16:16,,,,,30.72,,,,
+All-in-Wonder HD 3650,"Jun 28, 2008",RV635,55,,725,1200,120:8:4,2900,5800,N/A,512,19.2,DDR2,128,10.1,3.3

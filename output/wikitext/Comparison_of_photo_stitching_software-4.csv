@@ -1,81 +1,40 @@
-<<<<<<< HEAD
-Name,"HDR input (EXR, HDR, Logluv, etc.)",Merging to HDR from LDR images,"HDR output (EXR, HDR, Logluv, etc.)",Tonemapping,Exposure fusion,Notes
-Panoweaver Standard / Professional[4],,,,,,
-i2Align Quickage Express / Pro[5],,,,,,) Pro version only.
-Pixtra PanoStitcher,,,,,,
-Pixtra OmniStitcher,,,,,,
-QuickPHOTO[6],,,,,,
+Name,"Raster images (JPEG, TIFF, etc.)",Flash viewer,Java viewer,QTVR,HTML 5*,Notes
+Panoweaver Standard / Professional,,,,,,Includes free Flash and HTML5 viewer.
+Dermandar,,,,,,Includes free Flash and HTML5 viewer.
+i2Align Quickage Express / Pro,,,,,,
+Pixtra PanoStitcher,,,,,,Includes ActiveX viewer & export.
+Pixtra OmniStitcher,,,,,,Includes ActiveX viewer & export.
+QuickPHOTO,,,,,,
 PhotoFit Harmony / Premium,,,,,,
-PanoramaPlus X4,,,,,,
-PanoramaBuilder 7.0 / PanoramaBuilder 7.0 Pro,,,,,,
+PanoramaPlus X4,,,,,,Flickr export.
+PanoramaBuilder 7.0 / PanoramaBuilder 7.0 Pro,,,,,,(*) Planar viewer.
 360 Panorama Professional,,,,,,
 VRstitcher Fisheye Pro,,,,,,
-COOL 360,,,,,,
+COOL 360[26],,,,,,Embedding of panoramas into executables (.exe) and Microsoft Office files. ActiveX viewer.
+PanaVue ImageAssembler Std. / Pro. / Ent.,,,,,,
 The Panorama Factory v5,,,,,,
 PixMaker Lite / Home / Business,,,,,,
-PTAssembler,,,,,,Exposure fusion with TuFuse or enfuse. Automatic detection of image stacks.
-PTgui / PTgui Pro,,,,,,Exposure fusion with enfuse or TuFuse. *) Pro version only.
-Autopano Pro / Giga / Server,,,,,,Ceased trading September 2018
+PTAssembler,,,,,,
+PTgui / PTgui Pro,,,,,,
+Autopano Pro / Giga / Server,,,,,,
 Autostitch,,,,,,
-Calico Panorama,,,,,,
-Hugin,,,,,,"Exposure fusion with enfuse, automatic detection of image stacks."
+Calico,,,,,,
+Hugin,,,,,,
 3DVista Stitcher 3.0,,,,,,
 D Joiner,,,,,,
 Panorama Maker 6,,,,,,
-Photovista Panorama,,,,,,
-PanoramaStudio,,,,,,
-Stitcher Unlimited 2009[7],,,,,,
+Photovista Panorama,,,,,,IVR export.
+PanoramaStudio / pro[28],,,,,,
+Stitcher Unlimited 2009,,,,,,VRML export.
 ADG Panorama Tools / Pro,,,,,,
-Panorama Composer 3,,,,,,
-Image Composite Editor,,,,,,Supports 16-bit camera raw input via WIC plugins
+Panorama Composer 3,,,,,,Includes ActiveX viewer & export.
+Image Composite Editor,,,,,,"Publish to Photosynth website, Silverlight based viewer."
 Panorama Perfect,,,,,,
 Photoshop,,,,,,
-AIPR Lite 1,,,,,,(*) color mapping around the seams allows to preserve the original photometric properties of the images
-Gigapan Stitch 1.0,,,,,,
+AIPR Lite 1,,,,,,
+Gigapan Stitch 1.0,,,,,,3D viewer in stitcher / Publishing to gigapan.org 2D flash viewer / Embeddable flash viewer
 PanoramaMaker,,,,,,
-Panorama Stitcher,,,,,,
+PanoEdit,,,,,,
 SharpStitch,,,,,,
 Pano2VR / Pano2VR pro,,,,,,
-Name,"HDR input (EXR, HDR, Logluv, etc.)",Merging to HDR from LDR images,"HDR output (EXR, HDR, Logluv, etc.)",Tonemapping,Exposure fusion,Notes
-=======
-Name,Panorama leveling,Vignetting correction,Lens distortion correcting,White balance correction,Exposure correction,Viewpoint adjustment,Notes
-Panoweaver Standard / Professional[8],,,,,,,
-Dermandar,,,,,,,
-i2Align Quickage Express / Pro[9],,,,,,,
-Pixtra PanoStitcher[10],,,,,,,Also chromatic aberration correction if correction parameters provided
-Pixtra OmniStitcher,,,,,,,Also chromatic aberration correction if correction parameters provided
-QuickPHOTO,,,,,,,
-PhotoFit Harmony / Premium[11],,,,,,,
-PanoramaPlus X4[12],,,,,,,
-PanoramaBuilder 7.0 / PanoramaBuilder 7.0 Pro,,,,,,,
-360 Panorama Professional,,,,,,,
-VRstitcher Fisheye Pro[13],,,,,,,
-COOL 360,,,,,,,
-PanaVue ImageAssembler Std. / Pro. / Ent.[14],,,,,,,
-The Panorama Factory v5[15],,,,,,,
-PixMaker Lite / Home / Business,,,,,,,
-PTAssembler[16],,,,,,,
-PTgui / PTgui Pro,,,,,,,
-Autopano Pro / Giga / Server,,,,,,,(*) Giga only.
-Autostitch,,,,,,,
-Calico Panorama,,,,,,,
-Hugin,,,,,,,
-3DVista Stitcher 3.0,,,,,,,
-D Joiner[20],,,,,,,
-Panorama Maker 6,,,,,,,
-Photovista Panorama[21],,,,,,,
-PanoramaStudio / Pro [22],,,,,,,
-Stitcher Unlimited 2009,,,,,,,
-ADG Panorama Tools / Pro,,,,,,,
-Panorama Composer 3[23],,,,,,,
-Image Composite Editor,,,,,,,
-Panorama Perfect[24],,,,,,,
-Photoshop,,,,,,,
-AIPR Lite 1,,,,,,,(*) color mapping about the seams greatly mitigates the effects of vignetting
-Gigapan Stitch 1.0,,,,,,,
-PanoramaMaker,,,,,,,
-Panorama Stitcher,,,,,,,(*) Only for rectilinear lenses
-SharpStitch,,,,,,,
-Pano2VR / Pano2VR pro[25],,,,,,,
-Name,Panorama leveling,Vignetting correction,Lens distortion correcting,White balance correction,Exposure correction,Viewpoint adjustment,Notes
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Name,"Raster images (JPEG, TIFF, etc.)",Flash viewer,Java viewer,QTVR,HTML 5*,Notes

@@ -1,13 +1,8 @@
-<<<<<<< HEAD
-Model,Launch,Fab (nm),Bus interface,Memory,,
-,,,,Size (KiB),Bus type,Bus width (bit)
-Wonder MDA/CGA,1986,1000,PC/XT,64,DRAM,8
-Wonder EGA,1987,,PC/XT,256,,
-Wonder VGA,1987,"1000, 800","PC/XT, ISA","256, 512 1024",,"8, 16"
-=======
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
-Radeon Xpress X200,"Nov. 8, 2004",RS480 (metallo),130,HT,300,"200-400 (DDR), 200 (sideport)",4:2:2:2,600,600,600,0,16-128 system + 16 sideport,1.6-6.4 system + 0.8 sideport,DDR,"64, 128"
-Radeon Xpress 1100 (originally Xpress 200),2005,RS482 (grayskull),110,HT,300,"200-400 (DDR), 400-800 (DDR2)",,,,,,16-128 system,1.6-12.8 system,"DDR, DDR2",
-Radeon Xpress 1150 (originally Xpress 200 for Intel),"March 11, 2005 (Intel), May 23, 2006 (AMD)","RC400, RC410, RS400, RS415, RS485",,"HT, FSB",400,,,800,800,800,,,1.6-12.8,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Codename,Architecture,Fab (nm),Core Clock (MHz),,Config core[a],Fillrate,,Shared Memory,,,Processing power (GFLOPS),API compliance (version),,,TDP (W)[b],APU
+,,,,,Base,Turbo,,Texture (GT/s),Pixel (GP/s),Bus width (bit),Bus type,Bandwidth (GB/s),,Direct3D,OpenGL[c],OpenCL,,
+Radeon HD 7310[28],"June 6, 2012",Ontario,TeraScale 2,40,500,N/A,80:8:4,4.00,2.00,64,DDR3-1066,8.53,80,11.3 (11_0),4.5,1.2,18,E2-1200
+Radeon HD 7340[28],,,,,523,680,,5.44,2.72,,DDR3-1333,10.66,83.6–108.8,,,,,E2-1800
+Radeon HD 7480D,"June 1, 2012",Scrapper,TeraScale 3,32,723,N/A,128:8:4,11.6,2.9,128,DDR3-1600,25.6,185,,,,65,"A4-4000, A4-5300"
+Radeon HD 7540D,,,,,760,,192:12:4,Unknown,,,DDR3-1866,29.9,292,,,,,A6-5400K
+Radeon HD 7560D,,Devastator,,,,,256:16:4,,389,,,,65–100,,,,"A8-5500, A8-5600K",
+Radeon HD 7660D,,,,,760,800,384:24:8,16.2,2.7,,,,,,,,584–614,"A10-5700 (760 MHz), A10-5800K (800 MHz)"

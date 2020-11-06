@@ -1,12 +1,4 @@
 ,Trident,Gecko,WebKit,KHTML,Presto,Prince XML,Antenna House
-<<<<<<< HEAD
 XML Signature[spec 23],No,No[g 10],No,No,No,No,No
 XML Encryption[spec 24],,No,,,,,
 XML Key Management[spec 25],,,,,,,
-=======
-XPath 1.0[spec 13],Yes,1.8,Yes,4.8,2.0,?,Depends[a 1]
-XPath 2.0[spec 14],No,No[g 6],?,?,?,?,Depends[a 1]
-XPath 3.0[spec 15],?,?,?,?,?,?,?
-XPath 3.1[spec 16],?,?,?,?,?,?,?
-XQuery[spec 17],?,No[g 7],No[w 5],?,No,?,No
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

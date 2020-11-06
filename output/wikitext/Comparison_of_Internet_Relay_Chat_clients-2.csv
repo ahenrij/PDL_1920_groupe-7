@@ -1,78 +1,37 @@
-<<<<<<< HEAD
-Client,"Windows 7, Vista","XP, 2000",NT 4.0,NT 3.x,"Me, 98",95,3.1x,ReactOS,macOS (Intel/PPC),OS 9,OS 8,System 7 (PPC/68k),"BeOS, Haiku","OS/2, eCS, ArcaOS",AmigaOS (68k),"AmigaOS 4, MorphOS (PPC)",DOS
-Bersirc,,,,,,,,,,,,,,,,,
-BitchX,Requires Cygwin[29][30]name=bitchxinstallgroup=Note,,,,,,,,,,,,,,,,
-ChatZilla,,,,,,,,,,,,,,,,,
-Colloquy,,,,,,,,,,,,,,,,,
-degesch,,,,,,,,,,,,,,,,,
-ERC,,,,,,,,,,,,,,,,,
-HexChat,,,,,,,,,,,,,,,,,
-HydraIRC,,,,,,,,,,,,,,,,,
-IceChat,,,,,,,,,,,,,,,,,
-IRCCloud,,,,,,,,,,,,,,,,,
-ircII,,,,,,,,,,,,,,,,,
-IRCjr,,Requires SwsVpkt[31]name=swsvpktgroup=Note,,,,,,,,,,,,,,,
-Ircle,,,,,,,,,,,,,,,,,
-Irssi,,,,,,,,,,,,,,,,,
-jIRCii,,,,,,,,,,,,,,,,,
-KiwiIRC,,,,,,,,,,,,,,,,,
-Konversation,,,,,,,,,,,,,,,,,
-KVIrc,,,,,,,,,,,,,,,,,
-LeafChat,,,,,,,,,,,,,,,,,
-LimeChat,,,,,,,,,Requires RubyCocoa 1.0.0 or latername=rubycocoagroup=Note,,,,,,,,
-Linkinus,,,,,,,,,,,,,,,,,
-Mibbit,,,,,,,,,,,,,,,,,
-mIRC,,,,,,,,,,,,,,,,,
-Nettalk,,,,,Does not support Windows 95 or Windows 98[35]name=nowin95group=Note,,,,,,,,,,,,
-Opera,,,,,,,,,,,,,,,,,
-PIRCH,,,,,,,,,,,,,,,,,
-PJIRC,,,,,,,,,,,,,,,,,
-Quassel,,,,,,,,,,,,,,,,,
-qwebirc,,,,,,,,,,,,,,,,,
-rIRC,,,,,,,,,,,,,,,,,
-rcirc,,,,,,,,,,,,,,,,,
-Scrollback,,,,,,,,,,,,,,,,,
-Smuxi,,,,,,,,,,,,,,,,,
-Snak,,,,,,,,,,,,,,,,,
-Visual IRC,,,,,,,,,,,,,,,,,
-WeeChat,,,,,,,,,,,,,,,,,
-Client,"Windows 7, Vista","XP, 2000",NT 4.0,NT 3.x,"Me, 98",95,3.1x,ReactOS,OS X (Intel/PPC),OS 9,OS 8,System 7 (PPC/68k),"BeOS, Haiku","OS/2, eCS",AmigaOS (68k),"AmigaOS 4, MorphOS (PPC)",DOS
-=======
-Client,CTCP,DCC,IPv6,SSL,TLS,DANE,OCSP,CRL,SASL,OTR
-Bersirc,,,,,,,,,,
-BitchX,,,,,,,,,,
-ChatZilla,,,,,,,,,script,
-Colloquy,,,,,,,,,,
-degesch,,,,,,,,,,
-DMDirc,,,,,,,,,,
-ERC,,,,,,,,,group=Notepatch,
-HexChat,,,,,,,,,,group=Noteplugin
-HydraIRC,,,,,,,,,,
-IceChat,,,,,,,,,,
-IRCCloud,,,,,,,,,,
-ircII,,,,,,,,,,
-IRCjr,,,,,,,,,,
-Ircle,,,,,,,,,,
-Irssi,,,,,,,,,,
-jIRCii,,,,,,,,,,
-KiwiIRC,,,,,,,,,,
-Konversation,,,,,,,,,,
-KVIrc,,,,,,,,,,
-LimeChat,,,,,,,,,,
-Linkinus,,,,,,,,,,
-Mibbit,,group=NoteProtocol_support_Mibbit_Agroup=Notensuccess,,,,,,,,
-mIRC,,,,,,,,,,
-Nettalk,,,,,,,,,,
-Opera,,,,,,,,,,
-PIRCH,,,,,,,,,,
-PJIRC,,,,,,,,,,
-Quassel,,,,,,,,,,
-qwebirc,,,,,,,,,,
-rcirc,,,,,,,,,,
-Scrollback,,,,,,,,,,
-Smuxi,,,,,,,,,,
-Snak,,,,,,,,,,
-Visual IRC,,,,,,,,,,
-WeeChat,,,,,,,,,,group=Noteplugin
-Client,CTCP,DCC,IPv6,SSL,TLS,DANE,OCSP,CRL,SASL,OTR
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Client,Multi-server,UTF-8,Proxy server,irc:// URI scheme,Automatic updates,Scripting language
+Bersirc,,,,,,
+BitchX,,,,,,Enhanced IrcII script
+ChatZilla,,,,,,JavaScript
+Colloquy,,,,,group=NoteFeatures_Colloquy_(IRC_client)_A,"AppleScript, Cocoa, F-Script, JavaScript, Python"
+degesch,,,,,,Lua
+DMDirc,,,,,,"Custom Actions system, Java plugins"
+ERC,,,group=NoteERC_Proxy_Support,,group=NoteERC_Auto_Updates,Emacs Lisp
+HexChat,,,,,,"Perl, Python, Tcl, Luagroup=NoteFeatures_HexChat_A[Note 4][Note 4][./Comparison_of_Internet_Relay_Chat_clients#cite_note-Features_HexChat_A-88 [Note 4]], JavaScript, C, C++, and via D-Bus."
+HydraIRC,,,,,,
+IceChat,,,,,,VBScript
+ircII,,group=NoteFeatures_ircII_A,,,,IrcII script
+IRCjr,,,,,,
+IRCCloud,,,,,,JavaScript
+Ircle,,,,,,AppleScript
+Irssi,,,,,,Perl
+jIRCii,,,,,,Sleep
+KiwiIRC,,,,,,"JavaScript, Node.js"
+Konversation,,,,,,"Shell script, Ruby, Python, Perl, Java, C++, C#, JavaScriptgroup=NoteFeatures_Konversation_A[Note 6][Note 6][./Comparison_of_Internet_Relay_Chat_clients#cite_note-Features_Konversation_A-90 [Note 6]]"
+KVIrc,,,,,,"KVS (custom), Perl, Python, C++"
+LeafChat,,,,,,Java
+LimeChat,,,,,,
+Linkinus,,,,,,"AppleScript, Cocoa"
+Mibbit,,,,,,
+mIRC,,,,,group=NotemIRC_Updates,mIRC script
+Nettalk,,,SOCKS,,,"VBScript, custom"
+Opera,,,,,,
+PIRCH,,,,,,
+PJIRC,,,,,,"Partial, JavaScript"
+Quassel,,,,,,
+qwebirc,,,,,,
+rcirc,,,,,,Emacs Lisp
+Smuxi,,,,,,
+Snak,,,,,,"AppleScript, IrcII script"
+Visual IRC,,,,,,Versus
+WeeChat,,,,,,"C, Perl, Python, Ruby, Lua, Tcl, Scheme (Guile)"
+Client,Multi-server,UTF-8,Proxy server,irc:// URI scheme,Automatic updates,Scripting language

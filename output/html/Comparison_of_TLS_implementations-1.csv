@@ -1,35 +1,16 @@
-<<<<<<< HEAD
-Implementation,secp160k1 (15)[81],secp160r1 (16)[81],secp160r2 (17)[81],secp192k1 (18)[81],secp192r1 prime192v1 NIST P-192 (19)[81],secp224k1 (20)[81],secp224r1 NIST P-244 (21)[81],secp256k1 (22)[81],secp256r1 prime256v1 NIST P-256 (23)[81],secp384r1 NIST P-384 (24)[81],secp521r1 NIST P-521 (25)[81],arbitrary prime curves (0xFF01)[81][151],arbitrary char2 curves (0xFF02)[81][151]
-Botan,No,No,No,No,No,No,No,No,Yes,Yes,Yes,No,No
-BoringSSL,No,No,No,No,No,No,Yes,No,Yes,Yes,Yes (disabled by default),No,No
-GnuTLS,No,No,No,No,Yes,No,Yes,No,Yes,Yes,Yes,No,No
-JSSE,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
-LibreSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
-MatrixSSL,No,No,No,No,Yes,No,Yes,No,Yes,Yes,Yes,No,No
-Mbed TLS,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
-NSS,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
-OpenSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
-RSA BSAFE,No,No,No,No,Yes,No,Yes,No,Yes,Yes,Yes,No,No
-"SChannel Vista/2008, 7/2008R2, 8/2012, 8.1/2012R2, 10",No,No,No,No,No,No,No,No,Yes,Yes,Yes,No,No
-Secure Transport,No,No,No,No,Yes,No,No,No,Yes,Yes,Yes,No,No
-wolfSSL,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
-Erlang/OTP SSL application,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No
-Implementation,secp160k1 (15),secp160r1 (16),secp160r2 (17),secp192k1 (18),secp192r1 prime192v1 NIST P-192 (19),secp224k1 (20),secp224r1 NIST P-244 (21),secp256k1 (22),secp256r1 prime256v1 NIST P-256 (23),secp384r1 NIST P-384 (24),secp521r1 NIST P-521 (25),arbitrary prime curves (0xFF01),arbitrary char2 curves (0xFF02)
-=======
-Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine
-Botan,No,No,No,No,Partial
-cryptlib,No,No,No,No,No
-GnuTLS,Yes,No,No,No,No
-JSSE,No,No,Yes,No,No
-LibreSSL,No,No,No,No,No[223]
-MatrixSSL,No,No,No,Yes,Yes
-Mbed TLS,No,No,No,No,No
-NSS,No,No,No,No,No
-OpenSSL,Yes,Yes,No,No,Yes
-RSA BSAFE,No,No,No,No,No
-SChannel,No,No,Yes,No,No
-Secure Transport,No,No,No,Yes,No
-wolfSSL,Yes,Yes,Partial,No,No
-Erlang/OTP SSL application,No,No,No,No,Yes
-Implementation,/dev/crypto,af_alg,Windows CSP,CommonCrypto,OpenSSL engine
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Implementation,TPM support,Hardware token support,Objects identified via
+Botan,Partial[186],PKCS11,
+cryptlib,No,PKCS11,User-defined label
+GnuTLS,Yes,PKCS11,RFC 7512 PKCS #11 URLs[223]
+JSSE,No,"PKCS11 Java Cryptography Architecture, Java Cryptography Extension",
+LibreSSL,Yes,PKCS11 (via 3rd party module),Custom method
+MatrixSSL,No,PKCS11,
+Mbed TLS,No,PKCS11 (via libpkcs11-helper) or standard hooks,Custom method
+NSS,No,PKCS11,
+OpenSSL,Yes,PKCS11 (via 3rd party module)[224],RFC 7512 PKCS #11 URLs[223]
+RSA BSAFE Micro-Edition Suite,No,PKCS11 (via 3rd party module),User-defined label
+RSA BSAFE SSL-J,No,No,
+SChannel,No,Microsoft CryptoAPI,"UUID, User-defined label"
+Secure Transport,,,
+wolfSSL,Yes,PKCS11,
+Implementation,TPM support,Hardware token support,Objects identified via

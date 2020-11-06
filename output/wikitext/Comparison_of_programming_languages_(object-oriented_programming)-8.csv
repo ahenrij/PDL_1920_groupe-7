@@ -1,64 +1,26 @@
-<<<<<<< HEAD
-,read-write,read-only,write-only
-ABAP Objects,colspan=3 ,,
-APL (Dyalog),:Property Bar ? result ? Get instructions ? ? Set arguments instructions ? :EndProperty Bar,:Property Bar ? result ? Get instructions ? :EndProperty Bar,:Property Bar ? Set arguments instructions ? :EndProperty Bar
-C++ (STL),colspan=3 ,,
-C#,type Bar { get { instructions ... return value; } set { instructions } },type Bar { get { instructions ... return value; } },type Bar { set { instructions } }
-D,@property type bar() { instructions ... return value; } @property type bar(type value) { instructions ... return value; },@property type bar() { instructions ... return value; },@property type bar(type value) { instructions ... return value; }
-eC,property type Bar { get { instructions ... return value; } set { instructions } },property type Bar { get { instructions ... return value; } },property type Bar { set { instructions } }
-Java,colspan=3 ,,
-Objective-C 2.0 (Cocoa),@property (readwrite) type bar; and then inside @implementation - (type)bar { instructions } - (void)setBar:(type)value { instructions },@property (readonly) type bar; and then inside @implementation - (type)bar { instructions },
-Swift,var bar : type { get { instructions } set«(newBar)» { instructions } },var bar : type { instructions },
-Eiffel,feature -- Access x: TYPE assign set_x feature -- Settings set_x (a_x: like x) do instructions ensure x_set: verification end,,
-Python,"def setBar(self, value): Tab instructions def getBar(self): Tab instructions Tab return value bar = property(getBar, setBar)[33]",def getBar(self): Tab instructions Tab return value bar = property(getBar),"def setBar(self, value): Tab instructions bar = property(fset = setBar)"
-Visual Basic .NET,Property Bar() As type Get instructions Return value End Get Set (ByVal Value As type) instructions End Set End Property,ReadOnly Property Bar() As type Get instructions Return value End Get End Property,WriteOnly Property Bar() As type Set (ByVal Value As type) instructions End Set End Property
-Xojo,ComputedProperty Bar() As type Get instructions Return value End Get Set (ByVal Value As type) instructions End Set End ComputedProperty,ComputedProperty Bar() As type Get instructions Return value End Get End ComputedProperty,ComputedProperty Bar() As type Set (value As type) instructions End Set End ComputedProperty
-PHP,"function __get($property) { switch ($property) { case ,function __get($property) { switch ($property) { case ,"function __set($property, $value) { switch ($property) { case 
-Perl,sub Bar { my $self = shift; if (my $Bar = shift) { # setter $self->{Bar} = $Bar; return $self; } else { # getter return $self->{Bar}; } },sub Bar { my $self = shift; if (my $Bar = shift) { # read-only die "Bar is read-only\n"; } else { # getter return $self->{Bar}; } },sub Bar { my $self = shift; if (my $Bar = shift) { # setter $self->{Bar} = $Bar; return $self; } else { # write-only die "Bar is write-only\n"; } }
-Raku,colspan=3 ,,
-Ruby,def bar instructions expression resulting in return value end def bar=(value) instructions end,def bar instructions expression resulting in return value end,def bar=(value) instructions end
-Windows PowerShell,Add-Member «-MemberType »ScriptProperty «-Name »Bar «-Value »{ instructions ... return value } «-SecondValue »{ instructions } -InputObject variable,Add-Member «-MemberType »ScriptProperty «-Name »Bar «-Value »{ instructions ... return value} -InputObject variable,Add-Member «-MemberType »ScriptProperty «-Name »Bar -SecondValue { instructions } -InputObject variable
-OCaml,colspan=3 ,,
-F#,member this.Bar with get() = expression and set(value) = expression,member this.Bar = expression,member this.Bar with set(value) = expression
-JavaScript (ES6),get bar(«parameters») { instructions ... return value}set bar(«parameters») { instructions },get bar(«parameters») { instructions ... return value},set bar(«parameters») { instructions }
-COBOL,METHOD-ID. GET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. return-var declaration PROCEDURE DIVISION RETURNING return-var. instructions END METHOD. METHOD-ID. SET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. value-var declaration PROCEDURE DIVISION USING value-var. instructions END METHOD.,METHOD-ID. GET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. return-var declaration PROCEDURE DIVISION RETURNING return-var. instructions END METHOD.,METHOD-ID. SET PROPERTY bar. DATA DIVISION. LINKAGE SECTION. value-var declaration PROCEDURE DIVISION USING value-var. instructions END METHOD.
-Cobra,pro bar «as type» Tab get TabTab instructions TabTab return value Tab set TabTab instructions,get bar «as type» Tab instructions Tab return value,set bar «as type» Tab instructions
-ISLISP,colspan=3 ,,
-=======
-,class,protocol,namespace
-ABAP Objects,class name definition «inheriting from parentclass». «interfaces: interfaces.» method_and_field_declarations endclass. class name implementation. method_implementations endclass.,interface name. members endinterface.,
-APL (Dyalog),":Class name «:parentclass» «,interfaces» members :EndClass",:Interface name members :EndInterface,:Namespace name members :EndNamespace
-C++ (STL),class name« : public parentclasses[5]» { members };,,namespace name { members }
-C#,"class name« : «parentclass»«, interfaces»» { members }",interface name« : parentinterfaces» { members },
-D,,,module name; members
-eC,class name« : base class» { «default member values assignments» «members» },,namespace name;
-Java,class name« extends parentclass»« implements interfaces» { members },interface name« extends parentinterfaces» { members },package name; members
-PHP,,,namespace name; members
-Objective-C,@interface name« : parentclass»[6]«< protocols >» { instance_fields } method_and_property_declarations @end @implementation name method_implementations @end[7],@protocol name«< parentprotocols >» members @end,[8]
-Swift,"class name« : «parentclass»«, protocols»» { members }",protocol name« : parentprotocols» { members },
-Python,class name«(parentclasses[5])»: Tab members,[9],"__all__ = [ member1,member2,... ]"
-Visual Basic .NET,Class name« Inherits parentclass»« Implements interfaces» members End Class,Interface name« Inherits parentinterfaces» members End Interface,Namespace name members End Namespace
-Xojo,Class name« Inherits parentclass»« Implements interfaces» members End Class,Interface name« Inherits parentinterfaces» members End Interface,Module name members End Module
-Eiffel,class name« inherit parentclasses[5]» members end,colspan=2 ,
-Perl,package name; «@ISA = qw(parentclasses[5]);» members 1;,,package name; members
-Raku,class name «is parentclass «is parentclass ...[5]»» «does role «does role ...»» { members },role name «does role «does role ...»» { members },module name { members }
-Ruby,class name« < parentclass» members end,,module name members end
-Windows PowerShell,colspan=3 ,,
-OCaml,class name «parameters» = object «(self)» «inherit parentclass «parameters» «inherit parentclass «parameters» ...[5]»» members end,,module name members
-F#,type name«(parameters)» «as this» = class «inherit parentclass«(parameters)» «as base»» members «interface interface with implementation «interface interface with implementation ...»» end,type name = interface members end,namespace name members
-Smalltalk,[10],,[11]
-JavaScript (ES6),class name «extends parentclass» { members },,
-Object Pascal (Delphi),"<poem>ClassName = Class «(ClassParent, Interfaces)» private // Private members(include Methods and Fields) public // Public members protected // Protected members published // Published members end;</poem>",,package name; members
-Scala,class ConcreteClass(constructor params)
-extends ParentClass
-with Trait1 with Trait2 with Trait2 {
-// members
-},trait TraitName
-extends OtherTrait1
-with OtherTrait2 with OtherTrait3 {
-// members
-},package name
-COBOL,CLASS-ID. name« INHERITS« FROM» parentclasses». FACTORY« IMPLEMENTS interfaces». class-members END FACTORY. OBJECT« IMPLEMENTS interfaces». instance-members END OBJECT. END CLASS name.,INTERFACE-ID. name« INHERITS« FROM» interfaces». members END INTERFACE name.,
-Cobra,class name «inherits parentclass» «implements interfaces» Tab members,interface name «inherits parentinterfaces» Tab members,namespace name Tab members
-ISLISP,(defclass name (base-class) ((x :initform 0 :accessor get-x :initarg x)) (:abstractp nil)),,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,public,private,protected,friend
+ABAP Objects,public section.[21] data field type type.,private section.[21] data field type type.,protected section.[21] data field type type.,[22]
+APL (Dyalog),:Field Public field «? value»,:Field «Private» field «? value»,,
+C++ (STL),public: type field;,private: type field;,protected: type field;,[23]
+C#,public type field «= value»;,private type field «= value»;,protected type field «= value»;,internal type field «= value»;
+D,,,,package type field «= value»;
+Java,,,protected type field «= value»;,type field «= value»;
+eC,public type field;,private type field;,,
+Eiffel,feature field: TYPE,feature {NONE} field: TYPE,feature {current_class} field: TYPE,feature {FRIEND} field: TYPE
+Objective-C,@public type field;,@private type field;,@protected type field;,@package type field;
+Swift,colspan=4 ,,,
+Smalltalk,colspan=2 ,[24],,
+Python,self.field = value[25],,colspan=2 ,
+Visual Basic .NET,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,Friend field As type «= value»
+Xojo,Public field As type «= value»,Private field As type «= value»,Protected field As type «= value»,
+PHP,public $field «= value»;,private $field «= value»;,protected $field «= value»;,
+Perl,$self->{field} = value;[25],colspan=3 ,,
+Raku,has« type »$.field« is rw»,has« type »$!field,colspan=2 ,
+Ruby,colspan=2 ,@field = value[25],,
+Windows PowerShell,Add-Member «-MemberType »NoteProperty «-Name »Bar «-Value »value -InputObject variable,colspan=3 ,,
+OCaml,colspan=2 ,val «mutable» field = value,rowspan=2 ,
+F#,,let «mutable» field = value,,
+JavaScript,this.field = value this["field"] = value[25],,,
+COBOL,,level-number field clauses.[27],,
+Cobra,var field «as type» «= value»,var __field «as type» «= value»,var _field «as type» «= value»,
+ISLISP,(field :initform value :accessor accessor-name :initarg keyword),,,

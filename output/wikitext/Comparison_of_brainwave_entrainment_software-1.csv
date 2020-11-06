@@ -1,9 +1,9 @@
-<<<<<<< HEAD
 Software,Version,Operating systems,Developer,License
 BeeOne SMOD/HMS,3.1,Windows,Hemi-Synths Explorers,Proprietary
 Binaural Beethoven,3.1.4,iOS,Tomáš Baculák,Proprietary
 Brain Equalizer,3.7.0,iOS,Tomáš Baculák,Proprietary
 BrainWave Generator,3.1,Windows,Noromaa Solutions Oy.,Proprietary
+BrainWaveProducer,1.0,Windows,SaschArt,Proprietary
 Gnaural,1.0.20100707,"FreeBSD, Linux, Mac OS X, Windows",gnaural,GPL
 BrainIgniter Player,6.0,Windows,Volition,Proprietary
 Neuro Entrainment,2.0,Android,Tensai,Proprietary
@@ -16,22 +16,3 @@ Isochronic Tone Generator,1.8,iOS,CMLStudio,Proprietary
 Lux VST Brainwave Entrainment Instrument,1.1,Windows,Steve Duell,GPL
 Neuro Sequencer Pro,1.7,Windows,isone,Proprietary
 SHARM Studio 5,5.3.5,Windows,CyberTeam Ltd.,Proprietary
-=======
-Software,Networkable,Headphone-free sessions,Background noise,"Embed audio (sounds, music, hypnosis)",Volume modulation for embedded audio,Export as sound file,User-created sessions,Pre-made sessions
-BeeOne SMOD/HMS,,,,,,,,
-Brain Equalizer,,,,,,,,
-Binaural Beethoven,,,,,,,,
-BrainWave Generator,,,",,,,,
-Gnaural,,,,,,",,
-BrainIgniter Player,,,",,,,,
-Neuro Entrainment,,,,,,,,
-Neuro-Programmer 3,,,",,,",,
-Mind WorkStation,,,",,,",,
-SBaGen,,,,",,",,
-Brainwave Studio,,,,,,,,
-Discord,,,",",,",,
-Isochronic Tone Generator,,,,,,,,
-Lux VST Brainwave Entrainment Instrument,,,,,,,,
-Neuro Sequencer Pro,,,,,,",,
-SHARM Studio 5,,,",",,",,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

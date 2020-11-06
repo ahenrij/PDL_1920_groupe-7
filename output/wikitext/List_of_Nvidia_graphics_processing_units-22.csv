@@ -1,22 +1,8 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
-GeForce 920M,"March 12, 2015",GK208,28,PCIe 3.0 ×16,384:32:8 (2 SMX),954,,1800,7.6,30.5,2,14.4,DDR3,64,12 (11_0),4.5,1.2,733,33,
-GeForce 930M,,GM108,,,384:24:8 (3 SMM),928,941,,7.4,22.3,,,,,,,,713,29[156],
-GeForce 940M,,,,,,1072,1176,2000,8.6,25.7,,16,,,,,,823,36[157],
-GeForce 940MX[158],"June 28, 2016",GM107,,,512:32:8 (4 SMM),795,861,5000,6.9,27.6,,40,GDDR5,,,,,882,23,
-GeForce GTX 950M,"March 12, 2015",,,,640:40:16 (5 SMM),914,rowspan="2" ,,14.6,36.6,"2, 4",80,,128,,,,1170,,Similar core config to GTX 750 Ti (GM107-400-A2)
-,,,,,,,2000,32,,,,DDR3,55[159],,,,,,,
-GeForce GTX 960M,,,,,,1097,1176,5000,17.5,43.8,,80,GDDR5,,,,,1403,65[160],
-GeForce GTX 965M[161],"January 5, 2015",GM204,,,1024:64:32 (8 SMM),944,,,30.2,60.4,,,,,12 (12_1),,,1933,60[162],Similar core config to GTX 960 (GM206-300)
-GeForce GTX 970M[163],"October 7, 2014",,,,1280:80:48 (10 SMM),,993,,44.4,73.9,"3, 6",120,,192,,,,2365,75,Similar core config to GTX 960 OEM (GM204)
-GeForce GTX 980M[164],,,,,1536:96:64 (12 SMM),1038,1127,,66.4,99.6,"4, 8",160,,256,,,,3189,100,Similar core config to GTX 970 (GM204-200) with one SMM disabled
-GeForce GTX 980[165],"September 22, 2015",,,,2048:128:64 (16 SMM),1064,,7010,68.1,136.2,8,224,,,,,,4358,"165, oc to 200",Similar to Desktop GTX 980
-Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
-,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
-=======
-Model,Launch,Code name,Process,Transistors (billion),Die size (mm2),Core configname=CoreConfig,Bus Interface,L2 Cache (MB),Clock speeds,,,Memory,,,,Fillratename=PerfValues,,Processing power (GFLOPS)name=PerfValues,,,,TDP (Watts),NVLink Support,Release price (USD),
-,,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Pixel (GP/s)name=PixelFillrate,Texture (GT/s)name=TextureFillrate,Single precision,Double precision,Half precision,Tensor compute + Single precision,,,MSRP,Founders Edition
-Nvidia TITAN V[96],"December 7, 2017",GV100-400-A1,TSMC 12FFN,21.1,815,5120:320:96:640 (80) (6),PCIe 3.0 x16,4.5,1200,1455,1700,12,652.8,HBM2,3072,153.6 186.2,384.0 465.6,12?288.0 14?899.2,6?144.0 7?449.6,24?576.0 29?798.4,110?592.0 134?092.8,250,,$2999,
-Nvidia TITAN V CEO Edition[97][98],"June 21, 2018",GV-100-???-A1,,,,5120:320:128:640 (80) (6),,6,,,,32,870.4,,4096,,,,,,,,,colspan="2" ,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[200][201],,Supported API version,,,TBP (Watts),Notes
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,CUDA,,
+Quadro K420,GK107,28,PCIe 2.0 ×16,780,780,1800,192:16:16 (1 SMX),12.48,12.48,1024 2048[205],29,DDR3,128,299.52,12.48,11.0,4.6,3.0,41,
+Quadro K620,GM107-850,,,1000,1000,900 (1800),384:24:16 (3 SMM),16.0,24.0,2048,28.8,,,768.0,24.0,12.0,,5.0,45,6.3" Card
+Quadro K1200,GM107-860,,,954,,1253,512:32:16 (4 SMM),15.3,30.5,4096,80.2,GDDR5,,1083,,,,,,7.97" Card
+Quadro K2200,GM107-875-A2[206],,,1046,1046,1253 (5012),640:40:16 (5 SMM),16.7,41.8,,80.2,,,1338.9,41.8,,,,68,
+Quadro K4200,GK104,,,780,780,1350 (5400),1344:112:32 (7 SMX),24.96,87.36,,172.8,,256,2096.64,87.36,11.0,,3.0,105,9.5" Card
+Quadro K5200,GK110B,,PCIe 3.0 ×16,650,650,1500 (6000),2304:192:32 (12 SMX),20.8,124.8,8192,192,,,2995.2,124.8,,,3.5,150,10.5" Card

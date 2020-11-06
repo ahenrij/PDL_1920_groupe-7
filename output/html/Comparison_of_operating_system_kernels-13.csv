@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-Kernel Name,HTTP,FTP,NFS,CIFS,Name server,Transport-layer load balancer,Application-layer load balancer,9P,TLS proxy,WAF,Memcached server
-Linux kernel,(TUX web server patch),(TUX web server patch),knfsd,(CIFSD available),?,IP Virtual Server,(KTCPVS),(patch available),SOL_TLS[15],(Tempesta FW)[16],(kmemcached)
-DragonFly BSD kernel,No,No,Yes,Yes,?,?,?,No,No,?,?
-FreeBSD kernel,No,No,Yes,No,No,Yes,No,No,No,?,?
-Solaris kernel,?,?,Yes,Yes[17],?,Yes[18],Yes[18],?,KSSL,?,?
-Windows NT kernel,HTTP.sys,?,?,Yes,?,Yes,Yes,No,?,?,?
-XNU,No,No,Yes,No,No,No,No,No,No,?,?
-=======
-Kernel name,Intel,NVIDIA,AMD,ARM,Qualcomm,Imagination Technologies,Broadcom,VeriSilicon
-,Intel HD/Iris Graphics,GeForce/Quadro/Tesla,Radeon,Mali,Adreno,PowerVR,VideoCore4,Vivante
-Linux kernel,Yes,Yes,Yes,Yes,Yes,2D only[36][37],Yes,Etnaviv
-Windows NT kernel,Yes,Yes,Yes,?,"Windows RT, Windows Phone 8.x, Windows 10 Mobile",?,?,?
-XNU,via I/O Kit (macOS only),,,No,No,via I/O Kit (iOS only),No,No
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Kernel Name,"Container (no resource management, no security)",Container (no resource management),Container (resource management),Paravirtualization,Full virtualization,User-space execution,Kernel as Library,Kernel as Kernel Driver,Hypervisor-Enforced Kernel Partitioning
+Linux,chroot,LXC,,"Virtio, Hyper-V (guest only), Xen (guest only), VMI (guest only), kvm-lite, lguest",KVM,UML,(LKL),(coLinux),No
+DragonFly BSD kernel,chroot,jail,,No,No,vkernel,?,?,No
+FreeBSD kernel,chroot,jail,,"Virtio, Xen (guest only)",BHyVe (KVM),?,?,?,No
+NetBSD kernel,chroot,(sysjail (discontinued)),No,Virtio and Xen,No,?,Rump kernel,?,No
+Solaris kernel,chroot,Solaris Containers / Zones,,No,No,No,?,?,No
+Windows NT kernel,"AppContainers, Job Objects, Windows Server Containers",,,Hyper-V,,Project Drawbridge,,No,"Virtual Secure Mode, Device Guard, Credential Guard[14]"
+XNU,chroot,?,?,?,?,?,?,?,No

@@ -1,17 +1,15 @@
-<<<<<<< HEAD
-Model,Launch,Code name,Fab (nm)[2],Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,,Processing power (GFLOPS)
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision
-GeForce 256 SDR,"October 11, 1999",NV10,TSMC 220 nm,AGP 4× PCI,120,166,4:4:4,480,480,480,0,32,2.656,SDR,128,50[4]
-GeForce 256 DDR,"December 13, 1999",,,,,150,,,,,,32 64,4.8,DDR,,
-=======
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[198][199],,Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
-Quadro FX 370,G84,80,PCIe ×16,360,720,1000,16:8:4,1.44,2.88,256,6.4,DDR2,64,34.56,-,10.0,3.3,35,
-Quadro FX 370 LP,G86,,,540,1080,,8:8:4,2.16,4.32,,8,,,25.92,,,,25,DMS-59 for two Single Link DVI
-Quadro FX 470,MCP7A-U,65,PCIe 2.0 ×16 (Integrated),580,1400,800 (system memory),16:8:4,2.32,4.64,Up to 256MB from system memory.,12.8,,128,67.2,,,,30,based on GeForce 9400 mGPU
-Quadro FX 570,G84GL,80,PCIe ×16,460,920,800,16:8:8,3.68,3.68,256,,,,44.1,,,,38,
-Quadro FX 1700,G84GL,,,,,,32:16:8,,7.36,,,,,88.32,,,,42,
-Quadro FX 3700,G92,65,PCIe 2.0 ×16,500,1250,1600,112:56:16,8,28,,51.2,GDDR3,256,420,,,,78,"Stereo display, SLI"
-Quadro FX 4700X2,2× G92,,,,,,2× 128:64:16,2× 8,2× 32,2× 1024,2× 51.2,,2× 256,2× 480,,,,226,
-Quadro VX 200,G92,,,450,1125,,112:56:16,8,28,512,51.2,,256,420,,,,75,"2× Dual-link DVI, S-Video, optimised for Autodesk AutoCAD"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
+,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,
+GeForce 920M,"March 12, 2015",GK208,28,PCIe 3.0 ×16,384:32:8 (2 SMX),954,Unknown,1800,7.6,30.5,2,14.4,DDR3,64,12 (11_0),4.5,1.2,733,33,
+GeForce 930M,,GM108,,,384:24:8 (3 SMM),928,941,,7.4,22.3,,,,,,,,713,29[156],
+GeForce 940M,,,,,,1072,1176,2000,8.6,25.7,,16,,,,,,823,36[157],
+GeForce 940MX[158],"June 28, 2016",GM107,,,512:32:8 (4 SMM),795,861,5000,6.9,27.6,,40,GDDR5,,,,,882,23,
+GeForce GTX 950M,"March 12, 2015",,,,640:40:16 (5 SMM),914,Unknown,,14.6,36.6,"2, 4",80,,128,,,,1170,Unknown,Similar core config to GTX 750 Ti (GM107-400-A2)
+,,,,,,,,2000,,,,32,DDR3,,,,,,55[159],
+GeForce GTX 960M,,,,,,1097,1176,5000,17.5,43.8,,80,GDDR5,,,,,1403,65[160],
+GeForce GTX 965M[161],"January 5, 2015",GM204,,,1024:64:32 (8 SMM),944,Unknown,,30.2,60.4,,,,,12 (12_1),,,1933,60[162],Similar core config to GTX 960 (GM206-300)
+GeForce GTX 970M[163],"October 7, 2014",,,,1280:80:48 (10 SMM),,993,,44.4,73.9,"3, 6",120,,192,,,,2365,75,Similar core config to GTX 960 OEM (GM204)
+GeForce GTX 980M[164],,,,,1536:96:64 (12 SMM),1038,1127,,66.4,99.6,"4, 8",160,,256,,,,3189,100,Similar core config to GTX 970 (GM204-200) with one SMM disabled
+GeForce GTX 980[165],"September 22, 2015",,,,2048:128:64 (16 SMM),1064,Unknown,7010,68.1,136.2,8,224,,,,,,4358,"165, oc to 200",Similar to Desktop GTX 980
+Model,Launch,Code name,Fab (nm),Bus interface,Core config1,Clock speed,,,Fillrate,,Memory,,,,Supported API version,,,Processing power (GFLOPS)2,TBP (Watts),Notes
+,,,,,,Min (MHz),Average (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,OpenCL,,,

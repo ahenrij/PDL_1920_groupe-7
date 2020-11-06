@@ -1,94 +1,75 @@
-,Windows,macOS,Linux,iOS,BSD,Unix,AmigaOS,Other
-Ability Photopaint,Yes,No,No,,No,No,No,No
-ACD Canvas,Yes,Yes[8],No,,No,No,No,No
-ACDSee,Yes,Yes,No,,No,No,No,No
-Acorn Image Editor,No,Yes,No,,No,No,No,No
-Adobe Fireworks*,Yes,Yes,No,,No,No,No,No
-Adobe Photoshop,Yes,Yes,No,Yes (iPad),No,No,No,No
-Adobe Photoshop Lightroom,Yes,Yes,No,,No,No,No,No
-Affinity Photo,Yes,Yes,No,Yes (iPad),No,No,No,No
-Aperture,No,Yes[9],No,,No,No,No,No
-Autodesk SketchBook Pro,Yes,Yes,No,Yes,No,No,No,Android
-Artipic,Yes,Yes,No,,No,No,No,No
-ArtRage,Yes,Yes,No,Yes,No,No,No,Android
-Artweaver,Yes,No,No,,No,No,No,No
-Bibble*,Yes,Yes,Yes,,No,No,No,No
-Black Ink,Yes,No,No,,No,No,No,No
-Bloom Image Editor,Yes,Yes,Yes,,No,No,No,No
-Brush Strokes Image Editor,Yes,No,No,,No,No,No,No
-Capture One,Yes,Yes,No,,No,No,No,No
-Chasys Draw IES,Yes,No,No,,No,No,No,No
-CinePaint,Version 0.17 only,Yes,Yes,,Yes,Yes,No,No
-CodedColor PhotoStudio Pro,Yes,No,No,,No,No,No,No
-Corel PaintShop Pro,Yes,No,No,,No,No,No,No
-Corel Painter,Yes,Yes,No,,No,No,No,No
-Corel Photo-Paint,Yes,No,No,,No,No,No,No
-darktable,Yes,Yes,Yes,,Yes,No,No,Solaris
-Deluxe Paint*,No,No,No,,No,No,Yes,"Atari ST, DOS[10]"
-DigiKam,Yes,Yes,Yes,,Yes,Yes,No,No
-Erdas Imagine,Yes,No,No,,No,Yes,No,No
-Fatpaint,Yes,Yes,Yes,,No,No,No,No
-Fotografix,Yes,No,No,,No,No,No,No
-F-Spot,No,No,Yes,,Yes,No,No,No
-G'MIC,Yes,Yes,Yes,,Yes,Yes,No,No
-GIMP,Yes,Yes,Yes,No[11],Yes,Yes,Needs X11 Cygnix,SkyOS
-GimPhoto,Yes,Yes,Yes,,No,No,No,No
-GIMPshop,Yes,Yes,Yes,,Yes,Yes,No,No
-GNU Paint,No,No,Yes,,Yes,No,No,No
-GrafX2,Yes,Yes,Yes,,Yes,Yes,Yes,"Haiku, MiNT, DOS"
-GraphicConverter,No,Yes,No,,No,No,No,No
-GraphicsMagick,Yes,Yes,Yes,,Yes,No,No,No
-gThumb,No,No,Yes,,Yes,No,No,No
-HDR PhotoStudio,Yes,Yes,No,,No,No,No,No
-Helicon Filter,Yes,No,No,,No,No,No,No
-ImageJ,Yes,Yes,Yes,,Yes,No,No,No
-ImageMagick,Yes,Yes,Yes,,Yes,No,No,No
-iPhoto*,No,Yes,No,,No,No,No,No
-IrfanView,Yes,No,No,,No,No,No,No
-Iridient Developer,No,Yes,No,,No,No,No,No
-Kolourpaint,Yes,No,Yes,,Yes,Yes,No,No
-Krita,Yes,Yes,Yes,,Yes,Yes,No,No
-LazPaint,Yes,Partial[12],Yes,,No,No,No,No
-LiveQuartz,No,Yes,No,,No,No,No,No
-MacPaint*,No,No,No,,No,No,No,Mac OS[13]
-Microsoft Office Picture Manager*,Yes,Yes,No,,No,No,No,No
-Microsoft Paint,Yes,No,No,,No,No,No,No
-Microsoft Photo Editor*,Yes,No,No,,No,No,No,No
-mtPaint,Yes,No,Yes,No,No,No,No,No
-MyPaint,Yes,Yes,Yes,,Yes,Yes,No,No
-OpenCanvas,Yes,No,No,,No,No,No,No
-Paint.NET,Yes,No,Partial[14],,No,No,No,No
-Paint Tool SAI,Yes,No,No,No,No,No,No,No
-PC Paintbrush*,No,No,No,,No,No,No,DOS[15]
-Pencil2D,Yes,Yes,Yes,,Yes,No,No,No
-Phatch,Yes,Yes,Yes,,Yes,No,No,No
-Photogenics,Yes,No,Yes,,No,No,Up to version 5,Pocket PC
-PhotoLine,Yes,Yes,No,,No,No,No,ATARI ST
-PhotoPerfect*,Yes,No,No,,No,No,No,No
-Photos,No,Yes,No,,No,No,No,No
-Photo Raster,Yes,Yes,Yes,,Yes,Yes,No,No
-Picasa*,Yes,Yes,Up to version 3.0,,No,No,No,No
-PicMaster,Yes,No,No,,No,No,No,No
-Pinta,Yes,Yes,Yes,,Yes,Yes,No,No
-PixBuilder Photo Editor,Yes,No,No,,No,No,No,No
-Pixelmator,No,Yes,No,,No,No,No,No
-Pixen,No,Yes,No,,No,No,No,No
-Pixia,Yes,No,No,,No,No,No,No
-PMview,Yes,No,No,,No,No,No,OS/2
-Project Dogwaffle,Yes,No,No,,No,No,No,No
-QFX,Yes,No,No,,No,No,No,DOS 3.3 and up
-Rawstudio,No,Yes,Yes,,Yes,No,No,No
-RawTherapee,Yes,Yes,Yes,,No,No,No,No
-Seashore,No,Yes,No,,No,No,No,No
-Serif PhotoPlus,Yes,No,No,,No,No,No,No
-Shotwell,No,No,Yes,,Yes,No,No,No
-Tux Paint,Yes,Yes,Yes,,Yes,Yes,No,No
-TVPaint,Yes,Yes,Yes,,No,No,Up to version 3.59[16],No
-UFRaw,Yes,Yes,Yes,,Yes,No,No,No
-Ulead PhotoImpact*,Yes,No,No,,No,No,No,No
-Ultimate Paint*,Yes,No,No,,No,No,No,No
-WinImages,Yes,No,No,,No,No,No,No
-Xara Photo & Graphic Designer,Yes,No,No,,No,No,No,No
-XnView,Yes,Yes,Yes,,No,No,No,varying[17]
-XPaint,No,Yes,Yes,,Yes,Yes,No,IBM AIX
-Zoner Photo Studio,Yes,No,No,,No,No,No,No
+,Selection editing,Layers,Alpha Channel,Histogram,Scripting,HDR,Retouching,Resizing,Noise removal,Lens correction,Sized Printing,Sharpening,Color correction,Image library,Plug-in support[18],Non-destructive editing
+Ability Photopaint,Yes,Yes,?,Yes,Yes,No,?,Yes,?,?,?,?,?,?,?,?
+ACD Canvas,Yes,Yes,?,Yes,Yes,No,Yes,Yes,Yes,Yes,?,Yes,?,Yes,No,?
+ACDSee (Win),Yes,Yes,?,Yes,No,No,Yes,Yes,Yes,Yes,?,Yes,Yes,Yes,No,Partial
+Acorn Image Editor,Yes,Yes,?,Yes,Yes,No,Yes,Yes,Yes,No,?,Yes,Yes,No,Yes,Yes
+Adobe Fireworks*,Yes,Yes,?,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,?
+Adobe Photoshop,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes (Through Mini Bridge),Yes,Partial
+Adobe Photoshop Lightroom,Yes,No,?,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Affinity Photo,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+Aperture,Yes,Partial,?,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Autodesk SketchBook Pro,Yes,Yes,Yes,No,No,No,No,Yes,No,No,Yes,No,No,No,No,Yes
+Artipic,Yes,Yes,?,Yes,No,No,Yes,Yes,No,No,Yes,Yes,Yes,No,No,Yes
+ArtRage,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,No,No,?,?,?
+Artweaver,Yes,Yes,?,No,Via plug-in[19],No,Yes,Yes,Yes,?,?,Yes,Yes,No,Yes,?
+Bibble*,Partial,Partial,?,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+Bloom Image Editor,Yes,Yes,?,Yes,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,No,Yes
+Black Ink,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,No,Yes,No,Yes,No,No,Yes
+Brush Strokes Image Editor,Yes,No,?,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+Capture One,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Chasys Draw IES,Yes,Yes,?,Yes,Yes,Partial,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+CinePaint,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,?
+CodedColor PhotoStudio Pro,Yes,Yes,?,Yes,No,?,?,?,?,?,?,?,?,?,?,?
+Corel PaintShop Pro,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+Corel Painter,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,?,?,Yes,Yes,?,Yes,?
+Corel Photo-Paint,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+darktable,No,No,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes
+Deluxe Paint*,No,Partial[20],?,Partial,Yes,No,Yes,Yes,No,No,?,No,No,?,No,?
+DigiKam,No,No,?,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Erdas Imagine,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,?
+Fatpaint,Yes,Yes,?,Yes,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,?
+Fotografix,Yes,Yes,?,No,Partial,No,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,?
+GIMP,Yes,Yes,Yes,Yes,Yes,Via plug-in[21],Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No
+GIMPshop,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,?
+GraphicConverter,Yes,Partial,?,Yes,Yes,No,Yes,Yes,Yes,Via plug-in,Yes,Yes,Yes,Yes,Yes,?
+HDR PhotoStudio,No,No,?,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,?
+Helicon Filter,Partial,No[22],?,Yes,No[23],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,?
+iPhoto*,No,No,?,Yes,Partial[24],No,Yes,Partial,Yes,Partial,Yes,Yes,Yes,Yes,Yes,Yes
+IrfanView,Yes,No,?,Yes,No,No,Via plug-in[25],Yes,No,No,?,Yes,Yes,?,Yes,?
+Iridient Developer,?,Yes,?,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Kolourpaint,Yes,No,?,No,No,No,?,?,?,?,?,?,?,?,?,?
+Krita,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes
+LiveQuartz,Yes,Yes,?,No,No,No,Yes,Yes,Yes,No,?,Yes,Yes,No,No,Partial
+MacPaint*,Yes,No,?,No,No,No,?,?,?,?,?,?,?,?,?,?
+Microsoft Office Picture Manager*,Partial,No,?,No,No,No,No,Yes,No,No,Yes,No,?,No,No,?
+Microsoft Paint,No,No,?,No,No,No,Partial,Yes,No,No,No,No,No,No,No,No
+Microsoft Photo Editor*,Yes,No,?,No,No,No,No,Yes,Yes,No,Yes,Yes,Yes,No,No,?
+mtPaint,Yes,Yes,Yes,No,Yes,No,?,Yes,No,No,No,Yes,Yes,No,No,Yes
+OpenCanvas,Yes,Yes,?,Yes,No,?,Yes,Yes,No,No,Yes,Yes,Yes,No,?,?
+Paint.NET,Yes,Yes,?,Yes,Partial,No,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,No
+Paint Tool SAI,Yes,Yes,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No
+PC Paintbrush*,Yes,No,?,No,No,No,?,?,?,?,?,?,?,?,?,?
+Photogenics,Yes,Yes,?,Yes,?,Yes,?,?,?,?,?,?,?,?,?,?
+PhotoLine,Yes,Yes,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+PhotoPerfect*,Yes,No,?,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes,?
+Photos,No,No,?,Yes,Partial[26],No,Yes,Partial,Yes,Partial,Yes,Yes,Yes,Yes,Yes,Yes
+Photo Raster,Yes,Yes,?,Yes,No,No,Yes,Yes,Yes,No,No,Yes,Yes,No,No,?
+Picasa*,No,No,?,Yes,No,Partial[27],Partial,Partial,No,No,Yes,Yes,Yes,Yes,No,Yes
+PicMaster,Yes,No,?,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,?
+PixBuilder Photo Editor,Yes,Yes,?,Yes,No,No,?,?,?,?,?,?,?,?,?,?
+Pixelmator,Yes,Yes,?,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No
+Pixia,Yes,Yes,?,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes,?,?,Yes,?
+Project Dogwaffle,?,Commercial version,?,Yes,Partial,No,Yes,Yes,?,?,?,Yes,Yes,?,Yes,?
+QFX,Yes,Yes,?,Yes,Yes,?,?,?,?,?,?,?,?,?,Yes,?
+RawTherapee,No,No,?,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+Serif PhotoPlus,Yes,Yes,?,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,?
+Side Effects Houdini,Yes,Yes,?,Yes,Yes,No,Yes,Yes,Yes,No,?,Yes,Yes,No,Yes,?
+Tux Paint,No,No,?,No,No,No,No,No,No,No,No,Yes,No,No,Yes,?
+TVPaint,Yes,Yes,?,Yes,Yes,No,Yes,Yes,?,?,?,?,Yes,?,Yes,?
+Ulead PhotoImpact*,Yes,Yes,?,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?
+Ultimate Paint*,Yes,No,?,Yes,No,No,?,?,?,?,?,?,?,?,?,?
+WinImages,Yes,Yes,?,?,Yes,?,?,?,?,?,?,?,?,?,?,?
+Xara Photo & Graphic Designer,Yes,Yes,?,Yes,No,No,Yes,Yes,Yes,Partial,Yes,Yes,Yes,Yes,Yes,Yes
+XnView,No,Partial,?,Partial,Yes,No,No,Yes,Yes,?,?,Yes,Yes,Yes,Yes,No
+XPaint,Yes,Partial,?,No,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Partial,Yes,No
+Zoner Photo Studio,Yes,Partial[28],?,Yes,No[29],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?

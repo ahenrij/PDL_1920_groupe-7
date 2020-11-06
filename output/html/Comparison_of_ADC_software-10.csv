@@ -1,33 +1,10 @@
-<<<<<<< HEAD
-ADC hub,GUI,CLI,Other,Programming language,Based on
-ADCH++,No,Yes,?,"C++, Lua, Python, Ruby",
-ADCH++ GUI,Yes,No,?,"C++, Python",ADCH++
-DSHub,Yes,Yes,?,"Java, Python",
-FlexHub,Planned,Yes,?,Lua,
-Luadch,No,Yes,?,"C++, Lua",
-Luadch GUI,Yes,No,?,wxLua,
-Nexthub,Yes,No,No,C-Sharp,
-uhub,No,Yes,?,C,
-Erlhub,?,?,?,Erlang,
-Qhub,?,?,?,?,
-Starlet ADC Hub,No,Yes,No,C,
-StarHub,Yes,?,?,Java,
-RusHub,No,Yes,No,C++,
-ADC hub,GUI,CLI,Other,Programming language,Based on
-=======
-ADC client,FOSS,Software license,Active,Last Update
-AirDC++,Yes,GNU GPL,Yes,2019
-AirDC++ Web Client,Yes,"GNU GPL, MIT",Yes,2019
-ApexDC++,Yes,GNU GPL,Yes,2017
-DC++,Yes,GNU GPL,Yes,2018
-jucy,Yes,BSD,Yes,2014
-LinuxDC++,Yes,GNU GPL,No,2011
-EiskaltDC++,Yes,GNU GPL,Yes,2015
-FlylinkDC++,Yes,GNU GPL,Yes,2017
-RSX++,Yes,GNU GPL,No,2011
-TkDC++,Yes,GNU GPL,No,2010
-StrongDC++,Yes,GNU GPL,No,2010
-RevConnect,Yes,GNU GPL,No,2007
-ncdc,Yes,MIT,Yes,2019
-ADC client,FOSS,Software license,Active,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support,Other
+ADCCore,Yes,?,Yes,Tiger tree hash,"TIGR, ADCS",
+DCBouncer,Yes,No,No,Tiger tree hash,"Any clients, hubs",
+DC-Hublink,No,No,No,Tiger tree hash,TIGR,
+DCWatch,Yes,?,"Java, Lua",Tiger tree hash,"TIGR, ADCS",
+Embla,Yes,?,Yes,Tiger tree hash,TIGR,
+FlowLib,Yes,?,Yes,Tiger tree hash,TIGR,
+NetChatLink,No,No,No,Tiger tree hash,TIGR,
+Announcer Bot,Yes,No,No,,"ADCS, OSNR",only Luadch supports OSNR
+Other software,Encryption,IPv6,"Plugin, extendable",Hash algorithms,ADC support,Other

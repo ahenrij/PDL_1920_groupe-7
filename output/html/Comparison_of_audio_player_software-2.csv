@@ -1,62 +1,33 @@
-<<<<<<< HEAD
-Audio player,Windows,macOS,Linux,iOS,Android,BSD Unix,Solaris,Other Unix,DOS
-AIMP,Yes,No,via Wine,No,Yes,via Wine,No,No,No
-Amarok,Yes,beta,Yes,No,No,Yes,Yes,Yes,No
-aTunes,Yes,Yes,Yes,No,No,Yes,Yes,No,No
-Audacious,Yes,No,Yes,No,No,Yes,Yes,Yes,No
-Audion,No,Yes,No,No,No,No,No,No,No
-Banshee,alpha,beta,Yes,No,No,Yes,No,No,No
-cmus,No,Yes,Yes,No,No,Yes,Yes,Yes,No
-Cog,No,Yes,No,No,No,No,No,No,No
-Clementine,Yes,Yes,Yes,No,remote controller only,Yes,Yes,Yes,No
-Ecoute,No,Yes,No,Yes,No,No,No,No,No
-Exaile,Yes,No,Yes,No,No,Yes,No,No,No
-foobar2000,Yes,beta[osnotes 1],via Wine[osnotes 2],Yes,Yes,via Wine[osnotes 2],No,No,No
-Guayadeque Music Player,No,Yes,Yes,Yes,No,No,No,No,No
-Groove Music,Yes,No,No,No,No,No,No,No,No
-iTunes,Yes,Yes,No,Yes,No,No,No,No,No
-JRiver Media Center,Yes,Yes,Yes,remote controller only,Yes,No,No,No,No
-MediaMonkey,Yes,No,No,No,Yes,No,No,No,No
-MPXPLAY,Yes,No,No,No,No,No,No,No,Yes
-Music Player Daemon,cygwin,Yes,Yes,No,No,Yes,Yes,Yes,No
-MusicBee,Yes,No,Partial[15],No,No,No,No,No,No
-Musicmatch Jukebox,Yes,No,No,No,No,No,No,No,No
-musikCube,Yes,Yes,Yes,No,remote control only[16],Yes,No,No,No
-Quod Libet,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No
-Rdio,Yes,Yes,No,Yes,Yes,No,No,No,No
-Rhapsody,Yes,No,Yes,Yes,Yes,No,No,No,No
-Rhythmbox,No,No,Yes,No,No,Yes,Yes,Yes,No
-Sayonara Player,No,No,Yes,No,No,Yes,No,No,No
-Songbird,Yes,Yes,No,No,Yes,No,No,No,No
-Sonique,Yes,No,No,No,No,No,No,No,No
-Spotify,Yes,Yes,Yes,Yes,Yes,No,No,No,No
-Style Jukebox,Yes,No,No,Yes,Yes,No,No,No,No
-Winamp,Yes,Yes,No,No,Yes,No,No,No,No
-XMMS,No,Yes,Yes,No,No,Yes,Yes,Yes,No
-XMPlay,Yes,No,No,No,No,No,No,No,No
-Zinf,Yes,No,Yes,No,No,Yes,Yes,Yes,No
-Audio player,Windows,macOS,Linux,iOS,Android,BSD Unix,Solaris,Other Unix,DOS
-=======
-Audio player,HTTP,"RTSP (RTSPU, RTSPT)","MMS (MMSU, MMST)",Podcasting,Other
-AIMP,Yes,No,Yes,No,No
-Amarok,Yes,Yes,Yes,Yes,UPNP
-Audacious,Yes,No,Yes,No,?
-Audion,Yes,No,No,No,?
-cmus,Yes,No,No,No,?
-Cog,No,No,No,No,?
-foobar2000,Yes,Partial[protocolnotes 1],Yes,Partial[protocolnotes 2],?
-JuK,?,?,?,?,?
-JRiver Media Center,Yes,Yes,Yes,Yes,?
-MediaMonkey,Yes,No,No,Yes[protocolnotes 3],?
-MusicBee,Yes,?,?,Yes,?
-Musicmatch Jukebox,Yes,?,?,?,?
-musikCube,Yes,No,No,?,?
-Music Player Daemon,Yes[22],Yes[23],Yes[24],Yes,Music Player Daemon
-Rhapsody,Yes,Yes,Yes,Yes,?
-Rhythmbox,Yes,Yes,No,Partial[protocolnotes 4],UPNP
-Sayonara Player,Yes,?,?,?,?
-Sonique,Yes,?,?,?,?
-XMMS,Yes,?,?,?,?
-Zinf,Yes,Yes,No,No,?
-Audio player,HTTP,"RTSP (RTSPU, RTSPT)","MMS (MMSU, MMST)",Podcasting,Other
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Audio player,Lossy compression,,,,,,,,,Lossless compression,,,,,
+,MP3,WMA,RealAudio,Vorbis,Musepack,AAC,Dolby AC-3,VQF,Opus,APE,FLAC,ALAC,SHN,WV,WMA L
+AIMP,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes[b],Yes,Yes,Yes,Yes,No,Yes,Yes
+Amarok[c][19][20],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+Audacious,Yes,Yes,No,Yes,Yes,Yes,Yes,?,Yes[d],Yes,Yes,Yes,No,Yes,?
+Audion,Yes,No,No,Yes,No,No,No,?,?,No,No,No,No,No,?
+Banshee,Yes,?,?,Yes,?,?,?,?,?,No,?,?,?,?,?
+cmus,Yes,Yes[d],No,Yes,Yes,Yes,Yes[d],?,Yes[e],Yes[d],Yes,Yes[d],Yes[d],Yes,?
+Cog,Yes,No,No,Yes,Yes,Yes,No,?,?,Yes,Yes,Yes,Yes,Yes,?
+Exaile,Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],?,Yes,Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],?
+foobar2000,Yes,Yes,No,Yes,Yes,Yes,Partial[a],No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+Groove Music,Yes,Yes,No,No,?,Yes,Yes,?,?,?,Yes,?,?,?,?
+JRiver Media Center,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+JuK,Yes,No,No,Yes,Yes,No,No,?,?,Yes,Yes,No,Yes,No,?
+Media Jukebox,Yes[audionotes 1],Yes,Yes,Yes,Yes,Yes,Yes,?,?,Yes,Yes,Yes,Yes,Yes,?
+MediaMonkey,Yes,Yes,No,Yes,Yes,Partial[g],Partial[g],?,No,Yes,Yes,Yes,Partial[a],Partial[a],?
+MPXPLAY,Yes,Yes,No,Yes,Yes,Yes,Yes,?,Partial[a],Yes,Yes,No,No,Yes,?
+Music Player Daemon,Yes,Yes[d],Partial[d],Yes,Yes,Yes,Yes[d],Yes[d],Yes,Yes[d],Yes,Yes,Yes[d],Yes,?
+MusicBee,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes[b],Yes,Yes,Yes,Yes,Yes[b],Yes,Yes
+Musicmatch Jukebox,Yes,Yes,No,No,No,No,No,?,?,No,No,No,No,No,?
+musikCube,Yes,Partial[g],No,Yes,Partial[g],Partial[g],Partial[g],?,?,Yes,Yes,No,No,Partial[g],?
+Quod Libet,Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],?,Yes,Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],?
+Rhapsody,Yes,Yes,Yes,No,No,Yes,No,?,?,No,No,No,No,No,?
+Rhythmbox,Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],?,Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],Yes[f],?
+Sayonara Player,Yes,?,?,Yes,?,?,No,?,Yes,?,Yes,?,?,?,?
+Sonique,Yes,Yes,No,Yes,Partial[g],Partial[g],No,?,?,No,No,No,No,No,?
+Spotify[21],Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No
+Style Jukebox,Yes,Yes,No,No,No,Yes,No,No,No,No,Yes,Yes,No,No,Yes
+Winamp,Yes,Yes,Yes[a],Yes,Yes[a],Yes,?,?,?,?,Yes,?,?,Yes[a],?
+XMMS,Yes,Partial[g],Partial[g],Partial[g],Yes,Yes,No,Yes[a],?,Partial[g],Yes,No,Partial[g],Yes,?
+XMPlay,Yes,Yes[a],Yes[a],Yes,Yes[a],Yes[a],Yes[a],?,Yes[a],Yes[a],Yes[a],Yes[a],Yes[a],Yes[a],?
+Zinf,Yes,No,No,Yes,No,No,No,?,?,No,No,No,No,No,?
+Audio player,MP3,WMA,RealAudio,Vorbis,Musepack,AAC,Dolby AC-3,VQF,Opus,APE,FLAC,ALAC,SHN,WV,WMA L

@@ -1,14 +1,5 @@
-<<<<<<< HEAD
-Model,Released,Codename,Architecture,Fab (nm),Core clock rate (MHz),Config core[a],Fillrate,,Shared memory,,,Processing power (GFLOPS),API compliance (version),,,,Combined TDP[b],,APU
-,,,,,,,Pixel (GP/s),Texture (GT/s),Bandwidth (GB/s),Bus type,Bus width (bit),,Direct3D,OpenGL,OpenCL,Vulkan,Idle (W),Max. (W),
-Radeon HD 6250[152],"November 9, 2010[153]",Wrestler[154],TeraScale 2,40,280–400,80:8:4:2,1.12–1.6,2.24–3.2,8.525,DDR3-1066,64,44.8–64,11.3 (11_0),4.5,1.2,N/A,Unknown,9,"C-30, C-50, Z-60"
-Radeon HD 6290,"January 7, 2011",Ontario,,,276–400,,,,,,,,,,,,,,C-60
-Radeon HD 6310[152],"November 9, 2010[153]",Wrestler[154],,,492,,2.0,4.0,,,,80,,,,,,18,"E-240, E-300, E-350"
-Radeon HD 6320,"August 15, 2011",,,,508–600,,2.032–2.4,4.064–4.8,10.6,DDR3-1333,,82–97,,,,,,,E-450
-=======
-Model (Codename),Release Date,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TDP,Bus interface
-,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,
-Radeon Pro 450 [341][342][343][344][345],October 2016,GCN 4th gen 14 nm,3.0×109 123 mm2,640:40:16 10 CU,725 775,29 31,11.6 12.4,928 992,1/16 SP,GDDR5 128-bit,2,5000,80,35 W,PCIe 3.0 ×16
-Radeon Pro 455 [341][342][343][346],October 2016,,,768:48:16 12 CU,850,40.8,13.6,1305.6,1/16 SP,GDDR5 128-bit,2,5000,80,35 W,
-Radeon Pro 460 [341][342][343][347],October 2016,,,1024:64:16 16 CU,850 910,54.4 58.2,13.6 14.56,1740.8 1863.7,1/16 SP,GDDR5 128-bit,4,5000,80,35 W,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Microarchitecture,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
+FirePro D300[253],"January 18, 2014",Southern Islands,Pitcairn XT GL,28,PCIe 3.0 x16,850,1270,1280:80:32:20,,,2,162.6,PCIe 3.0 x16,256,2176,136,11.1,4.6,1.2,1.1.101,150,
+FirePro D500[254],"January 18, 2014",,Tahiti LE GL,,,725,1270,1536:96:32:24,,,3,243.8,,384,2227,556.8,,,,,274,
+FirePro D700[255],"January 18, 2014",,Tahiti XT GL,,,850,1370,2048:128:32:32,,,6,263,,,3482,870.4,,,,,,

@@ -1,40 +1,30 @@
-<<<<<<< HEAD
-Fields and initialization,Java,C#
-Fields,Yes,Yes
-Constants,Yes,Yes; but no support for constant passed parameters[52]
-Static (class) constructors,Yes,Yes
-Instance constructors,Yes,Yes
-Finalizers/destructors,Yes,Yes
-Instance initializers,Yes,No; can be simulated with instance constructor
-Object initialization,Bottom-up (fields and constructors),Top-down (fields); bottom-up (constructors)
-Object initializers,Yes,Yes
-Collection initializers,No; static varargs methods,Yes
-Array initializers,Yes,Yes
-=======
-Java,C#
-"Type checks and downcasts are injected into client code (the code referencing the generics). Compared to non-generic code with manual casts, these casts will be the same,[69] but compared to compile-time verified code that would not need runtime casts and checks, these operations represent a performance overhead.","C#/.NET generics guarantee type-safety and are verified at compile time, making extra checks/casts are unnecessary at runtime. Hence, generic code will run faster than non-generic (or type-erased) code that require casts when handling non-generic or type-erased objects."
-"Cannot use primitive types as type parameters; instead, the developer must use the wrapper type corresponding to the primitive type. This incurs extra performance overhead by requiring boxing and unboxing conversions as well a memory and garbage collection pressure, as the wrappers will be heap-allocated as opposed to stack-allocated.",Primitive and value types are allowed as type parameters in generic realizations. At runtime code will be synthesized and compiled for each unique combination of type parameters upon first use. Generics that are realized with primitive/value type do not require boxing/unboxing conversions.
-Generic exceptions are not allowed[70] and a type parameter cannot be used in a catch clause[71],Can both define generic exceptions and use those in catch clauses
-Static members are shared across all generic realizations[72] (during type erasure all realizations are folded into a single class),Static members are separate for each generic realization. A generic realization is a unique class.
-Type parameters cannot be used in declarations of static fields/methods or in definitions of static inner classes,No restrictions on use of type parameters
-"Cannot create an array where the component type is a generic realization (concrete parameterized type) Pair<String, String>[] tenPairs = new Pair[10]; //OK","A generic realization is a 1st class citizen and can be used as any other class; also an array component object tenPairs = new Pair<int, string>[10]; // OK"
-"Cannot create an array where the component type is a type parameter, but it is valid to create an Object array and perform a typecast on the new array to achieve the same effect. public class Lookup<K, V> {
-    public V[] getEmptyValues(K key) {
-        return (V[]) new Object[0]; // OK
-    }
-}
- When a generic type parameter is under inheritance constraints the constraint type may be used instead of Object public class Lookup<K, V extends Comparable<V>> {
-    public V[] getEmptyValues(K key) {
-        return (V[]) new Comparable[0];
-    }
-}","Type parameters represent actual, discrete classes and can be used like any other type within the generic definition. public class Lookup<K, V> {
-    public V[] GetEmptyValues(K key) {
-        return new V[0]; // OK
-    }
+keyword,"feature, example usage"
+"checked, unchecked","In C#, checked statement blocks or expressions can enable run-time checking for arithmetic overflow.[44]"
+"get, set","C# implements properties as part of the language syntax with their optional corresponding get and set accessors, as an alternative for the accessor methods used in Java, which is not a language feature but a coding-pattern based on method name conventions."
+goto,"C# supports the goto keyword. This can occasionally be useful, for example for implementing finite state machines or for generated code, but the use of a more structured method of control flow is usually recommended (see criticism of the goto statement). Java does not support the goto statement (but goto is a reserved word). However, Java does support labeled break and continue statements, which in certain situations can be used when a goto statement might otherwise be used. switch(color)
+{
+    case Color.Blue:
+        Console.WriteLine("Color is blue");
+        break;
+    case Color.DarkBlue:
+        Console.WriteLine("Color is dark");
+        goto case Color.Blue;
+    // ...
 }"
-There is no class literal for a concrete realization of a generic type,A generic realization is an actual class.
-instanceof is not allowed with type parameters or concrete generic realizations,The is and as operators work the same for type parameters as for any other type.
-Cannot create new instances using a type parameter as the type,"With a constructor constraint, generic methods or methods of generic classes can create instances of classes that have default constructors."
-Type information is erased during compiling. Special extensions to reflection must be used to discover the original type.,"Type information about C# generic types is fully preserved at runtime, and allows full reflection support and instantiation of generic types."
-Reflection cannot be used to construct new generic realizations. During compilation extra code (typecasts) are injected into the client code of generics. This precludes creating new realizations later.,Reflection can be used to create new realizations for new combinations of type parameters.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+lock,"In C#, the lock keyword is a shorthand for synchronizing access to a block of code across threads (using a Monitor), wrapped in a try ... finally block."
+"out, ref","C# has support for output and reference parameters. These allow returning multiple output values from a method, or passing values by reference."
+strictfp,Java uses strictfp to guarantee the results of floating point operations remain the same across platforms.
+switch,"In C#, the switch statement also operates on strings and longs. Fallthrough is allowed for empty statements and possible via 'goto case' for statements containing code. Java's switch statement operates on strings (since Java 7) but not the long primitive type, and falls through for all statements (excluding those with 'break').[45]"
+synchronized,"In Java, the synchronized keyword is a shorthand for synchronizing access to a block of code across threads (using a Monitor), wrapped in a try ... finally block."
+throws,Java requires every method to declare the checked exceptions or superclasses of the checked exceptions that it can throw. Any method can also optionally declare the unchecked exception that it throws. C# has no such syntax. public int readItem() throws java.io.IOException {
+    // ...
+}
+using,"In C#, using causes the Dispose method (implemented via the IDisposable interface) of the object declared to be executed after the code block has run or when an exception is thrown within the code block. // Create a small file "test.txt", write a string,
+// ... and close it (even if an exception occurs)
+using (StreamWriter file = new StreamWriter("test.txt"))
+{
+    file.Write("test");
+}
+ In Java SE 7 a similar construct has been added[46] called try-with-resources: try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+    return br.readLine();
+}"

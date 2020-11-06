@@ -1,61 +1,32 @@
-<<<<<<< HEAD
-Name,Networking support,NE2000/RTL8029,RTL8139,Gigabit Ethernet,10 Gigabit Ethernet,Wireless LAN,Bluetooth,IrDA
-Linux,,,,,,,,
-FreeBSD,,,,,,,,
-OpenBSD,,,,,,,,
-NetBSD,,,,,,,,
-DragonFly BSD,,,,,,,,
-"OpenSolaris, illumos",,,,,,,,
-"Darwin, OpenDarwin",,,,,,,,
-MINIX,,,,,,,,
-FreeDOS,,,,,,,,
-Genode,,,,,,,,
-Haiku,,,,,,,,
-KolibriOS,,,,,,,,
-MenuetOS,,,,,,,,
-GNU,,,,,,,,
-ReactOS,,,,,,,,
-"L4, Fiasco, Pistachio",,,,,,,,
-Plan 9,,,,,,,,
-AROS,,,,,,,,
-Syllable,,,,,,,,
-Inferno,,,,,,,,
-FreeRTOS,,,,,,,,
-eCos,,,,,,,,
-RTEMS,,,,,,,,
-HelenOS,,,,,,,,
-E/OS,,,,,,11,,-
-K42,,,,,,,,
-UnixLite -->,,,,,,,,
-Name,Networking support,NE2000/RTL8029,RTL8139,Gigabit Ethernet,10 Gigabit Ethernet,Wireless LAN,Bluetooth,IrDA
-=======
-Name,"FAT16, dosfs; FAT32, vfat",NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS,"RAM disk, tmpfs",ZFS,Other special file systems
-Linux,,group=Notef5group=Notef7,,,,,group=Notef2,,,group=Notef9,,group=Notef2,,,,,,,"9P,group=Notef3 FUSE,group=Notef3 sysfs,group=Notef3 configfs,group=Notef3 Reiser4,group=Notef3group=Notef4 JFS, Btrfs, UnionFS, Ext4"
-FreeBSD,,group=Notef2group=Notef7,,group=Notef2,group=Notef5,group=Notef2,,,,,,,,,,,,,"FUSE, nullfs, UnionFS"
-NetBSD,,group=Notef2group=Notef7,,,,,,,,group=Notef2,,,,group=Notef2,,,,,"PUFFS, LFS, EFS"
-OpenBSD,,group=Notef2,,,,,,,,,,,,,,,,,AFS
-DragonFly BSD,,group=Notef2,,,,,,,,,,,,group=Notef10,,,,,"HAMMER, nullfs, PUFFS"
-"OpenSolaris, illumos",,group=Notef7group=Notef8,,,,,,,,,,,,,,,,,"SMB (native), QFS"
-"Darwin, OpenDarwin",,group=Notef2group=Notef7,,,,,,,,,,,,,,,,,
-MINIX,,,,,,,,,,,,,,,,,,,
-FreeDOS,,,,,,,,,,,,,,,,,,,
-Genode,,,,,,,,,,,,,,,,,,,Extensible VFS layer
-Haiku,,group=Notef7,group=Notef12,group=Notef12,,,,,,,,,,,,group=Notef11,,,
-KolibriOS,,group=Notef2,group=Notef2,group=Notef2,group=Notef2,,,,,,,,,,,,,,
-MenuetOS,,,,,,,,,,,,,,,,,,,
-GNU,,,,group=Notef13,,,group=Notef14,,,,,,,,,,,,
-ReactOS,,,,,,,,,,,,,,,,,,,
-"L4, Fiasco, Pistachio",,,,,,,,,,,,,,,,,,,
-Plan 9,,,,,,,,,,,,,,,,,,,"Fossil, Venti, most system services"
-AROS,,,,,,,,,,,,,,,,,,,"SFS, AFFS"
-Syllable,,group=Notef2,group=Notef2,group=Notef2,,,,,,,,,,,,,,,AFS
-Inferno,,,,,,,,,,,,,,,,,,,"kfs, most system services"
-FreeRTOS,,,,,,,,,,,,,,,,,,,
-eCos,,,group=Notef2,,,,,,,,,,,,,,,,"MMFS, ROMfs, JFFS2, YAFFS"
-RTEMS,,,,,,,,,,,,,,,,,,,"TarFS, TFTP FS, IMFS, miniIMFS"
-HelenOS,,,,,,,,,,,,,,,,,,,"locfs, exFAT"
-E/OS,,,,,,,,,,,,group=Notef6,,,,,,,-
-K42,,,,,,,,,,,,,,,,,,,
-UnixLite -->,,,,,,,,,,,,,,,,,,,
-Name,"FAT16, dosfs; FAT32, vfat",NTFS,Ext2,Ext3,XFS,ReiserFS,UFS,UFS2,HFS,HFS+,MINIXfs,BFS,ISO 9660,UDF,NFS,SMBFS,"RAM disk, tmpfs",ZFS,Other special file systems
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Name,"x86, i386, IA-32",x86 SMP,Xen,IA-64,x86-64,PowerPC,PowerPC SMP,SPARC32,SPARC SMP,Alpha,MIPS,ARM,XScale,M68k,PA-RISC,OpenRISC,others,hosted mode
+Linux,,,,,,,,,,,,,,,,,"FR-V, Cell, ETRAX CRIS, M32R, Xtensa, h8, s390, SuperH","UML, coLinux, MkLinux, Itanium Linux-on-Linux, wombat"
+FreeBSD[3],,,,,,,,,,,,,,,,,PC98,
+OpenBSD[4],,,,,,,,,,,,,,,,,SuperH ],
+NetBSD[5],,,,,,,,,,,,,,,,,"SuperH, ns32k, VAX, hppa, M68010, mipseb, mipsel, sh3eb, sh3el, sparc64",
+DragonFly BSD[6],,,,,,,,,,,,,,,,,,vkernel
+OpenSolaris[7] illumos,,,,,,,,,,,,,,,,,,
+"Darwin, OpenDarwin[8]",,,,,,,,,,,,,,,,,,L4/Darwin
+MINIX[9],,,,,,,,,,,,,,,,,,
+FreeDOS,,,,,,,,,,,,,,,,,,
+Genode,,,,,,,,,,,,,,,,,RISC-V,Linux
+Haiku,,,,,,,,,,,,group=Noteb1[10],,,,,,
+KolibriOS,,,,,,,,,,,,,,,,,,
+MenuetOS,,,,,,,,,,,,,,,,,,
+GNU,,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,group=Noteb4,"FR-V, Cell, ETRAX CRIS, M32R, Xtensa, h8, s390, SuperHgroup=Noteb4","UML, Itanium Linux-on-Linuxgroup=Noteb5"
+ReactOS,,,group=Noteb1,,,group=Noteb1,group=Noteb1,,,,,,,,,,,
+RISC OS,,,,,,,,,,,,,,,,,,
+"L4, Pistachio",,,,group=Noteb2,group=Noteb2,group=Noteb2,,,,group=Noteb2,group=Noteb2,,,,,,,
+Plan 9,,,,,,,,group=Noteb3,group=Noteb3,,,,,group=Noteb3,,,See[11][12],"lguest, vx32"
+AROS,,,,,,,,,,,,,,,,,,"i386-linux, i386-freebsd"
+Syllable,,,,,,,,,,,,,,,,,,
+Inferno,,,,,,,,,,,,,,group=Noteb3,,,"AMD Am29000,group=Noteb3 Texas Instruments OMAP","Microsoft Windows, Linux, FreeBSD, Plan 9, OS X, Solaris, Irix, UnixWare,group=Noteb3 HP-UX,group=Noteb3 Internet Explorer"
+FreeRTOS,,,,,,,,,,,,,,,,,"AVR, PIC, MSP430, HCS12, 8052, MicroBlaze, Cortex-M3, H8S",
+eCos,,,,,,,,,,,,,,,,,"CalmRISC, ColdFire, FR-V, h8, Matsushita AM3x, Nios II, NEC V8xx, SuperH","Microsoft Windows, Linux"
+RTEMS,,,Xen,,,,,,,,,,,,,,"Blackfin, Nios II, Coldfire, Texas Instruments C3x/C4x, SuperH, H8S","Linux, Solaris, Cygwin, FreeBSD, multiple CPU simulators"
+HelenOS,,,,,,,,,,,,,,,,,,
+E/OS,,,,,,,,,,,,,,,,,,
+TempleOS,,,,,,,,,,,,,,,,,,"QEMU, VirtualBox, etc."
+,,,,,,,,,,,,,,,,,,,
+K42,,,,,,,,,,,,,,,,,,
+UnixLite,,,,,,,,,,,,,,,,,,
+Name,"x86, i386, IA-32",x86 SMP,Xen,IA-64,x86-64,PowerPC,PowerPC SMP,SPARC32,SPARC SMP,Alpha,MIPS,ARM,XScale,M68k,PA-RISC,OpenRISC,other,hosted mode

@@ -1,14 +1,14 @@
-<<<<<<< HEAD
-,Trident,Gecko,WebKit,KHTML,Presto
-<link rel="style" … />,4.0,rowspan="2" 1.0,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0
-style,6.0Internet Explorer 9 (trident 5.0) and earlier is limited to 31 <style> elements.[4][5]group=note,,,,
-=======
-,Trident,EdgeHTML,Gecko,WebKit,Presto
-getElementsByClassName[183],5.0[184],12,1.9[185],525,2.1
-registerProtocolHandler,rowspan="2" ,rowspan="2" ,1.91=Limited to the feed protocol in 1.8; fully supported in 1.9.[186]date=May 2014,rowspan="2" ,rowspan="2" 2.10[188]
-registerContentHandler,1.81=Limited to feed MIME types in 1.8 and 1.9.[189],,,,
-Cross-document messaging,4.0,12,1.9[190],,2.0
-Drag-and-drop,6.0,12,1.9.1[98],,2.10.270[191]
-pushState() and replaceState(),6.0[192],12,2.0[193],528[194],2.9[195]
-! Trident,EdgeHTML,Gecko,WebKit,Presto,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Tag,Function,Introduced by,Alternative solution,Trident,Gecko,WebKit,KHTML,Presto
+bgsound,Used to add sound to the background of a website,Internet Explorer,audio,3.0,,,,
+blink,Used to display a blinking text,Netscape,"Javascript, CSS",,,,,1.0
+bq,Used to display a blockquote,"WebTV, HTML 3.0",blockquote,,,,,
+comment,Used to allow the addition of comments to HTML documents,"Internet Explorer, WebTV",<!-- ... -->,3.1,,,,
+ilayer,Inline layers,Netscape (4 only),iframe,,,,,
+image,Synonym of img,?,img,3.1,,,,
+layer,Used to create multiple layers of text and images which lay on top of each other in a given order,Netscape (4 only),"CSS, AJAX",,,,,
+marquee,"Used to display a scrolling, marquee-like text.","Internet Explorer, WebTV","JavaScript, CSS3",3.1,1.7,125,3.3,1.0
+nobr,Prevents any line breaks from occurring within the flow of a text,Netscape[15][16],CSS,rowspan="2" 3.1,rowspan="2" ,rowspan="2" ,rowspan="2" ,rowspan="2" 
+noembed,Displays an alternative text for browsers which do not recognize the embed tag,Netscape,Child elements of object used as fallback,,,,,
+spacer,Adds whitespace in a layout,Netscape,CSS,,,,,
+wbr,Placed inside a nobr element to add a line break,Netscape[15][16],Unicode character zero-width space (200B),Trident dropped support for wbr in version 5.0.[18]group=note,1.7,,3.1,
+xml[19],"Includes XML data, either inline or from an URL, in an HTML page",Internet Explorer,"AJAX, possibly XML namespaces",3.1,,,,

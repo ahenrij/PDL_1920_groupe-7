@@ -1,72 +1,11 @@
-<<<<<<< HEAD
-Name,Windows,Mac OS X,Linux,BSD,Unix,Android,iOS,Updated
-Atlantis,,,,,,,,2006
-Axmud,,,,,,,,2019
-BeipMU,,,,,,,,2020
-BioMUD,,,,,,,,2016
-Blightmud,,,,,,,,2020
-BlowTorch,,,,,,,,2018
-CMUD,,,,,,,,2010
-GGMUD,,,,,,,,2007
-GMUD,,,,,,,,1998
-Gnome-Mud,,,,,,,,2018
-JamochaMUD,CPI,CPI,CPI,CPI,CPI,,,2014
-KBtin,,,,,,,,2018
-KildClient,,,,,,,,2017
-KMuddy,,,,,,,,2009
-Lyntin,CPI,CPI,CPI,CPI,CPI,,,2008
-mcl,,,,,,,,2003
-muby,,CPI,CPI,CPI,CPI,,,2009
-Mud Gangster,,,,,,,,2020
-Mudlet,,,,,,,,2020
-MudMagic,,,,,,,,2006
-MUDRammer,,,,,,,,2015
-MUSHclient,,,,,,,,2019
-Portal,,,,,,,,2013
-Potato,CPI,CPI,CPI,CPI,CPI,,,2017
-Powwow,,,,,,,,2020
-Pueblo/UE,,,,,,,,2004
-SimpleMU,,,,,,,,2001
-Soiled,CPI,CPI,CPI,CPI,CPI,,,2012
-TinTin++,Cygwin[18],,,,,Termux,iSH,2020
-TinyFugue,,,,,,,,2007
-Tortilla,,,,,,,,2018
-Trebuchet,CPI,CPI,CPI,CPI,CPI,,,2015
-Wintin.Net,,,,,,,,2007
-zMUD,,,,,,,,2008
-=======
-Name,C#,Client-Specific,Lua,Perl,Python,Ruby,TINTIN,VB.NET,Tcl,PHP,JScript
-Atlantis,,Minimal,,,,,,,,,
-Axmud,,Minimal,,,,,,,,,
-BeipMU,,Minimal,,,,,,,,,
-BioMUD,,,,,,,,,,,
-Blightmud,,,,,,,,,,,
-BlowTorch,,Minimal,,,,,,,,,
-CMUD,,,,,,,,,,,
-GGMUD,,,,,,,,,,,
-GMUD,,Minimal,,,,,,,,,
-Gnome-Mud,,,,,,,,,,,
-JamochaMUD,,Minimal,,,,,,,,,
-KBtin,,,,,,,,,,,
-KildClient,,,,,,,,,,,
-KMuddy,,Minimal,,,,,,,,,
-Lyntin,,,,,,,,,,,
-mcl,,,,,,,,,,,
-muby,,,,,,,,,,,
-Mud Gangster,,,,,,,,,,,
-Mudlet,,Minimal,,,,,,,,,
-MudMagic,,,,,,,,,,,
-MUSHclient,,,,,,Minimal,,,,,
-Portal,,,,,,,,,,,
-Potato,,,,,,,,,,,
-Powwow,,,,,,,,,,,
-Pueblo/UE,,,,,,,,,,,
-SimpleMU,,,,,,,,,,,
-Soiled,,,,,,,,,,,
-TinTin++,,,,,,,,,,,
-TinyFugue,,,,,,,,,,,
-Tortilla,,,,,,,,,,,
-Trebuchet,,,,,,,,,,,
-Wintin.Net,,,,,,,,,,,
-zMUD,,,,,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Name,Gui,Logging,Mapper,Multiplaying,Scrollback,Spell checker,Tab completion,Telnet triggers,Timers,Triggers,Redirection,Regex
+Axmud,Custom,,,,,,,,,,,
+BeipMU,,,,,,,,,,,WSH,
+Blightmud,VT102,,,,,,,,,,,
+CMUD,Custom,,,,,,,,,,WSH,
+Mud Gangster,Custom,Plugin,,,,,,,,,,Lua patterns
+Mudlet,Custom,,,,,,,,,,,
+MUSHclient,Custom,,,,,,,,,,WSH,
+TinTin++,VT100,,,,,,,,,,,
+Wintin.net,,,,,,,,,,,,
+zMud,Custom,,,,,,,,,,WSH,

@@ -1,22 +1,13 @@
 Dataset Name,Brief description,Preprocessing,Instances,Format,Default Task,Created (updated),Reference,Creator
-<<<<<<< HEAD
-Forest Fires Dataset,Forest fires and their properties.,13 features of each fire are extracted.,517,Text,Regression,2008,[388][389],P. Cortez et al.
-Iris Dataset,Three types of iris plants are described by 4 different attributes.,None.,150,Text,Classification,1936,[390][391],R. Fisher
-Plant Species Leaves Dataset,Sixteen samples of leaf each of one-hundred plant species.,"Shape descriptor, fine-scale margin, and texture histograms are given.",1600,Text,Classification,2012,[392][393],J. Cope et al.
-Mushroom Dataset,Mushroom attributes and classification.,Many properties of each mushroom are given.,8124,Text,Classification,1987,[394],J. Schlimmer
-Soybean Dataset,Database of diseased soybean plants.,35 features for each plant are given. Plants are classified into 19 categories.,307,Text,Classification,1988,[395],R. Michalski et al.
-Seeds Dataset,Measurements of geometrical properties of kernels belonging to three different varieties of wheat.,None.,210,Text,"Classification, clustering",2012,[396][397],Charytanowicz et al.
-Covertype Dataset,Data for predicting forest cover type strictly from cartographic variables.,Many geographical features given.,"581,012",Text,Classification,1998,[398][399],J. Blackard et al.
-Abscisic Acid Signaling Network Dataset,Data for a plant signaling network. Goal is to determine set of rules that governs the network.,None.,300,Text,Causal-discovery,2008,[400],J. Jenkens et al.
-Folio Dataset,20 photos of leaves for each of 32 species.,None.,637,"Images, text","Classification, clustering",2015,[401][402],T. Munisami et al.
-Oxford Flower Dataset,17 category dataset of flowers.,"Train/test splits, labeled images,",1360,"Images, text",Classification,2006,[138][403],M-E Nilsback et al.
-Plant Seedlings Dataset,12 category dataset of plant seedlings.,"Labelled images, segmented images,",5544,Images,"Classification, detection",2017,[404],Giselsson et al.
-Fruits 360 dataset,Database with images of 120 fruits and vegetables.,"100x100 pixels, White background.",82213,Images (jpg),Classification,2017-2019,[405][406],"Mihai Oltean, Horea Muresan"
-=======
-Cloud DataSet,Data about 1024 different clouds.,Image features extracted.,1024,Text,"Classification, clustering",1989,[427],P. Collard
-El Nino Dataset,Oceanographic and surface meteorological readings taken from a series of buoys positioned throughout the equatorial Pacific.,12 weather attributes are measured at each buoy.,178080,Text,Regression,1999,[428],Pacific Marine Environmental Laboratory
-Greenhouse Gas Observing Network Dataset,Time-series of greenhouse gas concentrations at 2921 grid cells in California created using simulations of the weather.,None.,2921,Text,Regression,2015,[429],D. Lucas
-Atmospheric CO2 from Continuous Air Samples at Mauna Loa Observatory,"Continuous air samples in Hawaii, USA. 44 years of records.",None.,44 years,Text,Regression,2001,[430],Mauna Loa Observatory
-Ionosphere Dataset,Radar data from the ionosphere. Task is to classify into good and bad radar returns.,Many radar features given.,351,Text,Classification,1989,[370][431],Johns Hopkins University
-Ozone Level Detection Dataset,Two ground ozone level datasets.,"Many features given, including weather conditions at time of measurement.",2536,Text,Classification,2008,[432][433],K. Zhang et al.
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+NYSK Dataset,English news articles about the case relating to allegations of sexual assault against the former IMF director Dominique Strauss-Kahn.,Filtered and presented in XML format.,"10,421","XML, text","Sentiment analysis, topic extraction",2013,[172],"Dermouche, M. et al."
+The Reuters Corpus Volume 1,Large corpus of Reuters news stories in English.,Fine-grain categorization and topic codes.,"810,000",Text,"Classification, clustering, summarization",2002,[173],Reuters
+The Reuters Corpus Volume 2,Large corpus of Reuters news stories in multiple languages.,Fine-grain categorization and topic codes.,"487,000",Text,"Classification, clustering, summarization",2005,[174],Reuters
+Thomson Reuters Text Research Collection,Large corpus of news stories.,Details not described.,"1,800,370",Text,"Classification, clustering, summarization",2009,[175],T. Rose et al.
+Saudi Newspapers Corpus,"31,030 Arabic newspaper articles.",Metadata extracted.,"31,030",JSON,"Summarization, clustering",2015,[176],M. Alhagri
+RE3D (Relationship and Entity Extraction Evaluation Dataset),Entity and Relation marked data from various news and government sources. Sponsored by Dstl,"Filtered, categorisation using Baleen types",not known,JSON,"Classification, Entity and Relation recognition",2017,[177],Dstl
+Examiner Spam Clickbait Catalogue,"Clickbait, spam, crowd-sourced headlines from 2010 to 2015",Publish date and headlines,"3,089,781",CSV,"Clustering, Events, Sentiment",2016,[178],R. Kulkarni
+ABC Australia News Corpus,Entire news corpus of ABC Australia from 2003 to 2019,Publish date and headlines,"1,186,018",CSV,"Clustering, Events, Sentiment",2020,[179],R. Kulkarni
+Worldwide News - Aggregate of 20K Feeds,One week snapshot of all online headlines in 20+ languages,"Publish time, URL and headlines","1,398,431",CSV,"Clustering, Events, Language Detection",2018,[180],R. Kulkarni
+Reuters News Wire Headline,11 Years of timestamped events published on the news-wire,"Publish time, Headline Text","16,121,310",CSV,"NLP, Computational Linguistics, Events",2018,[181],R. Kulkarni
+The Irish Times Ireland News Corpus,24 Years of Ireland News from 1996 to 2019,"Publish time, Headline Category and Text","1,484,340",CSV,"NLP, Computational Linguistics, Events",2020,[182],R. Kulkarni
+News Headlines Dataset for Sarcasm Detection,High quality dataset with Sarcastic and Non-sarcastic news headlines.,"Clean, normalized text","26,709",JSON,"NLP, Classification, Linguistics",2018,[183],Rishabh Misra

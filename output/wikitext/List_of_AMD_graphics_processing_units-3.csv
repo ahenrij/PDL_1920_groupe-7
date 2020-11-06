@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-Model (Codename),Launch,Architecture (Fab),Transistors Die Size,Core,,Fillratename="boost"name="texture fill"name="pixel fill",,Processing powername="boost"name="FLOPS" (GFLOPS),,Memory,,,,TDP (W),Bus interface,Release Price (USD)
-,,,,Configname="cconfig",Clockname="boost" (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width (bit),Size (GiB),Clock (MT/s),Band- width (GB/s),,,
-Radeon WX 2100 MobileRadeon Pro WX 2100 (Mobile) (Polaris 12)[87],20170301format=mynowrap=off,GCN 4th gen (14 nm)[88],2.2e=9 101 mm2,512:32:16:8,?,?,?,1250,78 1/16 SP,GDDR5 64-bit,2,6000,48,35,PCIe 3.0 ×16,$ 149
-Radeon WX 3100 MobileRadeon Pro WX 3100 (Mobile) (Polaris 12)[89][90],20170321format=mynowrap=off,,,512:32:16:8,?,?,?,1250,78 1/16 SP,GDDR5 128-bit,4,6000,96,50,,$ 199
-Radeon WX 4130 MobileRadeon Pro WX 4130 Mobile (Polaris 11)[91],20170301format=mynowrap=off,,3.0e=9 123 mm2,640:40:16:10,1000 1050,16.85,42.12,1348,84.24 1/16 SP,GDDR5 128-bit,4,6000,96,50,,
-Radeon WX 4150 MobileRadeon Pro WX 4150 Mobile (Polaris 11)[92],20170301format=mynowrap=off,,,896:56:16:14,1000 1050,16.85,58.97,1887,118 1/16 SP,GDDR5 128-bit,4,6000,96,50,,
-Radeon Pro WX 4170 MobileRadeon Pro WX 4170 Mobile (Polaris 11)[93],20170301format=mynowrap=off,,,1024:64:16:16,1000 1050,16.85,67.39,2157,135 1/16 SP,GDDR5 128-bit,4,7000,112,50,,$ 399
-Radeon Pro WX 7100 MobileRadeon Pro WX 7100 Mobile (Polaris 10)[94],20170301format=mynowrap=off,,5.7e=9 232 mm2,2304:144:32:36,1188,39.78,179.0,5728,358 1/16 SP,GDDR5 256-bit,8,5000,160,130,,$ 799
-=======
-Model,Launch,Code name,Fab (nm),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
-,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
-FirePro W4300[85],"December 1, 2015",Bonaire PRO (GCN 2nd Gen),28,PCIe 3.0 x16,930,1500,768:48:16:12[86],14.88,44.64,4,96,GDDR5,128,1428.5,89.3,11.2/12.0 SM 5.0,4.5,"2.0 (2.1 beta, 2.2 possible)",1.0,<50,"4 Mini DisplayPort 1.2a outputs, low profile"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Graphics core,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core clock2 (MHz),Core config1,Fillrate,,,Memory3,,,,,Processing power (GFLOPS),Features / Notes
+,,,,,,,,,,Pixel (GP/s),Texture (GT/s),FP32 (GP/s),Size (MB),Bandwidth (GB/s),Bus type,Effective clock (MHz),Bus width (bit),,
+Radeon 3000 Graphics (760G Chipset),2009,RS780L[12],RV610,55,205,~73 (~9 × 8.05),HT 3.0,350,40:4:4,1.4,1.4,0.7,Up to 512 system,20.8 (system),HT (system),N/A,N/A,28,AVIVO
+Radeon 3100 Graphics (780V Chipset),2008 Jan 23 (China) Mar 4 (Worldwide),RS780C,,,,,,,,,,,,,,,,,
+Radeon HD 3200 Graphics (780G Chipset),,RS780,,,,,,500,,2,2,1,Up to 512 system + optional 128 sideport,20.8 (system) + 2.6 (sideport),HT (system) + DDR2-1066 DDR3-1333 (sideport),1333 (sideport),16 (sideport),40,"UVD+, 8x AA (wide-tent CFAA)"
+Radeon HD 3300 Graphics (790GX Chipset),Jul 2008,RS780D,,,,,,700,,2.8,2.8,1.4,Up to 512 system + 128 sideport,,HT (system) + DDR3-1333 (sideport),,,56,"UVD+, PowerPlay"

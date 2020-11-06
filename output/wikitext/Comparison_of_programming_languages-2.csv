@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Language,Failsafe I/O
 1C:Enterprise,
 Ada,
@@ -55,13 +54,3 @@ Wolfram Language,
 Xojo,
 XPath/XQuery,
 Language,Failsafe I/O
-=======
-Language,Statements ratio[46],Lines ratio[47]
-C,1,1
-C++,2.5,1
-Fortran,2,0.8
-Java,2.5,1.5
-Perl,6,6
-Smalltalk,6,6.25
-Python,6,6.5
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

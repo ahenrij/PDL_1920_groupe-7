@@ -1,38 +1,7 @@
-<<<<<<< HEAD
-Model (Codename),Release Date & Price,Architecture & Fab,Transistors & Die Size,Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),,Memory,,,,TBP,Bus interface
-,,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),Single,Double,Bus type & width,Size (GiB),Clock (MT/s),Band- width (GB/s),,
-Radeon R5 430 (Oland Pro) [63][64],June 2016 OEM,GCN 1st gen 28 nm,1040×106 90 mm2,384:24:8 6 CU,730 780,17.52 18.72,5.84 6.24,560 599,37.4 40,DDR3 GDDR5 128-bit,1 2,1800 4500,28.8 72,50 W,PCIe 3.0 ×8
-Radeon R5 435 (Oland) [63][65],June 2016 OEM,,,320:20:8 5 CU,1030,20.6,8.24,659,41.2,DDR3 64-bit,2,2000,16,50 W,
-Radeon R7 430 (Oland Pro) [66][67],June 2016 OEM,,,384:24:8 6 CU,730 780,17.52 18.72,5.84 6.24,560 599,37.4 40,DDR3 GDDR5 128-bit,1 2 4,1800 4500,28.8 72,50 W,
-Radeon R7 435 (Oland) [66][68],June 2016 OEM,,,320:20:8 5 CU,920,18.4,7.36,589,36.8,DDR3 64-bit,2,2000,16,50 W,
-Radeon R7 450 (Cape Verde Pro) [66][69],June 2016 OEM,,1500×106 123 mm2,512:32:16 8 CU,1050,33.6,16.8,1075,65.2,GDDR5 128-bit,2,4500,72,65 W,PCIe 3.0 ×16
-Radeon RX 455 (Bonaire Pro) [66][70],June 2016 OEM,GCN 2nd gen 28 nm,2080×106 160 mm2,768:48:16 12 CU,1050,50.4,16.8,1613,100.8,GDDR5 128-bit,2,6500,104,100 W,
-Radeon RX 460 (Baffin) [71][72][73][74][75],August 2016 $109 USD(2 GB) $139 USD(4 GB),GCN 4th gen Samsung/GloFo 14LPP[76][f],3000×106 123 mm2,896:56:16 14 CU,1090 1200,61 67.2,17.4 19.2,1953 2150,122 132,GDDR5 128-bit,2 4,7000,112,<75 W,PCIe 3.0 x8
-Radeon RX 470D (Ellesmere) [78],October 2016 CNY ¥1299 (China Only),,5700×106 232 mm2,1792:112:32 28 CU,926 1206,103.7 135.1,29.6 38.6,3319 4322,207 270,GDDR5 256-bit,4,7000,224,120 W,PCIe 3.0 ×16
-Radeon RX 470 (Ellesmere Pro) [71][73][74],August 2016 $179 USD,,,2048:128:32 32 CU,926 1206,118.5 154.4,29.6 38.6,3793 4940,237 309,GDDR5 256-bit,4 8,6600,211,120 W,
-Radeon RX 480 (Ellesmere XT) [79][80][81][82],June 2016 $199 USD (4 GB) $239 USD (8 GB),,,2304:144:32 36 CU,1120 1266,161.3 182.3,35.8 40.5,5161 5834,323 365,GDDR5 256-bit,4 8,7000 8000,224 256,150 W,
-=======
-Model (Codename),Launch,Architecture (Fab),Core,,Fillrate,,Processing power (GFLOPS),Memory,,,,Bus interface,TDP (W)
-,,,Config[a],Clock (MHz),Texture (GT/s),Pixel (GP/s),,Size (GiB),Bus type & width (bit)[b],Memory (MHz),Bandwidth (GB/s),,
-Radeon HD 7430M (Seymour Pro),January 2012,TeraScale 2 (40 nm),160:8:4:2,600,4.8,2.4,192,1,DDR3 64-bit,900,14.4,PCIe 2.1 ×16,7
-Radeon HD 7450M (Seymour Pro),,,,700 700,5.6,2.8,224,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,7
-Radeon HD 7470M (Seymour XT),,,,750 800,6 6.4,3.0 3.2,240 256,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,7~9
-Radeon HD 7490M (Seymour XTX),,,,800,6.4,3.2,256,1,GDDR5 64-bit,950,30.4,,9
-Radeon HD 7510M (Thames LE),January 2012,TeraScale 2 (40 nm),400:20:8:5,450,9.0,3.6,360,1,DDR3 64-bit,800,12.8,,11
-Radeon HD 7530M (Thames LP),January 2012,TeraScale 2 (40 nm),400:24:8:5,450,9.0,3.6,360,1,DDR3 64-bit,900,14.4,,11
-Radeon HD 7550M (Thames Pro),January 2012,TeraScale 2 (40 nm),400:20:8:5,450 550,9.0 11.0,3.6 4.4,360 440,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,13
-Radeon HD 7570M (Thames Pro),January 2012,TeraScale 2 (40 nm),400:20:8:5,450 650,9.0 13.0,3.6 5.2,360 520,1,DDR3 GDDR5 64-bit,900 800,14.4 25.6,,13~15
-Radeon HD 7590M (Thames XT),January 2012,TeraScale 2 (40 nm),480:24:8:6,600,14.4,4.8,576,1,GDDR5 64-bit,800,25.6,,18
-Radeon HD 7610M (Thames LE),January 2012,TeraScale 2 (40 nm),400:20:8:5,450,9.0,3.6,360,1,DDR3 128-bit,800,25.6,,20
-Radeon HD 7630M (Thames LP),January 2012,TeraScale 2 (40 nm),480:24:8:6,450,10.8,3.6,432,1,DDR3 128-bit,800,25.6,,20~25
-Radeon HD 7650M (Thames Pro),,,,450 550,10.8 13.2,3.6 4.4,432 528,1,DDR3 128-bit,800 800,25.6,,20~25
-Radeon HD 7670M (Thames Pro),,,,600,14.4,4.8,576,1,DDR3 GDDR5 128-bit,900,28.8 57.6,,20~25
-Radeon HD 7690M (Thames XT),,,,725 600,17.4 14.4,5.8 4.8,696 576,1 2,DDR3 GDDR5 128-bit,900 900,28.8 57.6,,20~25
-Radeon HD 7690M XT (Thames XTX),,,,725,17.4,5.8,696,1 2,GDDR5 128-bit,900,57.6,,25
-Radeon HD 7730M (Chelsea LP),April 2012,GCN 1st gen (28 nm),512:32:16:8,575 675,18.4 21.6,9.2 10.8,588.8 691.2,2,GDDR3 128-bit,900 900,28.8,PCIe 2.1 ×16,25~28
-Radeon HD 7750M (Chelsea Pro),,,,575,18.4,9.2,588.8,1 2,GDDR5 128-bit,1000,64,,28
-Radeon HD 7770M (Chelsea XT),,,,675,21.6,10.8,691.2,1 2,GDDR5 128-bit,1000,64,,32
-Radeon HD 7850M (Heathrow Pro),April 2012,GCN 1st gen (28 nm),640:40:16:10,675,27,10.8,864,2,GDDR5 128-bit,1000,64,PCIe 3.0 ×16,40
-Radeon HD 7870M (Heathrow XT),,,,800,32,12.8,1024,2,GDDR5 128-bit,1000,64,,40–45
-Radeon HD 7970M (Wimbledon XT),April 2012,GCN 1st gen (28 nm),1280:80:32:20,850,68,27.2,2176,2 4,GDDR5 256-bit,1200,153.6,PCIe 3.0 ×16,75
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
+,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
+Mobility Radeon X300,Nov 2005,M22,RV370,110,PCI-E x16,350,250,2:4:4:4,1.4,1.4,128,4,DDR,64,9.0b,2.0,Powerplay 5.0
+Mobility Radeon X600,Jun 2004,M24,RV380,130,,400,,,1.6,1.6,"64, 128",8,,128,,,
+Mobility Radeon X700,Mar 2005,M26,RV410,110,,400-100 (PowerPlay),350-200,6:8:8:4,1.4,2.8,"Shared-128? 64, 128",11.2,"DDR, GDDR3",,,,"3DC, Dynamic Lane Count Switching,"
+Mobility Radeon X800,Nov 2004,M28,R423,130,,400,400,6:12:12:12,4.8,4.8,256,25.6,GDDR3,256,,,"3DC, DLCS, Clock Gating"
+Mobility Radeon X800 XT,Jun 2005,M28 PRO,R423,130,,480,550,6:16:16:16,7.68,7.68,,35.2,,,,,

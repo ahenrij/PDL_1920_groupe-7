@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-Trident,Tasman,Gecko,WebKit,KHTML,Presto
-DOM1,6.0,,1.0,85,
-DOM2,Mostly,,Mostly,,Mostly
-DOM3,,,,,
-=======
 ,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
 Interface CDATASection,,,,,,,
 DOM1,(no properties),,,1.0,,?,2.0
@@ -29,4 +23,3 @@ DOM1,(no properties),,,1.0,,?,
 Interface ProcessingInstruction,,,,,,,
 DOM1,target,rowspan="2" ,rowspan="2" ,rowspan="2" 1.0,rowspan="2" ,?,rowspan="2" 2.0
 ,data,?,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

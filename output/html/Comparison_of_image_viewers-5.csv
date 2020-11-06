@@ -1,41 +1,32 @@
-<<<<<<< HEAD
-Program,ARW Sony,CR2 Canon,DNG Adobe,NEF Nikon,ORF Olympus,PEF Pentax,RAF Fujifilm,SRW Samsung,X3F Sigma,Others,Notes
-ACDSee,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"cRAW, CRW, DCR, ERF, HDR, MRW, RAW, RWL, sRAW",[1]
-Aperture,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"CRW, MOS, RAW, FFF, 3FR",[2]
-digiKam,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,Several,[3][4]
-F-Spot,ARW?,CR2,DNG,NEF,ORF,PEF,RAF,SRW?,X3F?,"CRW, MRW, RAW, SRF",
-FastPictureViewer (registered edition),ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"NRW, RW2, SR2, SRF, RWZ etc.",[5]
-FastStone Image Viewer,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"CR3, CRW, NRW, RWL, MRW, SR2, SRF, RW2",[6]
-Geeqie,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW?,X3F,"3FR, CRW, DCR, ERF, K25, KDC, MEF, MOS, MRW, PTX, R3D, RAW, SR2, SRF",
-IrfanView,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"CRW, EEF, DCR, MRW, NRW, RW2, SRF",[7]
-Phase One Media Pro,ARW?,CR2?,DNG,NEF,ORF?,PEF?,RAF,SRW,X3F?,"CRW, MOS, RAW",
-Picasa,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"3FR, CRW, DCR, KDC, MRW, NRW, RAW, RW2, SRF, SR2",[8]
-Shotwell,ARW?,CR2?,DNG?,NEF?,ORF?,PEF?,RAF?,SRW?,X3F?,,"Support "limited", export 8-bit only [9]"
-XnView and XnViewMP,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"CRW, RWZ and more",[10]
-Zoner Photo Studio,ARW,CR2,DNG,NEF,ORF,PEF,RAF,SRW,X3F,"3FR, CRW, ERF, KDC, MEF, MRW, RAW, RW2, RWZ, SR2, SRF",[11]
-=======
-Program,search (criteria),selection (styles),metadata,adjust image (functions),hotkeys,color management (ICC),JPEG Lossless operations,Unicode support,other / special
-ACDSee,Yes,"Yes individual, linear, block","Yes Exif, IPTC",Yes many,Yes,Yes,Yes rotation only,Yes,"GPS Location, Scripts for batch/pre processing, automatic slideshow"
-CDisplay,No,No,Yes,"Yes Rotate, Filter",Yes configurable,Yes,No,No,"Slider, automatic slideshow, mouse control"
-Comix,No,No,,"Yes Rotate, Filter",,,,,"Slider, automatic slideshow, mouse control"
-digiKam,"Yes file name, comments, most Exif and meta data","Yes linear, block, complex",Yes Exif and IPTC,Yes many editing function,Yes,Yes,Yes by changing EXIF orientation and not in editor,Yes,"Geotagging, batch processing, detect duplicate/similar images, export to Internet/social media/HTML"
-Eye of gnome,No,No,Yes,Yes Rotate,Yes unconfigurable,,Yes,,
-F-Spot,,,Yes,,,,,,"Export to HTML, Flickr, or O.r.i.g.i.n.a.l."
-FastPictureViewer,"Yes Filter the view by rating, file name...","Yes Copy, move, delete, rate, label","Yes Write XMP Rating/Label, IPTC metadata, Windows Rating, embedded or in sidecar files, shows shooting info (Exif) and realtime RGB histogram",No,Yes,"Yes (supports custom monitor profile, direct conversion from image colorspace to monitor colorspace, ICC v4)",n/a,"Yes, native","Native 32 and 64-bit, Tethered shooting (MTP/PTP over USB), Multicore-aware, DirectX accelerated, HD Photo / JPEG XR support."
-Gonvisor,No,"Yes Delete, rename",No,Yes,Yes,Yes,n/a,"Yes, native","Made to easily read comics or manga can display two pages at time and view images in compressed ZIP, RAR, 7z, cbr, cba, cbz etc."
-FastStone Image Viewer,,"Yes individual, linear","Yes EXIF, JPEG comment",Yes many,Yes,,Yes lossless transitions,Yes,full screen mode with all commands available via pop-up menu bars when approaching the mouse from the borders of the screen
-Geeqie,"Yes collections, keywords, filename, location, size, date, dimensions, comments, previous results","Yes block, linear, complex",Yes,"Yes rotate, brightness, contrast",Yes,Yes,,,"find duplicates, sort manager, recent collections"
-gThumb,"Yes name, comment, date, category, folder, recursive-folder","Yes linear, block, complex",Partial,"Yes manipulate color, flip/rotate, etc.",Yes,,Yes,,"bookmarks, comments, rename series, create index image, create HTML album"
-Gwenview,Yes tags,,"Yes Exif, IPTC, XMP","Yes Rotate, Red eye removal, saturation, color balance, levels and more",Yes,,"Yes, rotation and flipping",Yes,"batch processing, export to Internet/social media/HTML"
-KPhotoAlbum,"Yes keywords, comments, title, any field from Exif metadata","Yes linear, complex",Partial,Yes per KIPI plugins,Yes configurable,,,,Quick-tagging using keyboard tokens
-Phase One Media Pro,"Yes name, date, rating, file size, and many more.","Yes individual, linear","Yes EXIF, IPTC, and custom keywords","Yes Rotate, Red eye removal, saturation, color balance, levels and more",Yes,Yes,,Yes,"Find duplicates, hierarchical keywords, distributable catalog with free Media Pro reader, offline browsing of images"
-Picasa,"Yes name, date, rating, faces","Yes individual, linear",Partial Keywords,Partial basic,Yes,Yes,Yes rotation only,Yes,"collages, Geotagging, Search for Faces, find duplicates"
-Shotwell,No,"Yes individual, linear, hide","Yes Read IPTC, Exif, XMP","Yes Exposure, Saturation, Tint, Shadows, Temperature, and more",Yes,No,No,Yes,"Non-destructive editor, Auto Enhance Images, Duplicate, Upload, Favorite"
-Simple Comic,No,,No,Yes rotate,Yes,,,,"capture page, remove page, set icon"
-STDU Viewer,No,No,No,No,Yes,No,No,Yes,
-Windows Photo Viewer,No,No,Yes: Exif,"Yes rotate, lossless JPEG rotate, annotate TIFF images",Yes,,Yes rotate only,Yes,
-XnView and XnViewMP,"Yes name, date, file size, image size, meta data, ...","Yes individual, linear","Yes IPTC, Exif, JPEG comment",Yes many,Yes configurable,Yes Custom monitor profile supported,Yes,Partial Supported in XnViewMP,Supports Adobe Photoshop Filter 8BF plugins
-xv,No,"Partial individual, all",Partial view comments,Yes many,Yes,,,,
-Zoner Photo Studio,"Yes name, date, file size, meta data","Yes individual, linear","Yes IPTC, Exif, XMP, JPEG comment",Yes very many,Yes configurable,Yes,Yes,Yes,"sign images, 16 bits per channel, GPS support, merge pictures to HDR, WIC codecs support"
-Program,search (criteria),selection (styles),metadata,adjust image (functions),hotkeys,color management (ICC),JPEG Lossless operations,Unicode support,other / special
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Program,Comic book,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD,Other graphics file formats
+ACDSee,,,BMP,JPEG,PNG,TIFF,GIF,PSD,"ACDSee reads 9 compression formats and writes to 2, reads 33 video formats, and supports 61 image formats and writes to 16, including EMF, PCX, PIC, PICT, PSD, PSP, SGI, TGA, WMF, XBM, various camera formats among others"
+Adobe Bridge,,,,,,,,,Displays all file types supported by Adobe Creative Suite
+Aperture,,PDF,,JPEG,PNG,TIFF,GIF,PSD,"PSD, OLY,[citation needed] Various video formats including: AVI, MOV, MPEG"
+CDisplay,"CBZ, CBR, CBT, CBA",,BMP,JPEG,PNG,,GIF,,
+Comix,"CBZ, CBR, CBT",,,JPEG,PNG,,,,...
+digiKam,,,BMP,JPEG,PNG,TIFF,GIF,,"JPEG 2000, PCX, WMF, PNM, PPM, XCF, XPM, PGX, MPEG, MPO, MPE, AVI, MOV, ASF, PGF"
+Eye of GNOME,,,BMP,JPEG,PNG,TIFF,GIF,,"PNM, RAS, ICO, XPM, SVG"
+F-Spot,,,,JPEG,PNG,TIFF,GIF,,"PPM, SVG"
+FastPictureViewer,,,BMP,JPEG,PNG,TIFF,,PSD,"HD Photo, HDP, WDP, JPEG XR (+ RLE, DIB, ICO, MTIFF in the registered edition, as well as DjVu, TGA, PSD, HDR, DDS, EXR, J2K, PNM, PBM, PGM, PBM, LRPREV, JPS through additional WIC codecs from the optional FastPictureViewer Codec Pack or from 3rd parties)"
+FastStone Image Viewer,,,BMP,JPEG,PNG,TIFF,GIF,PSD,"loading of: JPEG 2000, PCX, WMF, ICO, CUR, TGA, CRW, saving to: BMP, GIF, JPEG, JPEG 2000, PCX, PNG, PPM, TGA, TIFF, PDF"
+Geeqie,,,BMP,JPEG,PNG,TIFF,GIF,,"ANI, APM, CUR, ICNS, ICO, JP2/JPC/JPX/J2K/JPF, JPS, MPO, PCX, PBM/PGM/PNM/PPM, QIF/QTIF (QuickTime Image Format), RAS (Sun Raster), SVG/SVGZ, TGA/TARGA, WBMP, WMF, XBM, XPM"
+Gonvisor,"CBZ, CBR, CBA, CB7",PDF,BMP,JPEG,PNG,,GIF,,"Opens images contained in rar, zip, ace and 7zip files."
+GraphicConverter,,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD,"190 types read, 79 types saved"
+gThumb,,,BMP,JPEG,PNG,TIFF,GIF,,
+Gwenview,,,BMP,JPEG,PNG,TIFF,GIF,PSD,"MNG, SVG, XCF, RAW (NEF), etc."
+iPhoto,,,,JPEG,PNG,,GIF,PSD,"RAW (All QuickTime supported images), PSD (Leopard), AVI (Leopard), MOV (Leopard)"
+IrfanView,,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD,"~70 types including : AIF, ANI/CUR, ASF, AU/SND, AVI, B3D, DIB, CAM (Casio JPG), CLP, DDS, Dicom/ACR, DJVU, ECW, EMF/WMF, EPS/PS, FITS, FlashPix (FPX), FSH, G3, HDR, ICO/ICL/EXE/DLL, IFF/LBM, IMG (GEM), JPEG 2000, JPM, KDC, LDF, LWF, MED, MID/RMI, MNG/JNG, MOV, MP3, MPG, MrSID, NLM/NOL/NGG, OGG, PBM/PGM/PPM, PCX/DCX, PhotoCD, PIC, PSD, PSP, RAS/SUN, RAW, Real Audio (RA), RLE, SFF, SFW, SGI/RGB, SWF (Flash/Shockwave), TGA, TTF, TXT, WAD, WAL, WAV, WBMP, WBZ/WBC, XBM, XPM, CAD formats. Partial support: MOV, QTIF, Mac PICT, FLI/FLC, SVG. Note that some modes don't display large animated GIF files entirely (for example the Slideshow mode)."
+KSquirrel,,,,,,,,,51 types
+KPhotoAlbum,,,,,,,,,"Photo formats supported by KDE; AVI, MPEG, RAW"
+Lphoto,,,,,,,,,iPhoto Clone
+Phase One Media Pro,,PDF,,JPEG,PNG,TIFF,GIF,PSD,"Supports over 100 file formats for images, videos and documents, including: PSD, IIQ, CR, EIP, DOC"
+Picasa,,,BMP,JPEG,PNG,TIFF,GIF,,"8 types including TGA, RAW, and some movie formats"
+Preview,,PDF,BMP,JPEG,PNG,TIFF,GIF,,All QuickTime images:
+Shotwell,,,,JPEG,PNG,TIFF,GIF,,RAW and some video formats
+Simple Comic,"CBZ, CBR, CB7",,,JPEG,PNG,,GIF,,"JPEG2000, any other Core Image supported format. Also opens 7-Zip, LHA, RAR, ZIP"
+STDU Viewer,,PDF,BMP,JPEG,PNG,TIFF (multipage),GIF,PSD,"TXT, EMF, WMF, DjVu, XPS"
+Windows Photo Viewer,,,BMP,JPEG,PNG,TIFF,GIF,,"WMF, EMF, ICO"
+XnView and XnViewMP,,PDF,BMP,JPEG (IPTC&Exif),PNG,TIFF (multipage),GIF,PSD,"reads over 500 formats,[1] including: FAX, EPS, WMF, DICOM, DPX; writes about 75 formats[2]"
+Xv,,,BMP,JPEG,PNG (with patch),TIFF,GIF,,"PBM, PGM, PPM, XPM, Sun Rasterfile, Targa, RGB, PCX, FITS, PM, PostScript"
+Zoner Photo Studio,,,BMP,JPEG,PNG,TIFF,GIF/aGIF,,"HDP/WDP, PSD, PSB, PSP/PSPIMAGE, DIB/RLE, J2K/JPC/JP2, PAM, PBM, PGM, PNM, PCD, PCX, WBMP/WBM, TGA, ICO, MAC, WPG, BMI, MDM, THN, DCM, stereo pictures: JPS, PNS, BMS."
+Program,Comic book,PDF,BMP,JPEG,PNG,TIFF,GIF,PSD,Other graphics file formats

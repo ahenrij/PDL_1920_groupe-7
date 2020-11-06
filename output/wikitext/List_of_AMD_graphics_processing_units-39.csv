@@ -1,20 +1,15 @@
-<<<<<<< HEAD
-Model,Launch,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Hardware T&L,Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
-Rage LT (Rage II),Nov 1996,500,PCI,60,66,No,0:1:1:1,0.06,0.06,4,0.53,"EDO, SDR, SGR",64,5,N/A,
-Rage LT Pro (Rage Pro),Nov 1997,350,"AGP, PCI",75,100,,,0.075,0.075,8,0.80,,,6,1.1,Motion Compensation
-Rage Mobility M/P (Rage Pro),Nov 1998,250,,90,,,,0.18,0.18,,,"SDR, SGR",,,,"M had 4 MB of integrated SDRAM, P had none. IDCT, Motion Compensation."
-Rage Mobility M1 (Rage Pro),Feb 1999,,,90,90,,,,,,0.72,SDR,,6,1.2,"M1 had 8 MB of integrated SDRAM, P had none. IDCT, Motion Compensation."
-Rage 128 GL,Aug 1998,,,103,103,,0:2:2:2,0.206,0.206,32,1.65,,128,,,
-Rage Mobility 128 (Rage 128 Pro),Oct 1999,,,105,105,,,0.21,0.21,16,2.28,,,,,"IDCT, Motion Compensation"
-Rage Mobility M3 (AGP 4x) (Rage 128 Pro),,,,,,,,,,,2.28,,,,,"M3 had 8 MB of integrated SDRAM, IDCT, Motion Compensation."
-Rage Mobility M4 (AGP 4x) (Rage 128 Pro),,,,,,,,,,32,2.28,,,,,"M4 had 16 MB of integrated SDRAM, IDCT, Motion Compensation."
-=======
-Model,Launch,Core,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate (GT/s),Memory,,,,API compliance (version),,TDP / idle (watts),Notes
-,,,,,,,,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
-FireMV 2200 PCI.[31],January 2006,RV280 GL,PCI,240,200,1:4:4:4,0.96,64,3.2,DDR,64,8.1,1.4,15,DMS-59 for dual DVI-D output
-FireMV 2200 PCIe.[32],,RV370,PCIe x16,324,196,2:4:4:4,1.296,128,,,,9.0,2.1,,
-FireMV 2260[33],January 2008,RV620,"PCIe 2.0 x1/x16, PCI",600,500,40(8×5):4:4,2.4,256,32,DDR2,256,10.1[34],3.3,15/8,Dual DisplayPort (with adapters: DVI-D)
-FireMV 2400 PCI.[35],,RV380,PCI,500,,2:4:4:4,2.0,128,16,DDR,128,9.0b,2.1,20,"2x VHDCI for quad DVI-D output, VGA"
-FireMV 2400 PCIe.[36],,,PCIe x1,500,,,,256,,DDR3,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name and Architecture,Fab (nm),Transistors (million),"Core config1,2",Core clock (MHz),Fillrate,,,,Ray-tracing Performance,,Memory,,,,,Bus interface,API compliance (version),,,Processing power (GFLOPS),Architecture features
+,,,,,,,MOperations/s,MPixels/s,MTexels/s,MTri/s,GRays/s (triangles),GRays/s (voxels or boxes),Size (MiB),Clock (MHz),RAM type,Bus width (bit),Bandwidth (GB/s),,Direct3D,OpenGL,other,,
+Flipper (GameCube) [132][133][134][135][136],"September 14, 2001",Flipper,NEC 180 nm[137],51[138],4(Pixel Pipelines):1(Vertex Pipeline):4:4,162,648,648,648,60,-,-,24 shared 16 shared 3 eDRA,324 81 162,1T-SRAM SDRAM eDRAM,64 8 512,3.2 1.6 12.8/9.63,Integrated,,,,9.4,"Fixed-function T&L, TEV register combiner"
+Xenos (Xbox 360)[139][140],"November 22, 2005",Xenon Zephyr Opus Falcon Jasper Vejle Corona,TSMC 90 nm 90 nm 65/80 nm 65/80 nm 65 nm[141] 45 nm[142] 45 nm,232[143],240(48x5):16:8,500,"240,000",4000,8000,500,-,-,512 (shared) 10 eDRAM,700 500,GDDR3 eDRAM,128,22.4 32 (GPU to daughter die) 256 (Daughter die ROP to eDRAM),,9.0c+,,,240,Surface tessellation
+Hollywood (Wii)[144],"November 19, 2006",Hollywood,NEC 90 nm,,4(Pixel Pipelines):1(Vertex Pipeline):4:4,243,972,972,972,70,-,-,24 shared 64 shared 3 eDRAM,486 Unknown 243,1T-SRAM GDDR3 eDRAM,64 Unknown 512,4.8 4 19.2/14.4,,,,,14.1,"Fixed-function T&L, TEV register combiner"
+Latte (Wii U)[145],"November 18, 2012",Latte,Renesas 45 nm,,160:16:8,550,"176,000",4400,8800,366,-,-,2048 (shared) 32 eDRAM,800 (1600 effective) 550,DDR3 eDRAM,64 1024,12.8 70.4,,,,,176,
+Durango (Xbox One)[146],"November 22, 2013",Durango (GCN based),TSMC 28 nm (One S) 16 nm,"4,800[147]",768:48:16,"853, (One S) 914","1,310,208, (One S) 1,403,904","13,648, (One S) 14,624","40,944, (One S) 43,872",1300,-,-,8192 (shared) 32 eSRAM,1066.5 (2133 effective) 1706 (3412 effective),DDR3 eSRAM,,"68.3 218, 219 (One S)",,11.2[148] 12,,Mantle technically possible,"1310.2, (One S) 1403.9","Tiled resources, (One S) Upscaled 4K HDR support"
+Liverpool (PlayStation 4)[149],"November 15, 2013",Liverpool (GCN based),TSMC 28 nm 16 nm,,1152:72:32,800,"1,843,200","25,600","57,600",1707,-,-,8192 (shared),1375 (5500 effective),GDDR5,256,176,,,4.2,"GNM, GNMX, PlayStation Shader Language, Mantle technically possible",1843.2,HDR possible (only 2K)
+Neo (PlayStation 4 Pro)[150][151][152],"November 10, 2016",Ellesmere GCN 4,TSMC 16 nm,"5,700",2304:144:64,911,"4,197,888","58,304","131,200",3078,-,-,,1700 (6800 effective),,,217.6,,,4.2 (4.5),,4197.8,"4K HDR possible, Full Compatible PS4 mode with reduced power consumption"
+Scorpio Engine (Xbox One X)[153][154],"November 7, 2017",Jaguar,,"6,600[147]",2560:160:32,1172,"6,000,640","37,504 [155]","187,520",4400,-,-,12288 (shared),,,384,326.4,,11.2 12,,Unknown,6000.6,"4K HDR support, supersampling"
+Lockhart (Xbox Series S),"November 10, 2020",Project Lockhart RDNA 2,TSMC 7 nm,"8,000",1280:80:32,1565,"4,006,000","50,080","125,200",2314,31.3,125,"8,192 (GPU) + 2,048 (shared) + Infinity Cache ??? MB",1750,GDDR6,128,224(GPU) + 56(Standard) + ??? (Infinity Cache),,12U,,?,FP32: 4006 FP16: 8013,"Sampler Feedback Streaming (SFS), DirectX Raytracing (DXR), Variable Rate Shading (VRS), Machine Learning Acceleration, D3D Mesh Shading, Xbox Velocity Architecture, Opus Audio Decode, 4K Capable, Variable Refresh Rate (VRR), 120 Hz Support"
+Scarlett (Xbox Series X)[147],,Project Scarlett RDNA 2,,"15,300",3328:208:64,1825,"12,147,200","116,800","379,600",7300,94.9,379.6,"10,240 (GPU) + 6,124 (shared) + Infinity Cache ??? MB",,,320,560(GPU) + 336(Standard) + ??? (Infinity Cache),,,,,FP32: 12147.2 FP16: 24294.4,"Sampler Feedback Streaming (SFS), DirectX Raytracing (DXR), Variable Rate Shading (VRS), Machine Learning Acceleration, D3D Mesh Shading, Xbox Velocity Architecture, Opus Audio Decode, 8K Capable, Variable Refresh Rate (VRR), 120 Hz Support [156]"
+Oberon (PlayStation 5),"November 12, 2020",Oberon RDNA 2,,?,2304:144:64,2233 (Variable/Continuous Boost),"10,289,664","142,912","321,552",6100,80.3,321.5,"15,259 (shared) + Infinity Cache ??? MB",,,256,448 + ??? (Infinity Cache),,,4.6,?,FP32: 10289.6 FP16: 20579.2,"8K HDR support, 120Hz, Raytracing"
+Model,Launch,Code name,Fab (nm),Transistors (million),"Core config1, 2",Core clock (MHz),Million Operations/s,Million Pixels/s,MTexels/s,MTri/s,GRays/s (triangles),GRays/s (voxels or boxes),Size (MiB),Clock (MHz),RAM type,Bus width (bit),Bandwidth (GB/s),Bus interface,Direct3D,OpenGL,Other,Processing power (GFLOPS),Architecture features
+,,,,,,,Fillrate,,,,Ray-tracing Performance,,Memory,,,,,,API compliance (version),,,,

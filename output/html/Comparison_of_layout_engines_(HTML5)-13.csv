@@ -1,46 +1,25 @@
-<<<<<<< HEAD
-,Trident,Gecko,WebKit,KHTML,Presto
-Element identifiers,,,,,
-id,<3.1[IE 3.0],1.0,Yes,Yes,1.0
-class,,,,,
-Inline styles,,,,,
-style,<3.1[IE 3.0],1.0,Yes,Yes,1.0
-Advisory information,,,,,
-title,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-Language information,,,,,
-lang,<3.1[IE 4.0],1.0,Yes,Yes,1.0
-dir,<3.1[IE 5.0],,,,
-=======
-,Trident,Gecko,WebKit,Presto[p 32]
-Error state,,,,
-MediaError,5.0 [t 43],1.9.1,?,2.5
-Network state,,,,
-src,5.0[t 1],1.9.1,?,2.5
-currentSrc,,,,
-networkState,,,,
-preload,,2.0[note 11][g 90],,No
-buffered,,2.0[g 95],,
-load(),,1.9.1,,2.5
-canPlayType(),,,533[w 72],
-Ready state,,,,
-readyState,5.0[t 1],1.9.1,?,2.5
-seeking,,,,
-Playback state,,,,
-currentTime,5.0[t 1],1.9.1,?,2.5
-startTime,,No,,
-duration,,1.9.1,,
-paused,,,,
-defaultPlaybackRate,,20.0[g 96],,No
-playbackRate,,,,
-played,,15.0[g 97],,
-seekable,,8.0[g 98],,
-ended,,1.9.1,,2.5
-autoplay,,,,
+,Trident,Gecko,WebKit,Presto
+<audio> attributes,,,,
+src,5.0[t 1],1.9.1,525,2.5
+preload,,2.0[note 11][g 90],,Experimental[note 11]
+autoplay,,1.9.1,,2.5
 loop,,11.0[g 91],,
-play(),,1.9.1,,
-pause(),,,,
-Controls,,,,
-controls,5.0[t 1],1.9.1,?,2.5
-volume,,,,
-muted,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+controls,,1.9.1,,
+<video> attributes,,,,
+src,5.0[t 1],1.9.1,525,2.5
+preload,,2.0[note 11][g 90],,Experimental[note 11]
+autoplay,,1.9.1,,2.5
+loop,,11.0[g 91],,
+controls,,1.9.1,,
+poster,,1.9.2[g 92],,
+width,,1.9.1,,
+height,,,,
+<source> attributes,,,,
+src,5.0[t 1],1.9.1,525[w 70],2.5
+type,,,,
+media,,15.0[g 93],,
+<track> attributes,,,,
+kind,6.0[t 42],24.0[g 94],Yes[w 71],No
+label,,,,
+src,,,,
+srclang,,,,

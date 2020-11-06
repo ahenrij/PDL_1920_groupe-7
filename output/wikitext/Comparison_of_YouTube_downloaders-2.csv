@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 YouTube Downloader,Online,Windows,Mac OS X,Linux,Android
 4KDownload,,,,,
 ClipGrab,,,,,
@@ -7,14 +6,4 @@ Free Studio,,,,,
 Video DownloadHelper,,,,,
 Freemake Video Downloader,,,,,
 NewPipe,,,,,
-=======
-YouTube Downloader,MP3,MPEG4,WMV,AVI,FLV,Ogg Theora,Ogg Vorbis,Matroska,3GP,SWF,Special device profiles (e.g. iPhone),M4A,WebM
-4KDownload,,,,,,,,,,,,,
-ClipGrab,,,,,,,,,,,,,
-Airy,,,,,,,,,,,,,
-Free Studio,,,,,,,,,,,,,
-JDownloader,,,,,,,,,,,,,
-Video DownloadHelper,,,,,,,,,,,,,
-Freemake Video Downloader,,,,,,,,,,,,,
-NewPipe,,,,,,,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+youtube-dl,,,,,

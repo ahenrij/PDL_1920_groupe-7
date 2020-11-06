@@ -1,26 +1,24 @@
-<<<<<<< HEAD
-Model (Codename),Launch,Architecture (Fab),Core,,Fillrate[a][b][c],,Processing power[a][d] (GFLOPS),Memory,,,,TDP
-,,,Config[e],Clock[a] (MHz),Texture (GT/s),Pixel (GP/s),,Bus type & width,Size (GiB),Clock (MHz),Band- width (GB/s),
-Radeon R5 M420[158] (Jet Pro),15 May 2016,GCN 1st gen (28 nm),320:20:8,780 855,15.6 17.1,6.24 6.84,499 547,DDR3 64-bit,2,1000,16.0,~20 W
-Radeon R5 M430[159] (Exo Pro),15 May 2016,,320:20:8,1030 ?,20.6,8.2,659.2 659.2,DDR3 64-bit,2,1000,14.4,18 W
-Radeon R7 M435[160] (Jet Pro),15 May 2016,,320:20:8,780 855,15.6 17.1,6.24 6.84,499 547,GDDR5 64-bit,4,1000,32,~20 W
-Radeon R7 M440[161] (Meso Pro),15 May 2016,,320:20:8,1021 ?,20.4,8.17,653 653,DDR3 64-bit,4,1000,16,~20 W
-Radeon R7 M445[162] (Meso Pro),14 May 2016,,320:20:8,780 920,15.6 18.4,6.24 7.36,499 589,GDDR5 64-bit,4,1000,32,~20 W
-Radeon R7 M460[163][164] (Meso XT),April 2016,,384:24:8,1100 1125,26.4 27.0,8.8 9.00,844 864,DDR3 64-bit,2,900,14.4,Unknown
-Radeon RX 460[165] (Baffin),August 2016,GCN 4th gen (14 nm),896:56:16,Unknown,Unknown,Unknown,Unknown,GDDR5 128-bit,2,1750,112,35 W?
-Radeon R7 M465[166][167] (Litho XT),May 2016,GCN 1st gen (28 nm),384:24:8,825 960,19.8 23.0,6.6 7.68,634 737,GDDR5 128-bit,4,1150,32,Unknown
-Radeon R7 M465X[168] (Tropo XT),May 2016,,512:32:16,900 925,28.8 29.6,14.4 14.80,921 947,GDDR5 128-bit,4,1125,72,Unknown
-Radeon R9 M470[169] (Strato Pro),May 2016,GCN 2nd gen (28 nm),768:48:16,900 1000,43.2 48.0,14.4 16.00,1382 1536,GDDR5 128-bit,4,1500,96,~75 W
-Radeon R9 M470X[170] (Strato XT),May 2016,,896:56:16,1000 1100,56.0 61.6,16.00 17.60,1792 1971,GDDR5 128-bit,4,1500,96,~75 W
-Radeon RX 470[171] (Ellesmere Pro),August 2016,GCN 4th gen (14 nm),2048:128:32,Unknown,Unknown,Unknown,Unknown,GDDR5 256-bit,4,1650,211,85 W?
-Radeon RX 480M (Baffin),TBA,,1024:xx:xx,Unknown,Unknown,Unknown,Unknown,GDDR5 128-bit,Unknown,Unknown,Unknown,35 W
-Radeon R9 M485X[172] (Antigua XT),May 2016,GCN 3rd gen (28 nm),2048:128:32,723,92.5,23.14,2961,GDDR5 256-bit,8,1250,160,~100 W
-=======
-Model,Launch,Core,Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate (GT/s),Memory,,,,API compliance (version),,TDP / idle (watts),Notes
-,,,,,,,,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
-FireMV 2200 PCI.[207],January 2006,RV280 GL,PCI,240,200,1:4:4:4,0.96,64,3.2,DDR,64,8.1,1.4,15,DMS-59 for dual DVI-D output
-FireMV 2200 PCIe.[208],,RV370,PCIe x16,324,196,2:4:4:4,1.296,128,,,,9.0,2.1,,
-FireMV 2260[209],January 2008,RV620,"PCIe 2.0 x1/x16, PCI",600,500,40(8×5):4:4,2.4,256,32,DDR2,256,10.1[210],3.3,15/8,Dual DisplayPort (with adapters: DVI-D)
-FireMV 2400 PCI.[211],,RV380,PCI,500,,2:4:4:4,2.0,128,16,DDR,128,9.0b,2.1,20,"2x VHDCI for quad DVI-D output, VGA"
-FireMV 2400 PCIe.[212],,,PCIe x1,500,,,,256,,DDR3,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model[147],Launch,Architecture Fab,Core,,Fillrate[a][b],,Processing power[c] (GFLOPS),Memory,,,,TDP (Watts),Bus interface
+,,,Config[d],Clock (MHz),Pixel (GP/s),Texture (GT/s),,Size (MiB),Bus type & width (bit),Clock (MHz),Bandwidth (GB/s),,
+Radeon HD 6330M (Robson LP)[148],November 2010,TeraScale 2 40 nm,80:8:4,500,2.0,4.0,80,1024,DDR3 64-bit,800,12.8,7,PCIe 2.1 x16
+Radeon HD 6350M (Robson Pro)[148],November 2010,,,500,2.0,4.0,80,1024,DDR3 64-bit,800 900,12.8 14.4,7,
+Radeon HD 6370M (Robson XT)[148],November 2010,,,750,3.0,6.0,120,1024,DDR3 64-bit,900,14.4,11,
+Radeon HD 6430M (Seymour LP)[149],January 2011,TeraScale 2 40 nm,160:8:4,480,1.92,3.84,153.6,1024,DDR3 64-bit,800,12.8,Unknown,PCIe 2.1 x16
+Radeon HD 6450M (Seymour Pro)[149],January 2011,,,600,2.4,4.8,192,1024,DDR3 64-bit,800,12.8,Unknown,
+Radeon HD 6470M (Seymour XT)[149],January 2011,,,700 750,2.8 3.0,5.6 6.0,224 240,1024,DDR3 64-bit,800 800,12.8,Unknown,
+Radeon HD 6490M (Seymour XT)[149],January 2011,,,800,3.2,6.4,256,512,GDDR5 64-bit,800,25.6,Unknown,
+Radeon HD 6530M (Capilano Pro)[150],November 2010,TeraScale 2 40 nm,400:20:8,500,4.0,10.0,400,1024,DDR3 128-bit,900,28.8,26,PCIe 2.1 x16
+Radeon HD 6550M (Capilano Pro)[150],November 2010,,,600,4.8,12.0,480,1024,DDR3 128-bit,900,28.8,26,
+Radeon HD 6570M (Capilano XT)[150],November 2010,,,650,5.2,13.0,520,1024,DDR3 64-bit GDDR5 128-bit,900,28.8 57.6,30,
+Radeon HD 6630M (Whistler LP)[151],January 2011,TeraScale 2 40 nm,480:24:8,485,3.88,11.64,465.6,256(mac) 1024,GDDR5 128-bit(mac) DDR3,800,51.2 (mac) 25.6,Unknown,PCIe 2.1 x16
+Radeon HD 6650M (Whistler Pro)[151],January 2011,,,600,4.8,14.4,576,1024,DDR3 128-bit,900,28.8,Unknown,
+Radeon HD 6730M (Whistler XT)[151],January 2011,,,725,5.8,17.4,696,1024,DDR3 128-bit,800,25.6,Unknown,
+Radeon HD 6750M (Whistler Pro)[151],January 2011,,,600,4.8,14.4,576,256 512 1024,GDDR5 128-bit,800 900,51.2 57.6,Unknown,
+Radeon HD 6770M (Whistler XT)[151],January 2011,,,725,5.8,17.4,696,1024,GDDR5 128-bit,900,57.6,Unknown,
+Radeon HD 6830M (Granville Pro)[152],January 2011,TeraScale 2 40 nm,800:40:16,575,9.2,23.0,920,2048,DDR3 128-bit,800,25.6,39,PCIe 2.1 x16
+Radeon HD 6850M (Granville XT)[152],January 2011,,,675,10.8,27.0,1080,2048,DDR3 128-bit,800,25.6,50,
+Radeon HD 6850M (Granville Pro)[152],January 2011,,,575,9.2,23.0,920,1024,GDDR5 128-bit,800,57.6,39,
+Radeon HD 6870M (Granville XT)[152],January 2011,,,675,10.8,27,1080,1024,GDDR5 128-bit,1000,64,50,
+Radeon HD 6950M (Blackcomb Pro)[153],January 2011,TeraScale 2 40 nm,960:48:32,580,18.56,27.84,1113.6,2048,GDDR5 256-bit,900,115.2,50,PCIe 2.1 x16
+Radeon HD 6970M (Blackcomb XT)[153],January 2011,,,680,21.76,32.64,1305.6,2048,GDDR5 256-bit,900,115.2,75,
+Radeon HD 6990M (Blackcomb XTX)[154],July 2011,TeraScale 2 40 nm,1120:56:32,715,22.88,40.04,1601.6,2048,GDDR5 256-bit,900,115.2,75,PCIe 2.1 x16

@@ -1,49 +1,25 @@
-<<<<<<< HEAD
-Name,Connectivity,,,,OS compatibility,,,,,,,Integrated software,Protocol compliancy,
-,USB,,Wi-Fi,Bluetooth,Linux,| Macintosh,Windows,,,,MSC,,MTP,
-,Mini-B port,2.0,,,,Mac OS X,Vista,XP,2000,9x,,,,
-Archos 105,,,,,,,,,,,WMP through MTP,,,
-Archos 405,,,,,,,,,,,WMP through MTP,,,
-Archos 5,,,,,,,,,,,WMP through MTP,,,
-Archos 605 WiFi / GPS,,,,,,,,,,,WMP through MTP,,,
-Archos 705 WiFi,,,,,,,,,,,WMP through MTP,,,
-Cowon A3,,,,,,,,,,,jetAudio,,,
-Cowon D2,,,,,,,,,,,jetAudio,,,
-Cowon Q5W,,,,,,,,,,,jetAudio,,,
-Gigabeat T400,,,,,,,,,,,WMP through MTP,,,
-GP2X F-200,,,,,,,,,,,,,,
-iPod classic,,,,,,,,,,,iTunes,,,
-iPod nano 4G,,,,,,,,,,,iTunes,,,
-iPod touch 1G,,,,,,,,,,,iTunes,,,
-iPod touch 2G - 5G,,,,,,,,,,,iTunes,,,
-iriver clix 2G,,,,,,,,,,,iriver plus Rhapsody[89],,,
-PSP Slim & Lite,,,,PSP Go only,,,,,,,Media Go,,,
-Samsung Galaxy Player,,,,,,,,,,,WMP through MTP,,,
-Samsung T10,,,,,,,,,,,EmoDio,,,
-Samsung P2,,,,,,,,,,,EmoDio,,,
-Sansa Fuze,,,,,,,,,,MSC,WMP through MTP,,,
-Sansa Fuze+,micro B,,,,,,,,,MSC,WMP through MTP,,,
-Walkman NWZ-A810 series,,,,,,,,,,,WMP through MTP,,,
-ZEN,,,,,,,,,,,Creative MediaSource,,,
-ZEN Vision W,,,,,,,,,,,Creative MediaSource,,,
-Zune,,,,,,,,,,,Zune Software,,,
-ZVUE 260,,,,,,,,,,,ZAPP,,,
-=======
-Product,Manufacturer,Web browser,Wireless synching,Ad hoc,On-demand,Web radio/TV
-"Archos 5, 7",Archos,Opera,,,,
-"Archos 604 WiFi, 704 WiFi",Archos,Opera 8.5,,,,
-"Archos 605 WiFi, 705 WiFi",Archos,Opera 9,,,Content Portals,
-Archos PMA400,Archos,Opera,,,,
-Cowon Q5W,Cowon,IE Mobile,,,,Yes (using Flash-based Internet Radio sites)
-Ibiza Rhapsody,Haier,Minimo,,,Rhapsody,
-iPod Touch,Apple Inc.,Webkit,,,"iTunes, Spotify",
-Samsung Galaxy Player,Samsung,Webkit,,,Android Marketplace,
-Sansa Connect,SanDisk,,,,Yahoo! Music,
-Sony PSP,Sony,NetFront,,,PlayStation Store,
-Sony Walkman X Series,Sony,NetFront,,,,
-ZEN X-Fi,Creative,,media server,,Creative MediaBox,
-"Zune 4, 8",Microsoft,,,,Zune Marketplace,
-Zune 30,Microsoft,,,,Zune Marketplace,
-"Zune 80, 120",Microsoft,,,,Zune Marketplace,
-Zune HD,Microsoft,IE Mobile 6,,,Zune Marketplace,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Name,H.264,ASF,WMV,DivX / Xvid,MPEG-4,AVI,QuickTime,Other formats
+Archos 105,,,,,,,,
+Archos 405,,,,,,,,
+Archos 5,,,,,,,,"
+Archos 605 WiFi / GPS,,,,,,,,
+Archos 705 WiFi,,,,,,,,
+Cowon A3,,,,,,,,"MKV, MTV, OGM, VOB, DAT, AMV, MJPEG, MPEG-1"
+Cowon D2,,,,,,,,
+Cowon Q5W,,,,,,,,OGM
+Gigabeat T-Series,,,,,,,,
+GP2X F-200,,,,,,,,
+iPod (before Nano 6G; iPod 6G does),,,,,,,,
+iriver clix 2G,,,,,,,,
+PSP Slim & Lite,,,,,,,,MJPEG
+Rio PMP300,,,,,,,,
+Samsung Galaxy Player,,,,,,,,MKV
+Samsung T10,,,,.svi only,,,,
+Samsung P2,,,,.svi only,,,,
+Sansa Fuze,,,,,,,,
+Sansa Fuze+,,,,,,,,MPEG-4 Part 14
+Walkman NWZ-A810 series,,,,,,,,
+ZEN,,,,,,,,MJPEG
+ZEN Vision W,,,,,,,,MJPEG
+Zune,,,,,,,,
+ZVUE 260,,,,Xvid only,,,,

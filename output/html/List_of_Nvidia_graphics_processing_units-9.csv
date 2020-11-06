@@ -1,26 +1,15 @@
-<<<<<<< HEAD
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,,
-Quadro 400,GT216GL,40,PCIe 2.0 ×16,450,1125,1540,48:16:4,1.8,7.2,512,12.3,DDR3,64,108,-,10.1,4.5,32,"DisplayPort, Dual Link DVI"
-Quadro 600,GF108GL,,,640,1280,1600,96:164:4,2.56,10.24,1024,25.6,,128,245.76,15,11.0,4.6,40,
-Quadro 2000,GF106GL (GF106-875),,,625,1250,2600,192:324:16,10,20,,41.6,GDDR5,,480,30,,,62,"Stereo DP Dual Link DVI, Dual DisplayPort"
-Quadro 4000,GF100,,,475,950,2800,256:324:32,15.2,15.2,2048,89.6,,256,486.4,243,,,142,
-Quadro 5000,,,,513,1026,3000,352:444:40,20.53,22.572,2560,120,,320,722.304,359,,,152,
-Quadro 6000,,,,574,1148,,448:564:48,27.552,32.144,6144,144,,384,1028.608,515,,,204,
-Quadro 7000,GF110,,,651,1301,3696,512:644:48,31.248,41.7,6144,177,,,1332,667,,,,
-Quadro Plex 7000[202],2x GF100,,,574,1148,3000,2x 512:644:48,2x 18.37,2x 36.74,2x 6144,2x 144,,2x 384,2x 1176,2x 588,,,600,
-=======
-Model,Features,,,,,,,
-,Scalable Link Interface (SLI),PureVideo 2 with VP2 Engine: (BSP and 240 AES),PureVideo 4 with VP4 Engine,,,,,
-GeForce 210,No,No,Yes,,,,,
-GeForce GT 220,,,,,,,,
-GeForce GT 240,,,,,,,,
-GeForce GTS 250,Yes 3-Way (4-way for EVGA 285 Classified),Yes,No,,,,,
-GeForce GTX 260,,,,,,,,
-GeForce GTX 260 Core 216,,,,,,,,
-GeForce GTX 260 Core 216 (55 nm),,,,,,,,
-GeForce GTX 275,,,,,,,,
-GeForce GTX 280,,,,,,,,
-GeForce GTX 285,,,,,,,,
-GeForce GTX 295,Yes,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm),Transistors (billion),Die size (mm2),Bus interface,Core config,Clock speeds,,,Fillrate,,Memory,,,,Supported API version,,,,Processing power (GFLOPS),,,TBP (Watts),SLI support
+,,,,,,,,Base core clock (MHz),Boost core clock (MHz),Memory (MT/s),Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),DirectX,OpenGL,OpenCL,Vulkan,Single precision (Boost),Double precision,Half precision,,
+GeForce MX110[166][167],November 2017,GM108,28,Unknown,Unknown,64,256:16:8,965,993,Unknown,7.944,23.83,?2,(variable),GDDR5/DDR3,64,12,4.5,1.0,1.2,762.6,23.83,Unknown,30,No
+GeForce MX130[166][168][169],November 2017,,,Unknown,Unknown,,384:24:8,1122,1242,Unknown,9.936,29.81,,,,,,,1.2,1.0,762.6,29.81,Unknown,30,No
+GeForce MX150[170],Mid 2017,GP108 (N17S-G1-A1),14,1.8,70,PCIe 3.0 x4,384:24:16[171][172],1468,1532,6008,23.5,35.2,2,48,GDDR5,64,12 (12_1),,1.2,1.0 (1.2 via driver),1127 (1177),18,9,25,No
+,?,GP108 (N17S-LG-A1),,,,,,937,1038,5012,15,22.5,,40,,,,,,,720 (797),11,6,10,
+GeForce GTX 1050 (Notebook)[173][174],"January 3, 2017",GP107(N17P-G0-A1),,3.3,135,PCIe 3.0 x16,640:40:16,1354,1493,7000,21.7,54.2,4,112,,128,,,,,1733 (1911),27,14,53,
+GeForce GTX 1050 Ti (Notebook)[173],,GP107(N17P-G1-A1),,,,,768:48:32,1493,1620,,47.8,71.7,,,,,,,,,2293 (2488),36,18,64,
+GeForce GTX 1060 (Notebook)[173],"August 16, 2016",GP106,16,4.4,200,,1280:80:48,1404,1670,8000,67.4,112,6,192,,192,,,,,3594 (4275),112,56,80,
+GeForce GTX 1060 Max-Q,May 2017,,,,,,,1063,1480,,71.04,118.4,,,,,,,,,3789,118.4,59.20,,
+,,GP106B,,,,,,1265,,,,,,,,,,,,,,,,,
+GeForce GTX 1070 (Notebook)[173],"August 16, 2016",GP104/GP104B[175],,7.2,314,,2048:128:64,1442,1645,,92.3,185,8,256,,256,,,,,5906 (6738),185,92,115,Yes
+GeForce GTX 1070 Max-Q,May 2017,,,,,,,1101,1379,,88.26,176.5,,,,,,,,,5648,176.5,88.26,?,No
+GeForce GTX 1080 (Notebook)[173],"August 16, 2016",,,,,,2560:160:64,1556,1733,10000,99.6,249,,320,GDDR5X,,,,,,7967 (8873),249,124,150,Yes
+GeForce GTX 1080 Max-Q,May 2017,,,,,,,1101,1468,,93.95,234.9,,,,,,,,,7516,234.9,117.4,?,No

@@ -1,17 +1,4 @@
 ,Version,Operating systems,Office suite,Developer,License,ISO/IEC 26300:2006,Notes
-<<<<<<< HEAD
-Calligra Stage,2.4+,"Windows, Mac OS X, Linux, Unix-based systems",Calligra Suite,KDE Project,GPL / LGPL,Yes,
-IBM Lotus Symphony,1.0+,"Windows, Linux, Mac OS X",IBM Lotus Symphony,IBM,Proprietary,Yes,
-IBM Workplace Documents,2.5+,Any (Web-based),IBM Workplace Collaboration Services,IBM,Proprietary,,no longer being actively marketed
-KPresenter / KOffice Showcase,1.4+,"Linux, Unix-based systems",KOffice,KDE Project,LGPL,no (not valid),
-LibreOffice Impress,3.3.0,"Windows, Linux, Unix-based systems, Mac OS X, Solaris",LibreOffice,LibreOffice,LGPL,Yes,
-Microsoft Office PowerPoint,2007 SP2,Windows,Microsoft Office,Microsoft,Proprietary,Yes,
-NeoOffice Impress,1.2,Mac OS X,NeoOffice,Patrick Luby and Edward Peterlin,GPL,,Import only
-NeoOffice Impress,2.2.5,Mac OS X,NeoOffice,Patrick Luby and Edward Peterlin,GPL,Yes,[2]
-OpenOffice.org Impress,2.0+,"Windows, Linux, Unix-based systems, Mac OS X, Solaris",OpenOffice.org,OpenOffice.org,LGPL,Yes,
-StarOffice Impress,8,"Windows, Linux, Solaris",StarOffice,Sun Microsystems,Proprietary,Yes,
-Zoho Show,2006,Any (Web-based),Standalone,AdventNet,Proprietary,no (not valid),
-=======
 AbiWord,2.4.2,"Windows, Mac OS X, Linux, Unix-based systems",,AbiSource,GPL,Yes,Only supports basic ODT documents. Complex ones created in OpenOffice are likely to be broken in AbiWord.
 Calligra Words,2.4+,"Windows, Mac OS X, Linux, Unix-based systems",Calligra Suite,KDE Project,GPL / LGPL,Yes,
 Google Docs & Spreadsheets,2006,Any (Web-based),Standalone or Google Apps,Google,Proprietary,Yes,
@@ -29,5 +16,4 @@ TextMaker,2006 and higher,"Windows, Linux, FreeBSD, Pocket PC, Windows CE",SoftM
 TextEdit,1.5 and higher,Mac OS X,Standalone,Apple Inc.,Bundled with Mac OS X/Source code available,Yes,
 WordPerfect,X4 (2008),Windows,Corel WordPerfect Office X4,Corel,Proprietary,,Import only
 Zoho Writer,2006,Any (Web-based),Standalone,AdventNet,Proprietary,Yes,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
 ,Version,Operating systems,Office suite,Developer,License,ISO/IEC 26300:2006,Notes

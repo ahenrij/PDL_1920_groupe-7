@@ -1,21 +1,16 @@
-<<<<<<< HEAD
-Model,Launch,Core,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,TDP / idle (watts),Notes
-,,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL (OpenCL),,
-FirePro 2250[37],2007-01-01,RV516,80,107,100,PCIe x1/x16,600,500,2:4:4:4,2.4,0.3,256,32,DDR2,256,9.0c,2.1 (no),20/11,DMS-59 for dual DVI-D output
-FirePro 2270[38],2011-01-31,Cedar GL (RV810),40,292,59,PCIe 2.1 x1/x16,,600,80(16×5):8:4:1,,4.8,512 1024,9.6,GDDR3,64,11.0,4.3 (1.2),15/8 17/8,DMS-59 for dual output: DP or DVI-I or D-sub
-FirePro 2450 Multi-View[39],2009-01-01,2x RV620 (Terascale 1),55,2× 181,2× 61,PCIe 2.0 x1/x16,,,2× 40(8×5):4:4:1,,,512,38.4,,256,10.1,3.3 (APP),36/18,2x VHDCI for quad output: DVI-I or D-sub
-FirePro 2460 Multi-View[40][41],2010-04-01,Cedar GL (RV810) (Tera-scale2),40,292,59,PCIe 2.1 x16,500,500,80(16×5):8:4:1,2.0,4.0,,32,GDDR5,64,11.0,4.3 (1.2),17/13,"4x Mini DP for quad output: DP or DVI-D, UVD2, PowerPlay, Eyefinity"
-=======
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,,,Memory,,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
-Radeon VE/7000,"Feb 19, 2001",RV100 (piglet),180,"AGP 4x, PCI",183,183,1:0:3:1,183,336,549,0,"32, 64",2.688,DDR,64
-Radeon LE/7100 (OEM),"May 1, 2001",Rage 6 / R100,,AGP 4x,150,150,2:1:6:2,296,296,888,37.5,32,4.736,,128
-Radeon SDR/7200,June 2000,,,"AGP 4x, PCI",166,166,,333,333,996,41.5,,2.656,SDR,
-Radeon DDR/7200,April 2000,,,AGP 4x,166/183A,166/183A,,333/366A,333/366A,966/1098A,41.5/45.75A,"32, 64",5.312/5.856A,DDR,
-Radeon DDR/7500 VIVO,2001,,,"AGP 4x, PCI",166/183B,166/183B,,333/366B,333/366B,966/1098B,41.5/45.75B,64,5.312/5.856B,,
-Radeon DDR/7500 VIVO "SE",,,,,200,200,,400,400,1200,50.0,,6.400,,
-Radeon 7500 LE,N/A,RV200 (morpheus),150,,250,175,,500,500,1500,62.5,"32, 64",5.600,,
-Radeon 7500,"Aug 14, 2001",RV200 (morpheus),,,290,230,,580,580,1740,72.5,"32, 64, 128[6]",7.360,,
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MiB),Bandwidth (GB/s),Bus type,Bus width (bit)
-,,,,,,,,Fillrate,,,,Memory,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm),Transistors (million),Die size (mm2),Bus interface,Clock rate,,Core config,Fillrate,,Memory,,,,Processing power (GFLOPS),,TDP (Watts),,Crossfire Support,API support (version),,,Release Price (USD)
+,,,,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Idle,Max.,,Direct3D,OpenGL,"OpenCL, ATI Stream",
+Radeon HD 3410,"May 7, 2009",RV610,65,180,85,PCIe 1.0 x16,519,396,40:4:4,2.08,2.08,256,6.34,DDR2,64,41.52,,,20,rowspan="6" ,10.0,3.3,"No, Yes",?
+Radeon HD 3450,"Jan 23, 2008",RV620 LE,55,181,67,PCIe 2.0 x16 PCI AGP 8x,600,500,,2.40,2.40,256 512,8.00,,,48.0,,,25,10.1,,,,
+Radeon HD 3470,,RV620 PRO,,,,PCIe 2.0 x16,800,950,,3.20,3.20,,15.2,DDR2 GDDR3,,64.0,,,30,,,,,
+Radeon HD 3550,"Aug 4, 2008",,,,,,594,396,,2.38,2.38,512,6.34,DDR2,,47.52,,,,,,,,
+Radeon HD 3570,"Jul 5, 2010",,,,,,796,495,,3.18,3.18,,7.92,,,63.68,,,,,,,,
+Radeon HD 3610,"Sep 24, 2009",RV630 PRO,65,390,153,PCIe 1.0 x16,594,396,120:8:4,2.38,4.75,512 1024,12.7,,128,142.6,,,35,,,,,
+Radeon HD 3650,"Jan 23, 2008",RV635 PRO,55,378,,PCIe 2.0 x16 AGP 8x,725,405 800,,2.90,5.80,256 512 1024,13.0 25.6,DDR2 GDDR3 GDDR4,,174.0,,,65,,2-way Crossfire,,,
+Radeon HD 3730,"Oct 5, 2008",,,,135,PCIe 2.0 x16,722,405,,2.89,5.78,512,13.0,DDR2,,173.3,,,,,,,,
+Radeon HD 3750,,,,,,,796,693,,3.18,6.37,,22.2,GDDR3,,191.0,,,,,2-way Crossfire,,,
+Radeon HD 3830,"Apr 1, 2008",RV670 PRO,,666,192,,668,828,320:16:16,10.7,10.7,256,26.5,,,427.5,85.4,,75,,,,,$129
+Radeon HD 3850,"Nov 19, 2007",,,,,PCIe 2.0 x16 AGP 8x,,830 900,,,,256 512 1024,53.1 57.6,GDDR3 GDDR4,256,,85.4,,,,4-way Crossfire,,,$179
+Radeon HD 3870,,RV670 XT,,,,,777,900 1126,,12.4,12.4,512 1024,57.6 72.1,,,497.3,99.2,,106,,,,,$219
+Radeon HD 3850 X2,"Apr 4, 2008",RV670 PRO,,666×2,192×2,PCIe 2.0 x16,668,828,320:16:16×2,10.7×2,10.7×2,512×2,53.0×2,GDDR3,256×2,855.0,171,,140,,2-way Crossfire,,,$349
+Radeon HD 3870 X2,"Jan 28, 2008",R680,,,,,825,900 1125,,13.2×2,13.2×2,,57.6×2 72.0×2,GDDR3 GDDR4,,1056,211.2,,165,,,,,$449

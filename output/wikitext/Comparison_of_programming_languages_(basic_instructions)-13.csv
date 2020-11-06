@@ -1,87 +1,38 @@
-<<<<<<< HEAD
-! variable,constant,type synonym
-Ada[1],identifier : type« := initial_value»Ada declaration[e],identifier : constant type := final_value
-ALGOL 68,modename name« := initial_value»;,modename name = value;
-C (C99),type name« = initial_value»;,enum{ name = value };
-Objective-C,,
-C++,,const type name = value;
-C#,"type name1« = initial_value», name2« = initial_value», ... ; or var name = initial_value;","const type name = value, name = value, ... ; or readonly type name = value, name = value, ... ;"
-D,type name« = initial_value»; or auto name = value;,const type name = value; or immutable type name = value;
-Java,type name« = initial_value»;,final type name = value;
-JavaScript,var name« = initial_value»; or let name« = initial_value»; (since ECMAScript 2015),const name = value; (since ECMAScript 2015)
-Go,var name type« = initial_value» or name := initial_value,const name «type» = value
-RustRust declaration[f],let mut name«: type»« = initial_value»; static mut NAME: type = value;,let name«: type»« = initial_value»; const NAME: type = value; static NAME: type = value;
-Swift,var name« : type»« = initial_value»,let name «: type» = value
-Common Lisp,(defparameter name initial-value) or (defvar name initial-value),(defconstant name value)
-Scheme,(define name initial_value),
-ISLISP,(defglobal name initial_value) or (defdynamic name initial_value),(defconstant name value)
-PascalPascal's declarations[a],name: type« = initial_value»,name = value
-Visual Basic,Dim name «As type»,"See notes to left. Constants use the same syntax, and: use Const instead of Dim have a restriction to only certain primitive types Const name1 «As type» = value, name2 «As type» = value, ..."
-Visual Basic .NET[10],"The variable declaration syntax of VB.NET is surprisingly difficult to precisely describe. Given that there exist the identifier suffixes ("modifiers"): type_character, available as an alternative to an As clause for some primitive data types; nullable_specifier; and array_specifier; and that a modified_identifier is of the form identifier«type_character»«nullable_specifier»«array_specifier»; a modified_identifier_list is a comma-separated list of two or more occurrences of modified_identifier; and a declarator_list is a comma-separated list of declarators, which can be of the form identifier As object_creation_expression (object initializer declarator), modified_identifier« As non_array_type«array_rank_specifier»»« = initial_value» (single declarator), or modified_identifier_list« As «non_array_type««array_rank_specifier»» (multiple declarator); valid declaration statements are of the form <dl><dd>Dim declarator_list,</dd></dl> where, for the purpose of semantic analysis, to convert the declarator_list to a list of only single declarators: <dl> <dd>The As clauses of each multiple declarator is distributed over its modified_identifier_list</dd> <dd>The As New type... of each object initializer declarator is replaced with As type = New type...</dd> </dl> and for which, for each identifier, a type_character and As clause do not both appear; if an As clause is present, an array_rank_specifier does not appear both as a modification of the identifier and on the type of the As clause; an unmodified_type can be determined, by the rule that, if a type_character or As clause is present, unmodified_type is that specified by such construct, and that otherwise, either Option Infer must be on and the identifier must have an initializer, in which case unmodified_type is that of the initializer, or Option Strict must be off, in which case unmodified_type is Object; its final_type is its unmodified_type prepended before its modifiers; its final_type is a valid type; and if an initial_value is present, either Option Strict is on and initial_value has a widening conversion to final_type, or Option Strict is off and initial_value has a narrowing conversion to final_type. If Option Explicit is off, variables do not require explicit declaration; they are declared implicitly when used: name = initial_value",
-Xojo,Dim name «As type»« = initial_value»,
-Python,name = initial_value,rowspan=2 
-CoffeeScript,,
-S-Lang,name = initial_value;,
-Fortran,type name,"type, PARAMETER :: name = value"
-PHP,$name = initial_value;,"define("name", value); const name = value (5.3+)"
-Perl,«my» $name« = initial_value»;Perl's my keyword[c],use constant name => value;
-Raku,«my «type»» $name« = initial_value»;Perl's my keyword[c],«my «type»» constant name = value;
-Ruby,name = initial_value,Name = value
-Scala,var name«: type» = initial_value,val name«: type» = value
-Windows PowerShell,«[type] »$name = initial_value,
-Bash shell,name=initial_value,
-OCaml,let name« : type ref» = ref valueML ref[d],let name «: type» = value
-F#,let mutable name« : type» = value,
-Standard ML,val name« : type ref» = ref valueML ref[d],val name «: type» = value
-Haskell,,«name::type;» name = value
-Forth,VARIABLE name (in some systems use value VARIABLE name instead),value CONSTANT name
-COBOL,level-number name type clauses.,«0»1 name CONSTANT «AS» value.
-Mathematica,name=initial_value,
-=======
-! while,do while,for i = first to last,foreach
-Ada[1],while condition loop <dl><dd>statements</dd></dl> end loop,loop <dl><dd>statements</dd><dd>exit when not condition</dd></dl> end loop,for index in «reverse» [first .. last | discrete_type] loop <dl><dd>statements</dd></dl> end loop
-ALGOL 68,«for index» «from first» «by increment» «to last» «while condition» do statements od,,
-,«while condition» do statements od,«while statements; condition» do statements od,«for index» «from first» «by increment» «to last» do statements od
-APL,:While condition<dl><dd>statements</dd></dl> :EndWhile,:Repeat <dl><dd>statements</dd></dl>:Until condition,:For var«s» :In list<dl><dd>statements</dd></dl> :EndFor
-C (C99),instructions can be a single statement or a block in the form of: { statements } while (condition) instructions,do instructions while (condition);,for («type» i = first; i <= last; i++) instructions
-Objective-C,,,
-C++ (STL),,,
-C#,,,
-Java,,,
-JavaScript,,,for (var i = first; i <= last; i++) instructions
-PHP,,,"foreach (range(first, last) as $i) instructions or for ($i = first; $i <= last; $i++) instructions"
-Windows PowerShell,,,for ($i = first; $i -le last; $i++) instructions
-D,,,foreach (i; first ... last) instructions
-Go,for condition { instructions },,for i := first; i <= last; i++ { instructions }
-Swift,while condition { instructions },repeat { instructions } while condition (2.x) do { instructions } while condition (1.x),for i = first ... last { instructions } or for i = first ..< last+1 { instructions } or for var i = first; i <= last; i++ { instructions }
-Perl,while (condition) { instructions } or until (notcondition) { instructions },do { instructions } while (condition) or do { instructions } until (notcondition),for«each» «$i» (first .. last) { instructions } or for ($i = first; $i <= last; $i++) { instructions }
-Raku,while condition { instructions } or until notcondition { instructions },repeat { instructions } while condition or repeat { instructions } until notcondition,for first..last -> $i { instructions } or loop ($i = first; $i <=last; $i++) { instructions }
-Ruby,while condition <dl><dd>instructions</dd></dl>end or until notcondition <dl><dd>instructions</dd></dl> end,begin <dl><dd>instructions</dd></dl> end while condition or begin <dl><dd>instructions</dd></dl> end until notcondition,for i in first..last <dl><dd>instructions</dd></dl> end or for i in first...last+1 <dl><dd>instructions</dd></dl> end or first.upto(last) { i instructions 
-Bash shell,while condition ;do<dl><dd>instructions</dd></dl>done or until notcondition ;do<dl><dd>instructions</dd></dl> done,,for ((i = first; i <= last; ++i)) ; do<dl><dd>instructions</dd></dl>done
-Scala,while (condition) { instructions },do { instructions } while (condition),for (i <- first to last «by 1») { instructions } or first to last «by 1» foreach (i => { instructions })
-Smalltalk,conditionBlock whileTrue: <dl><dd>loopBlock</dd></dl>,loopBlock doWhile: <dl><dd>conditionBlock</dd></dl>,first to: last do: <dl><dd>loopBlock</dd></dl>
-Common Lisp,(loop<dl><dd>while condition</dd><dd>do</dd><dd>instructions)</dd></dl> or (do () (notcondition)<dl><dd>instructions)</dd></dl>,(loop<dl><dd>do</dd><dd>instructions</dd><dd>while condition)</dd></dl>,(loop<dl><dd>for i from first to last «by 1»</dd><dd>do</dd><dd>instructions)</dd></dl> or (dotimes (i N)<dl><dd>instructions)</dd></dl> or (do ((i first (1+ i))) ((>= i last))<dl><dd>instructions)</dd></dl>
-Scheme,(do () (notcondition) instructions) or (let loop () (if condition (begin instructions (loop)))),(let loop () (instructions (if condition (loop)))),(do ((i first (+ i 1))) ((>= i last)) instructions) or (let loop ((i first)) (if (< i last) (begin instructions (loop (+ i 1)))))
-ISLISP,(while condition instructions),(tagbody loop instructions (if condition (go loop)),(for ((i first (+ i 1))) ((>= i last)) instructions)
-Pascal,while condition do begin <dl><dd>instructions</dd></dl> end,repeat <dl><dd>instructions</dd></dl> until notcondition;,for i := first «step 1» to last do begin <dl><dd>instructions</dd></dl> end;step[a]
-Visual Basic,Do While condition <dl><dd>instructions</dd></dl>Loop or Do Until notcondition <dl><dd>instructions</dd></dl>Loopor While condition instructions Wend (Visual Basic) End While (Visual Basic .NET),Do <dl><dd>instructions</dd></dl> Loop While condition or Do <dl><dd>instructions</dd></dl> Loop Until notcondition,i must be declared beforehand. For i = first To last« Step 1» <dl><dd>instructions</dd></dl> Next i
-Visual Basic .NET,,,For i« As type» = first To last« Step 1» <dl><dd>instructions</dd></dl>Next« i»step[a]
-Xojo,While condition <dl><dd>instructions</dd></dl>Wend,Do Until notcondition <dl><dd>instructions</dd></dl>Loop or Do <dl><dd>instructions</dd></dl> Loop Until notcondition,
-Python,while condition : Tab instructions «else: Tab instructions»,,"for i in range(first, last+1): Tab instructions «else: Tab instructions»(Python 3.x) for i in xrange(first, last+1): Tab instructions «else: Tabinstructions»(Python 2.x)"
-S-Lang,while (condition) { instructions } «then optional-block»,do { instructions } while (condition) «then optional-block»,for (i = first; i <= last; i++) { instructions } «then optional-block»
-Fortran,DO WHILE (condition) <dl><dd> instructions</dd></dl> ENDDO,DO <dl><dd> instructions IF (condition) EXIT </dd></dl> ENDDO,"DO I = first,last <dl><dd> instructions </dd></dl> ENDDO"
-Forth,BEGIN « instructions » condition WHILE instructions REPEAT,BEGIN instructions condition UNTIL,limit start DO instructions LOOP
-OCaml,while condition do instructions done,,for i = first to last do instructions done
-F#,while condition do Tab instructions,,for i = first to last do Tab instructions
-Standard ML,while condition do ( instructions ),colspan=2 ,Array.app (fn item => instructions) array app (fn item => instructions) list
-Haskell (GHC),colspan=2 ,Control.Monad.forM_ [first..last] (\i -> do instructions),Control.Monad.forM_ list (\item -> do instructions)
-Eiffel,from <dl><dd>setup</dd></dl> until <dl><dd>condition</dd></dl> loop <dl><dd>instructions</dd></dl> end,,
-CoffeeScript,while condition <dl><dd>expression</dd></dl>,rowspan=6 ,for i in [first..last] <dl><dd>expression</dd></dl>
-,expression while condition,,
-,while condition then expression,,
-,until condition <dl><dd>expression</dd></dl>,,
-,expression until condition,for i in [first..last] then expression,for item in set then expression
-,until condition then expression,expression for i in [first..last],expression for item in set
-COBOL,PERFORM procedure-1 «THROUGH procedure-2» ««WITH» TEST BEFORE» UNTIL conditionCOBOL THRU[c],PERFORM procedure-1 «THROUGH procedure-2» «WITH» TEST AFTER UNTIL conditionCOBOL THRU[c],PERFORM procedure-1 «THROUGH procedure-2» VARYING i FROM first BY increment UNTIL i > lastCOBOL GREATER THAN[d]
-,PERFORM ««WITH» TEST BEFORE» UNTIL condition <dl><dd> expression </dd></dl> END-PERFORM,PERFORM «WITH» TEST AFTER UNTIL condition <dl><dd> expression </dd></dl> END-PERFORM,PERFORM VARYING i FROM first BY increment UNTIL i > last <dl><dd> expression </dd></dl> END-PERFORMCOBOL GREATER THAN[d]
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,string to integer,string to long integer,string to floating point,integer to string,floating point to string
+Ada[1],Integer'Value (string_expression),Long_Integer'Value (string_expression),Float'Value (string_expression),Integer'Image (integer_expression),Float'Image (float_expression)
+"ALGOL 68 with general, and then specific formats","With prior declarations and association of: string buf := "12345678.9012e34 "; file proxy; associate(proxy, buf);",,,,
+,"get(proxy, ivar);","get(proxy, livar);","get(proxy, rvar);","put(proxy, ival);","put(proxy, rval);"
+,"getf(proxy, ($g$, ivar)); or getf(proxy, ($dddd$, ivar));","getf(proxy, ($g$, livar)); or getf(proxy, ($8d$, livar));","getf(proxy, ($g$, rvar)); or getf(proxy, ($8d.4dE2d$, rvar));","putf(proxy, ($g$, ival)); or putf(proxy, ($4d$, ival));","putf(proxy, ($g(width, places, exp)$, rval)); or putf(proxy, ($8d.4dE2d$, rval));"
+APL,?string_expression,?string_expression,?string_expression,?integer_expression,?float_expression
+C (C99),integer = atoi(string);,long = atol(string);,float = atof(string);,"sprintf(string, "%i", integer);","sprintf(string, "%f", float);"
+Objective-C,integer = [string intValue];,long = [string longLongValue];,float = [string doubleValue];,"string = [NSString stringWithFormat<wbr/>:@"%i", integer];","string = [NSString stringWithFormat<wbr/>:@"%f", float];"
+C++ (STL),«std::»istringstream(string) >> number;,,,«std::»ostringstream o; o << number; string = o.str();,
+C++11,integer = «std::»stoi(string);,long = «std::»stol(string);,float = «std::»stof(string); double = «std::»stod(string);,string = «std::»to_string(number);,
+C#,integer = int.Parse<wbr/>(string);,long = long.Parse<wbr/>(string);,float = float.Parse<wbr/>(string); double = double.Parse<wbr />(string);,string = number<wbr/>.ToString();,
+D,integer = std.conv.to!int<wbr/>(string),long = std.conv.to!long<wbr/>(string),float = std.conv.to!float<wbr/>(string) double = std.conv.to!double<wbr />(string),string = std.conv.to!string<wbr/>(number),
+Java,integer = Integer.parseInt<wbr/>(string);,long = Long.parseLong<wbr/>(string);,float = Float.parseFloat<wbr/>(string); double = Double.parseDouble<wbr/>(string);,string = Integer.toString<wbr/>(integer); string = String.valueOf<wbr />(integer);,string = Float.toString<wbr/>(float); string = Double.toString<wbr />(double);
+JavaScriptJavaScript's technicalities[a],integer = parseInt(string);,,float = parseFloat(string); float = new Number (string); float = Number (string); float = +string;,string = number.toString (); string = String (number); string = number+""; string = `${number}`,
+Go,"integer, error = strconv.Atoi(string) integer, error = strconv.ParseInt<wbr/>(string, 10, 0)","long, error = strconv.ParseInt<wbr/>(string, 10, 64)","float, error = strconv.ParseFloat<wbr/>(string, 64)","string = strconv.Itoa(integer) string = strconv.FormatInt<wbr />(integer, 10) string = fmt.Sprint(integer)",string = strconv.FormatFloat<wbr/>(float) string = fmt.Sprint<wbr />(float)
+RustRust type conversion[d],string.parse::<i32>() i32::from_str(string),string.parse::<i64>() i64::from_str(string),string.parse::<f64>() f64::from_str(string),integer.to_string(),float.to_string()
+Common Lisp,(setf integer (parse-integer string)),,(setf float (read-from-string string)),(setf string (princ-to-string number)),
+Scheme,(define number (string->number string)),,,(define string (number->string number)),
+ISLISP,(setf integer (convert string <integer>)),,(setf float (convert string <float>)),(setf string (convert number <string>)),
+Pascal,integer := StrToInt(string);,,float := StrToFloat(string);,string := IntToStr(integer);,string := FloatToStr(float);
+Visual Basic,integer = CInt(string),long = CLng(string),float = CSng(string) double = CDbl(string),string = CStr(number),
+Visual Basic .NET (can use both VB syntax above and .NET methods shown right),integer = Integer.Parse<wbr />(string),long = Long.Parse<wbr />(string),float = Single.Parse<wbr />(string) double = Double.Parse<wbr />(string),string = number<wbr />.ToString(),
+Xojo,integer = Val(string),long = Val(string),double = Val(string) double = CDbl(string),string = CStr(number) or string = Str(number),
+Python,integer = int(string),long = long(string),float = float(string),string = str(number),
+S-Lang,integer = atoi(string);,long = atol(string);,float = atof(string);,string = string(number);,
+Fortran,"READ(string,format) number",,,"WRITE(string,format) number",
+PHP,integer = intval(string); or integer = (int)string;,,float = floatval(string); float = (float)string;,string = "$number"; or string = strval(number); or string = (string)number;,
+PerlPerl's technicalities[b],number = 0 + string;,,,string = "number";,
+Raku,number = +string;,,,string = ~number;,
+Ruby,integer = string.to_i or integer = Integer(string),,float = string.to_f float = Float(string),string = number.to_s,
+Scala,integer = string.toInt,long = string.toLong,float = string.toFloat double = string.toDouble,string = number.toString,
+Smalltalk,integer := Integer readFrom: string,,float := Float readFrom: string,string := number asString,
+Windows PowerShell,integer = [int]string,long = [long]string,float = [float]string,string = [string]number; or string = "number"; or string = (number).ToString(),
+OCaml,let integer = int_<wbr/>of_string string,,let float = float_<wbr/>of_string string,let string = string_<wbr/>of_int integer,let string = string_<wbr/>of_float float
+F#,let integer = int string,let integer = int64 string,let float = float string,let string = string number,
+Standard ML,val integer = Int<wbr/>.fromString string,,val float = Real<wbr/>.fromString string,val string = Int<wbr/>.toString integer,val string = Real<wbr/>.toString float
+Haskell (GHC),number = read string,,,string = show number,
+COBOL,MOVE «FUNCTION» NUMVAL(string)COBOL's NUMVAL alternatives[c] TO number,,,MOVE number TO numeric-edited,

@@ -1,59 +1,22 @@
 ,,Trident,Tasman,Gecko,WebKit,KHTML,Presto
-<<<<<<< HEAD
-Interface CSS2Properties,,,,,,,
-DOM2,Support this interface,4.0,Yes,1.0,?,?,1.0
-,Properties,Please refer to Comparison of layout engines (Cascading Style Sheets) for the comparison of CSS properties.,,,,,
-=======
-Exception LSException,,,,,,,
-DOM3,code,No,No,No[g 13],No,No,1.0
-Interface DOMImplementationLS,,,,,,,
-DOM3,createLSParser(),No,No,No,No,No,1.0
-,createLSSerializer(),,,,,,
-,createLSInput(),,,,,,
-,createLSOutput(),,,,,,
-Interface LSParser,,,,,,,
-DOM3,domConfig,No,No,No,No,No,1.0
-,filter,,,,,,
-,async,,,,,,
-,busy,,,,,,
-,parse(),,,,,,
-,parseURI(),,,,,,
-,parseWithContext(),,,,,,
-,abort(),,,,,,
-Interface LSInput,,,,,,,
-DOM3,characterStream,No,No,No,No,No,1.0
-,byteStream,,,,,,
-,stringData,,,,,,
-,systemId,,,,,,
-,publicId,,,,,,
-,baseURI,,,,,,
-,encoding,,,,,,
-,certifiedText,,,,,,
-Interface LSResourceResolver,,,,,,,
-DOM3,resolveResource(),No,No,No,No,No,No
-Interface LSParserFilter,,,,,,,
-DOM3,whatToShow,No,No,No,No,No,No
-,startElement(),,,,,,2.0
-,acceptNode(),,,,,,
-Interface LSProgressEvent,,,,,,,
-DOM3,input,No,No,No,No,No,No
-,position,,,,,,
-,totalSize,,,,,,
-Interface LSLoadEvent,,,,,,,
-DOM3,newDocument,No,No,No,No,No,2.0
-,input,,,,,,No
-Interface LSSerializer,,,,,,,
-DOM3,domConfig,No,No,No,No,No,1.0
-,newLine,,,,,,
-,filter,,,,,,
-,write(),,,,,,
-,writeToURI(),,,,,,
-,writeToString(),,,,,,
-Interface LSOutput,,,,,,,
-DOM3,characterStream,No,No,No,No,No,1.0
-,byteStream,,,,,,
-,systemId,,,,,,
-,encoding,,,,,,
-Interface LSSerializerFilter,,,,,,,
-DOM3,whatToShow,No,No,No,No,No,No
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Interface StyleSheet,,,,,,,
+DOM2,type,6.0,?,1.0,Yes,?,2.0
+,disabled,,?,,,?,
+,ownerNode,No,?,,,?,
+,parentStyleSheet,6.0,?,,,?,
+,href,8.0,?,,,?,
+,title,6.0,?,,,?,
+,media,Incorrect,?,,,?,
+Interface StyleSheetList,,,,,,,
+DOM2,length,6.0,?,1.0,Yes,?,2.0
+,item(),,?,,,?,
+Interface MediaList,,,,,,,
+DOM2,mediaText,No,?,1.0,Yes,?,2.0
+,length,,?,,,?,
+,item(),,?,,,?,
+,deleteMedium(),,?,,,?,
+,appendMedium(),,?,,,?,
+Interface LinkStyle,,,,,,,
+DOM2,sheet,No,?,1.0,No,?,2.0
+Interface DocumentStyle,,,,,,,
+DOM2,styleSheets,No,?,1.0,No,?,2.0

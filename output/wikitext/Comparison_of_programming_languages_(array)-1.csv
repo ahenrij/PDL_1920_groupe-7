@@ -1,7 +1,8 @@
 Format,Languages
 name[first:last],"ALGOL 68,[7] Julia"
 name[first+(?len)-?IO],APL
-name[first:end:step],"Python,[8][9] Go"
+name[first:end:step],Python[8][9]
+name[first:end],Go
 name[first..last],"Pascal, Object Pascal, Delphi, Nim"
 $name[first..last],Windows PowerShell
 @name[first..last],Perl[10]

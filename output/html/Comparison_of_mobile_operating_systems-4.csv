@@ -1,20 +1,4 @@
 Feature,Android,iOS,Tizen,Sailfish OS,Ubuntu Touch
-<<<<<<< HEAD
-Proxy server,"3.1+[335] but only global, not per connection[336] and only works for the browser[337] 3rd party apps available[338]",Yes,Yes,Yes[339],No
-On-device encryption,3+[340] but insecure on Qualcomm devices[341],Yes[342] (3rd party software may attempt brute-force attacks on password[343]),No,3.3.0+[344],No
-External storage encryption,6+,External storage not available,No,Yes,No
-Zero knowledge encryption[345],"No, data is accessible by Google[346] and shared with the American PRISM surveillance program.[347]","No, data stored on iCloud is accessible by Apple[348] and shared with the American PRISM surveillance program.[347]",?,?,No
-Privacy of synchronization[349],3rd party software like ownCloud[350],When synchronizing locally and not using iCloud,?,?,?
-Sync to cloud communication encryption,2.3.4+[351],Yes[352],?,?,?
-Wireless anti-tracking[353],Developer Options (9+)[354],8+[355],No,?,No
-Remote device location tracking,Yes[356],Yes[357],?,?,No
-Remote device locking and/or data wipe,2.2+[358],Yes[357],?,?,No
-End-to-end encrypted push notifications,"Possible, notifications are handled by the app that can decrypt it[109]","Possible since iOS 7, where the app can handle the notification and decrypt it[359]",?,?,Yes
-SSH Client,Yes,Yes[360][361],?,Yes,Yes
-VPN,Yes[362],Yes[363],?,Yes,Yes
-OpenVPN,"No, but possible with 3rd party firmware[364]",Yes[365],?,Yes,Yes
-WPA PEAP,Yes[366],Yes[367],?,In developer mode[368],Yes
-=======
 Audio playback,"AAC LC/LTP 3GPP, HE-AACv1 (AAC+), HE-AACv2 (enhanced AAC+) AMR-NB, AMR-WB, MP3, MIDI (Type 0 and 1, DLS versions 1 and 2), Ogg Vorbis, PCM/WAVE, FLAC, WAVE, Opus[238]","AAC, protected AAC (from iTunes Store), HE-AAC, MP3, MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, WAV[239]","AAC, AAC+, eAAC+, AMR-NB, AMR-WB, MP3, Vorbis, WAV[240]","MP3, FLAC, AAC, eAAC, eAAC+, ALAC, AC3, DTS, Opus, Vorbis",?
 Video playback,"H.263, H.264 (up to Baseline Profile), H.265 HEVC, MPEG-4 SP, DivX, XviD, VP8, VP9[238] (WMV on 3rd party software like VLC media player)","H.264 (up to High Profile), MPEG-4, M-JPEG[239]","H.263, H.264, MPEG-4 Part 2[240]","MPEG-4, H264, H263,[241] although audio in recorded videos is out of sync[242]",?
 Wired video out,4K on 6+[243],"Up to 1080p via HDMI[244] or VGA,[245] 576p/480p via component[246] or composite;[247]",No,No[248],Yes
@@ -25,4 +9,3 @@ Media player video scrubbing,Yes,Yes,?,?,?
 Media player audio scrubbing,Yes,Yes,?,?,?
 Media player fine scrubbing,"No,[256] 3rd party software like VLC media player, basic fine scrubbing removed on 4+[257]",Yes[258],?,?,?
 Media player double speed playing,6+[259],Only Podcasts[260],?,?,?
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

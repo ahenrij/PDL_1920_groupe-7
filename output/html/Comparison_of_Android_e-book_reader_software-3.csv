@@ -1,42 +1,23 @@
-<<<<<<< HEAD
-Product,Paging touch screen,Paging volume key,Backward-forward,Contents table,Bookmarks,Resume,Go to,Search full text,Sync to cloud,Autoscroll by pixel,Autoscroll by line,Autoscroll by page,Scroll speed control,Rolling blind mode,Continuous scrolling
-Aldiko Book Reader[14],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,No,No,No,No,No,?
-AlReader[1],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes
-Bookari[15],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,Yes
-Cool Reader,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,?,Yes
-EBookDroid,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,?,Yes
-Ebook Reader,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No
-eReader Prestigio,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,No
-FBReader[16],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes[17],No,No,No,No,No,No
-Google Play Books,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,No
-iReader,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,No,Yes,Yes,Yes,No,?
-Kindle,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,?,?,?,?,No
-Kobo Books,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,No,No,No,No,No,No
-KOReader,Yes,Yes,Yes,Yes,Yes,Yes,Yes,?,Yes[18],?,?,?,?,?,Yes
-Lektz eBook Reader[19],Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,?
-Librera,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes
-Moon+ reader[20],Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
-MReader,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,Yes
-PocketBook,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes
-Snapplify[21],Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,No,?
-Socio eReader[22],Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,?,No,No,No,No,No,?
-Product,Paging touch screen,Paging volume key,Backward-forward,Contents table,Bookmarks,Resume,Go to,Search full text,Sync to cloud,Autoscroll by pixel,Autoscroll by line,Autoscroll by page,Scroll speed control,Rolling blind mode,Continuous scrolling
-=======
-Software,License,Other platforms,DRM formats supported
-Aldiko,Proprietary,iOS,Adobe DRM
-AlReader[1],Proprietary,None,?
-Bookari,Proprietary,iOS,Adobe DRM
-Cool Reader[2],GPLv2,"Android, Windows, Mac OS X, Linux, PocketBook",?
-Ebook Reader[3],Proprietary,"iOS, BlackBerry 10+, Kindle Fire (side loaded)",Adobe DRM
-eReader Prestigio,Proprietary,None,Adobe DRM
-FBReader,Proprietary,"Windows, Linux, PDAs, Mac OS X",None
-Google Play Books,Proprietary,"Web application, iOS",Adobe DRM
-Kindle,Proprietary,"Web application, iOS, BlackBerry, Mac OS X, Windows",Amazon DRM
-Kobo,Proprietary,"Windows, Mac OS X, iOS",Adobe DRM
-KOReader[4],AGPLv3,"Android, Kindle eInk, Kindle Fire, BQ Cervantes, PocketBook, Kobo",None
-Lektz,Proprietary,"Web application, Mac OS X, iOS, Windows",Lektz DRM
-Librera[5],GPL,None,None
-MReader,Proprietary,None,None
-OverDrive Media Console[6],Proprietary,"Chromebook, iOS, Mac OS X, Windows","Adobe DRM, OverDrive"
-Snapplify,Proprietary,"Web application, iOS","Adobe DRM, Snapplify SnappSafe DRM"
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Product,Formats total #,.cbr,.cbz,.umd,.chm,.djvu,.epub,.fb2,.html,.mobi,.oeb,.rtf,.pdf,.txt,.doc,.docx,.pdb
+Aldiko Book Reader,02+,?,?,?,No,No,Yes,No,No,No,No,No,Yes,No,?,?,?
+AlReader,09+,?,?,?,No,No,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes
+Bookari,02+,?,?,?,No,No,Yes,No,No,No,No,No,Yes,No,No,No,No
+Cool Reader,07+,?,?,?,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes
+EBookDroid,05+,?,?,?,No,Yes,Yes,Yes,No,No,No,Yes,Yes,No,?,?,?
+Ebook Reader[7],02+,No,No,No,No,No,Yes,No,No,No,No,No,Yes,No,No,No,No
+eReader Prestigio[8],09+,?,?,?,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,?
+ezPDF Reader,04+,?,?,?,No,No,Yes,No,Yes,No,No,No,Yes,Yes,?,?,?
+FBReader [9],11+,Yes,Yes,?,No,Plugin[10],Yes,Yes,Yes,Yes,Yes,Yes,Plugin[11],Yes,Yes,No,Yes
+Google Play Books,02+,?,?,?,No,No,Yes,No,No,No,No,No,Yes,No,No,No,No
+iReader,02+,?,?,?,?,?,Yes,?,Yes,Yes,?,?,?,Yes,?,?,?
+Kindle,02+,?,?,?,No,No,No,No,No,Yes,No,No,Yes,Yes,Yes,?,?
+KOReader,13,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
+Kobo Books,05+,?,?,?,No,No,Yes,No,Yes,No,No,Yes,No,Yes,?,?,?
+Lektz eBook Reader,02+,?,?,?,No,No,Yes,No,No,No,No,No,Yes,No,?,?,?
+Librera[12],13,Yes,Yes,?,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
+Moon+ reader Pro,14,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,
+MReader[13],10+,?,?,?,No,No,Yes,No,No,No,No,No,No,No,No,No,No
+PocketBook,07+,?,?,?,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes
+Snapplify,07+,?,?,?,No,No,Yes,No,Yes,No,No,No,Yes,Yes,?,?,?
+Socio eReader,01+,?,?,?,No,No,Yes,No,No,No,No,No,No,No,?,?,?
+Product,Formats total #,.cbr,.cbz,.umd,.chm,.djvu,.epub,.fb2,.html,.mobi,.oeb,.rtf,.pdf,.txt,.doc,.docx,.pdb

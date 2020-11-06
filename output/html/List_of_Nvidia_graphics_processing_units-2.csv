@@ -1,16 +1,15 @@
-<<<<<<< HEAD
-Model,Code name,Fab (nm),Bus interface,Core clock (MHz),Shader clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS)[199][200],,Supported API version,,,TBP (Watts),Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,CUDA,,
-Quadro K420,GK107,28,PCIe 2.0 ×16,780,780,1800,192:16:16 (1 SMX),12.48,12.48,1024 2048[204],29,DDR3,128,299.52,12.48,11.0,4.6,3.0,41,
-Quadro K620,GM107-850,,,1000,1000,900 (1800),384:24:16 (3 SMM),16.0,24.0,2048,28.8,,,768.0,24.0,12.0,,5.0,45,6.3" Card
-Quadro K1200,GM107-860,,,954,,1253,512:32:16 (4 SMM),15.3,30.5,4096,80.2,GDDR5,,1083,,,,,,7.97" Card
-Quadro K2200,GM107-875-A2[205],,,1046,1046,1253 (5012),640:40:16 (5 SMM),16.7,41.8,,80.2,,,1338.9,41.8,,,,68,
-Quadro K4200,GK104,,,780,780,1350 (5400),1344:112:32 (7 SMX),24.96,87.36,,172.8,,256,2096.64,87.36,11.0,,3.0,105,9.5" Card
-Quadro K5200,GK110B,,PCIe 3.0 ×16,650,650,1500 (6000),2304:192:32 (12 SMX),20.8,124.8,8192,192,,,2995.2,124.8,,,3.5,150,10.5" Card
-=======
-Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),"Core config1,2",Fillrate,,,,Memory,,,,Processing power (GFLOPS)3,API support,,
-,,,,,,,,MOperations/s,MPixels/s,MTexels/s,MVertices/s,Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Direct3D,OpenGL,Other
-XGPU (Xbox)[261][262],"November 15, 2001",NV2A,TSMC 150 nm,Integrated,233,200,4:2:8:4,932,932,1864,116.5,64,5.34,DDR,128,19.6,8.1,1.4,N/A
-RSX (PS3)[263][264][265],"November 11, 2006",G70,Sony 90/65/40 nm,FlexIO,"500, 550 (Pixel Shaders)",650,24:8:24:8,13200,4000,12000,1230,256 256,"20.8 20 (read), 15 (write)",GDDR3 XDR,128,251.2,N/A,ES 1.1 w/Cg,
-NX-SoC (Nintendo Switch)[266][267],"March 3, 2017",GM20B,TSMC 20/16 nm,Integrated,"307-384 (Undocked) 768 (Docked, Max clockspeed)",1333 1600,256:16:16,157000 196000 393000,4400 5500 11000,4900 6200 12300,N/A,4096,25.6,LPDDR4,64,157 196 393,,4.5[268] ES 3.2[269],Vulkan 1.0[270] NVN[266]
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,Supported API version,,TDP (Watts),Features
+,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
+GeForce 7000M,"February 1, 2006",MCP67MV,90,Hyper Transport,350,System memory,1:2:2:2,0.7,0.7,Up to 256 from system memory,System memory,DDR2,64/128,9.0c,2.1,Unknown,
+GeForce 7150M,,MCP67M,,,425,,,0.85,0.85,,,,,,,Unknown,
+GeForce Go 72002,January 2006,G72M,,PCIe ×16,450,700,3:4:4:1,0.45,1.8,64,2.8,GDDR3,32,,,Unknown,Transparency Anti-Aliasing
+GeForce Go 73002,,,,,350,,3:4:4:2,0.7,1.4,"128, 256, 512",5.60,,64,,,Unknown,
+GeForce Go 74002,,,,,450,900,,0.9,1.8,"64, 256",7.20,,,,,Unknown,
+GeForce Go 7600,March 2006,G73M,,,,1000,5:8:8:8,3.6,3.6,"256, 512",16,,128,,,Unknown,"Scalable Link Interface (SLI), Transparency Anti-Aliasing"
+GeForce Go 7600 GT,2006,,,,500,1200,5:12:12:8,4,6,256,19.2,,,,,Unknown,
+GeForce Go 7700,,G73-N-B1,80,,450,1000,,3.6,5.4,512,16,,,,,Unknown,
+GeForce Go 7800,"March 3, 2006",G70M,110,,400,1100,6:16:16:8,3.2,6.4,256,35.2,,256,,,35,
+GeForce Go 7800 GTX,October 2005,,,,,,8:24:24:16,6.4,9.6,,,,,,,65,
+GeForce Go 7900 GS,April 2006,G71M,90,,375,1000,7:20:20:16,6,7.5,,32.0,,,,,20,
+GeForce Go 7900 GTX,,,,,500,1200,8:24:24:16,8,12,256 512,38.4,,,,,45,
+GeForce Go 7950 GTX,October 2006,,,,575,1400,,9.2,13.8,512,44.8,,,,,,

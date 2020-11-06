@@ -1,14 +1,11 @@
 ,Trident,Tasman,Gecko,WebKit,KHTML,Presto,iCab
-<<<<<<< HEAD
-b,<3.1[IE 1] [6],Yes,Yes,Yes,Yes,Yes,Yes
-big,<3.1[IE 3] [6],,,,,,
-hr,<3.1[IE 1] [8],,,,,,
-i,<3.1[IE 1] [6],,,,,,
-small,<3.1[IE 3] [6],,,,,,
-sub,,,,,,,
-sup,,,,,,,
-tt,Yes,,,,,,
-=======
-object,<3.1[IE 3.0] [8],Yes,Yes,Yes,Yes,Yes,Yes
-param,,,,,,,
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+caption,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+table,,,,,,,
+td,,,,,,,
+th,,,,,,,
+tr,,,,,,,
+col,,?,,,,,
+colgroup,,,,,,,
+tbody,,Yes,,,,,
+thead,,,,,,,
+tfoot,,,,,,,?

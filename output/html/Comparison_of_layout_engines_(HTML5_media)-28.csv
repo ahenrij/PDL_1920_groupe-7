@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-,Trident,Gecko,WebKit,KHTML,Presto
-script,<3.1[IE 5.0],1.0,Yes,Yes,1.0
-noscript,Incorrect[note 6],,,,
-=======
-,Trident,Gecko,WebKit,Presto
-Microdata,No,16.0[g 67],No[w 53],Yes[p 17]
-HTML5 Tokenizer,6.0[t 33],2.0[g 68],Yes[w 54],2.10[p 18]
-HTML5 Tree Builder,,,Yes[w 14],
-HTML5 Fragment Parser,,,Yes,
-<a rel="noreferrer">,No,33.0[g 69],Yes[w 55],No
-window.onhashchange,4.0[t 34],1.9.2[g 70],528[w 56],2.6[p 19]
-element.classList,No,1.9.2[g 71],Yes[w 57],2.8[p 11]
-dir="auto",No,20.0[g 72],528+[w 58],No
-,Trident,Gecko,WebKit,Presto
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+,Trident,EdgeHTML,Gecko,WebKit,Presto
+getElementsByClassName[28],5.0[t 31],12,1.9[g 62],525,2.1
+registerProtocolHandler,No,No,1.9[f][dead link],Yes[w 51],2.10[p 14]
+registerContentHandler,,,1.8[g],,
+Cross-document messaging,4.0,12,1.9[g 65],Yes,2.0
+Drag-and-drop,6.0,12,1.9.1[g 28],Yes,2.10.270[p 15]
+pushState() and replaceState(),6.0[t 32],12,2.0[g 66],528[w 52],2.9[p 16]
+,Trident,EdgeHTML,Gecko,WebKit,Presto

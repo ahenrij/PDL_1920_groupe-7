@@ -1,30 +1,10 @@
-<<<<<<< HEAD
-Model,Launch,Model Number,Code name,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Core config1,Fillrate,,Memory,,,,API compliance (version),,Processing power (GFLOPS),Notes
-,,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,,
-Mobility Radeon HD 4200,"September 10, 2009",,RV620,55,Internal PCIe x16 1.1,500,800 (system memory),40:4:4,2,2,up to 512 from system memory,6.4/12.8,DDR2 DDR3,64/128,10.1,3.3,40,"UVD2, PowerPlay 7.0"
-Mobility Radeon HD 4225,"May 1, 2010",,,,,380,,,1.52,1.52,,,,,,,30.4,
-Mobility Radeon HD 4250,,,,,,500,,,2,2,,,,,,,40,
-Mobility Radeon HD 4270,,,,,,590,,,2.36,2.36,,,,,,,47.2,
-Mobility Radeon HD 4330,"January 9, 2009",M92,RV710,,PCIe x16 2.0,450,600,80:8:4,1.8,3.6,512,9.6,DDR2 DDR3 GDDR3,64,,,72,
-Mobility Radeon HD 4530,,,,,,500,700,,2,4,,11.2,,,,,80,
-Mobility Radeon HD 4550,"January 1, 2010",,,,,550,,,2.2,4.4,,,,,,,80,
-Mobility Radeon HD 4570,"January 9, 2009",,,,,680,800,,2.72,5.44,,12.8,,,,,108.8,
-Mobility Radeon HD 4650,,M96,RV730,,,500 550,600 800,320:32:8,4 4.4,16 17.6,512 1024,19.2 25.6,DDR2 DDR3 GDDR3,128,,,320 352,
-Mobility Radeon HD 4670,,M96-XT,,,,675,800,,5.4,21.6,,12.8 25.6,,,,,432,
-Mobility Radeon HD 4830,"March 3, 2009[15]",M97,RV740,40,,400/600 400/600,800/900 800/900,640:32:16,6.4/9.6 6.4/9.6,12.8/19.2 12.8/19.2,,25.6/28.8 25.6/28.8,GDDR3 DDR3,,,,512/768 512/768,
-Mobility Radeon HD 4850[16],"January 9, 2009",M98,RV770,55,,500,850 700,800:40:16,8,20,1024,54.4 89.6,GDDR3 GDDR52,256,,,800,
-Mobility Radeon HD 4860,"March 3, 2009[15]",M97,RV740,40,,650,1000,640:32:16,10.4,20.8,,64.0,GDDR52,128,,,832,
-Mobility Radeon HD 4870,"January 9, 2009",M98-XT,RV770,55,,550,888 700,800:40:16,8.8,22,512 1024,56.832 89.6,GDDR3 GDDR52,256,,,880,
-Mobility Radeon HD 4870 X2,,,,,,550,700,2x [800:40:16],2x 8.8,2x 22,2048,2x 89.6,GDDR52,2x 256,,,2x 880,"UVD2, PowerPlay 7.0 Dual GPU solution"
-=======
-Model,Launch,Fab (nm),Bus interface,Core clock (MHz),Memory clock (MHz),Hardware T&L,Core config1,Fillrate,,Memory,,,,API compliance (version),,Notes
-,,,,,,,,Pixel (GP/s),Texture (GT/s),Size (MB),Bandwidth (GB/s),Bus type,Bus width (bit),Direct3D,OpenGL,
-Rage LT (Rage II),Nov 1996,500,PCI,60,66,No,0:1:1:1,0.06,0.06,4,0.53,"EDO, SDR, SGR",64,5,N/A,
-Rage LT Pro (Rage Pro),Nov 1997,350,"AGP, PCI",75,100,,,0.075,0.075,8,0.80,,,6,1.1,Motion Compensation
-Rage Mobility M/P (Rage Pro),Nov 1998,250,,90,,,,0.18,0.18,,,"SDR, SGR",,,,"M had 4 MB of integrated SDRAM, P had none. IDCT, Motion Compensation."
-Rage Mobility M1 (Rage Pro),Feb 1999,,,90,90,,,,,,0.72,SDR,,6,1.2,"M1 had 8 MB of integrated SDRAM, P had none. IDCT, Motion Compensation."
-Rage 128 GL,Aug 1998,,,103,103,,0:2:2:2,0.206,0.206,32,1.65,,128,,,
-Rage Mobility 128 (Rage 128 Pro),Oct 1999,,,105,105,,,0.21,0.21,16,2.28,,,,,"IDCT, Motion Compensation"
-Rage Mobility M3 (AGP 4x) (Rage 128 Pro),,,,,,,,,,,2.28,,,,,"M3 had 8 MB of integrated SDRAM, IDCT, Motion Compensation."
-Rage Mobility M4 (AGP 4x) (Rage 128 Pro),,,,,,,,,,32,2.28,,,,,"M4 had 16 MB of integrated SDRAM, IDCT, Motion Compensation."
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Model,Launch,Architecture (Fab),Bus interface,Clock rate,,Core config1,Fillrate,,Memory,,,,Processing power (GFLOPS),,API compliance (version),,,,TDP (Watts),Notes
+,,,,Core (MHz),Memory (MHz),,Pixel (GP/s),Texture (GT/s),Size (GiB),Bandwidth (GB/s),Bus type,Bus width (bit),Single precision,Double precision,Direct3D,OpenGL,OpenCL,Vulkan,,
+Radeon E6465[129],,,,600,800,?:?:?:2,,,2,,GDDR5,64,192,,11,,,rowspan=1 ,20,"PCIe (4× miniDP or 2× DP), or MXM Type A (4× DP/HDMI/DVI)"
+Radeon E8860[130],,GCN (?),,625,1125,?:?:?:10,,,2,,,128,768,,12.0,4.5,1.2,rowspan=7 ,37,"PCIe, MXM Type A, or MCM; with or w/o fan; miniDP, DVI+miniDP, or DP/HDMI/DVI"
+Radeon E8870,,,,1000,1500,?:?:?:12,,,4,,,,1500,,,,2.0,75,PCIe (4× DP) or MXM Type B (6× DP/HDMI/DVI),
+Radeon E9260,,Polaris (?),PCIe 3.0 x8,,,?:?:?:14,,,,,,,2500,,,,,50,PCIe (4× miniDP) or MXM Type A (5× DP/HDMI/DVI),
+Radeon E9390[131],,,PCIe 3.0 x16,1086,1250,?:?:?:28,,,8,,,256,3900,,,,,75,4× DisplayPort,
+Radeon E9550,,,,1243,1250,?:?:?:36,,,,,,,5700,,,,,95,MXM Type B 6× DP/HDMI,
+Radeon E9560,,,,1243,1750,,,,,,,,,,,,,130,4× DisplayPort,
+Radeon E9565,,,,1243,1750,,,,16,,,,,,,,,135,6× miniDP,

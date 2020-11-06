@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-Application,Hard surface Modeling,,Sculpt Modeling,,,,Non-destructive Modeling,,,Patch Modeling -->,
-,Polygon Modeling,Subdivision Modeling,Base-mesh Creation,Sculpting,Hand Retopology,Automatic Retopology,Boolean,Bevel,Procedural,Single Patch,Multi-Patch -->
-Maya,,,(SOuP BMesh),,,2020 and later,,,,,
-3ds Max,,,(Form),Paint Deform,,,,,,,
-Blender,,,Skin Modifier,,,2.81 and later,,,stack only,,
-ZBrush,ZModeler,ZModeler,ZSphere and ZSketch,,,ZRemesher,4R8 and later,?,,,
-Curvy 3D,,,sketch-based,,?,?,?,?,,,
-=======
-Application,MIPMAP generation,Adaptive Tessellation,Instansing,Camera Culling,Deep Pixel Rendering,Fisheye Stereo for Fulldome,Omnidirectional stereo for HMD,Deforming Motion Blur,GPU Rendering,Texture Streaming (GPU)
-V-Ray,img2tiledexr,,,,,Domemaster Stereo Shader,3.2 and later,,V-Ray GPU (formerly V-Ray RT),
-RenderMan (RIS),txmake,,,,,,,,In development[33],
-Arnold,maketx,,,,,Domemaster Stereo Shader,5 and later,,,
-Houdini Mantra (Path-Tracing mode),icp,,,,,,15.5 and later,,,
-Blender Cycles,,2.78 and later,,Camera Cull,,2.78 and later,2.78 and later,,,2.80 and later[35]
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+Application,Polygon,,,,Curves,,,,,,,,,,Spline/Bézier Surface,,,Metaball,Point Clouds,Particles,Voxel / Volume,Bone,Text,Camera,Light,Speaker
+,tris,quads,N-gon,donut,Linear,Quadratic Bézier,Cubic Bézier,B-spline,Cardinal spline,Hermite spline,TCB spline,Smooth-step,Akima spline,NURBS,NURBS regular patch,NURBS trimmed surface,Bicubic Bézier patch,,,,,,,,,
+Blender,,,,,Bézier curve without subdivision,,,,,,,,,,,,,,,,2.83 and later,,,,,
+Maya,,,,,,,,,,,,,,,,,,,,,3D Texture,,,,,
+3ds Max,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cinema 4D,,,,,,,,,,,,,,,,,,,,,R20 and later,,,,,dropped in R23[15]
+LightWave,,,,,,,,,,only in Graph Editor,only in Graph Editor,,,,(LWCAD plugin),,,,,,OpenVDB primitives[16],,,,,
+Shade 3D,,,,,,,,,,,,,,,,,,,,,,,,,,Sound Object

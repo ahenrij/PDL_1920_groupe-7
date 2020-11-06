@@ -1,5 +1,4 @@
 Pump type,Cyclic/continuous ?,Maximum lift height,Production cost,Efficiency,Output,Size of device,Fabrication requirements,Difficulty of production,Durability,Difficulty of repair,Suction lift ?
-<<<<<<< HEAD
 Archimedean screw,continuous,>2m,medium,medium,medium-high,?,?,industrial,?,?,no
 Chain (or rope) and washer pump,continuous,3m-20m,medium-high,medium-high,medium,?,?,traditional,?,?,no
 Coil pump and spiral pump,continuous,>6m,medium,medium,low-medium,?,?,traditional,?,?,no
@@ -18,15 +17,3 @@ Plunger pump,cyclic,100m-500m,high,medium-high,low-medium,?,?,traditional,?,?,ye
 Pulser Pump,cyclic,1-300m,low-medium,low,low-medium,small-huge,?,traditional,very high,easy,no
 Semi-rotary pump,cyclic,5m-10m,low-medium,low-medium,low-medium,?,?,industrial,?,?,yes
 Water ladder,cyclic,>2m,medium,medium,medium,?,?,traditional,?,?,no
-=======
-Centrifugal (regenerative) pump,continuous,10m-30m,medium-high,medium,medium,?,?,industrial,?,?,yes
-Centrifugal (turbine) pump,continuous,3m-200m,medium-high,medium-high,high,?,?,industrial,?,?,yes
-Centrifugal (volute) pump,continuous,3m-20m,medium,medium-high,high,?,?,industrial,?,?,yes
-Flap valve pump,?,2m-4m,very low,low-medium,very low,?,?,basic/traditional,?,?,no
-"Inertia pump, joggle pump",cyclic,2m-4m,low-medium,medium-high,low-medium,?,?,"traditional, industrial",?,?,no
-"Jet pump (water, air or stream)",continuous,2m-20m,medium,low-medium,low-medium,?,?,industrial,?,?,no
-Mixed flow pump,continuous,2m-10m,medium-high,medium-high,high,?,?,industrial,?,?,no
-Propeller (axial flow) pump,continuous,5m-30m,medium-high,medium-high,high,?,?,industrial,?,?,no
-Rebound inertia,cyclic,2m-60m,medium,medium-high,very low,?,?,industrial,?,?,yes
-Resonating joggle pump,cyclic,2m-10m,medium,medium-high,medium-high,?,?,traditional,?,?,no
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67

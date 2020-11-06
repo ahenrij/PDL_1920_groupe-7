@@ -1,94 +1,37 @@
-<<<<<<< HEAD
-,Text,,Boolean,Enumeration,Object/Universal
-,Character,Stringstring[a],,,
-Ada[1],Character,String & Bounded_String & Unbounded_String,Boolean,"(item1, item2, ... )",tagged null record
-ALGOL 68,char,string & bytes,bool & bits,,
-C (C99),char wchar_t,,boolint bool[b],"enum «name» {item1, item2, ... };",void *
-C++ (STL),,«std::»string,,,
-Objective-C,unichar,NSString *,BOOL,,id
-C#,char,string,bool,"enum name { item1« = value», item2« = value», ... }",object
-Java,,String,boolean,"enum name {item1, item2, ... }",Object
-Go,byte rune,string,bool,const (<dl><dd>item1 = iota item2 ... </dd></dl>),interface{}
-Rust,char,String,bool,"enum name {<dl><dd>item1, item2, ...</dd></dl>}",
-Swift,Character,String,Bool,"enum name { case item1, item2, ... }",Any
-D,char,string,bool,"enum name {item1, item2, ... }",std.variant.Variant
-Common Lisp,character,string,boolean,(member item1 item2 ...),t
-Scheme,,,,,
-ISLISP,,,,,
-Pascal (ISO),char,,boolean,"(item1, item2, ...)",
-Object Pascal (Delphi),,string,,,variant
-Visual Basic,,String,Boolean,Enum name<dl><dd>item1«= value»</dd><dd>item2« = value»</dd><dd>...</dd><dd>End Enum</dd></dl>,Variant
-Visual Basic .NET,Char,,,,Object
-Xojo,,,,,Object or Variant
-Python,string as char[d],str,bool,from enum import Enum class Name(Enum):<dl><dd>item1 = value</dd><dd>item2 = value</dd><dd>...</dd></dl># Python 3.4+,object
-JavaScript,string as char[d],String,Boolean,,Object
-S-Lang,,,,,
-Fortran,CHARACTER(LEN = *),"CHARACTER(LEN = :), allocatable",LOGICAL(KIND = n)logical kinds[f],,CLASS(*)
-PHP,string as char[d],string,bool,,(type declaration omitted)
-Perl,string as char[d],,,,UNIVERSAL
-Raku,Char,Str,Bool,enum name<item1 item2 ...> enum name <<:item1(value) :item2(value) ..>>,Mu
-Ruby,string as char[d],String,ObjectRuby's bool[c],,Object
-Scala,Char,String,Boolean,"object name extends Enumeration {<dl><dd>val item1, item2, ... = Value</dd></dl>}",Any
-Seed7,char,string,boolean,"const type: name is new enum<dl><dd> item1, item2, ... </dd></dl>end enum;",
-Windows PowerShell,,,,,
-OCaml,char,string,bool,enum[e],
-F#,,,,item2 = value | ...,obj
-Standard ML,,,,enum[e],
-Haskell (GHC),Char,String,Bool,enum[e],
-Eiffel,CHARACTER,STRING,BOOLEAN,,ANY
-COBOL,PIC X,PIC X(string length) or PIC X«X...»,PIC 1«(number of digits)» or PIC 1«1...»,,OBJECT REFERENCE
-Mathematica,string as char[d],String,,,
-=======
-! throw,handler,assertion
-Ada[1],raise exception_name «with string_expression»,begin<dl><dd>statements</dd></dl>exception<dl><dd>when exception_list1 => statements;</dd><dd>when exception_list2 => statements;</dd></dl>... <dl><dd>«when others => statements;»</dd></dl>endAda_uncaught_exceptions[b]
-APL,«string_expression» ?SIGNAL number_expression,:Trap number«s»_expression<dl><dd>statements</dd></dl>«:Case number«s»_expression<dl><dd>statements»</dd></dl>... «:Else number«s»_expression<dl><dd>statements»</dd></dl>:EndTrap
-C (C99),"longjmp(state, exception);",switch (setjmp(state)) { case 0: instructions break; case exception: instructions ... }
-C++,throw exception;,try { instructions } catch «(exception)» { instructions } ...
-C#,,try { instructions } catch «(exception« name»)» { instructions } ... «finally { instructions }»
-Java,,try { instructions } catch (exception) { instructions } ... «finally { instructions }»
-JavaScript,,try { instructions } catch (exception) { instructions } «finally { instructions }»
-D,,try { instructions } catch (exception) { instructions } ... «finally { instructions }»
-PHP,,try { instructions } catch (exception) { instructions } ... «finally { instructions }»
-S-Lang,,try { instructions } catch «exception» { instructions } ... «finally { instructions }»
-Windows PowerShell,,trap «[exception]» { instructions } ... instructions or try { instructions } catch «[exception]» { instructions } ... «finally { instructions }»
-Objective-C,@throw exception;,@try { instructions } @catch (exception) { instructions } ... «@finally { instructions }»
-Swift,throw exception (2.x),do { try expression ... instructions } catch exception { instructions } ... (2.x)
-Perl,die exception;,eval { instructions }; if ($@) { instructions }
-Raku,,try { instructions CATCH { when exception { instructions } ...}}
-Ruby,raise exception,begin <dl><dd>instructions</dd></dl> rescue exception <dl><dd>instructions</dd></dl>... «else <dl><dd>instructions»</dd></dl> «ensure <dl><dd>instructions»</dd></dl> end
-Smalltalk,exception raise,instructionBlock on: exception do: handlerBlock
-Common Lisp,(error "exception") or (error <dl><dd>type</dd><dd>arguments)</dd></dl> or (error (make-condition<dl><dd>type</dd><dd>arguments))</dd></dl>,(handler-case<dl><dd>(progn instructions)</dd><dd>(exception instructions)</dd><dd>...)</dd></dl> or (handler-bind<dl><dd>(condition <dl><dd>(lambda</dd><dd>instructions</dd><dd>«invoke-restart restart args»))</dd></dl>...)a[a]</dd></dl>
-Scheme (R6RS),(raise exception),(guard (con (condition instructions) ...) instructions)
-ISLISP,(error "error-string" objects) or (signal-condition condition continuable),(with-handler<dl><dd>handler form*</dd></dl>)
-Pascal,raise Exception.Create(),try Except on E: exception do begin instructions end; end;
-Visual Basic,Err.Raise ERRORNUMBER,With New Try: On Error Resume Next <dl><dd>OneInstruction</dd></dl> .Catch: On Error GoTo 0: Select Case .Number <dl><dd>Case ERRORNUMBER</dd></dl> <dl><dd><dl><dd>instructions</dd></dl></dd></dl> End Select: End With '*** Try class ***
-Private mstrDescription As String
-Private mlngNumber As Long
-Public Sub Catch()
-
-mstrDescription = Err.Description
-
-mlngNumber = Err.Number
-
-End Sub
-Public Property Get Number() As Long
-
-Number = mlngNumber
-
-End Property
-Public Property Get Description() As String
-
-Description = mstrDescription
-End Property
-[12]
-Visual Basic .NET,Throw exceptionor Error errorcode,Try <dl><dd>instructions</dd></dl> Catch« name As exception»« When condition» <dl><dd>instructions</dd></dl> ... «Finally <dl><dd>instructions»</dd></dl> End Try
-Xojo,Raise exception,Try <dl><dd>instructions</dd></dl> Catch «exception»<dl><dd>instructions</dd></dl> ... «Finally <dl><dd>instructions»</dd></dl> End Try
-Python,raise exception,try: Tab instructions except «exception»: Tab instructions ... «else: Tab instructions» «finally: Tab instructions»
-Fortran,colspan=3 ,
-Forth,code THROW,xt CATCH ( code or 0 )
-OCaml,raise exception,try expression with pattern -> expression ...
-F#,,try expression with pattern -> expression ... or try expression finally expression
-Standard ML,raise exception «arg»,expression handle pattern => expression ...
-Haskell (GHC),throw exception or throwError expression,catch tryExpression catchExpression or catchError tryExpression catchExpression
-COBOL,RAISE «EXCEPTION» exception,USE «AFTER» EXCEPTION OBJECT class-name. or USE «AFTER» EO class-name. or USE «AFTER» EXCEPTION CONDITION exception-name «FILE file-name». or USE «AFTER» EC exception-name «FILE file-name».
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+! exit block(break),continue,label,branch (goto),return value from generator
+Ada[1],exit «loop_name» «when condition»,,label:,goto label
+ALGOL 68,value exit; ...,do statements; skip exit; label: statements od,label: ...,go to label; ... goto label; ... label; ...
+APL,:Leave,:Continue,label:,?label or :GoTo label
+C (C99),break;,continue;,label:,goto label;
+Objective-C,,,,
+C++ (STL),,,,
+D,,,,
+C#,,,,
+Java,break «label»;,continue «label»;,,rowspan=2 
+JavaScript,,,,yield value«;»
+PHP,break «levels»;,continue «levels»;,,goto label;
+Perl,last «label»;,next «label»;,,
+Raku,,,,
+Go,break «label»,continue «label»,,goto label
+Swift,break «label»,continue «label»,,
+Bash shell,break «levels»,continue «levels»,,
+Common Lisp,(return) or (return-from block) or (loop-finish),,(tagbody tag<dl><dd><dl><dd>...</dd></dl>tag</dd></dl>...),(go tag)
+Scheme,,,,
+ISLISP,(return-from block),,(tagbody tag<dl><dd><dl><dd>...</dd></dl>tag</dd></dl>...),(go tag)
+Pascal(ISO),colspan=2 ,label:Pascal's declarations[a],goto label;,rowspan=4 
+Pascal(FPC),break;,,,continue;
+Visual Basic,"Exit blockAlternatively, for methods, Return",,label:,GoTo label
+Xojo,,Continue block,,
+Visual Basic .NET,,,,
+Python,break,continue,colspan=2 ,yield value
+RPG IV,LEAVE;,ITER;,,
+S-Lang,break;,continue;,,
+Fortran,EXIT,CYCLE,labelFortran label[b],GOTO label
+Ruby,break,next,,
+Windows PowerShell,break «label»,continue,,
+OCaml,rowspan=4 colspan=4 ,,,
+F#,,,,
+Standard ML,,,,
+Haskell (GHC),,,,
+COBOL,EXIT PERFORM or EXIT PARAGRAPH or EXIT SECTION or EXIT.,EXIT PERFORM CYCLE,label «SECTION».,GO TO label
+Ya,break «from where»; f.e. break for switch;,continue «to where»; f.e. continue for switch;,:label,goto :label;

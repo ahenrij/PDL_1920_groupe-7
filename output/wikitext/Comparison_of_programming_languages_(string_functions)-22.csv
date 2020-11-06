@@ -1,73 +1,22 @@
-<<<<<<< HEAD
 Format,Languages
-IF string1<string2 THEN -1 ELSE ABS (string1>string2) FI,ALGOL 68
-"cmp(string1, string2)",Python 2
-(string1 > string2) - (string1 < string2),Python
-"strcmp(string1, string2)","C, PHP"
-"std.string.cmp(string1, string2)",D
-"StrComp(string1, string2)","VB, Object Pascal (Delphi)"
-string1 cmp string2,"Perl, Raku"
-string1 compare: string2,"Smalltalk (Squeak, Pharo)"
-string1 <=> string2,Ruby
-string1.compare(string2),"C++ (STL), Swift (Foundation)"
-"compare(string1, string2)","Rexx, Seed7"
-"CompareStr(string1, string2)","Pascal, Object Pascal (Delphi)"
-string1.compareTo(string2),"Cobra, Java"
-string1.CompareTo(string2),"VB .NET, C#, F#"
-(compare string1 string2),Clojure
-(string= string1 string2),Common Lisp
-(string-compare string1 string2 p< p= p>),Scheme (SRFI 13)
-(string= string1 string2),ISLISP
-compare string1 string2,OCaml
-"String.compare (string1, string2)",Standard ML [4]
-compare string1 string2,Haskell [5]
-"[string]::Compare(string1, string2)",Windows PowerShell
-[string1 compare:string2],Objective-C (NSString * only)
-"LLT(string1,string2) LLE(string1,string2) LGT(string1,string2) LGE(string1,string2)",Fortran [6]
-string1.localeCompare(string2),JavaScript
-"bytes.Compare([]byte(string1), []byte(string2))",Go
-string compare ?-nocase? ?-length int? string1 string2,Tcl
-"compare(string1,string2,count)",PL/I[7]
-string1.cmp(string2),Rust[8]
-=======
-Format,Languages,If not found
-"string in string(substring, pos, string[startpos:])",ALGOL 68,"returns BOOL: TRUE or FALSE, and position in REF INT pos."
-"InStr(«startpos,»string,substring)",VB (positions start at 1),returns 0
-"INSTR$(string,substring)",BASIC (positions start at 1),returns 0
-"index(string,substring)",AWK,returns 0
-"index(string,substring«,startpos»)",Perl 5,returns ?1
-"index(string,substring«,startpos») string.index(substring,«,startpos»)",Raku,returns Nil
-"instr(«startpos,»string,substring)",FreeBASIC,returns 0
-"strpos(string,substring«,startpos»)",PHP,returns FALSE
-"locate(string, substring)",Ingres,returns string length + 1
-"strstr(string, substring)","C, C++ (char * only, returns pointer to first character)",returns NULL
-"std.string.indexOf(string, substring)",D,returns ?1
-"pos(string, substring«, startpos»)",Seed7,returns 0
-"strings.Index(string, substring)",Go,returns ?1
-"pos(substring, string)","Pascal, Object Pascal (Delphi)",returns 0
-"pos(substring, string«,startpos»)",Rexx,returns 0
-"string.find(substring«,startpos»)",C++ (STL),returns std::string::npos
-"string.find(substring«,startpos«,endpos»»)",Python,returns ?1
-"string.index(substring«,startpos«,endpos»»)",,raises ValueError
-"string.index(substring«,startpos»)",Ruby,returns nil
-"string.indexOf(substring«,startpos»)","Java, JavaScript",returns ?1
-"string.IndexOf(substring«,startpos«, charcount»»)","VB .NET, C#, Windows PowerShell, F#",returns ?1
-"string:str(string, substring)",Erlang,returns 0
-(string-contains string substring),Scheme (SRFI 13),returns #f
-(search substring string),Common Lisp,returns NIL
-(string-index substring string),ISLISP,returns nil
-List.findIndex (List.isPrefixOf substring) (List.tails string),Haskell (returns Just index),returns Nothing
-Str.search_forward (Str.regexp_string substring) string 0,OCaml,raises Not_found
-Substring.size (#1 (Substring.position substring (Substring.full string))),Standard ML,returns string length
-[string rangeOfString:substring].location,Objective-C (NSString * only),returns NSNotFound
-"string.find(string, substring) (string):find(substring)",Lua,returns nil
-string indexOfSubCollection: substring startingAt: startpos ifAbsent: aBlock string findString: substring startingAt: startpos,"Smalltalk (Squeak, Pharo)",evaluate aBlock which is a block closure (or any object understanding value) returns 0
-"startpos = INDEX(string, substring «,back» «, kind»)",Fortran,returns 0 if substring is not in string; returns LEN(string)+1 if substring is empty
-POSITION(substring IN string),SQL,returns 0 (positions start at 1)
-"index(string, substring, startpos )",PL/I[14],returns 0 (positions start at 1)
-"index(string, substring, occurrence )",Pick Basic,returns 0 if occurrence of substring is not in string; (positions start at 1)
-"string.indexOf(substring«,startpos«, charcount»»)",Cobra,returns ?1
-string first substring string startpos,Tcl,returns ?1
-(substring?string)?1,APL,returns 1 + the last position in string
-string.find(substring),Rust[15],returns None
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+"string1 OP string2, where OP can be any of =, <>, <, >, <= and >=","Pascal, Object Pascal (Delphi), OCaml, Seed7, Standard ML, BASIC, VB, VB .NET, F#"
+"string1 OP string2, where OP can be any of =, /=, ?, <, >, <=, ? and ?; Also: EQ, NE, LT, LE, GE and GT",ALGOL 68
+"(stringOP? string1 string2), where OP can be any of =, -ci=, <, -ci<, >, -ci>, <=, -ci<=, >= and -ci>= (operators starting with '-ci' are case-insensitive)",Scheme
+"(stringOP string1 string2), where OP can be any of =, -ci=, <>, -ci<>, <, -ci<, >, -ci>, <=, -ci<=, >= and -ci>= (operators starting with '-ci' are case-insensitive)",Scheme (SRFI 13)
+"(stringOP string1 string2), where OP can be any of =, -equal, /=, -not-equal, <, -lessp, >, -greaterp, <=, -not-greaterp, >= and -not-lessp (the verbal operators are case-insensitive)",Common Lisp
+"(stringOP string1 string2), where OP can be any of =, /=, <, >, <=, and >=",ISLISP
+"string1 OP string2, where OP can be any of =, \=, <, >, <= and >=",Rexx
+"string1 OP string2, where OP can be any of =, ¬=, <, >, <=, >=, ¬< and ¬>",PL/I
+"string1 OP string2, where OP can be any of =, /=, <, >, <= and >=",Ada
+"string1 OP string2, where OP can be any of ==, /=, <, >, =< and >=",Erlang
+"string1 OP string2, where OP can be any of ==, /=, <, >, <= and >=",Haskell
+"string1 OP string2, where OP can be any of eq, ne, lt, gt, le and ge","Perl, Raku"
+"string1 OP string2, where OP can be any of ==, !=, <, >, <= and >=","C++ (STL), C#, D, Go, JavaScript, Python, PHP, Ruby, Rust,[9] Swift, Ya"
+"string1 OP string2, where OP can be any of -eq, -ceq, -ne, -cne, -lt, -clt, -gt, -cgt, -le, -cle, -ge, and -cge (operators starting with 'c' are case-sensitive)",Windows PowerShell
+"string1 OP string2, where OP can be any of ==, ~=, <, >, <= and >=",Lua
+"string1 OP string2, where OP can be any of =, ~=, <, >, <= and >=",Smalltalk
+"string1 OP string2, where OP can be any of ==, /=, <, >, <= and >=; Also: .EQ., .NE., .LT., .LE., .GT. and .GE.",Fortran.[10]
+"string1 OP string2 where OP can be any of =, <>, <, >, <=, >= as well as worded equivalents",COBOL
+"string1 OP string2 where OP can be any of ==, <>, <, >, <= and >=",Cobra
+"string1 OP string2 is available in the syntax, but means comparison of the pointers pointing to the strings, not of the string contents. Use the Compare (integer result) function.","C, Java"
+"string1.METHOD(string2) where METHOD is any of eq, ne, gt, lt, ge, le",Rust[9]

@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-Country,Uncrewed rendezvous,,crewed rendezvous,
-,Spacecraft involved,Year,Spacecraft involved,Year
-Japan,ETS-VII,1997,,
-China,Shenzhou 8 & Tiangong 1,2011,Shenzhou 9 & Tiangong 1,2012
-India,SPADEX,2020 (Planned),,
-=======
-Country,Spacecraft involved,Year
-,Shenzhou 7,2008
->>>>>>> ff4582384893868142f1b485861afa33c91d9c67
+No.,Country,Spacecraft,Year
+1,,Mars Orbiter Mission,2013[90]
+TBD,,Nozomi,1998 (Failed)
+TBD,,Yinghuo-1,2011 (Failed)[91]
+,,Tianwen-1,2020 (en route)
+TBD,,Hope Mars Mission,2020 (en route)
